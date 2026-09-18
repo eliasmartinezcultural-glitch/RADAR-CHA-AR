@@ -1,5 +1,5 @@
 import json, re, urllib.parse, urllib.request, xml.etree.ElementTree as ET
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta, email.utils
 from difflib import SequenceMatcher
 
 OUT = "data/radar-feed.json"
@@ -90,7 +90,7 @@ def relevance(title, description, source, query):
         score -= 5
         reason = "AMBIGUA"
 
-    if any(normalize(k) in normalize(title) for k in GENERIC_PAGES):
+    if any(normalize(k) in normalize(title) for k in GENERIC_PAGES) or normalize(title).startswith("ultimas noticias sobre"):
         score -= 5
 
     if score >= 7:
@@ -108,8 +108,9 @@ def parse(xml, source_hint, query):
         title = clean_text(item.findtext("title"))
         link = clean_text(item.findtext("link"))
         pub = clean_text(item.findtext("pubDate"))
+        try:\n            dt = email.utils.parsedate_to_datetime(pub).astimezone(timezone.utc) if pub else None\n        except Exception:\n            dt = None\n        if not dt or dt < datetime.now(timezone.utc) - timedelta(days=8):\n            continue
         desc = clean_text(item.findtext("description"))
-        src = clean_text(item.findtext("{http://search.yahoo.com/mrss/}source")) or source_hint
+        source_node = item.find("{http://search.yahoo.com/mrss/}source")\n        src = clean_text(source_node.text if source_node is not None else "") or source_hint\n        source_url = source_node.attrib.get("url", "") if source_node is not None else ""
         if not title or not link:
             continue
         # Google News suele agregar " - Medio" al título.
@@ -119,7 +120,7 @@ def parse(xml, source_hint, query):
             continue
         rows.append({
             "title": title, "url": link, "published": pub, "description": desc,
-            "source": src, "query": query, "relevance": score,
+            "source": src, "sourceUrl": source_url, "query": query, "relevance": score,
             "relevanceLabel": relevance_label
         })
     return rows
