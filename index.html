@@ -202,7 +202,7 @@ async function loadRadarFeed(){
  try{const r=await fetch('data/radar-feed.json?ts='+Date.now(),{cache:'no-store'});const d=await r.json();radarFeed=d.items||[];window.radarTopics=d.topics||[];window.radarStats=d.stats||{};if($('rmUpdated'))$('rmUpdated').textContent=d.updatedAt?radarDate(d.updatedAt):'—';if($('rmPropUpdated'))$('rmPropUpdated').textContent=d.updatedAt?'actualizado '+radarDate(d.updatedAt):'detección · no predicción';renderRadarFeed();if($('hudSignal'))$('hudSignal').textContent='RADAR: '+radarFeed.length+' SEÑALES';}
  catch(e){if(list)list.innerHTML='<div class="rm-empty">El registro automático todavía no está disponible. Probá “BUSCAR AHORA”.</div>';}}
 </script>
-<script src="radar-workbench.js"></script>\n</body></html>
+\n</body></html>
 
 <style id="chanar-local-skin">
 /* CHÁÑAR LOCAL SKIN · identidad territorial sin imágenes pesadas */
