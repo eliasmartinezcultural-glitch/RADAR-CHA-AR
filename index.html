@@ -194,8 +194,17 @@ function renderRadarFeed(){
  if($('rmRegional'))$('rmRegional').textContent=regional.length;
  if($('rmNew'))$('rmNew').textContent=filtered.filter(x=>x.isNew).length;
  const list=$('rmList'); if(!list)return;
- if(!filtered.length){list.innerHTML='<div class="rm-empty">No hay señales territoriales relevantes en el registro actual.</div>';return}
- list.innerHTML=filtered.slice(0,40).map(x=>'<a class="rm-item" href="'+radarEsc(x.url)+'" target="_blank" rel="noopener"><div class="rm-top"><span class="rm-tier '+(x.relevance===3?'local':'regional')+'">'+(x.relevance===3?'DIRECTA':'REGIONAL')+'</span><span class="mono">'+radarDate(x.published)+'</span></div><strong>'+radarEsc(x.title)+'</strong><span class="rm-meta">'+radarEsc(x.source)+' · '+(x.isNew?'NUEVA':'REGISTRADA')+' · evidencia ↗</span></a>').join('');
+ if(!filtered.length){list.innerHTML='<div class="rm-empty">No hay señales territoriales relevantes en la ventana actual.</div>';return}
+ list.innerHTML=filtered.slice(0,40).map(x=>{
+   const when=x.publishedAt||x.published;
+   const evidence=x.evidenceUrl||x.url;
+   return '<a class="rm-item" href="'+radarEsc(evidence)+'" target="_blank" rel="noopener">'+
+     '<div class="rm-top"><span class="rm-tier '+(x.relevance===3?'local':'regional')+'">'+(x.relevance===3?'DIRECTA':'REGIONAL')+'</span>'+
+     '<span class="mono">'+radarDate(when)+'</span></div>'+
+     '<strong>'+radarEsc(x.title)+'</strong>'+
+     '<span class="rm-meta">'+radarEsc(x.source||'Fuente no identificada')+' · '+(x.isNew?'NUEVA':'REGISTRADA')+'</span>'+
+     '</a>';
+ }).join('');
 }
 async function loadRadarFeed(){
  const list=$('rmList');if(list)list.innerHTML='<div class="rm-empty">Escaneando fuentes…</div>';
