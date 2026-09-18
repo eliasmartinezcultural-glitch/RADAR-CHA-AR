@@ -95,59 +95,14 @@ button{border-color:rgba(99,150,166,.22);background:#0b141a;min-height:40px}butt
 </section>
 
 
-<section class="card today-panel" id="radarhoy">
-<div class="kicker">00 · RADAR DE HOY · CHAÑAR</div>
-<div class="today-head">
-<div><h2>¿Qué merece atención hoy?</h2><p class="muted">Panel local para medios de San Patricio del Chañar. Las columnas son estados editoriales internos: no significan que una noticia sea verdadera hasta verificarla.</p></div>
-<div class="today-clock"><b id="todayDate"></b><br><span>Actualización de búsquedas: manual</span></div>
-</div>
-<div class="radar-monitor">
-<div class="rm-head"><b>◉ MONITOR TERRITORIAL · 24/7</b><span class="rm-live"><i></i>AUTOMÁTICO</span></div>
-<div class="rm-controls"><input id="radarKeyword" placeholder="PALABRA CLAVE · ej. hospital, Ruta 7, escuela 364"><button class="primary" onclick="loadRadarFeed()">↻ ACTUALIZAR</button><button onclick="radarSearchKeyword()">↗ BUSCAR AHORA</button></div>
-<div class="rm-stats"><div class="rm-stat"><small>LOCAL</small><b id="rmLocal">0</b></div><div class="rm-stat"><small>REGIONAL</small><b id="rmRegional">0</b></div><div class="rm-stat"><small>NUEVAS</small><b id="rmNew">0</b></div><div class="rm-stat"><small>FUENTE</small><b id="rmUpdated">—</b></div></div>
-<div id="rmTopics" class="topic-bars"></div>
-<div class="propagation">
-<div class="prop-head"><b>⟶ PROPAGACIÓN DE LA NOTICIA</b><span id="rmPropUpdated">detección · no predicción</span></div>
-<div class="prop-stats">
-<div class="prop-stat"><b id="rmLocalFirst">0</b><small>PRIMERA DETECCIÓN LOCAL</small></div>
-<div class="prop-stat"><b id="rmRepeatLocal">0</b><small>REPETICIÓN LOCAL</small></div>
-<div class="prop-stat"><b id="rmRegionalJump">0</b><small>SALTO REGIONAL</small></div>
-<div class="prop-stat"><b id="rmTopicCount">0</b><small>HISTORIAS SEGUIDAS</small></div>
-</div>
-<div id="rmPropagation" class="prop-list"><div class="rm-empty">Construyendo líneas de tiempo…</div></div>
-</div>
-<div id="rmList" class="rm-list"><div class="rm-empty">Cargando señales de medios…</div></div>
-<div class="rm-foot">PRIORIDAD OPERATIVA: medios locales primero → medios regionales después. La automatización registra titulares y enlaces; no reemplaza la verificación.</div>
-</div><div class="today-tools">
-<button class="primary" onclick="todaySearch('San Patricio del Chañar')">🔎 FRASE LOCAL</button>
-<button onclick="todaySearch('Chañar')">🔎 CHAÑAR</button>
-<button onclick="todaySearch('San Patricio del Chañar Ruta 7 Ruta 8')">🛣 RUTAS</button>
-<button onclick="todaySearch('San Patricio del Chañar municipio hospital escuelas clubes')">🏫 INSTITUCIONES</button>
-</div>
-<div class="keyword-list">
-<button onclick="todaySearch('San Patricio del Chañar')">San Patricio del Chañar</button>
-<button onclick="todaySearch('Chañar')">Chañar</button>
-<button onclick="todaySearch('El Chañar')">El Chañar</button>
-<button onclick="todaySearch('San Patricio del Chañar Ruta 7')">Ruta 7</button>
-<button onclick="todaySearch('San Patricio del Chañar Ruta 8')">Ruta 8</button>
-<button onclick="todaySearch('San Patricio del Chañar hospital')">Hospital</button>
-<button onclick="todaySearch('San Patricio del Chañar municipio')">Municipio</button>
-<button onclick="todaySearch('San Patricio del Chañar clubes')">Clubes</button>
-<button onclick="todaySearch('San Patricio del Chañar producción')">Producción</button>
-<button onclick="todaySearch('San Patricio del Chañar turismo')">Turismo</button>
-</div>
-<div class="depth-note">El monitor automático recoge menciones públicas de los últimos 7 días y las ordena por cercanía: <b>LOCAL</b> → <b>REGIONAL</b>.</div></div>
-</section>
-
 <section class="card" id="radar">
 <div class="tool-header"><div><div class="tool-id">01 / RADAR</div><div class="tool-title">¿Qué se habla en y de San Patricio del Chañar?</div><div class="tool-sub">Una sola herramienta: reúne menciones públicas, las ordena por fuente y permite abrir la evidencia original.</div></div><span class="status"><span class="dot"></span> MONITOR</span></div><div class="scanline"></div>
-<div class="radarbox"><div class="radar"><div class="sweep"></div><i class="sig a"></i><i class="sig b"></i><i class="sig c"></i><i class="sig d"></i></div><div class="signal-list"><button class="signal" onclick="radarSearchKeyword()"><span>Buscar menciones</span><span class="badge">AHORA</span></button><button class="signal" onclick="todaySearch('San Patricio del Chañar')"><span>Abrir búsqueda local</span><span class="badge">FUENTES</span></button></div></div>
-<div class="signal-console"><div class="depth-card"><b>MONITOR LOCAL</b><span class="mono">SAN PATRICIO DEL CHAÑAR</span><div class="signalbox"><div class="depth-card"><strong id="rmLocal">0</strong><small>LOCAL</small></div><div class="depth-card"><strong id="rmRegional">0</strong><small>REGIONAL</small></div><div class="depth-card"><strong id="rmNew">0</strong><small>NUEVAS</small></div><div class="depth-card"><strong id="rmTopicCount">0</strong><small>TEMAS</small></div></div></div><div class="depth-card"><b>UNA SOLA PREGUNTA</b><span>¿Qué se está diciendo sobre Chañar y dónde aparece?</span><div class="toolbar"><input id="radarKeyword" class="field" placeholder="San Patricio del Chañar"><button class="primary" onclick="radarSearchKeyword()">BUSCAR</button></div></div></div>
+<div class="radarbox"><div class="radar"><div class="sweep"></div><i class="sig a"></i><i class="sig b"></i><i class="sig c"></i><i class="sig d"></i></div><div><h2 style="margin:0 0 8px">Una sola pregunta</h2><p class="muted" style="margin:0">¿De qué se está hablando cuando se habla de San Patricio del Chañar?</p></div></div>
+<div class="signal-console"><div class="depth-card"><b>SEÑAL ACTUAL</b><span class="mono">SOLO RELEVANCIA TERRITORIAL</span><div class="signalbox"><div class="depth-card"><strong id="rmLocal">0</strong><small>DIRECTAS</small></div><div class="depth-card"><strong id="rmRegional">0</strong><small>REGIONALES</small></div><div class="depth-card"><strong id="rmNew">0</strong><small>NUEVAS</small></div></div></div><div class="depth-card"><b>FILTRAR EL REGISTRO</b><span>Escribí una palabra o tema. El radar no amplía la búsqueda: filtra la señal ya depurada.</span><div class="toolbar"><input id="radarKeyword" class="field" placeholder="hospital, escuela, ruta, producción…"></div></div></div>
 <div class="depth-card" style="margin-top:10px"><b>SEÑALES ENCONTRADAS</b><span class="mono" id="rmUpdated">—</span><div id="rmList" class="rm-list"><div class="rm-empty">Escaneando fuentes…</div></div></div>
 </section>
 
 </main>
-<nav class="mobilebar"><button onclick="focusSec('radar')">Radar</button><button onclick="radarSearchKeyword()">Buscar</button></nav>
 <section class="local-legend card" aria-label="Leyenda de fuentes">
   <div class="k">CÓDIGO DE RADAR</div><div class="legend-grid">
     <span><i class="lg official"></i><b>Fuente primaria</b><small>documento, organismo o institución</small></span>
