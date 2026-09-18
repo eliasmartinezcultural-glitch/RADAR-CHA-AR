@@ -1,0 +1,28 @@
+name: Chañar Radar · Monitor territorial
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Actualizar radar
+        run: python scripts/update-radar.py
+      - name: Guardar novedades
+        run: |
+          git config user.name "chanar-radar-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/radar-feed.json
+          if git diff --cached --quiet; then
+            echo "Sin novedades."
+          else
+            git commit -m "chore: actualizar radar territorial"
+            git push
+          fi
