@@ -120,7 +120,9 @@ for c in clusters:
     regional_dates=[i.get("firstSeen") for i in regional if i.get("firstSeen")]
     first_local=min(local_dates) if local_dates else None
     first_regional=min(regional_dates) if regional_dates else None
-    if local and regional:
+    if local and regional and len(regional)>=2:
+        stage="SEGUIMIENTO"
+    elif local and regional:
         stage="SALTO REGIONAL"
     elif len(local)>=2:
         stage="REPETICIÓN LOCAL"
@@ -160,6 +162,7 @@ stats={
     "localFirst":sum(t["stage"]=="PRIMERA DETECCIÓN LOCAL" for t in topics),
     "repeatedLocal":sum(t["stage"]=="REPETICIÓN LOCAL" for t in topics),
     "regionalJump":sum(t["stage"]=="SALTO REGIONAL" for t in topics),
+    "followUp":sum(t["stage"]=="SEGUIMIENTO" for t in topics),
 }
 out={"updatedAt":now,"window":"7 días","keywords":[q for q,_,_ in BASE],
      "items":merged,"topics":topics[:100],"stats":stats}
