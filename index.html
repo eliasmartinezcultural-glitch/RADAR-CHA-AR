@@ -14,6 +14,9 @@
 /* V5 mobile */
 .mobilefast{display:none}.casebar{display:flex;gap:7px;flex-wrap:wrap;margin-top:10px}.casebar .field{max-width:300px}.case-list{display:grid;gap:7px;margin-top:10px}.case-row{display:flex;justify-content:space-between;gap:8px;align-items:center;border:1px solid var(--line);border-radius:12px;padding:10px;background:#0b1014}.case-row.active{border-color:var(--gold)}.case-row b{display:block;font-size:.82rem}.case-row span{display:block;color:var(--muted);font-size:.66rem;margin-top:3px}.case-actions{display:flex;gap:5px;flex-wrap:wrap}.case-actions button{font-size:.62rem;padding:7px 8px}.news-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:12px}.news-card{border:1px solid var(--line);border-radius:13px;padding:12px;background:#0b1014}.news-card b{display:block;font-size:.8rem;line-height:1.3}.news-card span{display:block;color:var(--muted);font-size:.67rem;margin:5px 0}.localonly{border-color:#5a4d31}.caseform{display:grid;grid-template-columns:1fr 1fr;gap:8px}.caseform textarea{grid-column:1/-1;min-height:95px}@media(max-width:850px){.news-grid{grid-template-columns:1fr 1fr}.mobilefast{display:grid;grid-template-columns:repeat(4,1fr);gap:5px;position:sticky;top:5px;z-index:14;margin:8px 0;padding:5px;background:#0a0e12ee;border:1px solid var(--line);border-radius:13px;backdrop-filter:blur(12px)}.mobilefast button{font-size:.61rem;padding:9px 4px}.caseform{grid-template-columns:1fr}}@media(max-width:480px){.news-grid{grid-template-columns:1fr}.case-row{align-items:flex-start;flex-direction:column}.case-actions{width:100%}.case-actions button{flex:1}}
 </style>
+<style id="radar-hoy-css">
+.today-panel{margin-top:12px}.today-head{display:flex;justify-content:space-between;gap:10px;align-items:flex-start;flex-wrap:wrap}.today-clock{font-size:.7rem;color:var(--muted);text-align:right}.today-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-top:12px}.today-col{border:1px solid var(--line);border-radius:14px;padding:11px;background:#0b1014;min-height:150px}.today-col.new{border-color:#4b634f}.today-col.dev{border-color:#5a5133}.today-col.done{border-color:#3c4e5a}.today-col.verify{border-color:#69463f}.today-col h3{font-size:.76rem;margin:0 0 8px}.today-item{display:block;padding:9px;margin-top:6px;border:1px solid var(--line);border-radius:10px;background:#10161b;text-decoration:none}.today-item b{display:block;font-size:.73rem}.today-item span{display:block;color:var(--muted);font-size:.62rem;margin-top:3px}.today-tools{display:grid;grid-template-columns:repeat(4,1fr);gap:7px;margin-top:10px}.today-tools button{font-size:.65rem}.keyword-list{display:flex;flex-wrap:wrap;gap:6px;margin-top:9px}.keyword-list button{font-size:.63rem}.today-source{margin-top:10px;font-size:.66rem;color:var(--muted)}@media(max-width:850px){.today-grid{grid-template-columns:1fr 1fr}.today-tools{grid-template-columns:1fr 1fr}}@media(max-width:480px){.today-grid{grid-template-columns:1fr}.today-tools{grid-template-columns:1fr 1fr}.today-clock{text-align:left}}
+</style>
 </head>
 <body>
 <div class="wrap">
@@ -39,6 +42,40 @@
 <button class="quick" onclick="quickInvest('entrevista')"><b>🎙 ENTREVISTAS</b><span>Encontrar audio y video.</span></button>
 <button class="quick" onclick="quickInvest('territorio')"><b>🗺 TERRITORIO</b><span>Ubicar y contextualizar.</span></button>
 </div>
+</section>
+
+
+<section class="card today-panel" id="radarhoy">
+<div class="kicker">00 · RADAR DE HOY · CHAÑAR</div>
+<div class="today-head">
+<div><h2>¿Qué merece atención hoy?</h2><p class="muted">Panel local para medios de San Patricio del Chañar. Las columnas son estados editoriales internos: no significan que una noticia sea verdadera hasta verificarla.</p></div>
+<div class="today-clock"><b id="todayDate"></b><br><span>Actualización de búsquedas: manual</span></div>
+</div>
+<div class="today-tools">
+<button class="primary" onclick="todaySearch('San Patricio del Chañar')">🔎 FRASE LOCAL</button>
+<button onclick="todaySearch('Chañar')">🔎 CHAÑAR</button>
+<button onclick="todaySearch('San Patricio del Chañar Ruta 7 Ruta 8')">🛣 RUTAS</button>
+<button onclick="todaySearch('San Patricio del Chañar municipio hospital escuelas clubes')">🏫 INSTITUCIONES</button>
+</div>
+<div class="keyword-list">
+<button onclick="todaySearch('San Patricio del Chañar')">San Patricio del Chañar</button>
+<button onclick="todaySearch('Chañar')">Chañar</button>
+<button onclick="todaySearch('El Chañar')">El Chañar</button>
+<button onclick="todaySearch('San Patricio del Chañar Ruta 7')">Ruta 7</button>
+<button onclick="todaySearch('San Patricio del Chañar Ruta 8')">Ruta 8</button>
+<button onclick="todaySearch('San Patricio del Chañar hospital')">Hospital</button>
+<button onclick="todaySearch('San Patricio del Chañar municipio')">Municipio</button>
+<button onclick="todaySearch('San Patricio del Chañar clubes')">Clubes</button>
+<button onclick="todaySearch('San Patricio del Chañar producción')">Producción</button>
+<button onclick="todaySearch('San Patricio del Chañar turismo')">Turismo</button>
+</div>
+<div class="today-grid">
+<div class="today-col new"><h3>🟢 NUEVO</h3><div id="todayNew"></div></div>
+<div class="today-col dev"><h3>🟡 EN DESARROLLO</h3><div id="todayDev"></div></div>
+<div class="today-col done"><h3>🔵 YA CUBIERTO</h3><div id="todayDone"></div></div>
+<div class="today-col verify"><h3>🔴 PARA VERIFICAR</h3><div id="todayVerify"></div></div>
+</div>
+<div class="today-source">Fuentes rápidas: Google Noticias · sitios oficiales · medios locales. El panel no raspa ni copia automáticamente contenidos externos; abre búsquedas originales para que el periodista revise el material.</div>
 </section>
 
 <section class="card" id="radar">
@@ -161,6 +198,14 @@ function clearNotes(){if(confirm('¿Vaciar notas?')){$('notes').value='';const c
 function copyWhatsAppSummary(){const c=currentCase();if(!c)return;const t='📡 CHÁÑAR RADAR · EXPEDIENTE\\nTema: '+c.title+'\\nTerritorio: '+c.area+'\\nEstado: '+c.status+'\\nPregunta: '+c.question+'\\nEvidencias: '+c.evidence.length+'\\nPersonas: '+c.people.length+'\\nPreguntas: '+c.interviewQuestions.length+'\\nHitos: '+c.timeline.length+'\\nVerificación: '+Object.values(c.checklist).filter(Boolean).length+'/5\\n'+location.href;navigator.clipboard?.writeText(t).then(()=>alert('Resumen copiado para WhatsApp.'))}
 function shareCase(id=activeCaseId){const c=data.cases.find(x=>x.id===id);if(!c)return;const t='📡 CHÁÑAR RADAR · '+c.title+'\\n'+c.area+' · '+c.status+'\\nPregunta: '+c.question+'\\nEvidencias: '+c.evidence.length+' · Verificación '+Object.values(c.checklist).filter(Boolean).length+'/5';if(navigator.share)navigator.share({title:c.title,text:t,url:location.href});else navigator.clipboard?.writeText(t+'\\n'+location.href).then(()=>alert('Resumen copiado.'))}
 function exportCase(){const c=currentCase();if(!c)return alert('Abrí un expediente.');const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([JSON.stringify(c,null,2)],{type:'application/json'}));a.download='chanar-radar-'+c.id+'.json';a.click()}
+function todaySearch(q){window.open('https://news.google.com/search?q='+encodeURIComponent(q)+'&hl=es-419&gl=AR&ceid=AR%3Aes-419','_blank','noopener');$('q').value=q;buscar()}
+function todayItem(title,query,source){return '<a class="today-item" href="https://news.google.com/search?q='+encodeURIComponent(query)+'&hl=es-419&gl=AR&ceid=AR%3Aes-419" target="_blank" rel="noopener"><b>'+esc(title)+'</b><span>'+esc(source)+' · abrir búsqueda ↗</span></a>'}
+function renderToday(){const n=$('todayNew'),d=$('todayDev'),c=$('todayDone'),v=$('todayVerify');if(!n)return;
+n.innerHTML=todayItem('Últimas noticias de Chañar','San Patricio del Chañar','Noticias')+todayItem('Últimas menciones de “Chañar”','Chañar','Noticias')+todayItem('Novedades institucionales','San Patricio del Chañar municipio','Oficial');
+d.innerHTML=todayItem('Rutas 7 y 8','San Patricio del Chañar Ruta 7 Ruta 8','Territorio')+todayItem('Escuelas e instituciones','San Patricio del Chañar escuelas','Comunidad')+todayItem('Hospital y salud local','San Patricio del Chañar hospital','Servicio');
+c.innerHTML=todayItem('Cobertura de medios locales','San Patricio del Chañar Chañar Digital Mía Radio Radio Tuit','Medios')+todayItem('Producción y turismo','San Patricio del Chañar producción turismo','Territorio');
+v.innerHTML=todayItem('Lo que requiere contraste','San Patricio del Chañar información urgente','Verificar')+todayItem('Rumores / redes / audios','Chañar rumor audio','Verificar')+todayItem('Datos antes de salir al aire','San Patricio del Chañar dato oficial','Verificar');
+$('todayDate').textContent=new Date().toLocaleDateString('es-AR',{weekday:'long',day:'2-digit',month:'long',year:'numeric'});}
 function keywordNews(t){window.open('https://news.google.com/search?q='+encodeURIComponent(t)+'&hl=es-419&gl=AR&ceid=AR%3Aes-419','_blank','noopener')}
 function webSearch(type){const q=encodeURIComponent($('q').value.trim()||'San Patricio del Chañar');const u={google:'https://www.google.com/search?q='+q,youtube:'https://www.youtube.com/results?search_query='+q,news:'https://news.google.com/search?q='+q+'&hl=es-419&gl=AR&ceid=AR%3Aes-419',maps:'https://www.google.com/maps/search/?api=1&query='+q,podcast:'https://www.google.com/search?q='+q+'+podcast',pdf:'https://www.google.com/search?q='+q+'+filetype%3Apdf'}[type];if(u)window.open(u,'_blank','noopener')}
 function filterMedia(t,b){document.querySelectorAll('#medios .toolbar button').forEach(x=>x.classList.remove('active'));b.classList.add('active');document.querySelectorAll('#mediaGrid .media').forEach(x=>x.style.display=t==='todos'||x.dataset.type.includes(t)?'flex':'none')}
@@ -178,7 +223,7 @@ function closeModal(){$('modal').classList.remove('open')}
 function demo30(){openModal()}
 function goMap(lat,lng,z){map?.setView([lat,lng],z);focusSec('mapa')}
 let map;function initMap(){map=L.map('map',{scrollWheelZoom:false}).setView([-39.065,-68.525],11);L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,attribution:'© OpenStreetMap'}).addTo(map);[[-39.065,-68.525,'San Patricio del Chañar'],[-38.926,-68.79,'Añelo'],[-39.05,-68.77,'Área regional']].forEach(p=>L.marker([p[0],p[1]]).addTo(map).bindPopup('<b>'+p[2]+'</b>'))}
-function renderAll(){renderCaseSelect();renderCaseList();renderCaseForm();renderAgenda();renderStats();renderEvidence();renderChecks()}
+function renderAll(){renderCaseSelect();renderCaseList();renderCaseForm();renderAgenda();renderStats();renderEvidence();renderChecks();renderToday()}
 renderAll();window.addEventListener('load',initMap);
 </script>
 </body></html>
