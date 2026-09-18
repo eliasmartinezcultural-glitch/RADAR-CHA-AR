@@ -4,6 +4,10 @@ on:
   schedule:
     - cron: "*/30 * * * *"
   workflow_dispatch:
+  push:
+    paths:
+      - "scripts/update-radar.py"
+      - ".github/workflows/radar-monitor.yml"
 
 permissions:
   contents: write
