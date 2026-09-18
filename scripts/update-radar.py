@@ -1,5 +1,5 @@
 import json, re, urllib.parse, urllib.request, xml.etree.ElementTree as ET
-from datetime import datetime, timezone, timedelta, email.utils
+from datetime import datetime, timezone, timedelta, email.utils, timedelta, email.utils
 from difflib import SequenceMatcher
 
 OUT = "data/radar-feed.json"
@@ -108,6 +108,12 @@ def parse(xml, source_hint, query):
         title = clean_text(item.findtext("title"))
         link = clean_text(item.findtext("link"))
         pub = clean_text(item.findtext("pubDate"))
+        try:
+            dt = email.utils.parsedate_to_datetime(pub).astimezone(timezone.utc) if pub else None
+        except Exception:
+            dt = None
+        if not dt or dt < datetime.now(timezone.utc) - timedelta(days=8):
+            continue
         try:\n            dt = email.utils.parsedate_to_datetime(pub).astimezone(timezone.utc) if pub else None\n        except Exception:\n            dt = None\n        if not dt or dt < datetime.now(timezone.utc) - timedelta(days=8):\n            continue
         desc = clean_text(item.findtext("description"))
         source_node = item.find("{http://search.yahoo.com/mrss/}source")\n        src = clean_text(source_node.text if source_node is not None else "") or source_hint\n        source_url = source_node.attrib.get("url", "") if source_node is not None else ""
