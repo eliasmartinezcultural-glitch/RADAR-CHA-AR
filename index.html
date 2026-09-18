@@ -146,43 +146,6 @@ button{border-color:rgba(99,150,166,.22);background:#0b141a;min-height:40px}butt
 <div class="depth-card" style="margin-top:10px"><b>SEÑALES ENCONTRADAS</b><span class="mono" id="rmUpdated">—</span><div id="rmList" class="rm-list"><div class="rm-empty">Escaneando fuentes…</div></div></div>
 </section>
 
-<section class="card wide" id="investigacion" hidden>
-<div class="tool-header"><div><div class="tool-id">02 / EXPEDIENTE</div><div class="tool-title">Centro de investigación</div><div class="tool-sub">Un caso contiene pregunta, fuentes, evidencia, personas, cronología y estado.</div></div><span class="badge">LOCAL STORAGE</span></div><div class="scanline"></div>
-<p class="muted">Cada investigación queda separada para no mezclar evidencias, notas, fuentes o entrevistas.</p>
-<div class="casebar"><select id="caseSelect" class="field" onchange="switchCase(this.value)"><option value="">Seleccioná expediente</option></select><button class="primary" onclick="newCase()">＋ NUEVO</button><button onclick="exportCase()">⬇ EXPORTAR</button><button onclick="shareCase()">↗ WHATSAPP</button></div>
-<div id="caseForm" class="hidden" style="margin-top:12px"><div class="caseform">
-<input id="storyTitle" class="field" placeholder="Tema / título"><input id="storyArea" class="field" placeholder="Territorio">
-<select id="caseType" class="field"><option>Historia</option><option>Entrevista</option><option>Documento</option><option>Territorio</option><option>Producción</option><option>Turismo</option><option>Servicio</option></select>
-<select id="caseStatus" class="field"><option>Abierta</option><option>En búsqueda</option><option>En verificación</option><option>Lista para revisar</option><option>Archivada</option></select>
-<textarea id="storyQuestion" class="field" placeholder="Pregunta central"></textarea></div>
-<div class="toolbar"><button class="primary" onclick="saveCaseFields()">GUARDAR</button><button onclick="addPerson()">＋ PERSONA</button><button onclick="addInterview()">＋ PREGUNTA</button><button onclick="addTimeline()">＋ CRONOLOGÍA</button></div>
-<div class="caseform"><input id="personInput" class="field" placeholder="Persona / institución a consultar"><input id="interviewInput" class="field" placeholder="Pregunta de entrevista"><input id="timelineInput" class="field" placeholder="Hito / fecha / hecho"></div>
-<div class="workspace"><div class="wsitem"><b>👥 Personas</b><span id="peopleList"></span></div><div class="wsitem"><b>🎙 Preguntas</b><span id="interviewList"></span></div><div class="wsitem"><b>🕒 Cronología</b><span id="timelineList"></span></div></div>
-<div class="toolbar"><button onclick="copyWhatsAppSummary()">📲 COPIAR RESUMEN WHATSAPP</button></div></div>
-<div id="caseList" class="case-list"></div>
-<div class="case-dashboard">
-<div class="gadget"><div class="gadget-head"><b>🎛 PANEL DE INVESTIGACIÓN</b><span id="caseSignal">SIN DATOS</span></div><div class="gadget-value" id="caseScore">0%</div><div class="confidence"><i id="caseConfidence"></i></div><div class="matrix"><button onclick="setCaseMode('DOCUMENTO')">📄 DOCUMENTO</button><button onclick="setCaseMode('ENTREVISTA')">🎙 ENTREVISTA</button><button onclick="setCaseMode('TERRITORIO')">📍 TERRITORIO</button><button onclick="setCaseMode('SERVICIO')">⚡ SERVICIO</button></div><div class="depth-note">Simula el grado de preparación del expediente según evidencias, personas, cronología y verificación.</div></div>
-<div class="depth-card"><b>🧭 CONTEXTO LOCAL 2026</b><div class="mini-timeline"><div>06/03 · Escuela 364 · edificio inaugurado</div><div>24/04 · Hospital · gestión ambiental</div><div>25/06 · Rutas 7 y 8 · mantenimiento vial</div><div>25/06 · 347 lotes · red de gas</div><div>20/07 · Centro de Día · obra iniciada</div><div>26/08 · Centro Deportivo · licitación</div></div><div class="depth-note">Usá estos hitos como contexto, no como sustituto de la fuente del caso.</div></div>
-</div>
-</section>
-
-<section class="card side" id="verificar" hidden><div class="tool-header"><div><div class="tool-id">03 / VERIFICACIÓN</div><div class="tool-title">Puerta de salida</div><div class="tool-sub">No decide qué publicar: muestra qué falta comprobar.</div></div><span class="badge">GATE</span></div><div class="scanline"></div><p class="muted">Se guarda dentro del expediente activo.</p><div class="checklist">
-<label class="check"><input data-check="primary" type="checkbox" onchange="saveChecks()"> Tengo fuente primaria o documento.</label>
-<label class="check"><input data-check="second" type="checkbox" onchange="saveChecks()"> Contrasté con otra fuente.</label>
-<label class="check"><input data-check="datePlace" type="checkbox" onchange="saveChecks()"> Fecha y lugar claros.</label>
-<label class="check"><input data-check="factInterpretation" type="checkbox" onchange="saveChecks()"> Separé hecho de interpretación.</label>
-<label class="check"><input data-check="demo" type="checkbox" onchange="saveChecks()"> No presento una demo como información verificada.</label></div><div class="progress"><i id="bar"></i></div><div id="pct">0% completado</div>
-<div class="verify-sources">
-<div class="verify-source greenflag"><b>🟢 FUENTE PRIMARIA</b><span>Municipalidad de San Patricio del Chañar</span><a href="https://www.sanpatricio.gob.ar/" target="_blank" rel="noopener">sanpatricio.gob.ar ↗</a></div>
-<div class="verify-source greenflag"><b>🟢 FUENTE PRIMARIA</b><span>Neuquén Informa / Gobierno provincial</span><a href="https://www.neuqueninforma.gob.ar/" target="_blank" rel="noopener">neuqueninforma.gob.ar ↗</a></div>
-<div class="verify-source"><b>🔵 CONTEXTO</b><span>Diario Río Negro: cobertura territorial y evolución local.</span><a href="https://www.rionegro.com.ar/" target="_blank" rel="noopener">rionegro.com.ar ↗</a></div>
-<div class="verify-source"><b>🔵 CONTEXTO</b><span>LM Neuquén: información regional y cobertura local.</span><a href="https://www.lmneuquen.com/" target="_blank" rel="noopener">lmneuquen.com ↗</a></div>
-</div>
-<div class="air-console"><div class="air-top"><span><i id="airLamp" class="air-lamp"></i>SIMULADOR DE SALIDA AL AIRE</span><span id="airMode" class="mono">STANDBY</span></div><div class="air-body"><div class="air-grid"><div class="air-metric"><small>EVIDENCIAS</small><b id="airEvidence">0</b></div><div class="air-metric"><small>CHECKLIST</small><b id="airChecklist">0/5</b></div><div class="air-metric"><small>FUENTE</small><b id="airSource">—</b></div><div class="air-metric"><small>ESTADO</small><b id="airGate">BLOQUEADO</b></div></div><div id="airResult" class="air-message">Antes de salir: fuente primaria → contraste → fecha/lugar → hecho separado de interpretación.</div><div class="air-actions"><button class="primary" onclick="airCheck()">▶ SIMULAR SALIDA</button><button onclick="copyAirStatus()">↗ COPIAR ESTADO</button></div></div></div>
-<div class="locked-note">🔒 <b>REGLA DE ORO:</b> si una función no mejora Radar, Expediente o Verificación, no entra al proyecto.</div>
-</section>
-
-<section class="card credit" hidden><div class="status"><span class="dot"></span> CRÉDITO DE DESARROLLO</div><h2>Tecnología desarrollada por Elías Martínez · Ocarina Producciones</h2><p class="muted">CHÁÑAR RADAR es un concepto y desarrollo experimental. El uso gratuito de esta herramienta no transfiere su autoría ni habilita a presentar el desarrollo como propio.</p></section>
 </main>
 <nav class="mobilebar"><button onclick="focusSec('radar')">Radar</button><button onclick="radarSearchKeyword()">Buscar</button></nav>
 <section class="local-legend card" aria-label="Leyenda de fuentes">
