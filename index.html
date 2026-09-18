@@ -197,41 +197,10 @@ function renderRadarFeed(){
  if(!filtered.length){list.innerHTML='<div class="rm-empty">No hay señales territoriales relevantes en el registro actual.</div>';return}
  list.innerHTML=filtered.slice(0,40).map(x=>'<a class="rm-item" href="'+radarEsc(x.url)+'" target="_blank" rel="noopener"><div class="rm-top"><span class="rm-tier '+(x.relevance===3?'local':'regional')+'">'+(x.relevance===3?'DIRECTA':'REGIONAL')+'</span><span class="mono">'+radarDate(x.published)+'</span></div><strong>'+radarEsc(x.title)+'</strong><span class="rm-meta">'+radarEsc(x.source)+' · '+(x.isNew?'NUEVA':'REGISTRADA')+' · evidencia ↗</span></a>').join('');
 }
-function renderRadarTopics(){
- const box=$('rmTopics');if(!box)return;
- const groups={Ruta:0,Instituciones:0,Educación:0,Producción:0,Salud:0,Deportes:0,Territorio:0};
- radarFeed.forEach(x=>{const t=(x.title||'').toLowerCase();if(/ruta|camino|tránsito/.test(t))groups.Ruta++;if(/municip|concejo|obra|gobierno/.test(t))groups.Instituciones++;if(/escuela|educ|cpem/.test(t))groups.Educación++;if(/producc|fruta|vino|agro/.test(t))groups.Producción++;if(/hospital|salud/.test(t))groups.Salud++;if(/club|deporte|copa|fútbol/.test(t))groups.Deportes++;if(/turismo|río|balneario|chañar/.test(t))groups.Territorio++;});
- const max=Math.max(1,...Object.values(groups));
- box.innerHTML=Object.entries(groups).sort((a,b)=>b[1]-a[1]).slice(0,6).map(([k,v])=>'<div class="topic-row"><span>'+k+'</span><div class="topic-track"><div class="topic-fill" style="width:'+Math.round(v/max*100)+'%"></div></div><b>'+v+'</b></div>').join('');
-}
-function propDate(v){return v?radarDate(v):'—'}
-function propStageClass(s){return s==='SEGUIMIENTO'?'stage-follow':s==='SALTO REGIONAL'?'stage-regional':s==='REPETICIÓN LOCAL'?'stage-repeat':s==='PRIMERA DETECCIÓN LOCAL'?'stage-local':'stage-context'}
-function renderRadarPropagation(){
- const box=$('rmPropagation');if(!box)return;
- const topics=(window.radarTopics||[]).slice(0,12);
- const stats=window.radarStats||{};
- if($('rmLocalFirst'))$('rmLocalFirst').textContent=stats.localFirst||0;
- if($('rmRepeatLocal'))$('rmRepeatLocal').textContent=stats.repeatedLocal||0;
- if($('rmRegionalJump'))$('rmRegionalJump').textContent=stats.regionalJump||0;
- if($('rmTopicCount'))$('rmTopicCount').textContent=stats.topics||topics.length;
- if(!topics.length){box.innerHTML='<div class="rm-empty">Todavía no hay suficientes señales agrupables.</div>';return}
- box.innerHTML=topics.map(t=>{
-   const stage=t.stage||'SEÑAL DE CONTEXTO';
-   const steps=[
-     !!t.firstLocalSeen,
-     t.localCount>=2,
-     !!t.firstRegionalSeen,
-     stage==='SEGUIMIENTO'
-   ];
-   return '<div class="prop-item"><div class="prop-item-head"><span class="rm-tier '+(stage==='SALTO REGIONAL'?'regional':'local')+'">'+radarEsc(stage)+'</span><span class="mono">'+propDate(t.lastSeen)+'</span></div><strong>'+radarEsc(t.title)+'</strong><div class="prop-meta"><span>LOCAL '+(t.localCount||0)+'</span><span>REGIONAL '+(t.regionalCount||0)+'</span><span>PRIMERA LOCAL: '+propDate(t.firstLocalSeen)+'</span><span>PRIMERA REGIONAL: '+propDate(t.firstRegionalSeen)+'</span></div><div class="prop-timeline"><i class="'+(steps[0]?'on':'')+'"></i><i class="'+(steps[1]?'on':'')+'"></i><i class="'+(steps[2]?'on':'')+'"></i><i class="'+(steps[3]?'on':'')+'"></i></div></div>'
- }).join('');
-}
-
 async function loadRadarFeed(){
  const list=$('rmList');if(list)list.innerHTML='<div class="rm-empty">Escaneando fuentes…</div>';
  try{const r=await fetch('data/radar-feed.json?ts='+Date.now(),{cache:'no-store'});const d=await r.json();radarFeed=d.items||[];window.radarTopics=d.topics||[];window.radarStats=d.stats||{};if($('rmUpdated'))$('rmUpdated').textContent=d.updatedAt?radarDate(d.updatedAt):'—';if($('rmPropUpdated'))$('rmPropUpdated').textContent=d.updatedAt?'actualizado '+radarDate(d.updatedAt):'detección · no predicción';renderRadarFeed();if($('hudSignal'))$('hudSignal').textContent='RADAR: '+radarFeed.length+' SEÑALES';}
  catch(e){if(list)list.innerHTML='<div class="rm-empty">El registro automático todavía no está disponible. Probá “BUSCAR AHORA”.</div>';}}
-function radarSearchKeyword(){const q=($('radarKeyword')?.value||'San Patricio del Chañar').trim();if(!q)return;window.open('https://news.google.com/search?q='+encodeURIComponent(q)+'&hl=es-419&gl=AR&ceid=AR%3Aes-419','_blank','noopener');}
 </script>
 <script src="radar-workbench.js"></script>\n</body></html>
 
