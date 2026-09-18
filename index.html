@@ -37,6 +37,13 @@ button{border-color:rgba(99,150,166,.22);background:#0b141a;min-height:40px}butt
 .tool-header{display:flex;justify-content:space-between;gap:12px;align-items:flex-end;border-bottom:1px solid rgba(102,240,255,.11);padding-bottom:10px;margin-bottom:10px}.tool-id{font:900 .58rem ui-monospace,SFMono-Regular,monospace;color:var(--cyan);letter-spacing:.14em}.tool-title{font-size:1.35rem;font-weight:950;letter-spacing:-.035em}.tool-sub{font-size:.7rem;color:var(--muted)}.scanline{height:2px;background:linear-gradient(90deg,transparent,var(--cyan),transparent);opacity:.25;margin:10px 0 12px;animation:scan 4s ease-in-out infinite}@keyframes scan{0%,100%{transform:scaleX(.25);opacity:.08}50%{transform:scaleX(1);opacity:.32}}
 .air-console{margin-top:10px;border:1px solid rgba(102,240,255,.16);border-radius:15px;background:#050b10;overflow:hidden}.air-top{display:flex;justify-content:space-between;gap:10px;align-items:center;padding:10px 12px;border-bottom:1px solid rgba(102,240,255,.11);font:700 .61rem ui-monospace,SFMono-Regular,monospace}.air-lamp{width:9px;height:9px;border-radius:50%;display:inline-block;background:var(--red);box-shadow:0 0 10px currentColor;margin-right:7px}.air-body{padding:12px}.air-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:7px}.air-metric{padding:9px;border:1px solid rgba(99,150,166,.14);border-radius:10px;background:#071016}.air-metric small{display:block;color:var(--muted);font-size:.55rem;text-transform:uppercase}.air-metric b{display:block;font-size:1.1rem;margin-top:2px}.air-message{margin-top:9px;padding:10px;border-radius:10px;border:1px solid rgba(255,111,125,.2);font-size:.72rem}.air-actions{display:flex;gap:6px;flex-wrap:wrap;margin-top:8px}.air-actions button{font-size:.62rem;padding:7px 9px;min-height:34px}.signal-console{display:grid;grid-template-columns:1.1fr 1fr;gap:10px;margin-top:12px}.mono{font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
 @media(max-width:850px){.future-hud{grid-template-columns:1fr 1fr}.signal-console{grid-template-columns:1fr}.air-grid{grid-template-columns:1fr 1fr}}@media(max-width:480px){.wrap{width:calc(100% - 14px)}.future-hud{grid-template-columns:1fr 1fr}.future-hud .hud-main{grid-column:1/-1}.tool-title{font-size:1.1rem}.hero h1{font-size:3.25rem}.air-grid{grid-template-columns:1fr 1fr}}
+</style><style id="radar-monitor-ui">
+.radar-monitor{margin-top:12px;border:1px solid rgba(102,240,255,.2);border-radius:16px;background:rgba(3,9,13,.86);overflow:hidden}
+.rm-head{padding:12px;border-bottom:1px solid rgba(102,240,255,.1);display:flex;justify-content:space-between;gap:10px;align-items:center}.rm-head b{font:900 .68rem ui-monospace,monospace;letter-spacing:.1em}.rm-live{color:#61e6a3}.rm-live i{display:inline-block;width:7px;height:7px;border-radius:50%;background:#61e6a3;box-shadow:0 0 10px #61e6a3;margin-right:6px}
+.rm-controls{display:grid;grid-template-columns:1fr auto auto;gap:7px;padding:10px;border-bottom:1px solid rgba(102,240,255,.08)}.rm-controls input{width:100%;min-height:40px;padding:9px 11px;border-radius:9px;background:#070d12;border:1px solid rgba(99,150,166,.22);color:#edf7fa}.rm-controls input:focus{outline:none;border-color:#66f0ff;box-shadow:0 0 0 3px rgba(102,240,255,.06)}
+.rm-stats{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;padding:0 10px 10px}.rm-stat{padding:8px;border:1px solid rgba(99,150,166,.12);border-radius:9px;background:#071016}.rm-stat small{display:block;color:#7e929c;font-size:.52rem;text-transform:uppercase}.rm-stat b{font-size:1rem}
+.rm-list{display:grid;gap:6px;padding:0 10px 10px}.rm-item{display:block;padding:10px;border:1px solid rgba(99,150,166,.13);border-radius:10px;background:#071016;text-decoration:none;color:#edf7fa}.rm-item:hover{border-color:#66f0ff}.rm-top{display:flex;gap:7px;align-items:center;justify-content:space-between}.rm-tier{font:800 .5rem ui-monospace,monospace;letter-spacing:.08em;padding:3px 6px;border-radius:5px}.rm-tier.local{color:#61e6a3;background:rgba(97,230,163,.08);border:1px solid rgba(97,230,163,.2)}.rm-tier.regional{color:#e8c46d;background:rgba(232,196,109,.07);border:1px solid rgba(232,196,109,.2)}.rm-item strong{display:block;margin-top:6px;font-size:.78rem;line-height:1.28}.rm-meta{display:block;margin-top:5px;color:#7e929c;font-size:.58rem}.rm-empty{padding:16px;color:#7e929c;text-align:center;font-size:.72rem}.rm-foot{padding:9px 10px;border-top:1px solid rgba(102,240,255,.08);color:#7e929c;font-size:.58rem}.topic-bars{display:grid;gap:5px;margin-top:8px}.topic-row{display:grid;grid-template-columns:105px 1fr 30px;gap:7px;align-items:center;font-size:.56rem}.topic-track{height:6px;background:#101a20;border-radius:99px;overflow:hidden}.topic-fill{height:100%;background:linear-gradient(90deg,#5ed6ff,#61e6a3);border-radius:99px}
+@media(max-width:560px){.rm-controls{grid-template-columns:1fr 1fr}.rm-controls input{grid-column:1/-1}.rm-stats{grid-template-columns:1fr 1fr}.topic-row{grid-template-columns:82px 1fr 25px}}
 </style></head>
 <body>
 <div class="wrap">
@@ -72,7 +79,14 @@ button{border-color:rgba(99,150,166,.22);background:#0b141a;min-height:40px}butt
 <div><h2>¿Qué merece atención hoy?</h2><p class="muted">Panel local para medios de San Patricio del Chañar. Las columnas son estados editoriales internos: no significan que una noticia sea verdadera hasta verificarla.</p></div>
 <div class="today-clock"><b id="todayDate"></b><br><span>Actualización de búsquedas: manual</span></div>
 </div>
-<div class="today-tools">
+<div class="radar-monitor">
+<div class="rm-head"><b>◉ MONITOR TERRITORIAL · 24/7</b><span class="rm-live"><i></i>AUTOMÁTICO</span></div>
+<div class="rm-controls"><input id="radarKeyword" placeholder="PALABRA CLAVE · ej. hospital, Ruta 7, escuela 364"><button class="primary" onclick="loadRadarFeed()">↻ ACTUALIZAR</button><button onclick="radarSearchKeyword()">↗ BUSCAR AHORA</button></div>
+<div class="rm-stats"><div class="rm-stat"><small>LOCAL</small><b id="rmLocal">0</b></div><div class="rm-stat"><small>REGIONAL</small><b id="rmRegional">0</b></div><div class="rm-stat"><small>NUEVAS</small><b id="rmNew">0</b></div><div class="rm-stat"><small>FUENTE</small><b id="rmUpdated">—</b></div></div>
+<div id="rmTopics" class="topic-bars"></div>
+<div id="rmList" class="rm-list"><div class="rm-empty">Cargando señales de medios…</div></div>
+<div class="rm-foot">PRIORIDAD OPERATIVA: medios locales primero → medios regionales después. La automatización registra titulares y enlaces; no reemplaza la verificación.</div>
+</div><div class="today-tools">
 <button class="primary" onclick="todaySearch('San Patricio del Chañar')">🔎 FRASE LOCAL</button>
 <button onclick="todaySearch('Chañar')">🔎 CHAÑAR</button>
 <button onclick="todaySearch('San Patricio del Chañar Ruta 7 Ruta 8')">🛣 RUTAS</button>
@@ -90,26 +104,7 @@ button{border-color:rgba(99,150,166,.22);background:#0b141a;min-height:40px}butt
 <button onclick="todaySearch('San Patricio del Chañar producción')">Producción</button>
 <button onclick="todaySearch('San Patricio del Chañar turismo')">Turismo</button>
 </div>
-<div class="today-grid">
-<div class="today-col new"><h3>🟢 NUEVO</h3><div id="todayNew"></div></div>
-<div class="today-col dev"><h3>🟡 EN DESARROLLO</h3><div id="todayDev"></div></div>
-<div class="today-col done"><h3>🔵 YA CUBIERTO</h3><div id="todayDone"></div></div>
-<div class="today-col verify"><h3>🔴 PARA VERIFICAR</h3><div id="todayVerify"></div></div>
-</div>
-<div class="today-source">Fuentes rápidas: Google Noticias · sitios oficiales · medios locales. El panel no raspa ni copia automáticamente contenidos externos; abre búsquedas originales para que el periodista revise el material.</div>
-
-<div class="locked-note">🔒 <b>FÓRMULA BLOQUEADA:</b> CHÁÑAR RADAR trabaja únicamente con estas 3 herramientas. Todo gadget, fuente, gráfico o simulación vive dentro de RADAR, EXPEDIENTE o VERIFICACIÓN.</div>
-<div class="depth-grid">
-<article class="depth-card source-official"><b>🏛 MUNICIPIO · FUENTE BASE</b><span>El sitio oficial publica noticias, calendario y datos de contacto municipales.</span><small>Actualización visible: junio de 2026.</small><div class="source-links"><a href="https://www.sanpatricio.gob.ar/" target="_blank" rel="noopener">Abrir fuente oficial ↗</a></div></article>
-<article class="depth-card source-official"><b>🏥 SALUD · HOSPITAL DRA. ALICIA CRUZ</b><span>En abril de 2026 se informó un programa de gestión de residuos y un Punto Verde en el hospital.</span><small>Fuente: Neuquén Informa · 24/04/2026.</small><div class="source-links"><a href="https://www.neuqueninforma.gob.ar/noticias/2026/04/24/256683-compromiso-ambiental-el-hospital-de-san-patricio-del-chanar-mejora-la-gestion-de-sus-residuos" target="_blank" rel="noopener">Ver fuente ↗</a></div></article>
-<article class="depth-card source-live"><b>🛣 RUTAS 7 + 8 · SEÑAL DE SERVICIO</b><span>En junio de 2026 Vialidad informó trabajos de bacheo y cortes intermitentes en sectores cercanos a Chañar.</span><small>Siempre comprobar el estado actual antes de salir al aire.</small><div class="source-links"><a href="https://www.neuqueninforma.gob.ar/noticias/2026/06/25/259687-piden-precaucion-al-circular-por-rutas-7-y-8-en-san-patricio-del-chanar" target="_blank" rel="noopener">Ver antecedente oficial ↗</a></div></article>
-</div>
-<div class="gadget" style="margin-top:10px"><div class="gadget-head"><b>📊 PULSO DE TEMAS · SIMULADOR EDITORIAL</b><button onclick="pulseShuffle()">REORDENAR</button></div><div class="microchart" id="pulseChart"></div><div class="depth-note">No es una medición estadística ni una encuesta. Es una visualización de prioridades de trabajo que podés recalibrar.</div></div>
-<div class="depth-grid">
-<article class="depth-card source-context"><b>🏫 EDUCACIÓN</b><span>La Escuela 364 inauguró edificio propio en marzo de 2026; la fuente informó 222 estudiantes.</span><small>Fuente oficial provincial · 06/03/2026.</small><a class="link" href="https://www.neuqueninforma.gob.ar/noticias/2026/03/06/255471-se-inauguro-el-nuevo-edificio-de-la-escuela-n-364-de-san-patricio-del-chanar" target="_blank" rel="noopener">Abrir ↗</a></article>
-<article class="depth-card source-context"><b>🏗 INFRAESTRUCTURA</b><span>En agosto de 2026 se informó la licitación del Centro Deportivo Comunitario, con presupuesto oficial superior a $4.681 millones.</span><small>Fuente oficial provincial · 26/08/2026.</small><a class="link" href="https://www.neuqueninforma.gob.ar/noticias/2026/08/26/262631-seis-empresas-interesadas-en-construir-el-centro-deportivo-comunitario-en-san-patricio-del-chanar" target="_blank" rel="noopener">Abrir ↗</a></article>
-<article class="depth-card source-context"><b>🍇 PRODUCCIÓN + TURISMO</b><span>En 2026 se incorporaron nuevos espacios a la oferta vitivinícola y turística local; además se inauguró una Casa de Turismo sobre Ruta 7.</span><small>Fuentes: Neuquén Informa y LM Neuquén.</small><a class="link" href="https://www.neuqueninforma.gob.ar/noticias/2026/04/03/255930-el-chical-se-suma-a-la-oferta-vitivinicola-de-san-patricio-del-chanar" target="_blank" rel="noopener">El Chical ↗</a> <a class="link" href="https://www.lmneuquen.com/neuquen/san-patricio-del-chanar-inauguro-su-primera-casa-turismo-la-ruta-7-n1244402" target="_blank" rel="noopener">Casa de Turismo ↗</a></article>
-</div>
+<div class="depth-note">El monitor automático recoge menciones públicas de los últimos 7 días y las ordena por cercanía: <b>LOCAL</b> → <b>REGIONAL</b>.</div></div>
 </section>
 
 <section class="card" id="radar">
@@ -227,6 +222,34 @@ function copyAirStatus(){const c=currentCase(),checks=c?Object.values(c.checklis
 function updateHud(){if($('hudCase'))$('hudCase').textContent=(data.cases?.length||0)+' ACTIVOS';if($('hudStatus'))$('hudStatus').textContent='● OPERATIVO'}
 pulseShuffle();
 function renderAll(){renderCaseSelect();renderCaseList();renderCaseForm();renderAgenda();renderStats();renderEvidence();renderChecks();renderToday()}
-renderAll();updateHud();updateCaseGadget();
+renderAll();updateHud();updateCaseGadget();loadRadarFeed();
+
+let radarFeed=[];
+function radarEsc(v){return esc(v||'')}
+function radarDate(v){try{return new Date(v).toLocaleString('es-AR',{day:'2-digit',month:'2-digit',hour:'2-digit',minute:'2-digit'})}catch(e){return v||''}}
+function renderRadarFeed(){
+ const q=($('radarKeyword')?.value||'').trim().toLowerCase();
+ const filtered=radarFeed.filter(x=>!q||(x.title+' '+x.source+' '+x.query).toLowerCase().includes(q));
+ const local=filtered.filter(x=>x.tier==='local'),regional=filtered.filter(x=>x.tier==='regional');
+ if($('rmLocal'))$('rmLocal').textContent=local.length;
+ if($('rmRegional'))$('rmRegional').textContent=regional.length;
+ if($('rmNew'))$('rmNew').textContent=filtered.filter(x=>x.isNew).length;
+ const list=$('rmList'); if(!list)return;
+ if(!filtered.length){list.innerHTML='<div class="rm-empty">No hay coincidencias en el registro actual. Usá “BUSCAR AHORA” para ampliar la consulta.</div>';return}
+ const ordered=[...local,...regional].slice(0,30);
+ list.innerHTML=ordered.map(x=>'<a class="rm-item" href="'+radarEsc(x.url)+'" target="_blank" rel="noopener"><div class="rm-top"><span class="rm-tier '+x.tier+'">'+(x.tier==='local'?'LOCAL':'REGIONAL')+'</span><span class="mono">'+radarDate(x.published)+'</span></div><strong>'+radarEsc(x.title)+'</strong><span class="rm-meta">'+radarEsc(x.source)+' · '+(x.isNew?'NUEVO':'REGISTRADO')+'</span></a>').join('');
+}
+function renderRadarTopics(){
+ const box=$('rmTopics');if(!box)return;
+ const groups={Ruta:0,Instituciones:0,Educación:0,Producción:0,Salud:0,Deportes:0,Territorio:0};
+ radarFeed.forEach(x=>{const t=(x.title||'').toLowerCase();if(/ruta|camino|tránsito/.test(t))groups.Ruta++;if(/municip|concejo|obra|gobierno/.test(t))groups.Instituciones++;if(/escuela|educ|cpem/.test(t))groups.Educación++;if(/producc|fruta|vino|agro/.test(t))groups.Producción++;if(/hospital|salud/.test(t))groups.Salud++;if(/club|deporte|copa|fútbol/.test(t))groups.Deportes++;if(/turismo|río|balneario|chañar/.test(t))groups.Territorio++;});
+ const max=Math.max(1,...Object.values(groups));
+ box.innerHTML=Object.entries(groups).sort((a,b)=>b[1]-a[1]).slice(0,6).map(([k,v])=>'<div class="topic-row"><span>'+k+'</span><div class="topic-track"><div class="topic-fill" style="width:'+Math.round(v/max*100)+'%"></div></div><b>'+v+'</b></div>').join('');
+}
+async function loadRadarFeed(){
+ const list=$('rmList');if(list)list.innerHTML='<div class="rm-empty">Escaneando fuentes…</div>';
+ try{const r=await fetch('data/radar-feed.json?ts='+Date.now(),{cache:'no-store'});const d=await r.json();radarFeed=d.items||[];if($('rmUpdated'))$('rmUpdated').textContent=d.updatedAt?radarDate(d.updatedAt):'—';renderRadarFeed();renderRadarTopics();if($('hudSignal'))$('hudSignal').textContent='RADAR: '+radarFeed.length+' SEÑALES';}
+ catch(e){if(list)list.innerHTML='<div class="rm-empty">El registro automático todavía no está disponible. Probá “BUSCAR AHORA”.</div>';}}
+function radarSearchKeyword(){const q=($('radarKeyword')?.value||'San Patricio del Chañar').trim();if(!q)return;window.open('https://news.google.com/search?q='+encodeURIComponent(q)+'&hl=es-419&gl=AR&ceid=AR%3Aes-419','_blank','noopener');}
 </script>
 </body></html>
