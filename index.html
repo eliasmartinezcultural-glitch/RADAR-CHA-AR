@@ -3,38 +3,61 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="theme-color" content="#071014">
-<meta name="description" content="Radar territorial de menciones públicas sobre San Patricio del Chañar.">
-<title>RADAR CHAÑAR · ¿De qué se está hablando?</title>
+<meta name="theme-color" content="#02080d">
+<meta name="description" content="RADAR CHAÑAR · monitor territorial de conversación pública sobre San Patricio del Chañar.">
+<meta property="og:title" content="RADAR CHAÑAR · ¿De qué se está hablando?">
+<meta property="og:description" content="Monitor territorial automático de conversación pública sobre San Patricio del Chañar.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://eliasmartinezcultural-glitch.github.io/RADAR-CHA-AR/">
+<title>RADAR CHAÑAR · Monitor territorial</title>
 <style>
-:root{--bg:#071014;--panel:#0d171c;--line:#20313a;--text:#edf5f7;--muted:#8ea1aa;--cyan:#62d8ee;--green:#67d49b;--gold:#e5c36b;--max:980px}
-*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at 80% 0,#16313a 0,transparent 32%),var(--bg);color:var(--text);font:16px/1.5 system-ui,-apple-system,Segoe UI,sans-serif}
-.wrap{width:min(var(--max),calc(100% - 28px));margin:auto}.top{padding:22px 0 18px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;gap:20px}.brand{font-weight:900;letter-spacing:.16em}.brand span{color:var(--cyan)}.updated{font-size:.72rem;color:var(--muted);text-align:right}
-.hero{padding:58px 0 34px}.eyebrow{color:var(--gold);font-size:.7rem;font-weight:900;letter-spacing:.16em;text-transform:uppercase}.hero h1{font-size:clamp(2.7rem,8vw,5.8rem);line-height:.9;letter-spacing:-.065em;margin:12px 0 18px;max-width:900px}.hero p{max-width:720px;color:#b8c7cd;font-size:1.05rem;margin:0}
-.search{display:flex;gap:8px;margin:24px 0 10px}.search input{flex:1;min-width:0;background:#091319;border:1px solid var(--line);border-radius:12px;padding:14px;color:var(--text);outline:0}.search input:focus{border-color:var(--cyan)}
-.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:16px 0}.stat{background:var(--panel);border:1px solid var(--line);border-radius:13px;padding:14px}.stat b{display:block;font-size:1.5rem}.stat span{color:var(--muted);font-size:.68rem;letter-spacing:.08em}
-.section{margin:24px 0}.section-head{display:flex;justify-content:space-between;gap:12px;align-items:end;margin-bottom:10px}.section h2{font-size:1rem;margin:0}.hint{color:var(--muted);font-size:.7rem}
-.feed{display:grid;gap:8px}.item{display:block;text-decoration:none;background:linear-gradient(135deg,#0d181d,#0a1216);border:1px solid var(--line);border-radius:14px;padding:14px;transition:.15s}.item:hover{border-color:var(--cyan);transform:translateY(-1px)}.meta{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;color:var(--muted);font-size:.68rem;margin-bottom:7px}.badge{font-weight:900;letter-spacing:.08em}.direct{color:var(--green)}.regional{color:var(--gold)}.item strong{display:block;font-size:.96rem;line-height:1.35}.empty{padding:25px;border:1px dashed var(--line);border-radius:14px;color:var(--muted);text-align:center}
-.note{border-top:1px solid var(--line);margin-top:30px;padding:18px 0 45px;color:var(--muted);font-size:.72rem}.note strong{color:var(--text)}
-@media(max-width:600px){.top{align-items:flex-start}.updated{text-align:left}.hero{padding-top:40px}.hero h1{font-size:3.1rem}.search{flex-direction:column}.search input{width:100%}.stats{grid-template-columns:1fr 1fr}.stat:last-child{grid-column:1/-1}}
+:root{--bg:#02080d;--panel:#07131a;--panel2:#091a21;--line:#17323d;--text:#ecfbff;--muted:#78919b;--cyan:#56e7ff;--green:#69ffb0;--gold:#ffd76a;--violet:#9f8cff;--max:1080px}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at 50% -10%,#123846 0,transparent 38%),radial-gradient(circle at 100% 45%,#10232d 0,transparent 28%),var(--bg);color:var(--text);font:15px/1.5 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;overflow-x:hidden}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.16;background-image:linear-gradient(rgba(86,231,255,.08) 1px,transparent 1px),linear-gradient(90deg,rgba(86,231,255,.08) 1px,transparent 1px);background-size:42px 42px;mask-image:linear-gradient(to bottom,#000,transparent 80%)}
+.wrap{width:min(var(--max),calc(100% - 28px));margin:auto}.credit{padding:13px 0 8px;color:var(--cyan);font-size:.62rem;font-weight:900;letter-spacing:.2em;text-transform:uppercase}.top{padding:13px 0 16px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:center;gap:20px}.brand{font-weight:950;letter-spacing:.16em;font-size:1rem}.brand span{color:var(--cyan)}.status{font-size:.62rem;letter-spacing:.12em;color:var(--green);display:flex;align-items:center;gap:7px;text-transform:uppercase}.dot{width:7px;height:7px;border-radius:50%;background:var(--green);box-shadow:0 0 14px var(--green);animation:pulse 1.6s infinite}
+.hero{padding:42px 0 28px}.eyebrow{color:var(--gold);font-size:.62rem;font-weight:900;letter-spacing:.18em;text-transform:uppercase}.hero h1{font-size:clamp(2.55rem,8vw,6rem);line-height:.88;letter-spacing:-.07em;margin:12px 0 18px;max-width:1000px}.hero p{max-width:720px;color:#a9c0c8;font-size:1rem;margin:0}
+.command{display:flex;justify-content:space-between;align-items:center;gap:12px;margin:25px 0 14px;padding:10px 12px;border:1px solid var(--line);border-radius:12px;background:rgba(5,17,23,.8);box-shadow:0 0 30px rgba(86,231,255,.05)}.command small{color:var(--muted);letter-spacing:.1em}.share{border:1px solid rgba(86,231,255,.45);background:#081c24;color:var(--cyan);border-radius:9px;padding:9px 12px;font:inherit;font-size:.7rem;font-weight:900;letter-spacing:.08em;text-transform:uppercase;cursor:pointer}.share:hover{background:#0d2933;box-shadow:0 0 20px rgba(86,231,255,.12)}
+.radar-zone{display:grid;grid-template-columns:minmax(280px,430px) 1fr;gap:28px;align-items:center;margin:12px 0 25px}.radar{position:relative;width:min(82vw,410px);aspect-ratio:1;margin:auto;border-radius:50%;border:1px solid rgba(86,231,255,.35);background:radial-gradient(circle,transparent 0 16%,rgba(86,231,255,.025) 16% 16.5%,transparent 16.5% 33%,rgba(86,231,255,.035) 33% 33.5%,transparent 33.5% 50%,rgba(86,231,255,.04) 50% 50.5%,transparent 50.5% 67%,rgba(86,231,255,.04) 67% 67.5%,transparent 67.5%),repeating-conic-gradient(from 0deg,rgba(86,231,255,.13) 0deg 1deg,transparent 1deg 30deg),radial-gradient(circle,#09222b,#031016 68%,#02080d 100%);box-shadow:0 0 70px rgba(86,231,255,.1),inset 0 0 50px rgba(86,231,255,.08);overflow:hidden}.radar:before{content:"";position:absolute;inset:0;background:conic-gradient(from -20deg,transparent 0 315deg,rgba(86,231,255,.02) 315deg,rgba(86,231,255,.38) 350deg,transparent 360deg);animation:sweep 4s linear infinite;transform-origin:center}.radar:after{content:"";position:absolute;left:50%;top:0;bottom:0;width:1px;background:rgba(86,231,255,.16);box-shadow:0 0 0 0 rgba(86,231,255,.1);transform:translateX(-50%)}.cross{position:absolute;left:0;right:0;top:50%;height:1px;background:rgba(86,231,255,.16)}.core{position:absolute;left:50%;top:50%;width:9px;height:9px;border-radius:50%;background:var(--green);box-shadow:0 0 18px 4px rgba(105,255,176,.55);transform:translate(-50%,-50%);z-index:3}.signal{position:absolute;width:6px;height:6px;border-radius:50%;background:var(--cyan);box-shadow:0 0 12px 3px rgba(86,231,255,.7);z-index:4;animation:blink 1.8s infinite}.s1{left:63%;top:29%}.s2{left:29%;top:61%;animation-delay:.5s}.s3{left:72%;top:67%;animation-delay:1s}.s4{left:43%;top:18%;animation-delay:1.3s}.radar-label{position:absolute;left:14px;top:12px;font-size:.5rem;letter-spacing:.15em;color:var(--muted);z-index:5}.radar-label b{color:var(--cyan)}.telemetry{display:grid;gap:9px}.telemetry-card{border:1px solid var(--line);background:linear-gradient(135deg,rgba(9,26,33,.92),rgba(4,13,18,.92));padding:14px;border-radius:12px}.telemetry-card span{display:block;color:var(--muted);font-size:.58rem;letter-spacing:.13em;text-transform:uppercase}.telemetry-card strong{display:block;margin-top:4px;font-size:1.1rem}.telemetry-card em{font-style:normal;color:var(--green);font-size:.65rem}
+.search{display:flex;gap:8px;margin:18px 0 10px}.search input{flex:1;min-width:0;background:#061117;border:1px solid var(--line);border-radius:10px;padding:13px;color:var(--text);outline:0}.search input:focus{border-color:var(--cyan);box-shadow:0 0 0 3px rgba(86,231,255,.06)}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:14px 0}.stat{background:rgba(7,19,26,.88);border:1px solid var(--line);border-radius:11px;padding:12px}.stat b{display:block;font-size:1.45rem}.stat span{color:var(--muted);font-size:.58rem;letter-spacing:.1em}
+.section{margin:25px 0}.section-head{display:flex;justify-content:space-between;gap:12px;align-items:end;margin-bottom:10px}.section h2{font-size:.95rem;margin:0;letter-spacing:.08em;text-transform:uppercase}.hint{color:var(--muted);font-size:.65rem}.sources{display:flex;gap:6px;flex-wrap:wrap;margin:0 0 15px}.source{border:1px solid #1b3a45;border-radius:999px;padding:5px 8px;color:#9dbbc4;font-size:.6rem;background:#07161c}
+.feed{display:grid;gap:8px}.item{display:block;text-decoration:none;background:linear-gradient(135deg,rgba(9,24,31,.96),rgba(4,12,17,.96));border:1px solid var(--line);border-radius:12px;padding:13px;transition:.16s}.item:hover{border-color:var(--cyan);transform:translateY(-1px);box-shadow:0 10px 30px rgba(0,0,0,.2)}.meta{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;color:var(--muted);font-size:.63rem;margin-bottom:7px}.badge{font-weight:900;letter-spacing:.08em}.direct{color:var(--green)}.regional{color:var(--gold)}.item strong{display:block;font-size:.92rem;line-height:1.35}.empty{padding:25px;border:1px dashed var(--line);border-radius:12px;color:var(--muted);text-align:center}
+.note{border-top:1px solid var(--line);margin-top:30px;padding:18px 0 45px;color:var(--muted);font-size:.65rem}.note strong{color:var(--text)}
+@keyframes sweep{to{transform:rotate(360deg)}}@keyframes pulse{50%{opacity:.35;box-shadow:0 0 4px var(--green)}}@keyframes blink{50%{opacity:.25;transform:scale(.65)}}@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;scroll-behavior:auto!important}}
+@media(max-width:720px){.radar-zone{grid-template-columns:1fr}.radar{width:min(88vw,360px)}.telemetry{grid-template-columns:repeat(3,1fr)}.telemetry-card{padding:10px}.telemetry-card strong{font-size:.9rem}.stats{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:480px){.top{align-items:flex-start}.status{max-width:145px;text-align:right;justify-content:flex-end}.hero{padding-top:32px}.hero h1{font-size:3rem}.command{align-items:flex-start}.telemetry{grid-template-columns:1fr 1fr 1fr}.telemetry-card:last-child{grid-column:1/-1}.search{flex-direction:column}.search input{width:100%}}
 </style>
 </head>
 <body>
 <main class="wrap">
-<header class="top">
-<div class="brand">CHÁÑAR <span>RADAR</span></div>
-<div class="updated">Única función<br><strong>conversación pública territorial</strong></div>
-</header>
+<div class="credit">TECNOLOGÍA DESARROLLADA POR OCARINA PRODUCCIONES</div>
+<header class="top"><div class="brand">CHÁÑAR <span>RADAR</span></div><div class="status"><i class="dot"></i> monitor territorial activo</div></header>
 
 <section class="hero">
-<div class="eyebrow">San Patricio del Chañar · Neuquén</div>
+<div class="eyebrow">San Patricio del Chañar · Neuquén · monitoreo automático</div>
 <h1>¿De qué se está hablando cuando se habla de San Patricio del Chañar?</h1>
-<p>Reúne menciones públicas recientes, elimina ruido y muestra solamente señales con anclaje territorial defendible.</p>
-<div class="search"><input id="radarKeyword" type="search" placeholder="Filtrar por palabra, fuente o titular…"></div>
+<p>Un único propósito: observar conversación pública, detectar señales con anclaje territorial y reducir el ruido. El sistema se actualiza automáticamente.</p>
+<div class="command"><small>◉ ESCANEO 360° · VENTANA MÓVIL · 7 DÍAS</small><button class="share" id="shareBtn">↗ compartir por WhatsApp</button></div>
+</section>
+
+<section class="radar-zone">
+<div class="radar" aria-label="Radar territorial animado"><div class="radar-label">LIVE // <b>CHAÑAR</b></div><div class="cross"></div><div class="core"></div><i class="signal s1"></i><i class="signal s2"></i><i class="signal s3"></i><i class="signal s4"></i></div>
+<div class="telemetry">
+<div class="telemetry-card"><span>Estado del sistema</span><strong>ACTIVO</strong><em>● actualización automática</em></div>
+<div class="telemetry-card"><span>Señales detectadas</span><strong id="tmTotal">—</strong><em id="tmUpdated">esperando pulso</em></div>
+<div class="telemetry-card"><span>Fuentes únicas</span><strong id="tmSources">—</strong><em>medios y sitios indexados</em></div>
+</div>
+</section>
+
+<section class="section">
+<div class="section-head"><h2>Fuentes detectadas</h2><div class="hint">se generan desde el registro real</div></div>
+<div id="sourceCloud" class="sources"><span class="source">escaneando…</span></div>
+<div class="search"><input id="radarKeyword" type="search" placeholder="Filtrar señal, palabra, fuente o titular…"></div>
 <div class="stats">
 <div class="stat"><b id="rmLocal">—</b><span>DIRECTAS</span></div>
 <div class="stat"><b id="rmRegional">—</b><span>CON ANCLA LOCAL</span></div>
 <div class="stat"><b id="rmNew">—</b><span>NUEVAS</span></div>
+<div class="stat"><b id="rmTotal">—</b><span>SEÑALES</span></div>
 </div>
 </section>
 
@@ -43,7 +66,7 @@
 <div id="rmList" class="feed"><div class="empty">Escaneando fuentes…</div></div>
 </section>
 
-<footer class="note"><strong>RADAR CHAÑAR</strong> · ventana móvil de 7 días · la etiqueta territorial indica relevancia geográfica, no importancia de la noticia. Las señales enlazan a su evidencia disponible.</footer>
+<footer class="note"><strong>RADAR CHAÑAR</strong> · conversación pública territorial · ventana móvil de 7 días · las etiquetas describen anclaje geográfico, no importancia de la noticia. Las señales enlazan a su evidencia disponible.</footer>
 </main>
 <script>
 const $=s=>document.querySelector(s);
@@ -52,10 +75,17 @@ const date=v=>{try{return new Date(v).toLocaleString('es-AR',{day:'2-digit',mont
 let feed=[];
 function render(){
  const q=($('#radarKeyword').value||'').trim().toLowerCase();
- const rows=feed.filter(x=>!q||(x.title+' '+x.source+' '+(x.description||'')).toLowerCase().includes(q));
+ const rows=feed.filter(x=>!q||(x.title+' '+x.source+' '+(x.description||'')+' '+(x.query||'')).toLowerCase().includes(q));
  $('#rmLocal').textContent=rows.filter(x=>x.relevance===3).length;
  $('#rmRegional').textContent=rows.filter(x=>x.relevance===2).length;
  $('#rmNew').textContent=rows.filter(x=>x.isNew).length;
+ $('#rmTotal').textContent=rows.length;
+ $('#rmUpdated').textContent=window.radarUpdated?'último pulso '+date(window.radarUpdated):'registro automático';
+ $('#tmTotal').textContent=feed.length;
+ $('#tmSources').textContent=new Set(feed.map(x=>x.source).filter(Boolean)).size;
+ $('#tmUpdated').textContent=window.radarUpdated?'pulso '+date(window.radarUpdated):'esperando pulso';
+ const sources=[...new Set(feed.map(x=>x.source).filter(Boolean))].slice(0,24);
+ $('#sourceCloud').innerHTML=sources.length?sources.map(s=>'<span class="source">'+esc(s)+'</span>').join(''):'<span class="source">sin fuentes registradas</span>';
  $('#rmList').innerHTML=rows.length?rows.slice(0,60).map(x=>{
    const href=x.evidenceUrl||x.url||'#';
    return '<a class="item" href="'+esc(href)+'" target="_blank" rel="noopener noreferrer">'+
@@ -66,12 +96,21 @@ function render(){
 async function load(){
  try{
   const r=await fetch('data/radar-feed.json?ts='+Date.now(),{cache:'no-store'});
-  const d=await r.json(); feed=Array.isArray(d.items)?d.items:[];
-  $('#rmUpdated').textContent=d.updatedAt?'actualizado '+date(d.updatedAt):'sin actualización';
+  const d=await r.json(); feed=Array.isArray(d.items)?d.items:[]; window.radarUpdated=d.updatedAt;
   render();
  }catch(e){$('#rmList').innerHTML='<div class="empty">No se pudo cargar el registro automático.</div>'}
 }
+async function shareRadar(){
+ const url=location.href.split('#')[0];
+ const text='RADAR CHAÑAR · ¿De qué se está hablando cuando se habla de San Patricio del Chañar?\n\nMonitor territorial automático de conversación pública.\n\n↗ Abrir RADAR CHAÑAR: '+url;
+ try{
+  if(navigator.share){await navigator.share({title:'RADAR CHAÑAR',text,url});return}
+ }catch(e){if(e.name==='AbortError')return}
+ const wa='https://wa.me/?text='+encodeURIComponent(text);
+ window.open(wa,'_blank','noopener,noreferrer');
+}
 $('#radarKeyword').addEventListener('input',render);
+$('#shareBtn').addEventListener('click',shareRadar);
 load();
 </script>
 </body>
