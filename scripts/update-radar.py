@@ -10,21 +10,37 @@ from difflib import SequenceMatcher
 OUT = "data/radar-feed.json"
 DAYS = 7
 MIN_DATE = datetime.now(timezone.utc) - timedelta(days=DAYS)
+UA = "Chañar-Radar/6.0 (+https://eliasmartinezcultural-glitch.github.io/RADAR-CHA-AR/)"
 
-# Radar territorial: muchas puertas de entrada, una sola misión.
-# Las consultas se mantienen explícitas para que el sistema pueda crecer
-# sin convertir el radar en un agregador de noticias genérico.
+# RADAR CHAÑAR — arquitectura de fuentes
+# 1) Fuentes directas: RSS cuando existe + páginas web cuando no existe.
+# 2) Buscador de respaldo: Google News RSS para ampliar cobertura.
+# 3) Clasificación territorial y deduplicación.
+# La misión sigue siendo una sola: detectar conversación pública con anclaje en Chañar.
+
+DIRECT_SOURCES = [
+    {"name":"Chañar Digital","type":"MEDIO LOCAL","url":"https://www.chanardigital.com.ar/","rss":["https://www.chanardigital.com.ar/rss.xml","https://www.chanardigital.com.ar/feed/","https://www.chanardigital.com.ar/rss.php"]},
+    {"name":"Neuquén Informa","type":"MEDIO OFICIAL PROVINCIAL","url":"https://www.neuqueninforma.gob.ar/","rss":["https://www.neuqueninforma.gob.ar/feed/","https://www.neuqueninforma.gob.ar/rss/"]},
+    {"name":"Municipalidad de San Patricio del Chañar","type":"INSTITUCIONAL LOCAL","url":"https://sanpatricio.gob.ar/","rss":["https://sanpatricio.gob.ar/feed/","https://sanpatricio.gob.ar/rss/"]},
+    {"name":"Boletín Oficial de Neuquén","type":"FUENTE NORMATIVA","url":"https://boletinoficial.neuquen.gov.ar/","rss":[]},
+    {"name":"Infoleg Neuquén","type":"FUENTE NORMATIVA","url":"https://infoleg.neuquen.gob.ar/","rss":[]},
+    {"name":"LM Neuquén","type":"MEDIO REGIONAL","url":"https://www.lmneuquen.com/","rss":["https://www.lmneuquen.com/rss/pages/section.xml?section=neuquen"]},
+    {"name":"Diario Río Negro","type":"MEDIO REGIONAL","url":"https://www.rionegro.com.ar/","rss":["https://www.rionegro.com.ar/feed/"]},
+    {"name":"Mejor Informado","type":"MEDIO REGIONAL","url":"https://www.mejorinformado.com/","rss":["https://www.mejorinformado.com/rss/"]},
+    {"name":"Diariamente Neuquén","type":"MEDIO REGIONAL","url":"https://www.diariamenteneuquen.com/","rss":["https://www.diariamenteneuquen.com/feed/"]},
+]
+
 QUERIES = [
     ('"San Patricio del Chañar"', 'territorio'),
     ('"San Patricio del Chañar" salud hospital', 'salud'),
-    ('"San Patricio del Chañar" educación escuela CPEM', 'educación'),
+    ('"San Patricio del Chañar" educación escuela CPEM EPET', 'educación'),
     ('"San Patricio del Chañar" municipio municipalidad concejo', 'instituciones'),
-    ('"San Patricio del Chañar" producción chacra viñedo bodega', 'producción'),
+    ('"San Patricio del Chañar" producción chacra viñedo bodega productores', 'producción'),
     ('"San Patricio del Chañar" deporte club polideportivo', 'deportes'),
     ('"San Patricio del Chañar" cultura turismo fiesta', 'cultura'),
-    ('"San Patricio del Chañar" obra servicio agua gas', 'servicios'),
-    ('"San Patricio del Chañar" tránsito transporte', 'movilidad'),
-    ('"San Patricio del Chañar" seguridad bomberos', 'emergencias'),
+    ('"San Patricio del Chañar" obra servicio agua gas cloacas', 'servicios'),
+    ('"San Patricio del Chañar" tránsito transporte ruta', 'movilidad'),
+    ('"San Patricio del Chañar" seguridad bomberos policía', 'emergencias'),
     ('"San Patricio del Chañar" "Ruta 7"', 'territorio'),
     ('"San Patricio del Chañar" "Ruta 8"', 'territorio'),
     ('"San Patricio del Chañar" "Vaca Muerta"', 'regional'),
@@ -36,101 +52,159 @@ QUERIES = [
     ('site:rionegro.com.ar "San Patricio del Chañar"', 'Diario Río Negro'),
     ('site:mejorinformado.com "San Patricio del Chañar"', 'Mejor Informado'),
     ('site:diariamenteneuquen.com "San Patricio del Chañar"', 'Diariamente Neuquén'),
-    ('site:mejorinformado.com "Chañar"', 'Mejor Informado'),
-    ('site:neuqueninforma.gob.ar Chañar', 'Neuquén Informa'),
-    ('site:youtube.com "San Patricio del Chañar"', 'YouTube'),
 ]
 
 LOCAL_ENTITIES = [
-    'cpem 31','hospital dra alicia cruz','hospital alicia cruz',
+    'san patricio del chañar','san patricio del chanar','el chañar','el chanar',
+    'hospital dra alicia cruz','hospital alicia cruz','hospital local',
     'municipalidad de san patricio','concejo deliberante de san patricio',
-    'club san patricio','san patricio del chañar','san patricio',
+    'cpem 31','epet 26','escuela primaria 273','escuela 273',
+    'club san patricio','polideportivo municipal','parque industrial',
+    'bodega familia schroeder','bodegas','viñedo','viñedos','chacra',
     'picada 1','picada 4','picada 9','picada 11','picada 20',
-    'ruta 7','ruta 8','polideportivo municipal','parque industrial',
-    'bodega familia schroeder','escuela primaria 273','escuela 273',
-    'comisaria 13','bomberos voluntarios','correo argentino',
-    'hospital local','centro de salud','plaza','chacra','viñedo','viñedos'
+    'ruta 7','ruta 8','comisaria 13','bomberos voluntarios',
+    'correo argentino','centro de salud','plaza','rincón de los sauces'
 ]
-
-AMBIGUOUS = [
-    'el chañar','puerto el chañar','chañaral','chañar viejo',
-    'chañaral de caracoles'
-]
-GENERIC_PAGES = [
-    'últimas noticias sobre','ultimas noticias sobre',
-    'últimas noticias','ultimas noticias','home -','inicio -','amp -'
-]
-STOP = {
-    'san','patricio','del','el','de','la','los','las','una','un','y','en','por',
-    'para','con','que','neuquen','neuquén','chanar','chañar','municipio',
-    'ciudad','provincia','noticias','últimas','ultimas','sobre'
-}
+AMBIGUOUS = ['puerto el chañar','chañaral','chañar viejo','chañaral de caracoles']
+STOP = {'san','patricio','del','el','de','la','los','las','una','un','y','en','por','para','con','que','neuquen','neuquén','chanar','chañar','municipio','ciudad','provincia','noticias','últimas','ultimas','sobre'}
 
 def clean(text):
     return re.sub(r'\s+', ' ', text or '').strip()
 
 def norm(text):
-    text = (text or '').lower()
-    text = text.translate(str.maketrans('áéíóúü', 'aeiouu'))
+    text = (text or '').lower().translate(str.maketrans('áéíóúü','aeiouu'))
     return re.sub(r'[^a-z0-9ñ ]+', ' ', text)
 
 def title_key(title):
-    return ' '.join(w for w in norm(title).split() if len(w) > 2 and w not in STOP)[:240]
+    return ' '.join(w for w in norm(title).split() if len(w)>2 and w not in STOP)[:240]
 
 def similarity(a,b):
     aa=set(title_key(a).split()); bb=set(title_key(b).split())
     if not aa or not bb: return 0
-    jac=len(aa&bb)/len(aa|bb); seq=SequenceMatcher(None,title_key(a),title_key(b)).ratio()
-    return max(jac,seq)
-
-def rss_url(query):
-    q=query+' when:7d'
-    return 'https://news.google.com/rss/search?q='+urllib.parse.quote(q)+'&hl=es-419&gl=AR&ceid=AR:es-419'
-
-def fetch(query):
-    req=urllib.request.Request(rss_url(query),headers={'User-Agent':'Chañar-Radar/5.0'})
-    with urllib.request.urlopen(req,timeout=20) as response: return response.read()
+    return max(len(aa&bb)/len(aa|bb), SequenceMatcher(None,title_key(a),title_key(b)).ratio())
 
 def parse_date(raw):
     if not raw: return None
+    for parser in (parsedate_to_datetime,):
+        try:
+            dt=parser(raw)
+            if dt.tzinfo is None: dt=dt.replace(tzinfo=timezone.utc)
+            return dt.astimezone(timezone.utc)
+        except Exception: pass
     try:
-        dt=parsedate_to_datetime(raw)
-        if dt.tzinfo is None: dt=dt.replace(tzinfo=timezone.utc)
+        dt=datetime.fromisoformat(raw.replace('Z','+00:00'))
         return dt.astimezone(timezone.utc)
-    except Exception: return None
+    except Exception:
+        return None
 
-def is_ambiguous(text):
-    n=norm(text)
-    if 'san patricio del chañar' in n or 'san patricio del chanar' in n: return False
-    return any(norm(x) in n for x in AMBIGUOUS)
+def fetch_url(url):
+    req=urllib.request.Request(url,headers={'User-Agent':UA,'Accept':'text/html,application/rss+xml,application/xml;q=0.9,*/*;q=0.8'})
+    with urllib.request.urlopen(req,timeout=20) as response:
+        return response.read(), response.headers.get('Content-Type','')
 
 def relevance(title,description,source):
-    body=norm(' '.join([title,description]))
+    body=norm(' '.join([title,description,source]))
     exact='san patricio del chañar' in body or 'san patricio del chanar' in body
-    local_hits=[x for x in LOCAL_ENTITIES if norm(x) in body]
-    if is_ambiguous(body) and not exact: return 0,'AMBIGUA'
-    if any(norm(x) in norm(title) for x in GENERIC_PAGES): return 0,'GENERICA'
+    if any(norm(x) in body for x in AMBIGUOUS) and not exact: return 0,'AMBIGUA'
+    hits=[x for x in LOCAL_ENTITIES if norm(x) in body]
     if exact: return 3,'DIRECTA'
-    if local_hits:
-        if len(local_hits)>=2 or any(norm(x) in norm(title) for x in LOCAL_ENTITIES): return 3,'DIRECTA'
-        return 2,'REGIONAL'
-    return 0,'SIN_ANCLA'
+    if len(hits)>=2 or any(norm(x) in norm(title) for x in LOCAL_ENTITIES): return 3,'DIRECTA'
+    if hits: return 2,'CON ANCLA LOCAL'
+    return 0,'SIN ANCLA'
 
-def parse_feed(xml_bytes,source_hint,query):
-    root=ET.fromstring(xml_bytes); rows=[]
+def parse_rss(xml_bytes,source,source_type,source_url,query='direct-rss'):
+    root=ET.fromstring(xml_bytes)
+    rows=[]
     for item in root.findall('.//item'):
         title=clean(item.findtext('title')); link=clean(item.findtext('link'))
-        raw_date=clean(item.findtext('pubDate')); published_at=parse_date(raw_date)
-        description=clean(item.findtext('description'))
-        source_node=item.find('source')
-        if source_node is None: source_node=item.find('{http://search.yahoo.com/mrss/}source')
-        source=clean(source_node.text if source_node is not None else '') or source_hint
-        source_url=clean(source_node.attrib.get('url','')) if source_node is not None else ''
-        if not title or not link or not published_at or published_at<MIN_DATE: continue
-        title=re.sub(r'\s+-\s+(Chañar Digital|LM Neuquén|Diario Río Negro|Neuquén Informa|MejorInformado\.com|Diariamente Neuquén|Lmneuquen\.com|rionegro\.com\.ar)$','',title,flags=re.I).strip()
-        score,label=relevance(title,description,source)
+        raw=clean(item.findtext('pubDate') or item.findtext('published') or item.findtext('{http://purl.org/dc/elements/1.1/}date'))
+        dt=parse_date(raw)
+        desc=clean(item.findtext('description'))
+        if not title or not link or not dt or dt<MIN_DATE: continue
+        score,label=relevance(title,desc,source)
         if score<2: continue
-        rows.append({'title':title,'url':link,'published':raw_date,'publishedAt':published_at.isoformat(),'description':description,'source':source,'sourceUrl':source_url,'query':query,'relevance':score,'relevanceLabel':label})
+        rows.append({'title':title,'url':link,'publishedAt':dt.isoformat(),'published':raw,'description':desc,'source':source,'sourceType':source_type,'sourceUrl':source_url,'collection':'DIRECTA','query':query,'relevance':score,'relevanceLabel':label})
+    return rows
+
+def html_text(html):
+    return clean(re.sub(r'<[^>]+>',' ',html,flags=re.S))
+
+def first_date(html):
+    patterns=[
+        r'<meta[^>]+property=["\']article:published_time["\'][^>]+content=["\']([^"\']+)',
+        r'<meta[^>]+name=["\']date["\'][^>]+content=["\']([^"\']+)',
+        r'<time[^>]+datetime=["\']([^"\']+)',
+        r'"datePublished"\s*:\s*"([^"]+)"',
+        r'"dateCreated"\s*:\s*"([^"]+)"'
+    ]
+    for p in patterns:
+        m=re.search(p,html,re.I)
+        if m:
+            dt=parse_date(m.group(1))
+            if dt: return dt
+    return None
+
+def parse_homepage(html_bytes,source,source_type,source_url):
+    raw=html_bytes.decode('utf-8','ignore')
+    rows=[]
+    # We only accept links whose visible title carries a Chañar/local signal.
+    for m in re.finditer(r'<a\b[^>]*href=["\']([^"\']+)["\'][^>]*>(.*?)</a>',raw,re.I|re.S):
+        href,inside=m.group(1),m.group(2)
+        title=clean(html_text(inside))
+        if len(title)<18 or len(title)>240: continue
+        body=norm(title)
+        if not any(norm(k) in body for k in LOCAL_ENTITIES): continue
+        link=urllib.parse.urljoin(source_url,href)
+        if link.startswith(('javascript:','mailto:','#')): continue
+        dt=first_date(raw[max(0,m.start()-3000):min(len(raw),m.end()+3000)])
+        if not dt or dt<MIN_DATE: continue
+        score,label=relevance(title,'',source)
+        if score<2: continue
+        rows.append({'title':title,'url':link,'publishedAt':dt.isoformat(),'published':dt.isoformat(),'description':'','source':source,'sourceType':source_type,'sourceUrl':source_url,'collection':'DIRECTA-WEB','query':'homepage','relevance':score,'relevanceLabel':label})
+    return rows
+
+def direct_collect():
+    rows=[]
+    source_status=[]
+    for src in DIRECT_SOURCES:
+        found=0; mode='sin respuesta'
+        for rss in src['rss']:
+            try:
+                data,ctype=fetch_url(rss)
+                got=parse_rss(data,src['name'],src['type'],src['url'],rss)
+                rows.extend(got); found+=len(got)
+                if got: mode='RSS directo'
+            except Exception: pass
+        try:
+            data,ctype=fetch_url(src['url'])
+            got=parse_homepage(data,src['name'],src['type'],src['url'])
+            rows.extend(got); found+=len(got)
+            if got and mode=='sin respuesta': mode='WEB directa'
+        except Exception: pass
+        source_status.append({'name':src['name'],'type':src['type'],'mode':mode,'signals':found,'url':src['url']})
+    return rows,source_status
+
+def google_url(query):
+    q=query+' when:7d'
+    return 'https://news.google.com/rss/search?q='+urllib.parse.quote(q)+'&hl=es-419&gl=AR&ceid=AR:es-419'
+
+def search_collect():
+    rows=[]
+    for query,hint in QUERIES:
+        try:
+            data,_=fetch_url(google_url(query))
+            root=ET.fromstring(data)
+            for item in root.findall('.//item'):
+                title=clean(item.findtext('title')); link=clean(item.findtext('link'))
+                raw=clean(item.findtext('pubDate')); dt=parse_date(raw)
+                desc=clean(item.findtext('description'))
+                sn=item.find('source'); source=clean(sn.text if sn is not None else '') or hint
+                if not title or not link or not dt or dt<MIN_DATE: continue
+                score,label=relevance(title,desc,source)
+                if score<2: continue
+                rows.append({'title':title,'url':link,'publishedAt':dt.isoformat(),'published':raw,'description':desc,'source':source,'sourceType':'BUSCADOR / RESPALDO','sourceUrl':'','collection':'BUSCADOR','query':query,'relevance':score,'relevanceLabel':label})
+        except Exception as exc:
+            print('SEARCH ERROR',query,exc)
     return rows
 
 try:
@@ -138,15 +212,14 @@ try:
 except Exception:
     old={'items':[]}
 
-fresh=[]
-for query,hint in QUERIES:
-    try: fresh.extend(parse_feed(fetch(query),hint,query))
-    except Exception as exc: print('ERROR',query,exc)
+direct_rows,status=direct_collect()
+search_rows=search_collect()
+fresh=direct_rows+search_rows
 
 by_url={}
 for item in fresh:
     key=item['url'].split('#',1)[0]
-    if key not in by_url or (item['relevance'],item['publishedAt'])>(by_url[key]['relevance'],by_url[key]['publishedAt']):
+    if key not in by_url or (item['collection']=='DIRECTA' and by_url[key]['collection']!='DIRECTA'):
         by_url[key]=item
 
 ordered=sorted(by_url.values(),key=lambda x:(x['publishedAt'],x['relevance']),reverse=True)
@@ -156,8 +229,10 @@ for item in ordered:
     for kept in deduped:
         if similarity(item['title'],kept['title'])>=0.84:
             match=kept; break
-    if match is None: deduped.append(item)
-    elif item['relevance']>match['relevance']: match.update(item)
+    if match is None:
+        deduped.append(item)
+    elif item['collection'].startswith('DIRECTA') and not kept['collection'].startswith('DIRECTA'):
+        deduped[deduped.index(match)]=item
 
 previous={i.get('url'):i for i in old.get('items',[])}
 now=datetime.now(timezone.utc).isoformat()
@@ -169,8 +244,10 @@ for item in deduped:
     item['evidenceUrl']=item['url']
 
 deduped.sort(key=lambda x:x['publishedAt'],reverse=True)
-deduped=deduped[:180]
-stats={'total':len(deduped),'direct':sum(x['relevance']==3 for x in deduped),'regional':sum(x['relevance']==2 for x in deduped),'new':sum(bool(x.get('isNew')) for x in deduped),'sources':len({x['source'] for x in deduped})}
-output={'updatedAt':now,'window':f'{DAYS} días','purpose':'¿De qué se está hablando cuando se habla de San Patricio del Chañar?','keywords':sorted(set(q for q,_ in QUERIES)),'sourceHints':sorted(set(h for _,h in QUERIES)),'items':deduped,'stats':stats}
+deduped=deduped[:240]
+direct_count=sum(x['collection'].startswith('DIRECTA') for x in deduped)
+stats={'total':len(deduped),'direct':sum(x['relevance']==3 for x in deduped),'regional':sum(x['relevance']==2 for x in deduped),'new':sum(bool(x.get('isNew')) for x in deduped),'sources':len({x['source'] for x in deduped}),'directSignals':direct_count}
+output={'updatedAt':now,'window':f'{DAYS} días','purpose':'¿De qué se está hablando cuando se habla de San Patricio del Chañar?','architecture':'fuentes directas + web directa + buscador de respaldo','keywords':[q for q,_ in QUERIES],'sourceRegistry':status,'stats':stats,'items':deduped}
 with open(OUT,'w',encoding='utf-8') as handle: json.dump(output,handle,ensure_ascii=False,indent=2)
 print('Radar:',stats)
+for s in status: print('SOURCE',s)
