@@ -103,13 +103,17 @@ def fetch_url(url):
         return response.read(), response.headers.get('Content-Type','')
 
 def relevance(title,description,source):
-    body=norm(' '.join([title,description,source]))
-    exact='san patricio del chañar' in body or 'san patricio del chanar' in body
-    if any(norm(x) in body for x in AMBIGUOUS) and not exact: return 0,'AMBIGUA'
-    hits=[x for x in LOCAL_ENTITIES if norm(x) in body]
+    # La fuente/query NO pueden convertir por sí solas una nota en "DIRECTA".
+    # La evidencia territorial debe aparecer en el título o descripción.
+    evidence=norm(' '.join([title,description]))
+    exact='san patricio del chañar' in evidence or 'san patricio del chanar' in evidence
+    if any(norm(x) in evidence for x in AMBIGUOUS) and not exact: return 0,'AMBIGUA'
+    hits=[x for x in LOCAL_ENTITIES if norm(x) in evidence]
+    title_hits=[x for x in LOCAL_ENTITIES if norm(x) in norm(title)]
     if exact: return 3,'DIRECTA'
-    if len(hits)>=2 or any(norm(x) in norm(title) for x in LOCAL_ENTITIES): return 3,'DIRECTA'
-    if hits: return 2,'CON ANCLA LOCAL'
+    if len(title_hits)>=1: return 3,'DIRECTA'
+    if len(hits)>=2: return 3,'DIRECTA'
+    if len(hits)==1: return 2,'CON ANCLA LOCAL'
     return 0,'SIN ANCLA'
 
 def parse_rss(xml_bytes,source,source_type,source_url,query='direct-rss'):
