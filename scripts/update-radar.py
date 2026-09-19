@@ -17,9 +17,14 @@ UA = "Chañar-Radar/6.0 (+https://eliasmartinezcultural-glitch.github.io/RADAR-C
 # 2) Buscador de respaldo: Google News RSS para ampliar cobertura.
 # 3) Clasificación territorial y deduplicación.
 # La misión sigue siendo una sola: detectar conversación pública con anclaje en Chañar.
+# Orden operativo: fuente local/institucional directa -> radio local directa -> regional directa -> buscador de respaldo.
+# El buscador amplía cobertura; no convierte una fuente secundaria en fuente primaria.
 
 DIRECT_SOURCES = [
     {"name":"Chañar Digital","type":"MEDIO LOCAL","url":"https://www.chanardigital.com.ar/","rss":["https://www.chanardigital.com.ar/rss.xml","https://www.chanardigital.com.ar/feed/","https://www.chanardigital.com.ar/rss.php"]},
+    {"name":"Mía Radio 94.7","type":"RADIO LOCAL","url":"https://www.radiomia.com.ar/","rss":[]},
+    {"name":"Radio Tuit Vaca Muerta 90.5","type":"RADIO LOCAL / PRODUCTIVA","url":"https://tuitvacamuerta.com/","rss":[]},
+    {"name":"Vaca Muerta News","type":"MEDIO REGIONAL / RADIO","url":"https://www.vacamuertanews.com/","rss":["https://www.vacamuertanews.com/feed/"]},
     {"name":"Neuquén Informa","type":"MEDIO OFICIAL PROVINCIAL","url":"https://www.neuqueninforma.gob.ar/","rss":["https://www.neuqueninforma.gob.ar/feed/","https://www.neuqueninforma.gob.ar/rss/"]},
     {"name":"Municipalidad de San Patricio del Chañar","type":"INSTITUCIONAL LOCAL","url":"https://sanpatricio.gob.ar/","rss":["https://sanpatricio.gob.ar/feed/","https://sanpatricio.gob.ar/rss/"]},
     {"name":"Boletín Oficial de Neuquén","type":"FUENTE NORMATIVA","url":"https://boletinoficial.neuquen.gov.ar/","rss":[]},
@@ -47,11 +52,14 @@ QUERIES = [
     ('"San Patricio del Chañar" Añelo', 'regional'),
     ('"San Patricio del Chañar" Neuquén', 'regional'),
     ('site:chanardigital.com.ar "San Patricio del Chañar"', 'Chañar Digital'),
+    ('site:radiomia.com.ar "San Patricio del Chañar"', 'Mía Radio 94.7'),
+    ('site:tuitvacamuerta.com "San Patricio del Chañar"', 'Radio Tuit Vaca Muerta 90.5'),
     ('site:neuqueninforma.gob.ar "San Patricio del Chañar"', 'Neuquén Informa'),
     ('site:lmneuquen.com "San Patricio del Chañar"', 'LM Neuquén'),
     ('site:rionegro.com.ar "San Patricio del Chañar"', 'Diario Río Negro'),
     ('site:mejorinformado.com "San Patricio del Chañar"', 'Mejor Informado'),
     ('site:diariamenteneuquen.com "San Patricio del Chañar"', 'Diariamente Neuquén'),
+    ('site:vacamuertanews.com "San Patricio del Chañar"', 'Vaca Muerta News'),
 ]
 
 LOCAL_ENTITIES = [
@@ -246,11 +254,16 @@ for item in deduped:
     item['isNew']=item['url'] not in previous
     item['titleKey']=title_key(item['title'])
     item['evidenceUrl']=item['url']
+    item['sourcePriority'] = (
+        1 if item.get('collection','').startswith('DIRECTA') and item.get('sourceType','') in {'MEDIO LOCAL','INSTITUCIONAL LOCAL','RADIO LOCAL'}
+        else 2 if item.get('collection','').startswith('DIRECTA')
+        else 3
+    )
 
 deduped.sort(key=lambda x:x['publishedAt'],reverse=True)
 deduped=deduped[:240]
 direct_count=sum(x['collection'].startswith('DIRECTA') for x in deduped)
-stats={'total':len(deduped),'direct':sum(x['relevance']==3 for x in deduped),'regional':sum(x['relevance']==2 for x in deduped),'new':sum(bool(x.get('isNew')) for x in deduped),'sources':len({x['source'] for x in deduped}),'directSignals':direct_count}
+stats={'total':len(deduped),'direct':sum(x['relevance']==3 for x in deduped),'regional':sum(x['relevance']==2 for x in deduped),'new':sum(bool(x.get('isNew')) for x in deduped),'sources':len({x['source'] for x in deduped}),'directSignals':direct_count,'localDirectSignals':sum(x.get('sourcePriority')==1 for x in deduped),'radioDirectSignals':sum(x.get('sourceType')=='RADIO LOCAL' for x in deduped)}
 output={'updatedAt':now,'window':f'{DAYS} días','purpose':'¿De qué se está hablando cuando se habla de San Patricio del Chañar?','architecture':'fuentes directas + web directa + buscador de respaldo','keywords':[q for q,_ in QUERIES],'sourceRegistry':status,'stats':stats,'items':deduped}
 with open(OUT,'w',encoding='utf-8') as handle: json.dump(output,handle,ensure_ascii=False,indent=2)
 print('Radar:',stats)
