@@ -11,9 +11,9 @@ OUT = "data/radar-feed.json"
 DAYS = 7
 MEMORY_DAYS = 45
 MIN_DATE = datetime.now(timezone.utc) - timedelta(days=DAYS)
-UA = "Chañar-Radar/6.0 (+https://eliasmartinezcultural-glitch.github.io/RADAR-CHA-AR/)"
+UA = "Pulso-Chañar/7.0 (+https://eliasmartinezcultural-glitch.github.io/RADAR-CHA-AR/)"
 
-# RADAR CHAÑAR — arquitectura de fuentes
+# PULSO CHAÑAR — arquitectura de fuentes
 # 1) Fuentes directas: RSS cuando existe + páginas web cuando no existe.
 # 2) Buscador de respaldo: Google News RSS para ampliar cobertura.
 # 3) Clasificación territorial y deduplicación.
@@ -72,7 +72,7 @@ LOCAL_ENTITIES = [
     'bodega familia schroeder','bodegas','viñedo','viñedos','chacra',
     'picada 1','picada 4','picada 9','picada 11','picada 20',
     'ruta 7','ruta 8','comisaria 13','bomberos voluntarios',
-    'correo argentino','centro de salud','plaza','rincón de los sauces'
+    'correo argentino','centro de salud','plaza'
 ]
 AMBIGUOUS = ['puerto el chañar','chañaral','chañar viejo','chañaral de caracoles']
 STOP = {'san','patricio','del','el','de','la','los','las','una','un','y','en','por','para','con','que','neuquen','neuquén','chanar','chañar','municipio','ciudad','provincia','noticias','últimas','ultimas','sobre'}
@@ -180,21 +180,38 @@ def direct_collect():
     rows=[]
     source_status=[]
     for src in DIRECT_SOURCES:
-        found=0; mode='sin respuesta'
+        found=0; mode='sin respuesta'; attempted=0; failures=[]; last_fetch=datetime.now(timezone.utc).isoformat()
         for rss in src['rss']:
             try:
+                attempted += 1
                 data,ctype=fetch_url(rss)
                 got=parse_rss(data,src['name'],src['type'],src['url'],rss)
                 rows.extend(got); found+=len(got)
                 if got: mode='RSS directo'
-            except Exception: pass
+            except Exception as exc:
+                failures.append(f'RSS: {type(exc).__name__}')
         try:
+            attempted += 1
             data,ctype=fetch_url(src['url'])
             got=parse_homepage(data,src['name'],src['type'],src['url'])
             rows.extend(got); found+=len(got)
             if got and mode=='sin respuesta': mode='WEB directa'
-        except Exception: pass
-        source_status.append({'name':src['name'],'type':src['type'],'mode':mode,'signals':found,'url':src['url']})
+        except Exception as exc:
+            failures.append(f'WEB: {type(exc).__name__}')
+        success = attempted > len(failures)
+        source_status.append({
+            'name':src['name'],
+            'type':src['type'],
+            'mode':mode,
+            'signals':found,
+            'url':src['url'],
+            'lastFetch':last_fetch,
+            'success':success,
+            'attempted':attempted,
+            'failures':failures[:4],
+            'directAvailability':'available' if success else 'failed',
+            'freshnessHours':0 if found else None
+        })
     return rows,source_status
 
 def google_url(query):
@@ -418,7 +435,7 @@ deduped=deduped[:240]
 events=build_events(deduped, old.get('events',[]))
 direct_count=sum(x['collection'].startswith('DIRECTA') for x in deduped)
 stats={'total':len(deduped),'direct':sum(x['relevance']==3 for x in deduped),'regional':sum(x['relevance']==2 for x in deduped),'new':sum(bool(x.get('isNew')) for x in deduped),'sources':len({x['source'] for x in deduped}),'directSignals':direct_count,'localDirectSignals':sum(x.get('sourcePriority')==1 for x in deduped),'radioDirectSignals':sum(x.get('sourceType')=='RADIO LOCAL' for x in deduped)}
-output={'updatedAt':now,'window':f'{DAYS} días','purpose':'¿De qué se está hablando cuando se habla de San Patricio del Chañar?','architecture':'fuentes directas + web directa + respaldo + memoria de eventos + ciclo de vida + territorio + evidencia','keywords':[q for q,_ in QUERIES],'sourceRegistry':status,'stats':stats,'system':{'memoryDays':MEMORY_DAYS,'eventIdentity':'estable entre actualizaciones','lifecycle':['EMERGENTE','ACTIVO','SOSTENIDO','EN DESCENSO','RECIENTE'],'sourceHealth':status},'events':events,'items':deduped}
+output={'updatedAt':now,'window':f'{DAYS} días','purpose':'Detectar qué se está moviendo en San Patricio del Chañar y mostrar de dónde surge cada señal.','architecture':'fuentes directas + web directa + respaldo + memoria de eventos + ciclo de vida + territorio + evidencia + salud de fuentes','keywords':[q for q,_ in QUERIES],'sourceRegistry':status,'stats':stats,'system':{'memoryDays':MEMORY_DAYS,'eventIdentity':'estable entre actualizaciones','evidenceRule':'evidence-first','movementRule':'descriptivo: recencia + cobertura + diversidad de fuentes','sourceFailureRule':'no inferir desaparición cuando las fuentes conocidas no responden','lifecycle':['EMERGENTE','ACTIVO','SOSTENIDO','EN DESCENSO','RECIENTE'],'sourceHealth':status},'events':events,'items':deduped}
 with open(OUT,'w',encoding='utf-8') as handle: json.dump(output,handle,ensure_ascii=False,indent=2)
 print('Radar:',stats)
 for s in status: print('SOURCE',s)
