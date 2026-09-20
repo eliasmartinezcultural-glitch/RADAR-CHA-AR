@@ -228,7 +228,7 @@ def build_system_radars(events, environment):
         if code=='CONVERSACIÓN':
             matches=len(events)
         elif code=='VIENTO':
-            matches=sum(1 for e in events if any(t in norm(e.get('title','')+' '+str(e.get('description',''))) for t in terms))
+            matches=sum(1 for e in events if any(norm(t) in norm(e.get('title','')+' '+str(e.get('description',''))) for t in terms))
         else:
             matches=sum(1 for e in events if any(t in norm(e.get('title','')+' '+str(e.get('description',''))) for t in terms))
         last=max([parse_date(e.get('publishedAt')) for e in events if any(t in norm(e.get('title','')+' '+str(e.get('description',''))) for t in terms) and parse_date(e.get('publishedAt'))] or [None])
