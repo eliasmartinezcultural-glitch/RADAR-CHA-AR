@@ -71,6 +71,11 @@ LOCAL_ENTITIES=[
 ]
 STRONG_LOCAL=set(LOCAL_ENTITIES)-{'ruta 7','ruta 8','epen','viñedo','viñedos','bodegas','chacra'}
 AMBIGUOUS=['puerto el chañar','chañaral','chañar viejo','chañaral de caracoles']
+def clean(s): return re.sub(r'\\s+',' ',s or '').strip()
+def norm(s):
+    s=(s or '').lower().translate(str.maketrans('áéíóúü','aeiouu'))
+    return re.sub(r'[^a-z0-9ñ ]+',' ',s)
+
 GENERIC_TITLES=[norm('últimas noticias sobre san patricio del chañar'),norm('ultimas noticias sobre san patricio del chañar'),norm('noticias de san patricio del chañar')]
 
 TOPIC_RULES=[
@@ -85,10 +90,6 @@ TOPIC_RULES=[
  ('SEGURIDAD / EMERGENCIAS',['bombero','policia','comisaria','emergencia']),
 ]
 
-def clean(s): return re.sub(r'\s+',' ',s or '').strip()
-def norm(s):
-    s=(s or '').lower().translate(str.maketrans('áéíóúü','aeiouu'))
-    return re.sub(r'[^a-z0-9ñ ]+',' ',s)
 def parse_date(raw):
     if not raw: return None
     try:
