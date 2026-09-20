@@ -37,6 +37,21 @@ jobs:
         run: python scripts/audit-radar.py
       - name: Construir memoria histórica
         run: python scripts/pulse-history.py
+      - name: Validar contrato de salida
+        run: |
+          python -m py_compile scripts/update-radar.py scripts/territory-graph.py scripts/audit-radar.py scripts/pulse-history.py
+          python - <<'PY'
+          import json
+          with open("data/radar-feed.json", encoding="utf-8") as f:
+              d=json.load(f)
+          required=["updatedAt","environment","systemRadars","sourceRegistry","stats","events","territorialGraph","audit"]
+          missing=[k for k in required if k not in d]
+          if missing:
+              raise SystemExit("Contrato RADAR incompleto: " + ", ".join(missing))
+          if len(d["systemRadars"]) != 12:
+              raise SystemExit(f"Se esperaban 12 radares y hay {len(d['systemRadars'])}")
+          print("RADAR OK:", d["updatedAt"], "| radares=", len(d["systemRadars"]), "| hechos=", len(d["events"]))
+          PY
       - name: Guardar pulso
         run: |
           git config user.name "PULSO CHAÑAR"
