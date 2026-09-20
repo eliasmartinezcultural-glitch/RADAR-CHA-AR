@@ -191,6 +191,58 @@ def search_collect():
         except Exception as e: print('SEARCH ERROR',query,type(e).__name__)
     return rows
 
+
+def collect_environment():
+    """Datos ambientales reales y señales de infraestructura derivadas de evidencia.
+    No convierte ausencia de datos en ausencia de problema."""
+    env={'updatedAt':datetime.now(timezone.utc).isoformat(),'weather':None,'sources':[]}
+    try:
+        url='https://api.open-meteo.com/v1/forecast?latitude=-39.061&longitude=-68.353&current=temperature_2m,relative_humidity_2m,wind_speed_10m,wind_direction_10m,precipitation&wind_speed_unit=kmh&timezone=America%2FArgentina%2FNeuquen'
+        raw=json.loads(fetch(url).decode('utf-8'))
+        c=raw.get('current',{})
+        env['weather']={'temperatureC':c.get('temperature_2m'),'humidityPct':c.get('relative_humidity_2m'),'windKmh':c.get('wind_speed_10m'),'windDirection':c.get('wind_direction_10m'),'precipitationMm':c.get('precipitation'),'observedAt':c.get('time'),'source':'Open-Meteo','mode':'DATO DIRECTO'}
+        env['sources'].append({'name':'Open-Meteo','mode':'OK','url':url})
+    except Exception as e:
+        env['sources'].append({'name':'Open-Meteo','mode':'FALLA','error':type(e).__name__})
+
+    return env
+
+def build_system_radars(events, environment):
+    now=datetime.now(timezone.utc)
+    specs=[
+      ('CONVERSACIÓN','Conversación general',[''], 'evidencia editorial'),
+      ('RUTA 7','Corredor Ruta 7',['ruta 7','transito','transporte','corte','desvio','camiones'], 'evidencia territorial'),
+      ('RUTA 8','Corredor Ruta 8',['ruta 8','transito','transporte','corte','desvio'], 'evidencia territorial'),
+      ('VIENTO','Condición de viento',['viento','rafaga','ráfaga','alerta meteorologica'], 'dato ambiental directo + evidencia'),
+      ('ENERGÍA','Electricidad / cortes de luz',['luz','energia','eléctr','electric','corte de luz','epen'], 'evidencia editorial'),
+      ('AGUA','Agua / abastecimiento',['agua','abastecimiento','corte de agua','potable','cloaca'], 'evidencia editorial'),
+      ('SERVICIOS','Servicios e infraestructura',['servicio','obra','cloaca','residu','gas','luz','agua'], 'evidencia editorial'),
+      ('SALUD','Salud',['hospital','salud','medic','vacun','guardia'], 'evidencia editorial'),
+      ('EDUCACIÓN','Educación',['escuela','cpem','epet','clases','docente'], 'evidencia editorial'),
+      ('PRODUCCIÓN','Producción rural',['chacra','viñedo','bodega','productor','agro'], 'evidencia editorial'),
+      ('EMERGENCIAS','Seguridad / emergencias',['bombero','policia','emergencia','rescate','accidente'], 'evidencia editorial'),
+      ('TERRITORIO','Territorio / microzonas',['picada','barrio','sector','parque industrial','loteo'], 'evidencia territorial')
+    ]
+    out=[]
+    for code,label,terms,mode in specs:
+        if code=='CONVERSACIÓN':
+            matches=len(events)
+        elif code=='VIENTO':
+            matches=sum(1 for e in events if any(t in norm(e.get('title','')+' '+str(e.get('description',''))) for t in terms))
+        else:
+            matches=sum(1 for e in events if any(t in norm(e.get('title','')+' '+str(e.get('description',''))) for t in terms))
+        last=max([parse_date(e.get('publishedAt')) for e in events if any(t in norm(e.get('title','')+' '+str(e.get('description',''))) for t in terms) and parse_date(e.get('publishedAt'))] or [None])
+        age=None if not last else round((now-last).total_seconds()/3600,1)
+        status='SIN SEÑAL RECIENTE'
+        if matches:
+            status='SEÑAL DETECTADA'
+            if age is not None and age<=24: status='SEÑAL RECIENTE'
+        if code=='VIENTO' and environment.get('weather'):
+            status='DATO DIRECTO'
+            matches=environment['weather'].get('windKmh') if environment['weather'].get('windKmh') is not None else matches
+        out.append({'id':code,'label':label,'signal':matches,'status':status,'freshnessHours':age,'mode':('DATO DIRECTO' if code=='VIENTO' and environment.get('weather') else mode),'evidenceCount':sum(1 for e in events if any(t in norm(e.get('title','')+' '+str(e.get('description',''))) for t in terms))})
+    return out
+
 try:
     old=json.load(open(OUT,encoding='utf-8'))
 except Exception: old={'items':[],'events':[]}
@@ -313,7 +365,9 @@ def build_events(items,old_events):
 
 dedup=dedup[:240]
 events=build_events(dedup,old.get('events',[]))
+environment=collect_environment()
+system_radars=build_system_radars(events,environment)
 stats={'total':len(dedup),'direct':sum(x['relevance']==3 for x in dedup),'regional':sum(x['relevance']==2 for x in dedup),'new':sum(x.get('isNew',False) for x in dedup),'sources':len({x['source'] for x in dedup}),'directSignals':sum(x['collection'].startswith('DIRECTA') for x in dedup),'localDirectSignals':sum(x.get('sourcePriority')==1 for x in dedup),'radioDirectSignals':sum(x.get('sourceType')=='RADIO LOCAL' for x in dedup),'precisionRule':'evidence-first','searchNoiseRejected':sum(1 for x in fresh if relevance(x.get('title',''),x.get('description',''))[1] in {'AGREGADOR','SIN ANCLA','AMBIGUA'})}
-output={'updatedAt':now,'window':f'{DAYS} días','purpose':'Detectar qué se está moviendo en San Patricio del Chañar y mostrar de dónde surge cada señal.','architecture':'fuentes directas + web directa + respaldo + memoria de eventos + ciclo de vida + territorio + evidencia + salud de fuentes','keywords':[q for q,_ in QUERIES],'sourceRegistry':status,'stats':stats,'system':{'memoryDays':MEMORY_DAYS,'eventIdentity':'estable entre actualizaciones','evidenceRule':'evidence-first','movementRule':'descriptivo: recencia + cobertura + diversidad de fuentes; no es ranking de importancia','sourceFailureRule':'no inferir desaparición cuando las fuentes conocidas no responden','lifecycle':['EMERGENTE','ACTIVO','SOSTENIDO','EN DESCENSO','RECIENTE'],'sourceHealth':status},'events':events,'items':dedup}
+output={'updatedAt':now,'window':f'{DAYS} días','purpose':'Detectar qué se está moviendo en San Patricio del Chañar y mostrar de dónde surge cada señal.','architecture':'fuentes directas + web directa + respaldo + memoria de eventos + ciclo de vida + territorio + evidencia + salud de fuentes + radares de infraestructura + ambiente','keywords':[q for q,_ in QUERIES],'sourceRegistry':status,'stats':stats,'environment':environment,'systemRadars':system_radars,'system':{'memoryDays':MEMORY_DAYS,'eventIdentity':'estable entre actualizaciones','evidenceRule':'evidence-first','movementRule':'descriptivo: recencia + cobertura + diversidad de fuentes; no es ranking de importancia','sourceFailureRule':'no inferir desaparición cuando las fuentes conocidas no responden','infrastructureRule':'una señal editorial no equivale a confirmación operativa; los datos directos se etiquetan por separado','lifecycle':['EMERGENTE','ACTIVO','SOSTENIDO','EN DESCENSO','RECIENTE'],'sourceHealth':status},'events':events,'items':dedup}
 with open(OUT,'w',encoding='utf-8') as f: json.dump(output,f,ensure_ascii=False,indent=2)
-print('PULSO:',stats)
+print('PULSO:',stats,'RADARES:',len(system_radars))
