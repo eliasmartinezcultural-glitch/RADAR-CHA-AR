@@ -294,7 +294,7 @@ def build_events(items):
         # Prioriza una fuente directa para nombrar el hecho cuando existe.
         direct=[x for x in members if x.get('sourcePriority',3)<3]
         if direct:
-            canonical=sorted(direct,key=lambda x:(x.get('sourcePriority',3),x.get('publishedAt','')),key=None) if False else sorted(direct,key=lambda x:(x.get('sourcePriority',3),-len(x.get('title',''))))[0]
+            canonical=sorted(direct,key=lambda x:(x.get('sourcePriority',3),-len(x.get('title',''))))[0]
         members=sorted(members,key=lambda x:x.get('publishedAt',''),reverse=True)
         sources=[]
         for m in members:
