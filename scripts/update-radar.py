@@ -260,11 +260,65 @@ for item in deduped:
         else 3
     )
 
+def event_similarity(a,b):
+    # Agrupa coberturas del mismo hecho sin exigir títulos idénticos.
+    da=parse_date(a.get('publishedAt')) or MIN_DATE
+    db=parse_date(b.get('publishedAt')) or MIN_DATE
+    if abs((da-db).total_seconds()) > 4*86400:
+        return 0
+    sa=set(w for w in title_key(a.get('title','')).split() if len(w)>=4)
+    sb=set(w for w in title_key(b.get('title','')).split() if len(w)>=4)
+    common=len(sa & sb)
+    sim=similarity(a.get('title',''),b.get('title',''))
+    if sim>=0.78: return sim
+    if common>=2 and sim>=0.58: return sim
+    return 0
+
+def build_events(items):
+    clusters=[]
+    for item in sorted(items,key=lambda x:x.get('publishedAt',''),reverse=True):
+        best=None; best_score=0
+        for idx,event in enumerate(clusters):
+            score=max((event_similarity(item,member) for member in event['items']),default=0)
+            if score>best_score:
+                best_score=score; best=idx
+        if best is None or best_score==0:
+            clusters.append({'items':[item]})
+        else:
+            clusters[best]['items'].append(item)
+
+    events=[]
+    for n,cluster in enumerate(clusters,1):
+        members=cluster['items']
+        canonical=sorted(members,key=lambda x:(x.get('sourcePriority',3),-len(x.get('title','')),x.get('publishedAt','')),reverse=False)[0]
+        # Prioriza una fuente directa para nombrar el hecho cuando existe.
+        direct=[x for x in members if x.get('sourcePriority',3)<3]
+        if direct:
+            canonical=sorted(direct,key=lambda x:(x.get('sourcePriority',3),x.get('publishedAt','')),key=None) if False else sorted(direct,key=lambda x:(x.get('sourcePriority',3),-len(x.get('title',''))))[0]
+        members=sorted(members,key=lambda x:x.get('publishedAt',''),reverse=True)
+        sources=[]
+        for m in members:
+            if m.get('source') and m['source'] not in sources: sources.append(m['source'])
+        events.append({
+            'eventId':f'CHA-{n:03d}',
+            'title':canonical.get('title',''),
+            'publishedAt':members[0].get('publishedAt'),
+            'relevance':max(m.get('relevance',0) for m in members),
+            'relevanceLabel':'DIRECTA' if any(m.get('relevance')==3 for m in members) else 'CON ANCLA LOCAL',
+            'coverage':len(members),
+            'sources':sources[:8],
+            'evidenceUrl':canonical.get('evidenceUrl') or canonical.get('url'),
+            'items':members[:8]
+        })
+    events.sort(key=lambda x:(x.get('publishedAt') or '',x.get('coverage',0)),reverse=True)
+    return events[:80]
+
 deduped.sort(key=lambda x:x['publishedAt'],reverse=True)
 deduped=deduped[:240]
+events=build_events(deduped)
 direct_count=sum(x['collection'].startswith('DIRECTA') for x in deduped)
 stats={'total':len(deduped),'direct':sum(x['relevance']==3 for x in deduped),'regional':sum(x['relevance']==2 for x in deduped),'new':sum(bool(x.get('isNew')) for x in deduped),'sources':len({x['source'] for x in deduped}),'directSignals':direct_count,'localDirectSignals':sum(x.get('sourcePriority')==1 for x in deduped),'radioDirectSignals':sum(x.get('sourceType')=='RADIO LOCAL' for x in deduped)}
-output={'updatedAt':now,'window':f'{DAYS} días','purpose':'¿De qué se está hablando cuando se habla de San Patricio del Chañar?','architecture':'fuentes directas + web directa + buscador de respaldo','keywords':[q for q,_ in QUERIES],'sourceRegistry':status,'stats':stats,'items':deduped}
+output={'updatedAt':now,'window':f'{DAYS} días','purpose':'¿De qué se está hablando cuando se habla de San Patricio del Chañar?','architecture':'fuentes directas + web directa + buscador de respaldo + eventos agrupados','keywords':[q for q,_ in QUERIES],'sourceRegistry':status,'stats':stats,'events':events,'items':deduped}
 with open(OUT,'w',encoding='utf-8') as handle: json.dump(output,handle,ensure_ascii=False,indent=2)
 print('Radar:',stats)
 for s in status: print('SOURCE',s)
