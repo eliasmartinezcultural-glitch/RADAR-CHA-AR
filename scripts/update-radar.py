@@ -256,6 +256,21 @@ RADAR_SOURCE_MAP={
  ]
 }
 
+SOURCE_CONTRACTS = {
+    'CONVERSACIÓN': {'primary':'Chañar Digital','secondary':'Municipalidad de San Patricio del Chañar','fallback':'Neuquén Informa','refresh':'30 min','rule':'evidencia editorial local'},
+    'RUTA 7': {'primary':'Dirección Provincial de Vialidad','secondary':'WSESTADORUTAS · API oficial','fallback':'Ruta0','refresh':'30 min','rule':'parte oficial > fuente comunitaria'},
+    'RUTA 8': {'primary':'Dirección Provincial de Vialidad','secondary':'WSESTADORUTAS · API oficial','fallback':'Ruta0','refresh':'30 min','rule':'parte oficial > fuente comunitaria'},
+    'VIENTO': {'primary':'Open-Meteo','secondary':'Servicio Meteorológico Nacional','fallback':'Neuquén Informa','refresh':'30 min','rule':'dato meteorológico directo'},
+    'ENERGÍA': {'primary':'EPEN','secondary':'Neuquén Informa','fallback':'Municipalidad de San Patricio del Chañar','refresh':'30 min','rule':'parte EPEN > comunicado'},
+    'AGUA': {'primary':'EPAS','secondary':'Municipalidad de San Patricio del Chañar','fallback':'Neuquén Informa','refresh':'30 min','rule':'no inferir normalidad sin parte'},
+    'SERVICIOS': {'primary':'Municipalidad de San Patricio del Chañar','secondary':'Neuquén Informa','fallback':'Chañar Digital','refresh':'30 min','rule':'fuente institucional local'},
+    'SALUD': {'primary':'Salud Neuquén','secondary':'Hospital local / Salud Neuquén','fallback':'Municipalidad de San Patricio del Chañar','refresh':'30 min','rule':'fuente sanitaria oficial'},
+    'EDUCACIÓN': {'primary':'Consejo Provincial de Educación','secondary':'Neuquén Informa','fallback':'Municipalidad de San Patricio del Chañar','refresh':'30 min','rule':'fuente educativa oficial'},
+    'PRODUCCIÓN': {'primary':'Ministerio de Producción de Neuquén','secondary':'Neuquén Informa','fallback':'Municipalidad de San Patricio del Chañar','refresh':'30 min','rule':'fuente productiva oficial'},
+    'EMERGENCIAS': {'primary':'Defensa Civil Neuquén','secondary':'Bomberos Voluntarios de San Patricio del Chañar','fallback':'Municipalidad de San Patricio del Chañar','refresh':'30 min','rule':'emergencia oficial > referencia institucional'},
+    'TERRITORIO': {'primary':'Municipalidad de San Patricio del Chañar','secondary':'Dirección Provincial de Vialidad','fallback':'Neuquén Informa','refresh':'30 min','rule':'anclaje territorial explícito'}
+}
+
 def collect_operational():
     op={'updatedAt':datetime.now(timezone.utc).isoformat(),'route7':None,'route8':None,'energy':None,'water':None,'sources':[]}
     def attempt(name,url,kind):
@@ -470,11 +485,12 @@ operational=collect_operational()
 system_radars=build_system_radars(events,environment)
 for radar in system_radars:
     radar['sources']=RADAR_SOURCE_MAP.get(radar['id'],[])
+    radar['sourceContract']=SOURCE_CONTRACTS.get(radar['id'])
     if radar['id']=='RUTA 7' and operational.get('route7'): radar['operational']=operational['route7']
     if radar['id']=='RUTA 8' and operational.get('route8'): radar['operational']=operational['route8']
     if radar['id']=='ENERGÍA' and operational.get('energy'): radar['operational']=operational['energy']
     if radar['id']=='AGUA' and operational.get('water'): radar['operational']=operational['water']
 stats={'total':len(dedup),'direct':sum(x['relevance']==3 for x in dedup),'regional':sum(x['relevance']==2 for x in dedup),'new':sum(x.get('isNew',False) for x in dedup),'sources':len({x['source'] for x in dedup}),'directSignals':sum(x['collection'].startswith('DIRECTA') for x in dedup),'localDirectSignals':sum(x.get('sourcePriority')==1 for x in dedup),'radioDirectSignals':sum(x.get('sourceType')=='RADIO LOCAL' for x in dedup),'precisionRule':'evidence-first','searchNoiseRejected':sum(1 for x in fresh if relevance(x.get('title',''),x.get('description',''))[1] in {'AGREGADOR','SIN ANCLA','AMBIGUA'})}
-output={'updatedAt':now,'window':f'{DAYS} días','purpose':'Detectar qué se está moviendo en San Patricio del Chañar y mostrar de dónde surge cada señal.','architecture':'fuentes directas + web directa + respaldo + memoria de eventos + ciclo de vida + territorio + evidencia + salud de fuentes + radares de infraestructura + ambiente','keywords':[q for q,_ in QUERIES],'sourceRegistry':status,'stats':stats,'environment':environment,'operational':operational,'systemRadars':system_radars,'system':{'memoryDays':MEMORY_DAYS,'eventIdentity':'estable entre actualizaciones','evidenceRule':'evidence-first','movementRule':'descriptivo: recencia + cobertura + diversidad de fuentes; no es ranking de importancia','sourceFailureRule':'no inferir desaparición cuando las fuentes conocidas no responden','infrastructureRule':'una señal editorial no equivale a confirmación operativa; los datos directos se etiquetan por separado','lifecycle':['EMERGENTE','ACTIVO','SOSTENIDO','EN DESCENSO','RECIENTE'],'sourceHealth':status},'events':events,'items':dedup}
+output={'updatedAt':now,'window':f'{DAYS} días','purpose':'Detectar qué se está moviendo en San Patricio del Chañar y mostrar de dónde surge cada señal.','architecture':'fuentes directas + web directa + respaldo + memoria de eventos + ciclo de vida + territorio + evidencia + salud de fuentes + radares de infraestructura + ambiente','keywords':[q for q,_ in QUERIES],'sourceRegistry':status,'stats':stats,'environment':environment,'operational':operational,'sourceContracts':SOURCE_CONTRACTS,'systemRadars':system_radars,'system':{'memoryDays':MEMORY_DAYS,'eventIdentity':'estable entre actualizaciones','evidenceRule':'evidence-first','movementRule':'descriptivo: recencia + cobertura + diversidad de fuentes; no es ranking de importancia','sourceFailureRule':'no inferir desaparición cuando las fuentes conocidas no responden','infrastructureRule':'una señal editorial no equivale a confirmación operativa; los datos directos se etiquetan por separado','lifecycle':['EMERGENTE','ACTIVO','SOSTENIDO','EN DESCENSO','RECIENTE'],'sourceHealth':status},'events':events,'items':dedup}
 with open(OUT,'w',encoding='utf-8') as f: json.dump(output,f,ensure_ascii=False,indent=2)
 print('PULSO:',stats,'RADARES:',len(system_radars))
