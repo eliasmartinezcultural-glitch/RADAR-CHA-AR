@@ -193,6 +193,105 @@ def search_collect():
     return rows
 
 
+RADAR_SOURCE_MAP={
+ 'CONVERSACIÓN':[
+  {'name':'Chañar Digital','role':'medio local','mode':'DIRECTA','url':'https://www.chanardigital.com.ar/'},
+  {'name':'Municipalidad de San Patricio del Chañar','role':'fuente institucional local','mode':'DIRECTA-WEB','url':'https://sanpatricio.gob.ar/'},
+  {'name':'Neuquén Informa','role':'fuente oficial provincial','mode':'RESPALDO','url':'https://www.neuqueninforma.gob.ar/'}
+ ],
+ 'RUTA 7':[
+  {'name':'Dirección Provincial de Vialidad','role':'estado vial oficial / API','mode':'DIRECTA','url':'https://www.dpvneuquen.gov.ar/'},
+  {'name':'Catálogo de servicios Neuquén','role':'endpoint WSESTADORUTAS','mode':'DIRECTA-API','url':'https://ww4.neuquen.gov.ar/Pecas/Optic/xroad/monitoreo/auditoria/Default.aspx'},
+  {'name':'Ruta0','role':'respaldo comunitario de transitabilidad','mode':'RESPALDO','url':'https://www.ruta0.com/estado-de-rutas/'}
+ ],
+ 'RUTA 8':[
+  {'name':'Dirección Provincial de Vialidad','role':'estado vial oficial / API','mode':'DIRECTA','url':'https://www.dpvneuquen.gov.ar/'},
+  {'name':'Catálogo de servicios Neuquén','role':'endpoint WSESTADORUTAS','mode':'DIRECTA-API','url':'https://ww4.neuquen.gov.ar/Pecas/Optic/xroad/monitoreo/auditoria/Default.aspx'},
+  {'name':'Ruta0','role':'respaldo comunitario de transitabilidad','mode':'RESPALDO','url':'https://www.ruta0.com/estado-de-rutas/'}
+ ],
+ 'VIENTO':[
+  {'name':'Open-Meteo','role':'viento observado/modelado actual','mode':'DIRECTA-API','url':'https://open-meteo.com/'},
+  {'name':'Servicio Meteorológico Nacional','role':'alertas oficiales','mode':'OFICIAL-ALERTAS','url':'https://www.smn.gob.ar/'},
+  {'name':'Neuquén Informa','role':'comunicación oficial provincial','mode':'RESPALDO','url':'https://www.neuqueninforma.gob.ar/'}
+ ],
+ 'ENERGÍA':[
+  {'name':'EPEN','role':'cortes programados','mode':'DIRECTA-WEB','url':'https://www.epen.gov.ar/index.php/cortes-programados/'},
+  {'name':'Neuquén Informa','role':'comunicados EPEN','mode':'OFICIAL','url':'https://www.neuqueninforma.gob.ar/'},
+  {'name':'Municipalidad de San Patricio del Chañar','role':'canal institucional local','mode':'RESPALDO','url':'https://sanpatricio.gob.ar/'}
+ ],
+ 'AGUA':[
+  {'name':'Municipalidad de San Patricio del Chañar','role':'canal institucional local','mode':'DIRECTA-WEB','url':'https://sanpatricio.gob.ar/'},
+  {'name':'EPAS Neuquén','role':'organismo provincial de agua y saneamiento','mode':'OFICIAL','url':'https://www.epas.gov.ar/'},
+  {'name':'Neuquén Informa','role':'comunicados oficiales','mode':'RESPALDO','url':'https://www.neuqueninforma.gob.ar/'}
+ ],
+ 'SERVICIOS':[
+  {'name':'Municipalidad de San Patricio del Chañar','role':'servicios y avisos locales','mode':'DIRECTA-WEB','url':'https://sanpatricio.gob.ar/'},
+  {'name':'Neuquén Informa','role':'infraestructura provincial','mode':'OFICIAL','url':'https://www.neuqueninforma.gob.ar/'},
+  {'name':'Chañar Digital','role':'seguimiento local','mode':'RESPALDO','url':'https://www.chanardigital.com.ar/'}
+ ],
+ 'SALUD':[
+  {'name':'Hospital Dra. Alicia Cruz','role':'referencia sanitaria local','mode':'INSTITUCIONAL','url':'https://www.saludneuquen.gob.ar/'},
+  {'name':'Ministerio de Salud de Neuquén','role':'fuente sanitaria provincial','mode':'OFICIAL','url':'https://www.saludneuquen.gob.ar/'},
+  {'name':'Municipalidad de San Patricio del Chañar','role':'avisos locales','mode':'RESPALDO','url':'https://sanpatricio.gob.ar/'}
+ ],
+ 'EDUCACIÓN':[
+  {'name':'Consejo Provincial de Educación','role':'fuente educativa oficial','mode':'OFICIAL','url':'https://www.neuquen.edu.ar/'},
+  {'name':'Neuquén Informa','role':'comunicados provinciales','mode':'RESPALDO','url':'https://www.neuqueninforma.gob.ar/'},
+  {'name':'Municipalidad de San Patricio del Chañar','role':'agenda local','mode':'RESPALDO','url':'https://sanpatricio.gob.ar/'}
+ ],
+ 'PRODUCCIÓN':[
+  {'name':'Ministerio de Producción e Industria de Neuquén','role':'fuente productiva oficial','mode':'OFICIAL','url':'https://www.neuqueninforma.gob.ar/'},
+  {'name':'Municipalidad de San Patricio del Chañar','role':'agenda productiva local','mode':'DIRECTA-WEB','url':'https://sanpatricio.gob.ar/'},
+  {'name':'Chañar Digital','role':'seguimiento local','mode':'RESPALDO','url':'https://www.chanardigital.com.ar/'}
+ ],
+ 'EMERGENCIAS':[
+  {'name':'Defensa Civil Neuquén','role':'emergencias provinciales','mode':'OFICIAL','url':'https://www.neuqueninforma.gob.ar/'},
+  {'name':'Bomberos Voluntarios de San Patricio del Chañar','role':'referencia local','mode':'INSTITUCIONAL','url':'https://sanpatricio.gob.ar/'},
+  {'name':'Municipalidad de San Patricio del Chañar','role':'seguridad y emergencias','mode':'DIRECTA-WEB','url':'https://sanpatricio.gob.ar/sec-ciudadana'}
+ ],
+ 'TERRITORIO':[
+  {'name':'Municipalidad de San Patricio del Chañar','role':'territorio y agenda local','mode':'DIRECTA-WEB','url':'https://sanpatricio.gob.ar/'},
+  {'name':'Dirección Provincial de Vialidad','role':'corredores y rutas','mode':'OFICIAL','url':'https://www.dpvneuquen.gov.ar/'},
+  {'name':'Neuquén Informa','role':'infraestructura regional','mode':'RESPALDO','url':'https://www.neuqueninforma.gob.ar/'}
+ ]
+}
+
+def collect_operational():
+    op={'updatedAt':datetime.now(timezone.utc).isoformat(),'route7':None,'route8':None,'energy':None,'water':None,'sources':[]}
+    def attempt(name,url,kind):
+        try:
+            raw=fetch(url).decode('utf-8','ignore')
+            return raw
+        except Exception as e:
+            op['sources'].append({'name':name,'mode':'FALLA','kind':kind,'url':url,'error':type(e).__name__})
+            return ''
+    route_raw=attempt('Ruta0','https://www.ruta0.com/estado-de-rutas/?pag=4','rutas')
+    if route_raw:
+        txt=re.sub(r'<[^>]+>',' ',route_raw); txt=clean(re.sub(r'\\s+',' ',txt))
+        for key in ['route7','route8']:
+            route='RP 7' if key=='route7' else 'RP 8'
+            pos=txt.lower().find(route.lower())
+            if pos>=0:
+                frag=txt[max(0,pos-250):pos+900]
+                if 'san patricio del chañar' in frag.lower() or key=='route8':
+                    op[key]={'status':'SEÑAL DE TRANSITABILIDAD','detail':frag[:650],'source':'Ruta0','mode':'RESPALDO COMUNITARIO','url':'https://www.ruta0.com/estado-de-rutas/?pag=4'}
+        op['sources'].append({'name':'Ruta0','mode':'OK','kind':'rutas','url':'https://www.ruta0.com/estado-de-rutas/?pag=4'})
+    eurl='https://www.epen.gov.ar/index.php/cortes-programados/'
+    eraw=attempt('EPEN','https://www.epen.gov.ar/index.php/cortes-programados/','energia')
+    if eraw:
+        et=re.sub(r'<[^>]+>',' ',eraw); et=clean(re.sub(r'\\s+',' ',et))
+        hits=[m.group(0) for m in re.finditer(r'.{0,180}(?:Chañar|chañar).{0,360}',et,re.I)]
+        op['energy']={'status':'PARTE EPEN DISPONIBLE','detail':' '.join(hits[:3])[:900] if hits else 'No se encontró una coincidencia reciente explícita para San Patricio del Chañar.','source':'EPEN','mode':'DIRECTA-WEB','url':eurl}
+        op['sources'].append({'name':'EPEN','mode':'OK','kind':'energia','url':eurl})
+    murl='https://sanpatricio.gob.ar/'
+    mraw=attempt('Municipalidad de San Patricio del Chañar',murl,'agua')
+    if mraw:
+        mt=re.sub(r'<[^>]+>',' ',mraw); mt=clean(re.sub(r'\\s+',' ',mt))
+        hits=[m.group(0) for m in re.finditer(r'.{0,160}(?:agua|abastecimiento|servicio).{0,300}',mt,re.I)]
+        op['water']={'status':'MONITOREO INSTITUCIONAL','detail':' '.join(hits[:2])[:700] if hits else 'Sin parte operativo de agua visible en la portada municipal.','source':'Municipalidad de San Patricio del Chañar','mode':'DIRECTA-WEB','url':murl}
+        op['sources'].append({'name':'Municipalidad de San Patricio del Chañar','mode':'OK','kind':'agua','url':murl})
+    return op
+
 def collect_environment():
     """Datos ambientales reales y señales de infraestructura derivadas de evidencia.
     No convierte ausencia de datos en ausencia de problema."""
@@ -367,8 +466,15 @@ def build_events(items,old_events):
 dedup=dedup[:240]
 events=build_events(dedup,old.get('events',[]))
 environment=collect_environment()
+operational=collect_operational()
 system_radars=build_system_radars(events,environment)
+for radar in system_radars:
+    radar['sources']=RADAR_SOURCE_MAP.get(radar['id'],[])
+    if radar['id']=='RUTA 7' and operational.get('route7'): radar['operational']=operational['route7']
+    if radar['id']=='RUTA 8' and operational.get('route8'): radar['operational']=operational['route8']
+    if radar['id']=='ENERGÍA' and operational.get('energy'): radar['operational']=operational['energy']
+    if radar['id']=='AGUA' and operational.get('water'): radar['operational']=operational['water']
 stats={'total':len(dedup),'direct':sum(x['relevance']==3 for x in dedup),'regional':sum(x['relevance']==2 for x in dedup),'new':sum(x.get('isNew',False) for x in dedup),'sources':len({x['source'] for x in dedup}),'directSignals':sum(x['collection'].startswith('DIRECTA') for x in dedup),'localDirectSignals':sum(x.get('sourcePriority')==1 for x in dedup),'radioDirectSignals':sum(x.get('sourceType')=='RADIO LOCAL' for x in dedup),'precisionRule':'evidence-first','searchNoiseRejected':sum(1 for x in fresh if relevance(x.get('title',''),x.get('description',''))[1] in {'AGREGADOR','SIN ANCLA','AMBIGUA'})}
-output={'updatedAt':now,'window':f'{DAYS} días','purpose':'Detectar qué se está moviendo en San Patricio del Chañar y mostrar de dónde surge cada señal.','architecture':'fuentes directas + web directa + respaldo + memoria de eventos + ciclo de vida + territorio + evidencia + salud de fuentes + radares de infraestructura + ambiente','keywords':[q for q,_ in QUERIES],'sourceRegistry':status,'stats':stats,'environment':environment,'systemRadars':system_radars,'system':{'memoryDays':MEMORY_DAYS,'eventIdentity':'estable entre actualizaciones','evidenceRule':'evidence-first','movementRule':'descriptivo: recencia + cobertura + diversidad de fuentes; no es ranking de importancia','sourceFailureRule':'no inferir desaparición cuando las fuentes conocidas no responden','infrastructureRule':'una señal editorial no equivale a confirmación operativa; los datos directos se etiquetan por separado','lifecycle':['EMERGENTE','ACTIVO','SOSTENIDO','EN DESCENSO','RECIENTE'],'sourceHealth':status},'events':events,'items':dedup}
+output={'updatedAt':now,'window':f'{DAYS} días','purpose':'Detectar qué se está moviendo en San Patricio del Chañar y mostrar de dónde surge cada señal.','architecture':'fuentes directas + web directa + respaldo + memoria de eventos + ciclo de vida + territorio + evidencia + salud de fuentes + radares de infraestructura + ambiente','keywords':[q for q,_ in QUERIES],'sourceRegistry':status,'stats':stats,'environment':environment,'operational':operational,'systemRadars':system_radars,'system':{'memoryDays':MEMORY_DAYS,'eventIdentity':'estable entre actualizaciones','evidenceRule':'evidence-first','movementRule':'descriptivo: recencia + cobertura + diversidad de fuentes; no es ranking de importancia','sourceFailureRule':'no inferir desaparición cuando las fuentes conocidas no responden','infrastructureRule':'una señal editorial no equivale a confirmación operativa; los datos directos se etiquetan por separado','lifecycle':['EMERGENTE','ACTIVO','SOSTENIDO','EN DESCENSO','RECIENTE'],'sourceHealth':status},'events':events,'items':dedup}
 with open(OUT,'w',encoding='utf-8') as f: json.dump(output,f,ensure_ascii=False,indent=2)
 print('PULSO:',stats,'RADARES:',len(system_radars))
