@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="theme-color" content="#03070b">
-<meta name="description" content="RADAR CHAÑAR · Observación territorial de conversación pública sobre San Patricio del Chañar.">
+<meta name="description" content="PULSO CHAÑAR · Señales, hechos y fuentes sobre lo que se está moviendo en San Patricio del Chañar.">
 <meta property="og:title" content="PULSO CHAÑAR · Lo que se está moviendo en el territorio">
 <meta property="og:description" content="Señales, hechos y fuentes que están moviendo la conversación territorial de San Patricio del Chañar.">
 <meta property="og:type" content="website">
@@ -12,12 +12,12 @@
 <meta property="og:image" content="https://eliasmartinezcultural-glitch.github.io/RADAR-CHA-AR/social-card.svg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="RADAR CHAÑAR · Pulso territorial de San Patricio del Chañar">
+<meta property="og:image:alt" content="PULSO CHAÑAR · Pulso territorial de San Patricio del Chañar">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="PULSO CHAÑAR · Lo que se está moviendo en el territorio">
 <meta name="twitter:description" content="Señales, hechos y fuentes que están moviendo la conversación territorial de San Patricio del Chañar.">
 <meta name="twitter:image" content="https://eliasmartinezcultural-glitch.github.io/RADAR-CHA-AR/social-card.svg">
-<title>PULSO CHAÑAR · RADAR territorial · Ocarina Producciones</title>
+<title>PULSO CHAÑAR · radar territorial · Ocarina Producciones</title>
 <style>
 :root{
  --bg:#020508;--panel:#071016;--panel2:#0a151c;--line:#18313b;--line2:#244753;
@@ -59,11 +59,6 @@ footer{border-top:1px solid var(--line);padding:18px 0 48px;color:var(--muted);f
 @media(max-width:520px){.territory-city{font-size:20px}.hero h1{font-size:3rem}.top{position:relative}.status{font-size:7px}.event{grid-template-columns:1fr}.rank{order:0}.move{grid-column:auto}.mini-gadgets{gap:5px}.gadget{padding:9px}.gadget strong{font-size:17px}}
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important}}
 
-<style>
-display:flex;align-items:center;justify-content:space-between;gap:12px;margin:-5px 0 18px;padding:9px 11px;border:1px solid var(--line);border-radius:11px;background:#061017}.sharebar span{color:var(--muted);font-size:8px;letter-spacing:.1em;text-transform:uppercase}.sharebar button{border:1px solid #285764;background:#07171d;color:var(--cyan);border-radius:8px;padding:7px 10px;font-size:8px;font-weight:900;letter-spacing:.08em;cursor:pointer}.sharebar button:hover{border-color:var(--cyan)}
-.regional-updates{margin:-3px 0 15px;padding:10px 0 0}.regional-label{display:flex;gap:10px;align-items:center;margin-bottom:8px;font-size:8px;letter-spacing:.13em}.regional-label span{color:var(--gold)}.regional-label b{color:var(--muted);font-weight:800}.regional-ticker{display:grid;grid-template-columns:repeat(3,1fr);gap:7px}.regional-ticker a{min-width:0;border:1px solid var(--line);border-radius:10px;background:linear-gradient(135deg,#08171d,#040b0f);padding:10px;text-decoration:none;color:inherit;transition:.2s}.regional-ticker a:hover{border-color:var(--cyan);transform:translateY(-1px)}.regional-ticker span{display:block;color:var(--cyan);font-size:7px;font-weight:900;letter-spacing:.1em}.regional-ticker strong{display:block;font-size:10px;line-height:1.25;margin:5px 0}.regional-ticker small{color:var(--muted);font-size:7px}
-@media(max-width:700px){.regional-ticker{grid-template-columns:1fr}.regional-ticker a:nth-child(n+3){display:none}.regional-label{display:block}.regional-label b{display:block;margin-top:3px}}
-</style>
 
 /* Capa visual PULSO CHAÑAR */
 .hero{min-height:430px;position:relative}.hero:before{content:"";position:absolute;left:-18vw;right:-18vw;top:0;height:1px;background:linear-gradient(90deg,transparent,#55e6ff55,transparent);box-shadow:0 0 30px #55e6ff33}.hero h1{max-width:920px;text-wrap:balance}.hero h1:first-letter{color:var(--cyan)}
@@ -79,7 +74,7 @@ footer{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}.credi
 <body>
 <div id="updateScreen" class="update-screen" aria-hidden="true">
  <div class="update-card">
-  <div class="update-top"><span>RADAR CHAÑAR // ACTUALIZACIÓN</span><span id="updateClock">--:--</span></div>
+  <div class="update-top"><span>PULSO CHAÑAR // ACTUALIZACIÓN</span><span id="updateClock">--:--</span></div>
   <div class="scan"><div class="scan-core"></div></div>
   <div class="update-body"><strong id="updateTitle">Escaneando territorio…</strong><div class="progress"><i></i></div><div class="log"><span id="updateLog">consultando señales</span><span>LIVE</span></div></div>
  </div>
@@ -157,9 +152,9 @@ const esc=v=>String(v??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&
 const dt=v=>{try{return new Date(v).toLocaleString('es-AR',{day:'2-digit',month:'2-digit',hour:'2-digit',minute:'2-digit'})}catch{return''}};
 const clock=()=>$('#clock').textContent=new Date().toLocaleTimeString('es-AR',{hour12:false});
 const shareUrl=location.href.split('#')[0];
-const shareText='RADAR CHAÑAR · ¿De qué se está hablando cuando se habla de San Patricio del Chañar?';
+const shareText='PULSO CHAÑAR · Lo que se está moviendo en San Patricio del Chañar';
 async function shareRadar(){
- const data={title:'RADAR CHAÑAR · Pulso territorial',text:shareText,url:shareUrl};
+ const data={title:'PULSO CHAÑAR · Pulso territorial',text:shareText,url:shareUrl};
  try{
   if(navigator.share){await navigator.share(data);return}
   await navigator.clipboard.writeText(shareText+'\\n'+shareUrl);
