@@ -9,6 +9,7 @@ from difflib import SequenceMatcher
 
 OUT = "data/radar-feed.json"
 DAYS = 7
+MEMORY_DAYS = 45
 MIN_DATE = datetime.now(timezone.utc) - timedelta(days=DAYS)
 UA = "Chañar-Radar/6.0 (+https://eliasmartinezcultural-glitch.github.io/RADAR-CHA-AR/)"
 
@@ -321,7 +322,18 @@ def event_metrics(members):
     movement=round(100*(0.45*recency+0.30*min(1,len(members)/4)+0.25*min(1,unique_sources/3)))
     return movement,topic,unique_sources,direct_sources
 
-def build_events(items):
+def event_match_score(current, previous):
+    if not previous: return 0
+    d1=parse_date(current.get('publishedAt')); d2=parse_date(previous.get('lastSeen') or previous.get('publishedAt'))
+    if not d1 or not d2 or abs((d1-d2).total_seconds()) > MEMORY_DAYS*86400: return 0
+    title_score=similarity(current.get('title',''),previous.get('title',''))
+    topic_score=1 if current.get('topic')==previous.get('topic') else 0
+    a=set(current.get('territorialAnchors',[])); b=set(previous.get('territorialAnchors',[]))
+    anchor_score=len(a&b)/max(1,len(a|b))
+    source_score=1 if set(current.get('sources',[])) & set(previous.get('sources',[])) else 0
+    return 0.45*title_score+0.25*anchor_score+0.20*topic_score+0.10*source_score
+
+def build_events(items, previous_events=None):
     clusters=[]
     for item in sorted(items,key=lambda x:x.get('publishedAt',''),reverse=True):
         best=None; best_score=0
@@ -335,6 +347,8 @@ def build_events(items):
             clusters[best]['items'].append(item)
 
     events=[]
+    previous_events=previous_events or []
+    used_previous=set()
     for n,cluster in enumerate(clusters,1):
         members=cluster['items']
         canonical=sorted(members,key=lambda x:(x.get('sourcePriority',3),-len(x.get('title','')),x.get('publishedAt','')),reverse=False)[0]
@@ -352,8 +366,28 @@ def build_events(items):
             for a in territorial_anchors(m):
                 if a not in anchors: anchors.append(a)
         first_seen=min((m.get('firstSeen') for m in members if m.get('firstSeen')),default=members[-1].get('publishedAt'))
+        provisional={'title':canonical.get('title',''),'publishedAt':members[0].get('publishedAt'),'topic':topic,'territorialAnchors':anchors[:8],'sources':sources[:8],'lastSeen':members[0].get('publishedAt')}
+        best_old=None; best_old_score=0
+        for old_event in previous_events:
+            if old_event.get('eventId') in used_previous: continue
+            score=event_match_score(provisional,old_event)
+            if score>best_old_score:
+                best_old_score=score; best_old=old_event
+        stable_id=(best_old.get('eventId') if best_old and best_old_score>=0.62 else None) or f'CHA-{n:03d}'
+        if best_old: used_previous.add(best_old.get('eventId'))
+        previous_coverage=best_old.get('coverage',0) if best_old else 0
+        previous_sources=set(best_old.get('sources',[])) if best_old else set()
+        new_sources=[s for s in sources if s not in previous_sources]
+        prev_movement=best_old.get('movement') if best_old else None
+        delta=movement-prev_movement if prev_movement is not None else 0
+        age_days=max(0,((datetime.now(timezone.utc)-(parse_date(first_seen) or datetime.now(timezone.utc))).total_seconds()/86400))
+        if age_days < 1 and movement >= 45: lifecycle='EMERGENTE'
+        elif movement >= 65 or (previous_coverage and len(members)>previous_coverage): lifecycle='ACTIVO'
+        elif movement >= 35: lifecycle='SOSTENIDO'
+        elif age_days > 4: lifecycle='EN DESCENSO'
+        else: lifecycle='RECIENTE'
         events.append({
-            'eventId':f'CHA-{n:03d}',
+            'eventId':stable_id,
             'title':canonical.get('title',''),
             'publishedAt':members[0].get('publishedAt'),
             'firstSeen':first_seen,
@@ -368,17 +402,23 @@ def build_events(items):
             'territorialAnchors':anchors[:8],
             'sources':sources[:8],
             'evidenceUrl':canonical.get('evidenceUrl') or canonical.get('url'),
-            'items':members[:8]
+            'items':members[:8],
+            'lifecycle':lifecycle,
+            'movementDelta':delta,
+            'previousCoverage':previous_coverage,
+            'newSources':new_sources[:8],
+            'sourceDiversity':unique_sources,
+            'memoryMatched':bool(best_old)
         })
     events.sort(key=lambda x:(x.get('movement',0),x.get('publishedAt') or ''),reverse=True)
     return events[:80]
 
 deduped.sort(key=lambda x:x['publishedAt'],reverse=True)
 deduped=deduped[:240]
-events=build_events(deduped)
+events=build_events(deduped, old.get('events',[]))
 direct_count=sum(x['collection'].startswith('DIRECTA') for x in deduped)
 stats={'total':len(deduped),'direct':sum(x['relevance']==3 for x in deduped),'regional':sum(x['relevance']==2 for x in deduped),'new':sum(bool(x.get('isNew')) for x in deduped),'sources':len({x['source'] for x in deduped}),'directSignals':direct_count,'localDirectSignals':sum(x.get('sourcePriority')==1 for x in deduped),'radioDirectSignals':sum(x.get('sourceType')=='RADIO LOCAL' for x in deduped)}
-output={'updatedAt':now,'window':f'{DAYS} días','purpose':'¿De qué se está hablando cuando se habla de San Patricio del Chañar?','architecture':'fuentes directas + web directa + buscador de respaldo + eventos territoriales + movimiento + evidencia','keywords':[q for q,_ in QUERIES],'sourceRegistry':status,'stats':stats,'events':events,'items':deduped}
+output={'updatedAt':now,'window':f'{DAYS} días','purpose':'¿De qué se está hablando cuando se habla de San Patricio del Chañar?','architecture':'fuentes directas + web directa + respaldo + memoria de eventos + ciclo de vida + territorio + evidencia','keywords':[q for q,_ in QUERIES],'sourceRegistry':status,'stats':stats,'system':{'memoryDays':MEMORY_DAYS,'eventIdentity':'estable entre actualizaciones','lifecycle':['EMERGENTE','ACTIVO','SOSTENIDO','EN DESCENSO','RECIENTE'],'sourceHealth':status},'events':events,'items':deduped}
 with open(OUT,'w',encoding='utf-8') as handle: json.dump(output,handle,ensure_ascii=False,indent=2)
 print('Radar:',stats)
 for s in status: print('SOURCE',s)
