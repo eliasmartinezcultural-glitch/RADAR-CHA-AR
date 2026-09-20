@@ -7,7 +7,7 @@ on:
   push:
     paths:
       - "scripts/update-radar.py"
-      - "scripts/territory-graph.py"
+      - "scripts/territory-graph.py"\n      - "scripts/pulse-history.py"
       - ".github/workflows/radar-territorial.yml"
 
 concurrency:
@@ -31,10 +31,10 @@ jobs:
         run: python scripts/update-radar.py
       - name: Construir grafo territorial
         run: python scripts/territory-graph.py
-      - name: Guardar pulso
+      - name: Construir memoria histórica\n        run: python scripts/pulse-history.py\n      - name: Guardar pulso
         run: |
           git config user.name "PULSO CHAÑAR"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/radar-feed.json
+          git add data/radar-feed.json data/pulse-history.json
           git diff --cached --quiet || git commit -m "chore: actualizar Pulso Chañar y grafo territorial"
           git push
