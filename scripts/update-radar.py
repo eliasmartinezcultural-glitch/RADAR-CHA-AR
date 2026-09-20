@@ -274,6 +274,53 @@ def event_similarity(a,b):
     if common>=2 and sim>=0.58: return sim
     return 0
 
+TOPIC_RULES=[
+ ('SALUD',['hospital','salud','enfermer','medic','vacun','insumo']),
+ ('EDUCACIÓN',['cpem','escuela','epet','educacion','educación','clases','docente']),
+ ('SERVICIOS',['agua','gas','cloaca','residu','luz','servicio']),
+ ('MOVILIDAD',['ruta 7','ruta 8','transito','tránsito','transporte','camiones']),
+ ('PRODUCCIÓN',['chacra','viñedo','bodega','productor','produccion','producción','agro']),
+ ('DEPORTE',['club','deporte','polideportivo','liga','futbol','fútbol','basquet','básquet']),
+ ('CULTURA / TURISMO',['cultura','turismo','fiesta','festival','museo','patrimonio']),
+ ('INSTITUCIONES',['municipalidad','concejo','ordenanza','obra','licitacion','licitación']),
+ ('SEGURIDAD / EMERGENCIAS',['bombero','policia','policía','comisaria','emergencia']),
+]
+
+def classify_topic(item):
+    text=norm(' '.join([item.get('title',''),item.get('description','')]))
+    scores=[]
+    for topic,terms in TOPIC_RULES:
+        score=sum(1 for term in terms if norm(term) in text)
+        if score: scores.append((score,topic))
+    return sorted(scores,reverse=True)[0][1] if scores else 'OTROS'
+
+def territorial_anchors(item):
+    text=norm(' '.join([item.get('title',''),item.get('description','')]))
+    anchors=[]
+    for term in LOCAL_ENTITIES:
+        if norm(term) in text and term not in anchors:
+            anchors.append(term)
+    return anchors[:8]
+
+def event_metrics(members):
+    now_dt=datetime.now(timezone.utc)
+    dates=[parse_date(x.get('publishedAt')) for x in members]
+    dates=[d for d in dates if d]
+    latest=max(dates) if dates else now_dt
+    age=max(0,(now_dt-latest).total_seconds()/3600)
+    recency=max(0,1-age/168)
+    unique_sources=len({x.get('source') for x in members if x.get('source')})
+    direct_sources=len({x.get('source') for x in members if x.get('sourcePriority',3)<=2})
+    topic_votes={}
+    for m in members:
+        topic=classify_topic(m)
+        topic_votes[topic]=topic_votes.get(topic,0)+1
+    topic=max(topic_votes,key=topic_votes.get)
+    # Movimiento = recencia + cantidad de coberturas + diversidad de fuentes.
+    # No representa importancia ni calidad periodística.
+    movement=round(100*(0.45*recency+0.30*min(1,len(members)/4)+0.25*min(1,unique_sources/3)))
+    return movement,topic,unique_sources,direct_sources
+
 def build_events(items):
     clusters=[]
     for item in sorted(items,key=lambda x:x.get('publishedAt',''),reverse=True):
@@ -299,18 +346,31 @@ def build_events(items):
         sources=[]
         for m in members:
             if m.get('source') and m['source'] not in sources: sources.append(m['source'])
+        movement,topic,unique_sources,direct_sources=event_metrics(members)
+        anchors=[]
+        for m in members:
+            for a in territorial_anchors(m):
+                if a not in anchors: anchors.append(a)
+        first_seen=min((m.get('firstSeen') for m in members if m.get('firstSeen')),default=members[-1].get('publishedAt'))
         events.append({
             'eventId':f'CHA-{n:03d}',
             'title':canonical.get('title',''),
             'publishedAt':members[0].get('publishedAt'),
+            'firstSeen':first_seen,
+            'lastSeen':members[0].get('publishedAt'),
             'relevance':max(m.get('relevance',0) for m in members),
             'relevanceLabel':'DIRECTA' if any(m.get('relevance')==3 for m in members) else 'CON ANCLA LOCAL',
+            'topic':topic,
+            'movement':movement,
             'coverage':len(members),
+            'sourceCount':unique_sources,
+            'directSourceCount':direct_sources,
+            'territorialAnchors':anchors[:8],
             'sources':sources[:8],
             'evidenceUrl':canonical.get('evidenceUrl') or canonical.get('url'),
             'items':members[:8]
         })
-    events.sort(key=lambda x:(x.get('publishedAt') or '',x.get('coverage',0)),reverse=True)
+    events.sort(key=lambda x:(x.get('movement',0),x.get('publishedAt') or ''),reverse=True)
     return events[:80]
 
 deduped.sort(key=lambda x:x['publishedAt'],reverse=True)
@@ -318,7 +378,7 @@ deduped=deduped[:240]
 events=build_events(deduped)
 direct_count=sum(x['collection'].startswith('DIRECTA') for x in deduped)
 stats={'total':len(deduped),'direct':sum(x['relevance']==3 for x in deduped),'regional':sum(x['relevance']==2 for x in deduped),'new':sum(bool(x.get('isNew')) for x in deduped),'sources':len({x['source'] for x in deduped}),'directSignals':direct_count,'localDirectSignals':sum(x.get('sourcePriority')==1 for x in deduped),'radioDirectSignals':sum(x.get('sourceType')=='RADIO LOCAL' for x in deduped)}
-output={'updatedAt':now,'window':f'{DAYS} días','purpose':'¿De qué se está hablando cuando se habla de San Patricio del Chañar?','architecture':'fuentes directas + web directa + buscador de respaldo + eventos agrupados','keywords':[q for q,_ in QUERIES],'sourceRegistry':status,'stats':stats,'events':events,'items':deduped}
+output={'updatedAt':now,'window':f'{DAYS} días','purpose':'¿De qué se está hablando cuando se habla de San Patricio del Chañar?','architecture':'fuentes directas + web directa + buscador de respaldo + eventos territoriales + movimiento + evidencia','keywords':[q for q,_ in QUERIES],'sourceRegistry':status,'stats':stats,'events':events,'items':deduped}
 with open(OUT,'w',encoding='utf-8') as handle: json.dump(output,handle,ensure_ascii=False,indent=2)
 print('Radar:',stats)
 for s in status: print('SOURCE',s)
