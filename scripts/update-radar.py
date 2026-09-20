@@ -76,6 +76,14 @@ LOCAL_ENTITIES = [
     'correo argentino','centro de salud','plaza'
 ]
 AMBIGUOUS = ['puerto el chañar','chañaral','chañar viejo','chañaral de caracoles']
+STRONG_LOCAL_ENTITIES = [
+    'san patricio del chañar','san patricio del chanar','el chañar','el chanar',
+    'hospital dra alicia cruz','hospital alicia cruz','cpem 31','epet 26','escuela primaria 273',
+    'parque industrial','picada 1','picada 3','picada 4','picada 5','picada 9','picada 11','picada 19','picada 20',
+    'ruta 7','ruta 8','comisaria 13','municipalidad de san patricio','epen',
+    '128 viviendas','union y fuerza','76 viviendas','50 viviendas','plan federalismo','primeros pobladores',
+    'suyai','barrio obrero','barrio jardin','12 de octubre','25 de abril','loteo social'
+]
 STOP = {'san','patricio','del','el','de','la','los','las','una','un','y','en','por','para','con','que','neuquen','neuquén','chanar','chañar','municipio','ciudad','provincia','noticias','últimas','ultimas','sobre'}
 
 def clean(text):
@@ -118,8 +126,8 @@ def relevance(title,description,source):
     evidence=norm(' '.join([title,description]))
     exact='san patricio del chañar' in evidence or 'san patricio del chanar' in evidence
     if any(norm(x) in evidence for x in AMBIGUOUS) and not exact: return 0,'AMBIGUA'
-    hits=[x for x in LOCAL_ENTITIES if norm(x) in evidence]
-    title_hits=[x for x in LOCAL_ENTITIES if norm(x) in norm(title)]
+    hits=[x for x in STRONG_LOCAL_ENTITIES if norm(x) in evidence]
+    title_hits=[x for x in STRONG_LOCAL_ENTITIES if norm(x) in norm(title)]
     if exact: return 3,'DIRECTA'
     if len(title_hits)>=1: return 3,'DIRECTA'
     if len(hits)>=2: return 3,'DIRECTA'
