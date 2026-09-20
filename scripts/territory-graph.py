@@ -4,7 +4,7 @@ from datetime import datetime, timezone
 
 FEED = "data/radar-feed.json"
 
-# RADAR CHAÑAR — grafo territorial curado.
+# PULSO CHAÑAR — grafo territorial curado.
 # Regla: un vínculo solo nace cuando un evento trae evidencia textual del nodo.
 # No se inventan relaciones geográficas por cercanía ni por conocimiento general.
 # Las relaciones persistidas sirven al motor; la interfaz pública solo muestra una
@@ -20,6 +20,7 @@ NODES = [
  {"id":"picada-4","label":"Picada 4","type":"PICADA","level":"microzona","aliases":["picada 4","picada n° 4","picada n.º 4"]},
  {"id":"picada-5","label":"Picada 5","type":"PICADA","level":"microzona","aliases":["picada 5","picada n° 5","picada n.º 5"]},
  {"id":"picada-9","label":"Picada 9","type":"PICADA","level":"microzona","aliases":["picada 9","picada n° 9","picada n.º 9"]},
+ {"id":"picada-10","label":"Picada 10","type":"PICADA","level":"microzona","aliases":["picada 10","picada n° 10","picada n.º 10"]},
  {"id":"picada-11","label":"Picada 11","type":"PICADA","level":"microzona","aliases":["picada 11","picada n° 11","picada n.º 11"]},
  {"id":"picada-19","label":"Picada 19","type":"PICADA","level":"microzona","aliases":["picada 19","picada n° 19","picada n.º 19"]},
  {"id":"picada-20","label":"Picada 20","type":"PICADA","level":"microzona","aliases":["picada 20","picada n° 20","picada n.º 20"]},
@@ -116,8 +117,9 @@ def build():
         ids=[n["id"] for n in nodes]
         event_nodes[e.get("eventId","")]=ids
         for nid in ids: node_counts[nid]+=1
-        for i,a in enumerate(nodes):
-            for b in nodes[i+1:]:
+        graph_nodes=[n for n in nodes if n["id"]!="spc"]
+        for i,a in enumerate(graph_nodes):
+            for b in graph_nodes[i+1:]:
                 key=tuple(sorted((a["id"],b["id"])))
                 edge_counts[key]=edge_counts.get(key,0)+1
 
@@ -154,7 +156,7 @@ def build():
     for n in NODES:
         active_nodes.append({**n,"eventCount":node_counts[n["id"]]})
     data["territorialGraph"]={
-        "version":"1.0",
+        "version":"1.1",
         "generatedAt":datetime.now(timezone.utc).isoformat(),
         "root":"spc",
         "rule":"evidence-first",
@@ -169,7 +171,7 @@ def build():
             "eventsLinked":sum(bool(v) for v in event_nodes.values())
         }
     }
-    data["system"]["territorialGraph"]="evidence-first v1.0"
+    data["system"]["territorialGraph"]="evidence-first v1.1"
     data["system"]["territorialLevels"]="microzona > barrio/sector > corredor > institución/servicio/producción > microregión"
     with open(FEED,"w",encoding="utf-8") as f:
         json.dump(data,f,ensure_ascii=False,indent=2)
