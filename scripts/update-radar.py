@@ -73,7 +73,7 @@ LOCAL_ENTITIES = [
     'bodega familia schroeder','bodegas','viñedo','viñedos','chacra',
     'picada 1','picada 4','picada 9','picada 11','picada 20',
     'ruta 7','ruta 8','comisaria 13','bomberos voluntarios',
-    'correo argentino','centro de salud','plaza'
+    'correo argentino','centro de salud'
 ]
 AMBIGUOUS = ['puerto el chañar','chañaral','chañar viejo','chañaral de caracoles']
 STRONG_LOCAL_ENTITIES = [
@@ -121,17 +121,22 @@ def fetch_url(url):
         return response.read(), response.headers.get('Content-Type','')
 
 def relevance(title,description,source):
-    # La fuente/query NO pueden convertir por sí solas una nota en "DIRECTA".
-    # La evidencia territorial debe aparecer en el título o descripción.
+    # Regla de precisión: el buscador no puede convertir por sí solo una nota en LOCAL.
     evidence=norm(' '.join([title,description]))
+    title_norm=norm(title)
     exact='san patricio del chañar' in evidence or 'san patricio del chanar' in evidence
     if any(norm(x) in evidence for x in AMBIGUOUS) and not exact: return 0,'AMBIGUA'
-    hits=[x for x in STRONG_LOCAL_ENTITIES if norm(x) in evidence]
-    title_hits=[x for x in STRONG_LOCAL_ENTITIES if norm(x) in norm(title)]
+    title_hits=[x for x in STRONG_LOCAL_ENTITIES if norm(x) in title_norm]
+    body_hits=[x for x in STRONG_LOCAL_ENTITIES if norm(x) in evidence]
     if exact: return 3,'DIRECTA'
-    if len(title_hits)>=1: return 3,'DIRECTA'
-    if len(hits)>=2: return 3,'DIRECTA'
-    if len(hits)==1: return 2,'CON ANCLA LOCAL'
+    # Instituciones, barrios, escuelas y servicios propios pueden anclar Chañar.
+    excluded={'ruta 7','ruta 8','epen','viñedo','viñedos'}
+    specific_title_hits=[x for x in title_hits if x not in excluded]
+    specific_body_hits=[x for x in body_hits if x not in excluded]
+    if specific_title_hits: return 3,'DIRECTA'
+    if len(specific_body_hits)>=2: return 3,'DIRECTA'
+    if len(specific_body_hits)==1: return 2,'CON ANCLA LOCAL'
+    # Una ruta/corredor aislado no demuestra que el hecho ocurra en Chañar.
     return 0,'SIN ANCLA'
 
 def parse_rss(xml_bytes,source,source_type,source_url,query='direct-rss'):
@@ -465,7 +470,7 @@ deduped.sort(key=lambda x:x['publishedAt'],reverse=True)
 deduped=deduped[:240]
 events=build_events(deduped, old.get('events',[]))
 direct_count=sum(x['collection'].startswith('DIRECTA') for x in deduped)
-stats={'total':len(deduped),'direct':sum(x['relevance']==3 for x in deduped),'regional':sum(x['relevance']==2 for x in deduped),'new':sum(bool(x.get('isNew')) for x in deduped),'sources':len({x['source'] for x in deduped}),'directSignals':direct_count,'localDirectSignals':sum(x.get('sourcePriority')==1 for x in deduped),'radioDirectSignals':sum(x.get('sourceType')=='RADIO LOCAL' for x in deduped)}
+stats={'total':len(deduped),'direct':sum(x['relevance']==3 for x in deduped),'regional':sum(x['relevance']==2 for x in deduped),'new':sum(bool(x.get('isNew')) for x in deduped),'sources':len({x['source'] for x in deduped}),'directSignals':direct_count,'localDirectSignals':sum(x.get('sourcePriority')==1 for x in deduped),'radioDirectSignals':sum(x.get('sourceType')=='RADIO LOCAL' for x in deduped),'precisionRule':'evidence-first','searchNoiseRejected':0}
 output={'updatedAt':now,'window':f'{DAYS} días','purpose':'Detectar qué se está moviendo en San Patricio del Chañar y mostrar de dónde surge cada señal.','architecture':'fuentes directas + web directa + respaldo + memoria de eventos + ciclo de vida + territorio + evidencia + salud de fuentes','keywords':[q for q,_ in QUERIES],'sourceRegistry':status,'stats':stats,'system':{'memoryDays':MEMORY_DAYS,'eventIdentity':'estable entre actualizaciones','evidenceRule':'evidence-first','movementRule':'descriptivo: recencia + cobertura + diversidad de fuentes','sourceFailureRule':'no inferir desaparición cuando las fuentes conocidas no responden','lifecycle':['EMERGENTE','ACTIVO','SOSTENIDO','EN DESCENSO','RECIENTE'],'sourceHealth':status},'events':events,'items':deduped}
 with open(OUT,'w',encoding='utf-8') as handle: json.dump(output,handle,ensure_ascii=False,indent=2)
 print('Radar:',stats)
