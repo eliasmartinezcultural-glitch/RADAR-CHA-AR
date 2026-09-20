@@ -50,7 +50,11 @@ footer{border-top:1px solid var(--line);padding:18px 0 48px;color:var(--muted);f
 @media(max-width:820px){.territory-strip{grid-template-columns:1fr}.hero{grid-template-columns:1fr}.telemetry{max-width:330px}.pulse{grid-template-columns:1fr;gap:30px}.pulse-copy{border-left:0;border-top:1px solid var(--line);padding:22px 0 0}.event{grid-template-columns:55px 1fr}.move{grid-column:2;text-align:left;display:flex;align-items:baseline;gap:7px}.move small{margin:0}.mini-gadgets{grid-template-columns:1fr 1fr 1fr}}
 @media(max-width:520px){.territory-city{font-size:20px}.hero h1{font-size:3rem}.top{position:relative}.status{font-size:7px}.event{grid-template-columns:1fr}.rank{order:0}.move{grid-column:auto}.mini-gadgets{gap:5px}.gadget{padding:9px}.gadget strong{font-size:17px}}
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important}}
-</style>
+
+<style>
+.regional-updates{margin:-3px 0 15px;padding:10px 0 0}.regional-label{display:flex;gap:10px;align-items:center;margin-bottom:8px;font-size:8px;letter-spacing:.13em}.regional-label span{color:var(--gold)}.regional-label b{color:var(--muted);font-weight:800}.regional-ticker{display:grid;grid-template-columns:repeat(3,1fr);gap:7px}.regional-ticker a{min-width:0;border:1px solid var(--line);border-radius:10px;background:linear-gradient(135deg,#08171d,#040b0f);padding:10px;text-decoration:none;color:inherit;transition:.2s}.regional-ticker a:hover{border-color:var(--cyan);transform:translateY(-1px)}.regional-ticker span{display:block;color:var(--cyan);font-size:7px;font-weight:900;letter-spacing:.1em}.regional-ticker strong{display:block;font-size:10px;line-height:1.25;margin:5px 0}.regional-ticker small{color:var(--muted);font-size:7px}
+@media(max-width:700px){.regional-ticker{grid-template-columns:1fr}.regional-ticker a:nth-child(n+3){display:none}.regional-label{display:block}.regional-label b{display:block;margin-top:3px}}
+</style></style>
 </head>
 <body>
 <div id="updateScreen" class="update-screen" aria-hidden="true">
@@ -73,8 +77,8 @@ footer{border-top:1px solid var(--line);padding:18px 0 48px;color:var(--muted);f
  <aside class="telemetry">
   <div class="telemetry-head"><span>telemetría</span><span id="clock">--:--:--</span></div><div class="bar"><i></i></div>
   <div class="telemetry-grid">
-   <div class="metric"><small>VENTANA</small><strong>7d</strong><em> móvil</em></div>
-   <div class="metric"><small>ESTADO</small><strong>ON</strong><em> activo</em></div>
+   <div class="metric"><small>VENTANA</small><strong>7d</strong><em> pulso</em></div>
+   <div class="metric"><small>MEMORIA</small><strong>45d</strong><em> eventos</em></div>
    <div class="metric"><small>FUENTES</small><strong id="sourceMetric">—</strong><em> señales</em></div>
    <div class="metric"><small>EVENTOS</small><strong id="eventMetric">—</strong><em> agrupados</em></div>
   </div>
@@ -113,6 +117,7 @@ footer{border-top:1px solid var(--line);padding:18px 0 48px;color:var(--muted);f
 
 <section class="section">
  <div class="section-head"><h2>02 · Qué se está moviendo</h2><span class="hint">un hecho = una señal · ordenado por movimiento observable</span></div>
+ <div id="regionalUpdates" class="regional-updates"></div>
  <div id="events" class="events"><div class="empty">Escaneando fuentes…</div></div>
 </section>
 
@@ -148,14 +153,16 @@ async function load(){
   $('#gNew').textContent=stats.new??events.filter(e=>e.isNew).length;
   $('#pulseText').textContent=events.length===1?'hecho territorial detectado dentro de la ventana móvil.':'hechos territoriales detectados y agrupados dentro de la ventana móvil.';
   $('#updated').textContent='último pulso '+dt(d.updatedAt);
+  const recent=events.slice().sort((a,b)=>new Date(b.publishedAt)-new Date(a.publishedAt)).slice(0,3);
+  $('#regionalUpdates').innerHTML=recent.length?'<div class="regional-label"><span>ÚLTIMAS ACTUALIZACIONES</span><b>DE ESTO SE HABLA EN LA REGIÓN</b></div><div class="regional-ticker">'+recent.map(e=>'<a href="'+esc(e.evidenceUrl||'#')+'" target="_blank" rel="noopener noreferrer"><span>'+esc(e.topic||'TERRITORIO')+'</span><strong>'+esc(e.title)+'</strong><small>'+esc(dt(e.publishedAt))+' · '+esc(e.lifecycle||'RECIENTE')+' ↗</small></a>').join('')+'</div>':'';
   const visible=events.slice(0,30);
   $('#events').innerHTML=visible.length?visible.map((e,i)=>{
-   const topic=e.topic||'TERRITORIO', movement=e.movement??0, coverage=e.coverage??e.sourceCount??1;
+   const topic=e.topic||'TERRITORIO', movement=e.movement??0, coverage=e.coverage??e.sourceCount??1, lifecycle=e.lifecycle||'RECIENTE', delta=e.movementDelta||0;
    return '<a class="event" href="'+esc(e.evidenceUrl||'#')+'" target="_blank" rel="noopener noreferrer">'+
    '<div class="rank">SEÑAL '+String(i+1).padStart(2,'0')+'</div><div><strong>'+esc(e.title)+'</strong>'+
-   '<small>'+esc(dt(e.publishedAt))+' · '+esc(e.relevanceLabel||'ANCLA TERRITORIAL')+'</small>'+
+   '<small>'+esc(dt(e.publishedAt))+' · '+esc(e.relevanceLabel||'ANCLA TERRITORIAL')+' · '+esc(lifecycle)+'</small>'+
    '<div class="meta"><span class="tag">'+esc(topic)+'</span><span class="tag">'+esc(e.territorialAnchors?.[0]||'CHAÑAR')+'</span></div></div>'+
-   '<div class="move"><strong>'+esc(movement)+'</strong><small>movimiento · '+coverage+' fuente'+(coverage===1?'':'s')+'</small></div></a>'
+   '<div class="move"><strong>'+esc(movement)+'</strong><small>'+esc(delta>0?'▲ '+delta+' desde el último pulso':delta<0?'▼ '+Math.abs(delta)+' desde el último pulso':'movimiento estable')+' · '+coverage+' fuente'+(coverage===1?'':'s')+'</small></div></a>'
   }).join(''):'<div class="empty">No hay señales territoriales dentro de la ventana actual.</div>';
   $('#sources').innerHTML=sources.length?sources.map(s=>'<span class="source '+(/Chañar Digital|Mía Radio|Tuit/i.test(s)?'direct':'')+'">'+esc(s)+'</span>').join(''):'<span class="source">sin fuentes</span>';
   const evidence=events.slice(0,12).flatMap(e=>(e.items||[]).slice(0,3).map(x=>({title:x.title,source:x.source,url:x.evidenceUrl||x.url,publishedAt:x.publishedAt})));
