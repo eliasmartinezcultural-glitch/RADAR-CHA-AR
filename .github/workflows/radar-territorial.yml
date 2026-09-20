@@ -49,9 +49,11 @@ jobs:
           if missing:
               raise SystemExit("Contrato RADAR incompleto: " + ", ".join(missing))
           if len(d["systemRadars"]) != 12:
-              raise SystemExit(f"Se esperaban 12 contratos visuales y hay {len(d.get('sourceContracts',{}))}")
-          if len(d["systemRadars"]) != len(d["sourceContracts"]):
               raise SystemExit(f"Se esperaban 12 radares y hay {len(d['systemRadars'])}")
+          if len(d["sourceContracts"]) != 12:
+              raise SystemExit(f"Se esperaban 12 contratos de fuentes y hay {len(d['sourceContracts'])}")
+          if {r["id"] for r in d["systemRadars"]} != set(d["sourceContracts"]):
+              raise SystemExit("Cada radar debe tener exactamente un contrato de fuentes")
           print("RADAR OK:", d["updatedAt"], "| radares=", len(d["systemRadars"]), "| hechos=", len(d["events"]))
           PY
       - name: Guardar pulso
