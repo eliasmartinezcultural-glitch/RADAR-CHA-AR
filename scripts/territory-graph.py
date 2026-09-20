@@ -36,7 +36,7 @@ NODES = [
  {"id":"picada-19","label":"Picada 19","type":"MICROZONA","level":"microzona","aliases":["picada 19","picada n° 19","picada n.º 19"]},
  {"id":"picada-20","label":"Picada 20","type":"MICROZONA","level":"microzona","aliases":["picada 20","picada n° 20","picada n.º 20"]},
 
- # Sectores / barrios: matching only when the complete territorial expression appears.
+ # Sectores / barrios: matching only when the complete territorial expression appears. Generic words are intentionally excluded.
  {"id":"sector-bodegas","label":"Sector bodegas","type":"SECTOR","level":"sector","aliases":["sector bodegas"]},
  {"id":"parque-industrial","label":"Parque Industrial","type":"SECTOR","level":"sector","aliases":["parque industrial"]},
  {"id":"loteo-social","label":"Loteo Social","type":"SECTOR","level":"sector","aliases":["loteo social"]},
@@ -66,7 +66,7 @@ NODES = [
  {"id":"correo","label":"Correo Argentino","type":"SERVICIO","level":"servicio","aliases":["correo argentino"]},
 
  # Nodos productivos / ambientales.
- {"id":"bodegas","label":"Bodegas y viñedos","type":"PRODUCCIÓN","level":"produccion","aliases":["bodega familia schroeder","bodega del fin del mundo","bodega malma","bodegas","viñedo","viñedos","chacra","chacras"]},
+ {"id":"bodegas","label":"Bodegas y viñedos","type":"PRODUCCIÓN","level":"produccion","aliases":["bodega familia schroeder","bodega del fin del mundo","bodega malma"]},
  {"id":"balneario","label":"Balneario Municipal","type":"ESPACIO","level":"espacio","aliases":["balneario municipal"]},
  {"id":"mirador-virgen","label":"Mirador La Virgen","type":"ESPACIO","level":"espacio","aliases":["mirador la virgen","virgen del valle"]},
  {"id":"plaza-infancias","label":"Plaza de las Infancias","type":"ESPACIO","level":"espacio","aliases":["plaza de las infancias"]},
