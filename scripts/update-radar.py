@@ -71,7 +71,7 @@ LOCAL_ENTITIES=[
 ]
 STRONG_LOCAL=set(LOCAL_ENTITIES)-{'ruta 7','ruta 8','epen','viñedo','viñedos','bodegas','chacra'}
 AMBIGUOUS=['puerto el chañar','chañaral','chañar viejo','chañaral de caracoles']
-GENERIC_TITLES=['últimas noticias sobre san patricio del chañar','ultimas noticias sobre san patricio del chañar','noticias de san patricio del chañar']
+GENERIC_TITLES=[norm('últimas noticias sobre san patricio del chañar'),norm('ultimas noticias sobre san patricio del chañar'),norm('noticias de san patricio del chañar')]
 
 TOPIC_RULES=[
  ('SALUD',['hospital','salud','enfermer','medic','vacun','insumo']),
@@ -215,7 +215,7 @@ for x in ordered:
         yt=set(norm(' '.join([y['title'],y['description']])).split())
         anchor_overlap=bool(xt & yt & {norm(a) for a in LOCAL_ENTITIES})
         topic_overlap=any(norm(term) in norm(x['title']+' '+x['description']) and norm(term) in norm(y['title']+' '+y['description']) for _,terms in TOPIC_RULES for term in terms)
-        if sim>=0.84 or (sim>=0.68 and (anchor_overlap or topic_overlap)):
+        if sim>=0.84 or (sim>=0.48 and anchor_overlap and topic_overlap):
             # Prefer direct collection; otherwise preserve the richer title.
             if x['collection'].startswith('DIRECTA') and not y['collection'].startswith('DIRECTA'): dedup[dedup.index(y)]=x
             merged=True; break
