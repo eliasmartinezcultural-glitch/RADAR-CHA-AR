@@ -32,6 +32,8 @@ jobs:
         run: python scripts/update-radar.py
       - name: Construir grafo territorial
         run: python scripts/territory-graph.py
+      - name: Auditar precisión del pulso
+        run: python scripts/audit-radar.py
       - name: Construir memoria histórica
         run: python scripts/pulse-history.py
       - name: Guardar pulso
