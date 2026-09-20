@@ -1,71 +1,81 @@
-# PULSO CHAÑAR — CONTRATO DE PRODUCTO
+# RADAR CHAÑAR — CONTRATO DE PRODUCTO
 
-## Misión bloqueada
-PULSO CHAÑAR tiene una sola función pública:
-
+## Misión
 **Detectar qué se está moviendo en San Patricio del Chañar y mostrar de dónde surge cada señal.**
 
-## Interfaz bloqueada
-La experiencia pública se mantiene en tres apartados:
+La interfaz pública puede ser espectacular y futurista, pero la regla epistemológica no cambia: **evidencia primero**.
 
-1. **Pulso territorial** — estado general de la conversación detectada.
-2. **Qué se está moviendo** — eventos territoriales agrupados, no una lista plana de noticias.
-3. **De dónde viene** — fuentes y evidencia original.
+## Arquitectura pública
+RADAR CHAÑAR funciona como una central multiradar:
 
-## Inteligencia territorial interna
-El motor puede crecer sin multiplicar la interfaz. El grafo interno trabaja con:
+1. **Conversación** — qué se está moviendo.
+2. **Ruta 7** — señales territoriales asociadas al corredor.
+3. **Ruta 8** — señales territoriales asociadas al corredor.
+4. **Viento** — dato ambiental directo cuando la fuente está disponible.
+5. **Energía** — señales sobre electricidad y cortes.
+6. **Agua** — señales sobre abastecimiento, agua y cloacas.
+7. **Servicios** — infraestructura y servicios públicos.
+8. **Salud**.
+9. **Educación**.
+10. **Producción**.
+11. **Emergencias**.
+12. **Territorio** — barrios, sectores, picadas, instituciones y microzonas.
 
-**hecho ↔ institución ↔ picada ↔ barrio ↔ sector ↔ corredor ↔ Ruta 7/Ruta 8 ↔ producción ↔ educación ↔ servicios ↔ río ↔ microregión**
+Estos radares no son 12 portales separados. Son **12 lentes sobre un mismo motor territorial**.
 
-Capas internas:
+## Regla crítica de datos
+Hay tres estados distintos:
 
-- **LOCALIDAD**: San Patricio del Chañar como raíz.
-- **MICROZONA**: picadas y sectores rurales.
-- **BARRIO**: unidades barriales identificables.
-- **SECTOR**: Parque Industrial, sector bodegas, Loteo Social y otros sectores curados.
-- **CORREDOR**: Ruta 7 y Ruta 8.
-- **INSTITUCIÓN**: escuelas, hospital, policía, municipio, etc.
-- **SERVICIO**: infraestructura/servicios públicos.
-- **PRODUCCIÓN**: chacras, viñedos, bodegas.
-- **ÁREA**: salud, educación, servicios, producción.
-- **MICROREGIÓN**: relaciones territoriales de escala superior.
+- **DATO DIRECTO**: procede de una fuente de datos específica.
+- **SEÑAL DETECTADA / SEÑAL RECIENTE**: existe evidencia editorial o territorial.
+- **SIN SEÑAL RECIENTE**: el motor no encontró evidencia reciente.
 
-### Regla de oro del grafo
-**Evidencia primero.**
+**Nunca interpretar “sin señal” como “no existe el problema”.**
 
-Un evento se vincula a un nodo cuando el texto del evento contiene una evidencia territorial identificable. No se inventan relaciones por proximidad, intuición ni por conocimiento general.
+Una noticia sobre un corte de agua no equivale por sí sola a una confirmación operativa del corte. La interfaz debe conservar esa diferencia.
 
-Las relaciones estructurales conocidas se mantienen separadas de las relaciones obtenidas por coocurrencia textual.
+## Infraestructura interna
+El motor puede relacionar:
+
+**hecho ↔ institución ↔ picada ↔ barrio ↔ sector ↔ corredor ↔ Ruta 7 ↔ Ruta 8 ↔ producción ↔ educación ↔ servicios ↔ ambiente ↔ microzona ↔ microregión**
+
+Las relaciones territoriales deben estar sustentadas por evidencia textual o por una relación estructural previamente curada.
+
+## Ambiente
+Cuando existe fuente directa, el sistema puede incorporar variables ambientales como:
+
+- temperatura;
+- viento;
+- dirección del viento;
+- humedad;
+- precipitación.
+
+El dato ambiental debe mostrar su procedencia y momento de observación.
 
 ## Memoria
-Se conservan identificadores estables, primera/última aparición, ciclo de vida, variación de movimiento y nuevas fuentes.
+Se conservan:
 
-## Compartibilidad
-PULSO CHAÑAR debe poder circular como una pieza editorial simple:
+- identificadores estables;
+- primera y última aparición;
+- ciclo de vida;
+- cobertura;
+- diversidad de fuentes;
+- nuevas fuentes;
+- continuidad de eventos.
 
-- título social claro;
-- imagen de presentación;
-- descripción corta;
-- URL canónica;
-- botón de compartir nativo cuando exista;
-- fallback de copia para WhatsApp/redes;
-- ninguna cuenta ni instalación para observar el radar.
+## Qué no debe hacer
+No convertir RADAR CHAÑAR en:
 
-La compartibilidad es una capa de distribución, no una nueva función pública del radar.
-
-## No agregar
-No agregar:
-
-- buscador público;
-- filtros múltiples;
-- rankings;
-- comentarios;
-- perfiles;
-- red social interna;
+- portal de noticias;
+- red social;
+- ranking de importancia;
+- sistema de alarma falsa;
 - panel administrativo público;
-- mapa interactivo obligatorio;
-- funciones que conviertan PULSO CHAÑAR en portal de noticias.
+- acumulador de titulares sin deduplicación.
 
-**Regla central: más inteligencia detrás, menos cosas delante.**
+## Principio de diseño
+**Más inteligencia detrás. Más claridad delante.**
 
-**Versión de contrato: 1.0 · identidad PULSO CHAÑAR**
+La espectacularidad visual sirve para hacer visible la infraestructura tecnológica de Ocarina Producciones; no debe reemplazar la trazabilidad de la evidencia.
+
+**Versión de contrato: 2.0 · RADAR CHAÑAR**
