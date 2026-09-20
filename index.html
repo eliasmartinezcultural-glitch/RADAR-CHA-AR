@@ -3,207 +3,91 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="theme-color" content="#03070b">
-<meta name="description" content="PULSO CHAÑAR · Señales, hechos y fuentes sobre lo que se está moviendo en San Patricio del Chañar.">
-<meta property="og:title" content="PULSO CHAÑAR · Lo que se está moviendo en el territorio">
-<meta property="og:description" content="Señales, hechos y fuentes que están moviendo la conversación territorial de San Patricio del Chañar.">
+<meta name="theme-color" content="#02070b">
+<meta name="description" content="PULSO CHAÑAR · infraestructura de observación territorial de San Patricio del Chañar.">
+<meta property="og:title" content="PULSO CHAÑAR">
+<meta property="og:description" content="El pulso territorial de San Patricio del Chañar: actualidad, temas, señales y evidencia.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://eliasmartinezcultural-glitch.github.io/RADAR-CHA-AR/">
 <meta property="og:image" content="https://eliasmartinezcultural-glitch.github.io/RADAR-CHA-AR/social-card.svg">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="PULSO CHAÑAR · Pulso territorial de San Patricio del Chañar">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="PULSO CHAÑAR · Lo que se está moviendo en el territorio">
-<meta name="twitter:description" content="Señales, hechos y fuentes que están moviendo la conversación territorial de San Patricio del Chañar.">
-<meta name="twitter:image" content="https://eliasmartinezcultural-glitch.github.io/RADAR-CHA-AR/social-card.svg">
-<title>PULSO CHAÑAR · radar territorial · Ocarina Producciones</title>
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="PULSO CHAÑAR"><meta name="twitter:image" content="https://eliasmartinezcultural-glitch.github.io/RADAR-CHA-AR/social-card.svg">
+<title>PULSO CHAÑAR · Ocarina Producciones</title>
 <style>
-:root{
- --bg:#020508;--panel:#071016;--panel2:#0a151c;--line:#18313b;--line2:#244753;
- --text:#e9faff;--muted:#75919b;--cyan:#55e6ff;--cyan2:#1bbbd8;--green:#62ffb0;
- --gold:#ffd66b;--red:#ff6f79;--blue:#78a9ff;--max:1180px
-}
-*{box-sizing:border-box}html{scroll-behavior:smooth}
-body{margin:0;background:
- radial-gradient(circle at 50% -20%,#12404e 0,transparent 34%),
- radial-gradient(circle at 85% 35%,#0a2630 0,transparent 22%),var(--bg);
- color:var(--text);font:14px/1.5 Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;overflow-x:hidden}
-body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.18;background-image:linear-gradient(#8ff3ff08 1px,transparent 1px),linear-gradient(90deg,#8ff3ff08 1px,transparent 1px);background-size:44px 44px;mask-image:linear-gradient(to bottom,#000,transparent 72%)}
-.wrap{width:min(var(--max),calc(100% - 28px));margin:auto}.credit{padding:18px 0 10px;color:var(--cyan);font-size:9px;font-weight:900;letter-spacing:.25em;text-transform:uppercase}
-.top{position:sticky;top:0;z-index:20;margin:0 -14px;padding:12px 14px;border-top:1px solid #16313a;border-bottom:1px solid #16313a;background:#02080ddd;backdrop-filter:blur(16px);display:flex;justify-content:space-between;gap:15px;align-items:center}
-.brand{font-weight:950;letter-spacing:.18em;font-size:12px}.brand b{color:var(--cyan)}.status{font-size:9px;color:var(--green);letter-spacing:.12em}.dot{display:inline-block;width:6px;height:6px;background:var(--green);border-radius:50%;box-shadow:0 0 12px var(--green);margin-right:5px}
-.hero{padding:56px 0 30px;display:grid;grid-template-columns:1fr 260px;gap:50px;align-items:end}.eyebrow{color:var(--gold);font-size:9px;font-weight:900;letter-spacing:.2em;text-transform:uppercase}
-.hero h1{font-size:clamp(2.65rem,7vw,6.9rem);line-height:.87;letter-spacing:-.075em;margin:13px 0 20px;max-width:1000px}.hero p{max-width:700px;color:#a5bdc5;margin:0;font-size:15px}
-.telemetry{border:1px solid var(--line);background:linear-gradient(145deg,#091820dd,#040b0fdd);border-radius:14px;padding:14px;box-shadow:0 20px 70px #0008}.telemetry-head{display:flex;justify-content:space-between;font-size:8px;letter-spacing:.14em;color:var(--muted);text-transform:uppercase}.telemetry .bar{height:2px;background:#102d37;margin:12px 0;overflow:hidden}.telemetry .bar i{display:block;width:78%;height:100%;background:var(--cyan);box-shadow:0 0 12px var(--cyan);animation:load 2.6s ease-in-out infinite}.telemetry-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}.metric small{display:block;color:var(--muted);font-size:8px}.metric strong{font-size:18px;line-height:1}.metric em{font-style:normal;color:var(--green);font-size:8px}
-.section{border-top:1px solid var(--line);padding:28px 0 40px}.section-head{display:flex;justify-content:space-between;align-items:end;gap:15px;margin-bottom:18px}.section h2{font-size:10px;letter-spacing:.18em;text-transform:uppercase;margin:0}.hint{color:var(--muted);font-size:9px}
-.pulse{display:grid;grid-template-columns:minmax(360px,520px) 1fr;gap:55px;align-items:center;margin:10px 0 55px}
-.radar{position:relative;width:min(82vw,500px);aspect-ratio:1;border-radius:50%;margin:auto;border:1px solid #275764;background:
- radial-gradient(circle at center,#0c303b 0 1%,transparent 1.5% 20%,#08212a 20.2% 20.5%,transparent 20.8% 39%,#08212a 39.2% 39.5%,transparent 39.8% 59%,#08212a 59.2% 59.5%,transparent 59.8%),
- radial-gradient(circle,#071820,#02080d 70%);
- box-shadow:0 0 90px #56e7ff12,inset 0 0 70px #56e7ff12;overflow:hidden}
-.radar:before{content:"";position:absolute;inset:-1px;background:conic-gradient(from -25deg,transparent 0 315deg,#55e6ff05 315deg,#55e6ff4d 343deg,#55e6ff 349deg,transparent 353deg);animation:sweep 4.8s linear infinite}
-.radar:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,transparent 49.8%,#55e6ff20 50%,transparent 50.2%),linear-gradient(0deg,transparent 49.8%,#55e6ff20 50%,transparent 50.2%);pointer-events:none}
-.radar .ring{position:absolute;border:1px solid #55e6ff18;border-radius:50%;inset:10%}.radar .ring.r2{inset:28%}.radar .ring.r3{inset:46%}
-.core{position:absolute;left:50%;top:50%;width:10px;height:10px;border-radius:50%;background:var(--green);box-shadow:0 0 24px 7px #62ffb066;transform:translate(-50%,-50%);z-index:3}
-.sig{position:absolute;width:7px;height:7px;border-radius:50%;background:var(--cyan);box-shadow:0 0 16px var(--cyan);z-index:4;animation:blink 1.8s infinite}.s1{left:69%;top:27%}.s2{left:30%;top:65%;animation-delay:.5s}.s3{left:72%;top:70%;animation-delay:1s}.s4{left:38%;top:29%;animation-delay:1.4s}
-.radar-label{position:absolute;z-index:5;left:14px;top:12px;color:var(--muted);font-size:8px;letter-spacing:.14em}.radar-label b{color:var(--cyan)}
-.axis{position:absolute;color:#4f7985;font-size:7px;letter-spacing:.1em}.axis.n{top:7px;left:50%;transform:translateX(-50%)}.axis.e{right:8px;top:50%;transform:translateY(-50%)}.axis.s{bottom:7px;left:50%;transform:translateX(-50%)}.axis.w{left:8px;top:50%;transform:translateY(-50%)}
-.territory-strip{display:grid;grid-template-columns:1.4fr 1fr;gap:8px;margin:0 0 22px}.territory-art{min-height:150px;border:1px solid var(--line);border-radius:13px;background:radial-gradient(circle at 76% 36%,#55e6ff20 0 2px,transparent 3px),linear-gradient(164deg,transparent 0 45%,#55e6ff10 45.2% 45.8%,transparent 46%),linear-gradient(174deg,transparent 0 62%,#62ffb010 62.2% 62.8%,transparent 63%),linear-gradient(180deg,#071b24,#03090d);position:relative;overflow:hidden;padding:14px}.territory-art:before{content:"";position:absolute;left:-5%;right:-5%;bottom:-20px;height:72px;background:linear-gradient(168deg,transparent 0 25%,#102f2b 25.5% 45%,#071820 45.5%);transform:skewY(-4deg)}.territory-art:after{content:"RÍO NEUQUÉN  ·  RUTA 7  ·  PICADAS  ·  BODEGAS  ·  BARRIOS";position:absolute;bottom:12px;left:14px;right:14px;color:#557985;font-size:7px;letter-spacing:.16em}.territory-title{position:relative;z-index:2;color:var(--cyan);font-size:8px;letter-spacing:.2em;text-transform:uppercase}.territory-city{position:relative;z-index:2;margin-top:26px;font-size:24px;font-weight:950;letter-spacing:-.04em}.territory-city span{display:block;color:var(--muted);font-size:8px;font-weight:700;letter-spacing:.15em;text-transform:uppercase;margin-top:3px}.territory-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px}.layer{border:1px solid var(--line);border-radius:13px;background:#061118;padding:12px;min-height:71px}.layer small{display:block;color:var(--muted);font-size:7px;letter-spacing:.13em;text-transform:uppercase}.layer strong{display:block;font-size:12px;margin-top:5px}.layer i{display:block;width:100%;height:2px;background:#12313a;margin-top:9px;position:relative}.layer i:after{content:"";display:block;width:58%;height:100%;background:var(--cyan);box-shadow:0 0 8px var(--cyan)}.pulse-copy{border-left:1px solid var(--line);padding-left:28px}.pulse-copy h3{margin:0 0 10px;font-size:18px}.big-number{font-size:clamp(4rem,9vw,7rem);font-weight:950;line-height:.8;letter-spacing:-.08em}.pulse-copy p{color:var(--muted);max-width:430px}.stamp{display:inline-flex;align-items:center;gap:7px;color:var(--green);font-size:9px;letter-spacing:.1em;margin-top:10px}.stamp:before{content:"";width:5px;height:5px;border-radius:50%;background:var(--green);box-shadow:0 0 10px var(--green)}
-.mini-gadgets{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:22px}.gadget{border:1px solid var(--line);border-radius:10px;padding:11px;background:#061118}.gadget small{display:block;color:var(--muted);font-size:8px;text-transform:uppercase;letter-spacing:.1em}.gadget strong{font-size:20px}.gadget span{display:block;color:#789ba5;font-size:8px;margin-top:2px}
-.events{display:grid;gap:9px}.event{position:relative;display:grid;grid-template-columns:74px 1fr 130px;gap:16px;align-items:center;border:1px solid var(--line);border-radius:13px;background:linear-gradient(135deg,#091820e8,#040b10e8);padding:14px;text-decoration:none;color:inherit;overflow:hidden;transition:.2s}.event:before{content:"";position:absolute;left:0;top:0;bottom:0;width:2px;background:var(--cyan);opacity:.45}.event:hover{border-color:#3e7785;transform:translateY(-1px);box-shadow:0 12px 35px #0006}.rank{color:var(--gold);font-size:8px;font-weight:900;letter-spacing:.12em}.event strong{display:block;font-size:14px;line-height:1.3}.event small{display:block;color:var(--muted);margin-top:6px;font-size:8px}.meta{display:flex;gap:5px;flex-wrap:wrap;margin-top:7px}.tag{border:1px solid #1c3c47;border-radius:999px;padding:3px 7px;color:#91abb3;font-size:7px}.move{text-align:right}.move strong{font-size:22px;color:var(--gold)}.move small{color:var(--green);margin-top:0}.sources{display:flex;flex-wrap:wrap;gap:7px;margin-bottom:14px}.source{border:1px solid #1b3a45;border-radius:999px;padding:6px 9px;color:#9eb9c1;background:#07161c;font-size:8px}.source.direct{border-color:#62ffb044;color:#b8ffd8}.evidence{display:grid;gap:1px;background:#10242b;border:1px solid var(--line);border-radius:12px;overflow:hidden}.evidence a{display:flex;justify-content:space-between;gap:15px;padding:11px 13px;background:#061017;color:#b8d0d6;text-decoration:none;font-size:9px}.evidence a:hover{color:var(--cyan);background:#091820}.empty{border:1px dashed var(--line);padding:25px;border-radius:10px;text-align:center;color:var(--muted);font-size:10px}
-.update-screen{display:none;position:fixed;inset:0;z-index:100;background:#02070add;backdrop-filter:blur(18px);align-items:center;justify-content:center;padding:25px}.update-card{width:min(540px,100%);border:1px solid #285764;border-radius:16px;background:linear-gradient(145deg,#081820,#03090d);box-shadow:0 30px 100px #000;overflow:hidden}.update-top{padding:14px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;font-size:9px;letter-spacing:.13em}.scan{height:220px;position:relative;display:grid;place-items:center}.scan:before{content:"";position:absolute;width:170px;height:170px;border:1px solid #55e6ff55;border-radius:50%;box-shadow:0 0 50px #55e6ff15}.scan:after{content:"";position:absolute;width:230px;height:1px;background:linear-gradient(90deg,transparent,var(--cyan),transparent);animation:scan 1.6s linear infinite}.scan-core{width:14px;height:14px;border-radius:50%;background:var(--green);box-shadow:0 0 30px 8px #62ffb055}.update-body{padding:18px;border-top:1px solid var(--line)}.update-body strong{font-size:20px}.progress{height:4px;background:#102a33;margin-top:15px;overflow:hidden}.progress i{display:block;height:100%;width:0;background:var(--cyan);box-shadow:0 0 15px var(--cyan);animation:progress 2.8s ease forwards}.log{font-size:8px;color:var(--muted);margin-top:10px;display:flex;justify-content:space-between}
-footer{border-top:1px solid var(--line);padding:18px 0 48px;color:var(--muted);font-size:8px}
-@keyframes sweep{to{transform:rotate(360deg)}}@keyframes blink{50%{opacity:.2;transform:scale(.7)}}@keyframes load{50%{width:34%}100%{width:82%}}@keyframes scan{to{transform:translateY(80px)}}@keyframes progress{to{width:100%}}
-@media(max-width:820px){.territory-strip{grid-template-columns:1fr}.hero{grid-template-columns:1fr}.telemetry{max-width:330px}.pulse{grid-template-columns:1fr;gap:30px}.pulse-copy{border-left:0;border-top:1px solid var(--line);padding:22px 0 0}.event{grid-template-columns:55px 1fr}.move{grid-column:2;text-align:left;display:flex;align-items:baseline;gap:7px}.move small{margin:0}.mini-gadgets{grid-template-columns:1fr 1fr 1fr}}
-@media(max-width:520px){.territory-city{font-size:20px}.hero h1{font-size:3rem}.top{position:relative}.status{font-size:7px}.event{grid-template-columns:1fr}.rank{order:0}.move{grid-column:auto}.mini-gadgets{gap:5px}.gadget{padding:9px}.gadget strong{font-size:17px}}
-@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important}}
-
-
-/* Capa visual PULSO CHAÑAR */
-.hero{min-height:430px;position:relative}.hero:before{content:"";position:absolute;left:-18vw;right:-18vw;top:0;height:1px;background:linear-gradient(90deg,transparent,#55e6ff55,transparent);box-shadow:0 0 30px #55e6ff33}.hero h1{max-width:920px;text-wrap:balance}.hero h1:first-letter{color:var(--cyan)}
-.sharebar{display:flex;align-items:center;justify-content:space-between;gap:16px;margin:-5px 0 22px;padding:12px 13px;border:1px solid var(--line);border-radius:12px;background:linear-gradient(90deg,#061017,#07151b);box-shadow:0 12px 40px #0005}.sharebar span{color:var(--muted);font-size:8px;letter-spacing:.12em;text-transform:uppercase}.share-actions{display:flex;gap:6px;flex-wrap:wrap}.sharebar button{border:1px solid #285764;background:#07171d;color:var(--cyan);border-radius:8px;padding:8px 11px;font-size:8px;font-weight:900;letter-spacing:.08em;cursor:pointer}.sharebar button:hover{border-color:var(--cyan);box-shadow:0 0 18px #55e6ff16}.sharebar button:nth-child(2){color:#9fffc5;border-color:#315e4b}.sharebar button:nth-child(3){color:var(--gold);border-color:#665631}
-.territory-summary{margin-top:14px;padding:10px 12px;border-left:2px solid var(--cyan);background:#061118;color:#8daab3;font-size:9px;line-height:1.5}.territory-summary b{color:var(--text)}
-.territory-art{min-height:175px}.territory-art:before{box-shadow:0 -12px 30px #0c3b35}.layer{transition:.2s}.layer:hover{border-color:#315d69;transform:translateY(-1px)}
-.section{position:relative}.section:before{content:"";position:absolute;top:-1px;left:0;width:92px;height:1px;background:var(--cyan);box-shadow:0 0 12px #55e6ff55}.section-head h2{color:#dffaff}.section-head h2:before{content:"";display:inline-block;width:5px;height:5px;border-radius:50%;background:var(--cyan);box-shadow:0 0 9px var(--cyan);margin-right:8px;vertical-align:1px}
-.event{min-height:88px}.event:after{content:"TERRITORIO";position:absolute;right:12px;top:7px;color:#2d5560;font-size:6px;letter-spacing:.15em}.event strong{max-width:800px}.move strong{font-variant-numeric:tabular-nums}.tag{background:#06151b}.regional-updates{border:1px solid var(--line);border-radius:12px;padding:10px;background:#040c11;margin-bottom:12px}.regional-ticker a{min-height:86px}
-.evidence a span:first-child{max-width:85%}.source{transition:.2s}.source:hover{border-color:#55e6ff66}
-footer{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}.credit{display:flex;align-items:center;gap:9px}.credit:before{content:"◉";color:var(--green);font-size:8px;text-shadow:0 0 10px var(--green)}
-@media(max-width:700px){.hero{min-height:0;padding-top:38px}.sharebar{align-items:flex-start;flex-direction:column}.share-actions{width:100%}.sharebar button{flex:1}.event:after{display:none}.hero h1{font-size:clamp(2.8rem,13vw,4.5rem)}}
+:root{--bg:#02070a;--p:#071218;--p2:#0a1820;--l:#18343d;--t:#eafcff;--m:#75939d;--c:#55e6ff;--g:#62ffb0;--y:#ffd66b;--r:#ff6f79;--max:1180px}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at 50% -15%,#12404d,transparent 35%),radial-gradient(circle at 100% 40%,#0b2932,transparent 25%),var(--bg);color:var(--t);font:13px/1.45 Inter,system-ui,sans-serif;overflow-x:hidden}body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.13;background-image:linear-gradient(#8ff3ff 1px,transparent 1px),linear-gradient(90deg,#8ff3ff 1px,transparent 1px);background-size:48px 48px;mask-image:linear-gradient(#000,transparent 70%)}.wrap{width:min(var(--max),calc(100% - 28px));margin:auto}
+.credit{padding:16px 0 9px;color:var(--c);font-size:8px;font-weight:900;letter-spacing:.25em;text-transform:uppercase}.top{position:sticky;top:0;z-index:30;border-block:1px solid var(--l);background:#02070de8;backdrop-filter:blur(18px);padding:11px 0;display:flex;justify-content:space-between;align-items:center}.brand{font-weight:950;letter-spacing:.2em;font-size:13px}.brand b{color:var(--c)}.live{color:var(--g);font-size:8px;letter-spacing:.13em}.live i{display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--g);box-shadow:0 0 12px var(--g);margin-right:5px}
+.hero{padding:42px 0 34px;border-bottom:1px solid var(--l);display:grid;grid-template-columns:1.3fr .7fr;gap:45px;align-items:end}.hero h1{font-size:clamp(4rem,10vw,9rem);line-height:.78;letter-spacing:-.085em;margin:10px 0 20px;max-width:900px}.hero h1 b{color:var(--c)}.hero p{max-width:650px;color:#a9c0c7;margin:0}.telemetry{border:1px solid var(--l);border-radius:15px;padding:16px;background:linear-gradient(145deg,#0a1a21dd,#030a0ddd);box-shadow:0 25px 80px #0007}.telemetry label{display:flex;justify-content:space-between;color:var(--m);font-size:8px;letter-spacing:.15em;text-transform:uppercase}.telemetry .line{height:2px;background:#15333d;margin:12px 0}.telemetry .line i{display:block;width:72%;height:100%;background:var(--c);box-shadow:0 0 12px var(--c)}.metrics{display:grid;grid-template-columns:repeat(4,1fr);gap:7px}.metric{border:1px solid var(--l);border-radius:9px;padding:9px;background:#061117}.metric small{display:block;color:var(--m);font-size:7px}.metric strong{font-size:20px;display:block;margin-top:3px}.metric span{color:var(--g);font-size:7px}
+.section{border-bottom:1px solid var(--l);padding:30px 0 38px}.head{display:flex;justify-content:space-between;align-items:end;gap:15px;margin-bottom:17px}.head h2{font-size:11px;letter-spacing:.2em;text-transform:uppercase;margin:0}.head small{color:var(--m);font-size:8px}.grid2{display:grid;grid-template-columns:1.05fr .95fr;gap:14px}
+.radarbox,.panel{border:1px solid var(--l);border-radius:15px;background:linear-gradient(145deg,#07151c,#030a0e);overflow:hidden}.radarbox{min-height:420px;display:grid;place-items:center;position:relative}.radar{width:min(72vw,380px);aspect-ratio:1;border-radius:50%;border:1px solid #2a6472;position:relative;background:radial-gradient(circle,#0b303a 0 1%,transparent 1.5% 24%,#0a252e 24.2% 24.6%,transparent 25% 48%,#0a252e 48.2% 48.6%,transparent 49%),radial-gradient(circle,#071a21,#02090d 72%);box-shadow:0 0 90px #55e6ff12,inset 0 0 70px #55e6ff12;overflow:hidden}.radar:before{content:"";position:absolute;inset:-1px;background:conic-gradient(from -35deg,transparent 0 315deg,#55e6ff08 315deg,#55e6ff75 347deg,#55e6ff 351deg,transparent 355deg);animation:spin 5s linear infinite}.radar:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,transparent 49.8%,#55e6ff22 50%,transparent 50.2%),linear-gradient(0deg,transparent 49.8%,#55e6ff22 50%,transparent 50.2%)}.core{position:absolute;left:50%;top:50%;width:10px;height:10px;border-radius:50%;background:var(--g);box-shadow:0 0 25px 8px #62ffb066;transform:translate(-50%,-50%);z-index:3}.sig{position:absolute;width:7px;height:7px;border-radius:50%;background:var(--c);box-shadow:0 0 15px var(--c);z-index:4;animation:pulse 1.8s infinite}.s1{left:67%;top:27%}.s2{left:29%;top:62%;animation-delay:.4s}.s3{left:72%;top:69%;animation-delay:.9s}.s4{left:39%;top:29%;animation-delay:1.3s}.radartext{position:absolute;top:14px;left:16px;color:var(--m);font-size:7px;letter-spacing:.14em;z-index:5}.radartext b{color:var(--c)}.rlabel{position:absolute;color:#4d7884;font-size:7px;letter-spacing:.1em;z-index:5}.n{top:7px;left:50%}.e{right:8px;top:50%}.s{bottom:7px;left:50%}.w{left:8px;top:50%}
+.panel{padding:15px}.panel h3{margin:0 0 12px;font-size:9px;letter-spacing:.16em;text-transform:uppercase;color:var(--m)}.statline{display:flex;justify-content:space-between;align-items:end;border-bottom:1px solid var(--l);padding:10px 0}.statline strong{font-size:27px}.statline span{color:var(--m);font-size:8px}.bars{display:grid;gap:10px;margin-top:13px}.barrow{display:grid;grid-template-columns:105px 1fr 28px;gap:8px;align-items:center;font-size:8px}.barrow label{color:#aac0c6;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.barbg{height:5px;background:#102b34;border-radius:99px;overflow:hidden}.barbg i{display:block;height:100%;background:linear-gradient(90deg,var(--c),var(--g));width:var(--w);box-shadow:0 0 10px #55e6ff55}.barrow b{text-align:right;color:var(--c);font-size:8px}.gadgets{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:12px}.gadget{border:1px solid var(--l);border-radius:10px;padding:11px;background:#061117}.gadget small{display:block;color:var(--m);font-size:7px;letter-spacing:.1em;text-transform:uppercase}.gadget strong{display:block;font-size:21px}.gadget span{font-size:7px;color:var(--g)}
+.eight{display:grid;gap:5px}.signal{display:grid;grid-template-columns:34px 1fr 72px;gap:10px;align-items:center;border:1px solid var(--l);border-radius:10px;background:#061117;padding:10px 12px;text-decoration:none;color:inherit;min-height:58px}.signal:hover{border-color:#3b7180;transform:translateX(2px)}.num{color:var(--y);font-size:8px;font-weight:900}.signal strong{display:block;font-size:11px;line-height:1.25}.signal small{display:block;color:var(--m);font-size:7px;margin-top:3px}.signal em{text-align:right;color:var(--c);font-style:normal;font-size:8px}
+.actual{display:grid;grid-template-columns:1fr 1fr;gap:8px}.actual a{border:1px solid var(--l);border-radius:11px;background:#061117;padding:12px;text-decoration:none;color:inherit}.actual b{display:block;font-size:8px;color:var(--y);letter-spacing:.1em}.actual strong{display:block;margin-top:5px;font-size:11px}.actual small{display:block;color:var(--m);margin-top:6px;font-size:7px}.sourcegrid{display:flex;flex-wrap:wrap;gap:6px}.source{border:1px solid #20434d;border-radius:99px;padding:6px 9px;color:#a9c0c7;font-size:7px;background:#061117}.source.direct{color:#baffd7;border-color:#397052}
+.update{display:flex;justify-content:space-between;gap:15px;align-items:center;border:1px solid #244d58;border-radius:12px;padding:13px 15px;background:#06151b}.update strong{color:var(--g);font-size:10px}.update span{color:var(--m);font-size:8px}.share{display:flex;gap:6px}.share button{border:1px solid #285764;background:#07171d;color:var(--c);border-radius:8px;padding:8px 10px;font-size:7px;font-weight:900;cursor:pointer}
+footer{padding:18px 0 45px;color:var(--m);font-size:7px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+@keyframes spin{to{transform:rotate(360deg)}}@keyframes pulse{50%{opacity:.2;transform:scale(.65)}}@media(max-width:850px){.hero,.grid2{grid-template-columns:1fr}.hero h1{font-size:clamp(3.5rem,15vw,7rem)}.radarbox{min-height:360px}}@media(max-width:560px){.metrics{grid-template-columns:1fr 1fr}.gadgets{grid-template-columns:1fr 1fr 1fr}.actual{grid-template-columns:1fr}.signal{grid-template-columns:27px 1fr}.signal em{display:none}.head{align-items:start;flex-direction:column}.top{position:relative}}
 </style>
 </head>
 <body>
-<div id="updateScreen" class="update-screen" aria-hidden="true">
- <div class="update-card">
-  <div class="update-top"><span>PULSO CHAÑAR // ACTUALIZACIÓN</span><span id="updateClock">--:--</span></div>
-  <div class="scan"><div class="scan-core"></div></div>
-  <div class="update-body"><strong id="updateTitle">Escaneando territorio…</strong><div class="progress"><i></i></div><div class="log"><span id="updateLog">consultando señales</span><span>LIVE</span></div></div>
- </div>
-</div>
 <main class="wrap">
 <div class="credit">TECNOLOGÍA DESARROLLADA POR OCARINA PRODUCCIONES</div>
-<header class="top"><div class="brand">PULSO <b>CHAÑAR</b></div><div class="status"><span class="dot"></span>MONITOR TERRITORIAL ACTIVO</div></header>
+<header class="top"><div class="brand">PULSO <b>CHAÑAR</b></div><div class="live"><i></i>MOTOR TERRITORIAL ACTIVO</div></header>
 
 <section class="hero">
- <div>
-  <div class="eyebrow">PULSO CHAÑAR · RADAR TERRITORIAL · NEUQUÉN</div>
-  <h1>LO QUE SE ESTÁ MOVIENDO EN SAN PATRICIO DEL CHAÑAR</h1>
-  <p>Una sola función: detectar el pulso territorial. PULSO CHAÑAR reúne señales, reduce repeticiones, conecta hechos con territorio y deja visible de dónde proviene cada evidencia.</p>
- </div>
- <aside class="telemetry">
-  <div class="telemetry-head"><span>telemetría</span><span id="clock">--:--:--</span></div><div class="bar"><i></i></div>
-  <div class="telemetry-grid">
-   <div class="metric"><small>VENTANA</small><strong>7d</strong><em> pulso</em></div>
-   <div class="metric"><small>MEMORIA</small><strong>45d</strong><em> eventos</em></div>
-   <div class="metric"><small>FUENTES</small><strong id="sourceMetric">—</strong><em> señales</em></div>
-   <div class="metric"><small>EVENTOS</small><strong id="eventMetric">—</strong><em> agrupados</em></div>
-  </div>
- </aside>
-</section>
-
-<div class="sharebar"><span>Una página · un pulso · lista para circular</span><div class="share-actions"><button id="shareBtn" type="button">↗ COMPARTIR</button><button id="waBtn" type="button">WHATSAPP</button><button id="copyBtn" type="button">COPIAR</button></div></div>
-<section class="section" style="border-top:0;padding-top:0">
- <div class="section-head"><h2>01 · Pulso territorial</h2><span class="hint">representación visual · no es un mapa geográfico</span></div>
- <div class="territory-strip">
-  <div class="territory-art"><div class="territory-title">CAPA TERRITORIAL // SAN PATRICIO DEL CHAÑAR</div><div class="territory-city">EL CHAÑAR<span>territorio observado · no mapa operativo</span></div></div>
-  <div class="territory-grid">
-   <div class="layer"><small>corredor</small><strong>Ruta 7</strong><i></i></div>
-   <div class="layer"><small>sectores</small><strong>Picadas</strong><i></i></div>
-   <div class="layer"><small>identidad</small><strong>Viñas · chacras</strong><i></i></div>
-   <div class="layer"><small>comunidad</small><strong>Barrios · instituciones</strong><i></i></div>
-  </div>
- </div>
- <div class="pulse">
-  <div class="radar" aria-label="Pulso territorial">
-   <div class="radar-label">LIVE // <b>CHAÑAR</b></div><span class="axis n">N</span><span class="axis e">E</span><span class="axis s">S</span><span class="axis w">W</span>
-   <div class="ring"></div><div class="ring r2"></div><div class="ring r3"></div><div class="core"></div>
-   <i class="sig s1"></i><i class="sig s2"></i><i class="sig s3"></i><i class="sig s4"></i>
-  </div>
-  <div class="pulse-copy">
-   <h3>El territorio está hablando</h3><div id="eventCount" class="big-number">—</div>
-   <p id="pulseText">hechos territoriales detectados y agrupados automáticamente.</p>
-   <span id="updated" class="stamp">ESPERANDO ACTUALIZACIÓN</span><div id="territorySummary" class="territory-summary">Conectando hechos, lugares, instituciones y corredores…</div>
-   <div class="mini-gadgets">
-    <div class="gadget"><small>fuentes</small><strong id="gSources">—</strong><span>orígenes detectados</span></div>
-    <div class="gadget"><small>directas</small><strong id="gDirect">—</strong><span>señales prioritarias</span></div>
-    <div class="gadget"><small>nuevas</small><strong id="gNew">—</strong><span>señales recientes</span></div>
-   </div>
-  </div>
- </div>
+<div><h1><b>PULSO</b><br>CHAÑAR</h1><p>Infraestructura de observación territorial. Reúne señales, agrupa hechos, conecta territorio y muestra evidencia sin convertir la información en ruido.</p></div>
+<aside class="telemetry"><label><span>telemetría territorial</span><span id="clock">--:--:--</span></label><div class="line"><i></i></div><div class="metrics">
+<div class="metric"><small>EVENTOS</small><strong id="eventMetric">—</strong><span>agrupados</span></div><div class="metric"><small>FUENTES</small><strong id="sourceMetric">—</strong><span>activas</span></div><div class="metric"><small>NODOS</small><strong id="nodeMetric">—</strong><span>territoriales</span></div><div class="metric"><small>MEMORIA</small><strong>45d</strong><span>histórica</span></div>
+</div></aside>
 </section>
 
 <section class="section">
- <div class="section-head"><h2>02 · Qué se está moviendo</h2><span class="hint">hechos agrupados · memoria · movimiento observable</span></div>
- <div id="regionalUpdates" class="regional-updates"></div>
- <div id="events" class="events"><div class="empty">Escaneando fuentes…</div></div>
+<div class="head"><h2>01 · RADAR TERRITORIAL</h2><small>señales · actividad · territorio</small></div>
+<div class="grid2">
+<div class="radarbox"><div class="radar"><span class="radartext">PULSO <b>CHAÑAR</b> // LIVE</span><span class="rlabel n">N</span><span class="rlabel e">E</span><span class="rlabel s">S</span><span class="rlabel w">O</span><i class="core"></i><i class="sig s1"></i><i class="sig s2"></i><i class="sig s3"></i><i class="sig s4"></i></div></div>
+<div class="panel"><h3>lectura del territorio</h3><div class="statline"><span>señales detectadas</span><strong id="signalCount">—</strong></div><div class="statline"><span>nodos activos</span><strong id="activeNodes">—</strong></div><div class="bars" id="themeBars"></div><div class="gadgets"><div class="gadget"><small>directas</small><strong id="directCount">—</strong><span>fuentes</span></div><div class="gadget"><small>nuevas</small><strong id="newCount">—</strong><span>señales</span></div><div class="gadget"><small>actualidad</small><strong id="recentCount">—</strong><span>24h</span></div></div></div>
+</div>
 </section>
 
 <section class="section">
- <div class="section-head"><h2>03 · De dónde viene</h2><span class="hint">fuentes directas · evidencia original · trazabilidad</span></div>
- <div id="sources" class="sources"></div>
- <div id="evidence" class="evidence"><div class="empty">Esperando evidencia…</div></div>
+<div class="head"><h2>02 · LO QUE SE ESTÁ HABLANDO</h2><small>8 señales · síntesis territorial</small></div>
+<div id="signals" class="eight"><div class="panel">Escaneando pulso…</div></div>
 </section>
 
-<footer><strong>PULSO CHAÑAR</strong> · conversación pública territorial · ventana móvil de 7 días. El movimiento representa actividad observable (recencia, coberturas y diversidad de fuentes), no importancia, verdad ni recomendación. Desarrollado por Ocarina Producciones.</footer>
+<section class="section">
+<div class="head"><h2>03 · ACTUALIDAD</h2><small>últimas señales incorporadas</small></div>
+<div id="actual" class="actual"></div>
+</section>
+
+<section class="section">
+<div class="head"><h2>04 · FUENTES Y EVIDENCIA</h2><small>de dónde viene el pulso</small></div>
+<div id="sources" class="sourcegrid"></div>
+</section>
+
+<section class="section">
+<div class="update"><div><strong>PULSO ACTUALIZADO</strong><span id="updated">—</span></div><div class="share"><button id="shareBtn">COMPARTIR</button><button id="waBtn">WHATSAPP</button></div></div>
+</section>
+
+<footer><strong>PULSO CHAÑAR · Ocarina Producciones</strong><span>actividad observable · evidencia primero · sin rankings de importancia</span></footer>
 </main>
-
 <script>
-const $=s=>document.querySelector(s);
-const esc=v=>String(v??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[m]));
+const $=s=>document.querySelector(s),esc=v=>String(v??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[m]||m));
 const dt=v=>{try{return new Date(v).toLocaleString('es-AR',{day:'2-digit',month:'2-digit',hour:'2-digit',minute:'2-digit'})}catch{return''}};
-const clock=()=>$('#clock').textContent=new Date().toLocaleTimeString('es-AR',{hour12:false});
-const shareUrl=location.href.split('#')[0];
-const shareText='PULSO CHAÑAR · Lo que se está moviendo en San Patricio del Chañar';
-async function shareRadar(){
- const data={title:'PULSO CHAÑAR · Pulso territorial',text:shareText,url:shareUrl};
- try{
-  if(navigator.share){await navigator.share(data);return}
-  await navigator.clipboard.writeText(shareText+'\\n'+shareUrl);
-  alert('Enlace y texto listos para compartir.');
- }catch(e){}
-}
-$('#shareBtn')?.addEventListener('click',shareRadar);
-$('#waBtn')?.addEventListener('click',()=>{location.href='https://wa.me/?text='+encodeURIComponent(shareText+'\n'+shareUrl)});
-$('#copyBtn')?.addEventListener('click',async()=>{try{await navigator.clipboard.writeText(shareText+'\n'+shareUrl);$('#copyBtn').textContent='COPIADO';setTimeout(()=>$('#copyBtn').textContent='COPIAR',1400)}catch(e){}});
-setInterval(clock,1000);clock();
-function updateOverlay(){
- const s=$('#updateScreen');s.style.display='flex';s.setAttribute('aria-hidden','false');
- let i=0;const lines=['consultando fuentes directas','comparando señales territoriales','eliminando repeticiones','agrupando hechos','preparando evidencia'];
- const timer=setInterval(()=>{$('#updateLog').textContent=lines[Math.min(i++,lines.length-1)]},520);
- setTimeout(()=>{clearInterval(timer);s.style.display='none';s.setAttribute('aria-hidden','true')},3100);
-}
+setInterval(()=>$('#clock').textContent=new Date().toLocaleTimeString('es-AR',{hour12:false}),1000);
+$('#shareBtn').onclick=async()=>{const u=location.href.split('#')[0],t='PULSO CHAÑAR · pulso territorial de San Patricio del Chañar';try{navigator.share?await navigator.share({title:'PULSO CHAÑAR',text:t,url:u}):await navigator.clipboard.writeText(t+'\n'+u)}catch(e){}};
+$('#waBtn').onclick=()=>{const u=location.href.split('#')[0];location.href='https://wa.me/?text='+encodeURIComponent('PULSO CHAÑAR · pulso territorial de San Patricio del Chañar\n'+u)};
+function bar(name,n,total){const w=Math.max(8,Math.round(n/Math.max(total,1)*100));return '<div class="barrow"><label>'+esc(name)+'</label><div class="barbg"><i style="--w:'+w+'%"></i></div><b>'+n+'</b></div>'}
 async function load(){
- try{
-  const d=await (await fetch('data/radar-feed.json?ts='+Date.now(),{cache:'no-store'})).json();
-  const events=Array.isArray(d.events)?d.events:[], stats=d.stats||{};
-  const sources=[...new Set(events.flatMap(e=>e.sources||[]))];
-  $('#eventCount').textContent=events.length;$('#eventMetric').textContent=events.length;
-  $('#sourceMetric').textContent=sources.length;$('#gSources').textContent=sources.length;
-  $('#gDirect').textContent=stats.directSignals??events.reduce((n,e)=>n+(e.directSourceCount||0),0);
-  $('#gNew').textContent=stats.new??events.filter(e=>e.isNew).length;
-const graph=d.territorialGraph||{};
-const activeNodes=graph.stats?.activeNodes||0;
-$('#territorySummary').innerHTML=activeNodes?'<b>'+activeNodes+' nodos territoriales activos.</b> El motor conecta hechos con picadas, barrios, corredores, instituciones, servicios y producción cuando existe evidencia textual.':'El motor territorial está esperando señales verificadas.';
-  $('#pulseText').textContent=events.length===1?'hecho territorial detectado dentro de la ventana móvil.':'hechos territoriales detectados y agrupados dentro de la ventana móvil.';
-  $('#updated').textContent='último pulso '+dt(d.updatedAt);
-  const recent=events.slice().sort((a,b)=>new Date(b.publishedAt)-new Date(a.publishedAt)).slice(0,3);
-  $('#regionalUpdates').innerHTML=recent.length?'<div class="regional-label"><span>ÚLTIMAS ACTUALIZACIONES</span><b>DE ESTO SE HABLA EN LA REGIÓN</b></div><div class="regional-ticker">'+recent.map(e=>'<a href="'+esc(e.evidenceUrl||'#')+'" target="_blank" rel="noopener noreferrer"><span>'+esc(e.topic||'TERRITORIO')+'</span><strong>'+esc(e.title)+'</strong><small>'+esc(dt(e.publishedAt))+' · '+esc(e.lifecycle||'RECIENTE')+' ↗</small></a>').join('')+'</div>':'';
-  const visible=events.slice(0,30);
-  $('#events').innerHTML=visible.length?visible.map((e,i)=>{
-   const topic=e.topic||'TERRITORIO', movement=e.movement??0, coverage=e.coverage??e.sourceCount??1, lifecycle=e.lifecycle||'RECIENTE', delta=e.movementDelta||0;
-   const path=e.territory?.path||'San Patricio del Chañar';
-   return '<a class="event" href="'+esc(e.evidenceUrl||'#')+'" target="_blank" rel="noopener noreferrer">'+
-   '<div class="rank">SEÑAL '+String(i+1).padStart(2,'0')+'</div><div><strong>'+esc(e.title)+'</strong>'+
-   '<small>'+esc(dt(e.publishedAt))+' · '+esc(e.relevanceLabel||'ANCLA TERRITORIAL')+' · '+esc(lifecycle)+'</small>'+
-   '<div class="meta"><span class="tag">'+esc(topic)+'</span><span class="tag">'+esc(e.territory?.microzones?.[0]||e.territorialAnchors?.[0]||'CHAÑAR')+'</span><span class="tag">'+esc(e.territory?.corridors?.[0]||'TERRITORIO')+'</span></div><small>ruta territorial · '+esc(path)+'</small></div>'+
-   '<div class="move"><strong>'+esc(movement)+'</strong><small>'+esc(delta>0?'▲ '+delta+' desde el último pulso':delta<0?'▼ '+Math.abs(delta)+' desde el último pulso':'movimiento estable')+' · '+coverage+' fuente'+(coverage===1?'':'s')+'</small></div></a>'
-  }).join(''):'<div class="empty">No hay señales territoriales dentro de la ventana actual.</div>';
-  $('#sources').innerHTML=sources.length?sources.map(s=>'<span class="source '+(/Chañar Digital|Mía Radio|Tuit/i.test(s)?'direct':'')+'">'+esc(s)+'</span>').join(''):'<span class="source">sin fuentes</span>';
-  const evidence=events.slice(0,12).flatMap(e=>(e.items||[]).slice(0,3).map(x=>({title:x.title,source:x.source,url:x.evidenceUrl||x.url,publishedAt:x.publishedAt})));
-  $('#evidence').innerHTML=evidence.length?evidence.map(x=>'<a href="'+esc(x.url||'#')+'" target="_blank" rel="noopener noreferrer"><span>'+esc(x.source)+' · '+esc(x.title)+'</span><span>'+esc(dt(x.publishedAt))+' ↗</span></a>').join(''):'<div class="empty">sin evidencia disponible</div>';
- }catch(e){$('#events').innerHTML='<div class="empty">No se pudo cargar el pulso automático.</div>'}
-}
-updateOverlay();load();
+try{
+const d=await (await fetch('data/radar-feed.json?ts='+Date.now(),{cache:'no-store'})).json(),events=Array.isArray(d.events)?d.events:[],stats=d.stats||{},graph=d.territorialGraph||{},sources=[...new Set(events.flatMap(e=>e.sources||[]))];
+$('#eventMetric').textContent=events.length;$('#sourceMetric').textContent=sources.length;$('#nodeMetric').textContent=graph.stats?.activeNodes||0;$('#signalCount').textContent=events.length;$('#activeNodes').textContent=graph.stats?.activeNodes||0;
+$('#directCount').textContent=stats.directSignals??events.reduce((n,e)=>n+(e.directSourceCount||0),0);$('#newCount').textContent=stats.new??events.filter(e=>e.isNew).length;
+$('#recentCount').textContent=events.filter(e=>{const d=new Date(e.publishedAt);return Date.now()-d<86400000}).length;$('#updated').textContent=dt(d.updatedAt);
+const themes={};events.forEach(e=>themes[e.topic||'Territorio']=(themes[e.topic||'Territorio']||0)+1);const top=Object.entries(themes).sort((a,b)=>b[1]-a[1]).slice(0,5);$('#themeBars').innerHTML=top.map(x=>bar(x[0],x[1],events.length)).join('');
+const visible=events.slice().sort((a,b)=>(b.movement??0)-(a.movement??0)).slice(0,8);
+$('#signals').innerHTML=visible.length?visible.map((e,i)=>'<a class="signal" href="'+esc(e.evidenceUrl||'#')+'" target="_blank" rel="noopener noreferrer"><span class="num">0'+(i+1)+'</span><div><strong>'+esc(e.title)+'</strong><small>'+esc(e.topic||'TERRITORIO')+' · '+esc(e.lifecycle||'RECIENTE')+' · '+esc(e.territory?.path||'San Patricio del Chañar')+'</small></div><em>'+esc(e.movement??0)+' pulso</em></a>').join(''):'<div class="panel">Sin señales dentro de la ventana actual.</div>';
+const recent=events.slice().sort((a,b)=>new Date(b.publishedAt)-new Date(a.publishedAt)).slice(0,4);$('#actual').innerHTML=recent.map(e=>'<a href="'+esc(e.evidenceUrl||'#')+'" target="_blank" rel="noopener noreferrer"><b>'+esc(e.topic||'ACTUALIDAD')+'</b><strong>'+esc(e.title)+'</strong><small>'+esc(dt(e.publishedAt))+' · '+esc(e.lifecycle||'RECIENTE')+'</small></a>').join('');
+$('#sources').innerHTML=sources.map(s=>'<span class="source '+(/Chañar Digital|Mía Radio|Tuit/i.test(s)?'direct':'')+'">'+esc(s)+'</span>').join('');
+}catch(e){$('#signals').innerHTML='<div class="panel">El motor está actualizando las señales.</div>'}}
+load();
 </script>
-</body>
-</html>
+</body></html>
