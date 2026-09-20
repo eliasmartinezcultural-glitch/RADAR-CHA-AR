@@ -22,16 +22,18 @@ def snapshot(data):
     nodes={}
     direct=0
     for e in events:
-        t=e.get("topic") or "OTROS"
-        topics[t]=topics.get(t,0)+1
-        lifecycle[e.get("lifecycle") or "RECIENTE"]=lifecycle.get(e.get("lifecycle") or "RECIENTE",0)+1
+        topic=e.get("topic") or "OTROS"
+        topics[topic]=topics.get(topic,0)+1
+        life=e.get("lifecycle") or "RECIENTE"
+        lifecycle[life]=lifecycle.get(life,0)+1
         direct += int(e.get("directSourceCount") or 0)
-        for s in e.get("sources",[])[:8]:
-            sources[s]=sources.get(s,0)+1
-        for n in (e.get("territory") or {}).get("nodes",[])[:10]:
-            nodes[n]=nodes.get(n,0)+1
+        for source in e.get("sources",[])[:8]:
+            sources[source]=sources.get(source,0)+1
+        for node in (e.get("territory") or {}).get("nodes",[])[:10]:
+            nodes[node]=nodes.get(node,0)+1
     now=datetime.now(timezone.utc)
-    bucket=now.replace(minute=(now.minute//(BUCKET_HOURS*1))*BUCKET_HOURS,second=0,microsecond=0)
+    bucket_minute=(now.minute//(BUCKET_HOURS*1))*BUCKET_HOURS
+    bucket=now.replace(minute=bucket_minute,second=0,microsecond=0)
     return {
         "at":now.isoformat(),
         "bucket":bucket.isoformat(),
@@ -42,7 +44,15 @@ def snapshot(data):
         "nodes":nodes,
         "activeNodes":int(graph.get("stats",{}).get("activeNodes") or 0),
         "directSignals":direct,
-        "newSignals":sum(1 for e in events if e.get("isNew")),\n        "sourceHealth":{s.get("name"):{"success":bool(s.get("success")),"signals":int(s.get("signals") or 0),"freshnessHours":s.get("freshnessHours")} for s in data.get("sourceRegistry",[]) if s.get("name")},
+        "newSignals":sum(1 for e in events if e.get("isNew")),
+        "sourceHealth":{
+            s.get("name"):{
+                "success":bool(s.get("success")),
+                "signals":int(s.get("signals") or 0),
+                "freshnessHours":s.get("freshnessHours")
+            }
+            for s in data.get("sourceRegistry",[]) if s.get("name")
+        }
     }
 
 try:
@@ -53,11 +63,17 @@ except Exception:
 data=json.loads(FEED.read_text(encoding="utf-8"))
 snap=snapshot(data)
 rows=history.get("snapshots",[])
-rows=[r for r in rows if r.get("bucket")!=snap["bucket"]]
+rows=[row for row in rows if row.get("bucket")!=snap["bucket"]]
 rows.append(snap)
 cutoff=datetime.now(timezone.utc)-timedelta(days=MAX_DAYS)
-rows=[r for r in rows if (parse_dt(r.get("at")) or datetime.now(timezone.utc))>=cutoff]
-rows.sort(key=lambda r:r.get("at",""))
-history={"version":"1.0","windowDays":MAX_DAYS,"bucketHours":BUCKET_HOURS,"generatedAt":datetime.now(timezone.utc).isoformat(),"snapshots":rows}
+rows=[row for row in rows if (parse_dt(row.get("at")) or datetime.now(timezone.utc))>=cutoff]
+rows.sort(key=lambda row:row.get("at",""))
+history={
+    "version":"1.1",
+    "windowDays":MAX_DAYS,
+    "bucketHours":BUCKET_HOURS,
+    "generatedAt":datetime.now(timezone.utc).isoformat(),
+    "snapshots":rows
+}
 OUT.write_text(json.dumps(history,ensure_ascii=False,indent=2),encoding="utf-8")
 print("History:",len(rows),"snapshots")
