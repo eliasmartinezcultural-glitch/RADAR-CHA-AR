@@ -1,0 +1,31 @@
+name: RADAR Chañar · pulso territorial
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: Actualizar señales
+        run: python scripts/update-radar.py
+      - name: Construir grafo territorial
+        run: python scripts/territory-graph.py
+      - name: Guardar pulso
+        run: |
+          git config user.name "RADAR CHAÑAR"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/radar-feed.json
+          git diff --cached --quiet || git commit -m "chore: actualizar pulso y grafo territorial"
+          git push
