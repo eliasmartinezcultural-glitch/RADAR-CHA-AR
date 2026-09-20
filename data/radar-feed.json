@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-09-20T01:07:42.212002+00:00",
+  "updatedAt": "2026-09-20T01:58:09.059187+00:00",
   "window": "7 días",
-  "purpose": "¿De qué se está hablando cuando se habla de San Patricio del Chañar?",
-  "architecture": "fuentes directas + web directa + respaldo + memoria de eventos + ciclo de vida + territorio + evidencia",
+  "purpose": "Detectar qué se está moviendo en San Patricio del Chañar y mostrar de dónde surge cada señal.",
+  "architecture": "fuentes directas + web directa + respaldo + memoria de eventos + ciclo de vida + territorio + evidencia + salud de fuentes",
   "keywords": [
     "\"San Patricio del Chañar\"",
     "\"San Patricio del Chañar\" salud hospital",
@@ -35,99 +35,199 @@
       "type": "MEDIO LOCAL",
       "mode": "sin respuesta",
       "signals": 0,
-      "url": "https://www.chanardigital.com.ar/"
+      "url": "https://www.chanardigital.com.ar/",
+      "lastFetch": "2026-09-20T01:57:39.952661+00:00",
+      "success": true,
+      "attempted": 4,
+      "failures": [
+        "RSS: HTTPError",
+        "RSS: HTTPError",
+        "RSS: HTTPError"
+      ],
+      "directAvailability": "available",
+      "freshnessHours": null
     },
     {
       "name": "Mía Radio 94.7",
       "type": "RADIO LOCAL",
       "mode": "sin respuesta",
       "signals": 0,
-      "url": "https://www.radiomia.com.ar/"
+      "url": "https://www.radiomia.com.ar/",
+      "lastFetch": "2026-09-20T01:57:42.796213+00:00",
+      "success": true,
+      "attempted": 1,
+      "failures": [],
+      "directAvailability": "available",
+      "freshnessHours": null
     },
     {
       "name": "Radio Tuit Vaca Muerta 90.5",
       "type": "RADIO LOCAL / PRODUCTIVA",
       "mode": "sin respuesta",
       "signals": 0,
-      "url": "https://tuitvacamuerta.com/"
+      "url": "https://tuitvacamuerta.com/",
+      "lastFetch": "2026-09-20T01:57:48.377759+00:00",
+      "success": true,
+      "attempted": 1,
+      "failures": [],
+      "directAvailability": "available",
+      "freshnessHours": null
     },
     {
       "name": "Vaca Muerta News",
       "type": "MEDIO REGIONAL / RADIO",
       "mode": "sin respuesta",
       "signals": 0,
-      "url": "https://www.vacamuertanews.com/"
+      "url": "https://www.vacamuertanews.com/",
+      "lastFetch": "2026-09-20T01:57:49.985920+00:00",
+      "success": true,
+      "attempted": 2,
+      "failures": [
+        "RSS: HTTPError"
+      ],
+      "directAvailability": "available",
+      "freshnessHours": null
     },
     {
       "name": "Neuquén Informa",
       "type": "MEDIO OFICIAL PROVINCIAL",
       "mode": "sin respuesta",
       "signals": 0,
-      "url": "https://www.neuqueninforma.gob.ar/"
+      "url": "https://www.neuqueninforma.gob.ar/",
+      "lastFetch": "2026-09-20T01:57:50.290004+00:00",
+      "success": true,
+      "attempted": 3,
+      "failures": [
+        "RSS: HTTPError",
+        "RSS: ParseError"
+      ],
+      "directAvailability": "available",
+      "freshnessHours": null
     },
     {
       "name": "Municipalidad de San Patricio del Chañar",
       "type": "INSTITUCIONAL LOCAL",
       "mode": "sin respuesta",
       "signals": 0,
-      "url": "https://sanpatricio.gob.ar/"
+      "url": "https://sanpatricio.gob.ar/",
+      "lastFetch": "2026-09-20T01:57:51.186344+00:00",
+      "success": true,
+      "attempted": 3,
+      "failures": [
+        "RSS: ParseError",
+        "RSS: ParseError"
+      ],
+      "directAvailability": "available",
+      "freshnessHours": null
     },
     {
       "name": "Boletín Oficial de Neuquén",
       "type": "FUENTE NORMATIVA",
       "mode": "sin respuesta",
       "signals": 0,
-      "url": "https://boletinoficial.neuquen.gov.ar/"
+      "url": "https://boletinoficial.neuquen.gov.ar/",
+      "lastFetch": "2026-09-20T01:57:55.540392+00:00",
+      "success": false,
+      "attempted": 1,
+      "failures": [
+        "WEB: URLError"
+      ],
+      "directAvailability": "failed",
+      "freshnessHours": null
     },
     {
       "name": "Infoleg Neuquén",
       "type": "FUENTE NORMATIVA",
       "mode": "sin respuesta",
       "signals": 0,
-      "url": "https://infoleg.neuquen.gob.ar/"
+      "url": "https://infoleg.neuquen.gob.ar/",
+      "lastFetch": "2026-09-20T01:57:56.470069+00:00",
+      "success": false,
+      "attempted": 1,
+      "failures": [
+        "WEB: URLError"
+      ],
+      "directAvailability": "failed",
+      "freshnessHours": null
     },
     {
       "name": "LM Neuquén",
       "type": "MEDIO REGIONAL",
       "mode": "sin respuesta",
       "signals": 0,
-      "url": "https://www.lmneuquen.com/"
+      "url": "https://www.lmneuquen.com/",
+      "lastFetch": "2026-09-20T01:57:57.587561+00:00",
+      "success": false,
+      "attempted": 2,
+      "failures": [
+        "RSS: HTTPError",
+        "WEB: HTTPError"
+      ],
+      "directAvailability": "failed",
+      "freshnessHours": null
     },
     {
       "name": "Diario Río Negro",
       "type": "MEDIO REGIONAL",
-      "mode": "RSS directo",
-      "signals": 3,
-      "url": "https://www.rionegro.com.ar/"
+      "mode": "sin respuesta",
+      "signals": 0,
+      "url": "https://www.rionegro.com.ar/",
+      "lastFetch": "2026-09-20T01:57:57.771263+00:00",
+      "success": true,
+      "attempted": 2,
+      "failures": [],
+      "directAvailability": "available",
+      "freshnessHours": null
     },
     {
       "name": "Mejor Informado",
       "type": "MEDIO REGIONAL",
       "mode": "sin respuesta",
       "signals": 0,
-      "url": "https://www.mejorinformado.com/"
+      "url": "https://www.mejorinformado.com/",
+      "lastFetch": "2026-09-20T01:58:02.716307+00:00",
+      "success": true,
+      "attempted": 2,
+      "failures": [
+        "RSS: ParseError"
+      ],
+      "directAvailability": "available",
+      "freshnessHours": null
     },
     {
       "name": "Diariamente Neuquén",
       "type": "MEDIO REGIONAL",
       "mode": "sin respuesta",
       "signals": 0,
-      "url": "https://www.diariamenteneuquen.com/"
+      "url": "https://www.diariamenteneuquen.com/",
+      "lastFetch": "2026-09-20T01:58:03.026195+00:00",
+      "success": true,
+      "attempted": 2,
+      "failures": [
+        "RSS: ParseError"
+      ],
+      "directAvailability": "available",
+      "freshnessHours": null
     }
   ],
   "stats": {
-    "total": 13,
-    "direct": 13,
+    "total": 3,
+    "direct": 3,
     "regional": 0,
     "new": 0,
-    "sources": 8,
-    "directSignals": 3,
+    "sources": 3,
+    "directSignals": 0,
     "localDirectSignals": 0,
-    "radioDirectSignals": 0
+    "radioDirectSignals": 0,
+    "precisionRule": "evidence-first",
+    "searchNoiseRejected": 0
   },
   "system": {
     "memoryDays": 45,
     "eventIdentity": "estable entre actualizaciones",
+    "evidenceRule": "evidence-first",
+    "movementRule": "descriptivo: recencia + cobertura + diversidad de fuentes",
+    "sourceFailureRule": "no inferir desaparición cuando las fuentes conocidas no responden",
     "lifecycle": [
       "EMERGENTE",
       "ACTIVO",
@@ -141,203 +241,187 @@
         "type": "MEDIO LOCAL",
         "mode": "sin respuesta",
         "signals": 0,
-        "url": "https://www.chanardigital.com.ar/"
+        "url": "https://www.chanardigital.com.ar/",
+        "lastFetch": "2026-09-20T01:57:39.952661+00:00",
+        "success": true,
+        "attempted": 4,
+        "failures": [
+          "RSS: HTTPError",
+          "RSS: HTTPError",
+          "RSS: HTTPError"
+        ],
+        "directAvailability": "available",
+        "freshnessHours": null
       },
       {
         "name": "Mía Radio 94.7",
         "type": "RADIO LOCAL",
         "mode": "sin respuesta",
         "signals": 0,
-        "url": "https://www.radiomia.com.ar/"
+        "url": "https://www.radiomia.com.ar/",
+        "lastFetch": "2026-09-20T01:57:42.796213+00:00",
+        "success": true,
+        "attempted": 1,
+        "failures": [],
+        "directAvailability": "available",
+        "freshnessHours": null
       },
       {
         "name": "Radio Tuit Vaca Muerta 90.5",
         "type": "RADIO LOCAL / PRODUCTIVA",
         "mode": "sin respuesta",
         "signals": 0,
-        "url": "https://tuitvacamuerta.com/"
+        "url": "https://tuitvacamuerta.com/",
+        "lastFetch": "2026-09-20T01:57:48.377759+00:00",
+        "success": true,
+        "attempted": 1,
+        "failures": [],
+        "directAvailability": "available",
+        "freshnessHours": null
       },
       {
         "name": "Vaca Muerta News",
         "type": "MEDIO REGIONAL / RADIO",
         "mode": "sin respuesta",
         "signals": 0,
-        "url": "https://www.vacamuertanews.com/"
+        "url": "https://www.vacamuertanews.com/",
+        "lastFetch": "2026-09-20T01:57:49.985920+00:00",
+        "success": true,
+        "attempted": 2,
+        "failures": [
+          "RSS: HTTPError"
+        ],
+        "directAvailability": "available",
+        "freshnessHours": null
       },
       {
         "name": "Neuquén Informa",
         "type": "MEDIO OFICIAL PROVINCIAL",
         "mode": "sin respuesta",
         "signals": 0,
-        "url": "https://www.neuqueninforma.gob.ar/"
+        "url": "https://www.neuqueninforma.gob.ar/",
+        "lastFetch": "2026-09-20T01:57:50.290004+00:00",
+        "success": true,
+        "attempted": 3,
+        "failures": [
+          "RSS: HTTPError",
+          "RSS: ParseError"
+        ],
+        "directAvailability": "available",
+        "freshnessHours": null
       },
       {
         "name": "Municipalidad de San Patricio del Chañar",
         "type": "INSTITUCIONAL LOCAL",
         "mode": "sin respuesta",
         "signals": 0,
-        "url": "https://sanpatricio.gob.ar/"
+        "url": "https://sanpatricio.gob.ar/",
+        "lastFetch": "2026-09-20T01:57:51.186344+00:00",
+        "success": true,
+        "attempted": 3,
+        "failures": [
+          "RSS: ParseError",
+          "RSS: ParseError"
+        ],
+        "directAvailability": "available",
+        "freshnessHours": null
       },
       {
         "name": "Boletín Oficial de Neuquén",
         "type": "FUENTE NORMATIVA",
         "mode": "sin respuesta",
         "signals": 0,
-        "url": "https://boletinoficial.neuquen.gov.ar/"
+        "url": "https://boletinoficial.neuquen.gov.ar/",
+        "lastFetch": "2026-09-20T01:57:55.540392+00:00",
+        "success": false,
+        "attempted": 1,
+        "failures": [
+          "WEB: URLError"
+        ],
+        "directAvailability": "failed",
+        "freshnessHours": null
       },
       {
         "name": "Infoleg Neuquén",
         "type": "FUENTE NORMATIVA",
         "mode": "sin respuesta",
         "signals": 0,
-        "url": "https://infoleg.neuquen.gob.ar/"
+        "url": "https://infoleg.neuquen.gob.ar/",
+        "lastFetch": "2026-09-20T01:57:56.470069+00:00",
+        "success": false,
+        "attempted": 1,
+        "failures": [
+          "WEB: URLError"
+        ],
+        "directAvailability": "failed",
+        "freshnessHours": null
       },
       {
         "name": "LM Neuquén",
         "type": "MEDIO REGIONAL",
         "mode": "sin respuesta",
         "signals": 0,
-        "url": "https://www.lmneuquen.com/"
+        "url": "https://www.lmneuquen.com/",
+        "lastFetch": "2026-09-20T01:57:57.587561+00:00",
+        "success": false,
+        "attempted": 2,
+        "failures": [
+          "RSS: HTTPError",
+          "WEB: HTTPError"
+        ],
+        "directAvailability": "failed",
+        "freshnessHours": null
       },
       {
         "name": "Diario Río Negro",
         "type": "MEDIO REGIONAL",
-        "mode": "RSS directo",
-        "signals": 3,
-        "url": "https://www.rionegro.com.ar/"
+        "mode": "sin respuesta",
+        "signals": 0,
+        "url": "https://www.rionegro.com.ar/",
+        "lastFetch": "2026-09-20T01:57:57.771263+00:00",
+        "success": true,
+        "attempted": 2,
+        "failures": [],
+        "directAvailability": "available",
+        "freshnessHours": null
       },
       {
         "name": "Mejor Informado",
         "type": "MEDIO REGIONAL",
         "mode": "sin respuesta",
         "signals": 0,
-        "url": "https://www.mejorinformado.com/"
+        "url": "https://www.mejorinformado.com/",
+        "lastFetch": "2026-09-20T01:58:02.716307+00:00",
+        "success": true,
+        "attempted": 2,
+        "failures": [
+          "RSS: ParseError"
+        ],
+        "directAvailability": "available",
+        "freshnessHours": null
       },
       {
         "name": "Diariamente Neuquén",
         "type": "MEDIO REGIONAL",
         "mode": "sin respuesta",
         "signals": 0,
-        "url": "https://www.diariamenteneuquen.com/"
+        "url": "https://www.diariamenteneuquen.com/",
+        "lastFetch": "2026-09-20T01:58:03.026195+00:00",
+        "success": true,
+        "attempted": 2,
+        "failures": [
+          "RSS: ParseError"
+        ],
+        "directAvailability": "available",
+        "freshnessHours": null
       }
-    ]
+    ],
+    "territorialGraph": "evidence-first v2.0",
+    "territorialTaxonomy": "localidad > sector > barrio > institucion/servicio > corredor > microzona > espacio/produccion",
+    "territorialRule": "no inferir proximidad; solo evidencia textual",
+    "audit": "fact-vs-coverage + evidence-first + territorial-specificity"
   },
   "events": [
-    {
-      "eventId": "CHA-001",
-      "title": "Marcha de la Bronca contra Milei: la izquierda se movilizó a Plaza de Mayo y reclamó un paro nacional a la CGT",
-      "publishedAt": "2026-09-20T00:03:05+00:00",
-      "firstSeen": "2026-09-19T23:07:18.661873+00:00",
-      "lastSeen": "2026-09-20T00:03:05+00:00",
-      "relevance": 3,
-      "relevanceLabel": "DIRECTA",
-      "topic": "OTROS",
-      "movement": 68,
-      "coverage": 2,
-      "sourceCount": 1,
-      "directSourceCount": 1,
-      "territorialAnchors": [
-        "plaza"
-      ],
-      "sources": [
-        "Diario Río Negro"
-      ],
-      "evidenceUrl": "https://www.rionegro.com.ar/politica/marcha-de-la-bronca-contra-milei-la-izquierda-se-movilizo-a-plaza-de-mayo-y-reclamo-un-paro-nacional-a-la-cgt-4728863/",
-      "items": [
-        {
-          "title": "La «Marcha de la Bronca» colmó la Plaza de Mayo en reclamo de un paro general contra Javier Milei",
-          "url": "https://www.rionegro.com.ar/politica/la-marcha-de-la-bronca-colmo-la-plaza-de-mayo-en-reclamo-de-un-paro-general-contrajavier-milei-4729001/",
-          "publishedAt": "2026-09-20T00:03:05+00:00",
-          "published": "Sun, 20 Sep 2026 00:03:05 +0000",
-          "description": "",
-          "source": "Diario Río Negro",
-          "sourceType": "MEDIO REGIONAL",
-          "sourceUrl": "https://www.rionegro.com.ar/",
-          "collection": "DIRECTA",
-          "query": "https://www.rionegro.com.ar/feed/",
-          "relevance": 3,
-          "relevanceLabel": "DIRECTA",
-          "firstSeen": "2026-09-20T00:11:36.223806+00:00",
-          "isNew": false,
-          "titleKey": "marcha bronca colmo plaza mayo reclamo paro general contra javier milei",
-          "evidenceUrl": "https://www.rionegro.com.ar/politica/la-marcha-de-la-bronca-colmo-la-plaza-de-mayo-en-reclamo-de-un-paro-general-contrajavier-milei-4729001/",
-          "sourcePriority": 2
-        },
-        {
-          "title": "Marcha de la Bronca contra Milei: la izquierda se movilizó a Plaza de Mayo y reclamó un paro nacional a la CGT",
-          "url": "https://www.rionegro.com.ar/politica/marcha-de-la-bronca-contra-milei-la-izquierda-se-movilizo-a-plaza-de-mayo-y-reclamo-un-paro-nacional-a-la-cgt-4728863/",
-          "publishedAt": "2026-09-19T22:53:26+00:00",
-          "published": "Sat, 19 Sep 2026 22:53:26 +0000",
-          "description": "",
-          "source": "Diario Río Negro",
-          "sourceType": "MEDIO REGIONAL",
-          "sourceUrl": "https://www.rionegro.com.ar/",
-          "collection": "DIRECTA",
-          "query": "https://www.rionegro.com.ar/feed/",
-          "relevance": 3,
-          "relevanceLabel": "DIRECTA",
-          "firstSeen": "2026-09-19T23:07:18.661873+00:00",
-          "isNew": false,
-          "titleKey": "marcha bronca contra milei izquierda movilizo plaza mayo reclamo paro nacional cgt",
-          "evidenceUrl": "https://www.rionegro.com.ar/politica/marcha-de-la-bronca-contra-milei-la-izquierda-se-movilizo-a-plaza-de-mayo-y-reclamo-un-paro-nacional-a-la-cgt-4728863/",
-          "sourcePriority": 2
-        }
-      ],
-      "lifecycle": "EMERGENTE",
-      "movementDelta": 0,
-      "previousCoverage": 2,
-      "newSources": [],
-      "sourceDiversity": 1,
-      "memoryMatched": true
-    },
-    {
-      "eventId": "CHA-002",
-      "title": "La Selección Argentina de Vóley clasificó al Mundial 2027 y definirá la plaza olímpica contra Brasil",
-      "publishedAt": "2026-09-20T00:02:55+00:00",
-      "firstSeen": "2026-09-20T00:11:36.223806+00:00",
-      "lastSeen": "2026-09-20T00:02:55+00:00",
-      "relevance": 3,
-      "relevanceLabel": "DIRECTA",
-      "topic": "OTROS",
-      "movement": 61,
-      "coverage": 1,
-      "sourceCount": 1,
-      "directSourceCount": 1,
-      "territorialAnchors": [
-        "plaza"
-      ],
-      "sources": [
-        "Diario Río Negro"
-      ],
-      "evidenceUrl": "https://www.rionegro.com.ar/deportes/la-seleccion-argentina-de-voley-clasifico-al-mundial-2027-y-definira-la-plaza-olimpica-contra-brasil-4728965/",
-      "items": [
-        {
-          "title": "La Selección Argentina de Vóley clasificó al Mundial 2027 y definirá la plaza olímpica contra Brasil",
-          "url": "https://www.rionegro.com.ar/deportes/la-seleccion-argentina-de-voley-clasifico-al-mundial-2027-y-definira-la-plaza-olimpica-contra-brasil-4728965/",
-          "publishedAt": "2026-09-20T00:02:55+00:00",
-          "published": "Sun, 20 Sep 2026 00:02:55 +0000",
-          "description": "",
-          "source": "Diario Río Negro",
-          "sourceType": "MEDIO REGIONAL",
-          "sourceUrl": "https://www.rionegro.com.ar/",
-          "collection": "DIRECTA",
-          "query": "https://www.rionegro.com.ar/feed/",
-          "relevance": 3,
-          "relevanceLabel": "DIRECTA",
-          "firstSeen": "2026-09-20T00:11:36.223806+00:00",
-          "isNew": false,
-          "titleKey": "seleccion argentina voley clasifico mundial 2027 definira plaza olimpica contra brasil",
-          "evidenceUrl": "https://www.rionegro.com.ar/deportes/la-seleccion-argentina-de-voley-clasifico-al-mundial-2027-y-definira-la-plaza-olimpica-contra-brasil-4728965/",
-          "sourcePriority": 2
-        }
-      ],
-      "lifecycle": "EMERGENTE",
-      "movementDelta": 0,
-      "previousCoverage": 1,
-      "newSources": [],
-      "sourceDiversity": 1,
-      "memoryMatched": true
-    },
     {
       "eventId": "CHA-003",
       "title": "La EPET 26 de San Patricio del Chañar supera el 70% de avance: tendrá 19 talleres y 10 aulas - Diario Neuquino",
@@ -386,7 +470,38 @@
       "previousCoverage": 1,
       "newSources": [],
       "sourceDiversity": 1,
-      "memoryMatched": true
+      "memoryMatched": true,
+      "territory": {
+        "version": "2.0",
+        "primary": "San Patricio del Chañar",
+        "nodes": [
+          "San Patricio del Chañar",
+          "EPET 26"
+        ],
+        "sectors": [],
+        "barrios": [],
+        "microzones": [],
+        "corridors": [],
+        "institutions": [
+          "EPET 26"
+        ],
+        "services": [],
+        "spaces": [],
+        "production": [],
+        "path": "San Patricio del Chañar → EPET 26",
+        "evidence": [
+          {
+            "node": "San Patricio del Chañar",
+            "level": "localidad",
+            "evidence": "DIRECTA"
+          },
+          {
+            "node": "EPET 26",
+            "level": "institucion",
+            "evidence": "TEXTUAL"
+          }
+        ]
+      }
     },
     {
       "eventId": "CHA-004",
@@ -434,55 +549,38 @@
       "previousCoverage": 1,
       "newSources": [],
       "sourceDiversity": 1,
-      "memoryMatched": true
-    },
-    {
-      "eventId": "CHA-005",
-      "title": "Seis empresas ofertaron para ampliar la EPET Nº 10 de Plaza Huincul - Neuquen Informa",
-      "publishedAt": "2026-09-18T19:00:32+00:00",
-      "firstSeen": "2026-09-19T12:09:55.174316+00:00",
-      "lastSeen": "2026-09-18T19:00:32+00:00",
-      "relevance": 3,
-      "relevanceLabel": "DIRECTA",
-      "topic": "EDUCACIÓN",
-      "movement": 53,
-      "coverage": 1,
-      "sourceCount": 1,
-      "directSourceCount": 0,
-      "territorialAnchors": [
-        "plaza"
-      ],
-      "sources": [
-        "Neuquen Informa"
-      ],
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPOExmSndtUnRVdWFTbUNQMXQzRGp1WGh5MUJFRFV1Ulhoa3RhVXVCM3VZc0JTNWFQQURqcXlzYWhSVUdpbmxSeXdqdklTMk9rN3M0QzRKMzM1eGFTWXBYOU5LVXpfLWRUUHpXLW93YzRnQVdwWlhQWHljRXlDNWd2WDdfMUpCTU1Yc0xIQ2x3aXNUckhQLW15UGNFZXpMU2ZoMlJ0bDRVb2JWYmJ2VzNkRERCUDZxRzB1NUZ0czdzLVEzM05jUU5QeDNEc9IBywFBVV95cUxPOExmSndtUnRVdWFTbUNQMXQzRGp1WGh5MUJFRFV1Ulhoa3RhVXVCM3VZc0JTNWFQQURqcXlzYWhSVUdpbmxSeXdqdklTMk9rN3M0QzRKMzM1eGFTWXBYOU5LVXpfLWRUUHpXLW93YzRnQVdwWlhQWHljRXlDNWd2WDdfMUpCTU1Yc0xIQ2x3aXNUckhQLW15UGNFZXpMU2ZoMlJ0bDRVb2JWYmJ2VzNkRERCUDZxRzB1NUZ0czdzLVEzM05jUU5QeDNEcw?oc=5",
-      "items": [
-        {
-          "title": "Seis empresas ofertaron para ampliar la EPET Nº 10 de Plaza Huincul - Neuquen Informa",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPOExmSndtUnRVdWFTbUNQMXQzRGp1WGh5MUJFRFV1Ulhoa3RhVXVCM3VZc0JTNWFQQURqcXlzYWhSVUdpbmxSeXdqdklTMk9rN3M0QzRKMzM1eGFTWXBYOU5LVXpfLWRUUHpXLW93YzRnQVdwWlhQWHljRXlDNWd2WDdfMUpCTU1Yc0xIQ2x3aXNUckhQLW15UGNFZXpMU2ZoMlJ0bDRVb2JWYmJ2VzNkRERCUDZxRzB1NUZ0czdzLVEzM05jUU5QeDNEc9IBywFBVV95cUxPOExmSndtUnRVdWFTbUNQMXQzRGp1WGh5MUJFRFV1Ulhoa3RhVXVCM3VZc0JTNWFQQURqcXlzYWhSVUdpbmxSeXdqdklTMk9rN3M0QzRKMzM1eGFTWXBYOU5LVXpfLWRUUHpXLW93YzRnQVdwWlhQWHljRXlDNWd2WDdfMUpCTU1Yc0xIQ2x3aXNUckhQLW15UGNFZXpMU2ZoMlJ0bDRVb2JWYmJ2VzNkRERCUDZxRzB1NUZ0czdzLVEzM05jUU5QeDNEcw?oc=5",
-          "publishedAt": "2026-09-18T19:00:32+00:00",
-          "published": "Fri, 18 Sep 2026 19:00:32 GMT",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMiywFBVV95cUxPOExmSndtUnRVdWFTbUNQMXQzRGp1WGh5MUJFRFV1Ulhoa3RhVXVCM3VZc0JTNWFQQURqcXlzYWhSVUdpbmxSeXdqdklTMk9rN3M0QzRKMzM1eGFTWXBYOU5LVXpfLWRUUHpXLW93YzRnQVdwWlhQWHljRXlDNWd2WDdfMUpCTU1Yc0xIQ2x3aXNUckhQLW15UGNFZXpMU2ZoMlJ0bDRVb2JWYmJ2VzNkRERCUDZxRzB1NUZ0czdzLVEzM05jUU5QeDNEc9IBywFBVV95cUxPOExmSndtUnRVdWFTbUNQMXQzRGp1WGh5MUJFRFV1Ulhoa3RhVXVCM3VZc0JTNWFQQURqcXlzYWhSVUdpbmxSeXdqdklTMk9rN3M0QzRKMzM1eGFTWXBYOU5LVXpfLWRUUHpXLW93YzRnQVdwWlhQWHljRXlDNWd2WDdfMUpCTU1Yc0xIQ2x3aXNUckhQLW15UGNFZXpMU2ZoMlJ0bDRVb2JWYmJ2VzNkRERCUDZxRzB1NUZ0czdzLVEzM05jUU5QeDNEcw?oc=5\" target=\"_blank\">Seis empresas ofertaron para ampliar la EPET Nº 10 de Plaza Huincul</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Neuquen Informa</font>",
-          "source": "Neuquen Informa",
-          "sourceType": "BUSCADOR / RESPALDO",
-          "sourceUrl": "",
-          "collection": "BUSCADOR",
-          "query": "site:neuqueninforma.gob.ar \"San Patricio del Chañar\"",
-          "relevance": 3,
-          "relevanceLabel": "DIRECTA",
-          "firstSeen": "2026-09-19T12:09:55.174316+00:00",
-          "isNew": false,
-          "titleKey": "seis empresas ofertaron ampliar epet plaza huincul informa",
-          "evidenceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPOExmSndtUnRVdWFTbUNQMXQzRGp1WGh5MUJFRFV1Ulhoa3RhVXVCM3VZc0JTNWFQQURqcXlzYWhSVUdpbmxSeXdqdklTMk9rN3M0QzRKMzM1eGFTWXBYOU5LVXpfLWRUUHpXLW93YzRnQVdwWlhQWHljRXlDNWd2WDdfMUpCTU1Yc0xIQ2x3aXNUckhQLW15UGNFZXpMU2ZoMlJ0bDRVb2JWYmJ2VzNkRERCUDZxRzB1NUZ0czdzLVEzM05jUU5QeDNEc9IBywFBVV95cUxPOExmSndtUnRVdWFTbUNQMXQzRGp1WGh5MUJFRFV1Ulhoa3RhVXVCM3VZc0JTNWFQQURqcXlzYWhSVUdpbmxSeXdqdklTMk9rN3M0QzRKMzM1eGFTWXBYOU5LVXpfLWRUUHpXLW93YzRnQVdwWlhQWHljRXlDNWd2WDdfMUpCTU1Yc0xIQ2x3aXNUckhQLW15UGNFZXpMU2ZoMlJ0bDRVb2JWYmJ2VzNkRERCUDZxRzB1NUZ0czdzLVEzM05jUU5QeDNEcw?oc=5",
-          "sourcePriority": 3
-        }
-      ],
-      "lifecycle": "EMERGENTE",
-      "movementDelta": 0,
-      "previousCoverage": 1,
-      "newSources": [],
-      "sourceDiversity": 1,
-      "memoryMatched": true
+      "memoryMatched": true,
+      "territory": {
+        "version": "2.0",
+        "primary": "San Patricio del Chañar",
+        "nodes": [
+          "San Patricio del Chañar",
+          "EPET 26"
+        ],
+        "sectors": [],
+        "barrios": [],
+        "microzones": [],
+        "corridors": [],
+        "institutions": [
+          "EPET 26"
+        ],
+        "services": [],
+        "spaces": [],
+        "production": [],
+        "path": "San Patricio del Chañar → EPET 26",
+        "evidence": [
+          {
+            "node": "San Patricio del Chañar",
+            "level": "localidad",
+            "evidence": "DIRECTA"
+          },
+          {
+            "node": "EPET 26",
+            "level": "institucion",
+            "evidence": "TEXTUAL"
+          }
+        ]
+      }
     },
     {
       "eventId": "CHA-006",
@@ -493,7 +591,7 @@
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "topic": "OTROS",
-      "movement": 50,
+      "movement": 49,
       "coverage": 1,
       "sourceCount": 1,
       "directSourceCount": 0,
@@ -527,340 +625,37 @@
         }
       ],
       "lifecycle": "EMERGENTE",
-      "movementDelta": 0,
-      "previousCoverage": 1,
-      "newSources": [],
-      "sourceDiversity": 1,
-      "memoryMatched": true
-    },
-    {
-      "eventId": "CHA-007",
-      "title": "Vaca Muerta desbordó la capacidad de la Ruta 7: Vialidad reconoció el deterioro y no precisó cuánto invertirá - Diario Neuquino",
-      "publishedAt": "2026-09-17T23:00:42+00:00",
-      "firstSeen": "2026-09-19T12:09:55.174316+00:00",
-      "lastSeen": "2026-09-17T23:00:42+00:00",
-      "relevance": 3,
-      "relevanceLabel": "DIRECTA",
-      "topic": "MOVILIDAD",
-      "movement": 47,
-      "coverage": 1,
-      "sourceCount": 1,
-      "directSourceCount": 0,
-      "territorialAnchors": [
-        "ruta 7"
-      ],
-      "sources": [
-        "Diario Neuquino"
-      ],
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQSDFRUXNqM2gxd1JuVDE5WVpTQ3Z3OEczUGhYM1N4NEhnejlXWHpvU2FLbWV0SDE1OVp0QUV1TFBxQk9YaEVITHctdGN4QXNBTlhqTHNuTDN0czJIM3JkcmVKYU9SRU84VzhfVFRtOWx0R1VBMWVVcHNkMkE5bk9ZUzJrcGZiYjhQR25iTk9qUEpYYlhNb2lkclhReHBxdGk2M0FrUGkwMFBocVo2S1FOQldWbUlfeW1VLXcwZzdVdTgzZFVGWWFqVGxZUGFCVU1jT0R0N21B?oc=5",
-      "items": [
-        {
-          "title": "Vaca Muerta desbordó la capacidad de la Ruta 7: Vialidad reconoció el deterioro y no precisó cuánto invertirá - Diario Neuquino",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQSDFRUXNqM2gxd1JuVDE5WVpTQ3Z3OEczUGhYM1N4NEhnejlXWHpvU2FLbWV0SDE1OVp0QUV1TFBxQk9YaEVITHctdGN4QXNBTlhqTHNuTDN0czJIM3JkcmVKYU9SRU84VzhfVFRtOWx0R1VBMWVVcHNkMkE5bk9ZUzJrcGZiYjhQR25iTk9qUEpYYlhNb2lkclhReHBxdGk2M0FrUGkwMFBocVo2S1FOQldWbUlfeW1VLXcwZzdVdTgzZFVGWWFqVGxZUGFCVU1jT0R0N21B?oc=5",
-          "publishedAt": "2026-09-17T23:00:42+00:00",
-          "published": "Thu, 17 Sep 2026 23:00:42 GMT",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMi1gFBVV95cUxQSDFRUXNqM2gxd1JuVDE5WVpTQ3Z3OEczUGhYM1N4NEhnejlXWHpvU2FLbWV0SDE1OVp0QUV1TFBxQk9YaEVITHctdGN4QXNBTlhqTHNuTDN0czJIM3JkcmVKYU9SRU84VzhfVFRtOWx0R1VBMWVVcHNkMkE5bk9ZUzJrcGZiYjhQR25iTk9qUEpYYlhNb2lkclhReHBxdGk2M0FrUGkwMFBocVo2S1FOQldWbUlfeW1VLXcwZzdVdTgzZFVGWWFqVGxZUGFCVU1jT0R0N21B?oc=5\" target=\"_blank\">Vaca Muerta desbordó la capacidad de la Ruta 7: Vialidad reconoció el deterioro y no precisó cuánto invertirá</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Diario Neuquino</font>",
-          "source": "Diario Neuquino",
-          "sourceType": "BUSCADOR / RESPALDO",
-          "sourceUrl": "",
-          "collection": "BUSCADOR",
-          "query": "\"San Patricio del Chañar\"",
-          "relevance": 3,
-          "relevanceLabel": "DIRECTA",
-          "firstSeen": "2026-09-19T12:09:55.174316+00:00",
-          "isNew": false,
-          "titleKey": "vaca muerta desbordo capacidad ruta vialidad reconocio deterioro preciso cuanto invertira diario neuquino",
-          "evidenceUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQSDFRUXNqM2gxd1JuVDE5WVpTQ3Z3OEczUGhYM1N4NEhnejlXWHpvU2FLbWV0SDE1OVp0QUV1TFBxQk9YaEVITHctdGN4QXNBTlhqTHNuTDN0czJIM3JkcmVKYU9SRU84VzhfVFRtOWx0R1VBMWVVcHNkMkE5bk9ZUzJrcGZiYjhQR25iTk9qUEpYYlhNb2lkclhReHBxdGk2M0FrUGkwMFBocVo2S1FOQldWbUlfeW1VLXcwZzdVdTgzZFVGWWFqVGxZUGFCVU1jT0R0N21B?oc=5",
-          "sourcePriority": 3
-        }
-      ],
-      "lifecycle": "EMERGENTE",
       "movementDelta": -1,
       "previousCoverage": 1,
       "newSources": [],
       "sourceDiversity": 1,
-      "memoryMatched": true
-    },
-    {
-      "eventId": "CHA-008",
-      "title": "Ruta 7 en crisis: Vaca Muerta supera capacidad y Vialidad alerta sobre deterioro - ZapalaYa",
-      "publishedAt": "2026-09-17T23:00:42+00:00",
-      "firstSeen": "2026-09-19T12:09:55.174316+00:00",
-      "lastSeen": "2026-09-17T23:00:42+00:00",
-      "relevance": 3,
-      "relevanceLabel": "DIRECTA",
-      "topic": "MOVILIDAD",
-      "movement": 47,
-      "coverage": 1,
-      "sourceCount": 1,
-      "directSourceCount": 0,
-      "territorialAnchors": [
-        "ruta 7"
-      ],
-      "sources": [
-        "ZapalaYa"
-      ],
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPTXg1Z3JrUDUzc1g3dmFLYm5uSDdXbVloMGdYT0k0S2c1ZXhvcm5vbmRia3pxc2JidHFkRm1RSGc3cVJpMVZqT1ZPeW1sZUJSSHBxX1MzQ2Ixc05OV1diNGcyeUN5am55UV9MNEhUSXdMY1Vvd0ZRdWZ4MGtvcHVvSUF5TXRFeUttTktUYkp5anpkbUQ2ZkVYZlhPSFZMV1h4UjVINEtsZmV6dVRTRXNWVlBzNXZPQQ?oc=5",
-      "items": [
-        {
-          "title": "Ruta 7 en crisis: Vaca Muerta supera capacidad y Vialidad alerta sobre deterioro - ZapalaYa",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPTXg1Z3JrUDUzc1g3dmFLYm5uSDdXbVloMGdYT0k0S2c1ZXhvcm5vbmRia3pxc2JidHFkRm1RSGc3cVJpMVZqT1ZPeW1sZUJSSHBxX1MzQ2Ixc05OV1diNGcyeUN5am55UV9MNEhUSXdMY1Vvd0ZRdWZ4MGtvcHVvSUF5TXRFeUttTktUYkp5anpkbUQ2ZkVYZlhPSFZMV1h4UjVINEtsZmV6dVRTRXNWVlBzNXZPQQ?oc=5",
-          "publishedAt": "2026-09-17T23:00:42+00:00",
-          "published": "Thu, 17 Sep 2026 23:00:42 GMT",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxPTXg1Z3JrUDUzc1g3dmFLYm5uSDdXbVloMGdYT0k0S2c1ZXhvcm5vbmRia3pxc2JidHFkRm1RSGc3cVJpMVZqT1ZPeW1sZUJSSHBxX1MzQ2Ixc05OV1diNGcyeUN5am55UV9MNEhUSXdMY1Vvd0ZRdWZ4MGtvcHVvSUF5TXRFeUttTktUYkp5anpkbUQ2ZkVYZlhPSFZMV1h4UjVINEtsZmV6dVRTRXNWVlBzNXZPQQ?oc=5\" target=\"_blank\">Ruta 7 en crisis: Vaca Muerta supera capacidad y Vialidad alerta sobre deterioro</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ZapalaYa</font>",
-          "source": "ZapalaYa",
-          "sourceType": "BUSCADOR / RESPALDO",
-          "sourceUrl": "",
-          "collection": "BUSCADOR",
-          "query": "\"San Patricio del Chañar\" tránsito transporte ruta",
-          "relevance": 3,
-          "relevanceLabel": "DIRECTA",
-          "firstSeen": "2026-09-19T12:09:55.174316+00:00",
-          "isNew": false,
-          "titleKey": "ruta crisis vaca muerta supera capacidad vialidad alerta deterioro zapalaya",
-          "evidenceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPTXg1Z3JrUDUzc1g3dmFLYm5uSDdXbVloMGdYT0k0S2c1ZXhvcm5vbmRia3pxc2JidHFkRm1RSGc3cVJpMVZqT1ZPeW1sZUJSSHBxX1MzQ2Ixc05OV1diNGcyeUN5am55UV9MNEhUSXdMY1Vvd0ZRdWZ4MGtvcHVvSUF5TXRFeUttTktUYkp5anpkbUQ2ZkVYZlhPSFZMV1h4UjVINEtsZmV6dVRTRXNWVlBzNXZPQQ?oc=5",
-          "sourcePriority": 3
-        }
-      ],
-      "lifecycle": "EMERGENTE",
-      "movementDelta": -1,
-      "previousCoverage": 1,
-      "newSources": [],
-      "sourceDiversity": 1,
-      "memoryMatched": true
-    },
-    {
-      "eventId": "CHA-009",
-      "title": "Vialidad respondió sobre el estado de la Ruta 7 en Neuquén, la principal vía de acceso a Vaca Muerta - Diario Río Negro",
-      "publishedAt": "2026-09-17T18:08:22+00:00",
-      "firstSeen": "2026-09-19T12:09:55.174316+00:00",
-      "lastSeen": "2026-09-17T18:08:22+00:00",
-      "relevance": 3,
-      "relevanceLabel": "DIRECTA",
-      "topic": "MOVILIDAD",
-      "movement": 46,
-      "coverage": 1,
-      "sourceCount": 1,
-      "directSourceCount": 0,
-      "territorialAnchors": [
-        "ruta 7"
-      ],
-      "sources": [
-        "Diario Río Negro"
-      ],
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQOGg3VmJ0WDRCamdIak00SXllT2NyTnlqMHpKRFlqRFBMV2hzZ2UwVTQzMlptQ3J2RlJrWkVHOFhaUklxeHV1NjkwTDBMTnYxU3VRVDZHWTVNa3BsOFJERVZWWDA0OGZCdzEtbW5QbzJIMjB5UjFFd3l6WHBnZmJ0Y3FvSTR5VXd0ZHVYcFM1Q19LNkR5d0hNVUdBb2ctNDhZd09DOXdBWnlKUmJ6VzgtRUpfVGtBRWxTbkhKSzFScnE0c0g2UGlCOGpYNmNkM3hhT25jQ3BjendSLVdMYjUyY0ozNVFBUdIB5gFBVV95cUxQOGg3VmJ0WDRCamdIak00SXllT2NyTnlqMHpKRFlqRFBMV2hzZ2UwVTQzMlptQ3J2RlJrWkVHOFhaUklxeHV1NjkwTDBMTnYxU3VRVDZHWTVNa3BsOFJERVZWWDA0OGZCdzEtbW5QbzJIMjB5UjFFd3l6WHBnZmJ0Y3FvSTR5VXd0ZHVYcFM1Q19LNkR5d0hNVUdBb2ctNDhZd09DOXdBWnlKUmJ6VzgtRUpfVGtBRWxTbkhKSzFScnE0c0g2UGlCOGpYNmNkM3hhT25jQ3BjendSLVdMYjUyY0ozNVFBUQ?oc=5",
-      "items": [
-        {
-          "title": "Vialidad respondió sobre el estado de la Ruta 7 en Neuquén, la principal vía de acceso a Vaca Muerta - Diario Río Negro",
-          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQOGg3VmJ0WDRCamdIak00SXllT2NyTnlqMHpKRFlqRFBMV2hzZ2UwVTQzMlptQ3J2RlJrWkVHOFhaUklxeHV1NjkwTDBMTnYxU3VRVDZHWTVNa3BsOFJERVZWWDA0OGZCdzEtbW5QbzJIMjB5UjFFd3l6WHBnZmJ0Y3FvSTR5VXd0ZHVYcFM1Q19LNkR5d0hNVUdBb2ctNDhZd09DOXdBWnlKUmJ6VzgtRUpfVGtBRWxTbkhKSzFScnE0c0g2UGlCOGpYNmNkM3hhT25jQ3BjendSLVdMYjUyY0ozNVFBUdIB5gFBVV95cUxQOGg3VmJ0WDRCamdIak00SXllT2NyTnlqMHpKRFlqRFBMV2hzZ2UwVTQzMlptQ3J2RlJrWkVHOFhaUklxeHV1NjkwTDBMTnYxU3VRVDZHWTVNa3BsOFJERVZWWDA0OGZCdzEtbW5QbzJIMjB5UjFFd3l6WHBnZmJ0Y3FvSTR5VXd0ZHVYcFM1Q19LNkR5d0hNVUdBb2ctNDhZd09DOXdBWnlKUmJ6VzgtRUpfVGtBRWxTbkhKSzFScnE0c0g2UGlCOGpYNmNkM3hhT25jQ3BjendSLVdMYjUyY0ozNVFBUQ?oc=5",
-          "publishedAt": "2026-09-17T18:08:22+00:00",
-          "published": "Thu, 17 Sep 2026 18:08:22 GMT",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMi5gFBVV95cUxQOGg3VmJ0WDRCamdIak00SXllT2NyTnlqMHpKRFlqRFBMV2hzZ2UwVTQzMlptQ3J2RlJrWkVHOFhaUklxeHV1NjkwTDBMTnYxU3VRVDZHWTVNa3BsOFJERVZWWDA0OGZCdzEtbW5QbzJIMjB5UjFFd3l6WHBnZmJ0Y3FvSTR5VXd0ZHVYcFM1Q19LNkR5d0hNVUdBb2ctNDhZd09DOXdBWnlKUmJ6VzgtRUpfVGtBRWxTbkhKSzFScnE0c0g2UGlCOGpYNmNkM3hhT25jQ3BjendSLVdMYjUyY0ozNVFBUdIB5gFBVV95cUxQOGg3VmJ0WDRCamdIak00SXllT2NyTnlqMHpKRFlqRFBMV2hzZ2UwVTQzMlptQ3J2RlJrWkVHOFhaUklxeHV1NjkwTDBMTnYxU3VRVDZHWTVNa3BsOFJERVZWWDA0OGZCdzEtbW5QbzJIMjB5UjFFd3l6WHBnZmJ0Y3FvSTR5VXd0ZHVYcFM1Q19LNkR5d0hNVUdBb2ctNDhZd09DOXdBWnlKUmJ6VzgtRUpfVGtBRWxTbkhKSzFScnE0c0g2UGlCOGpYNmNkM3hhT25jQ3BjendSLVdMYjUyY0ozNVFBUQ?oc=5\" target=\"_blank\">Vialidad respondió sobre el estado de la Ruta 7 en Neuquén, la principal vía de acceso a Vaca Muerta</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Diario Río Negro</font>",
-          "source": "Diario Río Negro",
-          "sourceType": "BUSCADOR / RESPALDO",
-          "sourceUrl": "",
-          "collection": "BUSCADOR",
-          "query": "\"San Patricio del Chañar\"",
-          "relevance": 3,
-          "relevanceLabel": "DIRECTA",
-          "firstSeen": "2026-09-19T12:09:55.174316+00:00",
-          "isNew": false,
-          "titleKey": "vialidad respondio estado ruta principal via acceso vaca muerta diario rio negro",
-          "evidenceUrl": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQOGg3VmJ0WDRCamdIak00SXllT2NyTnlqMHpKRFlqRFBMV2hzZ2UwVTQzMlptQ3J2RlJrWkVHOFhaUklxeHV1NjkwTDBMTnYxU3VRVDZHWTVNa3BsOFJERVZWWDA0OGZCdzEtbW5QbzJIMjB5UjFFd3l6WHBnZmJ0Y3FvSTR5VXd0ZHVYcFM1Q19LNkR5d0hNVUdBb2ctNDhZd09DOXdBWnlKUmJ6VzgtRUpfVGtBRWxTbkhKSzFScnE0c0g2UGlCOGpYNmNkM3hhT25jQ3BjendSLVdMYjUyY0ozNVFBUdIB5gFBVV95cUxQOGg3VmJ0WDRCamdIak00SXllT2NyTnlqMHpKRFlqRFBMV2hzZ2UwVTQzMlptQ3J2RlJrWkVHOFhaUklxeHV1NjkwTDBMTnYxU3VRVDZHWTVNa3BsOFJERVZWWDA0OGZCdzEtbW5QbzJIMjB5UjFFd3l6WHBnZmJ0Y3FvSTR5VXd0ZHVYcFM1Q19LNkR5d0hNVUdBb2ctNDhZd09DOXdBWnlKUmJ6VzgtRUpfVGtBRWxTbkhKSzFScnE0c0g2UGlCOGpYNmNkM3hhT25jQ3BjendSLVdMYjUyY0ozNVFBUQ?oc=5",
-          "sourcePriority": 3
-        }
-      ],
-      "lifecycle": "EMERGENTE",
-      "movementDelta": 0,
-      "previousCoverage": 1,
-      "newSources": [],
-      "sourceDiversity": 1,
-      "memoryMatched": true
-    },
-    {
-      "eventId": "CHA-010",
-      "title": "La Legislatura neuquina analiza nuevas medidas para motos, maltrato animal y la Ruta 7 - Neuquen Post",
-      "publishedAt": "2026-09-17T13:58:19+00:00",
-      "firstSeen": "2026-09-19T23:53:08.019122+00:00",
-      "lastSeen": "2026-09-17T13:58:19+00:00",
-      "relevance": 3,
-      "relevanceLabel": "DIRECTA",
-      "topic": "MOVILIDAD",
-      "movement": 45,
-      "coverage": 1,
-      "sourceCount": 1,
-      "directSourceCount": 0,
-      "territorialAnchors": [
-        "ruta 7"
-      ],
-      "sources": [
-        "Neuquen Post"
-      ],
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOYUtuX3pDelBRaGhBV0dBRTh0NUhLMUNLWG5abnBHU3FVRVBpTExMRmhMd2dEeTBPNWlwV2NjdGE1SXNFSEhMSWFTYk53MndXZE1rT2Jua2NyRGdOSEUwYmxxVkljRlI0aDFqOE9Cc19LcmdVN0FDWG5xeFBtQ1ZFUkJ0dm9UQTNpdE9TQi1OcU5Lem9LemN3QTJNUUtPdXNqTmtQRGFadldieWgteHlV?oc=5",
-      "items": [
-        {
-          "title": "La Legislatura neuquina analiza nuevas medidas para motos, maltrato animal y la Ruta 7 - Neuquen Post",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOYUtuX3pDelBRaGhBV0dBRTh0NUhLMUNLWG5abnBHU3FVRVBpTExMRmhMd2dEeTBPNWlwV2NjdGE1SXNFSEhMSWFTYk53MndXZE1rT2Jua2NyRGdOSEUwYmxxVkljRlI0aDFqOE9Cc19LcmdVN0FDWG5xeFBtQ1ZFUkJ0dm9UQTNpdE9TQi1OcU5Lem9LemN3QTJNUUtPdXNqTmtQRGFadldieWgteHlV?oc=5",
-          "publishedAt": "2026-09-17T13:58:19+00:00",
-          "published": "Thu, 17 Sep 2026 13:58:19 GMT",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxOYUtuX3pDelBRaGhBV0dBRTh0NUhLMUNLWG5abnBHU3FVRVBpTExMRmhMd2dEeTBPNWlwV2NjdGE1SXNFSEhMSWFTYk53MndXZE1rT2Jua2NyRGdOSEUwYmxxVkljRlI0aDFqOE9Cc19LcmdVN0FDWG5xeFBtQ1ZFUkJ0dm9UQTNpdE9TQi1OcU5Lem9LemN3QTJNUUtPdXNqTmtQRGFadldieWgteHlV?oc=5\" target=\"_blank\">La Legislatura neuquina analiza nuevas medidas para motos, maltrato animal y la Ruta 7</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Neuquen Post</font>",
-          "source": "Neuquen Post",
-          "sourceType": "BUSCADOR / RESPALDO",
-          "sourceUrl": "",
-          "collection": "BUSCADOR",
-          "query": "\"San Patricio del Chañar\" tránsito transporte ruta",
-          "relevance": 3,
-          "relevanceLabel": "DIRECTA",
-          "firstSeen": "2026-09-19T23:53:08.019122+00:00",
-          "isNew": false,
-          "titleKey": "legislatura neuquina analiza nuevas medidas motos maltrato animal ruta post",
-          "evidenceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOYUtuX3pDelBRaGhBV0dBRTh0NUhLMUNLWG5abnBHU3FVRVBpTExMRmhMd2dEeTBPNWlwV2NjdGE1SXNFSEhMSWFTYk53MndXZE1rT2Jua2NyRGdOSEUwYmxxVkljRlI0aDFqOE9Cc19LcmdVN0FDWG5xeFBtQ1ZFUkJ0dm9UQTNpdE9TQi1OcU5Lem9LemN3QTJNUUtPdXNqTmtQRGFadldieWgteHlV?oc=5",
-          "sourcePriority": 3
-        }
-      ],
-      "lifecycle": "EMERGENTE",
-      "movementDelta": 0,
-      "previousCoverage": 1,
-      "newSources": [],
-      "sourceDiversity": 1,
-      "memoryMatched": true
-    },
-    {
-      "eventId": "CHA-011",
-      "title": "Regulación de motos, protección animal y Ruta 7: los tres temas que avanzaron en la comisión de Asuntos Munici - MejorInformado.com",
-      "publishedAt": "2026-09-17T12:36:16+00:00",
-      "firstSeen": "2026-09-19T12:09:55.174316+00:00",
-      "lastSeen": "2026-09-17T12:36:16+00:00",
-      "relevance": 3,
-      "relevanceLabel": "DIRECTA",
-      "topic": "MOVILIDAD",
-      "movement": 45,
-      "coverage": 1,
-      "sourceCount": 1,
-      "directSourceCount": 0,
-      "territorialAnchors": [
-        "ruta 7"
-      ],
-      "sources": [
-        "MejorInformado.com"
-      ],
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNMXN6Yl9tQW1mYlFTaVh0TGhIQ1Q2aHhHMFF1aDlGYmFYQTNtYVNFVS11Mm9IQjIxRGZ4c2pHdHlzTFVWcHVtTUR1c3dwSENCZmoxYWpyRnhGdmdEbXFfSWk2bjJ0Y1h0Y3hHU3JnQmF4OVlVdFRrREtBSUJZR1R1eDNfZWRFVmkwQkF3VEljLWQ4UWpfd1hMSGRXbHA0RzcySU9mWEt0QlNOOE9NRGRQbDJKVlhrcTFzeDNyOE9OMmVoZER4NlhrSEZEcGg3emlSMm1XeFdCSU7SAdgBQVVfeXFMTTFzemJfbUFtZmJRU2lYdExoSENUNmh4RzBRdWg5RmJhWEEzbWFTRVUtdTJvSEIyMURmeHNqR3R5c0xVVnB1bU1EdXN3cEhDQmZqMWFqckZ4RnZnRG1xX0lpNm4ydGNYdGN4R1NyZ0JheDlZVXRUa0RLQUlCWUdUdXgzX2VkRVZpMEJBd1RJYy1kOFFqX3dYTEhkV2xwNEc3MklPZlhLdEJTTjhPTURkUGwySlZYa3Exc3gzcjhPTjJlaGREeDZYa0hGRHBoN3ppUjJtV3hXQklO?oc=5",
-      "items": [
-        {
-          "title": "Regulación de motos, protección animal y Ruta 7: los tres temas que avanzaron en la comisión de Asuntos Munici - MejorInformado.com",
-          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNMXN6Yl9tQW1mYlFTaVh0TGhIQ1Q2aHhHMFF1aDlGYmFYQTNtYVNFVS11Mm9IQjIxRGZ4c2pHdHlzTFVWcHVtTUR1c3dwSENCZmoxYWpyRnhGdmdEbXFfSWk2bjJ0Y1h0Y3hHU3JnQmF4OVlVdFRrREtBSUJZR1R1eDNfZWRFVmkwQkF3VEljLWQ4UWpfd1hMSGRXbHA0RzcySU9mWEt0QlNOOE9NRGRQbDJKVlhrcTFzeDNyOE9OMmVoZER4NlhrSEZEcGg3emlSMm1XeFdCSU7SAdgBQVVfeXFMTTFzemJfbUFtZmJRU2lYdExoSENUNmh4RzBRdWg5RmJhWEEzbWFTRVUtdTJvSEIyMURmeHNqR3R5c0xVVnB1bU1EdXN3cEhDQmZqMWFqckZ4RnZnRG1xX0lpNm4ydGNYdGN4R1NyZ0JheDlZVXRUa0RLQUlCWUdUdXgzX2VkRVZpMEJBd1RJYy1kOFFqX3dYTEhkV2xwNEc3MklPZlhLdEJTTjhPTURkUGwySlZYa3Exc3gzcjhPTjJlaGREeDZYa0hGRHBoN3ppUjJtV3hXQklO?oc=5",
-          "publishedAt": "2026-09-17T12:36:16+00:00",
-          "published": "Thu, 17 Sep 2026 12:36:16 GMT",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMi2AFBVV95cUxNMXN6Yl9tQW1mYlFTaVh0TGhIQ1Q2aHhHMFF1aDlGYmFYQTNtYVNFVS11Mm9IQjIxRGZ4c2pHdHlzTFVWcHVtTUR1c3dwSENCZmoxYWpyRnhGdmdEbXFfSWk2bjJ0Y1h0Y3hHU3JnQmF4OVlVdFRrREtBSUJZR1R1eDNfZWRFVmkwQkF3VEljLWQ4UWpfd1hMSGRXbHA0RzcySU9mWEt0QlNOOE9NRGRQbDJKVlhrcTFzeDNyOE9OMmVoZER4NlhrSEZEcGg3emlSMm1XeFdCSU7SAdgBQVVfeXFMTTFzemJfbUFtZmJRU2lYdExoSENUNmh4RzBRdWg5RmJhWEEzbWFTRVUtdTJvSEIyMURmeHNqR3R5c0xVVnB1bU1EdXN3cEhDQmZqMWFqckZ4RnZnRG1xX0lpNm4ydGNYdGN4R1NyZ0JheDlZVXRUa0RLQUlCWUdUdXgzX2VkRVZpMEJBd1RJYy1kOFFqX3dYTEhkV2xwNEc3MklPZlhLdEJTTjhPTURkUGwySlZYa3Exc3gzcjhPTjJlaGREeDZYa0hGRHBoN3ppUjJtV3hXQklO?oc=5\" target=\"_blank\">Regulación de motos, protección animal y Ruta 7: los tres temas que avanzaron en la comisión de Asuntos Munici</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MejorInformado.com</font>",
-          "source": "MejorInformado.com",
-          "sourceType": "BUSCADOR / RESPALDO",
-          "sourceUrl": "",
-          "collection": "BUSCADOR",
-          "query": "\"San Patricio del Chañar\" tránsito transporte ruta",
-          "relevance": 3,
-          "relevanceLabel": "DIRECTA",
-          "firstSeen": "2026-09-19T12:09:55.174316+00:00",
-          "isNew": false,
-          "titleKey": "regulacion motos proteccion animal ruta tres temas avanzaron comision asuntos munici mejorinformado com",
-          "evidenceUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNMXN6Yl9tQW1mYlFTaVh0TGhIQ1Q2aHhHMFF1aDlGYmFYQTNtYVNFVS11Mm9IQjIxRGZ4c2pHdHlzTFVWcHVtTUR1c3dwSENCZmoxYWpyRnhGdmdEbXFfSWk2bjJ0Y1h0Y3hHU3JnQmF4OVlVdFRrREtBSUJZR1R1eDNfZWRFVmkwQkF3VEljLWQ4UWpfd1hMSGRXbHA0RzcySU9mWEt0QlNOOE9NRGRQbDJKVlhrcTFzeDNyOE9OMmVoZER4NlhrSEZEcGg3emlSMm1XeFdCSU7SAdgBQVVfeXFMTTFzemJfbUFtZmJRU2lYdExoSENUNmh4RzBRdWg5RmJhWEEzbWFTRVUtdTJvSEIyMURmeHNqR3R5c0xVVnB1bU1EdXN3cEhDQmZqMWFqckZ4RnZnRG1xX0lpNm4ydGNYdGN4R1NyZ0JheDlZVXRUa0RLQUlCWUdUdXgzX2VkRVZpMEJBd1RJYy1kOFFqX3dYTEhkV2xwNEc3MklPZlhLdEJTTjhPTURkUGwySlZYa3Exc3gzcjhPTjJlaGREeDZYa0hGRHBoN3ppUjJtV3hXQklO?oc=5",
-          "sourcePriority": 3
-        }
-      ],
-      "lifecycle": "EMERGENTE",
-      "movementDelta": 0,
-      "previousCoverage": 1,
-      "newSources": [],
-      "sourceDiversity": 1,
-      "memoryMatched": true
-    },
-    {
-      "eventId": "CHA-012",
-      "title": "Motos, animales y Ruta 7: los tres temas que avanzan en la Legislatura de Neuquén - NoticiasNQN",
-      "publishedAt": "2026-09-16T23:11:45+00:00",
-      "firstSeen": "2026-09-19T12:09:55.174316+00:00",
-      "lastSeen": "2026-09-16T23:11:45+00:00",
-      "relevance": 3,
-      "relevanceLabel": "DIRECTA",
-      "topic": "MOVILIDAD",
-      "movement": 41,
-      "coverage": 1,
-      "sourceCount": 1,
-      "directSourceCount": 0,
-      "territorialAnchors": [
-        "ruta 7"
-      ],
-      "sources": [
-        "NoticiasNQN"
-      ],
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPX3BwQ1NWM0pJd3prMDFndHVUa0w5TEo2VzRSYlJGdnRZbWlYcFhlSHR5a2JFeE40OW9wcjNoS2l3S3FIbXBxOU80UW94TzItTzhPUjJjUXRuWllaOG95TUhpc2tJclFtbHF6ZWNzdEEzSGpLVGozRTc3NjB5X1YwS3FYQmlQc3h1WXpQdmFvZmtMdGR5VHYwQUJyLWVidWx5OTJXcEZHc05kUDRFeEtIZjhlOHBwYVFSbXZsSFdIZEp0bmRZYVlwWmVZWkM4MXNXOEw00gHYAUFVX3lxTFBKcUZ2eWpkeXpsTHhJWXpzQkdyUWFSYWVpWjR0Y0RUaDNuV0Raa0h5WnVpbXBzQnpaQzk1anlvWEQ2Nmc4LWxrYzZXdGp3QW8tQTY2NWEzV1ExZ2pqV0R2M01aTmY5dzdXVnBtTDN2aTJvSENPNWhUVDBfYWpfa1R5VUliUlIwUVotcDIxWGpfdDJOVFpyOGZFTmN2TzFQMjlPZ2E4N3BEeDdXTWY0QTltVmhDZGFkYVliZGhtdHE3cVotV1ZWazR4dDNLNkdOZHVSTGFVSTFvUA?oc=5",
-      "items": [
-        {
-          "title": "Motos, animales y Ruta 7: los tres temas que avanzan en la Legislatura de Neuquén - NoticiasNQN",
-          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPX3BwQ1NWM0pJd3prMDFndHVUa0w5TEo2VzRSYlJGdnRZbWlYcFhlSHR5a2JFeE40OW9wcjNoS2l3S3FIbXBxOU80UW94TzItTzhPUjJjUXRuWllaOG95TUhpc2tJclFtbHF6ZWNzdEEzSGpLVGozRTc3NjB5X1YwS3FYQmlQc3h1WXpQdmFvZmtMdGR5VHYwQUJyLWVidWx5OTJXcEZHc05kUDRFeEtIZjhlOHBwYVFSbXZsSFdIZEp0bmRZYVlwWmVZWkM4MXNXOEw00gHYAUFVX3lxTFBKcUZ2eWpkeXpsTHhJWXpzQkdyUWFSYWVpWjR0Y0RUaDNuV0Raa0h5WnVpbXBzQnpaQzk1anlvWEQ2Nmc4LWxrYzZXdGp3QW8tQTY2NWEzV1ExZ2pqV0R2M01aTmY5dzdXVnBtTDN2aTJvSENPNWhUVDBfYWpfa1R5VUliUlIwUVotcDIxWGpfdDJOVFpyOGZFTmN2TzFQMjlPZ2E4N3BEeDdXTWY0QTltVmhDZGFkYVliZGhtdHE3cVotV1ZWazR4dDNLNkdOZHVSTGFVSTFvUA?oc=5",
-          "publishedAt": "2026-09-16T23:11:45+00:00",
-          "published": "Wed, 16 Sep 2026 23:11:45 GMT",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMi0wFBVV95cUxPX3BwQ1NWM0pJd3prMDFndHVUa0w5TEo2VzRSYlJGdnRZbWlYcFhlSHR5a2JFeE40OW9wcjNoS2l3S3FIbXBxOU80UW94TzItTzhPUjJjUXRuWllaOG95TUhpc2tJclFtbHF6ZWNzdEEzSGpLVGozRTc3NjB5X1YwS3FYQmlQc3h1WXpQdmFvZmtMdGR5VHYwQUJyLWVidWx5OTJXcEZHc05kUDRFeEtIZjhlOHBwYVFSbXZsSFdIZEp0bmRZYVlwWmVZWkM4MXNXOEw00gHYAUFVX3lxTFBKcUZ2eWpkeXpsTHhJWXpzQkdyUWFSYWVpWjR0Y0RUaDNuV0Raa0h5WnVpbXBzQnpaQzk1anlvWEQ2Nmc4LWxrYzZXdGp3QW8tQTY2NWEzV1ExZ2pqV0R2M01aTmY5dzdXVnBtTDN2aTJvSENPNWhUVDBfYWpfa1R5VUliUlIwUVotcDIxWGpfdDJOVFpyOGZFTmN2TzFQMjlPZ2E4N3BEeDdXTWY0QTltVmhDZGFkYVliZGhtdHE3cVotV1ZWazR4dDNLNkdOZHVSTGFVSTFvUA?oc=5\" target=\"_blank\">Motos, animales y Ruta 7: los tres temas que avanzan en la Legislatura de Neuquén</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NoticiasNQN</font>",
-          "source": "NoticiasNQN",
-          "sourceType": "BUSCADOR / RESPALDO",
-          "sourceUrl": "",
-          "collection": "BUSCADOR",
-          "query": "\"San Patricio del Chañar\"",
-          "relevance": 3,
-          "relevanceLabel": "DIRECTA",
-          "firstSeen": "2026-09-19T12:09:55.174316+00:00",
-          "isNew": false,
-          "titleKey": "motos animales ruta tres temas avanzan legislatura noticiasnqn",
-          "evidenceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPX3BwQ1NWM0pJd3prMDFndHVUa0w5TEo2VzRSYlJGdnRZbWlYcFhlSHR5a2JFeE40OW9wcjNoS2l3S3FIbXBxOU80UW94TzItTzhPUjJjUXRuWllaOG95TUhpc2tJclFtbHF6ZWNzdEEzSGpLVGozRTc3NjB5X1YwS3FYQmlQc3h1WXpQdmFvZmtMdGR5VHYwQUJyLWVidWx5OTJXcEZHc05kUDRFeEtIZjhlOHBwYVFSbXZsSFdIZEp0bmRZYVlwWmVZWkM4MXNXOEw00gHYAUFVX3lxTFBKcUZ2eWpkeXpsTHhJWXpzQkdyUWFSYWVpWjR0Y0RUaDNuV0Raa0h5WnVpbXBzQnpaQzk1anlvWEQ2Nmc4LWxrYzZXdGp3QW8tQTY2NWEzV1ExZ2pqV0R2M01aTmY5dzdXVnBtTDN2aTJvSENPNWhUVDBfYWpfa1R5VUliUlIwUVotcDIxWGpfdDJOVFpyOGZFTmN2TzFQMjlPZ2E4N3BEeDdXTWY0QTltVmhDZGFkYVliZGhtdHE3cVotV1ZWazR4dDNLNkdOZHVSTGFVSTFvUA?oc=5",
-          "sourcePriority": 3
-        }
-      ],
-      "lifecycle": "SOSTENIDO",
-      "movementDelta": 0,
-      "previousCoverage": 1,
-      "newSources": [],
-      "sourceDiversity": 1,
-      "memoryMatched": true
+      "memoryMatched": true,
+      "territory": {
+        "version": "2.0",
+        "primary": "San Patricio del Chañar",
+        "nodes": [
+          "San Patricio del Chañar"
+        ],
+        "sectors": [],
+        "barrios": [],
+        "microzones": [],
+        "corridors": [],
+        "institutions": [],
+        "services": [],
+        "spaces": [],
+        "production": [],
+        "path": "San Patricio del Chañar",
+        "evidence": [
+          {
+            "node": "San Patricio del Chañar",
+            "level": "localidad",
+            "evidence": "DIRECTA"
+          }
+        ]
+      }
     }
   ],
   "items": [
-    {
-      "title": "La «Marcha de la Bronca» colmó la Plaza de Mayo en reclamo de un paro general contra Javier Milei",
-      "url": "https://www.rionegro.com.ar/politica/la-marcha-de-la-bronca-colmo-la-plaza-de-mayo-en-reclamo-de-un-paro-general-contrajavier-milei-4729001/",
-      "publishedAt": "2026-09-20T00:03:05+00:00",
-      "published": "Sun, 20 Sep 2026 00:03:05 +0000",
-      "description": "",
-      "source": "Diario Río Negro",
-      "sourceType": "MEDIO REGIONAL",
-      "sourceUrl": "https://www.rionegro.com.ar/",
-      "collection": "DIRECTA",
-      "query": "https://www.rionegro.com.ar/feed/",
-      "relevance": 3,
-      "relevanceLabel": "DIRECTA",
-      "firstSeen": "2026-09-20T00:11:36.223806+00:00",
-      "isNew": false,
-      "titleKey": "marcha bronca colmo plaza mayo reclamo paro general contra javier milei",
-      "evidenceUrl": "https://www.rionegro.com.ar/politica/la-marcha-de-la-bronca-colmo-la-plaza-de-mayo-en-reclamo-de-un-paro-general-contrajavier-milei-4729001/",
-      "sourcePriority": 2
-    },
-    {
-      "title": "La Selección Argentina de Vóley clasificó al Mundial 2027 y definirá la plaza olímpica contra Brasil",
-      "url": "https://www.rionegro.com.ar/deportes/la-seleccion-argentina-de-voley-clasifico-al-mundial-2027-y-definira-la-plaza-olimpica-contra-brasil-4728965/",
-      "publishedAt": "2026-09-20T00:02:55+00:00",
-      "published": "Sun, 20 Sep 2026 00:02:55 +0000",
-      "description": "",
-      "source": "Diario Río Negro",
-      "sourceType": "MEDIO REGIONAL",
-      "sourceUrl": "https://www.rionegro.com.ar/",
-      "collection": "DIRECTA",
-      "query": "https://www.rionegro.com.ar/feed/",
-      "relevance": 3,
-      "relevanceLabel": "DIRECTA",
-      "firstSeen": "2026-09-20T00:11:36.223806+00:00",
-      "isNew": false,
-      "titleKey": "seleccion argentina voley clasifico mundial 2027 definira plaza olimpica contra brasil",
-      "evidenceUrl": "https://www.rionegro.com.ar/deportes/la-seleccion-argentina-de-voley-clasifico-al-mundial-2027-y-definira-la-plaza-olimpica-contra-brasil-4728965/",
-      "sourcePriority": 2
-    },
     {
       "title": "La EPET 26 de San Patricio del Chañar supera el 70% de avance: tendrá 19 talleres y 10 aulas - Diario Neuquino",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPVVk0T1I5N1A3YkRRUjdqYlJqS09QMzdITlhSWDlvVmVIcjZCVC1VZVV1TDVMSThMYWdpRnV1Y2FFN1VSNGswWUZMV1REQlE1SDJuYVJUUnpIWXE0MHE2R19SM29venVSSjJFUHZjWWpzVTlEZEZka29YMzAwLThFeTBpWGVpUnJjcTJKUkc1YkJqc003OE9ZMVljTm5DRXZzX2NBbmhfN0hoVy1aV2dWQUdOOTd1NE1sbUx2UUtB?oc=5",
@@ -879,25 +674,6 @@
       "titleKey": "epet supera avance tendra talleres aulas diario neuquino",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPVVk0T1I5N1A3YkRRUjdqYlJqS09QMzdITlhSWDlvVmVIcjZCVC1VZVV1TDVMSThMYWdpRnV1Y2FFN1VSNGswWUZMV1REQlE1SDJuYVJUUnpIWXE0MHE2R19SM29venVSSjJFUHZjWWpzVTlEZEZka29YMzAwLThFeTBpWGVpUnJjcTJKUkc1YkJqc003OE9ZMVljTm5DRXZzX2NBbmhfN0hoVy1aV2dWQUdOOTd1NE1sbUx2UUtB?oc=5",
       "sourcePriority": 3
-    },
-    {
-      "title": "Marcha de la Bronca contra Milei: la izquierda se movilizó a Plaza de Mayo y reclamó un paro nacional a la CGT",
-      "url": "https://www.rionegro.com.ar/politica/marcha-de-la-bronca-contra-milei-la-izquierda-se-movilizo-a-plaza-de-mayo-y-reclamo-un-paro-nacional-a-la-cgt-4728863/",
-      "publishedAt": "2026-09-19T22:53:26+00:00",
-      "published": "Sat, 19 Sep 2026 22:53:26 +0000",
-      "description": "",
-      "source": "Diario Río Negro",
-      "sourceType": "MEDIO REGIONAL",
-      "sourceUrl": "https://www.rionegro.com.ar/",
-      "collection": "DIRECTA",
-      "query": "https://www.rionegro.com.ar/feed/",
-      "relevance": 3,
-      "relevanceLabel": "DIRECTA",
-      "firstSeen": "2026-09-19T23:07:18.661873+00:00",
-      "isNew": false,
-      "titleKey": "marcha bronca contra milei izquierda movilizo plaza mayo reclamo paro nacional cgt",
-      "evidenceUrl": "https://www.rionegro.com.ar/politica/marcha-de-la-bronca-contra-milei-la-izquierda-se-movilizo-a-plaza-de-mayo-y-reclamo-un-paro-nacional-a-la-cgt-4728863/",
-      "sourcePriority": 2
     },
     {
       "title": "Avanza la infraestructura educativa en Neuquén: la EPET 26 ya supera el 70% de ejecución - Diario Río Negro",
@@ -919,25 +695,6 @@
       "sourcePriority": 3
     },
     {
-      "title": "Seis empresas ofertaron para ampliar la EPET Nº 10 de Plaza Huincul - Neuquen Informa",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPOExmSndtUnRVdWFTbUNQMXQzRGp1WGh5MUJFRFV1Ulhoa3RhVXVCM3VZc0JTNWFQQURqcXlzYWhSVUdpbmxSeXdqdklTMk9rN3M0QzRKMzM1eGFTWXBYOU5LVXpfLWRUUHpXLW93YzRnQVdwWlhQWHljRXlDNWd2WDdfMUpCTU1Yc0xIQ2x3aXNUckhQLW15UGNFZXpMU2ZoMlJ0bDRVb2JWYmJ2VzNkRERCUDZxRzB1NUZ0czdzLVEzM05jUU5QeDNEc9IBywFBVV95cUxPOExmSndtUnRVdWFTbUNQMXQzRGp1WGh5MUJFRFV1Ulhoa3RhVXVCM3VZc0JTNWFQQURqcXlzYWhSVUdpbmxSeXdqdklTMk9rN3M0QzRKMzM1eGFTWXBYOU5LVXpfLWRUUHpXLW93YzRnQVdwWlhQWHljRXlDNWd2WDdfMUpCTU1Yc0xIQ2x3aXNUckhQLW15UGNFZXpMU2ZoMlJ0bDRVb2JWYmJ2VzNkRERCUDZxRzB1NUZ0czdzLVEzM05jUU5QeDNEcw?oc=5",
-      "publishedAt": "2026-09-18T19:00:32+00:00",
-      "published": "Fri, 18 Sep 2026 19:00:32 GMT",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMiywFBVV95cUxPOExmSndtUnRVdWFTbUNQMXQzRGp1WGh5MUJFRFV1Ulhoa3RhVXVCM3VZc0JTNWFQQURqcXlzYWhSVUdpbmxSeXdqdklTMk9rN3M0QzRKMzM1eGFTWXBYOU5LVXpfLWRUUHpXLW93YzRnQVdwWlhQWHljRXlDNWd2WDdfMUpCTU1Yc0xIQ2x3aXNUckhQLW15UGNFZXpMU2ZoMlJ0bDRVb2JWYmJ2VzNkRERCUDZxRzB1NUZ0czdzLVEzM05jUU5QeDNEc9IBywFBVV95cUxPOExmSndtUnRVdWFTbUNQMXQzRGp1WGh5MUJFRFV1Ulhoa3RhVXVCM3VZc0JTNWFQQURqcXlzYWhSVUdpbmxSeXdqdklTMk9rN3M0QzRKMzM1eGFTWXBYOU5LVXpfLWRUUHpXLW93YzRnQVdwWlhQWHljRXlDNWd2WDdfMUpCTU1Yc0xIQ2x3aXNUckhQLW15UGNFZXpMU2ZoMlJ0bDRVb2JWYmJ2VzNkRERCUDZxRzB1NUZ0czdzLVEzM05jUU5QeDNEcw?oc=5\" target=\"_blank\">Seis empresas ofertaron para ampliar la EPET Nº 10 de Plaza Huincul</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Neuquen Informa</font>",
-      "source": "Neuquen Informa",
-      "sourceType": "BUSCADOR / RESPALDO",
-      "sourceUrl": "",
-      "collection": "BUSCADOR",
-      "query": "site:neuqueninforma.gob.ar \"San Patricio del Chañar\"",
-      "relevance": 3,
-      "relevanceLabel": "DIRECTA",
-      "firstSeen": "2026-09-19T12:09:55.174316+00:00",
-      "isNew": false,
-      "titleKey": "seis empresas ofertaron ampliar epet plaza huincul informa",
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPOExmSndtUnRVdWFTbUNQMXQzRGp1WGh5MUJFRFV1Ulhoa3RhVXVCM3VZc0JTNWFQQURqcXlzYWhSVUdpbmxSeXdqdklTMk9rN3M0QzRKMzM1eGFTWXBYOU5LVXpfLWRUUHpXLW93YzRnQVdwWlhQWHljRXlDNWd2WDdfMUpCTU1Yc0xIQ2x3aXNUckhQLW15UGNFZXpMU2ZoMlJ0bDRVb2JWYmJ2VzNkRERCUDZxRzB1NUZ0czdzLVEzM05jUU5QeDNEc9IBywFBVV95cUxPOExmSndtUnRVdWFTbUNQMXQzRGp1WGh5MUJFRFV1Ulhoa3RhVXVCM3VZc0JTNWFQQURqcXlzYWhSVUdpbmxSeXdqdklTMk9rN3M0QzRKMzM1eGFTWXBYOU5LVXpfLWRUUHpXLW93YzRnQVdwWlhQWHljRXlDNWd2WDdfMUpCTU1Yc0xIQ2x3aXNUckhQLW15UGNFZXpMU2ZoMlJ0bDRVb2JWYmJ2VzNkRERCUDZxRzB1NUZ0czdzLVEzM05jUU5QeDNEcw?oc=5",
-      "sourcePriority": 3
-    },
-    {
       "title": "Últimas noticias sobre San Patricio del Chañar - Lmneuquen.com",
       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE54YXloOWhfWUtHU1cybHNUZy1UNXpWa0JOTnkyam55VDYzRTI5TzlTTG5TemlqM2NYck91bzZ1MUkxc1pNZ3ktWmphc2VmUkowdlpLZFNyZ3IxdUNCZVAxR1RGTlFWeExRdjNB?oc=5",
       "publishedAt": "2026-09-18T07:26:20+00:00",
@@ -955,120 +712,619 @@
       "titleKey": "lmneuquen com",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTE54YXloOWhfWUtHU1cybHNUZy1UNXpWa0JOTnkyam55VDYzRTI5TzlTTG5TemlqM2NYck91bzZ1MUkxc1pNZ3ktWmphc2VmUkowdlpLZFNyZ3IxdUNCZVAxR1RGTlFWeExRdjNB?oc=5",
       "sourcePriority": 3
-    },
-    {
-      "title": "Vaca Muerta desbordó la capacidad de la Ruta 7: Vialidad reconoció el deterioro y no precisó cuánto invertirá - Diario Neuquino",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQSDFRUXNqM2gxd1JuVDE5WVpTQ3Z3OEczUGhYM1N4NEhnejlXWHpvU2FLbWV0SDE1OVp0QUV1TFBxQk9YaEVITHctdGN4QXNBTlhqTHNuTDN0czJIM3JkcmVKYU9SRU84VzhfVFRtOWx0R1VBMWVVcHNkMkE5bk9ZUzJrcGZiYjhQR25iTk9qUEpYYlhNb2lkclhReHBxdGk2M0FrUGkwMFBocVo2S1FOQldWbUlfeW1VLXcwZzdVdTgzZFVGWWFqVGxZUGFCVU1jT0R0N21B?oc=5",
-      "publishedAt": "2026-09-17T23:00:42+00:00",
-      "published": "Thu, 17 Sep 2026 23:00:42 GMT",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMi1gFBVV95cUxQSDFRUXNqM2gxd1JuVDE5WVpTQ3Z3OEczUGhYM1N4NEhnejlXWHpvU2FLbWV0SDE1OVp0QUV1TFBxQk9YaEVITHctdGN4QXNBTlhqTHNuTDN0czJIM3JkcmVKYU9SRU84VzhfVFRtOWx0R1VBMWVVcHNkMkE5bk9ZUzJrcGZiYjhQR25iTk9qUEpYYlhNb2lkclhReHBxdGk2M0FrUGkwMFBocVo2S1FOQldWbUlfeW1VLXcwZzdVdTgzZFVGWWFqVGxZUGFCVU1jT0R0N21B?oc=5\" target=\"_blank\">Vaca Muerta desbordó la capacidad de la Ruta 7: Vialidad reconoció el deterioro y no precisó cuánto invertirá</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Diario Neuquino</font>",
-      "source": "Diario Neuquino",
-      "sourceType": "BUSCADOR / RESPALDO",
-      "sourceUrl": "",
-      "collection": "BUSCADOR",
-      "query": "\"San Patricio del Chañar\"",
-      "relevance": 3,
-      "relevanceLabel": "DIRECTA",
-      "firstSeen": "2026-09-19T12:09:55.174316+00:00",
-      "isNew": false,
-      "titleKey": "vaca muerta desbordo capacidad ruta vialidad reconocio deterioro preciso cuanto invertira diario neuquino",
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQSDFRUXNqM2gxd1JuVDE5WVpTQ3Z3OEczUGhYM1N4NEhnejlXWHpvU2FLbWV0SDE1OVp0QUV1TFBxQk9YaEVITHctdGN4QXNBTlhqTHNuTDN0czJIM3JkcmVKYU9SRU84VzhfVFRtOWx0R1VBMWVVcHNkMkE5bk9ZUzJrcGZiYjhQR25iTk9qUEpYYlhNb2lkclhReHBxdGk2M0FrUGkwMFBocVo2S1FOQldWbUlfeW1VLXcwZzdVdTgzZFVGWWFqVGxZUGFCVU1jT0R0N21B?oc=5",
-      "sourcePriority": 3
-    },
-    {
-      "title": "Ruta 7 en crisis: Vaca Muerta supera capacidad y Vialidad alerta sobre deterioro - ZapalaYa",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPTXg1Z3JrUDUzc1g3dmFLYm5uSDdXbVloMGdYT0k0S2c1ZXhvcm5vbmRia3pxc2JidHFkRm1RSGc3cVJpMVZqT1ZPeW1sZUJSSHBxX1MzQ2Ixc05OV1diNGcyeUN5am55UV9MNEhUSXdMY1Vvd0ZRdWZ4MGtvcHVvSUF5TXRFeUttTktUYkp5anpkbUQ2ZkVYZlhPSFZMV1h4UjVINEtsZmV6dVRTRXNWVlBzNXZPQQ?oc=5",
-      "publishedAt": "2026-09-17T23:00:42+00:00",
-      "published": "Thu, 17 Sep 2026 23:00:42 GMT",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxPTXg1Z3JrUDUzc1g3dmFLYm5uSDdXbVloMGdYT0k0S2c1ZXhvcm5vbmRia3pxc2JidHFkRm1RSGc3cVJpMVZqT1ZPeW1sZUJSSHBxX1MzQ2Ixc05OV1diNGcyeUN5am55UV9MNEhUSXdMY1Vvd0ZRdWZ4MGtvcHVvSUF5TXRFeUttTktUYkp5anpkbUQ2ZkVYZlhPSFZMV1h4UjVINEtsZmV6dVRTRXNWVlBzNXZPQQ?oc=5\" target=\"_blank\">Ruta 7 en crisis: Vaca Muerta supera capacidad y Vialidad alerta sobre deterioro</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ZapalaYa</font>",
-      "source": "ZapalaYa",
-      "sourceType": "BUSCADOR / RESPALDO",
-      "sourceUrl": "",
-      "collection": "BUSCADOR",
-      "query": "\"San Patricio del Chañar\" tránsito transporte ruta",
-      "relevance": 3,
-      "relevanceLabel": "DIRECTA",
-      "firstSeen": "2026-09-19T12:09:55.174316+00:00",
-      "isNew": false,
-      "titleKey": "ruta crisis vaca muerta supera capacidad vialidad alerta deterioro zapalaya",
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPTXg1Z3JrUDUzc1g3dmFLYm5uSDdXbVloMGdYT0k0S2c1ZXhvcm5vbmRia3pxc2JidHFkRm1RSGc3cVJpMVZqT1ZPeW1sZUJSSHBxX1MzQ2Ixc05OV1diNGcyeUN5am55UV9MNEhUSXdMY1Vvd0ZRdWZ4MGtvcHVvSUF5TXRFeUttTktUYkp5anpkbUQ2ZkVYZlhPSFZMV1h4UjVINEtsZmV6dVRTRXNWVlBzNXZPQQ?oc=5",
-      "sourcePriority": 3
-    },
-    {
-      "title": "Vialidad respondió sobre el estado de la Ruta 7 en Neuquén, la principal vía de acceso a Vaca Muerta - Diario Río Negro",
-      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQOGg3VmJ0WDRCamdIak00SXllT2NyTnlqMHpKRFlqRFBMV2hzZ2UwVTQzMlptQ3J2RlJrWkVHOFhaUklxeHV1NjkwTDBMTnYxU3VRVDZHWTVNa3BsOFJERVZWWDA0OGZCdzEtbW5QbzJIMjB5UjFFd3l6WHBnZmJ0Y3FvSTR5VXd0ZHVYcFM1Q19LNkR5d0hNVUdBb2ctNDhZd09DOXdBWnlKUmJ6VzgtRUpfVGtBRWxTbkhKSzFScnE0c0g2UGlCOGpYNmNkM3hhT25jQ3BjendSLVdMYjUyY0ozNVFBUdIB5gFBVV95cUxQOGg3VmJ0WDRCamdIak00SXllT2NyTnlqMHpKRFlqRFBMV2hzZ2UwVTQzMlptQ3J2RlJrWkVHOFhaUklxeHV1NjkwTDBMTnYxU3VRVDZHWTVNa3BsOFJERVZWWDA0OGZCdzEtbW5QbzJIMjB5UjFFd3l6WHBnZmJ0Y3FvSTR5VXd0ZHVYcFM1Q19LNkR5d0hNVUdBb2ctNDhZd09DOXdBWnlKUmJ6VzgtRUpfVGtBRWxTbkhKSzFScnE0c0g2UGlCOGpYNmNkM3hhT25jQ3BjendSLVdMYjUyY0ozNVFBUQ?oc=5",
-      "publishedAt": "2026-09-17T18:08:22+00:00",
-      "published": "Thu, 17 Sep 2026 18:08:22 GMT",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMi5gFBVV95cUxQOGg3VmJ0WDRCamdIak00SXllT2NyTnlqMHpKRFlqRFBMV2hzZ2UwVTQzMlptQ3J2RlJrWkVHOFhaUklxeHV1NjkwTDBMTnYxU3VRVDZHWTVNa3BsOFJERVZWWDA0OGZCdzEtbW5QbzJIMjB5UjFFd3l6WHBnZmJ0Y3FvSTR5VXd0ZHVYcFM1Q19LNkR5d0hNVUdBb2ctNDhZd09DOXdBWnlKUmJ6VzgtRUpfVGtBRWxTbkhKSzFScnE0c0g2UGlCOGpYNmNkM3hhT25jQ3BjendSLVdMYjUyY0ozNVFBUdIB5gFBVV95cUxQOGg3VmJ0WDRCamdIak00SXllT2NyTnlqMHpKRFlqRFBMV2hzZ2UwVTQzMlptQ3J2RlJrWkVHOFhaUklxeHV1NjkwTDBMTnYxU3VRVDZHWTVNa3BsOFJERVZWWDA0OGZCdzEtbW5QbzJIMjB5UjFFd3l6WHBnZmJ0Y3FvSTR5VXd0ZHVYcFM1Q19LNkR5d0hNVUdBb2ctNDhZd09DOXdBWnlKUmJ6VzgtRUpfVGtBRWxTbkhKSzFScnE0c0g2UGlCOGpYNmNkM3hhT25jQ3BjendSLVdMYjUyY0ozNVFBUQ?oc=5\" target=\"_blank\">Vialidad respondió sobre el estado de la Ruta 7 en Neuquén, la principal vía de acceso a Vaca Muerta</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Diario Río Negro</font>",
-      "source": "Diario Río Negro",
-      "sourceType": "BUSCADOR / RESPALDO",
-      "sourceUrl": "",
-      "collection": "BUSCADOR",
-      "query": "\"San Patricio del Chañar\"",
-      "relevance": 3,
-      "relevanceLabel": "DIRECTA",
-      "firstSeen": "2026-09-19T12:09:55.174316+00:00",
-      "isNew": false,
-      "titleKey": "vialidad respondio estado ruta principal via acceso vaca muerta diario rio negro",
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQOGg3VmJ0WDRCamdIak00SXllT2NyTnlqMHpKRFlqRFBMV2hzZ2UwVTQzMlptQ3J2RlJrWkVHOFhaUklxeHV1NjkwTDBMTnYxU3VRVDZHWTVNa3BsOFJERVZWWDA0OGZCdzEtbW5QbzJIMjB5UjFFd3l6WHBnZmJ0Y3FvSTR5VXd0ZHVYcFM1Q19LNkR5d0hNVUdBb2ctNDhZd09DOXdBWnlKUmJ6VzgtRUpfVGtBRWxTbkhKSzFScnE0c0g2UGlCOGpYNmNkM3hhT25jQ3BjendSLVdMYjUyY0ozNVFBUdIB5gFBVV95cUxQOGg3VmJ0WDRCamdIak00SXllT2NyTnlqMHpKRFlqRFBMV2hzZ2UwVTQzMlptQ3J2RlJrWkVHOFhaUklxeHV1NjkwTDBMTnYxU3VRVDZHWTVNa3BsOFJERVZWWDA0OGZCdzEtbW5QbzJIMjB5UjFFd3l6WHBnZmJ0Y3FvSTR5VXd0ZHVYcFM1Q19LNkR5d0hNVUdBb2ctNDhZd09DOXdBWnlKUmJ6VzgtRUpfVGtBRWxTbkhKSzFScnE0c0g2UGlCOGpYNmNkM3hhT25jQ3BjendSLVdMYjUyY0ozNVFBUQ?oc=5",
-      "sourcePriority": 3
-    },
-    {
-      "title": "La Legislatura neuquina analiza nuevas medidas para motos, maltrato animal y la Ruta 7 - Neuquen Post",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOYUtuX3pDelBRaGhBV0dBRTh0NUhLMUNLWG5abnBHU3FVRVBpTExMRmhMd2dEeTBPNWlwV2NjdGE1SXNFSEhMSWFTYk53MndXZE1rT2Jua2NyRGdOSEUwYmxxVkljRlI0aDFqOE9Cc19LcmdVN0FDWG5xeFBtQ1ZFUkJ0dm9UQTNpdE9TQi1OcU5Lem9LemN3QTJNUUtPdXNqTmtQRGFadldieWgteHlV?oc=5",
-      "publishedAt": "2026-09-17T13:58:19+00:00",
-      "published": "Thu, 17 Sep 2026 13:58:19 GMT",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxOYUtuX3pDelBRaGhBV0dBRTh0NUhLMUNLWG5abnBHU3FVRVBpTExMRmhMd2dEeTBPNWlwV2NjdGE1SXNFSEhMSWFTYk53MndXZE1rT2Jua2NyRGdOSEUwYmxxVkljRlI0aDFqOE9Cc19LcmdVN0FDWG5xeFBtQ1ZFUkJ0dm9UQTNpdE9TQi1OcU5Lem9LemN3QTJNUUtPdXNqTmtQRGFadldieWgteHlV?oc=5\" target=\"_blank\">La Legislatura neuquina analiza nuevas medidas para motos, maltrato animal y la Ruta 7</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Neuquen Post</font>",
-      "source": "Neuquen Post",
-      "sourceType": "BUSCADOR / RESPALDO",
-      "sourceUrl": "",
-      "collection": "BUSCADOR",
-      "query": "\"San Patricio del Chañar\" tránsito transporte ruta",
-      "relevance": 3,
-      "relevanceLabel": "DIRECTA",
-      "firstSeen": "2026-09-19T23:53:08.019122+00:00",
-      "isNew": false,
-      "titleKey": "legislatura neuquina analiza nuevas medidas motos maltrato animal ruta post",
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOYUtuX3pDelBRaGhBV0dBRTh0NUhLMUNLWG5abnBHU3FVRVBpTExMRmhMd2dEeTBPNWlwV2NjdGE1SXNFSEhMSWFTYk53MndXZE1rT2Jua2NyRGdOSEUwYmxxVkljRlI0aDFqOE9Cc19LcmdVN0FDWG5xeFBtQ1ZFUkJ0dm9UQTNpdE9TQi1OcU5Lem9LemN3QTJNUUtPdXNqTmtQRGFadldieWgteHlV?oc=5",
-      "sourcePriority": 3
-    },
-    {
-      "title": "Regulación de motos, protección animal y Ruta 7: los tres temas que avanzaron en la comisión de Asuntos Munici - MejorInformado.com",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNMXN6Yl9tQW1mYlFTaVh0TGhIQ1Q2aHhHMFF1aDlGYmFYQTNtYVNFVS11Mm9IQjIxRGZ4c2pHdHlzTFVWcHVtTUR1c3dwSENCZmoxYWpyRnhGdmdEbXFfSWk2bjJ0Y1h0Y3hHU3JnQmF4OVlVdFRrREtBSUJZR1R1eDNfZWRFVmkwQkF3VEljLWQ4UWpfd1hMSGRXbHA0RzcySU9mWEt0QlNOOE9NRGRQbDJKVlhrcTFzeDNyOE9OMmVoZER4NlhrSEZEcGg3emlSMm1XeFdCSU7SAdgBQVVfeXFMTTFzemJfbUFtZmJRU2lYdExoSENUNmh4RzBRdWg5RmJhWEEzbWFTRVUtdTJvSEIyMURmeHNqR3R5c0xVVnB1bU1EdXN3cEhDQmZqMWFqckZ4RnZnRG1xX0lpNm4ydGNYdGN4R1NyZ0JheDlZVXRUa0RLQUlCWUdUdXgzX2VkRVZpMEJBd1RJYy1kOFFqX3dYTEhkV2xwNEc3MklPZlhLdEJTTjhPTURkUGwySlZYa3Exc3gzcjhPTjJlaGREeDZYa0hGRHBoN3ppUjJtV3hXQklO?oc=5",
-      "publishedAt": "2026-09-17T12:36:16+00:00",
-      "published": "Thu, 17 Sep 2026 12:36:16 GMT",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMi2AFBVV95cUxNMXN6Yl9tQW1mYlFTaVh0TGhIQ1Q2aHhHMFF1aDlGYmFYQTNtYVNFVS11Mm9IQjIxRGZ4c2pHdHlzTFVWcHVtTUR1c3dwSENCZmoxYWpyRnhGdmdEbXFfSWk2bjJ0Y1h0Y3hHU3JnQmF4OVlVdFRrREtBSUJZR1R1eDNfZWRFVmkwQkF3VEljLWQ4UWpfd1hMSGRXbHA0RzcySU9mWEt0QlNOOE9NRGRQbDJKVlhrcTFzeDNyOE9OMmVoZER4NlhrSEZEcGg3emlSMm1XeFdCSU7SAdgBQVVfeXFMTTFzemJfbUFtZmJRU2lYdExoSENUNmh4RzBRdWg5RmJhWEEzbWFTRVUtdTJvSEIyMURmeHNqR3R5c0xVVnB1bU1EdXN3cEhDQmZqMWFqckZ4RnZnRG1xX0lpNm4ydGNYdGN4R1NyZ0JheDlZVXRUa0RLQUlCWUdUdXgzX2VkRVZpMEJBd1RJYy1kOFFqX3dYTEhkV2xwNEc3MklPZlhLdEJTTjhPTURkUGwySlZYa3Exc3gzcjhPTjJlaGREeDZYa0hGRHBoN3ppUjJtV3hXQklO?oc=5\" target=\"_blank\">Regulación de motos, protección animal y Ruta 7: los tres temas que avanzaron en la comisión de Asuntos Munici</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MejorInformado.com</font>",
-      "source": "MejorInformado.com",
-      "sourceType": "BUSCADOR / RESPALDO",
-      "sourceUrl": "",
-      "collection": "BUSCADOR",
-      "query": "\"San Patricio del Chañar\" tránsito transporte ruta",
-      "relevance": 3,
-      "relevanceLabel": "DIRECTA",
-      "firstSeen": "2026-09-19T12:09:55.174316+00:00",
-      "isNew": false,
-      "titleKey": "regulacion motos proteccion animal ruta tres temas avanzaron comision asuntos munici mejorinformado com",
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNMXN6Yl9tQW1mYlFTaVh0TGhIQ1Q2aHhHMFF1aDlGYmFYQTNtYVNFVS11Mm9IQjIxRGZ4c2pHdHlzTFVWcHVtTUR1c3dwSENCZmoxYWpyRnhGdmdEbXFfSWk2bjJ0Y1h0Y3hHU3JnQmF4OVlVdFRrREtBSUJZR1R1eDNfZWRFVmkwQkF3VEljLWQ4UWpfd1hMSGRXbHA0RzcySU9mWEt0QlNOOE9NRGRQbDJKVlhrcTFzeDNyOE9OMmVoZER4NlhrSEZEcGg3emlSMm1XeFdCSU7SAdgBQVVfeXFMTTFzemJfbUFtZmJRU2lYdExoSENUNmh4RzBRdWg5RmJhWEEzbWFTRVUtdTJvSEIyMURmeHNqR3R5c0xVVnB1bU1EdXN3cEhDQmZqMWFqckZ4RnZnRG1xX0lpNm4ydGNYdGN4R1NyZ0JheDlZVXRUa0RLQUlCWUdUdXgzX2VkRVZpMEJBd1RJYy1kOFFqX3dYTEhkV2xwNEc3MklPZlhLdEJTTjhPTURkUGwySlZYa3Exc3gzcjhPTjJlaGREeDZYa0hGRHBoN3ppUjJtV3hXQklO?oc=5",
-      "sourcePriority": 3
-    },
-    {
-      "title": "Motos, animales y Ruta 7: los tres temas que avanzan en la Legislatura de Neuquén - NoticiasNQN",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPX3BwQ1NWM0pJd3prMDFndHVUa0w5TEo2VzRSYlJGdnRZbWlYcFhlSHR5a2JFeE40OW9wcjNoS2l3S3FIbXBxOU80UW94TzItTzhPUjJjUXRuWllaOG95TUhpc2tJclFtbHF6ZWNzdEEzSGpLVGozRTc3NjB5X1YwS3FYQmlQc3h1WXpQdmFvZmtMdGR5VHYwQUJyLWVidWx5OTJXcEZHc05kUDRFeEtIZjhlOHBwYVFSbXZsSFdIZEp0bmRZYVlwWmVZWkM4MXNXOEw00gHYAUFVX3lxTFBKcUZ2eWpkeXpsTHhJWXpzQkdyUWFSYWVpWjR0Y0RUaDNuV0Raa0h5WnVpbXBzQnpaQzk1anlvWEQ2Nmc4LWxrYzZXdGp3QW8tQTY2NWEzV1ExZ2pqV0R2M01aTmY5dzdXVnBtTDN2aTJvSENPNWhUVDBfYWpfa1R5VUliUlIwUVotcDIxWGpfdDJOVFpyOGZFTmN2TzFQMjlPZ2E4N3BEeDdXTWY0QTltVmhDZGFkYVliZGhtdHE3cVotV1ZWazR4dDNLNkdOZHVSTGFVSTFvUA?oc=5",
-      "publishedAt": "2026-09-16T23:11:45+00:00",
-      "published": "Wed, 16 Sep 2026 23:11:45 GMT",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMi0wFBVV95cUxPX3BwQ1NWM0pJd3prMDFndHVUa0w5TEo2VzRSYlJGdnRZbWlYcFhlSHR5a2JFeE40OW9wcjNoS2l3S3FIbXBxOU80UW94TzItTzhPUjJjUXRuWllaOG95TUhpc2tJclFtbHF6ZWNzdEEzSGpLVGozRTc3NjB5X1YwS3FYQmlQc3h1WXpQdmFvZmtMdGR5VHYwQUJyLWVidWx5OTJXcEZHc05kUDRFeEtIZjhlOHBwYVFSbXZsSFdIZEp0bmRZYVlwWmVZWkM4MXNXOEw00gHYAUFVX3lxTFBKcUZ2eWpkeXpsTHhJWXpzQkdyUWFSYWVpWjR0Y0RUaDNuV0Raa0h5WnVpbXBzQnpaQzk1anlvWEQ2Nmc4LWxrYzZXdGp3QW8tQTY2NWEzV1ExZ2pqV0R2M01aTmY5dzdXVnBtTDN2aTJvSENPNWhUVDBfYWpfa1R5VUliUlIwUVotcDIxWGpfdDJOVFpyOGZFTmN2TzFQMjlPZ2E4N3BEeDdXTWY0QTltVmhDZGFkYVliZGhtdHE3cVotV1ZWazR4dDNLNkdOZHVSTGFVSTFvUA?oc=5\" target=\"_blank\">Motos, animales y Ruta 7: los tres temas que avanzan en la Legislatura de Neuquén</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NoticiasNQN</font>",
-      "source": "NoticiasNQN",
-      "sourceType": "BUSCADOR / RESPALDO",
-      "sourceUrl": "",
-      "collection": "BUSCADOR",
-      "query": "\"San Patricio del Chañar\"",
-      "relevance": 3,
-      "relevanceLabel": "DIRECTA",
-      "firstSeen": "2026-09-19T12:09:55.174316+00:00",
-      "isNew": false,
-      "titleKey": "motos animales ruta tres temas avanzan legislatura noticiasnqn",
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPX3BwQ1NWM0pJd3prMDFndHVUa0w5TEo2VzRSYlJGdnRZbWlYcFhlSHR5a2JFeE40OW9wcjNoS2l3S3FIbXBxOU80UW94TzItTzhPUjJjUXRuWllaOG95TUhpc2tJclFtbHF6ZWNzdEEzSGpLVGozRTc3NjB5X1YwS3FYQmlQc3h1WXpQdmFvZmtMdGR5VHYwQUJyLWVidWx5OTJXcEZHc05kUDRFeEtIZjhlOHBwYVFSbXZsSFdIZEp0bmRZYVlwWmVZWkM4MXNXOEw00gHYAUFVX3lxTFBKcUZ2eWpkeXpsTHhJWXpzQkdyUWFSYWVpWjR0Y0RUaDNuV0Raa0h5WnVpbXBzQnpaQzk1anlvWEQ2Nmc4LWxrYzZXdGp3QW8tQTY2NWEzV1ExZ2pqV0R2M01aTmY5dzdXVnBtTDN2aTJvSENPNWhUVDBfYWpfa1R5VUliUlIwUVotcDIxWGpfdDJOVFpyOGZFTmN2TzFQMjlPZ2E4N3BEeDdXTWY0QTltVmhDZGFkYVliZGhtdHE3cVotV1ZWazR4dDNLNkdOZHVSTGFVSTFvUA?oc=5",
-      "sourcePriority": 3
     }
-  ]
+  ],
+  "territorialGraph": {
+    "version": "2.0",
+    "generatedAt": "2026-09-20T01:58:09.157289+00:00",
+    "root": "spc",
+    "rule": "evidence-first",
+    "levels": [
+      "localidad",
+      "microregion",
+      "sector",
+      "barrio",
+      "microzona",
+      "institucion",
+      "servicio",
+      "corredor",
+      "espacio",
+      "produccion"
+    ],
+    "nodes": [
+      {
+        "id": "spc",
+        "label": "San Patricio del Chañar",
+        "type": "LOCALIDAD",
+        "level": "localidad",
+        "aliases": [
+          "san patricio del chañar",
+          "san patricio del chanar",
+          "el chañar",
+          "el chanar"
+        ],
+        "eventCount": 3
+      },
+      {
+        "id": "rio-neuquen",
+        "label": "Río Neuquén",
+        "type": "AMBIENTE",
+        "level": "microregion",
+        "aliases": [
+          "río neuquén",
+          "rio neuquen"
+        ],
+        "eventCount": 0
+      },
+      {
+        "id": "ruta-7",
+        "label": "Ruta 7",
+        "type": "CORREDOR",
+        "level": "corredor",
+        "aliases": [
+          "ruta 7",
+          "ruta provincial 7"
+        ],
+        "eventCount": 0
+      },
+      {
+        "id": "ruta-8",
+        "label": "Ruta 8",
+        "type": "CORREDOR",
+        "level": "corredor",
+        "aliases": [
+          "ruta 8",
+          "ruta provincial 8"
+        ],
+        "eventCount": 0
+      },
+      {
+        "id": "picada-1",
+        "label": "Picada 1",
+        "type": "MICROZONA",
+        "level": "microzona",
+        "aliases": [
+          "picada 1",
+          "picada n° 1",
+          "picada n.º 1"
+        ],
+        "eventCount": 0
+      },
+      {
+        "id": "picada-2",
+        "label": "Picada 2",
+        "type": "MICROZONA",
+        "level": "microzona",
+        "aliases": [
+          "picada 2",
+          "picada n° 2",
+          "picada n.º 2"
+        ],
+        "eventCount": 0
+      },
+      {
+        "id": "picada-3",
+        "label": "Picada 3",
+        "type": "MICROZONA",
+        "level": "microzona",
+        "aliases": [
+          "picada 3",
+          "picada n° 3",
+          "picada n.º 3"
+        ],
+        "eventCount": 0
+      },
+      {
+        "id": "picada-4",
+        "label": "Picada 4",
+        "type": "MICROZONA",
+        "level": "microzona",
+        "aliases": [
+          "picada 4",
+          "picada n° 4",
+          "picada n.º 4"
+        ],
+        "eventCount": 0
+      },
+      {
+        "id": "picada-5",
+        "label": "Picada 5",
+        "type": "MICROZONA",
+        "level": "microzona",
+        "aliases": [
+          "picada 5",
+          "picada n° 5",
+          "picada n.º 5"
+        ],
+        "eventCount": 0
+      },
+      {
+        "id": "picada-6",
+        "label": "Picada 6",
+        "type": "MICROZONA",
+        "level": "microzona",
+        "aliases": [
+          "picada 6",
+          "picada n° 6",
+          "picada n.º 6"
+        ],
+        "eventCount": 0
+      },
+      {
+        "id": "picada-7",
+        "label": "Picada 7",
+        "type": "MICROZONA",
+        "level": "microzona",
+        "aliases": [
+          "picada 7",
+          "picada n° 7",
+          "picada n.º 7"
+        ],
+        "eventCount": 0
+      },
+      {
+        "id": "picada-8",
+        "label": "Picada 8",
+        "type": "MICROZONA",
+        "level": "microzona",
+        "aliases": [
+          "picada 8",
+          "picada n° 8",
+          "picada n.º 8"
+        ],
+        "eventCount": 0
+      },
+      {
+        "id": "picada-9",
+        "label": "Picada 9",
+        "type": "MICROZONA",
+        "level": "microzona",
+        "aliases": [
+          "picada 9",
+          "picada n° 9",
+          "picada n.º 9"
+        ],
+        "eventCount": 0
+      },
+      {
+        "id": "picada-10",
+        "label": "Picada 10",
+        "type": "MICROZONA",
+        "level": "microzona",
+        "aliases": [
+          "picada 10",
+          "picada n° 10",
+          "picada n.º 10"
+        ],
+        "eventCount": 0
+      },
+      {
+        "id": "picada-11",
+        "label": "Picada 11",
+        "type": "MICROZONA",
+        "level": "microzona",
+        "aliases": [
+          "picada 11",
+          "picada n° 11",
+          "picada n.º 11"
+        ],
+        "eventCount": 0
+      },
+      {
+        "id": "picada-19",
+        "label": "Picada 19",
+        "type": "MICROZONA",
+        "level": "microzona",
+        "aliases": [
+          "picada 19",
+          "picada n° 19",
+          "picada n.º 19"
+        ],
+        "eventCount": 0
+      },
+      {
+        "id": "picada-20",
+        "label": "Picada 20",
+        "type": "MICROZONA",
+        "level": "microzona",
+        "aliases": [
+          "picada 20",
+          "picada n° 20",
+          "picada n.º 20"
+        ],
+        "eventCount": 0
+      },
+      {
+        "id": "sector-bodegas",
+        "label": "Sector bodegas",
+        "type": "SECTOR",
+        "level": "sector",
+        "aliases": [
+          "sector bodegas"
+        ],
+        "eventCount": 0
+      },
+      {
+        "id": "parque-industrial",
+        "label": "Parque Industrial",
+        "type": "SECTOR",
+        "level": "sector",
+        "aliases": [
+          "parque industrial"
+        ],
+        "eventCount": 0
+      },
+      {
+        "id": "loteo-social",
+        "label": "Loteo Social",
+        "type": "SECTOR",
+        "level": "sector",
+        "aliases": [
+          "loteo social"
+        ],
+        "eventCount": 0
+      },
+      {
+        "id": "costa-verde",
+        "label": "Barrio Costa Verde",
+        "type": "BARRIO",
+        "level": "barrio",
+        "aliases": [
+          "barrio costa verde",
+          "costa verde"
+        ],
+        "eventCount": 0
+      },
+      {
+        "id": "128-viviendas",
+        "label": "128 Viviendas",
+        "type": "BARRIO",
+        "level": "barrio",
+        "aliases": [
+          "128 viviendas"
+        ],
+        "eventCount": 0
+      },
+      {
+        "id": "union-fuerza",
+        "label": "Unión y Fuerza",
+        "type": "BARRIO",
+        "level": "barrio",
+        "aliases": [
+          "barrio unión y fuerza",
+          "barrio union y fuerza",
+          "unión y fuerza",
+          "union y fuerza"
+        ],
+        "eventCount": 0
+      },
+      {
+        "id": "76-viviendas",
+        "label": "76 Viviendas",
+        "type": "BARRIO",
+        "level": "barrio",
+        "aliases": [
+          "76 viviendas"
+        ],
+        "eventCount": 0
+      },
+      {
+        "id": "50-viviendas",
+        "label": "50 Viviendas",
+        "type": "BARRIO",
+        "level": "barrio",
+        "aliases": [
+          "50 viviendas"
+        ],
+        "eventCount": 0
+      },
+      {
+        "id": "plan-federalismo",
+        "label": "Plan Federalismo",
+        "type": "BARRIO",
+        "level": "barrio",
+        "aliases": [
+          "barrio plan federalismo",
+          "plan federalismo"
+        ],
+        "eventCount": 0
+      },
+      {
+        "id": "primeros-pobladores",
+        "label": "Primeros Pobladores",
+        "type": "BARRIO",
+        "level": "barrio",
+        "aliases": [
+          "barrio primeros pobladores",
+          "primeros pobladores"
+        ],
+        "eventCount": 0
+      },
+      {
+        "id": "suyai",
+        "label": "Suyai",
+        "type": "BARRIO",
+        "level": "barrio",
+        "aliases": [
+          "barrio suyai",
+          "suyai"
+        ],
+        "eventCount": 0
+      },
+      {
+        "id": "obrero",
+        "label": "Barrio Obrero",
+        "type": "BARRIO",
+        "level": "barrio",
+        "aliases": [
+          "barrio obrero"
+        ],
+        "eventCount": 0
+      },
+      {
+        "id": "jardin",
+        "label": "Barrio Jardín",
+        "type": "BARRIO",
+        "level": "barrio",
+        "aliases": [
+          "barrio jardín",
+          "barrio jardin"
+        ],
+        "eventCount": 0
+      },
+      {
+        "id": "12-octubre",
+        "label": "12 de Octubre",
+        "type": "BARRIO",
+        "level": "barrio",
+        "aliases": [
+          "barrio 12 de octubre",
+          "12 de octubre"
+        ],
+        "eventCount": 0
+      },
+      {
+        "id": "25-abril",
+        "label": "25 de Abril",
+        "type": "BARRIO",
+        "level": "barrio",
+        "aliases": [
+          "barrio 25 de abril",
+          "25 de abril"
+        ],
+        "eventCount": 0
+      },
+      {
+        "id": "municipalidad",
+        "label": "Municipalidad",
+        "type": "INSTITUCIÓN",
+        "level": "institucion",
+        "aliases": [
+          "municipalidad de san patricio del chañar",
+          "municipalidad de san patricio"
+        ],
+        "eventCount": 0
+      },
+      {
+        "id": "hospital-alicia-cruz",
+        "label": "Hospital Dra. Alicia Cruz",
+        "type": "INSTITUCIÓN",
+        "level": "institucion",
+        "aliases": [
+          "hospital dra alicia cruz",
+          "hospital alicia cruz",
+          "hospital local"
+        ],
+        "eventCount": 0
+      },
+      {
+        "id": "centro-salud-19",
+        "label": "Centro de Salud · Picada 19",
+        "type": "INSTITUCIÓN",
+        "level": "institucion",
+        "aliases": [
+          "centro de salud picada 19"
+        ],
+        "eventCount": 0
+      },
+      {
+        "id": "comisaria-13",
+        "label": "Comisaría 13",
+        "type": "INSTITUCIÓN",
+        "level": "institucion",
+        "aliases": [
+          "comisaria 13",
+          "comisaría 13"
+        ],
+        "eventCount": 0
+      },
+      {
+        "id": "cpem-31",
+        "label": "CPEM 31",
+        "type": "INSTITUCIÓN",
+        "level": "institucion",
+        "aliases": [
+          "cpem 31",
+          "cpem n° 31",
+          "cpem n.º 31"
+        ],
+        "eventCount": 0
+      },
+      {
+        "id": "epet-26",
+        "label": "EPET 26",
+        "type": "INSTITUCIÓN",
+        "level": "institucion",
+        "aliases": [
+          "epet 26",
+          "epet n° 26",
+          "epet n.º 26"
+        ],
+        "eventCount": 2
+      },
+      {
+        "id": "escuela-273",
+        "label": "Escuela Primaria 273",
+        "type": "INSTITUCIÓN",
+        "level": "institucion",
+        "aliases": [
+          "escuela primaria 273",
+          "escuela 273"
+        ],
+        "eventCount": 0
+      },
+      {
+        "id": "epen",
+        "label": "EPEN",
+        "type": "SERVICIO",
+        "level": "servicio",
+        "aliases": [
+          "epen",
+          "ente provincial de energía"
+        ],
+        "eventCount": 0
+      },
+      {
+        "id": "bomberos",
+        "label": "Bomberos Voluntarios",
+        "type": "INSTITUCIÓN",
+        "level": "institucion",
+        "aliases": [
+          "bomberos voluntarios",
+          "bomberos de san patricio"
+        ],
+        "eventCount": 0
+      },
+      {
+        "id": "correo",
+        "label": "Correo Argentino",
+        "type": "SERVICIO",
+        "level": "servicio",
+        "aliases": [
+          "correo argentino"
+        ],
+        "eventCount": 0
+      },
+      {
+        "id": "bodegas",
+        "label": "Bodegas y viñedos",
+        "type": "PRODUCCIÓN",
+        "level": "produccion",
+        "aliases": [
+          "bodega familia schroeder",
+          "bodega del fin del mundo",
+          "bodega malma",
+          "bodegas",
+          "viñedo",
+          "viñedos",
+          "chacra",
+          "chacras"
+        ],
+        "eventCount": 0
+      },
+      {
+        "id": "balneario",
+        "label": "Balneario Municipal",
+        "type": "ESPACIO",
+        "level": "espacio",
+        "aliases": [
+          "balneario municipal"
+        ],
+        "eventCount": 0
+      },
+      {
+        "id": "mirador-virgen",
+        "label": "Mirador La Virgen",
+        "type": "ESPACIO",
+        "level": "espacio",
+        "aliases": [
+          "mirador la virgen",
+          "virgen del valle"
+        ],
+        "eventCount": 0
+      },
+      {
+        "id": "plaza-infancias",
+        "label": "Plaza de las Infancias",
+        "type": "ESPACIO",
+        "level": "espacio",
+        "aliases": [
+          "plaza de las infancias"
+        ],
+        "eventCount": 0
+      }
+    ],
+    "edges": [
+      {
+        "from": "epet-26",
+        "to": "spc",
+        "relation": "COOCURRENCIA_TEXTUAL",
+        "eventCount": 2,
+        "evidence": "menciones de ambos nodos dentro del mismo hecho"
+      }
+    ],
+    "eventNodes": {
+      "CHA-003": [
+        "spc",
+        "epet-26"
+      ],
+      "CHA-004": [
+        "spc",
+        "epet-26"
+      ],
+      "CHA-006": [
+        "spc"
+      ]
+    },
+    "taxonomy": {
+      "localidad": "San Patricio del Chañar",
+      "sector": "zona territorial amplia con evidencia explícita",
+      "barrio": "barrio nombrado explícitamente",
+      "institucion": "institución/servicio identificable",
+      "corredor": "ruta o eje vial explícito",
+      "microzona": "picada o microespacio nombrado",
+      "espacio": "espacio público identificable",
+      "produccion": "nodo productivo nombrado",
+      "microregion": "relación territorial mayor; no implica que el hecho sea local"
+    },
+    "stats": {
+      "nodes": 46,
+      "activeNodes": 2,
+      "edges": 1,
+      "eventsLinked": 3,
+      "eventsWithMicrozones": 0,
+      "eventsWithBarrios": 0,
+      "eventsWithSectors": 0,
+      "levelActivity": {
+        "localidad": 1,
+        "microregion": 0,
+        "corredor": 0,
+        "microzona": 0,
+        "sector": 0,
+        "barrio": 0,
+        "institucion": 1,
+        "servicio": 0,
+        "produccion": 0,
+        "espacio": 0
+      }
+    }
+  },
+  "audit": {
+    "version": "1.0",
+    "updatedAt": "2026-09-20T01:58:09.237189+00:00",
+    "rule": "fact != coverage; territory requires textual evidence",
+    "facts": 3,
+    "coverage": 3,
+    "coveragePerFact": 1.0,
+    "directAnchorFacts": 3,
+    "directAnchorPct": 100.0,
+    "territorySpecificFacts": 2,
+    "territorySpecificPct": 66.7,
+    "averageSourcesPerFact": 1.0,
+    "activeTerritorialNodes": 2,
+    "failedSources": 3,
+    "acceptedWithoutLocalEvidence": 0,
+    "examplesAcceptedWithoutLocalEvidence": [],
+    "interpretation": "auditoria técnica; no mide importancia, calidad periodística ni verdad del hecho"
+  }
 }
