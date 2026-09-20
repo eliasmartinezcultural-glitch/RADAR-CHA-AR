@@ -1,5 +1,6 @@
 import json
 import re
+import hashlib
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
@@ -199,6 +200,9 @@ def direct_collect():
         except Exception as exc:
             failures.append(f'WEB: {type(exc).__name__}')
         success = attempted > len(failures)
+        src_dates=[parse_date(x.get('publishedAt')) for x in rows if x.get('source')==src['name']]
+        src_dates=[d for d in src_dates if d]
+        freshness=round((datetime.now(timezone.utc)-max(src_dates)).total_seconds()/3600,1) if src_dates else None
         source_status.append({
             'name':src['name'],
             'type':src['type'],
@@ -210,7 +214,7 @@ def direct_collect():
             'attempted':attempted,
             'failures':failures[:4],
             'directAvailability':'available' if success else 'failed',
-            'freshnessHours':0 if found else None
+            'freshnessHours':freshness
         })
     return rows,source_status
 
@@ -390,7 +394,9 @@ def build_events(items, previous_events=None):
             score=event_match_score(provisional,old_event)
             if score>best_old_score:
                 best_old_score=score; best_old=old_event
-        stable_id=(best_old.get('eventId') if best_old and best_old_score>=0.62 else None) or f'CHA-{n:03d}'
+        stable_seed=norm(canonical.get('title',''))+'|'+ '|'.join(sorted(anchors[:4]))
+        stable_fingerprint=hashlib.sha256(stable_seed.encode('utf-8')).hexdigest()[:12]
+        stable_id=(best_old.get('eventId') if best_old and best_old_score>=0.62 else None) or f'CHA-{stable_fingerprint}'
         if best_old: used_previous.add(best_old.get('eventId'))
         previous_coverage=best_old.get('coverage',0) if best_old else 0
         previous_sources=set(best_old.get('sources',[])) if best_old else set()
@@ -427,6 +433,23 @@ def build_events(items, previous_events=None):
             'sourceDiversity':unique_sources,
             'memoryMatched':bool(best_old)
         })
+    # Si una fuente conocida falla, no interpretamos automáticamente la ausencia como desaparición.
+    # Conservamos el evento dentro de la memoria y lo marcamos explícitamente como sin nueva cobertura.
+    failed_sources={s.get('name') for s in status if not s.get('success')}
+    current_ids={e.get('eventId') for e in events}
+    for old_event in previous_events:
+        if old_event.get('eventId') in current_ids: continue
+        known_sources=set(old_event.get('sources',[]))
+        if not (known_sources & failed_sources): continue
+        last=parse_date(old_event.get('lastSeen') or old_event.get('publishedAt'))
+        if not last or (datetime.now(timezone.utc)-last).days > MEMORY_DAYS: continue
+        carried=dict(old_event)
+        carried['lifecycle']='SIN NUEVA COBERTURA'
+        carried['sourceContinuity']='fuente(s) conocida(s) sin respuesta; no se infiere desaparición'
+        carried['movementDelta']=0
+        carried['memoryMatched']=True
+        events.append(carried)
+
     events.sort(key=lambda x:(x.get('movement',0),x.get('publishedAt') or ''),reverse=True)
     return events[:80]
 
