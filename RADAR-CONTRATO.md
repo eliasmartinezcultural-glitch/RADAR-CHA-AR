@@ -1,9 +1,9 @@
-# RADAR CHAÑAR — CONTRATO DE PRODUCTO
+# PULSO CHAÑAR — CONTRATO DE PRODUCTO
 
 ## Misión bloqueada
-RADAR tiene una sola función pública:
+PULSO CHAÑAR tiene una sola función pública:
 
-**¿De qué se está hablando cuando se habla de San Patricio del Chañar?**
+**Detectar qué se está moviendo en San Patricio del Chañar y mostrar de dónde surge cada señal.**
 
 ## Interfaz bloqueada
 La experiencia pública se mantiene en tres apartados:
@@ -41,7 +41,7 @@ Las relaciones estructurales conocidas se mantienen separadas de las relaciones 
 Se conservan identificadores estables, primera/última aparición, ciclo de vida, variación de movimiento y nuevas fuentes.
 
 ## Compartibilidad
-RADAR debe poder circular como una pieza editorial simple:
+PULSO CHAÑAR debe poder circular como una pieza editorial simple:
 
 - título social claro;
 - imagen de presentación;
@@ -64,8 +64,8 @@ No agregar:
 - red social interna;
 - panel administrativo público;
 - mapa interactivo obligatorio;
-- funciones que conviertan RADAR en portal de noticias.
+- funciones que conviertan PULSO CHAÑAR en portal de noticias.
 
 **Regla central: más inteligencia detrás, menos cosas delante.**
 
-**Versión de contrato: 0.7**
+**Versión de contrato: 1.0 · identidad PULSO CHAÑAR**
