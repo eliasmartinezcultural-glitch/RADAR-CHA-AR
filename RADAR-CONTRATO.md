@@ -23,6 +23,19 @@ RADAR CHAÑAR funciona como una central multiradar:
 
 Estos radares no son 12 portales separados. Son **12 lentes sobre un mismo motor territorial**.
 
+## Contrato de fuentes por lectura
+
+Cada radar, sensor, gráfico, reporte o dato operacional debe declarar internamente:
+
+1. **fuente primaria** — la más idónea para ese dato;
+2. **fuente secundaria** — corroboración institucional o técnica;
+3. **respaldo** — alternativa cuando la primaria no responde;
+4. **modo de captura** — API directa, web oficial, fuente institucional, medio local o respaldo comunitario;
+5. **frecuencia objetivo** — actualmente 30 minutos para el ciclo del motor;
+6. **regla de precedencia** — una fuente de menor jerarquía nunca reemplaza silenciosamente una confirmación directa.
+
+La interfaz pública muestra la **fuente primaria** de cada radar y conserva las demás detrás del dato. Así la página permanece limpia, mientras el motor mantiene trazabilidad completa.
+
 ## Regla crítica de datos
 Hay tres estados distintos:
 
@@ -72,6 +85,10 @@ No convertir RADAR CHAÑAR en:
 - sistema de alarma falsa;
 - panel administrativo público;
 - acumulador de titulares sin deduplicación.
+
+## Actualización continua
+
+El motor se ejecuta automáticamente cada 30 minutos y la interfaz puede volver a consultar el feed sin recargar manualmente la página. La frescura se mide por dato, fuente y radar; si una fuente falla, el sistema conserva memoria y lo declara en lugar de inventar una actualización.
 
 ## Principio de diseño
 **Más inteligencia detrás. Más claridad delante.**
