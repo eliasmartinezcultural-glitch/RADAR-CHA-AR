@@ -9,6 +9,14 @@
 <meta property="og:description" content="¿De qué se está hablando cuando se habla de San Patricio del Chañar?">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://eliasmartinezcultural-glitch.github.io/RADAR-CHA-AR/">
+<meta property="og:image" content="https://eliasmartinezcultural-glitch.github.io/RADAR-CHA-AR/social-card.svg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="RADAR CHAÑAR · Pulso territorial de San Patricio del Chañar">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="RADAR CHAÑAR · Pulso territorial">
+<meta name="twitter:description" content="¿De qué se está hablando cuando se habla de San Patricio del Chañar?">
+<meta name="twitter:image" content="https://eliasmartinezcultural-glitch.github.io/RADAR-CHA-AR/social-card.svg">
 <title>RADAR CHAÑAR · Ocarina Producciones</title>
 <style>
 :root{
@@ -52,9 +60,10 @@ footer{border-top:1px solid var(--line);padding:18px 0 48px;color:var(--muted);f
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important}}
 
 <style>
+.sharebar{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:-5px 0 18px;padding:9px 11px;border:1px solid var(--line);border-radius:11px;background:#061017}.sharebar span{color:var(--muted);font-size:8px;letter-spacing:.1em;text-transform:uppercase}.sharebar button{border:1px solid #285764;background:#07171d;color:var(--cyan);border-radius:8px;padding:7px 10px;font-size:8px;font-weight:900;letter-spacing:.08em;cursor:pointer}.sharebar button:hover{border-color:var(--cyan)}
 .regional-updates{margin:-3px 0 15px;padding:10px 0 0}.regional-label{display:flex;gap:10px;align-items:center;margin-bottom:8px;font-size:8px;letter-spacing:.13em}.regional-label span{color:var(--gold)}.regional-label b{color:var(--muted);font-weight:800}.regional-ticker{display:grid;grid-template-columns:repeat(3,1fr);gap:7px}.regional-ticker a{min-width:0;border:1px solid var(--line);border-radius:10px;background:linear-gradient(135deg,#08171d,#040b0f);padding:10px;text-decoration:none;color:inherit;transition:.2s}.regional-ticker a:hover{border-color:var(--cyan);transform:translateY(-1px)}.regional-ticker span{display:block;color:var(--cyan);font-size:7px;font-weight:900;letter-spacing:.1em}.regional-ticker strong{display:block;font-size:10px;line-height:1.25;margin:5px 0}.regional-ticker small{color:var(--muted);font-size:7px}
 @media(max-width:700px){.regional-ticker{grid-template-columns:1fr}.regional-ticker a:nth-child(n+3){display:none}.regional-label{display:block}.regional-label b{display:block;margin-top:3px}}
-</style></style>
+</style>
 </head>
 <body>
 <div id="updateScreen" class="update-screen" aria-hidden="true">
@@ -85,6 +94,7 @@ footer{border-top:1px solid var(--line);padding:18px 0 48px;color:var(--muted);f
  </aside>
 </section>
 
+<div class="sharebar"><span>Listo para circular · WhatsApp · redes</span><button id="shareBtn" type="button">↗ COMPARTIR RADAR</button></div>
 <section class="section" style="border-top:0;padding-top:0">
  <div class="section-head"><h2>01 · Pulso territorial</h2><span class="hint">representación visual · no es un mapa geográfico</span></div>
  <div class="territory-strip">
@@ -135,6 +145,17 @@ const $=s=>document.querySelector(s);
 const esc=v=>String(v??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[m]));
 const dt=v=>{try{return new Date(v).toLocaleString('es-AR',{day:'2-digit',month:'2-digit',hour:'2-digit',minute:'2-digit'})}catch{return''}};
 const clock=()=>$('#clock').textContent=new Date().toLocaleTimeString('es-AR',{hour12:false});
+const shareUrl=location.href.split('#')[0];
+const shareText='RADAR CHAÑAR · ¿De qué se está hablando cuando se habla de San Patricio del Chañar?';
+async function shareRadar(){
+ const data={title:'RADAR CHAÑAR · Pulso territorial',text:shareText,url:shareUrl};
+ try{
+  if(navigator.share){await navigator.share(data);return}
+  await navigator.clipboard.writeText(shareText+'\\n'+shareUrl);
+  alert('Enlace y texto listos para compartir.');
+ }catch(e){}
+}
+$('#shareBtn')?.addEventListener('click',shareRadar);
 setInterval(clock,1000);clock();
 function updateOverlay(){
  const s=$('#updateScreen');s.style.display='flex';s.setAttribute('aria-hidden','false');
@@ -161,7 +182,7 @@ async function load(){
    return '<a class="event" href="'+esc(e.evidenceUrl||'#')+'" target="_blank" rel="noopener noreferrer">'+
    '<div class="rank">SEÑAL '+String(i+1).padStart(2,'0')+'</div><div><strong>'+esc(e.title)+'</strong>'+
    '<small>'+esc(dt(e.publishedAt))+' · '+esc(e.relevanceLabel||'ANCLA TERRITORIAL')+' · '+esc(lifecycle)+'</small>'+
-   '<div class="meta"><span class="tag">'+esc(topic)+'</span><span class="tag">'+esc(e.territorialAnchors?.[0]||'CHAÑAR')+'</span></div></div>'+
+   '<div class="meta"><span class="tag">'+esc(topic)+'</span><span class="tag">'+esc(e.territory?.microzones?.[0]||e.territorialAnchors?.[0]||'CHAÑAR')+'</span><span class="tag">'+esc(e.territory?.corridors?.[0]||'TERRITORIO')+'</span></div></div>'+
    '<div class="move"><strong>'+esc(movement)+'</strong><small>'+esc(delta>0?'▲ '+delta+' desde el último pulso':delta<0?'▼ '+Math.abs(delta)+' desde el último pulso':'movimiento estable')+' · '+coverage+' fuente'+(coverage===1?'':'s')+'</small></div></a>'
   }).join(''):'<div class="empty">No hay señales territoriales dentro de la ventana actual.</div>';
   $('#sources').innerHTML=sources.length?sources.map(s=>'<span class="source '+(/Chañar Digital|Mía Radio|Tuit/i.test(s)?'direct':'')+'">'+esc(s)+'</span>').join(''):'<span class="source">sin fuentes</span>';
