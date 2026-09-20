@@ -42,7 +42,7 @@ def snapshot(data):
         "nodes":nodes,
         "activeNodes":int(graph.get("stats",{}).get("activeNodes") or 0),
         "directSignals":direct,
-        "newSignals":sum(1 for e in events if e.get("isNew")),
+        "newSignals":sum(1 for e in events if e.get("isNew")),\n        "sourceHealth":{s.get("name"):{"success":bool(s.get("success")),"signals":int(s.get("signals") or 0),"freshnessHours":s.get("freshnessHours")} for s in data.get("sourceRegistry",[]) if s.get("name")},
     }
 
 try:
