@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-20T01:58:09.059187+00:00",
+  "updatedAt": "2026-09-20T02:01:15.248609+00:00",
   "window": "7 días",
   "purpose": "Detectar qué se está moviendo en San Patricio del Chañar y mostrar de dónde surge cada señal.",
   "architecture": "fuentes directas + web directa + respaldo + memoria de eventos + ciclo de vida + territorio + evidencia + salud de fuentes",
@@ -33,16 +33,16 @@
     {
       "name": "Chañar Digital",
       "type": "MEDIO LOCAL",
-      "mode": "sin respuesta",
+      "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.chanardigital.com.ar/",
-      "lastFetch": "2026-09-20T01:57:39.952661+00:00",
+      "lastFetch": "2026-09-20T02:00:54.033080+00:00",
       "success": true,
       "attempted": 4,
       "failures": [
-        "RSS: HTTPError",
-        "RSS: HTTPError",
-        "RSS: HTTPError"
+        "RSS:HTTPError",
+        "RSS:HTTPError",
+        "RSS:HTTPError"
       ],
       "directAvailability": "available",
       "freshnessHours": null
@@ -50,10 +50,10 @@
     {
       "name": "Mía Radio 94.7",
       "type": "RADIO LOCAL",
-      "mode": "sin respuesta",
+      "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.radiomia.com.ar/",
-      "lastFetch": "2026-09-20T01:57:42.796213+00:00",
+      "lastFetch": "2026-09-20T02:00:54.918676+00:00",
       "success": true,
       "attempted": 1,
       "failures": [],
@@ -63,10 +63,10 @@
     {
       "name": "Radio Tuit Vaca Muerta 90.5",
       "type": "RADIO LOCAL / PRODUCTIVA",
-      "mode": "sin respuesta",
+      "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://tuitvacamuerta.com/",
-      "lastFetch": "2026-09-20T01:57:48.377759+00:00",
+      "lastFetch": "2026-09-20T02:00:56.664293+00:00",
       "success": true,
       "attempted": 1,
       "failures": [],
@@ -76,14 +76,14 @@
     {
       "name": "Vaca Muerta News",
       "type": "MEDIO REGIONAL / RADIO",
-      "mode": "sin respuesta",
+      "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.vacamuertanews.com/",
-      "lastFetch": "2026-09-20T01:57:49.985920+00:00",
+      "lastFetch": "2026-09-20T02:00:57.158099+00:00",
       "success": true,
       "attempted": 2,
       "failures": [
-        "RSS: HTTPError"
+        "RSS:HTTPError"
       ],
       "directAvailability": "available",
       "freshnessHours": null
@@ -91,15 +91,15 @@
     {
       "name": "Neuquén Informa",
       "type": "MEDIO OFICIAL PROVINCIAL",
-      "mode": "sin respuesta",
+      "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.neuqueninforma.gob.ar/",
-      "lastFetch": "2026-09-20T01:57:50.290004+00:00",
+      "lastFetch": "2026-09-20T02:00:58.411353+00:00",
       "success": true,
       "attempted": 3,
       "failures": [
-        "RSS: HTTPError",
-        "RSS: ParseError"
+        "RSS:HTTPError",
+        "RSS:ParseError"
       ],
       "directAvailability": "available",
       "freshnessHours": null
@@ -107,15 +107,15 @@
     {
       "name": "Municipalidad de San Patricio del Chañar",
       "type": "INSTITUCIONAL LOCAL",
-      "mode": "sin respuesta",
+      "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://sanpatricio.gob.ar/",
-      "lastFetch": "2026-09-20T01:57:51.186344+00:00",
+      "lastFetch": "2026-09-20T02:01:01.232599+00:00",
       "success": true,
       "attempted": 3,
       "failures": [
-        "RSS: ParseError",
-        "RSS: ParseError"
+        "RSS:ParseError",
+        "RSS:ParseError"
       ],
       "directAvailability": "available",
       "freshnessHours": null
@@ -123,14 +123,14 @@
     {
       "name": "Boletín Oficial de Neuquén",
       "type": "FUENTE NORMATIVA",
-      "mode": "sin respuesta",
+      "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://boletinoficial.neuquen.gov.ar/",
-      "lastFetch": "2026-09-20T01:57:55.540392+00:00",
+      "lastFetch": "2026-09-20T02:01:01.992933+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
-        "WEB: URLError"
+        "WEB:URLError"
       ],
       "directAvailability": "failed",
       "freshnessHours": null
@@ -138,14 +138,14 @@
     {
       "name": "Infoleg Neuquén",
       "type": "FUENTE NORMATIVA",
-      "mode": "sin respuesta",
+      "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://infoleg.neuquen.gob.ar/",
-      "lastFetch": "2026-09-20T01:57:56.470069+00:00",
+      "lastFetch": "2026-09-20T02:01:03.262463+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
-        "WEB: URLError"
+        "WEB:URLError"
       ],
       "directAvailability": "failed",
       "freshnessHours": null
@@ -153,15 +153,15 @@
     {
       "name": "LM Neuquén",
       "type": "MEDIO REGIONAL",
-      "mode": "sin respuesta",
+      "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.lmneuquen.com/",
-      "lastFetch": "2026-09-20T01:57:57.587561+00:00",
+      "lastFetch": "2026-09-20T02:01:03.647776+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
-        "RSS: HTTPError",
-        "WEB: HTTPError"
+        "RSS:HTTPError",
+        "WEB:HTTPError"
       ],
       "directAvailability": "failed",
       "freshnessHours": null
@@ -169,10 +169,10 @@
     {
       "name": "Diario Río Negro",
       "type": "MEDIO REGIONAL",
-      "mode": "sin respuesta",
+      "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.rionegro.com.ar/",
-      "lastFetch": "2026-09-20T01:57:57.771263+00:00",
+      "lastFetch": "2026-09-20T02:01:07.881725+00:00",
       "success": true,
       "attempted": 2,
       "failures": [],
@@ -182,14 +182,14 @@
     {
       "name": "Mejor Informado",
       "type": "MEDIO REGIONAL",
-      "mode": "sin respuesta",
+      "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.mejorinformado.com/",
-      "lastFetch": "2026-09-20T01:58:02.716307+00:00",
+      "lastFetch": "2026-09-20T02:01:08.369765+00:00",
       "success": true,
       "attempted": 2,
       "failures": [
-        "RSS: ParseError"
+        "RSS:ParseError"
       ],
       "directAvailability": "available",
       "freshnessHours": null
@@ -197,14 +197,14 @@
     {
       "name": "Diariamente Neuquén",
       "type": "MEDIO REGIONAL",
-      "mode": "sin respuesta",
+      "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.diariamenteneuquen.com/",
-      "lastFetch": "2026-09-20T01:58:03.026195+00:00",
+      "lastFetch": "2026-09-20T02:01:09.082019+00:00",
       "success": true,
       "attempted": 2,
       "failures": [
-        "RSS: ParseError"
+        "RSS:ParseError"
       ],
       "directAvailability": "available",
       "freshnessHours": null
@@ -226,7 +226,7 @@
     "memoryDays": 45,
     "eventIdentity": "estable entre actualizaciones",
     "evidenceRule": "evidence-first",
-    "movementRule": "descriptivo: recencia + cobertura + diversidad de fuentes",
+    "movementRule": "descriptivo: recencia + cobertura + diversidad de fuentes; no es ranking de importancia",
     "sourceFailureRule": "no inferir desaparición cuando las fuentes conocidas no responden",
     "lifecycle": [
       "EMERGENTE",
@@ -239,16 +239,16 @@
       {
         "name": "Chañar Digital",
         "type": "MEDIO LOCAL",
-        "mode": "sin respuesta",
+        "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.chanardigital.com.ar/",
-        "lastFetch": "2026-09-20T01:57:39.952661+00:00",
+        "lastFetch": "2026-09-20T02:00:54.033080+00:00",
         "success": true,
         "attempted": 4,
         "failures": [
-          "RSS: HTTPError",
-          "RSS: HTTPError",
-          "RSS: HTTPError"
+          "RSS:HTTPError",
+          "RSS:HTTPError",
+          "RSS:HTTPError"
         ],
         "directAvailability": "available",
         "freshnessHours": null
@@ -256,10 +256,10 @@
       {
         "name": "Mía Radio 94.7",
         "type": "RADIO LOCAL",
-        "mode": "sin respuesta",
+        "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.radiomia.com.ar/",
-        "lastFetch": "2026-09-20T01:57:42.796213+00:00",
+        "lastFetch": "2026-09-20T02:00:54.918676+00:00",
         "success": true,
         "attempted": 1,
         "failures": [],
@@ -269,10 +269,10 @@
       {
         "name": "Radio Tuit Vaca Muerta 90.5",
         "type": "RADIO LOCAL / PRODUCTIVA",
-        "mode": "sin respuesta",
+        "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://tuitvacamuerta.com/",
-        "lastFetch": "2026-09-20T01:57:48.377759+00:00",
+        "lastFetch": "2026-09-20T02:00:56.664293+00:00",
         "success": true,
         "attempted": 1,
         "failures": [],
@@ -282,14 +282,14 @@
       {
         "name": "Vaca Muerta News",
         "type": "MEDIO REGIONAL / RADIO",
-        "mode": "sin respuesta",
+        "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.vacamuertanews.com/",
-        "lastFetch": "2026-09-20T01:57:49.985920+00:00",
+        "lastFetch": "2026-09-20T02:00:57.158099+00:00",
         "success": true,
         "attempted": 2,
         "failures": [
-          "RSS: HTTPError"
+          "RSS:HTTPError"
         ],
         "directAvailability": "available",
         "freshnessHours": null
@@ -297,15 +297,15 @@
       {
         "name": "Neuquén Informa",
         "type": "MEDIO OFICIAL PROVINCIAL",
-        "mode": "sin respuesta",
+        "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.neuqueninforma.gob.ar/",
-        "lastFetch": "2026-09-20T01:57:50.290004+00:00",
+        "lastFetch": "2026-09-20T02:00:58.411353+00:00",
         "success": true,
         "attempted": 3,
         "failures": [
-          "RSS: HTTPError",
-          "RSS: ParseError"
+          "RSS:HTTPError",
+          "RSS:ParseError"
         ],
         "directAvailability": "available",
         "freshnessHours": null
@@ -313,15 +313,15 @@
       {
         "name": "Municipalidad de San Patricio del Chañar",
         "type": "INSTITUCIONAL LOCAL",
-        "mode": "sin respuesta",
+        "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://sanpatricio.gob.ar/",
-        "lastFetch": "2026-09-20T01:57:51.186344+00:00",
+        "lastFetch": "2026-09-20T02:01:01.232599+00:00",
         "success": true,
         "attempted": 3,
         "failures": [
-          "RSS: ParseError",
-          "RSS: ParseError"
+          "RSS:ParseError",
+          "RSS:ParseError"
         ],
         "directAvailability": "available",
         "freshnessHours": null
@@ -329,14 +329,14 @@
       {
         "name": "Boletín Oficial de Neuquén",
         "type": "FUENTE NORMATIVA",
-        "mode": "sin respuesta",
+        "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://boletinoficial.neuquen.gov.ar/",
-        "lastFetch": "2026-09-20T01:57:55.540392+00:00",
+        "lastFetch": "2026-09-20T02:01:01.992933+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
-          "WEB: URLError"
+          "WEB:URLError"
         ],
         "directAvailability": "failed",
         "freshnessHours": null
@@ -344,14 +344,14 @@
       {
         "name": "Infoleg Neuquén",
         "type": "FUENTE NORMATIVA",
-        "mode": "sin respuesta",
+        "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://infoleg.neuquen.gob.ar/",
-        "lastFetch": "2026-09-20T01:57:56.470069+00:00",
+        "lastFetch": "2026-09-20T02:01:03.262463+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
-          "WEB: URLError"
+          "WEB:URLError"
         ],
         "directAvailability": "failed",
         "freshnessHours": null
@@ -359,15 +359,15 @@
       {
         "name": "LM Neuquén",
         "type": "MEDIO REGIONAL",
-        "mode": "sin respuesta",
+        "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.lmneuquen.com/",
-        "lastFetch": "2026-09-20T01:57:57.587561+00:00",
+        "lastFetch": "2026-09-20T02:01:03.647776+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
-          "RSS: HTTPError",
-          "WEB: HTTPError"
+          "RSS:HTTPError",
+          "WEB:HTTPError"
         ],
         "directAvailability": "failed",
         "freshnessHours": null
@@ -375,10 +375,10 @@
       {
         "name": "Diario Río Negro",
         "type": "MEDIO REGIONAL",
-        "mode": "sin respuesta",
+        "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.rionegro.com.ar/",
-        "lastFetch": "2026-09-20T01:57:57.771263+00:00",
+        "lastFetch": "2026-09-20T02:01:07.881725+00:00",
         "success": true,
         "attempted": 2,
         "failures": [],
@@ -388,14 +388,14 @@
       {
         "name": "Mejor Informado",
         "type": "MEDIO REGIONAL",
-        "mode": "sin respuesta",
+        "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.mejorinformado.com/",
-        "lastFetch": "2026-09-20T01:58:02.716307+00:00",
+        "lastFetch": "2026-09-20T02:01:08.369765+00:00",
         "success": true,
         "attempted": 2,
         "failures": [
-          "RSS: ParseError"
+          "RSS:ParseError"
         ],
         "directAvailability": "available",
         "freshnessHours": null
@@ -403,14 +403,14 @@
       {
         "name": "Diariamente Neuquén",
         "type": "MEDIO REGIONAL",
-        "mode": "sin respuesta",
+        "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.diariamenteneuquen.com/",
-        "lastFetch": "2026-09-20T01:58:03.026195+00:00",
+        "lastFetch": "2026-09-20T02:01:09.082019+00:00",
         "success": true,
         "attempted": 2,
         "failures": [
-          "RSS: ParseError"
+          "RSS:ParseError"
         ],
         "directAvailability": "available",
         "freshnessHours": null
@@ -449,7 +449,7 @@
           "title": "La EPET 26 de San Patricio del Chañar supera el 70% de avance: tendrá 19 talleres y 10 aulas - Diario Neuquino",
           "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPVVk0T1I5N1A3YkRRUjdqYlJqS09QMzdITlhSWDlvVmVIcjZCVC1VZVV1TDVMSThMYWdpRnV1Y2FFN1VSNGswWUZMV1REQlE1SDJuYVJUUnpIWXE0MHE2R19SM29venVSSjJFUHZjWWpzVTlEZEZka29YMzAwLThFeTBpWGVpUnJjcTJKUkc1YkJqc003OE9ZMVljTm5DRXZzX2NBbmhfN0hoVy1aV2dWQUdOOTd1NE1sbUx2UUtB?oc=5",
           "publishedAt": "2026-09-19T23:03:23+00:00",
-          "published": "Sat, 19 Sep 2026 23:03:23 GMT",
+          "published": "2026-09-19T23:03:23+00:00",
           "description": "<a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxPVVk0T1I5N1A3YkRRUjdqYlJqS09QMzdITlhSWDlvVmVIcjZCVC1VZVV1TDVMSThMYWdpRnV1Y2FFN1VSNGswWUZMV1REQlE1SDJuYVJUUnpIWXE0MHE2R19SM29venVSSjJFUHZjWWpzVTlEZEZka29YMzAwLThFeTBpWGVpUnJjcTJKUkc1YkJqc003OE9ZMVljTm5DRXZzX2NBbmhfN0hoVy1aV2dWQUdOOTd1NE1sbUx2UUtB?oc=5\" target=\"_blank\">La EPET 26 de San Patricio del Chañar supera el 70% de avance: tendrá 19 talleres y 10 aulas</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Diario Neuquino</font>",
           "source": "Diario Neuquino",
           "sourceType": "BUSCADOR / RESPALDO",
@@ -471,6 +471,7 @@
       "newSources": [],
       "sourceDiversity": 1,
       "memoryMatched": true,
+      "isNew": false,
       "territory": {
         "version": "2.0",
         "primary": "San Patricio del Chañar",
@@ -528,7 +529,7 @@
           "title": "Avanza la infraestructura educativa en Neuquén: la EPET 26 ya supera el 70% de ejecución - Diario Río Negro",
           "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNWjJ1ODFyYjY3WGh4QUdFR0RBU1dyYVNfTjFERlQ4RDJ2aHYtSnR4RDNUel9Ka0RfZGNsTnFjZVdwdVFJdDc4TUlhRVo3SGt2RFNHWnhSczA2X3VlZTJIYWJYc195WEpwcEVYLUVYbkN5eGVzZ1hYSjZhZXc0bFk4VUtHLS1HaDRHdmhJVFJEUERvbm9RTlhlNjFmSVBGNmJjRVl1ZVpKZW96T3g3LTMwVDVOdjRmUEo1d0pHUjQwNmZlUTFIS0QzUm91eVJscndW0gHYAUFVX3lxTE9NeUhoTk90MjN2QW9Va3NkeVZxQzJYbGtzTW9MWTNSODUyQ2VqNUxnM05aMkpscHZDdXc2ZmFvWExURlE3MGdCR2Y3dGFJam5YYUV0M2RJbHRlRXFoOFVhZUJidHE1QjhFZWVqeUxGWjJYbEpxUnVxUmNtNkY5MkVsRVB1TUtHcFlXeVJkQUFuNjJPOUVSak1IUzhrbzlJMVpBMHVubVd6S1ktakMwWHRzejVvdy1nbVBkb1J0S3gya0xmeFprZU9lek5RNURSeTJVN1pocHVENQ?oc=5",
           "publishedAt": "2026-09-19T14:58:15+00:00",
-          "published": "Sat, 19 Sep 2026 14:58:15 GMT",
+          "published": "2026-09-19T14:58:15+00:00",
           "description": "<a href=\"https://news.google.com/rss/articles/CBMi0AFBVV95cUxNWjJ1ODFyYjY3WGh4QUdFR0RBU1dyYVNfTjFERlQ4RDJ2aHYtSnR4RDNUel9Ka0RfZGNsTnFjZVdwdVFJdDc4TUlhRVo3SGt2RFNHWnhSczA2X3VlZTJIYWJYc195WEpwcEVYLUVYbkN5eGVzZ1hYSjZhZXc0bFk4VUtHLS1HaDRHdmhJVFJEUERvbm9RTlhlNjFmSVBGNmJjRVl1ZVpKZW96T3g3LTMwVDVOdjRmUEo1d0pHUjQwNmZlUTFIS0QzUm91eVJscndW0gHYAUFVX3lxTE9NeUhoTk90MjN2QW9Va3NkeVZxQzJYbGtzTW9MWTNSODUyQ2VqNUxnM05aMkpscHZDdXc2ZmFvWExURlE3MGdCR2Y3dGFJam5YYUV0M2RJbHRlRXFoOFVhZUJidHE1QjhFZWVqeUxGWjJYbEpxUnVxUmNtNkY5MkVsRVB1TUtHcFlXeVJkQUFuNjJPOUVSak1IUzhrbzlJMVpBMHVubVd6S1ktakMwWHRzejVvdy1nbVBkb1J0S3gya0xmeFprZU9lek5RNURSeTJVN1pocHVENQ?oc=5\" target=\"_blank\">Avanza la infraestructura educativa en Neuquén: la EPET 26 ya supera el 70% de ejecución</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Diario Río Negro</font>",
           "source": "Diario Río Negro",
           "sourceType": "BUSCADOR / RESPALDO",
@@ -550,6 +551,7 @@
       "newSources": [],
       "sourceDiversity": 1,
       "memoryMatched": true,
+      "isNew": false,
       "territory": {
         "version": "2.0",
         "primary": "San Patricio del Chañar",
@@ -590,7 +592,7 @@
       "lastSeen": "2026-09-18T07:26:20+00:00",
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
-      "topic": "OTROS",
+      "topic": "SERVICIOS",
       "movement": 49,
       "coverage": 1,
       "sourceCount": 1,
@@ -608,7 +610,7 @@
           "title": "Últimas noticias sobre San Patricio del Chañar - Lmneuquen.com",
           "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE54YXloOWhfWUtHU1cybHNUZy1UNXpWa0JOTnkyam55VDYzRTI5TzlTTG5TemlqM2NYck91bzZ1MUkxc1pNZ3ktWmphc2VmUkowdlpLZFNyZ3IxdUNCZVAxR1RGTlFWeExRdjNB?oc=5",
           "publishedAt": "2026-09-18T07:26:20+00:00",
-          "published": "Fri, 18 Sep 2026 07:26:20 GMT",
+          "published": "2026-09-18T07:26:20+00:00",
           "description": "<a href=\"https://news.google.com/rss/articles/CBMia0FVX3lxTE54YXloOWhfWUtHU1cybHNUZy1UNXpWa0JOTnkyam55VDYzRTI5TzlTTG5TemlqM2NYck91bzZ1MUkxc1pNZ3ktWmphc2VmUkowdlpLZFNyZ3IxdUNCZVAxR1RGTlFWeExRdjNB?oc=5\" target=\"_blank\">Últimas noticias sobre San Patricio del Chañar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Lmneuquen.com</font>",
           "source": "Lmneuquen.com",
           "sourceType": "BUSCADOR / RESPALDO",
@@ -625,11 +627,12 @@
         }
       ],
       "lifecycle": "EMERGENTE",
-      "movementDelta": -1,
+      "movementDelta": 0,
       "previousCoverage": 1,
       "newSources": [],
       "sourceDiversity": 1,
       "memoryMatched": true,
+      "isNew": false,
       "territory": {
         "version": "2.0",
         "primary": "San Patricio del Chañar",
@@ -660,7 +663,7 @@
       "title": "La EPET 26 de San Patricio del Chañar supera el 70% de avance: tendrá 19 talleres y 10 aulas - Diario Neuquino",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPVVk0T1I5N1A3YkRRUjdqYlJqS09QMzdITlhSWDlvVmVIcjZCVC1VZVV1TDVMSThMYWdpRnV1Y2FFN1VSNGswWUZMV1REQlE1SDJuYVJUUnpIWXE0MHE2R19SM29venVSSjJFUHZjWWpzVTlEZEZka29YMzAwLThFeTBpWGVpUnJjcTJKUkc1YkJqc003OE9ZMVljTm5DRXZzX2NBbmhfN0hoVy1aV2dWQUdOOTd1NE1sbUx2UUtB?oc=5",
       "publishedAt": "2026-09-19T23:03:23+00:00",
-      "published": "Sat, 19 Sep 2026 23:03:23 GMT",
+      "published": "2026-09-19T23:03:23+00:00",
       "description": "<a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxPVVk0T1I5N1A3YkRRUjdqYlJqS09QMzdITlhSWDlvVmVIcjZCVC1VZVV1TDVMSThMYWdpRnV1Y2FFN1VSNGswWUZMV1REQlE1SDJuYVJUUnpIWXE0MHE2R19SM29venVSSjJFUHZjWWpzVTlEZEZka29YMzAwLThFeTBpWGVpUnJjcTJKUkc1YkJqc003OE9ZMVljTm5DRXZzX2NBbmhfN0hoVy1aV2dWQUdOOTd1NE1sbUx2UUtB?oc=5\" target=\"_blank\">La EPET 26 de San Patricio del Chañar supera el 70% de avance: tendrá 19 talleres y 10 aulas</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Diario Neuquino</font>",
       "source": "Diario Neuquino",
       "sourceType": "BUSCADOR / RESPALDO",
@@ -679,7 +682,7 @@
       "title": "Avanza la infraestructura educativa en Neuquén: la EPET 26 ya supera el 70% de ejecución - Diario Río Negro",
       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNWjJ1ODFyYjY3WGh4QUdFR0RBU1dyYVNfTjFERlQ4RDJ2aHYtSnR4RDNUel9Ka0RfZGNsTnFjZVdwdVFJdDc4TUlhRVo3SGt2RFNHWnhSczA2X3VlZTJIYWJYc195WEpwcEVYLUVYbkN5eGVzZ1hYSjZhZXc0bFk4VUtHLS1HaDRHdmhJVFJEUERvbm9RTlhlNjFmSVBGNmJjRVl1ZVpKZW96T3g3LTMwVDVOdjRmUEo1d0pHUjQwNmZlUTFIS0QzUm91eVJscndW0gHYAUFVX3lxTE9NeUhoTk90MjN2QW9Va3NkeVZxQzJYbGtzTW9MWTNSODUyQ2VqNUxnM05aMkpscHZDdXc2ZmFvWExURlE3MGdCR2Y3dGFJam5YYUV0M2RJbHRlRXFoOFVhZUJidHE1QjhFZWVqeUxGWjJYbEpxUnVxUmNtNkY5MkVsRVB1TUtHcFlXeVJkQUFuNjJPOUVSak1IUzhrbzlJMVpBMHVubVd6S1ktakMwWHRzejVvdy1nbVBkb1J0S3gya0xmeFprZU9lek5RNURSeTJVN1pocHVENQ?oc=5",
       "publishedAt": "2026-09-19T14:58:15+00:00",
-      "published": "Sat, 19 Sep 2026 14:58:15 GMT",
+      "published": "2026-09-19T14:58:15+00:00",
       "description": "<a href=\"https://news.google.com/rss/articles/CBMi0AFBVV95cUxNWjJ1ODFyYjY3WGh4QUdFR0RBU1dyYVNfTjFERlQ4RDJ2aHYtSnR4RDNUel9Ka0RfZGNsTnFjZVdwdVFJdDc4TUlhRVo3SGt2RFNHWnhSczA2X3VlZTJIYWJYc195WEpwcEVYLUVYbkN5eGVzZ1hYSjZhZXc0bFk4VUtHLS1HaDRHdmhJVFJEUERvbm9RTlhlNjFmSVBGNmJjRVl1ZVpKZW96T3g3LTMwVDVOdjRmUEo1d0pHUjQwNmZlUTFIS0QzUm91eVJscndW0gHYAUFVX3lxTE9NeUhoTk90MjN2QW9Va3NkeVZxQzJYbGtzTW9MWTNSODUyQ2VqNUxnM05aMkpscHZDdXc2ZmFvWExURlE3MGdCR2Y3dGFJam5YYUV0M2RJbHRlRXFoOFVhZUJidHE1QjhFZWVqeUxGWjJYbEpxUnVxUmNtNkY5MkVsRVB1TUtHcFlXeVJkQUFuNjJPOUVSak1IUzhrbzlJMVpBMHVubVd6S1ktakMwWHRzejVvdy1nbVBkb1J0S3gya0xmeFprZU9lek5RNURSeTJVN1pocHVENQ?oc=5\" target=\"_blank\">Avanza la infraestructura educativa en Neuquén: la EPET 26 ya supera el 70% de ejecución</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Diario Río Negro</font>",
       "source": "Diario Río Negro",
       "sourceType": "BUSCADOR / RESPALDO",
@@ -698,7 +701,7 @@
       "title": "Últimas noticias sobre San Patricio del Chañar - Lmneuquen.com",
       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE54YXloOWhfWUtHU1cybHNUZy1UNXpWa0JOTnkyam55VDYzRTI5TzlTTG5TemlqM2NYck91bzZ1MUkxc1pNZ3ktWmphc2VmUkowdlpLZFNyZ3IxdUNCZVAxR1RGTlFWeExRdjNB?oc=5",
       "publishedAt": "2026-09-18T07:26:20+00:00",
-      "published": "Fri, 18 Sep 2026 07:26:20 GMT",
+      "published": "2026-09-18T07:26:20+00:00",
       "description": "<a href=\"https://news.google.com/rss/articles/CBMia0FVX3lxTE54YXloOWhfWUtHU1cybHNUZy1UNXpWa0JOTnkyam55VDYzRTI5TzlTTG5TemlqM2NYck91bzZ1MUkxc1pNZ3ktWmphc2VmUkowdlpLZFNyZ3IxdUNCZVAxR1RGTlFWeExRdjNB?oc=5\" target=\"_blank\">Últimas noticias sobre San Patricio del Chañar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Lmneuquen.com</font>",
       "source": "Lmneuquen.com",
       "sourceType": "BUSCADOR / RESPALDO",
@@ -716,7 +719,7 @@
   ],
   "territorialGraph": {
     "version": "2.0",
-    "generatedAt": "2026-09-20T01:58:09.157289+00:00",
+    "generatedAt": "2026-09-20T02:01:15.292773+00:00",
     "root": "spc",
     "rule": "evidence-first",
     "levels": [
@@ -1311,7 +1314,7 @@
   },
   "audit": {
     "version": "1.0",
-    "updatedAt": "2026-09-20T01:58:09.237189+00:00",
+    "updatedAt": "2026-09-20T02:01:15.318507+00:00",
     "rule": "fact != coverage; territory requires textual evidence",
     "facts": 3,
     "coverage": 3,
