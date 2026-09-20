@@ -8,470 +8,312 @@ from datetime import datetime, timezone, timedelta
 from email.utils import parsedate_to_datetime
 from difflib import SequenceMatcher
 
-OUT = "data/radar-feed.json"
-DAYS = 7
-MEMORY_DAYS = 45
-MIN_DATE = datetime.now(timezone.utc) - timedelta(days=DAYS)
-UA = "Pulso-Chañar/7.0 (+https://eliasmartinezcultural-glitch.github.io/RADAR-CHA-AR/)"
+OUT="data/radar-feed.json"
+DAYS=7
+MEMORY_DAYS=45
+NOW=datetime.now(timezone.utc)
+MIN_DATE=NOW-timedelta(days=DAYS)
+UA="Pulso-Chañar/8.0 (+https://eliasmartinezcultural-glitch.github.io/RADAR-CHA-AR/)"
 
-# PULSO CHAÑAR — arquitectura de fuentes
-# 1) Fuentes directas: RSS cuando existe + páginas web cuando no existe.
-# 2) Buscador de respaldo: Google News RSS para ampliar cobertura.
-# 3) Clasificación territorial y deduplicación.
-# La misión sigue siendo una sola: detectar conversación pública con anclaje en Chañar.
-# Orden operativo: fuente local/institucional directa -> radio local directa -> regional directa -> buscador de respaldo.
-# El buscador amplía cobertura; no convierte una fuente secundaria en fuente primaria.
-
-DIRECT_SOURCES = [
-    {"name":"Chañar Digital","type":"MEDIO LOCAL","url":"https://www.chanardigital.com.ar/","rss":["https://www.chanardigital.com.ar/rss.xml","https://www.chanardigital.com.ar/feed/","https://www.chanardigital.com.ar/rss.php"]},
-    {"name":"Mía Radio 94.7","type":"RADIO LOCAL","url":"https://www.radiomia.com.ar/","rss":[]},
-    {"name":"Radio Tuit Vaca Muerta 90.5","type":"RADIO LOCAL / PRODUCTIVA","url":"https://tuitvacamuerta.com/","rss":[]},
-    {"name":"Vaca Muerta News","type":"MEDIO REGIONAL / RADIO","url":"https://www.vacamuertanews.com/","rss":["https://www.vacamuertanews.com/feed/"]},
-    {"name":"Neuquén Informa","type":"MEDIO OFICIAL PROVINCIAL","url":"https://www.neuqueninforma.gob.ar/","rss":["https://www.neuqueninforma.gob.ar/feed/","https://www.neuqueninforma.gob.ar/rss/"]},
-    {"name":"Municipalidad de San Patricio del Chañar","type":"INSTITUCIONAL LOCAL","url":"https://sanpatricio.gob.ar/","rss":["https://sanpatricio.gob.ar/feed/","https://sanpatricio.gob.ar/rss/"]},
-    {"name":"Boletín Oficial de Neuquén","type":"FUENTE NORMATIVA","url":"https://boletinoficial.neuquen.gov.ar/","rss":[]},
-    {"name":"Infoleg Neuquén","type":"FUENTE NORMATIVA","url":"https://infoleg.neuquen.gob.ar/","rss":[]},
-    {"name":"LM Neuquén","type":"MEDIO REGIONAL","url":"https://www.lmneuquen.com/","rss":["https://www.lmneuquen.com/rss/pages/section.xml?section=neuquen"]},
-    {"name":"Diario Río Negro","type":"MEDIO REGIONAL","url":"https://www.rionegro.com.ar/","rss":["https://www.rionegro.com.ar/feed/"]},
-    {"name":"Mejor Informado","type":"MEDIO REGIONAL","url":"https://www.mejorinformado.com/","rss":["https://www.mejorinformado.com/rss/"]},
-    {"name":"Diariamente Neuquén","type":"MEDIO REGIONAL","url":"https://www.diariamenteneuquen.com/","rss":["https://www.diariamenteneuquen.com/feed/"]},
+DIRECT_SOURCES=[
+ {"name":"Chañar Digital","type":"MEDIO LOCAL","url":"https://www.chanardigital.com.ar/","rss":["https://www.chanardigital.com.ar/rss.xml","https://www.chanardigital.com.ar/feed/","https://www.chanardigital.com.ar/rss.php"]},
+ {"name":"Mía Radio 94.7","type":"RADIO LOCAL","url":"https://www.radiomia.com.ar/","rss":[]},
+ {"name":"Radio Tuit Vaca Muerta 90.5","type":"RADIO LOCAL / PRODUCTIVA","url":"https://tuitvacamuerta.com/","rss":[]},
+ {"name":"Vaca Muerta News","type":"MEDIO REGIONAL / RADIO","url":"https://www.vacamuertanews.com/","rss":["https://www.vacamuertanews.com/feed/"]},
+ {"name":"Neuquén Informa","type":"MEDIO OFICIAL PROVINCIAL","url":"https://www.neuqueninforma.gob.ar/","rss":["https://www.neuqueninforma.gob.ar/feed/","https://www.neuqueninforma.gob.ar/rss/"]},
+ {"name":"Municipalidad de San Patricio del Chañar","type":"INSTITUCIONAL LOCAL","url":"https://sanpatricio.gob.ar/","rss":["https://sanpatricio.gob.ar/feed/","https://sanpatricio.gob.ar/rss/"]},
+ {"name":"Boletín Oficial de Neuquén","type":"FUENTE NORMATIVA","url":"https://boletinoficial.neuquen.gov.ar/","rss":[]},
+ {"name":"Infoleg Neuquén","type":"FUENTE NORMATIVA","url":"https://infoleg.neuquen.gob.ar/","rss":[]},
+ {"name":"LM Neuquén","type":"MEDIO REGIONAL","url":"https://www.lmneuquen.com/","rss":["https://www.lmneuquen.com/rss/pages/section.xml?section=neuquen"]},
+ {"name":"Diario Río Negro","type":"MEDIO REGIONAL","url":"https://www.rionegro.com.ar/","rss":["https://www.rionegro.com.ar/feed/"]},
+ {"name":"Mejor Informado","type":"MEDIO REGIONAL","url":"https://www.mejorinformado.com/","rss":["https://www.mejorinformado.com/rss/"]},
+ {"name":"Diariamente Neuquén","type":"MEDIO REGIONAL","url":"https://www.diariamenteneuquen.com/","rss":["https://www.diariamenteneuquen.com/feed/"]},
 ]
 
-QUERIES = [
-    ('"San Patricio del Chañar"', 'territorio'),
-    ('"San Patricio del Chañar" salud hospital', 'salud'),
-    ('"San Patricio del Chañar" educación escuela CPEM EPET', 'educación'),
-    ('"San Patricio del Chañar" municipio municipalidad concejo', 'instituciones'),
-    ('"San Patricio del Chañar" producción chacra viñedo bodega productores', 'producción'),
-    ('"San Patricio del Chañar" deporte club polideportivo', 'deportes'),
-    ('"San Patricio del Chañar" cultura turismo fiesta', 'cultura'),
-    ('"San Patricio del Chañar" obra servicio agua gas cloacas', 'servicios'),
-    ('"San Patricio del Chañar" tránsito transporte ruta', 'movilidad'),
-    ('"San Patricio del Chañar" seguridad bomberos policía', 'emergencias'),
-    ('"San Patricio del Chañar" "Ruta 7"', 'territorio'),
-    ('"San Patricio del Chañar" "Ruta 8"', 'territorio'),
-    ('"San Patricio del Chañar" "Vaca Muerta"', 'regional'),
-    ('"San Patricio del Chañar" Añelo', 'regional'),
-    ('"San Patricio del Chañar" Neuquén', 'regional'),
-    ('site:chanardigital.com.ar "San Patricio del Chañar"', 'Chañar Digital'),
-    ('site:radiomia.com.ar "San Patricio del Chañar"', 'Mía Radio 94.7'),
-    ('site:tuitvacamuerta.com "San Patricio del Chañar"', 'Radio Tuit Vaca Muerta 90.5'),
-    ('site:neuqueninforma.gob.ar "San Patricio del Chañar"', 'Neuquén Informa'),
-    ('site:lmneuquen.com "San Patricio del Chañar"', 'LM Neuquén'),
-    ('site:rionegro.com.ar "San Patricio del Chañar"', 'Diario Río Negro'),
-    ('site:mejorinformado.com "San Patricio del Chañar"', 'Mejor Informado'),
-    ('site:diariamenteneuquen.com "San Patricio del Chañar"', 'Diariamente Neuquén'),
-    ('site:vacamuertanews.com "San Patricio del Chañar"', 'Vaca Muerta News'),
+QUERIES=[
+ ('"San Patricio del Chañar"','territorio'),
+ ('"San Patricio del Chañar" salud hospital','salud'),
+ ('"San Patricio del Chañar" educación escuela CPEM EPET','educación'),
+ ('"San Patricio del Chañar" municipio municipalidad concejo','instituciones'),
+ ('"San Patricio del Chañar" producción chacra viñedo bodega productores','producción'),
+ ('"San Patricio del Chañar" deporte club polideportivo','deportes'),
+ ('"San Patricio del Chañar" cultura turismo fiesta','cultura'),
+ ('"San Patricio del Chañar" obra servicio agua gas cloacas','servicios'),
+ ('"San Patricio del Chañar" tránsito transporte ruta','movilidad'),
+ ('"San Patricio del Chañar" seguridad bomberos policía','emergencias'),
+ ('"San Patricio del Chañar" "Ruta 7"','territorio'),
+ ('"San Patricio del Chañar" "Ruta 8"','territorio'),
+ ('"San Patricio del Chañar" "Vaca Muerta"','regional'),
+ ('"San Patricio del Chañar" Añelo','regional'),
+ ('"San Patricio del Chañar" Neuquén','regional'),
+ ('site:chanardigital.com.ar "San Patricio del Chañar"','Chañar Digital'),
+ ('site:radiomia.com.ar "San Patricio del Chañar"','Mía Radio 94.7'),
+ ('site:tuitvacamuerta.com "San Patricio del Chañar"','Radio Tuit Vaca Muerta 90.5'),
+ ('site:neuqueninforma.gob.ar "San Patricio del Chañar"','Neuquén Informa'),
+ ('site:lmneuquen.com "San Patricio del Chañar"','LM Neuquén'),
+ ('site:rionegro.com.ar "San Patricio del Chañar"','Diario Río Negro'),
+ ('site:mejorinformado.com "San Patricio del Chañar"','Mejor Informado'),
+ ('site:diariamenteneuquen.com "San Patricio del Chañar"','Diariamente Neuquén'),
+ ('site:vacamuertanews.com "San Patricio del Chañar"','Vaca Muerta News'),
 ]
 
-LOCAL_ENTITIES = [
-    'san patricio del chañar','san patricio del chanar','el chañar','el chanar',
-    'hospital dra alicia cruz','hospital alicia cruz','hospital local',
-    'municipalidad de san patricio','concejo deliberante de san patricio',
-    'cpem 31','epet 26','escuela primaria 273','escuela 273',
-    'club san patricio','polideportivo municipal','parque industrial',
-    'bodega familia schroeder','bodegas','viñedo','viñedos','chacra',
-    'picada 1','picada 4','picada 9','picada 11','picada 20',
-    'ruta 7','ruta 8','comisaria 13','bomberos voluntarios',
-    'correo argentino','centro de salud'
+LOCAL_ENTITIES=[
+ 'san patricio del chañar','san patricio del chanar','el chañar','el chanar',
+ 'hospital dra alicia cruz','hospital alicia cruz','hospital local',
+ 'municipalidad de san patricio','concejo deliberante de san patricio',
+ 'cpem 31','epet 26','escuela primaria 273','escuela 273','club san patricio',
+ 'polideportivo municipal','parque industrial','bodega familia schroeder','bodegas',
+ 'viñedo','viñedos','chacra','picada 1','picada 3','picada 4','picada 5','picada 9',
+ 'picada 11','picada 19','picada 20','ruta 7','ruta 8','comisaria 13',
+ 'bomberos voluntarios','correo argentino','centro de salud','128 viviendas',
+ 'union y fuerza','76 viviendas','50 viviendas','plan federalismo','primeros pobladores',
+ 'suyai','barrio obrero','barrio jardin','12 de octubre','25 de abril','loteo social'
 ]
-AMBIGUOUS = ['puerto el chañar','chañaral','chañar viejo','chañaral de caracoles']
-STRONG_LOCAL_ENTITIES = [
-    'san patricio del chañar','san patricio del chanar','el chañar','el chanar',
-    'hospital dra alicia cruz','hospital alicia cruz','cpem 31','epet 26','escuela primaria 273',
-    'parque industrial','picada 1','picada 3','picada 4','picada 5','picada 9','picada 11','picada 19','picada 20',
-    'ruta 7','ruta 8','comisaria 13','municipalidad de san patricio','epen',
-    '128 viviendas','union y fuerza','76 viviendas','50 viviendas','plan federalismo','primeros pobladores',
-    'suyai','barrio obrero','barrio jardin','12 de octubre','25 de abril','loteo social'
+STRONG_LOCAL=set(LOCAL_ENTITIES)-{'ruta 7','ruta 8','epen','viñedo','viñedos','bodegas','chacra'}
+AMBIGUOUS=['puerto el chañar','chañaral','chañar viejo','chañaral de caracoles']
+GENERIC_TITLES=['últimas noticias sobre san patricio del chañar','ultimas noticias sobre san patricio del chañar','noticias de san patricio del chañar']
+
+TOPIC_RULES=[
+ ('SALUD',['hospital','salud','enfermer','medic','vacun','insumo']),
+ ('EDUCACIÓN',['cpem','escuela','epet','educacion','clases','docente']),
+ ('SERVICIOS',['agua','gas','cloaca','residu','luz','servicio']),
+ ('MOVILIDAD',['ruta 7','ruta 8','transito','transporte','camiones','estacionamiento']),
+ ('PRODUCCIÓN',['chacra','viñedo','bodega','productor','produccion','agro']),
+ ('DEPORTE',['club','deporte','polideportivo','liga','futbol','basquet']),
+ ('CULTURA / TURISMO',['cultura','turismo','fiesta','festival','museo','patrimonio']),
+ ('INSTITUCIONES',['municipalidad','concejo','ordenanza','obra','licitacion']),
+ ('SEGURIDAD / EMERGENCIAS',['bombero','policia','comisaria','emergencia']),
 ]
-STOP = {'san','patricio','del','el','de','la','los','las','una','un','y','en','por','para','con','que','neuquen','neuquén','chanar','chañar','municipio','ciudad','provincia','noticias','últimas','ultimas','sobre'}
 
-def clean(text):
-    return re.sub(r'\s+', ' ', text or '').strip()
-
-def norm(text):
-    text = (text or '').lower().translate(str.maketrans('áéíóúü','aeiouu'))
-    return re.sub(r'[^a-z0-9ñ ]+', ' ', text)
-
-def title_key(title):
-    return ' '.join(w for w in norm(title).split() if len(w)>2 and w not in STOP)[:240]
-
+def clean(s): return re.sub(r'\s+',' ',s or '').strip()
+def norm(s):
+    s=(s or '').lower().translate(str.maketrans('áéíóúü','aeiouu'))
+    return re.sub(r'[^a-z0-9ñ ]+',' ',s)
+def parse_date(raw):
+    if not raw: return None
+    try:
+        dt=parsedate_to_datetime(raw)
+        return (dt if dt.tzinfo else dt.replace(tzinfo=timezone.utc)).astimezone(timezone.utc)
+    except Exception: pass
+    try: return datetime.fromisoformat(raw.replace('Z','+00:00')).astimezone(timezone.utc)
+    except Exception: return None
+def title_key(s):
+    stop={'san','patricio','del','el','de','la','los','las','una','un','y','en','por','para','con','que','neuquen','chanar','chañar','municipio','ciudad','provincia','noticias','ultimas','últimas','sobre'}
+    return ' '.join(w for w in norm(s).split() if len(w)>2 and w not in stop)[:240]
 def similarity(a,b):
     aa=set(title_key(a).split()); bb=set(title_key(b).split())
     if not aa or not bb: return 0
-    return max(len(aa&bb)/len(aa|bb), SequenceMatcher(None,title_key(a),title_key(b)).ratio())
-
-def parse_date(raw):
-    if not raw: return None
-    for parser in (parsedate_to_datetime,):
-        try:
-            dt=parser(raw)
-            if dt.tzinfo is None: dt=dt.replace(tzinfo=timezone.utc)
-            return dt.astimezone(timezone.utc)
-        except Exception: pass
-    try:
-        dt=datetime.fromisoformat(raw.replace('Z','+00:00'))
-        return dt.astimezone(timezone.utc)
-    except Exception:
-        return None
-
-def fetch_url(url):
+    return max(len(aa&bb)/len(aa|bb),SequenceMatcher(None,title_key(a),title_key(b)).ratio())
+def fetch(url):
     req=urllib.request.Request(url,headers={'User-Agent':UA,'Accept':'text/html,application/rss+xml,application/xml;q=0.9,*/*;q=0.8'})
-    with urllib.request.urlopen(req,timeout=20) as response:
-        return response.read(), response.headers.get('Content-Type','')
+    with urllib.request.urlopen(req,timeout=20) as r: return r.read()
 
-def relevance(title,description,source):
-    # Regla de precisión: el buscador no puede convertir por sí solo una nota en LOCAL.
-    evidence=norm(' '.join([title,description]))
-    title_norm=norm(title)
-    exact='san patricio del chañar' in evidence or 'san patricio del chanar' in evidence
-    if any(norm(x) in evidence for x in AMBIGUOUS) and not exact: return 0,'AMBIGUA'
-    title_hits=[x for x in STRONG_LOCAL_ENTITIES if norm(x) in title_norm]
-    body_hits=[x for x in STRONG_LOCAL_ENTITIES if norm(x) in evidence]
-    if exact: return 3,'DIRECTA'
-    # Instituciones, barrios, escuelas y servicios propios pueden anclar Chañar.
-    excluded={'ruta 7','ruta 8','epen','viñedo','viñedos'}
-    specific_title_hits=[x for x in title_hits if x not in excluded]
-    specific_body_hits=[x for x in body_hits if x not in excluded]
-    if specific_title_hits: return 3,'DIRECTA'
-    if len(specific_body_hits)>=2: return 3,'DIRECTA'
-    if len(specific_body_hits)==1: return 2,'CON ANCLA LOCAL'
-    # Una ruta/corredor aislado no demuestra que el hecho ocurra en Chañar.
+def relevance(title,desc):
+    evidence=norm(' '.join([title,desc]))
+    t=norm(title)
+    if any(norm(x) in evidence for x in AMBIGUOUS) and not ('san patricio del chañar' in evidence or 'san patricio del chanar' in evidence): return 0,'AMBIGUA'
+    if any(norm(x)==t for x in GENERIC_TITLES): return 0,'AGREGADOR'
+    exact=('san patricio del chañar' in evidence or 'san patricio del chanar' in evidence)
+    title_hits=[x for x in STRONG_LOCAL if norm(x) in t]
+    body_hits=[x for x in STRONG_LOCAL if norm(x) in evidence]
+    if exact or title_hits or len(body_hits)>=2: return 3,'DIRECTA'
+    if len(body_hits)==1: return 2,'CON ANCLA LOCAL'
     return 0,'SIN ANCLA'
 
-def parse_rss(xml_bytes,source,source_type,source_url,query='direct-rss'):
-    root=ET.fromstring(xml_bytes)
-    rows=[]
+def parse_rss(data,src,query):
+    root=ET.fromstring(data); rows=[]
     for item in root.findall('.//item'):
         title=clean(item.findtext('title')); link=clean(item.findtext('link'))
-        raw=clean(item.findtext('pubDate') or item.findtext('published') or item.findtext('{http://purl.org/dc/elements/1.1/}date'))
-        dt=parse_date(raw)
+        dt=parse_date(clean(item.findtext('pubDate') or item.findtext('published') or item.findtext('{http://purl.org/dc/elements/1.1/}date')))
         desc=clean(item.findtext('description'))
         if not title or not link or not dt or dt<MIN_DATE: continue
-        score,label=relevance(title,desc,source)
+        score,label=relevance(title,desc)
         if score<2: continue
-        rows.append({'title':title,'url':link,'publishedAt':dt.isoformat(),'published':raw,'description':desc,'source':source,'sourceType':source_type,'sourceUrl':source_url,'collection':'DIRECTA','query':query,'relevance':score,'relevanceLabel':label})
+        rows.append({'title':title,'url':link,'publishedAt':dt.isoformat(),'published':dt.isoformat(),'description':desc,'source':src['name'],'sourceType':src['type'],'sourceUrl':src['url'],'collection':'DIRECTA','query':query,'relevance':score,'relevanceLabel':label})
     return rows
 
-def html_text(html):
-    return clean(re.sub(r'<[^>]+>',' ',html,flags=re.S))
-
-def first_date(html):
-    patterns=[
-        r'<meta[^>]+property=["\']article:published_time["\'][^>]+content=["\']([^"\']+)',
-        r'<meta[^>]+name=["\']date["\'][^>]+content=["\']([^"\']+)',
-        r'<time[^>]+datetime=["\']([^"\']+)',
-        r'"datePublished"\s*:\s*"([^"]+)"',
-        r'"dateCreated"\s*:\s*"([^"]+)"'
-    ]
+def first_date(fragment):
+    patterns=[r'article:published_time["\']\s*content=["\']([^"\']+)',r'<time[^>]+datetime=["\']([^"\']+)',r'"datePublished"\s*:\s*"([^"]+)"']
     for p in patterns:
-        m=re.search(p,html,re.I)
+        m=re.search(p,fragment,re.I)
         if m:
             dt=parse_date(m.group(1))
             if dt: return dt
     return None
 
-def parse_homepage(html_bytes,source,source_type,source_url):
-    raw=html_bytes.decode('utf-8','ignore')
-    rows=[]
-    # We only accept links whose visible title carries a Chañar/local signal.
+def parse_homepage(data,src):
+    raw=data.decode('utf-8','ignore'); rows=[]
     for m in re.finditer(r'<a\b[^>]*href=["\']([^"\']+)["\'][^>]*>(.*?)</a>',raw,re.I|re.S):
-        href,inside=m.group(1),m.group(2)
-        title=clean(html_text(inside))
-        if len(title)<18 or len(title)>240: continue
-        body=norm(title)
-        if not any(norm(k) in body for k in LOCAL_ENTITIES): continue
-        link=urllib.parse.urljoin(source_url,href)
-        if link.startswith(('javascript:','mailto:','#')): continue
+        title=clean(re.sub(r'<[^>]+>',' ',m.group(2)))
+        if not 18<=len(title)<=240: continue
+        score,label=relevance(title,'')
+        if score<2: continue
         dt=first_date(raw[max(0,m.start()-3000):min(len(raw),m.end()+3000)])
         if not dt or dt<MIN_DATE: continue
-        score,label=relevance(title,'',source)
-        if score<2: continue
-        rows.append({'title':title,'url':link,'publishedAt':dt.isoformat(),'published':dt.isoformat(),'description':'','source':source,'sourceType':source_type,'sourceUrl':source_url,'collection':'DIRECTA-WEB','query':'homepage','relevance':score,'relevanceLabel':label})
+        link=urllib.parse.urljoin(src['url'],m.group(1))
+        if link.startswith(('javascript:','mailto:','#')): continue
+        rows.append({'title':title,'url':link,'publishedAt':dt.isoformat(),'published':dt.isoformat(),'description':'','source':src['name'],'sourceType':src['type'],'sourceUrl':src['url'],'collection':'DIRECTA-WEB','query':'homepage','relevance':score,'relevanceLabel':label})
     return rows
 
-def direct_collect():
-    rows=[]
-    source_status=[]
+def collect_direct():
+    rows=[]; status=[]
     for src in DIRECT_SOURCES:
-        found=0; mode='sin respuesta'; attempted=0; failures=[]; last_fetch=datetime.now(timezone.utc).isoformat()
+        attempted=0; failures=[]; found=0; mode='SIN RESPUESTA'
         for rss in src['rss']:
+            attempted+=1
             try:
-                attempted += 1
-                data,ctype=fetch_url(rss)
-                got=parse_rss(data,src['name'],src['type'],src['url'],rss)
-                rows.extend(got); found+=len(got)
-                if got: mode='RSS directo'
-            except Exception as exc:
-                failures.append(f'RSS: {type(exc).__name__}')
+                got=parse_rss(fetch(rss),src,rss); rows.extend(got); found+=len(got)
+                if got: mode='RSS DIRECTO'
+            except Exception as e: failures.append('RSS:'+type(e).__name__)
+        attempted+=1
         try:
-            attempted += 1
-            data,ctype=fetch_url(src['url'])
-            got=parse_homepage(data,src['name'],src['type'],src['url'])
-            rows.extend(got); found+=len(got)
-            if got and mode=='sin respuesta': mode='WEB directa'
-        except Exception as exc:
-            failures.append(f'WEB: {type(exc).__name__}')
-        success = attempted > len(failures)
-        src_dates=[parse_date(x.get('publishedAt')) for x in rows if x.get('source')==src['name']]
-        src_dates=[d for d in src_dates if d]
-        freshness=round((datetime.now(timezone.utc)-max(src_dates)).total_seconds()/3600,1) if src_dates else None
-        source_status.append({
-            'name':src['name'],
-            'type':src['type'],
-            'mode':mode,
-            'signals':found,
-            'url':src['url'],
-            'lastFetch':last_fetch,
-            'success':success,
-            'attempted':attempted,
-            'failures':failures[:4],
-            'directAvailability':'available' if success else 'failed',
-            'freshnessHours':freshness
-        })
-    return rows,source_status
-
-def google_url(query):
-    q=query+' when:7d'
-    return 'https://news.google.com/rss/search?q='+urllib.parse.quote(q)+'&hl=es-419&gl=AR&ceid=AR:es-419'
+            got=parse_homepage(fetch(src['url']),src); rows.extend(got); found+=len(got)
+            if got and mode=='SIN RESPUESTA': mode='WEB DIRECTA'
+        except Exception as e: failures.append('WEB:'+type(e).__name__)
+        dates=[parse_date(x['publishedAt']) for x in rows if x['source']==src['name']]
+        dates=[d for d in dates if d]
+        status.append({'name':src['name'],'type':src['type'],'mode':mode,'signals':found,'url':src['url'],'lastFetch':datetime.now(timezone.utc).isoformat(),'success':attempted>len(failures),'attempted':attempted,'failures':failures[:4],'directAvailability':'available' if attempted>len(failures) else 'failed','freshnessHours':round((datetime.now(timezone.utc)-max(dates)).total_seconds()/3600,1) if dates else None})
+    return rows,status
 
 def search_collect():
     rows=[]
     for query,hint in QUERIES:
         try:
-            data,_=fetch_url(google_url(query))
-            root=ET.fromstring(data)
+            root=ET.fromstring(fetch('https://news.google.com/rss/search?q='+urllib.parse.quote(query+' when:7d')+'&hl=es-419&gl=AR&ceid=AR:es-419'))
             for item in root.findall('.//item'):
                 title=clean(item.findtext('title')); link=clean(item.findtext('link'))
-                raw=clean(item.findtext('pubDate')); dt=parse_date(raw)
-                desc=clean(item.findtext('description'))
-                sn=item.find('source'); source=clean(sn.text if sn is not None else '') or hint
+                dt=parse_date(clean(item.findtext('pubDate'))); desc=clean(item.findtext('description'))
+                source_node=item.find('source'); source=clean(source_node.text if source_node is not None else '') or hint
                 if not title or not link or not dt or dt<MIN_DATE: continue
-                score,label=relevance(title,desc,source)
+                score,label=relevance(title,desc)
                 if score<2: continue
-                rows.append({'title':title,'url':link,'publishedAt':dt.isoformat(),'published':raw,'description':desc,'source':source,'sourceType':'BUSCADOR / RESPALDO','sourceUrl':'','collection':'BUSCADOR','query':query,'relevance':score,'relevanceLabel':label})
-        except Exception as exc:
-            print('SEARCH ERROR',query,exc)
+                rows.append({'title':title,'url':link,'publishedAt':dt.isoformat(),'published':dt.isoformat(),'description':desc,'source':source,'sourceType':'BUSCADOR / RESPALDO','sourceUrl':'','collection':'BUSCADOR','query':query,'relevance':score,'relevanceLabel':label})
+        except Exception as e: print('SEARCH ERROR',query,type(e).__name__)
     return rows
 
 try:
-    with open(OUT,encoding='utf-8') as handle: old=json.load(handle)
-except Exception:
-    old={'items':[]}
+    old=json.load(open(OUT,encoding='utf-8'))
+except Exception: old={'items':[],'events':[]}
 
-direct_rows,status=direct_collect()
-search_rows=search_collect()
-fresh=direct_rows+search_rows
+fresh,status=collect_direct()
+fresh+=search_collect()
 
 by_url={}
-for item in fresh:
-    key=item['url'].split('#',1)[0]
-    if key not in by_url or (item['collection']=='DIRECTA' and by_url[key]['collection']!='DIRECTA'):
-        by_url[key]=item
+for x in fresh:
+    key=x['url'].split('#',1)[0]
+    if key not in by_url or (x['collection'].startswith('DIRECTA') and not by_url[key]['collection'].startswith('DIRECTA')): by_url[key]=x
+ordered=sorted(by_url.values(),key=lambda x:x['publishedAt'],reverse=True)
 
-ordered=sorted(by_url.values(),key=lambda x:(x['publishedAt'],x['relevance']),reverse=True)
-deduped=[]
-for item in ordered:
-    match=None
-    for kept in deduped:
-        if similarity(item['title'],kept['title'])>=0.84:
-            match=kept; break
-    if match is None:
-        deduped.append(item)
-    elif item['collection'].startswith('DIRECTA') and not kept['collection'].startswith('DIRECTA'):
-        deduped[deduped.index(match)]=item
+dedup=[]
+for x in ordered:
+    merged=False
+    for y in dedup:
+        days=abs((parse_date(x['publishedAt'])-parse_date(y['publishedAt'])).total_seconds())/86400
+        if days>2: continue
+        sim=similarity(x['title'],y['title'])
+        xt=set(norm(' '.join([x['title'],x['description']])).split())
+        yt=set(norm(' '.join([y['title'],y['description']])).split())
+        anchor_overlap=bool(xt & yt & {norm(a) for a in LOCAL_ENTITIES})
+        topic_overlap=any(norm(term) in norm(x['title']+' '+x['description']) and norm(term) in norm(y['title']+' '+y['description']) for _,terms in TOPIC_RULES for term in terms)
+        if sim>=0.84 or (sim>=0.68 and (anchor_overlap or topic_overlap)):
+            # Prefer direct collection; otherwise preserve the richer title.
+            if x['collection'].startswith('DIRECTA') and not y['collection'].startswith('DIRECTA'): dedup[dedup.index(y)]=x
+            merged=True; break
+    if not merged: dedup.append(x)
 
-previous={i.get('url'):i for i in old.get('items',[])}
+previous={x.get('url'):x for x in old.get('items',[])}
 now=datetime.now(timezone.utc).isoformat()
-for item in deduped:
-    old_item=previous.get(item['url'],{})
-    item['firstSeen']=old_item.get('firstSeen',now)
-    item['isNew']=item['url'] not in previous
-    item['titleKey']=title_key(item['title'])
-    item['evidenceUrl']=item['url']
-    item['sourcePriority'] = (
-        1 if item.get('collection','').startswith('DIRECTA') and item.get('sourceType','') in {'MEDIO LOCAL','INSTITUCIONAL LOCAL','RADIO LOCAL'}
-        else 2 if item.get('collection','').startswith('DIRECTA')
-        else 3
-    )
+for x in dedup:
+    oldx=previous.get(x['url'],{})
+    x['firstSeen']=oldx.get('firstSeen',now)
+    x['isNew']=x['url'] not in previous
+    x['titleKey']=title_key(x['title'])
+    x['evidenceUrl']=x['url']
+    x['sourcePriority']=1 if x['collection'].startswith('DIRECTA') and x['sourceType'] in {'MEDIO LOCAL','INSTITUCIONAL LOCAL','RADIO LOCAL'} else 2 if x['collection'].startswith('DIRECTA') else 3
+
+def classify(x):
+    text=norm(x.get('title','')+' '+x.get('description',''))
+    scores=[(sum(norm(t) in text for t in terms),topic) for topic,terms in TOPIC_RULES]
+    scores=[v for v in scores if v[0]]
+    return max(scores)[1] if scores else 'OTROS'
+
+def anchors(x):
+    text=norm(x.get('title','')+' '+x.get('description',''))
+    return [a for a in LOCAL_ENTITIES if norm(a) in text][:8]
 
 def event_similarity(a,b):
-    # Agrupa coberturas del mismo hecho sin exigir títulos idénticos.
-    da=parse_date(a.get('publishedAt')) or MIN_DATE
-    db=parse_date(b.get('publishedAt')) or MIN_DATE
-    if abs((da-db).total_seconds()) > 4*86400:
-        return 0
-    sa=set(w for w in title_key(a.get('title','')).split() if len(w)>=4)
-    sb=set(w for w in title_key(b.get('title','')).split() if len(w)>=4)
-    common=len(sa & sb)
-    sim=similarity(a.get('title',''),b.get('title',''))
-    if sim>=0.78: return sim
-    if common>=2 and sim>=0.58: return sim
+    da=parse_date(a['publishedAt']); db=parse_date(b['publishedAt'])
+    if not da or not db or abs((da-db).total_seconds())>2*86400: return 0
+    sim=similarity(a['title'],b['title'])
+    aa=set(anchors(a)); bb=set(anchors(b))
+    topic=classify(a)==classify(b)
+    overlap=len(aa&bb)/max(1,len(aa|bb))
+    if sim>=0.80: return sim
+    if sim>=0.62 and (overlap>0 or topic): return sim
     return 0
 
-TOPIC_RULES=[
- ('SALUD',['hospital','salud','enfermer','medic','vacun','insumo']),
- ('EDUCACIÓN',['cpem','escuela','epet','educacion','educación','clases','docente']),
- ('SERVICIOS',['agua','gas','cloaca','residu','luz','servicio']),
- ('MOVILIDAD',['ruta 7','ruta 8','transito','tránsito','transporte','camiones']),
- ('PRODUCCIÓN',['chacra','viñedo','bodega','productor','produccion','producción','agro']),
- ('DEPORTE',['club','deporte','polideportivo','liga','futbol','fútbol','basquet','básquet']),
- ('CULTURA / TURISMO',['cultura','turismo','fiesta','festival','museo','patrimonio']),
- ('INSTITUCIONES',['municipalidad','concejo','ordenanza','obra','licitacion','licitación']),
- ('SEGURIDAD / EMERGENCIAS',['bombero','policia','policía','comisaria','emergencia']),
-]
-
-def classify_topic(item):
-    text=norm(' '.join([item.get('title',''),item.get('description','')]))
-    scores=[]
-    for topic,terms in TOPIC_RULES:
-        score=sum(1 for term in terms if norm(term) in text)
-        if score: scores.append((score,topic))
-    return sorted(scores,reverse=True)[0][1] if scores else 'OTROS'
-
-def territorial_anchors(item):
-    text=norm(' '.join([item.get('title',''),item.get('description','')]))
-    anchors=[]
-    for term in LOCAL_ENTITIES:
-        if norm(term) in text and term not in anchors:
-            anchors.append(term)
-    return anchors[:8]
-
-def event_metrics(members):
-    now_dt=datetime.now(timezone.utc)
-    dates=[parse_date(x.get('publishedAt')) for x in members]
-    dates=[d for d in dates if d]
-    latest=max(dates) if dates else now_dt
-    age=max(0,(now_dt-latest).total_seconds()/3600)
+def metrics(members):
+    dates=[parse_date(x['publishedAt']) for x in members if parse_date(x['publishedAt'])]
+    latest=max(dates) if dates else NOW
+    age=max(0,(NOW-latest).total_seconds()/3600)
     recency=max(0,1-age/168)
-    unique_sources=len({x.get('source') for x in members if x.get('source')})
-    direct_sources=len({x.get('source') for x in members if x.get('sourcePriority',3)<=2})
-    topic_votes={}
-    for m in members:
-        topic=classify_topic(m)
-        topic_votes[topic]=topic_votes.get(topic,0)+1
-    topic=max(topic_votes,key=topic_votes.get)
-    # Movimiento = recencia + cantidad de coberturas + diversidad de fuentes.
-    # No representa importancia ni calidad periodística.
-    movement=round(100*(0.45*recency+0.30*min(1,len(members)/4)+0.25*min(1,unique_sources/3)))
-    return movement,topic,unique_sources,direct_sources
+    sources=list(dict.fromkeys(x['source'] for x in members if x.get('source')))
+    direct=sum(1 for s in sources if any(x.get('source')==s and x.get('sourcePriority',3)<=2 for x in members))
+    topic=max(((sum(classify(x)==t for x in members),t) for t,_ in TOPIC_RULES),default=(0,'OTROS'))[1]
+    movement=round(100*(0.45*recency+0.30*min(1,len(members)/4)+0.25*min(1,len(sources)/3)))
+    return movement,topic,sources,direct
 
-def event_match_score(current, previous):
-    if not previous: return 0
-    d1=parse_date(current.get('publishedAt')); d2=parse_date(previous.get('lastSeen') or previous.get('publishedAt'))
-    if not d1 or not d2 or abs((d1-d2).total_seconds()) > MEMORY_DAYS*86400: return 0
-    title_score=similarity(current.get('title',''),previous.get('title',''))
-    topic_score=1 if current.get('topic')==previous.get('topic') else 0
-    a=set(current.get('territorialAnchors',[])); b=set(previous.get('territorialAnchors',[]))
-    anchor_score=len(a&b)/max(1,len(a|b))
-    source_score=1 if set(current.get('sources',[])) & set(previous.get('sources',[])) else 0
-    return 0.45*title_score+0.25*anchor_score+0.20*topic_score+0.10*source_score
-
-def build_events(items, previous_events=None):
+def build_events(items,old_events):
     clusters=[]
-    for item in sorted(items,key=lambda x:x.get('publishedAt',''),reverse=True):
-        best=None; best_score=0
-        for idx,event in enumerate(clusters):
-            score=max((event_similarity(item,member) for member in event['items']),default=0)
-            if score>best_score:
-                best_score=score; best=idx
-        if best is None or best_score==0:
-            clusters.append({'items':[item]})
-        else:
-            clusters[best]['items'].append(item)
+    for x in sorted(items,key=lambda z:z['publishedAt'],reverse=True):
+        best=max(((event_similarity(x,y),i) for i,c in enumerate(clusters) for y in c),default=(0,None))
+        if best[0]: clusters[best[1]].append(x)
+        else: clusters.append([x])
+    events=[]; used=set()
+    for members in clusters:
+        direct=[x for x in members if x.get('sourcePriority',3)<=2]
+        canonical=sorted(direct or members,key=lambda x:(x.get('sourcePriority',3),-len(x['title'])))[0]
+        movement,topic,sources,direct_count=metrics(members)
+        ats=[]
+        for x in members:
+            for a in anchors(x):
+                if a not in ats: ats.append(a)
+        provisional={'title':canonical['title'],'publishedAt':max(x['publishedAt'] for x in members),'topic':topic,'territorialAnchors':ats,'sources':sources}
+        best_old=None; best_score=0
+        for olde in old_events:
+            if olde.get('eventId') in used: continue
+            d=similarity(provisional['title'],olde.get('title',''))
+            oa=set(olde.get('territorialAnchors',[])); ca=set(ats)
+            score=.55*d+.25*(len(ca&oa)/max(1,len(ca|oa)))+.20*(topic==olde.get('topic'))
+            if score>best_score: best_score=score; best_old=olde
+        seed=norm(canonical['title'])+'|'+'|'.join(sorted(ats[:4]))
+        eid=(best_old.get('eventId') if best_old and best_score>=.62 else None) or 'CHA-'+hashlib.sha256(seed.encode()).hexdigest()[:12]
+        if best_old: used.add(best_old.get('eventId'))
+        first=min(x.get('firstSeen',x['publishedAt']) for x in members)
+        prev_cov=best_old.get('coverage',0) if best_old else 0
+        prev_sources=set(best_old.get('sources',[])) if best_old else set()
+        new_sources=[s for s in sources if s not in prev_sources]
+        age_days=(NOW-(parse_date(first) or NOW)).total_seconds()/86400
+        if age_days<1 and movement>=45: life='EMERGENTE'
+        elif movement>=65 or len(members)>prev_cov: life='ACTIVO'
+        elif movement>=35: life='SOSTENIDO'
+        elif age_days>4: life='EN DESCENSO'
+        else: life='RECIENTE'
+        events.append({'eventId':eid,'title':canonical['title'],'publishedAt':max(x['publishedAt'] for x in members),'firstSeen':first,'lastSeen':max(x['publishedAt'] for x in members),'relevance':max(x['relevance'] for x in members),'relevanceLabel':'DIRECTA' if any(x['relevance']==3 for x in members) else 'CON ANCLA LOCAL','topic':topic,'movement':movement,'coverage':len(members),'sourceCount':len(sources),'directSourceCount':direct_count,'territorialAnchors':ats[:8],'sources':sources[:8],'evidenceUrl':canonical['url'],'items':members[:8],'lifecycle':life,'movementDelta':movement-(best_old.get('movement',movement) if best_old else movement),'previousCoverage':prev_cov,'newSources':new_sources[:8],'sourceDiversity':len(sources),'memoryMatched':bool(best_old),'isNew':not bool(best_old)})
+    current={e['eventId'] for e in events}
+    failed={s['name'] for s in status if not s.get('success')}
+    for e in old_events:
+        if e.get('eventId') in current: continue
+        if set(e.get('sources',[])) & failed:
+            last=parse_date(e.get('lastSeen') or e.get('publishedAt'))
+            if last and (NOW-last).days<=MEMORY_DAYS:
+                carry=dict(e); carry['lifecycle']='SIN NUEVA COBERTURA'; carry['sourceContinuity']='fuente conocida sin respuesta; no se infiere desaparición'; carry['movementDelta']=0; carry['memoryMatched']=True; carry['isNew']=False
+                events.append(carry)
+    return sorted(events,key=lambda e:(e.get('movement',0),e.get('publishedAt','')),reverse=True)[:80]
 
-    events=[]
-    previous_events=previous_events or []
-    used_previous=set()
-    for n,cluster in enumerate(clusters,1):
-        members=cluster['items']
-        canonical=sorted(members,key=lambda x:(x.get('sourcePriority',3),-len(x.get('title','')),x.get('publishedAt','')),reverse=False)[0]
-        # Prioriza una fuente directa para nombrar el hecho cuando existe.
-        direct=[x for x in members if x.get('sourcePriority',3)<3]
-        if direct:
-            canonical=sorted(direct,key=lambda x:(x.get('sourcePriority',3),-len(x.get('title',''))))[0]
-        members=sorted(members,key=lambda x:x.get('publishedAt',''),reverse=True)
-        sources=[]
-        for m in members:
-            if m.get('source') and m['source'] not in sources: sources.append(m['source'])
-        movement,topic,unique_sources,direct_sources=event_metrics(members)
-        anchors=[]
-        for m in members:
-            for a in territorial_anchors(m):
-                if a not in anchors: anchors.append(a)
-        first_seen=min((m.get('firstSeen') for m in members if m.get('firstSeen')),default=members[-1].get('publishedAt'))
-        provisional={'title':canonical.get('title',''),'publishedAt':members[0].get('publishedAt'),'topic':topic,'territorialAnchors':anchors[:8],'sources':sources[:8],'lastSeen':members[0].get('publishedAt')}
-        best_old=None; best_old_score=0
-        for old_event in previous_events:
-            if old_event.get('eventId') in used_previous: continue
-            score=event_match_score(provisional,old_event)
-            if score>best_old_score:
-                best_old_score=score; best_old=old_event
-        stable_seed=norm(canonical.get('title',''))+'|'+ '|'.join(sorted(anchors[:4]))
-        stable_fingerprint=hashlib.sha256(stable_seed.encode('utf-8')).hexdigest()[:12]
-        stable_id=(best_old.get('eventId') if best_old and best_old_score>=0.62 else None) or f'CHA-{stable_fingerprint}'
-        if best_old: used_previous.add(best_old.get('eventId'))
-        previous_coverage=best_old.get('coverage',0) if best_old else 0
-        previous_sources=set(best_old.get('sources',[])) if best_old else set()
-        new_sources=[s for s in sources if s not in previous_sources]
-        prev_movement=best_old.get('movement') if best_old else None
-        delta=movement-prev_movement if prev_movement is not None else 0
-        age_days=max(0,((datetime.now(timezone.utc)-(parse_date(first_seen) or datetime.now(timezone.utc))).total_seconds()/86400))
-        if age_days < 1 and movement >= 45: lifecycle='EMERGENTE'
-        elif movement >= 65 or (previous_coverage and len(members)>previous_coverage): lifecycle='ACTIVO'
-        elif movement >= 35: lifecycle='SOSTENIDO'
-        elif age_days > 4: lifecycle='EN DESCENSO'
-        else: lifecycle='RECIENTE'
-        events.append({
-            'eventId':stable_id,
-            'title':canonical.get('title',''),
-            'publishedAt':members[0].get('publishedAt'),
-            'firstSeen':first_seen,
-            'lastSeen':members[0].get('publishedAt'),
-            'relevance':max(m.get('relevance',0) for m in members),
-            'relevanceLabel':'DIRECTA' if any(m.get('relevance')==3 for m in members) else 'CON ANCLA LOCAL',
-            'topic':topic,
-            'movement':movement,
-            'coverage':len(members),
-            'sourceCount':unique_sources,
-            'directSourceCount':direct_sources,
-            'territorialAnchors':anchors[:8],
-            'sources':sources[:8],
-            'evidenceUrl':canonical.get('evidenceUrl') or canonical.get('url'),
-            'items':members[:8],
-            'lifecycle':lifecycle,
-            'movementDelta':delta,
-            'previousCoverage':previous_coverage,
-            'newSources':new_sources[:8],
-            'sourceDiversity':unique_sources,
-            'memoryMatched':bool(best_old)
-        })
-    # Si una fuente conocida falla, no interpretamos automáticamente la ausencia como desaparición.
-    # Conservamos el evento dentro de la memoria y lo marcamos explícitamente como sin nueva cobertura.
-    failed_sources={s.get('name') for s in status if not s.get('success')}
-    current_ids={e.get('eventId') for e in events}
-    for old_event in previous_events:
-        if old_event.get('eventId') in current_ids: continue
-        known_sources=set(old_event.get('sources',[]))
-        if not (known_sources & failed_sources): continue
-        last=parse_date(old_event.get('lastSeen') or old_event.get('publishedAt'))
-        if not last or (datetime.now(timezone.utc)-last).days > MEMORY_DAYS: continue
-        carried=dict(old_event)
-        carried['lifecycle']='SIN NUEVA COBERTURA'
-        carried['sourceContinuity']='fuente(s) conocida(s) sin respuesta; no se infiere desaparición'
-        carried['movementDelta']=0
-        carried['memoryMatched']=True
-        events.append(carried)
-
-    events.sort(key=lambda x:(x.get('movement',0),x.get('publishedAt') or ''),reverse=True)
-    return events[:80]
-
-deduped.sort(key=lambda x:x['publishedAt'],reverse=True)
-deduped=deduped[:240]
-events=build_events(deduped, old.get('events',[]))
-direct_count=sum(x['collection'].startswith('DIRECTA') for x in deduped)
-stats={'total':len(deduped),'direct':sum(x['relevance']==3 for x in deduped),'regional':sum(x['relevance']==2 for x in deduped),'new':sum(bool(x.get('isNew')) for x in deduped),'sources':len({x['source'] for x in deduped}),'directSignals':direct_count,'localDirectSignals':sum(x.get('sourcePriority')==1 for x in deduped),'radioDirectSignals':sum(x.get('sourceType')=='RADIO LOCAL' for x in deduped),'precisionRule':'evidence-first','searchNoiseRejected':0}
-output={'updatedAt':now,'window':f'{DAYS} días','purpose':'Detectar qué se está moviendo en San Patricio del Chañar y mostrar de dónde surge cada señal.','architecture':'fuentes directas + web directa + respaldo + memoria de eventos + ciclo de vida + territorio + evidencia + salud de fuentes','keywords':[q for q,_ in QUERIES],'sourceRegistry':status,'stats':stats,'system':{'memoryDays':MEMORY_DAYS,'eventIdentity':'estable entre actualizaciones','evidenceRule':'evidence-first','movementRule':'descriptivo: recencia + cobertura + diversidad de fuentes','sourceFailureRule':'no inferir desaparición cuando las fuentes conocidas no responden','lifecycle':['EMERGENTE','ACTIVO','SOSTENIDO','EN DESCENSO','RECIENTE'],'sourceHealth':status},'events':events,'items':deduped}
-with open(OUT,'w',encoding='utf-8') as handle: json.dump(output,handle,ensure_ascii=False,indent=2)
-print('Radar:',stats)
-for s in status: print('SOURCE',s)
+dedup=dedup[:240]
+events=build_events(dedup,old.get('events',[]))
+stats={'total':len(dedup),'direct':sum(x['relevance']==3 for x in dedup),'regional':sum(x['relevance']==2 for x in dedup),'new':sum(x.get('isNew',False) for x in dedup),'sources':len({x['source'] for x in dedup}),'directSignals':sum(x['collection'].startswith('DIRECTA') for x in dedup),'localDirectSignals':sum(x.get('sourcePriority')==1 for x in dedup),'radioDirectSignals':sum(x.get('sourceType')=='RADIO LOCAL' for x in dedup),'precisionRule':'evidence-first','searchNoiseRejected':sum(1 for x in fresh if relevance(x.get('title',''),x.get('description',''))[1] in {'AGREGADOR','SIN ANCLA','AMBIGUA'})}
+output={'updatedAt':now,'window':f'{DAYS} días','purpose':'Detectar qué se está moviendo en San Patricio del Chañar y mostrar de dónde surge cada señal.','architecture':'fuentes directas + web directa + respaldo + memoria de eventos + ciclo de vida + territorio + evidencia + salud de fuentes','keywords':[q for q,_ in QUERIES],'sourceRegistry':status,'stats':stats,'system':{'memoryDays':MEMORY_DAYS,'eventIdentity':'estable entre actualizaciones','evidenceRule':'evidence-first','movementRule':'descriptivo: recencia + cobertura + diversidad de fuentes; no es ranking de importancia','sourceFailureRule':'no inferir desaparición cuando las fuentes conocidas no responden','lifecycle':['EMERGENTE','ACTIVO','SOSTENIDO','EN DESCENSO','RECIENTE'],'sourceHealth':status},'events':events,'items':dedup}
+with open(OUT,'w',encoding='utf-8') as f: json.dump(output,f,ensure_ascii=False,indent=2)
+print('PULSO:',stats)
