@@ -419,15 +419,22 @@ def collect_environment():
         # posición dentro de ambas filas. Así evitamos confundir el erogado histórico
         # con el caudal programado del día.
         target=NOW.astimezone().strftime('%d/%m/%Y')
-        header_dates=[]
-        for ds in re.findall(r'\\b\\d{2}/\\d{2}/\\d{4}\\b',ht):
-            if ds not in header_dates: header_dates.append(ds)
+        header_dates=re.findall(r'\\d{2}/\\d{2}/\\d{4}',ht)
         pos=header_dates.index(target) if target in header_dates else None
         anchor=ht.lower().find('el chañar')
         next_station=ht.lower().find('pichi picún leufú',anchor+1) if anchor>=0 else -1
         block=ht[anchor:next_station if next_station>anchor else anchor+700]
-        nums=[int(n) for n in re.findall(r'\\b\\d+\\b',block)]
-        if pos is not None and len(nums)>=15 and 0 <= pos < 7:
+        nums=[int(n) for n in re.findall(r'\\d+',block)]
+        # AIC: erogado + seis máximos programados + seis mínimos programados.
+        if len(nums)>=13:
+            future_dates=[d for d in header_dates if d!=header_dates[0]][:6]
+            if pos is not None and pos>0 and (pos-1)<6:
+                idx=pos-1
+            else:
+                idx=0
+            max_v=nums[1+idx]
+            min_v=nums[7+idx]
+        if len(nums)>=13:
             max_v=nums[1+pos]
             min_v=nums[8+pos]
             env['hydrology']={'site':'El Chañar','minM3s':float(min_v),'maxM3s':float(max_v),'date':target,'source':'AIC','mode':'CAUDAL PROGRAMADO','url':hurl,'observedAt':env['updatedAt']}
@@ -620,6 +627,35 @@ def build_events(items,old_events):
 
 dedup=dedup[:240]
 events=build_events(dedup,old.get('events',[]))
+
+def consolidate_related_events(events):
+    out=[]
+    for e in events:
+        merged=False
+        for base in out:
+            if e.get('topic')!=base.get('topic'): continue
+            ea=set(e.get('territorialAnchors',[])); ba=set(base.get('territorialAnchors',[]))
+            if not (ea & ba): continue
+            da=parse_date(e.get('publishedAt')); db=parse_date(base.get('publishedAt'))
+            if not da or not db or abs((da-db).total_seconds())>2*86400: continue
+            # Same territorial node + same topic within 48h = one underlying local fact.
+            base['sources']=list(dict.fromkeys((base.get('sources',[])+e.get('sources',[]))))[:8]
+            base['sourceCount']=len(base['sources'])
+            base['coverage']=max(base.get('coverage',1),0)+e.get('coverage',1)
+            base['directSourceCount']=max(base.get('directSourceCount',0),e.get('directSourceCount',0))
+            base['items']=(base.get('items',[])+e.get('items',[]))[:8]
+            base['territorialAnchors']=list(dict.fromkeys(base.get('territorialAnchors',[])+e.get('territorialAnchors',[])))[:8]
+            base['publishedAt']=max(base.get('publishedAt',''),e.get('publishedAt',''))
+            base['lastSeen']=max(base.get('lastSeen',''),e.get('lastSeen',''))
+            base['movement']=max(base.get('movement',0),e.get('movement',0))
+            base['newSources']=list(dict.fromkeys(base.get('newSources',[])+e.get('newSources',[])))[:8]
+            base['sourceDiversity']=len(base['sources'])
+            merged=True
+            break
+        if not merged: out.append(e)
+    return out
+
+events=consolidate_related_events(events)
 
 # INCIDENCIA no es una segunda lista de noticias.
 # Es una capa de hechos con capacidad de afectar/explicar algo local y con anclaje
