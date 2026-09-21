@@ -370,7 +370,7 @@ def collect_operational():
             if not op.get('route7'):
                 op['route7']={'status':'PRECAUCIÓN · REPORTE RECIENTE' if d7 else 'SEGUIMIENTO ACTIVO','detail':d7 or 'Seguimiento activo del corredor Añelo–Chañar; la fuente no publicó una alerta específica en esta lectura.','source':'Ruta0','mode':'REPORTE RECIENTE' if d7 else 'SEGUIMIENTO ACTIVO','url':'https://www.ruta0.com/ruta/argentina/anelo-a-san-patricio-del-chanar/'}
             if not op.get('route8'):
-                op['route8']={'status':'PRECAUCIÓN · RESPALDO ACTUAL' if d8 else 'SIN PARTE DIRECTO','detail':d8 or 'No se encontró un reporte actual específico para RP8 en la fuente de respaldo.','source':'Ruta0','mode':'RESPALDO ACTUAL' if d8 else 'RESPALDO SIN PARTE','url':'https://www.ruta0.com/estado-de-rutas/?pag=4'}
+                op['route8']={'status':'PRECAUCIÓN · RESPALDO ACTUAL' if d8 else 'SEGUIMIENTO ACTIVO','detail':d8 or 'No se encontró un reporte actual específico para RP8 en la fuente de respaldo.','source':'Ruta0','mode':'RESPALDO ACTUAL' if d8 else 'SEGUIMIENTO ACTIVO','url':'https://www.ruta0.com/estado-de-rutas/?pag=4'}
 
     eurl='https://www.epen.gov.ar/index.php/cortes-programados/'
     eraw=attempt('EPEN',eurl,'energia')
@@ -455,19 +455,15 @@ def collect_environment():
         for ds in re.findall(r'\\d{2}/\\d{2}/\\d{4}',plain):
             if ds not in dates: dates.append(ds)
         anchor=plain.lower().find('el chañar')
-        block=plain[anchor:anchor+500] if anchor>=0 else ''
-        nums=[int(n) for n in re.findall(r'\\b\\d+\\b',block)]
-        if len(nums)>=8 and dates:
-            # Current AIC table structure: one erogated value, then max row,
-            # then min row. The first scheduled date after the erogated date
-            # corresponds to nums[1] / nums[7].
-            sched=[d for d in dates if d>=target] or dates[1:]
-            selected=sched[0] if sched else dates[-1]
-            idx=dates.index(selected)-1 if selected in dates and dates.index(selected)>0 else 0
-            idx=min(idx,6)
-            max_v=nums[1+idx]
-            min_v=nums[7+idx] if len(nums)>7 else nums[-1]
-            env['hydrology']={'site':'El Chañar','minM3s':float(min_v),'maxM3s':float(max_v),
+        block=plain[anchor:anchor+700] if anchor>=0 else ''
+        # Estructura AIC: localidad + erogado + máximos programados + mínimos programados.
+        hm=re.search(r'El Chañar\\s+(\\d+)\\s+((?:\\d+\\s+){5,8})(\\d+)\\s+((?:\\d+\\s+){5,8})(\\d+)',block,re.I)
+        if hm:
+            max_vals=[int(x) for x in re.findall(r'\\d+',hm.group(2)+hm.group(3))]
+            min_vals=[int(x) for x in re.findall(r'\\d+',hm.group(4)+hm.group(5))]
+            max_v=max_vals[0] if max_vals else int(hm.group(3))
+            min_v=min_vals[0] if min_vals else int(hm.group(5))
+                        env['hydrology']={'site':'El Chañar','minM3s':float(min_v),'maxM3s':float(max_v),
                               'date':selected,'source':'AIC','mode':'CAUDAL PROGRAMADO',
                               'url':hurl,'observedAt':NOW.isoformat()}
             env['sources'].append({'name':'AIC · Caudales','mode':'OK','url':hurl})
