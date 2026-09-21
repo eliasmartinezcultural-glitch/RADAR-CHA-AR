@@ -9,7 +9,7 @@ from email.utils import parsedate_to_datetime
 from difflib import SequenceMatcher
 
 OUT="data/radar-feed.json"
-DAYS=7
+DAYS=14
 MEMORY_DAYS=45
 NOW=datetime.now(timezone.utc)
 MIN_DATE=NOW-timedelta(days=DAYS)
@@ -40,6 +40,8 @@ SOURCE_CATALOG=[
  {"name":"Vialidad Nacional","group":"REGIONAL-NACIONAL","role":"red vial nacional","url":"https://www.argentina.gob.ar/transporte/vialidad-nacional"},
  {"name":"Neuquén Informa","group":"REGIONAL","role":"comunicación oficial provincial","url":"https://www.neuqueninforma.gob.ar/"},
  {"name":"Servicio Meteorológico Nacional","group":"REGIONAL-NACIONAL","role":"alertas y meteorología","url":"https://www.smn.gob.ar/"},
+ {"name":"AIC","group":"REGIONAL","role":"pronóstico y viento para El Chañar","url":"https://www.aic.gob.ar/sitio/home?a=1015&z=1967225803"},
+ {"name":"Diario Neuquino","group":"REGIONAL","role":"medio regional","url":"https://www.diariamenteneuquen.com/"},
  {"name":"Defensa Civil Neuquén","group":"REGIONAL","role":"emergencias y alertas","url":"https://www.neuquen.gob.ar/"},
  {"name":"Ministerio de Salud de Neuquén","group":"REGIONAL","role":"salud pública","url":"https://www.saludneuquen.gob.ar/"},
  {"name":"Consejo Provincial de Educación","group":"REGIONAL","role":"educación pública","url":"https://www.neuquen.edu.ar/"},
@@ -122,9 +124,9 @@ TOPIC_RULES=[
  ('SALUD',['hospital','salud','enfermer','medic','vacun','insumo']),
  ('EDUCACIÓN',['cpem','escuela','epet','educacion','clases','docente']),
  ('SERVICIOS',['agua','gas','cloaca','residu','luz','servicio']),
- ('MOVILIDAD',['ruta 7','ruta 8','transito','transporte','camiones','estacionamiento']),
+ ('MOVILIDAD',['ruta 7','ruta 8','transito','transporte','camiones','estacionamiento','corredor']),
  ('PRODUCCIÓN',['chacra','viñedo','bodega','productor','produccion','agro']),
- ('DEPORTE',['club','deporte','polideportivo','liga','futbol','basquet']),
+ ('DEPORTE',['club','deporte','polideportivo','liga','futbol','basquet','regional amateur','deportivo rincon','deportivo roca']),
  ('CULTURA / TURISMO',['cultura','turismo','fiesta','festival','museo','patrimonio']),
  ('INSTITUCIONES',['municipalidad','concejo','ordenanza','obra','licitacion']),
  ('SEGURIDAD / EMERGENCIAS',['bombero','policia','comisaria','emergencia']),
@@ -250,7 +252,8 @@ RADAR_SOURCE_MAP={
   {'name':'Ruta0','role':'respaldo comunitario de transitabilidad','mode':'RESPALDO','url':'https://www.ruta0.com/estado-de-rutas/'}
  ],
  'VIENTO':[
-  {'name':'Open-Meteo','role':'viento observado/modelado actual','mode':'DIRECTA-API','url':'https://open-meteo.com/'},
+  {'name':'AIC','role':'pronóstico de viento para El Chañar','mode':'DIRECTA-WEB','url':'https://www.aic.gob.ar/sitio/home?a=1015&z=1967225803'},
+  {'name':'Open-Meteo','role':'respaldo meteorológico','mode':'DIRECTA-API','url':'https://open-meteo.com/'},
   {'name':'Servicio Meteorológico Nacional','role':'alertas oficiales','mode':'OFICIAL-ALERTAS','url':'https://www.smn.gob.ar/'},
   {'name':'Neuquén Informa','role':'comunicación oficial provincial','mode':'RESPALDO','url':'https://www.neuqueninforma.gob.ar/'}
  ],
@@ -300,7 +303,7 @@ SOURCE_CONTRACTS = {
     'CONVERSACIÓN': {'primary':'Chañar Digital','secondary':'Municipalidad de San Patricio del Chañar','fallback':'Neuquén Informa','refresh':'30 min','rule':'evidencia editorial local'},
     'RUTA 7': {'primary':'Dirección Provincial de Vialidad','secondary':'WSESTADORUTAS · API oficial','fallback':'Ruta0','refresh':'30 min','rule':'parte oficial > fuente comunitaria'},
     'RUTA 8': {'primary':'Dirección Provincial de Vialidad','secondary':'WSESTADORUTAS · API oficial','fallback':'Ruta0','refresh':'30 min','rule':'parte oficial > fuente comunitaria'},
-    'VIENTO': {'primary':'Open-Meteo','secondary':'Servicio Meteorológico Nacional','fallback':'Neuquén Informa','refresh':'30 min','rule':'dato meteorológico directo'},
+    'VIENTO': {'primary':'AIC','secondary':'Open-Meteo','fallback':'Servicio Meteorológico Nacional','refresh':'30 min','rule':'dato meteorológico directo; si falla no se muestra 0'},
     'ENERGÍA': {'primary':'EPEN','secondary':'Neuquén Informa','fallback':'Municipalidad de San Patricio del Chañar','refresh':'30 min','rule':'parte EPEN > comunicado'},
     'AGUA': {'primary':'EPAS','secondary':'Municipalidad de San Patricio del Chañar','fallback':'Neuquén Informa','refresh':'30 min','rule':'no inferir normalidad sin parte'},
     'SERVICIOS': {'primary':'Municipalidad de San Patricio del Chañar','secondary':'Neuquén Informa','fallback':'Chañar Digital','refresh':'30 min','rule':'fuente institucional local'},
@@ -325,12 +328,30 @@ def collect_operational():
             op['sources'].append({'name':name,'mode':'FALLA','kind':kind,'url':url,'error':type(e).__name__})
             return ''
 
-    # Ruta0 queda solo como respaldo. Su página agregada contiene muchas rutas y no
-    # alcanza para afirmar el estado actual de RP7/RP8 en Chañar.
-    route_raw=attempt('Ruta0','https://www.ruta0.com/estado-de-rutas/?pag=4','rutas')
-    if route_raw:
-        op['route7']={'status':'SIN PARTE DIRECTO','detail':'La fuente de respaldo está disponible, pero el motor no la usa para afirmar transitabilidad vigente sin anclaje específico y fecha reciente.','source':'Ruta0','mode':'RESPALDO NO CONCLUYENTE','url':'https://www.ruta0.com/estado-de-rutas/?pag=4'}
-        op['route8']={'status':'SIN PARTE DIRECTO','detail':'La fuente de respaldo está disponible, pero el motor no la usa para afirmar transitabilidad vigente sin anclaje específico y fecha reciente.','source':'Ruta0','mode':'RESPALDO NO CONCLUYENTE','url':'https://www.ruta0.com/estado-de-rutas/?pag=4'}
+    # Vialidad Provincial expone WSESTADORUTAS como API oficial de parte diario.
+    # Primero intentamos esa fuente; Ruta0 queda únicamente como respaldo.
+    api_urls=[
+        'https://ww4.neuquen.gov.ar/Pecas/Optic/xroad/monitoreo/auditoria/api/parte',
+        'https://ww4.neuquen.gov.ar/Pecas/Optic/xroad/monitoreo/auditoria/api/rutas'
+    ]
+    official=''
+    official_url=''
+    for u in api_urls:
+        raw=attempt('Vialidad Provincial · WSESTADORUTAS',u,'rutas-oficial')
+        if raw:
+            official=raw; official_url=u; break
+    if official:
+        plain=clean(re.sub(r'\\s+',' ',re.sub(r'<[^>]+>',' ',official)))
+        def route_detail(route):
+            m=re.search(r'.{0,220}'+route+r'.{0,520}',plain,re.I)
+            return m.group(0)[:700] if m else 'La API oficial respondió, pero no devolvió un bloque legible asociado a '+route+'.'
+        op['route7']={'status':'PARTE OFICIAL DISPONIBLE','detail':route_detail('Ruta 7'),'source':'WSESTADORUTAS','mode':'DIRECTA-API','url':official_url}
+        op['route8']={'status':'PARTE OFICIAL DISPONIBLE','detail':route_detail('Ruta 8'),'source':'WSESTADORUTAS','mode':'DIRECTA-API','url':official_url}
+    else:
+        route_raw=attempt('Ruta0','https://www.ruta0.com/estado-de-rutas/?pag=4','rutas')
+        if route_raw:
+            op['route7']={'status':'SIN PARTE DIRECTO','detail':'La fuente de respaldo está disponible, pero el motor no la usa para afirmar transitabilidad vigente sin anclaje específico y fecha reciente.','source':'Ruta0','mode':'RESPALDO NO CONCLUYENTE','url':'https://www.ruta0.com/estado-de-rutas/?pag=4'}
+            op['route8']={'status':'SIN PARTE DIRECTO','detail':'La fuente de respaldo está disponible, pero el motor no la usa para afirmar transitabilidad vigente sin anclaje específico y fecha reciente.','source':'Ruta0','mode':'RESPALDO NO CONCLUYENTE','url':'https://www.ruta0.com/estado-de-rutas/?pag=4'}
 
     eurl='https://www.epen.gov.ar/index.php/cortes-programados/'
     eraw=attempt('EPEN',eurl,'energia')
@@ -356,9 +377,13 @@ def collect_environment():
     try:
         raw=fetch(aic_url).decode('utf-8','ignore')
         txt=clean(re.sub(r'<[^>]+>',' ',raw))
-        m=re.search(r'Pronóstico para El Chañar.*?Viento\\s+([0-9]+)\\s*km/h.*?Ráfagas\\s+([0-9]+)\\s*km/h.*?Dirección\\s+([A-ZÁÉÍÓÚÑ]+)',txt,re.I|re.S)
-        if m:
-            env['weather']={'windKmh':float(m.group(1)),'gustKmh':float(m.group(2)),'windDirection':m.group(3),'source':'AIC','mode':'DATO DIRECTO / PRONÓSTICO','observedAt':env['updatedAt']}
+        start=txt.lower().find('pronóstico para el chañar')
+        block=txt[start:start+5000] if start>=0 else txt
+        vm=re.search(r'Viento\\s+([0-9]+)\\s*km/h(?:\\s+([0-9]+)\\s*km/h)?',block,re.I)
+        gm=re.search(r'Ráfagas\\s+([0-9]+)\\s*km/h(?:\\s+([0-9]+)\\s*km/h)?',block,re.I)
+        dm=re.search(r'Dirección\\s+([A-ZÁÉÍÓÚÑ/]+)',block,re.I)
+        if vm and gm:
+            env['weather']={'windKmh':float(vm.group(1)),'gustKmh':float(gm.group(1)),'windDirection':dm.group(1) if dm else '—','source':'AIC','mode':'DATO DIRECTO / PRONÓSTICO','observedAt':env['updatedAt']}
             env['sources'].append({'name':'AIC','mode':'OK','url':aic_url})
         else:
             env['sources'].append({'name':'AIC','mode':'OK_SIN_DATO_PARSEO','url':aic_url})
