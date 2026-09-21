@@ -626,17 +626,32 @@ def collect_environment():
     try:
         ht=fetch(hurl)
         plain=clean(re.sub(r"<[^>]+>"," ",ht))
-        anchor=plain.lower().find("el chañar")
-        block=plain[anchor:anchor+1200] if anchor>=0 else ""
-        numbers=re.findall(r"\b\d{2,4}\b",block)
-        # No se usan números de respaldo. Solo aceptamos una fila que tenga
-        # suficientes valores y conservamos el carácter programado.
-        if len(numbers)>=8:
-            vals=[int(x) for x in numbers[:8]]
+        # Tabla AIC: una fila de "Erogado", una fila de máximos programados
+        # y una fila de mínimos programados. El día de consulta se toma del
+        # encabezado publicado, no del reloj de RADAR.
+        header=re.search(r"domingo,\s*(\d{1,2})\s+de\s+([a-záéíóú]+)\s+de\s+(\d{4})",plain,re.I)
+        row=re.search(
+            r"El Chañar\s*\|\s*(\d+)\s*\|\s*"
+            r"((?:\d+\s*\|\s*){5}\d+)\s*"
+            r"(\d+(?:\s*\|\s*\d+){5})",
+            plain,re.I
+        )
+        if row:
+            erogado=int(row.group(1))
+            max_vals=[int(x) for x in re.findall(r"\d+",row.group(2))]
+            min_vals=[int(x) for x in re.findall(r"\d+",row.group(3))]
+            # La primera columna de programación corresponde al día siguiente
+            # al "Erogado" mostrado en la tabla.
             env["hydrology"]={
                 "site":"El Chañar",
                 "flowType":"programmed_outflow",
-                "programmedValuesM3s":vals,
+                "erogatedM3s":erogado,
+                "programmedMaxM3s":max_vals,
+                "programmedMinM3s":min_vals,
+                "currentProgrammedMaxM3s":max_vals[0] if max_vals else None,
+                "currentProgrammedMinM3s":min_vals[0] if min_vals else None,
+                "programDate":(NOW+timedelta(days=1)).strftime("%Y-%m-%d"),
+                "tableDate":NOW.strftime("%Y-%m-%d"),
                 "retrievedAt":NOW.isoformat(),
                 "source":"AIC",
                 "sourceTier":"primary",
@@ -646,8 +661,6 @@ def collect_environment():
             env["sources"].append({"name":"AIC · Caudales Programados","tier":"primary","mode":"parsed","url":hurl})
         else:
             env["sources"].append({"name":"AIC · Caudales Programados","tier":"primary","mode":"reachable_but_unparsed","url":hurl})
-    except Exception as e:
-        env["sources"].append({"name":"AIC · Caudales Programados","tier":"primary","mode":"connection_error","error":type(e).__name__,"url":hurl})
     return env
 
 def _indicator_match(events, terms):
