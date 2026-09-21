@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-21T00:32:59.966386+00:00",
+  "updatedAt": "2026-09-21T00:37:15.676833+00:00",
   "window": "7 días",
   "purpose": "Detectar qué se está moviendo en San Patricio del Chañar y mostrar de dónde surge cada señal.",
   "architecture": "25 fuentes profesionales + búsquedas dirigidas + fuentes directas + web directa + respaldo + memoria de eventos + ciclo de vida + incidencia territorial + evidencia + salud de fuentes + radares de infraestructura + ambiente",
@@ -49,7 +49,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://chanardigital.com.ar/",
-      "lastFetch": "2026-09-21T00:32:37.508356+00:00",
+      "lastFetch": "2026-09-21T00:36:57.363240+00:00",
       "success": true,
       "attempted": 2,
       "failures": [
@@ -64,7 +64,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.radiomia.com.ar/",
-      "lastFetch": "2026-09-21T00:32:38.998808+00:00",
+      "lastFetch": "2026-09-21T00:36:58.537035+00:00",
       "success": true,
       "attempted": 1,
       "failures": [],
@@ -77,7 +77,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://tuitvacamuerta.com/",
-      "lastFetch": "2026-09-21T00:32:40.925008+00:00",
+      "lastFetch": "2026-09-21T00:37:00.164238+00:00",
       "success": true,
       "attempted": 1,
       "failures": [],
@@ -90,7 +90,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.vacamuertanews.com/",
-      "lastFetch": "2026-09-21T00:32:41.392839+00:00",
+      "lastFetch": "2026-09-21T00:37:00.498464+00:00",
       "success": true,
       "attempted": 2,
       "failures": [
@@ -105,7 +105,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.neuqueninforma.gob.ar/",
-      "lastFetch": "2026-09-21T00:32:43.182851+00:00",
+      "lastFetch": "2026-09-21T00:37:01.426568+00:00",
       "success": true,
       "attempted": 3,
       "failures": [
@@ -121,7 +121,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://sanpatricio.gob.ar/",
-      "lastFetch": "2026-09-21T00:32:44.408734+00:00",
+      "lastFetch": "2026-09-21T00:37:02.431910+00:00",
       "success": true,
       "attempted": 1,
       "failures": [],
@@ -134,7 +134,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://boletinoficial.neuquen.gov.ar/",
-      "lastFetch": "2026-09-21T00:32:45.095474+00:00",
+      "lastFetch": "2026-09-21T00:37:03.356218+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -149,7 +149,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.lmneuquen.com/",
-      "lastFetch": "2026-09-21T00:32:45.315556+00:00",
+      "lastFetch": "2026-09-21T00:37:03.559173+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -165,12 +165,12 @@
       "mode": "RSS DIRECTO",
       "signals": 1,
       "url": "https://www.rionegro.com.ar/",
-      "lastFetch": "2026-09-21T00:32:50.968262+00:00",
+      "lastFetch": "2026-09-21T00:37:05.291539+00:00",
       "success": true,
       "attempted": 2,
       "failures": [],
       "directAvailability": "available",
-      "freshnessHours": 2.2
+      "freshnessHours": 2.3
     },
     {
       "name": "Mejor Informado",
@@ -178,7 +178,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.mejorinformado.com/",
-      "lastFetch": "2026-09-21T00:32:51.737415+00:00",
+      "lastFetch": "2026-09-21T00:37:05.814812+00:00",
       "success": true,
       "attempted": 2,
       "failures": [
@@ -193,7 +193,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.diariamenteneuquen.com/",
-      "lastFetch": "2026-09-21T00:32:52.646660+00:00",
+      "lastFetch": "2026-09-21T00:37:06.460445+00:00",
       "success": true,
       "attempted": 2,
       "failures": [
@@ -1583,9 +1583,14 @@
     "searchNoiseRejected": 0
   },
   "environment": {
-    "updatedAt": "2026-09-21T00:32:59.973926+00:00",
+    "updatedAt": "2026-09-21T00:37:15.683894+00:00",
     "weather": null,
     "sources": [
+      {
+        "name": "AIC",
+        "mode": "OK_SIN_DATO_PARSEO",
+        "url": "https://www.aic.gob.ar/sitio/home?a=1015&z=1967225803"
+      },
       {
         "name": "Open-Meteo",
         "mode": "FALLA",
@@ -1594,25 +1599,31 @@
     ]
   },
   "operational": {
-    "updatedAt": "2026-09-21T00:33:00.676463+00:00",
-    "route7": null,
-    "route8": {
-      "status": "SEÑAL DE TRANSITABILIDAD",
-      "detail": "tado-de-rutas/rn-9/cordoba/cordoba--jesus-maria.htm'};\r\nbounds.push([-31.42011,-64.18916]);\r\nbounds.push([-30.99286,-64.10129]);\r\ncapas[1108]={dLat:-32.88953,dLon:-68.84462,hLat:-32.98347,hLon:-68.88928,desde:'Mendoza',hasta:'Chacras de Coria',ruta:'RP 82',color:'#dc2626',weight:8,opacity:0.95,estadoSrc:'Reporte de viajero',fechaRel:'hace 4 dias',conInfo:true,idd:66,url:'/estado-de-rutas/rp-82/mendoza/mendoza--chacras-de-coria.htm'};\r\nbounds.push([-32.88953,-68.84462]);\r\nbounds.push([-32.98347,-68.88928]);\r\ncapas[1396]={dLat:-46.42977,dLon:-67.52274,hLat:-46.11404,hLon:-67.62897,desde:'Caleta Olivia',hasta:'La Lobería',ruta:'RN 3',color:'#16a",
+    "updatedAt": "2026-09-21T00:37:16.887105+00:00",
+    "route7": {
+      "status": "SIN PARTE DIRECTO",
+      "detail": "La fuente de respaldo está disponible, pero el motor no la usa para afirmar transitabilidad vigente sin anclaje específico y fecha reciente.",
       "source": "Ruta0",
-      "mode": "RESPALDO COMUNITARIO",
+      "mode": "RESPALDO NO CONCLUYENTE",
+      "url": "https://www.ruta0.com/estado-de-rutas/?pag=4"
+    },
+    "route8": {
+      "status": "SIN PARTE DIRECTO",
+      "detail": "La fuente de respaldo está disponible, pero el motor no la usa para afirmar transitabilidad vigente sin anclaje específico y fecha reciente.",
+      "source": "Ruta0",
+      "mode": "RESPALDO NO CONCLUYENTE",
       "url": "https://www.ruta0.com/estado-de-rutas/?pag=4"
     },
     "energy": {
-      "status": "PARTE EPEN DISPONIBLE",
-      "detail": "No se encontró una coincidencia reciente explícita para San Patricio del Chañar.",
+      "status": "SIN PARTE DIRECTO",
+      "detail": "La fuente EPEN responde, pero no se encontró en su página de cortes un parte específico vigente para Chañar.",
       "source": "EPEN",
       "mode": "DIRECTA-WEB",
       "url": "https://www.epen.gov.ar/index.php/cortes-programados/"
     },
     "water": {
-      "status": "MONITOREO INSTITUCIONAL",
-      "detail": "Sin parte operativo de agua visible en la portada municipal.",
+      "status": "SIN PARTE DIRECTO",
+      "detail": "La portada municipal responde, pero no expone un parte operativo de agua vigente.",
       "source": "Municipalidad de San Patricio del Chañar",
       "mode": "DIRECTA-WEB",
       "url": "https://sanpatricio.gob.ar/"
@@ -1730,7 +1741,7 @@
       "label": "Conversación general",
       "signal": 3,
       "status": "SEÑAL RECIENTE",
-      "freshnessHours": 2.2,
+      "freshnessHours": 2.3,
       "mode": "evidencia editorial",
       "evidenceCount": 3,
       "sources": [
@@ -1795,6 +1806,13 @@
         "fallback": "Ruta0",
         "refresh": "30 min",
         "rule": "parte oficial > fuente comunitaria"
+      },
+      "operational": {
+        "status": "SIN PARTE DIRECTO",
+        "detail": "La fuente de respaldo está disponible, pero el motor no la usa para afirmar transitabilidad vigente sin anclaje específico y fecha reciente.",
+        "source": "Ruta0",
+        "mode": "RESPALDO NO CONCLUYENTE",
+        "url": "https://www.ruta0.com/estado-de-rutas/?pag=4"
       }
     },
     {
@@ -1833,10 +1851,10 @@
         "rule": "parte oficial > fuente comunitaria"
       },
       "operational": {
-        "status": "SEÑAL DE TRANSITABILIDAD",
-        "detail": "tado-de-rutas/rn-9/cordoba/cordoba--jesus-maria.htm'};\r\nbounds.push([-31.42011,-64.18916]);\r\nbounds.push([-30.99286,-64.10129]);\r\ncapas[1108]={dLat:-32.88953,dLon:-68.84462,hLat:-32.98347,hLon:-68.88928,desde:'Mendoza',hasta:'Chacras de Coria',ruta:'RP 82',color:'#dc2626',weight:8,opacity:0.95,estadoSrc:'Reporte de viajero',fechaRel:'hace 4 dias',conInfo:true,idd:66,url:'/estado-de-rutas/rp-82/mendoza/mendoza--chacras-de-coria.htm'};\r\nbounds.push([-32.88953,-68.84462]);\r\nbounds.push([-32.98347,-68.88928]);\r\ncapas[1396]={dLat:-46.42977,dLon:-67.52274,hLat:-46.11404,hLon:-67.62897,desde:'Caleta Olivia',hasta:'La Lobería',ruta:'RN 3',color:'#16a",
+        "status": "SIN PARTE DIRECTO",
+        "detail": "La fuente de respaldo está disponible, pero el motor no la usa para afirmar transitabilidad vigente sin anclaje específico y fecha reciente.",
         "source": "Ruta0",
-        "mode": "RESPALDO COMUNITARIO",
+        "mode": "RESPALDO NO CONCLUYENTE",
         "url": "https://www.ruta0.com/estado-de-rutas/?pag=4"
       }
     },
@@ -1912,8 +1930,8 @@
         "rule": "parte EPEN > comunicado"
       },
       "operational": {
-        "status": "PARTE EPEN DISPONIBLE",
-        "detail": "No se encontró una coincidencia reciente explícita para San Patricio del Chañar.",
+        "status": "SIN PARTE DIRECTO",
+        "detail": "La fuente EPEN responde, pero no se encontró en su página de cortes un parte específico vigente para Chañar.",
         "source": "EPEN",
         "mode": "DIRECTA-WEB",
         "url": "https://www.epen.gov.ar/index.php/cortes-programados/"
@@ -1955,8 +1973,8 @@
         "rule": "no inferir normalidad sin parte"
       },
       "operational": {
-        "status": "MONITOREO INSTITUCIONAL",
-        "detail": "Sin parte operativo de agua visible en la portada municipal.",
+        "status": "SIN PARTE DIRECTO",
+        "detail": "La portada municipal responde, pero no expone un parte operativo de agua vigente.",
         "source": "Municipalidad de San Patricio del Chañar",
         "mode": "DIRECTA-WEB",
         "url": "https://sanpatricio.gob.ar/"
@@ -2039,7 +2057,7 @@
       "label": "Educación",
       "signal": 2,
       "status": "SEÑAL DETECTADA",
-      "freshnessHours": 25.5,
+      "freshnessHours": 25.6,
       "mode": "evidencia editorial",
       "evidenceCount": 2,
       "sources": [
@@ -2200,7 +2218,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://chanardigital.com.ar/",
-        "lastFetch": "2026-09-21T00:32:37.508356+00:00",
+        "lastFetch": "2026-09-21T00:36:57.363240+00:00",
         "success": true,
         "attempted": 2,
         "failures": [
@@ -2215,7 +2233,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.radiomia.com.ar/",
-        "lastFetch": "2026-09-21T00:32:38.998808+00:00",
+        "lastFetch": "2026-09-21T00:36:58.537035+00:00",
         "success": true,
         "attempted": 1,
         "failures": [],
@@ -2228,7 +2246,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://tuitvacamuerta.com/",
-        "lastFetch": "2026-09-21T00:32:40.925008+00:00",
+        "lastFetch": "2026-09-21T00:37:00.164238+00:00",
         "success": true,
         "attempted": 1,
         "failures": [],
@@ -2241,7 +2259,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.vacamuertanews.com/",
-        "lastFetch": "2026-09-21T00:32:41.392839+00:00",
+        "lastFetch": "2026-09-21T00:37:00.498464+00:00",
         "success": true,
         "attempted": 2,
         "failures": [
@@ -2256,7 +2274,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.neuqueninforma.gob.ar/",
-        "lastFetch": "2026-09-21T00:32:43.182851+00:00",
+        "lastFetch": "2026-09-21T00:37:01.426568+00:00",
         "success": true,
         "attempted": 3,
         "failures": [
@@ -2272,7 +2290,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://sanpatricio.gob.ar/",
-        "lastFetch": "2026-09-21T00:32:44.408734+00:00",
+        "lastFetch": "2026-09-21T00:37:02.431910+00:00",
         "success": true,
         "attempted": 1,
         "failures": [],
@@ -2285,7 +2303,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://boletinoficial.neuquen.gov.ar/",
-        "lastFetch": "2026-09-21T00:32:45.095474+00:00",
+        "lastFetch": "2026-09-21T00:37:03.356218+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -2300,7 +2318,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.lmneuquen.com/",
-        "lastFetch": "2026-09-21T00:32:45.315556+00:00",
+        "lastFetch": "2026-09-21T00:37:03.559173+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -2316,12 +2334,12 @@
         "mode": "RSS DIRECTO",
         "signals": 1,
         "url": "https://www.rionegro.com.ar/",
-        "lastFetch": "2026-09-21T00:32:50.968262+00:00",
+        "lastFetch": "2026-09-21T00:37:05.291539+00:00",
         "success": true,
         "attempted": 2,
         "failures": [],
         "directAvailability": "available",
-        "freshnessHours": 2.2
+        "freshnessHours": 2.3
       },
       {
         "name": "Mejor Informado",
@@ -2329,7 +2347,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.mejorinformado.com/",
-        "lastFetch": "2026-09-21T00:32:51.737415+00:00",
+        "lastFetch": "2026-09-21T00:37:05.814812+00:00",
         "success": true,
         "attempted": 2,
         "failures": [
@@ -2344,7 +2362,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.diariamenteneuquen.com/",
-        "lastFetch": "2026-09-21T00:32:52.646660+00:00",
+        "lastFetch": "2026-09-21T00:37:06.460445+00:00",
         "success": true,
         "attempted": 2,
         "failures": [
@@ -2660,7 +2678,7 @@
   ],
   "territorialGraph": {
     "version": "2.0",
-    "generatedAt": "2026-09-21T00:33:05.359233+00:00",
+    "generatedAt": "2026-09-21T00:37:20.277993+00:00",
     "root": "spc",
     "rule": "evidence-first",
     "levels": [
@@ -3250,7 +3268,7 @@
   },
   "audit": {
     "version": "1.0",
-    "updatedAt": "2026-09-21T00:33:05.399997+00:00",
+    "updatedAt": "2026-09-21T00:37:20.318051+00:00",
     "rule": "fact != coverage; territory requires textual evidence",
     "facts": 3,
     "coverage": 3,
