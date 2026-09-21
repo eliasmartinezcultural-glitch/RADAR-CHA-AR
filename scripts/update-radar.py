@@ -322,7 +322,7 @@ def collect_operational():
 
     def attempt(name,url,kind):
         try:
-            raw=fetch(url).decode('utf-8','ignore')
+            raw=fetch(url)
             op['sources'].append({'name':name,'mode':'OK','kind':kind,'url':url})
             return raw
         except Exception as e:
