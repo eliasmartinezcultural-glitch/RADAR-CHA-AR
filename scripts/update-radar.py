@@ -531,6 +531,45 @@ for radar in system_radars:
     if radar['id']=='RUTA 8' and operational.get('route8'): radar['operational']=operational['route8']
     if radar['id']=='ENERGÍA' and operational.get('energy'): radar['operational']=operational['energy']
     if radar['id']=='AGUA' and operational.get('water'): radar['operational']=operational['water']
+precision_rules = {
+    'DIRECTA': 'requiere localidad explícita o anclaje territorial fuerte; no alcanza una mención regional genérica',
+    'CON ANCLA LOCAL': 'requiere al menos un nodo territorial local identificable; se conserva como señal secundaria',
+    'FALSO POSITIVO': 'rechazar agregadores, títulos genéricos, ambigüedades geográficas, contexto regional sin anclaje o términos aislados débiles',
+    'OPERATIVO': 'un dato operativo solo puede declararse confirmado por fuente directa/oficial; medios y buscadores no lo convierten en estado operativo',
+    'TEMPORAL': 'la antigüedad afecta frescura, pero una fuente caída no se interpreta como ausencia del hecho',
+}
+
+def build_precision_audit(dedup_items, fresh_items):
+    rejected=[]
+    for x in fresh_items:
+        score,label=relevance(x.get('title',''),x.get('description',''))
+        if score < 2:
+            rejected.append({'source':x.get('source',''),'reason':label,'title':x.get('title','')[:180],'query':x.get('query','')})
+    matrix={}
+    for x in dedup_items:
+        key=(x.get('source','DESCONOCIDA'),classify(x))
+        m=matrix.setdefault(key,{'source':key[0],'topic':key[1],'accepted':0,'direct':0,'anchored':0,'falsePositives':0,'territorialTerms':[]})
+        m['accepted']+=1
+        m['direct']+=1 if x.get('relevance')==3 else 0
+        m['anchored']+=1 if x.get('relevance')==2 else 0
+        for term in anchors(x):
+            if term not in m['territorialTerms']: m['territorialTerms'].append(term)
+    for r in rejected:
+        key=(r['source'] or 'DESCONOCIDA','RECHAZADO · '+r['reason'])
+        m=matrix.setdefault(key,{'source':key[0],'topic':key[1],'accepted':0,'direct':0,'anchored':0,'falsePositives':0,'territorialTerms':[]})
+        m['falsePositives']+=1
+    source_summary=[]
+    for s in SOURCE_CATALOG:
+        name=s['name']; accepted=[x for x in dedup_items if x.get('source')==name]; rej=[r for r in rejected if r.get('source')==name]
+        source_summary.append({'source':name,'group':s['group'],'role':s['role'],'accepted':len(accepted),'direct':sum(x.get('relevance')==3 for x in accepted),'anchored':sum(x.get('relevance')==2 for x in accepted),'falsePositives':len(rej),'falsePositiveTypes':sorted(set(r['reason'] for r in rej)),'topics':sorted(set(classify(x) for x in accepted))})
+    language_precision=[]
+    for term in LOCAL_ENTITIES:
+        n=norm(term); acc=[x for x in dedup_items if n in norm(x.get('title','')+' '+x.get('description',''))]; rej=[r for r in rejected if n in norm(r.get('title',''))]
+        language_precision.append({'term':term,'acceptedHits':len(acc),'directHits':sum(x.get('relevance')==3 for x in acc),'rejectedTitleHits':len(rej),'territorialStrength':'FUERTE' if term in STRONG_LOCAL else ('CORREDOR' if term in {'ruta 7','ruta 8'} else 'DÉBIL')})
+    fp={}
+    for r in rejected: fp[r['reason']]=fp.get(r['reason'],0)+1
+    return {'version':'1.0','rule':'source × signal × local language × false positive','sourceSummary':source_summary,'matrix':sorted(matrix.values(),key=lambda r:(-r['falsePositives'],-r['accepted'],r['source'],r['topic'])),'languagePrecision':language_precision,'falsePositiveSummary':fp,'rejectedSamples':rejected[:80],'rules':precision_rules,'interpretation':'auditoría de precisión del colector; no mide verdad periodística ni importancia del hecho'}
+
 source_audit=[]
 all_sources=list(dict.fromkeys([x.get('source') for x in dedup if x.get('source')]))
 for catalog in SOURCE_CATALOG:
@@ -550,7 +589,8 @@ for term in LOCAL_ENTITIES:
     hits=[x for x in dedup if n in norm(x.get('title','')+' '+x.get('description',''))]
     language_audit.append({'term':term,'hits':len(hits),'direct':sum(x.get('relevance')==3 for x in hits)})
 language_audit=sorted(language_audit,key=lambda x:(x['hits'],x['term']),reverse=True)
+precision_audit=build_precision_audit(dedup,fresh)
 stats={'total':len(dedup),'direct':sum(x['relevance']==3 for x in dedup),'regional':sum(x['relevance']==2 for x in dedup),'new':sum(x.get('isNew',False) for x in dedup),'sources':len({x['source'] for x in dedup}),'directSignals':sum(x['collection'].startswith('DIRECTA') for x in dedup),'localDirectSignals':sum(x.get('sourcePriority')==1 for x in dedup),'radioDirectSignals':sum(x.get('sourceType')=='RADIO LOCAL' for x in dedup),'precisionRule':'evidence-first','searchNoiseRejected':sum(1 for x in fresh if relevance(x.get('title',''),x.get('description',''))[1] in {'AGREGADOR','SIN ANCLA','AMBIGUA'})}
-output={'updatedAt':now,'window':f'{DAYS} días','purpose':'Detectar qué se está moviendo en San Patricio del Chañar y mostrar de dónde surge cada señal.','architecture':'25 fuentes profesionales + búsquedas dirigidas + fuentes directas + web directa + respaldo + memoria de eventos + ciclo de vida + incidencia territorial + evidencia + salud de fuentes + radares de infraestructura + ambiente','keywords':[q for q,_ in QUERIES],'sourceRegistry':status,'sourceCatalog':SOURCE_CATALOG,'sourceAudit':source_audit,'languageAudit':language_audit,'stats':stats,'environment':environment,'operational':operational,'sourceContracts':SOURCE_CONTRACTS,'systemRadars':system_radars,'system':{'memoryDays':MEMORY_DAYS,'eventIdentity':'estable entre actualizaciones','evidenceRule':'evidence-first','movementRule':'descriptivo: recencia + cobertura + diversidad de fuentes; no es ranking de importancia','sourceFailureRule':'no inferir desaparición cuando las fuentes conocidas no responden','infrastructureRule':'una señal editorial no equivale a confirmación operativa; los datos directos se etiquetan por separado','lifecycle':['EMERGENTE','ACTIVO','SOSTENIDO','EN DESCENSO','RECIENTE'],'sourceHealth':status},'events':events,'items':dedup}
+output={'updatedAt':now,'window':f'{DAYS} días','purpose':'Detectar qué se está moviendo en San Patricio del Chañar y mostrar de dónde surge cada señal.','architecture':'25 fuentes profesionales + búsquedas dirigidas + fuentes directas + web directa + respaldo + memoria de eventos + ciclo de vida + incidencia territorial + evidencia + salud de fuentes + radares de infraestructura + ambiente','keywords':[q for q,_ in QUERIES],'sourceRegistry':status,'sourceCatalog':SOURCE_CATALOG,'sourceAudit':source_audit,'languageAudit':language_audit,'precisionAudit':precision_audit,'stats':stats,'environment':environment,'operational':operational,'sourceContracts':SOURCE_CONTRACTS,'systemRadars':system_radars,'system':{'memoryDays':MEMORY_DAYS,'eventIdentity':'estable entre actualizaciones','evidenceRule':'evidence-first','movementRule':'descriptivo: recencia + cobertura + diversidad de fuentes; no es ranking de importancia','sourceFailureRule':'no inferir desaparición cuando las fuentes conocidas no responden','infrastructureRule':'una señal editorial no equivale a confirmación operativa; los datos directos se etiquetan por separado','lifecycle':['EMERGENTE','ACTIVO','SOSTENIDO','EN DESCENSO','RECIENTE'],'sourceHealth':status},'events':events,'items':dedup}
 with open(OUT,'w',encoding='utf-8') as f: json.dump(output,f,ensure_ascii=False,indent=2)
 print('PULSO:',stats,'RADARES:',len(system_radars))
