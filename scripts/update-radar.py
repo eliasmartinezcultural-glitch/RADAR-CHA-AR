@@ -419,12 +419,14 @@ def collect_environment():
         # posición dentro de ambas filas. Así evitamos confundir el erogado histórico
         # con el caudal programado del día.
         target=NOW.astimezone().strftime('%d/%m/%Y')
-        header_dates=re.findall(r'\\b\\d{2}/\\d{2}/\\d{4}\\b',ht[:2200])
+        header_dates=[]
+        for ds in re.findall(r'\\b\\d{2}/\\d{2}/\\d{4}\\b',ht):
+            if ds not in header_dates: header_dates.append(ds)
         pos=header_dates.index(target) if target in header_dates else None
         anchor=ht.lower().find('el chañar')
-        block=ht[anchor:anchor+900] if anchor>=0 else ''
-        nums=[int(n) for n in re.findall(r'(?<![a-záéíóúñ])\\d+(?![a-záéíóúñ])',block,re.I)]
-        # nums = [erogado] + 7 máximos + 7 mínimos en la tabla actual.
+        next_station=ht.lower().find('pichi picún leufú',anchor+1) if anchor>=0 else -1
+        block=ht[anchor:next_station if next_station>anchor else anchor+700]
+        nums=[int(n) for n in re.findall(r'\\b\\d+\\b',block)]
         if pos is not None and len(nums)>=15 and 0 <= pos < 7:
             max_v=nums[1+pos]
             min_v=nums[8+pos]
@@ -443,6 +445,18 @@ def collect_environment():
             env['sources'].append({'name':'Open-Meteo','mode':'OK','url':url})
         except Exception as e:
             env['sources'].append({'name':'Open-Meteo','mode':'FALLA','error':type(e).__name__})
+    if not env['weather']:
+        try:
+            url='https://api.met.no/weatherapi/locationforecast/2.0/compact?lat=-39.061&lon=-68.353'
+            req=urllib.request.Request(url,headers={'User-Agent':UA})
+            with urllib.request.urlopen(req,timeout=20) as r:
+                raw=json.loads(r.read().decode('utf-8'))
+            ts=raw.get('properties',{}).get('timeseries',[{}])[0]
+            instant=ts.get('data',{}).get('instant',{}).get('details',{})
+            env['weather']={'temperatureC':instant.get('air_temperature'),'windKmh':(instant.get('wind_speed_of_gust') or instant.get('wind_speed'))*3.6 if instant.get('wind_speed') is not None else None,'gustKmh':instant.get('wind_speed_of_gust')*3.6 if instant.get('wind_speed_of_gust') is not None else None,'windDirection':instant.get('wind_from_direction'),'observedAt':ts.get('time'),'source':'MET Norway','mode':'DATO DIRECTO / RESPALDO 2'}
+            env['sources'].append({'name':'MET Norway','mode':'OK','url':url})
+        except Exception as e:
+            env['sources'].append({'name':'MET Norway','mode':'FALLA','error':type(e).__name__})
     return env
 
 def build_system_radars(events, environment):
