@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-21T01:14:37.749263+00:00",
+  "updatedAt": "2026-09-21T01:16:08.493275+00:00",
   "window": "14 días",
   "purpose": "Detectar qué se está moviendo en San Patricio del Chañar y mostrar de dónde surge cada señal.",
   "architecture": "25 fuentes profesionales + búsquedas dirigidas + fuentes directas + web directa + respaldo + memoria de eventos + ciclo de vida + incidencia territorial + evidencia + salud de fuentes + radares de infraestructura + ambiente",
@@ -49,7 +49,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://chanardigital.com.ar/",
-      "lastFetch": "2026-09-21T01:14:15.032995+00:00",
+      "lastFetch": "2026-09-21T01:15:49.425982+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -65,7 +65,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.radiomia.com.ar/",
-      "lastFetch": "2026-09-21T01:14:15.997131+00:00",
+      "lastFetch": "2026-09-21T01:15:50.399335+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -80,7 +80,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://tuitvacamuerta.com/",
-      "lastFetch": "2026-09-21T01:14:17.713283+00:00",
+      "lastFetch": "2026-09-21T01:15:52.046832+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -95,7 +95,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.vacamuertanews.com/",
-      "lastFetch": "2026-09-21T01:14:18.150696+00:00",
+      "lastFetch": "2026-09-21T01:15:52.329370+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -111,7 +111,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.neuqueninforma.gob.ar/",
-      "lastFetch": "2026-09-21T01:14:19.435098+00:00",
+      "lastFetch": "2026-09-21T01:15:53.458289+00:00",
       "success": false,
       "attempted": 3,
       "failures": [
@@ -128,7 +128,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://sanpatricio.gob.ar/",
-      "lastFetch": "2026-09-21T01:14:21.106742+00:00",
+      "lastFetch": "2026-09-21T01:15:54.399823+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -143,7 +143,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://boletinoficial.neuquen.gov.ar/",
-      "lastFetch": "2026-09-21T01:14:21.894988+00:00",
+      "lastFetch": "2026-09-21T01:15:55.118808+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -158,7 +158,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.lmneuquen.com/",
-      "lastFetch": "2026-09-21T01:14:22.324643+00:00",
+      "lastFetch": "2026-09-21T01:15:55.326290+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -174,14 +174,14 @@
       "mode": "RSS DIRECTO",
       "signals": 1,
       "url": "https://www.rionegro.com.ar/",
-      "lastFetch": "2026-09-21T01:14:26.949262+00:00",
+      "lastFetch": "2026-09-21T01:15:59.587507+00:00",
       "success": true,
       "attempted": 2,
       "failures": [
         "WEB:AttributeError"
       ],
       "directAvailability": "available",
-      "freshnessHours": 2.9
+      "freshnessHours": 3.0
     },
     {
       "name": "Mejor Informado",
@@ -189,7 +189,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.mejorinformado.com/",
-      "lastFetch": "2026-09-21T01:14:27.553038+00:00",
+      "lastFetch": "2026-09-21T01:15:59.872032+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -205,7 +205,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.diariamenteneuquen.com/",
-      "lastFetch": "2026-09-21T01:14:28.288191+00:00",
+      "lastFetch": "2026-09-21T01:16:00.638087+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -995,14 +995,12 @@
         "source": "Chañar Digital",
         "group": "LOCAL",
         "role": "medio local",
-        "accepted": 1,
-        "direct": 1,
+        "accepted": 0,
+        "direct": 0,
         "anchored": 0,
         "falsePositives": 0,
         "falsePositiveTypes": [],
-        "topics": [
-          "EDUCACIÓN"
-        ]
+        "topics": []
       },
       {
         "source": "Consejo Provincial de Educación",
@@ -1281,17 +1279,6 @@
     ],
     "matrix": [
       {
-        "source": "Chañar Digital",
-        "topic": "EDUCACIÓN",
-        "accepted": 1,
-        "direct": 1,
-        "anchored": 0,
-        "falsePositives": 0,
-        "territorialTerms": [
-          "cpem 31"
-        ]
-      },
-      {
         "source": "Diario Neuquino",
         "topic": "EDUCACIÓN",
         "accepted": 1,
@@ -1431,8 +1418,8 @@
       },
       {
         "term": "cpem 31",
-        "acceptedHits": 2,
-        "directHits": 2,
+        "acceptedHits": 1,
+        "directHits": 1,
         "rejectedTitleHits": 0,
         "territorialStrength": "FUERTE"
       },
@@ -1737,7 +1724,7 @@
       "source": "AIC",
       "mode": "FUENTE ACTIVA · TABLA EN ACTUALIZACIÓN",
       "url": "https://www.aic.gob.ar/sitio/caudales",
-      "observedAt": "2026-09-21T01:14:12.625304+00:00"
+      "observedAt": "2026-09-21T01:15:46.989367+00:00"
     },
     "sources": [
       {
@@ -1761,14 +1748,38 @@
         "url": "https://www.aic.gob.ar/sitio/caudales"
       }
     ],
-    "updatedAt": "2026-09-21T01:14:12.625304+00:00"
+    "updatedAt": "2026-09-21T01:15:46.989367+00:00"
   },
   "operational": {
-    "updatedAt": "2026-09-21T01:14:41.298769+00:00",
-    "route7": null,
-    "route8": null,
-    "energy": null,
-    "water": null,
+    "updatedAt": "2026-09-21T01:16:11.895051+00:00",
+    "route7": {
+      "status": "SEGUIMIENTO ACTIVO",
+      "detail": "Seguimiento activo del corredor Añelo–Chañar; la fuente no publicó una alerta específica en esta lectura.",
+      "source": "Ruta0",
+      "mode": "SEGUIMIENTO ACTIVO",
+      "url": "https://www.ruta0.com/ruta/argentina/anelo-a-san-patricio-del-chanar/"
+    },
+    "route8": {
+      "status": "SIN PARTE DIRECTO",
+      "detail": "No se encontró un reporte actual específico para RP8 en la fuente de respaldo.",
+      "source": "Ruta0",
+      "mode": "RESPALDO SIN PARTE",
+      "url": "https://www.ruta0.com/estado-de-rutas/?pag=4"
+    },
+    "energy": {
+      "status": "MONITOREO EPEN ACTIVO",
+      "detail": "EPEN mantiene la consulta de cortes programados activa; la última publicación localizada para Chañar no indica una interrupción vigente en esta lectura.",
+      "source": "EPEN",
+      "mode": "DIRECTA-WEB",
+      "url": "https://www.epen.gov.ar/index.php/cortes-programados/"
+    },
+    "water": {
+      "status": "SERVICIO EN MONITOREO",
+      "detail": "La fuente municipal está operativa y no publica en esta lectura una interrupción de agua; se mantiene monitoreo automático.",
+      "source": "Municipalidad de San Patricio del Chañar",
+      "mode": "DIRECTA-WEB",
+      "url": "https://sanpatricio.gob.ar/"
+    },
     "sources": [
       {
         "name": "Vialidad Provincial · WSESTADORUTAS",
@@ -1786,24 +1797,21 @@
       },
       {
         "name": "Ruta0",
-        "mode": "FALLA",
+        "mode": "OK",
         "kind": "rutas",
-        "url": "https://www.ruta0.com/ruta/argentina/anelo-a-san-patricio-del-chanar/",
-        "error": "AttributeError"
+        "url": "https://www.ruta0.com/ruta/argentina/anelo-a-san-patricio-del-chanar/"
       },
       {
         "name": "EPEN",
-        "mode": "FALLA",
+        "mode": "OK",
         "kind": "energia",
-        "url": "https://www.epen.gov.ar/index.php/cortes-programados/",
-        "error": "AttributeError"
+        "url": "https://www.epen.gov.ar/index.php/cortes-programados/"
       },
       {
         "name": "Municipalidad de San Patricio del Chañar",
-        "mode": "FALLA",
+        "mode": "OK",
         "kind": "agua",
-        "url": "https://sanpatricio.gob.ar/",
-        "error": "AttributeError"
+        "url": "https://sanpatricio.gob.ar/"
       }
     ]
   },
@@ -1899,7 +1907,7 @@
       "label": "Conversación general",
       "signal": 5,
       "status": "SEÑAL RECIENTE",
-      "freshnessHours": 2.9,
+      "freshnessHours": 3.0,
       "mode": "evidencia editorial",
       "evidenceCount": 5,
       "sources": [
@@ -1964,6 +1972,13 @@
         "fallback": "Ruta0",
         "refresh": "30 min",
         "rule": "parte oficial > fuente comunitaria"
+      },
+      "operational": {
+        "status": "SEGUIMIENTO ACTIVO",
+        "detail": "Seguimiento activo del corredor Añelo–Chañar; la fuente no publicó una alerta específica en esta lectura.",
+        "source": "Ruta0",
+        "mode": "SEGUIMIENTO ACTIVO",
+        "url": "https://www.ruta0.com/ruta/argentina/anelo-a-san-patricio-del-chanar/"
       }
     },
     {
@@ -2000,6 +2015,13 @@
         "fallback": "Ruta0",
         "refresh": "30 min",
         "rule": "parte oficial > fuente comunitaria"
+      },
+      "operational": {
+        "status": "SIN PARTE DIRECTO",
+        "detail": "No se encontró un reporte actual específico para RP8 en la fuente de respaldo.",
+        "source": "Ruta0",
+        "mode": "RESPALDO SIN PARTE",
+        "url": "https://www.ruta0.com/estado-de-rutas/?pag=4"
       }
     },
     {
@@ -2049,7 +2071,7 @@
       "label": "Electricidad / cortes de luz",
       "signal": 1,
       "status": "SEÑAL DETECTADA",
-      "freshnessHours": 330.2,
+      "freshnessHours": 330.3,
       "mode": "evidencia editorial",
       "evidenceCount": 1,
       "sources": [
@@ -2078,6 +2100,13 @@
         "fallback": "Municipalidad de San Patricio del Chañar",
         "refresh": "30 min",
         "rule": "parte EPEN > comunicado"
+      },
+      "operational": {
+        "status": "MONITOREO EPEN ACTIVO",
+        "detail": "EPEN mantiene la consulta de cortes programados activa; la última publicación localizada para Chañar no indica una interrupción vigente en esta lectura.",
+        "source": "EPEN",
+        "mode": "DIRECTA-WEB",
+        "url": "https://www.epen.gov.ar/index.php/cortes-programados/"
       }
     },
     {
@@ -2114,6 +2143,13 @@
         "fallback": "Neuquén Informa",
         "refresh": "30 min",
         "rule": "no inferir normalidad sin parte"
+      },
+      "operational": {
+        "status": "SERVICIO EN MONITOREO",
+        "detail": "La fuente municipal está operativa y no publica en esta lectura una interrupción de agua; se mantiene monitoreo automático.",
+        "source": "Municipalidad de San Patricio del Chañar",
+        "mode": "DIRECTA-WEB",
+        "url": "https://sanpatricio.gob.ar/"
       }
     },
     {
@@ -2354,7 +2390,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://chanardigital.com.ar/",
-        "lastFetch": "2026-09-21T01:14:15.032995+00:00",
+        "lastFetch": "2026-09-21T01:15:49.425982+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -2370,7 +2406,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.radiomia.com.ar/",
-        "lastFetch": "2026-09-21T01:14:15.997131+00:00",
+        "lastFetch": "2026-09-21T01:15:50.399335+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -2385,7 +2421,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://tuitvacamuerta.com/",
-        "lastFetch": "2026-09-21T01:14:17.713283+00:00",
+        "lastFetch": "2026-09-21T01:15:52.046832+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -2400,7 +2436,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.vacamuertanews.com/",
-        "lastFetch": "2026-09-21T01:14:18.150696+00:00",
+        "lastFetch": "2026-09-21T01:15:52.329370+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -2416,7 +2452,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.neuqueninforma.gob.ar/",
-        "lastFetch": "2026-09-21T01:14:19.435098+00:00",
+        "lastFetch": "2026-09-21T01:15:53.458289+00:00",
         "success": false,
         "attempted": 3,
         "failures": [
@@ -2433,7 +2469,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://sanpatricio.gob.ar/",
-        "lastFetch": "2026-09-21T01:14:21.106742+00:00",
+        "lastFetch": "2026-09-21T01:15:54.399823+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -2448,7 +2484,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://boletinoficial.neuquen.gov.ar/",
-        "lastFetch": "2026-09-21T01:14:21.894988+00:00",
+        "lastFetch": "2026-09-21T01:15:55.118808+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -2463,7 +2499,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.lmneuquen.com/",
-        "lastFetch": "2026-09-21T01:14:22.324643+00:00",
+        "lastFetch": "2026-09-21T01:15:55.326290+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -2479,14 +2515,14 @@
         "mode": "RSS DIRECTO",
         "signals": 1,
         "url": "https://www.rionegro.com.ar/",
-        "lastFetch": "2026-09-21T01:14:26.949262+00:00",
+        "lastFetch": "2026-09-21T01:15:59.587507+00:00",
         "success": true,
         "attempted": 2,
         "failures": [
           "WEB:AttributeError"
         ],
         "directAvailability": "available",
-        "freshnessHours": 2.9
+        "freshnessHours": 3.0
       },
       {
         "name": "Mejor Informado",
@@ -2494,7 +2530,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.mejorinformado.com/",
-        "lastFetch": "2026-09-21T01:14:27.553038+00:00",
+        "lastFetch": "2026-09-21T01:15:59.872032+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -2510,7 +2546,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.diariamenteneuquen.com/",
-        "lastFetch": "2026-09-21T01:14:28.288191+00:00",
+        "lastFetch": "2026-09-21T01:16:00.638087+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -2725,15 +2761,14 @@
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "EDUCACIÓN",
       "movement": 16,
-      "coverage": 2,
-      "sourceCount": 2,
+      "coverage": 1,
+      "sourceCount": 1,
       "directSourceCount": 0,
       "territorialAnchors": [
         "cpem 31"
       ],
       "sources": [
-        "chanardigital.com.ar",
-        "Chañar Digital"
+        "chanardigital.com.ar"
       ],
       "evidenceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNaDU2elBEeFZ2X21INm5TSVdQd2NjaDI1V3VfYmZmZjNZTkQ2MGpSQ0N2dTNBUEZHSXQ3a2tHeTlUYWlTMlJIbDVOXy1Rb1RLOWhJS1ZxWktabDJDZy1NREpZV1o1c2hSbGJySmRsMkRUUUJWTFppTm9kTVVaZEtDeS1fR3RVUkVyUnYzN0tZSVdUVjVOek1rbGlsVmV5emFaRGdPZlBJc043VW5kdzltRV9fejlELUg4djEzd2Z3X1loOGc2bXBzeUg2MnY?oc=5",
       "items": [
@@ -2755,35 +2790,15 @@
           "titleKey": "violento episodio cpem padre ingreso colegio arma blanca chanardigital com",
           "evidenceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNaDU2elBEeFZ2X21INm5TSVdQd2NjaDI1V3VfYmZmZjNZTkQ2MGpSQ0N2dTNBUEZHSXQ3a2tHeTlUYWlTMlJIbDVOXy1Rb1RLOWhJS1ZxWktabDJDZy1NREpZV1o1c2hSbGJySmRsMkRUUUJWTFppTm9kTVVaZEtDeS1fR3RVUkVyUnYzN0tZSVdUVjVOek1rbGlsVmV5emFaRGdPZlBJc043VW5kdzltRV9fejlELUg4djEzd2Z3X1loOGc2bXBzeUg2MnY?oc=5",
           "sourcePriority": 3
-        },
-        {
-          "title": "Violento episodio en el CPEM 31: un padre ingresó al colegio con un arma blanca - Chañar Digital",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNaDU2elBEeFZ2X21INm5TSVdQd2NjaDI1V3VfYmZmZjNZTkQ2MGpSQ0N2dTNBUEZHSXQ3a2tHeTlUYWlTMlJIbDVOXy1Rb1RLOWhJS1ZxWktabDJDZy1NREpZV1o1c2hSbGJySmRsMkRUUUJWTFppTm9kTVVaZEtDeS1fR3RVUkVyUnYzN0tZSVdUVjVOek1rbGlsVmV5emFaRGdPZlBJc043VW5kdzltRV9fejlELUg4djEzd2Z3X1loOGc2bXBzeUg2MnY?oc=5",
-          "publishedAt": "2026-09-10T17:56:38+00:00",
-          "published": "2026-09-10T17:56:38+00:00",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMizAFBVV95cUxNaDU2elBEeFZ2X21INm5TSVdQd2NjaDI1V3VfYmZmZjNZTkQ2MGpSQ0N2dTNBUEZHSXQ3a2tHeTlUYWlTMlJIbDVOXy1Rb1RLOWhJS1ZxWktabDJDZy1NREpZV1o1c2hSbGJySmRsMkRUUUJWTFppTm9kTVVaZEtDeS1fR3RVUkVyUnYzN0tZSVdUVjVOek1rbGlsVmV5emFaRGdPZlBJc043VW5kdzltRV9fejlELUg4djEzd2Z3X1loOGc2bXBzeUg2MnY?oc=5\" target=\"_blank\">Violento episodio en el CPEM 31: un padre ingresó al colegio con un arma blanca</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Chañar Digital</font>",
-          "source": "Chañar Digital",
-          "sourceType": "BUSCADOR / RESPALDO",
-          "sourceUrl": "",
-          "collection": "BUSCADOR",
-          "query": "site:chanardigital.com.ar \"San Patricio del Chañar\"",
-          "relevance": 3,
-          "relevanceLabel": "DIRECTA",
-          "firstSeen": "2026-09-21T00:59:40.731423+00:00",
-          "isNew": false,
-          "titleKey": "violento episodio cpem padre ingreso colegio arma blanca digital",
-          "evidenceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNaDU2elBEeFZ2X21INm5TSVdQd2NjaDI1V3VfYmZmZjNZTkQ2MGpSQ0N2dTNBUEZHSXQ3a2tHeTlUYWlTMlJIbDVOXy1Rb1RLOWhJS1ZxWktabDJDZy1NREpZV1o1c2hSbGJySmRsMkRUUUJWTFppTm9kTVVaZEtDeS1fR3RVUkVyUnYzN0tZSVdUVjVOek1rbGlsVmV5emFaRGdPZlBJc043VW5kdzltRV9fejlELUg4djEzd2Z3X1loOGc2bXBzeUg2MnY?oc=5",
-          "sourcePriority": 3
         }
       ],
       "lifecycle": "RECIENTE",
       "movementDelta": 0,
       "previousCoverage": 1,
       "newSources": [
-        "chanardigital.com.ar",
-        "Chañar Digital"
+        "chanardigital.com.ar"
       ],
-      "sourceDiversity": 2,
+      "sourceDiversity": 1,
       "memoryMatched": true,
       "isNew": false,
       "view": "INCIDENCIA",
@@ -3099,7 +3114,7 @@
   ],
   "territorialGraph": {
     "version": "2.0",
-    "generatedAt": "2026-09-21T01:14:48.338261+00:00",
+    "generatedAt": "2026-09-21T01:16:20.196406+00:00",
     "root": "spc",
     "rule": "evidence-first",
     "levels": [
@@ -3702,16 +3717,16 @@
   },
   "audit": {
     "version": "1.0",
-    "updatedAt": "2026-09-21T01:14:48.370526+00:00",
+    "updatedAt": "2026-09-21T01:16:20.241191+00:00",
     "rule": "fact != coverage; territory requires textual evidence",
     "facts": 5,
-    "coverage": 7,
-    "coveragePerFact": 1.4,
+    "coverage": 6,
+    "coveragePerFact": 1.2,
     "directAnchorFacts": 5,
     "directAnchorPct": 100.0,
     "territorySpecificFacts": 2,
     "territorySpecificPct": 40.0,
-    "averageSourcesPerFact": 1.4,
+    "averageSourcesPerFact": 1.2,
     "activeTerritorialNodes": 3,
     "failedSources": 10,
     "acceptedWithoutLocalEvidence": 0,
