@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-21T00:22:08.700941+00:00",
+  "updatedAt": "2026-09-21T00:32:59.966386+00:00",
   "window": "7 días",
   "purpose": "Detectar qué se está moviendo en San Patricio del Chañar y mostrar de dónde surge cada señal.",
   "architecture": "25 fuentes profesionales + búsquedas dirigidas + fuentes directas + web directa + respaldo + memoria de eventos + ciclo de vida + incidencia territorial + evidencia + salud de fuentes + radares de infraestructura + ambiente",
@@ -49,7 +49,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://chanardigital.com.ar/",
-      "lastFetch": "2026-09-21T00:21:46.940884+00:00",
+      "lastFetch": "2026-09-21T00:32:37.508356+00:00",
       "success": true,
       "attempted": 2,
       "failures": [
@@ -64,7 +64,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.radiomia.com.ar/",
-      "lastFetch": "2026-09-21T00:21:47.900193+00:00",
+      "lastFetch": "2026-09-21T00:32:38.998808+00:00",
       "success": true,
       "attempted": 1,
       "failures": [],
@@ -77,7 +77,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://tuitvacamuerta.com/",
-      "lastFetch": "2026-09-21T00:21:49.703645+00:00",
+      "lastFetch": "2026-09-21T00:32:40.925008+00:00",
       "success": true,
       "attempted": 1,
       "failures": [],
@@ -90,7 +90,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.vacamuertanews.com/",
-      "lastFetch": "2026-09-21T00:21:50.089803+00:00",
+      "lastFetch": "2026-09-21T00:32:41.392839+00:00",
       "success": true,
       "attempted": 2,
       "failures": [
@@ -105,7 +105,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.neuqueninforma.gob.ar/",
-      "lastFetch": "2026-09-21T00:21:51.411027+00:00",
+      "lastFetch": "2026-09-21T00:32:43.182851+00:00",
       "success": true,
       "attempted": 3,
       "failures": [
@@ -121,7 +121,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://sanpatricio.gob.ar/",
-      "lastFetch": "2026-09-21T00:21:52.577416+00:00",
+      "lastFetch": "2026-09-21T00:32:44.408734+00:00",
       "success": true,
       "attempted": 1,
       "failures": [],
@@ -134,7 +134,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://boletinoficial.neuquen.gov.ar/",
-      "lastFetch": "2026-09-21T00:21:53.342260+00:00",
+      "lastFetch": "2026-09-21T00:32:45.095474+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -149,7 +149,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.lmneuquen.com/",
-      "lastFetch": "2026-09-21T00:21:53.717929+00:00",
+      "lastFetch": "2026-09-21T00:32:45.315556+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -165,12 +165,12 @@
       "mode": "RSS DIRECTO",
       "signals": 1,
       "url": "https://www.rionegro.com.ar/",
-      "lastFetch": "2026-09-21T00:21:58.167607+00:00",
+      "lastFetch": "2026-09-21T00:32:50.968262+00:00",
       "success": true,
       "attempted": 2,
       "failures": [],
       "directAvailability": "available",
-      "freshnessHours": 2.1
+      "freshnessHours": 2.2
     },
     {
       "name": "Mejor Informado",
@@ -178,7 +178,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.mejorinformado.com/",
-      "lastFetch": "2026-09-21T00:21:58.910998+00:00",
+      "lastFetch": "2026-09-21T00:32:51.737415+00:00",
       "success": true,
       "attempted": 2,
       "failures": [
@@ -193,7 +193,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.diariamenteneuquen.com/",
-      "lastFetch": "2026-09-21T00:21:59.720824+00:00",
+      "lastFetch": "2026-09-21T00:32:52.646660+00:00",
       "success": true,
       "attempted": 2,
       "failures": [
@@ -660,16 +660,16 @@
   "languageAudit": [
     {
       "term": "san patricio del chañar",
-      "hits": 3,
-      "direct": 3
-    },
-    {
-      "term": "el chañar",
-      "hits": 3,
-      "direct": 3
+      "hits": 2,
+      "direct": 2
     },
     {
       "term": "epet 26",
+      "hits": 2,
+      "direct": 2
+    },
+    {
+      "term": "el chañar",
       "hits": 2,
       "direct": 2
     },
@@ -895,247 +895,13 @@
     }
   ],
   "precisionAudit": {
-    "version": "1.0",
+    "version": "1.1",
     "rule": "source × signal × local language × false positive",
     "sourceSummary": [
-      {
-        "source": "Chañar Digital",
-        "group": "LOCAL",
-        "role": "medio local",
-        "accepted": 0,
-        "direct": 0,
-        "anchored": 0,
-        "falsePositives": 0,
-        "falsePositiveTypes": [],
-        "topics": []
-      },
-      {
-        "source": "Radio Municipal FM Chañar 87.9",
-        "group": "LOCAL",
-        "role": "radio municipal",
-        "accepted": 0,
-        "direct": 0,
-        "anchored": 0,
-        "falsePositives": 0,
-        "falsePositiveTypes": [],
-        "topics": []
-      },
-      {
-        "source": "Mía Radio 94.7",
-        "group": "LOCAL",
-        "role": "radio local",
-        "accepted": 0,
-        "direct": 0,
-        "anchored": 0,
-        "falsePositives": 0,
-        "falsePositiveTypes": [],
-        "topics": []
-      },
-      {
-        "source": "Radio Tuit Vaca Muerta 90.5",
-        "group": "LOCAL-REGIONAL",
-        "role": "radio productiva",
-        "accepted": 0,
-        "direct": 0,
-        "anchored": 0,
-        "falsePositives": 0,
-        "falsePositiveTypes": [],
-        "topics": []
-      },
-      {
-        "source": "Municipalidad de San Patricio del Chañar",
-        "group": "LOCAL",
-        "role": "fuente institucional primaria",
-        "accepted": 0,
-        "direct": 0,
-        "anchored": 0,
-        "falsePositives": 0,
-        "falsePositiveTypes": [],
-        "topics": []
-      },
-      {
-        "source": "EPEN",
-        "group": "REGIONAL",
-        "role": "energía eléctrica",
-        "accepted": 0,
-        "direct": 0,
-        "anchored": 0,
-        "falsePositives": 0,
-        "falsePositiveTypes": [],
-        "topics": []
-      },
-      {
-        "source": "Dirección Provincial de Vialidad",
-        "group": "REGIONAL",
-        "role": "estado y obras viales",
-        "accepted": 0,
-        "direct": 0,
-        "anchored": 0,
-        "falsePositives": 0,
-        "falsePositiveTypes": [],
-        "topics": []
-      },
-      {
-        "source": "Vialidad Nacional",
-        "group": "REGIONAL-NACIONAL",
-        "role": "red vial nacional",
-        "accepted": 0,
-        "direct": 0,
-        "anchored": 0,
-        "falsePositives": 0,
-        "falsePositiveTypes": [],
-        "topics": []
-      },
-      {
-        "source": "Neuquén Informa",
-        "group": "REGIONAL",
-        "role": "comunicación oficial provincial",
-        "accepted": 0,
-        "direct": 0,
-        "anchored": 0,
-        "falsePositives": 0,
-        "falsePositiveTypes": [],
-        "topics": []
-      },
-      {
-        "source": "Servicio Meteorológico Nacional",
-        "group": "REGIONAL-NACIONAL",
-        "role": "alertas y meteorología",
-        "accepted": 0,
-        "direct": 0,
-        "anchored": 0,
-        "falsePositives": 0,
-        "falsePositiveTypes": [],
-        "topics": []
-      },
-      {
-        "source": "Defensa Civil Neuquén",
-        "group": "REGIONAL",
-        "role": "emergencias y alertas",
-        "accepted": 0,
-        "direct": 0,
-        "anchored": 0,
-        "falsePositives": 0,
-        "falsePositiveTypes": [],
-        "topics": []
-      },
-      {
-        "source": "Ministerio de Salud de Neuquén",
-        "group": "REGIONAL",
-        "role": "salud pública",
-        "accepted": 0,
-        "direct": 0,
-        "anchored": 0,
-        "falsePositives": 0,
-        "falsePositiveTypes": [],
-        "topics": []
-      },
-      {
-        "source": "Consejo Provincial de Educación",
-        "group": "REGIONAL",
-        "role": "educación pública",
-        "accepted": 0,
-        "direct": 0,
-        "anchored": 0,
-        "falsePositives": 0,
-        "falsePositiveTypes": [],
-        "topics": []
-      },
-      {
-        "source": "EPAS Neuquén",
-        "group": "REGIONAL",
-        "role": "agua y saneamiento",
-        "accepted": 0,
-        "direct": 0,
-        "anchored": 0,
-        "falsePositives": 0,
-        "falsePositiveTypes": [],
-        "topics": []
-      },
-      {
-        "source": "Policía del Neuquén",
-        "group": "REGIONAL",
-        "role": "seguridad y emergencias",
-        "accepted": 0,
-        "direct": 0,
-        "anchored": 0,
-        "falsePositives": 0,
-        "falsePositiveTypes": [],
-        "topics": []
-      },
-      {
-        "source": "Ministerio de Producción e Industria de Neuquén",
-        "group": "REGIONAL",
-        "role": "producción rural",
-        "accepted": 0,
-        "direct": 0,
-        "anchored": 0,
-        "falsePositives": 0,
-        "falsePositiveTypes": [],
-        "topics": []
-      },
-      {
-        "source": "Diario Río Negro",
-        "group": "REGIONAL",
-        "role": "medio regional",
-        "accepted": 2,
-        "direct": 2,
-        "anchored": 0,
-        "falsePositives": 0,
-        "falsePositiveTypes": [],
-        "topics": [
-          "EDUCACIÓN",
-          "OTROS"
-        ]
-      },
-      {
-        "source": "LM Neuquén",
-        "group": "REGIONAL",
-        "role": "medio regional",
-        "accepted": 0,
-        "direct": 0,
-        "anchored": 0,
-        "falsePositives": 0,
-        "falsePositiveTypes": [],
-        "topics": []
-      },
-      {
-        "source": "Mejor Informado",
-        "group": "REGIONAL",
-        "role": "medio regional",
-        "accepted": 0,
-        "direct": 0,
-        "anchored": 0,
-        "falsePositives": 0,
-        "falsePositiveTypes": [],
-        "topics": []
-      },
-      {
-        "source": "Vaca Muerta News",
-        "group": "REGIONAL",
-        "role": "medio energético/productivo",
-        "accepted": 0,
-        "direct": 0,
-        "anchored": 0,
-        "falsePositives": 0,
-        "falsePositiveTypes": [],
-        "topics": []
-      },
       {
         "source": "Argentina.gob.ar",
         "group": "EXTERNA",
         "role": "fuente nacional",
-        "accepted": 0,
-        "direct": 0,
-        "anchored": 0,
-        "falsePositives": 0,
-        "falsePositiveTypes": [],
-        "topics": []
-      },
-      {
-        "source": "INTA",
-        "group": "EXTERNA",
-        "role": "producción, clima y territorio",
         "accepted": 0,
         "direct": 0,
         "anchored": 0,
@@ -1166,9 +932,256 @@
         "topics": []
       },
       {
+        "source": "Chañar Digital",
+        "group": "LOCAL",
+        "role": "medio local",
+        "accepted": 0,
+        "direct": 0,
+        "anchored": 0,
+        "falsePositives": 0,
+        "falsePositiveTypes": [],
+        "topics": []
+      },
+      {
+        "source": "Consejo Provincial de Educación",
+        "group": "REGIONAL",
+        "role": "educación pública",
+        "accepted": 0,
+        "direct": 0,
+        "anchored": 0,
+        "falsePositives": 0,
+        "falsePositiveTypes": [],
+        "topics": []
+      },
+      {
+        "source": "Defensa Civil Neuquén",
+        "group": "REGIONAL",
+        "role": "emergencias y alertas",
+        "accepted": 0,
+        "direct": 0,
+        "anchored": 0,
+        "falsePositives": 0,
+        "falsePositiveTypes": [],
+        "topics": []
+      },
+      {
+        "source": "Diario Neuquino",
+        "group": "OBSERVADA",
+        "role": "fuente detectada fuera del catálogo",
+        "accepted": 1,
+        "direct": 1,
+        "anchored": 0,
+        "falsePositives": 0,
+        "falsePositiveTypes": [],
+        "topics": [
+          "EDUCACIÓN"
+        ]
+      },
+      {
+        "source": "Diario Río Negro",
+        "group": "REGIONAL",
+        "role": "medio regional",
+        "accepted": 2,
+        "direct": 2,
+        "anchored": 0,
+        "falsePositives": 0,
+        "falsePositiveTypes": [],
+        "topics": [
+          "EDUCACIÓN",
+          "SERVICIOS"
+        ]
+      },
+      {
+        "source": "Dirección Provincial de Vialidad",
+        "group": "REGIONAL",
+        "role": "estado y obras viales",
+        "accepted": 0,
+        "direct": 0,
+        "anchored": 0,
+        "falsePositives": 0,
+        "falsePositiveTypes": [],
+        "topics": []
+      },
+      {
+        "source": "EPAS Neuquén",
+        "group": "REGIONAL",
+        "role": "agua y saneamiento",
+        "accepted": 0,
+        "direct": 0,
+        "anchored": 0,
+        "falsePositives": 0,
+        "falsePositiveTypes": [],
+        "topics": []
+      },
+      {
+        "source": "EPEN",
+        "group": "REGIONAL",
+        "role": "energía eléctrica",
+        "accepted": 0,
+        "direct": 0,
+        "anchored": 0,
+        "falsePositives": 0,
+        "falsePositiveTypes": [],
+        "topics": []
+      },
+      {
+        "source": "INTA",
+        "group": "EXTERNA",
+        "role": "producción, clima y territorio",
+        "accepted": 0,
+        "direct": 0,
+        "anchored": 0,
+        "falsePositives": 0,
+        "falsePositiveTypes": [],
+        "topics": []
+      },
+      {
+        "source": "LM Neuquén",
+        "group": "REGIONAL",
+        "role": "medio regional",
+        "accepted": 0,
+        "direct": 0,
+        "anchored": 0,
+        "falsePositives": 0,
+        "falsePositiveTypes": [],
+        "topics": []
+      },
+      {
+        "source": "Mejor Informado",
+        "group": "REGIONAL",
+        "role": "medio regional",
+        "accepted": 0,
+        "direct": 0,
+        "anchored": 0,
+        "falsePositives": 0,
+        "falsePositiveTypes": [],
+        "topics": []
+      },
+      {
+        "source": "Ministerio de Producción e Industria de Neuquén",
+        "group": "REGIONAL",
+        "role": "producción rural",
+        "accepted": 0,
+        "direct": 0,
+        "anchored": 0,
+        "falsePositives": 0,
+        "falsePositiveTypes": [],
+        "topics": []
+      },
+      {
+        "source": "Ministerio de Salud de Neuquén",
+        "group": "REGIONAL",
+        "role": "salud pública",
+        "accepted": 0,
+        "direct": 0,
+        "anchored": 0,
+        "falsePositives": 0,
+        "falsePositiveTypes": [],
+        "topics": []
+      },
+      {
+        "source": "Municipalidad de San Patricio del Chañar",
+        "group": "LOCAL",
+        "role": "fuente institucional primaria",
+        "accepted": 0,
+        "direct": 0,
+        "anchored": 0,
+        "falsePositives": 0,
+        "falsePositiveTypes": [],
+        "topics": []
+      },
+      {
+        "source": "Mía Radio 94.7",
+        "group": "LOCAL",
+        "role": "radio local",
+        "accepted": 0,
+        "direct": 0,
+        "anchored": 0,
+        "falsePositives": 0,
+        "falsePositiveTypes": [],
+        "topics": []
+      },
+      {
+        "source": "Neuquén Informa",
+        "group": "REGIONAL",
+        "role": "comunicación oficial provincial",
+        "accepted": 0,
+        "direct": 0,
+        "anchored": 0,
+        "falsePositives": 0,
+        "falsePositiveTypes": [],
+        "topics": []
+      },
+      {
+        "source": "Policía del Neuquén",
+        "group": "REGIONAL",
+        "role": "seguridad y emergencias",
+        "accepted": 0,
+        "direct": 0,
+        "anchored": 0,
+        "falsePositives": 0,
+        "falsePositiveTypes": [],
+        "topics": []
+      },
+      {
+        "source": "Radio Municipal FM Chañar 87.9",
+        "group": "LOCAL",
+        "role": "radio municipal",
+        "accepted": 0,
+        "direct": 0,
+        "anchored": 0,
+        "falsePositives": 0,
+        "falsePositiveTypes": [],
+        "topics": []
+      },
+      {
+        "source": "Radio Tuit Vaca Muerta 90.5",
+        "group": "LOCAL-REGIONAL",
+        "role": "radio productiva",
+        "accepted": 0,
+        "direct": 0,
+        "anchored": 0,
+        "falsePositives": 0,
+        "falsePositiveTypes": [],
+        "topics": []
+      },
+      {
+        "source": "Servicio Meteorológico Nacional",
+        "group": "REGIONAL-NACIONAL",
+        "role": "alertas y meteorología",
+        "accepted": 0,
+        "direct": 0,
+        "anchored": 0,
+        "falsePositives": 0,
+        "falsePositiveTypes": [],
+        "topics": []
+      },
+      {
         "source": "Universidad Nacional del Comahue",
         "group": "EXTERNA",
         "role": "conocimiento regional",
+        "accepted": 0,
+        "direct": 0,
+        "anchored": 0,
+        "falsePositives": 0,
+        "falsePositiveTypes": [],
+        "topics": []
+      },
+      {
+        "source": "Vaca Muerta News",
+        "group": "REGIONAL",
+        "role": "medio energético/productivo",
+        "accepted": 0,
+        "direct": 0,
+        "anchored": 0,
+        "falsePositives": 0,
+        "falsePositiveTypes": [],
+        "topics": []
+      },
+      {
+        "source": "Vialidad Nacional",
+        "group": "REGIONAL-NACIONAL",
+        "role": "red vial nacional",
         "accepted": 0,
         "direct": 0,
         "anchored": 0,
@@ -1204,19 +1217,7 @@
       },
       {
         "source": "Diario Río Negro",
-        "topic": "OTROS",
-        "accepted": 1,
-        "direct": 1,
-        "anchored": 0,
-        "falsePositives": 0,
-        "territorialTerms": [
-          "san patricio del chañar",
-          "el chañar"
-        ]
-      },
-      {
-        "source": "Lmneuquen.com",
-        "topic": "OTROS",
+        "topic": "SERVICIOS",
         "accepted": 1,
         "direct": 1,
         "anchored": 0,
@@ -1230,8 +1231,8 @@
     "languagePrecision": [
       {
         "term": "san patricio del chañar",
-        "acceptedHits": 3,
-        "directHits": 3,
+        "acceptedHits": 2,
+        "directHits": 2,
         "rejectedTitleHits": 0,
         "territorialStrength": "FUERTE"
       },
@@ -1244,8 +1245,8 @@
       },
       {
         "term": "el chañar",
-        "acceptedHits": 3,
-        "directHits": 3,
+        "acceptedHits": 2,
+        "directHits": 2,
         "rejectedTitleHits": 0,
         "territorialStrength": "FUERTE"
       },
@@ -1567,14 +1568,14 @@
       "OPERATIVO": "un dato operativo solo puede declararse confirmado por fuente directa/oficial; medios y buscadores no lo convierten en estado operativo",
       "TEMPORAL": "la antigüedad afecta frescura, pero una fuente caída no se interpreta como ausencia del hecho"
     },
-    "interpretation": "auditoría de precisión del colector; no mide verdad periodística ni importancia del hecho"
+    "interpretation": "auditoría sobre eventos aceptados; la próxima capa debe instrumentar rechazos antes del clustering"
   },
   "stats": {
-    "total": 4,
-    "direct": 4,
+    "total": 3,
+    "direct": 3,
     "regional": 0,
     "new": 0,
-    "sources": 3,
+    "sources": 2,
     "directSignals": 1,
     "localDirectSignals": 0,
     "radioDirectSignals": 0,
@@ -1582,7 +1583,7 @@
     "searchNoiseRejected": 0
   },
   "environment": {
-    "updatedAt": "2026-09-21T00:22:08.710486+00:00",
+    "updatedAt": "2026-09-21T00:32:59.973926+00:00",
     "weather": null,
     "sources": [
       {
@@ -1593,7 +1594,7 @@
     ]
   },
   "operational": {
-    "updatedAt": "2026-09-21T00:22:09.382722+00:00",
+    "updatedAt": "2026-09-21T00:33:00.676463+00:00",
     "route7": null,
     "route8": {
       "status": "SEÑAL DE TRANSITABILIDAD",
@@ -1727,11 +1728,11 @@
     {
       "id": "CONVERSACIÓN",
       "label": "Conversación general",
-      "signal": 4,
+      "signal": 3,
       "status": "SEÑAL RECIENTE",
-      "freshnessHours": 2.1,
+      "freshnessHours": 2.2,
       "mode": "evidencia editorial",
-      "evidenceCount": 4,
+      "evidenceCount": 3,
       "sources": [
         {
           "name": "Chañar Digital",
@@ -2038,7 +2039,7 @@
       "label": "Educación",
       "signal": 2,
       "status": "SEÑAL DETECTADA",
-      "freshnessHours": 25.3,
+      "freshnessHours": 25.5,
       "mode": "evidencia editorial",
       "evidenceCount": 2,
       "sources": [
@@ -2199,7 +2200,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://chanardigital.com.ar/",
-        "lastFetch": "2026-09-21T00:21:46.940884+00:00",
+        "lastFetch": "2026-09-21T00:32:37.508356+00:00",
         "success": true,
         "attempted": 2,
         "failures": [
@@ -2214,7 +2215,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.radiomia.com.ar/",
-        "lastFetch": "2026-09-21T00:21:47.900193+00:00",
+        "lastFetch": "2026-09-21T00:32:38.998808+00:00",
         "success": true,
         "attempted": 1,
         "failures": [],
@@ -2227,7 +2228,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://tuitvacamuerta.com/",
-        "lastFetch": "2026-09-21T00:21:49.703645+00:00",
+        "lastFetch": "2026-09-21T00:32:40.925008+00:00",
         "success": true,
         "attempted": 1,
         "failures": [],
@@ -2240,7 +2241,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.vacamuertanews.com/",
-        "lastFetch": "2026-09-21T00:21:50.089803+00:00",
+        "lastFetch": "2026-09-21T00:32:41.392839+00:00",
         "success": true,
         "attempted": 2,
         "failures": [
@@ -2255,7 +2256,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.neuqueninforma.gob.ar/",
-        "lastFetch": "2026-09-21T00:21:51.411027+00:00",
+        "lastFetch": "2026-09-21T00:32:43.182851+00:00",
         "success": true,
         "attempted": 3,
         "failures": [
@@ -2271,7 +2272,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://sanpatricio.gob.ar/",
-        "lastFetch": "2026-09-21T00:21:52.577416+00:00",
+        "lastFetch": "2026-09-21T00:32:44.408734+00:00",
         "success": true,
         "attempted": 1,
         "failures": [],
@@ -2284,7 +2285,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://boletinoficial.neuquen.gov.ar/",
-        "lastFetch": "2026-09-21T00:21:53.342260+00:00",
+        "lastFetch": "2026-09-21T00:32:45.095474+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -2299,7 +2300,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.lmneuquen.com/",
-        "lastFetch": "2026-09-21T00:21:53.717929+00:00",
+        "lastFetch": "2026-09-21T00:32:45.315556+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -2315,12 +2316,12 @@
         "mode": "RSS DIRECTO",
         "signals": 1,
         "url": "https://www.rionegro.com.ar/",
-        "lastFetch": "2026-09-21T00:21:58.167607+00:00",
+        "lastFetch": "2026-09-21T00:32:50.968262+00:00",
         "success": true,
         "attempted": 2,
         "failures": [],
         "directAvailability": "available",
-        "freshnessHours": 2.1
+        "freshnessHours": 2.2
       },
       {
         "name": "Mejor Informado",
@@ -2328,7 +2329,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.mejorinformado.com/",
-        "lastFetch": "2026-09-21T00:21:58.910998+00:00",
+        "lastFetch": "2026-09-21T00:32:51.737415+00:00",
         "success": true,
         "attempted": 2,
         "failures": [
@@ -2343,7 +2344,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.diariamenteneuquen.com/",
-        "lastFetch": "2026-09-21T00:21:59.720824+00:00",
+        "lastFetch": "2026-09-21T00:32:52.646660+00:00",
         "success": true,
         "attempted": 2,
         "failures": [
@@ -2596,82 +2597,6 @@
           }
         ]
       }
-    },
-    {
-      "eventId": "CHA-c0df6f155c53",
-      "title": "Últimas noticias sobre San Patricio del Chañar - Lmneuquen.com",
-      "publishedAt": "2026-09-18T07:26:20+00:00",
-      "firstSeen": "2026-09-19T12:09:55.174316+00:00",
-      "lastSeen": "2026-09-18T07:26:20+00:00",
-      "relevance": 3,
-      "relevanceLabel": "DIRECTA",
-      "incidenceLabel": "DIRECTA EN CHANAR",
-      "topic": "SERVICIOS",
-      "movement": 43,
-      "coverage": 1,
-      "sourceCount": 1,
-      "directSourceCount": 0,
-      "territorialAnchors": [
-        "san patricio del chañar",
-        "el chañar"
-      ],
-      "sources": [
-        "Lmneuquen.com"
-      ],
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTE54YXloOWhfWUtHU1cybHNUZy1UNXpWa0JOTnkyam55VDYzRTI5TzlTTG5TemlqM2NYck91bzZ1MUkxc1pNZ3ktWmphc2VmUkowdlpLZFNyZ3IxdUNCZVAxR1RGTlFWeExRdjNB?oc=5",
-      "items": [
-        {
-          "title": "Últimas noticias sobre San Patricio del Chañar - Lmneuquen.com",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE54YXloOWhfWUtHU1cybHNUZy1UNXpWa0JOTnkyam55VDYzRTI5TzlTTG5TemlqM2NYck91bzZ1MUkxc1pNZ3ktWmphc2VmUkowdlpLZFNyZ3IxdUNCZVAxR1RGTlFWeExRdjNB?oc=5",
-          "publishedAt": "2026-09-18T07:26:20+00:00",
-          "published": "2026-09-18T07:26:20+00:00",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMia0FVX3lxTE54YXloOWhfWUtHU1cybHNUZy1UNXpWa0JOTnkyam55VDYzRTI5TzlTTG5TemlqM2NYck91bzZ1MUkxc1pNZ3ktWmphc2VmUkowdlpLZFNyZ3IxdUNCZVAxR1RGTlFWeExRdjNB?oc=5\" target=\"_blank\">Últimas noticias sobre San Patricio del Chañar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Lmneuquen.com</font>",
-          "source": "Lmneuquen.com",
-          "sourceType": "BUSCADOR / RESPALDO",
-          "sourceUrl": "",
-          "collection": "BUSCADOR",
-          "query": "site:lmneuquen.com \"San Patricio del Chañar\"",
-          "relevance": 3,
-          "relevanceLabel": "DIRECTA",
-          "firstSeen": "2026-09-19T12:09:55.174316+00:00",
-          "isNew": false,
-          "titleKey": "lmneuquen com",
-          "evidenceUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTE54YXloOWhfWUtHU1cybHNUZy1UNXpWa0JOTnkyam55VDYzRTI5TzlTTG5TemlqM2NYck91bzZ1MUkxc1pNZ3ktWmphc2VmUkowdlpLZFNyZ3IxdUNCZVAxR1RGTlFWeExRdjNB?oc=5",
-          "sourcePriority": 3
-        }
-      ],
-      "lifecycle": "SOSTENIDO",
-      "movementDelta": 0,
-      "previousCoverage": 1,
-      "newSources": [
-        "Lmneuquen.com"
-      ],
-      "sourceDiversity": 1,
-      "memoryMatched": true,
-      "isNew": false,
-      "territory": {
-        "version": "2.0",
-        "primary": "San Patricio del Chañar",
-        "nodes": [
-          "San Patricio del Chañar"
-        ],
-        "sectors": [],
-        "barrios": [],
-        "microzones": [],
-        "corridors": [],
-        "institutions": [],
-        "services": [],
-        "spaces": [],
-        "production": [],
-        "path": "San Patricio del Chañar",
-        "evidence": [
-          {
-            "node": "San Patricio del Chañar",
-            "level": "localidad",
-            "evidence": "DIRECTA"
-          }
-        ]
-      }
     }
   ],
   "items": [
@@ -2731,30 +2656,11 @@
       "titleKey": "avanza infraestructura educativa epet supera ejecucion diario rio negro",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQVkhIZ3RaZks0TGxkaWZFaV9lcHQ0cTZVbVBqdHNsQW1QV3pFODItNk1CNWE0TXJuMDRjUFd4dnNVY2NiUHd1bnJCMElHRXg4VWpyUWN2SndPMzdxemFyQWhCd21BUWVpMXp2ek4telQyWV9JVW9fWVpBN2FWaTdvRVJHYTRzWHZkaXkxcGNLR2l3eEp5a2YxMFNaeTVuZmVsc041NWNWcDZFV2t2blF0Y2hCUHB4aEttZGJOTXhVVEdZcTJhOG9yUF96em1BY1AyTVJPd2xsOXhVYTFH0gHkAUFVX3lxTE0zSjRnMUZEdnF3V0NQNzgzb0V1WFI5NzBLdmRMUnBpMl9JaG94ekRlcVZFU1pHNE1lRWp0Sm5Jd28wSmNvclZ3UWFNQXh4YUdkdjBHODRKQUpnZUpwbnpjTHcxaEF1eU5HLUtOSGFNNi1FSXB3LVhSYUpWRUl1OFpQclN4RGZkVEFpVkVmb0llNTZyZ01UeThoRXZNVGNMVGhaclhfLW51emxyQTE5U3FBMDBpeTZyb1hrYnRpbTI3X0gwSHYxMDkwZHlpZldUYjhkUUxOa1AtY3JxZjJ0WF8xajBfRw?oc=5",
       "sourcePriority": 3
-    },
-    {
-      "title": "Últimas noticias sobre San Patricio del Chañar - Lmneuquen.com",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE54YXloOWhfWUtHU1cybHNUZy1UNXpWa0JOTnkyam55VDYzRTI5TzlTTG5TemlqM2NYck91bzZ1MUkxc1pNZ3ktWmphc2VmUkowdlpLZFNyZ3IxdUNCZVAxR1RGTlFWeExRdjNB?oc=5",
-      "publishedAt": "2026-09-18T07:26:20+00:00",
-      "published": "2026-09-18T07:26:20+00:00",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMia0FVX3lxTE54YXloOWhfWUtHU1cybHNUZy1UNXpWa0JOTnkyam55VDYzRTI5TzlTTG5TemlqM2NYck91bzZ1MUkxc1pNZ3ktWmphc2VmUkowdlpLZFNyZ3IxdUNCZVAxR1RGTlFWeExRdjNB?oc=5\" target=\"_blank\">Últimas noticias sobre San Patricio del Chañar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Lmneuquen.com</font>",
-      "source": "Lmneuquen.com",
-      "sourceType": "BUSCADOR / RESPALDO",
-      "sourceUrl": "",
-      "collection": "BUSCADOR",
-      "query": "site:lmneuquen.com \"San Patricio del Chañar\"",
-      "relevance": 3,
-      "relevanceLabel": "DIRECTA",
-      "firstSeen": "2026-09-19T12:09:55.174316+00:00",
-      "isNew": false,
-      "titleKey": "lmneuquen com",
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTE54YXloOWhfWUtHU1cybHNUZy1UNXpWa0JOTnkyam55VDYzRTI5TzlTTG5TemlqM2NYck91bzZ1MUkxc1pNZ3ktWmphc2VmUkowdlpLZFNyZ3IxdUNCZVAxR1RGTlFWeExRdjNB?oc=5",
-      "sourcePriority": 3
     }
   ],
   "territorialGraph": {
     "version": "2.0",
-    "generatedAt": "2026-09-21T00:22:13.476221+00:00",
+    "generatedAt": "2026-09-21T00:33:05.359233+00:00",
     "root": "spc",
     "rule": "evidence-first",
     "levels": [
@@ -2781,7 +2687,7 @@
           "el chañar",
           "el chanar"
         ],
-        "eventCount": 4
+        "eventCount": 3
       },
       {
         "id": "rio-neuquen",
@@ -3307,9 +3213,6 @@
       "CHA-004": [
         "spc",
         "epet-26"
-      ],
-      "CHA-c0df6f155c53": [
-        "spc"
       ]
     },
     "taxonomy": {
@@ -3327,7 +3230,7 @@
       "nodes": 46,
       "activeNodes": 2,
       "edges": 1,
-      "eventsLinked": 4,
+      "eventsLinked": 3,
       "eventsWithMicrozones": 0,
       "eventsWithBarrios": 0,
       "eventsWithSectors": 0,
@@ -3347,15 +3250,15 @@
   },
   "audit": {
     "version": "1.0",
-    "updatedAt": "2026-09-21T00:22:13.520702+00:00",
+    "updatedAt": "2026-09-21T00:33:05.399997+00:00",
     "rule": "fact != coverage; territory requires textual evidence",
-    "facts": 4,
-    "coverage": 4,
+    "facts": 3,
+    "coverage": 3,
     "coveragePerFact": 1.0,
-    "directAnchorFacts": 4,
+    "directAnchorFacts": 3,
     "directAnchorPct": 100.0,
     "territorySpecificFacts": 2,
-    "territorySpecificPct": 50.0,
+    "territorySpecificPct": 66.7,
     "averageSourcesPerFact": 1.0,
     "activeTerritorialNodes": 2,
     "failedSources": 2,
