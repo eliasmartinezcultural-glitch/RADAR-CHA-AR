@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-09-21T01:22:49.898623+00:00",
+  "updatedAt": "2026-09-21T01:43:03.048530+00:00",
   "window": "14 días",
   "purpose": "Detectar qué se está moviendo en San Patricio del Chañar y mostrar de dónde surge cada señal.",
-  "architecture": "25 fuentes profesionales + búsquedas dirigidas + fuentes directas + web directa + respaldo + memoria de eventos + ciclo de vida + incidencia territorial + evidencia + salud de fuentes + radares de infraestructura + ambiente",
+  "architecture": "contrato universal de procedencia + fuentes profesionales + adaptadores específicos + validación semántica + temporalidad + evidencia editorial separada",
   "keywords": [
     "\"San Patricio del Chañar\"",
     "\"San Patricio del Chañar\" salud hospital",
@@ -49,7 +49,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://chanardigital.com.ar/",
-      "lastFetch": "2026-09-21T01:22:28.567648+00:00",
+      "lastFetch": "2026-09-21T01:42:41.629806+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -65,7 +65,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.radiomia.com.ar/",
-      "lastFetch": "2026-09-21T01:22:29.397811+00:00",
+      "lastFetch": "2026-09-21T01:42:42.878113+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -80,7 +80,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://tuitvacamuerta.com/",
-      "lastFetch": "2026-09-21T01:22:31.178609+00:00",
+      "lastFetch": "2026-09-21T01:42:44.736828+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -95,7 +95,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.vacamuertanews.com/",
-      "lastFetch": "2026-09-21T01:22:31.443930+00:00",
+      "lastFetch": "2026-09-21T01:42:45.382660+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -111,7 +111,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.neuqueninforma.gob.ar/",
-      "lastFetch": "2026-09-21T01:22:32.605897+00:00",
+      "lastFetch": "2026-09-21T01:42:46.841340+00:00",
       "success": false,
       "attempted": 3,
       "failures": [
@@ -128,7 +128,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://sanpatricio.gob.ar/",
-      "lastFetch": "2026-09-21T01:22:33.645965+00:00",
+      "lastFetch": "2026-09-21T01:42:47.873005+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -143,7 +143,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://boletinoficial.neuquen.gov.ar/",
-      "lastFetch": "2026-09-21T01:22:34.671258+00:00",
+      "lastFetch": "2026-09-21T01:42:48.651556+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -158,7 +158,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.lmneuquen.com/",
-      "lastFetch": "2026-09-21T01:22:34.897807+00:00",
+      "lastFetch": "2026-09-21T01:42:48.958276+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -174,14 +174,14 @@
       "mode": "RSS DIRECTO",
       "signals": 1,
       "url": "https://www.rionegro.com.ar/",
-      "lastFetch": "2026-09-21T01:22:38.879067+00:00",
+      "lastFetch": "2026-09-21T01:42:52.256700+00:00",
       "success": true,
       "attempted": 2,
       "failures": [
         "WEB:AttributeError"
       ],
       "directAvailability": "available",
-      "freshnessHours": 3.1
+      "freshnessHours": 3.4
     },
     {
       "name": "Mejor Informado",
@@ -189,7 +189,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.mejorinformado.com/",
-      "lastFetch": "2026-09-21T01:22:39.468565+00:00",
+      "lastFetch": "2026-09-21T01:42:52.810628+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -205,7 +205,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.diariamenteneuquen.com/",
-      "lastFetch": "2026-09-21T01:22:42.343345+00:00",
+      "lastFetch": "2026-09-21T01:42:53.639086+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -995,14 +995,12 @@
         "source": "Chañar Digital",
         "group": "LOCAL",
         "role": "medio local",
-        "accepted": 1,
-        "direct": 1,
+        "accepted": 0,
+        "direct": 0,
         "anchored": 0,
         "falsePositives": 0,
         "falsePositiveTypes": [],
-        "topics": [
-          "EDUCACIÓN"
-        ]
+        "topics": []
       },
       {
         "source": "Consejo Provincial de Educación",
@@ -1281,17 +1279,6 @@
     ],
     "matrix": [
       {
-        "source": "Chañar Digital",
-        "topic": "EDUCACIÓN",
-        "accepted": 1,
-        "direct": 1,
-        "anchored": 0,
-        "falsePositives": 0,
-        "territorialTerms": [
-          "cpem 31"
-        ]
-      },
-      {
         "source": "Diario Neuquino",
         "topic": "EDUCACIÓN",
         "accepted": 1,
@@ -1431,8 +1418,8 @@
       },
       {
         "term": "cpem 31",
-        "acceptedHits": 2,
-        "directHits": 2,
+        "acceptedHits": 1,
+        "directHits": 1,
         "rejectedTitleHits": 0,
         "territorialStrength": "FUERTE"
       },
@@ -1721,208 +1708,504 @@
   },
   "environment": {
     "weather": {
-      "temperatureC": 10.2,
-      "windKmh": 44.64,
-      "gustKmh": null,
-      "windDirection": 247.5,
-      "observedAt": "2026-09-21T01:00:00Z",
-      "source": "MET Norway",
-      "mode": "RESPALDO METEOROLÓGICO"
-    },
-    "hydrology": {
-      "site": "El Chañar",
-      "minM3s": 480.0,
-      "maxM3s": 500.0,
-      "date": "19/09/2026",
+      "dataType": "forecast",
+      "forecastWindKmh": 50.0,
+      "forecastGustKmh": 80.0,
+      "forecastWindDirection": "O",
+      "forecastTemperatureC": 18.0,
+      "retrievedAt": "2026-09-21T01:42:39.278457+00:00",
       "source": "AIC",
-      "mode": "RESPALDO TEMPORAL · ÚLTIMO VALOR CONFIRMADO",
-      "url": "https://www.aic.gob.ar/sitio/caudales",
-      "observedAt": "2026-09-21T01:22:25.999841+00:00"
+      "sourceTier": "primary",
+      "sourceUrl": "https://www.aic.gob.ar/sitio/home?a=1015&z=1967225803",
+      "semanticState": "pronostico_local"
     },
+    "hydrology": null,
     "sources": [
       {
-        "name": "AIC · Meteorología",
-        "mode": "RESPONDE SIN VALOR EXTRAÍBLE",
+        "name": "AIC · Pronóstico El Chañar",
+        "tier": "primary",
+        "mode": "parsed",
         "url": "https://www.aic.gob.ar/sitio/home?a=1015&z=1967225803"
       },
       {
-        "name": "Open-Meteo",
-        "mode": "ERROR DE CONEXIÓN",
-        "error": "HTTPError"
-      },
-      {
-        "name": "MET Norway",
-        "mode": "OK",
-        "url": "https://api.met.no/weatherapi/locationforecast/2.0/compact?lat=-39.061&lon=-68.353"
-      },
-      {
-        "name": "AIC · Caudales",
-        "mode": "OK · TABLA ACTIVA",
+        "name": "AIC · Caudales Programados",
+        "tier": "primary",
+        "mode": "reachable_but_unparsed",
         "url": "https://www.aic.gob.ar/sitio/caudales"
       }
     ],
-    "updatedAt": "2026-09-21T01:22:25.999841+00:00"
+    "updatedAt": "2026-09-21T01:42:39.278457+00:00"
   },
   "operational": {
-    "updatedAt": "2026-09-21T01:22:53.462203+00:00",
+    "updatedAt": "2026-09-21T01:42:39.278457+00:00",
     "route7": {
-      "status": "SEGUIMIENTO ACTIVO",
-      "detail": "Seguimiento activo del corredor Añelo–Chañar; la fuente no publicó una alerta específica en esta lectura.",
-      "source": "Ruta0",
-      "mode": "SEGUIMIENTO ACTIVO",
-      "url": "https://www.ruta0.com/ruta/argentina/anelo-a-san-patricio-del-chanar/"
+      "source": "Dirección Provincial de Vialidad",
+      "sourceTier": "primary",
+      "sourceUrl": "https://www.dpvneuquen.gov.ar/",
+      "semanticState": null,
+      "publicationState": "source_reachable_no_current_machine_readable_state",
+      "retrievedAt": "2026-09-21T01:42:39.278457+00:00",
+      "evidence": {
+        "route7Mention": true,
+        "route8Mention": false
+      }
     },
     "route8": {
-      "status": "SEGUIMIENTO ACTIVO",
-      "detail": "Seguimiento activo del enlace RP7/RP8; la fuente de respaldo no publicó una novedad operativa específica en esta lectura.",
-      "source": "Ruta0",
-      "mode": "SEGUIMIENTO ACTIVO",
-      "url": "https://www.ruta0.com/estado-de-rutas/?pag=4"
+      "source": "Dirección Provincial de Vialidad",
+      "sourceTier": "primary",
+      "sourceUrl": "https://www.dpvneuquen.gov.ar/",
+      "semanticState": null,
+      "publicationState": "source_reachable_no_current_machine_readable_state",
+      "retrievedAt": "2026-09-21T01:42:39.278457+00:00",
+      "evidence": {
+        "route7Mention": true,
+        "route8Mention": false
+      }
     },
     "energy": {
-      "status": "MONITOREO EPEN ACTIVO",
-      "detail": "EPEN mantiene la consulta de cortes programados activa; la última publicación localizada para Chañar no indica una interrupción vigente en esta lectura.",
       "source": "EPEN",
-      "mode": "DIRECTA-WEB",
-      "url": "https://www.epen.gov.ar/index.php/cortes-programados/"
+      "sourceTier": "primary",
+      "sourceUrl": "https://www.epen.gov.ar/index.php/cortes-programados/",
+      "semanticState": null,
+      "eventType": null,
+      "detail": null,
+      "publicationState": "source_reachable_no_specific_local_notice",
+      "retrievedAt": "2026-09-21T01:42:39.278457+00:00"
     },
     "water": {
-      "status": "SERVICIO EN MONITOREO",
-      "detail": "La fuente municipal está operativa y no publica en esta lectura una interrupción de agua; se mantiene monitoreo automático.",
-      "source": "Municipalidad de San Patricio del Chañar",
-      "mode": "DIRECTA-WEB",
-      "url": "https://sanpatricio.gob.ar/"
+      "source": "EPAS",
+      "sourceTier": "primary",
+      "sourceUrl": "https://www.epas.gov.ar/",
+      "semanticState": null,
+      "eventType": null,
+      "detail": null,
+      "publicationState": "source_reachable_no_specific_local_notice",
+      "retrievedAt": "2026-09-21T01:42:39.278457+00:00"
     },
     "sources": [
       {
-        "name": "Vialidad Provincial · WSESTADORUTAS",
-        "mode": "FALLA",
-        "kind": "rutas-oficial",
-        "url": "https://ww4.neuquen.gov.ar/Pecas/Optic/xroad/monitoreo/auditoria/api/parte",
-        "error": "HTTPError"
-      },
-      {
-        "name": "Vialidad Provincial · WSESTADORUTAS",
-        "mode": "FALLA",
-        "kind": "rutas-oficial",
-        "url": "https://ww4.neuquen.gov.ar/Pecas/Optic/xroad/monitoreo/auditoria/api/rutas",
-        "error": "HTTPError"
-      },
-      {
-        "name": "Ruta0",
-        "mode": "OK",
-        "kind": "rutas",
-        "url": "https://www.ruta0.com/ruta/argentina/anelo-a-san-patricio-del-chanar/"
+        "name": "Dirección Provincial de Vialidad",
+        "tier": "primary",
+        "mode": "reachable",
+        "kind": "road_official",
+        "url": "https://www.dpvneuquen.gov.ar/"
       },
       {
         "name": "EPEN",
-        "mode": "OK",
-        "kind": "energia",
+        "tier": "primary",
+        "mode": "reachable",
+        "kind": "electricity_official",
         "url": "https://www.epen.gov.ar/index.php/cortes-programados/"
       },
       {
-        "name": "Municipalidad de San Patricio del Chañar",
-        "mode": "OK",
-        "kind": "agua",
-        "url": "https://sanpatricio.gob.ar/"
+        "name": "EPAS",
+        "tier": "primary",
+        "mode": "reachable",
+        "kind": "water_official",
+        "url": "https://www.epas.gov.ar/"
       }
     ]
   },
   "sourceContracts": {
-    "CONVERSACIÓN": {
-      "primary": "Chañar Digital",
-      "secondary": "Municipalidad de San Patricio del Chañar",
-      "fallback": "Neuquén Informa",
-      "refresh": "30 min",
-      "rule": "evidencia editorial local"
-    },
     "RUTA 7": {
-      "primary": "Dirección Provincial de Vialidad",
-      "secondary": "WSESTADORUTAS · API oficial",
-      "fallback": "Ruta0",
+      "primary": "Dirección Provincial de Vialidad del Neuquén",
+      "secondary": "WSESTADORUTAS · sistema oficial de estado vial",
+      "fallback": "ninguno para estado operativo",
       "refresh": "30 min",
-      "rule": "parte oficial > fuente comunitaria"
+      "domain": "estado de transitabilidad, cortes, obras y restricciones",
+      "unit": "estado vial / tramo / horario",
+      "language": "habilitación, precaución, reducción de calzada, corte, obra, desvío",
+      "rule": "fuente vial oficial > sistema oficial > referencia secundaria; nunca inferir transitabilidad desde ausencia de noticias"
     },
     "RUTA 8": {
-      "primary": "Dirección Provincial de Vialidad",
-      "secondary": "WSESTADORUTAS · API oficial",
-      "fallback": "Ruta0",
+      "primary": "Dirección Provincial de Vialidad del Neuquén",
+      "secondary": "WSESTADORUTAS · sistema oficial de estado vial",
+      "fallback": "Ruta0 · referencia secundaria",
       "refresh": "30 min",
-      "rule": "parte oficial > fuente comunitaria"
+      "domain": "estado de transitabilidad, cortes, obras y restricciones",
+      "unit": "estado vial / tramo / horario",
+      "language": "habilitación, precaución, reducción de calzada, corte, obra, desvío",
+      "rule": "fuente vial oficial > sistema oficial > referencia secundaria; nunca inferir transitabilidad desde ausencia de noticias"
     },
     "VIENTO": {
-      "primary": "AIC",
-      "secondary": "Open-Meteo",
-      "fallback": "Servicio Meteorológico Nacional",
+      "primary": "Autoridad Interjurisdiccional de las Cuencas (AIC) · Pronóstico El Chañar",
+      "secondary": "Servicio Meteorológico Nacional",
+      "fallback": "Open-Meteo / MET Norway · solo transporte meteorológico secundario",
       "refresh": "30 min",
-      "rule": "dato meteorológico directo; si falla no se muestra 0"
+      "domain": "viento meteorológico para El Chañar",
+      "unit": "km/h; ráfagas km/h; dirección; temperatura °C; presión hPa",
+      "language": "viento, ráfagas, dirección, temperatura, presión, pronóstico, observación",
+      "rule": "AIC es la autoridad primaria para el pronóstico local; si no entrega un valor válido, identificar expresamente la fuente secundaria utilizada"
+    },
+    "CAUDAL": {
+      "primary": "Autoridad Interjurisdiccional de las Cuencas (AIC) · Caudales Programados",
+      "secondary": "AIC · mediciones hidrológicas",
+      "fallback": "ninguno para dato actual; histórico solo fuera del indicador operativo",
+      "refresh": "30 min",
+      "domain": "caudal programado/medido del sistema hídrico asociado a El Chañar",
+      "unit": "m³/s",
+      "language": "caudal mínimo, caudal máximo, erogado, programado, medido, fecha",
+      "rule": "no presentar un valor histórico como actual; observedAt corresponde al dato y fetchedAt a la consulta"
     },
     "ENERGÍA": {
-      "primary": "EPEN",
-      "secondary": "Neuquén Informa",
-      "fallback": "Municipalidad de San Patricio del Chañar",
+      "primary": "Ente Provincial de Energía del Neuquén (EPEN)",
+      "secondary": "EPEN · cortes programados / comunicados",
+      "fallback": "Municipalidad de San Patricio del Chañar · solo comunicación local",
       "refresh": "30 min",
-      "rule": "parte EPEN > comunicado"
+      "domain": "cortes programados y afectación del suministro eléctrico",
+      "unit": "sector / fecha / horario",
+      "language": "corte programado, mantenimiento, sectores afectados, horario, restitución",
+      "rule": "no convertir ausencia de publicación en normalidad del servicio"
     },
     "AGUA": {
-      "primary": "EPAS",
+      "primary": "Ente Provincial de Agua y Saneamiento (EPAS)",
       "secondary": "Municipalidad de San Patricio del Chañar",
       "fallback": "Neuquén Informa",
       "refresh": "30 min",
-      "rule": "no inferir normalidad sin parte"
+      "domain": "abastecimiento y saneamiento de agua",
+      "unit": "servicio / sector / fecha / horario",
+      "language": "interrupción, baja presión, abastecimiento, reparación, restablecimiento",
+      "rule": "EPAS es la referencia técnica primaria; nunca inferir servicio normal por ausencia de aviso"
     },
     "SERVICIOS": {
       "primary": "Municipalidad de San Patricio del Chañar",
-      "secondary": "Neuquén Informa",
-      "fallback": "Chañar Digital",
+      "secondary": "organismo provincial competente según servicio",
+      "fallback": "Neuquén Informa",
       "refresh": "30 min",
-      "rule": "fuente institucional local"
+      "domain": "avisos y prestación de servicios municipales",
+      "unit": "servicio / sector / fecha / horario",
+      "language": "aviso, atención, interrupción, mantenimiento, habilitación, horario",
+      "rule": "cada evento debe conservar el organismo responsable del servicio"
     },
     "SALUD": {
-      "primary": "Salud Neuquén",
-      "secondary": "Hospital local / Salud Neuquén",
-      "fallback": "Municipalidad de San Patricio del Chañar",
+      "primary": "Ministerio de Salud de la Provincia del Neuquén",
+      "secondary": "Hospital San Patricio del Chañar Dra. Alicia Cruz",
+      "fallback": "organismo sanitario provincial",
       "refresh": "30 min",
-      "rule": "fuente sanitaria oficial"
+      "domain": "atención sanitaria, servicios y avisos de salud",
+      "unit": "establecimiento / servicio / fecha / horario",
+      "language": "atención, guardia, turno, servicio, campaña, aviso sanitario",
+      "rule": "no inferir disponibilidad clínica desde silencio editorial"
     },
     "EDUCACIÓN": {
-      "primary": "Consejo Provincial de Educación",
-      "secondary": "Neuquén Informa",
-      "fallback": "Municipalidad de San Patricio del Chañar",
+      "primary": "Consejo Provincial de Educación del Neuquén",
+      "secondary": "Ministerio de Educación del Neuquén",
+      "fallback": "Neuquén Informa",
       "refresh": "30 min",
-      "rule": "fuente educativa oficial"
+      "domain": "actividad educativa oficial",
+      "unit": "establecimiento / nivel / fecha / horario",
+      "language": "suspensión, clases, jornada, calendario, inscripción, establecimiento",
+      "rule": "la condición educativa debe provenir de autoridad educativa competente"
     },
     "PRODUCCIÓN": {
-      "primary": "Ministerio de Producción de Neuquén",
-      "secondary": "Neuquén Informa",
+      "primary": "Ministerio de Producción e Industria del Neuquén",
+      "secondary": "organismo provincial productivo competente",
       "fallback": "Municipalidad de San Patricio del Chañar",
       "refresh": "30 min",
-      "rule": "fuente productiva oficial"
+      "domain": "actividad productiva, agrícola y agroindustrial",
+      "unit": "programa / establecimiento / sector / fecha",
+      "language": "producción, cosecha, sanidad, riego, asistencia, programa, actividad",
+      "rule": "distinguir dato productivo de noticia general"
     },
     "EMERGENCIAS": {
-      "primary": "Defensa Civil Neuquén",
+      "primary": "Secretaría de Emergencias y Gestión de Riesgos de la Provincia del Neuquén",
       "secondary": "Bomberos Voluntarios de San Patricio del Chañar",
       "fallback": "Municipalidad de San Patricio del Chañar",
-      "refresh": "30 min",
-      "rule": "emergencia oficial > referencia institucional"
+      "refresh": "15 min",
+      "domain": "alertas, emergencias y respuesta operativa",
+      "unit": "evento / zona / fecha / horario",
+      "language": "alerta, emergencia, intervención, evacuación, prevención, incidente",
+      "rule": "solo publicar como emergencia lo que tenga fuente operativa o institucional identificable"
     },
     "TERRITORIO": {
       "primary": "Municipalidad de San Patricio del Chañar",
-      "secondary": "Dirección Provincial de Vialidad",
+      "secondary": "organismo provincial competente según fenómeno",
       "fallback": "Neuquén Informa",
       "refresh": "30 min",
-      "rule": "anclaje territorial explícito"
+      "domain": "hechos territoriales con anclaje explícito en San Patricio del Chañar",
+      "unit": "lugar / sector / evento / fecha",
+      "language": "localización, sector, obra, servicio, actividad, intervención",
+      "rule": "todo hecho territorial debe conservar su anclaje geográfico verificable"
+    },
+    "CONVERSACIÓN": {
+      "primary": "medios locales identificables",
+      "secondary": "fuentes institucionales competentes",
+      "fallback": "medios regionales",
+      "refresh": "30 min",
+      "domain": "agenda editorial local, no estado operativo",
+      "unit": "hecho / fecha / fuente",
+      "language": "tema, hecho, cobertura, fuente, fecha",
+      "rule": "este radar describe conversación editorial; nunca sustituye un indicador técnico u operativo"
     }
   },
+  "contractAudit": {
+    "RUTA 7": {
+      "valid": true,
+      "missing": [],
+      "primary": "Dirección Provincial de Vialidad del Neuquén",
+      "domain": "estado de transitabilidad, cortes, obras y restricciones",
+      "unit": "estado vial / tramo / horario",
+      "language": "habilitación, precaución, reducción de calzada, corte, obra, desvío",
+      "technical": {
+        "dataType": "road_operational_state",
+        "geography": "RP7 · tramo identificado",
+        "temporalField": "validFrom/validTo",
+        "parser": "DPV road-state parser",
+        "validation": "estado vial explícito + tramo + vigencia + fuente competente"
+      }
+    },
+    "RUTA 8": {
+      "valid": true,
+      "missing": [],
+      "primary": "Dirección Provincial de Vialidad del Neuquén",
+      "domain": "estado de transitabilidad, cortes, obras y restricciones",
+      "unit": "estado vial / tramo / horario",
+      "language": "habilitación, precaución, reducción de calzada, corte, obra, desvío",
+      "technical": {
+        "dataType": "road_operational_state",
+        "geography": "RP8 · tramo identificado",
+        "temporalField": "validFrom/validTo",
+        "parser": "DPV road-state parser",
+        "validation": "estado vial explícito + tramo + vigencia + fuente competente"
+      }
+    },
+    "VIENTO": {
+      "valid": true,
+      "missing": [],
+      "primary": "Autoridad Interjurisdiccional de las Cuencas (AIC) · Pronóstico El Chañar",
+      "domain": "viento meteorológico para El Chañar",
+      "unit": "km/h; ráfagas km/h; dirección; temperatura °C; presión hPa",
+      "language": "viento, ráfagas, dirección, temperatura, presión, pronóstico, observación",
+      "technical": {
+        "dataType": "meteorological_forecast",
+        "geography": "El Chañar",
+        "temporalField": "forecastPeriod",
+        "parser": "AIC El Chañar forecast parser",
+        "validation": "km/h + ráfagas + dirección + clasificación de pronóstico"
+      }
+    },
+    "CAUDAL": {
+      "valid": true,
+      "missing": [],
+      "primary": "Autoridad Interjurisdiccional de las Cuencas (AIC) · Caudales Programados",
+      "domain": "caudal programado/medido del sistema hídrico asociado a El Chañar",
+      "unit": "m³/s",
+      "language": "caudal mínimo, caudal máximo, erogado, programado, medido, fecha",
+      "technical": {
+        "dataType": "hydrological_program",
+        "geography": "Compensador/embalse El Chañar",
+        "temporalField": "programDate",
+        "parser": "AIC programmed-flow parser",
+        "validation": "m³/s + fecha + sitio + semántica programada"
+      }
+    },
+    "ENERGÍA": {
+      "valid": true,
+      "missing": [],
+      "primary": "Ente Provincial de Energía del Neuquén (EPEN)",
+      "domain": "cortes programados y afectación del suministro eléctrico",
+      "unit": "sector / fecha / horario",
+      "language": "corte programado, mantenimiento, sectores afectados, horario, restitución",
+      "technical": {
+        "dataType": "electricity_service_event",
+        "geography": "San Patricio del Chañar / sector",
+        "temporalField": "eventStart/eventEnd",
+        "parser": "EPEN outage parser",
+        "validation": "sector + evento + fecha/hora + EPEN"
+      }
+    },
+    "AGUA": {
+      "valid": true,
+      "missing": [],
+      "primary": "Ente Provincial de Agua y Saneamiento (EPAS)",
+      "domain": "abastecimiento y saneamiento de agua",
+      "unit": "servicio / sector / fecha / horario",
+      "language": "interrupción, baja presión, abastecimiento, reparación, restablecimiento",
+      "technical": {
+        "dataType": "water_service_event",
+        "geography": "San Patricio del Chañar / sector",
+        "temporalField": "eventDate/time",
+        "parser": "EPAS notice parser",
+        "validation": "sector + evento hídrico + fecha/hora + EPAS"
+      }
+    },
+    "SERVICIOS": {
+      "valid": true,
+      "missing": [],
+      "primary": "Municipalidad de San Patricio del Chañar",
+      "domain": "avisos y prestación de servicios municipales",
+      "unit": "servicio / sector / fecha / horario",
+      "language": "aviso, atención, interrupción, mantenimiento, habilitación, horario",
+      "technical": {
+        "dataType": "public_service_event",
+        "geography": "área del servicio",
+        "temporalField": "eventDate/time",
+        "parser": "competent-service parser",
+        "validation": "servicio + organismo responsable + evento + fecha"
+      }
+    },
+    "SALUD": {
+      "valid": true,
+      "missing": [],
+      "primary": "Ministerio de Salud de la Provincia del Neuquén",
+      "domain": "atención sanitaria, servicios y avisos de salud",
+      "unit": "establecimiento / servicio / fecha / horario",
+      "language": "atención, guardia, turno, servicio, campaña, aviso sanitario",
+      "technical": {
+        "dataType": "health_service_notice",
+        "geography": "establecimiento/cobertura",
+        "temporalField": "eventDate/time",
+        "parser": "health-authority parser",
+        "validation": "establecimiento + servicio + fecha + autoridad sanitaria"
+      }
+    },
+    "EDUCACIÓN": {
+      "valid": true,
+      "missing": [],
+      "primary": "Consejo Provincial de Educación del Neuquén",
+      "domain": "actividad educativa oficial",
+      "unit": "establecimiento / nivel / fecha / horario",
+      "language": "suspensión, clases, jornada, calendario, inscripción, establecimiento",
+      "technical": {
+        "dataType": "education_notice",
+        "geography": "establecimiento/nivel",
+        "temporalField": "eventDate/time",
+        "parser": "CPE notice parser",
+        "validation": "establecimiento + evento educativo + fecha + CPE"
+      }
+    },
+    "PRODUCCIÓN": {
+      "valid": true,
+      "missing": [],
+      "primary": "Ministerio de Producción e Industria del Neuquén",
+      "domain": "actividad productiva, agrícola y agroindustrial",
+      "unit": "programa / establecimiento / sector / fecha",
+      "language": "producción, cosecha, sanidad, riego, asistencia, programa, actividad",
+      "technical": {
+        "dataType": "productive_notice",
+        "geography": "cadena/establecimiento/sector",
+        "temporalField": "eventDate",
+        "parser": "productive-authority parser",
+        "validation": "actividad productiva + anclaje local + fecha + fuente competente"
+      }
+    },
+    "EMERGENCIAS": {
+      "valid": true,
+      "missing": [],
+      "primary": "Secretaría de Emergencias y Gestión de Riesgos de la Provincia del Neuquén",
+      "domain": "alertas, emergencias y respuesta operativa",
+      "unit": "evento / zona / fecha / horario",
+      "language": "alerta, emergencia, intervención, evacuación, prevención, incidente",
+      "technical": {
+        "dataType": "emergency_operational_event",
+        "geography": "zona del evento",
+        "temporalField": "alertTime/eventTime",
+        "parser": "emergency-authority parser",
+        "validation": "evento + zona + timestamp + fuente operativa"
+      }
+    },
+    "TERRITORIO": {
+      "valid": true,
+      "missing": [],
+      "primary": "Municipalidad de San Patricio del Chañar",
+      "domain": "hechos territoriales con anclaje explícito en San Patricio del Chañar",
+      "unit": "lugar / sector / evento / fecha",
+      "language": "localización, sector, obra, servicio, actividad, intervención",
+      "technical": {
+        "dataType": "territorial_event",
+        "geography": "lugar/sector local",
+        "temporalField": "eventDate",
+        "parser": "municipal/competent-authority parser",
+        "validation": "anclaje geográfico + organismo + evento + fecha"
+      }
+    },
+    "CONVERSACIÓN": {
+      "valid": true,
+      "missing": [],
+      "primary": "medios locales identificables",
+      "domain": "agenda editorial local, no estado operativo",
+      "unit": "hecho / fecha / fuente",
+      "language": "tema, hecho, cobertura, fuente, fecha",
+      "technical": {
+        "dataType": "editorial_event",
+        "geography": "San Patricio del Chañar",
+        "temporalField": "publishedAt",
+        "parser": "RSS/web parser",
+        "validation": "relevancia local + fecha + URL + identidad de fuente"
+      }
+    }
+  },
+  "auxiliaryIndicatorContracts": {
+    "TEMPERATURA": {
+      "primary": "AIC · Pronóstico El Chañar",
+      "secondary": "Servicio Meteorológico Nacional",
+      "domain": "temperatura meteorológica local",
+      "unit": "°C",
+      "language": "temperatura mínima, temperatura máxima, período de pronóstico",
+      "rule": "distinguir pronóstico de observación"
+    },
+    "NIVEL_RIO": {
+      "primary": "AIC · estación COMPENSADOR EL CHANAR",
+      "secondary": "AIC · mediciones hidrológicas",
+      "domain": "altura de río/lago",
+      "unit": "m",
+      "language": "altura de río/lago, fecha de actualización",
+      "rule": "no publicar sin sitio de estación y timestamp"
+    },
+    "CAUDAL_OBSERVADO": {
+      "primary": "AIC · estación COMPENSADOR EL CHANAR",
+      "secondary": "AIC · mediciones hidrológicas",
+      "domain": "caudal medio diario medido",
+      "unit": "m³/s",
+      "language": "caudal medio diario medido, fecha",
+      "rule": "no mezclar con caudal saliente programado"
+    },
+    "CALIDAD_AIRE": {
+      "primary": "Ministerio de Salud de Neuquén · red de monitoreo de calidad del aire",
+      "secondary": "Sustentabilidad Sin Fronteras / estación cuando esté operativa",
+      "domain": "calidad del aire local",
+      "unit": "PM2.5 y parámetros publicados",
+      "language": "PM2.5, contaminante, concentración, fecha/hora",
+      "rule": "no publicar Chañar hasta verificar estación local operativa y lectura accesible"
+    },
+    "RIESGO_INCENDIO": {
+      "primary": "Servicio Meteorológico Nacional · Índice de Peligro de Incendios FWI",
+      "secondary": "autoridad provincial de manejo del fuego",
+      "domain": "peligro meteorológico de incendios",
+      "unit": "índice/clase",
+      "language": "peligro bajo, moderado, alto, muy alto, extremo, FWI y vigencia",
+      "rule": "no inferir peligro de incendio solo a partir de viento o temperatura"
+    },
+    "ESTADO_TRANSITO": {
+      "primary": "autoridad vial competente según corredor",
+      "secondary": "autoridad de tránsito competente según jurisdicción",
+      "domain": "estado de tránsito de un corredor/tramo",
+      "unit": "tramo / evento / vigencia",
+      "language": "restricción, incidente, desvío, demora, corte, circulación",
+      "rule": "no mezclar RP, RN y tránsito urbano bajo una sola fuente"
+    }
+  },
+  "contractVersion": "RADAR-DATA-CONTRACT-2.0",
   "systemRadars": [
     {
       "id": "CONVERSACIÓN",
       "label": "Conversación general",
       "signal": 5,
-      "status": "SEÑAL RECIENTE",
-      "freshnessHours": 3.1,
+      "status": "cobertura editorial",
+      "freshnessHours": 3.4,
       "mode": "evidencia editorial",
       "evidenceCount": 5,
+      "sourceContract": {
+        "primary": "medios locales identificables",
+        "secondary": "fuentes institucionales competentes",
+        "fallback": "medios regionales",
+        "refresh": "30 min",
+        "domain": "agenda editorial local, no estado operativo",
+        "unit": "hecho / fecha / fuente",
+        "language": "tema, hecho, cobertura, fuente, fecha",
+        "rule": "este radar describe conversación editorial; nunca sustituye un indicador técnico u operativo"
+      },
+      "contractVersion": "RADAR-DATA-CONTRACT-2.0",
       "sources": [
         {
           "name": "Chañar Digital",
@@ -1942,23 +2225,27 @@
           "mode": "RESPALDO",
           "url": "https://www.neuqueninforma.gob.ar/"
         }
-      ],
-      "sourceContract": {
-        "primary": "Chañar Digital",
-        "secondary": "Municipalidad de San Patricio del Chañar",
-        "fallback": "Neuquén Informa",
-        "refresh": "30 min",
-        "rule": "evidencia editorial local"
-      }
+      ]
     },
     {
       "id": "RUTA 7",
       "label": "Corredor Ruta 7",
       "signal": 0,
-      "status": "SIN SEÑAL RECIENTE",
+      "status": "estado vial",
       "freshnessHours": null,
       "mode": "evidencia territorial",
       "evidenceCount": 0,
+      "sourceContract": {
+        "primary": "Dirección Provincial de Vialidad del Neuquén",
+        "secondary": "WSESTADORUTAS · sistema oficial de estado vial",
+        "fallback": "ninguno para estado operativo",
+        "refresh": "30 min",
+        "domain": "estado de transitabilidad, cortes, obras y restricciones",
+        "unit": "estado vial / tramo / horario",
+        "language": "habilitación, precaución, reducción de calzada, corte, obra, desvío",
+        "rule": "fuente vial oficial > sistema oficial > referencia secundaria; nunca inferir transitabilidad desde ausencia de noticias"
+      },
+      "contractVersion": "RADAR-DATA-CONTRACT-2.0",
       "sources": [
         {
           "name": "Dirección Provincial de Vialidad",
@@ -1979,29 +2266,38 @@
           "url": "https://www.ruta0.com/estado-de-rutas/"
         }
       ],
-      "sourceContract": {
-        "primary": "Dirección Provincial de Vialidad",
-        "secondary": "WSESTADORUTAS · API oficial",
-        "fallback": "Ruta0",
-        "refresh": "30 min",
-        "rule": "parte oficial > fuente comunitaria"
-      },
       "operational": {
-        "status": "SEGUIMIENTO ACTIVO",
-        "detail": "Seguimiento activo del corredor Añelo–Chañar; la fuente no publicó una alerta específica en esta lectura.",
-        "source": "Ruta0",
-        "mode": "SEGUIMIENTO ACTIVO",
-        "url": "https://www.ruta0.com/ruta/argentina/anelo-a-san-patricio-del-chanar/"
+        "source": "Dirección Provincial de Vialidad",
+        "sourceTier": "primary",
+        "sourceUrl": "https://www.dpvneuquen.gov.ar/",
+        "semanticState": null,
+        "publicationState": "source_reachable_no_current_machine_readable_state",
+        "retrievedAt": "2026-09-21T01:42:39.278457+00:00",
+        "evidence": {
+          "route7Mention": true,
+          "route8Mention": false
+        }
       }
     },
     {
       "id": "RUTA 8",
       "label": "Corredor Ruta 8",
       "signal": 0,
-      "status": "SIN SEÑAL RECIENTE",
+      "status": "estado vial",
       "freshnessHours": null,
       "mode": "evidencia territorial",
       "evidenceCount": 0,
+      "sourceContract": {
+        "primary": "Dirección Provincial de Vialidad del Neuquén",
+        "secondary": "WSESTADORUTAS · sistema oficial de estado vial",
+        "fallback": "Ruta0 · referencia secundaria",
+        "refresh": "30 min",
+        "domain": "estado de transitabilidad, cortes, obras y restricciones",
+        "unit": "estado vial / tramo / horario",
+        "language": "habilitación, precaución, reducción de calzada, corte, obra, desvío",
+        "rule": "fuente vial oficial > sistema oficial > referencia secundaria; nunca inferir transitabilidad desde ausencia de noticias"
+      },
+      "contractVersion": "RADAR-DATA-CONTRACT-2.0",
       "sources": [
         {
           "name": "Dirección Provincial de Vialidad",
@@ -2022,29 +2318,38 @@
           "url": "https://www.ruta0.com/estado-de-rutas/"
         }
       ],
-      "sourceContract": {
-        "primary": "Dirección Provincial de Vialidad",
-        "secondary": "WSESTADORUTAS · API oficial",
-        "fallback": "Ruta0",
-        "refresh": "30 min",
-        "rule": "parte oficial > fuente comunitaria"
-      },
       "operational": {
-        "status": "SEGUIMIENTO ACTIVO",
-        "detail": "Seguimiento activo del enlace RP7/RP8; la fuente de respaldo no publicó una novedad operativa específica en esta lectura.",
-        "source": "Ruta0",
-        "mode": "SEGUIMIENTO ACTIVO",
-        "url": "https://www.ruta0.com/estado-de-rutas/?pag=4"
+        "source": "Dirección Provincial de Vialidad",
+        "sourceTier": "primary",
+        "sourceUrl": "https://www.dpvneuquen.gov.ar/",
+        "semanticState": null,
+        "publicationState": "source_reachable_no_current_machine_readable_state",
+        "retrievedAt": "2026-09-21T01:42:39.278457+00:00",
+        "evidence": {
+          "route7Mention": true,
+          "route8Mention": false
+        }
       }
     },
     {
       "id": "VIENTO",
       "label": "Condición de viento",
-      "signal": 44.64,
-      "status": "DATO DIRECTO",
+      "signal": 50.0,
+      "status": "pronóstico local",
       "freshnessHours": null,
       "mode": "DATO DIRECTO",
       "evidenceCount": 0,
+      "sourceContract": {
+        "primary": "Autoridad Interjurisdiccional de las Cuencas (AIC) · Pronóstico El Chañar",
+        "secondary": "Servicio Meteorológico Nacional",
+        "fallback": "Open-Meteo / MET Norway · solo transporte meteorológico secundario",
+        "refresh": "30 min",
+        "domain": "viento meteorológico para El Chañar",
+        "unit": "km/h; ráfagas km/h; dirección; temperatura °C; presión hPa",
+        "language": "viento, ráfagas, dirección, temperatura, presión, pronóstico, observación",
+        "rule": "AIC es la autoridad primaria para el pronóstico local; si no entrega un valor válido, identificar expresamente la fuente secundaria utilizada"
+      },
+      "contractVersion": "RADAR-DATA-CONTRACT-2.0",
       "sources": [
         {
           "name": "AIC",
@@ -2070,23 +2375,27 @@
           "mode": "RESPALDO",
           "url": "https://www.neuqueninforma.gob.ar/"
         }
-      ],
-      "sourceContract": {
-        "primary": "AIC",
-        "secondary": "Open-Meteo",
-        "fallback": "Servicio Meteorológico Nacional",
-        "refresh": "30 min",
-        "rule": "dato meteorológico directo; si falla no se muestra 0"
-      }
+      ]
     },
     {
       "id": "ENERGÍA",
       "label": "Electricidad / cortes de luz",
       "signal": 1,
-      "status": "SEÑAL DETECTADA",
-      "freshnessHours": 330.4,
+      "status": "evento eléctrico",
+      "freshnessHours": 330.7,
       "mode": "evidencia editorial",
       "evidenceCount": 1,
+      "sourceContract": {
+        "primary": "Ente Provincial de Energía del Neuquén (EPEN)",
+        "secondary": "EPEN · cortes programados / comunicados",
+        "fallback": "Municipalidad de San Patricio del Chañar · solo comunicación local",
+        "refresh": "30 min",
+        "domain": "cortes programados y afectación del suministro eléctrico",
+        "unit": "sector / fecha / horario",
+        "language": "corte programado, mantenimiento, sectores afectados, horario, restitución",
+        "rule": "no convertir ausencia de publicación en normalidad del servicio"
+      },
+      "contractVersion": "RADAR-DATA-CONTRACT-2.0",
       "sources": [
         {
           "name": "EPEN",
@@ -2107,29 +2416,36 @@
           "url": "https://sanpatricio.gob.ar/"
         }
       ],
-      "sourceContract": {
-        "primary": "EPEN",
-        "secondary": "Neuquén Informa",
-        "fallback": "Municipalidad de San Patricio del Chañar",
-        "refresh": "30 min",
-        "rule": "parte EPEN > comunicado"
-      },
       "operational": {
-        "status": "MONITOREO EPEN ACTIVO",
-        "detail": "EPEN mantiene la consulta de cortes programados activa; la última publicación localizada para Chañar no indica una interrupción vigente en esta lectura.",
         "source": "EPEN",
-        "mode": "DIRECTA-WEB",
-        "url": "https://www.epen.gov.ar/index.php/cortes-programados/"
+        "sourceTier": "primary",
+        "sourceUrl": "https://www.epen.gov.ar/index.php/cortes-programados/",
+        "semanticState": null,
+        "eventType": null,
+        "detail": null,
+        "publicationState": "source_reachable_no_specific_local_notice",
+        "retrievedAt": "2026-09-21T01:42:39.278457+00:00"
       }
     },
     {
       "id": "AGUA",
       "label": "Agua / abastecimiento",
       "signal": 0,
-      "status": "SIN SEÑAL RECIENTE",
+      "status": "evento hídrico",
       "freshnessHours": null,
       "mode": "evidencia editorial",
       "evidenceCount": 0,
+      "sourceContract": {
+        "primary": "Ente Provincial de Agua y Saneamiento (EPAS)",
+        "secondary": "Municipalidad de San Patricio del Chañar",
+        "fallback": "Neuquén Informa",
+        "refresh": "30 min",
+        "domain": "abastecimiento y saneamiento de agua",
+        "unit": "servicio / sector / fecha / horario",
+        "language": "interrupción, baja presión, abastecimiento, reparación, restablecimiento",
+        "rule": "EPAS es la referencia técnica primaria; nunca inferir servicio normal por ausencia de aviso"
+      },
+      "contractVersion": "RADAR-DATA-CONTRACT-2.0",
       "sources": [
         {
           "name": "Municipalidad de San Patricio del Chañar",
@@ -2150,29 +2466,36 @@
           "url": "https://www.neuqueninforma.gob.ar/"
         }
       ],
-      "sourceContract": {
-        "primary": "EPAS",
-        "secondary": "Municipalidad de San Patricio del Chañar",
-        "fallback": "Neuquén Informa",
-        "refresh": "30 min",
-        "rule": "no inferir normalidad sin parte"
-      },
       "operational": {
-        "status": "SERVICIO EN MONITOREO",
-        "detail": "La fuente municipal está operativa y no publica en esta lectura una interrupción de agua; se mantiene monitoreo automático.",
-        "source": "Municipalidad de San Patricio del Chañar",
-        "mode": "DIRECTA-WEB",
-        "url": "https://sanpatricio.gob.ar/"
+        "source": "EPAS",
+        "sourceTier": "primary",
+        "sourceUrl": "https://www.epas.gov.ar/",
+        "semanticState": null,
+        "eventType": null,
+        "detail": null,
+        "publicationState": "source_reachable_no_specific_local_notice",
+        "retrievedAt": "2026-09-21T01:42:39.278457+00:00"
       }
     },
     {
       "id": "SERVICIOS",
       "label": "Servicios e infraestructura",
       "signal": 0,
-      "status": "SIN SEÑAL RECIENTE",
+      "status": "evidencia de servicio",
       "freshnessHours": null,
       "mode": "evidencia editorial",
       "evidenceCount": 0,
+      "sourceContract": {
+        "primary": "Municipalidad de San Patricio del Chañar",
+        "secondary": "organismo provincial competente según servicio",
+        "fallback": "Neuquén Informa",
+        "refresh": "30 min",
+        "domain": "avisos y prestación de servicios municipales",
+        "unit": "servicio / sector / fecha / horario",
+        "language": "aviso, atención, interrupción, mantenimiento, habilitación, horario",
+        "rule": "cada evento debe conservar el organismo responsable del servicio"
+      },
+      "contractVersion": "RADAR-DATA-CONTRACT-2.0",
       "sources": [
         {
           "name": "Municipalidad de San Patricio del Chañar",
@@ -2192,23 +2515,27 @@
           "mode": "RESPALDO",
           "url": "https://www.chanardigital.com.ar/"
         }
-      ],
-      "sourceContract": {
-        "primary": "Municipalidad de San Patricio del Chañar",
-        "secondary": "Neuquén Informa",
-        "fallback": "Chañar Digital",
-        "refresh": "30 min",
-        "rule": "fuente institucional local"
-      }
+      ]
     },
     {
       "id": "SALUD",
       "label": "Salud",
       "signal": 0,
-      "status": "SIN SEÑAL RECIENTE",
+      "status": "evidencia sanitaria",
       "freshnessHours": null,
       "mode": "evidencia editorial",
       "evidenceCount": 0,
+      "sourceContract": {
+        "primary": "Ministerio de Salud de la Provincia del Neuquén",
+        "secondary": "Hospital San Patricio del Chañar Dra. Alicia Cruz",
+        "fallback": "organismo sanitario provincial",
+        "refresh": "30 min",
+        "domain": "atención sanitaria, servicios y avisos de salud",
+        "unit": "establecimiento / servicio / fecha / horario",
+        "language": "atención, guardia, turno, servicio, campaña, aviso sanitario",
+        "rule": "no inferir disponibilidad clínica desde silencio editorial"
+      },
+      "contractVersion": "RADAR-DATA-CONTRACT-2.0",
       "sources": [
         {
           "name": "Hospital Dra. Alicia Cruz",
@@ -2228,23 +2555,27 @@
           "mode": "RESPALDO",
           "url": "https://sanpatricio.gob.ar/"
         }
-      ],
-      "sourceContract": {
-        "primary": "Salud Neuquén",
-        "secondary": "Hospital local / Salud Neuquén",
-        "fallback": "Municipalidad de San Patricio del Chañar",
-        "refresh": "30 min",
-        "rule": "fuente sanitaria oficial"
-      }
+      ]
     },
     {
       "id": "EDUCACIÓN",
       "label": "Educación",
       "signal": 2,
-      "status": "SEÑAL DETECTADA",
-      "freshnessHours": 26.3,
+      "status": "evidencia educativa",
+      "freshnessHours": 26.7,
       "mode": "evidencia editorial",
       "evidenceCount": 2,
+      "sourceContract": {
+        "primary": "Consejo Provincial de Educación del Neuquén",
+        "secondary": "Ministerio de Educación del Neuquén",
+        "fallback": "Neuquén Informa",
+        "refresh": "30 min",
+        "domain": "actividad educativa oficial",
+        "unit": "establecimiento / nivel / fecha / horario",
+        "language": "suspensión, clases, jornada, calendario, inscripción, establecimiento",
+        "rule": "la condición educativa debe provenir de autoridad educativa competente"
+      },
+      "contractVersion": "RADAR-DATA-CONTRACT-2.0",
       "sources": [
         {
           "name": "Consejo Provincial de Educación",
@@ -2264,23 +2595,27 @@
           "mode": "RESPALDO",
           "url": "https://sanpatricio.gob.ar/"
         }
-      ],
-      "sourceContract": {
-        "primary": "Consejo Provincial de Educación",
-        "secondary": "Neuquén Informa",
-        "fallback": "Municipalidad de San Patricio del Chañar",
-        "refresh": "30 min",
-        "rule": "fuente educativa oficial"
-      }
+      ]
     },
     {
       "id": "PRODUCCIÓN",
       "label": "Producción rural",
       "signal": 0,
-      "status": "SIN SEÑAL RECIENTE",
+      "status": "evidencia productiva",
       "freshnessHours": null,
       "mode": "evidencia editorial",
       "evidenceCount": 0,
+      "sourceContract": {
+        "primary": "Ministerio de Producción e Industria del Neuquén",
+        "secondary": "organismo provincial productivo competente",
+        "fallback": "Municipalidad de San Patricio del Chañar",
+        "refresh": "30 min",
+        "domain": "actividad productiva, agrícola y agroindustrial",
+        "unit": "programa / establecimiento / sector / fecha",
+        "language": "producción, cosecha, sanidad, riego, asistencia, programa, actividad",
+        "rule": "distinguir dato productivo de noticia general"
+      },
+      "contractVersion": "RADAR-DATA-CONTRACT-2.0",
       "sources": [
         {
           "name": "Ministerio de Producción e Industria de Neuquén",
@@ -2300,23 +2635,27 @@
           "mode": "RESPALDO",
           "url": "https://www.chanardigital.com.ar/"
         }
-      ],
-      "sourceContract": {
-        "primary": "Ministerio de Producción de Neuquén",
-        "secondary": "Neuquén Informa",
-        "fallback": "Municipalidad de San Patricio del Chañar",
-        "refresh": "30 min",
-        "rule": "fuente productiva oficial"
-      }
+      ]
     },
     {
       "id": "EMERGENCIAS",
       "label": "Seguridad / emergencias",
       "signal": 0,
-      "status": "SIN SEÑAL RECIENTE",
+      "status": "cobertura de emergencia",
       "freshnessHours": null,
       "mode": "evidencia editorial",
       "evidenceCount": 0,
+      "sourceContract": {
+        "primary": "Secretaría de Emergencias y Gestión de Riesgos de la Provincia del Neuquén",
+        "secondary": "Bomberos Voluntarios de San Patricio del Chañar",
+        "fallback": "Municipalidad de San Patricio del Chañar",
+        "refresh": "15 min",
+        "domain": "alertas, emergencias y respuesta operativa",
+        "unit": "evento / zona / fecha / horario",
+        "language": "alerta, emergencia, intervención, evacuación, prevención, incidente",
+        "rule": "solo publicar como emergencia lo que tenga fuente operativa o institucional identificable"
+      },
+      "contractVersion": "RADAR-DATA-CONTRACT-2.0",
       "sources": [
         {
           "name": "Defensa Civil Neuquén",
@@ -2336,23 +2675,27 @@
           "mode": "DIRECTA-WEB",
           "url": "https://sanpatricio.gob.ar/sec-ciudadana"
         }
-      ],
-      "sourceContract": {
-        "primary": "Defensa Civil Neuquén",
-        "secondary": "Bomberos Voluntarios de San Patricio del Chañar",
-        "fallback": "Municipalidad de San Patricio del Chañar",
-        "refresh": "30 min",
-        "rule": "emergencia oficial > referencia institucional"
-      }
+      ]
     },
     {
       "id": "TERRITORIO",
       "label": "Territorio / microzonas",
       "signal": 0,
-      "status": "SIN SEÑAL RECIENTE",
+      "status": "hecho territorial",
       "freshnessHours": null,
       "mode": "evidencia territorial",
       "evidenceCount": 0,
+      "sourceContract": {
+        "primary": "Municipalidad de San Patricio del Chañar",
+        "secondary": "organismo provincial competente según fenómeno",
+        "fallback": "Neuquén Informa",
+        "refresh": "30 min",
+        "domain": "hechos territoriales con anclaje explícito en San Patricio del Chañar",
+        "unit": "lugar / sector / evento / fecha",
+        "language": "localización, sector, obra, servicio, actividad, intervención",
+        "rule": "todo hecho territorial debe conservar su anclaje geográfico verificable"
+      },
+      "contractVersion": "RADAR-DATA-CONTRACT-2.0",
       "sources": [
         {
           "name": "Municipalidad de San Patricio del Chañar",
@@ -2372,14 +2715,7 @@
           "mode": "RESPALDO",
           "url": "https://www.neuqueninforma.gob.ar/"
         }
-      ],
-      "sourceContract": {
-        "primary": "Municipalidad de San Patricio del Chañar",
-        "secondary": "Dirección Provincial de Vialidad",
-        "fallback": "Neuquén Informa",
-        "refresh": "30 min",
-        "rule": "anclaje territorial explícito"
-      }
+      ]
     }
   ],
   "system": {
@@ -2403,7 +2739,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://chanardigital.com.ar/",
-        "lastFetch": "2026-09-21T01:22:28.567648+00:00",
+        "lastFetch": "2026-09-21T01:42:41.629806+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -2419,7 +2755,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.radiomia.com.ar/",
-        "lastFetch": "2026-09-21T01:22:29.397811+00:00",
+        "lastFetch": "2026-09-21T01:42:42.878113+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -2434,7 +2770,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://tuitvacamuerta.com/",
-        "lastFetch": "2026-09-21T01:22:31.178609+00:00",
+        "lastFetch": "2026-09-21T01:42:44.736828+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -2449,7 +2785,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.vacamuertanews.com/",
-        "lastFetch": "2026-09-21T01:22:31.443930+00:00",
+        "lastFetch": "2026-09-21T01:42:45.382660+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -2465,7 +2801,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.neuqueninforma.gob.ar/",
-        "lastFetch": "2026-09-21T01:22:32.605897+00:00",
+        "lastFetch": "2026-09-21T01:42:46.841340+00:00",
         "success": false,
         "attempted": 3,
         "failures": [
@@ -2482,7 +2818,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://sanpatricio.gob.ar/",
-        "lastFetch": "2026-09-21T01:22:33.645965+00:00",
+        "lastFetch": "2026-09-21T01:42:47.873005+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -2497,7 +2833,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://boletinoficial.neuquen.gov.ar/",
-        "lastFetch": "2026-09-21T01:22:34.671258+00:00",
+        "lastFetch": "2026-09-21T01:42:48.651556+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -2512,7 +2848,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.lmneuquen.com/",
-        "lastFetch": "2026-09-21T01:22:34.897807+00:00",
+        "lastFetch": "2026-09-21T01:42:48.958276+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -2528,14 +2864,14 @@
         "mode": "RSS DIRECTO",
         "signals": 1,
         "url": "https://www.rionegro.com.ar/",
-        "lastFetch": "2026-09-21T01:22:38.879067+00:00",
+        "lastFetch": "2026-09-21T01:42:52.256700+00:00",
         "success": true,
         "attempted": 2,
         "failures": [
           "WEB:AttributeError"
         ],
         "directAvailability": "available",
-        "freshnessHours": 3.1
+        "freshnessHours": 3.4
       },
       {
         "name": "Mejor Informado",
@@ -2543,7 +2879,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.mejorinformado.com/",
-        "lastFetch": "2026-09-21T01:22:39.468565+00:00",
+        "lastFetch": "2026-09-21T01:42:52.810628+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -2559,7 +2895,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.diariamenteneuquen.com/",
-        "lastFetch": "2026-09-21T01:22:42.343345+00:00",
+        "lastFetch": "2026-09-21T01:42:53.639086+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -2774,15 +3110,14 @@
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "EDUCACIÓN",
       "movement": 16,
-      "coverage": 2,
-      "sourceCount": 2,
+      "coverage": 1,
+      "sourceCount": 1,
       "directSourceCount": 0,
       "territorialAnchors": [
         "cpem 31"
       ],
       "sources": [
-        "chanardigital.com.ar",
-        "Chañar Digital"
+        "chanardigital.com.ar"
       ],
       "evidenceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNaDU2elBEeFZ2X21INm5TSVdQd2NjaDI1V3VfYmZmZjNZTkQ2MGpSQ0N2dTNBUEZHSXQ3a2tHeTlUYWlTMlJIbDVOXy1Rb1RLOWhJS1ZxWktabDJDZy1NREpZV1o1c2hSbGJySmRsMkRUUUJWTFppTm9kTVVaZEtDeS1fR3RVUkVyUnYzN0tZSVdUVjVOek1rbGlsVmV5emFaRGdPZlBJc043VW5kdzltRV9fejlELUg4djEzd2Z3X1loOGc2bXBzeUg2MnY?oc=5",
       "items": [
@@ -2804,35 +3139,15 @@
           "titleKey": "violento episodio cpem padre ingreso colegio arma blanca chanardigital com",
           "evidenceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNaDU2elBEeFZ2X21INm5TSVdQd2NjaDI1V3VfYmZmZjNZTkQ2MGpSQ0N2dTNBUEZHSXQ3a2tHeTlUYWlTMlJIbDVOXy1Rb1RLOWhJS1ZxWktabDJDZy1NREpZV1o1c2hSbGJySmRsMkRUUUJWTFppTm9kTVVaZEtDeS1fR3RVUkVyUnYzN0tZSVdUVjVOek1rbGlsVmV5emFaRGdPZlBJc043VW5kdzltRV9fejlELUg4djEzd2Z3X1loOGc2bXBzeUg2MnY?oc=5",
           "sourcePriority": 3
-        },
-        {
-          "title": "Violento episodio en el CPEM 31: un padre ingresó al colegio con un arma blanca - Chañar Digital",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNaDU2elBEeFZ2X21INm5TSVdQd2NjaDI1V3VfYmZmZjNZTkQ2MGpSQ0N2dTNBUEZHSXQ3a2tHeTlUYWlTMlJIbDVOXy1Rb1RLOWhJS1ZxWktabDJDZy1NREpZV1o1c2hSbGJySmRsMkRUUUJWTFppTm9kTVVaZEtDeS1fR3RVUkVyUnYzN0tZSVdUVjVOek1rbGlsVmV5emFaRGdPZlBJc043VW5kdzltRV9fejlELUg4djEzd2Z3X1loOGc2bXBzeUg2MnY?oc=5",
-          "publishedAt": "2026-09-10T17:56:38+00:00",
-          "published": "2026-09-10T17:56:38+00:00",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMizAFBVV95cUxNaDU2elBEeFZ2X21INm5TSVdQd2NjaDI1V3VfYmZmZjNZTkQ2MGpSQ0N2dTNBUEZHSXQ3a2tHeTlUYWlTMlJIbDVOXy1Rb1RLOWhJS1ZxWktabDJDZy1NREpZV1o1c2hSbGJySmRsMkRUUUJWTFppTm9kTVVaZEtDeS1fR3RVUkVyUnYzN0tZSVdUVjVOek1rbGlsVmV5emFaRGdPZlBJc043VW5kdzltRV9fejlELUg4djEzd2Z3X1loOGc2bXBzeUg2MnY?oc=5\" target=\"_blank\">Violento episodio en el CPEM 31: un padre ingresó al colegio con un arma blanca</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Chañar Digital</font>",
-          "source": "Chañar Digital",
-          "sourceType": "BUSCADOR / RESPALDO",
-          "sourceUrl": "",
-          "collection": "BUSCADOR",
-          "query": "site:chanardigital.com.ar \"San Patricio del Chañar\"",
-          "relevance": 3,
-          "relevanceLabel": "DIRECTA",
-          "firstSeen": "2026-09-21T00:59:40.731423+00:00",
-          "isNew": false,
-          "titleKey": "violento episodio cpem padre ingreso colegio arma blanca digital",
-          "evidenceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNaDU2elBEeFZ2X21INm5TSVdQd2NjaDI1V3VfYmZmZjNZTkQ2MGpSQ0N2dTNBUEZHSXQ3a2tHeTlUYWlTMlJIbDVOXy1Rb1RLOWhJS1ZxWktabDJDZy1NREpZV1o1c2hSbGJySmRsMkRUUUJWTFppTm9kTVVaZEtDeS1fR3RVUkVyUnYzN0tZSVdUVjVOek1rbGlsVmV5emFaRGdPZlBJc043VW5kdzltRV9fejlELUg4djEzd2Z3X1loOGc2bXBzeUg2MnY?oc=5",
-          "sourcePriority": 3
         }
       ],
       "lifecycle": "RECIENTE",
       "movementDelta": 0,
       "previousCoverage": 1,
       "newSources": [
-        "chanardigital.com.ar",
-        "Chañar Digital"
+        "chanardigital.com.ar"
       ],
-      "sourceDiversity": 2,
+      "sourceDiversity": 1,
       "memoryMatched": true,
       "isNew": false,
       "view": "INCIDENCIA",
@@ -3148,7 +3463,7 @@
   ],
   "territorialGraph": {
     "version": "2.0",
-    "generatedAt": "2026-09-21T01:22:59.011603+00:00",
+    "generatedAt": "2026-09-21T01:43:17.001729+00:00",
     "root": "spc",
     "rule": "evidence-first",
     "levels": [
@@ -3751,16 +4066,16 @@
   },
   "audit": {
     "version": "1.0",
-    "updatedAt": "2026-09-21T01:22:59.046598+00:00",
+    "updatedAt": "2026-09-21T01:43:17.043521+00:00",
     "rule": "fact != coverage; territory requires textual evidence",
     "facts": 5,
-    "coverage": 7,
-    "coveragePerFact": 1.4,
+    "coverage": 6,
+    "coveragePerFact": 1.2,
     "directAnchorFacts": 5,
     "directAnchorPct": 100.0,
     "territorySpecificFacts": 2,
     "territorySpecificPct": 40.0,
-    "averageSourcesPerFact": 1.4,
+    "averageSourcesPerFact": 1.2,
     "activeTerritorialNodes": 3,
     "failedSources": 10,
     "acceptedWithoutLocalEvidence": 0,
