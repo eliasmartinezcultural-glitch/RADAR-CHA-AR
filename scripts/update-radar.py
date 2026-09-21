@@ -301,18 +301,139 @@ RADAR_SOURCE_MAP={
 }
 
 SOURCE_CONTRACTS = {
-    'CONVERSACIÓN': {'primary':'Chañar Digital','secondary':'Municipalidad de San Patricio del Chañar','fallback':'Neuquén Informa','refresh':'30 min','rule':'evidencia editorial local'},
-    'RUTA 7': {'primary':'Dirección Provincial de Vialidad','secondary':'WSESTADORUTAS · API oficial','fallback':'Ruta0','refresh':'30 min','rule':'parte oficial > fuente comunitaria'},
-    'RUTA 8': {'primary':'Dirección Provincial de Vialidad','secondary':'WSESTADORUTAS · API oficial','fallback':'Ruta0','refresh':'30 min','rule':'parte oficial > fuente comunitaria'},
-    'VIENTO': {'primary':'AIC','secondary':'Open-Meteo','fallback':'Servicio Meteorológico Nacional','refresh':'30 min','rule':'dato meteorológico directo; si falla no se muestra 0'},
-    'ENERGÍA': {'primary':'EPEN','secondary':'Neuquén Informa','fallback':'Municipalidad de San Patricio del Chañar','refresh':'30 min','rule':'parte EPEN > comunicado'},
-    'AGUA': {'primary':'EPAS','secondary':'Municipalidad de San Patricio del Chañar','fallback':'Neuquén Informa','refresh':'30 min','rule':'no inferir normalidad sin parte'},
-    'SERVICIOS': {'primary':'Municipalidad de San Patricio del Chañar','secondary':'Neuquén Informa','fallback':'Chañar Digital','refresh':'30 min','rule':'fuente institucional local'},
-    'SALUD': {'primary':'Salud Neuquén','secondary':'Hospital local / Salud Neuquén','fallback':'Municipalidad de San Patricio del Chañar','refresh':'30 min','rule':'fuente sanitaria oficial'},
-    'EDUCACIÓN': {'primary':'Consejo Provincial de Educación','secondary':'Neuquén Informa','fallback':'Municipalidad de San Patricio del Chañar','refresh':'30 min','rule':'fuente educativa oficial'},
-    'PRODUCCIÓN': {'primary':'Ministerio de Producción de Neuquén','secondary':'Neuquén Informa','fallback':'Municipalidad de San Patricio del Chañar','refresh':'30 min','rule':'fuente productiva oficial'},
-    'EMERGENCIAS': {'primary':'Defensa Civil Neuquén','secondary':'Bomberos Voluntarios de San Patricio del Chañar','fallback':'Municipalidad de San Patricio del Chañar','refresh':'30 min','rule':'emergencia oficial > referencia institucional'},
-    'TERRITORIO': {'primary':'Municipalidad de San Patricio del Chañar','secondary':'Dirección Provincial de Vialidad','fallback':'Neuquén Informa','refresh':'30 min','rule':'anclaje territorial explícito'}
+    # LEY MUNDIAL RADAR: ningún indicador se publica sin una fuente profesional
+    # adecuada al fenómeno que pretende describir. Cada adaptador declara
+    # procedencia, parser, unidad, temporalidad, semántica y fallback.
+    'RUTA 7': {
+        'primary': 'Dirección Provincial de Vialidad del Neuquén',
+        'secondary': 'WSESTADORUTAS · sistema oficial de estado vial',
+        'fallback': 'Ruta0 · referencia secundaria',
+        'refresh': '30 min',
+        'domain': 'estado de transitabilidad, cortes, obras y restricciones',
+        'unit': 'estado vial / tramo / horario',
+        'language': 'habilitación, precaución, reducción de calzada, corte, obra, desvío',
+        'rule': 'fuente vial oficial > sistema oficial > referencia secundaria; nunca inferir transitabilidad desde ausencia de noticias'
+    },
+    'RUTA 8': {
+        'primary': 'Dirección Provincial de Vialidad del Neuquén',
+        'secondary': 'WSESTADORUTAS · sistema oficial de estado vial',
+        'fallback': 'Ruta0 · referencia secundaria',
+        'refresh': '30 min',
+        'domain': 'estado de transitabilidad, cortes, obras y restricciones',
+        'unit': 'estado vial / tramo / horario',
+        'language': 'habilitación, precaución, reducción de calzada, corte, obra, desvío',
+        'rule': 'fuente vial oficial > sistema oficial > referencia secundaria; nunca inferir transitabilidad desde ausencia de noticias'
+    },
+    'VIENTO': {
+        'primary': 'Autoridad Interjurisdiccional de las Cuencas (AIC) · Pronóstico El Chañar',
+        'secondary': 'Servicio Meteorológico Nacional',
+        'fallback': 'Open-Meteo / MET Norway · solo transporte meteorológico secundario',
+        'refresh': '30 min',
+        'domain': 'viento meteorológico para El Chañar',
+        'unit': 'km/h; ráfagas km/h; dirección; temperatura °C; presión hPa',
+        'language': 'viento, ráfagas, dirección, temperatura, presión, pronóstico, observación',
+        'rule': 'AIC es la autoridad primaria para el pronóstico local; si no entrega un valor válido, identificar expresamente la fuente secundaria utilizada'
+    },
+    'CAUDAL': {
+        'primary': 'Autoridad Interjurisdiccional de las Cuencas (AIC) · Caudales Programados',
+        'secondary': 'AIC · mediciones hidrológicas',
+        'fallback': 'último valor AIC confirmado, únicamente como dato histórico',
+        'refresh': '30 min',
+        'domain': 'caudal programado/medido del sistema hídrico asociado a El Chañar',
+        'unit': 'm³/s',
+        'language': 'caudal mínimo, caudal máximo, erogado, programado, medido, fecha',
+        'rule': 'no presentar un valor histórico como actual; observedAt corresponde al dato y fetchedAt a la consulta'
+    },
+    'ENERGÍA': {
+        'primary': 'Ente Provincial de Energía del Neuquén (EPEN)',
+        'secondary': 'EPEN · cortes programados / comunicados',
+        'fallback': 'Municipalidad de San Patricio del Chañar · solo comunicación local',
+        'refresh': '30 min',
+        'domain': 'cortes programados y afectación del suministro eléctrico',
+        'unit': 'sector / fecha / horario',
+        'language': 'corte programado, mantenimiento, sectores afectados, horario, restitución',
+        'rule': 'no convertir ausencia de publicación en normalidad del servicio'
+    },
+    'AGUA': {
+        'primary': 'Ente Provincial de Agua y Saneamiento (EPAS)',
+        'secondary': 'Municipalidad de San Patricio del Chañar',
+        'fallback': 'Neuquén Informa',
+        'refresh': '30 min',
+        'domain': 'abastecimiento y saneamiento de agua',
+        'unit': 'servicio / sector / fecha / horario',
+        'language': 'interrupción, baja presión, abastecimiento, reparación, restablecimiento',
+        'rule': 'EPAS es la referencia técnica primaria; nunca inferir servicio normal por ausencia de aviso'
+    },
+    'SERVICIOS': {
+        'primary': 'Municipalidad de San Patricio del Chañar',
+        'secondary': 'organismo provincial competente según servicio',
+        'fallback': 'Neuquén Informa',
+        'refresh': '30 min',
+        'domain': 'avisos y prestación de servicios municipales',
+        'unit': 'servicio / sector / fecha / horario',
+        'language': 'aviso, atención, interrupción, mantenimiento, habilitación, horario',
+        'rule': 'cada evento debe conservar el organismo responsable del servicio'
+    },
+    'SALUD': {
+        'primary': 'Ministerio de Salud de la Provincia del Neuquén',
+        'secondary': 'Hospital San Patricio del Chañar Dra. Alicia Cruz',
+        'fallback': 'organismo sanitario provincial',
+        'refresh': '30 min',
+        'domain': 'atención sanitaria, servicios y avisos de salud',
+        'unit': 'establecimiento / servicio / fecha / horario',
+        'language': 'atención, guardia, turno, servicio, campaña, aviso sanitario',
+        'rule': 'no inferir disponibilidad clínica desde silencio editorial'
+    },
+    'EDUCACIÓN': {
+        'primary': 'Consejo Provincial de Educación del Neuquén',
+        'secondary': 'Ministerio de Educación del Neuquén',
+        'fallback': 'Neuquén Informa',
+        'refresh': '30 min',
+        'domain': 'actividad educativa oficial',
+        'unit': 'establecimiento / nivel / fecha / horario',
+        'language': 'suspensión, clases, jornada, calendario, inscripción, establecimiento',
+        'rule': 'la condición educativa debe provenir de autoridad educativa competente'
+    },
+    'PRODUCCIÓN': {
+        'primary': 'Ministerio de Producción e Industria del Neuquén',
+        'secondary': 'organismo provincial productivo competente',
+        'fallback': 'Municipalidad de San Patricio del Chañar',
+        'refresh': '30 min',
+        'domain': 'actividad productiva, agrícola y agroindustrial',
+        'unit': 'programa / establecimiento / sector / fecha',
+        'language': 'producción, cosecha, sanidad, riego, asistencia, programa, actividad',
+        'rule': 'distinguir dato productivo de noticia general'
+    },
+    'EMERGENCIAS': {
+        'primary': 'Secretaría/Dirección Provincial de Emergencias y Gestión de Riesgos / Defensa Civil Neuquén',
+        'secondary': 'Bomberos Voluntarios de San Patricio del Chañar',
+        'fallback': 'Municipalidad de San Patricio del Chañar',
+        'refresh': '15 min',
+        'domain': 'alertas, emergencias y respuesta operativa',
+        'unit': 'evento / zona / fecha / horario',
+        'language': 'alerta, emergencia, intervención, evacuación, prevención, incidente',
+        'rule': 'solo publicar como emergencia lo que tenga fuente operativa o institucional identificable'
+    },
+    'TERRITORIO': {
+        'primary': 'Municipalidad de San Patricio del Chañar',
+        'secondary': 'organismo provincial competente según fenómeno',
+        'fallback': 'Neuquén Informa',
+        'refresh': '30 min',
+        'domain': 'hechos territoriales con anclaje explícito en San Patricio del Chañar',
+        'unit': 'lugar / sector / evento / fecha',
+        'language': 'localización, sector, obra, servicio, actividad, intervención',
+        'rule': 'todo hecho territorial debe conservar su anclaje geográfico verificable'
+    },
+    'CONVERSACIÓN': {
+        'primary': 'medios locales identificables',
+        'secondary': 'fuentes institucionales competentes',
+        'fallback': 'medios regionales',
+        'refresh': '30 min',
+        'domain': 'agenda editorial local, no estado operativo',
+        'unit': 'hecho / fecha / fuente',
+        'language': 'tema, hecho, cobertura, fuente, fecha',
+        'rule': 'este radar describe conversación editorial; nunca sustituye un indicador técnico u operativo'
+    }
 }
 
 def collect_operational():
