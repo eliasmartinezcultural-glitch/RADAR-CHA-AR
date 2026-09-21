@@ -2,7 +2,7 @@
   "version": "1.1",
   "windowDays": 45,
   "bucketHours": 2,
-  "generatedAt": "2026-09-21T00:06:40.223200+00:00",
+  "generatedAt": "2026-09-21T00:15:44.788938+00:00",
   "snapshots": [
     {
       "at": "2026-09-20T01:58:09.322313+00:00",
@@ -333,6 +333,88 @@
           "success": true,
           "signals": 1,
           "freshnessHours": 1.8
+        },
+        "Mejor Informado": {
+          "success": true,
+          "signals": 0,
+          "freshnessHours": null
+        },
+        "Diariamente Neuquén": {
+          "success": true,
+          "signals": 0,
+          "freshnessHours": null
+        }
+      }
+    },
+    {
+      "at": "2026-09-21T00:15:44.788888+00:00",
+      "bucket": "2026-09-21T00:14:00+00:00",
+      "events": 4,
+      "topics": {
+        "SERVICIOS": 2,
+        "EDUCACIÓN": 2
+      },
+      "sources": {
+        "Diario Río Negro": 2,
+        "Diario Neuquino": 1,
+        "lmneuquen.com": 1
+      },
+      "lifecycle": {
+        "EMERGENTE": 2,
+        "SOSTENIDO": 2
+      },
+      "nodes": {
+        "San Patricio del Chañar": 4,
+        "EPET 26": 2
+      },
+      "activeNodes": 2,
+      "directSignals": 1,
+      "newSignals": 0,
+      "sourceHealth": {
+        "Chañar Digital": {
+          "success": true,
+          "signals": 0,
+          "freshnessHours": null
+        },
+        "Mía Radio 94.7": {
+          "success": true,
+          "signals": 0,
+          "freshnessHours": null
+        },
+        "Radio Tuit Vaca Muerta 90.5": {
+          "success": true,
+          "signals": 0,
+          "freshnessHours": null
+        },
+        "Vaca Muerta News": {
+          "success": true,
+          "signals": 0,
+          "freshnessHours": null
+        },
+        "Neuquén Informa": {
+          "success": true,
+          "signals": 0,
+          "freshnessHours": null
+        },
+        "Municipalidad de San Patricio del Chañar": {
+          "success": true,
+          "signals": 0,
+          "freshnessHours": null
+        },
+        "Boletín Oficial de Neuquén": {
+          "success": false,
+          "signals": 0,
+          "freshnessHours": null
+        },
+        "LM Neuquén": {
+          "success": false,
+          "signals": 0,
+          "freshnessHours": null
+        },
+        "Diario Río Negro": {
+          "success": true,
+          "signals": 1,
+          "freshnessHours": 1.9
         },
         "Mejor Informado": {
           "success": true,
