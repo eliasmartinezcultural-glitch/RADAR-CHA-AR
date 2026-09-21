@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-21T00:59:40.731423+00:00",
+  "updatedAt": "2026-09-21T01:01:49.305579+00:00",
   "window": "14 días",
   "purpose": "Detectar qué se está moviendo en San Patricio del Chañar y mostrar de dónde surge cada señal.",
   "architecture": "25 fuentes profesionales + búsquedas dirigidas + fuentes directas + web directa + respaldo + memoria de eventos + ciclo de vida + incidencia territorial + evidencia + salud de fuentes + radares de infraestructura + ambiente",
@@ -49,7 +49,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://chanardigital.com.ar/",
-      "lastFetch": "2026-09-21T00:59:18.265148+00:00",
+      "lastFetch": "2026-09-21T01:01:07.284789+00:00",
       "success": true,
       "attempted": 2,
       "failures": [
@@ -64,7 +64,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.radiomia.com.ar/",
-      "lastFetch": "2026-09-21T00:59:19.397816+00:00",
+      "lastFetch": "2026-09-21T01:01:25.481363+00:00",
       "success": true,
       "attempted": 1,
       "failures": [],
@@ -77,7 +77,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://tuitvacamuerta.com/",
-      "lastFetch": "2026-09-21T00:59:21.122603+00:00",
+      "lastFetch": "2026-09-21T01:01:27.192223+00:00",
       "success": true,
       "attempted": 1,
       "failures": [],
@@ -90,7 +90,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.vacamuertanews.com/",
-      "lastFetch": "2026-09-21T00:59:21.862537+00:00",
+      "lastFetch": "2026-09-21T01:01:28.150810+00:00",
       "success": true,
       "attempted": 2,
       "failures": [
@@ -105,7 +105,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.neuqueninforma.gob.ar/",
-      "lastFetch": "2026-09-21T00:59:22.597551+00:00",
+      "lastFetch": "2026-09-21T01:01:29.879742+00:00",
       "success": true,
       "attempted": 3,
       "failures": [
@@ -121,7 +121,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://sanpatricio.gob.ar/",
-      "lastFetch": "2026-09-21T00:59:23.779830+00:00",
+      "lastFetch": "2026-09-21T01:01:30.981412+00:00",
       "success": true,
       "attempted": 1,
       "failures": [],
@@ -134,7 +134,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://boletinoficial.neuquen.gov.ar/",
-      "lastFetch": "2026-09-21T00:59:24.867092+00:00",
+      "lastFetch": "2026-09-21T01:01:32.123599+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -149,7 +149,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.lmneuquen.com/",
-      "lastFetch": "2026-09-21T00:59:25.178220+00:00",
+      "lastFetch": "2026-09-21T01:01:32.381257+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -165,7 +165,7 @@
       "mode": "RSS DIRECTO",
       "signals": 1,
       "url": "https://www.rionegro.com.ar/",
-      "lastFetch": "2026-09-21T00:59:29.574700+00:00",
+      "lastFetch": "2026-09-21T01:01:36.629458+00:00",
       "success": true,
       "attempted": 2,
       "failures": [],
@@ -178,7 +178,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.mejorinformado.com/",
-      "lastFetch": "2026-09-21T00:59:30.271137+00:00",
+      "lastFetch": "2026-09-21T01:01:37.680895+00:00",
       "success": true,
       "attempted": 2,
       "failures": [
@@ -193,7 +193,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.diariamenteneuquen.com/",
-      "lastFetch": "2026-09-21T00:59:31.122712+00:00",
+      "lastFetch": "2026-09-21T01:01:38.690511+00:00",
       "success": true,
       "attempted": 2,
       "failures": [
@@ -373,11 +373,11 @@
       "group": "LOCAL",
       "role": "medio local",
       "url": "https://chanardigital.com.ar/",
-      "signals": 0,
-      "directSignals": 0,
+      "signals": 1,
+      "directSignals": 1,
       "anchoredSignals": 0,
-      "lastSeen": null,
-      "status": "SIN SEÑALES EN VENTANA",
+      "lastSeen": "2026-09-10T17:56:38+00:00",
+      "status": "CON SEÑALES",
       "note": "ausencia de señales no equivale a ausencia del hecho"
     },
     {
@@ -982,12 +982,14 @@
         "source": "Chañar Digital",
         "group": "LOCAL",
         "role": "medio local",
-        "accepted": 0,
-        "direct": 0,
+        "accepted": 1,
+        "direct": 1,
         "anchored": 0,
         "falsePositives": 0,
         "falsePositiveTypes": [],
-        "topics": []
+        "topics": [
+          "EDUCACIÓN"
+        ]
       },
       {
         "source": "Consejo Provincial de Educación",
@@ -1034,9 +1036,9 @@
         "falsePositives": 0,
         "falsePositiveTypes": [],
         "topics": [
+          "CULTURA / TURISMO",
           "DEPORTE",
-          "EDUCACIÓN",
-          "SERVICIOS"
+          "EDUCACIÓN"
         ]
       },
       {
@@ -1249,22 +1251,20 @@
         "falsePositives": 0,
         "falsePositiveTypes": [],
         "topics": []
-      },
+      }
+    ],
+    "matrix": [
       {
-        "source": "chanardigital.com.ar",
-        "group": "OBSERVADA",
-        "role": "fuente detectada fuera del catálogo",
+        "source": "Chañar Digital",
+        "topic": "EDUCACIÓN",
         "accepted": 1,
         "direct": 1,
         "anchored": 0,
         "falsePositives": 0,
-        "falsePositiveTypes": [],
-        "topics": [
-          "EDUCACIÓN"
+        "territorialTerms": [
+          "cpem 31"
         ]
-      }
-    ],
-    "matrix": [
+      },
       {
         "source": "Diario Neuquino",
         "topic": "EDUCACIÓN",
@@ -1276,6 +1276,18 @@
           "san patricio del chañar",
           "el chañar",
           "epet 26"
+        ]
+      },
+      {
+        "source": "Diario Río Negro",
+        "topic": "CULTURA / TURISMO",
+        "accepted": 1,
+        "direct": 1,
+        "anchored": 0,
+        "falsePositives": 0,
+        "territorialTerms": [
+          "san patricio del chañar",
+          "el chañar"
         ]
       },
       {
@@ -1302,18 +1314,6 @@
         ]
       },
       {
-        "source": "Diario Río Negro",
-        "topic": "SERVICIOS",
-        "accepted": 1,
-        "direct": 1,
-        "anchored": 0,
-        "falsePositives": 0,
-        "territorialTerms": [
-          "san patricio del chañar",
-          "el chañar"
-        ]
-      },
-      {
         "source": "Neuquen Informa",
         "topic": "SERVICIOS",
         "accepted": 1,
@@ -1323,17 +1323,6 @@
         "territorialTerms": [
           "san patricio del chañar",
           "el chañar"
-        ]
-      },
-      {
-        "source": "chanardigital.com.ar",
-        "topic": "EDUCACIÓN",
-        "accepted": 1,
-        "direct": 1,
-        "anchored": 0,
-        "falsePositives": 0,
-        "territorialTerms": [
-          "cpem 31"
         ]
       }
     ],
@@ -1683,7 +1672,7 @@
     "total": 6,
     "direct": 6,
     "regional": 0,
-    "new": 3,
+    "new": 0,
     "sources": 4,
     "directSignals": 1,
     "localDirectSignals": 0,
@@ -1692,14 +1681,15 @@
     "searchNoiseRejected": 0
   },
   "environment": {
-    "updatedAt": "2026-09-21T00:59:40.744584+00:00",
+    "updatedAt": "2026-09-21T01:01:49.320154+00:00",
     "weather": null,
     "hydrology": null,
     "sources": [
       {
         "name": "AIC",
-        "mode": "OK_SIN_DATO_PARSEO",
-        "url": "https://www.aic.gob.ar/sitio/home?a=1015&z=1967225803"
+        "mode": "RESPONDE_SIN_DATO_EXTRAIBLE",
+        "url": "https://www.aic.gob.ar/sitio/home?a=1015&z=1967225803",
+        "detail": "la página respondió pero el HTML entregado al colector no expuso los valores renderizados"
       },
       {
         "name": "AIC · Caudales",
@@ -1715,19 +1705,19 @@
     ]
   },
   "operational": {
-    "updatedAt": "2026-09-21T00:59:43.758624+00:00",
+    "updatedAt": "2026-09-21T01:01:52.158061+00:00",
     "route7": {
-      "status": "PRECAUCIÓN · RESPALDO ACTUAL",
-      "detail": "       En el Ingreso, Limite con la Provincia de Misiones y el transito se desvia por la RP 71 desde Ctes ",
+      "status": "SIN PARTE DIRECTO",
+      "detail": "No se encontró un reporte actual específico para RP7 en la fuente de respaldo.",
       "source": "Ruta0",
-      "mode": "RESPALDO ACTUAL",
+      "mode": "RESPALDO SIN PARTE",
       "url": "https://www.ruta0.com/estado-de-rutas/?pag=4"
     },
     "route8": {
-      "status": "PRECAUCIÓN · RESPALDO ACTUAL",
-      "detail": "capas[1108]={dLat:-32.88953,dLon:-68.84462,hLat:-32.98347,hLon:-68.88928,desde:'Mendoza',hasta:'Chacras de Coria',ruta:'RP 82',color:'#dc2626',weight:8,opacity:0.95,estadoSrc:'Reporte de viajero',fechaRel:'hace 4 dias',conInfo:true,idd:66,url:'/estado-de-rutas/rp-82/mendoza/mendoza--chacras-de-coria.htm'};\r",
+      "status": "SIN PARTE DIRECTO",
+      "detail": "No se encontró un reporte actual específico para RP8 en la fuente de respaldo.",
       "source": "Ruta0",
-      "mode": "RESPALDO ACTUAL",
+      "mode": "RESPALDO SIN PARTE",
       "url": "https://www.ruta0.com/estado-de-rutas/?pag=4"
     },
     "energy": {
@@ -1938,10 +1928,10 @@
         "rule": "parte oficial > fuente comunitaria"
       },
       "operational": {
-        "status": "PRECAUCIÓN · RESPALDO ACTUAL",
-        "detail": "       En el Ingreso, Limite con la Provincia de Misiones y el transito se desvia por la RP 71 desde Ctes ",
+        "status": "SIN PARTE DIRECTO",
+        "detail": "No se encontró un reporte actual específico para RP7 en la fuente de respaldo.",
         "source": "Ruta0",
-        "mode": "RESPALDO ACTUAL",
+        "mode": "RESPALDO SIN PARTE",
         "url": "https://www.ruta0.com/estado-de-rutas/?pag=4"
       }
     },
@@ -1981,10 +1971,10 @@
         "rule": "parte oficial > fuente comunitaria"
       },
       "operational": {
-        "status": "PRECAUCIÓN · RESPALDO ACTUAL",
-        "detail": "capas[1108]={dLat:-32.88953,dLon:-68.84462,hLat:-32.98347,hLon:-68.88928,desde:'Mendoza',hasta:'Chacras de Coria',ruta:'RP 82',color:'#dc2626',weight:8,opacity:0.95,estadoSrc:'Reporte de viajero',fechaRel:'hace 4 dias',conInfo:true,idd:66,url:'/estado-de-rutas/rp-82/mendoza/mendoza--chacras-de-coria.htm'};\r",
+        "status": "SIN PARTE DIRECTO",
+        "detail": "No se encontró un reporte actual específico para RP8 en la fuente de respaldo.",
         "source": "Ruta0",
-        "mode": "RESPALDO ACTUAL",
+        "mode": "RESPALDO SIN PARTE",
         "url": "https://www.ruta0.com/estado-de-rutas/?pag=4"
       }
     },
@@ -2193,7 +2183,7 @@
       "label": "Educación",
       "signal": 3,
       "status": "SEÑAL DETECTADA",
-      "freshnessHours": 25.9,
+      "freshnessHours": 26.0,
       "mode": "evidencia editorial",
       "evidenceCount": 3,
       "sources": [
@@ -2354,7 +2344,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://chanardigital.com.ar/",
-        "lastFetch": "2026-09-21T00:59:18.265148+00:00",
+        "lastFetch": "2026-09-21T01:01:07.284789+00:00",
         "success": true,
         "attempted": 2,
         "failures": [
@@ -2369,7 +2359,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.radiomia.com.ar/",
-        "lastFetch": "2026-09-21T00:59:19.397816+00:00",
+        "lastFetch": "2026-09-21T01:01:25.481363+00:00",
         "success": true,
         "attempted": 1,
         "failures": [],
@@ -2382,7 +2372,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://tuitvacamuerta.com/",
-        "lastFetch": "2026-09-21T00:59:21.122603+00:00",
+        "lastFetch": "2026-09-21T01:01:27.192223+00:00",
         "success": true,
         "attempted": 1,
         "failures": [],
@@ -2395,7 +2385,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.vacamuertanews.com/",
-        "lastFetch": "2026-09-21T00:59:21.862537+00:00",
+        "lastFetch": "2026-09-21T01:01:28.150810+00:00",
         "success": true,
         "attempted": 2,
         "failures": [
@@ -2410,7 +2400,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.neuqueninforma.gob.ar/",
-        "lastFetch": "2026-09-21T00:59:22.597551+00:00",
+        "lastFetch": "2026-09-21T01:01:29.879742+00:00",
         "success": true,
         "attempted": 3,
         "failures": [
@@ -2426,7 +2416,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://sanpatricio.gob.ar/",
-        "lastFetch": "2026-09-21T00:59:23.779830+00:00",
+        "lastFetch": "2026-09-21T01:01:30.981412+00:00",
         "success": true,
         "attempted": 1,
         "failures": [],
@@ -2439,7 +2429,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://boletinoficial.neuquen.gov.ar/",
-        "lastFetch": "2026-09-21T00:59:24.867092+00:00",
+        "lastFetch": "2026-09-21T01:01:32.123599+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -2454,7 +2444,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.lmneuquen.com/",
-        "lastFetch": "2026-09-21T00:59:25.178220+00:00",
+        "lastFetch": "2026-09-21T01:01:32.381257+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -2470,7 +2460,7 @@
         "mode": "RSS DIRECTO",
         "signals": 1,
         "url": "https://www.rionegro.com.ar/",
-        "lastFetch": "2026-09-21T00:59:29.574700+00:00",
+        "lastFetch": "2026-09-21T01:01:36.629458+00:00",
         "success": true,
         "attempted": 2,
         "failures": [],
@@ -2483,7 +2473,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.mejorinformado.com/",
-        "lastFetch": "2026-09-21T00:59:30.271137+00:00",
+        "lastFetch": "2026-09-21T01:01:37.680895+00:00",
         "success": true,
         "attempted": 2,
         "failures": [
@@ -2498,7 +2488,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.diariamenteneuquen.com/",
-        "lastFetch": "2026-09-21T00:59:31.122712+00:00",
+        "lastFetch": "2026-09-21T01:01:38.690511+00:00",
         "success": true,
         "attempted": 2,
         "failures": [
@@ -2766,7 +2756,7 @@
     },
     {
       "eventId": "CHA-1ce621fdd77b",
-      "title": "Violento episodio en el CPEM 31: un padre ingresó al colegio con un arma blanca - chanardigital.com.ar",
+      "title": "Violento episodio en el CPEM 31: un padre ingresó al colegio con un arma blanca - Chañar Digital",
       "publishedAt": "2026-09-10T17:56:38+00:00",
       "firstSeen": "2026-09-21T00:59:40.731423+00:00",
       "lastSeen": "2026-09-10T17:56:38+00:00",
@@ -2782,17 +2772,17 @@
         "cpem 31"
       ],
       "sources": [
-        "chanardigital.com.ar"
+        "Chañar Digital"
       ],
       "evidenceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNaDU2elBEeFZ2X21INm5TSVdQd2NjaDI1V3VfYmZmZjNZTkQ2MGpSQ0N2dTNBUEZHSXQ3a2tHeTlUYWlTMlJIbDVOXy1Rb1RLOWhJS1ZxWktabDJDZy1NREpZV1o1c2hSbGJySmRsMkRUUUJWTFppTm9kTVVaZEtDeS1fR3RVUkVyUnYzN0tZSVdUVjVOek1rbGlsVmV5emFaRGdPZlBJc043VW5kdzltRV9fejlELUg4djEzd2Z3X1loOGc2bXBzeUg2MnY?oc=5",
       "items": [
         {
-          "title": "Violento episodio en el CPEM 31: un padre ingresó al colegio con un arma blanca - chanardigital.com.ar",
+          "title": "Violento episodio en el CPEM 31: un padre ingresó al colegio con un arma blanca - Chañar Digital",
           "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNaDU2elBEeFZ2X21INm5TSVdQd2NjaDI1V3VfYmZmZjNZTkQ2MGpSQ0N2dTNBUEZHSXQ3a2tHeTlUYWlTMlJIbDVOXy1Rb1RLOWhJS1ZxWktabDJDZy1NREpZV1o1c2hSbGJySmRsMkRUUUJWTFppTm9kTVVaZEtDeS1fR3RVUkVyUnYzN0tZSVdUVjVOek1rbGlsVmV5emFaRGdPZlBJc043VW5kdzltRV9fejlELUg4djEzd2Z3X1loOGc2bXBzeUg2MnY?oc=5",
           "publishedAt": "2026-09-10T17:56:38+00:00",
           "published": "2026-09-10T17:56:38+00:00",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMizAFBVV95cUxNaDU2elBEeFZ2X21INm5TSVdQd2NjaDI1V3VfYmZmZjNZTkQ2MGpSQ0N2dTNBUEZHSXQ3a2tHeTlUYWlTMlJIbDVOXy1Rb1RLOWhJS1ZxWktabDJDZy1NREpZV1o1c2hSbGJySmRsMkRUUUJWTFppTm9kTVVaZEtDeS1fR3RVUkVyUnYzN0tZSVdUVjVOek1rbGlsVmV5emFaRGdPZlBJc043VW5kdzltRV9fejlELUg4djEzd2Z3X1loOGc2bXBzeUg2MnY?oc=5\" target=\"_blank\">Violento episodio en el CPEM 31: un padre ingresó al colegio con un arma blanca</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">chanardigital.com.ar</font>",
-          "source": "chanardigital.com.ar",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMizAFBVV95cUxNaDU2elBEeFZ2X21INm5TSVdQd2NjaDI1V3VfYmZmZjNZTkQ2MGpSQ0N2dTNBUEZHSXQ3a2tHeTlUYWlTMlJIbDVOXy1Rb1RLOWhJS1ZxWktabDJDZy1NREpZV1o1c2hSbGJySmRsMkRUUUJWTFppTm9kTVVaZEtDeS1fR3RVUkVyUnYzN0tZSVdUVjVOek1rbGlsVmV5emFaRGdPZlBJc043VW5kdzltRV9fejlELUg4djEzd2Z3X1loOGc2bXBzeUg2MnY?oc=5\" target=\"_blank\">Violento episodio en el CPEM 31: un padre ingresó al colegio con un arma blanca</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Chañar Digital</font>",
+          "source": "Chañar Digital",
           "sourceType": "BUSCADOR / RESPALDO",
           "sourceUrl": "",
           "collection": "BUSCADOR",
@@ -2800,21 +2790,21 @@
           "relevance": 3,
           "relevanceLabel": "DIRECTA",
           "firstSeen": "2026-09-21T00:59:40.731423+00:00",
-          "isNew": true,
-          "titleKey": "violento episodio cpem padre ingreso colegio arma blanca chanardigital com",
+          "isNew": false,
+          "titleKey": "violento episodio cpem padre ingreso colegio arma blanca digital",
           "evidenceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNaDU2elBEeFZ2X21INm5TSVdQd2NjaDI1V3VfYmZmZjNZTkQ2MGpSQ0N2dTNBUEZHSXQ3a2tHeTlUYWlTMlJIbDVOXy1Rb1RLOWhJS1ZxWktabDJDZy1NREpZV1o1c2hSbGJySmRsMkRUUUJWTFppTm9kTVVaZEtDeS1fR3RVUkVyUnYzN0tZSVdUVjVOek1rbGlsVmV5emFaRGdPZlBJc043VW5kdzltRV9fejlELUg4djEzd2Z3X1loOGc2bXBzeUg2MnY?oc=5",
           "sourcePriority": 3
         }
       ],
-      "lifecycle": "ACTIVO",
+      "lifecycle": "RECIENTE",
       "movementDelta": 0,
-      "previousCoverage": 0,
+      "previousCoverage": 1,
       "newSources": [
-        "chanardigital.com.ar"
+        "Chañar Digital"
       ],
       "sourceDiversity": 1,
-      "memoryMatched": false,
-      "isNew": true,
+      "memoryMatched": true,
+      "isNew": false,
       "view": "INCIDENCIA",
       "incidenceEligible": true,
       "signalReason": "reservado a incidencia territorial",
@@ -2860,7 +2850,7 @@
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
-      "topic": "SERVICIOS",
+      "topic": "CULTURA / TURISMO",
       "movement": 16,
       "coverage": 1,
       "sourceCount": 1,
@@ -2888,25 +2878,23 @@
           "relevance": 3,
           "relevanceLabel": "DIRECTA",
           "firstSeen": "2026-09-21T00:59:40.731423+00:00",
-          "isNew": true,
+          "isNew": false,
           "titleKey": "patagonia wine fest 2026 pericos tipitos llegan diario rio negro",
           "evidenceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNM0pZT3R1ZXUzRUZJZ0VEV3NFRlBUY3p6QWNyemYzQWJrdk53OGtMMHYtOWJDbXBrOUx3c3piWDZhc05vTVNLMkh5N29FZS1ldTVUUDh4QkpIQ0xsa2xYVEx1MkZKUVp4a21ZeWF0THVRRHozcl9aODJPbjNrREkxZFA1b2FHakkyV2dHN2hQVkk0ZzNTSk5lbi1EYzVaeUNpYU0wSUVFU0xnckcxam1pQlVRQzdUMlpsc2c1UlY4UWppRlpLNEVoWUhwRnDSAdQBQVVfeXFMTTRoMHNNTkU0ZkVSU2ZzWVJGRWlGQy1GQzdBMVdzUWl1dmZ3ejZxSHEzNGo1TndDaXJaOVBXRXFVWk9VZl9DQWlacHZIMXVPVzlDRE01MVBGNHFld0QzUm1rYzE3RFp0LTVEM1hacjg1SXVYd29rUlkweEE1dlg5djNGVE1pY3p5NWI1OUJpQTdQa2NkVVFmLWxIRGJMSW44VHAwRVd6cmVTSWp2cEM4eE16OWJrZGliOEFTZnduYV9oS3Q1ZW80Wm1LQUlDcnlIWThVRTk?oc=5",
           "sourcePriority": 3
         }
       ],
-      "lifecycle": "ACTIVO",
+      "lifecycle": "RECIENTE",
       "movementDelta": 0,
-      "previousCoverage": 0,
-      "newSources": [
-        "Diario Río Negro"
-      ],
+      "previousCoverage": 1,
+      "newSources": [],
       "sourceDiversity": 1,
-      "memoryMatched": false,
-      "isNew": true,
-      "view": "INCIDENCIA",
-      "incidenceEligible": true,
-      "signalReason": "reservado a incidencia territorial",
-      "incidenceReason": "anclaje directo + tema operativo/local",
+      "memoryMatched": true,
+      "isNew": false,
+      "view": "SEÑAL",
+      "incidenceEligible": false,
+      "signalReason": "movimiento informativo / cobertura / diversidad de fuentes",
+      "incidenceReason": null,
       "territory": {
         "version": "2.0",
         "primary": "San Patricio del Chañar",
@@ -2968,21 +2956,19 @@
           "relevance": 3,
           "relevanceLabel": "DIRECTA",
           "firstSeen": "2026-09-21T00:59:40.731423+00:00",
-          "isNew": true,
+          "isNew": false,
           "titleKey": "habilito suministro electrico lotes informa",
           "evidenceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxORXdMSWpGblRpTHFsd0diTmhXeEJ1eHA5RzZXUUpNV1hWbm14dzRBdERRdDBEX3hYQWFQMUxrUHBwc1V1cVdzZWpTaTNEZllSeHU5Mlk5VUlUWTZ4bmdzWGRtTUNEcTdQQ0lxR1VySHJ6MVY2WFRNamFMTklUZHlaUWpoNnZkT2dQYVJoUmEzNXFxVUtCcU1fSXhGeTJTMnkzbGF5M3NYMlJRNWNBNXVhS3JWQ2ZudDJrR3lEU0RrWGxJV1VObzJJa1BjUWRtT0tzU1lR0gHYAUFVX3lxTE04UklnazVabEdnVV8xanpPeHZ0QS04TlhUT05NWDJsOER2ZFBaSi1MeVoyeXZOYUl3ZEx4V3NqbnNUeVdBVU91LVBrWjkyMVBfRkh3ckk5RHpiR2lqWmxUZm55TjZhQWJDOFBGQUdvWjVUV2lnX2Q2WUNLSVhUZ3F0YXpFazdQd1EwamlQS3hzUm9zZGtuS29IWWpXdUx4eVZxY0NrR3R3bG1zNXJJS051YmpvM29qZklmTXB6VThFS2V1SHdGS2lfUFNpZ0pISjhNOWFuSVZscw?oc=5",
           "sourcePriority": 3
         }
       ],
-      "lifecycle": "ACTIVO",
+      "lifecycle": "RECIENTE",
       "movementDelta": 0,
-      "previousCoverage": 0,
-      "newSources": [
-        "Neuquen Informa"
-      ],
+      "previousCoverage": 1,
+      "newSources": [],
       "sourceDiversity": 1,
-      "memoryMatched": false,
-      "isNew": true,
+      "memoryMatched": true,
+      "isNew": false,
       "view": "INCIDENCIA",
       "incidenceEligible": true,
       "signalReason": "reservado a incidencia territorial",
@@ -3071,12 +3057,12 @@
       "sourcePriority": 3
     },
     {
-      "title": "Violento episodio en el CPEM 31: un padre ingresó al colegio con un arma blanca - chanardigital.com.ar",
+      "title": "Violento episodio en el CPEM 31: un padre ingresó al colegio con un arma blanca - Chañar Digital",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNaDU2elBEeFZ2X21INm5TSVdQd2NjaDI1V3VfYmZmZjNZTkQ2MGpSQ0N2dTNBUEZHSXQ3a2tHeTlUYWlTMlJIbDVOXy1Rb1RLOWhJS1ZxWktabDJDZy1NREpZV1o1c2hSbGJySmRsMkRUUUJWTFppTm9kTVVaZEtDeS1fR3RVUkVyUnYzN0tZSVdUVjVOek1rbGlsVmV5emFaRGdPZlBJc043VW5kdzltRV9fejlELUg4djEzd2Z3X1loOGc2bXBzeUg2MnY?oc=5",
       "publishedAt": "2026-09-10T17:56:38+00:00",
       "published": "2026-09-10T17:56:38+00:00",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMizAFBVV95cUxNaDU2elBEeFZ2X21INm5TSVdQd2NjaDI1V3VfYmZmZjNZTkQ2MGpSQ0N2dTNBUEZHSXQ3a2tHeTlUYWlTMlJIbDVOXy1Rb1RLOWhJS1ZxWktabDJDZy1NREpZV1o1c2hSbGJySmRsMkRUUUJWTFppTm9kTVVaZEtDeS1fR3RVUkVyUnYzN0tZSVdUVjVOek1rbGlsVmV5emFaRGdPZlBJc043VW5kdzltRV9fejlELUg4djEzd2Z3X1loOGc2bXBzeUg2MnY?oc=5\" target=\"_blank\">Violento episodio en el CPEM 31: un padre ingresó al colegio con un arma blanca</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">chanardigital.com.ar</font>",
-      "source": "chanardigital.com.ar",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMizAFBVV95cUxNaDU2elBEeFZ2X21INm5TSVdQd2NjaDI1V3VfYmZmZjNZTkQ2MGpSQ0N2dTNBUEZHSXQ3a2tHeTlUYWlTMlJIbDVOXy1Rb1RLOWhJS1ZxWktabDJDZy1NREpZV1o1c2hSbGJySmRsMkRUUUJWTFppTm9kTVVaZEtDeS1fR3RVUkVyUnYzN0tZSVdUVjVOek1rbGlsVmV5emFaRGdPZlBJc043VW5kdzltRV9fejlELUg4djEzd2Z3X1loOGc2bXBzeUg2MnY?oc=5\" target=\"_blank\">Violento episodio en el CPEM 31: un padre ingresó al colegio con un arma blanca</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Chañar Digital</font>",
+      "source": "Chañar Digital",
       "sourceType": "BUSCADOR / RESPALDO",
       "sourceUrl": "",
       "collection": "BUSCADOR",
@@ -3084,8 +3070,8 @@
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "firstSeen": "2026-09-21T00:59:40.731423+00:00",
-      "isNew": true,
-      "titleKey": "violento episodio cpem padre ingreso colegio arma blanca chanardigital com",
+      "isNew": false,
+      "titleKey": "violento episodio cpem padre ingreso colegio arma blanca digital",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNaDU2elBEeFZ2X21INm5TSVdQd2NjaDI1V3VfYmZmZjNZTkQ2MGpSQ0N2dTNBUEZHSXQ3a2tHeTlUYWlTMlJIbDVOXy1Rb1RLOWhJS1ZxWktabDJDZy1NREpZV1o1c2hSbGJySmRsMkRUUUJWTFppTm9kTVVaZEtDeS1fR3RVUkVyUnYzN0tZSVdUVjVOek1rbGlsVmV5emFaRGdPZlBJc043VW5kdzltRV9fejlELUg4djEzd2Z3X1loOGc2bXBzeUg2MnY?oc=5",
       "sourcePriority": 3
     },
@@ -3103,7 +3089,7 @@
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "firstSeen": "2026-09-21T00:59:40.731423+00:00",
-      "isNew": true,
+      "isNew": false,
       "titleKey": "patagonia wine fest 2026 pericos tipitos llegan diario rio negro",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNM0pZT3R1ZXUzRUZJZ0VEV3NFRlBUY3p6QWNyemYzQWJrdk53OGtMMHYtOWJDbXBrOUx3c3piWDZhc05vTVNLMkh5N29FZS1ldTVUUDh4QkpIQ0xsa2xYVEx1MkZKUVp4a21ZeWF0THVRRHozcl9aODJPbjNrREkxZFA1b2FHakkyV2dHN2hQVkk0ZzNTSk5lbi1EYzVaeUNpYU0wSUVFU0xnckcxam1pQlVRQzdUMlpsc2c1UlY4UWppRlpLNEVoWUhwRnDSAdQBQVVfeXFMTTRoMHNNTkU0ZkVSU2ZzWVJGRWlGQy1GQzdBMVdzUWl1dmZ3ejZxSHEzNGo1TndDaXJaOVBXRXFVWk9VZl9DQWlacHZIMXVPVzlDRE01MVBGNHFld0QzUm1rYzE3RFp0LTVEM1hacjg1SXVYd29rUlkweEE1dlg5djNGVE1pY3p5NWI1OUJpQTdQa2NkVVFmLWxIRGJMSW44VHAwRVd6cmVTSWp2cEM4eE16OWJrZGliOEFTZnduYV9oS3Q1ZW80Wm1LQUlDcnlIWThVRTk?oc=5",
       "sourcePriority": 3
@@ -3122,7 +3108,7 @@
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "firstSeen": "2026-09-21T00:59:40.731423+00:00",
-      "isNew": true,
+      "isNew": false,
       "titleKey": "habilito suministro electrico lotes informa",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxORXdMSWpGblRpTHFsd0diTmhXeEJ1eHA5RzZXUUpNV1hWbm14dzRBdERRdDBEX3hYQWFQMUxrUHBwc1V1cVdzZWpTaTNEZllSeHU5Mlk5VUlUWTZ4bmdzWGRtTUNEcTdQQ0lxR1VySHJ6MVY2WFRNamFMTklUZHlaUWpoNnZkT2dQYVJoUmEzNXFxVUtCcU1fSXhGeTJTMnkzbGF5M3NYMlJRNWNBNXVhS3JWQ2ZudDJrR3lEU0RrWGxJV1VObzJJa1BjUWRtT0tzU1lR0gHYAUFVX3lxTE04UklnazVabEdnVV8xanpPeHZ0QS04TlhUT05NWDJsOER2ZFBaSi1MeVoyeXZOYUl3ZEx4V3NqbnNUeVdBVU91LVBrWjkyMVBfRkh3ckk5RHpiR2lqWmxUZm55TjZhQWJDOFBGQUdvWjVUV2lnX2Q2WUNLSVhUZ3F0YXpFazdQd1EwamlQS3hzUm9zZGtuS29IWWpXdUx4eVZxY0NrR3R3bG1zNXJJS051YmpvM29qZklmTXB6VThFS2V1SHdGS2lfUFNpZ0pISjhNOWFuSVZscw?oc=5",
       "sourcePriority": 3
@@ -3130,7 +3116,7 @@
   ],
   "territorialGraph": {
     "version": "2.0",
-    "generatedAt": "2026-09-21T00:59:50.253113+00:00",
+    "generatedAt": "2026-09-21T01:01:59.003146+00:00",
     "root": "spc",
     "rule": "evidence-first",
     "levels": [
@@ -3737,7 +3723,7 @@
   },
   "audit": {
     "version": "1.0",
-    "updatedAt": "2026-09-21T00:59:50.297653+00:00",
+    "updatedAt": "2026-09-21T01:01:59.036400+00:00",
     "rule": "fact != coverage; territory requires textual evidence",
     "facts": 6,
     "coverage": 6,
