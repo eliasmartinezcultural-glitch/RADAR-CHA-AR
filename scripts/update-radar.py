@@ -113,7 +113,7 @@ LOCAL_ENTITIES=[
 ]
 STRONG_LOCAL=set(LOCAL_ENTITIES)-{'ruta 7','ruta 8','epen','viñedo','viñedos','bodegas','chacra'}
 AMBIGUOUS=['puerto el chañar','chañaral','chañar viejo','chañaral de caracoles']
-def clean(s): return re.sub(r'\\s+',' ',s or '').strip()
+def clean(s): return ' '.join((s or '').split())
 def norm(s):
     s=(s or '').lower().translate(str.maketrans('áéíóúü','aeiouu'))
     return re.sub(r'[^a-z0-9ñ ]+',' ',s)
@@ -544,7 +544,7 @@ def collect_operational():
     road_evidence={}
     if raw:
         plain=clean(re.sub(r'\\s+',' ',re.sub(r'<[^>]+>',' ',raw)))
-        road_evidence={'route7Mention':bool(re.search(r'Ruta\\s*7|RP\\s*7',plain,re.I)),'route8Mention':bool(re.search(r'Ruta\\s*8|RP\\s*8',plain,re.I))}
+        road_evidence={'route7Mention':bool(re.search(r'Ruta[ ]*7|RP[ ]*7',plain,re.I)),'route8Mention':bool(re.search(r'Ruta[ ]*8|RP[ ]*8',plain,re.I))}
     for key in ('route7','route8'):
         op[key]={'source':'Dirección Provincial de Vialidad','sourceTier':'primary','sourceUrl':dpv,'semanticState':None,'publicationState':'source_reachable_no_current_machine_readable_state' if raw else 'source_unreachable','retrievedAt':NOW.isoformat(),'evidence':road_evidence}
 
@@ -574,10 +574,10 @@ def collect_environment():
         plain=clean(re.sub(r'<[^>]+>',' ',html))
         idx=plain.lower().find('pronóstico para el chañar')
         block=plain[idx:idx+5000] if idx>=0 else plain[:5000]
-        vm=re.search(r'Viento\\s+([0-9]{1,3})\\s*km/h',block,re.I)
-        gm=re.search(r'Ráfagas\\s+([0-9]{1,3})\\s*km/h',block,re.I)
-        dm=re.search(r'Dirección\\s+([A-ZÁÉÍÓÚÑ/]{1,6})',block,re.I)
-        tm=re.search(r'Temperatura\\s+(-?[0-9]{1,3})\\s*ºC',block,re.I)
+        vm=re.search(r'Viento[ ]+([0-9]{1,3})[ ]*km/h',block,re.I)
+        gm=re.search(r'Ráfagas[ ]+([0-9]{1,3})[ ]*km/h',block,re.I)
+        dm=re.search(r'Dirección[ ]+([A-ZÁÉÍÓÚÑ/]{1,6})',block,re.I)
+        tm=re.search(r'Temperatura[ ]+(-?[0-9]{1,3})[ ]*ºC',block,re.I)
         if vm:
             env['weather']={'dataType':'forecast','forecastWindKmh':float(vm.group(1)),'forecastGustKmh':float(gm.group(1)) if gm else None,'forecastWindDirection':dm.group(1) if dm else None,'forecastTemperatureC':float(tm.group(1)) if tm else None,'retrievedAt':NOW.isoformat(),'source':'AIC','sourceTier':'primary','sourceUrl':aic_url,'semanticState':'pronostico_local'}
             env['sources'].append({'name':'AIC · Pronóstico El Chañar','tier':'primary','mode':'parsed','url':aic_url})
@@ -590,10 +590,10 @@ def collect_environment():
     try:
         ht=fetch(hurl)
         plain=clean(re.sub(r'<[^>]+>',' ',ht))
-        row=re.search(r'El Chañar\\s*\\|\\s*(\\d+)\\s*\\|\\s*((?:\\d+\\s*\\|\\s*){5}\\d+)\\s*(\\d+(?:\\s*\\|\\s*\\d+){5})',plain,re.I)
+        row=re.search(r'El Chañar[ ]*[|][ ]*([0-9]+)[ ]*[|][ ]*((?:[0-9]+[ ]*[|][ ]*){5}[0-9]+)[ ]*([0-9]+(?:[ ]*[|][ ]*[0-9]+){5})',plain,re.I)
         if row:
-            max_vals=[int(x) for x in re.findall(r'\\d+',row.group(2))]
-            min_vals=[int(x) for x in re.findall(r'\\d+',row.group(3))]
+            max_vals=[int(x) for x in re.findall(r'[0-9]+',row.group(2))]
+            min_vals=[int(x) for x in re.findall(r'[0-9]+',row.group(3))]
             env['hydrology']={'site':'El Chañar','flowType':'programmed_outflow','erogatedM3s':int(row.group(1)),'programmedMaxM3s':max_vals,'programmedMinM3s':min_vals,'currentProgrammedMaxM3s':max_vals[0] if max_vals else None,'currentProgrammedMinM3s':min_vals[0] if min_vals else None,'programDate':(NOW+timedelta(days=1)).strftime('%Y-%m-%d'),'tableDate':NOW.strftime('%Y-%m-%d'),'retrievedAt':NOW.isoformat(),'source':'AIC','sourceTier':'primary','sourceUrl':hurl,'semanticState':'caudal_programado'}
             env['sources'].append({'name':'AIC · Caudales Programados','tier':'primary','mode':'parsed','url':hurl})
         else:
