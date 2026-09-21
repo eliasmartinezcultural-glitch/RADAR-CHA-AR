@@ -1,63 +1,183 @@
 <!doctype html>
 <html lang="es">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>RADAR CHAÑAR · Ocarina Producciones</title>
 <meta name="description" content="Sistema de observación territorial de San Patricio del Chañar.">
-<meta property="og:title" content="RADAR CHAÑAR"><meta property="og:description" content="¿De qué se está hablando cuando se habla de San Patricio del Chañar?">
+<meta property="og:title" content="RADAR CHAÑAR">
+<meta property="og:description" content="¿De qué se está hablando cuando se habla de San Patricio del Chañar?">
 <meta property="og:type" content="website">
 <style>
-:root{--bg:#05080b;--panel:#091116;--line:#17313a;--cyan:#62f2ff;--cyan2:#1ab7c7;--text:#e6f7f8;--muted:#78949c;--green:#70ffb2;--amber:#ffd36b}
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at 50% -10%,#10323b 0,#05080b 42%);color:var(--text);font-family:Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif}
-body:before{content:"";position:fixed;inset:0;pointer-events:none;background:linear-gradient(rgba(98,242,255,.018) 1px,transparent 1px),linear-gradient(90deg,rgba(98,242,255,.018) 1px,transparent 1px);background-size:48px 48px;mask-image:linear-gradient(to bottom,black,transparent 75%)}
-.wrap{width:min(1120px,calc(100% - 28px));margin:auto}.credit{padding:14px 0 8px;color:#6e929a;font-size:10px;letter-spacing:.22em;text-transform:uppercase}.credit b{color:var(--cyan)}
-header{position:sticky;top:0;z-index:20;background:rgba(5,8,11,.78);backdrop-filter:blur(18px);border-bottom:1px solid #10252c}.nav{height:58px;display:flex;align-items:center;justify-content:space-between}.brand{font-size:12px;letter-spacing:.2em;font-weight:900}.brand span{color:var(--cyan)}nav{display:flex;gap:6px}nav a{color:#78949c;text-decoration:none;font-size:10px;letter-spacing:.12em;text-transform:uppercase;padding:8px 10px;border:1px solid transparent}nav a:hover{border-color:var(--line);color:var(--text)}
-.hero{padding:72px 0 54px;max-width:900px}.eyebrow{color:var(--cyan);font-size:9px;letter-spacing:.3em;text-transform:uppercase}.hero h1{font-size:clamp(44px,8vw,92px);line-height:.88;letter-spacing:-.07em;margin:14px 0 22px}.hero h1 em{font-style:normal;color:var(--cyan);text-shadow:0 0 30px rgba(98,242,255,.3)}.question{font-size:clamp(18px,2.5vw,28px);line-height:1.25;color:#c3d9dd;max-width:760px}.live{display:flex;gap:10px;align-items:center;margin-top:25px;color:var(--muted);font-size:10px;letter-spacing:.12em;text-transform:uppercase}.dot{width:7px;height:7px;border-radius:50%;background:var(--green);box-shadow:0 0 15px var(--green)}
-section{padding:46px 0;border-top:1px solid rgba(23,49,58,.75)}.sectionhead{display:flex;justify-content:space-between;align-items:end;margin-bottom:18px}.sectionhead h2{font-size:11px;letter-spacing:.2em;text-transform:uppercase;margin:0}.sectionhead p{font-size:10px;color:var(--muted);margin:0}
-.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}.card{background:linear-gradient(145deg,rgba(10,22,27,.96),rgba(5,11,14,.96));border:1px solid var(--line);min-height:154px;padding:15px;position:relative;overflow:hidden}.card:after{content:"";position:absolute;right:-35px;top:-35px;width:100px;height:100px;border:1px solid rgba(98,242,255,.1);border-radius:50%}.tag{font-size:8px;color:var(--muted);letter-spacing:.16em;text-transform:uppercase}.value{font-size:27px;font-weight:800;margin:23px 0 6px;letter-spacing:-.04em}.state{font-size:9px;color:var(--cyan);text-transform:uppercase;letter-spacing:.12em}.source{position:absolute;bottom:12px;left:15px;right:15px;font-size:8px;color:#54757e;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.source b{color:#8db7bf}.card.direct .state{color:var(--green)}
-.focus{display:grid;grid-template-columns:1.5fr 1fr;gap:10px}.radar{min-height:330px;display:flex;align-items:center;justify-content:center;background:radial-gradient(circle,#10343b 0,#071115 35%,#05090c 70%);border:1px solid var(--line);position:relative;overflow:hidden}.radar:before,.radar:after{content:"";position:absolute;border:1px solid rgba(98,242,255,.16);border-radius:50%;width:430px;height:430px}.radar:after{width:280px;height:280px}.sweep{position:absolute;width:210px;height:1px;background:linear-gradient(90deg,transparent,var(--cyan));transform-origin:left center;animation:scan 4s linear infinite;box-shadow:0 0 14px var(--cyan)}@keyframes scan{to{transform:rotate(360deg)}}.center{z-index:2;text-align:center}.center strong{display:block;font-size:40px;letter-spacing:-.06em}.center small{font-size:8px;letter-spacing:.2em;color:var(--muted)}
-.list{border:1px solid var(--line);background:rgba(7,15,19,.8)}.item{padding:15px;border-bottom:1px solid #11272e}.item:last-child{border:0}.itemtop{display:flex;justify-content:space-between;gap:15px}.item h3{font-size:13px;margin:0;font-weight:650}.item time{font-size:8px;color:var(--muted);white-space:nowrap}.item p{font-size:10px;line-height:1.45;color:#78949c;margin:7px 0}.pill{display:inline-block;font-size:7px;letter-spacing:.12em;text-transform:uppercase;color:var(--cyan);border:1px solid #1a4650;padding:4px 6px}
-.incidence{display:grid;grid-template-columns:1.4fr 1fr;gap:10px}.incidence-main,.incidence-note{border:1px solid var(--line);background:#071015}.incidence-main{padding:0}.incidence-note{padding:20px}.incidence-item{padding:16px;border-bottom:1px solid #11272e}.incidence-item:last-child{border:0}.incidence-item h3{font-size:14px;margin:0 0 7px}.incidence-meta{font-size:8px;color:var(--muted);letter-spacing:.1em;text-transform:uppercase}.incidence-item p{font-size:10px;line-height:1.5;color:#78949c;margin:8px 0}.incidence-note strong{display:block;font-size:24px;margin-bottom:8px}.incidence-note p{font-size:10px;line-height:1.6;color:#78949c;margin:0 0 12px}.report{display:grid;grid-template-columns:1fr 1fr;gap:10px}.reportbox{border:1px solid var(--line);padding:20px;background:#071015}.big{font-size:34px;font-weight:800}.muted{font-size:9px;color:var(--muted);line-height:1.6}.footer{padding:38px 0 70px;color:#49636a;font-size:9px;display:flex;justify-content:space-between}
-@media(max-width:800px){nav{display:none}.grid{grid-template-columns:repeat(2,1fr)}.focus,.incidence,.report{grid-template-columns:1fr}.hero{padding-top:50px}.card{min-height:140px}.footer{display:block}.footer div+div{margin-top:12px}}
-@media(max-width:480px){.wrap{width:min(100% - 20px,1120px)}.grid{grid-template-columns:1fr 1fr;gap:7px}.card{padding:12px;min-height:132px}.source{left:12px;right:12px}.value{font-size:22px}.hero h1{font-size:48px}}
-</style></head>
+:root{--bg:#04070a;--panel:#081116;--panel2:#0b171d;--line:#16323a;--line2:#204851;--cyan:#65efff;--cyan2:#19bfd2;--green:#70ffb1;--amber:#ffd36b;--red:#ff7587;--text:#e8f8fa;--muted:#78959d;--dim:#49636a;--shadow:0 18px 60px rgba(0,0,0,.35)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at 50% -10%,#10343d 0,#05080b 38%,#030507 78%);color:var(--text);font-family:Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif;overflow-x:hidden}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.45;background:linear-gradient(rgba(101,239,255,.018) 1px,transparent 1px),linear-gradient(90deg,rgba(101,239,255,.018) 1px,transparent 1px);background-size:46px 46px;mask-image:linear-gradient(to bottom,black,transparent 78%)}
+body:after{content:"";position:fixed;inset:0;pointer-events:none;background:linear-gradient(transparent 0,rgba(101,239,255,.035) 50%,transparent 51%);height:100%;animation:scanline 9s linear infinite;opacity:.28}@keyframes scanline{from{transform:translateY(-100%)}to{transform:translateY(100%)}}
+a{color:inherit}.wrap{width:min(1160px,calc(100% - 28px));margin:auto}.credit{padding:13px 0 7px;color:#6c8d95;font-size:9px;letter-spacing:.2em;text-transform:uppercase}.credit b{color:var(--cyan)}
+header{position:sticky;top:0;z-index:30;background:rgba(4,7,10,.78);backdrop-filter:blur(18px);border-bottom:1px solid #10272e}.nav{height:58px;display:flex;align-items:center;justify-content:space-between}.brand{font-size:12px;letter-spacing:.22em;font-weight:900}.brand span{color:var(--cyan)}nav{display:flex;gap:4px}nav a{color:var(--muted);text-decoration:none;font-size:9px;letter-spacing:.13em;text-transform:uppercase;padding:8px 10px;border:1px solid transparent;transition:.2s}nav a:hover,nav a.active{color:var(--text);border-color:var(--line);background:rgba(101,239,255,.035)}
+.hero{padding:65px 0 35px;position:relative}.eyebrow{color:var(--cyan);font-size:9px;letter-spacing:.3em;text-transform:uppercase;display:flex;gap:9px;align-items:center}.eyebrow:before{content:"";width:26px;height:1px;background:var(--cyan);box-shadow:0 0 10px var(--cyan)}
+.hero h1{font-size:clamp(54px,9vw,104px);line-height:.84;letter-spacing:-.075em;margin:16px 0 20px}.hero h1 em{font-style:normal;color:var(--cyan);text-shadow:0 0 34px rgba(101,239,255,.27)}.question{font-size:clamp(18px,2.5vw,28px);line-height:1.22;color:#c6dce0;max-width:790px}
+.statusline{display:flex;flex-wrap:wrap;gap:8px;margin-top:26px}.statuschip{display:inline-flex;align-items:center;gap:7px;padding:7px 9px;border:1px solid var(--line);background:rgba(6,14,18,.68);font-size:8px;color:var(--muted);letter-spacing:.1em;text-transform:uppercase}.dot{width:6px;height:6px;border-radius:50%;background:var(--green);box-shadow:0 0 13px var(--green);animation:pulse 1.8s ease-in-out infinite}@keyframes pulse{50%{opacity:.35;transform:scale(.65);box-shadow:0 0 4px var(--green)}}
+section{padding:46px 0;border-top:1px solid rgba(22,50,58,.75);scroll-margin-top:62px}.sectionhead{display:flex;justify-content:space-between;align-items:end;margin-bottom:17px;gap:20px}.sectionhead h2{font-size:11px;letter-spacing:.2em;text-transform:uppercase;margin:0}.sectionhead p{font-size:9px;color:var(--muted);margin:0;text-align:right}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:9px}.card{background:linear-gradient(145deg,rgba(10,23,28,.97),rgba(4,10,13,.97));border:1px solid var(--line);min-height:142px;padding:14px;position:relative;overflow:hidden;transform:translateY(8px);opacity:0;transition:transform .55s ease,opacity .55s ease,border-color .2s,background .2s}.card.show{transform:none;opacity:1}.card:hover{border-color:var(--line2);background:linear-gradient(145deg,#0d2026,#061014)}.card:after{content:"";position:absolute;right:-35px;top:-35px;width:105px;height:105px;border:1px solid rgba(101,239,255,.1);border-radius:50%;transition:.4s}.card:hover:after{transform:scale(1.18);border-color:rgba(101,239,255,.24)}.tag{font-size:8px;color:var(--muted);letter-spacing:.16em;text-transform:uppercase}.value{font-size:25px;font-weight:800;margin:20px 0 5px;letter-spacing:-.04em}.state{font-size:8px;color:var(--cyan);text-transform:uppercase;letter-spacing:.1em}.source{position:absolute;bottom:11px;left:14px;right:14px;font-size:7px;color:#52727b;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.source b{color:#91bac1}.card.direct .state{color:var(--green)}.card.alert .state{color:var(--amber)}.mini{position:absolute;right:13px;bottom:12px;width:44px;height:18px;display:flex;gap:2px;align-items:end}.mini i{width:3px;background:var(--cyan);opacity:.25;animation:bars 1.1s ease-in-out infinite;animation-delay:calc(var(--i)*.08s)}@keyframes bars{50%{height:16px;opacity:.85}100%{height:3px;opacity:.25}}
+.focus{display:grid;grid-template-columns:1.18fr .82fr;gap:10px}.radar{min-height:350px;display:flex;align-items:center;justify-content:center;background:radial-gradient(circle,#103943 0,#071217 34%,#04080b 70%);border:1px solid var(--line);position:relative;overflow:hidden;box-shadow:var(--shadow)}.radar:before,.radar:after{content:"";position:absolute;border:1px solid rgba(101,239,255,.15);border-radius:50%;width:min(470px,90vw);height:min(470px,90vw)}.radar:after{width:min(300px,60vw);height:min(300px,60vw);border-color:rgba(101,239,255,.1)}.ring3{position:absolute;width:min(180px,36vw);height:min(180px,36vw);border:1px solid rgba(101,239,255,.08);border-radius:50%}.sweep{position:absolute;width:min(235px,45vw);height:1px;background:linear-gradient(90deg,transparent,var(--cyan));transform-origin:left center;animation:scan 4s linear infinite;box-shadow:0 0 14px var(--cyan)}.sweep2{position:absolute;width:min(170px,33vw);height:1px;background:linear-gradient(90deg,transparent,var(--green));transform-origin:left center;animation:scan 7s linear infinite reverse;opacity:.38}@keyframes scan{to{transform:rotate(360deg)}}.cross:before,.cross:after{content:"";position:absolute;background:rgba(101,239,255,.08)}.cross:before{width:100%;height:1px}.cross:after{height:100%;width:1px}.blip{position:absolute;width:6px;height:6px;border-radius:50%;background:var(--cyan);box-shadow:0 0 12px var(--cyan);animation:blip 2s infinite}.b1{left:28%;top:37%}.b2{right:25%;bottom:31%;animation-delay:.7s}.b3{right:36%;top:27%;animation-delay:1.2s}@keyframes blip{0%,100%{opacity:.15;transform:scale(.7)}50%{opacity:1;transform:scale(1.4)}}.center{z-index:2;text-align:center}.center strong{display:block;font-size:55px;letter-spacing:-.07em}.center small{font-size:8px;letter-spacing:.2em;color:var(--muted)}.radarlabel{position:absolute;left:13px;top:12px;font-size:7px;color:#53747c;letter-spacing:.15em;text-transform:uppercase}.radarlegend{position:absolute;right:13px;bottom:12px;font-size:7px;color:#53747c;letter-spacing:.1em;text-transform:uppercase}
+.list{border:1px solid var(--line);background:rgba(7,15,19,.82);overflow:hidden}.item{padding:14px;border-bottom:1px solid #11272e;position:relative;transition:.2s}.item:last-child{border:0}.item:hover{background:rgba(101,239,255,.025)}.itemtop{display:flex;justify-content:space-between;gap:12px}.item h3{font-size:12px;margin:0;font-weight:650;line-height:1.35}.item time{font-size:7px;color:var(--muted);white-space:nowrap}.item p{font-size:9px;line-height:1.45;color:#78949c;margin:7px 0}.pill{display:inline-block;font-size:7px;letter-spacing:.11em;text-transform:uppercase;color:var(--cyan);border:1px solid #1a4650;padding:4px 6px}.eventbar{height:2px;background:#102b32;margin-top:10px;overflow:hidden}.eventbar i{display:block;height:100%;width:var(--w,55%);background:linear-gradient(90deg,var(--cyan2),var(--cyan));animation:loadbar 1.2s ease both}@keyframes loadbar{from{transform:translateX(-100%)}}.empty{padding:25px;color:var(--muted);font-size:9px}
+.stream{margin-top:10px;border:1px solid var(--line);background:#061014;padding:10px;display:flex;gap:10px;align-items:center;overflow:hidden}.streamlabel{font-size:7px;letter-spacing:.16em;color:var(--cyan);white-space:nowrap}.ticker{font-size:8px;color:var(--muted);white-space:nowrap;animation:ticker 22s linear infinite}@keyframes ticker{from{transform:translateX(0)}to{transform:translateX(-55%)}}
+.incidence{display:grid;grid-template-columns:1.45fr .55fr;gap:10px}.incidence-main,.incidence-note{border:1px solid var(--line);background:#071015}.incidence-item{padding:15px;border-bottom:1px solid #11272e;transition:.2s}.incidence-item:hover{background:rgba(101,239,255,.025)}.incidence-item:last-child{border:0}.incidence-item h3{font-size:13px;margin:6px 0}.incidence-meta{font-size:7px;color:var(--muted);letter-spacing:.1em;text-transform:uppercase}.incidence-item p{font-size:9px;line-height:1.5;color:#78949c;margin:8px 0}.incidence-note{padding:19px;position:relative;overflow:hidden}.incidence-note:after{content:"";position:absolute;width:170px;height:170px;border:1px solid rgba(101,239,255,.08);border-radius:50%;right:-85px;bottom:-85px}.incidence-note strong{display:block;font-size:48px;letter-spacing:-.07em;margin-bottom:4px}.incidence-note .smallcap{font-size:7px;color:var(--cyan);letter-spacing:.15em;text-transform:uppercase}.incidence-note p{font-size:9px;line-height:1.65;color:#78949c;margin:13px 0 0}
+.reportgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:9px}.reportbox{border:1px solid var(--line);padding:17px;background:#071015;min-height:126px;position:relative;overflow:hidden}.big{font-size:32px;font-weight:800;letter-spacing:-.05em}.reportlabel{font-size:7px;color:var(--cyan);letter-spacing:.14em;text-transform:uppercase;margin-top:3px}.muted{font-size:8px;color:var(--muted);line-height:1.55;margin-top:9px}.meter{height:4px;background:#10262d;margin-top:14px;overflow:hidden}.meter i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--cyan2),var(--cyan));transition:width 1.2s cubic-bezier(.2,.8,.2,1)}.health{margin-top:10px}.healthrow{display:grid;grid-template-columns:1.1fr .7fr .3fr;gap:8px;align-items:center;border-bottom:1px solid #10272e;padding:9px 0;font-size:8px;color:var(--muted)}.healthrow:last-child{border:0}.healthrow b{color:var(--text);font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.healthdot{width:6px;height:6px;border-radius:50%;background:var(--green);box-shadow:0 0 8px var(--green);display:inline-block}.healthdot.fail{background:var(--red);box-shadow:0 0 8px var(--red)}.coverage{display:grid;grid-template-columns:repeat(5,1fr);gap:6px;margin-top:13px}.cov{height:48px;border:1px solid var(--line);padding:7px;position:relative}.cov span{font-size:6px;color:var(--muted);text-transform:uppercase;display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.cov i{display:block;height:3px;background:#102a31;margin-top:10px}.cov i b{display:block;height:100%;background:var(--cyan);width:0;transition:width 1.1s}.reportwide{margin-top:10px;border:1px solid var(--line);background:#071015;padding:15px}.footer{padding:36px 0 70px;color:#49636a;font-size:8px;display:flex;justify-content:space-between}.fadein{animation:fadein .65s ease both}@keyframes fadein{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+@media(max-width:900px){.grid{grid-template-columns:repeat(3,1fr)}.focus,.incidence{grid-template-columns:1fr}.reportgrid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:620px){nav{display:none}.wrap{width:min(100% - 18px,1160px)}.hero{padding-top:45px}.grid{grid-template-columns:repeat(2,1fr);gap:7px}.card{min-height:130px;padding:12px}.source{left:12px;right:12px}.value{font-size:21px}.radar{min-height:300px}.reportgrid{grid-template-columns:1fr 1fr}.coverage{grid-template-columns:repeat(3,1fr)}.sectionhead{align-items:start;flex-direction:column}.sectionhead p{text-align:left}.footer{display:block}.footer div+div{margin-top:10px}}
+@media(max-width:390px){.grid{grid-template-columns:1fr 1fr}.hero h1{font-size:50px}.question{font-size:17px}.reportgrid{grid-template-columns:1fr}.coverage{grid-template-columns:repeat(2,1fr)}}
+</style>
+</head>
 <body>
 <div class="wrap"><div class="credit">TECNOLOGÍA DESARROLLADA POR <b>ELÍAS MARTÍNEZ · OCARINA PRODUCCIONES</b></div></div>
 <header><div class="wrap nav"><div class="brand">RADAR <span>CHAÑAR</span></div><nav><a href="#estado">Estado</a><a href="#senales">Señales</a><a href="#incidencia">Incidencia</a><a href="#reporte">Reporte</a></nav></div></header>
+
 <main class="wrap">
-<div class="hero"><div class="eyebrow">sistema de observación territorial · v2</div><h1>RADAR<br><em>CHAÑAR</em></h1><div class="question">¿De qué se está hablando cuando se habla de San Patricio del Chañar?</div><div class="live"><i class="dot"></i><span id="updated">conectando con el pulso territorial</span></div></div>
+<div class="hero">
+  <div class="eyebrow">sistema de observación territorial · v2.1</div>
+  <h1>RADAR<br><em>CHAÑAR</em></h1>
+  <div class="question">¿De qué se está hablando cuando se habla de San Patricio del Chañar?</div>
+  <div class="statusline">
+    <div class="statuschip"><i class="dot"></i><span id="connection">motor conectado</span></div>
+    <div class="statuschip">ciclo <b id="cycle">—</b></div>
+    <div class="statuschip">hora local <b id="clock">—</b></div>
+    <div class="statuschip">próxima lectura <b id="next">—</b></div>
+  </div>
+</div>
 
-<section id="estado"><div class="sectionhead"><h2>01 · Estado</h2><p>lecturas principales · fuente primaria visible</p></div><div class="grid" id="cards"></div></section>
+<section id="estado">
+ <div class="sectionhead"><h2>01 · Estado</h2><p>12 radares · lectura de fondo · sin convertir ausencia en certeza</p></div>
+ <div class="grid" id="cards"></div>
+</section>
 
-<section id="senales"><div class="sectionhead"><h2>02 · Señales</h2><p>hechos locales detectados y verificados</p></div><div class="focus"><div class="radar"><div class="sweep"></div><div class="center"><strong id="count">—</strong><small>SEÑALES LOCALES</small></div></div><div class="list" id="events"></div></div></section>
+<section id="senales">
+ <div class="sectionhead"><h2>02 · Señales</h2><p>hechos detectados · memoria · movimiento · diversidad de fuentes</p></div>
+ <div class="focus">
+  <div class="radar">
+   <div class="radarlabel">barrido territorial · 360°</div><div class="cross"></div><div class="ring3"></div><div class="sweep"></div><div class="sweep2"></div>
+   <i class="blip b1"></i><i class="blip b2"></i><i class="blip b3"></i>
+   <div class="center"><strong id="count">—</strong><small>SEÑALES LOCALES</small></div>
+   <div class="radarlegend">evidencia primero · contexto después</div>
+  </div>
+  <div>
+   <div class="list" id="events"></div>
+   <div class="stream"><span class="streamlabel">PULSO</span><span class="ticker" id="ticker">inicializando lectura territorial · esperando datos ·</span></div>
+  </div>
+ </div>
+</section>
 
-<section id="incidencia"><div class="sectionhead"><h2>03 · Incidencia</h2><p>noticias regionales o locales con anclaje verificable en Chañar</p></div><div class="incidence"><div class="incidence-main" id="incidence-list"></div><div class="incidence-note"><strong id="incidence-count">—</strong><p>hechos con incidencia territorial detectada por el motor. Se exige evidencia textual: localidad, institución, barrio, picada, corredor o servicio local.</p><p>El radar no convierte una noticia regional en local por proximidad: primero encuentra el anclaje y después la incorpora.</p></div></div></section>
+<section id="incidencia">
+ <div class="sectionhead"><h2>03 · Incidencia</h2><p>noticias con anclaje verificable en Chañar</p></div>
+ <div class="incidence">
+  <div class="incidence-main" id="incidence-list"></div>
+  <div class="incidence-note"><strong id="incidence-count">—</strong><span class="smallcap">hechos con incidencia</span><p>El motor exige localidad, institución, barrio, picada, corredor, servicio u otro nodo territorial identificable.</p><p>Una noticia regional no se vuelve local por proximidad: primero debe demostrar el vínculo.</p></div>
+ </div>
+</section>
 
-<section id="reporte"><div class="sectionhead"><h2>04 · Reporte</h2><p>lectura compacta del momento</p></div><div class="report"><div class="reportbox"><div class="big" id="local">—</div><div class="muted">señales con anclaje territorial explícito. El motor cruza instituciones, barrios, picadas, rutas y lenguaje local.</div></div><div class="reportbox"><div class="big" id="sources">—</div><div class="muted">fuentes monitoreadas. Cada radar mantiene una primaria, una secundaria y un respaldo.</div></div></div></section>
+<section id="reporte">
+ <div class="sectionhead"><h2>04 · Reporte</h2><p>estado técnico + cobertura territorial + trazabilidad</p></div>
+ <div class="reportgrid">
+  <div class="reportbox"><div class="big" id="local">—</div><div class="reportlabel">anclaje explícito</div><div class="muted">hechos que contienen evidencia territorial fuerte.</div><div class="meter"><i id="localbar"></i></div></div>
+  <div class="reportbox"><div class="big" id="sources">—</div><div class="reportlabel">fuentes catalogadas</div><div class="muted">red de fuentes profesionales que el motor intenta consultar.</div><div class="meter"><i id="sourcebar"></i></div></div>
+  <div class="reportbox"><div class="big" id="nodes">—</div><div class="reportlabel">nodos territoriales</div><div class="muted">localidad, instituciones, barrios, microzonas, corredores y otros niveles.</div><div class="meter"><i id="nodebar"></i></div></div>
+  <div class="reportbox"><div class="big" id="precision">—</div><div class="reportlabel">precisión observada</div><div class="muted">proporción de hechos aceptados con anclaje directo en la ventana actual.</div><div class="meter"><i id="precisionbar"></i></div></div>
+ </div>
+ <div class="reportwide">
+   <div class="reportlabel">SALUD DE FUENTES · ÚLTIMO CICLO</div>
+   <div class="health" id="health"></div>
+ </div>
+ <div class="reportwide">
+   <div class="reportlabel">COBERTURA TERRITORIAL ACTIVA</div>
+   <div class="coverage" id="coverage"></div>
+ </div>
+</section>
 </main>
-<footer class="wrap"><div>RADAR CHAÑAR · OCARINA PRODUCCIONES</div><div>información · territorio · trazabilidad</div></footer>
+
+<footer class="wrap"><div>RADAR CHAÑAR · OCARINA PRODUCCIONES</div><div>información · territorio · trazabilidad · actualización automática</div></footer>
+
 <script>
 const esc=s=>String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[m]));
 const fmt=x=>x?new Date(x).toLocaleString('es-AR',{day:'2-digit',month:'2-digit',hour:'2-digit',minute:'2-digit'}):'—';
+const ago=x=>{if(!x)return'—';const m=Math.max(0,Math.round((Date.now()-new Date(x).getTime())/60000));return m<60?m+' min':Math.round(m/60)+' h'};
+let lastData=null,lastLoad=Date.now(),refreshMs=5*60*1000;
+
+function animateNumber(el,target,suffix=''){
+ const n=Number(target)||0,start=Number(el.dataset.value)||0,dur=650,t0=performance.now();
+ const tick=t=>{const p=Math.min(1,(t-t0)/dur),e=1-Math.pow(1-p,3);el.textContent=Math.round(start+(n-start)*e)+suffix;if(p<1)requestAnimationFrame(tick);else el.dataset.value=n};
+ requestAnimationFrame(tick);
+}
+function statusClass(x){const s=String(x||'');return /DIRECTO|OFICIAL|RSS DIRECTO|WEB DIRECTA/.test(s)?'direct':/ALERTA|FALL/.test(s)?'alert':''}
+function render(d){
+ lastData=d;lastLoad=Date.now();
+ const rs=d.systemRadars||[],ev=d.events||[],op=d.operational||{},contracts=d.sourceContracts||{},health=d.system?.sourceHealth||[],audit=d.audit||{},graph=d.territorialGraph||{};
+ document.getElementById('connection').textContent='motor conectado';
+ document.getElementById('cycle').textContent=fmt(d.updatedAt);
+ const exact=Number(d.stats?.direct||ev.filter(x=>x.relevanceLabel==='DIRECTA').length);
+ const total=Number(d.stats?.total||ev.length);
+ animateNumber(document.getElementById('count'),total);
+ animateNumber(document.getElementById('local'),exact);
+ animateNumber(document.getElementById('sources'),(d.sourceCatalog||[]).length);
+ animateNumber(document.getElementById('nodes'),graph.stats?.nodes||0);
+ const pct=total?Math.round(exact/total*100):0;
+ animateNumber(document.getElementById('precision'),pct,'%');
+ setTimeout(()=>{document.getElementById('localbar').style.width=Math.min(100,pct)+'%';document.getElementById('precisionbar').style.width=pct+'%';document.getElementById('sourcebar').style.width=Math.min(100,((health.filter(x=>x.directAvailability!=='failed').length/Math.max(1,health.length))*100))+'%';document.getElementById('nodebar').style.width=Math.min(100,((graph.stats?.activeNodes||0)/Math.max(1,graph.stats?.nodes||1))*100)+'%'},80);
+
+ const wanted=rs;
+ document.getElementById('cards').innerHTML=wanted.map((x,i)=>{
+   const id=x.id, key=id==='RUTA 7'?'route7':id==='RUTA 8'?'route8':id==='ENERGÍA'?'energy':id==='AGUA'?'water':id.toLowerCase();
+   const o=op[key], contract=contracts[id]||x.sourceContract||{};
+   let value='SIN PARTE',state=x.status||'SEÑAL';
+   if(id==='VIENTO'&&d.environment){value=Math.round(d.environment.windSpeed||0)+' km/h';state='dato ambiental';}
+   else if(o){value=o.status||'PARTE';state=o.mode||'lectura operativa';}
+   else if(Number(x.signal)>0){value=x.signal;state=x.mode||'señales';}
+   return '<article class="card '+statusClass(state)+'" style="transition-delay:'+Math.min(i*35,300)+'ms"><div class="tag">'+esc(id)+'</div><div class="value">'+esc(value)+'</div><div class="state">'+esc(state)+'</div><div class="source">PRIMARIA · <b>'+esc(contract.primary||o?.source||'—')+'</b></div><div class="mini">'+[1,2,3,4,5,6].map((_,j)=>'<i style="--i:'+j+';height:'+(3+(Number(x.signal)||0)%7+j*2)+'px"></i>').join('')+'</div></article>'
+ }).join('');
+ requestAnimationFrame(()=>document.querySelectorAll('.card').forEach(x=>x.classList.add('show')));
+
+ const sorted=ev.slice().sort((a,b)=>new Date(b.publishedAt)-new Date(a.publishedAt));
+ document.getElementById('events').innerHTML=sorted.slice(0,6).map((x,i)=>{
+   const anchors=(x.territorialAnchors||[]).slice(0,3).join(' · ');
+   const href=x.evidenceUrl||x.url||'';
+   return '<article class="item fadein" style="animation-delay:'+i*70+'ms"><div class="itemtop"><h3>'+esc(x.title)+'</h3><time>'+fmt(x.publishedAt)+'</time></div><p>'+esc(x.description||anchors||'Señal detectada con evidencia territorial.')+'</p><span class="pill">'+esc(x.relevanceLabel||'LOCAL')+' · '+esc(x.topic||'OTROS')+' · '+esc(x.source||'fuente')+'</span><div class="eventbar"><i style="--w:'+Math.min(100,45+(x.sourceCount||1)*18)+'%"></i></div></article>'
+ }).join('')||'<div class="empty">Esperando señales verificadas.</div>';
+ const ticker=(sorted.slice(0,5).map(x=>x.title).join('  ·  ')||'sin novedades destacadas')+'  ·  actualización automática  ·  ';
+ document.getElementById('ticker').textContent=ticker+ticker;
+
+ const incidence=sorted.filter(x=>x.incidenceLabel==='DIRECTA EN CHANAR'||x.incidenceLabel==='ANCLA TERRITORIAL');
+ animateNumber(document.getElementById('incidence-count'),incidence.length);
+ document.getElementById('incidence-list').innerHTML=incidence.slice(0,5).map((x,i)=>{
+   const href=x.evidenceUrl||x.url||'';
+   return '<article class="incidence-item fadein" style="animation-delay:'+i*70+'ms"><div class="incidence-meta">'+esc(x.incidenceLabel||'ANCLA TERRITORIAL')+' · '+esc(x.topic||'OTROS')+' · '+fmt(x.publishedAt)+'</div><h3>'+esc(x.title)+'</h3><p>'+esc((x.territorialAnchors||[]).slice(0,5).join(' · ')||'anclaje local detectado')+'</p><span class="pill">'+esc((x.sources||[]).slice(0,2).join(' · ')||'fuente')+(href?' · abrir evidencia':'')+'</span></article>'
+ }).join('')||'<div class="empty">Sin noticias con incidencia territorial verificable en la ventana actual.</div>';
+
+ const shown=health.slice(0,12);
+ document.getElementById('health').innerHTML=shown.map(x=>'<div class="healthrow"><b>'+esc(x.name)+'</b><span>'+esc(x.mode||'—')+'</span><span class="healthdot '+(x.directAvailability==='failed'?'fail':'')+'"></span></div>').join('')||'<div class="muted">Sin registro de salud de fuentes.</div>';
+ const levels=(graph.levels||[]).slice(0,10), counts=graph.stats?.levelActivity||{};
+ document.getElementById('coverage').innerHTML=levels.map(k=>{const v=Number(counts[k]||0);return '<div class="cov"><span>'+esc(k)+'</span><i><b style="width:0%" data-w="'+Math.min(100,v?100:5)+'%"></b></i></div>'}).join('');
+ setTimeout(()=>document.querySelectorAll('.cov b').forEach(x=>x.style.width=x.dataset.w),120);
+}
 async function load(){
  try{
-  const r=await fetch('data/radar-feed.json?ts='+Date.now(),{cache:'no-store'}),d=await r.json();
-  const rs=d.systemRadars||[],ev=d.events||[],op=d.operational||{},contracts=d.sourceContracts||{};
-  document.getElementById('updated').textContent='actualizado '+fmt(d.updatedAt)+' · ciclo automático';
-  document.getElementById('count').textContent=ev.length;
-  document.getElementById('local').textContent=d.stats?.local||ev.filter(x=>x.relevanceLabel==='DIRECTA').length;
-  document.getElementById('sources').textContent=(d.sourceCatalog||d.sourceRegistry||[]).length;
-  const wanted=['RUTA 7','RUTA 8','VIENTO','ENERGÍA'];
-  document.getElementById('cards').innerHTML=rs.filter(x=>wanted.includes(x.id)).map(x=>{
-    const contract=contracts[x.id]||x.sourceContract||{}, o=op[x.id==='RUTA 7'?'route7':x.id==='RUTA 8'?'route8':x.id.toLowerCase()];
-    let value='SIN PARTE',state=x.status||'SEÑAL';
-    if(x.id==='VIENTO'&&d.environment){value=Math.round(d.environment.windSpeed||0)+' km/h';state='dato directo';}
-    else if(o){value=o.status||'ACTIVO';state='parte disponible';}
-    else if(x.signal){value=x.signal;state=x.mode||'señal detectada';}
-    return '<article class="card '+(/DIRECTO|OFICIAL/.test(state)?'direct':'')+'"><div class="tag">'+esc(x.id)+'</div><div class="value">'+esc(value)+'</div><div class="state">'+esc(state)+'</div><div class="source">PRIMARIA · <b>'+esc(contract.primary||'—')+'</b></div></article>';
-  }).join('');
-  document.getElementById('events').innerHTML=ev.slice(0,5).map(x=>'<article class="item"><div class="itemtop"><h3>'+esc(x.title)+'</h3><time>'+fmt(x.publishedAt)+'</time></div><p>'+esc(x.description||'Señal detectada con anclaje local.')+'</p><span class="pill">'+esc(x.relevanceLabel||'LOCAL')+' · '+esc(x.source||'fuente')+'</span></article>').join('')||'<div class="item"><p>Esperando señales verificadas.</p></div>';\n  const incidence=ev.filter(x=>x.incidenceLabel==='DIRECTA EN CHANAR'||x.incidenceLabel==='ANCLA TERRITORIAL').sort((a,b)=>new Date(b.publishedAt)-new Date(a.publishedAt));\n  document.getElementById('incidence-count').textContent=incidence.length;\n  document.getElementById('incidence-list').innerHTML=incidence.slice(0,4).map(x=>'<article class="incidence-item"><div class="incidence-meta">'+esc(x.incidenceLabel||'ANCLA TERRITORIAL')+' · '+esc(x.topic||'OTROS')+' · '+fmt(x.publishedAt)+'</div><h3>'+esc(x.title)+'</h3><p>'+esc((x.territorialAnchors||[]).slice(0,4).join(' · ')||'anclaje local detectado')+'</p><span class="pill">'+esc((x.sources||[]).slice(0,2).join(' · ')||'fuente')+'</span></article>').join('')||'<div class="incidence-item"><p>Sin noticias con incidencia territorial verificable en la ventana actual.</p></div>';
- }catch(e){document.getElementById('updated').textContent='esperando actualización del motor territorial';}
+   const r=await fetch('data/radar-feed.json?ts='+Date.now(),{cache:'no-store'});
+   if(!r.ok)throw new Error('HTTP '+r.status);
+   render(await r.json());
+ }catch(e){
+   document.getElementById('connection').textContent='última lectura conservada';
+   document.querySelector('.dot').style.background='var(--amber)';
+ }
 }
-load();setInterval(load,5*60*1000);
-</script></body></html>
+function tick(){
+ const now=new Date();
+ document.getElementById('clock').textContent=now.toLocaleTimeString('es-AR',{hour:'2-digit',minute:'2-digit',second:'2-digit'});
+ const left=Math.max(0,refreshMs-(Date.now()-lastLoad));
+ const sec=Math.ceil(left/1000);
+ document.getElementById('next').textContent=Math.floor(sec/60)+':'+String(sec%60).padStart(2,'0');
+}
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){const id=e.target.id;document.querySelectorAll('nav a').forEach(a=>a.classList.toggle('active',a.getAttribute('href')==='#'+id))}}),{rootMargin:'-35% 0px -55% 0px'});
+document.querySelectorAll('section').forEach(s=>io.observe(s));
+load();setInterval(load,refreshMs);setInterval(tick,1000);tick();
+</script>
+</body>
+</html>
