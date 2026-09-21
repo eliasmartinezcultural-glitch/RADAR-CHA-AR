@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-21T01:43:03.048530+00:00",
+  "updatedAt": "2026-09-21T01:44:05.474646+00:00",
   "window": "14 días",
   "purpose": "Detectar qué se está moviendo en San Patricio del Chañar y mostrar de dónde surge cada señal.",
   "architecture": "contrato universal de procedencia + fuentes profesionales + adaptadores específicos + validación semántica + temporalidad + evidencia editorial separada",
@@ -49,7 +49,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://chanardigital.com.ar/",
-      "lastFetch": "2026-09-21T01:42:41.629806+00:00",
+      "lastFetch": "2026-09-21T01:43:44.465603+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -65,7 +65,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.radiomia.com.ar/",
-      "lastFetch": "2026-09-21T01:42:42.878113+00:00",
+      "lastFetch": "2026-09-21T01:43:45.632425+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -80,7 +80,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://tuitvacamuerta.com/",
-      "lastFetch": "2026-09-21T01:42:44.736828+00:00",
+      "lastFetch": "2026-09-21T01:43:47.338555+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -95,7 +95,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.vacamuertanews.com/",
-      "lastFetch": "2026-09-21T01:42:45.382660+00:00",
+      "lastFetch": "2026-09-21T01:43:48.162461+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -111,7 +111,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.neuqueninforma.gob.ar/",
-      "lastFetch": "2026-09-21T01:42:46.841340+00:00",
+      "lastFetch": "2026-09-21T01:43:49.795586+00:00",
       "success": false,
       "attempted": 3,
       "failures": [
@@ -128,7 +128,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://sanpatricio.gob.ar/",
-      "lastFetch": "2026-09-21T01:42:47.873005+00:00",
+      "lastFetch": "2026-09-21T01:43:50.869309+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -143,7 +143,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://boletinoficial.neuquen.gov.ar/",
-      "lastFetch": "2026-09-21T01:42:48.651556+00:00",
+      "lastFetch": "2026-09-21T01:43:51.643294+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -158,7 +158,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.lmneuquen.com/",
-      "lastFetch": "2026-09-21T01:42:48.958276+00:00",
+      "lastFetch": "2026-09-21T01:43:51.852648+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -174,7 +174,7 @@
       "mode": "RSS DIRECTO",
       "signals": 1,
       "url": "https://www.rionegro.com.ar/",
-      "lastFetch": "2026-09-21T01:42:52.256700+00:00",
+      "lastFetch": "2026-09-21T01:43:55.212839+00:00",
       "success": true,
       "attempted": 2,
       "failures": [
@@ -189,7 +189,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.mejorinformado.com/",
-      "lastFetch": "2026-09-21T01:42:52.810628+00:00",
+      "lastFetch": "2026-09-21T01:43:55.743292+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -205,7 +205,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.diariamenteneuquen.com/",
-      "lastFetch": "2026-09-21T01:42:53.639086+00:00",
+      "lastFetch": "2026-09-21T01:43:56.715137+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -386,11 +386,11 @@
       "group": "LOCAL",
       "role": "medio local",
       "url": "https://chanardigital.com.ar/",
-      "signals": 0,
-      "directSignals": 0,
+      "signals": 1,
+      "directSignals": 1,
       "anchoredSignals": 0,
-      "lastSeen": null,
-      "status": "SIN SEÑALES EN VENTANA",
+      "lastSeen": "2026-09-10T17:56:38+00:00",
+      "status": "CON SEÑALES",
       "note": "ausencia de señales no equivale a ausencia del hecho"
     },
     {
@@ -602,8 +602,8 @@
       "group": "REGIONAL",
       "role": "medio regional",
       "url": "https://www.rionegro.com.ar/",
-      "signals": 3,
-      "directSignals": 3,
+      "signals": 1,
+      "directSignals": 1,
       "anchoredSignals": 0,
       "lastSeen": "2026-09-20T22:18:34+00:00",
       "status": "CON SEÑALES",
@@ -995,12 +995,14 @@
         "source": "Chañar Digital",
         "group": "LOCAL",
         "role": "medio local",
-        "accepted": 0,
-        "direct": 0,
+        "accepted": 1,
+        "direct": 1,
         "anchored": 0,
         "falsePositives": 0,
         "falsePositiveTypes": [],
-        "topics": []
+        "topics": [
+          "EDUCACIÓN"
+        ]
       },
       {
         "source": "Consejo Provincial de Educación",
@@ -1041,15 +1043,13 @@
         "source": "Diario Río Negro",
         "group": "REGIONAL",
         "role": "medio regional",
-        "accepted": 3,
-        "direct": 3,
+        "accepted": 1,
+        "direct": 1,
         "anchored": 0,
         "falsePositives": 0,
         "falsePositiveTypes": [],
         "topics": [
-          "CULTURA / TURISMO",
-          "DEPORTE",
-          "EDUCACIÓN"
+          "DEPORTE"
         ]
       },
       {
@@ -1264,20 +1264,32 @@
         "topics": []
       },
       {
-        "source": "chanardigital.com.ar",
+        "source": "rionegro.com.ar",
         "group": "OBSERVADA",
         "role": "fuente detectada fuera del catálogo",
-        "accepted": 1,
-        "direct": 1,
+        "accepted": 2,
+        "direct": 2,
         "anchored": 0,
         "falsePositives": 0,
         "falsePositiveTypes": [],
         "topics": [
+          "CULTURA / TURISMO",
           "EDUCACIÓN"
         ]
       }
     ],
     "matrix": [
+      {
+        "source": "Chañar Digital",
+        "topic": "EDUCACIÓN",
+        "accepted": 1,
+        "direct": 1,
+        "anchored": 0,
+        "falsePositives": 0,
+        "territorialTerms": [
+          "cpem 31"
+        ]
+      },
       {
         "source": "Diario Neuquino",
         "topic": "EDUCACIÓN",
@@ -1293,18 +1305,6 @@
       },
       {
         "source": "Diario Río Negro",
-        "topic": "CULTURA / TURISMO",
-        "accepted": 1,
-        "direct": 1,
-        "anchored": 0,
-        "falsePositives": 0,
-        "territorialTerms": [
-          "san patricio del chañar",
-          "el chañar"
-        ]
-      },
-      {
-        "source": "Diario Río Negro",
         "topic": "DEPORTE",
         "accepted": 1,
         "direct": 1,
@@ -1313,19 +1313,6 @@
         "territorialTerms": [
           "san patricio del chañar",
           "el chañar"
-        ]
-      },
-      {
-        "source": "Diario Río Negro",
-        "topic": "EDUCACIÓN",
-        "accepted": 1,
-        "direct": 1,
-        "anchored": 0,
-        "falsePositives": 0,
-        "territorialTerms": [
-          "san patricio del chañar",
-          "el chañar",
-          "epet 26"
         ]
       },
       {
@@ -1341,14 +1328,28 @@
         ]
       },
       {
-        "source": "chanardigital.com.ar",
+        "source": "rionegro.com.ar",
+        "topic": "CULTURA / TURISMO",
+        "accepted": 1,
+        "direct": 1,
+        "anchored": 0,
+        "falsePositives": 0,
+        "territorialTerms": [
+          "san patricio del chañar",
+          "el chañar"
+        ]
+      },
+      {
+        "source": "rionegro.com.ar",
         "topic": "EDUCACIÓN",
         "accepted": 1,
         "direct": 1,
         "anchored": 0,
         "falsePositives": 0,
         "territorialTerms": [
-          "cpem 31"
+          "san patricio del chañar",
+          "el chañar",
+          "epet 26"
         ]
       }
     ],
@@ -1699,7 +1700,7 @@
     "direct": 6,
     "regional": 0,
     "new": 0,
-    "sources": 4,
+    "sources": 5,
     "directSignals": 1,
     "localDirectSignals": 0,
     "radioDirectSignals": 0,
@@ -1713,13 +1714,42 @@
       "forecastGustKmh": 80.0,
       "forecastWindDirection": "O",
       "forecastTemperatureC": 18.0,
-      "retrievedAt": "2026-09-21T01:42:39.278457+00:00",
+      "retrievedAt": "2026-09-21T01:43:42.061651+00:00",
       "source": "AIC",
       "sourceTier": "primary",
       "sourceUrl": "https://www.aic.gob.ar/sitio/home?a=1015&z=1967225803",
       "semanticState": "pronostico_local"
     },
-    "hydrology": null,
+    "hydrology": {
+      "site": "El Chañar",
+      "flowType": "programmed_outflow",
+      "erogatedM3s": 450,
+      "programmedMaxM3s": [
+        500,
+        500,
+        500,
+        500,
+        500,
+        500
+      ],
+      "programmedMinM3s": [
+        480,
+        480,
+        480,
+        480,
+        480,
+        480
+      ],
+      "currentProgrammedMaxM3s": 500,
+      "currentProgrammedMinM3s": 480,
+      "programDate": "2026-09-22",
+      "tableDate": "2026-09-21",
+      "retrievedAt": "2026-09-21T01:43:42.061651+00:00",
+      "source": "AIC",
+      "sourceTier": "primary",
+      "sourceUrl": "https://www.aic.gob.ar/sitio/caudales",
+      "semanticState": "caudal_programado"
+    },
     "sources": [
       {
         "name": "AIC · Pronóstico El Chañar",
@@ -1730,21 +1760,21 @@
       {
         "name": "AIC · Caudales Programados",
         "tier": "primary",
-        "mode": "reachable_but_unparsed",
+        "mode": "parsed",
         "url": "https://www.aic.gob.ar/sitio/caudales"
       }
     ],
-    "updatedAt": "2026-09-21T01:42:39.278457+00:00"
+    "updatedAt": "2026-09-21T01:43:42.061651+00:00"
   },
   "operational": {
-    "updatedAt": "2026-09-21T01:42:39.278457+00:00",
+    "updatedAt": "2026-09-21T01:43:42.061651+00:00",
     "route7": {
       "source": "Dirección Provincial de Vialidad",
       "sourceTier": "primary",
       "sourceUrl": "https://www.dpvneuquen.gov.ar/",
       "semanticState": null,
       "publicationState": "source_reachable_no_current_machine_readable_state",
-      "retrievedAt": "2026-09-21T01:42:39.278457+00:00",
+      "retrievedAt": "2026-09-21T01:43:42.061651+00:00",
       "evidence": {
         "route7Mention": true,
         "route8Mention": false
@@ -1756,7 +1786,7 @@
       "sourceUrl": "https://www.dpvneuquen.gov.ar/",
       "semanticState": null,
       "publicationState": "source_reachable_no_current_machine_readable_state",
-      "retrievedAt": "2026-09-21T01:42:39.278457+00:00",
+      "retrievedAt": "2026-09-21T01:43:42.061651+00:00",
       "evidence": {
         "route7Mention": true,
         "route8Mention": false
@@ -1770,7 +1800,7 @@
       "eventType": null,
       "detail": null,
       "publicationState": "source_reachable_no_specific_local_notice",
-      "retrievedAt": "2026-09-21T01:42:39.278457+00:00"
+      "retrievedAt": "2026-09-21T01:43:42.061651+00:00"
     },
     "water": {
       "source": "EPAS",
@@ -1780,7 +1810,7 @@
       "eventType": null,
       "detail": null,
       "publicationState": "source_reachable_no_specific_local_notice",
-      "retrievedAt": "2026-09-21T01:42:39.278457+00:00"
+      "retrievedAt": "2026-09-21T01:43:42.061651+00:00"
     },
     "sources": [
       {
@@ -2272,7 +2302,7 @@
         "sourceUrl": "https://www.dpvneuquen.gov.ar/",
         "semanticState": null,
         "publicationState": "source_reachable_no_current_machine_readable_state",
-        "retrievedAt": "2026-09-21T01:42:39.278457+00:00",
+        "retrievedAt": "2026-09-21T01:43:42.061651+00:00",
         "evidence": {
           "route7Mention": true,
           "route8Mention": false
@@ -2324,7 +2354,7 @@
         "sourceUrl": "https://www.dpvneuquen.gov.ar/",
         "semanticState": null,
         "publicationState": "source_reachable_no_current_machine_readable_state",
-        "retrievedAt": "2026-09-21T01:42:39.278457+00:00",
+        "retrievedAt": "2026-09-21T01:43:42.061651+00:00",
         "evidence": {
           "route7Mention": true,
           "route8Mention": false
@@ -2424,7 +2454,7 @@
         "eventType": null,
         "detail": null,
         "publicationState": "source_reachable_no_specific_local_notice",
-        "retrievedAt": "2026-09-21T01:42:39.278457+00:00"
+        "retrievedAt": "2026-09-21T01:43:42.061651+00:00"
       }
     },
     {
@@ -2474,7 +2504,7 @@
         "eventType": null,
         "detail": null,
         "publicationState": "source_reachable_no_specific_local_notice",
-        "retrievedAt": "2026-09-21T01:42:39.278457+00:00"
+        "retrievedAt": "2026-09-21T01:43:42.061651+00:00"
       }
     },
     {
@@ -2739,7 +2769,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://chanardigital.com.ar/",
-        "lastFetch": "2026-09-21T01:42:41.629806+00:00",
+        "lastFetch": "2026-09-21T01:43:44.465603+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -2755,7 +2785,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.radiomia.com.ar/",
-        "lastFetch": "2026-09-21T01:42:42.878113+00:00",
+        "lastFetch": "2026-09-21T01:43:45.632425+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -2770,7 +2800,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://tuitvacamuerta.com/",
-        "lastFetch": "2026-09-21T01:42:44.736828+00:00",
+        "lastFetch": "2026-09-21T01:43:47.338555+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -2785,7 +2815,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.vacamuertanews.com/",
-        "lastFetch": "2026-09-21T01:42:45.382660+00:00",
+        "lastFetch": "2026-09-21T01:43:48.162461+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -2801,7 +2831,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.neuqueninforma.gob.ar/",
-        "lastFetch": "2026-09-21T01:42:46.841340+00:00",
+        "lastFetch": "2026-09-21T01:43:49.795586+00:00",
         "success": false,
         "attempted": 3,
         "failures": [
@@ -2818,7 +2848,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://sanpatricio.gob.ar/",
-        "lastFetch": "2026-09-21T01:42:47.873005+00:00",
+        "lastFetch": "2026-09-21T01:43:50.869309+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -2833,7 +2863,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://boletinoficial.neuquen.gov.ar/",
-        "lastFetch": "2026-09-21T01:42:48.651556+00:00",
+        "lastFetch": "2026-09-21T01:43:51.643294+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -2848,7 +2878,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.lmneuquen.com/",
-        "lastFetch": "2026-09-21T01:42:48.958276+00:00",
+        "lastFetch": "2026-09-21T01:43:51.852648+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -2864,7 +2894,7 @@
         "mode": "RSS DIRECTO",
         "signals": 1,
         "url": "https://www.rionegro.com.ar/",
-        "lastFetch": "2026-09-21T01:42:52.256700+00:00",
+        "lastFetch": "2026-09-21T01:43:55.212839+00:00",
         "success": true,
         "attempted": 2,
         "failures": [
@@ -2879,7 +2909,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.mejorinformado.com/",
-        "lastFetch": "2026-09-21T01:42:52.810628+00:00",
+        "lastFetch": "2026-09-21T01:43:55.743292+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -2895,7 +2925,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.diariamenteneuquen.com/",
-        "lastFetch": "2026-09-21T01:42:53.639086+00:00",
+        "lastFetch": "2026-09-21T01:43:56.715137+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3011,7 +3041,7 @@
       ],
       "sources": [
         "Diario Neuquino",
-        "Diario Río Negro"
+        "rionegro.com.ar"
       ],
       "evidenceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPVVk0T1I5N1A3YkRRUjdqYlJqS09QMzdITlhSWDlvVmVIcjZCVC1VZVV1TDVMSThMYWdpRnV1Y2FFN1VSNGswWUZMV1REQlE1SDJuYVJUUnpIWXE0MHE2R19SM29venVSSjJFUHZjWWpzVTlEZEZka29YMzAwLThFeTBpWGVpUnJjcTJKUkc1YkJqc003OE9ZMVljTm5DRXZzX2NBbmhfN0hoVy1aV2dWQUdOOTd1NE1sbUx2UUtB?oc=5",
       "items": [
@@ -3035,12 +3065,12 @@
           "sourcePriority": 3
         },
         {
-          "title": "Avanza la infraestructura educativa en Neuquén: la EPET 26 ya supera el 70% de ejecución - Diario Río Negro",
+          "title": "Avanza la infraestructura educativa en Neuquén: la EPET 26 ya supera el 70% de ejecución - rionegro.com.ar",
           "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQVkhIZ3RaZks0TGxkaWZFaV9lcHQ0cTZVbVBqdHNsQW1QV3pFODItNk1CNWE0TXJuMDRjUFd4dnNVY2NiUHd1bnJCMElHRXg4VWpyUWN2SndPMzdxemFyQWhCd21BUWVpMXp2ek4telQyWV9JVW9fWVpBN2FWaTdvRVJHYTRzWHZkaXkxcGNLR2l3eEp5a2YxMFNaeTVuZmVsc041NWNWcDZFV2t2blF0Y2hCUHB4aEttZGJOTXhVVEdZcTJhOG9yUF96em1BY1AyTVJPd2xsOXhVYTFH0gHkAUFVX3lxTE0zSjRnMUZEdnF3V0NQNzgzb0V1WFI5NzBLdmRMUnBpMl9JaG94ekRlcVZFU1pHNE1lRWp0Sm5Jd28wSmNvclZ3UWFNQXh4YUdkdjBHODRKQUpnZUpwbnpjTHcxaEF1eU5HLUtOSGFNNi1FSXB3LVhSYUpWRUl1OFpQclN4RGZkVEFpVkVmb0llNTZyZ01UeThoRXZNVGNMVGhaclhfLW51emxyQTE5U3FBMDBpeTZyb1hrYnRpbTI3X0gwSHYxMDkwZHlpZldUYjhkUUxOa1AtY3JxZjJ0WF8xajBfRw?oc=5",
           "publishedAt": "2026-09-19T14:58:15+00:00",
           "published": "2026-09-19T14:58:15+00:00",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMi3AFBVV95cUxQVkhIZ3RaZks0TGxkaWZFaV9lcHQ0cTZVbVBqdHNsQW1QV3pFODItNk1CNWE0TXJuMDRjUFd4dnNVY2NiUHd1bnJCMElHRXg4VWpyUWN2SndPMzdxemFyQWhCd21BUWVpMXp2ek4telQyWV9JVW9fWVpBN2FWaTdvRVJHYTRzWHZkaXkxcGNLR2l3eEp5a2YxMFNaeTVuZmVsc041NWNWcDZFV2t2blF0Y2hCUHB4aEttZGJOTXhVVEdZcTJhOG9yUF96em1BY1AyTVJPd2xsOXhVYTFH0gHkAUFVX3lxTE0zSjRnMUZEdnF3V0NQNzgzb0V1WFI5NzBLdmRMUnBpMl9JaG94ekRlcVZFU1pHNE1lRWp0Sm5Jd28wSmNvclZ3UWFNQXh4YUdkdjBHODRKQUpnZUpwbnpjTHcxaEF1eU5HLUtOSGFNNi1FSXB3LVhSYUpWRUl1OFpQclN4RGZkVEFpVkVmb0llNTZyZ01UeThoRXZNVGNMVGhaclhfLW51emxyQTE5U3FBMDBpeTZyb1hrYnRpbTI3X0gwSHYxMDkwZHlpZldUYjhkUUxOa1AtY3JxZjJ0WF8xajBfRw?oc=5\" target=\"_blank\">Avanza la infraestructura educativa en Neuquén: la EPET 26 ya supera el 70% de ejecución</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Diario Río Negro</font>",
-          "source": "Diario Río Negro",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMi3AFBVV95cUxQVkhIZ3RaZks0TGxkaWZFaV9lcHQ0cTZVbVBqdHNsQW1QV3pFODItNk1CNWE0TXJuMDRjUFd4dnNVY2NiUHd1bnJCMElHRXg4VWpyUWN2SndPMzdxemFyQWhCd21BUWVpMXp2ek4telQyWV9JVW9fWVpBN2FWaTdvRVJHYTRzWHZkaXkxcGNLR2l3eEp5a2YxMFNaeTVuZmVsc041NWNWcDZFV2t2blF0Y2hCUHB4aEttZGJOTXhVVEdZcTJhOG9yUF96em1BY1AyTVJPd2xsOXhVYTFH0gHkAUFVX3lxTE0zSjRnMUZEdnF3V0NQNzgzb0V1WFI5NzBLdmRMUnBpMl9JaG94ekRlcVZFU1pHNE1lRWp0Sm5Jd28wSmNvclZ3UWFNQXh4YUdkdjBHODRKQUpnZUpwbnpjTHcxaEF1eU5HLUtOSGFNNi1FSXB3LVhSYUpWRUl1OFpQclN4RGZkVEFpVkVmb0llNTZyZ01UeThoRXZNVGNMVGhaclhfLW51emxyQTE5U3FBMDBpeTZyb1hrYnRpbTI3X0gwSHYxMDkwZHlpZldUYjhkUUxOa1AtY3JxZjJ0WF8xajBfRw?oc=5\" target=\"_blank\">Avanza la infraestructura educativa en Neuquén: la EPET 26 ya supera el 70% de ejecución</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">rionegro.com.ar</font>",
+          "source": "rionegro.com.ar",
           "sourceType": "BUSCADOR / RESPALDO",
           "sourceUrl": "",
           "collection": "BUSCADOR",
@@ -3049,7 +3079,7 @@
           "relevanceLabel": "DIRECTA",
           "firstSeen": "2026-09-20T23:40:59.182218+00:00",
           "isNew": false,
-          "titleKey": "avanza infraestructura educativa epet supera ejecucion diario rio negro",
+          "titleKey": "avanza infraestructura educativa epet supera ejecucion rionegro com",
           "evidenceUrl": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQVkhIZ3RaZks0TGxkaWZFaV9lcHQ0cTZVbVBqdHNsQW1QV3pFODItNk1CNWE0TXJuMDRjUFd4dnNVY2NiUHd1bnJCMElHRXg4VWpyUWN2SndPMzdxemFyQWhCd21BUWVpMXp2ek4telQyWV9JVW9fWVpBN2FWaTdvRVJHYTRzWHZkaXkxcGNLR2l3eEp5a2YxMFNaeTVuZmVsc041NWNWcDZFV2t2blF0Y2hCUHB4aEttZGJOTXhVVEdZcTJhOG9yUF96em1BY1AyTVJPd2xsOXhVYTFH0gHkAUFVX3lxTE0zSjRnMUZEdnF3V0NQNzgzb0V1WFI5NzBLdmRMUnBpMl9JaG94ekRlcVZFU1pHNE1lRWp0Sm5Jd28wSmNvclZ3UWFNQXh4YUdkdjBHODRKQUpnZUpwbnpjTHcxaEF1eU5HLUtOSGFNNi1FSXB3LVhSYUpWRUl1OFpQclN4RGZkVEFpVkVmb0llNTZyZ01UeThoRXZNVGNMVGhaclhfLW51emxyQTE5U3FBMDBpeTZyb1hrYnRpbTI3X0gwSHYxMDkwZHlpZldUYjhkUUxOa1AtY3JxZjJ0WF8xajBfRw?oc=5",
           "sourcePriority": 3
         }
@@ -3058,7 +3088,7 @@
       "movementDelta": 0,
       "previousCoverage": 2,
       "newSources": [
-        "Diario Río Negro"
+        "rionegro.com.ar"
       ],
       "sourceDiversity": 2,
       "memoryMatched": true,
@@ -3100,8 +3130,8 @@
       }
     },
     {
-      "eventId": "CHA-1ce621fdd77b",
-      "title": "Violento episodio en el CPEM 31: un padre ingresó al colegio con un arma blanca - chanardigital.com.ar",
+      "eventId": "CHA-1e572d3f2930",
+      "title": "Violento episodio en el CPEM 31: un padre ingresó al colegio con un arma blanca - Chañar Digital",
       "publishedAt": "2026-09-10T17:56:38+00:00",
       "firstSeen": "2026-09-21T00:59:40.731423+00:00",
       "lastSeen": "2026-09-10T17:56:38+00:00",
@@ -3117,17 +3147,17 @@
         "cpem 31"
       ],
       "sources": [
-        "chanardigital.com.ar"
+        "Chañar Digital"
       ],
       "evidenceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNaDU2elBEeFZ2X21INm5TSVdQd2NjaDI1V3VfYmZmZjNZTkQ2MGpSQ0N2dTNBUEZHSXQ3a2tHeTlUYWlTMlJIbDVOXy1Rb1RLOWhJS1ZxWktabDJDZy1NREpZV1o1c2hSbGJySmRsMkRUUUJWTFppTm9kTVVaZEtDeS1fR3RVUkVyUnYzN0tZSVdUVjVOek1rbGlsVmV5emFaRGdPZlBJc043VW5kdzltRV9fejlELUg4djEzd2Z3X1loOGc2bXBzeUg2MnY?oc=5",
       "items": [
         {
-          "title": "Violento episodio en el CPEM 31: un padre ingresó al colegio con un arma blanca - chanardigital.com.ar",
+          "title": "Violento episodio en el CPEM 31: un padre ingresó al colegio con un arma blanca - Chañar Digital",
           "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNaDU2elBEeFZ2X21INm5TSVdQd2NjaDI1V3VfYmZmZjNZTkQ2MGpSQ0N2dTNBUEZHSXQ3a2tHeTlUYWlTMlJIbDVOXy1Rb1RLOWhJS1ZxWktabDJDZy1NREpZV1o1c2hSbGJySmRsMkRUUUJWTFppTm9kTVVaZEtDeS1fR3RVUkVyUnYzN0tZSVdUVjVOek1rbGlsVmV5emFaRGdPZlBJc043VW5kdzltRV9fejlELUg4djEzd2Z3X1loOGc2bXBzeUg2MnY?oc=5",
           "publishedAt": "2026-09-10T17:56:38+00:00",
           "published": "2026-09-10T17:56:38+00:00",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMizAFBVV95cUxNaDU2elBEeFZ2X21INm5TSVdQd2NjaDI1V3VfYmZmZjNZTkQ2MGpSQ0N2dTNBUEZHSXQ3a2tHeTlUYWlTMlJIbDVOXy1Rb1RLOWhJS1ZxWktabDJDZy1NREpZV1o1c2hSbGJySmRsMkRUUUJWTFppTm9kTVVaZEtDeS1fR3RVUkVyUnYzN0tZSVdUVjVOek1rbGlsVmV5emFaRGdPZlBJc043VW5kdzltRV9fejlELUg4djEzd2Z3X1loOGc2bXBzeUg2MnY?oc=5\" target=\"_blank\">Violento episodio en el CPEM 31: un padre ingresó al colegio con un arma blanca</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">chanardigital.com.ar</font>",
-          "source": "chanardigital.com.ar",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMizAFBVV95cUxNaDU2elBEeFZ2X21INm5TSVdQd2NjaDI1V3VfYmZmZjNZTkQ2MGpSQ0N2dTNBUEZHSXQ3a2tHeTlUYWlTMlJIbDVOXy1Rb1RLOWhJS1ZxWktabDJDZy1NREpZV1o1c2hSbGJySmRsMkRUUUJWTFppTm9kTVVaZEtDeS1fR3RVUkVyUnYzN0tZSVdUVjVOek1rbGlsVmV5emFaRGdPZlBJc043VW5kdzltRV9fejlELUg4djEzd2Z3X1loOGc2bXBzeUg2MnY?oc=5\" target=\"_blank\">Violento episodio en el CPEM 31: un padre ingresó al colegio con un arma blanca</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Chañar Digital</font>",
+          "source": "Chañar Digital",
           "sourceType": "BUSCADOR / RESPALDO",
           "sourceUrl": "",
           "collection": "BUSCADOR",
@@ -3136,7 +3166,7 @@
           "relevanceLabel": "DIRECTA",
           "firstSeen": "2026-09-21T00:59:40.731423+00:00",
           "isNew": false,
-          "titleKey": "violento episodio cpem padre ingreso colegio arma blanca chanardigital com",
+          "titleKey": "violento episodio cpem padre ingreso colegio arma blanca digital",
           "evidenceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNaDU2elBEeFZ2X21INm5TSVdQd2NjaDI1V3VfYmZmZjNZTkQ2MGpSQ0N2dTNBUEZHSXQ3a2tHeTlUYWlTMlJIbDVOXy1Rb1RLOWhJS1ZxWktabDJDZy1NREpZV1o1c2hSbGJySmRsMkRUUUJWTFppTm9kTVVaZEtDeS1fR3RVUkVyUnYzN0tZSVdUVjVOek1rbGlsVmV5emFaRGdPZlBJc043VW5kdzltRV9fejlELUg4djEzd2Z3X1loOGc2bXBzeUg2MnY?oc=5",
           "sourcePriority": 3
         }
@@ -3145,7 +3175,7 @@
       "movementDelta": 0,
       "previousCoverage": 1,
       "newSources": [
-        "chanardigital.com.ar"
+        "Chañar Digital"
       ],
       "sourceDiversity": 1,
       "memoryMatched": true,
@@ -3188,7 +3218,7 @@
     },
     {
       "eventId": "CHA-a595a1e88f07",
-      "title": "Patagonia Wine Fest 2026: Los Pericos y Los Tipitos llegan a San Patricio del Chañar - Diario Río Negro",
+      "title": "Patagonia Wine Fest 2026: Los Pericos y Los Tipitos llegan a San Patricio del Chañar - rionegro.com.ar",
       "publishedAt": "2026-09-09T07:00:00+00:00",
       "firstSeen": "2026-09-21T00:59:40.731423+00:00",
       "lastSeen": "2026-09-09T07:00:00+00:00",
@@ -3205,17 +3235,17 @@
         "el chañar"
       ],
       "sources": [
-        "Diario Río Negro"
+        "rionegro.com.ar"
       ],
       "evidenceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNM0pZT3R1ZXUzRUZJZ0VEV3NFRlBUY3p6QWNyemYzQWJrdk53OGtMMHYtOWJDbXBrOUx3c3piWDZhc05vTVNLMkh5N29FZS1ldTVUUDh4QkpIQ0xsa2xYVEx1MkZKUVp4a21ZeWF0THVRRHozcl9aODJPbjNrREkxZFA1b2FHakkyV2dHN2hQVkk0ZzNTSk5lbi1EYzVaeUNpYU0wSUVFU0xnckcxam1pQlVRQzdUMlpsc2c1UlY4UWppRlpLNEVoWUhwRnDSAdQBQVVfeXFMTTRoMHNNTkU0ZkVSU2ZzWVJGRWlGQy1GQzdBMVdzUWl1dmZ3ejZxSHEzNGo1TndDaXJaOVBXRXFVWk9VZl9DQWlacHZIMXVPVzlDRE01MVBGNHFld0QzUm1rYzE3RFp0LTVEM1hacjg1SXVYd29rUlkweEE1dlg5djNGVE1pY3p5NWI1OUJpQTdQa2NkVVFmLWxIRGJMSW44VHAwRVd6cmVTSWp2cEM4eE16OWJrZGliOEFTZnduYV9oS3Q1ZW80Wm1LQUlDcnlIWThVRTk?oc=5",
       "items": [
         {
-          "title": "Patagonia Wine Fest 2026: Los Pericos y Los Tipitos llegan a San Patricio del Chañar - Diario Río Negro",
+          "title": "Patagonia Wine Fest 2026: Los Pericos y Los Tipitos llegan a San Patricio del Chañar - rionegro.com.ar",
           "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNM0pZT3R1ZXUzRUZJZ0VEV3NFRlBUY3p6QWNyemYzQWJrdk53OGtMMHYtOWJDbXBrOUx3c3piWDZhc05vTVNLMkh5N29FZS1ldTVUUDh4QkpIQ0xsa2xYVEx1MkZKUVp4a21ZeWF0THVRRHozcl9aODJPbjNrREkxZFA1b2FHakkyV2dHN2hQVkk0ZzNTSk5lbi1EYzVaeUNpYU0wSUVFU0xnckcxam1pQlVRQzdUMlpsc2c1UlY4UWppRlpLNEVoWUhwRnDSAdQBQVVfeXFMTTRoMHNNTkU0ZkVSU2ZzWVJGRWlGQy1GQzdBMVdzUWl1dmZ3ejZxSHEzNGo1TndDaXJaOVBXRXFVWk9VZl9DQWlacHZIMXVPVzlDRE01MVBGNHFld0QzUm1rYzE3RFp0LTVEM1hacjg1SXVYd29rUlkweEE1dlg5djNGVE1pY3p5NWI1OUJpQTdQa2NkVVFmLWxIRGJMSW44VHAwRVd6cmVTSWp2cEM4eE16OWJrZGliOEFTZnduYV9oS3Q1ZW80Wm1LQUlDcnlIWThVRTk?oc=5",
           "publishedAt": "2026-09-09T07:00:00+00:00",
           "published": "2026-09-09T07:00:00+00:00",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMizAFBVV95cUxNM0pZT3R1ZXUzRUZJZ0VEV3NFRlBUY3p6QWNyemYzQWJrdk53OGtMMHYtOWJDbXBrOUx3c3piWDZhc05vTVNLMkh5N29FZS1ldTVUUDh4QkpIQ0xsa2xYVEx1MkZKUVp4a21ZeWF0THVRRHozcl9aODJPbjNrREkxZFA1b2FHakkyV2dHN2hQVkk0ZzNTSk5lbi1EYzVaeUNpYU0wSUVFU0xnckcxam1pQlVRQzdUMlpsc2c1UlY4UWppRlpLNEVoWUhwRnDSAdQBQVVfeXFMTTRoMHNNTkU0ZkVSU2ZzWVJGRWlGQy1GQzdBMVdzUWl1dmZ3ejZxSHEzNGo1TndDaXJaOVBXRXFVWk9VZl9DQWlacHZIMXVPVzlDRE01MVBGNHFld0QzUm1rYzE3RFp0LTVEM1hacjg1SXVYd29rUlkweEE1dlg5djNGVE1pY3p5NWI1OUJpQTdQa2NkVVFmLWxIRGJMSW44VHAwRVd6cmVTSWp2cEM4eE16OWJrZGliOEFTZnduYV9oS3Q1ZW80Wm1LQUlDcnlIWThVRTk?oc=5\" target=\"_blank\">Patagonia Wine Fest 2026: Los Pericos y Los Tipitos llegan a San Patricio del Chañar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Diario Río Negro</font>",
-          "source": "Diario Río Negro",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMizAFBVV95cUxNM0pZT3R1ZXUzRUZJZ0VEV3NFRlBUY3p6QWNyemYzQWJrdk53OGtMMHYtOWJDbXBrOUx3c3piWDZhc05vTVNLMkh5N29FZS1ldTVUUDh4QkpIQ0xsa2xYVEx1MkZKUVp4a21ZeWF0THVRRHozcl9aODJPbjNrREkxZFA1b2FHakkyV2dHN2hQVkk0ZzNTSk5lbi1EYzVaeUNpYU0wSUVFU0xnckcxam1pQlVRQzdUMlpsc2c1UlY4UWppRlpLNEVoWUhwRnDSAdQBQVVfeXFMTTRoMHNNTkU0ZkVSU2ZzWVJGRWlGQy1GQzdBMVdzUWl1dmZ3ejZxSHEzNGo1TndDaXJaOVBXRXFVWk9VZl9DQWlacHZIMXVPVzlDRE01MVBGNHFld0QzUm1rYzE3RFp0LTVEM1hacjg1SXVYd29rUlkweEE1dlg5djNGVE1pY3p5NWI1OUJpQTdQa2NkVVFmLWxIRGJMSW44VHAwRVd6cmVTSWp2cEM4eE16OWJrZGliOEFTZnduYV9oS3Q1ZW80Wm1LQUlDcnlIWThVRTk?oc=5\" target=\"_blank\">Patagonia Wine Fest 2026: Los Pericos y Los Tipitos llegan a San Patricio del Chañar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">rionegro.com.ar</font>",
+          "source": "rionegro.com.ar",
           "sourceType": "BUSCADOR / RESPALDO",
           "sourceUrl": "",
           "collection": "BUSCADOR",
@@ -3224,7 +3254,7 @@
           "relevanceLabel": "DIRECTA",
           "firstSeen": "2026-09-21T00:59:40.731423+00:00",
           "isNew": false,
-          "titleKey": "patagonia wine fest 2026 pericos tipitos llegan diario rio negro",
+          "titleKey": "patagonia wine fest 2026 pericos tipitos llegan rionegro com",
           "evidenceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNM0pZT3R1ZXUzRUZJZ0VEV3NFRlBUY3p6QWNyemYzQWJrdk53OGtMMHYtOWJDbXBrOUx3c3piWDZhc05vTVNLMkh5N29FZS1ldTVUUDh4QkpIQ0xsa2xYVEx1MkZKUVp4a21ZeWF0THVRRHozcl9aODJPbjNrREkxZFA1b2FHakkyV2dHN2hQVkk0ZzNTSk5lbi1EYzVaeUNpYU0wSUVFU0xnckcxam1pQlVRQzdUMlpsc2c1UlY4UWppRlpLNEVoWUhwRnDSAdQBQVVfeXFMTTRoMHNNTkU0ZkVSU2ZzWVJGRWlGQy1GQzdBMVdzUWl1dmZ3ejZxSHEzNGo1TndDaXJaOVBXRXFVWk9VZl9DQWlacHZIMXVPVzlDRE01MVBGNHFld0QzUm1rYzE3RFp0LTVEM1hacjg1SXVYd29rUlkweEE1dlg5djNGVE1pY3p5NWI1OUJpQTdQa2NkVVFmLWxIRGJMSW44VHAwRVd6cmVTSWp2cEM4eE16OWJrZGliOEFTZnduYV9oS3Q1ZW80Wm1LQUlDcnlIWThVRTk?oc=5",
           "sourcePriority": 3
         }
@@ -3232,7 +3262,9 @@
       "lifecycle": "RECIENTE",
       "movementDelta": 0,
       "previousCoverage": 1,
-      "newSources": [],
+      "newSources": [
+        "rionegro.com.ar"
+      ],
       "sourceDiversity": 1,
       "memoryMatched": true,
       "isNew": false,
@@ -3385,12 +3417,12 @@
       "sourcePriority": 3
     },
     {
-      "title": "Avanza la infraestructura educativa en Neuquén: la EPET 26 ya supera el 70% de ejecución - Diario Río Negro",
+      "title": "Avanza la infraestructura educativa en Neuquén: la EPET 26 ya supera el 70% de ejecución - rionegro.com.ar",
       "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQVkhIZ3RaZks0TGxkaWZFaV9lcHQ0cTZVbVBqdHNsQW1QV3pFODItNk1CNWE0TXJuMDRjUFd4dnNVY2NiUHd1bnJCMElHRXg4VWpyUWN2SndPMzdxemFyQWhCd21BUWVpMXp2ek4telQyWV9JVW9fWVpBN2FWaTdvRVJHYTRzWHZkaXkxcGNLR2l3eEp5a2YxMFNaeTVuZmVsc041NWNWcDZFV2t2blF0Y2hCUHB4aEttZGJOTXhVVEdZcTJhOG9yUF96em1BY1AyTVJPd2xsOXhVYTFH0gHkAUFVX3lxTE0zSjRnMUZEdnF3V0NQNzgzb0V1WFI5NzBLdmRMUnBpMl9JaG94ekRlcVZFU1pHNE1lRWp0Sm5Jd28wSmNvclZ3UWFNQXh4YUdkdjBHODRKQUpnZUpwbnpjTHcxaEF1eU5HLUtOSGFNNi1FSXB3LVhSYUpWRUl1OFpQclN4RGZkVEFpVkVmb0llNTZyZ01UeThoRXZNVGNMVGhaclhfLW51emxyQTE5U3FBMDBpeTZyb1hrYnRpbTI3X0gwSHYxMDkwZHlpZldUYjhkUUxOa1AtY3JxZjJ0WF8xajBfRw?oc=5",
       "publishedAt": "2026-09-19T14:58:15+00:00",
       "published": "2026-09-19T14:58:15+00:00",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMi3AFBVV95cUxQVkhIZ3RaZks0TGxkaWZFaV9lcHQ0cTZVbVBqdHNsQW1QV3pFODItNk1CNWE0TXJuMDRjUFd4dnNVY2NiUHd1bnJCMElHRXg4VWpyUWN2SndPMzdxemFyQWhCd21BUWVpMXp2ek4telQyWV9JVW9fWVpBN2FWaTdvRVJHYTRzWHZkaXkxcGNLR2l3eEp5a2YxMFNaeTVuZmVsc041NWNWcDZFV2t2blF0Y2hCUHB4aEttZGJOTXhVVEdZcTJhOG9yUF96em1BY1AyTVJPd2xsOXhVYTFH0gHkAUFVX3lxTE0zSjRnMUZEdnF3V0NQNzgzb0V1WFI5NzBLdmRMUnBpMl9JaG94ekRlcVZFU1pHNE1lRWp0Sm5Jd28wSmNvclZ3UWFNQXh4YUdkdjBHODRKQUpnZUpwbnpjTHcxaEF1eU5HLUtOSGFNNi1FSXB3LVhSYUpWRUl1OFpQclN4RGZkVEFpVkVmb0llNTZyZ01UeThoRXZNVGNMVGhaclhfLW51emxyQTE5U3FBMDBpeTZyb1hrYnRpbTI3X0gwSHYxMDkwZHlpZldUYjhkUUxOa1AtY3JxZjJ0WF8xajBfRw?oc=5\" target=\"_blank\">Avanza la infraestructura educativa en Neuquén: la EPET 26 ya supera el 70% de ejecución</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Diario Río Negro</font>",
-      "source": "Diario Río Negro",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMi3AFBVV95cUxQVkhIZ3RaZks0TGxkaWZFaV9lcHQ0cTZVbVBqdHNsQW1QV3pFODItNk1CNWE0TXJuMDRjUFd4dnNVY2NiUHd1bnJCMElHRXg4VWpyUWN2SndPMzdxemFyQWhCd21BUWVpMXp2ek4telQyWV9JVW9fWVpBN2FWaTdvRVJHYTRzWHZkaXkxcGNLR2l3eEp5a2YxMFNaeTVuZmVsc041NWNWcDZFV2t2blF0Y2hCUHB4aEttZGJOTXhVVEdZcTJhOG9yUF96em1BY1AyTVJPd2xsOXhVYTFH0gHkAUFVX3lxTE0zSjRnMUZEdnF3V0NQNzgzb0V1WFI5NzBLdmRMUnBpMl9JaG94ekRlcVZFU1pHNE1lRWp0Sm5Jd28wSmNvclZ3UWFNQXh4YUdkdjBHODRKQUpnZUpwbnpjTHcxaEF1eU5HLUtOSGFNNi1FSXB3LVhSYUpWRUl1OFpQclN4RGZkVEFpVkVmb0llNTZyZ01UeThoRXZNVGNMVGhaclhfLW51emxyQTE5U3FBMDBpeTZyb1hrYnRpbTI3X0gwSHYxMDkwZHlpZldUYjhkUUxOa1AtY3JxZjJ0WF8xajBfRw?oc=5\" target=\"_blank\">Avanza la infraestructura educativa en Neuquén: la EPET 26 ya supera el 70% de ejecución</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">rionegro.com.ar</font>",
+      "source": "rionegro.com.ar",
       "sourceType": "BUSCADOR / RESPALDO",
       "sourceUrl": "",
       "collection": "BUSCADOR",
@@ -3399,17 +3431,17 @@
       "relevanceLabel": "DIRECTA",
       "firstSeen": "2026-09-20T23:40:59.182218+00:00",
       "isNew": false,
-      "titleKey": "avanza infraestructura educativa epet supera ejecucion diario rio negro",
+      "titleKey": "avanza infraestructura educativa epet supera ejecucion rionegro com",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQVkhIZ3RaZks0TGxkaWZFaV9lcHQ0cTZVbVBqdHNsQW1QV3pFODItNk1CNWE0TXJuMDRjUFd4dnNVY2NiUHd1bnJCMElHRXg4VWpyUWN2SndPMzdxemFyQWhCd21BUWVpMXp2ek4telQyWV9JVW9fWVpBN2FWaTdvRVJHYTRzWHZkaXkxcGNLR2l3eEp5a2YxMFNaeTVuZmVsc041NWNWcDZFV2t2blF0Y2hCUHB4aEttZGJOTXhVVEdZcTJhOG9yUF96em1BY1AyTVJPd2xsOXhVYTFH0gHkAUFVX3lxTE0zSjRnMUZEdnF3V0NQNzgzb0V1WFI5NzBLdmRMUnBpMl9JaG94ekRlcVZFU1pHNE1lRWp0Sm5Jd28wSmNvclZ3UWFNQXh4YUdkdjBHODRKQUpnZUpwbnpjTHcxaEF1eU5HLUtOSGFNNi1FSXB3LVhSYUpWRUl1OFpQclN4RGZkVEFpVkVmb0llNTZyZ01UeThoRXZNVGNMVGhaclhfLW51emxyQTE5U3FBMDBpeTZyb1hrYnRpbTI3X0gwSHYxMDkwZHlpZldUYjhkUUxOa1AtY3JxZjJ0WF8xajBfRw?oc=5",
       "sourcePriority": 3
     },
     {
-      "title": "Violento episodio en el CPEM 31: un padre ingresó al colegio con un arma blanca - chanardigital.com.ar",
+      "title": "Violento episodio en el CPEM 31: un padre ingresó al colegio con un arma blanca - Chañar Digital",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNaDU2elBEeFZ2X21INm5TSVdQd2NjaDI1V3VfYmZmZjNZTkQ2MGpSQ0N2dTNBUEZHSXQ3a2tHeTlUYWlTMlJIbDVOXy1Rb1RLOWhJS1ZxWktabDJDZy1NREpZV1o1c2hSbGJySmRsMkRUUUJWTFppTm9kTVVaZEtDeS1fR3RVUkVyUnYzN0tZSVdUVjVOek1rbGlsVmV5emFaRGdPZlBJc043VW5kdzltRV9fejlELUg4djEzd2Z3X1loOGc2bXBzeUg2MnY?oc=5",
       "publishedAt": "2026-09-10T17:56:38+00:00",
       "published": "2026-09-10T17:56:38+00:00",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMizAFBVV95cUxNaDU2elBEeFZ2X21INm5TSVdQd2NjaDI1V3VfYmZmZjNZTkQ2MGpSQ0N2dTNBUEZHSXQ3a2tHeTlUYWlTMlJIbDVOXy1Rb1RLOWhJS1ZxWktabDJDZy1NREpZV1o1c2hSbGJySmRsMkRUUUJWTFppTm9kTVVaZEtDeS1fR3RVUkVyUnYzN0tZSVdUVjVOek1rbGlsVmV5emFaRGdPZlBJc043VW5kdzltRV9fejlELUg4djEzd2Z3X1loOGc2bXBzeUg2MnY?oc=5\" target=\"_blank\">Violento episodio en el CPEM 31: un padre ingresó al colegio con un arma blanca</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">chanardigital.com.ar</font>",
-      "source": "chanardigital.com.ar",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMizAFBVV95cUxNaDU2elBEeFZ2X21INm5TSVdQd2NjaDI1V3VfYmZmZjNZTkQ2MGpSQ0N2dTNBUEZHSXQ3a2tHeTlUYWlTMlJIbDVOXy1Rb1RLOWhJS1ZxWktabDJDZy1NREpZV1o1c2hSbGJySmRsMkRUUUJWTFppTm9kTVVaZEtDeS1fR3RVUkVyUnYzN0tZSVdUVjVOek1rbGlsVmV5emFaRGdPZlBJc043VW5kdzltRV9fejlELUg4djEzd2Z3X1loOGc2bXBzeUg2MnY?oc=5\" target=\"_blank\">Violento episodio en el CPEM 31: un padre ingresó al colegio con un arma blanca</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Chañar Digital</font>",
+      "source": "Chañar Digital",
       "sourceType": "BUSCADOR / RESPALDO",
       "sourceUrl": "",
       "collection": "BUSCADOR",
@@ -3418,17 +3450,17 @@
       "relevanceLabel": "DIRECTA",
       "firstSeen": "2026-09-21T00:59:40.731423+00:00",
       "isNew": false,
-      "titleKey": "violento episodio cpem padre ingreso colegio arma blanca chanardigital com",
+      "titleKey": "violento episodio cpem padre ingreso colegio arma blanca digital",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNaDU2elBEeFZ2X21INm5TSVdQd2NjaDI1V3VfYmZmZjNZTkQ2MGpSQ0N2dTNBUEZHSXQ3a2tHeTlUYWlTMlJIbDVOXy1Rb1RLOWhJS1ZxWktabDJDZy1NREpZV1o1c2hSbGJySmRsMkRUUUJWTFppTm9kTVVaZEtDeS1fR3RVUkVyUnYzN0tZSVdUVjVOek1rbGlsVmV5emFaRGdPZlBJc043VW5kdzltRV9fejlELUg4djEzd2Z3X1loOGc2bXBzeUg2MnY?oc=5",
       "sourcePriority": 3
     },
     {
-      "title": "Patagonia Wine Fest 2026: Los Pericos y Los Tipitos llegan a San Patricio del Chañar - Diario Río Negro",
+      "title": "Patagonia Wine Fest 2026: Los Pericos y Los Tipitos llegan a San Patricio del Chañar - rionegro.com.ar",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNM0pZT3R1ZXUzRUZJZ0VEV3NFRlBUY3p6QWNyemYzQWJrdk53OGtMMHYtOWJDbXBrOUx3c3piWDZhc05vTVNLMkh5N29FZS1ldTVUUDh4QkpIQ0xsa2xYVEx1MkZKUVp4a21ZeWF0THVRRHozcl9aODJPbjNrREkxZFA1b2FHakkyV2dHN2hQVkk0ZzNTSk5lbi1EYzVaeUNpYU0wSUVFU0xnckcxam1pQlVRQzdUMlpsc2c1UlY4UWppRlpLNEVoWUhwRnDSAdQBQVVfeXFMTTRoMHNNTkU0ZkVSU2ZzWVJGRWlGQy1GQzdBMVdzUWl1dmZ3ejZxSHEzNGo1TndDaXJaOVBXRXFVWk9VZl9DQWlacHZIMXVPVzlDRE01MVBGNHFld0QzUm1rYzE3RFp0LTVEM1hacjg1SXVYd29rUlkweEE1dlg5djNGVE1pY3p5NWI1OUJpQTdQa2NkVVFmLWxIRGJMSW44VHAwRVd6cmVTSWp2cEM4eE16OWJrZGliOEFTZnduYV9oS3Q1ZW80Wm1LQUlDcnlIWThVRTk?oc=5",
       "publishedAt": "2026-09-09T07:00:00+00:00",
       "published": "2026-09-09T07:00:00+00:00",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMizAFBVV95cUxNM0pZT3R1ZXUzRUZJZ0VEV3NFRlBUY3p6QWNyemYzQWJrdk53OGtMMHYtOWJDbXBrOUx3c3piWDZhc05vTVNLMkh5N29FZS1ldTVUUDh4QkpIQ0xsa2xYVEx1MkZKUVp4a21ZeWF0THVRRHozcl9aODJPbjNrREkxZFA1b2FHakkyV2dHN2hQVkk0ZzNTSk5lbi1EYzVaeUNpYU0wSUVFU0xnckcxam1pQlVRQzdUMlpsc2c1UlY4UWppRlpLNEVoWUhwRnDSAdQBQVVfeXFMTTRoMHNNTkU0ZkVSU2ZzWVJGRWlGQy1GQzdBMVdzUWl1dmZ3ejZxSHEzNGo1TndDaXJaOVBXRXFVWk9VZl9DQWlacHZIMXVPVzlDRE01MVBGNHFld0QzUm1rYzE3RFp0LTVEM1hacjg1SXVYd29rUlkweEE1dlg5djNGVE1pY3p5NWI1OUJpQTdQa2NkVVFmLWxIRGJMSW44VHAwRVd6cmVTSWp2cEM4eE16OWJrZGliOEFTZnduYV9oS3Q1ZW80Wm1LQUlDcnlIWThVRTk?oc=5\" target=\"_blank\">Patagonia Wine Fest 2026: Los Pericos y Los Tipitos llegan a San Patricio del Chañar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Diario Río Negro</font>",
-      "source": "Diario Río Negro",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMizAFBVV95cUxNM0pZT3R1ZXUzRUZJZ0VEV3NFRlBUY3p6QWNyemYzQWJrdk53OGtMMHYtOWJDbXBrOUx3c3piWDZhc05vTVNLMkh5N29FZS1ldTVUUDh4QkpIQ0xsa2xYVEx1MkZKUVp4a21ZeWF0THVRRHozcl9aODJPbjNrREkxZFA1b2FHakkyV2dHN2hQVkk0ZzNTSk5lbi1EYzVaeUNpYU0wSUVFU0xnckcxam1pQlVRQzdUMlpsc2c1UlY4UWppRlpLNEVoWUhwRnDSAdQBQVVfeXFMTTRoMHNNTkU0ZkVSU2ZzWVJGRWlGQy1GQzdBMVdzUWl1dmZ3ejZxSHEzNGo1TndDaXJaOVBXRXFVWk9VZl9DQWlacHZIMXVPVzlDRE01MVBGNHFld0QzUm1rYzE3RFp0LTVEM1hacjg1SXVYd29rUlkweEE1dlg5djNGVE1pY3p5NWI1OUJpQTdQa2NkVVFmLWxIRGJMSW44VHAwRVd6cmVTSWp2cEM4eE16OWJrZGliOEFTZnduYV9oS3Q1ZW80Wm1LQUlDcnlIWThVRTk?oc=5\" target=\"_blank\">Patagonia Wine Fest 2026: Los Pericos y Los Tipitos llegan a San Patricio del Chañar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">rionegro.com.ar</font>",
+      "source": "rionegro.com.ar",
       "sourceType": "BUSCADOR / RESPALDO",
       "sourceUrl": "",
       "collection": "BUSCADOR",
@@ -3437,7 +3469,7 @@
       "relevanceLabel": "DIRECTA",
       "firstSeen": "2026-09-21T00:59:40.731423+00:00",
       "isNew": false,
-      "titleKey": "patagonia wine fest 2026 pericos tipitos llegan diario rio negro",
+      "titleKey": "patagonia wine fest 2026 pericos tipitos llegan rionegro com",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNM0pZT3R1ZXUzRUZJZ0VEV3NFRlBUY3p6QWNyemYzQWJrdk53OGtMMHYtOWJDbXBrOUx3c3piWDZhc05vTVNLMkh5N29FZS1ldTVUUDh4QkpIQ0xsa2xYVEx1MkZKUVp4a21ZeWF0THVRRHozcl9aODJPbjNrREkxZFA1b2FHakkyV2dHN2hQVkk0ZzNTSk5lbi1EYzVaeUNpYU0wSUVFU0xnckcxam1pQlVRQzdUMlpsc2c1UlY4UWppRlpLNEVoWUhwRnDSAdQBQVVfeXFMTTRoMHNNTkU0ZkVSU2ZzWVJGRWlGQy1GQzdBMVdzUWl1dmZ3ejZxSHEzNGo1TndDaXJaOVBXRXFVWk9VZl9DQWlacHZIMXVPVzlDRE01MVBGNHFld0QzUm1rYzE3RFp0LTVEM1hacjg1SXVYd29rUlkweEE1dlg5djNGVE1pY3p5NWI1OUJpQTdQa2NkVVFmLWxIRGJMSW44VHAwRVd6cmVTSWp2cEM4eE16OWJrZGliOEFTZnduYV9oS3Q1ZW80Wm1LQUlDcnlIWThVRTk?oc=5",
       "sourcePriority": 3
     },
@@ -3463,7 +3495,7 @@
   ],
   "territorialGraph": {
     "version": "2.0",
-    "generatedAt": "2026-09-21T01:43:17.001729+00:00",
+    "generatedAt": "2026-09-21T01:44:17.102734+00:00",
     "root": "spc",
     "rule": "evidence-first",
     "levels": [
@@ -4020,7 +4052,7 @@
         "spc",
         "epet-26"
       ],
-      "CHA-1ce621fdd77b": [
+      "CHA-1e572d3f2930": [
         "spc",
         "cpem-31"
       ],
@@ -4066,7 +4098,7 @@
   },
   "audit": {
     "version": "1.0",
-    "updatedAt": "2026-09-21T01:43:17.043521+00:00",
+    "updatedAt": "2026-09-21T01:44:17.139687+00:00",
     "rule": "fact != coverage; territory requires textual evidence",
     "facts": 5,
     "coverage": 6,
