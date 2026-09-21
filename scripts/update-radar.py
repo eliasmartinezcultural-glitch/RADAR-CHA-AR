@@ -350,8 +350,26 @@ def collect_operational():
     else:
         route_raw=attempt('Ruta0','https://www.ruta0.com/estado-de-rutas/?pag=4','rutas')
         if route_raw:
-            op['route7']={'status':'SIN PARTE DIRECTO','detail':'La fuente de respaldo está disponible, pero el motor no la usa para afirmar transitabilidad vigente sin anclaje específico y fecha reciente.','source':'Ruta0','mode':'RESPALDO NO CONCLUYENTE','url':'https://www.ruta0.com/estado-de-rutas/?pag=4'}
-            op['route8']={'status':'SIN PARTE DIRECTO','detail':'La fuente de respaldo está disponible, pero el motor no la usa para afirmar transitabilidad vigente sin anclaje específico y fecha reciente.','source':'Ruta0','mode':'RESPALDO NO CONCLUYENTE','url':'https://www.ruta0.com/estado-de-rutas/?pag=4'}
+            plain=clean(re.sub(r'\\s+',' ',re.sub(r'<[^>]+>',' ',route_raw)))
+            def traveler_report(route_label):
+                patterns=[
+                    r'.{0,180}'+route_label+r'.{0,520}',
+                    r'.{0,180}San Patricio del Chañar.{0,520}'
+                ]
+                for p in patterns:
+                    m=re.search(p,plain,re.I)
+                    if m: return m.group(0)[:800]
+                return ''
+            d7=traveler_report('RP 7')
+            d8=traveler_report('RP 8')
+            if d7:
+                op['route7']={'status':'PRECAUCIÓN · RESPALDO ACTUAL','detail':d7,'source':'Ruta0','mode':'RESPALDO ACTUAL','url':'https://www.ruta0.com/estado-de-rutas/?pag=4'}
+            else:
+                op['route7']={'status':'SIN PARTE DIRECTO','detail':'No se encontró un reporte actual específico para RP7 en la fuente de respaldo.','source':'Ruta0','mode':'RESPALDO SIN PARTE','url':'https://www.ruta0.com/estado-de-rutas/?pag=4'}
+            if d8:
+                op['route8']={'status':'PRECAUCIÓN · RESPALDO ACTUAL','detail':d8,'source':'Ruta0','mode':'RESPALDO ACTUAL','url':'https://www.ruta0.com/estado-de-rutas/?pag=4'}
+            else:
+                op['route8']={'status':'SIN PARTE DIRECTO','detail':'No se encontró un reporte actual específico para RP8 en la fuente de respaldo.','source':'Ruta0','mode':'RESPALDO SIN PARTE','url':'https://www.ruta0.com/estado-de-rutas/?pag=4'}
 
     eurl='https://www.epen.gov.ar/index.php/cortes-programados/'
     eraw=attempt('EPEN',eurl,'energia')
