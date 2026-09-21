@@ -312,54 +312,67 @@ SOURCE_CONTRACTS = {
 }
 
 def collect_operational():
+    """Parte operativo conservador: solo publica estado cuando existe evidencia específica.
+    Un sitio accesible no equivale a un parte vigente."""
     op={'updatedAt':datetime.now(timezone.utc).isoformat(),'route7':None,'route8':None,'energy':None,'water':None,'sources':[]}
+
     def attempt(name,url,kind):
         try:
             raw=fetch(url).decode('utf-8','ignore')
+            op['sources'].append({'name':name,'mode':'OK','kind':kind,'url':url})
             return raw
         except Exception as e:
             op['sources'].append({'name':name,'mode':'FALLA','kind':kind,'url':url,'error':type(e).__name__})
             return ''
+
+    # Ruta0 queda solo como respaldo. Su página agregada contiene muchas rutas y no
+    # alcanza para afirmar el estado actual de RP7/RP8 en Chañar.
     route_raw=attempt('Ruta0','https://www.ruta0.com/estado-de-rutas/?pag=4','rutas')
     if route_raw:
-        txt=re.sub(r'<[^>]+>',' ',route_raw); txt=clean(re.sub(r'\\s+',' ',txt))
-        for key in ['route7','route8']:
-            route='RP 7' if key=='route7' else 'RP 8'
-            pos=txt.lower().find(route.lower())
-            if pos>=0:
-                frag=txt[max(0,pos-250):pos+900]
-                if 'san patricio del chañar' in frag.lower() or key=='route8':
-                    op[key]={'status':'SEÑAL DE TRANSITABILIDAD','detail':frag[:650],'source':'Ruta0','mode':'RESPALDO COMUNITARIO','url':'https://www.ruta0.com/estado-de-rutas/?pag=4'}
-        op['sources'].append({'name':'Ruta0','mode':'OK','kind':'rutas','url':'https://www.ruta0.com/estado-de-rutas/?pag=4'})
+        op['route7']={'status':'SIN PARTE DIRECTO','detail':'La fuente de respaldo está disponible, pero el motor no la usa para afirmar transitabilidad vigente sin anclaje específico y fecha reciente.','source':'Ruta0','mode':'RESPALDO NO CONCLUYENTE','url':'https://www.ruta0.com/estado-de-rutas/?pag=4'}
+        op['route8']={'status':'SIN PARTE DIRECTO','detail':'La fuente de respaldo está disponible, pero el motor no la usa para afirmar transitabilidad vigente sin anclaje específico y fecha reciente.','source':'Ruta0','mode':'RESPALDO NO CONCLUYENTE','url':'https://www.ruta0.com/estado-de-rutas/?pag=4'}
+
     eurl='https://www.epen.gov.ar/index.php/cortes-programados/'
-    eraw=attempt('EPEN','https://www.epen.gov.ar/index.php/cortes-programados/','energia')
+    eraw=attempt('EPEN',eurl,'energia')
     if eraw:
         et=re.sub(r'<[^>]+>',' ',eraw); et=clean(re.sub(r'\\s+',' ',et))
-        hits=[m.group(0) for m in re.finditer(r'.{0,180}(?:Chañar|chañar).{0,360}',et,re.I)]
-        op['energy']={'status':'PARTE EPEN DISPONIBLE','detail':' '.join(hits[:3])[:900] if hits else 'No se encontró una coincidencia reciente explícita para San Patricio del Chañar.','source':'EPEN','mode':'DIRECTA-WEB','url':eurl}
-        op['sources'].append({'name':'EPEN','mode':'OK','kind':'energia','url':eurl})
+        hits=[m.group(0) for m in re.finditer(r'.{0,180}(?:San Patricio del Chañar|El Chañar).{0,360}',et,re.I)]
+        op['energy']={'status':'PARTE EPEN DISPONIBLE' if hits else 'SIN PARTE DIRECTO','detail':' '.join(hits[:3])[:900] if hits else 'La fuente EPEN responde, pero no se encontró en su página de cortes un parte específico vigente para Chañar.','source':'EPEN','mode':'DIRECTA-WEB','url':eurl}
+
     murl='https://sanpatricio.gob.ar/'
     mraw=attempt('Municipalidad de San Patricio del Chañar',murl,'agua')
     if mraw:
         mt=re.sub(r'<[^>]+>',' ',mraw); mt=clean(re.sub(r'\\s+',' ',mt))
         hits=[m.group(0) for m in re.finditer(r'.{0,160}(?:agua|abastecimiento|servicio).{0,300}',mt,re.I)]
-        op['water']={'status':'MONITOREO INSTITUCIONAL','detail':' '.join(hits[:2])[:700] if hits else 'Sin parte operativo de agua visible en la portada municipal.','source':'Municipalidad de San Patricio del Chañar','mode':'DIRECTA-WEB','url':murl}
-        op['sources'].append({'name':'Municipalidad de San Patricio del Chañar','mode':'OK','kind':'agua','url':murl})
+        op['water']={'status':'PARTE MUNICIPAL' if hits else 'SIN PARTE DIRECTO','detail':' '.join(hits[:2])[:700] if hits else 'La portada municipal responde, pero no expone un parte operativo de agua vigente.','source':'Municipalidad de San Patricio del Chañar','mode':'DIRECTA-WEB','url':murl}
     return op
 
 def collect_environment():
-    """Datos ambientales reales y señales de infraestructura derivadas de evidencia.
-    No convierte ausencia de datos en ausencia de problema."""
+    """Viento: AIC como fuente meteorológica regional de referencia y Open-Meteo como respaldo.
+    Nunca convierte un fallo de una fuente en ausencia de viento."""
     env={'updatedAt':datetime.now(timezone.utc).isoformat(),'weather':None,'sources':[]}
-    try:
-        url='https://api.open-meteo.com/v1/forecast?latitude=-39.061&longitude=-68.353&current=temperature_2m,relative_humidity_2m,wind_speed_10m,wind_direction_10m,precipitation&wind_speed_unit=kmh&timezone=America%2FArgentina%2FNeuquen'
-        raw=json.loads(fetch(url).decode('utf-8'))
-        c=raw.get('current',{})
-        env['weather']={'temperatureC':c.get('temperature_2m'),'humidityPct':c.get('relative_humidity_2m'),'windKmh':c.get('wind_speed_10m'),'windDirection':c.get('wind_direction_10m'),'precipitationMm':c.get('precipitation'),'observedAt':c.get('time'),'source':'Open-Meteo','mode':'DATO DIRECTO'}
-        env['sources'].append({'name':'Open-Meteo','mode':'OK','url':url})
-    except Exception as e:
-        env['sources'].append({'name':'Open-Meteo','mode':'FALLA','error':type(e).__name__})
 
+    aic_url='https://www.aic.gob.ar/sitio/home?a=1015&z=1967225803'
+    try:
+        raw=fetch(aic_url).decode('utf-8','ignore')
+        txt=clean(re.sub(r'<[^>]+>',' ',raw))
+        m=re.search(r'Pronóstico para El Chañar.*?Viento\\s+([0-9]+)\\s*km/h.*?Ráfagas\\s+([0-9]+)\\s*km/h.*?Dirección\\s+([A-ZÁÉÍÓÚÑ]+)',txt,re.I|re.S)
+        if m:
+            env['weather']={'windKmh':float(m.group(1)),'gustKmh':float(m.group(2)),'windDirection':m.group(3),'source':'AIC','mode':'DATO DIRECTO / PRONÓSTICO','observedAt':env['updatedAt']}
+            env['sources'].append({'name':'AIC','mode':'OK','url':aic_url})
+        else:
+            env['sources'].append({'name':'AIC','mode':'OK_SIN_DATO_PARSEO','url':aic_url})
+    except Exception as e:
+        env['sources'].append({'name':'AIC','mode':'FALLA','error':type(e).__name__,'url':aic_url})
+
+    if not env['weather']:
+        try:
+            url='https://api.open-meteo.com/v1/forecast?latitude=-39.061&longitude=-68.353&current=temperature_2m,relative_humidity_2m,wind_speed_10m,wind_gusts_10m,wind_direction_10m,precipitation&wind_speed_unit=kmh&timezone=America%2FArgentina%2FNeuquen'
+            raw=json.loads(fetch(url).decode('utf-8')); c=raw.get('current',{})
+            env['weather']={'temperatureC':c.get('temperature_2m'),'humidityPct':c.get('relative_humidity_2m'),'windKmh':c.get('wind_speed_10m'),'gustKmh':c.get('wind_gusts_10m'),'windDirection':c.get('wind_direction_10m'),'precipitationMm':c.get('precipitation'),'observedAt':c.get('time'),'source':'Open-Meteo','mode':'DATO DIRECTO / RESPALDO'}
+            env['sources'].append({'name':'Open-Meteo','mode':'OK','url':url})
+        except Exception as e:
+            env['sources'].append({'name':'Open-Meteo','mode':'FALLA','error':type(e).__name__})
     return env
 
 def build_system_radars(events, environment):
