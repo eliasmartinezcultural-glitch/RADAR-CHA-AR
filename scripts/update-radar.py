@@ -459,17 +459,9 @@ SOURCE_CONTRACTS = {
     }
 }
 
-# Indicadores que se pueden proponer en el futuro, pero NO se publican hasta
-# completar este mismo contrato con organismo, endpoint, parser y validación.
-RESERVED_INDICATORS = {
-    "CALIDAD_AIRE": "requiere organismo ambiental competente + estación/modelo identificable + unidad (µg/m³ o índice) + fecha/hora",
-    "NIVEL_RIO": "requiere estación hidrométrica competente + nivel en m + fecha/hora + sitio exacto",
-    "ESTADO_TRANSITO": "requiere organismo vial/autoridad de tránsito competente + tramo + evento + vigencia",
-    "RIESGO_INCENDIO": "requiere fuente oficial de peligro de incendios + índice/escala + vigencia + cobertura territorial"
-}
-
 def audit_source_contracts():
     required=("primary","domain","unit","language","rule")
+    technical_required=("dataType","geography","temporalField","parser","validation")
     audit={}
     for name,contract in SOURCE_CONTRACTS.items():
         missing=[k for k in required if not contract.get(k)]
@@ -484,6 +476,13 @@ def audit_source_contracts():
             "language":contract.get("language"),
             "refresh":contract.get("refresh")
         }
+    for name in SOURCE_CONTRACTS:
+        t=INDICATOR_TECHNICAL_CONTRACTS.get(name,{})
+        missing_t=[k for k in technical_required if not t.get(k)]
+        audit[name]["technical"]=t
+        if missing_t:
+            audit[name]["valid"]=False
+            audit[name]["missing"]=audit[name]["missing"]+["technical."+k for k in missing_t]
     failures=[name for name,row in audit.items() if not row["valid"]]
     if failures:
         raise RuntimeError("CONTRATO DE DATOS INCOMPLETO: "+", ".join(failures))
@@ -1023,6 +1022,6 @@ required_radar_contracts={"CONVERSACIÓN","RUTA 7","RUTA 8","VIENTO","ENERGÍA",
 missing_radar_contracts=sorted(required_radar_contracts-set(SOURCE_CONTRACTS))
 if missing_radar_contracts:
     raise RuntimeError("RADAR SIN CONTRATO: "+", ".join(missing_radar_contracts))
-output={'updatedAt':now,'window':f'{DAYS} días','purpose':'Detectar qué se está moviendo en San Patricio del Chañar y mostrar de dónde surge cada señal.','architecture':'contrato universal de procedencia + fuentes profesionales + parsers específicos + validación semántica + temporalidad + evidencia editorial separada + memoria de eventos','keywords':[q for q,_ in QUERIES],'sourceRegistry':status,'sourceCatalog':SOURCE_CATALOG,'sourceAudit':source_audit,'languageAudit':language_audit,'precisionAudit':precision_audit,'stats':stats,'environment':environment,'operational':operational,'sourceContracts':SOURCE_CONTRACTS,'contractAudit':contract_audit,'reservedIndicators':RESERVED_INDICATORS,'contractVersion':CONTRACT_VERSION,'systemRadars':system_radars,'system':{'memoryDays':MEMORY_DAYS,'eventIdentity':'estable entre actualizaciones','evidenceRule':'evidence-first','movementRule':'descriptivo: recencia + cobertura + diversidad de fuentes; no es ranking de importancia','sourceFailureRule':'no inferir desaparición cuando las fuentes conocidas no responden','infrastructureRule':'una señal editorial no equivale a confirmación operativa; los datos directos se etiquetan por separado','lifecycle':['EMERGENTE','ACTIVO','SOSTENIDO','EN DESCENSO','RECIENTE'],'sourceHealth':status},'events':events,'items':dedup}
+output={'updatedAt':now,'window':f'{DAYS} días','purpose':'Detectar qué se está moviendo en San Patricio del Chañar y mostrar de dónde surge cada señal.','architecture':'contrato universal de procedencia + fuentes profesionales + parsers específicos + validación semántica + temporalidad + evidencia editorial separada + memoria de eventos','keywords':[q for q,_ in QUERIES],'sourceRegistry':status,'sourceCatalog':SOURCE_CATALOG,'sourceAudit':source_audit,'languageAudit':language_audit,'precisionAudit':precision_audit,'stats':stats,'environment':environment,'operational':operational,'sourceContracts':SOURCE_CONTRACTS,'contractAudit':contract_audit,'reservedIndicators':RESERVED_INDICATORS,'indicatorTechnicalContracts':INDICATOR_TECHNICAL_CONTRACTS,'contractVersion':CONTRACT_VERSION,'systemRadars':system_radars,'system':{'memoryDays':MEMORY_DAYS,'eventIdentity':'estable entre actualizaciones','evidenceRule':'evidence-first','movementRule':'descriptivo: recencia + cobertura + diversidad de fuentes; no es ranking de importancia','sourceFailureRule':'no inferir desaparición cuando las fuentes conocidas no responden','infrastructureRule':'una señal editorial no equivale a confirmación operativa; los datos directos se etiquetan por separado','lifecycle':['EMERGENTE','ACTIVO','SOSTENIDO','EN DESCENSO','RECIENTE'],'sourceHealth':status},'events':events,'items':dedup}
 with open(OUT,'w',encoding='utf-8') as f: json.dump(output,f,ensure_ascii=False,indent=2)
 print('PULSO:',stats,'RADARES:',len(system_radars))
