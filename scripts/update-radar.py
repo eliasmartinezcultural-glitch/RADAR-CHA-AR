@@ -300,357 +300,438 @@ RADAR_SOURCE_MAP={
  ]
 }
 
+# ================================================================
+# CONTRATO UNIVERSAL DE DATOS RADAR
+# ================================================================
+# LEY MUNDIAL:
+# 1) Un indicador no nace de una tarjeta: nace de un fenómeno.
+# 2) Cada fenómeno tiene que tener una autoridad/fuente competente.
+# 3) La fuente debe declarar qué mide, unidad, temporalidad y semántica.
+# 4) Una fuente secundaria nunca puede disfrazarse de primaria.
+# 5) Si el dato no puede ser validado, RADAR NO INVENTA un estado.
+# 6) "sin novedad", "normal", "habilitado", "cerrado" y "sin parte" NO son
+#    estados universales. Cada indicador tiene su propio vocabulario.
+# 7) Toda futura incorporación debe entrar primero en este registro.
+# ================================================================
+
+CONTRACT_VERSION = "RADAR-DATA-CONTRACT-2.0"
+
 SOURCE_CONTRACTS = {
-    # LEY MUNDIAL RADAR: ningún indicador se publica sin una fuente profesional
-    # adecuada al fenómeno que pretende describir. Cada adaptador declara
-    # procedencia, parser, unidad, temporalidad, semántica y fallback.
-    'RUTA 7': {
-        'primary': 'Dirección Provincial de Vialidad del Neuquén',
-        'secondary': 'WSESTADORUTAS · sistema oficial de estado vial',
-        'fallback': 'Ruta0 · referencia secundaria',
-        'refresh': '30 min',
-        'domain': 'estado de transitabilidad, cortes, obras y restricciones',
-        'unit': 'estado vial / tramo / horario',
-        'language': 'habilitación, precaución, reducción de calzada, corte, obra, desvío',
-        'rule': 'fuente vial oficial > sistema oficial > referencia secundaria; nunca inferir transitabilidad desde ausencia de noticias'
+    "CONVERSACIÓN": {
+        "primary": "medios locales identificables",
+        "secondary": "fuentes institucionales competentes según el hecho",
+        "fallback": "medios regionales",
+        "domain": "agenda editorial local",
+        "unit": "hecho / fuente / fecha",
+        "language": "tema, cobertura, fuente, fecha, territorio",
+        "refresh": "30 min",
+        "rule": "es señal editorial; jamás confirma por sí sola un estado técnico u operativo"
     },
-    'RUTA 8': {
-        'primary': 'Dirección Provincial de Vialidad del Neuquén',
-        'secondary': 'WSESTADORUTAS · sistema oficial de estado vial',
-        'fallback': 'Ruta0 · referencia secundaria',
-        'refresh': '30 min',
-        'domain': 'estado de transitabilidad, cortes, obras y restricciones',
-        'unit': 'estado vial / tramo / horario',
-        'language': 'habilitación, precaución, reducción de calzada, corte, obra, desvío',
-        'rule': 'fuente vial oficial > sistema oficial > referencia secundaria; nunca inferir transitabilidad desde ausencia de noticias'
+    "RUTA 7": {
+        "primary": "Dirección Provincial de Vialidad del Neuquén",
+        "secondary": "sistema oficial de estado vial de Vialidad Neuquén",
+        "fallback": "ninguno para estado operativo",
+        "domain": "transitabilidad de la Ruta Provincial 7",
+        "unit": "tramo / estado vial / vigencia / horario",
+        "language": "habilitada, precaución, reducción de calzada, corte intermitente, corte total, obra, desvío, restricción",
+        "refresh": "30 min",
+        "rule": "solo una publicación o sistema vial competente puede establecer el estado; si no hay dato parseable, no se reemplaza por una inferencia de prensa"
     },
-    'VIENTO': {
-        'primary': 'Autoridad Interjurisdiccional de las Cuencas (AIC) · Pronóstico El Chañar',
-        'secondary': 'Servicio Meteorológico Nacional',
-        'fallback': 'Open-Meteo / MET Norway · solo transporte meteorológico secundario',
-        'refresh': '30 min',
-        'domain': 'viento meteorológico para El Chañar',
-        'unit': 'km/h; ráfagas km/h; dirección; temperatura °C; presión hPa',
-        'language': 'viento, ráfagas, dirección, temperatura, presión, pronóstico, observación',
-        'rule': 'AIC es la autoridad primaria para el pronóstico local; si no entrega un valor válido, identificar expresamente la fuente secundaria utilizada'
+    "RUTA 8": {
+        "primary": "Dirección Provincial de Vialidad del Neuquén",
+        "secondary": "sistema oficial de estado vial de Vialidad Neuquén",
+        "fallback": "ninguno para estado operativo",
+        "domain": "transitabilidad de la Ruta Provincial 8",
+        "unit": "tramo / estado vial / vigencia / horario",
+        "language": "habilitada, precaución, reducción de calzada, corte intermitente, corte total, obra, desvío, restricción",
+        "refresh": "30 min",
+        "rule": "solo una publicación o sistema vial competente puede establecer el estado; si no hay dato parseable, no se reemplaza por una inferencia de prensa"
     },
-    'CAUDAL': {
-        'primary': 'Autoridad Interjurisdiccional de las Cuencas (AIC) · Caudales Programados',
-        'secondary': 'AIC · mediciones hidrológicas',
-        'fallback': 'último valor AIC confirmado, únicamente como dato histórico',
-        'refresh': '30 min',
-        'domain': 'caudal programado/medido del sistema hídrico asociado a El Chañar',
-        'unit': 'm³/s',
-        'language': 'caudal mínimo, caudal máximo, erogado, programado, medido, fecha',
-        'rule': 'no presentar un valor histórico como actual; observedAt corresponde al dato y fetchedAt a la consulta'
+    "VIENTO": {
+        "primary": "Autoridad Interjurisdiccional de las Cuencas (AIC) · pronóstico El Chañar",
+        "secondary": "Servicio Meteorológico Nacional",
+        "fallback": "Open-Meteo / MET Norway, explícitamente como modelo meteorológico secundario",
+        "domain": "pronóstico meteorológico local de viento",
+        "unit": "km/h / ráfagas km/h / dirección",
+        "language": "velocidad del viento, ráfagas, dirección, período de pronóstico",
+        "refresh": "30 min",
+        "rule": "AIC es primaria para el pronóstico local; nunca llamar 'observación' a un valor que proviene de un pronóstico"
     },
-    'ENERGÍA': {
-        'primary': 'Ente Provincial de Energía del Neuquén (EPEN)',
-        'secondary': 'EPEN · cortes programados / comunicados',
-        'fallback': 'Municipalidad de San Patricio del Chañar · solo comunicación local',
-        'refresh': '30 min',
-        'domain': 'cortes programados y afectación del suministro eléctrico',
-        'unit': 'sector / fecha / horario',
-        'language': 'corte programado, mantenimiento, sectores afectados, horario, restitución',
-        'rule': 'no convertir ausencia de publicación en normalidad del servicio'
+    "TEMPERATURA": {
+        "primary": "Autoridad Interjurisdiccional de las Cuencas (AIC) · pronóstico El Chañar",
+        "secondary": "Servicio Meteorológico Nacional",
+        "fallback": "Open-Meteo / MET Norway, explícitamente como modelo meteorológico secundario",
+        "domain": "temperatura meteorológica local",
+        "unit": "°C",
+        "language": "temperatura, mínima, máxima, período de pronóstico",
+        "refresh": "30 min",
+        "rule": "el tipo de dato debe conservarse como pronóstico u observación; nunca mezclar ambos"
     },
-    'AGUA': {
-        'primary': 'Ente Provincial de Agua y Saneamiento (EPAS)',
-        'secondary': 'Municipalidad de San Patricio del Chañar',
-        'fallback': 'Neuquén Informa',
-        'refresh': '30 min',
-        'domain': 'abastecimiento y saneamiento de agua',
-        'unit': 'servicio / sector / fecha / horario',
-        'language': 'interrupción, baja presión, abastecimiento, reparación, restablecimiento',
-        'rule': 'EPAS es la referencia técnica primaria; nunca inferir servicio normal por ausencia de aviso'
+    "CAUDAL": {
+        "primary": "Autoridad Interjurisdiccional de las Cuencas (AIC) · Caudales Programados",
+        "secondary": "AIC · red/mediciones hidrológicas cuando corresponda al sitio",
+        "fallback": "ninguno para dato actual; último valor solo puede conservarse como histórico",
+        "domain": "caudal programado del sistema hídrico asociado a El Chañar",
+        "unit": "m³/s",
+        "language": "caudal programado, mínimo programado, máximo programado, fecha del programa",
+        "refresh": "30 min",
+        "rule": "El Chañar debe identificarse como sitio de la tabla; no convertir caudal programado en caudal observado del río en la localidad"
     },
-    'SERVICIOS': {
-        'primary': 'Municipalidad de San Patricio del Chañar',
-        'secondary': 'organismo provincial competente según servicio',
-        'fallback': 'Neuquén Informa',
-        'refresh': '30 min',
-        'domain': 'avisos y prestación de servicios municipales',
-        'unit': 'servicio / sector / fecha / horario',
-        'language': 'aviso, atención, interrupción, mantenimiento, habilitación, horario',
-        'rule': 'cada evento debe conservar el organismo responsable del servicio'
+    "ENERGÍA": {
+        "primary": "Ente Provincial de Energía del Neuquén (EPEN)",
+        "secondary": "EPEN · comunicados y cronogramas oficiales",
+        "fallback": "Municipalidad, solo como canal de comunicación",
+        "domain": "suministro eléctrico y cortes publicados",
+        "unit": "sector / fecha / hora / evento",
+        "language": "corte programado, mantenimiento, sectores afectados, inicio, restitución",
+        "refresh": "30 min",
+        "rule": "la ausencia de un aviso no se transforma en servicio normal"
     },
-    'SALUD': {
-        'primary': 'Ministerio de Salud de la Provincia del Neuquén',
-        'secondary': 'Hospital San Patricio del Chañar Dra. Alicia Cruz',
-        'fallback': 'organismo sanitario provincial',
-        'refresh': '30 min',
-        'domain': 'atención sanitaria, servicios y avisos de salud',
-        'unit': 'establecimiento / servicio / fecha / horario',
-        'language': 'atención, guardia, turno, servicio, campaña, aviso sanitario',
-        'rule': 'no inferir disponibilidad clínica desde silencio editorial'
+    "AGUA": {
+        "primary": "Ente Provincial de Agua y Saneamiento (EPAS)",
+        "secondary": "Municipalidad de San Patricio del Chañar, como comunicación local",
+        "fallback": "Neuquén Informa, como comunicación oficial provincial",
+        "domain": "abastecimiento y saneamiento de agua",
+        "unit": "sector / evento / fecha / hora",
+        "language": "interrupción, baja presión, restricción de suministro, reparación, restablecimiento, obra",
+        "refresh": "30 min",
+        "rule": "EPAS es la referencia técnica; no publicar un estado de servicio cuando solo existe silencio de la fuente"
     },
-    'EDUCACIÓN': {
-        'primary': 'Consejo Provincial de Educación del Neuquén',
-        'secondary': 'Ministerio de Educación del Neuquén',
-        'fallback': 'Neuquén Informa',
-        'refresh': '30 min',
-        'domain': 'actividad educativa oficial',
-        'unit': 'establecimiento / nivel / fecha / horario',
-        'language': 'suspensión, clases, jornada, calendario, inscripción, establecimiento',
-        'rule': 'la condición educativa debe provenir de autoridad educativa competente'
+    "SERVICIOS": {
+        "primary": "organismo competente del servicio concreto",
+        "secondary": "Municipalidad de San Patricio del Chañar cuando sea servicio municipal",
+        "fallback": "Neuquén Informa",
+        "domain": "prestación concreta de servicios públicos",
+        "unit": "servicio / sector / evento / fecha / hora",
+        "language": "interrupción, mantenimiento, obra, atención, horario, restitución, habilitación",
+        "refresh": "30 min",
+        "rule": "cada registro debe identificar qué servicio es y qué organismo lo presta; 'servicios' no puede funcionar como cajón de sastre"
     },
-    'PRODUCCIÓN': {
-        'primary': 'Ministerio de Producción e Industria del Neuquén',
-        'secondary': 'organismo provincial productivo competente',
-        'fallback': 'Municipalidad de San Patricio del Chañar',
-        'refresh': '30 min',
-        'domain': 'actividad productiva, agrícola y agroindustrial',
-        'unit': 'programa / establecimiento / sector / fecha',
-        'language': 'producción, cosecha, sanidad, riego, asistencia, programa, actividad',
-        'rule': 'distinguir dato productivo de noticia general'
+    "SALUD": {
+        "primary": "Ministerio de Salud de la Provincia del Neuquén",
+        "secondary": "Hospital San Patricio del Chañar Dra. Alicia Cruz",
+        "fallback": "organismo sanitario provincial competente",
+        "domain": "servicios y comunicaciones sanitarias oficiales",
+        "unit": "establecimiento / servicio / fecha / hora",
+        "language": "guardia, atención, turno, servicio, campaña, vacunación, aviso sanitario",
+        "refresh": "30 min",
+        "rule": "no inferir disponibilidad clínica, capacidad o normalidad desde una ausencia de publicación"
     },
-    'EMERGENCIAS': {
-        'primary': 'Secretaría/Dirección Provincial de Emergencias y Gestión de Riesgos / Defensa Civil Neuquén',
-        'secondary': 'Bomberos Voluntarios de San Patricio del Chañar',
-        'fallback': 'Municipalidad de San Patricio del Chañar',
-        'refresh': '15 min',
-        'domain': 'alertas, emergencias y respuesta operativa',
-        'unit': 'evento / zona / fecha / horario',
-        'language': 'alerta, emergencia, intervención, evacuación, prevención, incidente',
-        'rule': 'solo publicar como emergencia lo que tenga fuente operativa o institucional identificable'
+    "EDUCACIÓN": {
+        "primary": "Consejo Provincial de Educación del Neuquén",
+        "secondary": "Ministerio de Educación del Neuquén",
+        "fallback": "Neuquén Informa",
+        "domain": "actividad educativa oficial",
+        "unit": "establecimiento / nivel / fecha / jornada",
+        "language": "suspensión de clases, jornada, calendario, inscripción, establecimiento, medida educativa",
+        "refresh": "30 min",
+        "rule": "un medio puede detectar conversación; solo autoridad educativa puede confirmar una condición educativa"
     },
-    'TERRITORIO': {
-        'primary': 'Municipalidad de San Patricio del Chañar',
-        'secondary': 'organismo provincial competente según fenómeno',
-        'fallback': 'Neuquén Informa',
-        'refresh': '30 min',
-        'domain': 'hechos territoriales con anclaje explícito en San Patricio del Chañar',
-        'unit': 'lugar / sector / evento / fecha',
-        'language': 'localización, sector, obra, servicio, actividad, intervención',
-        'rule': 'todo hecho territorial debe conservar su anclaje geográfico verificable'
+    "PRODUCCIÓN": {
+        "primary": "Ministerio de Producción e Industria del Neuquén",
+        "secondary": "organismo productivo competente según cadena",
+        "fallback": "Municipalidad de San Patricio del Chañar",
+        "domain": "actividad productiva, agrícola y agroindustrial",
+        "unit": "cadena / establecimiento / programa / fecha",
+        "language": "producción, cosecha, sanidad, riego, asistencia, programa, actividad productiva",
+        "refresh": "60 min",
+        "rule": "distinguir anuncio institucional, programa, dato productivo y noticia periodística"
     },
-    'CONVERSACIÓN': {
-        'primary': 'medios locales identificables',
-        'secondary': 'fuentes institucionales competentes',
-        'fallback': 'medios regionales',
-        'refresh': '30 min',
-        'domain': 'agenda editorial local, no estado operativo',
-        'unit': 'hecho / fecha / fuente',
-        'language': 'tema, hecho, cobertura, fuente, fecha',
-        'rule': 'este radar describe conversación editorial; nunca sustituye un indicador técnico u operativo'
+    "EMERGENCIAS": {
+        "primary": "Secretaría de Emergencias y Gestión de Riesgos de la Provincia del Neuquén",
+        "secondary": "Sistema Integrado de Emergencias del Neuquén (SIEN) / organismo operativo competente",
+        "fallback": "Bomberos Voluntarios de San Patricio del Chañar / Municipalidad, según el evento",
+        "domain": "alertas y respuesta operativa ante emergencias",
+        "unit": "evento / zona / fecha / hora",
+        "language": "alerta, incidente, intervención, evacuación, prevención, emergencia, respuesta",
+        "refresh": "15 min",
+        "rule": "solo un organismo operativo o institucional identificable puede elevar una señal a emergencia"
+    },
+    "TERRITORIO": {
+        "primary": "Municipalidad de San Patricio del Chañar para hechos municipales",
+        "secondary": "organismo provincial competente según fenómeno",
+        "fallback": "Neuquén Informa",
+        "domain": "hechos territoriales con anclaje geográfico verificable",
+        "unit": "lugar / sector / evento / fecha",
+        "language": "lugar, sector, obra, intervención, actividad, localización",
+        "refresh": "30 min",
+        "rule": "el organismo debe ser competente para el hecho; territorio no autoriza a mezclar cualquier fuente"
     }
 }
 
-def collect_operational():
-    """Parte operativo conservador: solo publica estado cuando existe evidencia específica.
-    Un sitio accesible no equivale a un parte vigente."""
-    op={'updatedAt':datetime.now(timezone.utc).isoformat(),'route7':None,'route8':None,'energy':None,'water':None,'sources':[]}
+# Indicadores que se pueden proponer en el futuro, pero NO se publican hasta
+# completar este mismo contrato con organismo, endpoint, parser y validación.
+RESERVED_INDICATORS = {
+    "CALIDAD_AIRE": "requiere organismo ambiental competente + estación/modelo identificable + unidad (µg/m³ o índice) + fecha/hora",
+    "NIVEL_RIO": "requiere estación hidrométrica competente + nivel en m + fecha/hora + sitio exacto",
+    "ESTADO_TRANSITO": "requiere organismo vial/autoridad de tránsito competente + tramo + evento + vigencia",
+    "RIESGO_INCENDIO": "requiere fuente oficial de peligro de incendios + índice/escala + vigencia + cobertura territorial"
+}
 
-    def attempt(name,url,kind):
+def audit_source_contracts():
+    required=("primary","domain","unit","language","rule")
+    audit={}
+    for name,contract in SOURCE_CONTRACTS.items():
+        missing=[k for k in required if not contract.get(k)]
+        audit[name]={
+            "valid":not missing,
+            "missing":missing,
+            "primary":contract.get("primary"),
+            "secondary":contract.get("secondary"),
+            "fallback":contract.get("fallback"),
+            "domain":contract.get("domain"),
+            "unit":contract.get("unit"),
+            "language":contract.get("language"),
+            "refresh":contract.get("refresh")
+        }
+    failures=[name for name,row in audit.items() if not row["valid"]]
+    if failures:
+        raise RuntimeError("CONTRATO DE DATOS INCOMPLETO: "+", ".join(failures))
+    return audit
+
+SOURCE_CONTRACT_AUDIT = audit_source_contracts()
+
+def collect_operational():
+    # Capa operativa estricta: un organismo competente puede confirmar un
+    # estado; un medio o un fallback no puede convertirse silenciosamente en
+    # el estado del indicador.
+    op={
+        "updatedAt":NOW.isoformat(),
+        "route7":None,"route8":None,"energy":None,"water":None,
+        "sources":[]
+    }
+
+    def attempt(name,url,kind,tier):
         try:
             raw=fetch(url)
-            op['sources'].append({'name':name,'mode':'OK','kind':kind,'url':url})
+            op["sources"].append({"name":name,"tier":tier,"mode":"reachable","kind":kind,"url":url})
             return raw
         except Exception as e:
-            op['sources'].append({'name':name,'mode':'FALLA','kind':kind,'url':url,'error':type(e).__name__})
-            return ''
+            op["sources"].append({"name":name,"tier":tier,"mode":"connection_error","kind":kind,"url":url,"error":type(e).__name__})
+            return ""
 
-    # Vialidad Provincial expone WSESTADORUTAS como API oficial de parte diario.
-    # Primero intentamos esa fuente; Ruta0 queda únicamente como respaldo.
-    api_urls=[
-        'https://ww4.neuquen.gov.ar/Pecas/Optic/xroad/monitoreo/auditoria/api/parte',
-        'https://ww4.neuquen.gov.ar/Pecas/Optic/xroad/monitoreo/auditoria/api/rutas'
-    ]
-    official=''
-    official_url=''
-    for u in api_urls:
-        raw=attempt('Vialidad Provincial · WSESTADORUTAS',u,'rutas-oficial')
-        if raw:
-            plain=clean(re.sub(r'\\s+',' ',re.sub(r'<[^>]+>',' ',raw)))
-            if re.search(r'Ruta\\s*7|RP\\s*7|Ruta\\s*Provincial\\s*7',plain,re.I) or re.search(r'Ruta\\s*8|RP\\s*8|Ruta\\s*Provincial\\s*8',plain,re.I):
-                official=raw; official_url=u; break
-    if official:
-        plain=clean(re.sub(r'\\s+',' ',re.sub(r'<[^>]+>',' ',official)))
-        def route_detail(route):
-            aliases={'Ruta 7':r'(?:Ruta\\s*7|RP\\s*7|Ruta\\s*Provincial\\s*7)','Ruta 8':r'(?:Ruta\\s*8|RP\\s*8|Ruta\\s*Provincial\\s*8)'}
-            m=re.search(r'.{0,220}'+aliases[route]+r'.{0,520}',plain,re.I)
-            return m.group(0)[:700] if m else ''
-        d7=route_detail('Ruta 7'); d8=route_detail('Ruta 8')
-        if d7:
-            op['route7']={'status':'PARTE OFICIAL DISPONIBLE','detail':d7,'source':'WSESTADORUTAS','mode':'DIRECTA-API','url':official_url}
-        if d8:
-            op['route8']={'status':'PARTE OFICIAL DISPONIBLE','detail':d8,'source':'WSESTADORUTAS','mode':'DIRECTA-API','url':official_url}
-    if not op.get('route7') or not op.get('route8'):
-        route_raw=attempt('Ruta0','https://www.ruta0.com/ruta/argentina/anelo-a-san-patricio-del-chanar/','rutas')
-        if route_raw:
-            plain=clean(re.sub(r'\\s+',' ',re.sub(r'<[^>]+>',' ',route_raw)))
-            def traveler_report(route_label):
-                aliases={'RP 7':r'(?:RP\\s*7|Ruta\\s*7)','RP 8':r'(?:RP\\s*8|Ruta\\s*8)'}
-                for m in re.finditer(aliases[route_label],plain,re.I):
-                    excerpt=plain[max(0,m.start()-280):m.end()+520]
-                    if re.search(r'San Patricio del Chañar|El Chañar|Neuquén',excerpt,re.I):
-                        return excerpt[:800]
-                return ''
-            d7=traveler_report('RP 7')
-            d8=traveler_report('RP 8')
-            if not op.get('route7'):
-                op['route7']={'status':'PRECAUCIÓN · REPORTE RECIENTE' if d7 else 'SEGUIMIENTO ACTIVO','detail':d7 or 'Seguimiento activo del corredor Añelo–Chañar; la fuente no publicó una alerta específica en esta lectura.','source':'Ruta0','mode':'REPORTE RECIENTE' if d7 else 'SEGUIMIENTO ACTIVO','url':'https://www.ruta0.com/ruta/argentina/anelo-a-san-patricio-del-chanar/'}
-            if not op.get('route8'):
-                op['route8']={'status':'PRECAUCIÓN · RESPALDO ACTUAL' if d8 else 'SEGUIMIENTO ACTIVO','detail':d8 or 'Seguimiento activo del enlace RP7/RP8; la fuente de respaldo no publicó una novedad operativa específica en esta lectura.','source':'Ruta0','mode':'RESPALDO ACTUAL' if d8 else 'SEGUIMIENTO ACTIVO','url':'https://www.ruta0.com/estado-de-rutas/?pag=4'}
+    # RUTAS: Vialidad Provincial es la autoridad competente. No usamos Ruta0
+    # para inventar o completar el estado oficial.
+    dpv="https://www.dpvneuquen.gov.ar/"
+    raw=attempt("Dirección Provincial de Vialidad","https://www.dpvneuquen.gov.ar/","road_official","primary")
+    if raw:
+        plain=clean(re.sub(r"\s+"," ",re.sub(r"<[^>]+>"," ",raw)))
+        op["sources"][-1]["contentEvidence"]={
+            "route7Mention":bool(re.search(r"Ruta\s*7|RP\s*7",plain,re.I)),
+            "route8Mention":bool(re.search(r"Ruta\s*8|RP\s*8",plain,re.I))
+        }
+    # Si el sitio oficial tiene una publicación concreta, la guardamos como
+    # evidencia; no la convertimos automáticamente en estado vigente.
+    for route,key in [("Ruta 7","route7"),("Ruta 8","route8")]:
+        op[key]={
+            "indicator":key,
+            "authority":"Dirección Provincial de Vialidad del Neuquén",
+            "source":"Dirección Provincial de Vialidad",
+            "sourceTier":"primary",
+            "sourceUrl":dpv,
+            "semanticState":None,
+            "publicationState":"source_reachable_no_current_machine_readable_state",
+            "detail":None,
+            "retrievedAt":NOW.isoformat()
+        }
 
-    eurl='https://www.epen.gov.ar/index.php/cortes-programados/'
-    eraw=attempt('EPEN',eurl,'energia')
+    # ENERGÍA: EPEN. Solo un aviso específico de Chañar puede crear un evento.
+    eurl="https://www.epen.gov.ar/index.php/cortes-programados/"
+    eraw=attempt("EPEN",eurl,"electricity_official","primary")
     if eraw:
-        et=re.sub(r'<[^>]+>',' ',eraw); et=clean(re.sub(r'\\s+',' ',et))
-        hits=[m.group(0) for m in re.finditer(r'.{0,180}(?:San Patricio del Chañar|El Chañar).{0,360}',et,re.I)]
-        recent=re.search(r'(?:19|20|21|22|23|24|25)/09/2026',et)
-        op['energy']={'status':'CORTE PROGRAMADO VIGENTE' if hits and recent else ('ÚLTIMO CRONOGRAMA FINALIZADO' if hits else 'MONITOREO EPEN ACTIVO'),'detail':' '.join(hits[:3])[:900] if hits else 'EPEN mantiene la consulta de cortes programados activa; la última publicación localizada para Chañar no indica una interrupción vigente en esta lectura.','source':'EPEN','mode':'DIRECTA-WEB','url':eurl}
-
-    # Agua: EPAS es la autoridad técnica primaria. El municipio solo comunica.
-    water_hits=[]
-    for wname,wurl,wkind in [
-        ('EPAS','https://www.epas.gov.ar/','agua-oficial'),
-        ('Municipalidad de San Patricio del Chañar','https://sanpatricio.gob.ar/','agua-comunicacion')
-    ]:
-        wraw=attempt(wname,wurl,wkind)
-        if wraw:
-            wt=clean(re.sub(r'\\s+',' ',re.sub(r'<[^>]+>',' ',wraw)))
-            hits=[m.group(0) for m in re.finditer(r'.{0,180}(?:corte de agua|abastecimiento|baja presión|interrupción|restablecimiento|agua potable|suministro).{0,320}',wt,re.I)]
-            if hits:
-                water_hits.append((wname,wurl,hits))
-                if wname=='EPAS':
-                    break
-    if water_hits:
-        wn,wu,wh=water_hits[0]
-        op['water']={'status':'AVISO DE AGUA','detail':' '.join(wh[:2])[:800],
-                     'source':wn,'mode':'DIRECTA-WEB','url':wu,'observedAt':NOW.isoformat()}
+        et=clean(re.sub(r"\s+"," ",re.sub(r"<[^>]+>"," ",eraw)))
+        hits=[m.group(0) for m in re.finditer(r".{0,180}(?:San Patricio del Chañar|El Chañar).{0,420}",et,re.I)]
+        op["energy"]={
+            "indicator":"ENERGÍA",
+            "authority":"EPEN",
+            "source":"EPEN",
+            "sourceTier":"primary",
+            "sourceUrl":eurl,
+            "semanticState":"corte_programado" if hits else None,
+            "eventType":"scheduled_outage" if hits else None,
+            "detail":" ".join(hits[:3])[:1000] if hits else None,
+            "publicationState":"specific_local_notice_found" if hits else "source_reachable_no_specific_local_notice",
+            "retrievedAt":NOW.isoformat()
+        }
     else:
-        op['water']={'status':'FUENTE CONSULTADA SIN PARTE ESPECÍFICO',
-                     'detail':'EPAS fue consultado como organismo técnico primario; no se encontró un parte específico para San Patricio del Chañar en esta lectura.',
-                     'source':'EPAS','mode':'CONSULTA SIN PARTE','url':'https://www.epas.gov.ar/','observedAt':NOW.isoformat()}
+        op["energy"]={
+            "indicator":"ENERGÍA","authority":"EPEN","source":"EPEN","sourceTier":"primary",
+            "sourceUrl":eurl,"semanticState":None,"eventType":None,
+            "publicationState":"source_unreachable","retrievedAt":NOW.isoformat()
+        }
+
+    # AGUA: EPAS es primario. El municipio solo puede comunicar.
+    aurl="https://www.epas.gov.ar/"
+    araw=attempt("EPAS",aurl,"water_official","primary")
+    mhits=[]
+    if araw:
+        at=clean(re.sub(r"\s+"," ",re.sub(r"<[^>]+>"," ",araw)))
+        mhits=[m.group(0) for m in re.finditer(r".{0,180}(?:San Patricio del Chañar|El Chañar).{0,420}",at,re.I)]
+    op["water"]={
+        "indicator":"AGUA",
+        "authority":"EPAS",
+        "source":"EPAS",
+        "sourceTier":"primary",
+        "sourceUrl":aurl,
+        "semanticState":"evento_hidrico_publicado" if mhits else None,
+        "eventType":"water_service_event" if mhits else None,
+        "detail":" ".join(mhits[:2])[:900] if mhits else None,
+        "publicationState":"specific_local_notice_found" if mhits else ("source_reachable_no_specific_local_notice" if araw else "source_unreachable"),
+        "retrievedAt":NOW.isoformat()
+    }
     return op
 
+
 def collect_environment():
-    env={'weather':None,'hydrology':None,'sources':[],'updatedAt':NOW.isoformat()}
-    # AIC is the canonical environmental source. Open-Meteo and MET Norway are
-    # only transport/parsing fallbacks; every value carries source + mode + timestamp.
-    aic_url='https://www.aic.gob.ar/sitio/home?a=1015&z=1967225803'
+    # Datos ambientales: fuente profesional primero. Si la fuente no entrega
+    # un valor validable, el campo queda ausente; jamás se fabrica un número.
+    env={
+        "weather":None,
+        "hydrology":None,
+        "sources":[],
+        "updatedAt":NOW.isoformat()
+    }
+
+    aic_url="https://www.aic.gob.ar/sitio/home?a=1015&z=1967225803"
     try:
         html=fetch(aic_url)
-        text=clean(re.sub(r'<[^>]+>',' ',html))
-        block=text[text.lower().find('pronóstico para el chañar'):][:5000]
-        vm=re.search(r'Viento\\s+([0-9]{1,3})\\s*km/h',block,re.I)
-        gm=re.search(r'Ráfagas\\s+([0-9]{1,3})\\s*km/h',block,re.I)
-        dm=re.search(r'Dirección\\s+([A-ZÁÉÍÓÚÑ/]{1,4})',block,re.I)
-        tm=re.search(r'Temperatura\\s+(-?[0-9]{1,2})\\s*ºC',block,re.I)
+        plain=clean(re.sub(r"<[^>]+>"," ",html))
+        idx=plain.lower().find("pronóstico para el chañar")
+        block=plain[idx:idx+6000] if idx>=0 else plain[:6000]
+        vm=re.search(r"Viento\s+([0-9]{1,3})\s*km/h",block,re.I)
+        gm=re.search(r"Ráfagas\s+([0-9]{1,3})\s*km/h",block,re.I)
+        dm=re.search(r"Dirección\s+([A-ZÁÉÍÓÚÑ/]{1,6})",block,re.I)
+        tm=re.search(r"Temperatura\s+(-?[0-9]{1,3})\s*ºC",block,re.I)
         if vm:
-            env['weather']={'temperatureC':float(tm.group(1)) if tm else None,
-                            'windKmh':float(vm.group(1)),
-                            'gustKmh':float(gm.group(1)) if gm else None,
-                            'windDirection':dm.group(1) if dm else None,
-                            'observedAt':NOW.isoformat(),'source':'AIC',
-                            'mode':'PRONÓSTICO DIRECTO'}
-            env['sources'].append({'name':'AIC · Meteorología','mode':'OK','url':aic_url})
+            env["weather"]={
+                "dataType":"forecast",
+                "forecastWindKmh":float(vm.group(1)),
+                "forecastGustKmh":float(gm.group(1)) if gm else None,
+                "forecastWindDirection":dm.group(1) if dm else None,
+                "forecastTemperatureC":float(tm.group(1)) if tm else None,
+                "retrievedAt":NOW.isoformat(),
+                "source":"AIC",
+                "sourceTier":"primary",
+                "sourceUrl":aic_url,
+                "semanticState":"pronostico_local"
+            }
+            env["sources"].append({"name":"AIC · Pronóstico El Chañar","tier":"primary","mode":"parsed","url":aic_url})
         else:
-            env['sources'].append({'name':'AIC · Meteorología','mode':'RESPONDE SIN VALOR EXTRAÍBLE','url':aic_url})
+            env["sources"].append({"name":"AIC · Pronóstico El Chañar","tier":"primary","mode":"reachable_but_unparsed","url":aic_url})
     except Exception as e:
-        env['sources'].append({'name':'AIC · Meteorología','mode':'ERROR DE CONEXIÓN','error':type(e).__name__,'url':aic_url})
+        env["sources"].append({"name":"AIC · Pronóstico El Chañar","tier":"primary","mode":"connection_error","error":type(e).__name__,"url":aic_url})
 
-    if not env['weather']:
-        try:
-            url='https://api.open-meteo.com/v1/forecast?latitude=-39.061&longitude=-68.353&current=temperature_2m,wind_speed_10m,wind_gusts_10m,wind_direction_10m&wind_speed_unit=kmh&timezone=America%2FArgentina%2FNeuquen'
-            raw=json.loads(fetch(url))
-            cur=raw.get('current',{})
-            env['weather']={'temperatureC':cur.get('temperature_2m'),'windKmh':cur.get('wind_speed_10m'),
-                            'gustKmh':cur.get('wind_gusts_10m'),'windDirection':cur.get('wind_direction_10m'),
-                            'observedAt':cur.get('time'),'source':'Open-Meteo','mode':'RESPALDO METEOROLÓGICO'}
-            env['sources'].append({'name':'Open-Meteo','mode':'OK','url':url})
-        except Exception as e:
-            env['sources'].append({'name':'Open-Meteo','mode':'ERROR DE CONEXIÓN','error':type(e).__name__})
-
-    if not env['weather']:
-        try:
-            url='https://api.met.no/weatherapi/locationforecast/2.0/compact?lat=-39.061&lon=-68.353'
-            raw=json.loads(fetch(url))
-            ts=raw.get('properties',{}).get('timeseries',[{}])[0]
-            det=ts.get('data',{}).get('instant',{}).get('details',{})
-            ws=det.get('wind_speed')
-            wg=det.get('wind_speed_of_gust')
-            env['weather']={'temperatureC':det.get('air_temperature'),
-                            'windKmh':ws*3.6 if ws is not None else None,
-                            'gustKmh':wg*3.6 if wg is not None else None,
-                            'windDirection':det.get('wind_from_direction'),
-                            'observedAt':ts.get('time'),'source':'MET Norway','mode':'RESPALDO METEOROLÓGICO'}
-            env['sources'].append({'name':'MET Norway','mode':'OK','url':url})
-        except Exception as e:
-            env['sources'].append({'name':'MET Norway','mode':'ERROR DE CONEXIÓN','error':type(e).__name__})
-
-    # AIC caudales: programado + current date. We publish the latest known AIC
-    # schedule if today's column is available, otherwise the nearest current column
-    # with an explicit temporal label. We never emit an empty-status phrase.
-    hurl='https://www.aic.gob.ar/sitio/caudales'
+    # AIC publica un programa de caudales. El dato se conserva como PROGRAMADO,
+    # no como observación del río en San Patricio del Chañar.
+    hurl="https://www.aic.gob.ar/sitio/caudales"
     try:
         ht=fetch(hurl)
-        plain=clean(re.sub(r'<[^>]+>',' ',ht))
-        target=NOW.astimezone().strftime('%d/%m/%Y')
-        dates=[]
-        for ds in re.findall(r'\\d{2}/\\d{2}/\\d{4}',plain):
-            if ds not in dates: dates.append(ds)
-        anchor=plain.lower().find('el chañar')
-        block=plain[anchor:anchor+900] if anchor>=0 else ''
-        hm=re.search(r'El Chañar\\s+(\\d+)\\s+((?:\\d+\\s+){5,8})(\\d+)\\s+((?:\\d+\\s+){5,8})(\\d+)',block,re.I)
-        if hm:
-            max_vals=[int(x) for x in re.findall(r'\\d+',hm.group(2)+hm.group(3))]
-            min_vals=[int(x) for x in re.findall(r'\\d+',hm.group(4)+hm.group(5))]
-            max_v=max_vals[0] if max_vals else int(hm.group(3))
-            min_v=min_vals[0] if min_vals else int(hm.group(5))
-            env['hydrology']={'site':'El Chañar','minM3s':float(min_v),'maxM3s':float(max_v),
-                              'date':NOW.astimezone().strftime('%d/%m/%Y'),'source':'AIC',
-                              'mode':'CAUDAL PROGRAMADO','url':hurl,'observedAt':NOW.isoformat()}
-            env['sources'].append({'name':'AIC · Caudales','mode':'OK','url':hurl})
+        plain=clean(re.sub(r"<[^>]+>"," ",ht))
+        anchor=plain.lower().find("el chañar")
+        block=plain[anchor:anchor+1200] if anchor>=0 else ""
+        numbers=re.findall(r"\b\d{2,4}\b",block)
+        # No se usan números de respaldo. Solo aceptamos una fila que tenga
+        # suficientes valores y conservamos el carácter programado.
+        if len(numbers)>=8:
+            vals=[int(x) for x in numbers[:8]]
+            env["hydrology"]={
+                "site":"El Chañar",
+                "flowType":"programmed_outflow",
+                "programmedValuesM3s":vals,
+                "retrievedAt":NOW.isoformat(),
+                "source":"AIC",
+                "sourceTier":"primary",
+                "sourceUrl":hurl,
+                "semanticState":"caudal_programado"
+            }
+            env["sources"].append({"name":"AIC · Caudales Programados","tier":"primary","mode":"parsed","url":hurl})
         else:
-            env['hydrology']={'site':'El Chañar','minM3s':480.0,'maxM3s':500.0,
-                              'date':'19/09/2026','source':'AIC',
-                              'mode':'RESPALDO TEMPORAL · ÚLTIMO VALOR CONFIRMADO','url':hurl,'observedAt':NOW.isoformat()}
-            env['sources'].append({'name':'AIC · Caudales','mode':'OK · TABLA ACTIVA','url':hurl})
+            env["sources"].append({"name":"AIC · Caudales Programados","tier":"primary","mode":"reachable_but_unparsed","url":hurl})
     except Exception as e:
-        env['hydrology']={'site':'El Chañar','minM3s':480.0,'maxM3s':500.0,
-                          'date':'19/09/2026','source':'AIC',
-                          'mode':'RESPALDO TEMPORAL · ÚLTIMO VALOR CONFIRMADO',
-                          'url':hurl,'observedAt':NOW.isoformat()}
-        env['sources'].append({'name':'AIC · Caudales','mode':'ERROR DE CONEXIÓN · RESPALDO TEMPORAL','error':type(e).__name__,'url':hurl})
+        env["sources"].append({"name":"AIC · Caudales Programados","tier":"primary","mode":"connection_error","error":type(e).__name__,"url":hurl})
     return env
 
+def _indicator_match(events, terms):
+    if not terms:
+        return len(events)
+    return sum(
+        1 for e in events
+        if any(norm(t) in norm(e.get("title","")+" "+str(e.get("description",""))) for t in terms)
+    )
+
 def build_system_radars(events, environment):
+    # La fachada sigue compacta. La diferencia está detrás: cada radar nace
+    # de un contrato y no puede existir fuera del registro profesional.
     now=datetime.now(timezone.utc)
     specs=[
-      ('CONVERSACIÓN','Conversación general',[''], 'evidencia editorial'),
-      ('RUTA 7','Corredor Ruta 7',['ruta 7','transito','transporte','corte','desvio','camiones'], 'evidencia territorial'),
-      ('RUTA 8','Corredor Ruta 8',['ruta 8','transito','transporte','corte','desvio'], 'evidencia territorial'),
-      ('VIENTO','Condición de viento',['viento','rafaga','ráfaga','alerta meteorologica'], 'dato ambiental directo + evidencia'),
-      ('ENERGÍA','Electricidad / cortes de luz',['luz','energia','eléctr','electric','corte de luz','epen'], 'evidencia editorial'),
-      ('AGUA','Agua / abastecimiento',['agua','abastecimiento','corte de agua','potable','cloaca'], 'evidencia editorial'),
-      ('SERVICIOS','Servicios e infraestructura',['servicio','obra','cloaca','residu','gas','luz','agua'], 'evidencia editorial'),
-      ('SALUD','Salud',['hospital','salud','medic','vacun','guardia'], 'evidencia editorial'),
-      ('EDUCACIÓN','Educación',['escuela','cpem','epet','clases','docente'], 'evidencia editorial'),
-      ('PRODUCCIÓN','Producción rural',['chacra','viñedo','bodega','productor','agro'], 'evidencia editorial'),
-      ('EMERGENCIAS','Seguridad / emergencias',['bombero','policia','emergencia','rescate','accidente'], 'evidencia editorial'),
-      ('TERRITORIO','Territorio / microzonas',['picada','barrio','sector','parque industrial','loteo'], 'evidencia territorial')
+      ("CONVERSACIÓN","Conversación general",[""],"editorial"),
+      ("RUTA 7","Corredor Ruta 7",["ruta 7"],"operational"),
+      ("RUTA 8","Corredor Ruta 8",["ruta 8"],"operational"),
+      ("VIENTO","Viento",["viento","ráfaga"],"environment"),
+      ("ENERGÍA","Electricidad",["luz","energia","eléctr","corte de luz","epen"],"operational"),
+      ("AGUA","Agua",["agua","abastecimiento","corte de agua","potable","cloaca"],"operational"),
+      ("SERVICIOS","Servicios",["servicio","obra","cloaca","residu","gas"],"editorial"),
+      ("SALUD","Salud",["hospital","salud","medic","vacun","guardia"],"editorial"),
+      ("EDUCACIÓN","Educación",["escuela","cpem","epet","clases","docente"],"editorial"),
+      ("PRODUCCIÓN","Producción",["chacra","viñedo","bodega","productor","agro"],"editorial"),
+      ("EMERGENCIAS","Emergencias",["bombero","policia","emergencia","rescate","accidente"],"editorial"),
+      ("TERRITORIO","Territorio",["picada","barrio","sector","parque industrial","loteo"],"editorial")
     ]
     out=[]
     for code,label,terms,mode in specs:
-        if code=='CONVERSACIÓN':
-            matches=len(events)
-        elif code=='VIENTO':
-            matches=sum(1 for e in events if any(norm(t) in norm(e.get('title','')+' '+str(e.get('description',''))) for t in terms))
-        else:
-            matches=sum(1 for e in events if any(t in norm(e.get('title','')+' '+str(e.get('description',''))) for t in terms))
-        last=max([parse_date(e.get('publishedAt')) for e in events if any(t in norm(e.get('title','')+' '+str(e.get('description',''))) for t in terms) and parse_date(e.get('publishedAt'))] or [None])
+        contract=SOURCE_CONTRACTS.get(code)
+        if not contract:
+            raise RuntimeError("INDICADOR SIN CONTRATO PROFESIONAL: "+code)
+        matches=_indicator_match(events,terms)
+        last=max(
+            [parse_date(e.get("publishedAt")) for e in events
+             if any(norm(t) in norm(e.get("title","")+" "+str(e.get("description",""))) for t in terms)
+             and parse_date(e.get("publishedAt"))] or [None]
+        )
         age=None if not last else round((now-last).total_seconds()/3600,1)
-        status='SIN SEÑAL RECIENTE'
-        if matches:
-            status='SEÑAL DETECTADA'
-            if age is not None and age<=24: status='SEÑAL RECIENTE'
-        if code=='VIENTO' and environment.get('weather'):
-            status='DATO DIRECTO'
-            matches=environment['weather'].get('windKmh') if environment['weather'].get('windKmh') is not None else matches
-        out.append({'id':code,'label':label,'signal':matches,'status':status,'freshnessHours':age,'mode':('DATO DIRECTO' if code=='VIENTO' and environment.get('weather') else mode),'evidenceCount':sum(1 for e in events if any(t in norm(e.get('title','')+' '+str(e.get('description',''))) for t in terms))})
+
+        row={
+            "id":code,
+            "label":label,
+            "signal":matches,
+            "freshnessHours":age,
+            "mode":mode,
+            "evidenceCount":matches,
+            "sourceContract":contract,
+            "contractVersion":CONTRACT_VERSION
+        }
+
+        if code=="VIENTO" and environment.get("weather"):
+            w=environment["weather"]
+            row.update({
+                "signal":w.get("forecastWindKmh"),
+                "status":"PRONÓSTICO LOCAL",
+                "semanticState":w.get("semanticState"),
+                "dataType":"forecast",
+                "windKmh":w.get("forecastWindKmh"),
+                "gustKmh":w.get("forecastGustKmh"),
+                "windDirection":w.get("forecastWindDirection"),
+                "temperatureC":w.get("forecastTemperatureC"),
+                "source":"AIC",
+                "sourceTier":"primary",
+                "retrievedAt":w.get("retrievedAt")
+            })
+        elif code=="VIENTO":
+            row.update({
+                "status":None,
+                "semanticState":None,
+                "source":"AIC",
+                "sourceTier":"primary",
+                "sourceState":"unavailable_or_unparsed"
+            })
+        else:
+            # No universal status. Editorial signals and operational states
+            # remain separate until the competent parser supplies the
+            # indicator-specific vocabulary.
+            row["status"]=None
+        out.append(row)
     return out
+
 
 try:
     old=json.load(open(OUT,encoding='utf-8'))
@@ -935,17 +1016,13 @@ def build_precision_audit_from_events(events):
     return {'version':'1.1','rule':'source × signal × local language × false positive','sourceSummary':source_summary,'matrix':sorted(matrix.values(),key=lambda r:(-r['accepted'],-r['direct'],r['source'],r['topic'])),'languagePrecision':language_precision,'falsePositiveSummary':{},'rejectedSamples':[],'rules':precision_rules,'interpretation':'auditoría sobre eventos aceptados; la próxima capa debe instrumentar rechazos antes del clustering'}
 
 precision_audit=build_precision_audit_from_events(events)
-# Auditoría obligatoria del contrato: ningún indicador puede publicarse
-# sin fuente profesional, dominio, unidad y lenguaje semántico propio.
-required_contract_fields=('primary','domain','unit','language','rule')
-contract_audit={}
-for indicator, contract in SOURCE_CONTRACTS.items():
-    missing=[k for k in required_contract_fields if not contract.get(k)]
-    contract_audit[indicator]={'valid':not missing,'missing':missing,'primary':contract.get('primary'),'secondary':contract.get('secondary'),'fallback':contract.get('fallback'),'domain':contract.get('domain'),'unit':contract.get('unit'),'language':contract.get('language')}
-contract_failures=[k for k,v in contract_audit.items() if not v['valid']]
-if contract_failures:
-    raise RuntimeError('CONTRATO DE DATOS INCOMPLETO: '+', '.join(contract_failures))
-
-output={'updatedAt':now,'window':f'{DAYS} días','purpose':'Detectar qué se está moviendo en San Patricio del Chañar y mostrar de dónde surge cada señal.','architecture':'25 fuentes profesionales + búsquedas dirigidas + fuentes directas + web directa + respaldo + memoria de eventos + ciclo de vida + incidencia territorial + evidencia + salud de fuentes + radares de infraestructura + ambiente','keywords':[q for q,_ in QUERIES],'sourceRegistry':status,'sourceCatalog':SOURCE_CATALOG,'sourceAudit':source_audit,'languageAudit':language_audit,'precisionAudit':precision_audit,'stats':stats,'environment':environment,'operational':operational,'sourceContracts':SOURCE_CONTRACTS,'contractAudit':contract_audit,'systemRadars':system_radars,'system':{'memoryDays':MEMORY_DAYS,'eventIdentity':'estable entre actualizaciones','evidenceRule':'evidence-first','movementRule':'descriptivo: recencia + cobertura + diversidad de fuentes; no es ranking de importancia','sourceFailureRule':'no inferir desaparición cuando las fuentes conocidas no responden','infrastructureRule':'una señal editorial no equivale a confirmación operativa; los datos directos se etiquetan por separado','lifecycle':['EMERGENTE','ACTIVO','SOSTENIDO','EN DESCENSO','RECIENTE'],'sourceHealth':status},'events':events,'items':dedup}
+# Auditoría obligatoria: el feed no puede salir si algún radar o contrato
+# incumple la ley mundial de procedencia.
+contract_audit=SOURCE_CONTRACT_AUDIT
+required_radar_contracts={"CONVERSACIÓN","RUTA 7","RUTA 8","VIENTO","ENERGÍA","AGUA","SERVICIOS","SALUD","EDUCACIÓN","PRODUCCIÓN","EMERGENCIAS","TERRITORIO"}
+missing_radar_contracts=sorted(required_radar_contracts-set(SOURCE_CONTRACTS))
+if missing_radar_contracts:
+    raise RuntimeError("RADAR SIN CONTRATO: "+", ".join(missing_radar_contracts))
+output={'updatedAt':now,'window':f'{DAYS} días','purpose':'Detectar qué se está moviendo en San Patricio del Chañar y mostrar de dónde surge cada señal.','architecture':'contrato universal de procedencia + fuentes profesionales + parsers específicos + validación semántica + temporalidad + evidencia editorial separada + memoria de eventos','keywords':[q for q,_ in QUERIES],'sourceRegistry':status,'sourceCatalog':SOURCE_CATALOG,'sourceAudit':source_audit,'languageAudit':language_audit,'precisionAudit':precision_audit,'stats':stats,'environment':environment,'operational':operational,'sourceContracts':SOURCE_CONTRACTS,'contractAudit':contract_audit,'reservedIndicators':RESERVED_INDICATORS,'contractVersion':CONTRACT_VERSION,'systemRadars':system_radars,'system':{'memoryDays':MEMORY_DAYS,'eventIdentity':'estable entre actualizaciones','evidenceRule':'evidence-first','movementRule':'descriptivo: recencia + cobertura + diversidad de fuentes; no es ranking de importancia','sourceFailureRule':'no inferir desaparición cuando las fuentes conocidas no responden','infrastructureRule':'una señal editorial no equivale a confirmación operativa; los datos directos se etiquetan por separado','lifecycle':['EMERGENTE','ACTIVO','SOSTENIDO','EN DESCENSO','RECIENTE'],'sourceHealth':status},'events':events,'items':dedup}
 with open(OUT,'w',encoding='utf-8') as f: json.dump(output,f,ensure_ascii=False,indent=2)
 print('PULSO:',stats,'RADARES:',len(system_radars))
