@@ -37,6 +37,24 @@ jobs:
         run: python scripts/audit-radar.py
       - name: Construir memoria histórica
         run: python scripts/pulse-history.py
+      - name: Diagnóstico temporal del feed
+        if: always()
+        run: |
+          python - <<'PY'
+          import json
+          d=json.load(open("data/radar-feed.json",encoding="utf-8"))
+          print("DEBUG sourceContracts",len(d.get("sourceContracts",{})),list(d.get("sourceContracts",{}).keys()))
+          print("DEBUG systemRadars",len(d.get("systemRadars",[])),[x.get("id") for x in d.get("systemRadars",[])])
+          print("DEBUG required",["updatedAt","environment","operational","sourceContracts","systemRadars","sourceRegistry","stats","events","territorialGraph","audit"])
+          print("DEBUG missing",[k for k in ["updatedAt","environment","operational","sourceContracts","systemRadars","sourceRegistry","stats","events","territorialGraph","audit"] if k not in d])
+          PY
+      - name: Guardar feed de diagnóstico
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: radar-feed-debug
+          path: data/radar-feed.json
+          if-no-files-found: warn
       - name: Validar contrato de salida
         run: |
           python -m py_compile scripts/update-radar.py scripts/territory-graph.py scripts/audit-radar.py scripts/pulse-history.py
