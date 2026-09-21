@@ -130,7 +130,7 @@ function render(d){
    ['VIENTO',w.forecastWindKmh!=null?Math.round(w.forecastWindKmh)+' km/h':'—',w.forecastGustKmh!=null?'RÁF '+Math.round(w.forecastGustKmh)+' · '+(w.forecastWindDirection||'—'):'pronóstico local',w.source||'AIC'],
    ['RUTA 7',r7.semanticState||'lectura vial no extraída','fuente: '+(r7.source||'DPV Neuquén'),'estado operativo'],
    ['RUTA 8',r8.semanticState||'lectura vial no extraída','fuente: '+(r8.source||'DPV Neuquén'),'estado operativo'],
-   ['CAUDAL EL CHAÑAR',h.currentProgrammedMaxM3s!=null?h.currentProgrammedMinM3s+'–'+h.currentProgrammedMaxM3s+' m³/s':'—',h.programDate?'programado · '+h.programDate:'programación AIC',h.source||'AIC']
+   ['CAUDAL PROGRAMADO',h.currentProgrammedMaxM3s!=null?h.currentProgrammedMinM3s+'–'+h.currentProgrammedMaxM3s+' m³/s':'—',h.programDate?'AIC · '+h.programDate:'AIC · programación',h.source||'AIC']
  ].map(x=>'<div class="tele"><div class="telelabel">'+esc(x[0])+'</div><div class="telev">'+esc(x[1])+'</div><div class="teles">'+esc(x[2])+' · '+esc(x[3])+'</div></div>').join('');
 
  const wanted=rs;
