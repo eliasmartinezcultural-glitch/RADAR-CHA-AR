@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-09-20T23:40:59.182218+00:00",
+  "updatedAt": "2026-09-21T00:06:35.509633+00:00",
   "window": "7 días",
   "purpose": "Detectar qué se está moviendo en San Patricio del Chañar y mostrar de dónde surge cada señal.",
-  "architecture": "fuentes directas + web directa + respaldo + memoria de eventos + ciclo de vida + territorio + evidencia + salud de fuentes + radares de infraestructura + ambiente",
+  "architecture": "25 fuentes profesionales + búsquedas dirigidas + fuentes directas + web directa + respaldo + memoria de eventos + ciclo de vida + incidencia territorial + evidencia + salud de fuentes + radares de infraestructura + ambiente",
   "keywords": [
     "\"San Patricio del Chañar\"",
     "\"San Patricio del Chañar\" salud hospital",
@@ -27,7 +27,20 @@
     "site:rionegro.com.ar \"San Patricio del Chañar\"",
     "site:mejorinformado.com \"San Patricio del Chañar\"",
     "site:diariamenteneuquen.com \"San Patricio del Chañar\"",
-    "site:vacamuertanews.com \"San Patricio del Chañar\""
+    "site:vacamuertanews.com \"San Patricio del Chañar\"",
+    "site:epen.gov.ar \"San Patricio del Chañar\"",
+    "site:dpvneuquen.gov.ar \"San Patricio del Chañar\"",
+    "site:argentina.gob.ar \"San Patricio del Chañar\" ruta",
+    "site:smn.gob.ar \"San Patricio del Chañar\" Neuquén",
+    "site:saludneuquen.gob.ar \"San Patricio del Chañar\"",
+    "site:neuquen.edu.ar \"San Patricio del Chañar\"",
+    "site:epas.gov.ar \"San Patricio del Chañar\"",
+    "site:policiadelneuquen.gob.ar \"San Patricio del Chañar\"",
+    "site:boletinoficial.neuquen.gov.ar \"San Patricio del Chañar\"",
+    "site:inta.gob.ar \"San Patricio del Chañar\"",
+    "site:cfi.org.ar \"San Patricio del Chañar\"",
+    "site:copade.gob.ar \"San Patricio del Chañar\"",
+    "site:uncoma.edu.ar \"San Patricio del Chañar\""
   ],
   "sourceRegistry": [
     {
@@ -35,13 +48,11 @@
       "type": "MEDIO LOCAL",
       "mode": "SIN RESPUESTA",
       "signals": 0,
-      "url": "https://www.chanardigital.com.ar/",
-      "lastFetch": "2026-09-20T23:40:31.828889+00:00",
+      "url": "https://chanardigital.com.ar/",
+      "lastFetch": "2026-09-21T00:06:13.373987+00:00",
       "success": true,
-      "attempted": 4,
+      "attempted": 2,
       "failures": [
-        "RSS:HTTPError",
-        "RSS:HTTPError",
         "RSS:HTTPError"
       ],
       "directAvailability": "available",
@@ -53,7 +64,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.radiomia.com.ar/",
-      "lastFetch": "2026-09-20T23:40:33.896889+00:00",
+      "lastFetch": "2026-09-21T00:06:14.786957+00:00",
       "success": true,
       "attempted": 1,
       "failures": [],
@@ -66,7 +77,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://tuitvacamuerta.com/",
-      "lastFetch": "2026-09-20T23:40:35.598195+00:00",
+      "lastFetch": "2026-09-21T00:06:17.321952+00:00",
       "success": true,
       "attempted": 1,
       "failures": [],
@@ -79,7 +90,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.vacamuertanews.com/",
-      "lastFetch": "2026-09-20T23:40:36.245582+00:00",
+      "lastFetch": "2026-09-21T00:06:17.687304+00:00",
       "success": true,
       "attempted": 2,
       "failures": [
@@ -94,7 +105,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.neuqueninforma.gob.ar/",
-      "lastFetch": "2026-09-20T23:40:37.749430+00:00",
+      "lastFetch": "2026-09-21T00:06:18.829240+00:00",
       "success": true,
       "attempted": 3,
       "failures": [
@@ -110,13 +121,10 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://sanpatricio.gob.ar/",
-      "lastFetch": "2026-09-20T23:40:40.051134+00:00",
+      "lastFetch": "2026-09-21T00:06:20.840640+00:00",
       "success": true,
-      "attempted": 3,
-      "failures": [
-        "RSS:ParseError",
-        "RSS:ParseError"
-      ],
+      "attempted": 1,
+      "failures": [],
       "directAvailability": "available",
       "freshnessHours": null
     },
@@ -126,22 +134,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://boletinoficial.neuquen.gov.ar/",
-      "lastFetch": "2026-09-20T23:40:41.143593+00:00",
-      "success": false,
-      "attempted": 1,
-      "failures": [
-        "WEB:URLError"
-      ],
-      "directAvailability": "failed",
-      "freshnessHours": null
-    },
-    {
-      "name": "Infoleg Neuquén",
-      "type": "FUENTE NORMATIVA",
-      "mode": "SIN RESPUESTA",
-      "signals": 0,
-      "url": "https://infoleg.neuquen.gob.ar/",
-      "lastFetch": "2026-09-20T23:40:42.272652+00:00",
+      "lastFetch": "2026-09-21T00:06:21.551861+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -156,7 +149,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.lmneuquen.com/",
-      "lastFetch": "2026-09-20T23:40:42.721800+00:00",
+      "lastFetch": "2026-09-21T00:06:21.776717+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -172,12 +165,12 @@
       "mode": "RSS DIRECTO",
       "signals": 1,
       "url": "https://www.rionegro.com.ar/",
-      "lastFetch": "2026-09-20T23:40:46.849752+00:00",
+      "lastFetch": "2026-09-21T00:06:26.607543+00:00",
       "success": true,
       "attempted": 2,
       "failures": [],
       "directAvailability": "available",
-      "freshnessHours": 1.4
+      "freshnessHours": 1.8
     },
     {
       "name": "Mejor Informado",
@@ -185,7 +178,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.mejorinformado.com/",
-      "lastFetch": "2026-09-20T23:40:47.691484+00:00",
+      "lastFetch": "2026-09-21T00:06:27.053281+00:00",
       "success": true,
       "attempted": 2,
       "failures": [
@@ -200,7 +193,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.diariamenteneuquen.com/",
-      "lastFetch": "2026-09-20T23:40:52.695560+00:00",
+      "lastFetch": "2026-09-21T00:06:27.791901+00:00",
       "success": true,
       "attempted": 2,
       "failures": [
@@ -210,11 +203,163 @@
       "freshnessHours": null
     }
   ],
+  "sourceCatalog": [
+    {
+      "name": "Chañar Digital",
+      "group": "LOCAL",
+      "role": "medio local",
+      "url": "https://chanardigital.com.ar/"
+    },
+    {
+      "name": "Radio Municipal FM Chañar 87.9",
+      "group": "LOCAL",
+      "role": "radio municipal",
+      "url": "https://sanpatricio.gob.ar/"
+    },
+    {
+      "name": "Mía Radio 94.7",
+      "group": "LOCAL",
+      "role": "radio local",
+      "url": "https://www.radiomia.com.ar/"
+    },
+    {
+      "name": "Radio Tuit Vaca Muerta 90.5",
+      "group": "LOCAL-REGIONAL",
+      "role": "radio productiva",
+      "url": "https://tuitvacamuerta.com/"
+    },
+    {
+      "name": "Municipalidad de San Patricio del Chañar",
+      "group": "LOCAL",
+      "role": "fuente institucional primaria",
+      "url": "https://sanpatricio.gob.ar/"
+    },
+    {
+      "name": "EPEN",
+      "group": "REGIONAL",
+      "role": "energía eléctrica",
+      "url": "https://www.epen.gov.ar/"
+    },
+    {
+      "name": "Dirección Provincial de Vialidad",
+      "group": "REGIONAL",
+      "role": "estado y obras viales",
+      "url": "https://www.dpvneuquen.gov.ar/"
+    },
+    {
+      "name": "Vialidad Nacional",
+      "group": "REGIONAL-NACIONAL",
+      "role": "red vial nacional",
+      "url": "https://www.argentina.gob.ar/transporte/vialidad-nacional"
+    },
+    {
+      "name": "Neuquén Informa",
+      "group": "REGIONAL",
+      "role": "comunicación oficial provincial",
+      "url": "https://www.neuqueninforma.gob.ar/"
+    },
+    {
+      "name": "Servicio Meteorológico Nacional",
+      "group": "REGIONAL-NACIONAL",
+      "role": "alertas y meteorología",
+      "url": "https://www.smn.gob.ar/"
+    },
+    {
+      "name": "Defensa Civil Neuquén",
+      "group": "REGIONAL",
+      "role": "emergencias y alertas",
+      "url": "https://www.neuquen.gob.ar/"
+    },
+    {
+      "name": "Ministerio de Salud de Neuquén",
+      "group": "REGIONAL",
+      "role": "salud pública",
+      "url": "https://www.saludneuquen.gob.ar/"
+    },
+    {
+      "name": "Consejo Provincial de Educación",
+      "group": "REGIONAL",
+      "role": "educación pública",
+      "url": "https://www.neuquen.edu.ar/"
+    },
+    {
+      "name": "EPAS Neuquén",
+      "group": "REGIONAL",
+      "role": "agua y saneamiento",
+      "url": "https://www.epas.gov.ar/"
+    },
+    {
+      "name": "Policía del Neuquén",
+      "group": "REGIONAL",
+      "role": "seguridad y emergencias",
+      "url": "https://www.policiadelneuquen.gob.ar/"
+    },
+    {
+      "name": "Ministerio de Producción e Industria de Neuquén",
+      "group": "REGIONAL",
+      "role": "producción rural",
+      "url": "https://www.neuquen.gob.ar/"
+    },
+    {
+      "name": "Diario Río Negro",
+      "group": "REGIONAL",
+      "role": "medio regional",
+      "url": "https://www.rionegro.com.ar/"
+    },
+    {
+      "name": "LM Neuquén",
+      "group": "REGIONAL",
+      "role": "medio regional",
+      "url": "https://www.lmneuquen.com/"
+    },
+    {
+      "name": "Mejor Informado",
+      "group": "REGIONAL",
+      "role": "medio regional",
+      "url": "https://www.mejorinformado.com/"
+    },
+    {
+      "name": "Vaca Muerta News",
+      "group": "REGIONAL",
+      "role": "medio energético/productivo",
+      "url": "https://www.vacamuertanews.com/"
+    },
+    {
+      "name": "Argentina.gob.ar",
+      "group": "EXTERNA",
+      "role": "fuente nacional",
+      "url": "https://www.argentina.gob.ar/"
+    },
+    {
+      "name": "INTA",
+      "group": "EXTERNA",
+      "role": "producción, clima y territorio",
+      "url": "https://www.argentina.gob.ar/inta"
+    },
+    {
+      "name": "CFI",
+      "group": "EXTERNA",
+      "role": "información territorial y federal",
+      "url": "https://cfi.org.ar/"
+    },
+    {
+      "name": "COPADE Neuquén",
+      "group": "EXTERNA",
+      "role": "planificación territorial",
+      "url": "https://www.copade.gob.ar/"
+    },
+    {
+      "name": "Universidad Nacional del Comahue",
+      "group": "EXTERNA",
+      "role": "conocimiento regional",
+      "url": "https://www.uncoma.edu.ar/"
+    }
+  ],
   "stats": {
     "total": 4,
     "direct": 4,
     "regional": 0,
-    "new": 2,
+    "new": 0,
     "sources": 3,
     "directSignals": 1,
     "localDirectSignals": 0,
@@ -223,7 +368,7 @@
     "searchNoiseRejected": 0
   },
   "environment": {
-    "updatedAt": "2026-09-20T23:40:59.191776+00:00",
+    "updatedAt": "2026-09-21T00:06:35.519713+00:00",
     "weather": null,
     "sources": [
       {
@@ -233,15 +378,173 @@
       }
     ]
   },
+  "operational": {
+    "updatedAt": "2026-09-21T00:06:35.627566+00:00",
+    "route7": null,
+    "route8": {
+      "status": "SEÑAL DE TRANSITABILIDAD",
+      "detail": "tado-de-rutas/rn-9/cordoba/cordoba--jesus-maria.htm'};\r\nbounds.push([-31.42011,-64.18916]);\r\nbounds.push([-30.99286,-64.10129]);\r\ncapas[1108]={dLat:-32.88953,dLon:-68.84462,hLat:-32.98347,hLon:-68.88928,desde:'Mendoza',hasta:'Chacras de Coria',ruta:'RP 82',color:'#dc2626',weight:8,opacity:0.95,estadoSrc:'Reporte de viajero',fechaRel:'hace 4 dias',conInfo:true,idd:66,url:'/estado-de-rutas/rp-82/mendoza/mendoza--chacras-de-coria.htm'};\r\nbounds.push([-32.88953,-68.84462]);\r\nbounds.push([-32.98347,-68.88928]);\r\ncapas[1396]={dLat:-46.42977,dLon:-67.52274,hLat:-46.11404,hLon:-67.62897,desde:'Caleta Olivia',hasta:'La Lobería',ruta:'RN 3',color:'#16a",
+      "source": "Ruta0",
+      "mode": "RESPALDO COMUNITARIO",
+      "url": "https://www.ruta0.com/estado-de-rutas/?pag=4"
+    },
+    "energy": {
+      "status": "PARTE EPEN DISPONIBLE",
+      "detail": "No se encontró una coincidencia reciente explícita para San Patricio del Chañar.",
+      "source": "EPEN",
+      "mode": "DIRECTA-WEB",
+      "url": "https://www.epen.gov.ar/index.php/cortes-programados/"
+    },
+    "water": {
+      "status": "MONITOREO INSTITUCIONAL",
+      "detail": "Sin parte operativo de agua visible en la portada municipal.",
+      "source": "Municipalidad de San Patricio del Chañar",
+      "mode": "DIRECTA-WEB",
+      "url": "https://sanpatricio.gob.ar/"
+    },
+    "sources": [
+      {
+        "name": "Ruta0",
+        "mode": "OK",
+        "kind": "rutas",
+        "url": "https://www.ruta0.com/estado-de-rutas/?pag=4"
+      },
+      {
+        "name": "EPEN",
+        "mode": "OK",
+        "kind": "energia",
+        "url": "https://www.epen.gov.ar/index.php/cortes-programados/"
+      },
+      {
+        "name": "Municipalidad de San Patricio del Chañar",
+        "mode": "OK",
+        "kind": "agua",
+        "url": "https://sanpatricio.gob.ar/"
+      }
+    ]
+  },
+  "sourceContracts": {
+    "CONVERSACIÓN": {
+      "primary": "Chañar Digital",
+      "secondary": "Municipalidad de San Patricio del Chañar",
+      "fallback": "Neuquén Informa",
+      "refresh": "30 min",
+      "rule": "evidencia editorial local"
+    },
+    "RUTA 7": {
+      "primary": "Dirección Provincial de Vialidad",
+      "secondary": "WSESTADORUTAS · API oficial",
+      "fallback": "Ruta0",
+      "refresh": "30 min",
+      "rule": "parte oficial > fuente comunitaria"
+    },
+    "RUTA 8": {
+      "primary": "Dirección Provincial de Vialidad",
+      "secondary": "WSESTADORUTAS · API oficial",
+      "fallback": "Ruta0",
+      "refresh": "30 min",
+      "rule": "parte oficial > fuente comunitaria"
+    },
+    "VIENTO": {
+      "primary": "Open-Meteo",
+      "secondary": "Servicio Meteorológico Nacional",
+      "fallback": "Neuquén Informa",
+      "refresh": "30 min",
+      "rule": "dato meteorológico directo"
+    },
+    "ENERGÍA": {
+      "primary": "EPEN",
+      "secondary": "Neuquén Informa",
+      "fallback": "Municipalidad de San Patricio del Chañar",
+      "refresh": "30 min",
+      "rule": "parte EPEN > comunicado"
+    },
+    "AGUA": {
+      "primary": "EPAS",
+      "secondary": "Municipalidad de San Patricio del Chañar",
+      "fallback": "Neuquén Informa",
+      "refresh": "30 min",
+      "rule": "no inferir normalidad sin parte"
+    },
+    "SERVICIOS": {
+      "primary": "Municipalidad de San Patricio del Chañar",
+      "secondary": "Neuquén Informa",
+      "fallback": "Chañar Digital",
+      "refresh": "30 min",
+      "rule": "fuente institucional local"
+    },
+    "SALUD": {
+      "primary": "Salud Neuquén",
+      "secondary": "Hospital local / Salud Neuquén",
+      "fallback": "Municipalidad de San Patricio del Chañar",
+      "refresh": "30 min",
+      "rule": "fuente sanitaria oficial"
+    },
+    "EDUCACIÓN": {
+      "primary": "Consejo Provincial de Educación",
+      "secondary": "Neuquén Informa",
+      "fallback": "Municipalidad de San Patricio del Chañar",
+      "refresh": "30 min",
+      "rule": "fuente educativa oficial"
+    },
+    "PRODUCCIÓN": {
+      "primary": "Ministerio de Producción de Neuquén",
+      "secondary": "Neuquén Informa",
+      "fallback": "Municipalidad de San Patricio del Chañar",
+      "refresh": "30 min",
+      "rule": "fuente productiva oficial"
+    },
+    "EMERGENCIAS": {
+      "primary": "Defensa Civil Neuquén",
+      "secondary": "Bomberos Voluntarios de San Patricio del Chañar",
+      "fallback": "Municipalidad de San Patricio del Chañar",
+      "refresh": "30 min",
+      "rule": "emergencia oficial > referencia institucional"
+    },
+    "TERRITORIO": {
+      "primary": "Municipalidad de San Patricio del Chañar",
+      "secondary": "Dirección Provincial de Vialidad",
+      "fallback": "Neuquén Informa",
+      "refresh": "30 min",
+      "rule": "anclaje territorial explícito"
+    }
+  },
   "systemRadars": [
     {
       "id": "CONVERSACIÓN",
       "label": "Conversación general",
       "signal": 4,
       "status": "SEÑAL RECIENTE",
-      "freshnessHours": 1.4,
+      "freshnessHours": 1.8,
       "mode": "evidencia editorial",
-      "evidenceCount": 4
+      "evidenceCount": 4,
+      "sources": [
+        {
+          "name": "Chañar Digital",
+          "role": "medio local",
+          "mode": "DIRECTA",
+          "url": "https://www.chanardigital.com.ar/"
+        },
+        {
+          "name": "Municipalidad de San Patricio del Chañar",
+          "role": "fuente institucional local",
+          "mode": "DIRECTA-WEB",
+          "url": "https://sanpatricio.gob.ar/"
+        },
+        {
+          "name": "Neuquén Informa",
+          "role": "fuente oficial provincial",
+          "mode": "RESPALDO",
+          "url": "https://www.neuqueninforma.gob.ar/"
+        }
+      ],
+      "sourceContract": {
+        "primary": "Chañar Digital",
+        "secondary": "Municipalidad de San Patricio del Chañar",
+        "fallback": "Neuquén Informa",
+        "refresh": "30 min",
+        "rule": "evidencia editorial local"
+      }
     },
     {
       "id": "RUTA 7",
@@ -250,7 +553,34 @@
       "status": "SIN SEÑAL RECIENTE",
       "freshnessHours": null,
       "mode": "evidencia territorial",
-      "evidenceCount": 0
+      "evidenceCount": 0,
+      "sources": [
+        {
+          "name": "Dirección Provincial de Vialidad",
+          "role": "estado vial oficial / API",
+          "mode": "DIRECTA",
+          "url": "https://www.dpvneuquen.gov.ar/"
+        },
+        {
+          "name": "Catálogo de servicios Neuquén",
+          "role": "endpoint WSESTADORUTAS",
+          "mode": "DIRECTA-API",
+          "url": "https://ww4.neuquen.gov.ar/Pecas/Optic/xroad/monitoreo/auditoria/Default.aspx"
+        },
+        {
+          "name": "Ruta0",
+          "role": "respaldo comunitario de transitabilidad",
+          "mode": "RESPALDO",
+          "url": "https://www.ruta0.com/estado-de-rutas/"
+        }
+      ],
+      "sourceContract": {
+        "primary": "Dirección Provincial de Vialidad",
+        "secondary": "WSESTADORUTAS · API oficial",
+        "fallback": "Ruta0",
+        "refresh": "30 min",
+        "rule": "parte oficial > fuente comunitaria"
+      }
     },
     {
       "id": "RUTA 8",
@@ -259,7 +589,41 @@
       "status": "SIN SEÑAL RECIENTE",
       "freshnessHours": null,
       "mode": "evidencia territorial",
-      "evidenceCount": 0
+      "evidenceCount": 0,
+      "sources": [
+        {
+          "name": "Dirección Provincial de Vialidad",
+          "role": "estado vial oficial / API",
+          "mode": "DIRECTA",
+          "url": "https://www.dpvneuquen.gov.ar/"
+        },
+        {
+          "name": "Catálogo de servicios Neuquén",
+          "role": "endpoint WSESTADORUTAS",
+          "mode": "DIRECTA-API",
+          "url": "https://ww4.neuquen.gov.ar/Pecas/Optic/xroad/monitoreo/auditoria/Default.aspx"
+        },
+        {
+          "name": "Ruta0",
+          "role": "respaldo comunitario de transitabilidad",
+          "mode": "RESPALDO",
+          "url": "https://www.ruta0.com/estado-de-rutas/"
+        }
+      ],
+      "sourceContract": {
+        "primary": "Dirección Provincial de Vialidad",
+        "secondary": "WSESTADORUTAS · API oficial",
+        "fallback": "Ruta0",
+        "refresh": "30 min",
+        "rule": "parte oficial > fuente comunitaria"
+      },
+      "operational": {
+        "status": "SEÑAL DE TRANSITABILIDAD",
+        "detail": "tado-de-rutas/rn-9/cordoba/cordoba--jesus-maria.htm'};\r\nbounds.push([-31.42011,-64.18916]);\r\nbounds.push([-30.99286,-64.10129]);\r\ncapas[1108]={dLat:-32.88953,dLon:-68.84462,hLat:-32.98347,hLon:-68.88928,desde:'Mendoza',hasta:'Chacras de Coria',ruta:'RP 82',color:'#dc2626',weight:8,opacity:0.95,estadoSrc:'Reporte de viajero',fechaRel:'hace 4 dias',conInfo:true,idd:66,url:'/estado-de-rutas/rp-82/mendoza/mendoza--chacras-de-coria.htm'};\r\nbounds.push([-32.88953,-68.84462]);\r\nbounds.push([-32.98347,-68.88928]);\r\ncapas[1396]={dLat:-46.42977,dLon:-67.52274,hLat:-46.11404,hLon:-67.62897,desde:'Caleta Olivia',hasta:'La Lobería',ruta:'RN 3',color:'#16a",
+        "source": "Ruta0",
+        "mode": "RESPALDO COMUNITARIO",
+        "url": "https://www.ruta0.com/estado-de-rutas/?pag=4"
+      }
     },
     {
       "id": "VIENTO",
@@ -268,7 +632,34 @@
       "status": "SIN SEÑAL RECIENTE",
       "freshnessHours": null,
       "mode": "dato ambiental directo + evidencia",
-      "evidenceCount": 0
+      "evidenceCount": 0,
+      "sources": [
+        {
+          "name": "Open-Meteo",
+          "role": "viento observado/modelado actual",
+          "mode": "DIRECTA-API",
+          "url": "https://open-meteo.com/"
+        },
+        {
+          "name": "Servicio Meteorológico Nacional",
+          "role": "alertas oficiales",
+          "mode": "OFICIAL-ALERTAS",
+          "url": "https://www.smn.gob.ar/"
+        },
+        {
+          "name": "Neuquén Informa",
+          "role": "comunicación oficial provincial",
+          "mode": "RESPALDO",
+          "url": "https://www.neuqueninforma.gob.ar/"
+        }
+      ],
+      "sourceContract": {
+        "primary": "Open-Meteo",
+        "secondary": "Servicio Meteorológico Nacional",
+        "fallback": "Neuquén Informa",
+        "refresh": "30 min",
+        "rule": "dato meteorológico directo"
+      }
     },
     {
       "id": "ENERGÍA",
@@ -277,7 +668,41 @@
       "status": "SIN SEÑAL RECIENTE",
       "freshnessHours": null,
       "mode": "evidencia editorial",
-      "evidenceCount": 0
+      "evidenceCount": 0,
+      "sources": [
+        {
+          "name": "EPEN",
+          "role": "cortes programados",
+          "mode": "DIRECTA-WEB",
+          "url": "https://www.epen.gov.ar/index.php/cortes-programados/"
+        },
+        {
+          "name": "Neuquén Informa",
+          "role": "comunicados EPEN",
+          "mode": "OFICIAL",
+          "url": "https://www.neuqueninforma.gob.ar/"
+        },
+        {
+          "name": "Municipalidad de San Patricio del Chañar",
+          "role": "canal institucional local",
+          "mode": "RESPALDO",
+          "url": "https://sanpatricio.gob.ar/"
+        }
+      ],
+      "sourceContract": {
+        "primary": "EPEN",
+        "secondary": "Neuquén Informa",
+        "fallback": "Municipalidad de San Patricio del Chañar",
+        "refresh": "30 min",
+        "rule": "parte EPEN > comunicado"
+      },
+      "operational": {
+        "status": "PARTE EPEN DISPONIBLE",
+        "detail": "No se encontró una coincidencia reciente explícita para San Patricio del Chañar.",
+        "source": "EPEN",
+        "mode": "DIRECTA-WEB",
+        "url": "https://www.epen.gov.ar/index.php/cortes-programados/"
+      }
     },
     {
       "id": "AGUA",
@@ -286,7 +711,41 @@
       "status": "SIN SEÑAL RECIENTE",
       "freshnessHours": null,
       "mode": "evidencia editorial",
-      "evidenceCount": 0
+      "evidenceCount": 0,
+      "sources": [
+        {
+          "name": "Municipalidad de San Patricio del Chañar",
+          "role": "canal institucional local",
+          "mode": "DIRECTA-WEB",
+          "url": "https://sanpatricio.gob.ar/"
+        },
+        {
+          "name": "EPAS Neuquén",
+          "role": "organismo provincial de agua y saneamiento",
+          "mode": "OFICIAL",
+          "url": "https://www.epas.gov.ar/"
+        },
+        {
+          "name": "Neuquén Informa",
+          "role": "comunicados oficiales",
+          "mode": "RESPALDO",
+          "url": "https://www.neuqueninforma.gob.ar/"
+        }
+      ],
+      "sourceContract": {
+        "primary": "EPAS",
+        "secondary": "Municipalidad de San Patricio del Chañar",
+        "fallback": "Neuquén Informa",
+        "refresh": "30 min",
+        "rule": "no inferir normalidad sin parte"
+      },
+      "operational": {
+        "status": "MONITOREO INSTITUCIONAL",
+        "detail": "Sin parte operativo de agua visible en la portada municipal.",
+        "source": "Municipalidad de San Patricio del Chañar",
+        "mode": "DIRECTA-WEB",
+        "url": "https://sanpatricio.gob.ar/"
+      }
     },
     {
       "id": "SERVICIOS",
@@ -295,7 +754,34 @@
       "status": "SIN SEÑAL RECIENTE",
       "freshnessHours": null,
       "mode": "evidencia editorial",
-      "evidenceCount": 0
+      "evidenceCount": 0,
+      "sources": [
+        {
+          "name": "Municipalidad de San Patricio del Chañar",
+          "role": "servicios y avisos locales",
+          "mode": "DIRECTA-WEB",
+          "url": "https://sanpatricio.gob.ar/"
+        },
+        {
+          "name": "Neuquén Informa",
+          "role": "infraestructura provincial",
+          "mode": "OFICIAL",
+          "url": "https://www.neuqueninforma.gob.ar/"
+        },
+        {
+          "name": "Chañar Digital",
+          "role": "seguimiento local",
+          "mode": "RESPALDO",
+          "url": "https://www.chanardigital.com.ar/"
+        }
+      ],
+      "sourceContract": {
+        "primary": "Municipalidad de San Patricio del Chañar",
+        "secondary": "Neuquén Informa",
+        "fallback": "Chañar Digital",
+        "refresh": "30 min",
+        "rule": "fuente institucional local"
+      }
     },
     {
       "id": "SALUD",
@@ -304,16 +790,70 @@
       "status": "SIN SEÑAL RECIENTE",
       "freshnessHours": null,
       "mode": "evidencia editorial",
-      "evidenceCount": 0
+      "evidenceCount": 0,
+      "sources": [
+        {
+          "name": "Hospital Dra. Alicia Cruz",
+          "role": "referencia sanitaria local",
+          "mode": "INSTITUCIONAL",
+          "url": "https://www.saludneuquen.gob.ar/"
+        },
+        {
+          "name": "Ministerio de Salud de Neuquén",
+          "role": "fuente sanitaria provincial",
+          "mode": "OFICIAL",
+          "url": "https://www.saludneuquen.gob.ar/"
+        },
+        {
+          "name": "Municipalidad de San Patricio del Chañar",
+          "role": "avisos locales",
+          "mode": "RESPALDO",
+          "url": "https://sanpatricio.gob.ar/"
+        }
+      ],
+      "sourceContract": {
+        "primary": "Salud Neuquén",
+        "secondary": "Hospital local / Salud Neuquén",
+        "fallback": "Municipalidad de San Patricio del Chañar",
+        "refresh": "30 min",
+        "rule": "fuente sanitaria oficial"
+      }
     },
     {
       "id": "EDUCACIÓN",
       "label": "Educación",
       "signal": 2,
       "status": "SEÑAL DETECTADA",
-      "freshnessHours": 24.6,
+      "freshnessHours": 25.1,
       "mode": "evidencia editorial",
-      "evidenceCount": 2
+      "evidenceCount": 2,
+      "sources": [
+        {
+          "name": "Consejo Provincial de Educación",
+          "role": "fuente educativa oficial",
+          "mode": "OFICIAL",
+          "url": "https://www.neuquen.edu.ar/"
+        },
+        {
+          "name": "Neuquén Informa",
+          "role": "comunicados provinciales",
+          "mode": "RESPALDO",
+          "url": "https://www.neuqueninforma.gob.ar/"
+        },
+        {
+          "name": "Municipalidad de San Patricio del Chañar",
+          "role": "agenda local",
+          "mode": "RESPALDO",
+          "url": "https://sanpatricio.gob.ar/"
+        }
+      ],
+      "sourceContract": {
+        "primary": "Consejo Provincial de Educación",
+        "secondary": "Neuquén Informa",
+        "fallback": "Municipalidad de San Patricio del Chañar",
+        "refresh": "30 min",
+        "rule": "fuente educativa oficial"
+      }
     },
     {
       "id": "PRODUCCIÓN",
@@ -322,7 +862,34 @@
       "status": "SIN SEÑAL RECIENTE",
       "freshnessHours": null,
       "mode": "evidencia editorial",
-      "evidenceCount": 0
+      "evidenceCount": 0,
+      "sources": [
+        {
+          "name": "Ministerio de Producción e Industria de Neuquén",
+          "role": "fuente productiva oficial",
+          "mode": "OFICIAL",
+          "url": "https://www.neuqueninforma.gob.ar/"
+        },
+        {
+          "name": "Municipalidad de San Patricio del Chañar",
+          "role": "agenda productiva local",
+          "mode": "DIRECTA-WEB",
+          "url": "https://sanpatricio.gob.ar/"
+        },
+        {
+          "name": "Chañar Digital",
+          "role": "seguimiento local",
+          "mode": "RESPALDO",
+          "url": "https://www.chanardigital.com.ar/"
+        }
+      ],
+      "sourceContract": {
+        "primary": "Ministerio de Producción de Neuquén",
+        "secondary": "Neuquén Informa",
+        "fallback": "Municipalidad de San Patricio del Chañar",
+        "refresh": "30 min",
+        "rule": "fuente productiva oficial"
+      }
     },
     {
       "id": "EMERGENCIAS",
@@ -331,7 +898,34 @@
       "status": "SIN SEÑAL RECIENTE",
       "freshnessHours": null,
       "mode": "evidencia editorial",
-      "evidenceCount": 0
+      "evidenceCount": 0,
+      "sources": [
+        {
+          "name": "Defensa Civil Neuquén",
+          "role": "emergencias provinciales",
+          "mode": "OFICIAL",
+          "url": "https://www.neuqueninforma.gob.ar/"
+        },
+        {
+          "name": "Bomberos Voluntarios de San Patricio del Chañar",
+          "role": "referencia local",
+          "mode": "INSTITUCIONAL",
+          "url": "https://sanpatricio.gob.ar/"
+        },
+        {
+          "name": "Municipalidad de San Patricio del Chañar",
+          "role": "seguridad y emergencias",
+          "mode": "DIRECTA-WEB",
+          "url": "https://sanpatricio.gob.ar/sec-ciudadana"
+        }
+      ],
+      "sourceContract": {
+        "primary": "Defensa Civil Neuquén",
+        "secondary": "Bomberos Voluntarios de San Patricio del Chañar",
+        "fallback": "Municipalidad de San Patricio del Chañar",
+        "refresh": "30 min",
+        "rule": "emergencia oficial > referencia institucional"
+      }
     },
     {
       "id": "TERRITORIO",
@@ -340,7 +934,34 @@
       "status": "SIN SEÑAL RECIENTE",
       "freshnessHours": null,
       "mode": "evidencia territorial",
-      "evidenceCount": 0
+      "evidenceCount": 0,
+      "sources": [
+        {
+          "name": "Municipalidad de San Patricio del Chañar",
+          "role": "territorio y agenda local",
+          "mode": "DIRECTA-WEB",
+          "url": "https://sanpatricio.gob.ar/"
+        },
+        {
+          "name": "Dirección Provincial de Vialidad",
+          "role": "corredores y rutas",
+          "mode": "OFICIAL",
+          "url": "https://www.dpvneuquen.gov.ar/"
+        },
+        {
+          "name": "Neuquén Informa",
+          "role": "infraestructura regional",
+          "mode": "RESPALDO",
+          "url": "https://www.neuqueninforma.gob.ar/"
+        }
+      ],
+      "sourceContract": {
+        "primary": "Municipalidad de San Patricio del Chañar",
+        "secondary": "Dirección Provincial de Vialidad",
+        "fallback": "Neuquén Informa",
+        "refresh": "30 min",
+        "rule": "anclaje territorial explícito"
+      }
     }
   ],
   "system": {
@@ -363,13 +984,11 @@
         "type": "MEDIO LOCAL",
         "mode": "SIN RESPUESTA",
         "signals": 0,
-        "url": "https://www.chanardigital.com.ar/",
-        "lastFetch": "2026-09-20T23:40:31.828889+00:00",
+        "url": "https://chanardigital.com.ar/",
+        "lastFetch": "2026-09-21T00:06:13.373987+00:00",
         "success": true,
-        "attempted": 4,
+        "attempted": 2,
         "failures": [
-          "RSS:HTTPError",
-          "RSS:HTTPError",
           "RSS:HTTPError"
         ],
         "directAvailability": "available",
@@ -381,7 +1000,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.radiomia.com.ar/",
-        "lastFetch": "2026-09-20T23:40:33.896889+00:00",
+        "lastFetch": "2026-09-21T00:06:14.786957+00:00",
         "success": true,
         "attempted": 1,
         "failures": [],
@@ -394,7 +1013,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://tuitvacamuerta.com/",
-        "lastFetch": "2026-09-20T23:40:35.598195+00:00",
+        "lastFetch": "2026-09-21T00:06:17.321952+00:00",
         "success": true,
         "attempted": 1,
         "failures": [],
@@ -407,7 +1026,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.vacamuertanews.com/",
-        "lastFetch": "2026-09-20T23:40:36.245582+00:00",
+        "lastFetch": "2026-09-21T00:06:17.687304+00:00",
         "success": true,
         "attempted": 2,
         "failures": [
@@ -422,7 +1041,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.neuqueninforma.gob.ar/",
-        "lastFetch": "2026-09-20T23:40:37.749430+00:00",
+        "lastFetch": "2026-09-21T00:06:18.829240+00:00",
         "success": true,
         "attempted": 3,
         "failures": [
@@ -438,13 +1057,10 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://sanpatricio.gob.ar/",
-        "lastFetch": "2026-09-20T23:40:40.051134+00:00",
+        "lastFetch": "2026-09-21T00:06:20.840640+00:00",
         "success": true,
-        "attempted": 3,
-        "failures": [
-          "RSS:ParseError",
-          "RSS:ParseError"
-        ],
+        "attempted": 1,
+        "failures": [],
         "directAvailability": "available",
         "freshnessHours": null
       },
@@ -454,22 +1070,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://boletinoficial.neuquen.gov.ar/",
-        "lastFetch": "2026-09-20T23:40:41.143593+00:00",
-        "success": false,
-        "attempted": 1,
-        "failures": [
-          "WEB:URLError"
-        ],
-        "directAvailability": "failed",
-        "freshnessHours": null
-      },
-      {
-        "name": "Infoleg Neuquén",
-        "type": "FUENTE NORMATIVA",
-        "mode": "SIN RESPUESTA",
-        "signals": 0,
-        "url": "https://infoleg.neuquen.gob.ar/",
-        "lastFetch": "2026-09-20T23:40:42.272652+00:00",
+        "lastFetch": "2026-09-21T00:06:21.551861+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -484,7 +1085,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.lmneuquen.com/",
-        "lastFetch": "2026-09-20T23:40:42.721800+00:00",
+        "lastFetch": "2026-09-21T00:06:21.776717+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -500,12 +1101,12 @@
         "mode": "RSS DIRECTO",
         "signals": 1,
         "url": "https://www.rionegro.com.ar/",
-        "lastFetch": "2026-09-20T23:40:46.849752+00:00",
+        "lastFetch": "2026-09-21T00:06:26.607543+00:00",
         "success": true,
         "attempted": 2,
         "failures": [],
         "directAvailability": "available",
-        "freshnessHours": 1.4
+        "freshnessHours": 1.8
       },
       {
         "name": "Mejor Informado",
@@ -513,7 +1114,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.mejorinformado.com/",
-        "lastFetch": "2026-09-20T23:40:47.691484+00:00",
+        "lastFetch": "2026-09-21T00:06:27.053281+00:00",
         "success": true,
         "attempted": 2,
         "failures": [
@@ -528,7 +1129,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.diariamenteneuquen.com/",
-        "lastFetch": "2026-09-20T23:40:52.695560+00:00",
+        "lastFetch": "2026-09-21T00:06:27.791901+00:00",
         "success": true,
         "attempted": 2,
         "failures": [
@@ -552,6 +1153,7 @@
       "lastSeen": "2026-09-20T22:18:34+00:00",
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
+      "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SERVICIOS",
       "movement": 60,
       "coverage": 1,
@@ -580,18 +1182,16 @@
           "relevance": 3,
           "relevanceLabel": "DIRECTA",
           "firstSeen": "2026-09-20T23:40:59.182218+00:00",
-          "isNew": true,
+          "isNew": false,
           "titleKey": "regional amateur impuso ante deportivo roca maiolino",
           "evidenceUrl": "https://www.rionegro.com.ar/deportes/regional-amateur-san-patricio-del-chanar-se-impuso-ante-deportivo-roca-en-el-maiolino-4729793/",
           "sourcePriority": 2
         }
       ],
       "lifecycle": "EMERGENTE",
-      "movementDelta": 11,
+      "movementDelta": 0,
       "previousCoverage": 1,
-      "newSources": [
-        "Diario Río Negro"
-      ],
+      "newSources": [],
       "sourceDiversity": 1,
       "memoryMatched": true,
       "isNew": false,
@@ -627,6 +1227,7 @@
       "lastSeen": "2026-09-19T23:03:23+00:00",
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
+      "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "EDUCACIÓN",
       "movement": 54,
       "coverage": 1,
@@ -663,7 +1264,7 @@
         }
       ],
       "lifecycle": "SOSTENIDO",
-      "movementDelta": -6,
+      "movementDelta": 0,
       "previousCoverage": 1,
       "newSources": [],
       "sourceDiversity": 1,
@@ -709,6 +1310,7 @@
       "lastSeen": "2026-09-19T14:58:15+00:00",
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
+      "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "EDUCACIÓN",
       "movement": 52,
       "coverage": 1,
@@ -736,14 +1338,14 @@
           "relevance": 3,
           "relevanceLabel": "DIRECTA",
           "firstSeen": "2026-09-20T23:40:59.182218+00:00",
-          "isNew": true,
+          "isNew": false,
           "titleKey": "avanza infraestructura educativa epet supera ejecucion diario rio negro",
           "evidenceUrl": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQVkhIZ3RaZks0TGxkaWZFaV9lcHQ0cTZVbVBqdHNsQW1QV3pFODItNk1CNWE0TXJuMDRjUFd4dnNVY2NiUHd1bnJCMElHRXg4VWpyUWN2SndPMzdxemFyQWhCd21BUWVpMXp2ek4telQyWV9JVW9fWVpBN2FWaTdvRVJHYTRzWHZkaXkxcGNLR2l3eEp5a2YxMFNaeTVuZmVsc041NWNWcDZFV2t2blF0Y2hCUHB4aEttZGJOTXhVVEdZcTJhOG9yUF96em1BY1AyTVJPd2xsOXhVYTFH0gHkAUFVX3lxTE0zSjRnMUZEdnF3V0NQNzgzb0V1WFI5NzBLdmRMUnBpMl9JaG94ekRlcVZFU1pHNE1lRWp0Sm5Jd28wSmNvclZ3UWFNQXh4YUdkdjBHODRKQUpnZUpwbnpjTHcxaEF1eU5HLUtOSGFNNi1FSXB3LVhSYUpWRUl1OFpQclN4RGZkVEFpVkVmb0llNTZyZ01UeThoRXZNVGNMVGhaclhfLW51emxyQTE5U3FBMDBpeTZyb1hrYnRpbTI3X0gwSHYxMDkwZHlpZldUYjhkUUxOa1AtY3JxZjJ0WF8xajBfRw?oc=5",
           "sourcePriority": 3
         }
       ],
       "lifecycle": "EMERGENTE",
-      "movementDelta": -6,
+      "movementDelta": 0,
       "previousCoverage": 1,
       "newSources": [],
       "sourceDiversity": 1,
@@ -789,6 +1391,7 @@
       "lastSeen": "2026-09-18T07:26:20+00:00",
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
+      "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SERVICIOS",
       "movement": 44,
       "coverage": 1,
@@ -823,15 +1426,13 @@
           "sourcePriority": 3
         }
       ],
-      "lifecycle": "ACTIVO",
+      "lifecycle": "SOSTENIDO",
       "movementDelta": 0,
-      "previousCoverage": 0,
-      "newSources": [
-        "Lmneuquen.com"
-      ],
+      "previousCoverage": 1,
+      "newSources": [],
       "sourceDiversity": 1,
-      "memoryMatched": false,
-      "isNew": true,
+      "memoryMatched": true,
+      "isNew": false,
       "territory": {
         "version": "2.0",
         "primary": "San Patricio del Chañar",
@@ -872,7 +1473,7 @@
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "firstSeen": "2026-09-20T23:40:59.182218+00:00",
-      "isNew": true,
+      "isNew": false,
       "titleKey": "regional amateur impuso ante deportivo roca maiolino",
       "evidenceUrl": "https://www.rionegro.com.ar/deportes/regional-amateur-san-patricio-del-chanar-se-impuso-ante-deportivo-roca-en-el-maiolino-4729793/",
       "sourcePriority": 2
@@ -910,7 +1511,7 @@
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "firstSeen": "2026-09-20T23:40:59.182218+00:00",
-      "isNew": true,
+      "isNew": false,
       "titleKey": "avanza infraestructura educativa epet supera ejecucion diario rio negro",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQVkhIZ3RaZks0TGxkaWZFaV9lcHQ0cTZVbVBqdHNsQW1QV3pFODItNk1CNWE0TXJuMDRjUFd4dnNVY2NiUHd1bnJCMElHRXg4VWpyUWN2SndPMzdxemFyQWhCd21BUWVpMXp2ek4telQyWV9JVW9fWVpBN2FWaTdvRVJHYTRzWHZkaXkxcGNLR2l3eEp5a2YxMFNaeTVuZmVsc041NWNWcDZFV2t2blF0Y2hCUHB4aEttZGJOTXhVVEdZcTJhOG9yUF96em1BY1AyTVJPd2xsOXhVYTFH0gHkAUFVX3lxTE0zSjRnMUZEdnF3V0NQNzgzb0V1WFI5NzBLdmRMUnBpMl9JaG94ekRlcVZFU1pHNE1lRWp0Sm5Jd28wSmNvclZ3UWFNQXh4YUdkdjBHODRKQUpnZUpwbnpjTHcxaEF1eU5HLUtOSGFNNi1FSXB3LVhSYUpWRUl1OFpQclN4RGZkVEFpVkVmb0llNTZyZ01UeThoRXZNVGNMVGhaclhfLW51emxyQTE5U3FBMDBpeTZyb1hrYnRpbTI3X0gwSHYxMDkwZHlpZldUYjhkUUxOa1AtY3JxZjJ0WF8xajBfRw?oc=5",
       "sourcePriority": 3
@@ -937,7 +1538,7 @@
   ],
   "territorialGraph": {
     "version": "2.0",
-    "generatedAt": "2026-09-20T23:41:00.031291+00:00",
+    "generatedAt": "2026-09-21T00:06:40.080735+00:00",
     "root": "spc",
     "rule": "evidence-first",
     "levels": [
@@ -1530,7 +2131,7 @@
   },
   "audit": {
     "version": "1.0",
-    "updatedAt": "2026-09-20T23:41:00.072189+00:00",
+    "updatedAt": "2026-09-21T00:06:40.121205+00:00",
     "rule": "fact != coverage; territory requires textual evidence",
     "facts": 4,
     "coverage": 4,
@@ -1541,7 +2142,7 @@
     "territorySpecificPct": 50.0,
     "averageSourcesPerFact": 1.0,
     "activeTerritorialNodes": 2,
-    "failedSources": 3,
+    "failedSources": 2,
     "acceptedWithoutLocalEvidence": 0,
     "examplesAcceptedWithoutLocalEvidence": [],
     "interpretation": "auditoria técnica; no mide importancia, calidad periodística ni verdad del hecho"
