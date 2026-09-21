@@ -129,7 +129,7 @@ function render(d){
    const id=x.id, key=id==='RUTA 7'?'route7':id==='RUTA 8'?'route8':id==='ENERGÍA'?'energy':id==='AGUA'?'water':id.toLowerCase();
    const o=op[key], contract=contracts[id]||x.sourceContract||{};
    let value='SIN PARTE',state=x.status||'SEÑAL';
-   if(id==='VIENTO'&&d.environment){value=Math.round(d.environment.windSpeed||0)+' km/h';state='dato ambiental';}
+   if(id==='VIENTO'&&d.environment?.weather){const w=d.environment.weather;value=(w.windKmh!=null?Math.round(w.windKmh):'—')+' km/h';state=(w.gustKmh!=null?'RÁFAGAS '+Math.round(w.gustKmh)+' km/h':'dato ambiental')+' · '+(w.windDirection||'—');}
    else if(o){value=o.status||'PARTE';state=o.mode||'lectura operativa';}
    else if(Number(x.signal)>0){value=x.signal;state=x.mode||'señales';}
    return '<article class="card '+statusClass(state)+'" style="transition-delay:'+Math.min(i*35,300)+'ms"><div class="tag">'+esc(id)+'</div><div class="value">'+esc(value)+'</div><div class="state">'+esc(state)+'</div><div class="source">PRIMARIA · <b>'+esc(contract.primary||o?.source||'—')+'</b></div><div class="mini">'+[1,2,3,4,5,6].map((_,j)=>'<i style="--i:'+j+';height:'+(3+(Number(x.signal)||0)%7+j*2)+'px"></i>').join('')+'</div></article>'
