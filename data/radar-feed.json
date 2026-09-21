@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-21T00:37:15.676833+00:00",
-  "window": "7 días",
+  "updatedAt": "2026-09-21T00:47:44.506935+00:00",
+  "window": "14 días",
   "purpose": "Detectar qué se está moviendo en San Patricio del Chañar y mostrar de dónde surge cada señal.",
   "architecture": "25 fuentes profesionales + búsquedas dirigidas + fuentes directas + web directa + respaldo + memoria de eventos + ciclo de vida + incidencia territorial + evidencia + salud de fuentes + radares de infraestructura + ambiente",
   "keywords": [
@@ -49,7 +49,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://chanardigital.com.ar/",
-      "lastFetch": "2026-09-21T00:36:57.363240+00:00",
+      "lastFetch": "2026-09-21T00:47:23.109607+00:00",
       "success": true,
       "attempted": 2,
       "failures": [
@@ -64,7 +64,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.radiomia.com.ar/",
-      "lastFetch": "2026-09-21T00:36:58.537035+00:00",
+      "lastFetch": "2026-09-21T00:47:24.116731+00:00",
       "success": true,
       "attempted": 1,
       "failures": [],
@@ -77,7 +77,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://tuitvacamuerta.com/",
-      "lastFetch": "2026-09-21T00:37:00.164238+00:00",
+      "lastFetch": "2026-09-21T00:47:25.859920+00:00",
       "success": true,
       "attempted": 1,
       "failures": [],
@@ -90,7 +90,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.vacamuertanews.com/",
-      "lastFetch": "2026-09-21T00:37:00.498464+00:00",
+      "lastFetch": "2026-09-21T00:47:26.320677+00:00",
       "success": true,
       "attempted": 2,
       "failures": [
@@ -105,7 +105,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.neuqueninforma.gob.ar/",
-      "lastFetch": "2026-09-21T00:37:01.426568+00:00",
+      "lastFetch": "2026-09-21T00:47:27.669601+00:00",
       "success": true,
       "attempted": 3,
       "failures": [
@@ -121,7 +121,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://sanpatricio.gob.ar/",
-      "lastFetch": "2026-09-21T00:37:02.431910+00:00",
+      "lastFetch": "2026-09-21T00:47:28.752280+00:00",
       "success": true,
       "attempted": 1,
       "failures": [],
@@ -134,7 +134,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://boletinoficial.neuquen.gov.ar/",
-      "lastFetch": "2026-09-21T00:37:03.356218+00:00",
+      "lastFetch": "2026-09-21T00:47:29.540936+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -149,7 +149,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.lmneuquen.com/",
-      "lastFetch": "2026-09-21T00:37:03.559173+00:00",
+      "lastFetch": "2026-09-21T00:47:29.932199+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -165,12 +165,12 @@
       "mode": "RSS DIRECTO",
       "signals": 1,
       "url": "https://www.rionegro.com.ar/",
-      "lastFetch": "2026-09-21T00:37:05.291539+00:00",
+      "lastFetch": "2026-09-21T00:47:33.835584+00:00",
       "success": true,
       "attempted": 2,
       "failures": [],
       "directAvailability": "available",
-      "freshnessHours": 2.3
+      "freshnessHours": 2.5
     },
     {
       "name": "Mejor Informado",
@@ -178,7 +178,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.mejorinformado.com/",
-      "lastFetch": "2026-09-21T00:37:05.814812+00:00",
+      "lastFetch": "2026-09-21T00:47:34.563690+00:00",
       "success": true,
       "attempted": 2,
       "failures": [
@@ -193,7 +193,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.diariamenteneuquen.com/",
-      "lastFetch": "2026-09-21T00:37:06.460445+00:00",
+      "lastFetch": "2026-09-21T00:47:35.373816+00:00",
       "success": true,
       "attempted": 2,
       "failures": [
@@ -263,6 +263,18 @@
       "group": "REGIONAL-NACIONAL",
       "role": "alertas y meteorología",
       "url": "https://www.smn.gob.ar/"
+    },
+    {
+      "name": "AIC",
+      "group": "REGIONAL",
+      "role": "pronóstico y viento para El Chañar",
+      "url": "https://www.aic.gob.ar/sitio/home?a=1015&z=1967225803"
+    },
+    {
+      "name": "Diario Neuquino",
+      "group": "REGIONAL",
+      "role": "medio regional",
+      "url": "https://www.diariamenteneuquen.com/"
     },
     {
       "name": "Defensa Civil Neuquén",
@@ -474,6 +486,30 @@
       "anchoredSignals": 0,
       "lastSeen": null,
       "status": "SIN SEÑALES EN VENTANA",
+      "note": "ausencia de señales no equivale a ausencia del hecho"
+    },
+    {
+      "name": "AIC",
+      "group": "REGIONAL",
+      "role": "pronóstico y viento para El Chañar",
+      "url": "https://www.aic.gob.ar/sitio/home?a=1015&z=1967225803",
+      "signals": 0,
+      "directSignals": 0,
+      "anchoredSignals": 0,
+      "lastSeen": null,
+      "status": "SIN SEÑALES EN VENTANA",
+      "note": "ausencia de señales no equivale a ausencia del hecho"
+    },
+    {
+      "name": "Diario Neuquino",
+      "group": "REGIONAL",
+      "role": "medio regional",
+      "url": "https://www.diariamenteneuquen.com/",
+      "signals": 1,
+      "directSignals": 1,
+      "anchoredSignals": 0,
+      "lastSeen": "2026-09-19T23:03:23+00:00",
+      "status": "CON SEÑALES",
       "note": "ausencia de señales no equivale a ausencia del hecho"
     },
     {
@@ -899,6 +935,17 @@
     "rule": "source × signal × local language × false positive",
     "sourceSummary": [
       {
+        "source": "AIC",
+        "group": "REGIONAL",
+        "role": "pronóstico y viento para El Chañar",
+        "accepted": 0,
+        "direct": 0,
+        "anchored": 0,
+        "falsePositives": 0,
+        "falsePositiveTypes": [],
+        "topics": []
+      },
+      {
         "source": "Argentina.gob.ar",
         "group": "EXTERNA",
         "role": "fuente nacional",
@@ -966,8 +1013,8 @@
       },
       {
         "source": "Diario Neuquino",
-        "group": "OBSERVADA",
-        "role": "fuente detectada fuera del catálogo",
+        "group": "REGIONAL",
+        "role": "medio regional",
         "accepted": 1,
         "direct": 1,
         "anchored": 0,
@@ -987,8 +1034,8 @@
         "falsePositives": 0,
         "falsePositiveTypes": [],
         "topics": [
-          "EDUCACIÓN",
-          "SERVICIOS"
+          "DEPORTE",
+          "EDUCACIÓN"
         ]
       },
       {
@@ -1206,18 +1253,7 @@
       },
       {
         "source": "Diario Río Negro",
-        "topic": "EDUCACIÓN",
-        "accepted": 1,
-        "direct": 1,
-        "anchored": 0,
-        "falsePositives": 0,
-        "territorialTerms": [
-          "epet 26"
-        ]
-      },
-      {
-        "source": "Diario Río Negro",
-        "topic": "SERVICIOS",
+        "topic": "DEPORTE",
         "accepted": 1,
         "direct": 1,
         "anchored": 0,
@@ -1225,6 +1261,17 @@
         "territorialTerms": [
           "san patricio del chañar",
           "el chañar"
+        ]
+      },
+      {
+        "source": "Diario Río Negro",
+        "topic": "EDUCACIÓN",
+        "accepted": 1,
+        "direct": 1,
+        "anchored": 0,
+        "falsePositives": 0,
+        "territorialTerms": [
+          "epet 26"
         ]
       }
     ],
@@ -1583,7 +1630,7 @@
     "searchNoiseRejected": 0
   },
   "environment": {
-    "updatedAt": "2026-09-21T00:37:15.683894+00:00",
+    "updatedAt": "2026-09-21T00:47:44.511075+00:00",
     "weather": null,
     "sources": [
       {
@@ -1599,19 +1646,19 @@
     ]
   },
   "operational": {
-    "updatedAt": "2026-09-21T00:37:16.887105+00:00",
+    "updatedAt": "2026-09-21T00:47:46.053716+00:00",
     "route7": {
-      "status": "SIN PARTE DIRECTO",
-      "detail": "La fuente de respaldo está disponible, pero el motor no la usa para afirmar transitabilidad vigente sin anclaje específico y fecha reciente.",
+      "status": "PRECAUCIÓN · RESPALDO ACTUAL",
+      "detail": "       En el Ingreso, Limite con la Provincia de Misiones y el transito se desvia por la RP 71 desde Ctes ",
       "source": "Ruta0",
-      "mode": "RESPALDO NO CONCLUYENTE",
+      "mode": "RESPALDO ACTUAL",
       "url": "https://www.ruta0.com/estado-de-rutas/?pag=4"
     },
     "route8": {
-      "status": "SIN PARTE DIRECTO",
-      "detail": "La fuente de respaldo está disponible, pero el motor no la usa para afirmar transitabilidad vigente sin anclaje específico y fecha reciente.",
+      "status": "PRECAUCIÓN · RESPALDO ACTUAL",
+      "detail": "capas[1108]={dLat:-32.88953,dLon:-68.84462,hLat:-32.98347,hLon:-68.88928,desde:'Mendoza',hasta:'Chacras de Coria',ruta:'RP 82',color:'#dc2626',weight:8,opacity:0.95,estadoSrc:'Reporte de viajero',fechaRel:'hace 4 dias',conInfo:true,idd:66,url:'/estado-de-rutas/rp-82/mendoza/mendoza--chacras-de-coria.htm'};\r",
       "source": "Ruta0",
-      "mode": "RESPALDO NO CONCLUYENTE",
+      "mode": "RESPALDO ACTUAL",
       "url": "https://www.ruta0.com/estado-de-rutas/?pag=4"
     },
     "energy": {
@@ -1629,6 +1676,20 @@
       "url": "https://sanpatricio.gob.ar/"
     },
     "sources": [
+      {
+        "name": "Vialidad Provincial · WSESTADORUTAS",
+        "mode": "FALLA",
+        "kind": "rutas-oficial",
+        "url": "https://ww4.neuquen.gov.ar/Pecas/Optic/xroad/monitoreo/auditoria/api/parte",
+        "error": "HTTPError"
+      },
+      {
+        "name": "Vialidad Provincial · WSESTADORUTAS",
+        "mode": "FALLA",
+        "kind": "rutas-oficial",
+        "url": "https://ww4.neuquen.gov.ar/Pecas/Optic/xroad/monitoreo/auditoria/api/rutas",
+        "error": "HTTPError"
+      },
       {
         "name": "Ruta0",
         "mode": "OK",
@@ -1672,11 +1733,11 @@
       "rule": "parte oficial > fuente comunitaria"
     },
     "VIENTO": {
-      "primary": "Open-Meteo",
-      "secondary": "Servicio Meteorológico Nacional",
-      "fallback": "Neuquén Informa",
+      "primary": "AIC",
+      "secondary": "Open-Meteo",
+      "fallback": "Servicio Meteorológico Nacional",
       "refresh": "30 min",
-      "rule": "dato meteorológico directo"
+      "rule": "dato meteorológico directo; si falla no se muestra 0"
     },
     "ENERGÍA": {
       "primary": "EPEN",
@@ -1741,7 +1802,7 @@
       "label": "Conversación general",
       "signal": 3,
       "status": "SEÑAL RECIENTE",
-      "freshnessHours": 2.3,
+      "freshnessHours": 2.5,
       "mode": "evidencia editorial",
       "evidenceCount": 3,
       "sources": [
@@ -1808,10 +1869,10 @@
         "rule": "parte oficial > fuente comunitaria"
       },
       "operational": {
-        "status": "SIN PARTE DIRECTO",
-        "detail": "La fuente de respaldo está disponible, pero el motor no la usa para afirmar transitabilidad vigente sin anclaje específico y fecha reciente.",
+        "status": "PRECAUCIÓN · RESPALDO ACTUAL",
+        "detail": "       En el Ingreso, Limite con la Provincia de Misiones y el transito se desvia por la RP 71 desde Ctes ",
         "source": "Ruta0",
-        "mode": "RESPALDO NO CONCLUYENTE",
+        "mode": "RESPALDO ACTUAL",
         "url": "https://www.ruta0.com/estado-de-rutas/?pag=4"
       }
     },
@@ -1851,10 +1912,10 @@
         "rule": "parte oficial > fuente comunitaria"
       },
       "operational": {
-        "status": "SIN PARTE DIRECTO",
-        "detail": "La fuente de respaldo está disponible, pero el motor no la usa para afirmar transitabilidad vigente sin anclaje específico y fecha reciente.",
+        "status": "PRECAUCIÓN · RESPALDO ACTUAL",
+        "detail": "capas[1108]={dLat:-32.88953,dLon:-68.84462,hLat:-32.98347,hLon:-68.88928,desde:'Mendoza',hasta:'Chacras de Coria',ruta:'RP 82',color:'#dc2626',weight:8,opacity:0.95,estadoSrc:'Reporte de viajero',fechaRel:'hace 4 dias',conInfo:true,idd:66,url:'/estado-de-rutas/rp-82/mendoza/mendoza--chacras-de-coria.htm'};\r",
         "source": "Ruta0",
-        "mode": "RESPALDO NO CONCLUYENTE",
+        "mode": "RESPALDO ACTUAL",
         "url": "https://www.ruta0.com/estado-de-rutas/?pag=4"
       }
     },
@@ -1868,8 +1929,14 @@
       "evidenceCount": 0,
       "sources": [
         {
+          "name": "AIC",
+          "role": "pronóstico de viento para El Chañar",
+          "mode": "DIRECTA-WEB",
+          "url": "https://www.aic.gob.ar/sitio/home?a=1015&z=1967225803"
+        },
+        {
           "name": "Open-Meteo",
-          "role": "viento observado/modelado actual",
+          "role": "respaldo meteorológico",
           "mode": "DIRECTA-API",
           "url": "https://open-meteo.com/"
         },
@@ -1887,11 +1954,11 @@
         }
       ],
       "sourceContract": {
-        "primary": "Open-Meteo",
-        "secondary": "Servicio Meteorológico Nacional",
-        "fallback": "Neuquén Informa",
+        "primary": "AIC",
+        "secondary": "Open-Meteo",
+        "fallback": "Servicio Meteorológico Nacional",
         "refresh": "30 min",
-        "rule": "dato meteorológico directo"
+        "rule": "dato meteorológico directo; si falla no se muestra 0"
       }
     },
     {
@@ -2057,7 +2124,7 @@
       "label": "Educación",
       "signal": 2,
       "status": "SEÑAL DETECTADA",
-      "freshnessHours": 25.6,
+      "freshnessHours": 25.7,
       "mode": "evidencia editorial",
       "evidenceCount": 2,
       "sources": [
@@ -2218,7 +2285,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://chanardigital.com.ar/",
-        "lastFetch": "2026-09-21T00:36:57.363240+00:00",
+        "lastFetch": "2026-09-21T00:47:23.109607+00:00",
         "success": true,
         "attempted": 2,
         "failures": [
@@ -2233,7 +2300,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.radiomia.com.ar/",
-        "lastFetch": "2026-09-21T00:36:58.537035+00:00",
+        "lastFetch": "2026-09-21T00:47:24.116731+00:00",
         "success": true,
         "attempted": 1,
         "failures": [],
@@ -2246,7 +2313,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://tuitvacamuerta.com/",
-        "lastFetch": "2026-09-21T00:37:00.164238+00:00",
+        "lastFetch": "2026-09-21T00:47:25.859920+00:00",
         "success": true,
         "attempted": 1,
         "failures": [],
@@ -2259,7 +2326,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.vacamuertanews.com/",
-        "lastFetch": "2026-09-21T00:37:00.498464+00:00",
+        "lastFetch": "2026-09-21T00:47:26.320677+00:00",
         "success": true,
         "attempted": 2,
         "failures": [
@@ -2274,7 +2341,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.neuqueninforma.gob.ar/",
-        "lastFetch": "2026-09-21T00:37:01.426568+00:00",
+        "lastFetch": "2026-09-21T00:47:27.669601+00:00",
         "success": true,
         "attempted": 3,
         "failures": [
@@ -2290,7 +2357,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://sanpatricio.gob.ar/",
-        "lastFetch": "2026-09-21T00:37:02.431910+00:00",
+        "lastFetch": "2026-09-21T00:47:28.752280+00:00",
         "success": true,
         "attempted": 1,
         "failures": [],
@@ -2303,7 +2370,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://boletinoficial.neuquen.gov.ar/",
-        "lastFetch": "2026-09-21T00:37:03.356218+00:00",
+        "lastFetch": "2026-09-21T00:47:29.540936+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -2318,7 +2385,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.lmneuquen.com/",
-        "lastFetch": "2026-09-21T00:37:03.559173+00:00",
+        "lastFetch": "2026-09-21T00:47:29.932199+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -2334,12 +2401,12 @@
         "mode": "RSS DIRECTO",
         "signals": 1,
         "url": "https://www.rionegro.com.ar/",
-        "lastFetch": "2026-09-21T00:37:05.291539+00:00",
+        "lastFetch": "2026-09-21T00:47:33.835584+00:00",
         "success": true,
         "attempted": 2,
         "failures": [],
         "directAvailability": "available",
-        "freshnessHours": 2.3
+        "freshnessHours": 2.5
       },
       {
         "name": "Mejor Informado",
@@ -2347,7 +2414,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.mejorinformado.com/",
-        "lastFetch": "2026-09-21T00:37:05.814812+00:00",
+        "lastFetch": "2026-09-21T00:47:34.563690+00:00",
         "success": true,
         "attempted": 2,
         "failures": [
@@ -2362,7 +2429,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.diariamenteneuquen.com/",
-        "lastFetch": "2026-09-21T00:37:06.460445+00:00",
+        "lastFetch": "2026-09-21T00:47:35.373816+00:00",
         "success": true,
         "attempted": 2,
         "failures": [
@@ -2387,7 +2454,7 @@
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
-      "topic": "SERVICIOS",
+      "topic": "DEPORTE",
       "movement": 60,
       "coverage": 1,
       "sourceCount": 1,
@@ -2678,7 +2745,7 @@
   ],
   "territorialGraph": {
     "version": "2.0",
-    "generatedAt": "2026-09-21T00:37:20.277993+00:00",
+    "generatedAt": "2026-09-21T00:47:53.024858+00:00",
     "root": "spc",
     "rule": "evidence-first",
     "levels": [
@@ -3268,7 +3335,7 @@
   },
   "audit": {
     "version": "1.0",
-    "updatedAt": "2026-09-21T00:37:20.318051+00:00",
+    "updatedAt": "2026-09-21T00:47:53.052647+00:00",
     "rule": "fact != coverage; territory requires textual evidence",
     "facts": 3,
     "coverage": 3,
