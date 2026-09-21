@@ -127,7 +127,7 @@ TOPIC_RULES=[
  ('MOVILIDAD',['ruta 7','ruta 8','transito','transporte','camiones','estacionamiento','corredor']),
  ('PRODUCCIÓN',['chacra','viñedo','bodega','productor','produccion','agro']),
  ('DEPORTE',['club','deporte','polideportivo','liga','futbol','basquet','regional amateur','deportivo rincon','deportivo roca']),
- ('CULTURA / TURISMO',['cultura','turismo','fiesta','festival','museo','patrimonio']),
+ ('CULTURA / TURISMO',['cultura','turismo','fiesta','festival','museo','patrimonio','wine fest','evento','los pericos','los tipitos']),
  ('INSTITUCIONES',['municipalidad','concejo','ordenanza','obra','licitacion']),
  ('SEGURIDAD / EMERGENCIAS',['bombero','policia','comisaria','emergencia']),
 ]
@@ -358,13 +358,11 @@ def collect_operational():
         if route_raw:
             plain=clean(re.sub(r'\\s+',' ',re.sub(r'<[^>]+>',' ',route_raw)))
             def traveler_report(route_label):
-                patterns=[
-                    r'.{0,180}'+route_label+r'.{0,520}',
-                    r'.{0,180}San Patricio del Chañar.{0,520}'
-                ]
-                for p in patterns:
-                    m=re.search(p,plain,re.I)
-                    if m: return m.group(0)[:800]
+                aliases={'RP 7':r'(?:RP\\s*7|Ruta\\s*7)','RP 8':r'(?:RP\\s*8|Ruta\\s*8)'}
+                for m in re.finditer(aliases[route_label],plain,re.I):
+                    excerpt=plain[max(0,m.start()-280):m.end()+520]
+                    if re.search(r'San Patricio del Chañar|El Chañar|Neuquén',excerpt,re.I):
+                        return excerpt[:800]
                 return ''
             d7=traveler_report('RP 7')
             d8=traveler_report('RP 8')
@@ -407,7 +405,7 @@ def collect_environment():
             env['weather']={'windKmh':float(vm.group(1)),'gustKmh':float(gm.group(1)),'windDirection':dm.group(1) if dm else '—','source':'AIC','mode':'DATO DIRECTO / PRONÓSTICO','observedAt':env['updatedAt']}
             env['sources'].append({'name':'AIC','mode':'OK','url':aic_url})
         else:
-            env['sources'].append({'name':'AIC','mode':'OK_SIN_DATO_PARSEO','url':aic_url})
+            env['sources'].append({'name':'AIC','mode':'RESPONDE_SIN_DATO_EXTRAIBLE','url':aic_url,'detail':'la página respondió pero el HTML entregado al colector no expuso los valores renderizados'})
     except Exception as e:
         env['sources'].append({'name':'AIC','mode':'FALLA','error':type(e).__name__,'url':aic_url})
 
