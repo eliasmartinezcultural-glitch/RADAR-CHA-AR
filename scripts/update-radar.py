@@ -339,15 +339,21 @@ def collect_operational():
     for u in api_urls:
         raw=attempt('Vialidad Provincial · WSESTADORUTAS',u,'rutas-oficial')
         if raw:
-            official=raw; official_url=u; break
+            plain=clean(re.sub(r'\\s+',' ',re.sub(r'<[^>]+>',' ',raw)))
+            if re.search(r'Ruta\\s*7|RP\\s*7|Ruta\\s*Provincial\\s*7',plain,re.I) or re.search(r'Ruta\\s*8|RP\\s*8|Ruta\\s*Provincial\\s*8',plain,re.I):
+                official=raw; official_url=u; break
     if official:
         plain=clean(re.sub(r'\\s+',' ',re.sub(r'<[^>]+>',' ',official)))
         def route_detail(route):
-            m=re.search(r'.{0,220}'+route+r'.{0,520}',plain,re.I)
-            return m.group(0)[:700] if m else 'La API oficial respondió, pero no devolvió un bloque legible asociado a '+route+'.'
-        op['route7']={'status':'PARTE OFICIAL DISPONIBLE','detail':route_detail('Ruta 7'),'source':'WSESTADORUTAS','mode':'DIRECTA-API','url':official_url}
-        op['route8']={'status':'PARTE OFICIAL DISPONIBLE','detail':route_detail('Ruta 8'),'source':'WSESTADORUTAS','mode':'DIRECTA-API','url':official_url}
-    else:
+            aliases={'Ruta 7':r'(?:Ruta\\s*7|RP\\s*7|Ruta\\s*Provincial\\s*7)','Ruta 8':r'(?:Ruta\\s*8|RP\\s*8|Ruta\\s*Provincial\\s*8)'}
+            m=re.search(r'.{0,220}'+aliases[route]+r'.{0,520}',plain,re.I)
+            return m.group(0)[:700] if m else ''
+        d7=route_detail('Ruta 7'); d8=route_detail('Ruta 8')
+        if d7:
+            op['route7']={'status':'PARTE OFICIAL DISPONIBLE','detail':d7,'source':'WSESTADORUTAS','mode':'DIRECTA-API','url':official_url}
+        if d8:
+            op['route8']={'status':'PARTE OFICIAL DISPONIBLE','detail':d8,'source':'WSESTADORUTAS','mode':'DIRECTA-API','url':official_url}
+    if not op.get('route7') or not op.get('route8'):
         route_raw=attempt('Ruta0','https://www.ruta0.com/estado-de-rutas/?pag=4','rutas')
         if route_raw:
             plain=clean(re.sub(r'\\s+',' ',re.sub(r'<[^>]+>',' ',route_raw)))
@@ -362,27 +368,24 @@ def collect_operational():
                 return ''
             d7=traveler_report('RP 7')
             d8=traveler_report('RP 8')
-            if d7:
-                op['route7']={'status':'PRECAUCIÓN · RESPALDO ACTUAL','detail':d7,'source':'Ruta0','mode':'RESPALDO ACTUAL','url':'https://www.ruta0.com/estado-de-rutas/?pag=4'}
-            else:
-                op['route7']={'status':'SIN PARTE DIRECTO','detail':'No se encontró un reporte actual específico para RP7 en la fuente de respaldo.','source':'Ruta0','mode':'RESPALDO SIN PARTE','url':'https://www.ruta0.com/estado-de-rutas/?pag=4'}
-            if d8:
-                op['route8']={'status':'PRECAUCIÓN · RESPALDO ACTUAL','detail':d8,'source':'Ruta0','mode':'RESPALDO ACTUAL','url':'https://www.ruta0.com/estado-de-rutas/?pag=4'}
-            else:
-                op['route8']={'status':'SIN PARTE DIRECTO','detail':'No se encontró un reporte actual específico para RP8 en la fuente de respaldo.','source':'Ruta0','mode':'RESPALDO SIN PARTE','url':'https://www.ruta0.com/estado-de-rutas/?pag=4'}
+            if not op.get('route7'):
+                op['route7']={'status':'PRECAUCIÓN · RESPALDO ACTUAL' if d7 else 'SIN PARTE DIRECTO','detail':d7 or 'No se encontró un reporte actual específico para RP7 en la fuente de respaldo.','source':'Ruta0','mode':'RESPALDO ACTUAL' if d7 else 'RESPALDO SIN PARTE','url':'https://www.ruta0.com/estado-de-rutas/?pag=4'}
+            if not op.get('route8'):
+                op['route8']={'status':'PRECAUCIÓN · RESPALDO ACTUAL' if d8 else 'SIN PARTE DIRECTO','detail':d8 or 'No se encontró un reporte actual específico para RP8 en la fuente de respaldo.','source':'Ruta0','mode':'RESPALDO ACTUAL' if d8 else 'RESPALDO SIN PARTE','url':'https://www.ruta0.com/estado-de-rutas/?pag=4'}
 
     eurl='https://www.epen.gov.ar/index.php/cortes-programados/'
     eraw=attempt('EPEN',eurl,'energia')
     if eraw:
         et=re.sub(r'<[^>]+>',' ',eraw); et=clean(re.sub(r'\\s+',' ',et))
         hits=[m.group(0) for m in re.finditer(r'.{0,180}(?:San Patricio del Chañar|El Chañar).{0,360}',et,re.I)]
-        op['energy']={'status':'PARTE EPEN DISPONIBLE' if hits else 'SIN PARTE DIRECTO','detail':' '.join(hits[:3])[:900] if hits else 'La fuente EPEN responde, pero no se encontró en su página de cortes un parte específico vigente para Chañar.','source':'EPEN','mode':'DIRECTA-WEB','url':eurl}
+        recent=re.search(r'(?:19|20|21|22|23|24|25)/09/2026',et)
+        op['energy']={'status':'PARTE EPEN DISPONIBLE' if hits and recent else ('REFERENCIA HISTÓRICA · SIN PARTE VIGENTE' if hits else 'SIN PARTE DIRECTO'),'detail':' '.join(hits[:3])[:900] if hits else 'La fuente EPEN responde, pero no se encontró un parte específico para Chañar.','source':'EPEN','mode':'DIRECTA-WEB','url':eurl}
 
     murl='https://sanpatricio.gob.ar/'
     mraw=attempt('Municipalidad de San Patricio del Chañar',murl,'agua')
     if mraw:
         mt=re.sub(r'<[^>]+>',' ',mraw); mt=clean(re.sub(r'\\s+',' ',mt))
-        hits=[m.group(0) for m in re.finditer(r'.{0,160}(?:agua|abastecimiento|servicio).{0,300}',mt,re.I)]
+        hits=[m.group(0) for m in re.finditer(r'.{0,160}(?:corte de agua|abastecimiento|baja presión|interrupción|restablecimiento).{0,300}',mt,re.I)]
         op['water']={'status':'PARTE MUNICIPAL' if hits else 'SIN PARTE DIRECTO','detail':' '.join(hits[:2])[:700] if hits else 'La portada municipal responde, pero no expone un parte operativo de agua vigente.','source':'Municipalidad de San Patricio del Chañar','mode':'DIRECTA-WEB','url':murl}
     return op
 
@@ -413,12 +416,24 @@ def collect_environment():
         hurl='https://www.aic.gob.ar/sitio/caudales'
         hraw=fetch(hurl).decode('utf-8','ignore')
         ht=clean(re.sub(r'<[^>]+>',' ',hraw))
-        hm=re.search(r'El Chañar\\s+([0-9]+)\\s+([0-9]+).*?([0-9]{2}/[0-9]{2}/[0-9]{4})',ht,re.I|re.S)
-        if hm:
-            env['hydrology']={'site':'El Chañar','minM3s':float(hm.group(1)),'maxM3s':float(hm.group(2)),'date':hm.group(3),'source':'AIC','mode':'CAUDAL PROGRAMADO','url':hurl}
+        # La tabla de AIC tiene una fila de erogado, una fila de máximos y otra de mínimos.
+        # Buscamos la posición de la fecha de hoy dentro del encabezado y luego la misma
+        # posición dentro de ambas filas. Así evitamos confundir el erogado histórico
+        # con el caudal programado del día.
+        target=NOW.astimezone().strftime('%d/%m/%Y')
+        header_dates=re.findall(r'\\b\\d{2}/\\d{2}/\\d{4}\\b',ht[:2200])
+        pos=header_dates.index(target) if target in header_dates else None
+        anchor=ht.lower().find('el chañar')
+        block=ht[anchor:anchor+900] if anchor>=0 else ''
+        nums=[int(n) for n in re.findall(r'(?<![a-záéíóúñ])\\d+(?![a-záéíóúñ])',block,re.I)]
+        # nums = [erogado] + 7 máximos + 7 mínimos en la tabla actual.
+        if pos is not None and len(nums)>=15 and 0 <= pos < 7:
+            max_v=nums[1+pos]
+            min_v=nums[8+pos]
+            env['hydrology']={'site':'El Chañar','minM3s':float(min_v),'maxM3s':float(max_v),'date':target,'source':'AIC','mode':'CAUDAL PROGRAMADO','url':hurl,'observedAt':env['updatedAt']}
             env['sources'].append({'name':'AIC · Caudales','mode':'OK','url':hurl})
         else:
-            env['sources'].append({'name':'AIC · Caudales','mode':'OK_SIN_DATO_PARSEO','url':hurl})
+            env['sources'].append({'name':'AIC · Caudales','mode':'OK_SIN_DATO_PARSEO','url':hurl,'detail':'tabla accesible sin coincidencia segura de fecha/columnas'})
     except Exception as e:
         env['sources'].append({'name':'AIC · Caudales','mode':'FALLA','error':type(e).__name__,'url':'https://www.aic.gob.ar/sitio/caudales'})
 
@@ -592,6 +607,28 @@ def build_events(items,old_events):
 
 dedup=dedup[:240]
 events=build_events(dedup,old.get('events',[]))
+
+# INCIDENCIA no es una segunda lista de noticias.
+# Es una capa de hechos con capacidad de afectar/explicar algo local y con anclaje
+# territorial verificable. Señales queda reservada al movimiento informativo que no
+# entra en esa capa, evitando repetir el mismo hecho en dos lugares.
+INCIDENCE_TOPICS={'SALUD','EDUCACIÓN','MOVILIDAD','SERVICIOS','SEGURIDAD / EMERGENCIAS','INSTITUCIONES','PRODUCCIÓN'}
+def incidence_eligible(e):
+    anchors_set=set(e.get('territorialAnchors',[]))
+    strong_anchor=bool(anchors_set)
+    operational_topic=e.get('topic') in INCIDENCE_TOPICS
+    direct=e.get('relevance',0)>=3
+    # Deportes/cultura pueden ser señales, pero no se convierten automáticamente
+    # en "incidencia" sin un contrato operativo específico.
+    return bool(strong_anchor and direct and operational_topic)
+
+incidence_ids={e.get('eventId') for e in events if incidence_eligible(e)}
+for e in events:
+    e['view']='INCIDENCIA' if e.get('eventId') in incidence_ids else 'SEÑAL'
+    e['incidenceEligible']=e.get('eventId') in incidence_ids
+    e['signalReason']='movimiento informativo / cobertura / diversidad de fuentes' if not e['incidenceEligible'] else 'reservado a incidencia territorial'
+    e['incidenceReason']='anclaje directo + tema operativo/local' if e['incidenceEligible'] else None
+
 environment=collect_environment()
 operational=collect_operational()
 system_radars=build_system_radars(events,environment)

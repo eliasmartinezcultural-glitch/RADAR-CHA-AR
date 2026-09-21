@@ -69,10 +69,10 @@ section{padding:46px 0;border-top:1px solid rgba(22,50,58,.75);scroll-margin-top
 </section>
 
 <section id="incidencia">
- <div class="sectionhead"><h2>03 · Incidencia</h2><p>noticias con anclaje verificable en Chañar</p></div>
+ <div class="sectionhead"><h2>03 · Incidencia</h2><p>hechos locales con incidencia verificable · no repite la capa de señales</p></div>
  <div class="incidence">
   <div class="incidence-main" id="incidence-list"></div>
-  <div class="incidence-note"><strong id="incidence-count">—</strong><span class="smallcap">hechos con incidencia</span><p>El motor exige localidad, institución, barrio, picada, corredor, servicio u otro nodo territorial identificable.</p><p>Una noticia regional no se vuelve local por proximidad: primero debe demostrar el vínculo.</p></div>
+  <div class="incidence-note"><strong id="incidence-count">—</strong><span class="smallcap">hechos locales con incidencia</span><p>El motor exige anclaje territorial directo y un tema operativo: salud, educación, movilidad, servicios, emergencias, instituciones o producción.</p><p>La capa de señales y esta capa son distintas: un hecho aparece aquí solo cuando supera el contrato de incidencia.</p></div>
  </div>
 </section>
 
@@ -95,7 +95,7 @@ section{padding:46px 0;border-top:1px solid rgba(22,50,58,.75);scroll-margin-top
 </section>
 </main>
 
-<footer class="wrap"><div>RADAR CHAÑAR · OCARINA PRODUCCIONES</div><div>v3.0 · evidencia primero · actualización automática · 2026-09-21</div></footer>
+<footer class="wrap"><div>RADAR CHAÑAR · OCARINA PRODUCCIONES</div><div>v3.1 · evidencia primero · señales ≠ incidencia · actualización automática</div></footer>
 
 <script>
 const esc=s=>String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[m]));
@@ -146,15 +146,17 @@ function render(d){
  requestAnimationFrame(()=>document.querySelectorAll('.card').forEach(x=>x.classList.add('show')));
 
  const sorted=ev.slice().sort((a,b)=>new Date(b.publishedAt)-new Date(a.publishedAt));
- document.getElementById('events').innerHTML=sorted.slice(0,6).map((x,i)=>{
+ const signalView=sorted.filter(x=>x.view!=='INCIDENCIA');
+ document.getElementById('events').innerHTML=signalView.slice(0,6).map((x,i)=>{
    const anchors=(x.territorialAnchors||[]).slice(0,3).join(' · ');
-   const href=x.evidenceUrl||x.url||'';
-   return '<article class="item fadein" style="animation-delay:'+i*70+'ms"><div class="itemtop"><h3>'+esc(x.title)+'</h3><time>'+fmt(x.publishedAt)+'</time></div><p>'+esc(x.description||anchors||'Señal detectada con evidencia territorial.')+'</p><span class="pill">'+esc(x.relevanceLabel||'LOCAL')+' · '+esc(x.topic||'OTROS')+' · '+esc(x.source||'fuente')+'</span><div class="eventbar"><i style="--w:'+Math.min(100,45+(x.sourceCount||1)*18)+'%"></i></div></article>'
- }).join('')||'<div class="empty">Esperando señales verificadas.</div>';
- const ticker=(sorted.slice(0,5).map(x=>x.title).join('  ·  ')||'sin novedades destacadas')+'  ·  actualización automática  ·  ';
+   const movement=x.movement!=null?'MOVIMIENTO '+x.movement:'SEÑAL';
+   const life=x.lifecycle||'RECIENTE';
+   return '<article class="item fadein" style="animation-delay:'+i*70+'ms"><div class="itemtop"><h3>'+esc(x.title)+'</h3><time>'+fmt(x.publishedAt)+'</time></div><p>'+esc(x.description||anchors||'Señal detectada con evidencia territorial.')+'</p><span class="pill">'+esc(movement)+' · '+esc(life)+' · '+esc(x.topic||'OTROS')+' · '+esc(x.sourceCount||1)+' fuentes</span><div class="eventbar"><i style="--w:'+Math.min(100,35+(x.sourceCount||1)*18)+'%"></i></div></article>'
+ }).join('')||'<div class="empty">Esperando señales fuera de la capa de incidencia.</div>';
+ const ticker=(signalView.slice(0,5).map(x=>x.title).join('  ·  ')||'sin novedades fuera de incidencia')+'  ·  actualización automática  ·  ';
  document.getElementById('ticker').textContent=ticker+ticker;
 
- const incidence=sorted.filter(x=>x.incidenceLabel==='DIRECTA EN CHANAR'||x.incidenceLabel==='ANCLA TERRITORIAL');
+ const incidence=sorted.filter(x=>x.view==='INCIDENCIA');
  animateNumber(document.getElementById('incidence-count'),incidence.length);
  document.getElementById('incidence-list').innerHTML=incidence.slice(0,5).map((x,i)=>{
    const href=x.evidenceUrl||x.url||'';
