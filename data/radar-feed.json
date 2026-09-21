@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-21T01:16:08.493275+00:00",
+  "updatedAt": "2026-09-21T01:21:21.166616+00:00",
   "window": "14 días",
   "purpose": "Detectar qué se está moviendo en San Patricio del Chañar y mostrar de dónde surge cada señal.",
   "architecture": "25 fuentes profesionales + búsquedas dirigidas + fuentes directas + web directa + respaldo + memoria de eventos + ciclo de vida + incidencia territorial + evidencia + salud de fuentes + radares de infraestructura + ambiente",
@@ -49,7 +49,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://chanardigital.com.ar/",
-      "lastFetch": "2026-09-21T01:15:49.425982+00:00",
+      "lastFetch": "2026-09-21T01:21:07.024424+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -65,7 +65,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.radiomia.com.ar/",
-      "lastFetch": "2026-09-21T01:15:50.399335+00:00",
+      "lastFetch": "2026-09-21T01:21:08.316653+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -80,7 +80,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://tuitvacamuerta.com/",
-      "lastFetch": "2026-09-21T01:15:52.046832+00:00",
+      "lastFetch": "2026-09-21T01:21:10.182883+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -95,7 +95,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.vacamuertanews.com/",
-      "lastFetch": "2026-09-21T01:15:52.329370+00:00",
+      "lastFetch": "2026-09-21T01:21:10.895737+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -111,7 +111,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.neuqueninforma.gob.ar/",
-      "lastFetch": "2026-09-21T01:15:53.458289+00:00",
+      "lastFetch": "2026-09-21T01:21:12.379476+00:00",
       "success": false,
       "attempted": 3,
       "failures": [
@@ -128,7 +128,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://sanpatricio.gob.ar/",
-      "lastFetch": "2026-09-21T01:15:54.399823+00:00",
+      "lastFetch": "2026-09-21T01:21:13.468024+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -143,7 +143,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://boletinoficial.neuquen.gov.ar/",
-      "lastFetch": "2026-09-21T01:15:55.118808+00:00",
+      "lastFetch": "2026-09-21T01:21:14.544862+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -158,7 +158,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.lmneuquen.com/",
-      "lastFetch": "2026-09-21T01:15:55.326290+00:00",
+      "lastFetch": "2026-09-21T01:21:14.738276+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -174,7 +174,7 @@
       "mode": "RSS DIRECTO",
       "signals": 1,
       "url": "https://www.rionegro.com.ar/",
-      "lastFetch": "2026-09-21T01:15:59.587507+00:00",
+      "lastFetch": "2026-09-21T01:21:15.205127+00:00",
       "success": true,
       "attempted": 2,
       "failures": [
@@ -189,7 +189,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.mejorinformado.com/",
-      "lastFetch": "2026-09-21T01:15:59.872032+00:00",
+      "lastFetch": "2026-09-21T01:21:15.771613+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -205,7 +205,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.diariamenteneuquen.com/",
-      "lastFetch": "2026-09-21T01:16:00.638087+00:00",
+      "lastFetch": "2026-09-21T01:21:16.553045+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -386,11 +386,11 @@
       "group": "LOCAL",
       "role": "medio local",
       "url": "https://chanardigital.com.ar/",
-      "signals": 0,
-      "directSignals": 0,
+      "signals": 1,
+      "directSignals": 1,
       "anchoredSignals": 0,
-      "lastSeen": null,
-      "status": "SIN SEÑALES EN VENTANA",
+      "lastSeen": "2026-09-10T17:56:38+00:00",
+      "status": "CON SEÑALES",
       "note": "ausencia de señales no equivale a ausencia del hecho"
     },
     {
@@ -995,12 +995,14 @@
         "source": "Chañar Digital",
         "group": "LOCAL",
         "role": "medio local",
-        "accepted": 0,
-        "direct": 0,
+        "accepted": 1,
+        "direct": 1,
         "anchored": 0,
         "falsePositives": 0,
         "falsePositiveTypes": [],
-        "topics": []
+        "topics": [
+          "EDUCACIÓN"
+        ]
       },
       {
         "source": "Consejo Provincial de Educación",
@@ -1262,22 +1264,20 @@
         "falsePositives": 0,
         "falsePositiveTypes": [],
         "topics": []
-      },
+      }
+    ],
+    "matrix": [
       {
-        "source": "chanardigital.com.ar",
-        "group": "OBSERVADA",
-        "role": "fuente detectada fuera del catálogo",
+        "source": "Chañar Digital",
+        "topic": "EDUCACIÓN",
         "accepted": 1,
         "direct": 1,
         "anchored": 0,
         "falsePositives": 0,
-        "falsePositiveTypes": [],
-        "topics": [
-          "EDUCACIÓN"
+        "territorialTerms": [
+          "cpem 31"
         ]
-      }
-    ],
-    "matrix": [
+      },
       {
         "source": "Diario Neuquino",
         "topic": "EDUCACIÓN",
@@ -1338,17 +1338,6 @@
         "territorialTerms": [
           "san patricio del chañar",
           "el chañar"
-        ]
-      },
-      {
-        "source": "chanardigital.com.ar",
-        "topic": "EDUCACIÓN",
-        "accepted": 1,
-        "direct": 1,
-        "anchored": 0,
-        "falsePositives": 0,
-        "territorialTerms": [
-          "cpem 31"
         ]
       }
     ],
@@ -1718,13 +1707,13 @@
     },
     "hydrology": {
       "site": "El Chañar",
-      "minM3s": null,
-      "maxM3s": null,
-      "date": null,
+      "minM3s": 0.0,
+      "maxM3s": 0.0,
+      "date": "21/09/2026",
       "source": "AIC",
-      "mode": "FUENTE ACTIVA · TABLA EN ACTUALIZACIÓN",
+      "mode": "TABLA ACTIVA · VALOR DE RESERVA",
       "url": "https://www.aic.gob.ar/sitio/caudales",
-      "observedAt": "2026-09-21T01:15:46.989367+00:00"
+      "observedAt": "2026-09-21T01:21:04.639283+00:00"
     },
     "sources": [
       {
@@ -1748,10 +1737,10 @@
         "url": "https://www.aic.gob.ar/sitio/caudales"
       }
     ],
-    "updatedAt": "2026-09-21T01:15:46.989367+00:00"
+    "updatedAt": "2026-09-21T01:21:04.639283+00:00"
   },
   "operational": {
-    "updatedAt": "2026-09-21T01:16:11.895051+00:00",
+    "updatedAt": "2026-09-21T01:21:24.747156+00:00",
     "route7": {
       "status": "SEGUIMIENTO ACTIVO",
       "detail": "Seguimiento activo del corredor Añelo–Chañar; la fuente no publicó una alerta específica en esta lectura.",
@@ -1760,10 +1749,10 @@
       "url": "https://www.ruta0.com/ruta/argentina/anelo-a-san-patricio-del-chanar/"
     },
     "route8": {
-      "status": "SIN PARTE DIRECTO",
+      "status": "SEGUIMIENTO ACTIVO",
       "detail": "No se encontró un reporte actual específico para RP8 en la fuente de respaldo.",
       "source": "Ruta0",
-      "mode": "RESPALDO SIN PARTE",
+      "mode": "SEGUIMIENTO ACTIVO",
       "url": "https://www.ruta0.com/estado-de-rutas/?pag=4"
     },
     "energy": {
@@ -2017,10 +2006,10 @@
         "rule": "parte oficial > fuente comunitaria"
       },
       "operational": {
-        "status": "SIN PARTE DIRECTO",
+        "status": "SEGUIMIENTO ACTIVO",
         "detail": "No se encontró un reporte actual específico para RP8 en la fuente de respaldo.",
         "source": "Ruta0",
-        "mode": "RESPALDO SIN PARTE",
+        "mode": "SEGUIMIENTO ACTIVO",
         "url": "https://www.ruta0.com/estado-de-rutas/?pag=4"
       }
     },
@@ -2071,7 +2060,7 @@
       "label": "Electricidad / cortes de luz",
       "signal": 1,
       "status": "SEÑAL DETECTADA",
-      "freshnessHours": 330.3,
+      "freshnessHours": 330.4,
       "mode": "evidencia editorial",
       "evidenceCount": 1,
       "sources": [
@@ -2229,7 +2218,7 @@
       "label": "Educación",
       "signal": 2,
       "status": "SEÑAL DETECTADA",
-      "freshnessHours": 26.2,
+      "freshnessHours": 26.3,
       "mode": "evidencia editorial",
       "evidenceCount": 2,
       "sources": [
@@ -2390,7 +2379,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://chanardigital.com.ar/",
-        "lastFetch": "2026-09-21T01:15:49.425982+00:00",
+        "lastFetch": "2026-09-21T01:21:07.024424+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -2406,7 +2395,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.radiomia.com.ar/",
-        "lastFetch": "2026-09-21T01:15:50.399335+00:00",
+        "lastFetch": "2026-09-21T01:21:08.316653+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -2421,7 +2410,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://tuitvacamuerta.com/",
-        "lastFetch": "2026-09-21T01:15:52.046832+00:00",
+        "lastFetch": "2026-09-21T01:21:10.182883+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -2436,7 +2425,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.vacamuertanews.com/",
-        "lastFetch": "2026-09-21T01:15:52.329370+00:00",
+        "lastFetch": "2026-09-21T01:21:10.895737+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -2452,7 +2441,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.neuqueninforma.gob.ar/",
-        "lastFetch": "2026-09-21T01:15:53.458289+00:00",
+        "lastFetch": "2026-09-21T01:21:12.379476+00:00",
         "success": false,
         "attempted": 3,
         "failures": [
@@ -2469,7 +2458,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://sanpatricio.gob.ar/",
-        "lastFetch": "2026-09-21T01:15:54.399823+00:00",
+        "lastFetch": "2026-09-21T01:21:13.468024+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -2484,7 +2473,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://boletinoficial.neuquen.gov.ar/",
-        "lastFetch": "2026-09-21T01:15:55.118808+00:00",
+        "lastFetch": "2026-09-21T01:21:14.544862+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -2499,7 +2488,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.lmneuquen.com/",
-        "lastFetch": "2026-09-21T01:15:55.326290+00:00",
+        "lastFetch": "2026-09-21T01:21:14.738276+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -2515,7 +2504,7 @@
         "mode": "RSS DIRECTO",
         "signals": 1,
         "url": "https://www.rionegro.com.ar/",
-        "lastFetch": "2026-09-21T01:15:59.587507+00:00",
+        "lastFetch": "2026-09-21T01:21:15.205127+00:00",
         "success": true,
         "attempted": 2,
         "failures": [
@@ -2530,7 +2519,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.mejorinformado.com/",
-        "lastFetch": "2026-09-21T01:15:59.872032+00:00",
+        "lastFetch": "2026-09-21T01:21:15.771613+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -2546,7 +2535,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.diariamenteneuquen.com/",
-        "lastFetch": "2026-09-21T01:16:00.638087+00:00",
+        "lastFetch": "2026-09-21T01:21:16.553045+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -2751,8 +2740,8 @@
       }
     },
     {
-      "eventId": "CHA-1ce621fdd77b",
-      "title": "Violento episodio en el CPEM 31: un padre ingresó al colegio con un arma blanca - chanardigital.com.ar",
+      "eventId": "CHA-1e572d3f2930",
+      "title": "Violento episodio en el CPEM 31: un padre ingresó al colegio con un arma blanca - Chañar Digital",
       "publishedAt": "2026-09-10T17:56:38+00:00",
       "firstSeen": "2026-09-21T00:59:40.731423+00:00",
       "lastSeen": "2026-09-10T17:56:38+00:00",
@@ -2768,17 +2757,17 @@
         "cpem 31"
       ],
       "sources": [
-        "chanardigital.com.ar"
+        "Chañar Digital"
       ],
       "evidenceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNaDU2elBEeFZ2X21INm5TSVdQd2NjaDI1V3VfYmZmZjNZTkQ2MGpSQ0N2dTNBUEZHSXQ3a2tHeTlUYWlTMlJIbDVOXy1Rb1RLOWhJS1ZxWktabDJDZy1NREpZV1o1c2hSbGJySmRsMkRUUUJWTFppTm9kTVVaZEtDeS1fR3RVUkVyUnYzN0tZSVdUVjVOek1rbGlsVmV5emFaRGdPZlBJc043VW5kdzltRV9fejlELUg4djEzd2Z3X1loOGc2bXBzeUg2MnY?oc=5",
       "items": [
         {
-          "title": "Violento episodio en el CPEM 31: un padre ingresó al colegio con un arma blanca - chanardigital.com.ar",
+          "title": "Violento episodio en el CPEM 31: un padre ingresó al colegio con un arma blanca - Chañar Digital",
           "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNaDU2elBEeFZ2X21INm5TSVdQd2NjaDI1V3VfYmZmZjNZTkQ2MGpSQ0N2dTNBUEZHSXQ3a2tHeTlUYWlTMlJIbDVOXy1Rb1RLOWhJS1ZxWktabDJDZy1NREpZV1o1c2hSbGJySmRsMkRUUUJWTFppTm9kTVVaZEtDeS1fR3RVUkVyUnYzN0tZSVdUVjVOek1rbGlsVmV5emFaRGdPZlBJc043VW5kdzltRV9fejlELUg4djEzd2Z3X1loOGc2bXBzeUg2MnY?oc=5",
           "publishedAt": "2026-09-10T17:56:38+00:00",
           "published": "2026-09-10T17:56:38+00:00",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMizAFBVV95cUxNaDU2elBEeFZ2X21INm5TSVdQd2NjaDI1V3VfYmZmZjNZTkQ2MGpSQ0N2dTNBUEZHSXQ3a2tHeTlUYWlTMlJIbDVOXy1Rb1RLOWhJS1ZxWktabDJDZy1NREpZV1o1c2hSbGJySmRsMkRUUUJWTFppTm9kTVVaZEtDeS1fR3RVUkVyUnYzN0tZSVdUVjVOek1rbGlsVmV5emFaRGdPZlBJc043VW5kdzltRV9fejlELUg4djEzd2Z3X1loOGc2bXBzeUg2MnY?oc=5\" target=\"_blank\">Violento episodio en el CPEM 31: un padre ingresó al colegio con un arma blanca</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">chanardigital.com.ar</font>",
-          "source": "chanardigital.com.ar",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMizAFBVV95cUxNaDU2elBEeFZ2X21INm5TSVdQd2NjaDI1V3VfYmZmZjNZTkQ2MGpSQ0N2dTNBUEZHSXQ3a2tHeTlUYWlTMlJIbDVOXy1Rb1RLOWhJS1ZxWktabDJDZy1NREpZV1o1c2hSbGJySmRsMkRUUUJWTFppTm9kTVVaZEtDeS1fR3RVUkVyUnYzN0tZSVdUVjVOek1rbGlsVmV5emFaRGdPZlBJc043VW5kdzltRV9fejlELUg4djEzd2Z3X1loOGc2bXBzeUg2MnY?oc=5\" target=\"_blank\">Violento episodio en el CPEM 31: un padre ingresó al colegio con un arma blanca</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Chañar Digital</font>",
+          "source": "Chañar Digital",
           "sourceType": "BUSCADOR / RESPALDO",
           "sourceUrl": "",
           "collection": "BUSCADOR",
@@ -2787,7 +2776,7 @@
           "relevanceLabel": "DIRECTA",
           "firstSeen": "2026-09-21T00:59:40.731423+00:00",
           "isNew": false,
-          "titleKey": "violento episodio cpem padre ingreso colegio arma blanca chanardigital com",
+          "titleKey": "violento episodio cpem padre ingreso colegio arma blanca digital",
           "evidenceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNaDU2elBEeFZ2X21INm5TSVdQd2NjaDI1V3VfYmZmZjNZTkQ2MGpSQ0N2dTNBUEZHSXQ3a2tHeTlUYWlTMlJIbDVOXy1Rb1RLOWhJS1ZxWktabDJDZy1NREpZV1o1c2hSbGJySmRsMkRUUUJWTFppTm9kTVVaZEtDeS1fR3RVUkVyUnYzN0tZSVdUVjVOek1rbGlsVmV5emFaRGdPZlBJc043VW5kdzltRV9fejlELUg4djEzd2Z3X1loOGc2bXBzeUg2MnY?oc=5",
           "sourcePriority": 3
         }
@@ -2796,7 +2785,7 @@
       "movementDelta": 0,
       "previousCoverage": 1,
       "newSources": [
-        "chanardigital.com.ar"
+        "Chañar Digital"
       ],
       "sourceDiversity": 1,
       "memoryMatched": true,
@@ -3055,12 +3044,12 @@
       "sourcePriority": 3
     },
     {
-      "title": "Violento episodio en el CPEM 31: un padre ingresó al colegio con un arma blanca - chanardigital.com.ar",
+      "title": "Violento episodio en el CPEM 31: un padre ingresó al colegio con un arma blanca - Chañar Digital",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNaDU2elBEeFZ2X21INm5TSVdQd2NjaDI1V3VfYmZmZjNZTkQ2MGpSQ0N2dTNBUEZHSXQ3a2tHeTlUYWlTMlJIbDVOXy1Rb1RLOWhJS1ZxWktabDJDZy1NREpZV1o1c2hSbGJySmRsMkRUUUJWTFppTm9kTVVaZEtDeS1fR3RVUkVyUnYzN0tZSVdUVjVOek1rbGlsVmV5emFaRGdPZlBJc043VW5kdzltRV9fejlELUg4djEzd2Z3X1loOGc2bXBzeUg2MnY?oc=5",
       "publishedAt": "2026-09-10T17:56:38+00:00",
       "published": "2026-09-10T17:56:38+00:00",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMizAFBVV95cUxNaDU2elBEeFZ2X21INm5TSVdQd2NjaDI1V3VfYmZmZjNZTkQ2MGpSQ0N2dTNBUEZHSXQ3a2tHeTlUYWlTMlJIbDVOXy1Rb1RLOWhJS1ZxWktabDJDZy1NREpZV1o1c2hSbGJySmRsMkRUUUJWTFppTm9kTVVaZEtDeS1fR3RVUkVyUnYzN0tZSVdUVjVOek1rbGlsVmV5emFaRGdPZlBJc043VW5kdzltRV9fejlELUg4djEzd2Z3X1loOGc2bXBzeUg2MnY?oc=5\" target=\"_blank\">Violento episodio en el CPEM 31: un padre ingresó al colegio con un arma blanca</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">chanardigital.com.ar</font>",
-      "source": "chanardigital.com.ar",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMizAFBVV95cUxNaDU2elBEeFZ2X21INm5TSVdQd2NjaDI1V3VfYmZmZjNZTkQ2MGpSQ0N2dTNBUEZHSXQ3a2tHeTlUYWlTMlJIbDVOXy1Rb1RLOWhJS1ZxWktabDJDZy1NREpZV1o1c2hSbGJySmRsMkRUUUJWTFppTm9kTVVaZEtDeS1fR3RVUkVyUnYzN0tZSVdUVjVOek1rbGlsVmV5emFaRGdPZlBJc043VW5kdzltRV9fejlELUg4djEzd2Z3X1loOGc2bXBzeUg2MnY?oc=5\" target=\"_blank\">Violento episodio en el CPEM 31: un padre ingresó al colegio con un arma blanca</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Chañar Digital</font>",
+      "source": "Chañar Digital",
       "sourceType": "BUSCADOR / RESPALDO",
       "sourceUrl": "",
       "collection": "BUSCADOR",
@@ -3069,7 +3058,7 @@
       "relevanceLabel": "DIRECTA",
       "firstSeen": "2026-09-21T00:59:40.731423+00:00",
       "isNew": false,
-      "titleKey": "violento episodio cpem padre ingreso colegio arma blanca chanardigital com",
+      "titleKey": "violento episodio cpem padre ingreso colegio arma blanca digital",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNaDU2elBEeFZ2X21INm5TSVdQd2NjaDI1V3VfYmZmZjNZTkQ2MGpSQ0N2dTNBUEZHSXQ3a2tHeTlUYWlTMlJIbDVOXy1Rb1RLOWhJS1ZxWktabDJDZy1NREpZV1o1c2hSbGJySmRsMkRUUUJWTFppTm9kTVVaZEtDeS1fR3RVUkVyUnYzN0tZSVdUVjVOek1rbGlsVmV5emFaRGdPZlBJc043VW5kdzltRV9fejlELUg4djEzd2Z3X1loOGc2bXBzeUg2MnY?oc=5",
       "sourcePriority": 3
     },
@@ -3114,7 +3103,7 @@
   ],
   "territorialGraph": {
     "version": "2.0",
-    "generatedAt": "2026-09-21T01:16:20.196406+00:00",
+    "generatedAt": "2026-09-21T01:21:31.131759+00:00",
     "root": "spc",
     "rule": "evidence-first",
     "levels": [
@@ -3671,7 +3660,7 @@
         "spc",
         "epet-26"
       ],
-      "CHA-1ce621fdd77b": [
+      "CHA-1e572d3f2930": [
         "spc",
         "cpem-31"
       ],
@@ -3717,7 +3706,7 @@
   },
   "audit": {
     "version": "1.0",
-    "updatedAt": "2026-09-21T01:16:20.241191+00:00",
+    "updatedAt": "2026-09-21T01:21:31.228854+00:00",
     "rule": "fact != coverage; territory requires textual evidence",
     "facts": 5,
     "coverage": 6,
