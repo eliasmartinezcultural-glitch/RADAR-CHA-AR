@@ -307,7 +307,7 @@ SOURCE_CONTRACTS = {
     'RUTA 7': {
         'primary': 'Dirección Provincial de Vialidad del Neuquén',
         'secondary': 'WSESTADORUTAS · sistema oficial de estado vial',
-        'fallback': 'Ruta0 · referencia secundaria',
+        'fallback': 'ninguno para estado operativo',
         'refresh': '30 min',
         'domain': 'estado de transitabilidad, cortes, obras y restricciones',
         'unit': 'estado vial / tramo / horario',
@@ -337,7 +337,7 @@ SOURCE_CONTRACTS = {
     'CAUDAL': {
         'primary': 'Autoridad Interjurisdiccional de las Cuencas (AIC) · Caudales Programados',
         'secondary': 'AIC · mediciones hidrológicas',
-        'fallback': 'último valor AIC confirmado, únicamente como dato histórico',
+        'fallback': 'ninguno para dato actual; histórico solo fuera del indicador operativo',
         'refresh': '30 min',
         'domain': 'caudal programado/medido del sistema hídrico asociado a El Chañar',
         'unit': 'm³/s',
@@ -405,7 +405,7 @@ SOURCE_CONTRACTS = {
         'rule': 'distinguir dato productivo de noticia general'
     },
     'EMERGENCIAS': {
-        'primary': 'Secretaría/Dirección Provincial de Emergencias y Gestión de Riesgos / Defensa Civil Neuquén',
+        'primary': 'Secretaría de Emergencias y Gestión de Riesgos de la Provincia del Neuquén',
         'secondary': 'Bomberos Voluntarios de San Patricio del Chañar',
         'fallback': 'Municipalidad de San Patricio del Chañar',
         'refresh': '15 min',
@@ -629,13 +629,24 @@ def build_system_radars(events, environment):
             matches=sum(1 for e in events if any(t in norm(e.get('title','')+' '+str(e.get('description',''))) for t in terms))
         last=max([parse_date(e.get('publishedAt')) for e in events if any(t in norm(e.get('title','')+' '+str(e.get('description',''))) for t in terms) and parse_date(e.get('publishedAt'))] or [None])
         age=None if not last else round((now-last).total_seconds()/3600,1)
-        status='SIN SEÑAL RECIENTE'
-        if matches:
-            status='SEÑAL DETECTADA'
-            if age is not None and age<=24: status='SEÑAL RECIENTE'
+        semantic_labels={
+            'CONVERSACIÓN':'cobertura editorial',
+            'SERVICIOS':'evidencia de servicio',
+            'SALUD':'evidencia sanitaria',
+            'EDUCACIÓN':'evidencia educativa',
+            'PRODUCCIÓN':'evidencia productiva',
+            'EMERGENCIAS':'cobertura de emergencia',
+            'TERRITORIO':'hecho territorial',
+            'RUTA 7':'estado vial',
+            'RUTA 8':'estado vial',
+            'ENERGÍA':'evento eléctrico',
+            'AGUA':'evento hídrico',
+            'VIENTO':'pronóstico meteorológico'
+        }
+        status=semantic_labels.get(code,'señal editorial')
         if code=='VIENTO' and environment.get('weather'):
-            status='DATO DIRECTO'
-            matches=environment['weather'].get('windKmh') if environment['weather'].get('windKmh') is not None else matches
+            status='pronóstico local'
+            matches=environment['weather'].get('forecastWindKmh') if environment['weather'].get('forecastWindKmh') is not None else matches
         out.append({'id':code,'label':label,'signal':matches,'status':status,'freshnessHours':age,'mode':('DATO DIRECTO' if code=='VIENTO' and environment.get('weather') else mode),'evidenceCount':sum(1 for e in events if any(t in norm(e.get('title','')+' '+str(e.get('description',''))) for t in terms))})
     for radar in out:
         radar['sourceContract']=SOURCE_CONTRACTS.get(radar['id'])
