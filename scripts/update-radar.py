@@ -32,7 +32,6 @@ DIRECT_SOURCES=[
 SOURCE_CATALOG=[
  {"name":"Chañar Digital","group":"LOCAL","role":"medio local","url":"https://chanardigital.com.ar/"},
  {"name":"Radio Municipal FM Chañar 87.9","group":"LOCAL","role":"radio municipal","url":"https://sanpatricio.gob.ar/"},
- {"name":"Radio FM Cadena Oasis","group":"LOCAL","role":"radio local","url":"https://www.facebook.com/"},
  {"name":"Mía Radio 94.7","group":"LOCAL","role":"radio local","url":"https://www.radiomia.com.ar/"},
  {"name":"Radio Tuit Vaca Muerta 90.5","group":"LOCAL-REGIONAL","role":"radio productiva","url":"https://tuitvacamuerta.com/"},
  {"name":"Municipalidad de San Patricio del Chañar","group":"LOCAL","role":"fuente institucional primaria","url":"https://sanpatricio.gob.ar/"},
@@ -46,15 +45,16 @@ SOURCE_CATALOG=[
  {"name":"Consejo Provincial de Educación","group":"REGIONAL","role":"educación pública","url":"https://www.neuquen.edu.ar/"},
  {"name":"EPAS Neuquén","group":"REGIONAL","role":"agua y saneamiento","url":"https://www.epas.gov.ar/"},
  {"name":"Policía del Neuquén","group":"REGIONAL","role":"seguridad y emergencias","url":"https://www.policiadelneuquen.gob.ar/"},
- {"name":"Bomberos Voluntarios de San Patricio del Chañar","group":"LOCAL","role":"emergencias locales","url":"https://sanpatricio.gob.ar/"},
  {"name":"Ministerio de Producción e Industria de Neuquén","group":"REGIONAL","role":"producción rural","url":"https://www.neuquen.gob.ar/"},
- {"name":"Boletín Oficial de Neuquén","group":"REGIONAL","role":"normativa y actos oficiales","url":"https://boletinoficial.neuquen.gov.ar/"},
  {"name":"Diario Río Negro","group":"REGIONAL","role":"medio regional","url":"https://www.rionegro.com.ar/"},
  {"name":"LM Neuquén","group":"REGIONAL","role":"medio regional","url":"https://www.lmneuquen.com/"},
  {"name":"Mejor Informado","group":"REGIONAL","role":"medio regional","url":"https://www.mejorinformado.com/"},
  {"name":"Vaca Muerta News","group":"REGIONAL","role":"medio energético/productivo","url":"https://www.vacamuertanews.com/"},
  {"name":"Argentina.gob.ar","group":"EXTERNA","role":"fuente nacional","url":"https://www.argentina.gob.ar/"},
- {"name":"INTA","group":"EXTERNA","role":"producción, clima y territorio","url":"https://www.argentina.gob.ar/inta"}
+ {"name":"INTA","group":"EXTERNA","role":"producción, clima y territorio","url":"https://www.argentina.gob.ar/inta"},
+ {"name":"CFI","group":"EXTERNA","role":"información territorial y federal","url":"https://cfi.org.ar/"},
+ {"name":"COPADE Neuquén","group":"EXTERNA","role":"planificación territorial","url":"https://www.copade.gob.ar/"},
+ {"name":"Universidad Nacional del Comahue","group":"EXTERNA","role":"conocimiento regional","url":"https://www.uncoma.edu.ar/"}
 ]
 
 QUERIES=[
@@ -92,6 +92,9 @@ QUERIES=[
  ('site:policiadelneuquen.gob.ar "San Patricio del Chañar"','Policía del Neuquén'),
  ('site:boletinoficial.neuquen.gov.ar "San Patricio del Chañar"','Boletín Oficial de Neuquén'),
  ('site:inta.gob.ar "San Patricio del Chañar"','INTA'),
+ ('site:cfi.org.ar "San Patricio del Chañar"','CFI'),
+ ('site:copade.gob.ar "San Patricio del Chañar"','COPADE Neuquén'),
+ ('site:uncoma.edu.ar "San Patricio del Chañar"','Universidad Nacional del Comahue'),
 ]
 
 LOCAL_ENTITIES=[
