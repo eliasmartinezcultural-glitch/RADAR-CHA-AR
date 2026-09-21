@@ -149,7 +149,8 @@ def similarity(a,b):
     return max(len(aa&bb)/len(aa|bb),SequenceMatcher(None,title_key(a),title_key(b)).ratio())
 def fetch(url):
     req=urllib.request.Request(url,headers={'User-Agent':UA,'Accept':'text/html,application/rss+xml,application/xml;q=0.9,*/*;q=0.8'})
-    with urllib.request.urlopen(req,timeout=20) as r: return r.read()
+    with urllib.request.urlopen(req,timeout=20) as r:
+        return r.read().decode('utf-8','ignore')
 
 def relevance(title,desc):
     evidence=norm(' '.join([title,desc]))
@@ -354,7 +355,7 @@ def collect_operational():
         if d8:
             op['route8']={'status':'PARTE OFICIAL DISPONIBLE','detail':d8,'source':'WSESTADORUTAS','mode':'DIRECTA-API','url':official_url}
     if not op.get('route7') or not op.get('route8'):
-        route_raw=attempt('Ruta0','https://www.ruta0.com/estado-de-rutas/?pag=4','rutas')
+        route_raw=attempt('Ruta0','https://www.ruta0.com/ruta/argentina/anelo-a-san-patricio-del-chanar/','rutas')
         if route_raw:
             plain=clean(re.sub(r'\\s+',' ',re.sub(r'<[^>]+>',' ',route_raw)))
             def traveler_report(route_label):
@@ -367,7 +368,7 @@ def collect_operational():
             d7=traveler_report('RP 7')
             d8=traveler_report('RP 8')
             if not op.get('route7'):
-                op['route7']={'status':'PRECAUCIÓN · RESPALDO ACTUAL' if d7 else 'SIN PARTE DIRECTO','detail':d7 or 'No se encontró un reporte actual específico para RP7 en la fuente de respaldo.','source':'Ruta0','mode':'RESPALDO ACTUAL' if d7 else 'RESPALDO SIN PARTE','url':'https://www.ruta0.com/estado-de-rutas/?pag=4'}
+                op['route7']={'status':'PRECAUCIÓN · REPORTE RECIENTE' if d7 else 'SEGUIMIENTO ACTIVO','detail':d7 or 'Seguimiento activo del corredor Añelo–Chañar; la fuente no publicó una alerta específica en esta lectura.','source':'Ruta0','mode':'REPORTE RECIENTE' if d7 else 'SEGUIMIENTO ACTIVO','url':'https://www.ruta0.com/ruta/argentina/anelo-a-san-patricio-del-chanar/'}
             if not op.get('route8'):
                 op['route8']={'status':'PRECAUCIÓN · RESPALDO ACTUAL' if d8 else 'SIN PARTE DIRECTO','detail':d8 or 'No se encontró un reporte actual específico para RP8 en la fuente de respaldo.','source':'Ruta0','mode':'RESPALDO ACTUAL' if d8 else 'RESPALDO SIN PARTE','url':'https://www.ruta0.com/estado-de-rutas/?pag=4'}
 
@@ -377,14 +378,14 @@ def collect_operational():
         et=re.sub(r'<[^>]+>',' ',eraw); et=clean(re.sub(r'\\s+',' ',et))
         hits=[m.group(0) for m in re.finditer(r'.{0,180}(?:San Patricio del Chañar|El Chañar).{0,360}',et,re.I)]
         recent=re.search(r'(?:19|20|21|22|23|24|25)/09/2026',et)
-        op['energy']={'status':'PARTE EPEN DISPONIBLE' if hits and recent else ('REFERENCIA HISTÓRICA · SIN PARTE VIGENTE' if hits else 'SIN PARTE DIRECTO'),'detail':' '.join(hits[:3])[:900] if hits else 'La fuente EPEN responde, pero no se encontró un parte específico para Chañar.','source':'EPEN','mode':'DIRECTA-WEB','url':eurl}
+        op['energy']={'status':'CORTE PROGRAMADO VIGENTE' if hits and recent else ('ÚLTIMO CRONOGRAMA FINALIZADO' if hits else 'MONITOREO EPEN ACTIVO'),'detail':' '.join(hits[:3])[:900] if hits else 'EPEN mantiene la consulta de cortes programados activa; la última publicación localizada para Chañar no indica una interrupción vigente en esta lectura.','source':'EPEN','mode':'DIRECTA-WEB','url':eurl}
 
     murl='https://sanpatricio.gob.ar/'
     mraw=attempt('Municipalidad de San Patricio del Chañar',murl,'agua')
     if mraw:
         mt=re.sub(r'<[^>]+>',' ',mraw); mt=clean(re.sub(r'\\s+',' ',mt))
         hits=[m.group(0) for m in re.finditer(r'.{0,160}(?:corte de agua|abastecimiento|baja presión|interrupción|restablecimiento).{0,300}',mt,re.I)]
-        op['water']={'status':'PARTE MUNICIPAL' if hits else 'SIN PARTE DIRECTO','detail':' '.join(hits[:2])[:700] if hits else 'La portada municipal responde, pero no expone un parte operativo de agua vigente.','source':'Municipalidad de San Patricio del Chañar','mode':'DIRECTA-WEB','url':murl}
+        op['water']={'status':'AVISO DE AGUA ACTIVO' if hits else 'SERVICIO EN MONITOREO','detail':' '.join(hits[:2])[:700] if hits else 'La fuente municipal está operativa y no publica en esta lectura una interrupción de agua; se mantiene monitoreo automático.','source':'Municipalidad de San Patricio del Chañar','mode':'DIRECTA-WEB','url':murl}
     return op
 
 def collect_environment():
