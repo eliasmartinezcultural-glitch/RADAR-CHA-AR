@@ -501,12 +501,28 @@ def collect_operational():
         recent=re.search(r'(?:19|20|21|22|23|24|25)/09/2026',et)
         op['energy']={'status':'CORTE PROGRAMADO VIGENTE' if hits and recent else ('ÚLTIMO CRONOGRAMA FINALIZADO' if hits else 'MONITOREO EPEN ACTIVO'),'detail':' '.join(hits[:3])[:900] if hits else 'EPEN mantiene la consulta de cortes programados activa; la última publicación localizada para Chañar no indica una interrupción vigente en esta lectura.','source':'EPEN','mode':'DIRECTA-WEB','url':eurl}
 
-    murl='https://sanpatricio.gob.ar/'
-    mraw=attempt('Municipalidad de San Patricio del Chañar',murl,'agua')
-    if mraw:
-        mt=re.sub(r'<[^>]+>',' ',mraw); mt=clean(re.sub(r'\\s+',' ',mt))
-        hits=[m.group(0) for m in re.finditer(r'.{0,160}(?:corte de agua|abastecimiento|baja presión|interrupción|restablecimiento).{0,300}',mt,re.I)]
-        op['water']={'status':'AVISO DE AGUA ACTIVO' if hits else 'SERVICIO EN MONITOREO','detail':' '.join(hits[:2])[:700] if hits else 'La fuente municipal está operativa y no publica en esta lectura una interrupción de agua; se mantiene monitoreo automático.','source':'Municipalidad de San Patricio del Chañar','mode':'DIRECTA-WEB','url':murl}
+    # Agua: EPAS es la autoridad técnica primaria. El municipio solo comunica.
+    water_hits=[]
+    for wname,wurl,wkind in [
+        ('EPAS','https://www.epas.gov.ar/','agua-oficial'),
+        ('Municipalidad de San Patricio del Chañar','https://sanpatricio.gob.ar/','agua-comunicacion')
+    ]:
+        wraw=attempt(wname,wurl,wkind)
+        if wraw:
+            wt=clean(re.sub(r'\\s+',' ',re.sub(r'<[^>]+>',' ',wraw)))
+            hits=[m.group(0) for m in re.finditer(r'.{0,180}(?:corte de agua|abastecimiento|baja presión|interrupción|restablecimiento|agua potable|suministro).{0,320}',wt,re.I)]
+            if hits:
+                water_hits.append((wname,wurl,hits))
+                if wname=='EPAS':
+                    break
+    if water_hits:
+        wn,wu,wh=water_hits[0]
+        op['water']={'status':'AVISO DE AGUA','detail':' '.join(wh[:2])[:800],
+                     'source':wn,'mode':'DIRECTA-WEB','url':wu,'observedAt':NOW.isoformat()}
+    else:
+        op['water']={'status':'FUENTE CONSULTADA SIN PARTE ESPECÍFICO',
+                     'detail':'EPAS fue consultado como organismo técnico primario; no se encontró un parte específico para San Patricio del Chañar en esta lectura.',
+                     'source':'EPAS','mode':'CONSULTA SIN PARTE','url':'https://www.epas.gov.ar/','observedAt':NOW.isoformat()}
     return op
 
 def collect_environment():
@@ -919,6 +935,17 @@ def build_precision_audit_from_events(events):
     return {'version':'1.1','rule':'source × signal × local language × false positive','sourceSummary':source_summary,'matrix':sorted(matrix.values(),key=lambda r:(-r['accepted'],-r['direct'],r['source'],r['topic'])),'languagePrecision':language_precision,'falsePositiveSummary':{},'rejectedSamples':[],'rules':precision_rules,'interpretation':'auditoría sobre eventos aceptados; la próxima capa debe instrumentar rechazos antes del clustering'}
 
 precision_audit=build_precision_audit_from_events(events)
-output={'updatedAt':now,'window':f'{DAYS} días','purpose':'Detectar qué se está moviendo en San Patricio del Chañar y mostrar de dónde surge cada señal.','architecture':'25 fuentes profesionales + búsquedas dirigidas + fuentes directas + web directa + respaldo + memoria de eventos + ciclo de vida + incidencia territorial + evidencia + salud de fuentes + radares de infraestructura + ambiente','keywords':[q for q,_ in QUERIES],'sourceRegistry':status,'sourceCatalog':SOURCE_CATALOG,'sourceAudit':source_audit,'languageAudit':language_audit,'precisionAudit':precision_audit,'stats':stats,'environment':environment,'operational':operational,'sourceContracts':SOURCE_CONTRACTS,'systemRadars':system_radars,'system':{'memoryDays':MEMORY_DAYS,'eventIdentity':'estable entre actualizaciones','evidenceRule':'evidence-first','movementRule':'descriptivo: recencia + cobertura + diversidad de fuentes; no es ranking de importancia','sourceFailureRule':'no inferir desaparición cuando las fuentes conocidas no responden','infrastructureRule':'una señal editorial no equivale a confirmación operativa; los datos directos se etiquetan por separado','lifecycle':['EMERGENTE','ACTIVO','SOSTENIDO','EN DESCENSO','RECIENTE'],'sourceHealth':status},'events':events,'items':dedup}
+# Auditoría obligatoria del contrato: ningún indicador puede publicarse
+# sin fuente profesional, dominio, unidad y lenguaje semántico propio.
+required_contract_fields=('primary','domain','unit','language','rule')
+contract_audit={}
+for indicator, contract in SOURCE_CONTRACTS.items():
+    missing=[k for k in required_contract_fields if not contract.get(k)]
+    contract_audit[indicator]={'valid':not missing,'missing':missing,'primary':contract.get('primary'),'secondary':contract.get('secondary'),'fallback':contract.get('fallback'),'domain':contract.get('domain'),'unit':contract.get('unit'),'language':contract.get('language')}
+contract_failures=[k for k,v in contract_audit.items() if not v['valid']]
+if contract_failures:
+    raise RuntimeError('CONTRATO DE DATOS INCOMPLETO: '+', '.join(contract_failures))
+
+output={'updatedAt':now,'window':f'{DAYS} días','purpose':'Detectar qué se está moviendo en San Patricio del Chañar y mostrar de dónde surge cada señal.','architecture':'25 fuentes profesionales + búsquedas dirigidas + fuentes directas + web directa + respaldo + memoria de eventos + ciclo de vida + incidencia territorial + evidencia + salud de fuentes + radares de infraestructura + ambiente','keywords':[q for q,_ in QUERIES],'sourceRegistry':status,'sourceCatalog':SOURCE_CATALOG,'sourceAudit':source_audit,'languageAudit':language_audit,'precisionAudit':precision_audit,'stats':stats,'environment':environment,'operational':operational,'sourceContracts':SOURCE_CONTRACTS,'contractAudit':contract_audit,'systemRadars':system_radars,'system':{'memoryDays':MEMORY_DAYS,'eventIdentity':'estable entre actualizaciones','evidenceRule':'evidence-first','movementRule':'descriptivo: recencia + cobertura + diversidad de fuentes; no es ranking de importancia','sourceFailureRule':'no inferir desaparición cuando las fuentes conocidas no responden','infrastructureRule':'una señal editorial no equivale a confirmación operativa; los datos directos se etiquetan por separado','lifecycle':['EMERGENTE','ACTIVO','SOSTENIDO','EN DESCENSO','RECIENTE'],'sourceHealth':status},'events':events,'items':dedup}
 with open(OUT,'w',encoding='utf-8') as f: json.dump(output,f,ensure_ascii=False,indent=2)
 print('PULSO:',stats,'RADARES:',len(system_radars))
