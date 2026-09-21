@@ -389,7 +389,7 @@ def collect_operational():
 def collect_environment():
     """Viento: AIC como fuente meteorológica regional de referencia y Open-Meteo como respaldo.
     Nunca convierte un fallo de una fuente en ausencia de viento."""
-    env={'updatedAt':datetime.now(timezone.utc).isoformat(),'weather':None,'sources':[]}
+    env={'updatedAt':datetime.now(timezone.utc).isoformat(),'weather':None,'hydrology':None,'sources':[]}
 
     aic_url='https://www.aic.gob.ar/sitio/home?a=1015&z=1967225803'
     try:
@@ -407,6 +407,20 @@ def collect_environment():
             env['sources'].append({'name':'AIC','mode':'OK_SIN_DATO_PARSEO','url':aic_url})
     except Exception as e:
         env['sources'].append({'name':'AIC','mode':'FALLA','error':type(e).__name__,'url':aic_url})
+
+    # Hidrología AIC: puente directo para caudales programados del compensador El Chañar.
+    try:
+        hurl='https://www.aic.gob.ar/sitio/caudales'
+        hraw=fetch(hurl).decode('utf-8','ignore')
+        ht=clean(re.sub(r'<[^>]+>',' ',hraw))
+        hm=re.search(r'El Chañar\\s+([0-9]+)\\s+([0-9]+).*?([0-9]{2}/[0-9]{2}/[0-9]{4})',ht,re.I|re.S)
+        if hm:
+            env['hydrology']={'site':'El Chañar','minM3s':float(hm.group(1)),'maxM3s':float(hm.group(2)),'date':hm.group(3),'source':'AIC','mode':'CAUDAL PROGRAMADO','url':hurl}
+            env['sources'].append({'name':'AIC · Caudales','mode':'OK','url':hurl})
+        else:
+            env['sources'].append({'name':'AIC · Caudales','mode':'OK_SIN_DATO_PARSEO','url':hurl})
+    except Exception as e:
+        env['sources'].append({'name':'AIC · Caudales','mode':'FALLA','error':type(e).__name__,'url':'https://www.aic.gob.ar/sitio/caudales'})
 
     if not env['weather']:
         try:
