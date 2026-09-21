@@ -153,7 +153,7 @@ def relevance(title,desc):
     evidence=norm(' '.join([title,desc]))
     t=norm(title)
     if any(norm(x) in evidence for x in AMBIGUOUS) and not ('san patricio del chañar' in evidence or 'san patricio del chanar' in evidence): return 0,'AMBIGUA'
-    if any(norm(x)==t for x in GENERIC_TITLES): return 0,'AGREGADOR'
+    if any(t.startswith(norm(x)) for x in GENERIC_TITLES): return 0,'AGREGADOR'
     exact=('san patricio del chañar' in evidence or 'san patricio del chanar' in evidence)
     title_hits=[x for x in STRONG_LOCAL if norm(x) in t]
     body_hits=[x for x in STRONG_LOCAL if norm(x) in evidence]
@@ -440,9 +440,10 @@ for x in dedup:
 
 def classify(x):
     text=norm(x.get('title','')+' '+x.get('description',''))
-    scores=[(sum(norm(t) in text for t in terms),topic) for topic,terms in TOPIC_RULES]
-    scores=[v for v in scores if v[0]]
-    return max(scores)[1] if scores else 'OTROS'
+    priority=['DEPORTE','CULTURA / TURISMO','SALUD','EDUCACIÓN','MOVILIDAD','PRODUCCIÓN','SEGURIDAD / EMERGENCIAS','INSTITUCIONES','SERVICIOS']
+    scores={topic:sum(norm(t) in text for t in terms) for topic,terms in TOPIC_RULES}
+    active=[(scores.get(topic,0),-priority.index(topic),topic) for topic in priority if scores.get(topic,0)]
+    return max(active)[2] if active else 'OTROS'
 
 def anchors(x):
     text=norm(x.get('title','')+' '+x.get('description',''))
@@ -628,7 +629,6 @@ def build_precision_audit_from_events(events):
     return {'version':'1.1','rule':'source × signal × local language × false positive','sourceSummary':source_summary,'matrix':sorted(matrix.values(),key=lambda r:(-r['accepted'],-r['direct'],r['source'],r['topic'])),'languagePrecision':language_precision,'falsePositiveSummary':{},'rejectedSamples':[],'rules':precision_rules,'interpretation':'auditoría sobre eventos aceptados; la próxima capa debe instrumentar rechazos antes del clustering'}
 
 precision_audit=build_precision_audit_from_events(events)
-precision_audit=build_precision_audit(dedup,fresh)
 output={'updatedAt':now,'window':f'{DAYS} días','purpose':'Detectar qué se está moviendo en San Patricio del Chañar y mostrar de dónde surge cada señal.','architecture':'25 fuentes profesionales + búsquedas dirigidas + fuentes directas + web directa + respaldo + memoria de eventos + ciclo de vida + incidencia territorial + evidencia + salud de fuentes + radares de infraestructura + ambiente','keywords':[q for q,_ in QUERIES],'sourceRegistry':status,'sourceCatalog':SOURCE_CATALOG,'sourceAudit':source_audit,'languageAudit':language_audit,'precisionAudit':precision_audit,'stats':stats,'environment':environment,'operational':operational,'sourceContracts':SOURCE_CONTRACTS,'systemRadars':system_radars,'system':{'memoryDays':MEMORY_DAYS,'eventIdentity':'estable entre actualizaciones','evidenceRule':'evidence-first','movementRule':'descriptivo: recencia + cobertura + diversidad de fuentes; no es ranking de importancia','sourceFailureRule':'no inferir desaparición cuando las fuentes conocidas no responden','infrastructureRule':'una señal editorial no equivale a confirmación operativa; los datos directos se etiquetan por separado','lifecycle':['EMERGENTE','ACTIVO','SOSTENIDO','EN DESCENSO','RECIENTE'],'sourceHealth':status},'events':events,'items':dedup}
 with open(OUT,'w',encoding='utf-8') as f: json.dump(output,f,ensure_ascii=False,indent=2)
 print('PULSO:',stats,'RADARES:',len(system_radars))
