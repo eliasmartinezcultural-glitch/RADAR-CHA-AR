@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-21T01:11:28.951371+00:00",
+  "updatedAt": "2026-09-21T01:12:57.087483+00:00",
   "window": "14 días",
   "purpose": "Detectar qué se está moviendo en San Patricio del Chañar y mostrar de dónde surge cada señal.",
   "architecture": "25 fuentes profesionales + búsquedas dirigidas + fuentes directas + web directa + respaldo + memoria de eventos + ciclo de vida + incidencia territorial + evidencia + salud de fuentes + radares de infraestructura + ambiente",
@@ -49,7 +49,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://chanardigital.com.ar/",
-      "lastFetch": "2026-09-21T01:11:02.861071+00:00",
+      "lastFetch": "2026-09-21T01:12:34.592272+00:00",
       "success": true,
       "attempted": 2,
       "failures": [
@@ -64,7 +64,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.radiomia.com.ar/",
-      "lastFetch": "2026-09-21T01:11:04.838197+00:00",
+      "lastFetch": "2026-09-21T01:12:35.630599+00:00",
       "success": true,
       "attempted": 1,
       "failures": [],
@@ -77,7 +77,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://tuitvacamuerta.com/",
-      "lastFetch": "2026-09-21T01:11:06.567551+00:00",
+      "lastFetch": "2026-09-21T01:12:37.360990+00:00",
       "success": true,
       "attempted": 1,
       "failures": [],
@@ -90,7 +90,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.vacamuertanews.com/",
-      "lastFetch": "2026-09-21T01:11:07.451333+00:00",
+      "lastFetch": "2026-09-21T01:12:38.157436+00:00",
       "success": true,
       "attempted": 2,
       "failures": [
@@ -105,7 +105,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.neuqueninforma.gob.ar/",
-      "lastFetch": "2026-09-21T01:11:08.994320+00:00",
+      "lastFetch": "2026-09-21T01:12:39.299994+00:00",
       "success": true,
       "attempted": 3,
       "failures": [
@@ -121,7 +121,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://sanpatricio.gob.ar/",
-      "lastFetch": "2026-09-21T01:11:10.437987+00:00",
+      "lastFetch": "2026-09-21T01:12:40.352845+00:00",
       "success": true,
       "attempted": 1,
       "failures": [],
@@ -134,7 +134,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://boletinoficial.neuquen.gov.ar/",
-      "lastFetch": "2026-09-21T01:11:11.210715+00:00",
+      "lastFetch": "2026-09-21T01:12:41.445111+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -149,7 +149,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.lmneuquen.com/",
-      "lastFetch": "2026-09-21T01:11:11.483867+00:00",
+      "lastFetch": "2026-09-21T01:12:41.705013+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -165,7 +165,7 @@
       "mode": "RSS DIRECTO",
       "signals": 1,
       "url": "https://www.rionegro.com.ar/",
-      "lastFetch": "2026-09-21T01:11:15.667232+00:00",
+      "lastFetch": "2026-09-21T01:12:46.069597+00:00",
       "success": true,
       "attempted": 2,
       "failures": [],
@@ -178,7 +178,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.mejorinformado.com/",
-      "lastFetch": "2026-09-21T01:11:16.683175+00:00",
+      "lastFetch": "2026-09-21T01:12:46.665928+00:00",
       "success": true,
       "attempted": 2,
       "failures": [
@@ -193,7 +193,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.diariamenteneuquen.com/",
-      "lastFetch": "2026-09-21T01:11:17.659093+00:00",
+      "lastFetch": "2026-09-21T01:12:47.596910+00:00",
       "success": true,
       "attempted": 2,
       "failures": [
@@ -1683,42 +1683,50 @@
     "searchNoiseRejected": 0
   },
   "environment": {
-    "weather": null,
+    "weather": {
+      "temperatureC": 10.2,
+      "windKmh": 44.64,
+      "gustKmh": null,
+      "windDirection": 247.5,
+      "observedAt": "2026-09-21T01:00:00Z",
+      "source": "MET Norway",
+      "mode": "RESPALDO METEOROLÓGICO"
+    },
     "hydrology": {
       "site": "El Chañar",
       "source": "AIC",
       "mode": "RESPALDO TEMPORAL DE ÚLTIMA LECTURA",
       "url": "https://www.aic.gob.ar/sitio/caudales",
-      "observedAt": "2026-09-21T01:11:00.175795+00:00"
+      "observedAt": "2026-09-21T01:12:32.303124+00:00"
     },
     "sources": [
       {
         "name": "AIC · Meteorología",
         "mode": "ERROR DE CONEXIÓN",
-        "error": "NameError",
+        "error": "TypeError",
         "url": "https://www.aic.gob.ar/sitio/home?a=1015&z=1967225803"
       },
       {
         "name": "Open-Meteo",
         "mode": "ERROR DE CONEXIÓN",
-        "error": "NameError"
+        "error": "HTTPError"
       },
       {
         "name": "MET Norway",
-        "mode": "ERROR DE CONEXIÓN",
-        "error": "NameError"
+        "mode": "OK",
+        "url": "https://api.met.no/weatherapi/locationforecast/2.0/compact?lat=-39.061&lon=-68.353"
       },
       {
         "name": "AIC · Caudales",
         "mode": "ERROR DE CONEXIÓN · ÚLTIMA LECTURA",
-        "error": "NameError",
+        "error": "TypeError",
         "url": "https://www.aic.gob.ar/sitio/caudales"
       }
     ],
-    "updatedAt": "2026-09-21T01:11:00.175795+00:00"
+    "updatedAt": "2026-09-21T01:12:32.303124+00:00"
   },
   "operational": {
-    "updatedAt": "2026-09-21T01:11:28.960183+00:00",
+    "updatedAt": "2026-09-21T01:13:00.878788+00:00",
     "route7": {
       "status": "SIN PARTE DIRECTO",
       "detail": "No se encontró un reporte actual específico para RP7 en la fuente de respaldo.",
@@ -1994,10 +2002,10 @@
     {
       "id": "VIENTO",
       "label": "Condición de viento",
-      "signal": 0,
-      "status": "SIN SEÑAL RECIENTE",
+      "signal": 44.64,
+      "status": "DATO DIRECTO",
       "freshnessHours": null,
-      "mode": "dato ambiental directo + evidencia",
+      "mode": "DATO DIRECTO",
       "evidenceCount": 0,
       "sources": [
         {
@@ -2196,7 +2204,7 @@
       "label": "Educación",
       "signal": 2,
       "status": "SEÑAL DETECTADA",
-      "freshnessHours": 26.1,
+      "freshnessHours": 26.2,
       "mode": "evidencia editorial",
       "evidenceCount": 2,
       "sources": [
@@ -2357,7 +2365,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://chanardigital.com.ar/",
-        "lastFetch": "2026-09-21T01:11:02.861071+00:00",
+        "lastFetch": "2026-09-21T01:12:34.592272+00:00",
         "success": true,
         "attempted": 2,
         "failures": [
@@ -2372,7 +2380,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.radiomia.com.ar/",
-        "lastFetch": "2026-09-21T01:11:04.838197+00:00",
+        "lastFetch": "2026-09-21T01:12:35.630599+00:00",
         "success": true,
         "attempted": 1,
         "failures": [],
@@ -2385,7 +2393,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://tuitvacamuerta.com/",
-        "lastFetch": "2026-09-21T01:11:06.567551+00:00",
+        "lastFetch": "2026-09-21T01:12:37.360990+00:00",
         "success": true,
         "attempted": 1,
         "failures": [],
@@ -2398,7 +2406,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.vacamuertanews.com/",
-        "lastFetch": "2026-09-21T01:11:07.451333+00:00",
+        "lastFetch": "2026-09-21T01:12:38.157436+00:00",
         "success": true,
         "attempted": 2,
         "failures": [
@@ -2413,7 +2421,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.neuqueninforma.gob.ar/",
-        "lastFetch": "2026-09-21T01:11:08.994320+00:00",
+        "lastFetch": "2026-09-21T01:12:39.299994+00:00",
         "success": true,
         "attempted": 3,
         "failures": [
@@ -2429,7 +2437,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://sanpatricio.gob.ar/",
-        "lastFetch": "2026-09-21T01:11:10.437987+00:00",
+        "lastFetch": "2026-09-21T01:12:40.352845+00:00",
         "success": true,
         "attempted": 1,
         "failures": [],
@@ -2442,7 +2450,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://boletinoficial.neuquen.gov.ar/",
-        "lastFetch": "2026-09-21T01:11:11.210715+00:00",
+        "lastFetch": "2026-09-21T01:12:41.445111+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -2457,7 +2465,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.lmneuquen.com/",
-        "lastFetch": "2026-09-21T01:11:11.483867+00:00",
+        "lastFetch": "2026-09-21T01:12:41.705013+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -2473,7 +2481,7 @@
         "mode": "RSS DIRECTO",
         "signals": 1,
         "url": "https://www.rionegro.com.ar/",
-        "lastFetch": "2026-09-21T01:11:15.667232+00:00",
+        "lastFetch": "2026-09-21T01:12:46.069597+00:00",
         "success": true,
         "attempted": 2,
         "failures": [],
@@ -2486,7 +2494,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.mejorinformado.com/",
-        "lastFetch": "2026-09-21T01:11:16.683175+00:00",
+        "lastFetch": "2026-09-21T01:12:46.665928+00:00",
         "success": true,
         "attempted": 2,
         "failures": [
@@ -2501,7 +2509,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.diariamenteneuquen.com/",
-        "lastFetch": "2026-09-21T01:11:17.659093+00:00",
+        "lastFetch": "2026-09-21T01:12:47.596910+00:00",
         "success": true,
         "attempted": 2,
         "failures": [
@@ -3068,7 +3076,7 @@
   ],
   "territorialGraph": {
     "version": "2.0",
-    "generatedAt": "2026-09-21T01:11:35.082016+00:00",
+    "generatedAt": "2026-09-21T01:13:08.286386+00:00",
     "root": "spc",
     "rule": "evidence-first",
     "levels": [
@@ -3671,7 +3679,7 @@
   },
   "audit": {
     "version": "1.0",
-    "updatedAt": "2026-09-21T01:11:35.108076+00:00",
+    "updatedAt": "2026-09-21T01:13:08.313841+00:00",
     "rule": "fact != coverage; territory requires textual evidence",
     "facts": 5,
     "coverage": 6,
