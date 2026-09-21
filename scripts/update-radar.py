@@ -16,18 +16,45 @@ MIN_DATE=NOW-timedelta(days=DAYS)
 UA="Pulso-Chañar/8.0 (+https://eliasmartinezcultural-glitch.github.io/RADAR-CHA-AR/)"
 
 DIRECT_SOURCES=[
- {"name":"Chañar Digital","type":"MEDIO LOCAL","url":"https://www.chanardigital.com.ar/","rss":["https://www.chanardigital.com.ar/rss.xml","https://www.chanardigital.com.ar/feed/","https://www.chanardigital.com.ar/rss.php"]},
+ {"name":"Chañar Digital","type":"MEDIO LOCAL","url":"https://chanardigital.com.ar/","rss":["https://chanardigital.com.ar/feed/"]},
  {"name":"Mía Radio 94.7","type":"RADIO LOCAL","url":"https://www.radiomia.com.ar/","rss":[]},
  {"name":"Radio Tuit Vaca Muerta 90.5","type":"RADIO LOCAL / PRODUCTIVA","url":"https://tuitvacamuerta.com/","rss":[]},
  {"name":"Vaca Muerta News","type":"MEDIO REGIONAL / RADIO","url":"https://www.vacamuertanews.com/","rss":["https://www.vacamuertanews.com/feed/"]},
  {"name":"Neuquén Informa","type":"MEDIO OFICIAL PROVINCIAL","url":"https://www.neuqueninforma.gob.ar/","rss":["https://www.neuqueninforma.gob.ar/feed/","https://www.neuqueninforma.gob.ar/rss/"]},
- {"name":"Municipalidad de San Patricio del Chañar","type":"INSTITUCIONAL LOCAL","url":"https://sanpatricio.gob.ar/","rss":["https://sanpatricio.gob.ar/feed/","https://sanpatricio.gob.ar/rss/"]},
+ {"name":"Municipalidad de San Patricio del Chañar","type":"INSTITUCIONAL LOCAL","url":"https://sanpatricio.gob.ar/","rss":[]},
  {"name":"Boletín Oficial de Neuquén","type":"FUENTE NORMATIVA","url":"https://boletinoficial.neuquen.gov.ar/","rss":[]},
- {"name":"Infoleg Neuquén","type":"FUENTE NORMATIVA","url":"https://infoleg.neuquen.gob.ar/","rss":[]},
  {"name":"LM Neuquén","type":"MEDIO REGIONAL","url":"https://www.lmneuquen.com/","rss":["https://www.lmneuquen.com/rss/pages/section.xml?section=neuquen"]},
  {"name":"Diario Río Negro","type":"MEDIO REGIONAL","url":"https://www.rionegro.com.ar/","rss":["https://www.rionegro.com.ar/feed/"]},
  {"name":"Mejor Informado","type":"MEDIO REGIONAL","url":"https://www.mejorinformado.com/","rss":["https://www.mejorinformado.com/rss/"]},
  {"name":"Diariamente Neuquén","type":"MEDIO REGIONAL","url":"https://www.diariamenteneuquen.com/","rss":["https://www.diariamenteneuquen.com/feed/"]},
+]
+
+SOURCE_CATALOG=[
+ {"name":"Chañar Digital","group":"LOCAL","role":"medio local","url":"https://chanardigital.com.ar/"},
+ {"name":"Radio Municipal FM Chañar 87.9","group":"LOCAL","role":"radio municipal","url":"https://sanpatricio.gob.ar/"},
+ {"name":"Radio FM Cadena Oasis","group":"LOCAL","role":"radio local","url":"https://www.facebook.com/"},
+ {"name":"Mía Radio 94.7","group":"LOCAL","role":"radio local","url":"https://www.radiomia.com.ar/"},
+ {"name":"Radio Tuit Vaca Muerta 90.5","group":"LOCAL-REGIONAL","role":"radio productiva","url":"https://tuitvacamuerta.com/"},
+ {"name":"Municipalidad de San Patricio del Chañar","group":"LOCAL","role":"fuente institucional primaria","url":"https://sanpatricio.gob.ar/"},
+ {"name":"EPEN","group":"REGIONAL","role":"energía eléctrica","url":"https://www.epen.gov.ar/"},
+ {"name":"Dirección Provincial de Vialidad","group":"REGIONAL","role":"estado y obras viales","url":"https://www.dpvneuquen.gov.ar/"},
+ {"name":"Vialidad Nacional","group":"REGIONAL-NACIONAL","role":"red vial nacional","url":"https://www.argentina.gob.ar/transporte/vialidad-nacional"},
+ {"name":"Neuquén Informa","group":"REGIONAL","role":"comunicación oficial provincial","url":"https://www.neuqueninforma.gob.ar/"},
+ {"name":"Servicio Meteorológico Nacional","group":"REGIONAL-NACIONAL","role":"alertas y meteorología","url":"https://www.smn.gob.ar/"},
+ {"name":"Defensa Civil Neuquén","group":"REGIONAL","role":"emergencias y alertas","url":"https://www.neuquen.gob.ar/"},
+ {"name":"Ministerio de Salud de Neuquén","group":"REGIONAL","role":"salud pública","url":"https://www.saludneuquen.gob.ar/"},
+ {"name":"Consejo Provincial de Educación","group":"REGIONAL","role":"educación pública","url":"https://www.neuquen.edu.ar/"},
+ {"name":"EPAS Neuquén","group":"REGIONAL","role":"agua y saneamiento","url":"https://www.epas.gov.ar/"},
+ {"name":"Policía del Neuquén","group":"REGIONAL","role":"seguridad y emergencias","url":"https://www.policiadelneuquen.gob.ar/"},
+ {"name":"Bomberos Voluntarios de San Patricio del Chañar","group":"LOCAL","role":"emergencias locales","url":"https://sanpatricio.gob.ar/"},
+ {"name":"Ministerio de Producción e Industria de Neuquén","group":"REGIONAL","role":"producción rural","url":"https://www.neuquen.gob.ar/"},
+ {"name":"Boletín Oficial de Neuquén","group":"REGIONAL","role":"normativa y actos oficiales","url":"https://boletinoficial.neuquen.gov.ar/"},
+ {"name":"Diario Río Negro","group":"REGIONAL","role":"medio regional","url":"https://www.rionegro.com.ar/"},
+ {"name":"LM Neuquén","group":"REGIONAL","role":"medio regional","url":"https://www.lmneuquen.com/"},
+ {"name":"Mejor Informado","group":"REGIONAL","role":"medio regional","url":"https://www.mejorinformado.com/"},
+ {"name":"Vaca Muerta News","group":"REGIONAL","role":"medio energético/productivo","url":"https://www.vacamuertanews.com/"},
+ {"name":"Argentina.gob.ar","group":"EXTERNA","role":"fuente nacional","url":"https://www.argentina.gob.ar/"},
+ {"name":"INTA","group":"EXTERNA","role":"producción, clima y territorio","url":"https://www.argentina.gob.ar/inta"}
 ]
 
 QUERIES=[
@@ -55,6 +82,16 @@ QUERIES=[
  ('site:mejorinformado.com "San Patricio del Chañar"','Mejor Informado'),
  ('site:diariamenteneuquen.com "San Patricio del Chañar"','Diariamente Neuquén'),
  ('site:vacamuertanews.com "San Patricio del Chañar"','Vaca Muerta News'),
+ ('site:epen.gov.ar "San Patricio del Chañar"','EPEN'),
+ ('site:dpvneuquen.gov.ar "San Patricio del Chañar"','Dirección Provincial de Vialidad'),
+ ('site:argentina.gob.ar "San Patricio del Chañar" ruta','Vialidad Nacional'),
+ ('site:smn.gob.ar "San Patricio del Chañar" Neuquén','Servicio Meteorológico Nacional'),
+ ('site:saludneuquen.gob.ar "San Patricio del Chañar"','Ministerio de Salud de Neuquén'),
+ ('site:neuquen.edu.ar "San Patricio del Chañar"','Consejo Provincial de Educación'),
+ ('site:epas.gov.ar "San Patricio del Chañar"','EPAS Neuquén'),
+ ('site:policiadelneuquen.gob.ar "San Patricio del Chañar"','Policía del Neuquén'),
+ ('site:boletinoficial.neuquen.gov.ar "San Patricio del Chañar"','Boletín Oficial de Neuquén'),
+ ('site:inta.gob.ar "San Patricio del Chañar"','INTA'),
 ]
 
 LOCAL_ENTITIES=[
