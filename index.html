@@ -127,20 +127,29 @@ function render(d){
  const w=d.environment?.weather||{},h=d.environment?.hydrology||{},r7=op.route7||{},r8=op.route8||{};
  const age=d.updatedAt?ago(d.updatedAt):'—';
  document.getElementById('telemetry').innerHTML=[
-   ['VIENTO',w.windKmh!=null?Math.round(w.windKmh)+' km/h':'—',w.gustKmh!=null?'RÁF '+Math.round(w.gustKmh)+' · '+(w.windDirection||'—'):'sin dato',w.source||'AIC'],
-   ['RUTA 7',r7.status||'SIN PARTE','fuente: '+(r7.source||'—'),r7.mode||'—'],
-   ['RUTA 8',r8.status||'SIN PARTE','fuente: '+(r8.source||'—'),r8.mode||'—'],
-   ['CAUDAL EL CHAÑAR',h.maxM3s!=null?h.minM3s+'–'+h.maxM3s+' m³/s':'—',h.date?'programado · '+h.date:'sin dato',h.source||'AIC']
+   ['VIENTO',w.forecastWindKmh!=null?Math.round(w.forecastWindKmh)+' km/h':'—',w.forecastGustKmh!=null?'RÁF '+Math.round(w.forecastGustKmh)+' · '+(w.forecastWindDirection||'—'):'pronóstico local',w.source||'AIC'],
+   ['RUTA 7',r7.semanticState||'lectura vial no extraída','fuente: '+(r7.source||'DPV Neuquén'),'estado operativo'],
+   ['RUTA 8',r8.semanticState||'lectura vial no extraída','fuente: '+(r8.source||'DPV Neuquén'),'estado operativo'],
+   ['CAUDAL EL CHAÑAR',h.currentProgrammedMaxM3s!=null?h.currentProgrammedMinM3s+'–'+h.currentProgrammedMaxM3s+' m³/s':'—',h.programDate?'programado · '+h.programDate:'programación AIC',h.source||'AIC']
  ].map(x=>'<div class="tele"><div class="telelabel">'+esc(x[0])+'</div><div class="telev">'+esc(x[1])+'</div><div class="teles">'+esc(x[2])+' · '+esc(x[3])+'</div></div>').join('');
 
  const wanted=rs;
  document.getElementById('cards').innerHTML=wanted.map((x,i)=>{
    const id=x.id, key=id==='RUTA 7'?'route7':id==='RUTA 8'?'route8':id==='ENERGÍA'?'energy':id==='AGUA'?'water':id.toLowerCase();
    const o=op[key], contract=contracts[id]||x.sourceContract||{};
-   let value='SIN PARTE',state=x.status||'SEÑAL';
-   if(id==='VIENTO'&&d.environment?.weather){const w=d.environment.weather;value=(w.windKmh!=null?Math.round(w.windKmh):'—')+' km/h';state=(w.gustKmh!=null?'RÁFAGAS '+Math.round(w.gustKmh)+' km/h':'dato ambiental')+' · '+(w.windDirection||'—');}
-   else if(o){value=o.status||'PARTE';state=o.mode||'lectura operativa';}
-   else if(Number(x.signal)>0){value=x.signal;state=x.mode||'señales';}
+   let value='—',state=x.status||'señal editorial';
+   if(id==='VIENTO'&&d.environment?.weather){
+     const w=d.environment.weather;
+     value=(w.forecastWindKmh!=null?Math.round(w.forecastWindKmh):'—')+' km/h';
+     state=(w.forecastGustKmh!=null?'RÁFAGAS '+Math.round(w.forecastGustKmh)+' km/h':'pronóstico local')+' · '+(w.forecastWindDirection||'—');
+   }
+   else if(o){
+     if(o.semanticState){value=o.semanticState.replaceAll('_',' ');state=o.eventType?o.eventType.replaceAll('_',' '):'fuente primaria';}
+     else if(o.publicationState==='source_reachable_no_current_machine_readable_state'){value='—';state='fuente primaria conectada · estado vial no extraído';}
+     else if(o.publicationState==='source_reachable_no_specific_local_notice'){value='—';state=(id==='AGUA'?'EPAS consultado · no se publicó aviso local específico':'EPEN consultado · no se publicó aviso local específico');}
+     else {value='—';state='fuente primaria no disponible';}
+   }
+   else if(Number(x.signal)>0){value=x.signal;state=x.mode||'señales editoriales';}
    return '<article class="card '+statusClass(state)+'" style="transition-delay:'+Math.min(i*35,300)+'ms"><div class="tag">'+esc(id)+'</div><div class="freshness">ACTUALIZACIÓN '+esc(age)+'</div><div class="value">'+esc(value)+'</div><div class="state">'+esc(state)+'</div><div class="source">PRIMARIA · <b>'+esc(contract.primary||o?.source||'—')+'</b></div><div class="mini">'+[1,2,3,4,5,6].map((_,j)=>'<i style="--i:'+j+';height:'+(3+(Number(x.signal)||0)%7+j*2)+'px"></i>').join('')+'</div></article>'
  }).join('');
  requestAnimationFrame(()=>document.querySelectorAll('.card').forEach(x=>x.classList.add('show')));
