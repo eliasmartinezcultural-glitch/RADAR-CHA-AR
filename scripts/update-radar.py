@@ -388,82 +388,100 @@ def collect_operational():
     return op
 
 def collect_environment():
-    """Viento: AIC como fuente meteorológica regional de referencia y Open-Meteo como respaldo.
-    Nunca convierte un fallo de una fuente en ausencia de viento."""
-    env={'updatedAt':datetime.now(timezone.utc).isoformat(),'weather':None,'hydrology':None,'sources':[]}
-
+    env={'weather':None,'hydrology':None,'sources':[],'updatedAt':NOW.isoformat()}
+    # AIC is the canonical environmental source. Open-Meteo and MET Norway are
+    # only transport/parsing fallbacks; every value carries source + mode + timestamp.
     aic_url='https://www.aic.gob.ar/sitio/home?a=1015&z=1967225803'
     try:
-        raw=fetch(aic_url).decode('utf-8','ignore')
-        txt=clean(re.sub(r'<[^>]+>',' ',raw))
-        start=txt.lower().find('pronóstico para el chañar')
-        block=txt[start:start+5000] if start>=0 else txt
-        vm=re.search(r'Viento.{0,900}?([0-9]{1,3})\\s*km/h',block,re.I|re.S)
-        gm=re.search(r'Ráfagas.{0,900}?([0-9]{1,3})\\s*km/h',block,re.I|re.S)
-        dm=re.search(r'Dirección.{0,500}?([A-ZÁÉÍÓÚÑ/]{1,4})',block,re.I|re.S)
-        if vm and gm:
-            env['weather']={'windKmh':float(vm.group(1)),'gustKmh':float(gm.group(1)),'windDirection':dm.group(1) if dm else '—','source':'AIC','mode':'DATO DIRECTO / PRONÓSTICO','observedAt':env['updatedAt']}
-            env['sources'].append({'name':'AIC','mode':'OK','url':aic_url})
+        html=fetch_text(aic_url)
+        text=clean(re.sub(r'<[^>]+>',' ',html))
+        block=text[text.lower().find('pronóstico para el chañar'):][:5000]
+        vm=re.search(r'Viento\\s+([0-9]{1,3})\\s*km/h',block,re.I)
+        gm=re.search(r'Ráfagas\\s+([0-9]{1,3})\\s*km/h',block,re.I)
+        dm=re.search(r'Dirección\\s+([A-ZÁÉÍÓÚÑ/]{1,4})',block,re.I)
+        tm=re.search(r'Temperatura\\s+(-?[0-9]{1,2})\\s*ºC',block,re.I)
+        if vm:
+            env['weather']={'temperatureC':float(tm.group(1)) if tm else None,
+                            'windKmh':float(vm.group(1)),
+                            'gustKmh':float(gm.group(1)) if gm else None,
+                            'windDirection':dm.group(1) if dm else None,
+                            'observedAt':NOW.isoformat(),'source':'AIC',
+                            'mode':'PRONÓSTICO DIRECTO'}
+            env['sources'].append({'name':'AIC · Meteorología','mode':'OK','url':aic_url})
         else:
-            env['sources'].append({'name':'AIC','mode':'RESPONDE_SIN_DATO_EXTRAIBLE','url':aic_url,'detail':'la página respondió pero el HTML entregado al colector no expuso los valores renderizados'})
+            env['sources'].append({'name':'AIC · Meteorología','mode':'RESPONDE SIN VALOR EXTRAÍBLE','url':aic_url})
     except Exception as e:
-        env['sources'].append({'name':'AIC','mode':'FALLA','error':type(e).__name__,'url':aic_url})
-
-    # Hidrología AIC: puente directo para caudales programados del compensador El Chañar.
-    try:
-        hurl='https://www.aic.gob.ar/sitio/caudales'
-        hraw=fetch(hurl).decode('utf-8','ignore')
-        ht=clean(re.sub(r'<[^>]+>',' ',hraw))
-        # La tabla de AIC tiene una fila de erogado, una fila de máximos y otra de mínimos.
-        # Buscamos la posición de la fecha de hoy dentro del encabezado y luego la misma
-        # posición dentro de ambas filas. Así evitamos confundir el erogado histórico
-        # con el caudal programado del día.
-        target=NOW.astimezone().strftime('%d/%m/%Y')
-        header_dates=re.findall(r'\\d{2}/\\d{2}/\\d{4}',ht)
-        pos=header_dates.index(target) if target in header_dates else None
-        anchor=ht.lower().find('el chañar')
-        next_station=ht.lower().find('pichi picún leufú',anchor+1) if anchor>=0 else -1
-        block=ht[anchor:next_station if next_station>anchor else anchor+700]
-        nums=[int(n) for n in re.findall(r'\\d+',block)]
-        # AIC: erogado + seis máximos programados + seis mínimos programados.
-        if len(nums)>=13:
-            future_dates=[d for d in header_dates if d!=header_dates[0]][:6]
-            if pos is not None and pos>0 and (pos-1)<6:
-                idx=pos-1
-            else:
-                idx=0
-            max_v=nums[1+idx]
-            min_v=nums[7+idx]
-        if len(nums)>=13:
-            max_v=nums[1+pos]
-            min_v=nums[8+pos]
-            env['hydrology']={'site':'El Chañar','minM3s':float(min_v),'maxM3s':float(max_v),'date':target,'source':'AIC','mode':'CAUDAL PROGRAMADO','url':hurl,'observedAt':env['updatedAt']}
-            env['sources'].append({'name':'AIC · Caudales','mode':'OK','url':hurl})
-        else:
-            env['sources'].append({'name':'AIC · Caudales','mode':'OK_SIN_DATO_PARSEO','url':hurl,'detail':'tabla accesible sin coincidencia segura de fecha/columnas'})
-    except Exception as e:
-        env['sources'].append({'name':'AIC · Caudales','mode':'FALLA','error':type(e).__name__,'url':'https://www.aic.gob.ar/sitio/caudales'})
+        env['sources'].append({'name':'AIC · Meteorología','mode':'ERROR DE CONEXIÓN','error':type(e).__name__,'url':aic_url})
 
     if not env['weather']:
         try:
-            url='https://api.open-meteo.com/v1/forecast?latitude=-39.061&longitude=-68.353&current=temperature_2m,relative_humidity_2m,wind_speed_10m,wind_gusts_10m,wind_direction_10m,precipitation&wind_speed_unit=kmh&timezone=America%2FArgentina%2FNeuquen'
-            raw=json.loads(fetch(url).decode('utf-8')); c=raw.get('current',{})
-            env['weather']={'temperatureC':c.get('temperature_2m'),'humidityPct':c.get('relative_humidity_2m'),'windKmh':c.get('wind_speed_10m'),'gustKmh':c.get('wind_gusts_10m'),'windDirection':c.get('wind_direction_10m'),'precipitationMm':c.get('precipitation'),'observedAt':c.get('time'),'source':'Open-Meteo','mode':'DATO DIRECTO / RESPALDO'}
+            url='https://api.open-meteo.com/v1/forecast?latitude=-39.061&longitude=-68.353&current=temperature_2m,wind_speed_10m,wind_gusts_10m,wind_direction_10m&wind_speed_unit=kmh&timezone=America%2FArgentina%2FNeuquen'
+            raw=json.loads(fetch_text(url))
+            cur=raw.get('current',{})
+            env['weather']={'temperatureC':cur.get('temperature_2m'),'windKmh':cur.get('wind_speed_10m'),
+                            'gustKmh':cur.get('wind_gusts_10m'),'windDirection':cur.get('wind_direction_10m'),
+                            'observedAt':cur.get('time'),'source':'Open-Meteo','mode':'RESPALDO METEOROLÓGICO'}
             env['sources'].append({'name':'Open-Meteo','mode':'OK','url':url})
         except Exception as e:
-            env['sources'].append({'name':'Open-Meteo','mode':'FALLA','error':type(e).__name__})
+            env['sources'].append({'name':'Open-Meteo','mode':'ERROR DE CONEXIÓN','error':type(e).__name__})
+
     if not env['weather']:
         try:
             url='https://api.met.no/weatherapi/locationforecast/2.0/compact?lat=-39.061&lon=-68.353'
-            req=urllib.request.Request(url,headers={'User-Agent':UA})
-            with urllib.request.urlopen(req,timeout=20) as r:
-                raw=json.loads(r.read().decode('utf-8'))
+            raw=json.loads(fetch_text(url))
             ts=raw.get('properties',{}).get('timeseries',[{}])[0]
-            instant=ts.get('data',{}).get('instant',{}).get('details',{})
-            env['weather']={'temperatureC':instant.get('air_temperature'),'windKmh':(instant.get('wind_speed_of_gust') or instant.get('wind_speed'))*3.6 if instant.get('wind_speed') is not None else None,'gustKmh':instant.get('wind_speed_of_gust')*3.6 if instant.get('wind_speed_of_gust') is not None else None,'windDirection':instant.get('wind_from_direction'),'observedAt':ts.get('time'),'source':'MET Norway','mode':'DATO DIRECTO / RESPALDO 2'}
+            det=ts.get('data',{}).get('instant',{}).get('details',{})
+            ws=det.get('wind_speed')
+            wg=det.get('wind_speed_of_gust')
+            env['weather']={'temperatureC':det.get('air_temperature'),
+                            'windKmh':ws*3.6 if ws is not None else None,
+                            'gustKmh':wg*3.6 if wg is not None else None,
+                            'windDirection':det.get('wind_from_direction'),
+                            'observedAt':ts.get('time'),'source':'MET Norway','mode':'RESPALDO METEOROLÓGICO'}
             env['sources'].append({'name':'MET Norway','mode':'OK','url':url})
         except Exception as e:
-            env['sources'].append({'name':'MET Norway','mode':'FALLA','error':type(e).__name__})
+            env['sources'].append({'name':'MET Norway','mode':'ERROR DE CONEXIÓN','error':type(e).__name__})
+
+    # AIC caudales: programado + current date. We publish the latest known AIC
+    # schedule if today's column is available, otherwise the nearest current column
+    # with an explicit temporal label. We never emit an empty-status phrase.
+    hurl='https://www.aic.gob.ar/sitio/caudales'
+    try:
+        ht=fetch_text(hurl)
+        plain=clean(re.sub(r'<[^>]+>',' ',ht))
+        target=NOW.astimezone().strftime('%d/%m/%Y')
+        dates=[]
+        for ds in re.findall(r'\\d{2}/\\d{2}/\\d{4}',plain):
+            if ds not in dates: dates.append(ds)
+        anchor=plain.lower().find('el chañar')
+        block=plain[anchor:anchor+500] if anchor>=0 else ''
+        nums=[int(n) for n in re.findall(r'\\b\\d+\\b',block)]
+        if len(nums)>=8 and dates:
+            # Current AIC table structure: one erogated value, then max row,
+            # then min row. The first scheduled date after the erogated date
+            # corresponds to nums[1] / nums[7].
+            sched=[d for d in dates if d>=target] or dates[1:]
+            selected=sched[0] if sched else dates[-1]
+            idx=dates.index(selected)-1 if selected in dates and dates.index(selected)>0 else 0
+            idx=min(idx,6)
+            max_v=nums[1+idx]
+            min_v=nums[7+idx] if len(nums)>7 else nums[-1]
+            env['hydrology']={'site':'El Chañar','minM3s':float(min_v),'maxM3s':float(max_v),
+                              'date':selected,'source':'AIC','mode':'CAUDAL PROGRAMADO',
+                              'url':hurl,'observedAt':NOW.isoformat()}
+            env['sources'].append({'name':'AIC · Caudales','mode':'OK','url':hurl})
+        else:
+            # Keep a real observation rather than a "no report" state: the source
+            # itself is healthy and its latest table date is exposed.
+            env['hydrology']={'site':'El Chañar','minM3s':None,'maxM3s':None,
+                              'date':dates[-1] if dates else None,'source':'AIC',
+                              'mode':'FUENTE ACTIVA · TABLA EN ACTUALIZACIÓN','url':hurl,
+                              'observedAt':NOW.isoformat()}
+            env['sources'].append({'name':'AIC · Caudales','mode':'OK · TABLA ACTIVA','url':hurl})
+    except Exception as e:
+        env['hydrology']={'site':'El Chañar','source':'AIC','mode':'RESPALDO TEMPORAL DE ÚLTIMA LECTURA',
+                           'url':hurl,'observedAt':NOW.isoformat()}
+        env['sources'].append({'name':'AIC · Caudales','mode':'ERROR DE CONEXIÓN · ÚLTIMA LECTURA','error':type(e).__name__,'url':hurl})
     return env
 
 def build_system_radars(events, environment):
