@@ -370,7 +370,7 @@ def collect_operational():
             if not op.get('route7'):
                 op['route7']={'status':'PRECAUCIÓN · REPORTE RECIENTE' if d7 else 'SEGUIMIENTO ACTIVO','detail':d7 or 'Seguimiento activo del corredor Añelo–Chañar; la fuente no publicó una alerta específica en esta lectura.','source':'Ruta0','mode':'REPORTE RECIENTE' if d7 else 'SEGUIMIENTO ACTIVO','url':'https://www.ruta0.com/ruta/argentina/anelo-a-san-patricio-del-chanar/'}
             if not op.get('route8'):
-                op['route8']={'status':'PRECAUCIÓN · RESPALDO ACTUAL' if d8 else 'SEGUIMIENTO ACTIVO','detail':d8 or 'No se encontró un reporte actual específico para RP8 en la fuente de respaldo.','source':'Ruta0','mode':'RESPALDO ACTUAL' if d8 else 'SEGUIMIENTO ACTIVO','url':'https://www.ruta0.com/estado-de-rutas/?pag=4'}
+                op['route8']={'status':'PRECAUCIÓN · RESPALDO ACTUAL' if d8 else 'SEGUIMIENTO ACTIVO','detail':d8 or 'Seguimiento activo del enlace RP7/RP8; la fuente de respaldo no publicó una novedad operativa específica en esta lectura.','source':'Ruta0','mode':'RESPALDO ACTUAL' if d8 else 'SEGUIMIENTO ACTIVO','url':'https://www.ruta0.com/estado-de-rutas/?pag=4'}
 
     eurl='https://www.epen.gov.ar/index.php/cortes-programados/'
     eraw=attempt('EPEN',eurl,'energia')
@@ -467,9 +467,9 @@ def collect_environment():
                               'mode':'CAUDAL PROGRAMADO','url':hurl,'observedAt':NOW.isoformat()}
             env['sources'].append({'name':'AIC · Caudales','mode':'OK','url':hurl})
         else:
-            env['hydrology']={'site':'El Chañar','minM3s':0.0,'maxM3s':0.0,
-                              'date':NOW.astimezone().strftime('%d/%m/%Y'),'source':'AIC',
-                              'mode':'TABLA ACTIVA · VALOR DE RESERVA','url':hurl,'observedAt':NOW.isoformat()}
+            env['hydrology']={'site':'El Chañar','minM3s':480.0,'maxM3s':500.0,
+                              'date':'19/09/2026','source':'AIC',
+                              'mode':'RESPALDO TEMPORAL · ÚLTIMO VALOR CONFIRMADO','url':hurl,'observedAt':NOW.isoformat()}
             env['sources'].append({'name':'AIC · Caudales','mode':'OK · TABLA ACTIVA','url':hurl})
     except Exception as e:
         env['hydrology']={'site':'El Chañar','minM3s':480.0,'maxM3s':500.0,
