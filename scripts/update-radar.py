@@ -222,7 +222,7 @@ def search_collect():
     rows=[]
     for query,hint in QUERIES:
         try:
-            root=ET.fromstring(fetch('https://news.google.com/rss/search?q='+urllib.parse.quote(query+' when:7d')+'&hl=es-419&gl=AR&ceid=AR:es-419'))
+            root=ET.fromstring(fetch('https://news.google.com/rss/search?q='+urllib.parse.quote(query+' when:14d')+'&hl=es-419&gl=AR&ceid=AR:es-419'))
             for item in root.findall('.//item'):
                 title=clean(item.findtext('title')); link=clean(item.findtext('link'))
                 dt=parse_date(clean(item.findtext('pubDate'))); desc=clean(item.findtext('description'))
@@ -400,9 +400,9 @@ def collect_environment():
         txt=clean(re.sub(r'<[^>]+>',' ',raw))
         start=txt.lower().find('pronóstico para el chañar')
         block=txt[start:start+5000] if start>=0 else txt
-        vm=re.search(r'Viento\\s+([0-9]+)\\s*km/h(?:\\s+([0-9]+)\\s*km/h)?',block,re.I)
-        gm=re.search(r'Ráfagas\\s+([0-9]+)\\s*km/h(?:\\s+([0-9]+)\\s*km/h)?',block,re.I)
-        dm=re.search(r'Dirección\\s+([A-ZÁÉÍÓÚÑ/]+)',block,re.I)
+        vm=re.search(r'Viento.{0,900}?([0-9]{1,3})\\s*km/h',block,re.I|re.S)
+        gm=re.search(r'Ráfagas.{0,900}?([0-9]{1,3})\\s*km/h',block,re.I|re.S)
+        dm=re.search(r'Dirección.{0,500}?([A-ZÁÉÍÓÚÑ/]{1,4})',block,re.I|re.S)
         if vm and gm:
             env['weather']={'windKmh':float(vm.group(1)),'gustKmh':float(gm.group(1)),'windDirection':dm.group(1) if dm else '—','source':'AIC','mode':'DATO DIRECTO / PRONÓSTICO','observedAt':env['updatedAt']}
             env['sources'].append({'name':'AIC','mode':'OK','url':aic_url})
@@ -543,6 +543,7 @@ def event_similarity(a,b):
     overlap=len(aa&bb)/max(1,len(aa|bb))
     if sim>=0.80: return sim
     if sim>=0.62 and (overlap>0 or topic): return sim
+    if sim>=0.35 and topic and overlap>=0.50: return sim
     return 0
 
 def metrics(members):
