@@ -590,11 +590,15 @@ def collect_environment():
     try:
         ht=fetch(hurl)
         plain=clean(re.sub(r'<[^>]+>',' ',ht))
-        row=re.search(r'El Chañar[ ]*[|][ ]*([0-9]+)[ ]*[|][ ]*((?:[0-9]+[ ]*[|][ ]*){5}[0-9]+)[ ]*([0-9]+(?:[ ]*[|][ ]*[0-9]+){5})',plain,re.I)
-        if row:
-            max_vals=[int(x) for x in re.findall(r'[0-9]+',row.group(2))]
-            min_vals=[int(x) for x in re.findall(r'[0-9]+',row.group(3))]
-            env['hydrology']={'site':'El Chañar','flowType':'programmed_outflow','erogatedM3s':int(row.group(1)),'programmedMaxM3s':max_vals,'programmedMinM3s':min_vals,'currentProgrammedMaxM3s':max_vals[0] if max_vals else None,'currentProgrammedMinM3s':min_vals[0] if min_vals else None,'programDate':(NOW+timedelta(days=1)).strftime('%Y-%m-%d'),'tableDate':NOW.strftime('%Y-%m-%d'),'retrievedAt':NOW.isoformat(),'source':'AIC','sourceTier':'primary','sourceUrl':hurl,'semanticState':'caudal_programado'}
+        start=plain.lower().find('el chañar')
+        end=plain.lower().find('pichi picún leufú',start+1) if start>=0 else -1
+        block=plain[start:end] if start>=0 and end>start else ''
+        nums=[int(x) for x in re.findall(r'[0-9]+',block)]
+        if len(nums)>=13:
+            erogado=nums[0]
+            max_vals=nums[1:7]
+            min_vals=nums[7:13]
+            env['hydrology']={'site':'El Chañar','flowType':'programmed_outflow','erogatedM3s':erogado,'programmedMaxM3s':max_vals,'programmedMinM3s':min_vals,'currentProgrammedMaxM3s':max_vals[0],'currentProgrammedMinM3s':min_vals[0],'programDate':(NOW+timedelta(days=1)).strftime('%Y-%m-%d'),'tableDate':NOW.strftime('%Y-%m-%d'),'retrievedAt':NOW.isoformat(),'source':'AIC','sourceTier':'primary','sourceUrl':hurl,'semanticState':'caudal_programado'}
             env['sources'].append({'name':'AIC · Caudales Programados','tier':'primary','mode':'parsed','url':hurl})
         else:
             env['sources'].append({'name':'AIC · Caudales Programados','tier':'primary','mode':'reachable_but_unparsed','url':hurl})
