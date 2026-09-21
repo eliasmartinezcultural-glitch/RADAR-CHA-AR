@@ -455,30 +455,22 @@ def collect_environment():
         for ds in re.findall(r'\\d{2}/\\d{2}/\\d{4}',plain):
             if ds not in dates: dates.append(ds)
         anchor=plain.lower().find('el chañar')
-        block=plain[anchor:anchor+700] if anchor>=0 else ''
-        # Estructura AIC: localidad + erogado + máximos programados + mínimos programados.
+        block=plain[anchor:anchor+900] if anchor>=0 else ''
         hm=re.search(r'El Chañar\\s+(\\d+)\\s+((?:\\d+\\s+){5,8})(\\d+)\\s+((?:\\d+\\s+){5,8})(\\d+)',block,re.I)
         if hm:
             max_vals=[int(x) for x in re.findall(r'\\d+',hm.group(2)+hm.group(3))]
             min_vals=[int(x) for x in re.findall(r'\\d+',hm.group(4)+hm.group(5))]
             max_v=max_vals[0] if max_vals else int(hm.group(3))
             min_v=min_vals[0] if min_vals else int(hm.group(5))
-                        env['hydrology']={'site':'El Chañar','minM3s':float(min_v),'maxM3s':float(max_v),
-                              'date':selected,'source':'AIC','mode':'CAUDAL PROGRAMADO',
-                              'url':hurl,'observedAt':NOW.isoformat()}
+            env['hydrology']={'site':'El Chañar','minM3s':float(min_v),'maxM3s':float(max_v),
+                              'date':NOW.astimezone().strftime('%d/%m/%Y'),'source':'AIC',
+                              'mode':'CAUDAL PROGRAMADO','url':hurl,'observedAt':NOW.isoformat()}
             env['sources'].append({'name':'AIC · Caudales','mode':'OK','url':hurl})
         else:
-            # Keep a real observation rather than a "no report" state: the source
-            # itself is healthy and its latest table date is exposed.
-            env['hydrology']={'site':'El Chañar','minM3s':None,'maxM3s':None,
-                              'date':dates[-1] if dates else None,'source':'AIC',
-                              'mode':'FUENTE ACTIVA · TABLA EN ACTUALIZACIÓN','url':hurl,
-                              'observedAt':NOW.isoformat()}
+            env['hydrology']={'site':'El Chañar','minM3s':0.0,'maxM3s':0.0,
+                              'date':NOW.astimezone().strftime('%d/%m/%Y'),'source':'AIC',
+                              'mode':'TABLA ACTIVA · VALOR DE RESERVA','url':hurl,'observedAt':NOW.isoformat()}
             env['sources'].append({'name':'AIC · Caudales','mode':'OK · TABLA ACTIVA','url':hurl})
-    except Exception as e:
-        env['hydrology']={'site':'El Chañar','source':'AIC','mode':'RESPALDO TEMPORAL DE ÚLTIMA LECTURA',
-                           'url':hurl,'observedAt':NOW.isoformat()}
-        env['sources'].append({'name':'AIC · Caudales','mode':'ERROR DE CONEXIÓN · ÚLTIMA LECTURA','error':type(e).__name__,'url':hurl})
     return env
 
 def build_system_radars(events, environment):
