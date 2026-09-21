@@ -459,6 +459,56 @@ SOURCE_CONTRACTS = {
     }
 }
 
+INDICATOR_TECHNICAL_CONTRACTS = {
+    "CONVERSACIÓN":{"dataType":"editorial_event","geography":"San Patricio del Chañar","temporalField":"publishedAt","parser":"rss/web article parser","validation":"local relevance + date + URL + source identity"},
+    "RUTA 7":{"dataType":"road_operational_state","geography":"RP7 · tramo identificado","temporalField":"validFrom/validTo when published","parser":"DPV road-state parser","validation":"road identity + explicit state vocabulary + vigency + source competence"},
+    "RUTA 8":{"dataType":"road_operational_state","geography":"RP8 · tramo identificado","temporalField":"validFrom/validTo when published","parser":"DPV road-state parser","validation":"road identity + explicit state vocabulary + vigency + source competence"},
+    "VIENTO":{"dataType":"meteorological_forecast","geography":"El Chañar","temporalField":"forecastPeriod","parser":"AIC El Chañar forecast parser","validation":"numeric km/h + gusts + direction + forecast classification"},
+    "TEMPERATURA":{"dataType":"meteorological_forecast","geography":"El Chañar","temporalField":"forecastPeriod","parser":"AIC El Chañar forecast parser","validation":"numeric °C + forecast classification"},
+    "CAUDAL":{"dataType":"hydrological_program","geography":"Compensador/embalse El Chañar","temporalField":"programDate","parser":"AIC programmed-flow table parser","validation":"m³/s + date column + site identity + programmed-flow semantics"},
+    "ENERGÍA":{"dataType":"electricity_service_event","geography":"San Patricio del Chañar / sector affected","temporalField":"eventStart/eventEnd","parser":"EPEN scheduled-outage parser","validation":"local sector + event type + date/time + EPEN source"},
+    "AGUA":{"dataType":"water_service_event","geography":"San Patricio del Chañar / sector affected","temporalField":"eventDate/time","parser":"EPAS notice parser","validation":"local scope + water event vocabulary + date/time + EPAS source"},
+    "SERVICIOS":{"dataType":"public_service_event","geography":"local service area","temporalField":"eventDate/time","parser":"competent-organism notice parser","validation":"service identity + responsible organism + event vocabulary + date/time"},
+    "SALUD":{"dataType":"health_service_notice","geography":"establishment/coverage area","temporalField":"eventDate/time","parser":"health authority notice parser","validation":"establishment + service type + date/time + competent health source"},
+    "EDUCACIÓN":{"dataType":"education_notice","geography":"establishment/level","temporalField":"eventDate/time","parser":"CPE notice parser","validation":"school/level + educational event + date + CPE source"},
+    "PRODUCCIÓN":{"dataType":"productive_notice","geography":"productive establishment/sector","temporalField":"eventDate","parser":"productive authority notice parser","validation":"productive chain + local anchor + event type + competent source"},
+    "EMERGENCIAS":{"dataType":"emergency_operational_event","geography":"event zone","temporalField":"alertTime/eventTime","parser":"emergency authority notice parser","validation":"event type + zone + operational source + timestamp"},
+    "TERRITORIO":{"dataType":"territorial_event","geography":"local sector/place","temporalField":"eventDate","parser":"municipal/competent-authority territorial parser","validation":"geographic anchor + responsible organism + event identity + date"}
+}
+
+RESERVED_INDICATORS = {
+    "CALIDAD_AIRE":{
+        "sourceCandidate":"Ministerio de Salud de Neuquén · red de monitoreo de calidad del aire",
+        "measurement":"PM2.5 y otros parámetros del sensor cuando la estación esté operativa",
+        "status":"FUENTE IDENTIFICADA · ESTACIÓN LOCAL A VERIFICAR ANTES DE PUBLICAR",
+        "rule":"no publicar valores para Chañar hasta confirmar estación operativa, endpoint/lectura y timestamp"
+    },
+    "NIVEL_RIO":{
+        "sourceCandidate":"AIC · estación COMPENSADOR EL CHANAR",
+        "measurement":"altura río/lago en m",
+        "status":"FUENTE IDENTIFICADA · ADAPTADOR PENDIENTE",
+        "rule":"publicar solo con sitio de estación, valor y última actualización"
+    },
+    "CAUDAL_OBSERVADO":{
+        "sourceCandidate":"AIC · estación COMPENSADOR EL CHANAR",
+        "measurement":"caudal medio diario en m³/s",
+        "status":"FUENTE IDENTIFICADA · ADAPTADOR PENDIENTE",
+        "rule":"distinguir caudal medio diario medido de caudal saliente programado"
+    },
+    "ESTADO_TRANSITO":{
+        "sourceCandidate":"autoridad vial competente según corredor",
+        "measurement":"estado de tramo / incidente / restricción",
+        "status":"FUENTE A DEFINIR SEGÚN VÍA",
+        "rule":"no mezclar rutas provinciales, nacionales y tránsito urbano bajo una sola fuente"
+    },
+    "RIESGO_INCENDIO":{
+        "sourceCandidate":"Servicio Meteorológico Nacional · Índice de Peligro de Incendios FWI",
+        "measurement":"índice/clase de peligro y vigencia territorial",
+        "status":"FUENTE IDENTIFICADA · ADAPTADOR PENDIENTE",
+        "rule":"no convertir condiciones meteorológicas generales en riesgo de incendio sin el índice oficial"
+    }
+}
+
 def audit_source_contracts():
     required=("primary","domain","unit","language","rule")
     technical_required=("dataType","geography","temporalField","parser","validation")
