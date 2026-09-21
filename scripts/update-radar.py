@@ -393,7 +393,7 @@ def collect_environment():
     # only transport/parsing fallbacks; every value carries source + mode + timestamp.
     aic_url='https://www.aic.gob.ar/sitio/home?a=1015&z=1967225803'
     try:
-        html=fetch_text(aic_url)
+        html=fetch(aic_url)
         text=clean(re.sub(r'<[^>]+>',' ',html))
         block=text[text.lower().find('pronóstico para el chañar'):][:5000]
         vm=re.search(r'Viento\\s+([0-9]{1,3})\\s*km/h',block,re.I)
@@ -416,7 +416,7 @@ def collect_environment():
     if not env['weather']:
         try:
             url='https://api.open-meteo.com/v1/forecast?latitude=-39.061&longitude=-68.353&current=temperature_2m,wind_speed_10m,wind_gusts_10m,wind_direction_10m&wind_speed_unit=kmh&timezone=America%2FArgentina%2FNeuquen'
-            raw=json.loads(fetch_text(url))
+            raw=json.loads(fetch(url))
             cur=raw.get('current',{})
             env['weather']={'temperatureC':cur.get('temperature_2m'),'windKmh':cur.get('wind_speed_10m'),
                             'gustKmh':cur.get('wind_gusts_10m'),'windDirection':cur.get('wind_direction_10m'),
@@ -428,7 +428,7 @@ def collect_environment():
     if not env['weather']:
         try:
             url='https://api.met.no/weatherapi/locationforecast/2.0/compact?lat=-39.061&lon=-68.353'
-            raw=json.loads(fetch_text(url))
+            raw=json.loads(fetch(url))
             ts=raw.get('properties',{}).get('timeseries',[{}])[0]
             det=ts.get('data',{}).get('instant',{}).get('details',{})
             ws=det.get('wind_speed')
@@ -447,7 +447,7 @@ def collect_environment():
     # with an explicit temporal label. We never emit an empty-status phrase.
     hurl='https://www.aic.gob.ar/sitio/caudales'
     try:
-        ht=fetch_text(hurl)
+        ht=fetch(hurl)
         plain=clean(re.sub(r'<[^>]+>',' ',ht))
         target=NOW.astimezone().strftime('%d/%m/%Y')
         dates=[]
