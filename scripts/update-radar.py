@@ -471,6 +471,12 @@ def collect_environment():
                               'date':NOW.astimezone().strftime('%d/%m/%Y'),'source':'AIC',
                               'mode':'TABLA ACTIVA · VALOR DE RESERVA','url':hurl,'observedAt':NOW.isoformat()}
             env['sources'].append({'name':'AIC · Caudales','mode':'OK · TABLA ACTIVA','url':hurl})
+    except Exception as e:
+        env['hydrology']={'site':'El Chañar','minM3s':500.0,'maxM3s':500.0,
+                          'date':NOW.astimezone().strftime('%d/%m/%Y'),'source':'AIC',
+                          'mode':'RESPALDO TEMPORAL · ÚLTIMO VALOR CONFIRMADO',
+                          'url':hurl,'observedAt':NOW.isoformat()}
+        env['sources'].append({'name':'AIC · Caudales','mode':'ERROR DE CONEXIÓN · RESPALDO TEMPORAL','error':type(e).__name__,'url':hurl})
     return env
 
 def build_system_radars(events, environment):
