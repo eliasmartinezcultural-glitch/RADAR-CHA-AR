@@ -590,7 +590,45 @@ for term in LOCAL_ENTITIES:
     language_audit.append({'term':term,'hits':len(hits),'direct':sum(x.get('relevance')==3 for x in hits)})
 language_audit=sorted(language_audit,key=lambda x:(x['hits'],x['term']),reverse=True)
 precision_audit=build_precision_audit(dedup,fresh)
+# Reemplazaremos la auditoría de precisión por una versión basada en los eventos finales más abajo.
 stats={'total':len(dedup),'direct':sum(x['relevance']==3 for x in dedup),'regional':sum(x['relevance']==2 for x in dedup),'new':sum(x.get('isNew',False) for x in dedup),'sources':len({x['source'] for x in dedup}),'directSignals':sum(x['collection'].startswith('DIRECTA') for x in dedup),'localDirectSignals':sum(x.get('sourcePriority')==1 for x in dedup),'radioDirectSignals':sum(x.get('sourceType')=='RADIO LOCAL' for x in dedup),'precisionRule':'evidence-first','searchNoiseRejected':sum(1 for x in fresh if relevance(x.get('title',''),x.get('description',''))[1] in {'AGREGADOR','SIN ANCLA','AMBIGUA'})}
+def build_precision_audit_from_events(events):
+    rows=[]
+    for e in events:
+        topic=e.get('topic','OTROS')
+        for item in e.get('items',[]):
+            rows.append({
+                'source':item.get('source','DESCONOCIDA'),
+                'topic':topic,
+                'accepted':1,
+                'direct':1 if item.get('relevance')==3 else 0,
+                'anchored':1 if item.get('relevance')==2 else 0,
+                'territorialTerms':e.get('territorialAnchors',[])[:8],
+                'falsePositive':0
+            })
+    matrix={}
+    for r in rows:
+        key=(r['source'],r['topic'])
+        m=matrix.setdefault(key,{'source':key[0],'topic':key[1],'accepted':0,'direct':0,'anchored':0,'falsePositives':0,'territorialTerms':[]})
+        m['accepted']+=1; m['direct']+=r['direct']; m['anchored']+=r['anchored']
+        for t in r['territorialTerms']:
+            if t not in m['territorialTerms']: m['territorialTerms'].append(t)
+    source_summary=[]
+    known={s['name']:s for s in SOURCE_CATALOG}
+    observed=sorted({r['source'] for r in rows})
+    for name in sorted(set(known)|set(observed)):
+        accepted=[r for r in rows if r['source']==name]
+        meta=known.get(name,{})
+        source_summary.append({'source':name,'group':meta.get('group','OBSERVADA'),'role':meta.get('role','fuente detectada fuera del catálogo'),'accepted':len(accepted),'direct':sum(r['direct'] for r in accepted),'anchored':sum(r['anchored'] for r in accepted),'falsePositives':0,'falsePositiveTypes':[],'topics':sorted(set(r['topic'] for r in accepted))})
+    language_precision=[]
+    for term in LOCAL_ENTITIES:
+        n=norm(term)
+        hits=[x for e in events for x in e.get('items',[]) if n in norm(x.get('title','')+' '+x.get('description',''))]
+        language_precision.append({'term':term,'acceptedHits':len(hits),'directHits':sum(x.get('relevance')==3 for x in hits),'rejectedTitleHits':0,'territorialStrength':'FUERTE' if term in STRONG_LOCAL else ('CORREDOR' if term in {'ruta 7','ruta 8'} else 'DÉBIL')})
+    return {'version':'1.1','rule':'source × signal × local language × false positive','sourceSummary':source_summary,'matrix':sorted(matrix.values(),key=lambda r:(-r['accepted'],-r['direct'],r['source'],r['topic'])),'languagePrecision':language_precision,'falsePositiveSummary':{},'rejectedSamples':[],'rules':precision_rules,'interpretation':'auditoría sobre eventos aceptados; la próxima capa debe instrumentar rechazos antes del clustering'}
+
+precision_audit=build_precision_audit_from_events(events)
+precision_audit=build_precision_audit(dedup,fresh)
 output={'updatedAt':now,'window':f'{DAYS} días','purpose':'Detectar qué se está moviendo en San Patricio del Chañar y mostrar de dónde surge cada señal.','architecture':'25 fuentes profesionales + búsquedas dirigidas + fuentes directas + web directa + respaldo + memoria de eventos + ciclo de vida + incidencia territorial + evidencia + salud de fuentes + radares de infraestructura + ambiente','keywords':[q for q,_ in QUERIES],'sourceRegistry':status,'sourceCatalog':SOURCE_CATALOG,'sourceAudit':source_audit,'languageAudit':language_audit,'precisionAudit':precision_audit,'stats':stats,'environment':environment,'operational':operational,'sourceContracts':SOURCE_CONTRACTS,'systemRadars':system_radars,'system':{'memoryDays':MEMORY_DAYS,'eventIdentity':'estable entre actualizaciones','evidenceRule':'evidence-first','movementRule':'descriptivo: recencia + cobertura + diversidad de fuentes; no es ranking de importancia','sourceFailureRule':'no inferir desaparición cuando las fuentes conocidas no responden','infrastructureRule':'una señal editorial no equivale a confirmación operativa; los datos directos se etiquetan por separado','lifecycle':['EMERGENTE','ACTIVO','SOSTENIDO','EN DESCENSO','RECIENTE'],'sourceHealth':status},'events':events,'items':dedup}
 with open(OUT,'w',encoding='utf-8') as f: json.dump(output,f,ensure_ascii=False,indent=2)
 print('PULSO:',stats,'RADARES:',len(system_radars))
