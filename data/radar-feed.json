@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-21T22:32:13.941553+00:00",
+  "updatedAt": "2026-09-22T01:32:15.988312+00:00",
   "window": "14 días",
   "purpose": "Detectar qué se está moviendo en San Patricio del Chañar y mostrar de dónde surge cada señal.",
   "architecture": "contrato universal de procedencia + fuentes profesionales + adaptadores específicos + validación semántica + temporalidad + evidencia editorial separada",
@@ -49,7 +49,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://chanardigital.com.ar/",
-      "lastFetch": "2026-09-21T22:31:54.978591+00:00",
+      "lastFetch": "2026-09-22T01:31:52.136643+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -65,7 +65,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.radiomia.com.ar/",
-      "lastFetch": "2026-09-21T22:31:56.056646+00:00",
+      "lastFetch": "2026-09-22T01:31:53.390481+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -80,7 +80,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://tuitvacamuerta.com/",
-      "lastFetch": "2026-09-21T22:31:57.824388+00:00",
+      "lastFetch": "2026-09-22T01:31:55.246051+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -95,7 +95,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.vacamuertanews.com/",
-      "lastFetch": "2026-09-21T22:31:58.197663+00:00",
+      "lastFetch": "2026-09-22T01:31:55.641617+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -111,7 +111,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.neuqueninforma.gob.ar/",
-      "lastFetch": "2026-09-21T22:31:59.189957+00:00",
+      "lastFetch": "2026-09-22T01:31:57.052121+00:00",
       "success": false,
       "attempted": 3,
       "failures": [
@@ -128,7 +128,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://sanpatricio.gob.ar/",
-      "lastFetch": "2026-09-21T22:32:00.827648+00:00",
+      "lastFetch": "2026-09-22T01:31:58.214439+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -143,7 +143,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://boletinoficial.neuquen.gov.ar/",
-      "lastFetch": "2026-09-21T22:32:01.736572+00:00",
+      "lastFetch": "2026-09-22T01:31:59.260059+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -158,7 +158,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.lmneuquen.com/",
-      "lastFetch": "2026-09-21T22:32:02.051592+00:00",
+      "lastFetch": "2026-09-22T01:31:59.659758+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -174,7 +174,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.rionegro.com.ar/",
-      "lastFetch": "2026-09-21T22:32:03.289761+00:00",
+      "lastFetch": "2026-09-22T01:32:04.616694+00:00",
       "success": true,
       "attempted": 2,
       "failures": [
@@ -189,7 +189,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.mejorinformado.com/",
-      "lastFetch": "2026-09-21T22:32:03.573889+00:00",
+      "lastFetch": "2026-09-22T01:32:05.365023+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -205,7 +205,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.diariamenteneuquen.com/",
-      "lastFetch": "2026-09-21T22:32:04.234677+00:00",
+      "lastFetch": "2026-09-22T01:32:06.190254+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -708,12 +708,12 @@
   ],
   "languageAudit": [
     {
-      "term": "san patricio del chañar",
-      "hits": 3,
-      "direct": 3
+      "term": "el chañar",
+      "hits": 4,
+      "direct": 4
     },
     {
-      "term": "el chañar",
+      "term": "san patricio del chañar",
       "hits": 3,
       "direct": 3
     },
@@ -1121,6 +1121,19 @@
         "topics": []
       },
       {
+        "source": "MejorInformado.com",
+        "group": "OBSERVADA",
+        "role": "fuente detectada fuera del catálogo",
+        "accepted": 1,
+        "direct": 1,
+        "anchored": 0,
+        "falsePositives": 0,
+        "falsePositiveTypes": [],
+        "topics": [
+          "SERVICIOS"
+        ]
+      },
+      {
         "source": "Ministerio de Producción e Industria de Neuquén",
         "group": "REGIONAL",
         "role": "producción rural",
@@ -1314,6 +1327,17 @@
           "el chañar",
           "epet 26"
         ]
+      },
+      {
+        "source": "MejorInformado.com",
+        "topic": "SERVICIOS",
+        "accepted": 1,
+        "direct": 1,
+        "anchored": 0,
+        "falsePositives": 0,
+        "territorialTerms": [
+          "el chañar"
+        ]
       }
     ],
     "languagePrecision": [
@@ -1333,8 +1357,8 @@
       },
       {
         "term": "el chañar",
-        "acceptedHits": 3,
-        "directHits": 3,
+        "acceptedHits": 4,
+        "directHits": 4,
         "rejectedTitleHits": 0,
         "territorialStrength": "FUERTE"
       },
@@ -1659,11 +1683,11 @@
     "interpretation": "auditoría sobre eventos aceptados; la próxima capa debe instrumentar rechazos antes del clustering"
   },
   "stats": {
-    "total": 5,
-    "direct": 5,
+    "total": 6,
+    "direct": 6,
     "regional": 0,
-    "new": 0,
-    "sources": 3,
+    "new": 1,
+    "sources": 4,
     "directSignals": 0,
     "localDirectSignals": 0,
     "radioDirectSignals": 0,
@@ -1677,7 +1701,7 @@
       "forecastGustKmh": 72.0,
       "forecastWindDirection": "SO",
       "forecastTemperatureC": 14.0,
-      "retrievedAt": "2026-09-21T22:31:52.871874+00:00",
+      "retrievedAt": "2026-09-22T01:31:49.590034+00:00",
       "source": "AIC",
       "sourceTier": "primary",
       "sourceUrl": "https://www.aic.gob.ar/sitio/home?a=1015&z=1967225803",
@@ -1705,9 +1729,9 @@
       ],
       "currentProgrammedMaxM3s": 500,
       "currentProgrammedMinM3s": 480,
-      "programDate": "2026-09-22",
-      "tableDate": "2026-09-21",
-      "retrievedAt": "2026-09-21T22:31:52.871874+00:00",
+      "programDate": "2026-09-23",
+      "tableDate": "2026-09-22",
+      "retrievedAt": "2026-09-22T01:31:49.590034+00:00",
       "source": "AIC",
       "sourceTier": "primary",
       "sourceUrl": "https://www.aic.gob.ar/sitio/caudales",
@@ -1727,17 +1751,17 @@
         "url": "https://www.aic.gob.ar/sitio/caudales"
       }
     ],
-    "updatedAt": "2026-09-21T22:31:52.871874+00:00"
+    "updatedAt": "2026-09-22T01:31:49.590034+00:00"
   },
   "operational": {
-    "updatedAt": "2026-09-21T22:31:52.871874+00:00",
+    "updatedAt": "2026-09-22T01:31:49.590034+00:00",
     "route7": {
       "source": "Dirección Provincial de Vialidad",
       "sourceTier": "primary",
       "sourceUrl": "https://www.dpvneuquen.gov.ar/",
       "semanticState": null,
       "publicationState": "source_reachable_no_current_machine_readable_state",
-      "retrievedAt": "2026-09-21T22:31:52.871874+00:00",
+      "retrievedAt": "2026-09-22T01:31:49.590034+00:00",
       "evidence": {
         "route7Mention": true,
         "route8Mention": false
@@ -1749,7 +1773,7 @@
       "sourceUrl": "https://www.dpvneuquen.gov.ar/",
       "semanticState": null,
       "publicationState": "source_reachable_no_current_machine_readable_state",
-      "retrievedAt": "2026-09-21T22:31:52.871874+00:00",
+      "retrievedAt": "2026-09-22T01:31:49.590034+00:00",
       "evidence": {
         "route7Mention": true,
         "route8Mention": false
@@ -1763,7 +1787,7 @@
       "eventType": null,
       "detail": null,
       "publicationState": "source_reachable_no_specific_local_notice",
-      "retrievedAt": "2026-09-21T22:31:52.871874+00:00"
+      "retrievedAt": "2026-09-22T01:31:49.590034+00:00"
     },
     "water": {
       "source": "EPAS",
@@ -1773,7 +1797,7 @@
       "eventType": null,
       "detail": null,
       "publicationState": "source_reachable_no_specific_local_notice",
-      "retrievedAt": "2026-09-21T22:31:52.871874+00:00"
+      "retrievedAt": "2026-09-22T01:31:49.590034+00:00"
     },
     "sources": [
       {
@@ -2183,11 +2207,11 @@
     {
       "id": "CONVERSACIÓN",
       "label": "Conversación general",
-      "signal": 4,
+      "signal": 5,
       "status": "cobertura editorial",
-      "freshnessHours": 24.2,
+      "freshnessHours": 0.3,
       "mode": "evidencia editorial",
-      "evidenceCount": 4,
+      "evidenceCount": 5,
       "sourceContract": {
         "primary": "medios locales identificables",
         "secondary": "fuentes institucionales competentes",
@@ -2265,7 +2289,7 @@
         "sourceUrl": "https://www.dpvneuquen.gov.ar/",
         "semanticState": null,
         "publicationState": "source_reachable_no_current_machine_readable_state",
-        "retrievedAt": "2026-09-21T22:31:52.871874+00:00",
+        "retrievedAt": "2026-09-22T01:31:49.590034+00:00",
         "evidence": {
           "route7Mention": true,
           "route8Mention": false
@@ -2317,7 +2341,7 @@
         "sourceUrl": "https://www.dpvneuquen.gov.ar/",
         "semanticState": null,
         "publicationState": "source_reachable_no_current_machine_readable_state",
-        "retrievedAt": "2026-09-21T22:31:52.871874+00:00",
+        "retrievedAt": "2026-09-22T01:31:49.590034+00:00",
         "evidence": {
           "route7Mention": true,
           "route8Mention": false
@@ -2417,7 +2441,7 @@
         "eventType": null,
         "detail": null,
         "publicationState": "source_reachable_no_specific_local_notice",
-        "retrievedAt": "2026-09-21T22:31:52.871874+00:00"
+        "retrievedAt": "2026-09-22T01:31:49.590034+00:00"
       }
     },
     {
@@ -2467,7 +2491,7 @@
         "eventType": null,
         "detail": null,
         "publicationState": "source_reachable_no_specific_local_notice",
-        "retrievedAt": "2026-09-21T22:31:52.871874+00:00"
+        "retrievedAt": "2026-09-22T01:31:49.590034+00:00"
       }
     },
     {
@@ -2555,7 +2579,7 @@
       "label": "Educación",
       "signal": 2,
       "status": "evidencia educativa",
-      "freshnessHours": 47.5,
+      "freshnessHours": 50.5,
       "mode": "evidencia editorial",
       "evidenceCount": 2,
       "sourceContract": {
@@ -2732,7 +2756,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://chanardigital.com.ar/",
-        "lastFetch": "2026-09-21T22:31:54.978591+00:00",
+        "lastFetch": "2026-09-22T01:31:52.136643+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -2748,7 +2772,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.radiomia.com.ar/",
-        "lastFetch": "2026-09-21T22:31:56.056646+00:00",
+        "lastFetch": "2026-09-22T01:31:53.390481+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -2763,7 +2787,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://tuitvacamuerta.com/",
-        "lastFetch": "2026-09-21T22:31:57.824388+00:00",
+        "lastFetch": "2026-09-22T01:31:55.246051+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -2778,7 +2802,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.vacamuertanews.com/",
-        "lastFetch": "2026-09-21T22:31:58.197663+00:00",
+        "lastFetch": "2026-09-22T01:31:55.641617+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -2794,7 +2818,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.neuqueninforma.gob.ar/",
-        "lastFetch": "2026-09-21T22:31:59.189957+00:00",
+        "lastFetch": "2026-09-22T01:31:57.052121+00:00",
         "success": false,
         "attempted": 3,
         "failures": [
@@ -2811,7 +2835,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://sanpatricio.gob.ar/",
-        "lastFetch": "2026-09-21T22:32:00.827648+00:00",
+        "lastFetch": "2026-09-22T01:31:58.214439+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -2826,7 +2850,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://boletinoficial.neuquen.gov.ar/",
-        "lastFetch": "2026-09-21T22:32:01.736572+00:00",
+        "lastFetch": "2026-09-22T01:31:59.260059+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -2841,7 +2865,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.lmneuquen.com/",
-        "lastFetch": "2026-09-21T22:32:02.051592+00:00",
+        "lastFetch": "2026-09-22T01:31:59.659758+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -2857,7 +2881,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.rionegro.com.ar/",
-        "lastFetch": "2026-09-21T22:32:03.289761+00:00",
+        "lastFetch": "2026-09-22T01:32:04.616694+00:00",
         "success": true,
         "attempted": 2,
         "failures": [
@@ -2872,7 +2896,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.mejorinformado.com/",
-        "lastFetch": "2026-09-21T22:32:03.573889+00:00",
+        "lastFetch": "2026-09-22T01:32:05.365023+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -2888,7 +2912,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.diariamenteneuquen.com/",
-        "lastFetch": "2026-09-21T22:32:04.234677+00:00",
+        "lastFetch": "2026-09-22T01:32:06.190254+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -2906,7 +2930,86 @@
   },
   "events": [
     {
-      "eventId": "CHA-c0191c8a0f94",
+      "eventId": "CHA-e6210052da2c",
+      "title": "Vuelco en El Chañar: un Renault terminó dentro de un canal - MejorInformado.com",
+      "publishedAt": "2026-09-22T01:11:32+00:00",
+      "firstSeen": "2026-09-22T01:32:15.988312+00:00",
+      "lastSeen": "2026-09-22T01:11:32+00:00",
+      "relevance": 3,
+      "relevanceLabel": "DIRECTA",
+      "incidenceLabel": "DIRECTA EN CHANAR",
+      "topic": "SERVICIOS",
+      "movement": 61,
+      "coverage": 1,
+      "sourceCount": 1,
+      "directSourceCount": 0,
+      "territorialAnchors": [
+        "el chañar"
+      ],
+      "sources": [
+        "MejorInformado.com"
+      ],
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQcjdEb0NRWDZKeGlqY0xVUWU4ZVM4MVJObHRDRUhibjN0SXd1N3hqZFAzLThLbTZaLTV5eHF6S2pwd0JVMnFkLTU4UUNnVUVyV1ZjTnR2RzNXcFlUZFNFLUFNcEtMTV85SGxvQzNRUDA2MklNVl9KOVdZUUdDbWkySzhfalJ3V3gzZUhZV0hIZXpYTlVaS2tB0gGXAUFVX3lxTFByN0RvQ1FYNkp4aWpjTFVRZThlUzgxUk5sdENFSGJuM3RJd3U3eGpkUDMtOEttNlotNXl4cXpLanB3QlUycWQtNThRQ2dVRXJXVmNOdHZHM1dwWVRkU0UtQU1wS0xNXzlIbG9DM1FQMDYySU1WX0o5V1lRR0NtaTJLOF9qUndXeDNlSFlXSEhlelhOVVpLa0E?oc=5",
+      "items": [
+        {
+          "title": "Vuelco en El Chañar: un Renault terminó dentro de un canal - MejorInformado.com",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQcjdEb0NRWDZKeGlqY0xVUWU4ZVM4MVJObHRDRUhibjN0SXd1N3hqZFAzLThLbTZaLTV5eHF6S2pwd0JVMnFkLTU4UUNnVUVyV1ZjTnR2RzNXcFlUZFNFLUFNcEtMTV85SGxvQzNRUDA2MklNVl9KOVdZUUdDbWkySzhfalJ3V3gzZUhZV0hIZXpYTlVaS2tB0gGXAUFVX3lxTFByN0RvQ1FYNkp4aWpjTFVRZThlUzgxUk5sdENFSGJuM3RJd3U3eGpkUDMtOEttNlotNXl4cXpLanB3QlUycWQtNThRQ2dVRXJXVmNOdHZHM1dwWVRkU0UtQU1wS0xNXzlIbG9DM1FQMDYySU1WX0o5V1lRR0NtaTJLOF9qUndXeDNlSFlXSEhlelhOVVpLa0E?oc=5",
+          "publishedAt": "2026-09-22T01:11:32+00:00",
+          "published": "2026-09-22T01:11:32+00:00",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxQcjdEb0NRWDZKeGlqY0xVUWU4ZVM4MVJObHRDRUhibjN0SXd1N3hqZFAzLThLbTZaLTV5eHF6S2pwd0JVMnFkLTU4UUNnVUVyV1ZjTnR2RzNXcFlUZFNFLUFNcEtMTV85SGxvQzNRUDA2MklNVl9KOVdZUUdDbWkySzhfalJ3V3gzZUhZV0hIZXpYTlVaS2tB0gGXAUFVX3lxTFByN0RvQ1FYNkp4aWpjTFVRZThlUzgxUk5sdENFSGJuM3RJd3U3eGpkUDMtOEttNlotNXl4cXpLanB3QlUycWQtNThRQ2dVRXJXVmNOdHZHM1dwWVRkU0UtQU1wS0xNXzlIbG9DM1FQMDYySU1WX0o5V1lRR0NtaTJLOF9qUndXeDNlSFlXSEhlelhOVVpLa0E?oc=5\" target=\"_blank\">Vuelco en El Chañar: un Renault terminó dentro de un canal</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MejorInformado.com</font>",
+          "source": "MejorInformado.com",
+          "sourceType": "BUSCADOR / RESPALDO",
+          "sourceUrl": "",
+          "collection": "BUSCADOR",
+          "query": "\"San Patricio del Chañar\"",
+          "relevance": 3,
+          "relevanceLabel": "DIRECTA",
+          "firstSeen": "2026-09-22T01:32:15.988312+00:00",
+          "isNew": true,
+          "titleKey": "vuelco renault termino dentro canal mejorinformado com",
+          "evidenceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQcjdEb0NRWDZKeGlqY0xVUWU4ZVM4MVJObHRDRUhibjN0SXd1N3hqZFAzLThLbTZaLTV5eHF6S2pwd0JVMnFkLTU4UUNnVUVyV1ZjTnR2RzNXcFlUZFNFLUFNcEtMTV85SGxvQzNRUDA2MklNVl9KOVdZUUdDbWkySzhfalJ3V3gzZUhZV0hIZXpYTlVaS2tB0gGXAUFVX3lxTFByN0RvQ1FYNkp4aWpjTFVRZThlUzgxUk5sdENFSGJuM3RJd3U3eGpkUDMtOEttNlotNXl4cXpLanB3QlUycWQtNThRQ2dVRXJXVmNOdHZHM1dwWVRkU0UtQU1wS0xNXzlIbG9DM1FQMDYySU1WX0o5V1lRR0NtaTJLOF9qUndXeDNlSFlXSEhlelhOVVpLa0E?oc=5",
+          "sourcePriority": 3
+        }
+      ],
+      "lifecycle": "EMERGENTE",
+      "movementDelta": 7,
+      "previousCoverage": 1,
+      "newSources": [
+        "MejorInformado.com"
+      ],
+      "sourceDiversity": 1,
+      "memoryMatched": true,
+      "isNew": false,
+      "view": "INCIDENCIA",
+      "incidenceEligible": true,
+      "signalReason": "reservado a incidencia territorial",
+      "incidenceReason": "anclaje directo + tema operativo/local",
+      "territory": {
+        "version": "2.0",
+        "primary": "San Patricio del Chañar",
+        "nodes": [
+          "San Patricio del Chañar"
+        ],
+        "sectors": [],
+        "barrios": [],
+        "microzones": [],
+        "corridors": [],
+        "institutions": [],
+        "services": [],
+        "spaces": [],
+        "production": [],
+        "path": "San Patricio del Chañar",
+        "evidence": [
+          {
+            "node": "San Patricio del Chañar",
+            "level": "localidad",
+            "evidence": "DIRECTA"
+          }
+        ]
+      }
+    },
+    {
+      "eventId": "CHA-b08434acc060",
       "title": "Regional Amateur: San Patricio del Chañar se impuso ante Deportivo Roca en el Maiolino - Diario Río Negro",
       "publishedAt": "2026-09-20T22:18:34+00:00",
       "firstSeen": "2026-09-21T06:02:38.129689+00:00",
@@ -2949,7 +3052,7 @@
         }
       ],
       "lifecycle": "EMERGENTE",
-      "movementDelta": -1,
+      "movementDelta": 38,
       "previousCoverage": 1,
       "newSources": [],
       "sourceDiversity": 1,
@@ -2993,7 +3096,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "EDUCACIÓN",
-      "movement": 48,
+      "movement": 47,
       "coverage": 2,
       "sourceCount": 2,
       "directSourceCount": 0,
@@ -3134,15 +3237,15 @@
           "sourcePriority": 3
         }
       ],
-      "lifecycle": "RECIENTE",
+      "lifecycle": "ACTIVO",
       "movementDelta": 0,
-      "previousCoverage": 1,
+      "previousCoverage": 0,
       "newSources": [
         "Chañar Digital"
       ],
       "sourceDiversity": 1,
-      "memoryMatched": true,
-      "isNew": false,
+      "memoryMatched": false,
+      "isNew": true,
       "view": "INCIDENCIA",
       "incidenceEligible": true,
       "signalReason": "reservado a incidencia territorial",
@@ -3262,6 +3365,25 @@
   ],
   "items": [
     {
+      "title": "Vuelco en El Chañar: un Renault terminó dentro de un canal - MejorInformado.com",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQcjdEb0NRWDZKeGlqY0xVUWU4ZVM4MVJObHRDRUhibjN0SXd1N3hqZFAzLThLbTZaLTV5eHF6S2pwd0JVMnFkLTU4UUNnVUVyV1ZjTnR2RzNXcFlUZFNFLUFNcEtMTV85SGxvQzNRUDA2MklNVl9KOVdZUUdDbWkySzhfalJ3V3gzZUhZV0hIZXpYTlVaS2tB0gGXAUFVX3lxTFByN0RvQ1FYNkp4aWpjTFVRZThlUzgxUk5sdENFSGJuM3RJd3U3eGpkUDMtOEttNlotNXl4cXpLanB3QlUycWQtNThRQ2dVRXJXVmNOdHZHM1dwWVRkU0UtQU1wS0xNXzlIbG9DM1FQMDYySU1WX0o5V1lRR0NtaTJLOF9qUndXeDNlSFlXSEhlelhOVVpLa0E?oc=5",
+      "publishedAt": "2026-09-22T01:11:32+00:00",
+      "published": "2026-09-22T01:11:32+00:00",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxQcjdEb0NRWDZKeGlqY0xVUWU4ZVM4MVJObHRDRUhibjN0SXd1N3hqZFAzLThLbTZaLTV5eHF6S2pwd0JVMnFkLTU4UUNnVUVyV1ZjTnR2RzNXcFlUZFNFLUFNcEtMTV85SGxvQzNRUDA2MklNVl9KOVdZUUdDbWkySzhfalJ3V3gzZUhZV0hIZXpYTlVaS2tB0gGXAUFVX3lxTFByN0RvQ1FYNkp4aWpjTFVRZThlUzgxUk5sdENFSGJuM3RJd3U3eGpkUDMtOEttNlotNXl4cXpLanB3QlUycWQtNThRQ2dVRXJXVmNOdHZHM1dwWVRkU0UtQU1wS0xNXzlIbG9DM1FQMDYySU1WX0o5V1lRR0NtaTJLOF9qUndXeDNlSFlXSEhlelhOVVpLa0E?oc=5\" target=\"_blank\">Vuelco en El Chañar: un Renault terminó dentro de un canal</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MejorInformado.com</font>",
+      "source": "MejorInformado.com",
+      "sourceType": "BUSCADOR / RESPALDO",
+      "sourceUrl": "",
+      "collection": "BUSCADOR",
+      "query": "\"San Patricio del Chañar\"",
+      "relevance": 3,
+      "relevanceLabel": "DIRECTA",
+      "firstSeen": "2026-09-22T01:32:15.988312+00:00",
+      "isNew": true,
+      "titleKey": "vuelco renault termino dentro canal mejorinformado com",
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQcjdEb0NRWDZKeGlqY0xVUWU4ZVM4MVJObHRDRUhibjN0SXd1N3hqZFAzLThLbTZaLTV5eHF6S2pwd0JVMnFkLTU4UUNnVUVyV1ZjTnR2RzNXcFlUZFNFLUFNcEtMTV85SGxvQzNRUDA2MklNVl9KOVdZUUdDbWkySzhfalJ3V3gzZUhZV0hIZXpYTlVaS2tB0gGXAUFVX3lxTFByN0RvQ1FYNkp4aWpjTFVRZThlUzgxUk5sdENFSGJuM3RJd3U3eGpkUDMtOEttNlotNXl4cXpLanB3QlUycWQtNThRQ2dVRXJXVmNOdHZHM1dwWVRkU0UtQU1wS0xNXzlIbG9DM1FQMDYySU1WX0o5V1lRR0NtaTJLOF9qUndXeDNlSFlXSEhlelhOVVpLa0E?oc=5",
+      "sourcePriority": 3
+    },
+    {
       "title": "Regional Amateur: San Patricio del Chañar se impuso ante Deportivo Roca en el Maiolino - Diario Río Negro",
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOLXdwRDd3TzBBeUljb3g5ZUdqdFdJdFhiTTdTTnNHZ3hYNnNtbm92VlRWMjhVeDlLUElZdWVlQkNmU1FGM0cwcDNIb2I4VnZDbjhORXF6QmpnMkpmakV0dGVsb1o1aVhLVnU3Wlhxb1NtQm44ZDMwUTRxVnlyYl9kR09QRUg0QTAwYUdVWHN0azBLWkFfSzhPMUxHdlVqQnM1ZnFUdGtGMGh3cU8tV3BIb1N3c1ZuU0l3bmZHcHRtU3VVeUhhdS1FZE9fONIB0wFBVV95cUxPRUdmYVY1VFprT04zZkctZXNTMUp6Tm8zM2Q2MGRYME1OLTk4Y2dOYmMyMlloSUxmUWhzU3Bnb3g2Q0xaem9ZX1Iwb2VSazFZQ0hKMG1NV2ZaOFJQNUlnUExvbWR5am5nYVFUVWFIVFFILVJqeE5OWWJwWjNIWThIOG5lbndEemtyX2JmaDhsaFRaVl9MQWh6dFQ3UFV2a1oyQUNvTDJIdHFLbjZrT2NoMlBtNnc1WmpPaFA2RjNnMEg4OGxQcWk2RENaalZKNWs0NlFz?oc=5",
       "publishedAt": "2026-09-20T22:18:34+00:00",
@@ -3359,7 +3481,7 @@
   ],
   "territorialGraph": {
     "version": "2.0",
-    "generatedAt": "2026-09-21T22:32:25.768499+00:00",
+    "generatedAt": "2026-09-22T01:32:28.376615+00:00",
     "root": "spc",
     "rule": "evidence-first",
     "levels": [
@@ -3386,7 +3508,7 @@
           "el chañar",
           "el chanar"
         ],
-        "eventCount": 4
+        "eventCount": 5
       },
       {
         "id": "rio-neuquen",
@@ -3909,7 +4031,10 @@
       }
     ],
     "eventNodes": {
-      "CHA-c0191c8a0f94": [
+      "CHA-e6210052da2c": [
+        "spc"
+      ],
+      "CHA-b08434acc060": [
         "spc"
       ],
       "CHA-003": [
@@ -3939,7 +4064,7 @@
       "nodes": 46,
       "activeNodes": 3,
       "edges": 2,
-      "eventsLinked": 4,
+      "eventsLinked": 5,
       "eventsWithMicrozones": 0,
       "eventsWithBarrios": 0,
       "eventsWithSectors": 0,
@@ -3959,16 +4084,16 @@
   },
   "audit": {
     "version": "1.0",
-    "updatedAt": "2026-09-21T22:32:25.813527+00:00",
+    "updatedAt": "2026-09-22T01:32:28.408706+00:00",
     "rule": "fact != coverage; territory requires textual evidence",
-    "facts": 4,
-    "coverage": 5,
-    "coveragePerFact": 1.25,
-    "directAnchorFacts": 4,
+    "facts": 5,
+    "coverage": 6,
+    "coveragePerFact": 1.2,
+    "directAnchorFacts": 5,
     "directAnchorPct": 100.0,
     "territorySpecificFacts": 2,
-    "territorySpecificPct": 50.0,
-    "averageSourcesPerFact": 1.25,
+    "territorySpecificPct": 40.0,
+    "averageSourcesPerFact": 1.2,
     "activeTerritorialNodes": 3,
     "failedSources": 10,
     "acceptedWithoutLocalEvidence": 0,
