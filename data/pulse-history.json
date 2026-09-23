@@ -2,7 +2,7 @@
   "version": "1.1",
   "windowDays": 45,
   "bucketHours": 2,
-  "generatedAt": "2026-09-23T14:23:04.917361+00:00",
+  "generatedAt": "2026-09-23T18:33:35.597103+00:00",
   "snapshots": [
     {
       "at": "2026-09-20T01:58:09.322313+00:00",
@@ -3019,6 +3019,91 @@
     {
       "at": "2026-09-23T14:23:04.917272+00:00",
       "bucket": "2026-09-23T14:22:00+00:00",
+      "events": 4,
+      "topics": {
+        "SERVICIOS": 1,
+        "DEPORTE": 1,
+        "EDUCACIÓN": 2
+      },
+      "sources": {
+        "MejorInformado.com": 1,
+        "Diario Río Negro": 2,
+        "Diario Neuquino": 1,
+        "Chañar Digital": 1
+      },
+      "lifecycle": {
+        "SOSTENIDO": 3,
+        "SIN NUEVA COBERTURA": 1
+      },
+      "nodes": {
+        "San Patricio del Chañar": 4,
+        "EPET 26": 1,
+        "CPEM 31": 1
+      },
+      "activeNodes": 3,
+      "directSignals": 0,
+      "newSignals": 0,
+      "sourceHealth": {
+        "Chañar Digital": {
+          "success": false,
+          "signals": 0,
+          "freshnessHours": null
+        },
+        "Mía Radio 94.7": {
+          "success": false,
+          "signals": 0,
+          "freshnessHours": null
+        },
+        "Radio Tuit Vaca Muerta 90.5": {
+          "success": false,
+          "signals": 0,
+          "freshnessHours": null
+        },
+        "Vaca Muerta News": {
+          "success": false,
+          "signals": 0,
+          "freshnessHours": null
+        },
+        "Neuquén Informa": {
+          "success": false,
+          "signals": 0,
+          "freshnessHours": null
+        },
+        "Municipalidad de San Patricio del Chañar": {
+          "success": false,
+          "signals": 0,
+          "freshnessHours": null
+        },
+        "Boletín Oficial de Neuquén": {
+          "success": false,
+          "signals": 0,
+          "freshnessHours": null
+        },
+        "LM Neuquén": {
+          "success": false,
+          "signals": 0,
+          "freshnessHours": null
+        },
+        "Diario Río Negro": {
+          "success": true,
+          "signals": 0,
+          "freshnessHours": null
+        },
+        "Mejor Informado": {
+          "success": false,
+          "signals": 0,
+          "freshnessHours": null
+        },
+        "Diariamente Neuquén": {
+          "success": false,
+          "signals": 0,
+          "freshnessHours": null
+        }
+      }
+    },
+    {
+      "at": "2026-09-23T18:33:35.597029+00:00",
+      "bucket": "2026-09-23T18:32:00+00:00",
       "events": 4,
       "topics": {
         "SERVICIOS": 1,
