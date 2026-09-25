@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-25T07:28:24.708856+00:00",
+  "updatedAt": "2026-09-25T12:56:29.943763+00:00",
   "window": "14 días",
   "purpose": "Detectar qué se está moviendo en San Patricio del Chañar y mostrar de dónde surge cada señal.",
   "architecture": "contrato universal de procedencia + fuentes profesionales + adaptadores específicos + validación semántica + temporalidad + evidencia editorial separada",
@@ -49,7 +49,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://chanardigital.com.ar/",
-      "lastFetch": "2026-09-25T07:28:06.235395+00:00",
+      "lastFetch": "2026-09-25T12:56:07.345965+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -65,7 +65,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.radiomia.com.ar/",
-      "lastFetch": "2026-09-25T07:28:07.592891+00:00",
+      "lastFetch": "2026-09-25T12:56:08.978117+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -80,7 +80,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://tuitvacamuerta.com/",
-      "lastFetch": "2026-09-25T07:28:09.428393+00:00",
+      "lastFetch": "2026-09-25T12:56:10.751861+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -95,7 +95,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.vacamuertanews.com/",
-      "lastFetch": "2026-09-25T07:28:09.902507+00:00",
+      "lastFetch": "2026-09-25T12:56:11.244537+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -111,7 +111,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.neuqueninforma.gob.ar/",
-      "lastFetch": "2026-09-25T07:28:11.512789+00:00",
+      "lastFetch": "2026-09-25T12:56:12.663927+00:00",
       "success": false,
       "attempted": 3,
       "failures": [
@@ -128,7 +128,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://sanpatricio.gob.ar/",
-      "lastFetch": "2026-09-25T07:28:12.706942+00:00",
+      "lastFetch": "2026-09-25T12:56:13.856745+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -143,7 +143,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://boletinoficial.neuquen.gov.ar/",
-      "lastFetch": "2026-09-25T07:28:13.504706+00:00",
+      "lastFetch": "2026-09-25T12:56:14.925584+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -158,7 +158,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.lmneuquen.com/",
-      "lastFetch": "2026-09-25T07:28:13.681969+00:00",
+      "lastFetch": "2026-09-25T12:56:15.229074+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -171,17 +171,17 @@
     {
       "name": "Diario Río Negro",
       "type": "MEDIO REGIONAL",
-      "mode": "RSS DIRECTO",
-      "signals": 1,
+      "mode": "SIN RESPUESTA",
+      "signals": 0,
       "url": "https://www.rionegro.com.ar/",
-      "lastFetch": "2026-09-25T07:28:14.120205+00:00",
+      "lastFetch": "2026-09-25T12:56:18.575639+00:00",
       "success": true,
       "attempted": 2,
       "failures": [
         "WEB:AttributeError"
       ],
       "directAvailability": "available",
-      "freshnessHours": 4.0
+      "freshnessHours": null
     },
     {
       "name": "Mejor Informado",
@@ -189,7 +189,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.mejorinformado.com/",
-      "lastFetch": "2026-09-25T07:28:14.699150+00:00",
+      "lastFetch": "2026-09-25T12:56:19.192672+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -205,7 +205,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.diariamenteneuquen.com/",
-      "lastFetch": "2026-09-25T07:28:16.125992+00:00",
+      "lastFetch": "2026-09-25T12:56:19.820558+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -602,10 +602,10 @@
       "group": "REGIONAL",
       "role": "medio regional",
       "url": "https://www.rionegro.com.ar/",
-      "signals": 3,
-      "directSignals": 3,
+      "signals": 2,
+      "directSignals": 2,
       "anchoredSignals": 0,
-      "lastSeen": "2026-09-25T03:30:00+00:00",
+      "lastSeen": "2026-09-20T22:18:34+00:00",
       "status": "CON SEÑALES",
       "note": "ausencia de señales no equivale a ausencia del hecho"
     },
@@ -723,11 +723,6 @@
       "direct": 2
     },
     {
-      "term": "parque industrial",
-      "hits": 1,
-      "direct": 1
-    },
-    {
       "term": "viñedos",
       "hits": 0,
       "direct": 0
@@ -814,6 +809,11 @@
     },
     {
       "term": "picada 1",
+      "hits": 0,
+      "direct": 0
+    },
+    {
+      "term": "parque industrial",
       "hits": 0,
       "direct": 0
     },
@@ -1043,15 +1043,14 @@
         "source": "Diario Río Negro",
         "group": "REGIONAL",
         "role": "medio regional",
-        "accepted": 3,
-        "direct": 3,
+        "accepted": 2,
+        "direct": 2,
         "anchored": 0,
         "falsePositives": 0,
         "falsePositiveTypes": [],
         "topics": [
           "DEPORTE",
-          "EDUCACIÓN",
-          "SERVICIOS"
+          "EDUCACIÓN"
         ]
       },
       {
@@ -1317,17 +1316,6 @@
         ]
       },
       {
-        "source": "Diario Río Negro",
-        "topic": "SERVICIOS",
-        "accepted": 1,
-        "direct": 1,
-        "anchored": 0,
-        "falsePositives": 0,
-        "territorialTerms": [
-          "parque industrial"
-        ]
-      },
-      {
         "source": "MejorInformado.com",
         "topic": "SERVICIOS",
         "accepted": 1,
@@ -1447,8 +1435,8 @@
       },
       {
         "term": "parque industrial",
-        "acceptedHits": 1,
-        "directHits": 1,
+        "acceptedHits": 0,
+        "directHits": 0,
         "rejectedTitleHits": 0,
         "territorialStrength": "FUERTE"
       },
@@ -1682,12 +1670,12 @@
     "interpretation": "auditoría sobre eventos aceptados; la próxima capa debe instrumentar rechazos antes del clustering"
   },
   "stats": {
-    "total": 5,
-    "direct": 5,
+    "total": 4,
+    "direct": 4,
     "regional": 0,
-    "new": 1,
+    "new": 0,
     "sources": 3,
-    "directSignals": 1,
+    "directSignals": 0,
     "localDirectSignals": 0,
     "radioDirectSignals": 0,
     "precisionRule": "evidence-first",
@@ -1696,11 +1684,11 @@
   "environment": {
     "weather": {
       "dataType": "forecast",
-      "forecastWindKmh": 43.0,
-      "forecastGustKmh": 65.0,
+      "forecastWindKmh": 47.0,
+      "forecastGustKmh": 66.0,
       "forecastWindDirection": "O",
-      "forecastTemperatureC": 21.0,
-      "retrievedAt": "2026-09-25T07:28:03.747601+00:00",
+      "forecastTemperatureC": 22.0,
+      "retrievedAt": "2026-09-25T12:56:05.137290+00:00",
       "source": "AIC",
       "sourceTier": "primary",
       "sourceUrl": "https://www.aic.gob.ar/sitio/home?a=1015&z=1967225803",
@@ -1730,7 +1718,7 @@
       "currentProgrammedMinM3s": 460,
       "programDate": "2026-09-26",
       "tableDate": "2026-09-25",
-      "retrievedAt": "2026-09-25T07:28:03.747601+00:00",
+      "retrievedAt": "2026-09-25T12:56:05.137290+00:00",
       "source": "AIC",
       "sourceTier": "primary",
       "sourceUrl": "https://www.aic.gob.ar/sitio/caudales",
@@ -1750,17 +1738,17 @@
         "url": "https://www.aic.gob.ar/sitio/caudales"
       }
     ],
-    "updatedAt": "2026-09-25T07:28:03.747601+00:00"
+    "updatedAt": "2026-09-25T12:56:05.137290+00:00"
   },
   "operational": {
-    "updatedAt": "2026-09-25T07:28:03.747601+00:00",
+    "updatedAt": "2026-09-25T12:56:05.137290+00:00",
     "route7": {
       "source": "Dirección Provincial de Vialidad",
       "sourceTier": "primary",
       "sourceUrl": "https://www.dpvneuquen.gov.ar/",
       "semanticState": null,
       "publicationState": "source_reachable_no_current_machine_readable_state",
-      "retrievedAt": "2026-09-25T07:28:03.747601+00:00",
+      "retrievedAt": "2026-09-25T12:56:05.137290+00:00",
       "evidence": {
         "route7Mention": true,
         "route8Mention": false
@@ -1772,7 +1760,7 @@
       "sourceUrl": "https://www.dpvneuquen.gov.ar/",
       "semanticState": null,
       "publicationState": "source_reachable_no_current_machine_readable_state",
-      "retrievedAt": "2026-09-25T07:28:03.747601+00:00",
+      "retrievedAt": "2026-09-25T12:56:05.137290+00:00",
       "evidence": {
         "route7Mention": true,
         "route8Mention": false
@@ -1786,7 +1774,7 @@
       "eventType": null,
       "detail": null,
       "publicationState": "source_reachable_no_specific_local_notice",
-      "retrievedAt": "2026-09-25T07:28:03.747601+00:00"
+      "retrievedAt": "2026-09-25T12:56:05.137290+00:00"
     },
     "water": {
       "source": "EPAS",
@@ -1796,7 +1784,7 @@
       "eventType": null,
       "detail": null,
       "publicationState": "source_reachable_no_specific_local_notice",
-      "retrievedAt": "2026-09-25T07:28:03.747601+00:00"
+      "retrievedAt": "2026-09-25T12:56:05.137290+00:00"
     },
     "sources": [
       {
@@ -2206,11 +2194,11 @@
     {
       "id": "CONVERSACIÓN",
       "label": "Conversación general",
-      "signal": 5,
+      "signal": 4,
       "status": "cobertura editorial",
-      "freshnessHours": 4.0,
+      "freshnessHours": 83.8,
       "mode": "evidencia editorial",
-      "evidenceCount": 5,
+      "evidenceCount": 4,
       "sourceContract": {
         "primary": "medios locales identificables",
         "secondary": "fuentes institucionales competentes",
@@ -2288,7 +2276,7 @@
         "sourceUrl": "https://www.dpvneuquen.gov.ar/",
         "semanticState": null,
         "publicationState": "source_reachable_no_current_machine_readable_state",
-        "retrievedAt": "2026-09-25T07:28:03.747601+00:00",
+        "retrievedAt": "2026-09-25T12:56:05.137290+00:00",
         "evidence": {
           "route7Mention": true,
           "route8Mention": false
@@ -2340,7 +2328,7 @@
         "sourceUrl": "https://www.dpvneuquen.gov.ar/",
         "semanticState": null,
         "publicationState": "source_reachable_no_current_machine_readable_state",
-        "retrievedAt": "2026-09-25T07:28:03.747601+00:00",
+        "retrievedAt": "2026-09-25T12:56:05.137290+00:00",
         "evidence": {
           "route7Mention": true,
           "route8Mention": false
@@ -2350,7 +2338,7 @@
     {
       "id": "VIENTO",
       "label": "Condición de viento",
-      "signal": 43.0,
+      "signal": 47.0,
       "status": "pronóstico local",
       "freshnessHours": null,
       "mode": "DATO DIRECTO",
@@ -2440,7 +2428,7 @@
         "eventType": null,
         "detail": null,
         "publicationState": "source_reachable_no_specific_local_notice",
-        "retrievedAt": "2026-09-25T07:28:03.747601+00:00"
+        "retrievedAt": "2026-09-25T12:56:05.137290+00:00"
       }
     },
     {
@@ -2490,7 +2478,7 @@
         "eventType": null,
         "detail": null,
         "publicationState": "source_reachable_no_specific_local_notice",
-        "retrievedAt": "2026-09-25T07:28:03.747601+00:00"
+        "retrievedAt": "2026-09-25T12:56:05.137290+00:00"
       }
     },
     {
@@ -2578,7 +2566,7 @@
       "label": "Educación",
       "signal": 2,
       "status": "evidencia educativa",
-      "freshnessHours": 128.4,
+      "freshnessHours": 133.9,
       "mode": "evidencia editorial",
       "evidenceCount": 2,
       "sourceContract": {
@@ -2696,11 +2684,11 @@
     {
       "id": "TERRITORIO",
       "label": "Territorio / microzonas",
-      "signal": 1,
+      "signal": 0,
       "status": "hecho territorial",
-      "freshnessHours": 4.0,
+      "freshnessHours": null,
       "mode": "evidencia territorial",
-      "evidenceCount": 1,
+      "evidenceCount": 0,
       "sourceContract": {
         "primary": "Municipalidad de San Patricio del Chañar",
         "secondary": "organismo provincial competente según fenómeno",
@@ -2755,7 +2743,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://chanardigital.com.ar/",
-        "lastFetch": "2026-09-25T07:28:06.235395+00:00",
+        "lastFetch": "2026-09-25T12:56:07.345965+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -2771,7 +2759,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.radiomia.com.ar/",
-        "lastFetch": "2026-09-25T07:28:07.592891+00:00",
+        "lastFetch": "2026-09-25T12:56:08.978117+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -2786,7 +2774,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://tuitvacamuerta.com/",
-        "lastFetch": "2026-09-25T07:28:09.428393+00:00",
+        "lastFetch": "2026-09-25T12:56:10.751861+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -2801,7 +2789,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.vacamuertanews.com/",
-        "lastFetch": "2026-09-25T07:28:09.902507+00:00",
+        "lastFetch": "2026-09-25T12:56:11.244537+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -2817,7 +2805,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.neuqueninforma.gob.ar/",
-        "lastFetch": "2026-09-25T07:28:11.512789+00:00",
+        "lastFetch": "2026-09-25T12:56:12.663927+00:00",
         "success": false,
         "attempted": 3,
         "failures": [
@@ -2834,7 +2822,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://sanpatricio.gob.ar/",
-        "lastFetch": "2026-09-25T07:28:12.706942+00:00",
+        "lastFetch": "2026-09-25T12:56:13.856745+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -2849,7 +2837,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://boletinoficial.neuquen.gov.ar/",
-        "lastFetch": "2026-09-25T07:28:13.504706+00:00",
+        "lastFetch": "2026-09-25T12:56:14.925584+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -2864,7 +2852,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.lmneuquen.com/",
-        "lastFetch": "2026-09-25T07:28:13.681969+00:00",
+        "lastFetch": "2026-09-25T12:56:15.229074+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -2877,17 +2865,17 @@
       {
         "name": "Diario Río Negro",
         "type": "MEDIO REGIONAL",
-        "mode": "RSS DIRECTO",
-        "signals": 1,
+        "mode": "SIN RESPUESTA",
+        "signals": 0,
         "url": "https://www.rionegro.com.ar/",
-        "lastFetch": "2026-09-25T07:28:14.120205+00:00",
+        "lastFetch": "2026-09-25T12:56:18.575639+00:00",
         "success": true,
         "attempted": 2,
         "failures": [
           "WEB:AttributeError"
         ],
         "directAvailability": "available",
-        "freshnessHours": 4.0
+        "freshnessHours": null
       },
       {
         "name": "Mejor Informado",
@@ -2895,7 +2883,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.mejorinformado.com/",
-        "lastFetch": "2026-09-25T07:28:14.699150+00:00",
+        "lastFetch": "2026-09-25T12:56:19.192672+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -2911,7 +2899,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.diariamenteneuquen.com/",
-        "lastFetch": "2026-09-25T07:28:16.125992+00:00",
+        "lastFetch": "2026-09-25T12:56:19.820558+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -2929,93 +2917,6 @@
   },
   "events": [
     {
-      "eventId": "CHA-a57ed4d2a3c1",
-      "title": "Con más de 600 inscritos, Neuquén inicia la etapa de venta de tierras en el Parque Industrial Capital",
-      "publishedAt": "2026-09-25T03:30:00+00:00",
-      "firstSeen": "2026-09-25T07:28:24.708856+00:00",
-      "lastSeen": "2026-09-25T03:30:00+00:00",
-      "relevance": 3,
-      "relevanceLabel": "DIRECTA",
-      "incidenceLabel": "DIRECTA EN CHANAR",
-      "topic": "SERVICIOS",
-      "movement": 60,
-      "coverage": 1,
-      "sourceCount": 1,
-      "directSourceCount": 1,
-      "territorialAnchors": [
-        "parque industrial"
-      ],
-      "sources": [
-        "Diario Río Negro"
-      ],
-      "evidenceUrl": "https://www.rionegro.com.ar/municipales/con-mas-de-600-firmas-inscriptas-el-parque-industrial-capital-entra-en-su-etapa-clave-de-ventas-y-radicacion/",
-      "items": [
-        {
-          "title": "Con más de 600 inscritos, Neuquén inicia la etapa de venta de tierras en el Parque Industrial Capital",
-          "url": "https://www.rionegro.com.ar/municipales/con-mas-de-600-firmas-inscriptas-el-parque-industrial-capital-entra-en-su-etapa-clave-de-ventas-y-radicacion/",
-          "publishedAt": "2026-09-25T03:30:00+00:00",
-          "published": "2026-09-25T03:30:00+00:00",
-          "description": "",
-          "source": "Diario Río Negro",
-          "sourceType": "MEDIO REGIONAL",
-          "sourceUrl": "https://www.rionegro.com.ar/",
-          "collection": "DIRECTA",
-          "query": "https://www.rionegro.com.ar/feed/",
-          "relevance": 3,
-          "relevanceLabel": "DIRECTA",
-          "firstSeen": "2026-09-25T07:28:24.708856+00:00",
-          "isNew": true,
-          "titleKey": "mas 600 inscritos inicia etapa venta tierras parque industrial capital",
-          "evidenceUrl": "https://www.rionegro.com.ar/municipales/con-mas-de-600-firmas-inscriptas-el-parque-industrial-capital-entra-en-su-etapa-clave-de-ventas-y-radicacion/",
-          "sourcePriority": 2
-        }
-      ],
-      "lifecycle": "EMERGENTE",
-      "movementDelta": 19,
-      "previousCoverage": 1,
-      "newSources": [
-        "Diario Río Negro"
-      ],
-      "sourceDiversity": 1,
-      "memoryMatched": true,
-      "isNew": false,
-      "view": "INCIDENCIA",
-      "incidenceEligible": true,
-      "signalReason": "reservado a incidencia territorial",
-      "incidenceReason": "anclaje directo + tema operativo/local",
-      "territory": {
-        "version": "2.0",
-        "primary": "San Patricio del Chañar",
-        "nodes": [
-          "San Patricio del Chañar",
-          "Parque Industrial"
-        ],
-        "sectors": [
-          "Parque Industrial"
-        ],
-        "barrios": [],
-        "microzones": [],
-        "corridors": [],
-        "institutions": [],
-        "services": [],
-        "spaces": [],
-        "production": [],
-        "path": "San Patricio del Chañar → Parque Industrial",
-        "evidence": [
-          {
-            "node": "San Patricio del Chañar",
-            "level": "localidad",
-            "evidence": "DIRECTA"
-          },
-          {
-            "node": "Parque Industrial",
-            "level": "sector",
-            "evidence": "TEXTUAL"
-          }
-        ]
-      }
-    },
-    {
       "eventId": "CHA-e6210052da2c",
       "title": "Vuelco en El Chañar: un Renault terminó dentro de un canal - MejorInformado.com",
       "publishedAt": "2026-09-22T01:11:32+00:00",
@@ -3025,7 +2926,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SERVICIOS",
-      "movement": 40,
+      "movement": 38,
       "coverage": 1,
       "sourceCount": 1,
       "directSourceCount": 0,
@@ -3058,11 +2959,9 @@
         }
       ],
       "lifecycle": "SOSTENIDO",
-      "movementDelta": 6,
+      "movementDelta": -2,
       "previousCoverage": 1,
-      "newSources": [
-        "MejorInformado.com"
-      ],
+      "newSources": [],
       "sourceDiversity": 1,
       "memoryMatched": true,
       "isNew": false,
@@ -3104,7 +3003,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "DEPORTE",
-      "movement": 33,
+      "movement": 31,
       "coverage": 1,
       "sourceCount": 1,
       "directSourceCount": 0,
@@ -3138,11 +3037,9 @@
         }
       ],
       "lifecycle": "EN DESCENSO",
-      "movementDelta": 5,
-      "previousCoverage": 2,
-      "newSources": [
-        "Diario Río Negro"
-      ],
+      "movementDelta": -2,
+      "previousCoverage": 1,
+      "newSources": [],
       "sourceDiversity": 1,
       "memoryMatched": true,
       "isNew": false,
@@ -3184,7 +3081,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "EDUCACIÓN",
-      "movement": 26,
+      "movement": 25,
       "coverage": 2,
       "sourceCount": 2,
       "directSourceCount": 0,
@@ -3239,10 +3136,9 @@
         }
       ],
       "lifecycle": "EN DESCENSO",
-      "movementDelta": 10,
-      "previousCoverage": 1,
+      "movementDelta": -1,
+      "previousCoverage": 2,
       "newSources": [
-        "Diario Neuquino",
         "Diario Río Negro"
       ],
       "sourceDiversity": 2,
@@ -3375,25 +3271,6 @@
   ],
   "items": [
     {
-      "title": "Con más de 600 inscritos, Neuquén inicia la etapa de venta de tierras en el Parque Industrial Capital",
-      "url": "https://www.rionegro.com.ar/municipales/con-mas-de-600-firmas-inscriptas-el-parque-industrial-capital-entra-en-su-etapa-clave-de-ventas-y-radicacion/",
-      "publishedAt": "2026-09-25T03:30:00+00:00",
-      "published": "2026-09-25T03:30:00+00:00",
-      "description": "",
-      "source": "Diario Río Negro",
-      "sourceType": "MEDIO REGIONAL",
-      "sourceUrl": "https://www.rionegro.com.ar/",
-      "collection": "DIRECTA",
-      "query": "https://www.rionegro.com.ar/feed/",
-      "relevance": 3,
-      "relevanceLabel": "DIRECTA",
-      "firstSeen": "2026-09-25T07:28:24.708856+00:00",
-      "isNew": true,
-      "titleKey": "mas 600 inscritos inicia etapa venta tierras parque industrial capital",
-      "evidenceUrl": "https://www.rionegro.com.ar/municipales/con-mas-de-600-firmas-inscriptas-el-parque-industrial-capital-entra-en-su-etapa-clave-de-ventas-y-radicacion/",
-      "sourcePriority": 2
-    },
-    {
       "title": "Vuelco en El Chañar: un Renault terminó dentro de un canal - MejorInformado.com",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQcjdEb0NRWDZKeGlqY0xVUWU4ZVM4MVJObHRDRUhibjN0SXd1N3hqZFAzLThLbTZaLTV5eHF6S2pwd0JVMnFkLTU4UUNnVUVyV1ZjTnR2RzNXcFlUZFNFLUFNcEtMTV85SGxvQzNRUDA2MklNVl9KOVdZUUdDbWkySzhfalJ3V3gzZUhZV0hIZXpYTlVaS2tB0gGXAUFVX3lxTFByN0RvQ1FYNkp4aWpjTFVRZThlUzgxUk5sdENFSGJuM3RJd3U3eGpkUDMtOEttNlotNXl4cXpLanB3QlUycWQtNThRQ2dVRXJXVmNOdHZHM1dwWVRkU0UtQU1wS0xNXzlIbG9DM1FQMDYySU1WX0o5V1lRR0NtaTJLOF9qUndXeDNlSFlXSEhlelhOVVpLa0E?oc=5",
       "publishedAt": "2026-09-22T01:11:32+00:00",
@@ -3472,7 +3349,7 @@
   ],
   "territorialGraph": {
     "version": "2.0",
-    "generatedAt": "2026-09-25T07:28:38.215629+00:00",
+    "generatedAt": "2026-09-25T12:57:00.471673+00:00",
     "root": "spc",
     "rule": "evidence-first",
     "levels": [
@@ -3499,7 +3376,7 @@
           "el chañar",
           "el chanar"
         ],
-        "eventCount": 5
+        "eventCount": 4
       },
       {
         "id": "rio-neuquen",
@@ -3708,7 +3585,7 @@
         "aliases": [
           "parque industrial"
         ],
-        "eventCount": 1
+        "eventCount": 0
       },
       {
         "id": "loteo-social",
@@ -4019,20 +3896,9 @@
         "relation": "COOCURRENCIA_TEXTUAL",
         "eventCount": 1,
         "evidence": "menciones de ambos nodos dentro del mismo hecho"
-      },
-      {
-        "from": "parque-industrial",
-        "to": "spc",
-        "relation": "COOCURRENCIA_TEXTUAL",
-        "eventCount": 1,
-        "evidence": "menciones de ambos nodos dentro del mismo hecho"
       }
     ],
     "eventNodes": {
-      "CHA-a57ed4d2a3c1": [
-        "spc",
-        "parque-industrial"
-      ],
       "CHA-e6210052da2c": [
         "spc"
       ],
@@ -4061,18 +3927,18 @@
     },
     "stats": {
       "nodes": 46,
-      "activeNodes": 4,
-      "edges": 3,
-      "eventsLinked": 5,
+      "activeNodes": 3,
+      "edges": 2,
+      "eventsLinked": 4,
       "eventsWithMicrozones": 0,
       "eventsWithBarrios": 0,
-      "eventsWithSectors": 1,
+      "eventsWithSectors": 0,
       "levelActivity": {
         "localidad": 1,
         "microregion": 0,
         "corredor": 0,
         "microzona": 0,
-        "sector": 1,
+        "sector": 0,
         "barrio": 0,
         "institucion": 2,
         "servicio": 0,
@@ -4083,17 +3949,17 @@
   },
   "audit": {
     "version": "1.0",
-    "updatedAt": "2026-09-25T07:28:38.268493+00:00",
+    "updatedAt": "2026-09-25T12:57:00.511934+00:00",
     "rule": "fact != coverage; territory requires textual evidence",
-    "facts": 5,
-    "coverage": 6,
-    "coveragePerFact": 1.2,
-    "directAnchorFacts": 5,
+    "facts": 4,
+    "coverage": 5,
+    "coveragePerFact": 1.25,
+    "directAnchorFacts": 4,
     "directAnchorPct": 100.0,
-    "territorySpecificFacts": 3,
-    "territorySpecificPct": 60.0,
-    "averageSourcesPerFact": 1.2,
-    "activeTerritorialNodes": 4,
+    "territorySpecificFacts": 2,
+    "territorySpecificPct": 50.0,
+    "averageSourcesPerFact": 1.25,
+    "activeTerritorialNodes": 3,
     "failedSources": 10,
     "acceptedWithoutLocalEvidence": 0,
     "examplesAcceptedWithoutLocalEvidence": [],
