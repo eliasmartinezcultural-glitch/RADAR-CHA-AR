@@ -2,7 +2,7 @@
   "version": "1.1",
   "windowDays": 45,
   "bucketHours": 2,
-  "generatedAt": "2026-09-26T18:27:51.853129+00:00",
+  "generatedAt": "2026-09-26T21:27:23.581832+00:00",
   "snapshots": [
     {
       "at": "2026-09-20T01:58:09.322313+00:00",
@@ -4595,6 +4595,93 @@
       "activeNodes": 3,
       "directSignals": 0,
       "newSignals": 1,
+      "sourceHealth": {
+        "Chañar Digital": {
+          "success": false,
+          "signals": 0,
+          "freshnessHours": null
+        },
+        "Mía Radio 94.7": {
+          "success": false,
+          "signals": 0,
+          "freshnessHours": null
+        },
+        "Radio Tuit Vaca Muerta 90.5": {
+          "success": false,
+          "signals": 0,
+          "freshnessHours": null
+        },
+        "Vaca Muerta News": {
+          "success": false,
+          "signals": 0,
+          "freshnessHours": null
+        },
+        "Neuquén Informa": {
+          "success": false,
+          "signals": 0,
+          "freshnessHours": null
+        },
+        "Municipalidad de San Patricio del Chañar": {
+          "success": false,
+          "signals": 0,
+          "freshnessHours": null
+        },
+        "Boletín Oficial de Neuquén": {
+          "success": false,
+          "signals": 0,
+          "freshnessHours": null
+        },
+        "LM Neuquén": {
+          "success": false,
+          "signals": 0,
+          "freshnessHours": null
+        },
+        "Diario Río Negro": {
+          "success": true,
+          "signals": 0,
+          "freshnessHours": null
+        },
+        "Mejor Informado": {
+          "success": false,
+          "signals": 0,
+          "freshnessHours": null
+        },
+        "Diariamente Neuquén": {
+          "success": false,
+          "signals": 0,
+          "freshnessHours": null
+        }
+      }
+    },
+    {
+      "at": "2026-09-26T21:27:23.581747+00:00",
+      "bucket": "2026-09-26T21:26:00+00:00",
+      "events": 6,
+      "topics": {
+        "SERVICIOS": 2,
+        "EDUCACIÓN": 3,
+        "DEPORTE": 1
+      },
+      "sources": {
+        "Chañar Digital": 3,
+        "Diario Río Negro": 3,
+        "MejorInformado.com": 2,
+        "Diario Neuquino": 1
+      },
+      "lifecycle": {
+        "EMERGENTE": 2,
+        "EN DESCENSO": 1,
+        "ACTIVO": 2,
+        "SIN NUEVA COBERTURA": 1
+      },
+      "nodes": {
+        "San Patricio del Chañar": 6,
+        "EPET 26": 2,
+        "CPEM 31": 1
+      },
+      "activeNodes": 3,
+      "directSignals": 0,
+      "newSignals": 2,
       "sourceHealth": {
         "Chañar Digital": {
           "success": false,
