@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-26T00:04:51.358781+00:00",
+  "updatedAt": "2026-09-26T05:20:39.597123+00:00",
   "window": "14 días",
   "purpose": "Detectar qué se está moviendo en San Patricio del Chañar y mostrar de dónde surge cada señal.",
   "architecture": "contrato universal de procedencia + fuentes profesionales + adaptadores específicos + validación semántica + temporalidad + evidencia editorial separada",
@@ -49,7 +49,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://chanardigital.com.ar/",
-      "lastFetch": "2026-09-26T00:04:28.683257+00:00",
+      "lastFetch": "2026-09-26T05:20:24.350299+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -65,7 +65,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.radiomia.com.ar/",
-      "lastFetch": "2026-09-26T00:04:30.127944+00:00",
+      "lastFetch": "2026-09-26T05:20:25.287355+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -80,7 +80,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://tuitvacamuerta.com/",
-      "lastFetch": "2026-09-26T00:04:32.109906+00:00",
+      "lastFetch": "2026-09-26T05:20:26.981796+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -95,7 +95,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.vacamuertanews.com/",
-      "lastFetch": "2026-09-26T00:04:32.707741+00:00",
+      "lastFetch": "2026-09-26T05:20:27.296252+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -111,7 +111,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.neuqueninforma.gob.ar/",
-      "lastFetch": "2026-09-26T00:04:34.585323+00:00",
+      "lastFetch": "2026-09-26T05:20:28.187687+00:00",
       "success": false,
       "attempted": 3,
       "failures": [
@@ -128,7 +128,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://sanpatricio.gob.ar/",
-      "lastFetch": "2026-09-26T00:04:35.945183+00:00",
+      "lastFetch": "2026-09-26T05:20:29.112836+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -143,7 +143,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://boletinoficial.neuquen.gov.ar/",
-      "lastFetch": "2026-09-26T00:04:37.192157+00:00",
+      "lastFetch": "2026-09-26T05:20:30.029701+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -158,7 +158,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.lmneuquen.com/",
-      "lastFetch": "2026-09-26T00:04:37.393329+00:00",
+      "lastFetch": "2026-09-26T05:20:30.252147+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -174,7 +174,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.rionegro.com.ar/",
-      "lastFetch": "2026-09-26T00:04:42.560391+00:00",
+      "lastFetch": "2026-09-26T05:20:30.590927+00:00",
       "success": true,
       "attempted": 2,
       "failures": [
@@ -189,7 +189,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.mejorinformado.com/",
-      "lastFetch": "2026-09-26T00:04:43.215596+00:00",
+      "lastFetch": "2026-09-26T05:20:30.890141+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -205,7 +205,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.diariamenteneuquen.com/",
-      "lastFetch": "2026-09-26T00:04:43.898584+00:00",
+      "lastFetch": "2026-09-26T05:20:31.553262+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -1121,19 +1121,6 @@
         "topics": []
       },
       {
-        "source": "MejorInformado.com",
-        "group": "OBSERVADA",
-        "role": "fuente detectada fuera del catálogo",
-        "accepted": 1,
-        "direct": 1,
-        "anchored": 0,
-        "falsePositives": 0,
-        "falsePositiveTypes": [],
-        "topics": [
-          "SERVICIOS"
-        ]
-      },
-      {
         "source": "Ministerio de Producción e Industria de Neuquén",
         "group": "REGIONAL",
         "role": "producción rural",
@@ -1264,6 +1251,19 @@
         "falsePositives": 0,
         "falsePositiveTypes": [],
         "topics": []
+      },
+      {
+        "source": "mejorinformado.com",
+        "group": "OBSERVADA",
+        "role": "fuente detectada fuera del catálogo",
+        "accepted": 1,
+        "direct": 1,
+        "anchored": 0,
+        "falsePositives": 0,
+        "falsePositiveTypes": [],
+        "topics": [
+          "SERVICIOS"
+        ]
       }
     ],
     "matrix": [
@@ -1329,7 +1329,7 @@
         ]
       },
       {
-        "source": "MejorInformado.com",
+        "source": "mejorinformado.com",
         "topic": "SERVICIOS",
         "accepted": 1,
         "direct": 1,
@@ -1701,7 +1701,7 @@
       "forecastGustKmh": 61.0,
       "forecastWindDirection": "O",
       "forecastTemperatureC": 22.0,
-      "retrievedAt": "2026-09-26T00:04:26.030724+00:00",
+      "retrievedAt": "2026-09-26T05:20:22.282291+00:00",
       "source": "AIC",
       "sourceTier": "primary",
       "sourceUrl": "https://www.aic.gob.ar/sitio/home?a=1015&z=1967225803",
@@ -1731,7 +1731,7 @@
       "currentProgrammedMinM3s": 460,
       "programDate": "2026-09-27",
       "tableDate": "2026-09-26",
-      "retrievedAt": "2026-09-26T00:04:26.030724+00:00",
+      "retrievedAt": "2026-09-26T05:20:22.282291+00:00",
       "source": "AIC",
       "sourceTier": "primary",
       "sourceUrl": "https://www.aic.gob.ar/sitio/caudales",
@@ -1751,17 +1751,17 @@
         "url": "https://www.aic.gob.ar/sitio/caudales"
       }
     ],
-    "updatedAt": "2026-09-26T00:04:26.030724+00:00"
+    "updatedAt": "2026-09-26T05:20:22.282291+00:00"
   },
   "operational": {
-    "updatedAt": "2026-09-26T00:04:26.030724+00:00",
+    "updatedAt": "2026-09-26T05:20:22.282291+00:00",
     "route7": {
       "source": "Dirección Provincial de Vialidad",
       "sourceTier": "primary",
       "sourceUrl": "https://www.dpvneuquen.gov.ar/",
       "semanticState": null,
       "publicationState": "source_reachable_no_current_machine_readable_state",
-      "retrievedAt": "2026-09-26T00:04:26.030724+00:00",
+      "retrievedAt": "2026-09-26T05:20:22.282291+00:00",
       "evidence": {
         "route7Mention": true,
         "route8Mention": false
@@ -1773,7 +1773,7 @@
       "sourceUrl": "https://www.dpvneuquen.gov.ar/",
       "semanticState": null,
       "publicationState": "source_reachable_no_current_machine_readable_state",
-      "retrievedAt": "2026-09-26T00:04:26.030724+00:00",
+      "retrievedAt": "2026-09-26T05:20:22.282291+00:00",
       "evidence": {
         "route7Mention": true,
         "route8Mention": false
@@ -1787,7 +1787,7 @@
       "eventType": null,
       "detail": null,
       "publicationState": "source_reachable_no_specific_local_notice",
-      "retrievedAt": "2026-09-26T00:04:26.030724+00:00"
+      "retrievedAt": "2026-09-26T05:20:22.282291+00:00"
     },
     "water": {
       "source": "EPAS",
@@ -1797,7 +1797,7 @@
       "eventType": null,
       "detail": null,
       "publicationState": "source_reachable_no_specific_local_notice",
-      "retrievedAt": "2026-09-26T00:04:26.030724+00:00"
+      "retrievedAt": "2026-09-26T05:20:22.282291+00:00"
     },
     "sources": [
       {
@@ -2209,7 +2209,7 @@
       "label": "Conversación general",
       "signal": 5,
       "status": "cobertura editorial",
-      "freshnessHours": 6.7,
+      "freshnessHours": 12.0,
       "mode": "evidencia editorial",
       "evidenceCount": 5,
       "sourceContract": {
@@ -2289,7 +2289,7 @@
         "sourceUrl": "https://www.dpvneuquen.gov.ar/",
         "semanticState": null,
         "publicationState": "source_reachable_no_current_machine_readable_state",
-        "retrievedAt": "2026-09-26T00:04:26.030724+00:00",
+        "retrievedAt": "2026-09-26T05:20:22.282291+00:00",
         "evidence": {
           "route7Mention": true,
           "route8Mention": false
@@ -2341,7 +2341,7 @@
         "sourceUrl": "https://www.dpvneuquen.gov.ar/",
         "semanticState": null,
         "publicationState": "source_reachable_no_current_machine_readable_state",
-        "retrievedAt": "2026-09-26T00:04:26.030724+00:00",
+        "retrievedAt": "2026-09-26T05:20:22.282291+00:00",
         "evidence": {
           "route7Mention": true,
           "route8Mention": false
@@ -2441,7 +2441,7 @@
         "eventType": null,
         "detail": null,
         "publicationState": "source_reachable_no_specific_local_notice",
-        "retrievedAt": "2026-09-26T00:04:26.030724+00:00"
+        "retrievedAt": "2026-09-26T05:20:22.282291+00:00"
       }
     },
     {
@@ -2491,7 +2491,7 @@
         "eventType": null,
         "detail": null,
         "publicationState": "source_reachable_no_specific_local_notice",
-        "retrievedAt": "2026-09-26T00:04:26.030724+00:00"
+        "retrievedAt": "2026-09-26T05:20:22.282291+00:00"
       }
     },
     {
@@ -2579,7 +2579,7 @@
       "label": "Educación",
       "signal": 2,
       "status": "evidencia educativa",
-      "freshnessHours": 145.0,
+      "freshnessHours": 150.3,
       "mode": "evidencia editorial",
       "evidenceCount": 2,
       "sourceContract": {
@@ -2756,7 +2756,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://chanardigital.com.ar/",
-        "lastFetch": "2026-09-26T00:04:28.683257+00:00",
+        "lastFetch": "2026-09-26T05:20:24.350299+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -2772,7 +2772,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.radiomia.com.ar/",
-        "lastFetch": "2026-09-26T00:04:30.127944+00:00",
+        "lastFetch": "2026-09-26T05:20:25.287355+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -2787,7 +2787,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://tuitvacamuerta.com/",
-        "lastFetch": "2026-09-26T00:04:32.109906+00:00",
+        "lastFetch": "2026-09-26T05:20:26.981796+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -2802,7 +2802,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.vacamuertanews.com/",
-        "lastFetch": "2026-09-26T00:04:32.707741+00:00",
+        "lastFetch": "2026-09-26T05:20:27.296252+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -2818,7 +2818,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.neuqueninforma.gob.ar/",
-        "lastFetch": "2026-09-26T00:04:34.585323+00:00",
+        "lastFetch": "2026-09-26T05:20:28.187687+00:00",
         "success": false,
         "attempted": 3,
         "failures": [
@@ -2835,7 +2835,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://sanpatricio.gob.ar/",
-        "lastFetch": "2026-09-26T00:04:35.945183+00:00",
+        "lastFetch": "2026-09-26T05:20:29.112836+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -2850,7 +2850,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://boletinoficial.neuquen.gov.ar/",
-        "lastFetch": "2026-09-26T00:04:37.192157+00:00",
+        "lastFetch": "2026-09-26T05:20:30.029701+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -2865,7 +2865,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.lmneuquen.com/",
-        "lastFetch": "2026-09-26T00:04:37.393329+00:00",
+        "lastFetch": "2026-09-26T05:20:30.252147+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -2881,7 +2881,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.rionegro.com.ar/",
-        "lastFetch": "2026-09-26T00:04:42.560391+00:00",
+        "lastFetch": "2026-09-26T05:20:30.590927+00:00",
         "success": true,
         "attempted": 2,
         "failures": [
@@ -2896,7 +2896,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.mejorinformado.com/",
-        "lastFetch": "2026-09-26T00:04:43.215596+00:00",
+        "lastFetch": "2026-09-26T05:20:30.890141+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -2912,7 +2912,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.diariamenteneuquen.com/",
-        "lastFetch": "2026-09-26T00:04:43.898584+00:00",
+        "lastFetch": "2026-09-26T05:20:31.553262+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -2939,7 +2939,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SERVICIOS",
-      "movement": 59,
+      "movement": 58,
       "coverage": 1,
       "sourceCount": 1,
       "directSourceCount": 0,
@@ -3009,7 +3009,7 @@
     },
     {
       "eventId": "CHA-e6210052da2c",
-      "title": "Vuelco en El Chañar: un Renault terminó dentro de un canal - MejorInformado.com",
+      "title": "Vuelco en El Chañar: un Renault terminó dentro de un canal - mejorinformado.com",
       "publishedAt": "2026-09-22T01:11:32+00:00",
       "firstSeen": "2026-09-22T01:32:15.988312+00:00",
       "lastSeen": "2026-09-22T01:11:32+00:00",
@@ -3017,7 +3017,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SERVICIOS",
-      "movement": 35,
+      "movement": 34,
       "coverage": 1,
       "sourceCount": 1,
       "directSourceCount": 0,
@@ -3025,17 +3025,17 @@
         "el chañar"
       ],
       "sources": [
-        "MejorInformado.com"
+        "mejorinformado.com"
       ],
       "evidenceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQcjdEb0NRWDZKeGlqY0xVUWU4ZVM4MVJObHRDRUhibjN0SXd1N3hqZFAzLThLbTZaLTV5eHF6S2pwd0JVMnFkLTU4UUNnVUVyV1ZjTnR2RzNXcFlUZFNFLUFNcEtMTV85SGxvQzNRUDA2MklNVl9KOVdZUUdDbWkySzhfalJ3V3gzZUhZV0hIZXpYTlVaS2tB0gGXAUFVX3lxTFByN0RvQ1FYNkp4aWpjTFVRZThlUzgxUk5sdENFSGJuM3RJd3U3eGpkUDMtOEttNlotNXl4cXpLanB3QlUycWQtNThRQ2dVRXJXVmNOdHZHM1dwWVRkU0UtQU1wS0xNXzlIbG9DM1FQMDYySU1WX0o5V1lRR0NtaTJLOF9qUndXeDNlSFlXSEhlelhOVVpLa0E?oc=5",
       "items": [
         {
-          "title": "Vuelco en El Chañar: un Renault terminó dentro de un canal - MejorInformado.com",
+          "title": "Vuelco en El Chañar: un Renault terminó dentro de un canal - mejorinformado.com",
           "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQcjdEb0NRWDZKeGlqY0xVUWU4ZVM4MVJObHRDRUhibjN0SXd1N3hqZFAzLThLbTZaLTV5eHF6S2pwd0JVMnFkLTU4UUNnVUVyV1ZjTnR2RzNXcFlUZFNFLUFNcEtMTV85SGxvQzNRUDA2MklNVl9KOVdZUUdDbWkySzhfalJ3V3gzZUhZV0hIZXpYTlVaS2tB0gGXAUFVX3lxTFByN0RvQ1FYNkp4aWpjTFVRZThlUzgxUk5sdENFSGJuM3RJd3U3eGpkUDMtOEttNlotNXl4cXpLanB3QlUycWQtNThRQ2dVRXJXVmNOdHZHM1dwWVRkU0UtQU1wS0xNXzlIbG9DM1FQMDYySU1WX0o5V1lRR0NtaTJLOF9qUndXeDNlSFlXSEhlelhOVVpLa0E?oc=5",
           "publishedAt": "2026-09-22T01:11:32+00:00",
           "published": "2026-09-22T01:11:32+00:00",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxQcjdEb0NRWDZKeGlqY0xVUWU4ZVM4MVJObHRDRUhibjN0SXd1N3hqZFAzLThLbTZaLTV5eHF6S2pwd0JVMnFkLTU4UUNnVUVyV1ZjTnR2RzNXcFlUZFNFLUFNcEtMTV85SGxvQzNRUDA2MklNVl9KOVdZUUdDbWkySzhfalJ3V3gzZUhZV0hIZXpYTlVaS2tB0gGXAUFVX3lxTFByN0RvQ1FYNkp4aWpjTFVRZThlUzgxUk5sdENFSGJuM3RJd3U3eGpkUDMtOEttNlotNXl4cXpLanB3QlUycWQtNThRQ2dVRXJXVmNOdHZHM1dwWVRkU0UtQU1wS0xNXzlIbG9DM1FQMDYySU1WX0o5V1lRR0NtaTJLOF9qUndXeDNlSFlXSEhlelhOVVpLa0E?oc=5\" target=\"_blank\">Vuelco en El Chañar: un Renault terminó dentro de un canal</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MejorInformado.com</font>",
-          "source": "MejorInformado.com",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxQcjdEb0NRWDZKeGlqY0xVUWU4ZVM4MVJObHRDRUhibjN0SXd1N3hqZFAzLThLbTZaLTV5eHF6S2pwd0JVMnFkLTU4UUNnVUVyV1ZjTnR2RzNXcFlUZFNFLUFNcEtMTV85SGxvQzNRUDA2MklNVl9KOVdZUUdDbWkySzhfalJ3V3gzZUhZV0hIZXpYTlVaS2tB0gGXAUFVX3lxTFByN0RvQ1FYNkp4aWpjTFVRZThlUzgxUk5sdENFSGJuM3RJd3U3eGpkUDMtOEttNlotNXl4cXpLanB3QlUycWQtNThRQ2dVRXJXVmNOdHZHM1dwWVRkU0UtQU1wS0xNXzlIbG9DM1FQMDYySU1WX0o5V1lRR0NtaTJLOF9qUndXeDNlSFlXSEhlelhOVVpLa0E?oc=5\" target=\"_blank\">Vuelco en El Chañar: un Renault terminó dentro de un canal</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">mejorinformado.com</font>",
+          "source": "mejorinformado.com",
           "sourceType": "BUSCADOR / RESPALDO",
           "sourceUrl": "",
           "collection": "BUSCADOR",
@@ -3049,10 +3049,12 @@
           "sourcePriority": 3
         }
       ],
-      "lifecycle": "SOSTENIDO",
+      "lifecycle": "EN DESCENSO",
       "movementDelta": -1,
       "previousCoverage": 1,
-      "newSources": [],
+      "newSources": [
+        "mejorinformado.com"
+      ],
       "sourceDiversity": 1,
       "memoryMatched": true,
       "isNew": false,
@@ -3094,7 +3096,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "DEPORTE",
-      "movement": 28,
+      "movement": 27,
       "coverage": 1,
       "sourceCount": 1,
       "directSourceCount": 0,
@@ -3172,7 +3174,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "EDUCACIÓN",
-      "movement": 22,
+      "movement": 21,
       "coverage": 2,
       "sourceCount": 2,
       "directSourceCount": 0,
@@ -3381,12 +3383,12 @@
       "sourcePriority": 3
     },
     {
-      "title": "Vuelco en El Chañar: un Renault terminó dentro de un canal - MejorInformado.com",
+      "title": "Vuelco en El Chañar: un Renault terminó dentro de un canal - mejorinformado.com",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQcjdEb0NRWDZKeGlqY0xVUWU4ZVM4MVJObHRDRUhibjN0SXd1N3hqZFAzLThLbTZaLTV5eHF6S2pwd0JVMnFkLTU4UUNnVUVyV1ZjTnR2RzNXcFlUZFNFLUFNcEtMTV85SGxvQzNRUDA2MklNVl9KOVdZUUdDbWkySzhfalJ3V3gzZUhZV0hIZXpYTlVaS2tB0gGXAUFVX3lxTFByN0RvQ1FYNkp4aWpjTFVRZThlUzgxUk5sdENFSGJuM3RJd3U3eGpkUDMtOEttNlotNXl4cXpLanB3QlUycWQtNThRQ2dVRXJXVmNOdHZHM1dwWVRkU0UtQU1wS0xNXzlIbG9DM1FQMDYySU1WX0o5V1lRR0NtaTJLOF9qUndXeDNlSFlXSEhlelhOVVpLa0E?oc=5",
       "publishedAt": "2026-09-22T01:11:32+00:00",
       "published": "2026-09-22T01:11:32+00:00",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxQcjdEb0NRWDZKeGlqY0xVUWU4ZVM4MVJObHRDRUhibjN0SXd1N3hqZFAzLThLbTZaLTV5eHF6S2pwd0JVMnFkLTU4UUNnVUVyV1ZjTnR2RzNXcFlUZFNFLUFNcEtMTV85SGxvQzNRUDA2MklNVl9KOVdZUUdDbWkySzhfalJ3V3gzZUhZV0hIZXpYTlVaS2tB0gGXAUFVX3lxTFByN0RvQ1FYNkp4aWpjTFVRZThlUzgxUk5sdENFSGJuM3RJd3U3eGpkUDMtOEttNlotNXl4cXpLanB3QlUycWQtNThRQ2dVRXJXVmNOdHZHM1dwWVRkU0UtQU1wS0xNXzlIbG9DM1FQMDYySU1WX0o5V1lRR0NtaTJLOF9qUndXeDNlSFlXSEhlelhOVVpLa0E?oc=5\" target=\"_blank\">Vuelco en El Chañar: un Renault terminó dentro de un canal</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MejorInformado.com</font>",
-      "source": "MejorInformado.com",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxQcjdEb0NRWDZKeGlqY0xVUWU4ZVM4MVJObHRDRUhibjN0SXd1N3hqZFAzLThLbTZaLTV5eHF6S2pwd0JVMnFkLTU4UUNnVUVyV1ZjTnR2RzNXcFlUZFNFLUFNcEtMTV85SGxvQzNRUDA2MklNVl9KOVdZUUdDbWkySzhfalJ3V3gzZUhZV0hIZXpYTlVaS2tB0gGXAUFVX3lxTFByN0RvQ1FYNkp4aWpjTFVRZThlUzgxUk5sdENFSGJuM3RJd3U3eGpkUDMtOEttNlotNXl4cXpLanB3QlUycWQtNThRQ2dVRXJXVmNOdHZHM1dwWVRkU0UtQU1wS0xNXzlIbG9DM1FQMDYySU1WX0o5V1lRR0NtaTJLOF9qUndXeDNlSFlXSEhlelhOVVpLa0E?oc=5\" target=\"_blank\">Vuelco en El Chañar: un Renault terminó dentro de un canal</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">mejorinformado.com</font>",
+      "source": "mejorinformado.com",
       "sourceType": "BUSCADOR / RESPALDO",
       "sourceUrl": "",
       "collection": "BUSCADOR",
@@ -3459,7 +3461,7 @@
   ],
   "territorialGraph": {
     "version": "2.0",
-    "generatedAt": "2026-09-26T00:05:17.067135+00:00",
+    "generatedAt": "2026-09-26T05:20:51.492130+00:00",
     "root": "spc",
     "rule": "evidence-first",
     "levels": [
@@ -4062,7 +4064,7 @@
   },
   "audit": {
     "version": "1.0",
-    "updatedAt": "2026-09-26T00:05:17.113869+00:00",
+    "updatedAt": "2026-09-26T05:20:51.540972+00:00",
     "rule": "fact != coverage; territory requires textual evidence",
     "facts": 5,
     "coverage": 6,
