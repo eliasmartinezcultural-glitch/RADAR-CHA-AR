@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-02T22:52:58.046792+00:00",
+  "updatedAt": "2026-10-03T01:49:48.519651+00:00",
   "window": "14 días",
   "purpose": "Detectar qué se está moviendo en San Patricio del Chañar y mostrar de dónde surge cada señal.",
   "architecture": "contrato universal de procedencia + fuentes profesionales + adaptadores específicos + validación semántica + temporalidad + evidencia editorial separada",
@@ -49,7 +49,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://chanardigital.com.ar/",
-      "lastFetch": "2026-10-02T22:52:37.243805+00:00",
+      "lastFetch": "2026-10-03T01:49:28.543299+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -65,7 +65,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.radiomia.com.ar/",
-      "lastFetch": "2026-10-02T22:52:39.159085+00:00",
+      "lastFetch": "2026-10-03T01:49:30.015123+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -80,7 +80,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://tuitvacamuerta.com/",
-      "lastFetch": "2026-10-02T22:52:40.593031+00:00",
+      "lastFetch": "2026-10-03T01:49:31.615782+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -95,7 +95,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.vacamuertanews.com/",
-      "lastFetch": "2026-10-02T22:52:40.799864+00:00",
+      "lastFetch": "2026-10-03T01:49:31.948332+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -111,7 +111,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.neuqueninforma.gob.ar/",
-      "lastFetch": "2026-10-02T22:52:41.840263+00:00",
+      "lastFetch": "2026-10-03T01:49:32.999144+00:00",
       "success": false,
       "attempted": 3,
       "failures": [
@@ -128,7 +128,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://sanpatricio.gob.ar/",
-      "lastFetch": "2026-10-02T22:52:42.600342+00:00",
+      "lastFetch": "2026-10-03T01:49:33.868589+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -143,7 +143,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://boletinoficial.neuquen.gov.ar/",
-      "lastFetch": "2026-10-02T22:52:43.281912+00:00",
+      "lastFetch": "2026-10-03T01:49:34.781061+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -158,7 +158,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.lmneuquen.com/",
-      "lastFetch": "2026-10-02T22:52:43.432829+00:00",
+      "lastFetch": "2026-10-03T01:49:35.033071+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -174,7 +174,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.rionegro.com.ar/",
-      "lastFetch": "2026-10-02T22:52:48.099593+00:00",
+      "lastFetch": "2026-10-03T01:49:38.778026+00:00",
       "success": true,
       "attempted": 2,
       "failures": [
@@ -189,7 +189,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.mejorinformado.com/",
-      "lastFetch": "2026-10-02T22:52:48.404958+00:00",
+      "lastFetch": "2026-10-03T01:49:39.236482+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -205,7 +205,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.diariamenteneuquen.com/",
-      "lastFetch": "2026-10-02T22:52:49.028038+00:00",
+      "lastFetch": "2026-10-03T01:49:39.889027+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -709,18 +709,18 @@
   "languageAudit": [
     {
       "term": "san patricio del chañar",
-      "hits": 6,
-      "direct": 6
+      "hits": 8,
+      "direct": 8
     },
     {
       "term": "el chañar",
-      "hits": 6,
-      "direct": 6
+      "hits": 8,
+      "direct": 8
     },
     {
       "term": "epet 26",
-      "hits": 4,
-      "direct": 4
+      "hits": 5,
+      "direct": 5
     },
     {
       "term": "viñedos",
@@ -1113,13 +1113,14 @@
         "source": "Lmneuquen.com",
         "group": "OBSERVADA",
         "role": "fuente detectada fuera del catálogo",
-        "accepted": 1,
-        "direct": 1,
+        "accepted": 2,
+        "direct": 2,
         "anchored": 0,
         "falsePositives": 0,
         "falsePositiveTypes": [],
         "topics": [
-          "PRODUCCIÓN"
+          "PRODUCCIÓN",
+          "SERVICIOS"
         ]
       },
       {
@@ -1156,6 +1157,19 @@
         "topics": []
       },
       {
+        "source": "Minuto Neuquen",
+        "group": "OBSERVADA",
+        "role": "fuente detectada fuera del catálogo",
+        "accepted": 1,
+        "direct": 1,
+        "anchored": 0,
+        "falsePositives": 0,
+        "falsePositiveTypes": [],
+        "topics": [
+          "SERVICIOS"
+        ]
+      },
+      {
         "source": "Municipalidad de San Patricio del Chañar",
         "group": "LOCAL",
         "role": "fuente institucional primaria",
@@ -1176,19 +1190,6 @@
         "falsePositives": 0,
         "falsePositiveTypes": [],
         "topics": []
-      },
-      {
-        "source": "Neuquen Informa",
-        "group": "OBSERVADA",
-        "role": "fuente detectada fuera del catálogo",
-        "accepted": 1,
-        "direct": 1,
-        "anchored": 0,
-        "falsePositives": 0,
-        "falsePositiveTypes": [],
-        "topics": [
-          "SERVICIOS"
-        ]
       },
       {
         "source": "Neuquén Informa",
@@ -1277,6 +1278,20 @@
         "falsePositives": 0,
         "falsePositiveTypes": [],
         "topics": []
+      },
+      {
+        "source": "neuqueninforma.gob.ar",
+        "group": "OBSERVADA",
+        "role": "fuente detectada fuera del catálogo",
+        "accepted": 2,
+        "direct": 2,
+        "anchored": 0,
+        "falsePositives": 0,
+        "falsePositiveTypes": [],
+        "topics": [
+          "EDUCACIÓN",
+          "SERVICIOS"
+        ]
       }
     ],
     "matrix": [
@@ -1288,9 +1303,9 @@
         "anchored": 0,
         "falsePositives": 0,
         "territorialTerms": [
+          "epet 26",
           "san patricio del chañar",
           "el chañar",
-          "epet 26",
           "cpem 31"
         ]
       },
@@ -1314,9 +1329,9 @@
         "anchored": 0,
         "falsePositives": 0,
         "territorialTerms": [
+          "epet 26",
           "san patricio del chañar",
-          "el chañar",
-          "epet 26"
+          "el chañar"
         ]
       },
       {
@@ -1358,7 +1373,44 @@
         ]
       },
       {
-        "source": "Neuquen Informa",
+        "source": "Lmneuquen.com",
+        "topic": "SERVICIOS",
+        "accepted": 1,
+        "direct": 1,
+        "anchored": 0,
+        "falsePositives": 0,
+        "territorialTerms": [
+          "san patricio del chañar",
+          "el chañar"
+        ]
+      },
+      {
+        "source": "Minuto Neuquen",
+        "topic": "SERVICIOS",
+        "accepted": 1,
+        "direct": 1,
+        "anchored": 0,
+        "falsePositives": 0,
+        "territorialTerms": [
+          "san patricio del chañar",
+          "el chañar"
+        ]
+      },
+      {
+        "source": "neuqueninforma.gob.ar",
+        "topic": "EDUCACIÓN",
+        "accepted": 1,
+        "direct": 1,
+        "anchored": 0,
+        "falsePositives": 0,
+        "territorialTerms": [
+          "epet 26",
+          "san patricio del chañar",
+          "el chañar"
+        ]
+      },
+      {
+        "source": "neuqueninforma.gob.ar",
         "topic": "SERVICIOS",
         "accepted": 1,
         "direct": 1,
@@ -1373,8 +1425,8 @@
     "languagePrecision": [
       {
         "term": "san patricio del chañar",
-        "acceptedHits": 6,
-        "directHits": 6,
+        "acceptedHits": 8,
+        "directHits": 8,
         "rejectedTitleHits": 0,
         "territorialStrength": "FUERTE"
       },
@@ -1387,8 +1439,8 @@
       },
       {
         "term": "el chañar",
-        "acceptedHits": 6,
-        "directHits": 6,
+        "acceptedHits": 8,
+        "directHits": 8,
         "rejectedTitleHits": 0,
         "territorialStrength": "FUERTE"
       },
@@ -1443,8 +1495,8 @@
       },
       {
         "term": "epet 26",
-        "acceptedHits": 4,
-        "directHits": 4,
+        "acceptedHits": 5,
+        "directHits": 5,
         "rejectedTitleHits": 0,
         "territorialStrength": "FUERTE"
       },
@@ -1713,11 +1765,11 @@
     "interpretation": "auditoría sobre eventos aceptados; la próxima capa debe instrumentar rechazos antes del clustering"
   },
   "stats": {
-    "total": 9,
-    "direct": 9,
+    "total": 12,
+    "direct": 12,
     "regional": 0,
-    "new": 1,
-    "sources": 5,
+    "new": 3,
+    "sources": 6,
     "directSignals": 0,
     "localDirectSignals": 0,
     "radioDirectSignals": 0,
@@ -1731,7 +1783,7 @@
       "forecastGustKmh": 64.0,
       "forecastWindDirection": "SE",
       "forecastTemperatureC": 22.0,
-      "retrievedAt": "2026-10-02T22:52:34.945344+00:00",
+      "retrievedAt": "2026-10-03T01:49:25.989358+00:00",
       "source": "AIC",
       "sourceTier": "primary",
       "sourceUrl": "https://www.aic.gob.ar/sitio/home?a=1015&z=1967225803",
@@ -1759,9 +1811,9 @@
       ],
       "currentProgrammedMaxM3s": 280,
       "currentProgrammedMinM3s": 250,
-      "programDate": "2026-10-03",
-      "tableDate": "2026-10-02",
-      "retrievedAt": "2026-10-02T22:52:34.945344+00:00",
+      "programDate": "2026-10-04",
+      "tableDate": "2026-10-03",
+      "retrievedAt": "2026-10-03T01:49:25.989358+00:00",
       "source": "AIC",
       "sourceTier": "primary",
       "sourceUrl": "https://www.aic.gob.ar/sitio/caudales",
@@ -1781,17 +1833,17 @@
         "url": "https://www.aic.gob.ar/sitio/caudales"
       }
     ],
-    "updatedAt": "2026-10-02T22:52:34.945344+00:00"
+    "updatedAt": "2026-10-03T01:49:25.989358+00:00"
   },
   "operational": {
-    "updatedAt": "2026-10-02T22:52:34.945344+00:00",
+    "updatedAt": "2026-10-03T01:49:25.989358+00:00",
     "route7": {
       "source": "Dirección Provincial de Vialidad",
       "sourceTier": "primary",
       "sourceUrl": "https://www.dpvneuquen.gov.ar/",
       "semanticState": null,
       "publicationState": "source_reachable_no_current_machine_readable_state",
-      "retrievedAt": "2026-10-02T22:52:34.945344+00:00",
+      "retrievedAt": "2026-10-03T01:49:25.989358+00:00",
       "evidence": {
         "route7Mention": true,
         "route8Mention": false
@@ -1803,7 +1855,7 @@
       "sourceUrl": "https://www.dpvneuquen.gov.ar/",
       "semanticState": null,
       "publicationState": "source_reachable_no_current_machine_readable_state",
-      "retrievedAt": "2026-10-02T22:52:34.945344+00:00",
+      "retrievedAt": "2026-10-03T01:49:25.989358+00:00",
       "evidence": {
         "route7Mention": true,
         "route8Mention": false
@@ -1817,7 +1869,7 @@
       "eventType": null,
       "detail": null,
       "publicationState": "source_reachable_no_specific_local_notice",
-      "retrievedAt": "2026-10-02T22:52:34.945344+00:00"
+      "retrievedAt": "2026-10-03T01:49:25.989358+00:00"
     },
     "water": {
       "source": "EPAS",
@@ -1827,7 +1879,7 @@
       "eventType": null,
       "detail": null,
       "publicationState": "source_reachable_no_specific_local_notice",
-      "retrievedAt": "2026-10-02T22:52:34.945344+00:00"
+      "retrievedAt": "2026-10-03T01:49:25.989358+00:00"
     },
     "sources": [
       {
@@ -2239,7 +2291,7 @@
       "label": "Conversación general",
       "signal": 7,
       "status": "cobertura editorial",
-      "freshnessHours": 2.7,
+      "freshnessHours": 0.3,
       "mode": "evidencia editorial",
       "evidenceCount": 7,
       "sourceContract": {
@@ -2319,7 +2371,7 @@
         "sourceUrl": "https://www.dpvneuquen.gov.ar/",
         "semanticState": null,
         "publicationState": "source_reachable_no_current_machine_readable_state",
-        "retrievedAt": "2026-10-02T22:52:34.945344+00:00",
+        "retrievedAt": "2026-10-03T01:49:25.989358+00:00",
         "evidence": {
           "route7Mention": true,
           "route8Mention": false
@@ -2371,7 +2423,7 @@
         "sourceUrl": "https://www.dpvneuquen.gov.ar/",
         "semanticState": null,
         "publicationState": "source_reachable_no_current_machine_readable_state",
-        "retrievedAt": "2026-10-02T22:52:34.945344+00:00",
+        "retrievedAt": "2026-10-03T01:49:25.989358+00:00",
         "evidence": {
           "route7Mention": true,
           "route8Mention": false
@@ -2471,7 +2523,7 @@
         "eventType": null,
         "detail": null,
         "publicationState": "source_reachable_no_specific_local_notice",
-        "retrievedAt": "2026-10-02T22:52:34.945344+00:00"
+        "retrievedAt": "2026-10-03T01:49:25.989358+00:00"
       }
     },
     {
@@ -2521,17 +2573,17 @@
         "eventType": null,
         "detail": null,
         "publicationState": "source_reachable_no_specific_local_notice",
-        "retrievedAt": "2026-10-02T22:52:34.945344+00:00"
+        "retrievedAt": "2026-10-03T01:49:25.989358+00:00"
       }
     },
     {
       "id": "SERVICIOS",
       "label": "Servicios e infraestructura",
-      "signal": 0,
+      "signal": 1,
       "status": "evidencia de servicio",
-      "freshnessHours": null,
+      "freshnessHours": 146.8,
       "mode": "evidencia editorial",
-      "evidenceCount": 0,
+      "evidenceCount": 1,
       "sourceContract": {
         "primary": "Municipalidad de San Patricio del Chañar",
         "secondary": "organismo provincial competente según servicio",
@@ -2609,7 +2661,7 @@
       "label": "Educación",
       "signal": 3,
       "status": "evidencia educativa",
-      "freshnessHours": 143.8,
+      "freshnessHours": 146.8,
       "mode": "evidencia editorial",
       "evidenceCount": 3,
       "sourceContract": {
@@ -2649,7 +2701,7 @@
       "label": "Producción rural",
       "signal": 1,
       "status": "evidencia productiva",
-      "freshnessHours": 99.0,
+      "freshnessHours": 101.9,
       "mode": "evidencia editorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -2786,7 +2838,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://chanardigital.com.ar/",
-        "lastFetch": "2026-10-02T22:52:37.243805+00:00",
+        "lastFetch": "2026-10-03T01:49:28.543299+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -2802,7 +2854,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.radiomia.com.ar/",
-        "lastFetch": "2026-10-02T22:52:39.159085+00:00",
+        "lastFetch": "2026-10-03T01:49:30.015123+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -2817,7 +2869,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://tuitvacamuerta.com/",
-        "lastFetch": "2026-10-02T22:52:40.593031+00:00",
+        "lastFetch": "2026-10-03T01:49:31.615782+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -2832,7 +2884,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.vacamuertanews.com/",
-        "lastFetch": "2026-10-02T22:52:40.799864+00:00",
+        "lastFetch": "2026-10-03T01:49:31.948332+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -2848,7 +2900,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.neuqueninforma.gob.ar/",
-        "lastFetch": "2026-10-02T22:52:41.840263+00:00",
+        "lastFetch": "2026-10-03T01:49:32.999144+00:00",
         "success": false,
         "attempted": 3,
         "failures": [
@@ -2865,7 +2917,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://sanpatricio.gob.ar/",
-        "lastFetch": "2026-10-02T22:52:42.600342+00:00",
+        "lastFetch": "2026-10-03T01:49:33.868589+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -2880,7 +2932,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://boletinoficial.neuquen.gov.ar/",
-        "lastFetch": "2026-10-02T22:52:43.281912+00:00",
+        "lastFetch": "2026-10-03T01:49:34.781061+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -2895,7 +2947,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.lmneuquen.com/",
-        "lastFetch": "2026-10-02T22:52:43.432829+00:00",
+        "lastFetch": "2026-10-03T01:49:35.033071+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -2911,7 +2963,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.rionegro.com.ar/",
-        "lastFetch": "2026-10-02T22:52:48.099593+00:00",
+        "lastFetch": "2026-10-03T01:49:38.778026+00:00",
         "success": true,
         "attempted": 2,
         "failures": [
@@ -2926,7 +2978,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.mejorinformado.com/",
-        "lastFetch": "2026-10-02T22:52:48.404958+00:00",
+        "lastFetch": "2026-10-03T01:49:39.236482+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -2942,7 +2994,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.diariamenteneuquen.com/",
-        "lastFetch": "2026-10-02T22:52:49.028038+00:00",
+        "lastFetch": "2026-10-03T01:49:39.889027+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -2961,44 +3013,84 @@
   "events": [
     {
       "eventId": "CHA-6161e451ba3f",
-      "title": "La sala de elaboración de alimentos de San Patricio del Chañar cuenta con un avance del 42 por ciento - Neuquen Informa",
-      "publishedAt": "2026-10-02T20:09:58+00:00",
+      "title": "La sala de elaboración de alimentos de San Patricio del Chañar cuenta con un avance del 42 por ciento - neuqueninforma.gob.ar",
+      "publishedAt": "2026-10-03T01:30:00+00:00",
       "firstSeen": "2026-10-01T07:03:36.034864+00:00",
-      "lastSeen": "2026-10-02T20:09:58+00:00",
+      "lastSeen": "2026-10-03T01:30:00+00:00",
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SERVICIOS",
-      "movement": 76,
-      "coverage": 2,
-      "sourceCount": 2,
+      "movement": 100,
+      "coverage": 4,
+      "sourceCount": 4,
       "directSourceCount": 0,
       "territorialAnchors": [
         "san patricio del chañar",
         "el chañar"
       ],
       "sources": [
-        "Neuquen Informa",
+        "Minuto Neuquen",
+        "Lmneuquen.com",
+        "neuqueninforma.gob.ar",
         "Chañar Digital"
       ],
       "evidenceUrl": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNaTl4NFFfUUw1WFNBVFB4WEZaNDdzcEhPNl8tV3FLOFZuR2dRNWFfNXZtRmR5aXNKRy1SQXJ5U3RaVFdsYTNzNWQzQXV4RDJrbWU4WlZIQjlYX0JhN2FvUU54TWxFNGlpODRBSVFaaDFXQ2VvcGNnLV9UdW4xTTJiQVpKSUoyNl9mc3U5VkN6WTQ1WlhZcGRyeE92YkYyVEZLOEpVMkNlcTRsT3duZUhYZFpHcENUNDh2NU1rZWRYZXZmZ1JITlQyak84d2dvejVncXQ5cnlCYXcwdl9tYi14dmlBSk8wZFNtODRnMkl6YzdJWnYtYVF5bDJ30gH6AUFVX3lxTE1pOXg0UV9RTDVYU0FUUHhYRlo0N3NwSE82Xy1XcUs4Vm5HZ1E1YV81dm1GZHlpc0pHLVJBcnlTdFpUV2xhM3M1ZDNBdXhEMmttZThaVkhCOVhfQmE3YW9RTnhNbEU0aWk4NEFJUVpoMVdDZW9wY2ctX1R1bjFNMmJBWkpJSjI2X2ZzdTlWQ3pZNDVaWFlwZHJ4T3ZiRjJURks4SlUyQ2VxNGxPd25lSFhkWkdwQ1Q0OHY1TWtlZFhldmZnUkhOVDJqTzh3Z296NWdxdDlyeUJhdzB2X21iLXh2aUFKTzBkU204NGcySXpjN0ladi1hUXlsMnc?oc=5",
       "items": [
         {
-          "title": "La sala de elaboración de alimentos de San Patricio del Chañar cuenta con un avance del 42 por ciento - Neuquen Informa",
-          "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNaTl4NFFfUUw1WFNBVFB4WEZaNDdzcEhPNl8tV3FLOFZuR2dRNWFfNXZtRmR5aXNKRy1SQXJ5U3RaVFdsYTNzNWQzQXV4RDJrbWU4WlZIQjlYX0JhN2FvUU54TWxFNGlpODRBSVFaaDFXQ2VvcGNnLV9UdW4xTTJiQVpKSUoyNl9mc3U5VkN6WTQ1WlhZcGRyeE92YkYyVEZLOEpVMkNlcTRsT3duZUhYZFpHcENUNDh2NU1rZWRYZXZmZ1JITlQyak84d2dvejVncXQ5cnlCYXcwdl9tYi14dmlBSk8wZFNtODRnMkl6YzdJWnYtYVF5bDJ30gH6AUFVX3lxTE1pOXg0UV9RTDVYU0FUUHhYRlo0N3NwSE82Xy1XcUs4Vm5HZ1E1YV81dm1GZHlpc0pHLVJBcnlTdFpUV2xhM3M1ZDNBdXhEMmttZThaVkhCOVhfQmE3YW9RTnhNbEU0aWk4NEFJUVpoMVdDZW9wY2ctX1R1bjFNMmJBWkpJSjI2X2ZzdTlWQ3pZNDVaWFlwZHJ4T3ZiRjJURks4SlUyQ2VxNGxPd25lSFhkWkdwQ1Q0OHY1TWtlZFhldmZnUkhOVDJqTzh3Z296NWdxdDlyeUJhdzB2X21iLXh2aUFKTzBkU204NGcySXpjN0ladi1hUXlsMnc?oc=5",
-          "publishedAt": "2026-10-02T20:09:58+00:00",
-          "published": "2026-10-02T20:09:58+00:00",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMi-gFBVV95cUxNaTl4NFFfUUw1WFNBVFB4WEZaNDdzcEhPNl8tV3FLOFZuR2dRNWFfNXZtRmR5aXNKRy1SQXJ5U3RaVFdsYTNzNWQzQXV4RDJrbWU4WlZIQjlYX0JhN2FvUU54TWxFNGlpODRBSVFaaDFXQ2VvcGNnLV9UdW4xTTJiQVpKSUoyNl9mc3U5VkN6WTQ1WlhZcGRyeE92YkYyVEZLOEpVMkNlcTRsT3duZUhYZFpHcENUNDh2NU1rZWRYZXZmZ1JITlQyak84d2dvejVncXQ5cnlCYXcwdl9tYi14dmlBSk8wZFNtODRnMkl6YzdJWnYtYVF5bDJ30gH6AUFVX3lxTE1pOXg0UV9RTDVYU0FUUHhYRlo0N3NwSE82Xy1XcUs4Vm5HZ1E1YV81dm1GZHlpc0pHLVJBcnlTdFpUV2xhM3M1ZDNBdXhEMmttZThaVkhCOVhfQmE3YW9RTnhNbEU0aWk4NEFJUVpoMVdDZW9wY2ctX1R1bjFNMmJBWkpJSjI2X2ZzdTlWQ3pZNDVaWFlwZHJ4T3ZiRjJURks4SlUyQ2VxNGxPd25lSFhkWkdwQ1Q0OHY1TWtlZFhldmZnUkhOVDJqTzh3Z296NWdxdDlyeUJhdzB2X21iLXh2aUFKTzBkU204NGcySXpjN0ladi1hUXlsMnc?oc=5\" target=\"_blank\">La sala de elaboración de alimentos de San Patricio del Chañar cuenta con un avance del 42 por ciento</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Neuquen Informa</font>",
-          "source": "Neuquen Informa",
+          "title": "San Patricio del Chañar: un arma, $30.000 y una balacera en una casa que terminó con dos presos - Minuto Neuquen",
+          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOU0w2ZUlSclBFeG1SdlR4bmVjd0RCZmQ3b1Voc09tbzd2NWNfeXBnYUt3Q3EtV3hPbHNoMWNJSnZ4Mm1OVzJvemdLeDNHTW8zeWpEU2FUOWVkeVNiYjJBXzVNbVFsRnpUU3E0cGd6U0lpbmJUUk5aX2k1ZjhXUjk4MUJRSzF6VGJIY2FxalBwUFpXUFBxLW01RDRDWmtlb005cUg4NDlSSWtVWVhkUXFycFVCVHY3dmFGZ2g3T3lZWjVSWENiQlliMl91Unhia3VlcDNORmVJSlhyNFloSFhXamFnSW9NQQ?oc=5",
+          "publishedAt": "2026-10-03T01:30:00+00:00",
+          "published": "2026-10-03T01:30:00+00:00",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMi5gFBVV95cUxOU0w2ZUlSclBFeG1SdlR4bmVjd0RCZmQ3b1Voc09tbzd2NWNfeXBnYUt3Q3EtV3hPbHNoMWNJSnZ4Mm1OVzJvemdLeDNHTW8zeWpEU2FUOWVkeVNiYjJBXzVNbVFsRnpUU3E0cGd6U0lpbmJUUk5aX2k1ZjhXUjk4MUJRSzF6VGJIY2FxalBwUFpXUFBxLW01RDRDWmtlb005cUg4NDlSSWtVWVhkUXFycFVCVHY3dmFGZ2g3T3lZWjVSWENiQlliMl91Unhia3VlcDNORmVJSlhyNFloSFhXamFnSW9NQQ?oc=5\" target=\"_blank\">San Patricio del Chañar: un arma, $30.000 y una balacera en una casa que terminó con dos presos</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Minuto Neuquen</font>",
+          "source": "Minuto Neuquen",
           "sourceType": "BUSCADOR / RESPALDO",
           "sourceUrl": "",
           "collection": "BUSCADOR",
-          "query": "\"San Patricio del Chañar\" Neuquén",
+          "query": "\"San Patricio del Chañar\"",
+          "relevance": 3,
+          "relevanceLabel": "DIRECTA",
+          "firstSeen": "2026-10-03T01:49:48.519651+00:00",
+          "isNew": true,
+          "titleKey": "arma 000 balacera casa termino dos presos minuto",
+          "evidenceUrl": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOU0w2ZUlSclBFeG1SdlR4bmVjd0RCZmQ3b1Voc09tbzd2NWNfeXBnYUt3Q3EtV3hPbHNoMWNJSnZ4Mm1OVzJvemdLeDNHTW8zeWpEU2FUOWVkeVNiYjJBXzVNbVFsRnpUU3E0cGd6U0lpbmJUUk5aX2k1ZjhXUjk4MUJRSzF6VGJIY2FxalBwUFpXUFBxLW01RDRDWmtlb005cUg4NDlSSWtVWVhkUXFycFVCVHY3dmFGZ2g3T3lZWjVSWENiQlliMl91Unhia3VlcDNORmVJSlhyNFloSFhXamFnSW9NQQ?oc=5",
+          "sourcePriority": 3
+        },
+        {
+          "title": "Ataque a tiros en una toma de San Patricio del Chañar: dos hombres quedaron presos - Lmneuquen.com",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOQThTZjIzU0xPLVVROVJ1TGlLR3NOendSUU10Q1hCZVhQZDhDSjc2MDZzcjUxODkxcy1pd3o5Z1ZFcGdESEtOWTU3elIxRW5qejJRMDlURmdENlJFVnBlVzB6UTJoeTF0X1NXdno4WHNDRnRXN2M1emd6RHlHcERfYWJCVGlSaWhsM3dZSzhrU2psY2pBdjF6YzRPUHV6c3ZFZldaXzc1aWtmeGJFSl9UdHNpcURySmhrVmdr0gHAAUFVX3lxTE9nbHdFRW9yb3VkbnhyU2lmdnBKeG1NWEZUY2loRENPeTl1ZFhzb3ZadkdaZnV5ZzYyTFNvU2cxZV9VTmVVWk05NGJkM1Y0VVpnYjZkcFVDVHB4RjRjVlZ6dmF3R1NjMzFpV0E2ZnpYSkItR08yYm1wM0dVN1pZeTZEWFl1MUZ5aEg3Z3ZMNGVlZGVwLUNkSl83STZXWjhzdlhOWWVXSWlHRDU2aFZKUWtKVmRBdndqd1VSMFV5NkVZUQ?oc=5",
+          "publishedAt": "2026-10-03T01:23:00+00:00",
+          "published": "2026-10-03T01:23:00+00:00",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMiuwFBVV95cUxOQThTZjIzU0xPLVVROVJ1TGlLR3NOendSUU10Q1hCZVhQZDhDSjc2MDZzcjUxODkxcy1pd3o5Z1ZFcGdESEtOWTU3elIxRW5qejJRMDlURmdENlJFVnBlVzB6UTJoeTF0X1NXdno4WHNDRnRXN2M1emd6RHlHcERfYWJCVGlSaWhsM3dZSzhrU2psY2pBdjF6YzRPUHV6c3ZFZldaXzc1aWtmeGJFSl9UdHNpcURySmhrVmdr0gHAAUFVX3lxTE9nbHdFRW9yb3VkbnhyU2lmdnBKeG1NWEZUY2loRENPeTl1ZFhzb3ZadkdaZnV5ZzYyTFNvU2cxZV9VTmVVWk05NGJkM1Y0VVpnYjZkcFVDVHB4RjRjVlZ6dmF3R1NjMzFpV0E2ZnpYSkItR08yYm1wM0dVN1pZeTZEWFl1MUZ5aEg3Z3ZMNGVlZGVwLUNkSl83STZXWjhzdlhOWWVXSWlHRDU2aFZKUWtKVmRBdndqd1VSMFV5NkVZUQ?oc=5\" target=\"_blank\">Ataque a tiros en una toma de San Patricio del Chañar: dos hombres quedaron presos</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Lmneuquen.com</font>",
+          "source": "Lmneuquen.com",
+          "sourceType": "BUSCADOR / RESPALDO",
+          "sourceUrl": "",
+          "collection": "BUSCADOR",
+          "query": "\"San Patricio del Chañar\"",
+          "relevance": 3,
+          "relevanceLabel": "DIRECTA",
+          "firstSeen": "2026-10-03T01:49:48.519651+00:00",
+          "isNew": true,
+          "titleKey": "ataque tiros toma dos hombres quedaron presos lmneuquen com",
+          "evidenceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOQThTZjIzU0xPLVVROVJ1TGlLR3NOendSUU10Q1hCZVhQZDhDSjc2MDZzcjUxODkxcy1pd3o5Z1ZFcGdESEtOWTU3elIxRW5qejJRMDlURmdENlJFVnBlVzB6UTJoeTF0X1NXdno4WHNDRnRXN2M1emd6RHlHcERfYWJCVGlSaWhsM3dZSzhrU2psY2pBdjF6YzRPUHV6c3ZFZldaXzc1aWtmeGJFSl9UdHNpcURySmhrVmdr0gHAAUFVX3lxTE9nbHdFRW9yb3VkbnhyU2lmdnBKeG1NWEZUY2loRENPeTl1ZFhzb3ZadkdaZnV5ZzYyTFNvU2cxZV9VTmVVWk05NGJkM1Y0VVpnYjZkcFVDVHB4RjRjVlZ6dmF3R1NjMzFpV0E2ZnpYSkItR08yYm1wM0dVN1pZeTZEWFl1MUZ5aEg3Z3ZMNGVlZGVwLUNkSl83STZXWjhzdlhOWWVXSWlHRDU2aFZKUWtKVmRBdndqd1VSMFV5NkVZUQ?oc=5",
+          "sourcePriority": 3
+        },
+        {
+          "title": "La sala de elaboración de alimentos de San Patricio del Chañar cuenta con un avance del 42 por ciento - neuqueninforma.gob.ar",
+          "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNaTl4NFFfUUw1WFNBVFB4WEZaNDdzcEhPNl8tV3FLOFZuR2dRNWFfNXZtRmR5aXNKRy1SQXJ5U3RaVFdsYTNzNWQzQXV4RDJrbWU4WlZIQjlYX0JhN2FvUU54TWxFNGlpODRBSVFaaDFXQ2VvcGNnLV9UdW4xTTJiQVpKSUoyNl9mc3U5VkN6WTQ1WlhZcGRyeE92YkYyVEZLOEpVMkNlcTRsT3duZUhYZFpHcENUNDh2NU1rZWRYZXZmZ1JITlQyak84d2dvejVncXQ5cnlCYXcwdl9tYi14dmlBSk8wZFNtODRnMkl6YzdJWnYtYVF5bDJ30gH6AUFVX3lxTE1pOXg0UV9RTDVYU0FUUHhYRlo0N3NwSE82Xy1XcUs4Vm5HZ1E1YV81dm1GZHlpc0pHLVJBcnlTdFpUV2xhM3M1ZDNBdXhEMmttZThaVkhCOVhfQmE3YW9RTnhNbEU0aWk4NEFJUVpoMVdDZW9wY2ctX1R1bjFNMmJBWkpJSjI2X2ZzdTlWQ3pZNDVaWFlwZHJ4T3ZiRjJURks4SlUyQ2VxNGxPd25lSFhkWkdwQ1Q0OHY1TWtlZFhldmZnUkhOVDJqTzh3Z296NWdxdDlyeUJhdzB2X21iLXh2aUFKTzBkU204NGcySXpjN0ladi1hUXlsMnc?oc=5",
+          "publishedAt": "2026-10-02T20:09:58+00:00",
+          "published": "2026-10-02T20:09:58+00:00",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMi-gFBVV95cUxNaTl4NFFfUUw1WFNBVFB4WEZaNDdzcEhPNl8tV3FLOFZuR2dRNWFfNXZtRmR5aXNKRy1SQXJ5U3RaVFdsYTNzNWQzQXV4RDJrbWU4WlZIQjlYX0JhN2FvUU54TWxFNGlpODRBSVFaaDFXQ2VvcGNnLV9UdW4xTTJiQVpKSUoyNl9mc3U5VkN6WTQ1WlhZcGRyeE92YkYyVEZLOEpVMkNlcTRsT3duZUhYZFpHcENUNDh2NU1rZWRYZXZmZ1JITlQyak84d2dvejVncXQ5cnlCYXcwdl9tYi14dmlBSk8wZFNtODRnMkl6YzdJWnYtYVF5bDJ30gH6AUFVX3lxTE1pOXg0UV9RTDVYU0FUUHhYRlo0N3NwSE82Xy1XcUs4Vm5HZ1E1YV81dm1GZHlpc0pHLVJBcnlTdFpUV2xhM3M1ZDNBdXhEMmttZThaVkhCOVhfQmE3YW9RTnhNbEU0aWk4NEFJUVpoMVdDZW9wY2ctX1R1bjFNMmJBWkpJSjI2X2ZzdTlWQ3pZNDVaWFlwZHJ4T3ZiRjJURks4SlUyQ2VxNGxPd25lSFhkWkdwQ1Q0OHY1TWtlZFhldmZnUkhOVDJqTzh3Z296NWdxdDlyeUJhdzB2X21iLXh2aUFKTzBkU204NGcySXpjN0ladi1hUXlsMnc?oc=5\" target=\"_blank\">La sala de elaboración de alimentos de San Patricio del Chañar cuenta con un avance del 42 por ciento</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">neuqueninforma.gob.ar</font>",
+          "source": "neuqueninforma.gob.ar",
+          "sourceType": "BUSCADOR / RESPALDO",
+          "sourceUrl": "",
+          "collection": "BUSCADOR",
+          "query": "\"San Patricio del Chañar\"",
           "relevance": 3,
           "relevanceLabel": "DIRECTA",
           "firstSeen": "2026-10-02T22:52:58.046792+00:00",
-          "isNew": true,
-          "titleKey": "sala elaboracion alimentos cuenta avance ciento informa",
+          "isNew": false,
+          "titleKey": "sala elaboracion alimentos cuenta avance ciento neuqueninforma gob",
           "evidenceUrl": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNaTl4NFFfUUw1WFNBVFB4WEZaNDdzcEhPNl8tV3FLOFZuR2dRNWFfNXZtRmR5aXNKRy1SQXJ5U3RaVFdsYTNzNWQzQXV4RDJrbWU4WlZIQjlYX0JhN2FvUU54TWxFNGlpODRBSVFaaDFXQ2VvcGNnLV9UdW4xTTJiQVpKSUoyNl9mc3U5VkN6WTQ1WlhZcGRyeE92YkYyVEZLOEpVMkNlcTRsT3duZUhYZFpHcENUNDh2NU1rZWRYZXZmZ1JITlQyak84d2dvejVncXQ5cnlCYXcwdl9tYi14dmlBSk8wZFNtODRnMkl6YzdJWnYtYVF5bDJ30gH6AUFVX3lxTE1pOXg0UV9RTDVYU0FUUHhYRlo0N3NwSE82Xy1XcUs4Vm5HZ1E1YV81dm1GZHlpc0pHLVJBcnlTdFpUV2xhM3M1ZDNBdXhEMmttZThaVkhCOVhfQmE3YW9RTnhNbEU0aWk4NEFJUVpoMVdDZW9wY2ctX1R1bjFNMmJBWkpJSjI2X2ZzdTlWQ3pZNDVaWFlwZHJ4T3ZiRjJURks4SlUyQ2VxNGxPd25lSFhkWkdwQ1Q0OHY1TWtlZFhldmZnUkhOVDJqTzh3Z296NWdxdDlyeUJhdzB2X21iLXh2aUFKTzBkU204NGcySXpjN0ladi1hUXlsMnc?oc=5",
           "sourcePriority": 3
         },
@@ -3023,12 +3115,14 @@
         }
       ],
       "lifecycle": "ACTIVO",
-      "movementDelta": 25,
-      "previousCoverage": 1,
+      "movementDelta": 24,
+      "previousCoverage": 2,
       "newSources": [
-        "Neuquen Informa"
+        "Minuto Neuquen",
+        "Lmneuquen.com",
+        "neuqueninforma.gob.ar"
       ],
-      "sourceDiversity": 2,
+      "sourceDiversity": 4,
       "memoryMatched": true,
       "isNew": false,
       "view": "INCIDENCIA",
@@ -3055,6 +3149,135 @@
             "node": "San Patricio del Chañar",
             "level": "localidad",
             "evidence": "DIRECTA"
+          }
+        ]
+      }
+    },
+    {
+      "eventId": "CHA-9db8a0306238",
+      "title": "Chañar: la obra del edificio de la EPET 26 ya supera el 70 por ciento de ejecución - Chañar Digital",
+      "publishedAt": "2026-09-26T23:04:16+00:00",
+      "firstSeen": "2026-09-28T07:28:32.175152+00:00",
+      "lastSeen": "2026-09-26T23:04:16+00:00",
+      "relevance": 3,
+      "relevanceLabel": "DIRECTA",
+      "incidenceLabel": "DIRECTA EN CHANAR",
+      "topic": "EDUCACIÓN",
+      "movement": 36,
+      "coverage": 3,
+      "sourceCount": 3,
+      "directSourceCount": 0,
+      "territorialAnchors": [
+        "epet 26",
+        "san patricio del chañar",
+        "el chañar"
+      ],
+      "sources": [
+        "Chañar Digital",
+        "neuqueninforma.gob.ar",
+        "Diario Neuquino"
+      ],
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPOVVhaEdkZzl3VlJOQm5JbnRZV2NwdkdBZ25OYnFEczRPaHVxejJTU1I4al9UdlZ2WTBNOWpQalg5azdycThEbGJTdi1MNnU1OXlBVEVCWV9BREVxVUEzcDB0enJCM1FqUlB5Q3hHejhNRkYzS0FIWlhyRnZ3RUdvS1NiSW5NNHZBQTI3bWt3RE5yVVQ1X0IxY3BMOXhBZFluaVBzalRfdHlNTXZ0MzJ4ZXBldTRIR1dPeGVZMkVBd29BZlNGRWFENHZnQ1R6b1dw?oc=5",
+      "items": [
+        {
+          "title": "Chañar: la obra del edificio de la EPET 26 ya supera el 70 por ciento de ejecución - Chañar Digital",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPOVVhaEdkZzl3VlJOQm5JbnRZV2NwdkdBZ25OYnFEczRPaHVxejJTU1I4al9UdlZ2WTBNOWpQalg5azdycThEbGJTdi1MNnU1OXlBVEVCWV9BREVxVUEzcDB0enJCM1FqUlB5Q3hHejhNRkYzS0FIWlhyRnZ3RUdvS1NiSW5NNHZBQTI3bWt3RE5yVVQ1X0IxY3BMOXhBZFluaVBzalRfdHlNTXZ0MzJ4ZXBldTRIR1dPeGVZMkVBd29BZlNGRWFENHZnQ1R6b1dw?oc=5",
+          "publishedAt": "2026-09-26T17:48:10+00:00",
+          "published": "2026-09-26T17:48:10+00:00",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMi0AFBVV95cUxPOVVhaEdkZzl3VlJOQm5JbnRZV2NwdkdBZ25OYnFEczRPaHVxejJTU1I4al9UdlZ2WTBNOWpQalg5azdycThEbGJTdi1MNnU1OXlBVEVCWV9BREVxVUEzcDB0enJCM1FqUlB5Q3hHejhNRkYzS0FIWlhyRnZ3RUdvS1NiSW5NNHZBQTI3bWt3RE5yVVQ1X0IxY3BMOXhBZFluaVBzalRfdHlNTXZ0MzJ4ZXBldTRIR1dPeGVZMkVBd29BZlNGRWFENHZnQ1R6b1dw?oc=5\" target=\"_blank\">Chañar: la obra del edificio de la EPET 26 ya supera el 70 por ciento de ejecución</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Chañar Digital</font>",
+          "source": "Chañar Digital",
+          "sourceType": "BUSCADOR / RESPALDO",
+          "sourceUrl": "",
+          "collection": "BUSCADOR",
+          "query": "site:chanardigital.com.ar \"San Patricio del Chañar\"",
+          "relevance": 3,
+          "relevanceLabel": "DIRECTA",
+          "firstSeen": "2026-09-28T07:28:32.175152+00:00",
+          "isNew": false,
+          "titleKey": "obra edificio epet supera ciento ejecucion digital",
+          "evidenceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPOVVhaEdkZzl3VlJOQm5JbnRZV2NwdkdBZ25OYnFEczRPaHVxejJTU1I4al9UdlZ2WTBNOWpQalg5azdycThEbGJTdi1MNnU1OXlBVEVCWV9BREVxVUEzcDB0enJCM1FqUlB5Q3hHejhNRkYzS0FIWlhyRnZ3RUdvS1NiSW5NNHZBQTI3bWt3RE5yVVQ1X0IxY3BMOXhBZFluaVBzalRfdHlNTXZ0MzJ4ZXBldTRIR1dPeGVZMkVBd29BZlNGRWFENHZnQ1R6b1dw?oc=5",
+          "sourcePriority": 3
+        },
+        {
+          "title": "La obra del edificio de la EPET 26 ya supera el 70 por ciento de ejecución - neuqueninforma.gob.ar",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNT0dfOEw0enJxWXdxODkyZ3RpM1d5UVRzTzZxc1Ntd1dRNkw4NjlnRVZZd09VRFhJQk1CSjNuTFdOUnpvSVRyNmZLZDA2dzY4eFZIbEotaHJwdF9IZi0wcHRhWVFON1A5TElqQlgtc05mRWhqRGVQSVN3SGtEVDl4QTdmanN2a3FlYUk0Um9SYmdRUnp5SkFybEtmSjdKOVpOdkhqa1ZzajZMWHRMWE93MlkyUENCbHNfeEFoQ3h2WUZXY3d0QV9PV3BpRmMtTzI30gHWAUFVX3lxTFBxb0VSVFRhM0owdEVSUEhRX1lSTWpLN1J4U0k0ZU1IU3lYS29yZmNXLWVUN3lFbUdJZDZiSjZtYm51QnF6RzlSMlZOa1BTVFBFSFlxY1JueEdTa2djcXd2OUxxbFFmcTJDeFZQTHdaRUdkaHRyT1l2NG5ycFM2bVBJaU1WaXdERGdZeXRFWm5lMFRWX2tjS08wZEZkZURtSFBTalpXWHNuNDQtRVRiQkRtb2djRTY5QVhjeEZTRlJ5ei14X3Bia21QMHdrYVVfVHFKbGlhTVE?oc=5",
+          "publishedAt": "2026-09-26T13:52:33+00:00",
+          "published": "2026-09-26T13:52:33+00:00",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMi0AFBVV95cUxNT0dfOEw0enJxWXdxODkyZ3RpM1d5UVRzTzZxc1Ntd1dRNkw4NjlnRVZZd09VRFhJQk1CSjNuTFdOUnpvSVRyNmZLZDA2dzY4eFZIbEotaHJwdF9IZi0wcHRhWVFON1A5TElqQlgtc05mRWhqRGVQSVN3SGtEVDl4QTdmanN2a3FlYUk0Um9SYmdRUnp5SkFybEtmSjdKOVpOdkhqa1ZzajZMWHRMWE93MlkyUENCbHNfeEFoQ3h2WUZXY3d0QV9PV3BpRmMtTzI30gHWAUFVX3lxTFBxb0VSVFRhM0owdEVSUEhRX1lSTWpLN1J4U0k0ZU1IU3lYS29yZmNXLWVUN3lFbUdJZDZiSjZtYm51QnF6RzlSMlZOa1BTVFBFSFlxY1JueEdTa2djcXd2OUxxbFFmcTJDeFZQTHdaRUdkaHRyT1l2NG5ycFM2bVBJaU1WaXdERGdZeXRFWm5lMFRWX2tjS08wZEZkZURtSFBTalpXWHNuNDQtRVRiQkRtb2djRTY5QVhjeEZTRlJ5ei14X3Bia21QMHdrYVVfVHFKbGlhTVE?oc=5\" target=\"_blank\">La obra del edificio de la EPET 26 ya supera el 70 por ciento de ejecución</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">neuqueninforma.gob.ar</font>",
+          "source": "neuqueninforma.gob.ar",
+          "sourceType": "BUSCADOR / RESPALDO",
+          "sourceUrl": "",
+          "collection": "BUSCADOR",
+          "query": "site:neuqueninforma.gob.ar \"San Patricio del Chañar\"",
+          "relevance": 3,
+          "relevanceLabel": "DIRECTA",
+          "firstSeen": "2026-10-03T01:49:48.519651+00:00",
+          "isNew": true,
+          "titleKey": "obra edificio epet supera ciento ejecucion neuqueninforma gob",
+          "evidenceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNT0dfOEw0enJxWXdxODkyZ3RpM1d5UVRzTzZxc1Ntd1dRNkw4NjlnRVZZd09VRFhJQk1CSjNuTFdOUnpvSVRyNmZLZDA2dzY4eFZIbEotaHJwdF9IZi0wcHRhWVFON1A5TElqQlgtc05mRWhqRGVQSVN3SGtEVDl4QTdmanN2a3FlYUk0Um9SYmdRUnp5SkFybEtmSjdKOVpOdkhqa1ZzajZMWHRMWE93MlkyUENCbHNfeEFoQ3h2WUZXY3d0QV9PV3BpRmMtTzI30gHWAUFVX3lxTFBxb0VSVFRhM0owdEVSUEhRX1lSTWpLN1J4U0k0ZU1IU3lYS29yZmNXLWVUN3lFbUdJZDZiSjZtYm51QnF6RzlSMlZOa1BTVFBFSFlxY1JueEdTa2djcXd2OUxxbFFmcTJDeFZQTHdaRUdkaHRyT1l2NG5ycFM2bVBJaU1WaXdERGdZeXRFWm5lMFRWX2tjS08wZEZkZURtSFBTalpXWHNuNDQtRVRiQkRtb2djRTY5QVhjeEZTRlJ5ei14X3Bia21QMHdrYVVfVHFKbGlhTVE?oc=5",
+          "sourcePriority": 3
+        },
+        {
+          "title": "La nueva EPET 26 de San Patricio del Chañar alcanzó el 70% de avance - Diario Neuquino",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZHBQbEpqYzBkZWFzcHI5S1E4TE55X2x4OF9RN2lITGtvNXNCRGhQekZUSjBUMkljTkpfYVBBbnBjcHA3c19yUGxXLXF5MWZ0LTM0UzlXbFFGOW42c0dvWTBjTlVmZ1E3eHNGQ3R3MnZqNGJWRm5ZTUZGYUF0bDFrUWUyY3FFTzgtWUdLeEd4ZGlYckhDYTlrZ3ltZUdSREk?oc=5",
+          "publishedAt": "2026-09-26T23:04:16+00:00",
+          "published": "2026-09-26T23:04:16+00:00",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxQZHBQbEpqYzBkZWFzcHI5S1E4TE55X2x4OF9RN2lITGtvNXNCRGhQekZUSjBUMkljTkpfYVBBbnBjcHA3c19yUGxXLXF5MWZ0LTM0UzlXbFFGOW42c0dvWTBjTlVmZ1E3eHNGQ3R3MnZqNGJWRm5ZTUZGYUF0bDFrUWUyY3FFTzgtWUdLeEd4ZGlYckhDYTlrZ3ltZUdSREk?oc=5\" target=\"_blank\">La nueva EPET 26 de San Patricio del Chañar alcanzó el 70% de avance</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Diario Neuquino</font>",
+          "source": "Diario Neuquino",
+          "sourceType": "BUSCADOR / RESPALDO",
+          "sourceUrl": "",
+          "collection": "BUSCADOR",
+          "query": "\"San Patricio del Chañar\"",
+          "relevance": 3,
+          "relevanceLabel": "DIRECTA",
+          "firstSeen": "2026-09-28T07:28:32.175152+00:00",
+          "isNew": false,
+          "titleKey": "nueva epet alcanzo avance diario neuquino",
+          "evidenceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZHBQbEpqYzBkZWFzcHI5S1E4TE55X2x4OF9RN2lITGtvNXNCRGhQekZUSjBUMkljTkpfYVBBbnBjcHA3c19yUGxXLXF5MWZ0LTM0UzlXbFFGOW42c0dvWTBjTlVmZ1E3eHNGQ3R3MnZqNGJWRm5ZTUZGYUF0bDFrUWUyY3FFTzgtWUdLeEd4ZGlYckhDYTlrZ3ltZUdSREk?oc=5",
+          "sourcePriority": 3
+        }
+      ],
+      "lifecycle": "ACTIVO",
+      "movementDelta": 20,
+      "previousCoverage": 1,
+      "newSources": [
+        "neuqueninforma.gob.ar"
+      ],
+      "sourceDiversity": 3,
+      "memoryMatched": true,
+      "isNew": false,
+      "view": "INCIDENCIA",
+      "incidenceEligible": true,
+      "signalReason": "reservado a incidencia territorial",
+      "incidenceReason": "anclaje directo + tema operativo/local",
+      "territory": {
+        "version": "2.0",
+        "primary": "San Patricio del Chañar",
+        "nodes": [
+          "San Patricio del Chañar",
+          "EPET 26"
+        ],
+        "sectors": [],
+        "barrios": [],
+        "microzones": [],
+        "corridors": [],
+        "institutions": [
+          "EPET 26"
+        ],
+        "services": [],
+        "spaces": [],
+        "production": [],
+        "path": "San Patricio del Chañar → EPET 26",
+        "evidence": [
+          {
+            "node": "San Patricio del Chañar",
+            "level": "localidad",
+            "evidence": "DIRECTA"
+          },
+          {
+            "node": "EPET 26",
+            "level": "institucion",
+            "evidence": "TEXTUAL"
           }
         ]
       }
@@ -3103,8 +3326,8 @@
           "sourcePriority": 3
         }
       ],
-      "lifecycle": "RECIENTE",
-      "movementDelta": -1,
+      "lifecycle": "EN DESCENSO",
+      "movementDelta": 0,
       "previousCoverage": 1,
       "newSources": [],
       "sourceDiversity": 1,
@@ -3147,113 +3370,6 @@
       }
     },
     {
-      "eventId": "CHA-d8e7ca29e745",
-      "title": "La nueva EPET 26 de San Patricio del Chañar alcanzó el 70% de avance - Diario Neuquino",
-      "publishedAt": "2026-09-26T23:04:16+00:00",
-      "firstSeen": "2026-09-28T07:28:32.175152+00:00",
-      "lastSeen": "2026-09-26T23:04:16+00:00",
-      "relevance": 3,
-      "relevanceLabel": "DIRECTA",
-      "incidenceLabel": "DIRECTA EN CHANAR",
-      "topic": "EDUCACIÓN",
-      "movement": 22,
-      "coverage": 2,
-      "sourceCount": 2,
-      "directSourceCount": 0,
-      "territorialAnchors": [
-        "san patricio del chañar",
-        "el chañar",
-        "epet 26"
-      ],
-      "sources": [
-        "Diario Neuquino",
-        "Chañar Digital"
-      ],
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZHBQbEpqYzBkZWFzcHI5S1E4TE55X2x4OF9RN2lITGtvNXNCRGhQekZUSjBUMkljTkpfYVBBbnBjcHA3c19yUGxXLXF5MWZ0LTM0UzlXbFFGOW42c0dvWTBjTlVmZ1E3eHNGQ3R3MnZqNGJWRm5ZTUZGYUF0bDFrUWUyY3FFTzgtWUdLeEd4ZGlYckhDYTlrZ3ltZUdSREk?oc=5",
-      "items": [
-        {
-          "title": "La nueva EPET 26 de San Patricio del Chañar alcanzó el 70% de avance - Diario Neuquino",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZHBQbEpqYzBkZWFzcHI5S1E4TE55X2x4OF9RN2lITGtvNXNCRGhQekZUSjBUMkljTkpfYVBBbnBjcHA3c19yUGxXLXF5MWZ0LTM0UzlXbFFGOW42c0dvWTBjTlVmZ1E3eHNGQ3R3MnZqNGJWRm5ZTUZGYUF0bDFrUWUyY3FFTzgtWUdLeEd4ZGlYckhDYTlrZ3ltZUdSREk?oc=5",
-          "publishedAt": "2026-09-26T23:04:16+00:00",
-          "published": "2026-09-26T23:04:16+00:00",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxQZHBQbEpqYzBkZWFzcHI5S1E4TE55X2x4OF9RN2lITGtvNXNCRGhQekZUSjBUMkljTkpfYVBBbnBjcHA3c19yUGxXLXF5MWZ0LTM0UzlXbFFGOW42c0dvWTBjTlVmZ1E3eHNGQ3R3MnZqNGJWRm5ZTUZGYUF0bDFrUWUyY3FFTzgtWUdLeEd4ZGlYckhDYTlrZ3ltZUdSREk?oc=5\" target=\"_blank\">La nueva EPET 26 de San Patricio del Chañar alcanzó el 70% de avance</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Diario Neuquino</font>",
-          "source": "Diario Neuquino",
-          "sourceType": "BUSCADOR / RESPALDO",
-          "sourceUrl": "",
-          "collection": "BUSCADOR",
-          "query": "\"San Patricio del Chañar\"",
-          "relevance": 3,
-          "relevanceLabel": "DIRECTA",
-          "firstSeen": "2026-09-28T07:28:32.175152+00:00",
-          "isNew": false,
-          "titleKey": "nueva epet alcanzo avance diario neuquino",
-          "evidenceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZHBQbEpqYzBkZWFzcHI5S1E4TE55X2x4OF9RN2lITGtvNXNCRGhQekZUSjBUMkljTkpfYVBBbnBjcHA3c19yUGxXLXF5MWZ0LTM0UzlXbFFGOW42c0dvWTBjTlVmZ1E3eHNGQ3R3MnZqNGJWRm5ZTUZGYUF0bDFrUWUyY3FFTzgtWUdLeEd4ZGlYckhDYTlrZ3ltZUdSREk?oc=5",
-          "sourcePriority": 3
-        },
-        {
-          "title": "Chañar: la obra del edificio de la EPET 26 ya supera el 70 por ciento de ejecución - Chañar Digital",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPOVVhaEdkZzl3VlJOQm5JbnRZV2NwdkdBZ25OYnFEczRPaHVxejJTU1I4al9UdlZ2WTBNOWpQalg5azdycThEbGJTdi1MNnU1OXlBVEVCWV9BREVxVUEzcDB0enJCM1FqUlB5Q3hHejhNRkYzS0FIWlhyRnZ3RUdvS1NiSW5NNHZBQTI3bWt3RE5yVVQ1X0IxY3BMOXhBZFluaVBzalRfdHlNTXZ0MzJ4ZXBldTRIR1dPeGVZMkVBd29BZlNGRWFENHZnQ1R6b1dw?oc=5",
-          "publishedAt": "2026-09-26T17:48:10+00:00",
-          "published": "2026-09-26T17:48:10+00:00",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMi0AFBVV95cUxPOVVhaEdkZzl3VlJOQm5JbnRZV2NwdkdBZ25OYnFEczRPaHVxejJTU1I4al9UdlZ2WTBNOWpQalg5azdycThEbGJTdi1MNnU1OXlBVEVCWV9BREVxVUEzcDB0enJCM1FqUlB5Q3hHejhNRkYzS0FIWlhyRnZ3RUdvS1NiSW5NNHZBQTI3bWt3RE5yVVQ1X0IxY3BMOXhBZFluaVBzalRfdHlNTXZ0MzJ4ZXBldTRIR1dPeGVZMkVBd29BZlNGRWFENHZnQ1R6b1dw?oc=5\" target=\"_blank\">Chañar: la obra del edificio de la EPET 26 ya supera el 70 por ciento de ejecución</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Chañar Digital</font>",
-          "source": "Chañar Digital",
-          "sourceType": "BUSCADOR / RESPALDO",
-          "sourceUrl": "",
-          "collection": "BUSCADOR",
-          "query": "site:chanardigital.com.ar \"San Patricio del Chañar\"",
-          "relevance": 3,
-          "relevanceLabel": "DIRECTA",
-          "firstSeen": "2026-09-28T07:28:32.175152+00:00",
-          "isNew": false,
-          "titleKey": "obra edificio epet supera ciento ejecucion digital",
-          "evidenceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPOVVhaEdkZzl3VlJOQm5JbnRZV2NwdkdBZ25OYnFEczRPaHVxejJTU1I4al9UdlZ2WTBNOWpQalg5azdycThEbGJTdi1MNnU1OXlBVEVCWV9BREVxVUEzcDB0enJCM1FqUlB5Q3hHejhNRkYzS0FIWlhyRnZ3RUdvS1NiSW5NNHZBQTI3bWt3RE5yVVQ1X0IxY3BMOXhBZFluaVBzalRfdHlNTXZ0MzJ4ZXBldTRIR1dPeGVZMkVBd29BZlNGRWFENHZnQ1R6b1dw?oc=5",
-          "sourcePriority": 3
-        }
-      ],
-      "lifecycle": "EN DESCENSO",
-      "movementDelta": -1,
-      "previousCoverage": 2,
-      "newSources": [],
-      "sourceDiversity": 2,
-      "memoryMatched": true,
-      "isNew": false,
-      "view": "INCIDENCIA",
-      "incidenceEligible": true,
-      "signalReason": "reservado a incidencia territorial",
-      "incidenceReason": "anclaje directo + tema operativo/local",
-      "territory": {
-        "version": "2.0",
-        "primary": "San Patricio del Chañar",
-        "nodes": [
-          "San Patricio del Chañar",
-          "EPET 26"
-        ],
-        "sectors": [],
-        "barrios": [],
-        "microzones": [],
-        "corridors": [],
-        "institutions": [
-          "EPET 26"
-        ],
-        "services": [],
-        "spaces": [],
-        "production": [],
-        "path": "San Patricio del Chañar → EPET 26",
-        "evidence": [
-          {
-            "node": "San Patricio del Chañar",
-            "level": "localidad",
-            "evidence": "DIRECTA"
-          },
-          {
-            "node": "EPET 26",
-            "level": "institucion",
-            "evidence": "TEXTUAL"
-          }
-        ]
-      }
-    },
-    {
       "eventId": "CHA-6161e451ba3f",
       "title": "Incendio en una vivienda generó preocupación en San Patricio del Chañar - Chañar Digital",
       "publishedAt": "2026-09-26T17:48:11+00:00",
@@ -3263,7 +3379,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SERVICIOS",
-      "movement": 21,
+      "movement": 20,
       "coverage": 1,
       "sourceCount": 1,
       "directSourceCount": 0,
@@ -3297,7 +3413,7 @@
         }
       ],
       "lifecycle": "EN DESCENSO",
-      "movementDelta": 5,
+      "movementDelta": 4,
       "previousCoverage": 1,
       "newSources": [
         "Chañar Digital"
@@ -3448,7 +3564,7 @@
           "sourceType": "BUSCADOR / RESPALDO",
           "sourceUrl": "",
           "collection": "BUSCADOR",
-          "query": "\"San Patricio del Chañar\"",
+          "query": "\"San Patricio del Chañar\" Añelo",
           "relevance": 3,
           "relevanceLabel": "DIRECTA",
           "firstSeen": "2026-09-30T05:02:21.641351+00:00",
@@ -3614,21 +3730,59 @@
   ],
   "items": [
     {
-      "title": "La sala de elaboración de alimentos de San Patricio del Chañar cuenta con un avance del 42 por ciento - Neuquen Informa",
-      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNaTl4NFFfUUw1WFNBVFB4WEZaNDdzcEhPNl8tV3FLOFZuR2dRNWFfNXZtRmR5aXNKRy1SQXJ5U3RaVFdsYTNzNWQzQXV4RDJrbWU4WlZIQjlYX0JhN2FvUU54TWxFNGlpODRBSVFaaDFXQ2VvcGNnLV9UdW4xTTJiQVpKSUoyNl9mc3U5VkN6WTQ1WlhZcGRyeE92YkYyVEZLOEpVMkNlcTRsT3duZUhYZFpHcENUNDh2NU1rZWRYZXZmZ1JITlQyak84d2dvejVncXQ5cnlCYXcwdl9tYi14dmlBSk8wZFNtODRnMkl6YzdJWnYtYVF5bDJ30gH6AUFVX3lxTE1pOXg0UV9RTDVYU0FUUHhYRlo0N3NwSE82Xy1XcUs4Vm5HZ1E1YV81dm1GZHlpc0pHLVJBcnlTdFpUV2xhM3M1ZDNBdXhEMmttZThaVkhCOVhfQmE3YW9RTnhNbEU0aWk4NEFJUVpoMVdDZW9wY2ctX1R1bjFNMmJBWkpJSjI2X2ZzdTlWQ3pZNDVaWFlwZHJ4T3ZiRjJURks4SlUyQ2VxNGxPd25lSFhkWkdwQ1Q0OHY1TWtlZFhldmZnUkhOVDJqTzh3Z296NWdxdDlyeUJhdzB2X21iLXh2aUFKTzBkU204NGcySXpjN0ladi1hUXlsMnc?oc=5",
-      "publishedAt": "2026-10-02T20:09:58+00:00",
-      "published": "2026-10-02T20:09:58+00:00",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMi-gFBVV95cUxNaTl4NFFfUUw1WFNBVFB4WEZaNDdzcEhPNl8tV3FLOFZuR2dRNWFfNXZtRmR5aXNKRy1SQXJ5U3RaVFdsYTNzNWQzQXV4RDJrbWU4WlZIQjlYX0JhN2FvUU54TWxFNGlpODRBSVFaaDFXQ2VvcGNnLV9UdW4xTTJiQVpKSUoyNl9mc3U5VkN6WTQ1WlhZcGRyeE92YkYyVEZLOEpVMkNlcTRsT3duZUhYZFpHcENUNDh2NU1rZWRYZXZmZ1JITlQyak84d2dvejVncXQ5cnlCYXcwdl9tYi14dmlBSk8wZFNtODRnMkl6YzdJWnYtYVF5bDJ30gH6AUFVX3lxTE1pOXg0UV9RTDVYU0FUUHhYRlo0N3NwSE82Xy1XcUs4Vm5HZ1E1YV81dm1GZHlpc0pHLVJBcnlTdFpUV2xhM3M1ZDNBdXhEMmttZThaVkhCOVhfQmE3YW9RTnhNbEU0aWk4NEFJUVpoMVdDZW9wY2ctX1R1bjFNMmJBWkpJSjI2X2ZzdTlWQ3pZNDVaWFlwZHJ4T3ZiRjJURks4SlUyQ2VxNGxPd25lSFhkWkdwQ1Q0OHY1TWtlZFhldmZnUkhOVDJqTzh3Z296NWdxdDlyeUJhdzB2X21iLXh2aUFKTzBkU204NGcySXpjN0ladi1hUXlsMnc?oc=5\" target=\"_blank\">La sala de elaboración de alimentos de San Patricio del Chañar cuenta con un avance del 42 por ciento</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Neuquen Informa</font>",
-      "source": "Neuquen Informa",
+      "title": "San Patricio del Chañar: un arma, $30.000 y una balacera en una casa que terminó con dos presos - Minuto Neuquen",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOU0w2ZUlSclBFeG1SdlR4bmVjd0RCZmQ3b1Voc09tbzd2NWNfeXBnYUt3Q3EtV3hPbHNoMWNJSnZ4Mm1OVzJvemdLeDNHTW8zeWpEU2FUOWVkeVNiYjJBXzVNbVFsRnpUU3E0cGd6U0lpbmJUUk5aX2k1ZjhXUjk4MUJRSzF6VGJIY2FxalBwUFpXUFBxLW01RDRDWmtlb005cUg4NDlSSWtVWVhkUXFycFVCVHY3dmFGZ2g3T3lZWjVSWENiQlliMl91Unhia3VlcDNORmVJSlhyNFloSFhXamFnSW9NQQ?oc=5",
+      "publishedAt": "2026-10-03T01:30:00+00:00",
+      "published": "2026-10-03T01:30:00+00:00",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMi5gFBVV95cUxOU0w2ZUlSclBFeG1SdlR4bmVjd0RCZmQ3b1Voc09tbzd2NWNfeXBnYUt3Q3EtV3hPbHNoMWNJSnZ4Mm1OVzJvemdLeDNHTW8zeWpEU2FUOWVkeVNiYjJBXzVNbVFsRnpUU3E0cGd6U0lpbmJUUk5aX2k1ZjhXUjk4MUJRSzF6VGJIY2FxalBwUFpXUFBxLW01RDRDWmtlb005cUg4NDlSSWtVWVhkUXFycFVCVHY3dmFGZ2g3T3lZWjVSWENiQlliMl91Unhia3VlcDNORmVJSlhyNFloSFhXamFnSW9NQQ?oc=5\" target=\"_blank\">San Patricio del Chañar: un arma, $30.000 y una balacera en una casa que terminó con dos presos</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Minuto Neuquen</font>",
+      "source": "Minuto Neuquen",
       "sourceType": "BUSCADOR / RESPALDO",
       "sourceUrl": "",
       "collection": "BUSCADOR",
-      "query": "\"San Patricio del Chañar\" Neuquén",
+      "query": "\"San Patricio del Chañar\"",
+      "relevance": 3,
+      "relevanceLabel": "DIRECTA",
+      "firstSeen": "2026-10-03T01:49:48.519651+00:00",
+      "isNew": true,
+      "titleKey": "arma 000 balacera casa termino dos presos minuto",
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOU0w2ZUlSclBFeG1SdlR4bmVjd0RCZmQ3b1Voc09tbzd2NWNfeXBnYUt3Q3EtV3hPbHNoMWNJSnZ4Mm1OVzJvemdLeDNHTW8zeWpEU2FUOWVkeVNiYjJBXzVNbVFsRnpUU3E0cGd6U0lpbmJUUk5aX2k1ZjhXUjk4MUJRSzF6VGJIY2FxalBwUFpXUFBxLW01RDRDWmtlb005cUg4NDlSSWtVWVhkUXFycFVCVHY3dmFGZ2g3T3lZWjVSWENiQlliMl91Unhia3VlcDNORmVJSlhyNFloSFhXamFnSW9NQQ?oc=5",
+      "sourcePriority": 3
+    },
+    {
+      "title": "Ataque a tiros en una toma de San Patricio del Chañar: dos hombres quedaron presos - Lmneuquen.com",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOQThTZjIzU0xPLVVROVJ1TGlLR3NOendSUU10Q1hCZVhQZDhDSjc2MDZzcjUxODkxcy1pd3o5Z1ZFcGdESEtOWTU3elIxRW5qejJRMDlURmdENlJFVnBlVzB6UTJoeTF0X1NXdno4WHNDRnRXN2M1emd6RHlHcERfYWJCVGlSaWhsM3dZSzhrU2psY2pBdjF6YzRPUHV6c3ZFZldaXzc1aWtmeGJFSl9UdHNpcURySmhrVmdr0gHAAUFVX3lxTE9nbHdFRW9yb3VkbnhyU2lmdnBKeG1NWEZUY2loRENPeTl1ZFhzb3ZadkdaZnV5ZzYyTFNvU2cxZV9VTmVVWk05NGJkM1Y0VVpnYjZkcFVDVHB4RjRjVlZ6dmF3R1NjMzFpV0E2ZnpYSkItR08yYm1wM0dVN1pZeTZEWFl1MUZ5aEg3Z3ZMNGVlZGVwLUNkSl83STZXWjhzdlhOWWVXSWlHRDU2aFZKUWtKVmRBdndqd1VSMFV5NkVZUQ?oc=5",
+      "publishedAt": "2026-10-03T01:23:00+00:00",
+      "published": "2026-10-03T01:23:00+00:00",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMiuwFBVV95cUxOQThTZjIzU0xPLVVROVJ1TGlLR3NOendSUU10Q1hCZVhQZDhDSjc2MDZzcjUxODkxcy1pd3o5Z1ZFcGdESEtOWTU3elIxRW5qejJRMDlURmdENlJFVnBlVzB6UTJoeTF0X1NXdno4WHNDRnRXN2M1emd6RHlHcERfYWJCVGlSaWhsM3dZSzhrU2psY2pBdjF6YzRPUHV6c3ZFZldaXzc1aWtmeGJFSl9UdHNpcURySmhrVmdr0gHAAUFVX3lxTE9nbHdFRW9yb3VkbnhyU2lmdnBKeG1NWEZUY2loRENPeTl1ZFhzb3ZadkdaZnV5ZzYyTFNvU2cxZV9VTmVVWk05NGJkM1Y0VVpnYjZkcFVDVHB4RjRjVlZ6dmF3R1NjMzFpV0E2ZnpYSkItR08yYm1wM0dVN1pZeTZEWFl1MUZ5aEg3Z3ZMNGVlZGVwLUNkSl83STZXWjhzdlhOWWVXSWlHRDU2aFZKUWtKVmRBdndqd1VSMFV5NkVZUQ?oc=5\" target=\"_blank\">Ataque a tiros en una toma de San Patricio del Chañar: dos hombres quedaron presos</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Lmneuquen.com</font>",
+      "source": "Lmneuquen.com",
+      "sourceType": "BUSCADOR / RESPALDO",
+      "sourceUrl": "",
+      "collection": "BUSCADOR",
+      "query": "\"San Patricio del Chañar\"",
+      "relevance": 3,
+      "relevanceLabel": "DIRECTA",
+      "firstSeen": "2026-10-03T01:49:48.519651+00:00",
+      "isNew": true,
+      "titleKey": "ataque tiros toma dos hombres quedaron presos lmneuquen com",
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOQThTZjIzU0xPLVVROVJ1TGlLR3NOendSUU10Q1hCZVhQZDhDSjc2MDZzcjUxODkxcy1pd3o5Z1ZFcGdESEtOWTU3elIxRW5qejJRMDlURmdENlJFVnBlVzB6UTJoeTF0X1NXdno4WHNDRnRXN2M1emd6RHlHcERfYWJCVGlSaWhsM3dZSzhrU2psY2pBdjF6YzRPUHV6c3ZFZldaXzc1aWtmeGJFSl9UdHNpcURySmhrVmdr0gHAAUFVX3lxTE9nbHdFRW9yb3VkbnhyU2lmdnBKeG1NWEZUY2loRENPeTl1ZFhzb3ZadkdaZnV5ZzYyTFNvU2cxZV9VTmVVWk05NGJkM1Y0VVpnYjZkcFVDVHB4RjRjVlZ6dmF3R1NjMzFpV0E2ZnpYSkItR08yYm1wM0dVN1pZeTZEWFl1MUZ5aEg3Z3ZMNGVlZGVwLUNkSl83STZXWjhzdlhOWWVXSWlHRDU2aFZKUWtKVmRBdndqd1VSMFV5NkVZUQ?oc=5",
+      "sourcePriority": 3
+    },
+    {
+      "title": "La sala de elaboración de alimentos de San Patricio del Chañar cuenta con un avance del 42 por ciento - neuqueninforma.gob.ar",
+      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNaTl4NFFfUUw1WFNBVFB4WEZaNDdzcEhPNl8tV3FLOFZuR2dRNWFfNXZtRmR5aXNKRy1SQXJ5U3RaVFdsYTNzNWQzQXV4RDJrbWU4WlZIQjlYX0JhN2FvUU54TWxFNGlpODRBSVFaaDFXQ2VvcGNnLV9UdW4xTTJiQVpKSUoyNl9mc3U5VkN6WTQ1WlhZcGRyeE92YkYyVEZLOEpVMkNlcTRsT3duZUhYZFpHcENUNDh2NU1rZWRYZXZmZ1JITlQyak84d2dvejVncXQ5cnlCYXcwdl9tYi14dmlBSk8wZFNtODRnMkl6YzdJWnYtYVF5bDJ30gH6AUFVX3lxTE1pOXg0UV9RTDVYU0FUUHhYRlo0N3NwSE82Xy1XcUs4Vm5HZ1E1YV81dm1GZHlpc0pHLVJBcnlTdFpUV2xhM3M1ZDNBdXhEMmttZThaVkhCOVhfQmE3YW9RTnhNbEU0aWk4NEFJUVpoMVdDZW9wY2ctX1R1bjFNMmJBWkpJSjI2X2ZzdTlWQ3pZNDVaWFlwZHJ4T3ZiRjJURks4SlUyQ2VxNGxPd25lSFhkWkdwQ1Q0OHY1TWtlZFhldmZnUkhOVDJqTzh3Z296NWdxdDlyeUJhdzB2X21iLXh2aUFKTzBkU204NGcySXpjN0ladi1hUXlsMnc?oc=5",
+      "publishedAt": "2026-10-02T20:09:58+00:00",
+      "published": "2026-10-02T20:09:58+00:00",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMi-gFBVV95cUxNaTl4NFFfUUw1WFNBVFB4WEZaNDdzcEhPNl8tV3FLOFZuR2dRNWFfNXZtRmR5aXNKRy1SQXJ5U3RaVFdsYTNzNWQzQXV4RDJrbWU4WlZIQjlYX0JhN2FvUU54TWxFNGlpODRBSVFaaDFXQ2VvcGNnLV9UdW4xTTJiQVpKSUoyNl9mc3U5VkN6WTQ1WlhZcGRyeE92YkYyVEZLOEpVMkNlcTRsT3duZUhYZFpHcENUNDh2NU1rZWRYZXZmZ1JITlQyak84d2dvejVncXQ5cnlCYXcwdl9tYi14dmlBSk8wZFNtODRnMkl6YzdJWnYtYVF5bDJ30gH6AUFVX3lxTE1pOXg0UV9RTDVYU0FUUHhYRlo0N3NwSE82Xy1XcUs4Vm5HZ1E1YV81dm1GZHlpc0pHLVJBcnlTdFpUV2xhM3M1ZDNBdXhEMmttZThaVkhCOVhfQmE3YW9RTnhNbEU0aWk4NEFJUVpoMVdDZW9wY2ctX1R1bjFNMmJBWkpJSjI2X2ZzdTlWQ3pZNDVaWFlwZHJ4T3ZiRjJURks4SlUyQ2VxNGxPd25lSFhkWkdwQ1Q0OHY1TWtlZFhldmZnUkhOVDJqTzh3Z296NWdxdDlyeUJhdzB2X21iLXh2aUFKTzBkU204NGcySXpjN0ladi1hUXlsMnc?oc=5\" target=\"_blank\">La sala de elaboración de alimentos de San Patricio del Chañar cuenta con un avance del 42 por ciento</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">neuqueninforma.gob.ar</font>",
+      "source": "neuqueninforma.gob.ar",
+      "sourceType": "BUSCADOR / RESPALDO",
+      "sourceUrl": "",
+      "collection": "BUSCADOR",
+      "query": "\"San Patricio del Chañar\"",
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "firstSeen": "2026-10-02T22:52:58.046792+00:00",
-      "isNew": true,
-      "titleKey": "sala elaboracion alimentos cuenta avance ciento informa",
+      "isNew": false,
+      "titleKey": "sala elaboracion alimentos cuenta avance ciento neuqueninforma gob",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNaTl4NFFfUUw1WFNBVFB4WEZaNDdzcEhPNl8tV3FLOFZuR2dRNWFfNXZtRmR5aXNKRy1SQXJ5U3RaVFdsYTNzNWQzQXV4RDJrbWU4WlZIQjlYX0JhN2FvUU54TWxFNGlpODRBSVFaaDFXQ2VvcGNnLV9UdW4xTTJiQVpKSUoyNl9mc3U5VkN6WTQ1WlhZcGRyeE92YkYyVEZLOEpVMkNlcTRsT3duZUhYZFpHcENUNDh2NU1rZWRYZXZmZ1JITlQyak84d2dvejVncXQ5cnlCYXcwdl9tYi14dmlBSk8wZFNtODRnMkl6YzdJWnYtYVF5bDJ30gH6AUFVX3lxTE1pOXg0UV9RTDVYU0FUUHhYRlo0N3NwSE82Xy1XcUs4Vm5HZ1E1YV81dm1GZHlpc0pHLVJBcnlTdFpUV2xhM3M1ZDNBdXhEMmttZThaVkhCOVhfQmE3YW9RTnhNbEU0aWk4NEFJUVpoMVdDZW9wY2ctX1R1bjFNMmJBWkpJSjI2X2ZzdTlWQ3pZNDVaWFlwZHJ4T3ZiRjJURks4SlUyQ2VxNGxPd25lSFhkWkdwQ1Q0OHY1TWtlZFhldmZnUkhOVDJqTzh3Z296NWdxdDlyeUJhdzB2X21iLXh2aUFKTzBkU204NGcySXpjN0ladi1hUXlsMnc?oc=5",
       "sourcePriority": 3
     },
@@ -3728,6 +3882,25 @@
       "sourcePriority": 3
     },
     {
+      "title": "La obra del edificio de la EPET 26 ya supera el 70 por ciento de ejecución - neuqueninforma.gob.ar",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNT0dfOEw0enJxWXdxODkyZ3RpM1d5UVRzTzZxc1Ntd1dRNkw4NjlnRVZZd09VRFhJQk1CSjNuTFdOUnpvSVRyNmZLZDA2dzY4eFZIbEotaHJwdF9IZi0wcHRhWVFON1A5TElqQlgtc05mRWhqRGVQSVN3SGtEVDl4QTdmanN2a3FlYUk0Um9SYmdRUnp5SkFybEtmSjdKOVpOdkhqa1ZzajZMWHRMWE93MlkyUENCbHNfeEFoQ3h2WUZXY3d0QV9PV3BpRmMtTzI30gHWAUFVX3lxTFBxb0VSVFRhM0owdEVSUEhRX1lSTWpLN1J4U0k0ZU1IU3lYS29yZmNXLWVUN3lFbUdJZDZiSjZtYm51QnF6RzlSMlZOa1BTVFBFSFlxY1JueEdTa2djcXd2OUxxbFFmcTJDeFZQTHdaRUdkaHRyT1l2NG5ycFM2bVBJaU1WaXdERGdZeXRFWm5lMFRWX2tjS08wZEZkZURtSFBTalpXWHNuNDQtRVRiQkRtb2djRTY5QVhjeEZTRlJ5ei14X3Bia21QMHdrYVVfVHFKbGlhTVE?oc=5",
+      "publishedAt": "2026-09-26T13:52:33+00:00",
+      "published": "2026-09-26T13:52:33+00:00",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMi0AFBVV95cUxNT0dfOEw0enJxWXdxODkyZ3RpM1d5UVRzTzZxc1Ntd1dRNkw4NjlnRVZZd09VRFhJQk1CSjNuTFdOUnpvSVRyNmZLZDA2dzY4eFZIbEotaHJwdF9IZi0wcHRhWVFON1A5TElqQlgtc05mRWhqRGVQSVN3SGtEVDl4QTdmanN2a3FlYUk0Um9SYmdRUnp5SkFybEtmSjdKOVpOdkhqa1ZzajZMWHRMWE93MlkyUENCbHNfeEFoQ3h2WUZXY3d0QV9PV3BpRmMtTzI30gHWAUFVX3lxTFBxb0VSVFRhM0owdEVSUEhRX1lSTWpLN1J4U0k0ZU1IU3lYS29yZmNXLWVUN3lFbUdJZDZiSjZtYm51QnF6RzlSMlZOa1BTVFBFSFlxY1JueEdTa2djcXd2OUxxbFFmcTJDeFZQTHdaRUdkaHRyT1l2NG5ycFM2bVBJaU1WaXdERGdZeXRFWm5lMFRWX2tjS08wZEZkZURtSFBTalpXWHNuNDQtRVRiQkRtb2djRTY5QVhjeEZTRlJ5ei14X3Bia21QMHdrYVVfVHFKbGlhTVE?oc=5\" target=\"_blank\">La obra del edificio de la EPET 26 ya supera el 70 por ciento de ejecución</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">neuqueninforma.gob.ar</font>",
+      "source": "neuqueninforma.gob.ar",
+      "sourceType": "BUSCADOR / RESPALDO",
+      "sourceUrl": "",
+      "collection": "BUSCADOR",
+      "query": "site:neuqueninforma.gob.ar \"San Patricio del Chañar\"",
+      "relevance": 3,
+      "relevanceLabel": "DIRECTA",
+      "firstSeen": "2026-10-03T01:49:48.519651+00:00",
+      "isNew": true,
+      "titleKey": "obra edificio epet supera ciento ejecucion neuqueninforma gob",
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNT0dfOEw0enJxWXdxODkyZ3RpM1d5UVRzTzZxc1Ntd1dRNkw4NjlnRVZZd09VRFhJQk1CSjNuTFdOUnpvSVRyNmZLZDA2dzY4eFZIbEotaHJwdF9IZi0wcHRhWVFON1A5TElqQlgtc05mRWhqRGVQSVN3SGtEVDl4QTdmanN2a3FlYUk0Um9SYmdRUnp5SkFybEtmSjdKOVpOdkhqa1ZzajZMWHRMWE93MlkyUENCbHNfeEFoQ3h2WUZXY3d0QV9PV3BpRmMtTzI30gHWAUFVX3lxTFBxb0VSVFRhM0owdEVSUEhRX1lSTWpLN1J4U0k0ZU1IU3lYS29yZmNXLWVUN3lFbUdJZDZiSjZtYm51QnF6RzlSMlZOa1BTVFBFSFlxY1JueEdTa2djcXd2OUxxbFFmcTJDeFZQTHdaRUdkaHRyT1l2NG5ycFM2bVBJaU1WaXdERGdZeXRFWm5lMFRWX2tjS08wZEZkZURtSFBTalpXWHNuNDQtRVRiQkRtb2djRTY5QVhjeEZTRlJ5ei14X3Bia21QMHdrYVVfVHFKbGlhTVE?oc=5",
+      "sourcePriority": 3
+    },
+    {
       "title": "Regional Amateur: San Patricio del Chañar se impuso ante Deportivo Roca en el Maiolino - Diario Río Negro",
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOLXdwRDd3TzBBeUljb3g5ZUdqdFdJdFhiTTdTTnNHZ3hYNnNtbm92VlRWMjhVeDlLUElZdWVlQkNmU1FGM0cwcDNIb2I4VnZDbjhORXF6QmpnMkpmakV0dGVsb1o1aVhLVnU3Wlhxb1NtQm44ZDMwUTRxVnlyYl9kR09QRUg0QTAwYUdVWHN0azBLWkFfSzhPMUxHdlVqQnM1ZnFUdGtGMGh3cU8tV3BIb1N3c1ZuU0l3bmZHcHRtU3VVeUhhdS1FZE9fONIB0wFBVV95cUxPRUdmYVY1VFprT04zZkctZXNTMUp6Tm8zM2Q2MGRYME1OLTk4Y2dOYmMyMlloSUxmUWhzU3Bnb3g2Q0xaem9ZX1Iwb2VSazFZQ0hKMG1NV2ZaOFJQNUlnUExvbWR5am5nYVFUVWFIVFFILVJqeE5OWWJwWjNIWThIOG5lbndEemtyX2JmaDhsaFRaVl9MQWh6dFQ3UFV2a1oyQUNvTDJIdHFLbjZrT2NoMlBtNnc1WmpPaFA2RjNnMEg4OGxQcWk2RENaalZKNWs0NlFz?oc=5",
       "publishedAt": "2026-09-20T07:00:00+00:00",
@@ -3756,7 +3929,7 @@
       "sourceType": "BUSCADOR / RESPALDO",
       "sourceUrl": "",
       "collection": "BUSCADOR",
-      "query": "\"San Patricio del Chañar\"",
+      "query": "\"San Patricio del Chañar\" Añelo",
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "firstSeen": "2026-09-30T05:02:21.641351+00:00",
@@ -3787,7 +3960,7 @@
   ],
   "territorialGraph": {
     "version": "2.0",
-    "generatedAt": "2026-10-02T22:53:08.594888+00:00",
+    "generatedAt": "2026-10-03T01:49:59.695916+00:00",
     "root": "spc",
     "rule": "evidence-first",
     "levels": [
@@ -4347,16 +4520,20 @@
       "CHA-6161e451ba3f": [
         "spc"
       ],
+      "CHA-9db8a0306238": [
+        "spc",
+        "epet-26"
+      ],
       "CHA-42912f574896": [
         "spc",
         "bodegas"
       ],
+      "CHA-b08434acc060": [
+        "spc"
+      ],
       "CHA-d8e7ca29e745": [
         "spc",
         "epet-26"
-      ],
-      "CHA-b08434acc060": [
-        "spc"
       ],
       "CHA-1e572d3f2930": [
         "spc",
@@ -4378,7 +4555,7 @@
       "nodes": 46,
       "activeNodes": 4,
       "edges": 3,
-      "eventsLinked": 5,
+      "eventsLinked": 6,
       "eventsWithMicrozones": 0,
       "eventsWithBarrios": 0,
       "eventsWithSectors": 0,
@@ -4398,16 +4575,16 @@
   },
   "audit": {
     "version": "1.0",
-    "updatedAt": "2026-10-02T22:53:08.650612+00:00",
+    "updatedAt": "2026-10-03T01:49:59.745648+00:00",
     "rule": "fact != coverage; territory requires textual evidence",
     "facts": 7,
-    "coverage": 10,
-    "coveragePerFact": 1.43,
+    "coverage": 13,
+    "coveragePerFact": 1.86,
     "directAnchorFacts": 7,
     "directAnchorPct": 100.0,
     "territorySpecificFacts": 3,
     "territorySpecificPct": 42.9,
-    "averageSourcesPerFact": 1.43,
+    "averageSourcesPerFact": 1.86,
     "activeTerritorialNodes": 4,
     "failedSources": 10,
     "acceptedWithoutLocalEvidence": 1,
