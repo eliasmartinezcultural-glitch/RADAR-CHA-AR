@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-03T07:52:09.216972+00:00",
+  "updatedAt": "2026-10-03T13:13:25.450258+00:00",
   "window": "14 días",
   "purpose": "Detectar qué se está moviendo en San Patricio del Chañar y mostrar de dónde surge cada señal.",
   "architecture": "contrato universal de procedencia + fuentes profesionales + adaptadores específicos + validación semántica + temporalidad + evidencia editorial separada",
@@ -49,7 +49,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://chanardigital.com.ar/",
-      "lastFetch": "2026-10-03T07:51:53.338003+00:00",
+      "lastFetch": "2026-10-03T13:13:07.509179+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -65,7 +65,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.radiomia.com.ar/",
-      "lastFetch": "2026-10-03T07:51:54.474934+00:00",
+      "lastFetch": "2026-10-03T13:13:09.998941+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -80,7 +80,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://tuitvacamuerta.com/",
-      "lastFetch": "2026-10-03T07:51:57.013600+00:00",
+      "lastFetch": "2026-10-03T13:13:11.978598+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -95,7 +95,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.vacamuertanews.com/",
-      "lastFetch": "2026-10-03T07:51:57.294831+00:00",
+      "lastFetch": "2026-10-03T13:13:12.293353+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -111,7 +111,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.neuqueninforma.gob.ar/",
-      "lastFetch": "2026-10-03T07:51:58.310433+00:00",
+      "lastFetch": "2026-10-03T13:13:12.836271+00:00",
       "success": false,
       "attempted": 3,
       "failures": [
@@ -128,7 +128,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://sanpatricio.gob.ar/",
-      "lastFetch": "2026-10-03T07:51:59.187032+00:00",
+      "lastFetch": "2026-10-03T13:13:13.611559+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -143,7 +143,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://boletinoficial.neuquen.gov.ar/",
-      "lastFetch": "2026-10-03T07:52:00.115947+00:00",
+      "lastFetch": "2026-10-03T13:13:14.457178+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -158,7 +158,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.lmneuquen.com/",
-      "lastFetch": "2026-10-03T07:52:00.255998+00:00",
+      "lastFetch": "2026-10-03T13:13:14.629828+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -174,7 +174,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.rionegro.com.ar/",
-      "lastFetch": "2026-10-03T07:52:00.566685+00:00",
+      "lastFetch": "2026-10-03T13:13:16.024493+00:00",
       "success": true,
       "attempted": 2,
       "failures": [
@@ -189,7 +189,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.mejorinformado.com/",
-      "lastFetch": "2026-10-03T07:52:00.883204+00:00",
+      "lastFetch": "2026-10-03T13:13:16.382508+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -205,7 +205,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.diariamenteneuquen.com/",
-      "lastFetch": "2026-10-03T07:52:01.491215+00:00",
+      "lastFetch": "2026-10-03T13:13:16.988232+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -1169,19 +1169,6 @@
         "topics": []
       },
       {
-        "source": "Minuto Neuquen",
-        "group": "OBSERVADA",
-        "role": "fuente detectada fuera del catálogo",
-        "accepted": 1,
-        "direct": 1,
-        "anchored": 0,
-        "falsePositives": 0,
-        "falsePositiveTypes": [],
-        "topics": [
-          "SERVICIOS"
-        ]
-      },
-      {
         "source": "Municipalidad de San Patricio del Chañar",
         "group": "LOCAL",
         "role": "fuente institucional primaria",
@@ -1303,6 +1290,19 @@
         "falsePositives": 0,
         "falsePositiveTypes": [],
         "topics": []
+      },
+      {
+        "source": "minutoneuquen.com",
+        "group": "OBSERVADA",
+        "role": "fuente detectada fuera del catálogo",
+        "accepted": 1,
+        "direct": 1,
+        "anchored": 0,
+        "falsePositives": 0,
+        "falsePositiveTypes": [],
+        "topics": [
+          "SERVICIOS"
+        ]
       }
     ],
     "matrix": [
@@ -1395,7 +1395,7 @@
         ]
       },
       {
-        "source": "Minuto Neuquen",
+        "source": "Patagonia Press",
         "topic": "SERVICIOS",
         "accepted": 1,
         "direct": 1,
@@ -1407,7 +1407,7 @@
         ]
       },
       {
-        "source": "Patagonia Press",
+        "source": "minutoneuquen.com",
         "topic": "SERVICIOS",
         "accepted": 1,
         "direct": 1,
@@ -1765,7 +1765,7 @@
     "total": 10,
     "direct": 10,
     "regional": 0,
-    "new": 2,
+    "new": 0,
     "sources": 7,
     "directSignals": 0,
     "localDirectSignals": 0,
@@ -1776,11 +1776,11 @@
   "environment": {
     "weather": {
       "dataType": "forecast",
-      "forecastWindKmh": 33.0,
-      "forecastGustKmh": 64.0,
-      "forecastWindDirection": "SE",
-      "forecastTemperatureC": 22.0,
-      "retrievedAt": "2026-10-03T07:51:47.124980+00:00",
+      "forecastWindKmh": 39.0,
+      "forecastGustKmh": 62.0,
+      "forecastWindDirection": "O",
+      "forecastTemperatureC": 19.0,
+      "retrievedAt": "2026-10-03T13:13:05.690061+00:00",
       "source": "AIC",
       "sourceTier": "primary",
       "sourceUrl": "https://www.aic.gob.ar/sitio/home?a=1015&z=1967225803",
@@ -1810,7 +1810,7 @@
       "currentProgrammedMinM3s": 250,
       "programDate": "2026-10-04",
       "tableDate": "2026-10-03",
-      "retrievedAt": "2026-10-03T07:51:47.124980+00:00",
+      "retrievedAt": "2026-10-03T13:13:05.690061+00:00",
       "source": "AIC",
       "sourceTier": "primary",
       "sourceUrl": "https://www.aic.gob.ar/sitio/caudales",
@@ -1830,17 +1830,17 @@
         "url": "https://www.aic.gob.ar/sitio/caudales"
       }
     ],
-    "updatedAt": "2026-10-03T07:51:47.124980+00:00"
+    "updatedAt": "2026-10-03T13:13:05.690061+00:00"
   },
   "operational": {
-    "updatedAt": "2026-10-03T07:51:47.124980+00:00",
+    "updatedAt": "2026-10-03T13:13:05.690061+00:00",
     "route7": {
       "source": "Dirección Provincial de Vialidad",
       "sourceTier": "primary",
       "sourceUrl": "https://www.dpvneuquen.gov.ar/",
       "semanticState": null,
       "publicationState": "source_reachable_no_current_machine_readable_state",
-      "retrievedAt": "2026-10-03T07:51:47.124980+00:00",
+      "retrievedAt": "2026-10-03T13:13:05.690061+00:00",
       "evidence": {
         "route7Mention": true,
         "route8Mention": false
@@ -1852,7 +1852,7 @@
       "sourceUrl": "https://www.dpvneuquen.gov.ar/",
       "semanticState": null,
       "publicationState": "source_reachable_no_current_machine_readable_state",
-      "retrievedAt": "2026-10-03T07:51:47.124980+00:00",
+      "retrievedAt": "2026-10-03T13:13:05.690061+00:00",
       "evidence": {
         "route7Mention": true,
         "route8Mention": false
@@ -1866,7 +1866,7 @@
       "eventType": null,
       "detail": null,
       "publicationState": "source_reachable_no_specific_local_notice",
-      "retrievedAt": "2026-10-03T07:51:47.124980+00:00"
+      "retrievedAt": "2026-10-03T13:13:05.690061+00:00"
     },
     "water": {
       "source": "EPAS",
@@ -1876,7 +1876,7 @@
       "eventType": null,
       "detail": null,
       "publicationState": "source_reachable_no_specific_local_notice",
-      "retrievedAt": "2026-10-03T07:51:47.124980+00:00"
+      "retrievedAt": "2026-10-03T13:13:05.690061+00:00"
     },
     "sources": [
       {
@@ -2288,7 +2288,7 @@
       "label": "Conversación general",
       "signal": 6,
       "status": "cobertura editorial",
-      "freshnessHours": 3.9,
+      "freshnessHours": 9.3,
       "mode": "evidencia editorial",
       "evidenceCount": 6,
       "sourceContract": {
@@ -2368,7 +2368,7 @@
         "sourceUrl": "https://www.dpvneuquen.gov.ar/",
         "semanticState": null,
         "publicationState": "source_reachable_no_current_machine_readable_state",
-        "retrievedAt": "2026-10-03T07:51:47.124980+00:00",
+        "retrievedAt": "2026-10-03T13:13:05.690061+00:00",
         "evidence": {
           "route7Mention": true,
           "route8Mention": false
@@ -2420,7 +2420,7 @@
         "sourceUrl": "https://www.dpvneuquen.gov.ar/",
         "semanticState": null,
         "publicationState": "source_reachable_no_current_machine_readable_state",
-        "retrievedAt": "2026-10-03T07:51:47.124980+00:00",
+        "retrievedAt": "2026-10-03T13:13:05.690061+00:00",
         "evidence": {
           "route7Mention": true,
           "route8Mention": false
@@ -2430,7 +2430,7 @@
     {
       "id": "VIENTO",
       "label": "Condición de viento",
-      "signal": 33.0,
+      "signal": 39.0,
       "status": "pronóstico local",
       "freshnessHours": null,
       "mode": "DATO DIRECTO",
@@ -2520,7 +2520,7 @@
         "eventType": null,
         "detail": null,
         "publicationState": "source_reachable_no_specific_local_notice",
-        "retrievedAt": "2026-10-03T07:51:47.124980+00:00"
+        "retrievedAt": "2026-10-03T13:13:05.690061+00:00"
       }
     },
     {
@@ -2570,7 +2570,7 @@
         "eventType": null,
         "detail": null,
         "publicationState": "source_reachable_no_specific_local_notice",
-        "retrievedAt": "2026-10-03T07:51:47.124980+00:00"
+        "retrievedAt": "2026-10-03T13:13:05.690061+00:00"
       }
     },
     {
@@ -2658,7 +2658,7 @@
       "label": "Educación",
       "signal": 2,
       "status": "evidencia educativa",
-      "freshnessHours": 152.8,
+      "freshnessHours": 158.2,
       "mode": "evidencia editorial",
       "evidenceCount": 2,
       "sourceContract": {
@@ -2698,7 +2698,7 @@
       "label": "Producción rural",
       "signal": 1,
       "status": "evidencia productiva",
-      "freshnessHours": 108.0,
+      "freshnessHours": 113.3,
       "mode": "evidencia editorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -2835,7 +2835,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://chanardigital.com.ar/",
-        "lastFetch": "2026-10-03T07:51:53.338003+00:00",
+        "lastFetch": "2026-10-03T13:13:07.509179+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -2851,7 +2851,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.radiomia.com.ar/",
-        "lastFetch": "2026-10-03T07:51:54.474934+00:00",
+        "lastFetch": "2026-10-03T13:13:09.998941+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -2866,7 +2866,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://tuitvacamuerta.com/",
-        "lastFetch": "2026-10-03T07:51:57.013600+00:00",
+        "lastFetch": "2026-10-03T13:13:11.978598+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -2881,7 +2881,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.vacamuertanews.com/",
-        "lastFetch": "2026-10-03T07:51:57.294831+00:00",
+        "lastFetch": "2026-10-03T13:13:12.293353+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -2897,7 +2897,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.neuqueninforma.gob.ar/",
-        "lastFetch": "2026-10-03T07:51:58.310433+00:00",
+        "lastFetch": "2026-10-03T13:13:12.836271+00:00",
         "success": false,
         "attempted": 3,
         "failures": [
@@ -2914,7 +2914,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://sanpatricio.gob.ar/",
-        "lastFetch": "2026-10-03T07:51:59.187032+00:00",
+        "lastFetch": "2026-10-03T13:13:13.611559+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -2929,7 +2929,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://boletinoficial.neuquen.gov.ar/",
-        "lastFetch": "2026-10-03T07:52:00.115947+00:00",
+        "lastFetch": "2026-10-03T13:13:14.457178+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -2944,7 +2944,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.lmneuquen.com/",
-        "lastFetch": "2026-10-03T07:52:00.255998+00:00",
+        "lastFetch": "2026-10-03T13:13:14.629828+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -2960,7 +2960,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.rionegro.com.ar/",
-        "lastFetch": "2026-10-03T07:52:00.566685+00:00",
+        "lastFetch": "2026-10-03T13:13:16.024493+00:00",
         "success": true,
         "attempted": 2,
         "failures": [
@@ -2975,7 +2975,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.mejorinformado.com/",
-        "lastFetch": "2026-10-03T07:52:00.883204+00:00",
+        "lastFetch": "2026-10-03T13:13:16.382508+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -2991,7 +2991,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.diariamenteneuquen.com/",
-        "lastFetch": "2026-10-03T07:52:01.491215+00:00",
+        "lastFetch": "2026-10-03T13:13:16.988232+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3010,7 +3010,7 @@
   "events": [
     {
       "eventId": "CHA-cbb8cdcf7f49",
-      "title": "Ataque a tiros en El Chañar: le vendió un arma, volvió a buscarla y terminó baleando al comprador - Patagonia Press",
+      "title": "San Patricio del Chañar: un arma, $30.000 y una balacera en una casa que terminó con dos presos - minutoneuquen.com",
       "publishedAt": "2026-10-03T03:56:34+00:00",
       "firstSeen": "2026-10-03T01:49:48.519651+00:00",
       "lastSeen": "2026-10-03T03:56:34+00:00",
@@ -3018,7 +3018,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SERVICIOS",
-      "movement": 91,
+      "movement": 89,
       "coverage": 5,
       "sourceCount": 5,
       "directSourceCount": 0,
@@ -3027,21 +3027,21 @@
         "el chañar"
       ],
       "sources": [
-        "Minuto Neuquen",
+        "minutoneuquen.com",
         "Lmneuquen.com",
         "Patagonia Press",
         "Fuego24",
         "Chañar Digital"
       ],
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOZnNrMFJrV1JBc3duSHNsRFNFOWM1SFcwNHE2VFNkNF9ndWFTY1dKMl8yeERPQjllVnpSeW81UDI3ZXd3LTdVeWJYUWhiS1ItU05yV0V1Zk91VnZXQVhScWNlTEtOdnFwbVgyZGh2aXFzY0ZhM2dGdy1WRWE1MnlqaVNWNzVkS0g5MHUwMmRVWVdyR1JRSklaZWdqVU9Wd0ZzSGFqXzF1R3pyM1NZWHc5eExOZTFrMUhNejdyMnRjcllZYkdmZEotMkxnV2tGcDZOWWlmSVh3TUNvNmNibTJXbFhoMFFBNXdFTGFF?oc=5",
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOU0w2ZUlSclBFeG1SdlR4bmVjd0RCZmQ3b1Voc09tbzd2NWNfeXBnYUt3Q3EtV3hPbHNoMWNJSnZ4Mm1OVzJvemdLeDNHTW8zeWpEU2FUOWVkeVNiYjJBXzVNbVFsRnpUU3E0cGd6U0lpbmJUUk5aX2k1ZjhXUjk4MUJRSzF6VGJIY2FxalBwUFpXUFBxLW01RDRDWmtlb005cUg4NDlSSWtVWVhkUXFycFVCVHY3dmFGZ2g3T3lZWjVSWENiQlliMl91Unhia3VlcDNORmVJSlhyNFloSFhXamFnSW9NQQ?oc=5",
       "items": [
         {
-          "title": "San Patricio del Chañar: un arma, $30.000 y una balacera en una casa que terminó con dos presos - Minuto Neuquen",
+          "title": "San Patricio del Chañar: un arma, $30.000 y una balacera en una casa que terminó con dos presos - minutoneuquen.com",
           "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOU0w2ZUlSclBFeG1SdlR4bmVjd0RCZmQ3b1Voc09tbzd2NWNfeXBnYUt3Q3EtV3hPbHNoMWNJSnZ4Mm1OVzJvemdLeDNHTW8zeWpEU2FUOWVkeVNiYjJBXzVNbVFsRnpUU3E0cGd6U0lpbmJUUk5aX2k1ZjhXUjk4MUJRSzF6VGJIY2FxalBwUFpXUFBxLW01RDRDWmtlb005cUg4NDlSSWtVWVhkUXFycFVCVHY3dmFGZ2g3T3lZWjVSWENiQlliMl91Unhia3VlcDNORmVJSlhyNFloSFhXamFnSW9NQQ?oc=5",
           "publishedAt": "2026-10-03T01:30:00+00:00",
           "published": "2026-10-03T01:30:00+00:00",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMi5gFBVV95cUxOU0w2ZUlSclBFeG1SdlR4bmVjd0RCZmQ3b1Voc09tbzd2NWNfeXBnYUt3Q3EtV3hPbHNoMWNJSnZ4Mm1OVzJvemdLeDNHTW8zeWpEU2FUOWVkeVNiYjJBXzVNbVFsRnpUU3E0cGd6U0lpbmJUUk5aX2k1ZjhXUjk4MUJRSzF6VGJIY2FxalBwUFpXUFBxLW01RDRDWmtlb005cUg4NDlSSWtVWVhkUXFycFVCVHY3dmFGZ2g3T3lZWjVSWENiQlliMl91Unhia3VlcDNORmVJSlhyNFloSFhXamFnSW9NQQ?oc=5\" target=\"_blank\">San Patricio del Chañar: un arma, $30.000 y una balacera en una casa que terminó con dos presos</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Minuto Neuquen</font>",
-          "source": "Minuto Neuquen",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMi5gFBVV95cUxOU0w2ZUlSclBFeG1SdlR4bmVjd0RCZmQ3b1Voc09tbzd2NWNfeXBnYUt3Q3EtV3hPbHNoMWNJSnZ4Mm1OVzJvemdLeDNHTW8zeWpEU2FUOWVkeVNiYjJBXzVNbVFsRnpUU3E0cGd6U0lpbmJUUk5aX2k1ZjhXUjk4MUJRSzF6VGJIY2FxalBwUFpXUFBxLW01RDRDWmtlb005cUg4NDlSSWtVWVhkUXFycFVCVHY3dmFGZ2g3T3lZWjVSWENiQlliMl91Unhia3VlcDNORmVJSlhyNFloSFhXamFnSW9NQQ?oc=5\" target=\"_blank\">San Patricio del Chañar: un arma, $30.000 y una balacera en una casa que terminó con dos presos</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">minutoneuquen.com</font>",
+          "source": "minutoneuquen.com",
           "sourceType": "BUSCADOR / RESPALDO",
           "sourceUrl": "",
           "collection": "BUSCADOR",
@@ -3050,7 +3050,7 @@
           "relevanceLabel": "DIRECTA",
           "firstSeen": "2026-10-03T01:49:48.519651+00:00",
           "isNew": false,
-          "titleKey": "arma 000 balacera casa termino dos presos minuto",
+          "titleKey": "arma 000 balacera casa termino dos presos minutoneuquen com",
           "evidenceUrl": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOU0w2ZUlSclBFeG1SdlR4bmVjd0RCZmQ3b1Voc09tbzd2NWNfeXBnYUt3Q3EtV3hPbHNoMWNJSnZ4Mm1OVzJvemdLeDNHTW8zeWpEU2FUOWVkeVNiYjJBXzVNbVFsRnpUU3E0cGd6U0lpbmJUUk5aX2k1ZjhXUjk4MUJRSzF6VGJIY2FxalBwUFpXUFBxLW01RDRDWmtlb005cUg4NDlSSWtVWVhkUXFycFVCVHY3dmFGZ2g3T3lZWjVSWENiQlliMl91Unhia3VlcDNORmVJSlhyNFloSFhXamFnSW9NQQ?oc=5",
           "sourcePriority": 3
         },
@@ -3087,7 +3087,7 @@
           "relevance": 3,
           "relevanceLabel": "DIRECTA",
           "firstSeen": "2026-10-03T07:52:09.216972+00:00",
-          "isNew": true,
+          "isNew": false,
           "titleKey": "ataque tiros vendio arma volvio buscarla termino baleando comprador patagonia press",
           "evidenceUrl": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOZnNrMFJrV1JBc3duSHNsRFNFOWM1SFcwNHE2VFNkNF9ndWFTY1dKMl8yeERPQjllVnpSeW81UDI3ZXd3LTdVeWJYUWhiS1ItU05yV0V1Zk91VnZXQVhScWNlTEtOdnFwbVgyZGh2aXFzY0ZhM2dGdy1WRWE1MnlqaVNWNzVkS0g5MHUwMmRVWVdyR1JRSklaZWdqVU9Wd0ZzSGFqXzF1R3pyM1NZWHc5eExOZTFrMUhNejdyMnRjcllZYkdmZEotMkxnV2tGcDZOWWlmSVh3TUNvNmNibTJXbFhoMFFBNXdFTGFF?oc=5",
           "sourcePriority": 3
@@ -3106,7 +3106,7 @@
           "relevance": 3,
           "relevanceLabel": "DIRECTA",
           "firstSeen": "2026-10-03T07:52:09.216972+00:00",
-          "isNew": true,
+          "isNew": false,
           "titleKey": "sala elaboracion alimentos cuenta avance ciento fuego24",
           "evidenceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQT18wV1pjRXdfT29rb25wMnk1LUU0aEN6d0dSbDYtSzlmNWZSbk5GQ3p3dWlLZU1kdXBvdld5c3dEeXZsdnp0ZW1nOV9aeWtZVFZDa2ZsQ3JIMGtxRHk3N3JGQ2xqT0djaXJwbE9PN1RVN1gySHY1UVlJeUlLczNOdjRYenJHNk1sVDFpcFdFMV9sOWlGLV9nUG5KSmhjU29ld3VsYS1WSXFfY01CNGJKSmFQSzc1MHIzYi1lQ1lVbXplQ1ZQdnZNakhlaG9Sb092?oc=5",
           "sourcePriority": 3
@@ -3132,13 +3132,12 @@
         }
       ],
       "lifecycle": "EMERGENTE",
-      "movementDelta": 75,
-      "previousCoverage": 1,
+      "movementDelta": -2,
+      "previousCoverage": 5,
       "newSources": [
-        "Minuto Neuquen",
-        "Lmneuquen.com",
-        "Patagonia Press",
-        "Fuego24"
+        "minutoneuquen.com",
+        "Fuego24",
+        "Chañar Digital"
       ],
       "sourceDiversity": 5,
       "memoryMatched": true,
@@ -3181,7 +3180,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "PRODUCCIÓN",
-      "movement": 32,
+      "movement": 30,
       "coverage": 1,
       "sourceCount": 1,
       "directSourceCount": 0,
@@ -3268,7 +3267,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "EDUCACIÓN",
-      "movement": 20,
+      "movement": 18,
       "coverage": 2,
       "sourceCount": 2,
       "directSourceCount": 0,
@@ -3323,7 +3322,7 @@
         }
       ],
       "lifecycle": "EN DESCENSO",
-      "movementDelta": 4,
+      "movementDelta": -2,
       "previousCoverage": 2,
       "newSources": [
         "Chañar Digital"
@@ -3377,7 +3376,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SERVICIOS",
-      "movement": 18,
+      "movement": 17,
       "coverage": 1,
       "sourceCount": 1,
       "directSourceCount": 0,
@@ -3411,7 +3410,7 @@
         }
       ],
       "lifecycle": "EN DESCENSO",
-      "movementDelta": 2,
+      "movementDelta": 1,
       "previousCoverage": 1,
       "newSources": [],
       "sourceDiversity": 1,
@@ -3629,18 +3628,18 @@
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "firstSeen": "2026-10-03T07:52:09.216972+00:00",
-      "isNew": true,
+      "isNew": false,
       "titleKey": "sala elaboracion alimentos cuenta avance ciento fuego24",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQT18wV1pjRXdfT29rb25wMnk1LUU0aEN6d0dSbDYtSzlmNWZSbk5GQ3p3dWlLZU1kdXBvdld5c3dEeXZsdnp0ZW1nOV9aeWtZVFZDa2ZsQ3JIMGtxRHk3N3JGQ2xqT0djaXJwbE9PN1RVN1gySHY1UVlJeUlLczNOdjRYenJHNk1sVDFpcFdFMV9sOWlGLV9nUG5KSmhjU29ld3VsYS1WSXFfY01CNGJKSmFQSzc1MHIzYi1lQ1lVbXplQ1ZQdnZNakhlaG9Sb092?oc=5",
       "sourcePriority": 3
     },
     {
-      "title": "San Patricio del Chañar: un arma, $30.000 y una balacera en una casa que terminó con dos presos - Minuto Neuquen",
+      "title": "San Patricio del Chañar: un arma, $30.000 y una balacera en una casa que terminó con dos presos - minutoneuquen.com",
       "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOU0w2ZUlSclBFeG1SdlR4bmVjd0RCZmQ3b1Voc09tbzd2NWNfeXBnYUt3Q3EtV3hPbHNoMWNJSnZ4Mm1OVzJvemdLeDNHTW8zeWpEU2FUOWVkeVNiYjJBXzVNbVFsRnpUU3E0cGd6U0lpbmJUUk5aX2k1ZjhXUjk4MUJRSzF6VGJIY2FxalBwUFpXUFBxLW01RDRDWmtlb005cUg4NDlSSWtVWVhkUXFycFVCVHY3dmFGZ2g3T3lZWjVSWENiQlliMl91Unhia3VlcDNORmVJSlhyNFloSFhXamFnSW9NQQ?oc=5",
       "publishedAt": "2026-10-03T01:30:00+00:00",
       "published": "2026-10-03T01:30:00+00:00",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMi5gFBVV95cUxOU0w2ZUlSclBFeG1SdlR4bmVjd0RCZmQ3b1Voc09tbzd2NWNfeXBnYUt3Q3EtV3hPbHNoMWNJSnZ4Mm1OVzJvemdLeDNHTW8zeWpEU2FUOWVkeVNiYjJBXzVNbVFsRnpUU3E0cGd6U0lpbmJUUk5aX2k1ZjhXUjk4MUJRSzF6VGJIY2FxalBwUFpXUFBxLW01RDRDWmtlb005cUg4NDlSSWtVWVhkUXFycFVCVHY3dmFGZ2g3T3lZWjVSWENiQlliMl91Unhia3VlcDNORmVJSlhyNFloSFhXamFnSW9NQQ?oc=5\" target=\"_blank\">San Patricio del Chañar: un arma, $30.000 y una balacera en una casa que terminó con dos presos</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Minuto Neuquen</font>",
-      "source": "Minuto Neuquen",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMi5gFBVV95cUxOU0w2ZUlSclBFeG1SdlR4bmVjd0RCZmQ3b1Voc09tbzd2NWNfeXBnYUt3Q3EtV3hPbHNoMWNJSnZ4Mm1OVzJvemdLeDNHTW8zeWpEU2FUOWVkeVNiYjJBXzVNbVFsRnpUU3E0cGd6U0lpbmJUUk5aX2k1ZjhXUjk4MUJRSzF6VGJIY2FxalBwUFpXUFBxLW01RDRDWmtlb005cUg4NDlSSWtVWVhkUXFycFVCVHY3dmFGZ2g3T3lZWjVSWENiQlliMl91Unhia3VlcDNORmVJSlhyNFloSFhXamFnSW9NQQ?oc=5\" target=\"_blank\">San Patricio del Chañar: un arma, $30.000 y una balacera en una casa que terminó con dos presos</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">minutoneuquen.com</font>",
+      "source": "minutoneuquen.com",
       "sourceType": "BUSCADOR / RESPALDO",
       "sourceUrl": "",
       "collection": "BUSCADOR",
@@ -3649,7 +3648,7 @@
       "relevanceLabel": "DIRECTA",
       "firstSeen": "2026-10-03T01:49:48.519651+00:00",
       "isNew": false,
-      "titleKey": "arma 000 balacera casa termino dos presos minuto",
+      "titleKey": "arma 000 balacera casa termino dos presos minutoneuquen com",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOU0w2ZUlSclBFeG1SdlR4bmVjd0RCZmQ3b1Voc09tbzd2NWNfeXBnYUt3Q3EtV3hPbHNoMWNJSnZ4Mm1OVzJvemdLeDNHTW8zeWpEU2FUOWVkeVNiYjJBXzVNbVFsRnpUU3E0cGd6U0lpbmJUUk5aX2k1ZjhXUjk4MUJRSzF6VGJIY2FxalBwUFpXUFBxLW01RDRDWmtlb005cUg4NDlSSWtVWVhkUXFycFVCVHY3dmFGZ2g3T3lZWjVSWENiQlliMl91Unhia3VlcDNORmVJSlhyNFloSFhXamFnSW9NQQ?oc=5",
       "sourcePriority": 3
     },
@@ -3686,7 +3685,7 @@
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "firstSeen": "2026-10-03T07:52:09.216972+00:00",
-      "isNew": true,
+      "isNew": false,
       "titleKey": "ataque tiros vendio arma volvio buscarla termino baleando comprador patagonia press",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOZnNrMFJrV1JBc3duSHNsRFNFOWM1SFcwNHE2VFNkNF9ndWFTY1dKMl8yeERPQjllVnpSeW81UDI3ZXd3LTdVeWJYUWhiS1ItU05yV0V1Zk91VnZXQVhScWNlTEtOdnFwbVgyZGh2aXFzY0ZhM2dGdy1WRWE1MnlqaVNWNzVkS0g5MHUwMmRVWVdyR1JRSklaZWdqVU9Wd0ZzSGFqXzF1R3pyM1NZWHc5eExOZTFrMUhNejdyMnRjcllZYkdmZEotMkxnV2tGcDZOWWlmSVh3TUNvNmNibTJXbFhoMFFBNXdFTGFF?oc=5",
       "sourcePriority": 3
@@ -3808,7 +3807,7 @@
   ],
   "territorialGraph": {
     "version": "2.0",
-    "generatedAt": "2026-10-03T07:52:21.151345+00:00",
+    "generatedAt": "2026-10-03T13:13:37.348995+00:00",
     "root": "spc",
     "rule": "evidence-first",
     "levels": [
@@ -4422,7 +4421,7 @@
   },
   "audit": {
     "version": "1.0",
-    "updatedAt": "2026-10-03T07:52:21.200808+00:00",
+    "updatedAt": "2026-10-03T13:13:37.398002+00:00",
     "rule": "fact != coverage; territory requires textual evidence",
     "facts": 6,
     "coverage": 11,
