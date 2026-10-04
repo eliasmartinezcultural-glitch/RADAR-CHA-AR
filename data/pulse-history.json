@@ -2,7 +2,7 @@
   "version": "1.1",
   "windowDays": 45,
   "bucketHours": 2,
-  "generatedAt": "2026-10-04T05:20:38.165716+00:00",
+  "generatedAt": "2026-10-04T11:15:18.396348+00:00",
   "snapshots": [
     {
       "at": "2026-09-20T01:58:09.322313+00:00",
@@ -7849,6 +7849,98 @@
           "success": true,
           "signals": 0,
           "freshnessHours": null
+        },
+        "Mejor Informado": {
+          "success": false,
+          "signals": 0,
+          "freshnessHours": null
+        },
+        "Diariamente Neuquén": {
+          "success": false,
+          "signals": 0,
+          "freshnessHours": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-04T11:15:18.396243+00:00",
+      "bucket": "2026-10-04T11:14:00+00:00",
+      "events": 7,
+      "topics": {
+        "SERVICIOS": 4,
+        "PRODUCCIÓN": 1,
+        "EDUCACIÓN": 2
+      },
+      "sources": {
+        "Minuto Neuquen": 1,
+        "Lmneuquen.com": 3,
+        "Patagonia Press": 1,
+        "Fuego24": 1,
+        "Chañar Digital": 4,
+        "Diario Río Negro": 1,
+        "Diario Neuquino": 1
+      },
+      "lifecycle": {
+        "EMERGENTE": 2,
+        "RECIENTE": 3,
+        "ACTIVO": 1,
+        "SIN NUEVA COBERTURA": 1
+      },
+      "nodes": {
+        "San Patricio del Chañar": 7,
+        "Parque Industrial": 2,
+        "Bodegas y viñedos": 1,
+        "EPET 26": 1,
+        "CPEM 31": 1
+      },
+      "activeNodes": 5,
+      "directSignals": 1,
+      "newSignals": 1,
+      "sourceHealth": {
+        "Chañar Digital": {
+          "success": false,
+          "signals": 0,
+          "freshnessHours": null
+        },
+        "Mía Radio 94.7": {
+          "success": false,
+          "signals": 0,
+          "freshnessHours": null
+        },
+        "Radio Tuit Vaca Muerta 90.5": {
+          "success": false,
+          "signals": 0,
+          "freshnessHours": null
+        },
+        "Vaca Muerta News": {
+          "success": false,
+          "signals": 0,
+          "freshnessHours": null
+        },
+        "Neuquén Informa": {
+          "success": false,
+          "signals": 0,
+          "freshnessHours": null
+        },
+        "Municipalidad de San Patricio del Chañar": {
+          "success": false,
+          "signals": 0,
+          "freshnessHours": null
+        },
+        "Boletín Oficial de Neuquén": {
+          "success": false,
+          "signals": 0,
+          "freshnessHours": null
+        },
+        "LM Neuquén": {
+          "success": false,
+          "signals": 0,
+          "freshnessHours": null
+        },
+        "Diario Río Negro": {
+          "success": true,
+          "signals": 1,
+          "freshnessHours": 4.4
         },
         "Mejor Informado": {
           "success": false,
