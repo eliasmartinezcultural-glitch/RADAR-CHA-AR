@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-05T18:12:21.393388+00:00",
+  "updatedAt": "2026-10-06T00:15:39.956849+00:00",
   "window": "14 días",
   "purpose": "Detectar qué se está moviendo en San Patricio del Chañar y mostrar de dónde surge cada señal.",
   "architecture": "contrato universal de procedencia + fuentes profesionales + adaptadores específicos + validación semántica + temporalidad + evidencia editorial separada",
@@ -49,7 +49,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://chanardigital.com.ar/",
-      "lastFetch": "2026-10-05T18:12:01.974583+00:00",
+      "lastFetch": "2026-10-06T00:15:17.254229+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -65,7 +65,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.radiomia.com.ar/",
-      "lastFetch": "2026-10-05T18:12:03.189281+00:00",
+      "lastFetch": "2026-10-06T00:15:18.682887+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -80,7 +80,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://tuitvacamuerta.com/",
-      "lastFetch": "2026-10-05T18:12:04.707532+00:00",
+      "lastFetch": "2026-10-06T00:15:20.632339+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -95,7 +95,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.vacamuertanews.com/",
-      "lastFetch": "2026-10-05T18:12:05.123181+00:00",
+      "lastFetch": "2026-10-06T00:15:21.254363+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -111,7 +111,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.neuqueninforma.gob.ar/",
-      "lastFetch": "2026-10-05T18:12:06.139790+00:00",
+      "lastFetch": "2026-10-06T00:15:22.501350+00:00",
       "success": false,
       "attempted": 3,
       "failures": [
@@ -128,7 +128,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://sanpatricio.gob.ar/",
-      "lastFetch": "2026-10-05T18:12:06.850335+00:00",
+      "lastFetch": "2026-10-06T00:15:23.515378+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -143,7 +143,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://boletinoficial.neuquen.gov.ar/",
-      "lastFetch": "2026-10-05T18:12:07.754501+00:00",
+      "lastFetch": "2026-10-06T00:15:24.673242+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -158,7 +158,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.lmneuquen.com/",
-      "lastFetch": "2026-10-05T18:12:08.011054+00:00",
+      "lastFetch": "2026-10-06T00:15:24.787832+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -171,17 +171,17 @@
     {
       "name": "Diario Río Negro",
       "type": "MEDIO REGIONAL",
-      "mode": "RSS DIRECTO",
-      "signals": 1,
+      "mode": "SIN RESPUESTA",
+      "signals": 0,
       "url": "https://www.rionegro.com.ar/",
-      "lastFetch": "2026-10-05T18:12:09.714592+00:00",
+      "lastFetch": "2026-10-06T00:15:29.571676+00:00",
       "success": true,
       "attempted": 2,
       "failures": [
         "WEB:AttributeError"
       ],
       "directAvailability": "available",
-      "freshnessHours": 1.5
+      "freshnessHours": null
     },
     {
       "name": "Mejor Informado",
@@ -189,7 +189,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.mejorinformado.com/",
-      "lastFetch": "2026-10-05T18:12:10.360552+00:00",
+      "lastFetch": "2026-10-06T00:15:30.248880+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -205,7 +205,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.diariamenteneuquen.com/",
-      "lastFetch": "2026-10-05T18:12:11.158076+00:00",
+      "lastFetch": "2026-10-06T00:15:31.146451+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -602,11 +602,11 @@
       "group": "REGIONAL",
       "role": "medio regional",
       "url": "https://www.rionegro.com.ar/",
-      "signals": 1,
-      "directSignals": 1,
+      "signals": 0,
+      "directSignals": 0,
       "anchoredSignals": 0,
-      "lastSeen": "2026-10-05T16:43:58+00:00",
-      "status": "CON SEÑALES",
+      "lastSeen": null,
+      "status": "SIN SEÑALES EN VENTANA",
       "note": "ausencia de señales no equivale a ausencia del hecho"
     },
     {
@@ -709,13 +709,13 @@
   "languageAudit": [
     {
       "term": "el chañar",
-      "hits": 9,
-      "direct": 9
+      "hits": 10,
+      "direct": 10
     },
     {
       "term": "san patricio del chañar",
-      "hits": 8,
-      "direct": 8
+      "hits": 9,
+      "direct": 9
     },
     {
       "term": "epet 26",
@@ -729,11 +729,6 @@
     },
     {
       "term": "viñedo",
-      "hits": 1,
-      "direct": 1
-    },
-    {
-      "term": "parque industrial",
       "hits": 1,
       "direct": 1
     },
@@ -819,6 +814,11 @@
     },
     {
       "term": "picada 1",
+      "hits": 0,
+      "direct": 0
+    },
+    {
+      "term": "parque industrial",
       "hits": 0,
       "direct": 0
     },
@@ -995,8 +995,8 @@
         "source": "Chañar Digital",
         "group": "LOCAL",
         "role": "medio local",
-        "accepted": 6,
-        "direct": 6,
+        "accepted": 5,
+        "direct": 5,
         "anchored": 0,
         "falsePositives": 0,
         "falsePositiveTypes": [],
@@ -1044,14 +1044,12 @@
         "source": "Diario Río Negro",
         "group": "REGIONAL",
         "role": "medio regional",
-        "accepted": 1,
-        "direct": 1,
+        "accepted": 0,
+        "direct": 0,
         "anchored": 0,
         "falsePositives": 0,
         "falsePositiveTypes": [],
-        "topics": [
-          "SALUD"
-        ]
+        "topics": []
       },
       {
         "source": "Dirección Provincial de Vialidad",
@@ -1112,8 +1110,8 @@
         "source": "Lmneuquen.com",
         "group": "OBSERVADA",
         "role": "fuente detectada fuera del catálogo",
-        "accepted": 3,
-        "direct": 3,
+        "accepted": 4,
+        "direct": 4,
         "anchored": 0,
         "falsePositives": 0,
         "falsePositiveTypes": [],
@@ -1159,8 +1157,8 @@
         "source": "Minuto Neuquen",
         "group": "OBSERVADA",
         "role": "fuente detectada fuera del catálogo",
-        "accepted": 1,
-        "direct": 1,
+        "accepted": 2,
+        "direct": 2,
         "anchored": 0,
         "falsePositives": 0,
         "falsePositiveTypes": [],
@@ -1213,6 +1211,19 @@
         "falsePositives": 0,
         "falsePositiveTypes": [],
         "topics": []
+      },
+      {
+        "source": "Neuquén News",
+        "group": "OBSERVADA",
+        "role": "fuente detectada fuera del catálogo",
+        "accepted": 1,
+        "direct": 1,
+        "anchored": 0,
+        "falsePositives": 0,
+        "falsePositiveTypes": [],
+        "topics": [
+          "CULTURA / TURISMO"
+        ]
       },
       {
         "source": "Policía del Neuquén",
@@ -1309,8 +1320,20 @@
       {
         "source": "Chañar Digital",
         "topic": "SERVICIOS",
-        "accepted": 4,
-        "direct": 4,
+        "accepted": 3,
+        "direct": 3,
+        "anchored": 0,
+        "falsePositives": 0,
+        "territorialTerms": [
+          "san patricio del chañar",
+          "el chañar"
+        ]
+      },
+      {
+        "source": "Lmneuquen.com",
+        "topic": "SERVICIOS",
+        "accepted": 3,
+        "direct": 3,
         "anchored": 0,
         "falsePositives": 0,
         "territorialTerms": [
@@ -1333,7 +1356,7 @@
         ]
       },
       {
-        "source": "Lmneuquen.com",
+        "source": "Minuto Neuquen",
         "topic": "SERVICIOS",
         "accepted": 2,
         "direct": 2,
@@ -1358,17 +1381,6 @@
         ]
       },
       {
-        "source": "Diario Río Negro",
-        "topic": "SALUD",
-        "accepted": 1,
-        "direct": 1,
-        "anchored": 0,
-        "falsePositives": 0,
-        "territorialTerms": [
-          "parque industrial"
-        ]
-      },
-      {
         "source": "Lmneuquen.com",
         "topic": "PRODUCCIÓN",
         "accepted": 1,
@@ -1382,7 +1394,7 @@
         ]
       },
       {
-        "source": "Minuto Neuquen",
+        "source": "Neuquen Informa",
         "topic": "SERVICIOS",
         "accepted": 1,
         "direct": 1,
@@ -1394,8 +1406,8 @@
         ]
       },
       {
-        "source": "Neuquen Informa",
-        "topic": "SERVICIOS",
+        "source": "Neuquén News",
+        "topic": "CULTURA / TURISMO",
         "accepted": 1,
         "direct": 1,
         "anchored": 0,
@@ -1421,8 +1433,8 @@
     "languagePrecision": [
       {
         "term": "san patricio del chañar",
-        "acceptedHits": 9,
-        "directHits": 9,
+        "acceptedHits": 11,
+        "directHits": 11,
         "rejectedTitleHits": 0,
         "territorialStrength": "FUERTE"
       },
@@ -1435,8 +1447,8 @@
       },
       {
         "term": "el chañar",
-        "acceptedHits": 10,
-        "directHits": 10,
+        "acceptedHits": 12,
+        "directHits": 12,
         "rejectedTitleHits": 0,
         "territorialStrength": "FUERTE"
       },
@@ -1526,8 +1538,8 @@
       },
       {
         "term": "parque industrial",
-        "acceptedHits": 1,
-        "directHits": 1,
+        "acceptedHits": 0,
+        "directHits": 0,
         "rejectedTitleHits": 0,
         "territorialStrength": "FUERTE"
       },
@@ -1764,9 +1776,9 @@
     "total": 12,
     "direct": 12,
     "regional": 0,
-    "new": 4,
+    "new": 1,
     "sources": 7,
-    "directSignals": 1,
+    "directSignals": 0,
     "localDirectSignals": 0,
     "radioDirectSignals": 0,
     "precisionRule": "evidence-first",
@@ -1779,7 +1791,7 @@
       "forecastGustKmh": 28.0,
       "forecastWindDirection": "O",
       "forecastTemperatureC": 20.0,
-      "retrievedAt": "2026-10-05T18:11:59.847065+00:00",
+      "retrievedAt": "2026-10-06T00:15:15.105992+00:00",
       "source": "AIC",
       "sourceTier": "primary",
       "sourceUrl": "https://www.aic.gob.ar/sitio/home?a=1015&z=1967225803",
@@ -1807,9 +1819,9 @@
       ],
       "currentProgrammedMaxM3s": 240,
       "currentProgrammedMinM3s": 220,
-      "programDate": "2026-10-06",
-      "tableDate": "2026-10-05",
-      "retrievedAt": "2026-10-05T18:11:59.847065+00:00",
+      "programDate": "2026-10-07",
+      "tableDate": "2026-10-06",
+      "retrievedAt": "2026-10-06T00:15:15.105992+00:00",
       "source": "AIC",
       "sourceTier": "primary",
       "sourceUrl": "https://www.aic.gob.ar/sitio/caudales",
@@ -1829,17 +1841,17 @@
         "url": "https://www.aic.gob.ar/sitio/caudales"
       }
     ],
-    "updatedAt": "2026-10-05T18:11:59.847065+00:00"
+    "updatedAt": "2026-10-06T00:15:15.105992+00:00"
   },
   "operational": {
-    "updatedAt": "2026-10-05T18:11:59.847065+00:00",
+    "updatedAt": "2026-10-06T00:15:15.105992+00:00",
     "route7": {
       "source": "Dirección Provincial de Vialidad",
       "sourceTier": "primary",
       "sourceUrl": "https://www.dpvneuquen.gov.ar/",
       "semanticState": null,
       "publicationState": "source_reachable_no_current_machine_readable_state",
-      "retrievedAt": "2026-10-05T18:11:59.847065+00:00",
+      "retrievedAt": "2026-10-06T00:15:15.105992+00:00",
       "evidence": {
         "route7Mention": true,
         "route8Mention": false
@@ -1851,7 +1863,7 @@
       "sourceUrl": "https://www.dpvneuquen.gov.ar/",
       "semanticState": null,
       "publicationState": "source_reachable_no_current_machine_readable_state",
-      "retrievedAt": "2026-10-05T18:11:59.847065+00:00",
+      "retrievedAt": "2026-10-06T00:15:15.105992+00:00",
       "evidence": {
         "route7Mention": true,
         "route8Mention": false
@@ -1865,7 +1877,7 @@
       "eventType": null,
       "detail": null,
       "publicationState": "source_reachable_no_specific_local_notice",
-      "retrievedAt": "2026-10-05T18:11:59.847065+00:00"
+      "retrievedAt": "2026-10-06T00:15:15.105992+00:00"
     },
     "water": {
       "source": "EPAS",
@@ -1875,7 +1887,7 @@
       "eventType": null,
       "detail": null,
       "publicationState": "source_reachable_no_specific_local_notice",
-      "retrievedAt": "2026-10-05T18:11:59.847065+00:00"
+      "retrievedAt": "2026-10-06T00:15:15.105992+00:00"
     },
     "sources": [
       {
@@ -2287,7 +2299,7 @@
       "label": "Conversación general",
       "signal": 7,
       "status": "cobertura editorial",
-      "freshnessHours": 1.5,
+      "freshnessHours": 6.3,
       "mode": "evidencia editorial",
       "evidenceCount": 7,
       "sourceContract": {
@@ -2367,7 +2379,7 @@
         "sourceUrl": "https://www.dpvneuquen.gov.ar/",
         "semanticState": null,
         "publicationState": "source_reachable_no_current_machine_readable_state",
-        "retrievedAt": "2026-10-05T18:11:59.847065+00:00",
+        "retrievedAt": "2026-10-06T00:15:15.105992+00:00",
         "evidence": {
           "route7Mention": true,
           "route8Mention": false
@@ -2419,7 +2431,7 @@
         "sourceUrl": "https://www.dpvneuquen.gov.ar/",
         "semanticState": null,
         "publicationState": "source_reachable_no_current_machine_readable_state",
-        "retrievedAt": "2026-10-05T18:11:59.847065+00:00",
+        "retrievedAt": "2026-10-06T00:15:15.105992+00:00",
         "evidence": {
           "route7Mention": true,
           "route8Mention": false
@@ -2519,7 +2531,7 @@
         "eventType": null,
         "detail": null,
         "publicationState": "source_reachable_no_specific_local_notice",
-        "retrievedAt": "2026-10-05T18:11:59.847065+00:00"
+        "retrievedAt": "2026-10-06T00:15:15.105992+00:00"
       }
     },
     {
@@ -2569,7 +2581,7 @@
         "eventType": null,
         "detail": null,
         "publicationState": "source_reachable_no_specific_local_notice",
-        "retrievedAt": "2026-10-05T18:11:59.847065+00:00"
+        "retrievedAt": "2026-10-06T00:15:15.105992+00:00"
       }
     },
     {
@@ -2615,11 +2627,11 @@
     {
       "id": "SALUD",
       "label": "Salud",
-      "signal": 1,
+      "signal": 0,
       "status": "evidencia sanitaria",
-      "freshnessHours": 1.5,
+      "freshnessHours": null,
       "mode": "evidencia editorial",
-      "evidenceCount": 1,
+      "evidenceCount": 0,
       "sourceContract": {
         "primary": "Ministerio de Salud de la Provincia del Neuquén",
         "secondary": "Hospital San Patricio del Chañar Dra. Alicia Cruz",
@@ -2657,7 +2669,7 @@
       "label": "Educación",
       "signal": 2,
       "status": "evidencia educativa",
-      "freshnessHours": 211.1,
+      "freshnessHours": 217.2,
       "mode": "evidencia editorial",
       "evidenceCount": 2,
       "sourceContract": {
@@ -2697,7 +2709,7 @@
       "label": "Producción rural",
       "signal": 1,
       "status": "evidencia productiva",
-      "freshnessHours": 166.3,
+      "freshnessHours": 172.4,
       "mode": "evidencia editorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -2775,11 +2787,11 @@
     {
       "id": "TERRITORIO",
       "label": "Territorio / microzonas",
-      "signal": 1,
+      "signal": 0,
       "status": "hecho territorial",
-      "freshnessHours": 1.5,
+      "freshnessHours": null,
       "mode": "evidencia territorial",
-      "evidenceCount": 1,
+      "evidenceCount": 0,
       "sourceContract": {
         "primary": "Municipalidad de San Patricio del Chañar",
         "secondary": "organismo provincial competente según fenómeno",
@@ -2834,7 +2846,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://chanardigital.com.ar/",
-        "lastFetch": "2026-10-05T18:12:01.974583+00:00",
+        "lastFetch": "2026-10-06T00:15:17.254229+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -2850,7 +2862,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.radiomia.com.ar/",
-        "lastFetch": "2026-10-05T18:12:03.189281+00:00",
+        "lastFetch": "2026-10-06T00:15:18.682887+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -2865,7 +2877,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://tuitvacamuerta.com/",
-        "lastFetch": "2026-10-05T18:12:04.707532+00:00",
+        "lastFetch": "2026-10-06T00:15:20.632339+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -2880,7 +2892,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.vacamuertanews.com/",
-        "lastFetch": "2026-10-05T18:12:05.123181+00:00",
+        "lastFetch": "2026-10-06T00:15:21.254363+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -2896,7 +2908,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.neuqueninforma.gob.ar/",
-        "lastFetch": "2026-10-05T18:12:06.139790+00:00",
+        "lastFetch": "2026-10-06T00:15:22.501350+00:00",
         "success": false,
         "attempted": 3,
         "failures": [
@@ -2913,7 +2925,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://sanpatricio.gob.ar/",
-        "lastFetch": "2026-10-05T18:12:06.850335+00:00",
+        "lastFetch": "2026-10-06T00:15:23.515378+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -2928,7 +2940,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://boletinoficial.neuquen.gov.ar/",
-        "lastFetch": "2026-10-05T18:12:07.754501+00:00",
+        "lastFetch": "2026-10-06T00:15:24.673242+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -2943,7 +2955,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.lmneuquen.com/",
-        "lastFetch": "2026-10-05T18:12:08.011054+00:00",
+        "lastFetch": "2026-10-06T00:15:24.787832+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -2956,17 +2968,17 @@
       {
         "name": "Diario Río Negro",
         "type": "MEDIO REGIONAL",
-        "mode": "RSS DIRECTO",
-        "signals": 1,
+        "mode": "SIN RESPUESTA",
+        "signals": 0,
         "url": "https://www.rionegro.com.ar/",
-        "lastFetch": "2026-10-05T18:12:09.714592+00:00",
+        "lastFetch": "2026-10-06T00:15:29.571676+00:00",
         "success": true,
         "attempted": 2,
         "failures": [
           "WEB:AttributeError"
         ],
         "directAvailability": "available",
-        "freshnessHours": 1.5
+        "freshnessHours": null
       },
       {
         "name": "Mejor Informado",
@@ -2974,7 +2986,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.mejorinformado.com/",
-        "lastFetch": "2026-10-05T18:12:10.360552+00:00",
+        "lastFetch": "2026-10-06T00:15:30.248880+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -2990,7 +3002,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.diariamenteneuquen.com/",
-        "lastFetch": "2026-10-05T18:12:11.158076+00:00",
+        "lastFetch": "2026-10-06T00:15:31.146451+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3018,8 +3030,8 @@
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SERVICIOS",
       "movement": 83,
-      "coverage": 6,
-      "sourceCount": 5,
+      "coverage": 12,
+      "sourceCount": 6,
       "directSourceCount": 0,
       "territorialAnchors": [
         "san patricio del chañar",
@@ -3030,7 +3042,8 @@
         "Lmneuquen.com",
         "patagonia.press",
         "Neuquen Informa",
-        "Chañar Digital"
+        "Chañar Digital",
+        "Patagonia Press"
       ],
       "evidenceUrl": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPR2Nod3B5b1lCaVVzU1dya2lVdmJxOGxEVjU5dEwwVmVGUlFJTjF1ZC1SbVBFZjNFSUoxU243ZlJ5c3dLTUlZMUZBUF9kRDREUEdBa0t4M0RfWHB3aHJTRV8ya1JvVGkydGF2MFJTVmRpWHV6bERMZkxWQzhMdWgtT0RoaWpKZG52NHZfYTlMNm5UN2YzN295SkhkR3BCeExVOFVWVkNFYlpaWUh2UGQtc25vRXpwMTExQ3VxaUowT1VvS21jaHpIN1QtVk1IOEdLTGc0V241RlI4eElEb0x3VXN6Sk5xSy1QV1Zma0xQSThKS1hy0gH6AUFVX3lxTE1pOXg0UV9RTDVYU0FUUHhYRlo0N3NwSE82Xy1XcUs4Vm5HZ1E1YV81dm1GZHlpc0pHLVJBcnlTdFpUV2xhM3M1ZDNBdXhEMmttZThaVkhCOVhfQmE3YW9RTnhNbEU0aWk4NEFJUVpoMVdDZW9wY2ctX1R1bjFNMmJBWkpJSjI2X2ZzdTlWQ3pZNDVaWFlwZHJ4T3ZiRjJURks4SlUyQ2VxNGxPd25lSFhkWkdwQ1Q0OHY1TWtlZFhldmZnUkhOVDJqTzh3Z296NWdxdDlyeUJhdzB2X21iLXh2aUFKTzBkU204NGcySXpjN0ladi1hUXlsMnc?oc=5",
       "items": [
@@ -3147,18 +3160,57 @@
           "titleKey": "clasifico dejo fuerte bandera contra fallo consejo federal lmneuquen com",
           "evidenceUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNd2p1ZW01bTdyNTdPbFZCd0xaYThBaUs4aHJ1WUtQMndSR1VDNEc0UXJJN1F6SXdFWXFJSWNOdE5EMVRQejQtUWtHcHhzdU52MU9uZnJVaThCTjJUcnBJVzl5YmM2cTFhd3BYUEtOUnZ4R2xjOEVnNGlhd0dlUmpzR0pPekN5ZGlxSHhXS19vVm4wQmJVUjVwSXFQZDZ5TlI4UjNuVHUzRlNicUo3TzdNYUM2MU5oM0hhX0xvc3VwTXF2N3Rqdmo5QU44MFdhR3BJTC13c1RB0gHbAUFVX3lxTE9WYUJQd1FCNW5QTzBFVmxnRlVybXJnWUJ5Qkw2dnRjMTdOMHFJSFhpVGd5VkNzQmJXbEliM1FjMHlnSzRrTE55dEdZZXhVVVhMWlVJalhWVTlmZlViSFdYQjJfbVN2TXlBZnl4U25WRGItaDVvUGlGMnR0bUhvdmNpX1hFTm94STNmZ28wcnBCQ3Z2MUtRUXJKVHpWMm1UWEFEMWZlczhZVk54VXI4RzlMa0JIVWVGalF6MnFFakpSM2ItNUNwRGtvSmRaemJrLUtySXN0aWI0VVJodw?oc=5",
           "sourcePriority": 3
+        },
+        {
+          "title": "San Patricio del Chañar: un arma, $30.000 y una balacera en una casa que terminó con dos presos - Minuto Neuquen",
+          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOU0w2ZUlSclBFeG1SdlR4bmVjd0RCZmQ3b1Voc09tbzd2NWNfeXBnYUt3Q3EtV3hPbHNoMWNJSnZ4Mm1OVzJvemdLeDNHTW8zeWpEU2FUOWVkeVNiYjJBXzVNbVFsRnpUU3E0cGd6U0lpbmJUUk5aX2k1ZjhXUjk4MUJRSzF6VGJIY2FxalBwUFpXUFBxLW01RDRDWmtlb005cUg4NDlSSWtVWVhkUXFycFVCVHY3dmFGZ2g3T3lZWjVSWENiQlliMl91Unhia3VlcDNORmVJSlhyNFloSFhXamFnSW9NQQ?oc=5",
+          "publishedAt": "2026-10-03T01:30:00+00:00",
+          "published": "2026-10-03T01:30:00+00:00",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMi5gFBVV95cUxOU0w2ZUlSclBFeG1SdlR4bmVjd0RCZmQ3b1Voc09tbzd2NWNfeXBnYUt3Q3EtV3hPbHNoMWNJSnZ4Mm1OVzJvemdLeDNHTW8zeWpEU2FUOWVkeVNiYjJBXzVNbVFsRnpUU3E0cGd6U0lpbmJUUk5aX2k1ZjhXUjk4MUJRSzF6VGJIY2FxalBwUFpXUFBxLW01RDRDWmtlb005cUg4NDlSSWtVWVhkUXFycFVCVHY3dmFGZ2g3T3lZWjVSWENiQlliMl91Unhia3VlcDNORmVJSlhyNFloSFhXamFnSW9NQQ?oc=5\" target=\"_blank\">San Patricio del Chañar: un arma, $30.000 y una balacera en una casa que terminó con dos presos</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Minuto Neuquen</font>",
+          "source": "Minuto Neuquen",
+          "sourceType": "BUSCADOR / RESPALDO",
+          "sourceUrl": "",
+          "collection": "BUSCADOR",
+          "query": "\"San Patricio del Chañar\"",
+          "relevance": 3,
+          "relevanceLabel": "DIRECTA",
+          "firstSeen": "2026-10-04T05:20:25.116611+00:00",
+          "isNew": false,
+          "titleKey": "arma 000 balacera casa termino dos presos minuto",
+          "evidenceUrl": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOU0w2ZUlSclBFeG1SdlR4bmVjd0RCZmQ3b1Voc09tbzd2NWNfeXBnYUt3Q3EtV3hPbHNoMWNJSnZ4Mm1OVzJvemdLeDNHTW8zeWpEU2FUOWVkeVNiYjJBXzVNbVFsRnpUU3E0cGd6U0lpbmJUUk5aX2k1ZjhXUjk4MUJRSzF6VGJIY2FxalBwUFpXUFBxLW01RDRDWmtlb005cUg4NDlSSWtVWVhkUXFycFVCVHY3dmFGZ2g3T3lZWjVSWENiQlliMl91Unhia3VlcDNORmVJSlhyNFloSFhXamFnSW9NQQ?oc=5",
+          "sourcePriority": 3
+        },
+        {
+          "title": "Ataque a tiros en una toma de San Patricio del Chañar: dos hombres quedaron presos - Lmneuquen.com",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOQThTZjIzU0xPLVVROVJ1TGlLR3NOendSUU10Q1hCZVhQZDhDSjc2MDZzcjUxODkxcy1pd3o5Z1ZFcGdESEtOWTU3elIxRW5qejJRMDlURmdENlJFVnBlVzB6UTJoeTF0X1NXdno4WHNDRnRXN2M1emd6RHlHcERfYWJCVGlSaWhsM3dZSzhrU2psY2pBdjF6YzRPUHV6c3ZFZldaXzc1aWtmeGJFSl9UdHNpcURySmhrVmdr0gHAAUFVX3lxTE9nbHdFRW9yb3VkbnhyU2lmdnBKeG1NWEZUY2loRENPeTl1ZFhzb3ZadkdaZnV5ZzYyTFNvU2cxZV9VTmVVWk05NGJkM1Y0VVpnYjZkcFVDVHB4RjRjVlZ6dmF3R1NjMzFpV0E2ZnpYSkItR08yYm1wM0dVN1pZeTZEWFl1MUZ5aEg3Z3ZMNGVlZGVwLUNkSl83STZXWjhzdlhOWWVXSWlHRDU2aFZKUWtKVmRBdndqd1VSMFV5NkVZUQ?oc=5",
+          "publishedAt": "2026-10-03T01:23:00+00:00",
+          "published": "2026-10-03T01:23:00+00:00",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMiuwFBVV95cUxOQThTZjIzU0xPLVVROVJ1TGlLR3NOendSUU10Q1hCZVhQZDhDSjc2MDZzcjUxODkxcy1pd3o5Z1ZFcGdESEtOWTU3elIxRW5qejJRMDlURmdENlJFVnBlVzB6UTJoeTF0X1NXdno4WHNDRnRXN2M1emd6RHlHcERfYWJCVGlSaWhsM3dZSzhrU2psY2pBdjF6YzRPUHV6c3ZFZldaXzc1aWtmeGJFSl9UdHNpcURySmhrVmdr0gHAAUFVX3lxTE9nbHdFRW9yb3VkbnhyU2lmdnBKeG1NWEZUY2loRENPeTl1ZFhzb3ZadkdaZnV5ZzYyTFNvU2cxZV9VTmVVWk05NGJkM1Y0VVpnYjZkcFVDVHB4RjRjVlZ6dmF3R1NjMzFpV0E2ZnpYSkItR08yYm1wM0dVN1pZeTZEWFl1MUZ5aEg3Z3ZMNGVlZGVwLUNkSl83STZXWjhzdlhOWWVXSWlHRDU2aFZKUWtKVmRBdndqd1VSMFV5NkVZUQ?oc=5\" target=\"_blank\">Ataque a tiros en una toma de San Patricio del Chañar: dos hombres quedaron presos</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Lmneuquen.com</font>",
+          "source": "Lmneuquen.com",
+          "sourceType": "BUSCADOR / RESPALDO",
+          "sourceUrl": "",
+          "collection": "BUSCADOR",
+          "query": "\"San Patricio del Chañar\"",
+          "relevance": 3,
+          "relevanceLabel": "DIRECTA",
+          "firstSeen": "2026-10-04T05:20:25.116611+00:00",
+          "isNew": false,
+          "titleKey": "ataque tiros toma dos hombres quedaron presos lmneuquen com",
+          "evidenceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOQThTZjIzU0xPLVVROVJ1TGlLR3NOendSUU10Q1hCZVhQZDhDSjc2MDZzcjUxODkxcy1pd3o5Z1ZFcGdESEtOWTU3elIxRW5qejJRMDlURmdENlJFVnBlVzB6UTJoeTF0X1NXdno4WHNDRnRXN2M1emd6RHlHcERfYWJCVGlSaWhsM3dZSzhrU2psY2pBdjF6YzRPUHV6c3ZFZldaXzc1aWtmeGJFSl9UdHNpcURySmhrVmdr0gHAAUFVX3lxTE9nbHdFRW9yb3VkbnhyU2lmdnBKeG1NWEZUY2loRENPeTl1ZFhzb3ZadkdaZnV5ZzYyTFNvU2cxZV9VTmVVWk05NGJkM1Y0VVpnYjZkcFVDVHB4RjRjVlZ6dmF3R1NjMzFpV0E2ZnpYSkItR08yYm1wM0dVN1pZeTZEWFl1MUZ5aEg3Z3ZMNGVlZGVwLUNkSl83STZXWjhzdlhOWWVXSWlHRDU2aFZKUWtKVmRBdndqd1VSMFV5NkVZUQ?oc=5",
+          "sourcePriority": 3
         }
       ],
-      "lifecycle": "ACTIVO",
-      "movementDelta": 67,
+      "lifecycle": "SIN NUEVA COBERTURA",
+      "movementDelta": 0,
       "previousCoverage": 1,
       "newSources": [
         "Minuto Neuquen",
         "Lmneuquen.com",
         "patagonia.press",
-        "Neuquen Informa"
+        "Neuquen Informa",
+        "Patagonia Press"
       ],
-      "sourceDiversity": 5,
+      "sourceDiversity": 6,
       "memoryMatched": true,
       "isNew": false,
       "view": "INCIDENCIA",
@@ -3187,73 +3239,72 @@
             "evidence": "DIRECTA"
           }
         ]
-      }
+      },
+      "sourceContinuity": "fuente conocida sin respuesta; no se infiere desaparición"
     },
     {
-      "eventId": "CHA-da4c4bba4a20",
-      "title": "Lo balearon en la meseta y murió en el hospital: investigan un ataque fatal en el Parque Industrial de Neuquén",
-      "publishedAt": "2026-10-05T16:43:58+00:00",
-      "firstSeen": "2026-10-05T18:12:21.393388+00:00",
-      "lastSeen": "2026-10-05T16:43:58+00:00",
+      "eventId": "CHA-071f588c1e15",
+      "title": "San Patricio del Chañar es sede del 4.º Festival Internacional de Danzas “Danza sin Fronteras” - Neuquén News",
+      "publishedAt": "2026-10-05T17:58:00+00:00",
+      "firstSeen": "2026-10-06T00:15:39.956849+00:00",
+      "lastSeen": "2026-10-05T17:58:00+00:00",
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
-      "topic": "SALUD",
-      "movement": 60,
+      "topic": "CULTURA / TURISMO",
+      "movement": 59,
       "coverage": 1,
       "sourceCount": 1,
-      "directSourceCount": 1,
+      "directSourceCount": 0,
       "territorialAnchors": [
-        "parque industrial"
+        "san patricio del chañar",
+        "el chañar"
       ],
       "sources": [
-        "Diario Río Negro"
+        "Neuquén News"
       ],
-      "evidenceUrl": "https://www.rionegro.com.ar/policiales/lo-balearon-en-la-meseta-y-murio-en-el-hospital-investigan-un-ataque-fatal-en-el-parque-industrial-de-neuquen-4748120/",
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNS0tvdG9BcXowS1JIbFBIa1Nmd0FFTUFrSXpwLU9HcUpKRWdDS1k2SkphMlBCYWhVOFVQMnFDMkNES1pZdnQwQmhrS1l2MjlCOF9aQ3RVaU1CQmpxd2J3eGtHLXRtTHpyUHlTUUU1R3otVjdDTXFJdmwxNy1sS2dPWk1NMEEzaFJUd0c4TDBIcUxPNEluZ1F1TzNRR0dIOS1hUmY4cHhNYlVETlpjN1dueFlnTWF5M3VmUmprVzlkN2s?oc=5",
       "items": [
         {
-          "title": "Lo balearon en la meseta y murió en el hospital: investigan un ataque fatal en el Parque Industrial de Neuquén",
-          "url": "https://www.rionegro.com.ar/policiales/lo-balearon-en-la-meseta-y-murio-en-el-hospital-investigan-un-ataque-fatal-en-el-parque-industrial-de-neuquen-4748120/",
-          "publishedAt": "2026-10-05T16:43:58+00:00",
-          "published": "2026-10-05T16:43:58+00:00",
-          "description": "",
-          "source": "Diario Río Negro",
-          "sourceType": "MEDIO REGIONAL",
-          "sourceUrl": "https://www.rionegro.com.ar/",
-          "collection": "DIRECTA",
-          "query": "https://www.rionegro.com.ar/feed/",
+          "title": "San Patricio del Chañar es sede del 4.º Festival Internacional de Danzas “Danza sin Fronteras” - Neuquén News",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNS0tvdG9BcXowS1JIbFBIa1Nmd0FFTUFrSXpwLU9HcUpKRWdDS1k2SkphMlBCYWhVOFVQMnFDMkNES1pZdnQwQmhrS1l2MjlCOF9aQ3RVaU1CQmpxd2J3eGtHLXRtTHpyUHlTUUU1R3otVjdDTXFJdmwxNy1sS2dPWk1NMEEzaFJUd0c4TDBIcUxPNEluZ1F1TzNRR0dIOS1hUmY4cHhNYlVETlpjN1dueFlnTWF5M3VmUmprVzlkN2s?oc=5",
+          "publishedAt": "2026-10-05T17:58:00+00:00",
+          "published": "2026-10-05T17:58:00+00:00",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxNS0tvdG9BcXowS1JIbFBIa1Nmd0FFTUFrSXpwLU9HcUpKRWdDS1k2SkphMlBCYWhVOFVQMnFDMkNES1pZdnQwQmhrS1l2MjlCOF9aQ3RVaU1CQmpxd2J3eGtHLXRtTHpyUHlTUUU1R3otVjdDTXFJdmwxNy1sS2dPWk1NMEEzaFJUd0c4TDBIcUxPNEluZ1F1TzNRR0dIOS1hUmY4cHhNYlVETlpjN1dueFlnTWF5M3VmUmprVzlkN2s?oc=5\" target=\"_blank\">San Patricio del Chañar es sede del 4.º Festival Internacional de Danzas “Danza sin Fronteras”</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Neuquén News</font>",
+          "source": "Neuquén News",
+          "sourceType": "BUSCADOR / RESPALDO",
+          "sourceUrl": "",
+          "collection": "BUSCADOR",
+          "query": "\"San Patricio del Chañar\"",
           "relevance": 3,
           "relevanceLabel": "DIRECTA",
-          "firstSeen": "2026-10-05T18:12:21.393388+00:00",
+          "firstSeen": "2026-10-06T00:15:39.956849+00:00",
           "isNew": true,
-          "titleKey": "balearon meseta murio hospital investigan ataque fatal parque industrial",
-          "evidenceUrl": "https://www.rionegro.com.ar/policiales/lo-balearon-en-la-meseta-y-murio-en-el-hospital-investigan-un-ataque-fatal-en-el-parque-industrial-de-neuquen-4748120/",
-          "sourcePriority": 2
+          "titleKey": "sede festival internacional danzas danza sin fronteras news",
+          "evidenceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNS0tvdG9BcXowS1JIbFBIa1Nmd0FFTUFrSXpwLU9HcUpKRWdDS1k2SkphMlBCYWhVOFVQMnFDMkNES1pZdnQwQmhrS1l2MjlCOF9aQ3RVaU1CQmpxd2J3eGtHLXRtTHpyUHlTUUU1R3otVjdDTXFJdmwxNy1sS2dPWk1NMEEzaFJUd0c4TDBIcUxPNEluZ1F1TzNRR0dIOS1hUmY4cHhNYlVETlpjN1dueFlnTWF5M3VmUmprVzlkN2s?oc=5",
+          "sourcePriority": 3
         }
       ],
       "lifecycle": "EMERGENTE",
-      "movementDelta": 26,
-      "previousCoverage": 1,
+      "movementDelta": -24,
+      "previousCoverage": 6,
       "newSources": [
-        "Diario Río Negro"
+        "Neuquén News"
       ],
       "sourceDiversity": 1,
       "memoryMatched": true,
       "isNew": false,
-      "view": "INCIDENCIA",
-      "incidenceEligible": true,
-      "signalReason": "reservado a incidencia territorial",
-      "incidenceReason": "anclaje directo + tema operativo/local",
+      "view": "SEÑAL",
+      "incidenceEligible": false,
+      "signalReason": "movimiento informativo / cobertura / diversidad de fuentes",
+      "incidenceReason": null,
       "territory": {
         "version": "2.0",
         "primary": "San Patricio del Chañar",
         "nodes": [
-          "San Patricio del Chañar",
-          "Parque Industrial"
+          "San Patricio del Chañar"
         ],
-        "sectors": [
-          "Parque Industrial"
-        ],
+        "sectors": [],
         "barrios": [],
         "microzones": [],
         "corridors": [],
@@ -3261,33 +3312,28 @@
         "services": [],
         "spaces": [],
         "production": [],
-        "path": "San Patricio del Chañar → Parque Industrial",
+        "path": "San Patricio del Chañar",
         "evidence": [
           {
             "node": "San Patricio del Chañar",
             "level": "localidad",
             "evidence": "DIRECTA"
-          },
-          {
-            "node": "Parque Industrial",
-            "level": "sector",
-            "evidence": "TEXTUAL"
           }
         ]
       }
     },
     {
-      "eventId": "CHA-8d3cfa288afa",
-      "title": "Dos heridos de bala tras un violento incidente en la toma de San Patricio del Chañar - Chañar Digital",
-      "publishedAt": "2026-10-01T05:06:03+00:00",
-      "firstSeen": "2026-10-04T05:20:25.116611+00:00",
-      "lastSeen": "2026-10-01T05:06:03+00:00",
+      "eventId": "CHA-c4d875cc53ab",
+      "title": "Recuperaron elementos robados y aprehendieron a dos hombres en San Patricio del Chañar - Chañar Digital",
+      "publishedAt": "2026-09-30T05:06:18+00:00",
+      "firstSeen": "2026-10-05T18:12:21.393388+00:00",
+      "lastSeen": "2026-09-30T05:06:18+00:00",
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SERVICIOS",
-      "movement": 34,
-      "coverage": 2,
+      "movement": 24,
+      "coverage": 1,
       "sourceCount": 1,
       "directSourceCount": 0,
       "territorialAnchors": [
@@ -3297,27 +3343,8 @@
       "sources": [
         "Chañar Digital"
       ],
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOQm4yWXVjUWFnUXdPSjEtSlJmcTlCMjc5Ym02bHFaRmIzQWRzT0xsYkYzM0w2cjhGeWM3Zk9ZUzZ5dXZPekRCZ1JoZjEwcGJyNHZqaVI0Z3JHdFNiWXNvck5KSmxYTFZNN25tUEtUWUN5SXZjTzVSUm81UFNvV0NSVW9CaWRfdzkxdDNGTTc4eWFvTEl0RGhPUWNpS1RqYWYwenM1dWU4YXdIeFJNdXFkcm9hdG5FblVzN0REalViUTViMW43YVR0SDZhMnh0QkFwWjR3UQ?oc=5",
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPUDV6dmg2a05iZUZNY0J2UkNvdWwyRXV4bEdzTk10a3kxRXgxSUNTS255WVZocVlxNW9CemY5RU5jTlFWcDZBTERnOVJpSm96eXBOMjBCQWJTenlmenVCVVI0bm9fSmlSODd2Wk9QWVRPSzFHbmlwZ3lPdHdxamIwWDBpRXVFT1NUcEF4X1lGR2lxV1pLbkNCWFVlazQ0anQwdjl6bHBESTNGdzJRNUlwQjE4X0xTTmdTS1pmQmg3cEtRa2pfZkxWcmp1RWE2VU1SSFVySUQ5QQ?oc=5",
       "items": [
-        {
-          "title": "Dos heridos de bala tras un violento incidente en la toma de San Patricio del Chañar - Chañar Digital",
-          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOQm4yWXVjUWFnUXdPSjEtSlJmcTlCMjc5Ym02bHFaRmIzQWRzT0xsYkYzM0w2cjhGeWM3Zk9ZUzZ5dXZPekRCZ1JoZjEwcGJyNHZqaVI0Z3JHdFNiWXNvck5KSmxYTFZNN25tUEtUWUN5SXZjTzVSUm81UFNvV0NSVW9CaWRfdzkxdDNGTTc4eWFvTEl0RGhPUWNpS1RqYWYwenM1dWU4YXdIeFJNdXFkcm9hdG5FblVzN0REalViUTViMW43YVR0SDZhMnh0QkFwWjR3UQ?oc=5",
-          "publishedAt": "2026-10-01T05:06:03+00:00",
-          "published": "2026-10-01T05:06:03+00:00",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMi1AFBVV95cUxOQm4yWXVjUWFnUXdPSjEtSlJmcTlCMjc5Ym02bHFaRmIzQWRzT0xsYkYzM0w2cjhGeWM3Zk9ZUzZ5dXZPekRCZ1JoZjEwcGJyNHZqaVI0Z3JHdFNiWXNvck5KSmxYTFZNN25tUEtUWUN5SXZjTzVSUm81UFNvV0NSVW9CaWRfdzkxdDNGTTc4eWFvTEl0RGhPUWNpS1RqYWYwenM1dWU4YXdIeFJNdXFkcm9hdG5FblVzN0REalViUTViMW43YVR0SDZhMnh0QkFwWjR3UQ?oc=5\" target=\"_blank\">Dos heridos de bala tras un violento incidente en la toma de San Patricio del Chañar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Chañar Digital</font>",
-          "source": "Chañar Digital",
-          "sourceType": "BUSCADOR / RESPALDO",
-          "sourceUrl": "",
-          "collection": "BUSCADOR",
-          "query": "site:chanardigital.com.ar \"San Patricio del Chañar\"",
-          "relevance": 3,
-          "relevanceLabel": "DIRECTA",
-          "firstSeen": "2026-10-04T05:20:25.116611+00:00",
-          "isNew": false,
-          "titleKey": "dos heridos bala tras violento incidente toma digital",
-          "evidenceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOQm4yWXVjUWFnUXdPSjEtSlJmcTlCMjc5Ym02bHFaRmIzQWRzT0xsYkYzM0w2cjhGeWM3Zk9ZUzZ5dXZPekRCZ1JoZjEwcGJyNHZqaVI0Z3JHdFNiWXNvck5KSmxYTFZNN25tUEtUWUN5SXZjTzVSUm81UFNvV0NSVW9CaWRfdzkxdDNGTTc4eWFvTEl0RGhPUWNpS1RqYWYwenM1dWU4YXdIeFJNdXFkcm9hdG5FblVzN0REalViUTViMW43YVR0SDZhMnh0QkFwWjR3UQ?oc=5",
-          "sourcePriority": 3
-        },
         {
           "title": "Recuperaron elementos robados y aprehendieron a dos hombres en San Patricio del Chañar - Chañar Digital",
           "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPUDV6dmg2a05iZUZNY0J2UkNvdWwyRXV4bEdzTk10a3kxRXgxSUNTS255WVZocVlxNW9CemY5RU5jTlFWcDZBTERnOVJpSm96eXBOMjBCQWJTenlmenVCVVI0bm9fSmlSODd2Wk9QWVRPSzFHbmlwZ3lPdHdxamIwWDBpRXVFT1NUcEF4X1lGR2lxV1pLbkNCWFVlazQ0anQwdjl6bHBESTNGdzJRNUlwQjE4X0xTTmdTS1pmQmg3cEtRa2pfZkxWcmp1RWE2VU1SSFVySUQ5QQ?oc=5",
@@ -3332,14 +3359,14 @@
           "relevance": 3,
           "relevanceLabel": "DIRECTA",
           "firstSeen": "2026-10-05T18:12:21.393388+00:00",
-          "isNew": true,
+          "isNew": false,
           "titleKey": "recuperaron elementos robados aprehendieron dos hombres digital",
           "evidenceUrl": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPUDV6dmg2a05iZUZNY0J2UkNvdWwyRXV4bEdzTk10a3kxRXgxSUNTS255WVZocVlxNW9CemY5RU5jTlFWcDZBTERnOVJpSm96eXBOMjBCQWJTenlmenVCVVI0bm9fSmlSODd2Wk9QWVRPSzFHbmlwZ3lPdHdxamIwWDBpRXVFT1NUcEF4X1lGR2lxV1pLbkNCWFVlazQ0anQwdjl6bHBESTNGdzJRNUlwQjE4X0xTTmdTS1pmQmg3cEtRa2pfZkxWcmp1RWE2VU1SSFVySUQ5QQ?oc=5",
           "sourcePriority": 3
         }
       ],
-      "lifecycle": "SIN NUEVA COBERTURA",
-      "movementDelta": 0,
+      "lifecycle": "RECIENTE",
+      "movementDelta": 8,
       "previousCoverage": 2,
       "newSources": [],
       "sourceDiversity": 1,
@@ -3371,8 +3398,7 @@
             "evidence": "DIRECTA"
           }
         ]
-      },
-      "sourceContinuity": "fuente conocida sin respuesta; no se infiere desaparición"
+      }
     },
     {
       "eventId": "CHA-42912f574896",
@@ -3419,7 +3445,7 @@
         }
       ],
       "lifecycle": "RECIENTE",
-      "movementDelta": -3,
+      "movementDelta": 0,
       "previousCoverage": 1,
       "newSources": [],
       "sourceDiversity": 1,
@@ -3614,15 +3640,15 @@
           "sourcePriority": 3
         }
       ],
-      "lifecycle": "ACTIVO",
-      "movementDelta": 0,
-      "previousCoverage": 0,
+      "lifecycle": "RECIENTE",
+      "movementDelta": -44,
+      "previousCoverage": 1,
       "newSources": [
         "Chañar Digital"
       ],
       "sourceDiversity": 1,
-      "memoryMatched": false,
-      "isNew": true,
+      "memoryMatched": true,
+      "isNew": false,
       "view": "INCIDENCIA",
       "incidenceEligible": true,
       "signalReason": "reservado a incidencia territorial",
@@ -3742,23 +3768,23 @@
   ],
   "items": [
     {
-      "title": "Lo balearon en la meseta y murió en el hospital: investigan un ataque fatal en el Parque Industrial de Neuquén",
-      "url": "https://www.rionegro.com.ar/policiales/lo-balearon-en-la-meseta-y-murio-en-el-hospital-investigan-un-ataque-fatal-en-el-parque-industrial-de-neuquen-4748120/",
-      "publishedAt": "2026-10-05T16:43:58+00:00",
-      "published": "2026-10-05T16:43:58+00:00",
-      "description": "",
-      "source": "Diario Río Negro",
-      "sourceType": "MEDIO REGIONAL",
-      "sourceUrl": "https://www.rionegro.com.ar/",
-      "collection": "DIRECTA",
-      "query": "https://www.rionegro.com.ar/feed/",
+      "title": "San Patricio del Chañar es sede del 4.º Festival Internacional de Danzas “Danza sin Fronteras” - Neuquén News",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNS0tvdG9BcXowS1JIbFBIa1Nmd0FFTUFrSXpwLU9HcUpKRWdDS1k2SkphMlBCYWhVOFVQMnFDMkNES1pZdnQwQmhrS1l2MjlCOF9aQ3RVaU1CQmpxd2J3eGtHLXRtTHpyUHlTUUU1R3otVjdDTXFJdmwxNy1sS2dPWk1NMEEzaFJUd0c4TDBIcUxPNEluZ1F1TzNRR0dIOS1hUmY4cHhNYlVETlpjN1dueFlnTWF5M3VmUmprVzlkN2s?oc=5",
+      "publishedAt": "2026-10-05T17:58:00+00:00",
+      "published": "2026-10-05T17:58:00+00:00",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxNS0tvdG9BcXowS1JIbFBIa1Nmd0FFTUFrSXpwLU9HcUpKRWdDS1k2SkphMlBCYWhVOFVQMnFDMkNES1pZdnQwQmhrS1l2MjlCOF9aQ3RVaU1CQmpxd2J3eGtHLXRtTHpyUHlTUUU1R3otVjdDTXFJdmwxNy1sS2dPWk1NMEEzaFJUd0c4TDBIcUxPNEluZ1F1TzNRR0dIOS1hUmY4cHhNYlVETlpjN1dueFlnTWF5M3VmUmprVzlkN2s?oc=5\" target=\"_blank\">San Patricio del Chañar es sede del 4.º Festival Internacional de Danzas “Danza sin Fronteras”</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Neuquén News</font>",
+      "source": "Neuquén News",
+      "sourceType": "BUSCADOR / RESPALDO",
+      "sourceUrl": "",
+      "collection": "BUSCADOR",
+      "query": "\"San Patricio del Chañar\"",
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
-      "firstSeen": "2026-10-05T18:12:21.393388+00:00",
+      "firstSeen": "2026-10-06T00:15:39.956849+00:00",
       "isNew": true,
-      "titleKey": "balearon meseta murio hospital investigan ataque fatal parque industrial",
-      "evidenceUrl": "https://www.rionegro.com.ar/policiales/lo-balearon-en-la-meseta-y-murio-en-el-hospital-investigan-un-ataque-fatal-en-el-parque-industrial-de-neuquen-4748120/",
-      "sourcePriority": 2
+      "titleKey": "sede festival internacional danzas danza sin fronteras news",
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNS0tvdG9BcXowS1JIbFBIa1Nmd0FFTUFrSXpwLU9HcUpKRWdDS1k2SkphMlBCYWhVOFVQMnFDMkNES1pZdnQwQmhrS1l2MjlCOF9aQ3RVaU1CQmpxd2J3eGtHLXRtTHpyUHlTUUU1R3otVjdDTXFJdmwxNy1sS2dPWk1NMEEzaFJUd0c4TDBIcUxPNEluZ1F1TzNRR0dIOS1hUmY4cHhNYlVETlpjN1dueFlnTWF5M3VmUmprVzlkN2s?oc=5",
+      "sourcePriority": 3
     },
     {
       "title": "San Patricio del Chañar clasificó y dejó una fuerte bandera contra el fallo del Consejo Federal - Lmneuquen.com",
@@ -3774,7 +3800,7 @@
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "firstSeen": "2026-10-05T18:12:21.393388+00:00",
-      "isNew": true,
+      "isNew": false,
       "titleKey": "clasifico dejo fuerte bandera contra fallo consejo federal lmneuquen com",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNd2p1ZW01bTdyNTdPbFZCd0xaYThBaUs4aHJ1WUtQMndSR1VDNEc0UXJJN1F6SXdFWXFJSWNOdE5EMVRQejQtUWtHcHhzdU52MU9uZnJVaThCTjJUcnBJVzl5YmM2cTFhd3BYUEtOUnZ4R2xjOEVnNGlhd0dlUmpzR0pPekN5ZGlxSHhXS19vVm4wQmJVUjVwSXFQZDZ5TlI4UjNuVHUzRlNicUo3TzdNYUM2MU5oM0hhX0xvc3VwTXF2N3Rqdmo5QU44MFdhR3BJTC13c1RB0gHbAUFVX3lxTE9WYUJQd1FCNW5QTzBFVmxnRlVybXJnWUJ5Qkw2dnRjMTdOMHFJSFhpVGd5VkNzQmJXbEliM1FjMHlnSzRrTE55dEdZZXhVVVhMWlVJalhWVTlmZlViSFdYQjJfbVN2TXlBZnl4U25WRGItaDVvUGlGMnR0bUhvdmNpX1hFTm94STNmZ28wcnBCQ3Z2MUtRUXJKVHpWMm1UWEFEMWZlczhZVk54VXI4RzlMa0JIVWVGalF6MnFFakpSM2ItNUNwRGtvSmRaemJrLUtySXN0aWI0VVJodw?oc=5",
       "sourcePriority": 3
@@ -3818,12 +3844,12 @@
       "sourcePriority": 3
     },
     {
-      "title": "Ataque a tiros en El Chañar: le vendió un arma, volvió a buscarla y terminó baleando al comprador - patagonia.press",
+      "title": "Ataque a tiros en El Chañar: le vendió un arma, volvió a buscarla y terminó baleando al comprador - Patagonia Press",
       "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOZnNrMFJrV1JBc3duSHNsRFNFOWM1SFcwNHE2VFNkNF9ndWFTY1dKMl8yeERPQjllVnpSeW81UDI3ZXd3LTdVeWJYUWhiS1ItU05yV0V1Zk91VnZXQVhScWNlTEtOdnFwbVgyZGh2aXFzY0ZhM2dGdy1WRWE1MnlqaVNWNzVkS0g5MHUwMmRVWVdyR1JRSklaZWdqVU9Wd0ZzSGFqXzF1R3pyM1NZWHc5eExOZTFrMUhNejdyMnRjcllZYkdmZEotMkxnV2tGcDZOWWlmSVh3TUNvNmNibTJXbFhoMFFBNXdFTGFF?oc=5",
       "publishedAt": "2026-10-02T22:54:36+00:00",
       "published": "2026-10-02T22:54:36+00:00",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMi6wFBVV95cUxOZnNrMFJrV1JBc3duSHNsRFNFOWM1SFcwNHE2VFNkNF9ndWFTY1dKMl8yeERPQjllVnpSeW81UDI3ZXd3LTdVeWJYUWhiS1ItU05yV0V1Zk91VnZXQVhScWNlTEtOdnFwbVgyZGh2aXFzY0ZhM2dGdy1WRWE1MnlqaVNWNzVkS0g5MHUwMmRVWVdyR1JRSklaZWdqVU9Wd0ZzSGFqXzF1R3pyM1NZWHc5eExOZTFrMUhNejdyMnRjcllZYkdmZEotMkxnV2tGcDZOWWlmSVh3TUNvNmNibTJXbFhoMFFBNXdFTGFF?oc=5\" target=\"_blank\">Ataque a tiros en El Chañar: le vendió un arma, volvió a buscarla y terminó baleando al comprador</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">patagonia.press</font>",
-      "source": "patagonia.press",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMi6wFBVV95cUxOZnNrMFJrV1JBc3duSHNsRFNFOWM1SFcwNHE2VFNkNF9ndWFTY1dKMl8yeERPQjllVnpSeW81UDI3ZXd3LTdVeWJYUWhiS1ItU05yV0V1Zk91VnZXQVhScWNlTEtOdnFwbVgyZGh2aXFzY0ZhM2dGdy1WRWE1MnlqaVNWNzVkS0g5MHUwMmRVWVdyR1JRSklaZWdqVU9Wd0ZzSGFqXzF1R3pyM1NZWHc5eExOZTFrMUhNejdyMnRjcllZYkdmZEotMkxnV2tGcDZOWWlmSVh3TUNvNmNibTJXbFhoMFFBNXdFTGFF?oc=5\" target=\"_blank\">Ataque a tiros en El Chañar: le vendió un arma, volvió a buscarla y terminó baleando al comprador</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Patagonia Press</font>",
+      "source": "Patagonia Press",
       "sourceType": "BUSCADOR / RESPALDO",
       "sourceUrl": "",
       "collection": "BUSCADOR",
@@ -3850,7 +3876,7 @@
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "firstSeen": "2026-10-05T18:12:21.393388+00:00",
-      "isNew": true,
+      "isNew": false,
       "titleKey": "sala elaboracion alimentos cuenta avance ciento informa",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPR2Nod3B5b1lCaVVzU1dya2lVdmJxOGxEVjU5dEwwVmVGUlFJTjF1ZC1SbVBFZjNFSUoxU243ZlJ5c3dLTUlZMUZBUF9kRDREUEdBa0t4M0RfWHB3aHJTRV8ya1JvVGkydGF2MFJTVmRpWHV6bERMZkxWQzhMdWgtT0RoaWpKZG52NHZfYTlMNm5UN2YzN295SkhkR3BCeExVOFVWVkNFYlpaWUh2UGQtc25vRXpwMTExQ3VxaUowT1VvS21jaHpIN1QtVk1IOEdLTGc0V241RlI4eElEb0x3VXN6Sk5xSy1QV1Zma0xQSThKS1hy0gH6AUFVX3lxTE1pOXg0UV9RTDVYU0FUUHhYRlo0N3NwSE82Xy1XcUs4Vm5HZ1E1YV81dm1GZHlpc0pHLVJBcnlTdFpUV2xhM3M1ZDNBdXhEMmttZThaVkhCOVhfQmE3YW9RTnhNbEU0aWk4NEFJUVpoMVdDZW9wY2ctX1R1bjFNMmJBWkpJSjI2X2ZzdTlWQ3pZNDVaWFlwZHJ4T3ZiRjJURks4SlUyQ2VxNGxPd25lSFhkWkdwQ1Q0OHY1TWtlZFhldmZnUkhOVDJqTzh3Z296NWdxdDlyeUJhdzB2X21iLXh2aUFKTzBkU204NGcySXpjN0ladi1hUXlsMnc?oc=5",
       "sourcePriority": 3
@@ -3888,7 +3914,7 @@
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "firstSeen": "2026-10-05T18:12:21.393388+00:00",
-      "isNew": true,
+      "isNew": false,
       "titleKey": "recuperaron elementos robados aprehendieron dos hombres digital",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPUDV6dmg2a05iZUZNY0J2UkNvdWwyRXV4bEdzTk10a3kxRXgxSUNTS255WVZocVlxNW9CemY5RU5jTlFWcDZBTERnOVJpSm96eXBOMjBCQWJTenlmenVCVVI0bm9fSmlSODd2Wk9QWVRPSzFHbmlwZ3lPdHdxamIwWDBpRXVFT1NUcEF4X1lGR2lxV1pLbkNCWFVlazQ0anQwdjl6bHBESTNGdzJRNUlwQjE4X0xTTmdTS1pmQmg3cEtRa2pfZkxWcmp1RWE2VU1SSFVySUQ5QQ?oc=5",
       "sourcePriority": 3
@@ -3972,7 +3998,7 @@
   ],
   "territorialGraph": {
     "version": "2.0",
-    "generatedAt": "2026-10-05T18:12:33.349495+00:00",
+    "generatedAt": "2026-10-06T00:15:51.616337+00:00",
     "root": "spc",
     "rule": "evidence-first",
     "levels": [
@@ -4208,7 +4234,7 @@
         "aliases": [
           "parque industrial"
         ],
-        "eventCount": 1
+        "eventCount": 0
       },
       {
         "id": "loteo-social",
@@ -4526,24 +4552,16 @@
         "relation": "COOCURRENCIA_TEXTUAL",
         "eventCount": 1,
         "evidence": "menciones de ambos nodos dentro del mismo hecho"
-      },
-      {
-        "from": "parque-industrial",
-        "to": "spc",
-        "relation": "COOCURRENCIA_TEXTUAL",
-        "eventCount": 1,
-        "evidence": "menciones de ambos nodos dentro del mismo hecho"
       }
     ],
     "eventNodes": {
       "CHA-2f7210eef2b3": [
         "spc"
       ],
-      "CHA-da4c4bba4a20": [
-        "spc",
-        "parque-industrial"
+      "CHA-071f588c1e15": [
+        "spc"
       ],
-      "CHA-8d3cfa288afa": [
+      "CHA-c4d875cc53ab": [
         "spc"
       ],
       "CHA-42912f574896": [
@@ -4575,18 +4593,18 @@
     },
     "stats": {
       "nodes": 46,
-      "activeNodes": 5,
-      "edges": 4,
+      "activeNodes": 4,
+      "edges": 3,
       "eventsLinked": 7,
       "eventsWithMicrozones": 0,
       "eventsWithBarrios": 0,
-      "eventsWithSectors": 1,
+      "eventsWithSectors": 0,
       "levelActivity": {
         "localidad": 1,
         "microregion": 0,
         "corredor": 0,
         "microzona": 0,
-        "sector": 1,
+        "sector": 0,
         "barrio": 0,
         "institucion": 2,
         "servicio": 0,
@@ -4597,17 +4615,17 @@
   },
   "audit": {
     "version": "1.0",
-    "updatedAt": "2026-10-05T18:12:33.398584+00:00",
+    "updatedAt": "2026-10-06T00:15:51.669798+00:00",
     "rule": "fact != coverage; territory requires textual evidence",
     "facts": 7,
-    "coverage": 14,
-    "coveragePerFact": 2.0,
+    "coverage": 19,
+    "coveragePerFact": 2.71,
     "directAnchorFacts": 7,
     "directAnchorPct": 100.0,
-    "territorySpecificFacts": 3,
-    "territorySpecificPct": 42.9,
-    "averageSourcesPerFact": 1.71,
-    "activeTerritorialNodes": 5,
+    "territorySpecificFacts": 2,
+    "territorySpecificPct": 28.6,
+    "averageSourcesPerFact": 1.86,
+    "activeTerritorialNodes": 4,
     "failedSources": 10,
     "acceptedWithoutLocalEvidence": 1,
     "examplesAcceptedWithoutLocalEvidence": [
