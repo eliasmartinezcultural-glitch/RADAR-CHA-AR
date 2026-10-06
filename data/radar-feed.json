@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-06T19:45:33.384882+00:00",
+  "updatedAt": "2026-10-06T23:42:02.038120+00:00",
   "window": "14 días",
   "purpose": "Detectar qué se está moviendo en San Patricio del Chañar y mostrar de dónde surge cada señal.",
   "architecture": "contrato universal de procedencia + fuentes profesionales + adaptadores específicos + validación semántica + temporalidad + evidencia editorial separada",
@@ -49,7 +49,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://chanardigital.com.ar/",
-      "lastFetch": "2026-10-06T19:45:02.156796+00:00",
+      "lastFetch": "2026-10-06T23:41:36.550140+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -65,7 +65,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.radiomia.com.ar/",
-      "lastFetch": "2026-10-06T19:45:03.428359+00:00",
+      "lastFetch": "2026-10-06T23:41:37.922860+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -80,7 +80,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://tuitvacamuerta.com/",
-      "lastFetch": "2026-10-06T19:45:05.198377+00:00",
+      "lastFetch": "2026-10-06T23:41:39.564375+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -95,7 +95,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.vacamuertanews.com/",
-      "lastFetch": "2026-10-06T19:45:05.758691+00:00",
+      "lastFetch": "2026-10-06T23:41:40.210589+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -111,7 +111,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.neuqueninforma.gob.ar/",
-      "lastFetch": "2026-10-06T19:45:07.583939+00:00",
+      "lastFetch": "2026-10-06T23:41:43.759152+00:00",
       "success": false,
       "attempted": 3,
       "failures": [
@@ -128,7 +128,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://sanpatricio.gob.ar/",
-      "lastFetch": "2026-10-06T19:45:08.946432+00:00",
+      "lastFetch": "2026-10-06T23:41:44.823985+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -143,7 +143,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://boletinoficial.neuquen.gov.ar/",
-      "lastFetch": "2026-10-06T19:45:09.726088+00:00",
+      "lastFetch": "2026-10-06T23:41:45.605428+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -158,7 +158,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.lmneuquen.com/",
-      "lastFetch": "2026-10-06T19:45:09.916300+00:00",
+      "lastFetch": "2026-10-06T23:41:45.820747+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -171,17 +171,17 @@
     {
       "name": "Diario Río Negro",
       "type": "MEDIO REGIONAL",
-      "mode": "RSS DIRECTO",
-      "signals": 1,
+      "mode": "SIN RESPUESTA",
+      "signals": 0,
       "url": "https://www.rionegro.com.ar/",
-      "lastFetch": "2026-10-06T19:45:15.411731+00:00",
+      "lastFetch": "2026-10-06T23:41:50.171097+00:00",
       "success": true,
       "attempted": 2,
       "failures": [
         "WEB:AttributeError"
       ],
       "directAvailability": "available",
-      "freshnessHours": 1.7
+      "freshnessHours": null
     },
     {
       "name": "Mejor Informado",
@@ -189,7 +189,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.mejorinformado.com/",
-      "lastFetch": "2026-10-06T19:45:16.080694+00:00",
+      "lastFetch": "2026-10-06T23:41:50.861487+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -205,7 +205,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.diariamenteneuquen.com/",
-      "lastFetch": "2026-10-06T19:45:19.163909+00:00",
+      "lastFetch": "2026-10-06T23:41:51.818965+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -709,13 +709,13 @@
   "languageAudit": [
     {
       "term": "el chañar",
-      "hits": 12,
-      "direct": 12
+      "hits": 13,
+      "direct": 13
     },
     {
       "term": "san patricio del chañar",
-      "hits": 11,
-      "direct": 11
+      "hits": 12,
+      "direct": 12
     },
     {
       "term": "epet 26",
@@ -1218,13 +1218,14 @@
         "source": "Neuquén News",
         "group": "OBSERVADA",
         "role": "fuente detectada fuera del catálogo",
-        "accepted": 1,
-        "direct": 1,
+        "accepted": 2,
+        "direct": 2,
         "anchored": 0,
         "falsePositives": 0,
         "falsePositiveTypes": [],
         "topics": [
-          "CULTURA / TURISMO"
+          "CULTURA / TURISMO",
+          "SERVICIOS"
         ]
       },
       {
@@ -1445,6 +1446,18 @@
         ]
       },
       {
+        "source": "Neuquén News",
+        "topic": "SERVICIOS",
+        "accepted": 1,
+        "direct": 1,
+        "anchored": 0,
+        "falsePositives": 0,
+        "territorialTerms": [
+          "san patricio del chañar",
+          "el chañar"
+        ]
+      },
+      {
         "source": "Neuquén al instante",
         "topic": "SERVICIOS",
         "accepted": 1,
@@ -1472,8 +1485,8 @@
     "languagePrecision": [
       {
         "term": "san patricio del chañar",
-        "acceptedHits": 11,
-        "directHits": 11,
+        "acceptedHits": 12,
+        "directHits": 12,
         "rejectedTitleHits": 0,
         "territorialStrength": "FUERTE"
       },
@@ -1486,8 +1499,8 @@
       },
       {
         "term": "el chañar",
-        "acceptedHits": 12,
-        "directHits": 12,
+        "acceptedHits": 13,
+        "directHits": 13,
         "rejectedTitleHits": 0,
         "territorialStrength": "FUERTE"
       },
@@ -1812,12 +1825,12 @@
     "interpretation": "auditoría sobre eventos aceptados; la próxima capa debe instrumentar rechazos antes del clustering"
   },
   "stats": {
-    "total": 14,
-    "direct": 14,
+    "total": 15,
+    "direct": 15,
     "regional": 0,
-    "new": 1,
+    "new": 3,
     "sources": 9,
-    "directSignals": 1,
+    "directSignals": 0,
     "localDirectSignals": 0,
     "radioDirectSignals": 0,
     "precisionRule": "evidence-first",
@@ -1830,7 +1843,7 @@
       "forecastGustKmh": 36.0,
       "forecastWindDirection": "E",
       "forecastTemperatureC": 14.0,
-      "retrievedAt": "2026-10-06T19:44:59.307811+00:00",
+      "retrievedAt": "2026-10-06T23:41:34.136728+00:00",
       "source": "AIC",
       "sourceTier": "primary",
       "sourceUrl": "https://www.aic.gob.ar/sitio/home?a=1015&z=1967225803",
@@ -1860,7 +1873,7 @@
       "currentProgrammedMinM3s": 260,
       "programDate": "2026-10-07",
       "tableDate": "2026-10-06",
-      "retrievedAt": "2026-10-06T19:44:59.307811+00:00",
+      "retrievedAt": "2026-10-06T23:41:34.136728+00:00",
       "source": "AIC",
       "sourceTier": "primary",
       "sourceUrl": "https://www.aic.gob.ar/sitio/caudales",
@@ -1880,17 +1893,17 @@
         "url": "https://www.aic.gob.ar/sitio/caudales"
       }
     ],
-    "updatedAt": "2026-10-06T19:44:59.307811+00:00"
+    "updatedAt": "2026-10-06T23:41:34.136728+00:00"
   },
   "operational": {
-    "updatedAt": "2026-10-06T19:44:59.307811+00:00",
+    "updatedAt": "2026-10-06T23:41:34.136728+00:00",
     "route7": {
       "source": "Dirección Provincial de Vialidad",
       "sourceTier": "primary",
       "sourceUrl": "https://www.dpvneuquen.gov.ar/",
       "semanticState": null,
       "publicationState": "source_reachable_no_current_machine_readable_state",
-      "retrievedAt": "2026-10-06T19:44:59.307811+00:00",
+      "retrievedAt": "2026-10-06T23:41:34.136728+00:00",
       "evidence": {
         "route7Mention": true,
         "route8Mention": false
@@ -1902,7 +1915,7 @@
       "sourceUrl": "https://www.dpvneuquen.gov.ar/",
       "semanticState": null,
       "publicationState": "source_reachable_no_current_machine_readable_state",
-      "retrievedAt": "2026-10-06T19:44:59.307811+00:00",
+      "retrievedAt": "2026-10-06T23:41:34.136728+00:00",
       "evidence": {
         "route7Mention": true,
         "route8Mention": false
@@ -1916,7 +1929,7 @@
       "eventType": null,
       "detail": null,
       "publicationState": "source_reachable_no_specific_local_notice",
-      "retrievedAt": "2026-10-06T19:44:59.307811+00:00"
+      "retrievedAt": "2026-10-06T23:41:34.136728+00:00"
     },
     "water": {
       "source": "EPAS",
@@ -1926,7 +1939,7 @@
       "eventType": null,
       "detail": null,
       "publicationState": "source_reachable_no_specific_local_notice",
-      "retrievedAt": "2026-10-06T19:44:59.307811+00:00"
+      "retrievedAt": "2026-10-06T23:41:34.136728+00:00"
     },
     "sources": [
       {
@@ -2338,7 +2351,7 @@
       "label": "Conversación general",
       "signal": 8,
       "status": "cobertura editorial",
-      "freshnessHours": 1.7,
+      "freshnessHours": 5.6,
       "mode": "evidencia editorial",
       "evidenceCount": 8,
       "sourceContract": {
@@ -2418,7 +2431,7 @@
         "sourceUrl": "https://www.dpvneuquen.gov.ar/",
         "semanticState": null,
         "publicationState": "source_reachable_no_current_machine_readable_state",
-        "retrievedAt": "2026-10-06T19:44:59.307811+00:00",
+        "retrievedAt": "2026-10-06T23:41:34.136728+00:00",
         "evidence": {
           "route7Mention": true,
           "route8Mention": false
@@ -2470,7 +2483,7 @@
         "sourceUrl": "https://www.dpvneuquen.gov.ar/",
         "semanticState": null,
         "publicationState": "source_reachable_no_current_machine_readable_state",
-        "retrievedAt": "2026-10-06T19:44:59.307811+00:00",
+        "retrievedAt": "2026-10-06T23:41:34.136728+00:00",
         "evidence": {
           "route7Mention": true,
           "route8Mention": false
@@ -2570,7 +2583,7 @@
         "eventType": null,
         "detail": null,
         "publicationState": "source_reachable_no_specific_local_notice",
-        "retrievedAt": "2026-10-06T19:44:59.307811+00:00"
+        "retrievedAt": "2026-10-06T23:41:34.136728+00:00"
       }
     },
     {
@@ -2620,7 +2633,7 @@
         "eventType": null,
         "detail": null,
         "publicationState": "source_reachable_no_specific_local_notice",
-        "retrievedAt": "2026-10-06T19:44:59.307811+00:00"
+        "retrievedAt": "2026-10-06T23:41:34.136728+00:00"
       }
     },
     {
@@ -2708,7 +2721,7 @@
       "label": "Educación",
       "signal": 2,
       "status": "evidencia educativa",
-      "freshnessHours": 236.7,
+      "freshnessHours": 240.6,
       "mode": "evidencia editorial",
       "evidenceCount": 2,
       "sourceContract": {
@@ -2748,7 +2761,7 @@
       "label": "Producción rural",
       "signal": 1,
       "status": "evidencia productiva",
-      "freshnessHours": 191.9,
+      "freshnessHours": 195.8,
       "mode": "evidencia editorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -2885,7 +2898,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://chanardigital.com.ar/",
-        "lastFetch": "2026-10-06T19:45:02.156796+00:00",
+        "lastFetch": "2026-10-06T23:41:36.550140+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -2901,7 +2914,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.radiomia.com.ar/",
-        "lastFetch": "2026-10-06T19:45:03.428359+00:00",
+        "lastFetch": "2026-10-06T23:41:37.922860+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -2916,7 +2929,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://tuitvacamuerta.com/",
-        "lastFetch": "2026-10-06T19:45:05.198377+00:00",
+        "lastFetch": "2026-10-06T23:41:39.564375+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -2931,7 +2944,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.vacamuertanews.com/",
-        "lastFetch": "2026-10-06T19:45:05.758691+00:00",
+        "lastFetch": "2026-10-06T23:41:40.210589+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -2947,7 +2960,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.neuqueninforma.gob.ar/",
-        "lastFetch": "2026-10-06T19:45:07.583939+00:00",
+        "lastFetch": "2026-10-06T23:41:43.759152+00:00",
         "success": false,
         "attempted": 3,
         "failures": [
@@ -2964,7 +2977,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://sanpatricio.gob.ar/",
-        "lastFetch": "2026-10-06T19:45:08.946432+00:00",
+        "lastFetch": "2026-10-06T23:41:44.823985+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -2979,7 +2992,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://boletinoficial.neuquen.gov.ar/",
-        "lastFetch": "2026-10-06T19:45:09.726088+00:00",
+        "lastFetch": "2026-10-06T23:41:45.605428+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -2994,7 +3007,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.lmneuquen.com/",
-        "lastFetch": "2026-10-06T19:45:09.916300+00:00",
+        "lastFetch": "2026-10-06T23:41:45.820747+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3007,17 +3020,17 @@
       {
         "name": "Diario Río Negro",
         "type": "MEDIO REGIONAL",
-        "mode": "RSS DIRECTO",
-        "signals": 1,
+        "mode": "SIN RESPUESTA",
+        "signals": 0,
         "url": "https://www.rionegro.com.ar/",
-        "lastFetch": "2026-10-06T19:45:15.411731+00:00",
+        "lastFetch": "2026-10-06T23:41:50.171097+00:00",
         "success": true,
         "attempted": 2,
         "failures": [
           "WEB:AttributeError"
         ],
         "directAvailability": "available",
-        "freshnessHours": 1.7
+        "freshnessHours": null
       },
       {
         "name": "Mejor Informado",
@@ -3025,7 +3038,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.mejorinformado.com/",
-        "lastFetch": "2026-10-06T19:45:16.080694+00:00",
+        "lastFetch": "2026-10-06T23:41:50.861487+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3041,7 +3054,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.diariamenteneuquen.com/",
-        "lastFetch": "2026-10-06T19:45:19.163909+00:00",
+        "lastFetch": "2026-10-06T23:41:51.818965+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3060,138 +3073,16 @@
   "events": [
     {
       "eventId": "CHA-2f7210eef2b3",
-      "title": "Después de las banderas en contra, San Patricio del Chañar le pidió disculpas al Consejo Federal",
-      "publishedAt": "2026-10-06T18:04:48+00:00",
-      "firstSeen": "2026-10-05T18:12:21.393388+00:00",
-      "lastSeen": "2026-10-06T18:04:48+00:00",
-      "relevance": 3,
-      "relevanceLabel": "DIRECTA",
-      "incidenceLabel": "DIRECTA EN CHANAR",
-      "topic": "SERVICIOS",
-      "movement": 76,
-      "coverage": 3,
-      "sourceCount": 3,
-      "directSourceCount": 1,
-      "territorialAnchors": [
-        "san patricio del chañar",
-        "el chañar"
-      ],
-      "sources": [
-        "Diario Río Negro",
-        "Lmneuquen.com",
-        "Neuquén al instante"
-      ],
-      "evidenceUrl": "https://www.rionegro.com.ar/deportes/despues-de-las-banderas-en-contra-san-patricio-del-chanar-le-pidio-disculpas-al-consejo-federal-4749566/",
-      "items": [
-        {
-          "title": "Después de las banderas en contra, San Patricio del Chañar le pidió disculpas al Consejo Federal",
-          "url": "https://www.rionegro.com.ar/deportes/despues-de-las-banderas-en-contra-san-patricio-del-chanar-le-pidio-disculpas-al-consejo-federal-4749566/",
-          "publishedAt": "2026-10-06T18:04:48+00:00",
-          "published": "2026-10-06T18:04:48+00:00",
-          "description": "",
-          "source": "Diario Río Negro",
-          "sourceType": "MEDIO REGIONAL",
-          "sourceUrl": "https://www.rionegro.com.ar/",
-          "collection": "DIRECTA",
-          "query": "https://www.rionegro.com.ar/feed/",
-          "relevance": 3,
-          "relevanceLabel": "DIRECTA",
-          "firstSeen": "2026-10-06T19:45:33.384882+00:00",
-          "isNew": true,
-          "titleKey": "despues banderas contra pidio disculpas consejo federal",
-          "evidenceUrl": "https://www.rionegro.com.ar/deportes/despues-de-las-banderas-en-contra-san-patricio-del-chanar-le-pidio-disculpas-al-consejo-federal-4749566/",
-          "sourcePriority": 2
-        },
-        {
-          "title": "San Patricio del Chañar clasificó y dejó una fuerte bandera contra el fallo del Consejo Federal - Lmneuquen.com",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNd2p1ZW01bTdyNTdPbFZCd0xaYThBaUs4aHJ1WUtQMndSR1VDNEc0UXJJN1F6SXdFWXFJSWNOdE5EMVRQejQtUWtHcHhzdU52MU9uZnJVaThCTjJUcnBJVzl5YmM2cTFhd3BYUEtOUnZ4R2xjOEVnNGlhd0dlUmpzR0pPekN5ZGlxSHhXS19vVm4wQmJVUjVwSXFQZDZ5TlI4UjNuVHUzRlNicUo3TzdNYUM2MU5oM0hhX0xvc3VwTXF2N3Rqdmo5QU44MFdhR3BJTC13c1RB0gHbAUFVX3lxTE9WYUJQd1FCNW5QTzBFVmxnRlVybXJnWUJ5Qkw2dnRjMTdOMHFJSFhpVGd5VkNzQmJXbEliM1FjMHlnSzRrTE55dEdZZXhVVVhMWlVJalhWVTlmZlViSFdYQjJfbVN2TXlBZnl4U25WRGItaDVvUGlGMnR0bUhvdmNpX1hFTm94STNmZ28wcnBCQ3Z2MUtRUXJKVHpWMm1UWEFEMWZlczhZVk54VXI4RzlMa0JIVWVGalF6MnFFakpSM2ItNUNwRGtvSmRaemJrLUtySXN0aWI0VVJodw?oc=5",
-          "publishedAt": "2026-10-04T21:59:00+00:00",
-          "published": "2026-10-04T21:59:00+00:00",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMi1gFBVV95cUxNd2p1ZW01bTdyNTdPbFZCd0xaYThBaUs4aHJ1WUtQMndSR1VDNEc0UXJJN1F6SXdFWXFJSWNOdE5EMVRQejQtUWtHcHhzdU52MU9uZnJVaThCTjJUcnBJVzl5YmM2cTFhd3BYUEtOUnZ4R2xjOEVnNGlhd0dlUmpzR0pPekN5ZGlxSHhXS19vVm4wQmJVUjVwSXFQZDZ5TlI4UjNuVHUzRlNicUo3TzdNYUM2MU5oM0hhX0xvc3VwTXF2N3Rqdmo5QU44MFdhR3BJTC13c1RB0gHbAUFVX3lxTE9WYUJQd1FCNW5QTzBFVmxnRlVybXJnWUJ5Qkw2dnRjMTdOMHFJSFhpVGd5VkNzQmJXbEliM1FjMHlnSzRrTE55dEdZZXhVVVhMWlVJalhWVTlmZlViSFdYQjJfbVN2TXlBZnl4U25WRGItaDVvUGlGMnR0bUhvdmNpX1hFTm94STNmZ28wcnBCQ3Z2MUtRUXJKVHpWMm1UWEFEMWZlczhZVk54VXI4RzlMa0JIVWVGalF6MnFFakpSM2ItNUNwRGtvSmRaemJrLUtySXN0aWI0VVJodw?oc=5\" target=\"_blank\">San Patricio del Chañar clasificó y dejó una fuerte bandera contra el fallo del Consejo Federal</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Lmneuquen.com</font>",
-          "source": "Lmneuquen.com",
-          "sourceType": "BUSCADOR / RESPALDO",
-          "sourceUrl": "",
-          "collection": "BUSCADOR",
-          "query": "\"San Patricio del Chañar\"",
-          "relevance": 3,
-          "relevanceLabel": "DIRECTA",
-          "firstSeen": "2026-10-05T18:12:21.393388+00:00",
-          "isNew": false,
-          "titleKey": "clasifico dejo fuerte bandera contra fallo consejo federal lmneuquen com",
-          "evidenceUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNd2p1ZW01bTdyNTdPbFZCd0xaYThBaUs4aHJ1WUtQMndSR1VDNEc0UXJJN1F6SXdFWXFJSWNOdE5EMVRQejQtUWtHcHhzdU52MU9uZnJVaThCTjJUcnBJVzl5YmM2cTFhd3BYUEtOUnZ4R2xjOEVnNGlhd0dlUmpzR0pPekN5ZGlxSHhXS19vVm4wQmJVUjVwSXFQZDZ5TlI4UjNuVHUzRlNicUo3TzdNYUM2MU5oM0hhX0xvc3VwTXF2N3Rqdmo5QU44MFdhR3BJTC13c1RB0gHbAUFVX3lxTE9WYUJQd1FCNW5QTzBFVmxnRlVybXJnWUJ5Qkw2dnRjMTdOMHFJSFhpVGd5VkNzQmJXbEliM1FjMHlnSzRrTE55dEdZZXhVVVhMWlVJalhWVTlmZlViSFdYQjJfbVN2TXlBZnl4U25WRGItaDVvUGlGMnR0bUhvdmNpX1hFTm94STNmZ28wcnBCQ3Z2MUtRUXJKVHpWMm1UWEFEMWZlczhZVk54VXI4RzlMa0JIVWVGalF6MnFFakpSM2ItNUNwRGtvSmRaemJrLUtySXN0aWI0VVJodw?oc=5",
-          "sourcePriority": 3
-        },
-        {
-          "title": "La sala de elaboración de alimentos de San Patricio del Chañar cuenta con un avance del 42 por ciento - Neuquén al instante",
-          "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOd3QxWmxrd3RMZjR5dGltLS1WMEZmVjZ6bXZWcHpMdGpHSTltZ3RLQUlRclhqTG82TmZiY3FTdEVOb3RWbWV0c1k3ZVdjWkpvRUNET3ZaVlJRUVI3Rko2UlJOS1ZzZ21MRWd6aXhNeHJzZGhuLS1TazRTdF9PQzN4ZE9pbjNFZjc1VVM4anNFeHN0eGNnTE1oSEg3c0c4RGtfLVZER3VlLVFnaWVjSjFTQ292LU9EUW5ROEdKZVAwT05vNnZvMFFic0w4bFBqM2czM21PWWZxUkpxX2s1VE1tTFRsb2t2NzZ0aFFqRzNMRW1Ua2dHUWFaTNIB_gFBVV95cUxQbm5va0hWOFF1T19TTGJYb212RUwwWnZ2Wnh4ZHFGbmdlX0ZmOFJ5d2tkcGh6YUltZ3ZqOS00T1VJbGZYNXNBX1hEaTBVWmFKaEQ2V09QY1cweTl4aFEyN1JRbEVXZjc0eHVSRDJOOHlxV0wxWUQxM2RTSU5INE1NVHd3RFpOUUMxNlZlZGVuVXdQUU1vRXVQMFl2SUstVHg2ZjRzYnk5WmxjVkFxd1VLQWI3dkJLbTM2eExSV2x5N0laYzhWY0c4bjBUVFlua2g3aXZpTlBBMUgtOGdGYjZFWGM4MmJUWUk3Q2FnQUFwcHlhTlJnZWUtNlVjRkc3Zw?oc=5",
-          "publishedAt": "2026-10-06T02:40:28+00:00",
-          "published": "2026-10-06T02:40:28+00:00",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMi-AFBVV95cUxOd3QxWmxrd3RMZjR5dGltLS1WMEZmVjZ6bXZWcHpMdGpHSTltZ3RLQUlRclhqTG82TmZiY3FTdEVOb3RWbWV0c1k3ZVdjWkpvRUNET3ZaVlJRUVI3Rko2UlJOS1ZzZ21MRWd6aXhNeHJzZGhuLS1TazRTdF9PQzN4ZE9pbjNFZjc1VVM4anNFeHN0eGNnTE1oSEg3c0c4RGtfLVZER3VlLVFnaWVjSjFTQ292LU9EUW5ROEdKZVAwT05vNnZvMFFic0w4bFBqM2czM21PWWZxUkpxX2s1VE1tTFRsb2t2NzZ0aFFqRzNMRW1Ua2dHUWFaTNIB_gFBVV95cUxQbm5va0hWOFF1T19TTGJYb212RUwwWnZ2Wnh4ZHFGbmdlX0ZmOFJ5d2tkcGh6YUltZ3ZqOS00T1VJbGZYNXNBX1hEaTBVWmFKaEQ2V09QY1cweTl4aFEyN1JRbEVXZjc0eHVSRDJOOHlxV0wxWUQxM2RTSU5INE1NVHd3RFpOUUMxNlZlZGVuVXdQUU1vRXVQMFl2SUstVHg2ZjRzYnk5WmxjVkFxd1VLQWI3dkJLbTM2eExSV2x5N0laYzhWY0c4bjBUVFlua2g3aXZpTlBBMUgtOGdGYjZFWGM4MmJUWUk3Q2FnQUFwcHlhTlJnZWUtNlVjRkc3Zw?oc=5\" target=\"_blank\">La sala de elaboración de alimentos de San Patricio del Chañar cuenta con un avance del 42 por ciento</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Neuquén al instante</font>",
-          "source": "Neuquén al instante",
-          "sourceType": "BUSCADOR / RESPALDO",
-          "sourceUrl": "",
-          "collection": "BUSCADOR",
-          "query": "\"San Patricio del Chañar\"",
-          "relevance": 3,
-          "relevanceLabel": "DIRECTA",
-          "firstSeen": "2026-10-06T06:45:57.600336+00:00",
-          "isNew": false,
-          "titleKey": "sala elaboracion alimentos cuenta avance ciento instante",
-          "evidenceUrl": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOd3QxWmxrd3RMZjR5dGltLS1WMEZmVjZ6bXZWcHpMdGpHSTltZ3RLQUlRclhqTG82TmZiY3FTdEVOb3RWbWV0c1k3ZVdjWkpvRUNET3ZaVlJRUVI3Rko2UlJOS1ZzZ21MRWd6aXhNeHJzZGhuLS1TazRTdF9PQzN4ZE9pbjNFZjc1VVM4anNFeHN0eGNnTE1oSEg3c0c4RGtfLVZER3VlLVFnaWVjSjFTQ292LU9EUW5ROEdKZVAwT05vNnZvMFFic0w4bFBqM2czM21PWWZxUkpxX2s1VE1tTFRsb2t2NzZ0aFFqRzNMRW1Ua2dHUWFaTNIB_gFBVV95cUxQbm5va0hWOFF1T19TTGJYb212RUwwWnZ2Wnh4ZHFGbmdlX0ZmOFJ5d2tkcGh6YUltZ3ZqOS00T1VJbGZYNXNBX1hEaTBVWmFKaEQ2V09QY1cweTl4aFEyN1JRbEVXZjc0eHVSRDJOOHlxV0wxWUQxM2RTSU5INE1NVHd3RFpOUUMxNlZlZGVuVXdQUU1vRXVQMFl2SUstVHg2ZjRzYnk5WmxjVkFxd1VLQWI3dkJLbTM2eExSV2x5N0laYzhWY0c4bjBUVFlua2g3aXZpTlBBMUgtOGdGYjZFWGM4MmJUWUk3Q2FnQUFwcHlhTlJnZWUtNlVjRkc3Zw?oc=5",
-          "sourcePriority": 3
-        }
-      ],
-      "lifecycle": "ACTIVO",
-      "movementDelta": 19,
-      "previousCoverage": 1,
-      "newSources": [
-        "Diario Río Negro",
-        "Lmneuquen.com",
-        "Neuquén al instante"
-      ],
-      "sourceDiversity": 3,
-      "memoryMatched": true,
-      "isNew": false,
-      "view": "INCIDENCIA",
-      "incidenceEligible": true,
-      "signalReason": "reservado a incidencia territorial",
-      "incidenceReason": "anclaje directo + tema operativo/local",
-      "territory": {
-        "version": "2.0",
-        "primary": "San Patricio del Chañar",
-        "nodes": [
-          "San Patricio del Chañar"
-        ],
-        "sectors": [],
-        "barrios": [],
-        "microzones": [],
-        "corridors": [],
-        "institutions": [],
-        "services": [],
-        "spaces": [],
-        "production": [],
-        "path": "San Patricio del Chañar",
-        "evidence": [
-          {
-            "node": "San Patricio del Chañar",
-            "level": "localidad",
-            "evidence": "DIRECTA"
-          }
-        ]
-      }
-    },
-    {
-      "eventId": "CHA-2f7210eef2b3",
       "title": "La sala de elaboración de alimentos de San Patricio del Chañar cuenta con un avance del 42 por ciento - Neuquen Informa",
-      "publishedAt": "2026-10-03T01:30:00+00:00",
+      "publishedAt": "2026-10-04T22:06:01+00:00",
       "firstSeen": "2026-10-04T05:20:25.116611+00:00",
-      "lastSeen": "2026-10-03T01:30:00+00:00",
+      "lastSeen": "2026-10-04T22:06:01+00:00",
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SERVICIOS",
-      "movement": 76,
-      "coverage": 5,
+      "movement": 75,
+      "coverage": 6,
       "sourceCount": 5,
       "directSourceCount": 0,
       "territorialAnchors": [
@@ -3301,18 +3192,159 @@
           "titleKey": "dos heridos bala tras violento incidente toma digital",
           "evidenceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOQm4yWXVjUWFnUXdPSjEtSlJmcTlCMjc5Ym02bHFaRmIzQWRzT0xsYkYzM0w2cjhGeWM3Zk9ZUzZ5dXZPekRCZ1JoZjEwcGJyNHZqaVI0Z3JHdFNiWXNvck5KSmxYTFZNN25tUEtUWUN5SXZjTzVSUm81UFNvV0NSVW9CaWRfdzkxdDNGTTc4eWFvTEl0RGhPUWNpS1RqYWYwenM1dWU4YXdIeFJNdXFkcm9hdG5FblVzN0REalViUTViMW43YVR0SDZhMnh0QkFwWjR3UQ?oc=5",
           "sourcePriority": 3
+        },
+        {
+          "title": "San Patricio del Chañar clasificó y dejó una fuerte bandera contra el fallo del Consejo Federal - Lmneuquen.com",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPVmFCUHdRQjVuUE8wRVZsZ0ZVcm1yZ1lCeUJMNnZ0YzE3TjBxSUhYaVRneVZDc0JiV2xJYjNRYzB5Z0s0a0xOeXRHWWV4VVVYTFpVSWpYVlU5ZmZVYkhXWEIyX21Tdk15QWZ5eFNuVkRiLWg1b1BpRjJ0dG1Ib3ZjaV9YRU5veEkzZmdvMHJwQkN2djFLUVFySlR6VjJtVFhBRDFmZXM4WVZOeFVyOEc5TGtCSFVlRmpRejJxRWpKUjNiLTVDcERrb0pkWnpiay1LcklzdGliNFVSaHfSAdsBQVVfeXFMT1ZhQlB3UUI1blBPMEVWbGdGVXJtcmdZQnlCTDZ2dGMxN04wcUlIWGlUZ3lWQ3NCYldsSWIzUWMweWdLNGtMTnl0R1lleFVVWExaVUlqWFZVOWZmVWJIV1hCMl9tU3ZNeUFmeXhTblZEYi1oNW9QaUYydHRtSG92Y2lfWEVOb3hJM2ZnbzBycEJDdnYxS1FRckpUelYybVRYQUQxZmVzOFlWTnhVcjhHOUxrQkhVZUZqUXoycUVqSlIzYi01Q3BEa29KZFp6YmstS3JJc3RpYjRVUmh3?oc=5",
+          "publishedAt": "2026-10-04T22:06:01+00:00",
+          "published": "2026-10-04T22:06:01+00:00",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMi2wFBVV95cUxPVmFCUHdRQjVuUE8wRVZsZ0ZVcm1yZ1lCeUJMNnZ0YzE3TjBxSUhYaVRneVZDc0JiV2xJYjNRYzB5Z0s0a0xOeXRHWWV4VVVYTFpVSWpYVlU5ZmZVYkhXWEIyX21Tdk15QWZ5eFNuVkRiLWg1b1BpRjJ0dG1Ib3ZjaV9YRU5veEkzZmdvMHJwQkN2djFLUVFySlR6VjJtVFhBRDFmZXM4WVZOeFVyOEc5TGtCSFVlRmpRejJxRWpKUjNiLTVDcERrb0pkWnpiay1LcklzdGliNFVSaHfSAdsBQVVfeXFMT1ZhQlB3UUI1blBPMEVWbGdGVXJtcmdZQnlCTDZ2dGMxN04wcUlIWGlUZ3lWQ3NCYldsSWIzUWMweWdLNGtMTnl0R1lleFVVWExaVUlqWFZVOWZmVWJIV1hCMl9tU3ZNeUFmeXhTblZEYi1oNW9QaUYydHRtSG92Y2lfWEVOb3hJM2ZnbzBycEJDdnYxS1FRckpUelYybVRYQUQxZmVzOFlWTnhVcjhHOUxrQkhVZUZqUXoycUVqSlIzYi01Q3BEa29KZFp6YmstS3JJc3RpYjRVUmh3?oc=5\" target=\"_blank\">San Patricio del Chañar clasificó y dejó una fuerte bandera contra el fallo del Consejo Federal</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Lmneuquen.com</font>",
+          "source": "Lmneuquen.com",
+          "sourceType": "BUSCADOR / RESPALDO",
+          "sourceUrl": "",
+          "collection": "BUSCADOR",
+          "query": "\"San Patricio del Chañar\"",
+          "relevance": 3,
+          "relevanceLabel": "DIRECTA",
+          "firstSeen": "2026-10-06T23:42:02.038120+00:00",
+          "isNew": true,
+          "titleKey": "clasifico dejo fuerte bandera contra fallo consejo federal lmneuquen com",
+          "evidenceUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPVmFCUHdRQjVuUE8wRVZsZ0ZVcm1yZ1lCeUJMNnZ0YzE3TjBxSUhYaVRneVZDc0JiV2xJYjNRYzB5Z0s0a0xOeXRHWWV4VVVYTFpVSWpYVlU5ZmZVYkhXWEIyX21Tdk15QWZ5eFNuVkRiLWg1b1BpRjJ0dG1Ib3ZjaV9YRU5veEkzZmdvMHJwQkN2djFLUVFySlR6VjJtVFhBRDFmZXM4WVZOeFVyOEc5TGtCSFVlRmpRejJxRWpKUjNiLTVDcERrb0pkWnpiay1LcklzdGliNFVSaHfSAdsBQVVfeXFMT1ZhQlB3UUI1blBPMEVWbGdGVXJtcmdZQnlCTDZ2dGMxN04wcUlIWGlUZ3lWQ3NCYldsSWIzUWMweWdLNGtMTnl0R1lleFVVWExaVUlqWFZVOWZmVWJIV1hCMl9tU3ZNeUFmeXhTblZEYi1oNW9QaUYydHRtSG92Y2lfWEVOb3hJM2ZnbzBycEJDdnYxS1FRckpUelYybVRYQUQxZmVzOFlWTnhVcjhHOUxrQkhVZUZqUXoycUVqSlIzYi01Q3BEa29KZFp6YmstS3JJc3RpYjRVUmh3?oc=5",
+          "sourcePriority": 3
         }
       ],
       "lifecycle": "ACTIVO",
-      "movementDelta": 56,
+      "movementDelta": 59,
       "previousCoverage": 1,
       "newSources": [
         "Minuto Neuquen",
-        "Lmneuquen.com",
         "Patagonia Press",
-        "Neuquen Informa"
+        "Neuquen Informa",
+        "Chañar Digital",
+        "Lmneuquen.com"
       ],
       "sourceDiversity": 5,
+      "memoryMatched": true,
+      "isNew": false,
+      "view": "INCIDENCIA",
+      "incidenceEligible": true,
+      "signalReason": "reservado a incidencia territorial",
+      "incidenceReason": "anclaje directo + tema operativo/local",
+      "territory": {
+        "version": "2.0",
+        "primary": "San Patricio del Chañar",
+        "nodes": [
+          "San Patricio del Chañar"
+        ],
+        "sectors": [],
+        "barrios": [],
+        "microzones": [],
+        "corridors": [],
+        "institutions": [],
+        "services": [],
+        "spaces": [],
+        "production": [],
+        "path": "San Patricio del Chañar",
+        "evidence": [
+          {
+            "node": "San Patricio del Chañar",
+            "level": "localidad",
+            "evidence": "DIRECTA"
+          }
+        ]
+      }
+    },
+    {
+      "eventId": "CHA-2f7210eef2b3",
+      "title": "Después de las banderas en contra, San Patricio del Chañar le pidió disculpas al Consejo Federal - Diario Río Negro",
+      "publishedAt": "2026-10-06T18:04:48+00:00",
+      "firstSeen": "2026-10-06T23:42:02.038120+00:00",
+      "lastSeen": "2026-10-06T18:04:48+00:00",
+      "relevance": 3,
+      "relevanceLabel": "DIRECTA",
+      "incidenceLabel": "DIRECTA EN CHANAR",
+      "topic": "SERVICIOS",
+      "movement": 59,
+      "coverage": 3,
+      "sourceCount": 3,
+      "directSourceCount": 0,
+      "territorialAnchors": [
+        "san patricio del chañar",
+        "el chañar"
+      ],
+      "sources": [
+        "Diario Río Negro",
+        "Neuquén News",
+        "Neuquén al instante"
+      ],
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNYzBPQUNwZjdRTHFmZ1FtRUZIMUZEbDJRTkhTSmcwVmZ6VkhSLXFVemkyeENKalZjeXEwcnV4X0M3eFhrUV9uRk0zVWs4YXF6bTlVWkx4SXplekhidm1YeVE4OU9PVXpHNVVmTkFTc3BRWDNZOWhTOUhDcXVSeG53cFdQeTY4UUpPMEo0LVBGbTZVcmNVbnUzQlEtMWZVUVVyUTJjX0RwRXd6M292S19EWm9rYXRHOWZONExaRDltcjZsLW5nbURLRDd5dU9hWXpMYlRHTkxfaDHSAeABQVVfeXFMTm8zU3pNSXB4Y242bE8wa05maFVSZHFUQVRzTXhkQUNPUk4zWTFVS0tWeDFsdDB2cHEzWGxaUWtsV0ZreGxjbFFYQ1dCcWJJZHFZTFhkNURyVmNmTHRfOTZidkpQTlBMSHJicEpiQ0NfVldHVXlWRFdUMjdVUm1LcmJhSjh4UFVNNWkwTloxMW9iWDV0azZjdlhFaTdjMnRiLTYxcm9vVElEQ3d1WlhUS1AzUUpSVVBUeXlLZVFRV0xUM1hvaEx0VDdrNXpRVUtkR2hNRTFvQllpMUtSeGxrRng?oc=5",
+      "items": [
+        {
+          "title": "Después de las banderas en contra, San Patricio del Chañar le pidió disculpas al Consejo Federal - Diario Río Negro",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNYzBPQUNwZjdRTHFmZ1FtRUZIMUZEbDJRTkhTSmcwVmZ6VkhSLXFVemkyeENKalZjeXEwcnV4X0M3eFhrUV9uRk0zVWs4YXF6bTlVWkx4SXplekhidm1YeVE4OU9PVXpHNVVmTkFTc3BRWDNZOWhTOUhDcXVSeG53cFdQeTY4UUpPMEo0LVBGbTZVcmNVbnUzQlEtMWZVUVVyUTJjX0RwRXd6M292S19EWm9rYXRHOWZONExaRDltcjZsLW5nbURLRDd5dU9hWXpMYlRHTkxfaDHSAeABQVVfeXFMTm8zU3pNSXB4Y242bE8wa05maFVSZHFUQVRzTXhkQUNPUk4zWTFVS0tWeDFsdDB2cHEzWGxaUWtsV0ZreGxjbFFYQ1dCcWJJZHFZTFhkNURyVmNmTHRfOTZidkpQTlBMSHJicEpiQ0NfVldHVXlWRFdUMjdVUm1LcmJhSjh4UFVNNWkwTloxMW9iWDV0azZjdlhFaTdjMnRiLTYxcm9vVElEQ3d1WlhUS1AzUUpSVVBUeXlLZVFRV0xUM1hvaEx0VDdrNXpRVUtkR2hNRTFvQllpMUtSeGxrRng?oc=5",
+          "publishedAt": "2026-10-06T18:04:48+00:00",
+          "published": "2026-10-06T18:04:48+00:00",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMi2AFBVV95cUxNYzBPQUNwZjdRTHFmZ1FtRUZIMUZEbDJRTkhTSmcwVmZ6VkhSLXFVemkyeENKalZjeXEwcnV4X0M3eFhrUV9uRk0zVWs4YXF6bTlVWkx4SXplekhidm1YeVE4OU9PVXpHNVVmTkFTc3BRWDNZOWhTOUhDcXVSeG53cFdQeTY4UUpPMEo0LVBGbTZVcmNVbnUzQlEtMWZVUVVyUTJjX0RwRXd6M292S19EWm9rYXRHOWZONExaRDltcjZsLW5nbURLRDd5dU9hWXpMYlRHTkxfaDHSAeABQVVfeXFMTm8zU3pNSXB4Y242bE8wa05maFVSZHFUQVRzTXhkQUNPUk4zWTFVS0tWeDFsdDB2cHEzWGxaUWtsV0ZreGxjbFFYQ1dCcWJJZHFZTFhkNURyVmNmTHRfOTZidkpQTlBMSHJicEpiQ0NfVldHVXlWRFdUMjdVUm1LcmJhSjh4UFVNNWkwTloxMW9iWDV0azZjdlhFaTdjMnRiLTYxcm9vVElEQ3d1WlhUS1AzUUpSVVBUeXlLZVFRV0xUM1hvaEx0VDdrNXpRVUtkR2hNRTFvQllpMUtSeGxrRng?oc=5\" target=\"_blank\">Después de las banderas en contra, San Patricio del Chañar le pidió disculpas al Consejo Federal</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Diario Río Negro</font>",
+          "source": "Diario Río Negro",
+          "sourceType": "BUSCADOR / RESPALDO",
+          "sourceUrl": "",
+          "collection": "BUSCADOR",
+          "query": "\"San Patricio del Chañar\"",
+          "relevance": 3,
+          "relevanceLabel": "DIRECTA",
+          "firstSeen": "2026-10-06T23:42:02.038120+00:00",
+          "isNew": true,
+          "titleKey": "despues banderas contra pidio disculpas consejo federal diario rio negro",
+          "evidenceUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNYzBPQUNwZjdRTHFmZ1FtRUZIMUZEbDJRTkhTSmcwVmZ6VkhSLXFVemkyeENKalZjeXEwcnV4X0M3eFhrUV9uRk0zVWs4YXF6bTlVWkx4SXplekhidm1YeVE4OU9PVXpHNVVmTkFTc3BRWDNZOWhTOUhDcXVSeG53cFdQeTY4UUpPMEo0LVBGbTZVcmNVbnUzQlEtMWZVUVVyUTJjX0RwRXd6M292S19EWm9rYXRHOWZONExaRDltcjZsLW5nbURLRDd5dU9hWXpMYlRHTkxfaDHSAeABQVVfeXFMTm8zU3pNSXB4Y242bE8wa05maFVSZHFUQVRzTXhkQUNPUk4zWTFVS0tWeDFsdDB2cHEzWGxaUWtsV0ZreGxjbFFYQ1dCcWJJZHFZTFhkNURyVmNmTHRfOTZidkpQTlBMSHJicEpiQ0NfVldHVXlWRFdUMjdVUm1LcmJhSjh4UFVNNWkwTloxMW9iWDV0azZjdlhFaTdjMnRiLTYxcm9vVElEQ3d1WlhUS1AzUUpSVVBUeXlLZVFRV0xUM1hvaEx0VDdrNXpRVUtkR2hNRTFvQllpMUtSeGxrRng?oc=5",
+          "sourcePriority": 3
+        },
+        {
+          "title": "San Patricio del Chañar proyecta 10 viviendas nuevas y una red de cloacas para 340 lotes - Neuquén News",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdEM0bGRnR0VhNWhoVjQ1NnU4M25DVHBOWVJ6aFJhelJaOVNhT012Tk5Wak52dE00bmN2SkhvNEJpZ2xuN1NVZkZtT2gyT19BdjlfU21CTS1xSFcza01OU2FqNS1TZnBHeHdJdzM1NlZZbVFpMVNNX2pDM3RNeHd4UEY3bXZmVjRyNGloOTRiRG5mS1Ixb1RQVGdGRkg5ZjVWbklOWjlCVTNYVU15dEFQanUySDFNUmZ4a1ZqYU1HNWw?oc=5",
+          "publishedAt": "2026-10-06T14:21:00+00:00",
+          "published": "2026-10-06T14:21:00+00:00",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdEM0bGRnR0VhNWhoVjQ1NnU4M25DVHBOWVJ6aFJhelJaOVNhT012Tk5Wak52dE00bmN2SkhvNEJpZ2xuN1NVZkZtT2gyT19BdjlfU21CTS1xSFcza01OU2FqNS1TZnBHeHdJdzM1NlZZbVFpMVNNX2pDM3RNeHd4UEY3bXZmVjRyNGloOTRiRG5mS1Ixb1RQVGdGRkg5ZjVWbklOWjlCVTNYVU15dEFQanUySDFNUmZ4a1ZqYU1HNWw?oc=5\" target=\"_blank\">San Patricio del Chañar proyecta 10 viviendas nuevas y una red de cloacas para 340 lotes</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Neuquén News</font>",
+          "source": "Neuquén News",
+          "sourceType": "BUSCADOR / RESPALDO",
+          "sourceUrl": "",
+          "collection": "BUSCADOR",
+          "query": "\"San Patricio del Chañar\"",
+          "relevance": 3,
+          "relevanceLabel": "DIRECTA",
+          "firstSeen": "2026-10-06T23:42:02.038120+00:00",
+          "isNew": true,
+          "titleKey": "proyecta viviendas nuevas red cloacas 340 lotes news",
+          "evidenceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdEM0bGRnR0VhNWhoVjQ1NnU4M25DVHBOWVJ6aFJhelJaOVNhT012Tk5Wak52dE00bmN2SkhvNEJpZ2xuN1NVZkZtT2gyT19BdjlfU21CTS1xSFcza01OU2FqNS1TZnBHeHdJdzM1NlZZbVFpMVNNX2pDM3RNeHd4UEY3bXZmVjRyNGloOTRiRG5mS1Ixb1RQVGdGRkg5ZjVWbklOWjlCVTNYVU15dEFQanUySDFNUmZ4a1ZqYU1HNWw?oc=5",
+          "sourcePriority": 3
+        },
+        {
+          "title": "La sala de elaboración de alimentos de San Patricio del Chañar cuenta con un avance del 42 por ciento - Neuquén al instante",
+          "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOd3QxWmxrd3RMZjR5dGltLS1WMEZmVjZ6bXZWcHpMdGpHSTltZ3RLQUlRclhqTG82TmZiY3FTdEVOb3RWbWV0c1k3ZVdjWkpvRUNET3ZaVlJRUVI3Rko2UlJOS1ZzZ21MRWd6aXhNeHJzZGhuLS1TazRTdF9PQzN4ZE9pbjNFZjc1VVM4anNFeHN0eGNnTE1oSEg3c0c4RGtfLVZER3VlLVFnaWVjSjFTQ292LU9EUW5ROEdKZVAwT05vNnZvMFFic0w4bFBqM2czM21PWWZxUkpxX2s1VE1tTFRsb2t2NzZ0aFFqRzNMRW1Ua2dHUWFaTNIB_gFBVV95cUxQbm5va0hWOFF1T19TTGJYb212RUwwWnZ2Wnh4ZHFGbmdlX0ZmOFJ5d2tkcGh6YUltZ3ZqOS00T1VJbGZYNXNBX1hEaTBVWmFKaEQ2V09QY1cweTl4aFEyN1JRbEVXZjc0eHVSRDJOOHlxV0wxWUQxM2RTSU5INE1NVHd3RFpOUUMxNlZlZGVuVXdQUU1vRXVQMFl2SUstVHg2ZjRzYnk5WmxjVkFxd1VLQWI3dkJLbTM2eExSV2x5N0laYzhWY0c4bjBUVFlua2g3aXZpTlBBMUgtOGdGYjZFWGM4MmJUWUk3Q2FnQUFwcHlhTlJnZWUtNlVjRkc3Zw?oc=5",
+          "publishedAt": "2026-10-06T02:40:28+00:00",
+          "published": "2026-10-06T02:40:28+00:00",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMi-AFBVV95cUxOd3QxWmxrd3RMZjR5dGltLS1WMEZmVjZ6bXZWcHpMdGpHSTltZ3RLQUlRclhqTG82TmZiY3FTdEVOb3RWbWV0c1k3ZVdjWkpvRUNET3ZaVlJRUVI3Rko2UlJOS1ZzZ21MRWd6aXhNeHJzZGhuLS1TazRTdF9PQzN4ZE9pbjNFZjc1VVM4anNFeHN0eGNnTE1oSEg3c0c4RGtfLVZER3VlLVFnaWVjSjFTQ292LU9EUW5ROEdKZVAwT05vNnZvMFFic0w4bFBqM2czM21PWWZxUkpxX2s1VE1tTFRsb2t2NzZ0aFFqRzNMRW1Ua2dHUWFaTNIB_gFBVV95cUxQbm5va0hWOFF1T19TTGJYb212RUwwWnZ2Wnh4ZHFGbmdlX0ZmOFJ5d2tkcGh6YUltZ3ZqOS00T1VJbGZYNXNBX1hEaTBVWmFKaEQ2V09QY1cweTl4aFEyN1JRbEVXZjc0eHVSRDJOOHlxV0wxWUQxM2RTSU5INE1NVHd3RFpOUUMxNlZlZGVuVXdQUU1vRXVQMFl2SUstVHg2ZjRzYnk5WmxjVkFxd1VLQWI3dkJLbTM2eExSV2x5N0laYzhWY0c4bjBUVFlua2g3aXZpTlBBMUgtOGdGYjZFWGM4MmJUWUk3Q2FnQUFwcHlhTlJnZWUtNlVjRkc3Zw?oc=5\" target=\"_blank\">La sala de elaboración de alimentos de San Patricio del Chañar cuenta con un avance del 42 por ciento</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Neuquén al instante</font>",
+          "source": "Neuquén al instante",
+          "sourceType": "BUSCADOR / RESPALDO",
+          "sourceUrl": "",
+          "collection": "BUSCADOR",
+          "query": "\"San Patricio del Chañar\"",
+          "relevance": 3,
+          "relevanceLabel": "DIRECTA",
+          "firstSeen": "2026-10-06T06:45:57.600336+00:00",
+          "isNew": false,
+          "titleKey": "sala elaboracion alimentos cuenta avance ciento instante",
+          "evidenceUrl": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOd3QxWmxrd3RMZjR5dGltLS1WMEZmVjZ6bXZWcHpMdGpHSTltZ3RLQUlRclhqTG82TmZiY3FTdEVOb3RWbWV0c1k3ZVdjWkpvRUNET3ZaVlJRUVI3Rko2UlJOS1ZzZ21MRWd6aXhNeHJzZGhuLS1TazRTdF9PQzN4ZE9pbjNFZjc1VVM4anNFeHN0eGNnTE1oSEg3c0c4RGtfLVZER3VlLVFnaWVjSjFTQ292LU9EUW5ROEdKZVAwT05vNnZvMFFic0w4bFBqM2czM21PWWZxUkpxX2s1VE1tTFRsb2t2NzZ0aFFqRzNMRW1Ua2dHUWFaTNIB_gFBVV95cUxQbm5va0hWOFF1T19TTGJYb212RUwwWnZ2Wnh4ZHFGbmdlX0ZmOFJ5d2tkcGh6YUltZ3ZqOS00T1VJbGZYNXNBX1hEaTBVWmFKaEQ2V09QY1cweTl4aFEyN1JRbEVXZjc0eHVSRDJOOHlxV0wxWUQxM2RTSU5INE1NVHd3RFpOUUMxNlZlZGVuVXdQUU1vRXVQMFl2SUstVHg2ZjRzYnk5WmxjVkFxd1VLQWI3dkJLbTM2eExSV2x5N0laYzhWY0c4bjBUVFlua2g3aXZpTlBBMUgtOGdGYjZFWGM4MmJUWUk3Q2FnQUFwcHlhTlJnZWUtNlVjRkc3Zw?oc=5",
+          "sourcePriority": 3
+        }
+      ],
+      "lifecycle": "EMERGENTE",
+      "movementDelta": -17,
+      "previousCoverage": 3,
+      "newSources": [
+        "Neuquén News",
+        "Neuquén al instante"
+      ],
+      "sourceDiversity": 3,
       "memoryMatched": true,
       "isNew": false,
       "view": "INCIDENCIA",
@@ -3353,7 +3385,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "CULTURA / TURISMO",
-      "movement": 54,
+      "movement": 53,
       "coverage": 1,
       "sourceCount": 1,
       "directSourceCount": 0,
@@ -3431,7 +3463,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SERVICIOS",
-      "movement": 18,
+      "movement": 17,
       "coverage": 1,
       "sourceCount": 1,
       "directSourceCount": 0,
@@ -3465,8 +3497,8 @@
         }
       ],
       "lifecycle": "RECIENTE",
-      "movementDelta": 2,
-      "previousCoverage": 2,
+      "movementDelta": 1,
+      "previousCoverage": 1,
       "newSources": [],
       "sourceDiversity": 1,
       "memoryMatched": true,
@@ -3543,13 +3575,15 @@
           "sourcePriority": 3
         }
       ],
-      "lifecycle": "RECIENTE",
+      "lifecycle": "ACTIVO",
       "movementDelta": 0,
-      "previousCoverage": 1,
-      "newSources": [],
+      "previousCoverage": 0,
+      "newSources": [
+        "Lmneuquen.com"
+      ],
       "sourceDiversity": 1,
-      "memoryMatched": true,
-      "isNew": false,
+      "memoryMatched": false,
+      "isNew": true,
       "view": "INCIDENCIA",
       "incidenceEligible": true,
       "signalReason": "reservado a incidencia territorial",
@@ -3650,16 +3684,16 @@
           "sourcePriority": 3
         }
       ],
-      "lifecycle": "RECIENTE",
+      "lifecycle": "ACTIVO",
       "movementDelta": 0,
-      "previousCoverage": 1,
+      "previousCoverage": 0,
       "newSources": [
         "Diario Neuquino",
         "Chañar Digital"
       ],
       "sourceDiversity": 2,
-      "memoryMatched": true,
-      "isNew": false,
+      "memoryMatched": false,
+      "isNew": true,
       "view": "INCIDENCIA",
       "incidenceEligible": true,
       "signalReason": "reservado a incidencia territorial",
@@ -3867,23 +3901,42 @@
   ],
   "items": [
     {
-      "title": "Después de las banderas en contra, San Patricio del Chañar le pidió disculpas al Consejo Federal",
-      "url": "https://www.rionegro.com.ar/deportes/despues-de-las-banderas-en-contra-san-patricio-del-chanar-le-pidio-disculpas-al-consejo-federal-4749566/",
+      "title": "Después de las banderas en contra, San Patricio del Chañar le pidió disculpas al Consejo Federal - Diario Río Negro",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNYzBPQUNwZjdRTHFmZ1FtRUZIMUZEbDJRTkhTSmcwVmZ6VkhSLXFVemkyeENKalZjeXEwcnV4X0M3eFhrUV9uRk0zVWs4YXF6bTlVWkx4SXplekhidm1YeVE4OU9PVXpHNVVmTkFTc3BRWDNZOWhTOUhDcXVSeG53cFdQeTY4UUpPMEo0LVBGbTZVcmNVbnUzQlEtMWZVUVVyUTJjX0RwRXd6M292S19EWm9rYXRHOWZONExaRDltcjZsLW5nbURLRDd5dU9hWXpMYlRHTkxfaDHSAeABQVVfeXFMTm8zU3pNSXB4Y242bE8wa05maFVSZHFUQVRzTXhkQUNPUk4zWTFVS0tWeDFsdDB2cHEzWGxaUWtsV0ZreGxjbFFYQ1dCcWJJZHFZTFhkNURyVmNmTHRfOTZidkpQTlBMSHJicEpiQ0NfVldHVXlWRFdUMjdVUm1LcmJhSjh4UFVNNWkwTloxMW9iWDV0azZjdlhFaTdjMnRiLTYxcm9vVElEQ3d1WlhUS1AzUUpSVVBUeXlLZVFRV0xUM1hvaEx0VDdrNXpRVUtkR2hNRTFvQllpMUtSeGxrRng?oc=5",
       "publishedAt": "2026-10-06T18:04:48+00:00",
       "published": "2026-10-06T18:04:48+00:00",
-      "description": "",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMi2AFBVV95cUxNYzBPQUNwZjdRTHFmZ1FtRUZIMUZEbDJRTkhTSmcwVmZ6VkhSLXFVemkyeENKalZjeXEwcnV4X0M3eFhrUV9uRk0zVWs4YXF6bTlVWkx4SXplekhidm1YeVE4OU9PVXpHNVVmTkFTc3BRWDNZOWhTOUhDcXVSeG53cFdQeTY4UUpPMEo0LVBGbTZVcmNVbnUzQlEtMWZVUVVyUTJjX0RwRXd6M292S19EWm9rYXRHOWZONExaRDltcjZsLW5nbURLRDd5dU9hWXpMYlRHTkxfaDHSAeABQVVfeXFMTm8zU3pNSXB4Y242bE8wa05maFVSZHFUQVRzTXhkQUNPUk4zWTFVS0tWeDFsdDB2cHEzWGxaUWtsV0ZreGxjbFFYQ1dCcWJJZHFZTFhkNURyVmNmTHRfOTZidkpQTlBMSHJicEpiQ0NfVldHVXlWRFdUMjdVUm1LcmJhSjh4UFVNNWkwTloxMW9iWDV0azZjdlhFaTdjMnRiLTYxcm9vVElEQ3d1WlhUS1AzUUpSVVBUeXlLZVFRV0xUM1hvaEx0VDdrNXpRVUtkR2hNRTFvQllpMUtSeGxrRng?oc=5\" target=\"_blank\">Después de las banderas en contra, San Patricio del Chañar le pidió disculpas al Consejo Federal</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Diario Río Negro</font>",
       "source": "Diario Río Negro",
-      "sourceType": "MEDIO REGIONAL",
-      "sourceUrl": "https://www.rionegro.com.ar/",
-      "collection": "DIRECTA",
-      "query": "https://www.rionegro.com.ar/feed/",
+      "sourceType": "BUSCADOR / RESPALDO",
+      "sourceUrl": "",
+      "collection": "BUSCADOR",
+      "query": "\"San Patricio del Chañar\"",
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
-      "firstSeen": "2026-10-06T19:45:33.384882+00:00",
+      "firstSeen": "2026-10-06T23:42:02.038120+00:00",
       "isNew": true,
-      "titleKey": "despues banderas contra pidio disculpas consejo federal",
-      "evidenceUrl": "https://www.rionegro.com.ar/deportes/despues-de-las-banderas-en-contra-san-patricio-del-chanar-le-pidio-disculpas-al-consejo-federal-4749566/",
-      "sourcePriority": 2
+      "titleKey": "despues banderas contra pidio disculpas consejo federal diario rio negro",
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNYzBPQUNwZjdRTHFmZ1FtRUZIMUZEbDJRTkhTSmcwVmZ6VkhSLXFVemkyeENKalZjeXEwcnV4X0M3eFhrUV9uRk0zVWs4YXF6bTlVWkx4SXplekhidm1YeVE4OU9PVXpHNVVmTkFTc3BRWDNZOWhTOUhDcXVSeG53cFdQeTY4UUpPMEo0LVBGbTZVcmNVbnUzQlEtMWZVUVVyUTJjX0RwRXd6M292S19EWm9rYXRHOWZONExaRDltcjZsLW5nbURLRDd5dU9hWXpMYlRHTkxfaDHSAeABQVVfeXFMTm8zU3pNSXB4Y242bE8wa05maFVSZHFUQVRzTXhkQUNPUk4zWTFVS0tWeDFsdDB2cHEzWGxaUWtsV0ZreGxjbFFYQ1dCcWJJZHFZTFhkNURyVmNmTHRfOTZidkpQTlBMSHJicEpiQ0NfVldHVXlWRFdUMjdVUm1LcmJhSjh4UFVNNWkwTloxMW9iWDV0azZjdlhFaTdjMnRiLTYxcm9vVElEQ3d1WlhUS1AzUUpSVVBUeXlLZVFRV0xUM1hvaEx0VDdrNXpRVUtkR2hNRTFvQllpMUtSeGxrRng?oc=5",
+      "sourcePriority": 3
+    },
+    {
+      "title": "San Patricio del Chañar proyecta 10 viviendas nuevas y una red de cloacas para 340 lotes - Neuquén News",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdEM0bGRnR0VhNWhoVjQ1NnU4M25DVHBOWVJ6aFJhelJaOVNhT012Tk5Wak52dE00bmN2SkhvNEJpZ2xuN1NVZkZtT2gyT19BdjlfU21CTS1xSFcza01OU2FqNS1TZnBHeHdJdzM1NlZZbVFpMVNNX2pDM3RNeHd4UEY3bXZmVjRyNGloOTRiRG5mS1Ixb1RQVGdGRkg5ZjVWbklOWjlCVTNYVU15dEFQanUySDFNUmZ4a1ZqYU1HNWw?oc=5",
+      "publishedAt": "2026-10-06T14:21:00+00:00",
+      "published": "2026-10-06T14:21:00+00:00",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdEM0bGRnR0VhNWhoVjQ1NnU4M25DVHBOWVJ6aFJhelJaOVNhT012Tk5Wak52dE00bmN2SkhvNEJpZ2xuN1NVZkZtT2gyT19BdjlfU21CTS1xSFcza01OU2FqNS1TZnBHeHdJdzM1NlZZbVFpMVNNX2pDM3RNeHd4UEY3bXZmVjRyNGloOTRiRG5mS1Ixb1RQVGdGRkg5ZjVWbklOWjlCVTNYVU15dEFQanUySDFNUmZ4a1ZqYU1HNWw?oc=5\" target=\"_blank\">San Patricio del Chañar proyecta 10 viviendas nuevas y una red de cloacas para 340 lotes</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Neuquén News</font>",
+      "source": "Neuquén News",
+      "sourceType": "BUSCADOR / RESPALDO",
+      "sourceUrl": "",
+      "collection": "BUSCADOR",
+      "query": "\"San Patricio del Chañar\"",
+      "relevance": 3,
+      "relevanceLabel": "DIRECTA",
+      "firstSeen": "2026-10-06T23:42:02.038120+00:00",
+      "isNew": true,
+      "titleKey": "proyecta viviendas nuevas red cloacas 340 lotes news",
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdEM0bGRnR0VhNWhoVjQ1NnU4M25DVHBOWVJ6aFJhelJaOVNhT012Tk5Wak52dE00bmN2SkhvNEJpZ2xuN1NVZkZtT2gyT19BdjlfU21CTS1xSFcza01OU2FqNS1TZnBHeHdJdzM1NlZZbVFpMVNNX2pDM3RNeHd4UEY3bXZmVjRyNGloOTRiRG5mS1Ixb1RQVGdGRkg5ZjVWbklOWjlCVTNYVU15dEFQanUySDFNUmZ4a1ZqYU1HNWw?oc=5",
+      "sourcePriority": 3
     },
     {
       "title": "La sala de elaboración de alimentos de San Patricio del Chañar cuenta con un avance del 42 por ciento - Neuquén al instante",
@@ -3925,10 +3978,10 @@
     },
     {
       "title": "San Patricio del Chañar clasificó y dejó una fuerte bandera contra el fallo del Consejo Federal - Lmneuquen.com",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNd2p1ZW01bTdyNTdPbFZCd0xaYThBaUs4aHJ1WUtQMndSR1VDNEc0UXJJN1F6SXdFWXFJSWNOdE5EMVRQejQtUWtHcHhzdU52MU9uZnJVaThCTjJUcnBJVzl5YmM2cTFhd3BYUEtOUnZ4R2xjOEVnNGlhd0dlUmpzR0pPekN5ZGlxSHhXS19vVm4wQmJVUjVwSXFQZDZ5TlI4UjNuVHUzRlNicUo3TzdNYUM2MU5oM0hhX0xvc3VwTXF2N3Rqdmo5QU44MFdhR3BJTC13c1RB0gHbAUFVX3lxTE9WYUJQd1FCNW5QTzBFVmxnRlVybXJnWUJ5Qkw2dnRjMTdOMHFJSFhpVGd5VkNzQmJXbEliM1FjMHlnSzRrTE55dEdZZXhVVVhMWlVJalhWVTlmZlViSFdYQjJfbVN2TXlBZnl4U25WRGItaDVvUGlGMnR0bUhvdmNpX1hFTm94STNmZ28wcnBCQ3Z2MUtRUXJKVHpWMm1UWEFEMWZlczhZVk54VXI4RzlMa0JIVWVGalF6MnFFakpSM2ItNUNwRGtvSmRaemJrLUtySXN0aWI0VVJodw?oc=5",
-      "publishedAt": "2026-10-04T21:59:00+00:00",
-      "published": "2026-10-04T21:59:00+00:00",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMi1gFBVV95cUxNd2p1ZW01bTdyNTdPbFZCd0xaYThBaUs4aHJ1WUtQMndSR1VDNEc0UXJJN1F6SXdFWXFJSWNOdE5EMVRQejQtUWtHcHhzdU52MU9uZnJVaThCTjJUcnBJVzl5YmM2cTFhd3BYUEtOUnZ4R2xjOEVnNGlhd0dlUmpzR0pPekN5ZGlxSHhXS19vVm4wQmJVUjVwSXFQZDZ5TlI4UjNuVHUzRlNicUo3TzdNYUM2MU5oM0hhX0xvc3VwTXF2N3Rqdmo5QU44MFdhR3BJTC13c1RB0gHbAUFVX3lxTE9WYUJQd1FCNW5QTzBFVmxnRlVybXJnWUJ5Qkw2dnRjMTdOMHFJSFhpVGd5VkNzQmJXbEliM1FjMHlnSzRrTE55dEdZZXhVVVhMWlVJalhWVTlmZlViSFdYQjJfbVN2TXlBZnl4U25WRGItaDVvUGlGMnR0bUhvdmNpX1hFTm94STNmZ28wcnBCQ3Z2MUtRUXJKVHpWMm1UWEFEMWZlczhZVk54VXI4RzlMa0JIVWVGalF6MnFFakpSM2ItNUNwRGtvSmRaemJrLUtySXN0aWI0VVJodw?oc=5\" target=\"_blank\">San Patricio del Chañar clasificó y dejó una fuerte bandera contra el fallo del Consejo Federal</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Lmneuquen.com</font>",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPVmFCUHdRQjVuUE8wRVZsZ0ZVcm1yZ1lCeUJMNnZ0YzE3TjBxSUhYaVRneVZDc0JiV2xJYjNRYzB5Z0s0a0xOeXRHWWV4VVVYTFpVSWpYVlU5ZmZVYkhXWEIyX21Tdk15QWZ5eFNuVkRiLWg1b1BpRjJ0dG1Ib3ZjaV9YRU5veEkzZmdvMHJwQkN2djFLUVFySlR6VjJtVFhBRDFmZXM4WVZOeFVyOEc5TGtCSFVlRmpRejJxRWpKUjNiLTVDcERrb0pkWnpiay1LcklzdGliNFVSaHfSAdsBQVVfeXFMT1ZhQlB3UUI1blBPMEVWbGdGVXJtcmdZQnlCTDZ2dGMxN04wcUlIWGlUZ3lWQ3NCYldsSWIzUWMweWdLNGtMTnl0R1lleFVVWExaVUlqWFZVOWZmVWJIV1hCMl9tU3ZNeUFmeXhTblZEYi1oNW9QaUYydHRtSG92Y2lfWEVOb3hJM2ZnbzBycEJDdnYxS1FRckpUelYybVRYQUQxZmVzOFlWTnhVcjhHOUxrQkhVZUZqUXoycUVqSlIzYi01Q3BEa29KZFp6YmstS3JJc3RpYjRVUmh3?oc=5",
+      "publishedAt": "2026-10-04T22:06:01+00:00",
+      "published": "2026-10-04T22:06:01+00:00",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMi2wFBVV95cUxPVmFCUHdRQjVuUE8wRVZsZ0ZVcm1yZ1lCeUJMNnZ0YzE3TjBxSUhYaVRneVZDc0JiV2xJYjNRYzB5Z0s0a0xOeXRHWWV4VVVYTFpVSWpYVlU5ZmZVYkhXWEIyX21Tdk15QWZ5eFNuVkRiLWg1b1BpRjJ0dG1Ib3ZjaV9YRU5veEkzZmdvMHJwQkN2djFLUVFySlR6VjJtVFhBRDFmZXM4WVZOeFVyOEc5TGtCSFVlRmpRejJxRWpKUjNiLTVDcERrb0pkWnpiay1LcklzdGliNFVSaHfSAdsBQVVfeXFMT1ZhQlB3UUI1blBPMEVWbGdGVXJtcmdZQnlCTDZ2dGMxN04wcUlIWGlUZ3lWQ3NCYldsSWIzUWMweWdLNGtMTnl0R1lleFVVWExaVUlqWFZVOWZmVWJIV1hCMl9tU3ZNeUFmeXhTblZEYi1oNW9QaUYydHRtSG92Y2lfWEVOb3hJM2ZnbzBycEJDdnYxS1FRckpUelYybVRYQUQxZmVzOFlWTnhVcjhHOUxrQkhVZUZqUXoycUVqSlIzYi01Q3BEa29KZFp6YmstS3JJc3RpYjRVUmh3?oc=5\" target=\"_blank\">San Patricio del Chañar clasificó y dejó una fuerte bandera contra el fallo del Consejo Federal</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Lmneuquen.com</font>",
       "source": "Lmneuquen.com",
       "sourceType": "BUSCADOR / RESPALDO",
       "sourceUrl": "",
@@ -3936,10 +3989,10 @@
       "query": "\"San Patricio del Chañar\"",
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
-      "firstSeen": "2026-10-05T18:12:21.393388+00:00",
-      "isNew": false,
+      "firstSeen": "2026-10-06T23:42:02.038120+00:00",
+      "isNew": true,
       "titleKey": "clasifico dejo fuerte bandera contra fallo consejo federal lmneuquen com",
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNd2p1ZW01bTdyNTdPbFZCd0xaYThBaUs4aHJ1WUtQMndSR1VDNEc0UXJJN1F6SXdFWXFJSWNOdE5EMVRQejQtUWtHcHhzdU52MU9uZnJVaThCTjJUcnBJVzl5YmM2cTFhd3BYUEtOUnZ4R2xjOEVnNGlhd0dlUmpzR0pPekN5ZGlxSHhXS19vVm4wQmJVUjVwSXFQZDZ5TlI4UjNuVHUzRlNicUo3TzdNYUM2MU5oM0hhX0xvc3VwTXF2N3Rqdmo5QU44MFdhR3BJTC13c1RB0gHbAUFVX3lxTE9WYUJQd1FCNW5QTzBFVmxnRlVybXJnWUJ5Qkw2dnRjMTdOMHFJSFhpVGd5VkNzQmJXbEliM1FjMHlnSzRrTE55dEdZZXhVVVhMWlVJalhWVTlmZlViSFdYQjJfbVN2TXlBZnl4U25WRGItaDVvUGlGMnR0bUhvdmNpX1hFTm94STNmZ28wcnBCQ3Z2MUtRUXJKVHpWMm1UWEFEMWZlczhZVk54VXI4RzlMa0JIVWVGalF6MnFFakpSM2ItNUNwRGtvSmRaemJrLUtySXN0aWI0VVJodw?oc=5",
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPVmFCUHdRQjVuUE8wRVZsZ0ZVcm1yZ1lCeUJMNnZ0YzE3TjBxSUhYaVRneVZDc0JiV2xJYjNRYzB5Z0s0a0xOeXRHWWV4VVVYTFpVSWpYVlU5ZmZVYkhXWEIyX21Tdk15QWZ5eFNuVkRiLWg1b1BpRjJ0dG1Ib3ZjaV9YRU5veEkzZmdvMHJwQkN2djFLUVFySlR6VjJtVFhBRDFmZXM4WVZOeFVyOEc5TGtCSFVlRmpRejJxRWpKUjNiLTVDcERrb0pkWnpiay1LcklzdGliNFVSaHfSAdsBQVVfeXFMT1ZhQlB3UUI1blBPMEVWbGdGVXJtcmdZQnlCTDZ2dGMxN04wcUlIWGlUZ3lWQ3NCYldsSWIzUWMweWdLNGtMTnl0R1lleFVVWExaVUlqWFZVOWZmVWJIV1hCMl9tU3ZNeUFmeXhTblZEYi1oNW9QaUYydHRtSG92Y2lfWEVOb3hJM2ZnbzBycEJDdnYxS1FRckpUelYybVRYQUQxZmVzOFlWTnhVcjhHOUxrQkhVZUZqUXoycUVqSlIzYi01Q3BEa29KZFp6YmstS3JJc3RpYjRVUmh3?oc=5",
       "sourcePriority": 3
     },
     {
@@ -4135,7 +4188,7 @@
   ],
   "territorialGraph": {
     "version": "2.0",
-    "generatedAt": "2026-10-06T19:45:45.241354+00:00",
+    "generatedAt": "2026-10-06T23:42:22.848644+00:00",
     "root": "spc",
     "rule": "evidence-first",
     "levels": [
@@ -4752,11 +4805,11 @@
   },
   "audit": {
     "version": "1.0",
-    "updatedAt": "2026-10-06T19:45:45.285344+00:00",
+    "updatedAt": "2026-10-06T23:42:22.900187+00:00",
     "rule": "fact != coverage; territory requires textual evidence",
     "facts": 8,
-    "coverage": 15,
-    "coveragePerFact": 1.88,
+    "coverage": 16,
+    "coveragePerFact": 2.0,
     "directAnchorFacts": 8,
     "directAnchorPct": 100.0,
     "territorySpecificFacts": 2,
