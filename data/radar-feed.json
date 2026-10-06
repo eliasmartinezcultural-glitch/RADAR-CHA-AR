@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-06T06:45:57.600336+00:00",
+  "updatedAt": "2026-10-06T14:03:55.710353+00:00",
   "window": "14 días",
   "purpose": "Detectar qué se está moviendo en San Patricio del Chañar y mostrar de dónde surge cada señal.",
   "architecture": "contrato universal de procedencia + fuentes profesionales + adaptadores específicos + validación semántica + temporalidad + evidencia editorial separada",
@@ -49,7 +49,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://chanardigital.com.ar/",
-      "lastFetch": "2026-10-06T06:45:38.021382+00:00",
+      "lastFetch": "2026-10-06T14:03:33.914780+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -65,7 +65,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.radiomia.com.ar/",
-      "lastFetch": "2026-10-06T06:45:39.344525+00:00",
+      "lastFetch": "2026-10-06T14:03:35.424990+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -80,7 +80,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://tuitvacamuerta.com/",
-      "lastFetch": "2026-10-06T06:45:40.980357+00:00",
+      "lastFetch": "2026-10-06T14:03:37.083354+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -95,7 +95,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.vacamuertanews.com/",
-      "lastFetch": "2026-10-06T06:45:41.380749+00:00",
+      "lastFetch": "2026-10-06T14:03:37.544297+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -111,7 +111,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.neuqueninforma.gob.ar/",
-      "lastFetch": "2026-10-06T06:45:42.828683+00:00",
+      "lastFetch": "2026-10-06T14:03:39.016299+00:00",
       "success": false,
       "attempted": 3,
       "failures": [
@@ -128,7 +128,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://sanpatricio.gob.ar/",
-      "lastFetch": "2026-10-06T06:45:43.884895+00:00",
+      "lastFetch": "2026-10-06T14:03:40.053419+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -143,7 +143,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://boletinoficial.neuquen.gov.ar/",
-      "lastFetch": "2026-10-06T06:45:44.665634+00:00",
+      "lastFetch": "2026-10-06T14:03:40.763904+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -158,7 +158,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.lmneuquen.com/",
-      "lastFetch": "2026-10-06T06:45:44.874392+00:00",
+      "lastFetch": "2026-10-06T14:03:41.007183+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -174,7 +174,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.rionegro.com.ar/",
-      "lastFetch": "2026-10-06T06:45:46.415484+00:00",
+      "lastFetch": "2026-10-06T14:03:45.072264+00:00",
       "success": true,
       "attempted": 2,
       "failures": [
@@ -189,7 +189,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.mejorinformado.com/",
-      "lastFetch": "2026-10-06T06:45:46.970539+00:00",
+      "lastFetch": "2026-10-06T14:03:45.788469+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -205,7 +205,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.diariamenteneuquen.com/",
-      "lastFetch": "2026-10-06T06:45:47.638108+00:00",
+      "lastFetch": "2026-10-06T14:03:46.644709+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -1226,19 +1226,6 @@
         ]
       },
       {
-        "source": "Neuquén al instante",
-        "group": "OBSERVADA",
-        "role": "fuente detectada fuera del catálogo",
-        "accepted": 1,
-        "direct": 1,
-        "anchored": 0,
-        "falsePositives": 0,
-        "falsePositiveTypes": [],
-        "topics": [
-          "SERVICIOS"
-        ]
-      },
-      {
         "source": "Patagonia Press",
         "group": "OBSERVADA",
         "role": "fuente detectada fuera del catálogo",
@@ -1327,6 +1314,19 @@
         "falsePositives": 0,
         "falsePositiveTypes": [],
         "topics": []
+      },
+      {
+        "source": "neuquenalinstante.com.ar",
+        "group": "OBSERVADA",
+        "role": "fuente detectada fuera del catálogo",
+        "accepted": 1,
+        "direct": 1,
+        "anchored": 0,
+        "falsePositives": 0,
+        "falsePositiveTypes": [],
+        "topics": [
+          "SERVICIOS"
+        ]
       }
     ],
     "matrix": [
@@ -1431,7 +1431,7 @@
         ]
       },
       {
-        "source": "Neuquén al instante",
+        "source": "Patagonia Press",
         "topic": "SERVICIOS",
         "accepted": 1,
         "direct": 1,
@@ -1443,7 +1443,7 @@
         ]
       },
       {
-        "source": "Patagonia Press",
+        "source": "neuquenalinstante.com.ar",
         "topic": "SERVICIOS",
         "accepted": 1,
         "direct": 1,
@@ -1801,7 +1801,7 @@
     "total": 13,
     "direct": 13,
     "regional": 0,
-    "new": 1,
+    "new": 0,
     "sources": 8,
     "directSignals": 0,
     "localDirectSignals": 0,
@@ -1812,11 +1812,11 @@
   "environment": {
     "weather": {
       "dataType": "forecast",
-      "forecastWindKmh": 20.0,
-      "forecastGustKmh": 28.0,
-      "forecastWindDirection": "O",
-      "forecastTemperatureC": 20.0,
-      "retrievedAt": "2026-10-06T06:45:36.041174+00:00",
+      "forecastWindKmh": 28.0,
+      "forecastGustKmh": 36.0,
+      "forecastWindDirection": "E",
+      "forecastTemperatureC": 14.0,
+      "retrievedAt": "2026-10-06T14:03:31.199649+00:00",
       "source": "AIC",
       "sourceTier": "primary",
       "sourceUrl": "https://www.aic.gob.ar/sitio/home?a=1015&z=1967225803",
@@ -1846,7 +1846,7 @@
       "currentProgrammedMinM3s": 220,
       "programDate": "2026-10-07",
       "tableDate": "2026-10-06",
-      "retrievedAt": "2026-10-06T06:45:36.041174+00:00",
+      "retrievedAt": "2026-10-06T14:03:31.199649+00:00",
       "source": "AIC",
       "sourceTier": "primary",
       "sourceUrl": "https://www.aic.gob.ar/sitio/caudales",
@@ -1866,17 +1866,17 @@
         "url": "https://www.aic.gob.ar/sitio/caudales"
       }
     ],
-    "updatedAt": "2026-10-06T06:45:36.041174+00:00"
+    "updatedAt": "2026-10-06T14:03:31.199649+00:00"
   },
   "operational": {
-    "updatedAt": "2026-10-06T06:45:36.041174+00:00",
+    "updatedAt": "2026-10-06T14:03:31.199649+00:00",
     "route7": {
       "source": "Dirección Provincial de Vialidad",
       "sourceTier": "primary",
       "sourceUrl": "https://www.dpvneuquen.gov.ar/",
       "semanticState": null,
       "publicationState": "source_reachable_no_current_machine_readable_state",
-      "retrievedAt": "2026-10-06T06:45:36.041174+00:00",
+      "retrievedAt": "2026-10-06T14:03:31.199649+00:00",
       "evidence": {
         "route7Mention": true,
         "route8Mention": false
@@ -1888,7 +1888,7 @@
       "sourceUrl": "https://www.dpvneuquen.gov.ar/",
       "semanticState": null,
       "publicationState": "source_reachable_no_current_machine_readable_state",
-      "retrievedAt": "2026-10-06T06:45:36.041174+00:00",
+      "retrievedAt": "2026-10-06T14:03:31.199649+00:00",
       "evidence": {
         "route7Mention": true,
         "route8Mention": false
@@ -1902,7 +1902,7 @@
       "eventType": null,
       "detail": null,
       "publicationState": "source_reachable_no_specific_local_notice",
-      "retrievedAt": "2026-10-06T06:45:36.041174+00:00"
+      "retrievedAt": "2026-10-06T14:03:31.199649+00:00"
     },
     "water": {
       "source": "EPAS",
@@ -1912,7 +1912,7 @@
       "eventType": null,
       "detail": null,
       "publicationState": "source_reachable_no_specific_local_notice",
-      "retrievedAt": "2026-10-06T06:45:36.041174+00:00"
+      "retrievedAt": "2026-10-06T14:03:31.199649+00:00"
     },
     "sources": [
       {
@@ -2324,7 +2324,7 @@
       "label": "Conversación general",
       "signal": 8,
       "status": "cobertura editorial",
-      "freshnessHours": 5.8,
+      "freshnessHours": 13.1,
       "mode": "evidencia editorial",
       "evidenceCount": 8,
       "sourceContract": {
@@ -2404,7 +2404,7 @@
         "sourceUrl": "https://www.dpvneuquen.gov.ar/",
         "semanticState": null,
         "publicationState": "source_reachable_no_current_machine_readable_state",
-        "retrievedAt": "2026-10-06T06:45:36.041174+00:00",
+        "retrievedAt": "2026-10-06T14:03:31.199649+00:00",
         "evidence": {
           "route7Mention": true,
           "route8Mention": false
@@ -2456,7 +2456,7 @@
         "sourceUrl": "https://www.dpvneuquen.gov.ar/",
         "semanticState": null,
         "publicationState": "source_reachable_no_current_machine_readable_state",
-        "retrievedAt": "2026-10-06T06:45:36.041174+00:00",
+        "retrievedAt": "2026-10-06T14:03:31.199649+00:00",
         "evidence": {
           "route7Mention": true,
           "route8Mention": false
@@ -2466,7 +2466,7 @@
     {
       "id": "VIENTO",
       "label": "Condición de viento",
-      "signal": 20.0,
+      "signal": 28.0,
       "status": "pronóstico local",
       "freshnessHours": null,
       "mode": "DATO DIRECTO",
@@ -2556,7 +2556,7 @@
         "eventType": null,
         "detail": null,
         "publicationState": "source_reachable_no_specific_local_notice",
-        "retrievedAt": "2026-10-06T06:45:36.041174+00:00"
+        "retrievedAt": "2026-10-06T14:03:31.199649+00:00"
       }
     },
     {
@@ -2606,7 +2606,7 @@
         "eventType": null,
         "detail": null,
         "publicationState": "source_reachable_no_specific_local_notice",
-        "retrievedAt": "2026-10-06T06:45:36.041174+00:00"
+        "retrievedAt": "2026-10-06T14:03:31.199649+00:00"
       }
     },
     {
@@ -2694,7 +2694,7 @@
       "label": "Educación",
       "signal": 2,
       "status": "evidencia educativa",
-      "freshnessHours": 223.7,
+      "freshnessHours": 231.0,
       "mode": "evidencia editorial",
       "evidenceCount": 2,
       "sourceContract": {
@@ -2734,7 +2734,7 @@
       "label": "Producción rural",
       "signal": 1,
       "status": "evidencia productiva",
-      "freshnessHours": 178.9,
+      "freshnessHours": 186.2,
       "mode": "evidencia editorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -2871,7 +2871,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://chanardigital.com.ar/",
-        "lastFetch": "2026-10-06T06:45:38.021382+00:00",
+        "lastFetch": "2026-10-06T14:03:33.914780+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -2887,7 +2887,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.radiomia.com.ar/",
-        "lastFetch": "2026-10-06T06:45:39.344525+00:00",
+        "lastFetch": "2026-10-06T14:03:35.424990+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -2902,7 +2902,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://tuitvacamuerta.com/",
-        "lastFetch": "2026-10-06T06:45:40.980357+00:00",
+        "lastFetch": "2026-10-06T14:03:37.083354+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -2917,7 +2917,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.vacamuertanews.com/",
-        "lastFetch": "2026-10-06T06:45:41.380749+00:00",
+        "lastFetch": "2026-10-06T14:03:37.544297+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -2933,7 +2933,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.neuqueninforma.gob.ar/",
-        "lastFetch": "2026-10-06T06:45:42.828683+00:00",
+        "lastFetch": "2026-10-06T14:03:39.016299+00:00",
         "success": false,
         "attempted": 3,
         "failures": [
@@ -2950,7 +2950,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://sanpatricio.gob.ar/",
-        "lastFetch": "2026-10-06T06:45:43.884895+00:00",
+        "lastFetch": "2026-10-06T14:03:40.053419+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -2965,7 +2965,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://boletinoficial.neuquen.gov.ar/",
-        "lastFetch": "2026-10-06T06:45:44.665634+00:00",
+        "lastFetch": "2026-10-06T14:03:40.763904+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -2980,7 +2980,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.lmneuquen.com/",
-        "lastFetch": "2026-10-06T06:45:44.874392+00:00",
+        "lastFetch": "2026-10-06T14:03:41.007183+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -2996,7 +2996,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.rionegro.com.ar/",
-        "lastFetch": "2026-10-06T06:45:46.415484+00:00",
+        "lastFetch": "2026-10-06T14:03:45.072264+00:00",
         "success": true,
         "attempted": 2,
         "failures": [
@@ -3011,7 +3011,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.mejorinformado.com/",
-        "lastFetch": "2026-10-06T06:45:46.970539+00:00",
+        "lastFetch": "2026-10-06T14:03:45.788469+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3027,7 +3027,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.diariamenteneuquen.com/",
-        "lastFetch": "2026-10-06T06:45:47.638108+00:00",
+        "lastFetch": "2026-10-06T14:03:46.644709+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3054,7 +3054,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SERVICIOS",
-      "movement": 79,
+      "movement": 77,
       "coverage": 6,
       "sourceCount": 5,
       "directSourceCount": 0,
@@ -3228,7 +3228,7 @@
     },
     {
       "eventId": "CHA-2f7210eef2b3",
-      "title": "La sala de elaboración de alimentos de San Patricio del Chañar cuenta con un avance del 42 por ciento - Neuquén al instante",
+      "title": "La sala de elaboración de alimentos de San Patricio del Chañar cuenta con un avance del 42 por ciento - neuquenalinstante.com.ar",
       "publishedAt": "2026-10-06T00:56:15+00:00",
       "firstSeen": "2026-10-06T06:45:57.600336+00:00",
       "lastSeen": "2026-10-06T00:56:15+00:00",
@@ -3236,7 +3236,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SERVICIOS",
-      "movement": 59,
+      "movement": 57,
       "coverage": 1,
       "sourceCount": 1,
       "directSourceCount": 0,
@@ -3245,17 +3245,17 @@
         "el chañar"
       ],
       "sources": [
-        "Neuquén al instante"
+        "neuquenalinstante.com.ar"
       ],
       "evidenceUrl": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOd3QxWmxrd3RMZjR5dGltLS1WMEZmVjZ6bXZWcHpMdGpHSTltZ3RLQUlRclhqTG82TmZiY3FTdEVOb3RWbWV0c1k3ZVdjWkpvRUNET3ZaVlJRUVI3Rko2UlJOS1ZzZ21MRWd6aXhNeHJzZGhuLS1TazRTdF9PQzN4ZE9pbjNFZjc1VVM4anNFeHN0eGNnTE1oSEg3c0c4RGtfLVZER3VlLVFnaWVjSjFTQ292LU9EUW5ROEdKZVAwT05vNnZvMFFic0w4bFBqM2czM21PWWZxUkpxX2s1VE1tTFRsb2t2NzZ0aFFqRzNMRW1Ua2dHUWFaTNIB_gFBVV95cUxQbm5va0hWOFF1T19TTGJYb212RUwwWnZ2Wnh4ZHFGbmdlX0ZmOFJ5d2tkcGh6YUltZ3ZqOS00T1VJbGZYNXNBX1hEaTBVWmFKaEQ2V09QY1cweTl4aFEyN1JRbEVXZjc0eHVSRDJOOHlxV0wxWUQxM2RTSU5INE1NVHd3RFpOUUMxNlZlZGVuVXdQUU1vRXVQMFl2SUstVHg2ZjRzYnk5WmxjVkFxd1VLQWI3dkJLbTM2eExSV2x5N0laYzhWY0c4bjBUVFlua2g3aXZpTlBBMUgtOGdGYjZFWGM4MmJUWUk3Q2FnQUFwcHlhTlJnZWUtNlVjRkc3Zw?oc=5",
       "items": [
         {
-          "title": "La sala de elaboración de alimentos de San Patricio del Chañar cuenta con un avance del 42 por ciento - Neuquén al instante",
+          "title": "La sala de elaboración de alimentos de San Patricio del Chañar cuenta con un avance del 42 por ciento - neuquenalinstante.com.ar",
           "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOd3QxWmxrd3RMZjR5dGltLS1WMEZmVjZ6bXZWcHpMdGpHSTltZ3RLQUlRclhqTG82TmZiY3FTdEVOb3RWbWV0c1k3ZVdjWkpvRUNET3ZaVlJRUVI3Rko2UlJOS1ZzZ21MRWd6aXhNeHJzZGhuLS1TazRTdF9PQzN4ZE9pbjNFZjc1VVM4anNFeHN0eGNnTE1oSEg3c0c4RGtfLVZER3VlLVFnaWVjSjFTQ292LU9EUW5ROEdKZVAwT05vNnZvMFFic0w4bFBqM2czM21PWWZxUkpxX2s1VE1tTFRsb2t2NzZ0aFFqRzNMRW1Ua2dHUWFaTNIB_gFBVV95cUxQbm5va0hWOFF1T19TTGJYb212RUwwWnZ2Wnh4ZHFGbmdlX0ZmOFJ5d2tkcGh6YUltZ3ZqOS00T1VJbGZYNXNBX1hEaTBVWmFKaEQ2V09QY1cweTl4aFEyN1JRbEVXZjc0eHVSRDJOOHlxV0wxWUQxM2RTSU5INE1NVHd3RFpOUUMxNlZlZGVuVXdQUU1vRXVQMFl2SUstVHg2ZjRzYnk5WmxjVkFxd1VLQWI3dkJLbTM2eExSV2x5N0laYzhWY0c4bjBUVFlua2g3aXZpTlBBMUgtOGdGYjZFWGM4MmJUWUk3Q2FnQUFwcHlhTlJnZWUtNlVjRkc3Zw?oc=5",
           "publishedAt": "2026-10-06T00:56:15+00:00",
           "published": "2026-10-06T00:56:15+00:00",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMi-AFBVV95cUxOd3QxWmxrd3RMZjR5dGltLS1WMEZmVjZ6bXZWcHpMdGpHSTltZ3RLQUlRclhqTG82TmZiY3FTdEVOb3RWbWV0c1k3ZVdjWkpvRUNET3ZaVlJRUVI3Rko2UlJOS1ZzZ21MRWd6aXhNeHJzZGhuLS1TazRTdF9PQzN4ZE9pbjNFZjc1VVM4anNFeHN0eGNnTE1oSEg3c0c4RGtfLVZER3VlLVFnaWVjSjFTQ292LU9EUW5ROEdKZVAwT05vNnZvMFFic0w4bFBqM2czM21PWWZxUkpxX2s1VE1tTFRsb2t2NzZ0aFFqRzNMRW1Ua2dHUWFaTNIB_gFBVV95cUxQbm5va0hWOFF1T19TTGJYb212RUwwWnZ2Wnh4ZHFGbmdlX0ZmOFJ5d2tkcGh6YUltZ3ZqOS00T1VJbGZYNXNBX1hEaTBVWmFKaEQ2V09QY1cweTl4aFEyN1JRbEVXZjc0eHVSRDJOOHlxV0wxWUQxM2RTSU5INE1NVHd3RFpOUUMxNlZlZGVuVXdQUU1vRXVQMFl2SUstVHg2ZjRzYnk5WmxjVkFxd1VLQWI3dkJLbTM2eExSV2x5N0laYzhWY0c4bjBUVFlua2g3aXZpTlBBMUgtOGdGYjZFWGM4MmJUWUk3Q2FnQUFwcHlhTlJnZWUtNlVjRkc3Zw?oc=5\" target=\"_blank\">La sala de elaboración de alimentos de San Patricio del Chañar cuenta con un avance del 42 por ciento</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Neuquén al instante</font>",
-          "source": "Neuquén al instante",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMi-AFBVV95cUxOd3QxWmxrd3RMZjR5dGltLS1WMEZmVjZ6bXZWcHpMdGpHSTltZ3RLQUlRclhqTG82TmZiY3FTdEVOb3RWbWV0c1k3ZVdjWkpvRUNET3ZaVlJRUVI3Rko2UlJOS1ZzZ21MRWd6aXhNeHJzZGhuLS1TazRTdF9PQzN4ZE9pbjNFZjc1VVM4anNFeHN0eGNnTE1oSEg3c0c4RGtfLVZER3VlLVFnaWVjSjFTQ292LU9EUW5ROEdKZVAwT05vNnZvMFFic0w4bFBqM2czM21PWWZxUkpxX2s1VE1tTFRsb2t2NzZ0aFFqRzNMRW1Ua2dHUWFaTNIB_gFBVV95cUxQbm5va0hWOFF1T19TTGJYb212RUwwWnZ2Wnh4ZHFGbmdlX0ZmOFJ5d2tkcGh6YUltZ3ZqOS00T1VJbGZYNXNBX1hEaTBVWmFKaEQ2V09QY1cweTl4aFEyN1JRbEVXZjc0eHVSRDJOOHlxV0wxWUQxM2RTSU5INE1NVHd3RFpOUUMxNlZlZGVuVXdQUU1vRXVQMFl2SUstVHg2ZjRzYnk5WmxjVkFxd1VLQWI3dkJLbTM2eExSV2x5N0laYzhWY0c4bjBUVFlua2g3aXZpTlBBMUgtOGdGYjZFWGM4MmJUWUk3Q2FnQUFwcHlhTlJnZWUtNlVjRkc3Zw?oc=5\" target=\"_blank\">La sala de elaboración de alimentos de San Patricio del Chañar cuenta con un avance del 42 por ciento</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">neuquenalinstante.com.ar</font>",
+          "source": "neuquenalinstante.com.ar",
           "sourceType": "BUSCADOR / RESPALDO",
           "sourceUrl": "",
           "collection": "BUSCADOR",
@@ -3263,17 +3263,17 @@
           "relevance": 3,
           "relevanceLabel": "DIRECTA",
           "firstSeen": "2026-10-06T06:45:57.600336+00:00",
-          "isNew": true,
-          "titleKey": "sala elaboracion alimentos cuenta avance ciento instante",
+          "isNew": false,
+          "titleKey": "sala elaboracion alimentos cuenta avance ciento neuquenalinstante com",
           "evidenceUrl": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOd3QxWmxrd3RMZjR5dGltLS1WMEZmVjZ6bXZWcHpMdGpHSTltZ3RLQUlRclhqTG82TmZiY3FTdEVOb3RWbWV0c1k3ZVdjWkpvRUNET3ZaVlJRUVI3Rko2UlJOS1ZzZ21MRWd6aXhNeHJzZGhuLS1TazRTdF9PQzN4ZE9pbjNFZjc1VVM4anNFeHN0eGNnTE1oSEg3c0c4RGtfLVZER3VlLVFnaWVjSjFTQ292LU9EUW5ROEdKZVAwT05vNnZvMFFic0w4bFBqM2czM21PWWZxUkpxX2s1VE1tTFRsb2t2NzZ0aFFqRzNMRW1Ua2dHUWFaTNIB_gFBVV95cUxQbm5va0hWOFF1T19TTGJYb212RUwwWnZ2Wnh4ZHFGbmdlX0ZmOFJ5d2tkcGh6YUltZ3ZqOS00T1VJbGZYNXNBX1hEaTBVWmFKaEQ2V09QY1cweTl4aFEyN1JRbEVXZjc0eHVSRDJOOHlxV0wxWUQxM2RTSU5INE1NVHd3RFpOUUMxNlZlZGVuVXdQUU1vRXVQMFl2SUstVHg2ZjRzYnk5WmxjVkFxd1VLQWI3dkJLbTM2eExSV2x5N0laYzhWY0c4bjBUVFlua2g3aXZpTlBBMUgtOGdGYjZFWGM4MmJUWUk3Q2FnQUFwcHlhTlJnZWUtNlVjRkc3Zw?oc=5",
           "sourcePriority": 3
         }
       ],
       "lifecycle": "EMERGENTE",
-      "movementDelta": -24,
-      "previousCoverage": 12,
+      "movementDelta": -2,
+      "previousCoverage": 1,
       "newSources": [
-        "Neuquén al instante"
+        "neuquenalinstante.com.ar"
       ],
       "sourceDiversity": 1,
       "memoryMatched": true,
@@ -3316,7 +3316,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "CULTURA / TURISMO",
-      "movement": 57,
+      "movement": 55,
       "coverage": 1,
       "sourceCount": 1,
       "directSourceCount": 0,
@@ -3394,7 +3394,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SERVICIOS",
-      "movement": 22,
+      "movement": 20,
       "coverage": 1,
       "sourceCount": 1,
       "directSourceCount": 0,
@@ -3428,7 +3428,7 @@
         }
       ],
       "lifecycle": "RECIENTE",
-      "movementDelta": 6,
+      "movementDelta": 4,
       "previousCoverage": 2,
       "newSources": [],
       "sourceDiversity": 1,
@@ -3830,12 +3830,12 @@
   ],
   "items": [
     {
-      "title": "La sala de elaboración de alimentos de San Patricio del Chañar cuenta con un avance del 42 por ciento - Neuquén al instante",
+      "title": "La sala de elaboración de alimentos de San Patricio del Chañar cuenta con un avance del 42 por ciento - neuquenalinstante.com.ar",
       "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOd3QxWmxrd3RMZjR5dGltLS1WMEZmVjZ6bXZWcHpMdGpHSTltZ3RLQUlRclhqTG82TmZiY3FTdEVOb3RWbWV0c1k3ZVdjWkpvRUNET3ZaVlJRUVI3Rko2UlJOS1ZzZ21MRWd6aXhNeHJzZGhuLS1TazRTdF9PQzN4ZE9pbjNFZjc1VVM4anNFeHN0eGNnTE1oSEg3c0c4RGtfLVZER3VlLVFnaWVjSjFTQ292LU9EUW5ROEdKZVAwT05vNnZvMFFic0w4bFBqM2czM21PWWZxUkpxX2s1VE1tTFRsb2t2NzZ0aFFqRzNMRW1Ua2dHUWFaTNIB_gFBVV95cUxQbm5va0hWOFF1T19TTGJYb212RUwwWnZ2Wnh4ZHFGbmdlX0ZmOFJ5d2tkcGh6YUltZ3ZqOS00T1VJbGZYNXNBX1hEaTBVWmFKaEQ2V09QY1cweTl4aFEyN1JRbEVXZjc0eHVSRDJOOHlxV0wxWUQxM2RTSU5INE1NVHd3RFpOUUMxNlZlZGVuVXdQUU1vRXVQMFl2SUstVHg2ZjRzYnk5WmxjVkFxd1VLQWI3dkJLbTM2eExSV2x5N0laYzhWY0c4bjBUVFlua2g3aXZpTlBBMUgtOGdGYjZFWGM4MmJUWUk3Q2FnQUFwcHlhTlJnZWUtNlVjRkc3Zw?oc=5",
       "publishedAt": "2026-10-06T00:56:15+00:00",
       "published": "2026-10-06T00:56:15+00:00",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMi-AFBVV95cUxOd3QxWmxrd3RMZjR5dGltLS1WMEZmVjZ6bXZWcHpMdGpHSTltZ3RLQUlRclhqTG82TmZiY3FTdEVOb3RWbWV0c1k3ZVdjWkpvRUNET3ZaVlJRUVI3Rko2UlJOS1ZzZ21MRWd6aXhNeHJzZGhuLS1TazRTdF9PQzN4ZE9pbjNFZjc1VVM4anNFeHN0eGNnTE1oSEg3c0c4RGtfLVZER3VlLVFnaWVjSjFTQ292LU9EUW5ROEdKZVAwT05vNnZvMFFic0w4bFBqM2czM21PWWZxUkpxX2s1VE1tTFRsb2t2NzZ0aFFqRzNMRW1Ua2dHUWFaTNIB_gFBVV95cUxQbm5va0hWOFF1T19TTGJYb212RUwwWnZ2Wnh4ZHFGbmdlX0ZmOFJ5d2tkcGh6YUltZ3ZqOS00T1VJbGZYNXNBX1hEaTBVWmFKaEQ2V09QY1cweTl4aFEyN1JRbEVXZjc0eHVSRDJOOHlxV0wxWUQxM2RTSU5INE1NVHd3RFpOUUMxNlZlZGVuVXdQUU1vRXVQMFl2SUstVHg2ZjRzYnk5WmxjVkFxd1VLQWI3dkJLbTM2eExSV2x5N0laYzhWY0c4bjBUVFlua2g3aXZpTlBBMUgtOGdGYjZFWGM4MmJUWUk3Q2FnQUFwcHlhTlJnZWUtNlVjRkc3Zw?oc=5\" target=\"_blank\">La sala de elaboración de alimentos de San Patricio del Chañar cuenta con un avance del 42 por ciento</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Neuquén al instante</font>",
-      "source": "Neuquén al instante",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMi-AFBVV95cUxOd3QxWmxrd3RMZjR5dGltLS1WMEZmVjZ6bXZWcHpMdGpHSTltZ3RLQUlRclhqTG82TmZiY3FTdEVOb3RWbWV0c1k3ZVdjWkpvRUNET3ZaVlJRUVI3Rko2UlJOS1ZzZ21MRWd6aXhNeHJzZGhuLS1TazRTdF9PQzN4ZE9pbjNFZjc1VVM4anNFeHN0eGNnTE1oSEg3c0c4RGtfLVZER3VlLVFnaWVjSjFTQ292LU9EUW5ROEdKZVAwT05vNnZvMFFic0w4bFBqM2czM21PWWZxUkpxX2s1VE1tTFRsb2t2NzZ0aFFqRzNMRW1Ua2dHUWFaTNIB_gFBVV95cUxQbm5va0hWOFF1T19TTGJYb212RUwwWnZ2Wnh4ZHFGbmdlX0ZmOFJ5d2tkcGh6YUltZ3ZqOS00T1VJbGZYNXNBX1hEaTBVWmFKaEQ2V09QY1cweTl4aFEyN1JRbEVXZjc0eHVSRDJOOHlxV0wxWUQxM2RTSU5INE1NVHd3RFpOUUMxNlZlZGVuVXdQUU1vRXVQMFl2SUstVHg2ZjRzYnk5WmxjVkFxd1VLQWI3dkJLbTM2eExSV2x5N0laYzhWY0c4bjBUVFlua2g3aXZpTlBBMUgtOGdGYjZFWGM4MmJUWUk3Q2FnQUFwcHlhTlJnZWUtNlVjRkc3Zw?oc=5\" target=\"_blank\">La sala de elaboración de alimentos de San Patricio del Chañar cuenta con un avance del 42 por ciento</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">neuquenalinstante.com.ar</font>",
+      "source": "neuquenalinstante.com.ar",
       "sourceType": "BUSCADOR / RESPALDO",
       "sourceUrl": "",
       "collection": "BUSCADOR",
@@ -3843,8 +3843,8 @@
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "firstSeen": "2026-10-06T06:45:57.600336+00:00",
-      "isNew": true,
-      "titleKey": "sala elaboracion alimentos cuenta avance ciento instante",
+      "isNew": false,
+      "titleKey": "sala elaboracion alimentos cuenta avance ciento neuquenalinstante com",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOd3QxWmxrd3RMZjR5dGltLS1WMEZmVjZ6bXZWcHpMdGpHSTltZ3RLQUlRclhqTG82TmZiY3FTdEVOb3RWbWV0c1k3ZVdjWkpvRUNET3ZaVlJRUVI3Rko2UlJOS1ZzZ21MRWd6aXhNeHJzZGhuLS1TazRTdF9PQzN4ZE9pbjNFZjc1VVM4anNFeHN0eGNnTE1oSEg3c0c4RGtfLVZER3VlLVFnaWVjSjFTQ292LU9EUW5ROEdKZVAwT05vNnZvMFFic0w4bFBqM2czM21PWWZxUkpxX2s1VE1tTFRsb2t2NzZ0aFFqRzNMRW1Ua2dHUWFaTNIB_gFBVV95cUxQbm5va0hWOFF1T19TTGJYb212RUwwWnZ2Wnh4ZHFGbmdlX0ZmOFJ5d2tkcGh6YUltZ3ZqOS00T1VJbGZYNXNBX1hEaTBVWmFKaEQ2V09QY1cweTl4aFEyN1JRbEVXZjc0eHVSRDJOOHlxV0wxWUQxM2RTSU5INE1NVHd3RFpOUUMxNlZlZGVuVXdQUU1vRXVQMFl2SUstVHg2ZjRzYnk5WmxjVkFxd1VLQWI3dkJLbTM2eExSV2x5N0laYzhWY0c4bjBUVFlua2g3aXZpTlBBMUgtOGdGYjZFWGM4MmJUWUk3Q2FnQUFwcHlhTlJnZWUtNlVjRkc3Zw?oc=5",
       "sourcePriority": 3
     },
@@ -4079,7 +4079,7 @@
   ],
   "territorialGraph": {
     "version": "2.0",
-    "generatedAt": "2026-10-06T06:46:10.456426+00:00",
+    "generatedAt": "2026-10-06T14:04:08.241878+00:00",
     "root": "spc",
     "rule": "evidence-first",
     "levels": [
@@ -4696,7 +4696,7 @@
   },
   "audit": {
     "version": "1.0",
-    "updatedAt": "2026-10-06T06:46:10.488897+00:00",
+    "updatedAt": "2026-10-06T14:04:08.291962+00:00",
     "rule": "fact != coverage; territory requires textual evidence",
     "facts": 8,
     "coverage": 14,
