@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-07T18:49:41.945071+00:00",
+  "updatedAt": "2026-10-07T23:31:20.099442+00:00",
   "window": "14 días",
   "purpose": "Detectar qué se está moviendo en San Patricio del Chañar y mostrar de dónde surge cada señal.",
   "architecture": "contrato universal de procedencia + fuentes profesionales + adaptadores específicos + validación semántica + temporalidad + evidencia editorial separada",
@@ -49,7 +49,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://chanardigital.com.ar/",
-      "lastFetch": "2026-10-07T18:49:17.313801+00:00",
+      "lastFetch": "2026-10-07T23:31:02.285971+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -65,7 +65,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.radiomia.com.ar/",
-      "lastFetch": "2026-10-07T18:49:18.879829+00:00",
+      "lastFetch": "2026-10-07T23:31:03.864656+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -80,7 +80,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://tuitvacamuerta.com/",
-      "lastFetch": "2026-10-07T18:49:20.555388+00:00",
+      "lastFetch": "2026-10-07T23:31:05.513858+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -95,7 +95,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.vacamuertanews.com/",
-      "lastFetch": "2026-10-07T18:49:21.225591+00:00",
+      "lastFetch": "2026-10-07T23:31:05.761411+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -111,7 +111,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.neuqueninforma.gob.ar/",
-      "lastFetch": "2026-10-07T18:49:22.805737+00:00",
+      "lastFetch": "2026-10-07T23:31:06.717065+00:00",
       "success": false,
       "attempted": 3,
       "failures": [
@@ -128,7 +128,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://sanpatricio.gob.ar/",
-      "lastFetch": "2026-10-07T18:49:23.859069+00:00",
+      "lastFetch": "2026-10-07T23:31:07.477106+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -143,7 +143,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://boletinoficial.neuquen.gov.ar/",
-      "lastFetch": "2026-10-07T18:49:24.948695+00:00",
+      "lastFetch": "2026-10-07T23:31:08.409285+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -158,7 +158,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.lmneuquen.com/",
-      "lastFetch": "2026-10-07T18:49:25.171971+00:00",
+      "lastFetch": "2026-10-07T23:31:08.633978+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -171,17 +171,17 @@
     {
       "name": "Diario Río Negro",
       "type": "MEDIO REGIONAL",
-      "mode": "RSS DIRECTO",
-      "signals": 1,
+      "mode": "SIN RESPUESTA",
+      "signals": 0,
       "url": "https://www.rionegro.com.ar/",
-      "lastFetch": "2026-10-07T18:49:29.697668+00:00",
+      "lastFetch": "2026-10-07T23:31:09.912993+00:00",
       "success": true,
       "attempted": 2,
       "failures": [
         "WEB:AttributeError"
       ],
       "directAvailability": "available",
-      "freshnessHours": 0.8
+      "freshnessHours": null
     },
     {
       "name": "Mejor Informado",
@@ -189,7 +189,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.mejorinformado.com/",
-      "lastFetch": "2026-10-07T18:49:30.390906+00:00",
+      "lastFetch": "2026-10-07T23:31:10.207079+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -205,7 +205,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.diariamenteneuquen.com/",
-      "lastFetch": "2026-10-07T18:49:31.283027+00:00",
+      "lastFetch": "2026-10-07T23:31:10.801372+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -602,10 +602,10 @@
       "group": "REGIONAL",
       "role": "medio regional",
       "url": "https://www.rionegro.com.ar/",
-      "signals": 2,
-      "directSignals": 2,
+      "signals": 1,
+      "directSignals": 1,
       "anchoredSignals": 0,
-      "lastSeen": "2026-10-07T18:04:27+00:00",
+      "lastSeen": "2026-10-06T18:04:48+00:00",
       "status": "CON SEÑALES",
       "note": "ausencia de señales no equivale a ausencia del hecho"
     },
@@ -709,13 +709,13 @@
   "languageAudit": [
     {
       "term": "el chañar",
-      "hits": 17,
-      "direct": 17
+      "hits": 20,
+      "direct": 20
     },
     {
       "term": "san patricio del chañar",
-      "hits": 15,
-      "direct": 15
+      "hits": 17,
+      "direct": 17
     },
     {
       "term": "epet 26",
@@ -729,11 +729,6 @@
     },
     {
       "term": "viñedo",
-      "hits": 1,
-      "direct": 1
-    },
-    {
-      "term": "parque industrial",
       "hits": 1,
       "direct": 1
     },
@@ -819,6 +814,11 @@
     },
     {
       "term": "picada 1",
+      "hits": 0,
+      "direct": 0
+    },
+    {
+      "term": "parque industrial",
       "hits": 0,
       "direct": 0
     },
@@ -959,6 +959,19 @@
         "topics": []
       },
       {
+        "source": "ANBariloche",
+        "group": "OBSERVADA",
+        "role": "fuente detectada fuera del catálogo",
+        "accepted": 1,
+        "direct": 1,
+        "anchored": 0,
+        "falsePositives": 0,
+        "falsePositiveTypes": [],
+        "topics": [
+          "SERVICIOS"
+        ]
+      },
+      {
         "source": "Argentina.gob.ar",
         "group": "EXTERNA",
         "role": "fuente nacional",
@@ -1017,6 +1030,19 @@
         "topics": []
       },
       {
+        "source": "Cutral Co al Instante",
+        "group": "OBSERVADA",
+        "role": "fuente detectada fuera del catálogo",
+        "accepted": 1,
+        "direct": 1,
+        "anchored": 0,
+        "falsePositives": 0,
+        "falsePositiveTypes": [],
+        "topics": [
+          "SERVICIOS"
+        ]
+      },
+      {
         "source": "Defensa Civil Neuquén",
         "group": "REGIONAL",
         "role": "emergencias y alertas",
@@ -1044,8 +1070,8 @@
         "source": "Diario Río Negro",
         "group": "REGIONAL",
         "role": "medio regional",
-        "accepted": 2,
-        "direct": 2,
+        "accepted": 1,
+        "direct": 1,
         "anchored": 0,
         "falsePositives": 0,
         "falsePositiveTypes": [],
@@ -1244,27 +1270,13 @@
         "source": "Neuquén News",
         "group": "OBSERVADA",
         "role": "fuente detectada fuera del catálogo",
-        "accepted": 2,
-        "direct": 2,
-        "anchored": 0,
-        "falsePositives": 0,
-        "falsePositiveTypes": [],
-        "topics": [
-          "CULTURA / TURISMO",
-          "SERVICIOS"
-        ]
-      },
-      {
-        "source": "Neuquén al instante",
-        "group": "OBSERVADA",
-        "role": "fuente detectada fuera del catálogo",
         "accepted": 1,
         "direct": 1,
         "anchored": 0,
         "falsePositives": 0,
         "falsePositiveTypes": [],
         "topics": [
-          "SERVICIOS"
+          "CULTURA / TURISMO"
         ]
       },
       {
@@ -1284,8 +1296,8 @@
         "source": "Patagonia Press",
         "group": "OBSERVADA",
         "role": "fuente detectada fuera del catálogo",
-        "accepted": 1,
-        "direct": 1,
+        "accepted": 2,
+        "direct": 2,
         "anchored": 0,
         "falsePositives": 0,
         "falsePositiveTypes": [],
@@ -1399,19 +1411,6 @@
         ]
       },
       {
-        "source": "Diario Río Negro",
-        "topic": "SERVICIOS",
-        "accepted": 2,
-        "direct": 2,
-        "anchored": 0,
-        "falsePositives": 0,
-        "territorialTerms": [
-          "san patricio del chañar",
-          "el chañar",
-          "parque industrial"
-        ]
-      },
-      {
         "source": "Lmneuquen.com",
         "topic": "SERVICIOS",
         "accepted": 2,
@@ -1436,6 +1435,42 @@
         ]
       },
       {
+        "source": "Patagonia Press",
+        "topic": "SERVICIOS",
+        "accepted": 2,
+        "direct": 2,
+        "anchored": 0,
+        "falsePositives": 0,
+        "territorialTerms": [
+          "san patricio del chañar",
+          "el chañar"
+        ]
+      },
+      {
+        "source": "ANBariloche",
+        "topic": "SERVICIOS",
+        "accepted": 1,
+        "direct": 1,
+        "anchored": 0,
+        "falsePositives": 0,
+        "territorialTerms": [
+          "san patricio del chañar",
+          "el chañar"
+        ]
+      },
+      {
+        "source": "Cutral Co al Instante",
+        "topic": "SERVICIOS",
+        "accepted": 1,
+        "direct": 1,
+        "anchored": 0,
+        "falsePositives": 0,
+        "territorialTerms": [
+          "san patricio del chañar",
+          "el chañar"
+        ]
+      },
+      {
         "source": "Diario Neuquino",
         "topic": "EDUCACIÓN",
         "accepted": 1,
@@ -1446,6 +1481,18 @@
           "san patricio del chañar",
           "el chañar",
           "epet 26"
+        ]
+      },
+      {
+        "source": "Diario Río Negro",
+        "topic": "SERVICIOS",
+        "accepted": 1,
+        "direct": 1,
+        "anchored": 0,
+        "falsePositives": 0,
+        "territorialTerms": [
+          "san patricio del chañar",
+          "el chañar"
         ]
       },
       {
@@ -1510,43 +1557,7 @@
         ]
       },
       {
-        "source": "Neuquén News",
-        "topic": "SERVICIOS",
-        "accepted": 1,
-        "direct": 1,
-        "anchored": 0,
-        "falsePositives": 0,
-        "territorialTerms": [
-          "san patricio del chañar",
-          "el chañar"
-        ]
-      },
-      {
-        "source": "Neuquén al instante",
-        "topic": "SERVICIOS",
-        "accepted": 1,
-        "direct": 1,
-        "anchored": 0,
-        "falsePositives": 0,
-        "territorialTerms": [
-          "san patricio del chañar",
-          "el chañar"
-        ]
-      },
-      {
         "source": "NoticiasNQN",
-        "topic": "SERVICIOS",
-        "accepted": 1,
-        "direct": 1,
-        "anchored": 0,
-        "falsePositives": 0,
-        "territorialTerms": [
-          "san patricio del chañar",
-          "el chañar"
-        ]
-      },
-      {
-        "source": "Patagonia Press",
         "topic": "SERVICIOS",
         "accepted": 1,
         "direct": 1,
@@ -1575,8 +1586,8 @@
       },
       {
         "term": "el chañar",
-        "acceptedHits": 17,
-        "directHits": 17,
+        "acceptedHits": 18,
+        "directHits": 18,
         "rejectedTitleHits": 0,
         "territorialStrength": "FUERTE"
       },
@@ -1666,8 +1677,8 @@
       },
       {
         "term": "parque industrial",
-        "acceptedHits": 1,
-        "directHits": 1,
+        "acceptedHits": 0,
+        "directHits": 0,
         "rejectedTitleHits": 0,
         "territorialStrength": "FUERTE"
       },
@@ -1901,12 +1912,12 @@
     "interpretation": "auditoría sobre eventos aceptados; la próxima capa debe instrumentar rechazos antes del clustering"
   },
   "stats": {
-    "total": 20,
-    "direct": 20,
+    "total": 22,
+    "direct": 22,
     "regional": 0,
-    "new": 4,
-    "sources": 12,
-    "directSignals": 1,
+    "new": 3,
+    "sources": 14,
+    "directSignals": 0,
     "localDirectSignals": 0,
     "radioDirectSignals": 0,
     "precisionRule": "evidence-first",
@@ -1919,7 +1930,7 @@
       "forecastGustKmh": 29.0,
       "forecastWindDirection": "SE",
       "forecastTemperatureC": 9.0,
-      "retrievedAt": "2026-10-07T18:49:14.796886+00:00",
+      "retrievedAt": "2026-10-07T23:31:00.096644+00:00",
       "source": "AIC",
       "sourceTier": "primary",
       "sourceUrl": "https://www.aic.gob.ar/sitio/home?a=1015&z=1967225803",
@@ -1949,7 +1960,7 @@
       "currentProgrammedMinM3s": 280,
       "programDate": "2026-10-08",
       "tableDate": "2026-10-07",
-      "retrievedAt": "2026-10-07T18:49:14.796886+00:00",
+      "retrievedAt": "2026-10-07T23:31:00.096644+00:00",
       "source": "AIC",
       "sourceTier": "primary",
       "sourceUrl": "https://www.aic.gob.ar/sitio/caudales",
@@ -1969,17 +1980,17 @@
         "url": "https://www.aic.gob.ar/sitio/caudales"
       }
     ],
-    "updatedAt": "2026-10-07T18:49:14.796886+00:00"
+    "updatedAt": "2026-10-07T23:31:00.096644+00:00"
   },
   "operational": {
-    "updatedAt": "2026-10-07T18:49:14.796886+00:00",
+    "updatedAt": "2026-10-07T23:31:00.096644+00:00",
     "route7": {
       "source": "Dirección Provincial de Vialidad",
       "sourceTier": "primary",
       "sourceUrl": "https://www.dpvneuquen.gov.ar/",
       "semanticState": null,
       "publicationState": "source_reachable_no_current_machine_readable_state",
-      "retrievedAt": "2026-10-07T18:49:14.796886+00:00",
+      "retrievedAt": "2026-10-07T23:31:00.096644+00:00",
       "evidence": {
         "route7Mention": true,
         "route8Mention": false
@@ -1991,7 +2002,7 @@
       "sourceUrl": "https://www.dpvneuquen.gov.ar/",
       "semanticState": null,
       "publicationState": "source_reachable_no_current_machine_readable_state",
-      "retrievedAt": "2026-10-07T18:49:14.796886+00:00",
+      "retrievedAt": "2026-10-07T23:31:00.096644+00:00",
       "evidence": {
         "route7Mention": true,
         "route8Mention": false
@@ -2005,7 +2016,7 @@
       "eventType": null,
       "detail": null,
       "publicationState": "source_reachable_no_specific_local_notice",
-      "retrievedAt": "2026-10-07T18:49:14.796886+00:00"
+      "retrievedAt": "2026-10-07T23:31:00.096644+00:00"
     },
     "water": {
       "source": "EPAS",
@@ -2015,7 +2026,7 @@
       "eventType": null,
       "detail": null,
       "publicationState": "source_reachable_no_specific_local_notice",
-      "retrievedAt": "2026-10-07T18:49:14.796886+00:00"
+      "retrievedAt": "2026-10-07T23:31:00.096644+00:00"
     },
     "sources": [
       {
@@ -2425,11 +2436,11 @@
     {
       "id": "CONVERSACIÓN",
       "label": "Conversación general",
-      "signal": 9,
+      "signal": 8,
       "status": "cobertura editorial",
-      "freshnessHours": 0.8,
+      "freshnessHours": 2.5,
       "mode": "evidencia editorial",
-      "evidenceCount": 9,
+      "evidenceCount": 8,
       "sourceContract": {
         "primary": "medios locales identificables",
         "secondary": "fuentes institucionales competentes",
@@ -2507,7 +2518,7 @@
         "sourceUrl": "https://www.dpvneuquen.gov.ar/",
         "semanticState": null,
         "publicationState": "source_reachable_no_current_machine_readable_state",
-        "retrievedAt": "2026-10-07T18:49:14.796886+00:00",
+        "retrievedAt": "2026-10-07T23:31:00.096644+00:00",
         "evidence": {
           "route7Mention": true,
           "route8Mention": false
@@ -2559,7 +2570,7 @@
         "sourceUrl": "https://www.dpvneuquen.gov.ar/",
         "semanticState": null,
         "publicationState": "source_reachable_no_current_machine_readable_state",
-        "retrievedAt": "2026-10-07T18:49:14.796886+00:00",
+        "retrievedAt": "2026-10-07T23:31:00.096644+00:00",
         "evidence": {
           "route7Mention": true,
           "route8Mention": false
@@ -2659,7 +2670,7 @@
         "eventType": null,
         "detail": null,
         "publicationState": "source_reachable_no_specific_local_notice",
-        "retrievedAt": "2026-10-07T18:49:14.796886+00:00"
+        "retrievedAt": "2026-10-07T23:31:00.096644+00:00"
       }
     },
     {
@@ -2709,7 +2720,7 @@
         "eventType": null,
         "detail": null,
         "publicationState": "source_reachable_no_specific_local_notice",
-        "retrievedAt": "2026-10-07T18:49:14.796886+00:00"
+        "retrievedAt": "2026-10-07T23:31:00.096644+00:00"
       }
     },
     {
@@ -2797,7 +2808,7 @@
       "label": "Educación",
       "signal": 2,
       "status": "evidencia educativa",
-      "freshnessHours": 259.8,
+      "freshnessHours": 264.5,
       "mode": "evidencia editorial",
       "evidenceCount": 2,
       "sourceContract": {
@@ -2837,7 +2848,7 @@
       "label": "Producción rural",
       "signal": 1,
       "status": "evidencia productiva",
-      "freshnessHours": 214.9,
+      "freshnessHours": 219.6,
       "mode": "evidencia editorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -2915,11 +2926,11 @@
     {
       "id": "TERRITORIO",
       "label": "Territorio / microzonas",
-      "signal": 1,
+      "signal": 0,
       "status": "hecho territorial",
-      "freshnessHours": 0.8,
+      "freshnessHours": null,
       "mode": "evidencia territorial",
-      "evidenceCount": 1,
+      "evidenceCount": 0,
       "sourceContract": {
         "primary": "Municipalidad de San Patricio del Chañar",
         "secondary": "organismo provincial competente según fenómeno",
@@ -2974,7 +2985,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://chanardigital.com.ar/",
-        "lastFetch": "2026-10-07T18:49:17.313801+00:00",
+        "lastFetch": "2026-10-07T23:31:02.285971+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -2990,7 +3001,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.radiomia.com.ar/",
-        "lastFetch": "2026-10-07T18:49:18.879829+00:00",
+        "lastFetch": "2026-10-07T23:31:03.864656+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -3005,7 +3016,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://tuitvacamuerta.com/",
-        "lastFetch": "2026-10-07T18:49:20.555388+00:00",
+        "lastFetch": "2026-10-07T23:31:05.513858+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -3020,7 +3031,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.vacamuertanews.com/",
-        "lastFetch": "2026-10-07T18:49:21.225591+00:00",
+        "lastFetch": "2026-10-07T23:31:05.761411+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3036,7 +3047,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.neuqueninforma.gob.ar/",
-        "lastFetch": "2026-10-07T18:49:22.805737+00:00",
+        "lastFetch": "2026-10-07T23:31:06.717065+00:00",
         "success": false,
         "attempted": 3,
         "failures": [
@@ -3053,7 +3064,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://sanpatricio.gob.ar/",
-        "lastFetch": "2026-10-07T18:49:23.859069+00:00",
+        "lastFetch": "2026-10-07T23:31:07.477106+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -3068,7 +3079,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://boletinoficial.neuquen.gov.ar/",
-        "lastFetch": "2026-10-07T18:49:24.948695+00:00",
+        "lastFetch": "2026-10-07T23:31:08.409285+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -3083,7 +3094,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.lmneuquen.com/",
-        "lastFetch": "2026-10-07T18:49:25.171971+00:00",
+        "lastFetch": "2026-10-07T23:31:08.633978+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3096,17 +3107,17 @@
       {
         "name": "Diario Río Negro",
         "type": "MEDIO REGIONAL",
-        "mode": "RSS DIRECTO",
-        "signals": 1,
+        "mode": "SIN RESPUESTA",
+        "signals": 0,
         "url": "https://www.rionegro.com.ar/",
-        "lastFetch": "2026-10-07T18:49:29.697668+00:00",
+        "lastFetch": "2026-10-07T23:31:09.912993+00:00",
         "success": true,
         "attempted": 2,
         "failures": [
           "WEB:AttributeError"
         ],
         "directAvailability": "available",
-        "freshnessHours": 0.8
+        "freshnessHours": null
       },
       {
         "name": "Mejor Informado",
@@ -3114,7 +3125,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.mejorinformado.com/",
-        "lastFetch": "2026-10-07T18:49:30.390906+00:00",
+        "lastFetch": "2026-10-07T23:31:10.207079+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3130,7 +3141,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.diariamenteneuquen.com/",
-        "lastFetch": "2026-10-07T18:49:31.283027+00:00",
+        "lastFetch": "2026-10-07T23:31:10.801372+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3150,31 +3161,109 @@
     {
       "eventId": "CHA-743b80b1a55a",
       "title": "La sala de elaboración de alimentos de San Patricio del Chañar cuenta con un avance del 42 por ciento - Neuquén al instante",
-      "publishedAt": "2026-10-07T17:01:31+00:00",
+      "publishedAt": "2026-10-07T21:02:33+00:00",
       "firstSeen": "2026-10-06T06:45:57.600336+00:00",
-      "lastSeen": "2026-10-07T17:01:31+00:00",
+      "lastSeen": "2026-10-07T21:02:33+00:00",
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SERVICIOS",
       "movement": 99,
-      "coverage": 7,
-      "sourceCount": 6,
+      "coverage": 10,
+      "sourceCount": 8,
       "directSourceCount": 0,
       "territorialAnchors": [
         "san patricio del chañar",
         "el chañar"
       ],
       "sources": [
+        "ANBariloche",
+        "Cutral Co al Instante",
+        "Patagonia Press",
+        "MejorInformado.com",
         "NoticiasNQN",
         "Flipr.news",
-        "MejorInformado.com",
         "Diario Río Negro",
-        "Neuquén al instante",
-        "Neuquén News"
+        "Neuquén al instante"
       ],
       "evidenceUrl": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOd3QxWmxrd3RMZjR5dGltLS1WMEZmVjZ6bXZWcHpMdGpHSTltZ3RLQUlRclhqTG82TmZiY3FTdEVOb3RWbWV0c1k3ZVdjWkpvRUNET3ZaVlJRUVI3Rko2UlJOS1ZzZ21MRWd6aXhNeHJzZGhuLS1TazRTdF9PQzN4ZE9pbjNFZjc1VVM4anNFeHN0eGNnTE1oSEg3c0c4RGtfLVZER3VlLVFnaWVjSjFTQ292LU9EUW5ROEdKZVAwT05vNnZvMFFic0w4bFBqM2czM21PWWZxUkpxX2s1VE1tTFRsb2t2NzZ0aFFqRzNMRW1Ua2dHUWFaTNIB_gFBVV95cUxQbm5va0hWOFF1T19TTGJYb212RUwwWnZ2Wnh4ZHFGbmdlX0ZmOFJ5d2tkcGh6YUltZ3ZqOS00T1VJbGZYNXNBX1hEaTBVWmFKaEQ2V09QY1cweTl4aFEyN1JRbEVXZjc0eHVSRDJOOHlxV0wxWUQxM2RTSU5INE1NVHd3RFpOUUMxNlZlZGVuVXdQUU1vRXVQMFl2SUstVHg2ZjRzYnk5WmxjVkFxd1VLQWI3dkJLbTM2eExSV2x5N0laYzhWY0c4bjBUVFlua2g3aXZpTlBBMUgtOGdGYjZFWGM4MmJUWUk3Q2FnQUFwcHlhTlJnZWUtNlVjRkc3Zw?oc=5",
       "items": [
+        {
+          "title": "Excavan tumbas en San Patricio del Chañar para buscar restos de desaparecidos de la dictadura - ANBariloche",
+          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxORDhjZnk0dHJOUWtXcmZPcm1QTFlnQW16c05oS0FNY21xeXpOWGpsNW9QV1A0TzJvcEU0bDdYTVd4NUctaGFmNjBVREJsd3FWb1l0d3g5T3V3TGlxRTV6T2hyeWxhLXYwdUtQckFUVTNxRVk3M0x6MHV0RWktaDlUZ1BYYzM3ZndReXowYkZKcWM2Rko5V094VjJIcm51d3E3OXkxaGlnQkgxWnVPSHdNSDVhaHAzTk8teHJBa3lsTWJRa3dfY0pQaUdvakZMOVp2THVObGVvZGU1bzU4cTc5Wlp0QmptWXdRR2M40gHrAUFVX3lxTE5EOGNmeTR0ck5Ra1dyZk9ybVBMWWdBbXpzTmhLQU1jbXF5ek5Yamw1b1BXUDRPMm9wRTRsN1hNV3g1Ry1oYWY2MFVEQmx3cVZvWXR3eDlPdXdMaXFFNXpPaHJ5bGEtdjB1S1ByQVRVM3FFWTczTHowdXRFaS1oOVRnUFhjMzdmd1F5ejBiRkpxYzZGSjlXT3hWMkhybnV3cTc5eTFoaWdCSDFadU9Id01INWFocDNOTy14ckFreWxNYlFrd19jSlBpR29qRkw5WnZMdU5sZW9kZTVvNThxNzlaWnRCam1Zd1FHYzg?oc=5",
+          "publishedAt": "2026-10-07T21:02:33+00:00",
+          "published": "2026-10-07T21:02:33+00:00",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMi6wFBVV95cUxORDhjZnk0dHJOUWtXcmZPcm1QTFlnQW16c05oS0FNY21xeXpOWGpsNW9QV1A0TzJvcEU0bDdYTVd4NUctaGFmNjBVREJsd3FWb1l0d3g5T3V3TGlxRTV6T2hyeWxhLXYwdUtQckFUVTNxRVk3M0x6MHV0RWktaDlUZ1BYYzM3ZndReXowYkZKcWM2Rko5V094VjJIcm51d3E3OXkxaGlnQkgxWnVPSHdNSDVhaHAzTk8teHJBa3lsTWJRa3dfY0pQaUdvakZMOVp2THVObGVvZGU1bzU4cTc5Wlp0QmptWXdRR2M40gHrAUFVX3lxTE5EOGNmeTR0ck5Ra1dyZk9ybVBMWWdBbXpzTmhLQU1jbXF5ek5Yamw1b1BXUDRPMm9wRTRsN1hNV3g1Ry1oYWY2MFVEQmx3cVZvWXR3eDlPdXdMaXFFNXpPaHJ5bGEtdjB1S1ByQVRVM3FFWTczTHowdXRFaS1oOVRnUFhjMzdmd1F5ejBiRkpxYzZGSjlXT3hWMkhybnV3cTc5eTFoaWdCSDFadU9Id01INWFocDNOTy14ckFreWxNYlFrd19jSlBpR29qRkw5WnZMdU5sZW9kZTVvNThxNzlaWnRCam1Zd1FHYzg?oc=5\" target=\"_blank\">Excavan tumbas en San Patricio del Chañar para buscar restos de desaparecidos de la dictadura</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ANBariloche</font>",
+          "source": "ANBariloche",
+          "sourceType": "BUSCADOR / RESPALDO",
+          "sourceUrl": "",
+          "collection": "BUSCADOR",
+          "query": "\"San Patricio del Chañar\"",
+          "relevance": 3,
+          "relevanceLabel": "DIRECTA",
+          "firstSeen": "2026-10-07T23:31:20.099442+00:00",
+          "isNew": true,
+          "titleKey": "excavan tumbas buscar restos desaparecidos dictadura anbariloche",
+          "evidenceUrl": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxORDhjZnk0dHJOUWtXcmZPcm1QTFlnQW16c05oS0FNY21xeXpOWGpsNW9QV1A0TzJvcEU0bDdYTVd4NUctaGFmNjBVREJsd3FWb1l0d3g5T3V3TGlxRTV6T2hyeWxhLXYwdUtQckFUVTNxRVk3M0x6MHV0RWktaDlUZ1BYYzM3ZndReXowYkZKcWM2Rko5V094VjJIcm51d3E3OXkxaGlnQkgxWnVPSHdNSDVhaHAzTk8teHJBa3lsTWJRa3dfY0pQaUdvakZMOVp2THVObGVvZGU1bzU4cTc5Wlp0QmptWXdRR2M40gHrAUFVX3lxTE5EOGNmeTR0ck5Ra1dyZk9ybVBMWWdBbXpzTmhLQU1jbXF5ek5Yamw1b1BXUDRPMm9wRTRsN1hNV3g1Ry1oYWY2MFVEQmx3cVZvWXR3eDlPdXdMaXFFNXpPaHJ5bGEtdjB1S1ByQVRVM3FFWTczTHowdXRFaS1oOVRnUFhjMzdmd1F5ejBiRkpxYzZGSjlXT3hWMkhybnV3cTc5eTFoaWdCSDFadU9Id01INWFocDNOTy14ckFreWxNYlFrd19jSlBpR29qRkw5WnZMdU5sZW9kZTVvNThxNzlaWnRCam1Zd1FHYzg?oc=5",
+          "sourcePriority": 3
+        },
+        {
+          "title": "San Patricio del Chañar: excavan tumbas NN en busca de posibles desaparecidos durante la dictadura - Cutral Co al Instante",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPb245bllHWGhhTFZJNFhISlYxT2p0dk5wVXc1Rkw1bzZWbmhCZzh2WW40YTVyQXViYjdSZjVvalF5ZEQyMHhJa1B4Sk1MZEVzVWNtVDhlOWRKSHlVNWZiVUZfUkJsYjZZaGl2NzY1X1pyYWxTdXUxcGthek9paHNQaXpHMnc5VmxfbEFBWUFnODdHa0ZabHYtMllWTW1vd3lOamZ1eUREa09SdnZGbXRRVE53QUMzbWNHRmJsZkJFMURuZ1IwX21nMGhpbDVDOHg3UUpMMmM4S0pRalRl?oc=5",
+          "publishedAt": "2026-10-07T20:00:00+00:00",
+          "published": "2026-10-07T20:00:00+00:00",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMi3AFBVV95cUxPb245bllHWGhhTFZJNFhISlYxT2p0dk5wVXc1Rkw1bzZWbmhCZzh2WW40YTVyQXViYjdSZjVvalF5ZEQyMHhJa1B4Sk1MZEVzVWNtVDhlOWRKSHlVNWZiVUZfUkJsYjZZaGl2NzY1X1pyYWxTdXUxcGthek9paHNQaXpHMnc5VmxfbEFBWUFnODdHa0ZabHYtMllWTW1vd3lOamZ1eUREa09SdnZGbXRRVE53QUMzbWNHRmJsZkJFMURuZ1IwX21nMGhpbDVDOHg3UUpMMmM4S0pRalRl?oc=5\" target=\"_blank\">San Patricio del Chañar: excavan tumbas NN en busca de posibles desaparecidos durante la dictadura</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Cutral Co al Instante</font>",
+          "source": "Cutral Co al Instante",
+          "sourceType": "BUSCADOR / RESPALDO",
+          "sourceUrl": "",
+          "collection": "BUSCADOR",
+          "query": "\"San Patricio del Chañar\"",
+          "relevance": 3,
+          "relevanceLabel": "DIRECTA",
+          "firstSeen": "2026-10-07T23:31:20.099442+00:00",
+          "isNew": true,
+          "titleKey": "excavan tumbas busca posibles desaparecidos durante dictadura cutral instante",
+          "evidenceUrl": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPb245bllHWGhhTFZJNFhISlYxT2p0dk5wVXc1Rkw1bzZWbmhCZzh2WW40YTVyQXViYjdSZjVvalF5ZEQyMHhJa1B4Sk1MZEVzVWNtVDhlOWRKSHlVNWZiVUZfUkJsYjZZaGl2NzY1X1pyYWxTdXUxcGthek9paHNQaXpHMnc5VmxfbEFBWUFnODdHa0ZabHYtMllWTW1vd3lOamZ1eUREa09SdnZGbXRRVE53QUMzbWNHRmJsZkJFMURuZ1IwX21nMGhpbDVDOHg3UUpMMmM4S0pRalRl?oc=5",
+          "sourcePriority": 3
+        },
+        {
+          "title": "Investigan si hay cuerpos de desaparecidos en dictadura enterrados en el cementerio del Chañar - Patagonia Press",
+          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNUUtEbzZfa1JuTXhHYzJocUF0QnF0by03OUdYNDhqWHhrNVVwZkNQZTdEYWwyanRoVzBGclAteXB6UlBRYlQzeDR6emdTTDJEUk5JNVVMem1MNEM1dWJXWTVhU3I3cVZVb3c1NjUycFVxdkJPWmgtQW90czh4YV9oeXBuSDN3dTRCYXRZVUF5XzlIaVJ5N1AwRUl4WkE3NUxYRWV0a0tZR0hZQ1Y3dnVmeGVTM1VNRFlTRDRNVEN5dkNUS1dUVXhpR1k3SVFReHg1M2M0ZTBaeVk2T3VuVWFpNzF3OGpPRzlONkE?oc=5",
+          "publishedAt": "2026-10-07T19:34:42+00:00",
+          "published": "2026-10-07T19:34:42+00:00",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMi6gFBVV95cUxNUUtEbzZfa1JuTXhHYzJocUF0QnF0by03OUdYNDhqWHhrNVVwZkNQZTdEYWwyanRoVzBGclAteXB6UlBRYlQzeDR6emdTTDJEUk5JNVVMem1MNEM1dWJXWTVhU3I3cVZVb3c1NjUycFVxdkJPWmgtQW90czh4YV9oeXBuSDN3dTRCYXRZVUF5XzlIaVJ5N1AwRUl4WkE3NUxYRWV0a0tZR0hZQ1Y3dnVmeGVTM1VNRFlTRDRNVEN5dkNUS1dUVXhpR1k3SVFReHg1M2M0ZTBaeVk2T3VuVWFpNzF3OGpPRzlONkE?oc=5\" target=\"_blank\">Investigan si hay cuerpos de desaparecidos en dictadura enterrados en el cementerio del Chañar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Patagonia Press</font>",
+          "source": "Patagonia Press",
+          "sourceType": "BUSCADOR / RESPALDO",
+          "sourceUrl": "",
+          "collection": "BUSCADOR",
+          "query": "\"San Patricio del Chañar\"",
+          "relevance": 3,
+          "relevanceLabel": "DIRECTA",
+          "firstSeen": "2026-10-07T23:31:20.099442+00:00",
+          "isNew": true,
+          "titleKey": "investigan hay cuerpos desaparecidos dictadura enterrados cementerio patagonia press",
+          "evidenceUrl": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNUUtEbzZfa1JuTXhHYzJocUF0QnF0by03OUdYNDhqWHhrNVVwZkNQZTdEYWwyanRoVzBGclAteXB6UlBRYlQzeDR6emdTTDJEUk5JNVVMem1MNEM1dWJXWTVhU3I3cVZVb3c1NjUycFVxdkJPWmgtQW90czh4YV9oeXBuSDN3dTRCYXRZVUF5XzlIaVJ5N1AwRUl4WkE3NUxYRWV0a0tZR0hZQ1Y3dnVmeGVTM1VNRFlTRDRNVEN5dkNUS1dUVXhpR1k3SVFReHg1M2M0ZTBaeVk2T3VuVWFpNzF3OGpPRzlONkE?oc=5",
+          "sourcePriority": 3
+        },
+        {
+          "title": "Buscan presuntos cuerpos de desaparecidos de la última dictadura en el cementerio del Chañar - MejorInformado.com",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOWkVpa2VIVHhUSlZCbm1zbnVVM0szbGxfQXBoeTdWLTkwMFB5ZnlibERwSFBmdFJhdnpJaVpHZF9mVGtzZnZpN2lGa1JRbVllQU1UX3hRb0lUZzZwTGhuZnowOF9udDdJQVNEQWk5ZmZ2aXBIWDZMS1JxSFlXNkdHRldqMEhzWjhkd3BKSWo3U3FQRXVBM0syRlItTzVsa3daZnZpZklwY2Y2WmdYSUlLUG9UN2pfSFM4TmppWjhvN3nSAcABQVVfeXFMTlpFaWtlSFR4VEpWQm5tc251VTNLM2xsX0FwaHk3Vi05MDBQeWZ5YmxEcEhQZnRSYXZ6SWlaR2RfZlRrc2Z2aTdpRmtSUW1ZZUFNVF94UW9JVGc2cExobmZ6MDhfbnQ3SUFTREFpOWZmdmlwSFg2TEtScUhZVzZHR0ZXajBIc1o4ZHdwSklqN1NxUEV1QTNLMkZSLU81bGt3WmZ2aWZJcGNmNlpnWElJS1BvVDdqX0hTOE5qaVo4bzd5?oc=5",
+          "publishedAt": "2026-10-07T17:01:31+00:00",
+          "published": "2026-10-07T17:01:31+00:00",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxOWkVpa2VIVHhUSlZCbm1zbnVVM0szbGxfQXBoeTdWLTkwMFB5ZnlibERwSFBmdFJhdnpJaVpHZF9mVGtzZnZpN2lGa1JRbVllQU1UX3hRb0lUZzZwTGhuZnowOF9udDdJQVNEQWk5ZmZ2aXBIWDZMS1JxSFlXNkdHRldqMEhzWjhkd3BKSWo3U3FQRXVBM0syRlItTzVsa3daZnZpZklwY2Y2WmdYSUlLUG9UN2pfSFM4TmppWjhvN3nSAcABQVVfeXFMTlpFaWtlSFR4VEpWQm5tc251VTNLM2xsX0FwaHk3Vi05MDBQeWZ5YmxEcEhQZnRSYXZ6SWlaR2RfZlRrc2Z2aTdpRmtSUW1ZZUFNVF94UW9JVGc2cExobmZ6MDhfbnQ3SUFTREFpOWZmdmlwSFg2TEtScUhZVzZHR0ZXajBIc1o4ZHdwSklqN1NxUEV1QTNLMkZSLU81bGt3WmZ2aWZJcGNmNlpnWElJS1BvVDdqX0hTOE5qaVo4bzd5?oc=5\" target=\"_blank\">Buscan presuntos cuerpos de desaparecidos de la última dictadura en el cementerio del Chañar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MejorInformado.com</font>",
+          "source": "MejorInformado.com",
+          "sourceType": "BUSCADOR / RESPALDO",
+          "sourceUrl": "",
+          "collection": "BUSCADOR",
+          "query": "\"San Patricio del Chañar\"",
+          "relevance": 3,
+          "relevanceLabel": "DIRECTA",
+          "firstSeen": "2026-10-07T18:49:41.945071+00:00",
+          "isNew": false,
+          "titleKey": "buscan presuntos cuerpos desaparecidos ultima dictadura cementerio mejorinformado com",
+          "evidenceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOWkVpa2VIVHhUSlZCbm1zbnVVM0szbGxfQXBoeTdWLTkwMFB5ZnlibERwSFBmdFJhdnpJaVpHZF9mVGtzZnZpN2lGa1JRbVllQU1UX3hRb0lUZzZwTGhuZnowOF9udDdJQVNEQWk5ZmZ2aXBIWDZMS1JxSFlXNkdHRldqMEhzWjhkd3BKSWo3U3FQRXVBM0syRlItTzVsa3daZnZpZklwY2Y2WmdYSUlLUG9UN2pfSFM4TmppWjhvN3nSAcABQVVfeXFMTlpFaWtlSFR4VEpWQm5tc251VTNLM2xsX0FwaHk3Vi05MDBQeWZ5YmxEcEhQZnRSYXZ6SWlaR2RfZlRrc2Z2aTdpRmtSUW1ZZUFNVF94UW9JVGc2cExobmZ6MDhfbnQ3SUFTREFpOWZmdmlwSFg2TEtScUhZVzZHR0ZXajBIc1o4ZHdwSklqN1NxUEV1QTNLMkZSLU81bGt3WmZ2aWZJcGNmNlpnWElJS1BvVDdqX0hTOE5qaVo4bzd5?oc=5",
+          "sourcePriority": 3
+        },
         {
           "title": "Realizan excavaciones en el cementerio de San Patricio del Chañar por orden de la Justicia Federal - NoticiasNQN",
           "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPZVkxdGVuNU1uUnFRZFJZTXZZV0MzV1BLMFE2NmN4OUs3UzQzb1F6YVdyY3k0MUtHalB4WFktQTlXZi02SF9uTGt2TWRoa0J1WHdSbFBYak10NzduSndGYjNLZURrVS03cHpSLU5LRWNoNlNzWGlXMllRZVF0NTdwUi1fX0pJSmJzbWdVRllfWjRWSDBiX3dQWC1TOVJ3MFRuYkdEZ2stUDZSbmxPQ0RxYUZUaVZEYWlOQ1hRU29TWEZ1YTc5RWJiTm45blZWTFJHMzZITWVycHBZXzAxa2ZwMUF5aEcxTkUtLVdLZ9IB8gFBVV95cUxPdkVid2llNEJiNFRpTHJQcXNsZmdKclJjTkRoYlE5TmV5bkpqY0d1X3JQbHhXa3NBYlRsNWotdUc4UHlhVlhUaS1MYmlvQVlvcE0tLUxSQl9kQlRxY0h3NEVuY0Q0Wk5zeVptOWhjU3h0bmNza2t5Wkp2ZEVNYTZtWTAzek1HZ2tDdFd2cmRXenlXb1kzWnFPc1dOTFhZUjBiTWlfcTRaOU82dEsycnpWQV9KZk1GWEsxMG1VVzZuaVg0TXA5QTRpbk55MDZQY0F1WUdUWkRvNXNpSElFZUU5OFdhanZoYTVxVG9UeDVuQVhwdw?oc=5",
@@ -3189,7 +3278,7 @@
           "relevance": 3,
           "relevanceLabel": "DIRECTA",
           "firstSeen": "2026-10-07T18:49:41.945071+00:00",
-          "isNew": true,
+          "isNew": false,
           "titleKey": "realizan excavaciones cementerio orden justicia federal noticiasnqn",
           "evidenceUrl": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPZVkxdGVuNU1uUnFRZFJZTXZZV0MzV1BLMFE2NmN4OUs3UzQzb1F6YVdyY3k0MUtHalB4WFktQTlXZi02SF9uTGt2TWRoa0J1WHdSbFBYak10NzduSndGYjNLZURrVS03cHpSLU5LRWNoNlNzWGlXMllRZVF0NTdwUi1fX0pJSmJzbWdVRllfWjRWSDBiX3dQWC1TOVJ3MFRuYkdEZ2stUDZSbmxPQ0RxYUZUaVZEYWlOQ1hRU29TWEZ1YTc5RWJiTm45blZWTFJHMzZITWVycHBZXzAxa2ZwMUF5aEcxTkUtLVdLZ9IB8gFBVV95cUxPdkVid2llNEJiNFRpTHJQcXNsZmdKclJjTkRoYlE5TmV5bkpqY0d1X3JQbHhXa3NBYlRsNWotdUc4UHlhVlhUaS1MYmlvQVlvcE0tLUxSQl9kQlRxY0h3NEVuY0Q0Wk5zeVptOWhjU3h0bmNza2t5Wkp2ZEVNYTZtWTAzek1HZ2tDdFd2cmRXenlXb1kzWnFPc1dOTFhZUjBiTWlfcTRaOU82dEsycnpWQV9KZk1GWEsxMG1VVzZuaVg0TXA5QTRpbk55MDZQY0F1WUdUWkRvNXNpSElFZUU5OFdhanZoYTVxVG9UeDVuQVhwdw?oc=5",
           "sourcePriority": 3
@@ -3250,76 +3339,18 @@
           "titleKey": "despues banderas contra pidio disculpas consejo federal diario rio negro",
           "evidenceUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNYzBPQUNwZjdRTHFmZ1FtRUZIMUZEbDJRTkhTSmcwVmZ6VkhSLXFVemkyeENKalZjeXEwcnV4X0M3eFhrUV9uRk0zVWs4YXF6bTlVWkx4SXplekhidm1YeVE4OU9PVXpHNVVmTkFTc3BRWDNZOWhTOUhDcXVSeG53cFdQeTY4UUpPMEo0LVBGbTZVcmNVbnUzQlEtMWZVUVVyUTJjX0RwRXd6M292S19EWm9rYXRHOWZONExaRDltcjZsLW5nbURLRDd5dU9hWXpMYlRHTkxfaDHSAeABQVVfeXFMTm8zU3pNSXB4Y242bE8wa05maFVSZHFUQVRzTXhkQUNPUk4zWTFVS0tWeDFsdDB2cHEzWGxaUWtsV0ZreGxjbFFYQ1dCcWJJZHFZTFhkNURyVmNmTHRfOTZidkpQTlBMSHJicEpiQ0NfVldHVXlWRFdUMjdVUm1LcmJhSjh4UFVNNWkwTloxMW9iWDV0azZjdlhFaTdjMnRiLTYxcm9vVElEQ3d1WlhUS1AzUUpSVVBUeXlLZVFRV0xUM1hvaEx0VDdrNXpRVUtkR2hNRTFvQllpMUtSeGxrRng?oc=5",
           "sourcePriority": 3
-        },
-        {
-          "title": "La sala de elaboración de alimentos de San Patricio del Chañar cuenta con un avance del 42 por ciento - Neuquén al instante",
-          "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOd3QxWmxrd3RMZjR5dGltLS1WMEZmVjZ6bXZWcHpMdGpHSTltZ3RLQUlRclhqTG82TmZiY3FTdEVOb3RWbWV0c1k3ZVdjWkpvRUNET3ZaVlJRUVI3Rko2UlJOS1ZzZ21MRWd6aXhNeHJzZGhuLS1TazRTdF9PQzN4ZE9pbjNFZjc1VVM4anNFeHN0eGNnTE1oSEg3c0c4RGtfLVZER3VlLVFnaWVjSjFTQ292LU9EUW5ROEdKZVAwT05vNnZvMFFic0w4bFBqM2czM21PWWZxUkpxX2s1VE1tTFRsb2t2NzZ0aFFqRzNMRW1Ua2dHUWFaTNIB_gFBVV95cUxQbm5va0hWOFF1T19TTGJYb212RUwwWnZ2Wnh4ZHFGbmdlX0ZmOFJ5d2tkcGh6YUltZ3ZqOS00T1VJbGZYNXNBX1hEaTBVWmFKaEQ2V09QY1cweTl4aFEyN1JRbEVXZjc0eHVSRDJOOHlxV0wxWUQxM2RTSU5INE1NVHd3RFpOUUMxNlZlZGVuVXdQUU1vRXVQMFl2SUstVHg2ZjRzYnk5WmxjVkFxd1VLQWI3dkJLbTM2eExSV2x5N0laYzhWY0c4bjBUVFlua2g3aXZpTlBBMUgtOGdGYjZFWGM4MmJUWUk3Q2FnQUFwcHlhTlJnZWUtNlVjRkc3Zw?oc=5",
-          "publishedAt": "2026-10-06T02:40:28+00:00",
-          "published": "2026-10-06T02:40:28+00:00",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMi-AFBVV95cUxOd3QxWmxrd3RMZjR5dGltLS1WMEZmVjZ6bXZWcHpMdGpHSTltZ3RLQUlRclhqTG82TmZiY3FTdEVOb3RWbWV0c1k3ZVdjWkpvRUNET3ZaVlJRUVI3Rko2UlJOS1ZzZ21MRWd6aXhNeHJzZGhuLS1TazRTdF9PQzN4ZE9pbjNFZjc1VVM4anNFeHN0eGNnTE1oSEg3c0c4RGtfLVZER3VlLVFnaWVjSjFTQ292LU9EUW5ROEdKZVAwT05vNnZvMFFic0w4bFBqM2czM21PWWZxUkpxX2s1VE1tTFRsb2t2NzZ0aFFqRzNMRW1Ua2dHUWFaTNIB_gFBVV95cUxQbm5va0hWOFF1T19TTGJYb212RUwwWnZ2Wnh4ZHFGbmdlX0ZmOFJ5d2tkcGh6YUltZ3ZqOS00T1VJbGZYNXNBX1hEaTBVWmFKaEQ2V09QY1cweTl4aFEyN1JRbEVXZjc0eHVSRDJOOHlxV0wxWUQxM2RTSU5INE1NVHd3RFpOUUMxNlZlZGVuVXdQUU1vRXVQMFl2SUstVHg2ZjRzYnk5WmxjVkFxd1VLQWI3dkJLbTM2eExSV2x5N0laYzhWY0c4bjBUVFlua2g3aXZpTlBBMUgtOGdGYjZFWGM4MmJUWUk3Q2FnQUFwcHlhTlJnZWUtNlVjRkc3Zw?oc=5\" target=\"_blank\">La sala de elaboración de alimentos de San Patricio del Chañar cuenta con un avance del 42 por ciento</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Neuquén al instante</font>",
-          "source": "Neuquén al instante",
-          "sourceType": "BUSCADOR / RESPALDO",
-          "sourceUrl": "",
-          "collection": "BUSCADOR",
-          "query": "\"San Patricio del Chañar\"",
-          "relevance": 3,
-          "relevanceLabel": "DIRECTA",
-          "firstSeen": "2026-10-06T06:45:57.600336+00:00",
-          "isNew": false,
-          "titleKey": "sala elaboracion alimentos cuenta avance ciento instante",
-          "evidenceUrl": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOd3QxWmxrd3RMZjR5dGltLS1WMEZmVjZ6bXZWcHpMdGpHSTltZ3RLQUlRclhqTG82TmZiY3FTdEVOb3RWbWV0c1k3ZVdjWkpvRUNET3ZaVlJRUVI3Rko2UlJOS1ZzZ21MRWd6aXhNeHJzZGhuLS1TazRTdF9PQzN4ZE9pbjNFZjc1VVM4anNFeHN0eGNnTE1oSEg3c0c4RGtfLVZER3VlLVFnaWVjSjFTQ292LU9EUW5ROEdKZVAwT05vNnZvMFFic0w4bFBqM2czM21PWWZxUkpxX2s1VE1tTFRsb2t2NzZ0aFFqRzNMRW1Ua2dHUWFaTNIB_gFBVV95cUxQbm5va0hWOFF1T19TTGJYb212RUwwWnZ2Wnh4ZHFGbmdlX0ZmOFJ5d2tkcGh6YUltZ3ZqOS00T1VJbGZYNXNBX1hEaTBVWmFKaEQ2V09QY1cweTl4aFEyN1JRbEVXZjc0eHVSRDJOOHlxV0wxWUQxM2RTSU5INE1NVHd3RFpOUUMxNlZlZGVuVXdQUU1vRXVQMFl2SUstVHg2ZjRzYnk5WmxjVkFxd1VLQWI3dkJLbTM2eExSV2x5N0laYzhWY0c4bjBUVFlua2g3aXZpTlBBMUgtOGdGYjZFWGM4MmJUWUk3Q2FnQUFwcHlhTlJnZWUtNlVjRkc3Zw?oc=5",
-          "sourcePriority": 3
-        },
-        {
-          "title": "Buscan presuntos cuerpos de desaparecidos de la última dictadura en el cementerio del Chañar - MejorInformado.com",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOWkVpa2VIVHhUSlZCbm1zbnVVM0szbGxfQXBoeTdWLTkwMFB5ZnlibERwSFBmdFJhdnpJaVpHZF9mVGtzZnZpN2lGa1JRbVllQU1UX3hRb0lUZzZwTGhuZnowOF9udDdJQVNEQWk5ZmZ2aXBIWDZMS1JxSFlXNkdHRldqMEhzWjhkd3BKSWo3U3FQRXVBM0syRlItTzVsa3daZnZpZklwY2Y2WmdYSUlLUG9UN2pfSFM4TmppWjhvN3nSAcABQVVfeXFMTlpFaWtlSFR4VEpWQm5tc251VTNLM2xsX0FwaHk3Vi05MDBQeWZ5YmxEcEhQZnRSYXZ6SWlaR2RfZlRrc2Z2aTdpRmtSUW1ZZUFNVF94UW9JVGc2cExobmZ6MDhfbnQ3SUFTREFpOWZmdmlwSFg2TEtScUhZVzZHR0ZXajBIc1o4ZHdwSklqN1NxUEV1QTNLMkZSLU81bGt3WmZ2aWZJcGNmNlpnWElJS1BvVDdqX0hTOE5qaVo4bzd5?oc=5",
-          "publishedAt": "2026-10-07T17:01:31+00:00",
-          "published": "2026-10-07T17:01:31+00:00",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxOWkVpa2VIVHhUSlZCbm1zbnVVM0szbGxfQXBoeTdWLTkwMFB5ZnlibERwSFBmdFJhdnpJaVpHZF9mVGtzZnZpN2lGa1JRbVllQU1UX3hRb0lUZzZwTGhuZnowOF9udDdJQVNEQWk5ZmZ2aXBIWDZMS1JxSFlXNkdHRldqMEhzWjhkd3BKSWo3U3FQRXVBM0syRlItTzVsa3daZnZpZklwY2Y2WmdYSUlLUG9UN2pfSFM4TmppWjhvN3nSAcABQVVfeXFMTlpFaWtlSFR4VEpWQm5tc251VTNLM2xsX0FwaHk3Vi05MDBQeWZ5YmxEcEhQZnRSYXZ6SWlaR2RfZlRrc2Z2aTdpRmtSUW1ZZUFNVF94UW9JVGc2cExobmZ6MDhfbnQ3SUFTREFpOWZmdmlwSFg2TEtScUhZVzZHR0ZXajBIc1o4ZHdwSklqN1NxUEV1QTNLMkZSLU81bGt3WmZ2aWZJcGNmNlpnWElJS1BvVDdqX0hTOE5qaVo4bzd5?oc=5\" target=\"_blank\">Buscan presuntos cuerpos de desaparecidos de la última dictadura en el cementerio del Chañar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MejorInformado.com</font>",
-          "source": "MejorInformado.com",
-          "sourceType": "BUSCADOR / RESPALDO",
-          "sourceUrl": "",
-          "collection": "BUSCADOR",
-          "query": "\"San Patricio del Chañar\"",
-          "relevance": 3,
-          "relevanceLabel": "DIRECTA",
-          "firstSeen": "2026-10-07T18:49:41.945071+00:00",
-          "isNew": true,
-          "titleKey": "buscan presuntos cuerpos desaparecidos ultima dictadura cementerio mejorinformado com",
-          "evidenceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOWkVpa2VIVHhUSlZCbm1zbnVVM0szbGxfQXBoeTdWLTkwMFB5ZnlibERwSFBmdFJhdnpJaVpHZF9mVGtzZnZpN2lGa1JRbVllQU1UX3hRb0lUZzZwTGhuZnowOF9udDdJQVNEQWk5ZmZ2aXBIWDZMS1JxSFlXNkdHRldqMEhzWjhkd3BKSWo3U3FQRXVBM0syRlItTzVsa3daZnZpZklwY2Y2WmdYSUlLUG9UN2pfSFM4TmppWjhvN3nSAcABQVVfeXFMTlpFaWtlSFR4VEpWQm5tc251VTNLM2xsX0FwaHk3Vi05MDBQeWZ5YmxEcEhQZnRSYXZ6SWlaR2RfZlRrc2Z2aTdpRmtSUW1ZZUFNVF94UW9JVGc2cExobmZ6MDhfbnQ3SUFTREFpOWZmdmlwSFg2TEtScUhZVzZHR0ZXajBIc1o4ZHdwSklqN1NxUEV1QTNLMkZSLU81bGt3WmZ2aWZJcGNmNlpnWElJS1BvVDdqX0hTOE5qaVo4bzd5?oc=5",
-          "sourcePriority": 3
-        },
-        {
-          "title": "San Patricio del Chañar proyecta 10 viviendas nuevas y una red de cloacas para 340 lotes - Neuquén News",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdEM0bGRnR0VhNWhoVjQ1NnU4M25DVHBOWVJ6aFJhelJaOVNhT012Tk5Wak52dE00bmN2SkhvNEJpZ2xuN1NVZkZtT2gyT19BdjlfU21CTS1xSFcza01OU2FqNS1TZnBHeHdJdzM1NlZZbVFpMVNNX2pDM3RNeHd4UEY3bXZmVjRyNGloOTRiRG5mS1Ixb1RQVGdGRkg5ZjVWbklOWjlCVTNYVU15dEFQanUySDFNUmZ4a1ZqYU1HNWw?oc=5",
-          "publishedAt": "2026-10-06T14:21:00+00:00",
-          "published": "2026-10-06T14:21:00+00:00",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdEM0bGRnR0VhNWhoVjQ1NnU4M25DVHBOWVJ6aFJhelJaOVNhT012Tk5Wak52dE00bmN2SkhvNEJpZ2xuN1NVZkZtT2gyT19BdjlfU21CTS1xSFcza01OU2FqNS1TZnBHeHdJdzM1NlZZbVFpMVNNX2pDM3RNeHd4UEY3bXZmVjRyNGloOTRiRG5mS1Ixb1RQVGdGRkg5ZjVWbklOWjlCVTNYVU15dEFQanUySDFNUmZ4a1ZqYU1HNWw?oc=5\" target=\"_blank\">San Patricio del Chañar proyecta 10 viviendas nuevas y una red de cloacas para 340 lotes</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Neuquén News</font>",
-          "source": "Neuquén News",
-          "sourceType": "BUSCADOR / RESPALDO",
-          "sourceUrl": "",
-          "collection": "BUSCADOR",
-          "query": "\"San Patricio del Chañar\"",
-          "relevance": 3,
-          "relevanceLabel": "DIRECTA",
-          "firstSeen": "2026-10-06T23:42:02.038120+00:00",
-          "isNew": false,
-          "titleKey": "proyecta viviendas nuevas red cloacas 340 lotes news",
-          "evidenceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdEM0bGRnR0VhNWhoVjQ1NnU4M25DVHBOWVJ6aFJhelJaOVNhT012Tk5Wak52dE00bmN2SkhvNEJpZ2xuN1NVZkZtT2gyT19BdjlfU21CTS1xSFcza01OU2FqNS1TZnBHeHdJdzM1NlZZbVFpMVNNX2pDM3RNeHd4UEY3bXZmVjRyNGloOTRiRG5mS1Ixb1RQVGdGRkg5ZjVWbklOWjlCVTNYVU15dEFQanUySDFNUmZ4a1ZqYU1HNWw?oc=5",
-          "sourcePriority": 3
         }
       ],
       "lifecycle": "ACTIVO",
-      "movementDelta": 83,
-      "previousCoverage": 1,
+      "movementDelta": 0,
+      "previousCoverage": 7,
       "newSources": [
-        "NoticiasNQN",
-        "Flipr.news",
-        "MejorInformado.com",
-        "Diario Río Negro",
-        "Neuquén al instante"
+        "ANBariloche",
+        "Cutral Co al Instante",
+        "Patagonia Press",
+        "Neuquén News"
       ],
-      "sourceDiversity": 6,
+      "sourceDiversity": 8,
       "memoryMatched": true,
       "isNew": false,
       "view": "INCIDENCIA",
@@ -3360,7 +3391,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SERVICIOS",
-      "movement": 70,
+      "movement": 68,
       "coverage": 6,
       "sourceCount": 5,
       "directSourceCount": 0,
@@ -3493,18 +3524,17 @@
         }
       ],
       "lifecycle": "ACTIVO",
-      "movementDelta": 0,
-      "previousCoverage": 0,
+      "movementDelta": 52,
+      "previousCoverage": 1,
       "newSources": [
         "Minuto Neuquen",
         "Lmneuquen.com",
         "Patagonia Press",
-        "Neuquen Informa",
-        "Chañar Digital"
+        "Neuquen Informa"
       ],
       "sourceDiversity": 5,
-      "memoryMatched": false,
-      "isNew": true,
+      "memoryMatched": true,
+      "isNew": false,
       "view": "INCIDENCIA",
       "incidenceEligible": true,
       "signalReason": "reservado a incidencia territorial",
@@ -3534,93 +3564,6 @@
       }
     },
     {
-      "eventId": "CHA-ee0e4615f262",
-      "title": "Mariano Gaido y Rolando Figueroa amplían el Parque Industrial Capital, que proyectan como «el más grande del país»",
-      "publishedAt": "2026-10-07T18:04:27+00:00",
-      "firstSeen": "2026-10-07T18:49:41.945071+00:00",
-      "lastSeen": "2026-10-07T18:04:27+00:00",
-      "relevance": 3,
-      "relevanceLabel": "DIRECTA",
-      "incidenceLabel": "DIRECTA EN CHANAR",
-      "topic": "SERVICIOS",
-      "movement": 61,
-      "coverage": 1,
-      "sourceCount": 1,
-      "directSourceCount": 1,
-      "territorialAnchors": [
-        "parque industrial"
-      ],
-      "sources": [
-        "Diario Río Negro"
-      ],
-      "evidenceUrl": "https://www.rionegro.com.ar/politica/mariano-gaido-y-rolando-figueroa-amplian-el-parque-industrial-de-neuquen-habra-nuevo-registro-de-empresas-en-febrero-4750993/",
-      "items": [
-        {
-          "title": "Mariano Gaido y Rolando Figueroa amplían el Parque Industrial Capital, que proyectan como «el más grande del país»",
-          "url": "https://www.rionegro.com.ar/politica/mariano-gaido-y-rolando-figueroa-amplian-el-parque-industrial-de-neuquen-habra-nuevo-registro-de-empresas-en-febrero-4750993/",
-          "publishedAt": "2026-10-07T18:04:27+00:00",
-          "published": "2026-10-07T18:04:27+00:00",
-          "description": "",
-          "source": "Diario Río Negro",
-          "sourceType": "MEDIO REGIONAL",
-          "sourceUrl": "https://www.rionegro.com.ar/",
-          "collection": "DIRECTA",
-          "query": "https://www.rionegro.com.ar/feed/",
-          "relevance": 3,
-          "relevanceLabel": "DIRECTA",
-          "firstSeen": "2026-10-07T18:49:41.945071+00:00",
-          "isNew": true,
-          "titleKey": "mariano gaido rolando figueroa amplian parque industrial capital proyectan como mas grande pais",
-          "evidenceUrl": "https://www.rionegro.com.ar/politica/mariano-gaido-y-rolando-figueroa-amplian-el-parque-industrial-de-neuquen-habra-nuevo-registro-de-empresas-en-febrero-4750993/",
-          "sourcePriority": 2
-        }
-      ],
-      "lifecycle": "EMERGENTE",
-      "movementDelta": 45,
-      "previousCoverage": 1,
-      "newSources": [
-        "Diario Río Negro"
-      ],
-      "sourceDiversity": 1,
-      "memoryMatched": true,
-      "isNew": false,
-      "view": "INCIDENCIA",
-      "incidenceEligible": true,
-      "signalReason": "reservado a incidencia territorial",
-      "incidenceReason": "anclaje directo + tema operativo/local",
-      "territory": {
-        "version": "2.0",
-        "primary": "San Patricio del Chañar",
-        "nodes": [
-          "San Patricio del Chañar",
-          "Parque Industrial"
-        ],
-        "sectors": [
-          "Parque Industrial"
-        ],
-        "barrios": [],
-        "microzones": [],
-        "corridors": [],
-        "institutions": [],
-        "services": [],
-        "spaces": [],
-        "production": [],
-        "path": "San Patricio del Chañar → Parque Industrial",
-        "evidence": [
-          {
-            "node": "San Patricio del Chañar",
-            "level": "localidad",
-            "evidence": "DIRECTA"
-          },
-          {
-            "node": "Parque Industrial",
-            "level": "sector",
-            "evidence": "TEXTUAL"
-          }
-        ]
-      }
-    },
-    {
       "eventId": "CHA-071f588c1e15",
       "title": "San Patricio del Chañar es sede del 4.º Festival Internacional de Danzas “Danza sin Fronteras” - Neuquén News",
       "publishedAt": "2026-10-05T17:58:00+00:00",
@@ -3630,7 +3573,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "CULTURA / TURISMO",
-      "movement": 48,
+      "movement": 46,
       "coverage": 1,
       "sourceCount": 1,
       "directSourceCount": 0,
@@ -3664,11 +3607,9 @@
         }
       ],
       "lifecycle": "SOSTENIDO",
-      "movementDelta": 32,
-      "previousCoverage": 2,
-      "newSources": [
-        "Neuquén News"
-      ],
+      "movementDelta": -2,
+      "previousCoverage": 1,
+      "newSources": [],
       "sourceDiversity": 1,
       "memoryMatched": true,
       "isNew": false,
@@ -3743,15 +3684,15 @@
           "sourcePriority": 3
         }
       ],
-      "lifecycle": "ACTIVO",
-      "movementDelta": 0,
-      "previousCoverage": 0,
+      "lifecycle": "RECIENTE",
+      "movementDelta": -45,
+      "previousCoverage": 1,
       "newSources": [
         "Chañar Digital"
       ],
       "sourceDiversity": 1,
-      "memoryMatched": false,
-      "isNew": true,
+      "memoryMatched": true,
+      "isNew": false,
       "view": "INCIDENCIA",
       "incidenceEligible": true,
       "signalReason": "reservado a incidencia territorial",
@@ -3818,21 +3759,19 @@
           "relevance": 3,
           "relevanceLabel": "DIRECTA",
           "firstSeen": "2026-10-07T18:49:41.945071+00:00",
-          "isNew": true,
+          "isNew": false,
           "titleKey": "referentes educacion vino seis paises visitaron viñedos bodega familia schroeder lmneuquen com",
           "evidenceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQSkFBaXZaQXVjVmJ2SnBHYjdFOExCcklzSHY1M3FTUlhWRmNGNm1yZUUzeXFGYXdwaXF3Y1gzaGF0YVY2ZXQ0T2lrUWR1RDdfMDlhR2pvQjVaNW9XSnJvdkFvZWdSS2JEZ0xPaXVmbUYzbkVscHZFR3dQaE5mNVN1cmxBbHUxaVlxMVk3NUlCMUpZUjZxRERNMWUwVWo2LWVpZEkwaHNiSW1kZTJlOUhpUVN3NTFPUDJVYVRlU2paUUIwWVBka2FQQ2tmTnhJREJiWTNr0gHYAUFVX3lxTE1RRnRVSkR0S1BhMWtNcDF0MW1aTTdtSWZxdVdfVFdnbmRGRVlQOVVaSUpWVFpBU0lDNGx0dFlkeVVUOWExdFIyMzktY3R6N010OGtwVzRQazVEQlF6c2d4Q1Rod0VqSnphRXhadG5pNDRqWHBBM2FXZktlQTdTNEw5ZUxpNld0V2MxLTBQcFhuak9QdFJoa1hYXzZlcFo2MEdXSTJLbXlRWGVzekpncWN5VkFBLXZUN05iTHd2OUJpa2hGcWxvcTAtNEtSbG1EUEJBNlFHTzEzdQ?oc=5",
           "sourcePriority": 3
         }
       ],
-      "lifecycle": "ACTIVO",
+      "lifecycle": "RECIENTE",
       "movementDelta": 0,
-      "previousCoverage": 0,
-      "newSources": [
-        "Lmneuquen.com"
-      ],
+      "previousCoverage": 1,
+      "newSources": [],
       "sourceDiversity": 1,
-      "memoryMatched": false,
-      "isNew": true,
+      "memoryMatched": true,
+      "isNew": false,
       "view": "INCIDENCIA",
       "incidenceEligible": true,
       "signalReason": "reservado a incidencia territorial",
@@ -3933,16 +3872,15 @@
           "sourcePriority": 3
         }
       ],
-      "lifecycle": "ACTIVO",
+      "lifecycle": "RECIENTE",
       "movementDelta": 0,
-      "previousCoverage": 0,
+      "previousCoverage": 2,
       "newSources": [
-        "Diario Neuquino",
         "Chañar Digital"
       ],
       "sourceDiversity": 2,
-      "memoryMatched": false,
-      "isNew": true,
+      "memoryMatched": true,
+      "isNew": false,
       "view": "INCIDENCIA",
       "incidenceEligible": true,
       "signalReason": "reservado a incidencia territorial",
@@ -4022,15 +3960,13 @@
           "sourcePriority": 3
         }
       ],
-      "lifecycle": "ACTIVO",
+      "lifecycle": "RECIENTE",
       "movementDelta": 0,
-      "previousCoverage": 0,
-      "newSources": [
-        "Chañar Digital"
-      ],
+      "previousCoverage": 1,
+      "newSources": [],
       "sourceDiversity": 1,
-      "memoryMatched": false,
-      "isNew": true,
+      "memoryMatched": true,
+      "isNew": false,
       "view": "INCIDENCIA",
       "incidenceEligible": true,
       "signalReason": "reservado a incidencia territorial",
@@ -4150,23 +4086,61 @@
   ],
   "items": [
     {
-      "title": "Mariano Gaido y Rolando Figueroa amplían el Parque Industrial Capital, que proyectan como «el más grande del país»",
-      "url": "https://www.rionegro.com.ar/politica/mariano-gaido-y-rolando-figueroa-amplian-el-parque-industrial-de-neuquen-habra-nuevo-registro-de-empresas-en-febrero-4750993/",
-      "publishedAt": "2026-10-07T18:04:27+00:00",
-      "published": "2026-10-07T18:04:27+00:00",
-      "description": "",
-      "source": "Diario Río Negro",
-      "sourceType": "MEDIO REGIONAL",
-      "sourceUrl": "https://www.rionegro.com.ar/",
-      "collection": "DIRECTA",
-      "query": "https://www.rionegro.com.ar/feed/",
+      "title": "Excavan tumbas en San Patricio del Chañar para buscar restos de desaparecidos de la dictadura - ANBariloche",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxORDhjZnk0dHJOUWtXcmZPcm1QTFlnQW16c05oS0FNY21xeXpOWGpsNW9QV1A0TzJvcEU0bDdYTVd4NUctaGFmNjBVREJsd3FWb1l0d3g5T3V3TGlxRTV6T2hyeWxhLXYwdUtQckFUVTNxRVk3M0x6MHV0RWktaDlUZ1BYYzM3ZndReXowYkZKcWM2Rko5V094VjJIcm51d3E3OXkxaGlnQkgxWnVPSHdNSDVhaHAzTk8teHJBa3lsTWJRa3dfY0pQaUdvakZMOVp2THVObGVvZGU1bzU4cTc5Wlp0QmptWXdRR2M40gHrAUFVX3lxTE5EOGNmeTR0ck5Ra1dyZk9ybVBMWWdBbXpzTmhLQU1jbXF5ek5Yamw1b1BXUDRPMm9wRTRsN1hNV3g1Ry1oYWY2MFVEQmx3cVZvWXR3eDlPdXdMaXFFNXpPaHJ5bGEtdjB1S1ByQVRVM3FFWTczTHowdXRFaS1oOVRnUFhjMzdmd1F5ejBiRkpxYzZGSjlXT3hWMkhybnV3cTc5eTFoaWdCSDFadU9Id01INWFocDNOTy14ckFreWxNYlFrd19jSlBpR29qRkw5WnZMdU5sZW9kZTVvNThxNzlaWnRCam1Zd1FHYzg?oc=5",
+      "publishedAt": "2026-10-07T21:02:33+00:00",
+      "published": "2026-10-07T21:02:33+00:00",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMi6wFBVV95cUxORDhjZnk0dHJOUWtXcmZPcm1QTFlnQW16c05oS0FNY21xeXpOWGpsNW9QV1A0TzJvcEU0bDdYTVd4NUctaGFmNjBVREJsd3FWb1l0d3g5T3V3TGlxRTV6T2hyeWxhLXYwdUtQckFUVTNxRVk3M0x6MHV0RWktaDlUZ1BYYzM3ZndReXowYkZKcWM2Rko5V094VjJIcm51d3E3OXkxaGlnQkgxWnVPSHdNSDVhaHAzTk8teHJBa3lsTWJRa3dfY0pQaUdvakZMOVp2THVObGVvZGU1bzU4cTc5Wlp0QmptWXdRR2M40gHrAUFVX3lxTE5EOGNmeTR0ck5Ra1dyZk9ybVBMWWdBbXpzTmhLQU1jbXF5ek5Yamw1b1BXUDRPMm9wRTRsN1hNV3g1Ry1oYWY2MFVEQmx3cVZvWXR3eDlPdXdMaXFFNXpPaHJ5bGEtdjB1S1ByQVRVM3FFWTczTHowdXRFaS1oOVRnUFhjMzdmd1F5ejBiRkpxYzZGSjlXT3hWMkhybnV3cTc5eTFoaWdCSDFadU9Id01INWFocDNOTy14ckFreWxNYlFrd19jSlBpR29qRkw5WnZMdU5sZW9kZTVvNThxNzlaWnRCam1Zd1FHYzg?oc=5\" target=\"_blank\">Excavan tumbas en San Patricio del Chañar para buscar restos de desaparecidos de la dictadura</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ANBariloche</font>",
+      "source": "ANBariloche",
+      "sourceType": "BUSCADOR / RESPALDO",
+      "sourceUrl": "",
+      "collection": "BUSCADOR",
+      "query": "\"San Patricio del Chañar\"",
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
-      "firstSeen": "2026-10-07T18:49:41.945071+00:00",
+      "firstSeen": "2026-10-07T23:31:20.099442+00:00",
       "isNew": true,
-      "titleKey": "mariano gaido rolando figueroa amplian parque industrial capital proyectan como mas grande pais",
-      "evidenceUrl": "https://www.rionegro.com.ar/politica/mariano-gaido-y-rolando-figueroa-amplian-el-parque-industrial-de-neuquen-habra-nuevo-registro-de-empresas-en-febrero-4750993/",
-      "sourcePriority": 2
+      "titleKey": "excavan tumbas buscar restos desaparecidos dictadura anbariloche",
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxORDhjZnk0dHJOUWtXcmZPcm1QTFlnQW16c05oS0FNY21xeXpOWGpsNW9QV1A0TzJvcEU0bDdYTVd4NUctaGFmNjBVREJsd3FWb1l0d3g5T3V3TGlxRTV6T2hyeWxhLXYwdUtQckFUVTNxRVk3M0x6MHV0RWktaDlUZ1BYYzM3ZndReXowYkZKcWM2Rko5V094VjJIcm51d3E3OXkxaGlnQkgxWnVPSHdNSDVhaHAzTk8teHJBa3lsTWJRa3dfY0pQaUdvakZMOVp2THVObGVvZGU1bzU4cTc5Wlp0QmptWXdRR2M40gHrAUFVX3lxTE5EOGNmeTR0ck5Ra1dyZk9ybVBMWWdBbXpzTmhLQU1jbXF5ek5Yamw1b1BXUDRPMm9wRTRsN1hNV3g1Ry1oYWY2MFVEQmx3cVZvWXR3eDlPdXdMaXFFNXpPaHJ5bGEtdjB1S1ByQVRVM3FFWTczTHowdXRFaS1oOVRnUFhjMzdmd1F5ejBiRkpxYzZGSjlXT3hWMkhybnV3cTc5eTFoaWdCSDFadU9Id01INWFocDNOTy14ckFreWxNYlFrd19jSlBpR29qRkw5WnZMdU5sZW9kZTVvNThxNzlaWnRCam1Zd1FHYzg?oc=5",
+      "sourcePriority": 3
+    },
+    {
+      "title": "San Patricio del Chañar: excavan tumbas NN en busca de posibles desaparecidos durante la dictadura - Cutral Co al Instante",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPb245bllHWGhhTFZJNFhISlYxT2p0dk5wVXc1Rkw1bzZWbmhCZzh2WW40YTVyQXViYjdSZjVvalF5ZEQyMHhJa1B4Sk1MZEVzVWNtVDhlOWRKSHlVNWZiVUZfUkJsYjZZaGl2NzY1X1pyYWxTdXUxcGthek9paHNQaXpHMnc5VmxfbEFBWUFnODdHa0ZabHYtMllWTW1vd3lOamZ1eUREa09SdnZGbXRRVE53QUMzbWNHRmJsZkJFMURuZ1IwX21nMGhpbDVDOHg3UUpMMmM4S0pRalRl?oc=5",
+      "publishedAt": "2026-10-07T20:00:00+00:00",
+      "published": "2026-10-07T20:00:00+00:00",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMi3AFBVV95cUxPb245bllHWGhhTFZJNFhISlYxT2p0dk5wVXc1Rkw1bzZWbmhCZzh2WW40YTVyQXViYjdSZjVvalF5ZEQyMHhJa1B4Sk1MZEVzVWNtVDhlOWRKSHlVNWZiVUZfUkJsYjZZaGl2NzY1X1pyYWxTdXUxcGthek9paHNQaXpHMnc5VmxfbEFBWUFnODdHa0ZabHYtMllWTW1vd3lOamZ1eUREa09SdnZGbXRRVE53QUMzbWNHRmJsZkJFMURuZ1IwX21nMGhpbDVDOHg3UUpMMmM4S0pRalRl?oc=5\" target=\"_blank\">San Patricio del Chañar: excavan tumbas NN en busca de posibles desaparecidos durante la dictadura</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Cutral Co al Instante</font>",
+      "source": "Cutral Co al Instante",
+      "sourceType": "BUSCADOR / RESPALDO",
+      "sourceUrl": "",
+      "collection": "BUSCADOR",
+      "query": "\"San Patricio del Chañar\"",
+      "relevance": 3,
+      "relevanceLabel": "DIRECTA",
+      "firstSeen": "2026-10-07T23:31:20.099442+00:00",
+      "isNew": true,
+      "titleKey": "excavan tumbas busca posibles desaparecidos durante dictadura cutral instante",
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPb245bllHWGhhTFZJNFhISlYxT2p0dk5wVXc1Rkw1bzZWbmhCZzh2WW40YTVyQXViYjdSZjVvalF5ZEQyMHhJa1B4Sk1MZEVzVWNtVDhlOWRKSHlVNWZiVUZfUkJsYjZZaGl2NzY1X1pyYWxTdXUxcGthek9paHNQaXpHMnc5VmxfbEFBWUFnODdHa0ZabHYtMllWTW1vd3lOamZ1eUREa09SdnZGbXRRVE53QUMzbWNHRmJsZkJFMURuZ1IwX21nMGhpbDVDOHg3UUpMMmM4S0pRalRl?oc=5",
+      "sourcePriority": 3
+    },
+    {
+      "title": "Investigan si hay cuerpos de desaparecidos en dictadura enterrados en el cementerio del Chañar - Patagonia Press",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNUUtEbzZfa1JuTXhHYzJocUF0QnF0by03OUdYNDhqWHhrNVVwZkNQZTdEYWwyanRoVzBGclAteXB6UlBRYlQzeDR6emdTTDJEUk5JNVVMem1MNEM1dWJXWTVhU3I3cVZVb3c1NjUycFVxdkJPWmgtQW90czh4YV9oeXBuSDN3dTRCYXRZVUF5XzlIaVJ5N1AwRUl4WkE3NUxYRWV0a0tZR0hZQ1Y3dnVmeGVTM1VNRFlTRDRNVEN5dkNUS1dUVXhpR1k3SVFReHg1M2M0ZTBaeVk2T3VuVWFpNzF3OGpPRzlONkE?oc=5",
+      "publishedAt": "2026-10-07T19:34:42+00:00",
+      "published": "2026-10-07T19:34:42+00:00",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMi6gFBVV95cUxNUUtEbzZfa1JuTXhHYzJocUF0QnF0by03OUdYNDhqWHhrNVVwZkNQZTdEYWwyanRoVzBGclAteXB6UlBRYlQzeDR6emdTTDJEUk5JNVVMem1MNEM1dWJXWTVhU3I3cVZVb3c1NjUycFVxdkJPWmgtQW90czh4YV9oeXBuSDN3dTRCYXRZVUF5XzlIaVJ5N1AwRUl4WkE3NUxYRWV0a0tZR0hZQ1Y3dnVmeGVTM1VNRFlTRDRNVEN5dkNUS1dUVXhpR1k3SVFReHg1M2M0ZTBaeVk2T3VuVWFpNzF3OGpPRzlONkE?oc=5\" target=\"_blank\">Investigan si hay cuerpos de desaparecidos en dictadura enterrados en el cementerio del Chañar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Patagonia Press</font>",
+      "source": "Patagonia Press",
+      "sourceType": "BUSCADOR / RESPALDO",
+      "sourceUrl": "",
+      "collection": "BUSCADOR",
+      "query": "\"San Patricio del Chañar\"",
+      "relevance": 3,
+      "relevanceLabel": "DIRECTA",
+      "firstSeen": "2026-10-07T23:31:20.099442+00:00",
+      "isNew": true,
+      "titleKey": "investigan hay cuerpos desaparecidos dictadura enterrados cementerio patagonia press",
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNUUtEbzZfa1JuTXhHYzJocUF0QnF0by03OUdYNDhqWHhrNVVwZkNQZTdEYWwyanRoVzBGclAteXB6UlBRYlQzeDR6emdTTDJEUk5JNVVMem1MNEM1dWJXWTVhU3I3cVZVb3c1NjUycFVxdkJPWmgtQW90czh4YV9oeXBuSDN3dTRCYXRZVUF5XzlIaVJ5N1AwRUl4WkE3NUxYRWV0a0tZR0hZQ1Y3dnVmeGVTM1VNRFlTRDRNVEN5dkNUS1dUVXhpR1k3SVFReHg1M2M0ZTBaeVk2T3VuVWFpNzF3OGpPRzlONkE?oc=5",
+      "sourcePriority": 3
     },
     {
       "title": "Buscan presuntos cuerpos de desaparecidos de la última dictadura en el cementerio del Chañar - MejorInformado.com",
@@ -4182,7 +4156,7 @@
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "firstSeen": "2026-10-07T18:49:41.945071+00:00",
-      "isNew": true,
+      "isNew": false,
       "titleKey": "buscan presuntos cuerpos desaparecidos ultima dictadura cementerio mejorinformado com",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOWkVpa2VIVHhUSlZCbm1zbnVVM0szbGxfQXBoeTdWLTkwMFB5ZnlibERwSFBmdFJhdnpJaVpHZF9mVGtzZnZpN2lGa1JRbVllQU1UX3hRb0lUZzZwTGhuZnowOF9udDdJQVNEQWk5ZmZ2aXBIWDZMS1JxSFlXNkdHRldqMEhzWjhkd3BKSWo3U3FQRXVBM0syRlItTzVsa3daZnZpZklwY2Y2WmdYSUlLUG9UN2pfSFM4TmppWjhvN3nSAcABQVVfeXFMTlpFaWtlSFR4VEpWQm5tc251VTNLM2xsX0FwaHk3Vi05MDBQeWZ5YmxEcEhQZnRSYXZ6SWlaR2RfZlRrc2Z2aTdpRmtSUW1ZZUFNVF94UW9JVGc2cExobmZ6MDhfbnQ3SUFTREFpOWZmdmlwSFg2TEtScUhZVzZHR0ZXajBIc1o4ZHdwSklqN1NxUEV1QTNLMkZSLU81bGt3WmZ2aWZJcGNmNlpnWElJS1BvVDdqX0hTOE5qaVo4bzd5?oc=5",
       "sourcePriority": 3
@@ -4201,7 +4175,7 @@
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "firstSeen": "2026-10-07T18:49:41.945071+00:00",
-      "isNew": true,
+      "isNew": false,
       "titleKey": "realizan excavaciones cementerio orden justicia federal noticiasnqn",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPZVkxdGVuNU1uUnFRZFJZTXZZV0MzV1BLMFE2NmN4OUs3UzQzb1F6YVdyY3k0MUtHalB4WFktQTlXZi02SF9uTGt2TWRoa0J1WHdSbFBYak10NzduSndGYjNLZURrVS03cHpSLU5LRWNoNlNzWGlXMllRZVF0NTdwUi1fX0pJSmJzbWdVRllfWjRWSDBiX3dQWC1TOVJ3MFRuYkdEZ2stUDZSbmxPQ0RxYUZUaVZEYWlOQ1hRU29TWEZ1YTc5RWJiTm45blZWTFJHMzZITWVycHBZXzAxa2ZwMUF5aEcxTkUtLVdLZ9IB8gFBVV95cUxPdkVid2llNEJiNFRpTHJQcXNsZmdKclJjTkRoYlE5TmV5bkpqY0d1X3JQbHhXa3NBYlRsNWotdUc4UHlhVlhUaS1MYmlvQVlvcE0tLUxSQl9kQlRxY0h3NEVuY0Q0Wk5zeVptOWhjU3h0bmNza2t5Wkp2ZEVNYTZtWTAzek1HZ2tDdFd2cmRXenlXb1kzWnFPc1dOTFhZUjBiTWlfcTRaOU82dEsycnpWQV9KZk1GWEsxMG1VVzZuaVg0TXA5QTRpbk55MDZQY0F1WUdUWkRvNXNpSElFZUU5OFdhanZoYTVxVG9UeDVuQVhwdw?oc=5",
       "sourcePriority": 3
@@ -4467,7 +4441,7 @@
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "firstSeen": "2026-10-07T18:49:41.945071+00:00",
-      "isNew": true,
+      "isNew": false,
       "titleKey": "referentes educacion vino seis paises visitaron viñedos bodega familia schroeder lmneuquen com",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQSkFBaXZaQXVjVmJ2SnBHYjdFOExCcklzSHY1M3FTUlhWRmNGNm1yZUUzeXFGYXdwaXF3Y1gzaGF0YVY2ZXQ0T2lrUWR1RDdfMDlhR2pvQjVaNW9XSnJvdkFvZWdSS2JEZ0xPaXVmbUYzbkVscHZFR3dQaE5mNVN1cmxBbHUxaVlxMVk3NUlCMUpZUjZxRERNMWUwVWo2LWVpZEkwaHNiSW1kZTJlOUhpUVN3NTFPUDJVYVRlU2paUUIwWVBka2FQQ2tmTnhJREJiWTNr0gHYAUFVX3lxTE1RRnRVSkR0S1BhMWtNcDF0MW1aTTdtSWZxdVdfVFdnbmRGRVlQOVVaSUpWVFpBU0lDNGx0dFlkeVVUOWExdFIyMzktY3R6N010OGtwVzRQazVEQlF6c2d4Q1Rod0VqSnphRXhadG5pNDRqWHBBM2FXZktlQTdTNEw5ZUxpNld0V2MxLTBQcFhuak9QdFJoa1hYXzZlcFo2MEdXSTJLbXlRWGVzekpncWN5VkFBLXZUN05iTHd2OUJpa2hGcWxvcTAtNEtSbG1EUEJBNlFHTzEzdQ?oc=5",
       "sourcePriority": 3
@@ -4532,7 +4506,7 @@
   ],
   "territorialGraph": {
     "version": "2.0",
-    "generatedAt": "2026-10-07T18:49:53.485658+00:00",
+    "generatedAt": "2026-10-07T23:31:30.648508+00:00",
     "root": "spc",
     "rule": "evidence-first",
     "levels": [
@@ -4559,7 +4533,7 @@
           "el chañar",
           "el chanar"
         ],
-        "eventCount": 9
+        "eventCount": 8
       },
       {
         "id": "rio-neuquen",
@@ -4768,7 +4742,7 @@
         "aliases": [
           "parque industrial"
         ],
-        "eventCount": 1
+        "eventCount": 0
       },
       {
         "id": "loteo-social",
@@ -5086,13 +5060,6 @@
         "relation": "COOCURRENCIA_TEXTUAL",
         "eventCount": 1,
         "evidence": "menciones de ambos nodos dentro del mismo hecho"
-      },
-      {
-        "from": "parque-industrial",
-        "to": "spc",
-        "relation": "COOCURRENCIA_TEXTUAL",
-        "eventCount": 1,
-        "evidence": "menciones de ambos nodos dentro del mismo hecho"
       }
     ],
     "eventNodes": {
@@ -5101,10 +5068,6 @@
       ],
       "CHA-2f7210eef2b3": [
         "spc"
-      ],
-      "CHA-ee0e4615f262": [
-        "spc",
-        "parque-industrial"
       ],
       "CHA-071f588c1e15": [
         "spc"
@@ -5141,18 +5104,18 @@
     },
     "stats": {
       "nodes": 46,
-      "activeNodes": 5,
-      "edges": 4,
-      "eventsLinked": 9,
+      "activeNodes": 4,
+      "edges": 3,
+      "eventsLinked": 8,
       "eventsWithMicrozones": 0,
       "eventsWithBarrios": 0,
-      "eventsWithSectors": 1,
+      "eventsWithSectors": 0,
       "levelActivity": {
         "localidad": 1,
         "microregion": 0,
         "corredor": 0,
         "microzona": 0,
-        "sector": 1,
+        "sector": 0,
         "barrio": 0,
         "institucion": 2,
         "servicio": 0,
@@ -5163,17 +5126,17 @@
   },
   "audit": {
     "version": "1.0",
-    "updatedAt": "2026-10-07T18:49:53.517104+00:00",
+    "updatedAt": "2026-10-07T23:31:30.700098+00:00",
     "rule": "fact != coverage; territory requires textual evidence",
-    "facts": 9,
-    "coverage": 21,
-    "coveragePerFact": 2.33,
-    "directAnchorFacts": 9,
+    "facts": 8,
+    "coverage": 23,
+    "coveragePerFact": 2.88,
+    "directAnchorFacts": 8,
     "directAnchorPct": 100.0,
-    "territorySpecificFacts": 3,
-    "territorySpecificPct": 33.3,
-    "averageSourcesPerFact": 2.11,
-    "activeTerritorialNodes": 5,
+    "territorySpecificFacts": 2,
+    "territorySpecificPct": 25.0,
+    "averageSourcesPerFact": 2.5,
+    "activeTerritorialNodes": 4,
     "failedSources": 10,
     "acceptedWithoutLocalEvidence": 1,
     "examplesAcceptedWithoutLocalEvidence": [
