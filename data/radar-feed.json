@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-07T05:22:58.877646+00:00",
+  "updatedAt": "2026-10-07T11:56:54.163749+00:00",
   "window": "14 días",
   "purpose": "Detectar qué se está moviendo en San Patricio del Chañar y mostrar de dónde surge cada señal.",
   "architecture": "contrato universal de procedencia + fuentes profesionales + adaptadores específicos + validación semántica + temporalidad + evidencia editorial separada",
@@ -49,7 +49,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://chanardigital.com.ar/",
-      "lastFetch": "2026-10-07T05:22:37.711494+00:00",
+      "lastFetch": "2026-10-07T11:56:34.571263+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -65,7 +65,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.radiomia.com.ar/",
-      "lastFetch": "2026-10-07T05:22:38.790978+00:00",
+      "lastFetch": "2026-10-07T11:56:35.676042+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -80,7 +80,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://tuitvacamuerta.com/",
-      "lastFetch": "2026-10-07T05:22:40.371780+00:00",
+      "lastFetch": "2026-10-07T11:56:37.204082+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -95,7 +95,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.vacamuertanews.com/",
-      "lastFetch": "2026-10-07T05:22:42.099114+00:00",
+      "lastFetch": "2026-10-07T11:56:37.525924+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -111,7 +111,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.neuqueninforma.gob.ar/",
-      "lastFetch": "2026-10-07T05:22:44.500118+00:00",
+      "lastFetch": "2026-10-07T11:56:38.572765+00:00",
       "success": false,
       "attempted": 3,
       "failures": [
@@ -128,7 +128,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://sanpatricio.gob.ar/",
-      "lastFetch": "2026-10-07T05:22:45.670061+00:00",
+      "lastFetch": "2026-10-07T11:56:40.754545+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -143,7 +143,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://boletinoficial.neuquen.gov.ar/",
-      "lastFetch": "2026-10-07T05:22:46.573587+00:00",
+      "lastFetch": "2026-10-07T11:56:41.678776+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -158,7 +158,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.lmneuquen.com/",
-      "lastFetch": "2026-10-07T05:22:46.712002+00:00",
+      "lastFetch": "2026-10-07T11:56:41.921705+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -174,7 +174,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.rionegro.com.ar/",
-      "lastFetch": "2026-10-07T05:22:47.156648+00:00",
+      "lastFetch": "2026-10-07T11:56:43.530115+00:00",
       "success": true,
       "attempted": 2,
       "failures": [
@@ -189,7 +189,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.mejorinformado.com/",
-      "lastFetch": "2026-10-07T05:22:49.144723+00:00",
+      "lastFetch": "2026-10-07T11:56:43.821899+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -205,7 +205,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.diariamenteneuquen.com/",
-      "lastFetch": "2026-10-07T05:22:49.885306+00:00",
+      "lastFetch": "2026-10-07T11:56:44.453266+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -709,13 +709,13 @@
   "languageAudit": [
     {
       "term": "el chañar",
-      "hits": 14,
-      "direct": 14
+      "hits": 15,
+      "direct": 15
     },
     {
       "term": "san patricio del chañar",
-      "hits": 13,
-      "direct": 13
+      "hits": 14,
+      "direct": 14
     },
     {
       "term": "epet 26",
@@ -1087,6 +1087,19 @@
         "topics": []
       },
       {
+        "source": "Flipr.news",
+        "group": "OBSERVADA",
+        "role": "fuente detectada fuera del catálogo",
+        "accepted": 1,
+        "direct": 1,
+        "anchored": 0,
+        "falsePositives": 0,
+        "falsePositiveTypes": [],
+        "topics": [
+          "SERVICIOS"
+        ]
+      },
+      {
         "source": "INTA",
         "group": "EXTERNA",
         "role": "producción, clima y territorio",
@@ -1409,6 +1422,18 @@
         ]
       },
       {
+        "source": "Flipr.news",
+        "topic": "SERVICIOS",
+        "accepted": 1,
+        "direct": 1,
+        "anchored": 0,
+        "falsePositives": 0,
+        "territorialTerms": [
+          "san patricio del chañar",
+          "el chañar"
+        ]
+      },
+      {
         "source": "MejorInformado.com",
         "topic": "SERVICIOS",
         "accepted": 1,
@@ -1496,8 +1521,8 @@
     "languagePrecision": [
       {
         "term": "san patricio del chañar",
-        "acceptedHits": 13,
-        "directHits": 13,
+        "acceptedHits": 14,
+        "directHits": 14,
         "rejectedTitleHits": 0,
         "territorialStrength": "FUERTE"
       },
@@ -1510,8 +1535,8 @@
       },
       {
         "term": "el chañar",
-        "acceptedHits": 14,
-        "directHits": 14,
+        "acceptedHits": 15,
+        "directHits": 15,
         "rejectedTitleHits": 0,
         "territorialStrength": "FUERTE"
       },
@@ -1836,11 +1861,11 @@
     "interpretation": "auditoría sobre eventos aceptados; la próxima capa debe instrumentar rechazos antes del clustering"
   },
   "stats": {
-    "total": 15,
-    "direct": 15,
+    "total": 16,
+    "direct": 16,
     "regional": 0,
     "new": 1,
-    "sources": 10,
+    "sources": 11,
     "directSignals": 0,
     "localDirectSignals": 0,
     "radioDirectSignals": 0,
@@ -1850,11 +1875,11 @@
   "environment": {
     "weather": {
       "dataType": "forecast",
-      "forecastWindKmh": 28.0,
-      "forecastGustKmh": 36.0,
-      "forecastWindDirection": "E",
-      "forecastTemperatureC": 14.0,
-      "retrievedAt": "2026-10-07T05:22:35.646486+00:00",
+      "forecastWindKmh": 29.0,
+      "forecastGustKmh": 37.0,
+      "forecastWindDirection": "SE",
+      "forecastTemperatureC": 10.0,
+      "retrievedAt": "2026-10-07T11:56:32.224483+00:00",
       "source": "AIC",
       "sourceTier": "primary",
       "sourceUrl": "https://www.aic.gob.ar/sitio/home?a=1015&z=1967225803",
@@ -1884,7 +1909,7 @@
       "currentProgrammedMinM3s": 260,
       "programDate": "2026-10-08",
       "tableDate": "2026-10-07",
-      "retrievedAt": "2026-10-07T05:22:35.646486+00:00",
+      "retrievedAt": "2026-10-07T11:56:32.224483+00:00",
       "source": "AIC",
       "sourceTier": "primary",
       "sourceUrl": "https://www.aic.gob.ar/sitio/caudales",
@@ -1904,17 +1929,17 @@
         "url": "https://www.aic.gob.ar/sitio/caudales"
       }
     ],
-    "updatedAt": "2026-10-07T05:22:35.646486+00:00"
+    "updatedAt": "2026-10-07T11:56:32.224483+00:00"
   },
   "operational": {
-    "updatedAt": "2026-10-07T05:22:35.646486+00:00",
+    "updatedAt": "2026-10-07T11:56:32.224483+00:00",
     "route7": {
       "source": "Dirección Provincial de Vialidad",
       "sourceTier": "primary",
       "sourceUrl": "https://www.dpvneuquen.gov.ar/",
       "semanticState": null,
       "publicationState": "source_reachable_no_current_machine_readable_state",
-      "retrievedAt": "2026-10-07T05:22:35.646486+00:00",
+      "retrievedAt": "2026-10-07T11:56:32.224483+00:00",
       "evidence": {
         "route7Mention": true,
         "route8Mention": false
@@ -1926,7 +1951,7 @@
       "sourceUrl": "https://www.dpvneuquen.gov.ar/",
       "semanticState": null,
       "publicationState": "source_reachable_no_current_machine_readable_state",
-      "retrievedAt": "2026-10-07T05:22:35.646486+00:00",
+      "retrievedAt": "2026-10-07T11:56:32.224483+00:00",
       "evidence": {
         "route7Mention": true,
         "route8Mention": false
@@ -1940,7 +1965,7 @@
       "eventType": null,
       "detail": null,
       "publicationState": "source_reachable_no_specific_local_notice",
-      "retrievedAt": "2026-10-07T05:22:35.646486+00:00"
+      "retrievedAt": "2026-10-07T11:56:32.224483+00:00"
     },
     "water": {
       "source": "EPAS",
@@ -1950,7 +1975,7 @@
       "eventType": null,
       "detail": null,
       "publicationState": "source_reachable_no_specific_local_notice",
-      "retrievedAt": "2026-10-07T05:22:35.646486+00:00"
+      "retrievedAt": "2026-10-07T11:56:32.224483+00:00"
     },
     "sources": [
       {
@@ -2362,7 +2387,7 @@
       "label": "Conversación general",
       "signal": 7,
       "status": "cobertura editorial",
-      "freshnessHours": 6.6,
+      "freshnessHours": 8.0,
       "mode": "evidencia editorial",
       "evidenceCount": 7,
       "sourceContract": {
@@ -2442,7 +2467,7 @@
         "sourceUrl": "https://www.dpvneuquen.gov.ar/",
         "semanticState": null,
         "publicationState": "source_reachable_no_current_machine_readable_state",
-        "retrievedAt": "2026-10-07T05:22:35.646486+00:00",
+        "retrievedAt": "2026-10-07T11:56:32.224483+00:00",
         "evidence": {
           "route7Mention": true,
           "route8Mention": false
@@ -2494,7 +2519,7 @@
         "sourceUrl": "https://www.dpvneuquen.gov.ar/",
         "semanticState": null,
         "publicationState": "source_reachable_no_current_machine_readable_state",
-        "retrievedAt": "2026-10-07T05:22:35.646486+00:00",
+        "retrievedAt": "2026-10-07T11:56:32.224483+00:00",
         "evidence": {
           "route7Mention": true,
           "route8Mention": false
@@ -2504,7 +2529,7 @@
     {
       "id": "VIENTO",
       "label": "Condición de viento",
-      "signal": 28.0,
+      "signal": 29.0,
       "status": "pronóstico local",
       "freshnessHours": null,
       "mode": "DATO DIRECTO",
@@ -2594,7 +2619,7 @@
         "eventType": null,
         "detail": null,
         "publicationState": "source_reachable_no_specific_local_notice",
-        "retrievedAt": "2026-10-07T05:22:35.646486+00:00"
+        "retrievedAt": "2026-10-07T11:56:32.224483+00:00"
       }
     },
     {
@@ -2644,7 +2669,7 @@
         "eventType": null,
         "detail": null,
         "publicationState": "source_reachable_no_specific_local_notice",
-        "retrievedAt": "2026-10-07T05:22:35.646486+00:00"
+        "retrievedAt": "2026-10-07T11:56:32.224483+00:00"
       }
     },
     {
@@ -2732,7 +2757,7 @@
       "label": "Educación",
       "signal": 2,
       "status": "evidencia educativa",
-      "freshnessHours": 246.3,
+      "freshnessHours": 252.9,
       "mode": "evidencia editorial",
       "evidenceCount": 2,
       "sourceContract": {
@@ -2909,7 +2934,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://chanardigital.com.ar/",
-        "lastFetch": "2026-10-07T05:22:37.711494+00:00",
+        "lastFetch": "2026-10-07T11:56:34.571263+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -2925,7 +2950,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.radiomia.com.ar/",
-        "lastFetch": "2026-10-07T05:22:38.790978+00:00",
+        "lastFetch": "2026-10-07T11:56:35.676042+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -2940,7 +2965,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://tuitvacamuerta.com/",
-        "lastFetch": "2026-10-07T05:22:40.371780+00:00",
+        "lastFetch": "2026-10-07T11:56:37.204082+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -2955,7 +2980,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.vacamuertanews.com/",
-        "lastFetch": "2026-10-07T05:22:42.099114+00:00",
+        "lastFetch": "2026-10-07T11:56:37.525924+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -2971,7 +2996,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.neuqueninforma.gob.ar/",
-        "lastFetch": "2026-10-07T05:22:44.500118+00:00",
+        "lastFetch": "2026-10-07T11:56:38.572765+00:00",
         "success": false,
         "attempted": 3,
         "failures": [
@@ -2988,7 +3013,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://sanpatricio.gob.ar/",
-        "lastFetch": "2026-10-07T05:22:45.670061+00:00",
+        "lastFetch": "2026-10-07T11:56:40.754545+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -3003,7 +3028,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://boletinoficial.neuquen.gov.ar/",
-        "lastFetch": "2026-10-07T05:22:46.573587+00:00",
+        "lastFetch": "2026-10-07T11:56:41.678776+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -3018,7 +3043,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.lmneuquen.com/",
-        "lastFetch": "2026-10-07T05:22:46.712002+00:00",
+        "lastFetch": "2026-10-07T11:56:41.921705+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3034,7 +3059,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.rionegro.com.ar/",
-        "lastFetch": "2026-10-07T05:22:47.156648+00:00",
+        "lastFetch": "2026-10-07T11:56:43.530115+00:00",
         "success": true,
         "attempted": 2,
         "failures": [
@@ -3049,7 +3074,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.mejorinformado.com/",
-        "lastFetch": "2026-10-07T05:22:49.144723+00:00",
+        "lastFetch": "2026-10-07T11:56:43.821899+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3065,7 +3090,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.diariamenteneuquen.com/",
-        "lastFetch": "2026-10-07T05:22:49.885306+00:00",
+        "lastFetch": "2026-10-07T11:56:44.453266+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3085,22 +3110,23 @@
     {
       "eventId": "CHA-2f7210eef2b3",
       "title": "Después de las banderas en contra, San Patricio del Chañar le pidió disculpas al Consejo Federal - Diario Río Negro",
-      "publishedAt": "2026-10-06T22:44:20+00:00",
+      "publishedAt": "2026-10-07T03:56:20+00:00",
       "firstSeen": "2026-10-06T23:42:02.038120+00:00",
-      "lastSeen": "2026-10-06T22:44:20+00:00",
+      "lastSeen": "2026-10-07T03:56:20+00:00",
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SERVICIOS",
-      "movement": 75,
-      "coverage": 4,
-      "sourceCount": 4,
+      "movement": 90,
+      "coverage": 5,
+      "sourceCount": 5,
       "directSourceCount": 0,
       "territorialAnchors": [
         "san patricio del chañar",
         "el chañar"
       ],
       "sources": [
+        "Flipr.news",
         "MejorInformado.com",
         "Diario Río Negro",
         "Neuquén News",
@@ -3108,6 +3134,25 @@
       ],
       "evidenceUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNYzBPQUNwZjdRTHFmZ1FtRUZIMUZEbDJRTkhTSmcwVmZ6VkhSLXFVemkyeENKalZjeXEwcnV4X0M3eFhrUV9uRk0zVWs4YXF6bTlVWkx4SXplekhidm1YeVE4OU9PVXpHNVVmTkFTc3BRWDNZOWhTOUhDcXVSeG53cFdQeTY4UUpPMEo0LVBGbTZVcmNVbnUzQlEtMWZVUVVyUTJjX0RwRXd6M292S19EWm9rYXRHOWZONExaRDltcjZsLW5nbURLRDd5dU9hWXpMYlRHTkxfaDHSAeABQVVfeXFMTm8zU3pNSXB4Y242bE8wa05maFVSZHFUQVRzTXhkQUNPUk4zWTFVS0tWeDFsdDB2cHEzWGxaUWtsV0ZreGxjbFFYQ1dCcWJJZHFZTFhkNURyVmNmTHRfOTZidkpQTlBMSHJicEpiQ0NfVldHVXlWRFdUMjdVUm1LcmJhSjh4UFVNNWkwTloxMW9iWDV0azZjdlhFaTdjMnRiLTYxcm9vVElEQ3d1WlhUS1AzUUpSVVBUeXlLZVFRV0xUM1hvaEx0VDdrNXpRVUtkR2hNRTFvQllpMUtSeGxrRng?oc=5",
       "items": [
+        {
+          "title": "Post banderas en contra de Consejo Federal, San Patricio del Chañar pidió disculpas - Flipr.news",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQWktjbDl4UXNiRmc3MWZwdXNLU3BDYnVtVnRRSDZFZ2g1bWpUUnRvNi1GUXMzM3JQMlR5WWtwa25QZFV4VG02RmFKbXI2MWprSWU5cm40NVNYOU85QUx2V1RvVkstUUZqNlBZQU9tdTdEYzNVM2N6ZVZLSkNVXy04dXRlVGtrQjFCTUJ5eVNHVU9uZUlWMzBpVC1KRW45VGd0SXdXUW9uWUh5RGItM2FROXdvZEFIMFRTUUFmOXQ2Q3Y3Szhab2c?oc=5",
+          "publishedAt": "2026-10-07T03:56:20+00:00",
+          "published": "2026-10-07T03:56:20+00:00",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMixgFBVV95cUxQWktjbDl4UXNiRmc3MWZwdXNLU3BDYnVtVnRRSDZFZ2g1bWpUUnRvNi1GUXMzM3JQMlR5WWtwa25QZFV4VG02RmFKbXI2MWprSWU5cm40NVNYOU85QUx2V1RvVkstUUZqNlBZQU9tdTdEYzNVM2N6ZVZLSkNVXy04dXRlVGtrQjFCTUJ5eVNHVU9uZUlWMzBpVC1KRW45VGd0SXdXUW9uWUh5RGItM2FROXdvZEFIMFRTUUFmOXQ2Q3Y3Szhab2c?oc=5\" target=\"_blank\">Post banderas en contra de Consejo Federal, San Patricio del Chañar pidió disculpas</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Flipr.news</font>",
+          "source": "Flipr.news",
+          "sourceType": "BUSCADOR / RESPALDO",
+          "sourceUrl": "",
+          "collection": "BUSCADOR",
+          "query": "\"San Patricio del Chañar\" Neuquén",
+          "relevance": 3,
+          "relevanceLabel": "DIRECTA",
+          "firstSeen": "2026-10-07T11:56:54.163749+00:00",
+          "isNew": true,
+          "titleKey": "post banderas contra consejo federal pidio disculpas flipr news",
+          "evidenceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQWktjbDl4UXNiRmc3MWZwdXNLU3BDYnVtVnRRSDZFZ2g1bWpUUnRvNi1GUXMzM3JQMlR5WWtwa25QZFV4VG02RmFKbXI2MWprSWU5cm40NVNYOU85QUx2V1RvVkstUUZqNlBZQU9tdTdEYzNVM2N6ZVZLSkNVXy04dXRlVGtrQjFCTUJ5eVNHVU9uZUlWMzBpVC1KRW45VGd0SXdXUW9uWUh5RGItM2FROXdvZEFIMFRTUUFmOXQ2Q3Y3Szhab2c?oc=5",
+          "sourcePriority": 3
+        },
         {
           "title": "Post banderas en contra de Consejo Federal, San Patricio del Chañar pidió disculpas - MejorInformado.com",
           "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNXzZ0TTRGWHp4UFZmQzNSaHNYYlY3dVlIUFQwNFIta3hWbmVvNUEwVVd1akFwaUVUQUp6b1htMXZDZkFnbDNrNDZxWU94YVpDbW82a1VFSW9HTGJGeU1UXzhKT2g1UE1BdERLeFBTZ2xIOTRmcm9fdk5PSFUtTlZZN3VJLVV0bFZLLTBlTFo5azZGbjdWaVp4aVlDci1qNEZqMm5abXFMUFBVdFYyNEF5bmx3d0ExVWfSAbcBQVVfeXFMTV82dE00Rlh6eFBWZkMzUmhzWGJWN3VZSFBUMDRSLWt4Vm5lbzVBMFVXdWpBcGlFVEFKem9YbTF2Q2ZBZ2wzazQ2cVlPeGFaQ21vNmtVRUlvR0xiRnlNVF84Sk9oNVBNQXRES3hQU2dsSDk0ZnJvX3ZOT0hVLU5WWTd1SS1VdGxWSy0wZUxaOWs2Rm43VmlaeGlZQ3ItajRGajJuWm1xTFBQVXRWMjRBeW5sd3dBMVVn?oc=5",
@@ -3122,7 +3167,7 @@
           "relevance": 3,
           "relevanceLabel": "DIRECTA",
           "firstSeen": "2026-10-07T05:22:58.877646+00:00",
-          "isNew": true,
+          "isNew": false,
           "titleKey": "post banderas contra consejo federal pidio disculpas mejorinformado com",
           "evidenceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNXzZ0TTRGWHp4UFZmQzNSaHNYYlY3dVlIUFQwNFIta3hWbmVvNUEwVVd1akFwaUVUQUp6b1htMXZDZkFnbDNrNDZxWU94YVpDbW82a1VFSW9HTGJGeU1UXzhKT2g1UE1BdERLeFBTZ2xIOTRmcm9fdk5PSFUtTlZZN3VJLVV0bFZLLTBlTFo5azZGbjdWaVp4aVlDci1qNEZqMm5abXFMUFBVdFYyNEF5bmx3d0ExVWfSAbcBQVVfeXFMTV82dE00Rlh6eFBWZkMzUmhzWGJWN3VZSFBUMDRSLWt4Vm5lbzVBMFVXdWpBcGlFVEFKem9YbTF2Q2ZBZ2wzazQ2cVlPeGFaQ21vNmtVRUlvR0xiRnlNVF84Sk9oNVBNQXRES3hQU2dsSDk0ZnJvX3ZOT0hVLU5WWTd1SS1VdGxWSy0wZUxaOWs2Rm43VmlaeGlZQ3ItajRGajJuWm1xTFBQVXRWMjRBeW5sd3dBMVVn?oc=5",
           "sourcePriority": 3
@@ -3186,14 +3231,14 @@
         }
       ],
       "lifecycle": "EMERGENTE",
-      "movementDelta": 16,
-      "previousCoverage": 3,
+      "movementDelta": 15,
+      "previousCoverage": 4,
       "newSources": [
-        "MejorInformado.com",
+        "Flipr.news",
         "Neuquén News",
         "Neuquén al instante"
       ],
-      "sourceDiversity": 4,
+      "sourceDiversity": 5,
       "memoryMatched": true,
       "isNew": false,
       "view": "INCIDENCIA",
@@ -3234,7 +3279,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SERVICIOS",
-      "movement": 73,
+      "movement": 71,
       "coverage": 6,
       "sourceCount": 5,
       "directSourceCount": 0,
@@ -3367,14 +3412,13 @@
         }
       ],
       "lifecycle": "ACTIVO",
-      "movementDelta": 57,
+      "movementDelta": 55,
       "previousCoverage": 1,
       "newSources": [
         "Minuto Neuquen",
+        "Lmneuquen.com",
         "Patagonia Press",
-        "Neuquen Informa",
-        "Chañar Digital",
-        "Lmneuquen.com"
+        "Neuquen Informa"
       ],
       "sourceDiversity": 5,
       "memoryMatched": true,
@@ -3417,7 +3461,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "CULTURA / TURISMO",
-      "movement": 51,
+      "movement": 50,
       "coverage": 1,
       "sourceCount": 1,
       "directSourceCount": 0,
@@ -3451,7 +3495,7 @@
         }
       ],
       "lifecycle": "SOSTENIDO",
-      "movementDelta": -2,
+      "movementDelta": -1,
       "previousCoverage": 1,
       "newSources": [],
       "sourceDiversity": 1,
@@ -3528,13 +3572,15 @@
           "sourcePriority": 3
         }
       ],
-      "lifecycle": "RECIENTE",
+      "lifecycle": "ACTIVO",
       "movementDelta": 0,
-      "previousCoverage": 1,
-      "newSources": [],
+      "previousCoverage": 0,
+      "newSources": [
+        "Chañar Digital"
+      ],
       "sourceDiversity": 1,
-      "memoryMatched": true,
-      "isNew": false,
+      "memoryMatched": false,
+      "isNew": true,
       "view": "INCIDENCIA",
       "incidenceEligible": true,
       "signalReason": "reservado a incidencia territorial",
@@ -3844,6 +3890,25 @@
   ],
   "items": [
     {
+      "title": "Post banderas en contra de Consejo Federal, San Patricio del Chañar pidió disculpas - Flipr.news",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQWktjbDl4UXNiRmc3MWZwdXNLU3BDYnVtVnRRSDZFZ2g1bWpUUnRvNi1GUXMzM3JQMlR5WWtwa25QZFV4VG02RmFKbXI2MWprSWU5cm40NVNYOU85QUx2V1RvVkstUUZqNlBZQU9tdTdEYzNVM2N6ZVZLSkNVXy04dXRlVGtrQjFCTUJ5eVNHVU9uZUlWMzBpVC1KRW45VGd0SXdXUW9uWUh5RGItM2FROXdvZEFIMFRTUUFmOXQ2Q3Y3Szhab2c?oc=5",
+      "publishedAt": "2026-10-07T03:56:20+00:00",
+      "published": "2026-10-07T03:56:20+00:00",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMixgFBVV95cUxQWktjbDl4UXNiRmc3MWZwdXNLU3BDYnVtVnRRSDZFZ2g1bWpUUnRvNi1GUXMzM3JQMlR5WWtwa25QZFV4VG02RmFKbXI2MWprSWU5cm40NVNYOU85QUx2V1RvVkstUUZqNlBZQU9tdTdEYzNVM2N6ZVZLSkNVXy04dXRlVGtrQjFCTUJ5eVNHVU9uZUlWMzBpVC1KRW45VGd0SXdXUW9uWUh5RGItM2FROXdvZEFIMFRTUUFmOXQ2Q3Y3Szhab2c?oc=5\" target=\"_blank\">Post banderas en contra de Consejo Federal, San Patricio del Chañar pidió disculpas</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Flipr.news</font>",
+      "source": "Flipr.news",
+      "sourceType": "BUSCADOR / RESPALDO",
+      "sourceUrl": "",
+      "collection": "BUSCADOR",
+      "query": "\"San Patricio del Chañar\" Neuquén",
+      "relevance": 3,
+      "relevanceLabel": "DIRECTA",
+      "firstSeen": "2026-10-07T11:56:54.163749+00:00",
+      "isNew": true,
+      "titleKey": "post banderas contra consejo federal pidio disculpas flipr news",
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQWktjbDl4UXNiRmc3MWZwdXNLU3BDYnVtVnRRSDZFZ2g1bWpUUnRvNi1GUXMzM3JQMlR5WWtwa25QZFV4VG02RmFKbXI2MWprSWU5cm40NVNYOU85QUx2V1RvVkstUUZqNlBZQU9tdTdEYzNVM2N6ZVZLSkNVXy04dXRlVGtrQjFCTUJ5eVNHVU9uZUlWMzBpVC1KRW45VGd0SXdXUW9uWUh5RGItM2FROXdvZEFIMFRTUUFmOXQ2Q3Y3Szhab2c?oc=5",
+      "sourcePriority": 3
+    },
+    {
       "title": "Post banderas en contra de Consejo Federal, San Patricio del Chañar pidió disculpas - MejorInformado.com",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNXzZ0TTRGWHp4UFZmQzNSaHNYYlY3dVlIUFQwNFIta3hWbmVvNUEwVVd1akFwaUVUQUp6b1htMXZDZkFnbDNrNDZxWU94YVpDbW82a1VFSW9HTGJGeU1UXzhKT2g1UE1BdERLeFBTZ2xIOTRmcm9fdk5PSFUtTlZZN3VJLVV0bFZLLTBlTFo5azZGbjdWaVp4aVlDci1qNEZqMm5abXFMUFBVdFYyNEF5bmx3d0ExVWfSAbcBQVVfeXFMTV82dE00Rlh6eFBWZkMzUmhzWGJWN3VZSFBUMDRSLWt4Vm5lbzVBMFVXdWpBcGlFVEFKem9YbTF2Q2ZBZ2wzazQ2cVlPeGFaQ21vNmtVRUlvR0xiRnlNVF84Sk9oNVBNQXRES3hQU2dsSDk0ZnJvX3ZOT0hVLU5WWTd1SS1VdGxWSy0wZUxaOWs2Rm43VmlaeGlZQ3ItajRGajJuWm1xTFBQVXRWMjRBeW5sd3dBMVVn?oc=5",
       "publishedAt": "2026-10-06T22:44:20+00:00",
@@ -3857,7 +3922,7 @@
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "firstSeen": "2026-10-07T05:22:58.877646+00:00",
-      "isNew": true,
+      "isNew": false,
       "titleKey": "post banderas contra consejo federal pidio disculpas mejorinformado com",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNXzZ0TTRGWHp4UFZmQzNSaHNYYlY3dVlIUFQwNFIta3hWbmVvNUEwVVd1akFwaUVUQUp6b1htMXZDZkFnbDNrNDZxWU94YVpDbW82a1VFSW9HTGJGeU1UXzhKT2g1UE1BdERLeFBTZ2xIOTRmcm9fdk5PSFUtTlZZN3VJLVV0bFZLLTBlTFo5azZGbjdWaVp4aVlDci1qNEZqMm5abXFMUFBVdFYyNEF5bmx3d0ExVWfSAbcBQVVfeXFMTV82dE00Rlh6eFBWZkMzUmhzWGJWN3VZSFBUMDRSLWt4Vm5lbzVBMFVXdWpBcGlFVEFKem9YbTF2Q2ZBZ2wzazQ2cVlPeGFaQ21vNmtVRUlvR0xiRnlNVF84Sk9oNVBNQXRES3hQU2dsSDk0ZnJvX3ZOT0hVLU5WWTd1SS1VdGxWSy0wZUxaOWs2Rm43VmlaeGlZQ3ItajRGajJuWm1xTFBQVXRWMjRBeW5sd3dBMVVn?oc=5",
       "sourcePriority": 3
@@ -4131,7 +4196,7 @@
   ],
   "territorialGraph": {
     "version": "2.0",
-    "generatedAt": "2026-10-07T05:23:11.139783+00:00",
+    "generatedAt": "2026-10-07T11:57:05.321487+00:00",
     "root": "spc",
     "rule": "evidence-first",
     "levels": [
@@ -4737,16 +4802,16 @@
   },
   "audit": {
     "version": "1.0",
-    "updatedAt": "2026-10-07T05:23:11.190573+00:00",
+    "updatedAt": "2026-10-07T11:57:05.372451+00:00",
     "rule": "fact != coverage; territory requires textual evidence",
     "facts": 7,
-    "coverage": 16,
-    "coveragePerFact": 2.29,
+    "coverage": 17,
+    "coveragePerFact": 2.43,
     "directAnchorFacts": 7,
     "directAnchorPct": 100.0,
     "territorySpecificFacts": 2,
     "territorySpecificPct": 28.6,
-    "averageSourcesPerFact": 2.14,
+    "averageSourcesPerFact": 2.29,
     "activeTerritorialNodes": 3,
     "failedSources": 10,
     "acceptedWithoutLocalEvidence": 0,
