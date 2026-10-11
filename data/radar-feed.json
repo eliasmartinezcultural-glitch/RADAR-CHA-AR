@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-11T15:54:48.568218+00:00",
+  "updatedAt": "2026-10-11T20:06:38.833273+00:00",
   "window": "14 días",
   "purpose": "Detectar qué se está moviendo en San Patricio del Chañar y mostrar de dónde surge cada señal.",
   "architecture": "contrato universal de procedencia + fuentes profesionales + adaptadores específicos + validación semántica + temporalidad + evidencia editorial separada",
@@ -49,7 +49,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://chanardigital.com.ar/",
-      "lastFetch": "2026-10-11T15:54:08.320638+00:00",
+      "lastFetch": "2026-10-11T20:06:18.750720+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -65,7 +65,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.radiomia.com.ar/",
-      "lastFetch": "2026-10-11T15:54:10.360240+00:00",
+      "lastFetch": "2026-10-11T20:06:20.044521+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -80,7 +80,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://tuitvacamuerta.com/",
-      "lastFetch": "2026-10-11T15:54:11.920303+00:00",
+      "lastFetch": "2026-10-11T20:06:21.730787+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -95,7 +95,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.vacamuertanews.com/",
-      "lastFetch": "2026-10-11T15:54:12.227359+00:00",
+      "lastFetch": "2026-10-11T20:06:22.271722+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -111,7 +111,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.neuqueninforma.gob.ar/",
-      "lastFetch": "2026-10-11T15:54:13.374943+00:00",
+      "lastFetch": "2026-10-11T20:06:23.824491+00:00",
       "success": false,
       "attempted": 3,
       "failures": [
@@ -128,7 +128,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://sanpatricio.gob.ar/",
-      "lastFetch": "2026-10-11T15:54:14.329517+00:00",
+      "lastFetch": "2026-10-11T20:06:24.852908+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -143,7 +143,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://boletinoficial.neuquen.gov.ar/",
-      "lastFetch": "2026-10-11T15:54:34.664056+00:00",
+      "lastFetch": "2026-10-11T20:06:25.934462+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -158,7 +158,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.lmneuquen.com/",
-      "lastFetch": "2026-10-11T15:54:34.959271+00:00",
+      "lastFetch": "2026-10-11T20:06:26.118570+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -172,16 +172,16 @@
       "name": "Diario Río Negro",
       "type": "MEDIO REGIONAL",
       "mode": "RSS DIRECTO",
-      "signals": 2,
+      "signals": 1,
       "url": "https://www.rionegro.com.ar/",
-      "lastFetch": "2026-10-11T15:54:37.809901+00:00",
+      "lastFetch": "2026-10-11T20:06:28.466350+00:00",
       "success": true,
       "attempted": 2,
       "failures": [
         "WEB:AttributeError"
       ],
       "directAvailability": "available",
-      "freshnessHours": 0.8
+      "freshnessHours": 1.0
     },
     {
       "name": "Mejor Informado",
@@ -189,7 +189,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.mejorinformado.com/",
-      "lastFetch": "2026-10-11T15:54:38.355809+00:00",
+      "lastFetch": "2026-10-11T20:06:29.164204+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -205,7 +205,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.diariamenteneuquen.com/",
-      "lastFetch": "2026-10-11T15:54:39.042829+00:00",
+      "lastFetch": "2026-10-11T20:06:30.035893+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -386,10 +386,10 @@
       "group": "LOCAL",
       "role": "medio local",
       "url": "https://chanardigital.com.ar/",
-      "signals": 4,
-      "directSignals": 4,
+      "signals": 5,
+      "directSignals": 5,
       "anchoredSignals": 0,
-      "lastSeen": "2026-10-09T23:47:34+00:00",
+      "lastSeen": "2026-10-11T15:51:38+00:00",
       "status": "CON SEÑALES",
       "note": "ausencia de señales no equivale a ausencia del hecho"
     },
@@ -602,10 +602,10 @@
       "group": "REGIONAL",
       "role": "medio regional",
       "url": "https://www.rionegro.com.ar/",
-      "signals": 5,
-      "directSignals": 5,
+      "signals": 4,
+      "directSignals": 4,
       "anchoredSignals": 0,
-      "lastSeen": "2026-10-11T15:07:52+00:00",
+      "lastSeen": "2026-10-11T19:06:37+00:00",
       "status": "CON SEÑALES",
       "note": "ausencia de señales no equivale a ausencia del hecho"
     },
@@ -709,18 +709,18 @@
   "languageAudit": [
     {
       "term": "el chañar",
-      "hits": 27,
-      "direct": 27
+      "hits": 28,
+      "direct": 28
     },
     {
       "term": "san patricio del chañar",
-      "hits": 21,
-      "direct": 21
+      "hits": 22,
+      "direct": 22
     },
     {
       "term": "parque industrial",
-      "hits": 3,
-      "direct": 3
+      "hits": 2,
+      "direct": 2
     },
     {
       "term": "viñedos",
@@ -1021,8 +1021,8 @@
         "source": "Chañar Digital",
         "group": "LOCAL",
         "role": "medio local",
-        "accepted": 8,
-        "direct": 8,
+        "accepted": 9,
+        "direct": 9,
         "anchored": 0,
         "falsePositives": 0,
         "falsePositiveTypes": [],
@@ -1083,13 +1083,13 @@
         "source": "Diario Río Negro",
         "group": "REGIONAL",
         "role": "medio regional",
-        "accepted": 2,
-        "direct": 2,
+        "accepted": 1,
+        "direct": 1,
         "anchored": 0,
         "falsePositives": 0,
         "falsePositiveTypes": [],
         "topics": [
-          "SERVICIOS"
+          "CULTURA / TURISMO"
         ]
       },
       {
@@ -1303,8 +1303,8 @@
         "source": "Radio UNCo CALF",
         "group": "OBSERVADA",
         "role": "fuente detectada fuera del catálogo",
-        "accepted": 1,
-        "direct": 1,
+        "accepted": 2,
+        "direct": 2,
         "anchored": 0,
         "falsePositives": 0,
         "falsePositiveTypes": [],
@@ -1398,15 +1398,15 @@
         ]
       },
       {
-        "source": "Diario Río Negro",
+        "source": "Chañar Digital",
         "topic": "SERVICIOS",
         "accepted": 2,
         "direct": 2,
         "anchored": 0,
         "falsePositives": 0,
         "territorialTerms": [
-          "12 de octubre",
-          "parque industrial"
+          "san patricio del chañar",
+          "el chañar"
         ]
       },
       {
@@ -1422,10 +1422,10 @@
         ]
       },
       {
-        "source": "ANBariloche",
+        "source": "Radio UNCo CALF",
         "topic": "SERVICIOS",
-        "accepted": 1,
-        "direct": 1,
+        "accepted": 2,
+        "direct": 2,
         "anchored": 0,
         "falsePositives": 0,
         "territorialTerms": [
@@ -1434,7 +1434,7 @@
         ]
       },
       {
-        "source": "Chañar Digital",
+        "source": "ANBariloche",
         "topic": "SERVICIOS",
         "accepted": 1,
         "direct": 1,
@@ -1468,6 +1468,17 @@
           "san patricio del chañar",
           "el chañar",
           "epet 26"
+        ]
+      },
+      {
+        "source": "Diario Río Negro",
+        "topic": "CULTURA / TURISMO",
+        "accepted": 1,
+        "direct": 1,
+        "anchored": 0,
+        "falsePositives": 0,
+        "territorialTerms": [
+          "12 de octubre"
         ]
       },
       {
@@ -1519,18 +1530,6 @@
         ]
       },
       {
-        "source": "Radio UNCo CALF",
-        "topic": "SERVICIOS",
-        "accepted": 1,
-        "direct": 1,
-        "anchored": 0,
-        "falsePositives": 0,
-        "territorialTerms": [
-          "san patricio del chañar",
-          "el chañar"
-        ]
-      },
-      {
         "source": "tuitvacamuerta.com",
         "topic": "SERVICIOS",
         "accepted": 1,
@@ -1545,8 +1544,8 @@
     "languagePrecision": [
       {
         "term": "san patricio del chañar",
-        "acceptedHits": 9,
-        "directHits": 9,
+        "acceptedHits": 11,
+        "directHits": 11,
         "rejectedTitleHits": 0,
         "territorialStrength": "FUERTE"
       },
@@ -1559,8 +1558,8 @@
       },
       {
         "term": "el chañar",
-        "acceptedHits": 11,
-        "directHits": 11,
+        "acceptedHits": 13,
+        "directHits": 13,
         "rejectedTitleHits": 0,
         "territorialStrength": "FUERTE"
       },
@@ -1650,8 +1649,8 @@
       },
       {
         "term": "parque industrial",
-        "acceptedHits": 3,
-        "directHits": 3,
+        "acceptedHits": 2,
+        "directHits": 2,
         "rejectedTitleHits": 0,
         "territorialStrength": "FUERTE"
       },
@@ -1890,7 +1889,7 @@
     "regional": 0,
     "new": 2,
     "sources": 15,
-    "directSignals": 2,
+    "directSignals": 1,
     "localDirectSignals": 0,
     "radioDirectSignals": 0,
     "precisionRule": "evidence-first",
@@ -1903,7 +1902,7 @@
       "forecastGustKmh": 32.0,
       "forecastWindDirection": "NE",
       "forecastTemperatureC": 19.0,
-      "retrievedAt": "2026-10-11T15:54:06.386386+00:00",
+      "retrievedAt": "2026-10-11T20:06:16.597844+00:00",
       "source": "AIC",
       "sourceTier": "primary",
       "sourceUrl": "https://www.aic.gob.ar/sitio/home?a=1015&z=1967225803",
@@ -1933,7 +1932,7 @@
       "currentProgrammedMinM3s": 370,
       "programDate": "2026-10-12",
       "tableDate": "2026-10-11",
-      "retrievedAt": "2026-10-11T15:54:06.386386+00:00",
+      "retrievedAt": "2026-10-11T20:06:16.597844+00:00",
       "source": "AIC",
       "sourceTier": "primary",
       "sourceUrl": "https://www.aic.gob.ar/sitio/caudales",
@@ -1953,27 +1952,33 @@
         "url": "https://www.aic.gob.ar/sitio/caudales"
       }
     ],
-    "updatedAt": "2026-10-11T15:54:06.386386+00:00"
+    "updatedAt": "2026-10-11T20:06:16.597844+00:00"
   },
   "operational": {
-    "updatedAt": "2026-10-11T15:54:06.386386+00:00",
+    "updatedAt": "2026-10-11T20:06:16.597844+00:00",
     "route7": {
       "source": "Dirección Provincial de Vialidad",
       "sourceTier": "primary",
       "sourceUrl": "https://www.dpvneuquen.gov.ar/",
       "semanticState": null,
-      "publicationState": "source_unreachable",
-      "retrievedAt": "2026-10-11T15:54:06.386386+00:00",
-      "evidence": {}
+      "publicationState": "source_reachable_no_current_machine_readable_state",
+      "retrievedAt": "2026-10-11T20:06:16.597844+00:00",
+      "evidence": {
+        "route7Mention": true,
+        "route8Mention": false
+      }
     },
     "route8": {
       "source": "Dirección Provincial de Vialidad",
       "sourceTier": "primary",
       "sourceUrl": "https://www.dpvneuquen.gov.ar/",
       "semanticState": null,
-      "publicationState": "source_unreachable",
-      "retrievedAt": "2026-10-11T15:54:06.386386+00:00",
-      "evidence": {}
+      "publicationState": "source_reachable_no_current_machine_readable_state",
+      "retrievedAt": "2026-10-11T20:06:16.597844+00:00",
+      "evidence": {
+        "route7Mention": true,
+        "route8Mention": false
+      }
     },
     "energy": {
       "source": "EPEN",
@@ -1983,7 +1988,7 @@
       "eventType": null,
       "detail": null,
       "publicationState": "source_reachable_no_specific_local_notice",
-      "retrievedAt": "2026-10-11T15:54:06.386386+00:00"
+      "retrievedAt": "2026-10-11T20:06:16.597844+00:00"
     },
     "water": {
       "source": "EPAS",
@@ -1993,16 +1998,15 @@
       "eventType": null,
       "detail": null,
       "publicationState": "source_reachable_no_specific_local_notice",
-      "retrievedAt": "2026-10-11T15:54:06.386386+00:00"
+      "retrievedAt": "2026-10-11T20:06:16.597844+00:00"
     },
     "sources": [
       {
         "name": "Dirección Provincial de Vialidad",
         "tier": "primary",
-        "mode": "connection_error",
+        "mode": "reachable",
         "kind": "road_official",
-        "url": "https://www.dpvneuquen.gov.ar/",
-        "error": "URLError"
+        "url": "https://www.dpvneuquen.gov.ar/"
       },
       {
         "name": "EPEN",
@@ -2406,7 +2410,7 @@
       "label": "Conversación general",
       "signal": 9,
       "status": "cobertura editorial",
-      "freshnessHours": 0.8,
+      "freshnessHours": 1.0,
       "mode": "evidencia editorial",
       "evidenceCount": 9,
       "sourceContract": {
@@ -2444,11 +2448,11 @@
     {
       "id": "RUTA 7",
       "label": "Corredor Ruta 7",
-      "signal": 1,
+      "signal": 0,
       "status": "estado vial",
-      "freshnessHours": 0.8,
+      "freshnessHours": null,
       "mode": "evidencia territorial",
-      "evidenceCount": 1,
+      "evidenceCount": 0,
       "sourceContract": {
         "primary": "Dirección Provincial de Vialidad del Neuquén",
         "secondary": "WSESTADORUTAS · sistema oficial de estado vial",
@@ -2485,19 +2489,22 @@
         "sourceTier": "primary",
         "sourceUrl": "https://www.dpvneuquen.gov.ar/",
         "semanticState": null,
-        "publicationState": "source_unreachable",
-        "retrievedAt": "2026-10-11T15:54:06.386386+00:00",
-        "evidence": {}
+        "publicationState": "source_reachable_no_current_machine_readable_state",
+        "retrievedAt": "2026-10-11T20:06:16.597844+00:00",
+        "evidence": {
+          "route7Mention": true,
+          "route8Mention": false
+        }
       }
     },
     {
       "id": "RUTA 8",
       "label": "Corredor Ruta 8",
-      "signal": 1,
+      "signal": 0,
       "status": "estado vial",
-      "freshnessHours": 0.8,
+      "freshnessHours": null,
       "mode": "evidencia territorial",
-      "evidenceCount": 1,
+      "evidenceCount": 0,
       "sourceContract": {
         "primary": "Dirección Provincial de Vialidad del Neuquén",
         "secondary": "WSESTADORUTAS · sistema oficial de estado vial",
@@ -2534,9 +2541,12 @@
         "sourceTier": "primary",
         "sourceUrl": "https://www.dpvneuquen.gov.ar/",
         "semanticState": null,
-        "publicationState": "source_unreachable",
-        "retrievedAt": "2026-10-11T15:54:06.386386+00:00",
-        "evidence": {}
+        "publicationState": "source_reachable_no_current_machine_readable_state",
+        "retrievedAt": "2026-10-11T20:06:16.597844+00:00",
+        "evidence": {
+          "route7Mention": true,
+          "route8Mention": false
+        }
       }
     },
     {
@@ -2588,11 +2598,11 @@
     {
       "id": "ENERGÍA",
       "label": "Electricidad / cortes de luz",
-      "signal": 1,
+      "signal": 0,
       "status": "evento eléctrico",
-      "freshnessHours": 0.8,
+      "freshnessHours": null,
       "mode": "evidencia editorial",
-      "evidenceCount": 1,
+      "evidenceCount": 0,
       "sourceContract": {
         "primary": "Ente Provincial de Energía del Neuquén (EPEN)",
         "secondary": "EPEN · cortes programados / comunicados",
@@ -2632,7 +2642,7 @@
         "eventType": null,
         "detail": null,
         "publicationState": "source_reachable_no_specific_local_notice",
-        "retrievedAt": "2026-10-11T15:54:06.386386+00:00"
+        "retrievedAt": "2026-10-11T20:06:16.597844+00:00"
       }
     },
     {
@@ -2640,7 +2650,7 @@
       "label": "Agua / abastecimiento",
       "signal": 1,
       "status": "evento hídrico",
-      "freshnessHours": 121.6,
+      "freshnessHours": 125.8,
       "mode": "evidencia editorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -2682,17 +2692,17 @@
         "eventType": null,
         "detail": null,
         "publicationState": "source_reachable_no_specific_local_notice",
-        "retrievedAt": "2026-10-11T15:54:06.386386+00:00"
+        "retrievedAt": "2026-10-11T20:06:16.597844+00:00"
       }
     },
     {
       "id": "SERVICIOS",
       "label": "Servicios e infraestructura",
-      "signal": 2,
+      "signal": 1,
       "status": "evidencia de servicio",
-      "freshnessHours": 0.8,
+      "freshnessHours": 125.8,
       "mode": "evidencia editorial",
-      "evidenceCount": 2,
+      "evidenceCount": 1,
       "sourceContract": {
         "primary": "Municipalidad de San Patricio del Chañar",
         "secondary": "organismo provincial competente según servicio",
@@ -2770,7 +2780,7 @@
       "label": "Educación",
       "signal": 2,
       "status": "evidencia educativa",
-      "freshnessHours": 352.9,
+      "freshnessHours": 357.0,
       "mode": "evidencia editorial",
       "evidenceCount": 2,
       "sourceContract": {
@@ -2810,7 +2820,7 @@
       "label": "Producción rural",
       "signal": 1,
       "status": "evidencia productiva",
-      "freshnessHours": 320.9,
+      "freshnessHours": 325.1,
       "mode": "evidencia editorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -2888,11 +2898,11 @@
     {
       "id": "TERRITORIO",
       "label": "Territorio / microzonas",
-      "signal": 2,
+      "signal": 1,
       "status": "hecho territorial",
-      "freshnessHours": 2.4,
+      "freshnessHours": 67.6,
       "mode": "evidencia territorial",
-      "evidenceCount": 2,
+      "evidenceCount": 1,
       "sourceContract": {
         "primary": "Municipalidad de San Patricio del Chañar",
         "secondary": "organismo provincial competente según fenómeno",
@@ -2947,7 +2957,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://chanardigital.com.ar/",
-        "lastFetch": "2026-10-11T15:54:08.320638+00:00",
+        "lastFetch": "2026-10-11T20:06:18.750720+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -2963,7 +2973,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.radiomia.com.ar/",
-        "lastFetch": "2026-10-11T15:54:10.360240+00:00",
+        "lastFetch": "2026-10-11T20:06:20.044521+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -2978,7 +2988,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://tuitvacamuerta.com/",
-        "lastFetch": "2026-10-11T15:54:11.920303+00:00",
+        "lastFetch": "2026-10-11T20:06:21.730787+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -2993,7 +3003,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.vacamuertanews.com/",
-        "lastFetch": "2026-10-11T15:54:12.227359+00:00",
+        "lastFetch": "2026-10-11T20:06:22.271722+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3009,7 +3019,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.neuqueninforma.gob.ar/",
-        "lastFetch": "2026-10-11T15:54:13.374943+00:00",
+        "lastFetch": "2026-10-11T20:06:23.824491+00:00",
         "success": false,
         "attempted": 3,
         "failures": [
@@ -3026,7 +3036,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://sanpatricio.gob.ar/",
-        "lastFetch": "2026-10-11T15:54:14.329517+00:00",
+        "lastFetch": "2026-10-11T20:06:24.852908+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -3041,7 +3051,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://boletinoficial.neuquen.gov.ar/",
-        "lastFetch": "2026-10-11T15:54:34.664056+00:00",
+        "lastFetch": "2026-10-11T20:06:25.934462+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -3056,7 +3066,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.lmneuquen.com/",
-        "lastFetch": "2026-10-11T15:54:34.959271+00:00",
+        "lastFetch": "2026-10-11T20:06:26.118570+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3070,16 +3080,16 @@
         "name": "Diario Río Negro",
         "type": "MEDIO REGIONAL",
         "mode": "RSS DIRECTO",
-        "signals": 2,
+        "signals": 1,
         "url": "https://www.rionegro.com.ar/",
-        "lastFetch": "2026-10-11T15:54:37.809901+00:00",
+        "lastFetch": "2026-10-11T20:06:28.466350+00:00",
         "success": true,
         "attempted": 2,
         "failures": [
           "WEB:AttributeError"
         ],
         "directAvailability": "available",
-        "freshnessHours": 0.8
+        "freshnessHours": 1.0
       },
       {
         "name": "Mejor Informado",
@@ -3087,7 +3097,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.mejorinformado.com/",
-        "lastFetch": "2026-10-11T15:54:38.355809+00:00",
+        "lastFetch": "2026-10-11T20:06:29.164204+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3103,7 +3113,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.diariamenteneuquen.com/",
-        "lastFetch": "2026-10-11T15:54:39.042829+00:00",
+        "lastFetch": "2026-10-11T20:06:30.035893+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3123,15 +3133,15 @@
     {
       "eventId": "CHA-e050fe46850f",
       "title": "El intendente de San Patricio del Chañar habló del aporte del municipio a la investigación que realiza el EAAF en el cementerio - Radio UNCo CALF",
-      "publishedAt": "2026-10-10T03:24:23+00:00",
+      "publishedAt": "2026-10-11T15:51:38+00:00",
       "firstSeen": "2026-10-07T23:31:20.099442+00:00",
-      "lastSeen": "2026-10-10T03:24:23+00:00",
+      "lastSeen": "2026-10-11T15:51:38+00:00",
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SERVICIOS",
-      "movement": 90,
-      "coverage": 25,
+      "movement": 89,
+      "coverage": 24,
       "sourceCount": 8,
       "directSourceCount": 0,
       "territorialAnchors": [
@@ -3304,17 +3314,17 @@
         }
       ],
       "lifecycle": "ACTIVO",
-      "movementDelta": -2,
+      "movementDelta": -1,
       "previousCoverage": 25,
       "newSources": [
         "Diario Río Negro",
         "Flipr.news",
+        "Lmneuquen.com",
         "Fuego24",
         "Radio UNCo CALF",
         "MejorInformado.com",
         "NoticiasNQN",
-        "Neuquén al instante",
-        "Neuquen Informa"
+        "Neuquén al instante"
       ],
       "sourceDiversity": 8,
       "memoryMatched": true,
@@ -3348,15 +3358,15 @@
       }
     },
     {
-      "eventId": "CHA-45910283caaf",
-      "title": "Servicio a la comunidad: CALF anunció cortes de luz para este lunes 12 de octubre en Neuquén",
-      "publishedAt": "2026-10-11T15:07:52+00:00",
-      "firstSeen": "2026-10-11T15:54:48.568218+00:00",
-      "lastSeen": "2026-10-11T15:07:52+00:00",
+      "eventId": "CHA-38bcb6f2aec6",
+      "title": "Neuquén festeja la diversidad cultural este lunes 12 de Octubre",
+      "publishedAt": "2026-10-11T19:06:37+00:00",
+      "firstSeen": "2026-10-11T20:06:38.833273+00:00",
+      "lastSeen": "2026-10-11T19:06:37+00:00",
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
-      "topic": "SERVICIOS",
+      "topic": "CULTURA / TURISMO",
       "movement": 61,
       "coverage": 1,
       "sourceCount": 1,
@@ -3367,13 +3377,13 @@
       "sources": [
         "Diario Río Negro"
       ],
-      "evidenceUrl": "https://www.rionegro.com.ar/servicios/servicio-a-la-comunidad-calf-anuncio-cortes-de-luz-para-este-lunes-12-de-octubre-en-neuquen-4755457/",
+      "evidenceUrl": "https://www.rionegro.com.ar/sociedad/neuquen-festeja-la-diversidad-cultural-este-lunes-12-de-octubre-4755654/",
       "items": [
         {
-          "title": "Servicio a la comunidad: CALF anunció cortes de luz para este lunes 12 de octubre en Neuquén",
-          "url": "https://www.rionegro.com.ar/servicios/servicio-a-la-comunidad-calf-anuncio-cortes-de-luz-para-este-lunes-12-de-octubre-en-neuquen-4755457/",
-          "publishedAt": "2026-10-11T15:07:52+00:00",
-          "published": "2026-10-11T15:07:52+00:00",
+          "title": "Neuquén festeja la diversidad cultural este lunes 12 de Octubre",
+          "url": "https://www.rionegro.com.ar/sociedad/neuquen-festeja-la-diversidad-cultural-este-lunes-12-de-octubre-4755654/",
+          "publishedAt": "2026-10-11T19:06:37+00:00",
+          "published": "2026-10-11T19:06:37+00:00",
           "description": "",
           "source": "Diario Río Negro",
           "sourceType": "MEDIO REGIONAL",
@@ -3382,26 +3392,24 @@
           "query": "https://www.rionegro.com.ar/feed/",
           "relevance": 3,
           "relevanceLabel": "DIRECTA",
-          "firstSeen": "2026-10-11T15:54:48.568218+00:00",
+          "firstSeen": "2026-10-11T20:06:38.833273+00:00",
           "isNew": true,
-          "titleKey": "servicio comunidad calf anuncio cortes luz este lunes octubre",
-          "evidenceUrl": "https://www.rionegro.com.ar/servicios/servicio-a-la-comunidad-calf-anuncio-cortes-de-luz-para-este-lunes-12-de-octubre-en-neuquen-4755457/",
+          "titleKey": "festeja diversidad cultural este lunes octubre",
+          "evidenceUrl": "https://www.rionegro.com.ar/sociedad/neuquen-festeja-la-diversidad-cultural-este-lunes-12-de-octubre-4755654/",
           "sourcePriority": 2
         }
       ],
       "lifecycle": "EMERGENTE",
-      "movementDelta": 31,
+      "movementDelta": 0,
       "previousCoverage": 1,
-      "newSources": [
-        "Diario Río Negro"
-      ],
+      "newSources": [],
       "sourceDiversity": 1,
       "memoryMatched": true,
       "isNew": false,
-      "view": "INCIDENCIA",
-      "incidenceEligible": true,
-      "signalReason": "reservado a incidencia territorial",
-      "incidenceReason": "anclaje directo + tema operativo/local",
+      "view": "SEÑAL",
+      "incidenceEligible": false,
+      "signalReason": "movimiento informativo / cobertura / diversidad de fuentes",
+      "incidenceReason": null,
       "territory": {
         "version": "2.0",
         "primary": "San Patricio del Chañar",
@@ -3435,93 +3443,6 @@
       }
     },
     {
-      "eventId": "CHA-4861a09c8ec3",
-      "title": "Parque Industrial Capital de Neuquén: María Pasqualini detalló el plan de empleo y confirmó la fecha clave para las inscripciones",
-      "publishedAt": "2026-10-11T13:32:06+00:00",
-      "firstSeen": "2026-10-11T15:54:48.568218+00:00",
-      "lastSeen": "2026-10-11T13:32:06+00:00",
-      "relevance": 3,
-      "relevanceLabel": "DIRECTA",
-      "incidenceLabel": "DIRECTA EN CHANAR",
-      "topic": "SERVICIOS",
-      "movement": 60,
-      "coverage": 1,
-      "sourceCount": 1,
-      "directSourceCount": 1,
-      "territorialAnchors": [
-        "parque industrial"
-      ],
-      "sources": [
-        "Diario Río Negro"
-      ],
-      "evidenceUrl": "https://www.rionegro.com.ar/municipales/parque-industrial-capital-de-neuquen-maria-pasqualini-detallo-el-plan-de-empleo-y-confirmo-la-fecha-clave-para-las-inscripciones-4755375/",
-      "items": [
-        {
-          "title": "Parque Industrial Capital de Neuquén: María Pasqualini detalló el plan de empleo y confirmó la fecha clave para las inscripciones",
-          "url": "https://www.rionegro.com.ar/municipales/parque-industrial-capital-de-neuquen-maria-pasqualini-detallo-el-plan-de-empleo-y-confirmo-la-fecha-clave-para-las-inscripciones-4755375/",
-          "publishedAt": "2026-10-11T13:32:06+00:00",
-          "published": "2026-10-11T13:32:06+00:00",
-          "description": "",
-          "source": "Diario Río Negro",
-          "sourceType": "MEDIO REGIONAL",
-          "sourceUrl": "https://www.rionegro.com.ar/",
-          "collection": "DIRECTA",
-          "query": "https://www.rionegro.com.ar/feed/",
-          "relevance": 3,
-          "relevanceLabel": "DIRECTA",
-          "firstSeen": "2026-10-11T15:54:48.568218+00:00",
-          "isNew": true,
-          "titleKey": "parque industrial capital maria pasqualini detallo plan empleo confirmo fecha clave inscripciones",
-          "evidenceUrl": "https://www.rionegro.com.ar/municipales/parque-industrial-capital-de-neuquen-maria-pasqualini-detallo-el-plan-de-empleo-y-confirmo-la-fecha-clave-para-las-inscripciones-4755375/",
-          "sourcePriority": 2
-        }
-      ],
-      "lifecycle": "EMERGENTE",
-      "movementDelta": -1,
-      "previousCoverage": 2,
-      "newSources": [
-        "Diario Río Negro"
-      ],
-      "sourceDiversity": 1,
-      "memoryMatched": true,
-      "isNew": false,
-      "view": "INCIDENCIA",
-      "incidenceEligible": true,
-      "signalReason": "reservado a incidencia territorial",
-      "incidenceReason": "anclaje directo + tema operativo/local",
-      "territory": {
-        "version": "2.0",
-        "primary": "San Patricio del Chañar",
-        "nodes": [
-          "San Patricio del Chañar",
-          "Parque Industrial"
-        ],
-        "sectors": [
-          "Parque Industrial"
-        ],
-        "barrios": [],
-        "microzones": [],
-        "corridors": [],
-        "institutions": [],
-        "services": [],
-        "spaces": [],
-        "production": [],
-        "path": "San Patricio del Chañar → Parque Industrial",
-        "evidence": [
-          {
-            "node": "San Patricio del Chañar",
-            "level": "localidad",
-            "evidence": "DIRECTA"
-          },
-          {
-            "node": "Parque Industrial",
-            "level": "sector",
-            "evidence": "TEXTUAL"
-          }
-        ]
-      }
-    },
-    {
       "eventId": "CHA-a02b58a0eb75",
       "title": "Neuquén capital presentó un nuevo Parque Industrial de mil hectáreas con beneficios fiscales y precio promocional de tierras. – Tuit 90.5 -Vaca Muerta - tuitvacamuerta.com",
       "publishedAt": "2026-10-09T00:28:13+00:00",
@@ -3531,7 +3452,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SERVICIOS",
-      "movement": 60,
+      "movement": 59,
       "coverage": 2,
       "sourceCount": 2,
       "directSourceCount": 0,
@@ -3583,13 +3504,10 @@
           "sourcePriority": 3
         }
       ],
-      "lifecycle": "ACTIVO",
-      "movementDelta": 44,
-      "previousCoverage": 1,
-      "newSources": [
-        "tuitvacamuerta.com",
-        "Lmneuquen.com"
-      ],
+      "lifecycle": "SOSTENIDO",
+      "movementDelta": -1,
+      "previousCoverage": 2,
+      "newSources": [],
       "sourceDiversity": 2,
       "memoryMatched": true,
       "isNew": false,
@@ -3630,6 +3548,107 @@
       }
     },
     {
+      "eventId": "CHA-161a9242d473",
+      "title": "Tras escapar de una situación de violencia, la joven tucumana regresó a San Patricio del Chañar - Chañar Digital",
+      "publishedAt": "2026-10-09T02:15:39+00:00",
+      "firstSeen": "2026-10-09T05:35:46.298310+00:00",
+      "lastSeen": "2026-10-09T02:15:39+00:00",
+      "relevance": 3,
+      "relevanceLabel": "DIRECTA",
+      "incidenceLabel": "DIRECTA EN CHANAR",
+      "topic": "SERVICIOS",
+      "movement": 43,
+      "coverage": 2,
+      "sourceCount": 2,
+      "directSourceCount": 0,
+      "territorialAnchors": [
+        "san patricio del chañar",
+        "el chañar"
+      ],
+      "sources": [
+        "Chañar Digital",
+        "Radio UNCo CALF"
+      ],
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOakdMaEZVVjdBRTlaZ21FTFVsd0ZmeWliLUNPNzNFTEtkaUtDeXB3WEtVaExsRm5xUlVZTlZEcHFKRzNFc1RHV3hiemdyVXEzM2Y1REJ0U0JPT0g0NFp1Z0lnTGw1YWFGRkpIek9UcXZKOEZId0NrT3gwdzRCbzA2MWU4MEg0OTQ4YlJuTmViSlJjMS1TT3BSeGd5dkpqSk9wZVBKNkZ0Ujc2MzJzV3IwaFZnNXlOME9WNUxsTkR1cEp6TGxNYVhVcmRSdmlhcmsyaGY5Z0MwYzNmS3otNFBkakJB?oc=5",
+      "items": [
+        {
+          "title": "Tras escapar de una situación de violencia, la joven tucumana regresó a San Patricio del Chañar - Chañar Digital",
+          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOakdMaEZVVjdBRTlaZ21FTFVsd0ZmeWliLUNPNzNFTEtkaUtDeXB3WEtVaExsRm5xUlVZTlZEcHFKRzNFc1RHV3hiemdyVXEzM2Y1REJ0U0JPT0g0NFp1Z0lnTGw1YWFGRkpIek9UcXZKOEZId0NrT3gwdzRCbzA2MWU4MEg0OTQ4YlJuTmViSlJjMS1TT3BSeGd5dkpqSk9wZVBKNkZ0Ujc2MzJzV3IwaFZnNXlOME9WNUxsTkR1cEp6TGxNYVhVcmRSdmlhcmsyaGY5Z0MwYzNmS3otNFBkakJB?oc=5",
+          "publishedAt": "2026-10-09T02:15:39+00:00",
+          "published": "2026-10-09T02:15:39+00:00",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMi4gFBVV95cUxOakdMaEZVVjdBRTlaZ21FTFVsd0ZmeWliLUNPNzNFTEtkaUtDeXB3WEtVaExsRm5xUlVZTlZEcHFKRzNFc1RHV3hiemdyVXEzM2Y1REJ0U0JPT0g0NFp1Z0lnTGw1YWFGRkpIek9UcXZKOEZId0NrT3gwdzRCbzA2MWU4MEg0OTQ4YlJuTmViSlJjMS1TT3BSeGd5dkpqSk9wZVBKNkZ0Ujc2MzJzV3IwaFZnNXlOME9WNUxsTkR1cEp6TGxNYVhVcmRSdmlhcmsyaGY5Z0MwYzNmS3otNFBkakJB?oc=5\" target=\"_blank\">Tras escapar de una situación de violencia, la joven tucumana regresó a San Patricio del Chañar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Chañar Digital</font>",
+          "source": "Chañar Digital",
+          "sourceType": "BUSCADOR / RESPALDO",
+          "sourceUrl": "",
+          "collection": "BUSCADOR",
+          "query": "site:chanardigital.com.ar \"San Patricio del Chañar\"",
+          "relevance": 3,
+          "relevanceLabel": "DIRECTA",
+          "firstSeen": "2026-10-09T05:35:46.298310+00:00",
+          "isNew": false,
+          "titleKey": "tras escapar situacion violencia joven tucumana regreso digital",
+          "evidenceUrl": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOakdMaEZVVjdBRTlaZ21FTFVsd0ZmeWliLUNPNzNFTEtkaUtDeXB3WEtVaExsRm5xUlVZTlZEcHFKRzNFc1RHV3hiemdyVXEzM2Y1REJ0U0JPT0g0NFp1Z0lnTGw1YWFGRkpIek9UcXZKOEZId0NrT3gwdzRCbzA2MWU4MEg0OTQ4YlJuTmViSlJjMS1TT3BSeGd5dkpqSk9wZVBKNkZ0Ujc2MzJzV3IwaFZnNXlOME9WNUxsTkR1cEp6TGxNYVhVcmRSdmlhcmsyaGY5Z0MwYzNmS3otNFBkakJB?oc=5",
+          "sourcePriority": 3
+        },
+        {
+          "title": "\"Nuestro objetivo es revisar cada una de las tumbas y después elaborar un informe\": El EAAF trabaja en el cementerio de San Patricio del Chañar - Radio UNCo CALF",
+          "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQMVd3MzYwV00yWUlkdXZjaVVMQVUzRklOa0NKQ3BkRXMyeHZ0SlIwdy1jNmtoZ0tPaU5IaHNnRmtGUmg2eDBFSHBWV1p2dFdKRFNWNmg1VWdLZ0tNdzVyZTNsaGpoSDZIdFdDSklQSlJlaFIzZHRkMXFvSDNtbXBuZF9EMm9KSVBkb1VwT1Npb2J6V0Vtb2pLUzBVTDZvLVJrYUQ5Sk1CU0Nhb2NleXRHMVhHd3I2aXRwUTY4TjRaYmYtR1NyZUJzbnM3R1hqbWU3LVAydU5EYWJqQVFpWUpwR3FEdnpSb2hUbEVFZ2F2eEhhWTRDRGp0RVR4RVJNcWprdmV5S2FHSW5xQQ?oc=5",
+          "publishedAt": "2026-10-08T14:09:45+00:00",
+          "published": "2026-10-08T14:09:45+00:00",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMiigJBVV95cUxQMVd3MzYwV00yWUlkdXZjaVVMQVUzRklOa0NKQ3BkRXMyeHZ0SlIwdy1jNmtoZ0tPaU5IaHNnRmtGUmg2eDBFSHBWV1p2dFdKRFNWNmg1VWdLZ0tNdzVyZTNsaGpoSDZIdFdDSklQSlJlaFIzZHRkMXFvSDNtbXBuZF9EMm9KSVBkb1VwT1Npb2J6V0Vtb2pLUzBVTDZvLVJrYUQ5Sk1CU0Nhb2NleXRHMVhHd3I2aXRwUTY4TjRaYmYtR1NyZUJzbnM3R1hqbWU3LVAydU5EYWJqQVFpWUpwR3FEdnpSb2hUbEVFZ2F2eEhhWTRDRGp0RVR4RVJNcWprdmV5S2FHSW5xQQ?oc=5\" target=\"_blank\">\"Nuestro objetivo es revisar cada una de las tumbas y después elaborar un informe\": El EAAF trabaja en el cementerio de San Patricio del Chañar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Radio UNCo CALF</font>",
+          "source": "Radio UNCo CALF",
+          "sourceType": "BUSCADOR / RESPALDO",
+          "sourceUrl": "",
+          "collection": "BUSCADOR",
+          "query": "\"San Patricio del Chañar\"",
+          "relevance": 3,
+          "relevanceLabel": "DIRECTA",
+          "firstSeen": "2026-10-08T19:22:47.776409+00:00",
+          "isNew": false,
+          "titleKey": "nuestro objetivo revisar cada tumbas despues elaborar informe eaaf trabaja cementerio radio unco calf",
+          "evidenceUrl": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQMVd3MzYwV00yWUlkdXZjaVVMQVUzRklOa0NKQ3BkRXMyeHZ0SlIwdy1jNmtoZ0tPaU5IaHNnRmtGUmg2eDBFSHBWV1p2dFdKRFNWNmg1VWdLZ0tNdzVyZTNsaGpoSDZIdFdDSklQSlJlaFIzZHRkMXFvSDNtbXBuZF9EMm9KSVBkb1VwT1Npb2J6V0Vtb2pLUzBVTDZvLVJrYUQ5Sk1CU0Nhb2NleXRHMVhHd3I2aXRwUTY4TjRaYmYtR1NyZUJzbnM3R1hqbWU3LVAydU5EYWJqQVFpWUpwR3FEdnpSb2hUbEVFZ2F2eEhhWTRDRGp0RVR4RVJNcWprdmV5S2FHSW5xQQ?oc=5",
+          "sourcePriority": 3
+        }
+      ],
+      "lifecycle": "SOSTENIDO",
+      "movementDelta": -17,
+      "previousCoverage": 1,
+      "newSources": [
+        "Chañar Digital",
+        "Radio UNCo CALF"
+      ],
+      "sourceDiversity": 2,
+      "memoryMatched": true,
+      "isNew": false,
+      "view": "INCIDENCIA",
+      "incidenceEligible": true,
+      "signalReason": "reservado a incidencia territorial",
+      "incidenceReason": "anclaje directo + tema operativo/local",
+      "territory": {
+        "version": "2.0",
+        "primary": "San Patricio del Chañar",
+        "nodes": [
+          "San Patricio del Chañar"
+        ],
+        "sectors": [],
+        "barrios": [],
+        "microzones": [],
+        "corridors": [],
+        "institutions": [],
+        "services": [],
+        "spaces": [],
+        "production": [],
+        "path": "San Patricio del Chañar",
+        "evidence": [
+          {
+            "node": "San Patricio del Chañar",
+            "level": "localidad",
+            "evidence": "DIRECTA"
+          }
+        ]
+      }
+    },
+    {
       "eventId": "CHA-4e28c8319ee6",
       "title": "San Patricio del Chañar proyecta 10 viviendas nuevas y una red de cloacas para 340 lotes - Neuquén News",
       "publishedAt": "2026-10-06T14:21:00+00:00",
@@ -3639,7 +3658,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SERVICIOS",
-      "movement": 28,
+      "movement": 27,
       "coverage": 1,
       "sourceCount": 1,
       "directSourceCount": 0,
@@ -3672,15 +3691,15 @@
           "sourcePriority": 3
         }
       ],
-      "lifecycle": "ACTIVO",
-      "movementDelta": 0,
-      "previousCoverage": 0,
+      "lifecycle": "EN DESCENSO",
+      "movementDelta": 11,
+      "previousCoverage": 1,
       "newSources": [
         "Neuquén News"
       ],
       "sourceDiversity": 1,
-      "memoryMatched": false,
-      "isNew": true,
+      "memoryMatched": true,
+      "isNew": false,
       "view": "INCIDENCIA",
       "incidenceEligible": true,
       "signalReason": "reservado a incidencia territorial",
@@ -4174,10 +4193,10 @@
   ],
   "items": [
     {
-      "title": "Servicio a la comunidad: CALF anunció cortes de luz para este lunes 12 de octubre en Neuquén",
-      "url": "https://www.rionegro.com.ar/servicios/servicio-a-la-comunidad-calf-anuncio-cortes-de-luz-para-este-lunes-12-de-octubre-en-neuquen-4755457/",
-      "publishedAt": "2026-10-11T15:07:52+00:00",
-      "published": "2026-10-11T15:07:52+00:00",
+      "title": "Neuquén festeja la diversidad cultural este lunes 12 de Octubre",
+      "url": "https://www.rionegro.com.ar/sociedad/neuquen-festeja-la-diversidad-cultural-este-lunes-12-de-octubre-4755654/",
+      "publishedAt": "2026-10-11T19:06:37+00:00",
+      "published": "2026-10-11T19:06:37+00:00",
       "description": "",
       "source": "Diario Río Negro",
       "sourceType": "MEDIO REGIONAL",
@@ -4186,30 +4205,30 @@
       "query": "https://www.rionegro.com.ar/feed/",
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
-      "firstSeen": "2026-10-11T15:54:48.568218+00:00",
+      "firstSeen": "2026-10-11T20:06:38.833273+00:00",
       "isNew": true,
-      "titleKey": "servicio comunidad calf anuncio cortes luz este lunes octubre",
-      "evidenceUrl": "https://www.rionegro.com.ar/servicios/servicio-a-la-comunidad-calf-anuncio-cortes-de-luz-para-este-lunes-12-de-octubre-en-neuquen-4755457/",
+      "titleKey": "festeja diversidad cultural este lunes octubre",
+      "evidenceUrl": "https://www.rionegro.com.ar/sociedad/neuquen-festeja-la-diversidad-cultural-este-lunes-12-de-octubre-4755654/",
       "sourcePriority": 2
     },
     {
-      "title": "Parque Industrial Capital de Neuquén: María Pasqualini detalló el plan de empleo y confirmó la fecha clave para las inscripciones",
-      "url": "https://www.rionegro.com.ar/municipales/parque-industrial-capital-de-neuquen-maria-pasqualini-detallo-el-plan-de-empleo-y-confirmo-la-fecha-clave-para-las-inscripciones-4755375/",
-      "publishedAt": "2026-10-11T13:32:06+00:00",
-      "published": "2026-10-11T13:32:06+00:00",
-      "description": "",
-      "source": "Diario Río Negro",
-      "sourceType": "MEDIO REGIONAL",
-      "sourceUrl": "https://www.rionegro.com.ar/",
-      "collection": "DIRECTA",
-      "query": "https://www.rionegro.com.ar/feed/",
+      "title": "San Patricio del Chañar: demoraron a un hombre con pedido de captura vigente - Chañar Digital",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPUm5ORTV2YlE5dE1qWUVvUEowUE01bnY4cUc3NDk3MGlDSzNRY0I5Q2JDQkVwbktueTU5LWRWdlFhZjUwS2M4UExKN2M3LUxNcDU4dEVpZUpfdUQyM3ZVMmdFNWFYb29QbVJmaXZZeVQ3LWt3MXJKMUl2RkFaZl9oNnI2eExoa1JpWEFNLUxEUGhvZTZtTUx3eUVCeUNkb1BNX3lPeVZhWFc4cWhZMHV0V29FcEphRDFrWmlfdjlIMG9ESzYxNi1yYQ?oc=5",
+      "publishedAt": "2026-10-11T15:51:38+00:00",
+      "published": "2026-10-11T15:51:38+00:00",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxPUm5ORTV2YlE5dE1qWUVvUEowUE01bnY4cUc3NDk3MGlDSzNRY0I5Q2JDQkVwbktueTU5LWRWdlFhZjUwS2M4UExKN2M3LUxNcDU4dEVpZUpfdUQyM3ZVMmdFNWFYb29QbVJmaXZZeVQ3LWt3MXJKMUl2RkFaZl9oNnI2eExoa1JpWEFNLUxEUGhvZTZtTUx3eUVCeUNkb1BNX3lPeVZhWFc4cWhZMHV0V29FcEphRDFrWmlfdjlIMG9ESzYxNi1yYQ?oc=5\" target=\"_blank\">San Patricio del Chañar: demoraron a un hombre con pedido de captura vigente</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Chañar Digital</font>",
+      "source": "Chañar Digital",
+      "sourceType": "BUSCADOR / RESPALDO",
+      "sourceUrl": "",
+      "collection": "BUSCADOR",
+      "query": "site:chanardigital.com.ar \"San Patricio del Chañar\"",
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
-      "firstSeen": "2026-10-11T15:54:48.568218+00:00",
+      "firstSeen": "2026-10-11T20:06:38.833273+00:00",
       "isNew": true,
-      "titleKey": "parque industrial capital maria pasqualini detallo plan empleo confirmo fecha clave inscripciones",
-      "evidenceUrl": "https://www.rionegro.com.ar/municipales/parque-industrial-capital-de-neuquen-maria-pasqualini-detallo-el-plan-de-empleo-y-confirmo-la-fecha-clave-para-las-inscripciones-4755375/",
-      "sourcePriority": 2
+      "titleKey": "demoraron hombre pedido captura vigente digital",
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPUm5ORTV2YlE5dE1qWUVvUEowUE01bnY4cUc3NDk3MGlDSzNRY0I5Q2JDQkVwbktueTU5LWRWdlFhZjUwS2M4UExKN2M3LUxNcDU4dEVpZUpfdUQyM3ZVMmdFNWFYb29QbVJmaXZZeVQ3LWt3MXJKMUl2RkFaZl9oNnI2eExoa1JpWEFNLUxEUGhvZTZtTUx3eUVCeUNkb1BNX3lPeVZhWFc4cWhZMHV0V29FcEphRDFrWmlfdjlIMG9ESzYxNi1yYQ?oc=5",
+      "sourcePriority": 3
     },
     {
       "title": "San Patricio del Chañar tendrá un Centro Deportivo Comunitario para 400 personas - Alerta Digital",
@@ -4784,7 +4803,7 @@
   ],
   "territorialGraph": {
     "version": "2.0",
-    "generatedAt": "2026-10-11T15:55:16.447090+00:00",
+    "generatedAt": "2026-10-11T20:06:52.168093+00:00",
     "root": "spc",
     "rule": "evidence-first",
     "levels": [
@@ -5020,7 +5039,7 @@
         "aliases": [
           "parque industrial"
         ],
-        "eventCount": 2
+        "eventCount": 1
       },
       {
         "id": "loteo-social",
@@ -5319,13 +5338,6 @@
     ],
     "edges": [
       {
-        "from": "parque-industrial",
-        "to": "spc",
-        "relation": "COOCURRENCIA_TEXTUAL",
-        "eventCount": 2,
-        "evidence": "menciones de ambos nodos dentro del mismo hecho"
-      },
-      {
         "from": "12-octubre",
         "to": "spc",
         "relation": "COOCURRENCIA_TEXTUAL",
@@ -5352,23 +5364,29 @@
         "relation": "COOCURRENCIA_TEXTUAL",
         "eventCount": 1,
         "evidence": "menciones de ambos nodos dentro del mismo hecho"
+      },
+      {
+        "from": "parque-industrial",
+        "to": "spc",
+        "relation": "COOCURRENCIA_TEXTUAL",
+        "eventCount": 1,
+        "evidence": "menciones de ambos nodos dentro del mismo hecho"
       }
     ],
     "eventNodes": {
       "CHA-e050fe46850f": [
         "spc"
       ],
-      "CHA-45910283caaf": [
+      "CHA-38bcb6f2aec6": [
         "spc",
         "12-octubre"
-      ],
-      "CHA-4861a09c8ec3": [
-        "spc",
-        "parque-industrial"
       ],
       "CHA-a02b58a0eb75": [
         "spc",
         "parque-industrial"
+      ],
+      "CHA-161a9242d473": [
+        "spc"
       ],
       "CHA-4e28c8319ee6": [
         "spc"
@@ -5407,7 +5425,7 @@
       "eventsLinked": 9,
       "eventsWithMicrozones": 0,
       "eventsWithBarrios": 1,
-      "eventsWithSectors": 2,
+      "eventsWithSectors": 1,
       "levelActivity": {
         "localidad": 1,
         "microregion": 0,
@@ -5424,16 +5442,16 @@
   },
   "audit": {
     "version": "1.0",
-    "updatedAt": "2026-10-11T15:55:16.492491+00:00",
+    "updatedAt": "2026-10-11T20:06:52.211240+00:00",
     "rule": "fact != coverage; territory requires textual evidence",
     "facts": 9,
     "coverage": 40,
     "coveragePerFact": 4.44,
     "directAnchorFacts": 9,
     "directAnchorPct": 100.0,
-    "territorySpecificFacts": 5,
-    "territorySpecificPct": 55.6,
-    "averageSourcesPerFact": 2.0,
+    "territorySpecificFacts": 4,
+    "territorySpecificPct": 44.4,
+    "averageSourcesPerFact": 2.11,
     "activeTerritorialNodes": 6,
     "failedSources": 10,
     "acceptedWithoutLocalEvidence": 1,
