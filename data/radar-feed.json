@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-12T21:50:29.911963+00:00",
+  "updatedAt": "2026-10-13T02:56:18.843117+00:00",
   "window": "14 días",
   "purpose": "Detectar qué se está moviendo en San Patricio del Chañar y mostrar de dónde surge cada señal.",
   "architecture": "contrato universal de procedencia + fuentes profesionales + adaptadores específicos + validación semántica + temporalidad + evidencia editorial separada",
@@ -49,7 +49,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://chanardigital.com.ar/",
-      "lastFetch": "2026-10-12T21:49:56.607978+00:00",
+      "lastFetch": "2026-10-13T02:55:55.768688+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -65,7 +65,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.radiomia.com.ar/",
-      "lastFetch": "2026-10-12T21:49:57.535757+00:00",
+      "lastFetch": "2026-10-13T02:55:56.868714+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -80,7 +80,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://tuitvacamuerta.com/",
-      "lastFetch": "2026-10-12T21:49:59.074580+00:00",
+      "lastFetch": "2026-10-13T02:55:58.452164+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -95,7 +95,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.vacamuertanews.com/",
-      "lastFetch": "2026-10-12T21:49:59.485885+00:00",
+      "lastFetch": "2026-10-13T02:55:59.244999+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -111,7 +111,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.neuqueninforma.gob.ar/",
-      "lastFetch": "2026-10-12T21:50:00.609735+00:00",
+      "lastFetch": "2026-10-13T02:56:02.158882+00:00",
       "success": false,
       "attempted": 3,
       "failures": [
@@ -128,7 +128,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://sanpatricio.gob.ar/",
-      "lastFetch": "2026-10-12T21:50:15.653126+00:00",
+      "lastFetch": "2026-10-13T02:56:03.386030+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -143,7 +143,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://boletinoficial.neuquen.gov.ar/",
-      "lastFetch": "2026-10-12T21:50:16.605572+00:00",
+      "lastFetch": "2026-10-13T02:56:04.561605+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -158,7 +158,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.lmneuquen.com/",
-      "lastFetch": "2026-10-12T21:50:16.829341+00:00",
+      "lastFetch": "2026-10-13T02:56:04.832604+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -171,17 +171,17 @@
     {
       "name": "Diario Río Negro",
       "type": "MEDIO REGIONAL",
-      "mode": "SIN RESPUESTA",
-      "signals": 0,
+      "mode": "RSS DIRECTO",
+      "signals": 1,
       "url": "https://www.rionegro.com.ar/",
-      "lastFetch": "2026-10-12T21:50:18.895704+00:00",
+      "lastFetch": "2026-10-13T02:56:07.411358+00:00",
       "success": true,
       "attempted": 2,
       "failures": [
         "WEB:AttributeError"
       ],
       "directAvailability": "available",
-      "freshnessHours": null
+      "freshnessHours": 3.9
     },
     {
       "name": "Mejor Informado",
@@ -189,7 +189,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.mejorinformado.com/",
-      "lastFetch": "2026-10-12T21:50:19.337318+00:00",
+      "lastFetch": "2026-10-13T02:56:08.701462+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -205,7 +205,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.diariamenteneuquen.com/",
-      "lastFetch": "2026-10-12T21:50:19.953400+00:00",
+      "lastFetch": "2026-10-13T02:56:09.688940+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -602,10 +602,10 @@
       "group": "REGIONAL",
       "role": "medio regional",
       "url": "https://www.rionegro.com.ar/",
-      "signals": 3,
-      "directSignals": 3,
+      "signals": 4,
+      "directSignals": 4,
       "anchoredSignals": 0,
-      "lastSeen": "2026-10-08T23:00:17+00:00",
+      "lastSeen": "2026-10-12T23:03:32+00:00",
       "status": "CON SEÑALES",
       "note": "ausencia de señales no equivale a ausencia del hecho"
     },
@@ -724,6 +724,11 @@
     },
     {
       "term": "centro de salud",
+      "hits": 1,
+      "direct": 1
+    },
+    {
+      "term": "12 de octubre",
       "hits": 1,
       "direct": 1
     },
@@ -936,11 +941,6 @@
       "term": "128 viviendas",
       "hits": 0,
       "direct": 0
-    },
-    {
-      "term": "12 de octubre",
-      "hits": 0,
-      "direct": 0
     }
   ],
   "precisionAudit": {
@@ -1057,12 +1057,13 @@
         "source": "Diario Río Negro",
         "group": "REGIONAL",
         "role": "medio regional",
-        "accepted": 1,
-        "direct": 1,
+        "accepted": 2,
+        "direct": 2,
         "anchored": 0,
         "falsePositives": 0,
         "falsePositiveTypes": [],
         "topics": [
+          "PRODUCCIÓN",
           "SERVICIOS"
         ]
       },
@@ -1431,6 +1432,17 @@
           "san patricio del chañar",
           "el chañar",
           "epet 26"
+        ]
+      },
+      {
+        "source": "Diario Río Negro",
+        "topic": "PRODUCCIÓN",
+        "accepted": 1,
+        "direct": 1,
+        "anchored": 0,
+        "falsePositives": 0,
+        "territorialTerms": [
+          "12 de octubre"
         ]
       },
       {
@@ -1839,8 +1851,8 @@
       },
       {
         "term": "12 de octubre",
-        "acceptedHits": 0,
-        "directHits": 0,
+        "acceptedHits": 1,
+        "directHits": 1,
         "rejectedTitleHits": 0,
         "territorialStrength": "FUERTE"
       },
@@ -1871,12 +1883,12 @@
     "interpretation": "auditoría sobre eventos aceptados; la próxima capa debe instrumentar rechazos antes del clustering"
   },
   "stats": {
-    "total": 30,
-    "direct": 30,
+    "total": 31,
+    "direct": 31,
     "regional": 0,
     "new": 1,
     "sources": 15,
-    "directSignals": 0,
+    "directSignals": 1,
     "localDirectSignals": 0,
     "radioDirectSignals": 0,
     "precisionRule": "evidence-first",
@@ -1889,7 +1901,7 @@
       "forecastGustKmh": 30.0,
       "forecastWindDirection": "NE",
       "forecastTemperatureC": 18.0,
-      "retrievedAt": "2026-10-12T21:49:54.466006+00:00",
+      "retrievedAt": "2026-10-13T02:55:53.289781+00:00",
       "source": "AIC",
       "sourceTier": "primary",
       "sourceUrl": "https://www.aic.gob.ar/sitio/home?a=1015&z=1967225803",
@@ -1917,9 +1929,9 @@
       ],
       "currentProgrammedMaxM3s": 400,
       "currentProgrammedMinM3s": 380,
-      "programDate": "2026-10-13",
-      "tableDate": "2026-10-12",
-      "retrievedAt": "2026-10-12T21:49:54.466006+00:00",
+      "programDate": "2026-10-14",
+      "tableDate": "2026-10-13",
+      "retrievedAt": "2026-10-13T02:55:53.289781+00:00",
       "source": "AIC",
       "sourceTier": "primary",
       "sourceUrl": "https://www.aic.gob.ar/sitio/caudales",
@@ -1939,17 +1951,17 @@
         "url": "https://www.aic.gob.ar/sitio/caudales"
       }
     ],
-    "updatedAt": "2026-10-12T21:49:54.466006+00:00"
+    "updatedAt": "2026-10-13T02:55:53.289781+00:00"
   },
   "operational": {
-    "updatedAt": "2026-10-12T21:49:54.466006+00:00",
+    "updatedAt": "2026-10-13T02:55:53.289781+00:00",
     "route7": {
       "source": "Dirección Provincial de Vialidad",
       "sourceTier": "primary",
       "sourceUrl": "https://www.dpvneuquen.gov.ar/",
       "semanticState": null,
       "publicationState": "source_reachable_no_current_machine_readable_state",
-      "retrievedAt": "2026-10-12T21:49:54.466006+00:00",
+      "retrievedAt": "2026-10-13T02:55:53.289781+00:00",
       "evidence": {
         "route7Mention": true,
         "route8Mention": false
@@ -1961,7 +1973,7 @@
       "sourceUrl": "https://www.dpvneuquen.gov.ar/",
       "semanticState": null,
       "publicationState": "source_reachable_no_current_machine_readable_state",
-      "retrievedAt": "2026-10-12T21:49:54.466006+00:00",
+      "retrievedAt": "2026-10-13T02:55:53.289781+00:00",
       "evidence": {
         "route7Mention": true,
         "route8Mention": false
@@ -1975,7 +1987,7 @@
       "eventType": null,
       "detail": null,
       "publicationState": "source_reachable_no_specific_local_notice",
-      "retrievedAt": "2026-10-12T21:49:54.466006+00:00"
+      "retrievedAt": "2026-10-13T02:55:53.289781+00:00"
     },
     "water": {
       "source": "EPAS",
@@ -1985,7 +1997,7 @@
       "eventType": null,
       "detail": null,
       "publicationState": "source_reachable_no_specific_local_notice",
-      "retrievedAt": "2026-10-12T21:49:54.466006+00:00"
+      "retrievedAt": "2026-10-13T02:55:53.289781+00:00"
     },
     "sources": [
       {
@@ -2395,11 +2407,11 @@
     {
       "id": "CONVERSACIÓN",
       "label": "Conversación general",
-      "signal": 8,
+      "signal": 9,
       "status": "cobertura editorial",
-      "freshnessHours": 30.0,
+      "freshnessHours": 3.9,
       "mode": "evidencia editorial",
-      "evidenceCount": 8,
+      "evidenceCount": 9,
       "sourceContract": {
         "primary": "medios locales identificables",
         "secondary": "fuentes institucionales competentes",
@@ -2477,7 +2489,7 @@
         "sourceUrl": "https://www.dpvneuquen.gov.ar/",
         "semanticState": null,
         "publicationState": "source_reachable_no_current_machine_readable_state",
-        "retrievedAt": "2026-10-12T21:49:54.466006+00:00",
+        "retrievedAt": "2026-10-13T02:55:53.289781+00:00",
         "evidence": {
           "route7Mention": true,
           "route8Mention": false
@@ -2529,7 +2541,7 @@
         "sourceUrl": "https://www.dpvneuquen.gov.ar/",
         "semanticState": null,
         "publicationState": "source_reachable_no_current_machine_readable_state",
-        "retrievedAt": "2026-10-12T21:49:54.466006+00:00",
+        "retrievedAt": "2026-10-13T02:55:53.289781+00:00",
         "evidence": {
           "route7Mention": true,
           "route8Mention": false
@@ -2629,7 +2641,7 @@
         "eventType": null,
         "detail": null,
         "publicationState": "source_reachable_no_specific_local_notice",
-        "retrievedAt": "2026-10-12T21:49:54.466006+00:00"
+        "retrievedAt": "2026-10-13T02:55:53.289781+00:00"
       }
     },
     {
@@ -2637,7 +2649,7 @@
       "label": "Agua / abastecimiento",
       "signal": 1,
       "status": "evento hídrico",
-      "freshnessHours": 151.5,
+      "freshnessHours": 156.6,
       "mode": "evidencia editorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -2679,17 +2691,17 @@
         "eventType": null,
         "detail": null,
         "publicationState": "source_reachable_no_specific_local_notice",
-        "retrievedAt": "2026-10-12T21:49:54.466006+00:00"
+        "retrievedAt": "2026-10-13T02:55:53.289781+00:00"
       }
     },
     {
       "id": "SERVICIOS",
       "label": "Servicios e infraestructura",
-      "signal": 1,
+      "signal": 2,
       "status": "evidencia de servicio",
-      "freshnessHours": 151.5,
+      "freshnessHours": 3.9,
       "mode": "evidencia editorial",
-      "evidenceCount": 1,
+      "evidenceCount": 2,
       "sourceContract": {
         "primary": "Municipalidad de San Patricio del Chañar",
         "secondary": "organismo provincial competente según servicio",
@@ -2727,7 +2739,7 @@
       "label": "Salud",
       "signal": 1,
       "status": "evidencia sanitaria",
-      "freshnessHours": 149.7,
+      "freshnessHours": 154.8,
       "mode": "evidencia editorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -2767,7 +2779,7 @@
       "label": "Educación",
       "signal": 2,
       "status": "evidencia educativa",
-      "freshnessHours": 382.8,
+      "freshnessHours": 387.9,
       "mode": "evidencia editorial",
       "evidenceCount": 2,
       "sourceContract": {
@@ -2887,7 +2899,7 @@
       "label": "Territorio / microzonas",
       "signal": 1,
       "status": "hecho territorial",
-      "freshnessHours": 93.4,
+      "freshnessHours": 98.5,
       "mode": "evidencia territorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -2944,7 +2956,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://chanardigital.com.ar/",
-        "lastFetch": "2026-10-12T21:49:56.607978+00:00",
+        "lastFetch": "2026-10-13T02:55:55.768688+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -2960,7 +2972,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.radiomia.com.ar/",
-        "lastFetch": "2026-10-12T21:49:57.535757+00:00",
+        "lastFetch": "2026-10-13T02:55:56.868714+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -2975,7 +2987,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://tuitvacamuerta.com/",
-        "lastFetch": "2026-10-12T21:49:59.074580+00:00",
+        "lastFetch": "2026-10-13T02:55:58.452164+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -2990,7 +3002,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.vacamuertanews.com/",
-        "lastFetch": "2026-10-12T21:49:59.485885+00:00",
+        "lastFetch": "2026-10-13T02:55:59.244999+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3006,7 +3018,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.neuqueninforma.gob.ar/",
-        "lastFetch": "2026-10-12T21:50:00.609735+00:00",
+        "lastFetch": "2026-10-13T02:56:02.158882+00:00",
         "success": false,
         "attempted": 3,
         "failures": [
@@ -3023,7 +3035,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://sanpatricio.gob.ar/",
-        "lastFetch": "2026-10-12T21:50:15.653126+00:00",
+        "lastFetch": "2026-10-13T02:56:03.386030+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -3038,7 +3050,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://boletinoficial.neuquen.gov.ar/",
-        "lastFetch": "2026-10-12T21:50:16.605572+00:00",
+        "lastFetch": "2026-10-13T02:56:04.561605+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -3053,7 +3065,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.lmneuquen.com/",
-        "lastFetch": "2026-10-12T21:50:16.829341+00:00",
+        "lastFetch": "2026-10-13T02:56:04.832604+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3066,17 +3078,17 @@
       {
         "name": "Diario Río Negro",
         "type": "MEDIO REGIONAL",
-        "mode": "SIN RESPUESTA",
-        "signals": 0,
+        "mode": "RSS DIRECTO",
+        "signals": 1,
         "url": "https://www.rionegro.com.ar/",
-        "lastFetch": "2026-10-12T21:50:18.895704+00:00",
+        "lastFetch": "2026-10-13T02:56:07.411358+00:00",
         "success": true,
         "attempted": 2,
         "failures": [
           "WEB:AttributeError"
         ],
         "directAvailability": "available",
-        "freshnessHours": null
+        "freshnessHours": 3.9
       },
       {
         "name": "Mejor Informado",
@@ -3084,7 +3096,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.mejorinformado.com/",
-        "lastFetch": "2026-10-12T21:50:19.337318+00:00",
+        "lastFetch": "2026-10-13T02:56:08.701462+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3100,7 +3112,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.diariamenteneuquen.com/",
-        "lastFetch": "2026-10-12T21:50:19.953400+00:00",
+        "lastFetch": "2026-10-13T02:56:09.688940+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3127,7 +3139,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SERVICIOS",
-      "movement": 82,
+      "movement": 81,
       "coverage": 24,
       "sourceCount": 8,
       "directSourceCount": 0,
@@ -3150,8 +3162,8 @@
         {
           "title": "San Patricio del Chañar tendrá un Centro Deportivo Comunitario para 400 personas - Alerta Digital",
           "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPNmNMY3pkSDZWMVN0cE9WNms3WW9JZWFJX3YxcGR0ajNKQ1BPNWlKVGRNYWVOMXZueWZDaTFUMzIzeW1IZkl1U0J3R052dlN4SHF6UXphc3JvTzY1NlFrLUxMWDlBOVNRZGlOVTZsTnQ2QlVXYXhVMGlzMTY1MUJ2aXhRb25ucG9QUlFBMTNHbG1vNFl6MWdOYUtXNWpTVm1XM2hXZTZnd1Z6dkhSZzl1VlZTQm9UalpBejdJQW81bWhrWnJPMjM0NTFRc19laFp0VlHSAdcBQVVfeXFMTU93UHhsaTZkNjVobTlRWWdJalJLYXFNMjZoQkFsNEp2RDhsMWtPQnVZc2FKMlE5dnlsWmZndXJSYWtrVWQyUmxFaDloUEowalpvc0o5cUwwYThsRFZXRXVOX1h4WjMyMm4wQlBFLVlVRUxYZURSY3BYdC01NmdSclBubGtWMlZndl9TLUduVjdtMVFoeXBIUXFvUEVrTG1iTlpvMUV2UU93MWRFdkt3X0UxMk9HbFV3RWVkWnBORF8xZ0pGWFFwTGlJWUNTY2hmQU9fZGVXRGs?oc=5",
-          "publishedAt": "2026-10-10T03:24:23+00:00",
-          "published": "2026-10-10T03:24:23+00:00",
+          "publishedAt": "2026-10-10T03:31:45+00:00",
+          "published": "2026-10-10T03:31:45+00:00",
           "description": "<a href=\"https://news.google.com/rss/articles/CBMi0gFBVV95cUxPNmNMY3pkSDZWMVN0cE9WNms3WW9JZWFJX3YxcGR0ajNKQ1BPNWlKVGRNYWVOMXZueWZDaTFUMzIzeW1IZkl1U0J3R052dlN4SHF6UXphc3JvTzY1NlFrLUxMWDlBOVNRZGlOVTZsTnQ2QlVXYXhVMGlzMTY1MUJ2aXhRb25ucG9QUlFBMTNHbG1vNFl6MWdOYUtXNWpTVm1XM2hXZTZnd1Z6dkhSZzl1VlZTQm9UalpBejdJQW81bWhrWnJPMjM0NTFRc19laFp0VlHSAdcBQVVfeXFMTU93UHhsaTZkNjVobTlRWWdJalJLYXFNMjZoQkFsNEp2RDhsMWtPQnVZc2FKMlE5dnlsWmZndXJSYWtrVWQyUmxFaDloUEowalpvc0o5cUwwYThsRFZXRXVOX1h4WjMyMm4wQlBFLVlVRUxYZURSY3BYdC01NmdSclBubGtWMlZndl9TLUduVjdtMVFoeXBIUXFvUEVrTG1iTlpvMUV2UU93MWRFdkt3X0UxMk9HbFV3RWVkWnBORF8xZ0pGWFFwTGlJWUNTY2hmQU9fZGVXRGs?oc=5\" target=\"_blank\">San Patricio del Chañar tendrá un Centro Deportivo Comunitario para 400 personas</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Alerta Digital</font>",
           "source": "Alerta Digital",
           "sourceType": "BUSCADOR / RESPALDO",
@@ -3301,7 +3313,7 @@
         }
       ],
       "lifecycle": "ACTIVO",
-      "movementDelta": -2,
+      "movementDelta": -1,
       "previousCoverage": 24,
       "newSources": [
         "Neuquén News",
@@ -3343,6 +3355,93 @@
       }
     },
     {
+      "eventId": "CHA-f5e496aed68e",
+      "title": "Colores, producción gastronómica y baile en los festejos en Neuquén por el 12 de Octubre",
+      "publishedAt": "2026-10-12T23:03:32+00:00",
+      "firstSeen": "2026-10-13T02:56:18.843117+00:00",
+      "lastSeen": "2026-10-12T23:03:32+00:00",
+      "relevance": 3,
+      "relevanceLabel": "DIRECTA",
+      "incidenceLabel": "DIRECTA EN CHANAR",
+      "topic": "PRODUCCIÓN",
+      "movement": 60,
+      "coverage": 1,
+      "sourceCount": 1,
+      "directSourceCount": 1,
+      "territorialAnchors": [
+        "12 de octubre"
+      ],
+      "sources": [
+        "Diario Río Negro"
+      ],
+      "evidenceUrl": "https://www.rionegro.com.ar/municipales/colores-produccion-gastronomica-y-baile-en-los-festejos-en-neuquen-por-el-12-de-octubre-4756429/",
+      "items": [
+        {
+          "title": "Colores, producción gastronómica y baile en los festejos en Neuquén por el 12 de Octubre",
+          "url": "https://www.rionegro.com.ar/municipales/colores-produccion-gastronomica-y-baile-en-los-festejos-en-neuquen-por-el-12-de-octubre-4756429/",
+          "publishedAt": "2026-10-12T23:03:32+00:00",
+          "published": "2026-10-12T23:03:32+00:00",
+          "description": "",
+          "source": "Diario Río Negro",
+          "sourceType": "MEDIO REGIONAL",
+          "sourceUrl": "https://www.rionegro.com.ar/",
+          "collection": "DIRECTA",
+          "query": "https://www.rionegro.com.ar/feed/",
+          "relevance": 3,
+          "relevanceLabel": "DIRECTA",
+          "firstSeen": "2026-10-13T02:56:18.843117+00:00",
+          "isNew": true,
+          "titleKey": "colores produccion gastronomica baile festejos octubre",
+          "evidenceUrl": "https://www.rionegro.com.ar/municipales/colores-produccion-gastronomica-y-baile-en-los-festejos-en-neuquen-por-el-12-de-octubre-4756429/",
+          "sourcePriority": 2
+        }
+      ],
+      "lifecycle": "EMERGENTE",
+      "movementDelta": 24,
+      "previousCoverage": 2,
+      "newSources": [
+        "Diario Río Negro"
+      ],
+      "sourceDiversity": 1,
+      "memoryMatched": true,
+      "isNew": false,
+      "view": "INCIDENCIA",
+      "incidenceEligible": true,
+      "signalReason": "reservado a incidencia territorial",
+      "incidenceReason": "anclaje directo + tema operativo/local",
+      "territory": {
+        "version": "2.0",
+        "primary": "San Patricio del Chañar",
+        "nodes": [
+          "San Patricio del Chañar",
+          "12 de Octubre"
+        ],
+        "sectors": [],
+        "barrios": [
+          "12 de Octubre"
+        ],
+        "microzones": [],
+        "corridors": [],
+        "institutions": [],
+        "services": [],
+        "spaces": [],
+        "production": [],
+        "path": "San Patricio del Chañar → 12 de Octubre",
+        "evidence": [
+          {
+            "node": "San Patricio del Chañar",
+            "level": "localidad",
+            "evidence": "DIRECTA"
+          },
+          {
+            "node": "12 de Octubre",
+            "level": "barrio",
+            "evidence": "TEXTUAL"
+          }
+        ]
+      }
+    },
+    {
       "eventId": "CHA-161a9242d473",
       "title": "Tras escapar de una situación de violencia, la joven tucumana regresó a San Patricio del Chañar - Chañar Digital",
       "publishedAt": "2026-10-09T02:15:39+00:00",
@@ -3352,7 +3451,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SERVICIOS",
-      "movement": 36,
+      "movement": 35,
       "coverage": 2,
       "sourceCount": 2,
       "directSourceCount": 0,
@@ -3406,10 +3505,9 @@
         }
       ],
       "lifecycle": "SOSTENIDO",
-      "movementDelta": 13,
-      "previousCoverage": 1,
+      "movementDelta": 19,
+      "previousCoverage": 7,
       "newSources": [
-        "Chañar Digital",
         "Radio UNCo CALF"
       ],
       "sourceDiversity": 2,
@@ -3453,7 +3551,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SERVICIOS",
-      "movement": 36,
+      "movement": 34,
       "coverage": 1,
       "sourceCount": 1,
       "directSourceCount": 0,
@@ -3485,7 +3583,7 @@
           "sourcePriority": 3
         }
       ],
-      "lifecycle": "SOSTENIDO",
+      "lifecycle": "RECIENTE",
       "movementDelta": -2,
       "previousCoverage": 1,
       "newSources": [],
@@ -3538,7 +3636,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SALUD",
-      "movement": 21,
+      "movement": 19,
       "coverage": 1,
       "sourceCount": 1,
       "directSourceCount": 0,
@@ -3564,14 +3662,14 @@
           "relevance": 3,
           "relevanceLabel": "DIRECTA",
           "firstSeen": "2026-10-12T21:50:29.911963+00:00",
-          "isNew": true,
+          "isNew": false,
           "titleKey": "zapala suma nuevo centro salud acompañar crecimiento informa",
           "evidenceUrl": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQZ0s5R2pkREVPSTAwVUNpalhFclpUUUp4SXpwSEVfSWttWDFuRXV6RG10bkJDZ3F1aWJKQXhRTkF1NV9rSEpJWUw3TjVJQkhCNUI4MnB1d09JTGJacXptVllETklyd3FfYVFVSHQxSWZ0MnBzcHZ6SXo5Vjd5M1FnX2tmaVdYbDRiSkVNRmpoOUxTU0RybENjNW9IWXFDUFR2N2NpZWtKQUU2TktoWkxBQmdEQVh5M1hyMFhKdVIweURVUWhxZWFENm5WT0lyUWFFRmZmcDNFVdIB3AFBVV95cUxNUHlEazY4dFRjV29qeUJvbjhPd1dIRjk3TkR5VjR4ZGlvYnFQT2JNeG5YR1B0Y01IRlZydl9Ob1k2bVBDRTBtcERLOUZWMVl0TVk2NmswdnZSalFDUVVNMlZmeVZKQTNWemNWaS1xYnZ4ZjZheHNocFRtNll1TUh2X3Q3RDVUZldhaWNWZlBTOE9mcFJyUmp6bU1oQWJYdWx6VVJfM0Y1WDRnV2FyR1lqbU1MVUFkenRDX1h1cnVBYThOWFd6azdLWXlsZE5uYVZWeGtGazJFTC1oaUdK?oc=5",
           "sourcePriority": 3
         }
       ],
       "lifecycle": "RECIENTE",
-      "movementDelta": 5,
+      "movementDelta": 3,
       "previousCoverage": 1,
       "newSources": [
         "Neuquen Informa"
@@ -3617,7 +3715,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SERVICIOS",
-      "movement": 20,
+      "movement": 19,
       "coverage": 1,
       "sourceCount": 1,
       "directSourceCount": 0,
@@ -3650,15 +3748,15 @@
           "sourcePriority": 3
         }
       ],
-      "lifecycle": "EN DESCENSO",
-      "movementDelta": -41,
-      "previousCoverage": 1,
+      "lifecycle": "ACTIVO",
+      "movementDelta": 0,
+      "previousCoverage": 0,
       "newSources": [
         "Neuquén News"
       ],
       "sourceDiversity": 1,
-      "memoryMatched": true,
-      "isNew": false,
+      "memoryMatched": false,
+      "isNew": true,
       "view": "INCIDENCIA",
       "incidenceEligible": true,
       "signalReason": "reservado a incidencia territorial",
@@ -4063,6 +4161,25 @@
   ],
   "items": [
     {
+      "title": "Colores, producción gastronómica y baile en los festejos en Neuquén por el 12 de Octubre",
+      "url": "https://www.rionegro.com.ar/municipales/colores-produccion-gastronomica-y-baile-en-los-festejos-en-neuquen-por-el-12-de-octubre-4756429/",
+      "publishedAt": "2026-10-12T23:03:32+00:00",
+      "published": "2026-10-12T23:03:32+00:00",
+      "description": "",
+      "source": "Diario Río Negro",
+      "sourceType": "MEDIO REGIONAL",
+      "sourceUrl": "https://www.rionegro.com.ar/",
+      "collection": "DIRECTA",
+      "query": "https://www.rionegro.com.ar/feed/",
+      "relevance": 3,
+      "relevanceLabel": "DIRECTA",
+      "firstSeen": "2026-10-13T02:56:18.843117+00:00",
+      "isNew": true,
+      "titleKey": "colores produccion gastronomica baile festejos octubre",
+      "evidenceUrl": "https://www.rionegro.com.ar/municipales/colores-produccion-gastronomica-y-baile-en-los-festejos-en-neuquen-por-el-12-de-octubre-4756429/",
+      "sourcePriority": 2
+    },
+    {
       "title": "San Patricio del Chañar: demoraron a un hombre con pedido de captura vigente - Chañar Digital",
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPUm5ORTV2YlE5dE1qWUVvUEowUE01bnY4cUc3NDk3MGlDSzNRY0I5Q2JDQkVwbktueTU5LWRWdlFhZjUwS2M4UExKN2M3LUxNcDU4dEVpZUpfdUQyM3ZVMmdFNWFYb29QbVJmaXZZeVQ3LWt3MXJKMUl2RkFaZl9oNnI2eExoa1JpWEFNLUxEUGhvZTZtTUx3eUVCeUNkb1BNX3lPeVZhWFc4cWhZMHV0V29FcEphRDFrWmlfdjlIMG9ESzYxNi1yYQ?oc=5",
       "publishedAt": "2026-10-11T15:51:38+00:00",
@@ -4084,8 +4201,8 @@
     {
       "title": "San Patricio del Chañar tendrá un Centro Deportivo Comunitario para 400 personas - Alerta Digital",
       "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPNmNMY3pkSDZWMVN0cE9WNms3WW9JZWFJX3YxcGR0ajNKQ1BPNWlKVGRNYWVOMXZueWZDaTFUMzIzeW1IZkl1U0J3R052dlN4SHF6UXphc3JvTzY1NlFrLUxMWDlBOVNRZGlOVTZsTnQ2QlVXYXhVMGlzMTY1MUJ2aXhRb25ucG9QUlFBMTNHbG1vNFl6MWdOYUtXNWpTVm1XM2hXZTZnd1Z6dkhSZzl1VlZTQm9UalpBejdJQW81bWhrWnJPMjM0NTFRc19laFp0VlHSAdcBQVVfeXFMTU93UHhsaTZkNjVobTlRWWdJalJLYXFNMjZoQkFsNEp2RDhsMWtPQnVZc2FKMlE5dnlsWmZndXJSYWtrVWQyUmxFaDloUEowalpvc0o5cUwwYThsRFZXRXVOX1h4WjMyMm4wQlBFLVlVRUxYZURSY3BYdC01NmdSclBubGtWMlZndl9TLUduVjdtMVFoeXBIUXFvUEVrTG1iTlpvMUV2UU93MWRFdkt3X0UxMk9HbFV3RWVkWnBORF8xZ0pGWFFwTGlJWUNTY2hmQU9fZGVXRGs?oc=5",
-      "publishedAt": "2026-10-10T03:24:23+00:00",
-      "published": "2026-10-10T03:24:23+00:00",
+      "publishedAt": "2026-10-10T03:31:45+00:00",
+      "published": "2026-10-10T03:31:45+00:00",
       "description": "<a href=\"https://news.google.com/rss/articles/CBMi0gFBVV95cUxPNmNMY3pkSDZWMVN0cE9WNms3WW9JZWFJX3YxcGR0ajNKQ1BPNWlKVGRNYWVOMXZueWZDaTFUMzIzeW1IZkl1U0J3R052dlN4SHF6UXphc3JvTzY1NlFrLUxMWDlBOVNRZGlOVTZsTnQ2QlVXYXhVMGlzMTY1MUJ2aXhRb25ucG9QUlFBMTNHbG1vNFl6MWdOYUtXNWpTVm1XM2hXZTZnd1Z6dkhSZzl1VlZTQm9UalpBejdJQW81bWhrWnJPMjM0NTFRc19laFp0VlHSAdcBQVVfeXFMTU93UHhsaTZkNjVobTlRWWdJalJLYXFNMjZoQkFsNEp2RDhsMWtPQnVZc2FKMlE5dnlsWmZndXJSYWtrVWQyUmxFaDloUEowalpvc0o5cUwwYThsRFZXRXVOX1h4WjMyMm4wQlBFLVlVRUxYZURSY3BYdC01NmdSclBubGtWMlZndl9TLUduVjdtMVFoeXBIUXFvUEVrTG1iTlpvMUV2UU93MWRFdkt3X0UxMk9HbFV3RWVkWnBORF8xZ0pGWFFwTGlJWUNTY2hmQU9fZGVXRGs?oc=5\" target=\"_blank\">San Patricio del Chañar tendrá un Centro Deportivo Comunitario para 400 personas</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Alerta Digital</font>",
       "source": "Alerta Digital",
       "sourceType": "BUSCADOR / RESPALDO",
@@ -4376,7 +4493,7 @@
       "sourceType": "BUSCADOR / RESPALDO",
       "sourceUrl": "",
       "collection": "BUSCADOR",
-      "query": "\"San Patricio del Chañar\"",
+      "query": "\"San Patricio del Chañar\" Neuquén",
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "firstSeen": "2026-10-08T05:31:59.281563+00:00",
@@ -4494,7 +4611,7 @@
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "firstSeen": "2026-10-12T21:50:29.911963+00:00",
-      "isNew": true,
+      "isNew": false,
       "titleKey": "zapala suma nuevo centro salud acompañar crecimiento informa",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQZ0s5R2pkREVPSTAwVUNpalhFclpUUUp4SXpwSEVfSWttWDFuRXV6RG10bkJDZ3F1aWJKQXhRTkF1NV9rSEpJWUw3TjVJQkhCNUI4MnB1d09JTGJacXptVllETklyd3FfYVFVSHQxSWZ0MnBzcHZ6SXo5Vjd5M1FnX2tmaVdYbDRiSkVNRmpoOUxTU0RybENjNW9IWXFDUFR2N2NpZWtKQUU2TktoWkxBQmdEQVh5M1hyMFhKdVIweURVUWhxZWFENm5WT0lyUWFFRmZmcDNFVdIB3AFBVV95cUxNUHlEazY4dFRjV29qeUJvbjhPd1dIRjk3TkR5VjR4ZGlvYnFQT2JNeG5YR1B0Y01IRlZydl9Ob1k2bVBDRTBtcERLOUZWMVl0TVk2NmswdnZSalFDUVVNMlZmeVZKQTNWemNWaS1xYnZ4ZjZheHNocFRtNll1TUh2X3Q3RDVUZldhaWNWZlBTOE9mcFJyUmp6bU1oQWJYdWx6VVJfM0Y1WDRnV2FyR1lqbU1MVUFkenRDX1h1cnVBYThOWFd6azdLWXlsZE5uYVZWeGtGazJFTC1oaUdK?oc=5",
       "sourcePriority": 3
@@ -4635,7 +4752,7 @@
   ],
   "territorialGraph": {
     "version": "2.0",
-    "generatedAt": "2026-10-12T21:50:41.879331+00:00",
+    "generatedAt": "2026-10-13T02:56:32.591407+00:00",
     "root": "spc",
     "rule": "evidence-first",
     "levels": [
@@ -4662,7 +4779,7 @@
           "el chañar",
           "el chanar"
         ],
-        "eventCount": 8
+        "eventCount": 9
       },
       {
         "id": "rio-neuquen",
@@ -5000,7 +5117,7 @@
           "barrio 12 de octubre",
           "12 de octubre"
         ],
-        "eventCount": 0
+        "eventCount": 1
       },
       {
         "id": "25-abril",
@@ -5170,6 +5287,13 @@
     ],
     "edges": [
       {
+        "from": "12-octubre",
+        "to": "spc",
+        "relation": "COOCURRENCIA_TEXTUAL",
+        "eventCount": 1,
+        "evidence": "menciones de ambos nodos dentro del mismo hecho"
+      },
+      {
         "from": "cpem-31",
         "to": "spc",
         "relation": "COOCURRENCIA_TEXTUAL",
@@ -5194,6 +5318,10 @@
     "eventNodes": {
       "CHA-e050fe46850f": [
         "spc"
+      ],
+      "CHA-f5e496aed68e": [
+        "spc",
+        "12-octubre"
       ],
       "CHA-161a9242d473": [
         "spc"
@@ -5233,11 +5361,11 @@
     },
     "stats": {
       "nodes": 46,
-      "activeNodes": 4,
-      "edges": 3,
-      "eventsLinked": 8,
+      "activeNodes": 5,
+      "edges": 4,
+      "eventsLinked": 9,
       "eventsWithMicrozones": 0,
-      "eventsWithBarrios": 0,
+      "eventsWithBarrios": 1,
       "eventsWithSectors": 1,
       "levelActivity": {
         "localidad": 1,
@@ -5245,7 +5373,7 @@
         "corredor": 0,
         "microzona": 0,
         "sector": 1,
-        "barrio": 0,
+        "barrio": 1,
         "institucion": 2,
         "servicio": 0,
         "produccion": 0,
@@ -5255,17 +5383,17 @@
   },
   "audit": {
     "version": "1.0",
-    "updatedAt": "2026-10-12T21:50:41.932330+00:00",
+    "updatedAt": "2026-10-13T02:56:32.640727+00:00",
     "rule": "fact != coverage; territory requires textual evidence",
-    "facts": 8,
-    "coverage": 38,
-    "coveragePerFact": 4.75,
-    "directAnchorFacts": 8,
+    "facts": 9,
+    "coverage": 39,
+    "coveragePerFact": 4.33,
+    "directAnchorFacts": 9,
     "directAnchorPct": 100.0,
-    "territorySpecificFacts": 3,
-    "territorySpecificPct": 37.5,
-    "averageSourcesPerFact": 2.12,
-    "activeTerritorialNodes": 4,
+    "territorySpecificFacts": 4,
+    "territorySpecificPct": 44.4,
+    "averageSourcesPerFact": 2.0,
+    "activeTerritorialNodes": 5,
     "failedSources": 10,
     "acceptedWithoutLocalEvidence": 1,
     "examplesAcceptedWithoutLocalEvidence": [
