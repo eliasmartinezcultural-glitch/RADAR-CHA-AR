@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14T01:21:49.835842+00:00",
+  "updatedAt": "2026-10-14T06:36:27.872452+00:00",
   "window": "14 días",
   "purpose": "Detectar qué se está moviendo en San Patricio del Chañar y mostrar de dónde surge cada señal.",
   "architecture": "contrato universal de procedencia + fuentes profesionales + adaptadores específicos + validación semántica + temporalidad + evidencia editorial separada",
@@ -49,7 +49,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://chanardigital.com.ar/",
-      "lastFetch": "2026-10-14T01:21:22.165473+00:00",
+      "lastFetch": "2026-10-14T06:36:10.821864+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -65,7 +65,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.radiomia.com.ar/",
-      "lastFetch": "2026-10-14T01:21:23.082516+00:00",
+      "lastFetch": "2026-10-14T06:36:12.017789+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -80,7 +80,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://tuitvacamuerta.com/",
-      "lastFetch": "2026-10-14T01:21:24.673783+00:00",
+      "lastFetch": "2026-10-14T06:36:13.647088+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -95,7 +95,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.vacamuertanews.com/",
-      "lastFetch": "2026-10-14T01:21:25.011123+00:00",
+      "lastFetch": "2026-10-14T06:36:13.910448+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -111,7 +111,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.neuqueninforma.gob.ar/",
-      "lastFetch": "2026-10-14T01:21:25.964062+00:00",
+      "lastFetch": "2026-10-14T06:36:14.985927+00:00",
       "success": false,
       "attempted": 3,
       "failures": [
@@ -128,7 +128,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://sanpatricio.gob.ar/",
-      "lastFetch": "2026-10-14T01:21:29.093687+00:00",
+      "lastFetch": "2026-10-14T06:36:16.037036+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -143,7 +143,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://boletinoficial.neuquen.gov.ar/",
-      "lastFetch": "2026-10-14T01:21:30.032769+00:00",
+      "lastFetch": "2026-10-14T06:36:17.029370+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -158,7 +158,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.lmneuquen.com/",
-      "lastFetch": "2026-10-14T01:21:30.285397+00:00",
+      "lastFetch": "2026-10-14T06:36:17.249779+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -174,7 +174,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.rionegro.com.ar/",
-      "lastFetch": "2026-10-14T01:21:31.528339+00:00",
+      "lastFetch": "2026-10-14T06:36:18.317970+00:00",
       "success": true,
       "attempted": 2,
       "failures": [
@@ -189,7 +189,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.mejorinformado.com/",
-      "lastFetch": "2026-10-14T01:21:31.891553+00:00",
+      "lastFetch": "2026-10-14T06:36:18.726756+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -205,7 +205,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.diariamenteneuquen.com/",
-      "lastFetch": "2026-10-14T01:21:32.420562+00:00",
+      "lastFetch": "2026-10-14T06:36:19.341009+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -386,8 +386,8 @@
       "group": "LOCAL",
       "role": "medio local",
       "url": "https://chanardigital.com.ar/",
-      "signals": 4,
-      "directSignals": 4,
+      "signals": 3,
+      "directSignals": 3,
       "anchoredSignals": 0,
       "lastSeen": "2026-10-09T23:47:34+00:00",
       "status": "CON SEÑALES",
@@ -718,6 +718,11 @@
       "direct": 17
     },
     {
+      "term": "parque industrial",
+      "hits": 1,
+      "direct": 1
+    },
+    {
       "term": "centro de salud",
       "hits": 1,
       "direct": 1
@@ -809,11 +814,6 @@
     },
     {
       "term": "picada 1",
-      "hits": 0,
-      "direct": 0
-    },
-    {
-      "term": "parque industrial",
       "hits": 0,
       "direct": 0
     },
@@ -1008,8 +1008,8 @@
         "source": "Chañar Digital",
         "group": "LOCAL",
         "role": "medio local",
-        "accepted": 9,
-        "direct": 9,
+        "accepted": 8,
+        "direct": 8,
         "anchored": 0,
         "falsePositives": 0,
         "falsePositiveTypes": [],
@@ -1355,6 +1355,19 @@
         "falsePositives": 0,
         "falsePositiveTypes": [],
         "topics": []
+      },
+      {
+        "source": "tuitvacamuerta.com",
+        "group": "OBSERVADA",
+        "role": "fuente detectada fuera del catálogo",
+        "accepted": 1,
+        "direct": 1,
+        "anchored": 0,
+        "falsePositives": 0,
+        "falsePositiveTypes": [],
+        "topics": [
+          "SERVICIOS"
+        ]
       }
     ],
     "matrix": [
@@ -1385,18 +1398,6 @@
         ]
       },
       {
-        "source": "Chañar Digital",
-        "topic": "SERVICIOS",
-        "accepted": 2,
-        "direct": 2,
-        "anchored": 0,
-        "falsePositives": 0,
-        "territorialTerms": [
-          "san patricio del chañar",
-          "el chañar"
-        ]
-      },
-      {
         "source": "Diario Río Negro",
         "topic": "SERVICIOS",
         "accepted": 2,
@@ -1413,6 +1414,18 @@
         "topic": "SERVICIOS",
         "accepted": 2,
         "direct": 2,
+        "anchored": 0,
+        "falsePositives": 0,
+        "territorialTerms": [
+          "san patricio del chañar",
+          "el chañar"
+        ]
+      },
+      {
+        "source": "Chañar Digital",
+        "topic": "SERVICIOS",
+        "accepted": 1,
+        "direct": 1,
         "anchored": 0,
         "falsePositives": 0,
         "territorialTerms": [
@@ -1515,13 +1528,24 @@
           "san patricio del chañar",
           "el chañar"
         ]
+      },
+      {
+        "source": "tuitvacamuerta.com",
+        "topic": "SERVICIOS",
+        "accepted": 1,
+        "direct": 1,
+        "anchored": 0,
+        "falsePositives": 0,
+        "territorialTerms": [
+          "parque industrial"
+        ]
       }
     ],
     "languagePrecision": [
       {
         "term": "san patricio del chañar",
-        "acceptedHits": 12,
-        "directHits": 12,
+        "acceptedHits": 11,
+        "directHits": 11,
         "rejectedTitleHits": 0,
         "territorialStrength": "FUERTE"
       },
@@ -1534,8 +1558,8 @@
       },
       {
         "term": "el chañar",
-        "acceptedHits": 15,
-        "directHits": 15,
+        "acceptedHits": 14,
+        "directHits": 14,
         "rejectedTitleHits": 0,
         "territorialStrength": "FUERTE"
       },
@@ -1625,8 +1649,8 @@
       },
       {
         "term": "parque industrial",
-        "acceptedHits": 0,
-        "directHits": 0,
+        "acceptedHits": 1,
+        "directHits": 1,
         "rejectedTitleHits": 0,
         "territorialStrength": "FUERTE"
       },
@@ -1860,11 +1884,11 @@
     "interpretation": "auditoría sobre eventos aceptados; la próxima capa debe instrumentar rechazos antes del clustering"
   },
   "stats": {
-    "total": 21,
-    "direct": 21,
+    "total": 22,
+    "direct": 22,
     "regional": 0,
-    "new": 0,
-    "sources": 12,
+    "new": 2,
+    "sources": 13,
     "directSignals": 0,
     "localDirectSignals": 0,
     "radioDirectSignals": 0,
@@ -1878,7 +1902,7 @@
       "forecastGustKmh": 29.0,
       "forecastWindDirection": "NE",
       "forecastTemperatureC": 18.0,
-      "retrievedAt": "2026-10-14T01:21:20.080111+00:00",
+      "retrievedAt": "2026-10-14T06:36:07.186113+00:00",
       "source": "AIC",
       "sourceTier": "primary",
       "sourceUrl": "https://www.aic.gob.ar/sitio/home?a=1015&z=1967225803",
@@ -1908,7 +1932,7 @@
       "currentProgrammedMinM3s": 380,
       "programDate": "2026-10-15",
       "tableDate": "2026-10-14",
-      "retrievedAt": "2026-10-14T01:21:20.080111+00:00",
+      "retrievedAt": "2026-10-14T06:36:07.186113+00:00",
       "source": "AIC",
       "sourceTier": "primary",
       "sourceUrl": "https://www.aic.gob.ar/sitio/caudales",
@@ -1928,17 +1952,17 @@
         "url": "https://www.aic.gob.ar/sitio/caudales"
       }
     ],
-    "updatedAt": "2026-10-14T01:21:20.080111+00:00"
+    "updatedAt": "2026-10-14T06:36:07.186113+00:00"
   },
   "operational": {
-    "updatedAt": "2026-10-14T01:21:20.080111+00:00",
+    "updatedAt": "2026-10-14T06:36:07.186113+00:00",
     "route7": {
       "source": "Dirección Provincial de Vialidad",
       "sourceTier": "primary",
       "sourceUrl": "https://www.dpvneuquen.gov.ar/",
       "semanticState": null,
       "publicationState": "source_reachable_no_current_machine_readable_state",
-      "retrievedAt": "2026-10-14T01:21:20.080111+00:00",
+      "retrievedAt": "2026-10-14T06:36:07.186113+00:00",
       "evidence": {
         "route7Mention": true,
         "route8Mention": false
@@ -1950,7 +1974,7 @@
       "sourceUrl": "https://www.dpvneuquen.gov.ar/",
       "semanticState": null,
       "publicationState": "source_reachable_no_current_machine_readable_state",
-      "retrievedAt": "2026-10-14T01:21:20.080111+00:00",
+      "retrievedAt": "2026-10-14T06:36:07.186113+00:00",
       "evidence": {
         "route7Mention": true,
         "route8Mention": false
@@ -1964,7 +1988,7 @@
       "eventType": null,
       "detail": null,
       "publicationState": "source_reachable_no_specific_local_notice",
-      "retrievedAt": "2026-10-14T01:21:20.080111+00:00"
+      "retrievedAt": "2026-10-14T06:36:07.186113+00:00"
     },
     "water": {
       "source": "EPAS",
@@ -1974,7 +1998,7 @@
       "eventType": null,
       "detail": null,
       "publicationState": "source_reachable_no_specific_local_notice",
-      "retrievedAt": "2026-10-14T01:21:20.080111+00:00"
+      "retrievedAt": "2026-10-14T06:36:07.186113+00:00"
     },
     "sources": [
       {
@@ -2386,7 +2410,7 @@
       "label": "Conversación general",
       "signal": 8,
       "status": "cobertura editorial",
-      "freshnessHours": 10.1,
+      "freshnessHours": 15.3,
       "mode": "evidencia editorial",
       "evidenceCount": 8,
       "sourceContract": {
@@ -2466,7 +2490,7 @@
         "sourceUrl": "https://www.dpvneuquen.gov.ar/",
         "semanticState": null,
         "publicationState": "source_reachable_no_current_machine_readable_state",
-        "retrievedAt": "2026-10-14T01:21:20.080111+00:00",
+        "retrievedAt": "2026-10-14T06:36:07.186113+00:00",
         "evidence": {
           "route7Mention": true,
           "route8Mention": false
@@ -2518,7 +2542,7 @@
         "sourceUrl": "https://www.dpvneuquen.gov.ar/",
         "semanticState": null,
         "publicationState": "source_reachable_no_current_machine_readable_state",
-        "retrievedAt": "2026-10-14T01:21:20.080111+00:00",
+        "retrievedAt": "2026-10-14T06:36:07.186113+00:00",
         "evidence": {
           "route7Mention": true,
           "route8Mention": false
@@ -2618,7 +2642,7 @@
         "eventType": null,
         "detail": null,
         "publicationState": "source_reachable_no_specific_local_notice",
-        "retrievedAt": "2026-10-14T01:21:20.080111+00:00"
+        "retrievedAt": "2026-10-14T06:36:07.186113+00:00"
       }
     },
     {
@@ -2626,7 +2650,7 @@
       "label": "Agua / abastecimiento",
       "signal": 1,
       "status": "evento hídrico",
-      "freshnessHours": 179.0,
+      "freshnessHours": 184.3,
       "mode": "evidencia editorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -2668,7 +2692,7 @@
         "eventType": null,
         "detail": null,
         "publicationState": "source_reachable_no_specific_local_notice",
-        "retrievedAt": "2026-10-14T01:21:20.080111+00:00"
+        "retrievedAt": "2026-10-14T06:36:07.186113+00:00"
       }
     },
     {
@@ -2676,7 +2700,7 @@
       "label": "Servicios e infraestructura",
       "signal": 1,
       "status": "evidencia de servicio",
-      "freshnessHours": 179.0,
+      "freshnessHours": 184.3,
       "mode": "evidencia editorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -2716,7 +2740,7 @@
       "label": "Salud",
       "signal": 1,
       "status": "evidencia sanitaria",
-      "freshnessHours": 177.2,
+      "freshnessHours": 182.5,
       "mode": "evidencia editorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -2756,7 +2780,7 @@
       "label": "Educación",
       "signal": 2,
       "status": "evidencia educativa",
-      "freshnessHours": 410.3,
+      "freshnessHours": 415.5,
       "mode": "evidencia editorial",
       "evidenceCount": 2,
       "sourceContract": {
@@ -2874,11 +2898,11 @@
     {
       "id": "TERRITORIO",
       "label": "Territorio / microzonas",
-      "signal": 0,
+      "signal": 1,
       "status": "hecho territorial",
-      "freshnessHours": null,
+      "freshnessHours": 126.1,
       "mode": "evidencia territorial",
-      "evidenceCount": 0,
+      "evidenceCount": 1,
       "sourceContract": {
         "primary": "Municipalidad de San Patricio del Chañar",
         "secondary": "organismo provincial competente según fenómeno",
@@ -2933,7 +2957,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://chanardigital.com.ar/",
-        "lastFetch": "2026-10-14T01:21:22.165473+00:00",
+        "lastFetch": "2026-10-14T06:36:10.821864+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -2949,7 +2973,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.radiomia.com.ar/",
-        "lastFetch": "2026-10-14T01:21:23.082516+00:00",
+        "lastFetch": "2026-10-14T06:36:12.017789+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -2964,7 +2988,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://tuitvacamuerta.com/",
-        "lastFetch": "2026-10-14T01:21:24.673783+00:00",
+        "lastFetch": "2026-10-14T06:36:13.647088+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -2979,7 +3003,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.vacamuertanews.com/",
-        "lastFetch": "2026-10-14T01:21:25.011123+00:00",
+        "lastFetch": "2026-10-14T06:36:13.910448+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -2995,7 +3019,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.neuqueninforma.gob.ar/",
-        "lastFetch": "2026-10-14T01:21:25.964062+00:00",
+        "lastFetch": "2026-10-14T06:36:14.985927+00:00",
         "success": false,
         "attempted": 3,
         "failures": [
@@ -3012,7 +3036,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://sanpatricio.gob.ar/",
-        "lastFetch": "2026-10-14T01:21:29.093687+00:00",
+        "lastFetch": "2026-10-14T06:36:16.037036+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -3027,7 +3051,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://boletinoficial.neuquen.gov.ar/",
-        "lastFetch": "2026-10-14T01:21:30.032769+00:00",
+        "lastFetch": "2026-10-14T06:36:17.029370+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -3042,7 +3066,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.lmneuquen.com/",
-        "lastFetch": "2026-10-14T01:21:30.285397+00:00",
+        "lastFetch": "2026-10-14T06:36:17.249779+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3058,7 +3082,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.rionegro.com.ar/",
-        "lastFetch": "2026-10-14T01:21:31.528339+00:00",
+        "lastFetch": "2026-10-14T06:36:18.317970+00:00",
         "success": true,
         "attempted": 2,
         "failures": [
@@ -3073,7 +3097,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.mejorinformado.com/",
-        "lastFetch": "2026-10-14T01:21:31.891553+00:00",
+        "lastFetch": "2026-10-14T06:36:18.726756+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3089,7 +3113,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.diariamenteneuquen.com/",
-        "lastFetch": "2026-10-14T01:21:32.420562+00:00",
+        "lastFetch": "2026-10-14T06:36:19.341009+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3116,8 +3140,8 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SERVICIOS",
-      "movement": 75,
-      "coverage": 14,
+      "movement": 73,
+      "coverage": 15,
       "sourceCount": 8,
       "directSourceCount": 0,
       "territorialAnchors": [
@@ -3290,7 +3314,7 @@
         }
       ],
       "lifecycle": "ACTIVO",
-      "movementDelta": -1,
+      "movementDelta": -2,
       "previousCoverage": 14,
       "newSources": [
         "NoticiasNQN",
@@ -3337,7 +3361,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SERVICIOS",
-      "movement": 58,
+      "movement": 57,
       "coverage": 1,
       "sourceCount": 1,
       "directSourceCount": 0,
@@ -3488,16 +3512,16 @@
         }
       ],
       "lifecycle": "ACTIVO",
-      "movementDelta": 19,
-      "previousCoverage": 1,
+      "movementDelta": 0,
+      "previousCoverage": 0,
       "newSources": [
         "Lmneuquen.com",
         "Neuquen Informa",
         "Chañar Digital"
       ],
       "sourceDiversity": 3,
-      "memoryMatched": true,
-      "isNew": false,
+      "memoryMatched": false,
+      "isNew": true,
       "view": "INCIDENCIA",
       "incidenceEligible": true,
       "signalReason": "reservado a incidencia territorial",
@@ -3522,6 +3546,93 @@
             "node": "San Patricio del Chañar",
             "level": "localidad",
             "evidence": "DIRECTA"
+          }
+        ]
+      }
+    },
+    {
+      "eventId": "CHA-a02b58a0eb75",
+      "title": "Neuquén capital presentó un nuevo Parque Industrial de mil hectáreas con beneficios fiscales y precio promocional de tierras. – Tuit 90.5 -Vaca Muerta - tuitvacamuerta.com",
+      "publishedAt": "2026-10-09T00:28:13+00:00",
+      "firstSeen": "2026-10-14T06:36:27.872452+00:00",
+      "lastSeen": "2026-10-09T00:28:13+00:00",
+      "relevance": 3,
+      "relevanceLabel": "DIRECTA",
+      "incidenceLabel": "DIRECTA EN CHANAR",
+      "topic": "SERVICIOS",
+      "movement": 27,
+      "coverage": 1,
+      "sourceCount": 1,
+      "directSourceCount": 0,
+      "territorialAnchors": [
+        "parque industrial"
+      ],
+      "sources": [
+        "tuitvacamuerta.com"
+      ],
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPM0toNngyaU5FVTMxeS1VMFJlS0I0RWNCQkdRdFBHNEdaR2l2NHkzVkE1UkVrb2xURzBFREhPSVdZTzFzX3hkQnFDeEs2dG1ic3pkTmg5VzA4LWE2NHhGZThoS0hlSGxuNnJoY0otcmFpcVc3Y0gtWVR5Uk5nSVFYa2pCeFhuR2ZwQXdQbHpNYVFCMkNBMENzZE9NQ1AtOXVTR180QTFYeFdhOTA2Y0t4VjJHM21FdDhKc29GVUFXRDZSYTd3UTViTndSXzg0dF9YOC0tbmVTT2pUUmhwZlRpU2pOQjJSTTJtMGc?oc=5",
+      "items": [
+        {
+          "title": "Neuquén capital presentó un nuevo Parque Industrial de mil hectáreas con beneficios fiscales y precio promocional de tierras. – Tuit 90.5 -Vaca Muerta - tuitvacamuerta.com",
+          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPM0toNngyaU5FVTMxeS1VMFJlS0I0RWNCQkdRdFBHNEdaR2l2NHkzVkE1UkVrb2xURzBFREhPSVdZTzFzX3hkQnFDeEs2dG1ic3pkTmg5VzA4LWE2NHhGZThoS0hlSGxuNnJoY0otcmFpcVc3Y0gtWVR5Uk5nSVFYa2pCeFhuR2ZwQXdQbHpNYVFCMkNBMENzZE9NQ1AtOXVTR180QTFYeFdhOTA2Y0t4VjJHM21FdDhKc29GVUFXRDZSYTd3UTViTndSXzg0dF9YOC0tbmVTT2pUUmhwZlRpU2pOQjJSTTJtMGc?oc=5",
+          "publishedAt": "2026-10-09T00:28:13+00:00",
+          "published": "2026-10-09T00:28:13+00:00",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMi6gFBVV95cUxPM0toNngyaU5FVTMxeS1VMFJlS0I0RWNCQkdRdFBHNEdaR2l2NHkzVkE1UkVrb2xURzBFREhPSVdZTzFzX3hkQnFDeEs2dG1ic3pkTmg5VzA4LWE2NHhGZThoS0hlSGxuNnJoY0otcmFpcVc3Y0gtWVR5Uk5nSVFYa2pCeFhuR2ZwQXdQbHpNYVFCMkNBMENzZE9NQ1AtOXVTR180QTFYeFdhOTA2Y0t4VjJHM21FdDhKc29GVUFXRDZSYTd3UTViTndSXzg0dF9YOC0tbmVTT2pUUmhwZlRpU2pOQjJSTTJtMGc?oc=5\" target=\"_blank\">Neuquén capital presentó un nuevo Parque Industrial de mil hectáreas con beneficios fiscales y precio promocional de tierras. – Tuit 90.5 -Vaca Muerta</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">tuitvacamuerta.com</font>",
+          "source": "tuitvacamuerta.com",
+          "sourceType": "BUSCADOR / RESPALDO",
+          "sourceUrl": "",
+          "collection": "BUSCADOR",
+          "query": "site:tuitvacamuerta.com \"San Patricio del Chañar\"",
+          "relevance": 3,
+          "relevanceLabel": "DIRECTA",
+          "firstSeen": "2026-10-14T06:36:27.872452+00:00",
+          "isNew": true,
+          "titleKey": "capital presento nuevo parque industrial mil hectareas beneficios fiscales precio promocional tierras tuit vaca muerta tuitvacamuerta com",
+          "evidenceUrl": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPM0toNngyaU5FVTMxeS1VMFJlS0I0RWNCQkdRdFBHNEdaR2l2NHkzVkE1UkVrb2xURzBFREhPSVdZTzFzX3hkQnFDeEs2dG1ic3pkTmg5VzA4LWE2NHhGZThoS0hlSGxuNnJoY0otcmFpcVc3Y0gtWVR5Uk5nSVFYa2pCeFhuR2ZwQXdQbHpNYVFCMkNBMENzZE9NQ1AtOXVTR180QTFYeFdhOTA2Y0t4VjJHM21FdDhKc29GVUFXRDZSYTd3UTViTndSXzg0dF9YOC0tbmVTT2pUUmhwZlRpU2pOQjJSTTJtMGc?oc=5",
+          "sourcePriority": 3
+        }
+      ],
+      "lifecycle": "RECIENTE",
+      "movementDelta": 11,
+      "previousCoverage": 1,
+      "newSources": [
+        "tuitvacamuerta.com"
+      ],
+      "sourceDiversity": 1,
+      "memoryMatched": true,
+      "isNew": false,
+      "view": "INCIDENCIA",
+      "incidenceEligible": true,
+      "signalReason": "reservado a incidencia territorial",
+      "incidenceReason": "anclaje directo + tema operativo/local",
+      "territory": {
+        "version": "2.0",
+        "primary": "San Patricio del Chañar",
+        "nodes": [
+          "San Patricio del Chañar",
+          "Parque Industrial"
+        ],
+        "sectors": [
+          "Parque Industrial"
+        ],
+        "barrios": [],
+        "microzones": [],
+        "corridors": [],
+        "institutions": [],
+        "services": [],
+        "spaces": [],
+        "production": [],
+        "path": "San Patricio del Chañar → Parque Industrial",
+        "evidence": [
+          {
+            "node": "San Patricio del Chañar",
+            "level": "localidad",
+            "evidence": "DIRECTA"
+          },
+          {
+            "node": "Parque Industrial",
+            "level": "sector",
+            "evidence": "TEXTUAL"
           }
         ]
       }
@@ -3652,84 +3763,6 @@
       "newSources": [
         "Neuquén News"
       ],
-      "sourceDiversity": 1,
-      "memoryMatched": true,
-      "isNew": false,
-      "view": "INCIDENCIA",
-      "incidenceEligible": true,
-      "signalReason": "reservado a incidencia territorial",
-      "incidenceReason": "anclaje directo + tema operativo/local",
-      "territory": {
-        "version": "2.0",
-        "primary": "San Patricio del Chañar",
-        "nodes": [
-          "San Patricio del Chañar"
-        ],
-        "sectors": [],
-        "barrios": [],
-        "microzones": [],
-        "corridors": [],
-        "institutions": [],
-        "services": [],
-        "spaces": [],
-        "production": [],
-        "path": "San Patricio del Chañar",
-        "evidence": [
-          {
-            "node": "San Patricio del Chañar",
-            "level": "localidad",
-            "evidence": "DIRECTA"
-          }
-        ]
-      }
-    },
-    {
-      "eventId": "CHA-c4d875cc53ab",
-      "title": "Recuperaron elementos robados y aprehendieron a dos hombres en San Patricio del Chañar - Chañar Digital",
-      "publishedAt": "2026-09-30T05:06:18+00:00",
-      "firstSeen": "2026-10-05T18:12:21.393388+00:00",
-      "lastSeen": "2026-09-30T05:06:18+00:00",
-      "relevance": 3,
-      "relevanceLabel": "DIRECTA",
-      "incidenceLabel": "DIRECTA EN CHANAR",
-      "topic": "SERVICIOS",
-      "movement": 16,
-      "coverage": 1,
-      "sourceCount": 1,
-      "directSourceCount": 0,
-      "territorialAnchors": [
-        "san patricio del chañar",
-        "el chañar"
-      ],
-      "sources": [
-        "Chañar Digital"
-      ],
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPUDV6dmg2a05iZUZNY0J2UkNvdWwyRXV4bEdzTk10a3kxRXgxSUNTS255WVZocVlxNW9CemY5RU5jTlFWcDZBTERnOVJpSm96eXBOMjBCQWJTenlmenVCVVI0bm9fSmlSODd2Wk9QWVRPSzFHbmlwZ3lPdHdxamIwWDBpRXVFT1NUcEF4X1lGR2lxV1pLbkNCWFVlazQ0anQwdjl6bHBESTNGdzJRNUlwQjE4X0xTTmdTS1pmQmg3cEtRa2pfZkxWcmp1RWE2VU1SSFVySUQ5QQ?oc=5",
-      "items": [
-        {
-          "title": "Recuperaron elementos robados y aprehendieron a dos hombres en San Patricio del Chañar - Chañar Digital",
-          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPUDV6dmg2a05iZUZNY0J2UkNvdWwyRXV4bEdzTk10a3kxRXgxSUNTS255WVZocVlxNW9CemY5RU5jTlFWcDZBTERnOVJpSm96eXBOMjBCQWJTenlmenVCVVI0bm9fSmlSODd2Wk9QWVRPSzFHbmlwZ3lPdHdxamIwWDBpRXVFT1NUcEF4X1lGR2lxV1pLbkNCWFVlazQ0anQwdjl6bHBESTNGdzJRNUlwQjE4X0xTTmdTS1pmQmg3cEtRa2pfZkxWcmp1RWE2VU1SSFVySUQ5QQ?oc=5",
-          "publishedAt": "2026-09-30T05:06:18+00:00",
-          "published": "2026-09-30T05:06:18+00:00",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMi1wFBVV95cUxPUDV6dmg2a05iZUZNY0J2UkNvdWwyRXV4bEdzTk10a3kxRXgxSUNTS255WVZocVlxNW9CemY5RU5jTlFWcDZBTERnOVJpSm96eXBOMjBCQWJTenlmenVCVVI0bm9fSmlSODd2Wk9QWVRPSzFHbmlwZ3lPdHdxamIwWDBpRXVFT1NUcEF4X1lGR2lxV1pLbkNCWFVlazQ0anQwdjl6bHBESTNGdzJRNUlwQjE4X0xTTmdTS1pmQmg3cEtRa2pfZkxWcmp1RWE2VU1SSFVySUQ5QQ?oc=5\" target=\"_blank\">Recuperaron elementos robados y aprehendieron a dos hombres en San Patricio del Chañar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Chañar Digital</font>",
-          "source": "Chañar Digital",
-          "sourceType": "BUSCADOR / RESPALDO",
-          "sourceUrl": "",
-          "collection": "BUSCADOR",
-          "query": "site:chanardigital.com.ar \"San Patricio del Chañar\"",
-          "relevance": 3,
-          "relevanceLabel": "DIRECTA",
-          "firstSeen": "2026-10-05T18:12:21.393388+00:00",
-          "isNew": false,
-          "titleKey": "recuperaron elementos robados aprehendieron dos hombres digital",
-          "evidenceUrl": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPUDV6dmg2a05iZUZNY0J2UkNvdWwyRXV4bEdzTk10a3kxRXgxSUNTS255WVZocVlxNW9CemY5RU5jTlFWcDZBTERnOVJpSm96eXBOMjBCQWJTenlmenVCVVI0bm9fSmlSODd2Wk9QWVRPSzFHbmlwZ3lPdHdxamIwWDBpRXVFT1NUcEF4X1lGR2lxV1pLbkNCWFVlazQ0anQwdjl6bHBESTNGdzJRNUlwQjE4X0xTTmdTS1pmQmg3cEtRa2pfZkxWcmp1RWE2VU1SSFVySUQ5QQ?oc=5",
-          "sourcePriority": 3
-        }
-      ],
-      "lifecycle": "EN DESCENSO",
-      "movementDelta": 0,
-      "previousCoverage": 1,
-      "newSources": [],
       "sourceDiversity": 1,
       "memoryMatched": true,
       "isNew": false,
@@ -4152,6 +4185,25 @@
       "sourcePriority": 3
     },
     {
+      "title": "Neuquén capital presentó un nuevo Parque Industrial de mil hectáreas con beneficios fiscales y precio promocional de tierras. – Tuit 90.5 -Vaca Muerta - tuitvacamuerta.com",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPM0toNngyaU5FVTMxeS1VMFJlS0I0RWNCQkdRdFBHNEdaR2l2NHkzVkE1UkVrb2xURzBFREhPSVdZTzFzX3hkQnFDeEs2dG1ic3pkTmg5VzA4LWE2NHhGZThoS0hlSGxuNnJoY0otcmFpcVc3Y0gtWVR5Uk5nSVFYa2pCeFhuR2ZwQXdQbHpNYVFCMkNBMENzZE9NQ1AtOXVTR180QTFYeFdhOTA2Y0t4VjJHM21FdDhKc29GVUFXRDZSYTd3UTViTndSXzg0dF9YOC0tbmVTT2pUUmhwZlRpU2pOQjJSTTJtMGc?oc=5",
+      "publishedAt": "2026-10-09T00:28:13+00:00",
+      "published": "2026-10-09T00:28:13+00:00",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMi6gFBVV95cUxPM0toNngyaU5FVTMxeS1VMFJlS0I0RWNCQkdRdFBHNEdaR2l2NHkzVkE1UkVrb2xURzBFREhPSVdZTzFzX3hkQnFDeEs2dG1ic3pkTmg5VzA4LWE2NHhGZThoS0hlSGxuNnJoY0otcmFpcVc3Y0gtWVR5Uk5nSVFYa2pCeFhuR2ZwQXdQbHpNYVFCMkNBMENzZE9NQ1AtOXVTR180QTFYeFdhOTA2Y0t4VjJHM21FdDhKc29GVUFXRDZSYTd3UTViTndSXzg0dF9YOC0tbmVTT2pUUmhwZlRpU2pOQjJSTTJtMGc?oc=5\" target=\"_blank\">Neuquén capital presentó un nuevo Parque Industrial de mil hectáreas con beneficios fiscales y precio promocional de tierras. – Tuit 90.5 -Vaca Muerta</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">tuitvacamuerta.com</font>",
+      "source": "tuitvacamuerta.com",
+      "sourceType": "BUSCADOR / RESPALDO",
+      "sourceUrl": "",
+      "collection": "BUSCADOR",
+      "query": "site:tuitvacamuerta.com \"San Patricio del Chañar\"",
+      "relevance": 3,
+      "relevanceLabel": "DIRECTA",
+      "firstSeen": "2026-10-14T06:36:27.872452+00:00",
+      "isNew": true,
+      "titleKey": "capital presento nuevo parque industrial mil hectareas beneficios fiscales precio promocional tierras tuit vaca muerta tuitvacamuerta com",
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPM0toNngyaU5FVTMxeS1VMFJlS0I0RWNCQkdRdFBHNEdaR2l2NHkzVkE1UkVrb2xURzBFREhPSVdZTzFzX3hkQnFDeEs2dG1ic3pkTmg5VzA4LWE2NHhGZThoS0hlSGxuNnJoY0otcmFpcVc3Y0gtWVR5Uk5nSVFYa2pCeFhuR2ZwQXdQbHpNYVFCMkNBMENzZE9NQ1AtOXVTR180QTFYeFdhOTA2Y0t4VjJHM21FdDhKc29GVUFXRDZSYTd3UTViTndSXzg0dF9YOC0tbmVTT2pUUmhwZlRpU2pOQjJSTTJtMGc?oc=5",
+      "sourcePriority": 3
+    },
+    {
       "title": "San Patricio del Chañar: excavan tumbas \"NN\" por una causa sobre desaparecidos de la dictadura - Alerta Digital",
       "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPLUdtUFVQVjgxSkc5cjNmRkJZWTZzVXVHWkloOEwtczVST3ZjQ21ha2FRUjh6M19kbjFvVGJOVXZ0aXA4ZzY4QWh6Vks1dE5VOWthYXJsbEZ1ZnhkeUFONlZIZ1BNS1pqZXhtdVo4N2RHNTAtU1RMYUtZaDdqMmhMM0NJclVRdkJ1bkRsTDBCSU9kaXdLa0lXeWxFNHBMaXZBcHpramJtcE5lZVZmdTRkQTdGdDUxZi1zSlFYVVJ3dXI4T3A2dmJ5OXJEUWRTcEoyWHNUaXNhaENZdU9FQm9QZtIB5gFBVV95cUxONmkxdnFXclo1Skc5YnVMbnNfV1BfbDFXRE5URVlrTHM3UnJuUE1jV3R1Z0gyM2xyLXRlREZYQzg3SHl1M19JZHotOFNqWE1xS0kxUzZzdUZCNURWTzZSOU5WNFJRRGxQTXFUTjlVSjExQlU0MXRJVEUwZVlqdmdTc1BRRmpOdFJwRTVZdDZ6WkhrZDlKUWNQSFo5eG9MRmxoQmFSazV6cWZibGtLbHl1U0puSFFTNlJGdy1fOEpDZkV4UUl3c2M5RTROWThnVEk1YTN6XzRwMVRWQ05pQWFDa2lsRF8tQQ?oc=5",
       "publishedAt": "2026-10-08T20:30:02+00:00",
@@ -4380,6 +4432,25 @@
       "sourcePriority": 3
     },
     {
+      "title": "San Patricio del Chañar clasificó y dejó una fuerte bandera contra el fallo del Consejo Federal - Lmneuquen.com",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNd2p1ZW01bTdyNTdPbFZCd0xaYThBaUs4aHJ1WUtQMndSR1VDNEc0UXJJN1F6SXdFWXFJSWNOdE5EMVRQejQtUWtHcHhzdU52MU9uZnJVaThCTjJUcnBJVzl5YmM2cTFhd3BYUEtOUnZ4R2xjOEVnNGlhd0dlUmpzR0pPekN5ZGlxSHhXS19vVm4wQmJVUjVwSXFQZDZ5TlI4UjNuVHUzRlNicUo3TzdNYUM2MU5oM0hhX0xvc3VwTXF2N3Rqdmo5QU44MFdhR3BJTC13c1RB0gHbAUFVX3lxTE9WYUJQd1FCNW5QTzBFVmxnRlVybXJnWUJ5Qkw2dnRjMTdOMHFJSFhpVGd5VkNzQmJXbEliM1FjMHlnSzRrTE55dEdZZXhVVVhMWlVJalhWVTlmZlViSFdYQjJfbVN2TXlBZnl4U25WRGItaDVvUGlGMnR0bUhvdmNpX1hFTm94STNmZ28wcnBCQ3Z2MUtRUXJKVHpWMm1UWEFEMWZlczhZVk54VXI4RzlMa0JIVWVGalF6MnFFakpSM2ItNUNwRGtvSmRaemJrLUtySXN0aWI0VVJodw?oc=5",
+      "publishedAt": "2026-10-04T21:59:00+00:00",
+      "published": "2026-10-04T21:59:00+00:00",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMi1gFBVV95cUxNd2p1ZW01bTdyNTdPbFZCd0xaYThBaUs4aHJ1WUtQMndSR1VDNEc0UXJJN1F6SXdFWXFJSWNOdE5EMVRQejQtUWtHcHhzdU52MU9uZnJVaThCTjJUcnBJVzl5YmM2cTFhd3BYUEtOUnZ4R2xjOEVnNGlhd0dlUmpzR0pPekN5ZGlxSHhXS19vVm4wQmJVUjVwSXFQZDZ5TlI4UjNuVHUzRlNicUo3TzdNYUM2MU5oM0hhX0xvc3VwTXF2N3Rqdmo5QU44MFdhR3BJTC13c1RB0gHbAUFVX3lxTE9WYUJQd1FCNW5QTzBFVmxnRlVybXJnWUJ5Qkw2dnRjMTdOMHFJSFhpVGd5VkNzQmJXbEliM1FjMHlnSzRrTE55dEdZZXhVVVhMWlVJalhWVTlmZlViSFdYQjJfbVN2TXlBZnl4U25WRGItaDVvUGlGMnR0bUhvdmNpX1hFTm94STNmZ28wcnBCQ3Z2MUtRUXJKVHpWMm1UWEFEMWZlczhZVk54VXI4RzlMa0JIVWVGalF6MnFFakpSM2ItNUNwRGtvSmRaemJrLUtySXN0aWI0VVJodw?oc=5\" target=\"_blank\">San Patricio del Chañar clasificó y dejó una fuerte bandera contra el fallo del Consejo Federal</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Lmneuquen.com</font>",
+      "source": "Lmneuquen.com",
+      "sourceType": "BUSCADOR / RESPALDO",
+      "sourceUrl": "",
+      "collection": "BUSCADOR",
+      "query": "\"San Patricio del Chañar\"",
+      "relevance": 3,
+      "relevanceLabel": "DIRECTA",
+      "firstSeen": "2026-10-14T06:36:27.872452+00:00",
+      "isNew": true,
+      "titleKey": "clasifico dejo fuerte bandera contra fallo consejo federal lmneuquen com",
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNd2p1ZW01bTdyNTdPbFZCd0xaYThBaUs4aHJ1WUtQMndSR1VDNEc0UXJJN1F6SXdFWXFJSWNOdE5EMVRQejQtUWtHcHhzdU52MU9uZnJVaThCTjJUcnBJVzl5YmM2cTFhd3BYUEtOUnZ4R2xjOEVnNGlhd0dlUmpzR0pPekN5ZGlxSHhXS19vVm4wQmJVUjVwSXFQZDZ5TlI4UjNuVHUzRlNicUo3TzdNYUM2MU5oM0hhX0xvc3VwTXF2N3Rqdmo5QU44MFdhR3BJTC13c1RB0gHbAUFVX3lxTE9WYUJQd1FCNW5QTzBFVmxnRlVybXJnWUJ5Qkw2dnRjMTdOMHFJSFhpVGd5VkNzQmJXbEliM1FjMHlnSzRrTE55dEdZZXhVVVhMWlVJalhWVTlmZlViSFdYQjJfbVN2TXlBZnl4U25WRGItaDVvUGlGMnR0bUhvdmNpX1hFTm94STNmZ28wcnBCQ3Z2MUtRUXJKVHpWMm1UWEFEMWZlczhZVk54VXI4RzlMa0JIVWVGalF6MnFFakpSM2ItNUNwRGtvSmRaemJrLUtySXN0aWI0VVJodw?oc=5",
+      "sourcePriority": 3
+    },
+    {
       "title": "Ataque a tiros en una toma de San Patricio del Chañar: dos hombres quedaron presos - Lmneuquen.com",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOQThTZjIzU0xPLVVROVJ1TGlLR3NOendSUU10Q1hCZVhQZDhDSjc2MDZzcjUxODkxcy1pd3o5Z1ZFcGdESEtOWTU3elIxRW5qejJRMDlURmdENlJFVnBlVzB6UTJoeTF0X1NXdno4WHNDRnRXN2M1emd6RHlHcERfYWJCVGlSaWhsM3dZSzhrU2psY2pBdjF6YzRPUHV6c3ZFZldaXzc1aWtmeGJFSl9UdHNpcURySmhrVmdr0gHAAUFVX3lxTE9nbHdFRW9yb3VkbnhyU2lmdnBKeG1NWEZUY2loRENPeTl1ZFhzb3ZadkdaZnV5ZzYyTFNvU2cxZV9VTmVVWk05NGJkM1Y0VVpnYjZkcFVDVHB4RjRjVlZ6dmF3R1NjMzFpV0E2ZnpYSkItR08yYm1wM0dVN1pZeTZEWFl1MUZ5aEg3Z3ZMNGVlZGVwLUNkSl83STZXWjhzdlhOWWVXSWlHRDU2aFZKUWtKVmRBdndqd1VSMFV5NkVZUQ?oc=5",
       "publishedAt": "2026-10-02T07:00:00+00:00",
@@ -4435,30 +4506,11 @@
       "titleKey": "dos heridos bala tras violento incidente toma digital",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOQm4yWXVjUWFnUXdPSjEtSlJmcTlCMjc5Ym02bHFaRmIzQWRzT0xsYkYzM0w2cjhGeWM3Zk9ZUzZ5dXZPekRCZ1JoZjEwcGJyNHZqaVI0Z3JHdFNiWXNvck5KSmxYTFZNN25tUEtUWUN5SXZjTzVSUm81UFNvV0NSVW9CaWRfdzkxdDNGTTc4eWFvTEl0RGhPUWNpS1RqYWYwenM1dWU4YXdIeFJNdXFkcm9hdG5FblVzN0REalViUTViMW43YVR0SDZhMnh0QkFwWjR3UQ?oc=5",
       "sourcePriority": 3
-    },
-    {
-      "title": "Recuperaron elementos robados y aprehendieron a dos hombres en San Patricio del Chañar - Chañar Digital",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPUDV6dmg2a05iZUZNY0J2UkNvdWwyRXV4bEdzTk10a3kxRXgxSUNTS255WVZocVlxNW9CemY5RU5jTlFWcDZBTERnOVJpSm96eXBOMjBCQWJTenlmenVCVVI0bm9fSmlSODd2Wk9QWVRPSzFHbmlwZ3lPdHdxamIwWDBpRXVFT1NUcEF4X1lGR2lxV1pLbkNCWFVlazQ0anQwdjl6bHBESTNGdzJRNUlwQjE4X0xTTmdTS1pmQmg3cEtRa2pfZkxWcmp1RWE2VU1SSFVySUQ5QQ?oc=5",
-      "publishedAt": "2026-09-30T05:06:18+00:00",
-      "published": "2026-09-30T05:06:18+00:00",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMi1wFBVV95cUxPUDV6dmg2a05iZUZNY0J2UkNvdWwyRXV4bEdzTk10a3kxRXgxSUNTS255WVZocVlxNW9CemY5RU5jTlFWcDZBTERnOVJpSm96eXBOMjBCQWJTenlmenVCVVI0bm9fSmlSODd2Wk9QWVRPSzFHbmlwZ3lPdHdxamIwWDBpRXVFT1NUcEF4X1lGR2lxV1pLbkNCWFVlazQ0anQwdjl6bHBESTNGdzJRNUlwQjE4X0xTTmdTS1pmQmg3cEtRa2pfZkxWcmp1RWE2VU1SSFVySUQ5QQ?oc=5\" target=\"_blank\">Recuperaron elementos robados y aprehendieron a dos hombres en San Patricio del Chañar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Chañar Digital</font>",
-      "source": "Chañar Digital",
-      "sourceType": "BUSCADOR / RESPALDO",
-      "sourceUrl": "",
-      "collection": "BUSCADOR",
-      "query": "site:chanardigital.com.ar \"San Patricio del Chañar\"",
-      "relevance": 3,
-      "relevanceLabel": "DIRECTA",
-      "firstSeen": "2026-10-05T18:12:21.393388+00:00",
-      "isNew": false,
-      "titleKey": "recuperaron elementos robados aprehendieron dos hombres digital",
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPUDV6dmg2a05iZUZNY0J2UkNvdWwyRXV4bEdzTk10a3kxRXgxSUNTS255WVZocVlxNW9CemY5RU5jTlFWcDZBTERnOVJpSm96eXBOMjBCQWJTenlmenVCVVI0bm9fSmlSODd2Wk9QWVRPSzFHbmlwZ3lPdHdxamIwWDBpRXVFT1NUcEF4X1lGR2lxV1pLbkNCWFVlazQ0anQwdjl6bHBESTNGdzJRNUlwQjE4X0xTTmdTS1pmQmg3cEtRa2pfZkxWcmp1RWE2VU1SSFVySUQ5QQ?oc=5",
-      "sourcePriority": 3
     }
   ],
   "territorialGraph": {
     "version": "2.0",
-    "generatedAt": "2026-10-14T01:22:01.811308+00:00",
+    "generatedAt": "2026-10-14T06:36:40.939016+00:00",
     "root": "spc",
     "rule": "evidence-first",
     "levels": [
@@ -4694,7 +4746,7 @@
         "aliases": [
           "parque industrial"
         ],
-        "eventCount": 0
+        "eventCount": 1
       },
       {
         "id": "loteo-social",
@@ -5005,6 +5057,13 @@
         "relation": "COOCURRENCIA_TEXTUAL",
         "eventCount": 1,
         "evidence": "menciones de ambos nodos dentro del mismo hecho"
+      },
+      {
+        "from": "parque-industrial",
+        "to": "spc",
+        "relation": "COOCURRENCIA_TEXTUAL",
+        "eventCount": 1,
+        "evidence": "menciones de ambos nodos dentro del mismo hecho"
       }
     ],
     "eventNodes": {
@@ -5014,13 +5073,14 @@
       "CHA-7b194d928a62": [
         "spc"
       ],
+      "CHA-a02b58a0eb75": [
+        "spc",
+        "parque-industrial"
+      ],
       "CHA-8faef8807320": [
         "spc"
       ],
       "CHA-4e28c8319ee6": [
-        "spc"
-      ],
-      "CHA-c4d875cc53ab": [
         "spc"
       ],
       "CHA-1298f0d1783a": [
@@ -5045,18 +5105,18 @@
     },
     "stats": {
       "nodes": 46,
-      "activeNodes": 3,
-      "edges": 2,
+      "activeNodes": 4,
+      "edges": 3,
       "eventsLinked": 7,
       "eventsWithMicrozones": 0,
       "eventsWithBarrios": 0,
-      "eventsWithSectors": 0,
+      "eventsWithSectors": 1,
       "levelActivity": {
         "localidad": 1,
         "microregion": 0,
         "corredor": 0,
         "microzona": 0,
-        "sector": 0,
+        "sector": 1,
         "barrio": 0,
         "institucion": 2,
         "servicio": 0,
@@ -5067,17 +5127,17 @@
   },
   "audit": {
     "version": "1.0",
-    "updatedAt": "2026-10-14T01:22:01.853566+00:00",
+    "updatedAt": "2026-10-14T06:36:40.990328+00:00",
     "rule": "fact != coverage; territory requires textual evidence",
     "facts": 8,
-    "coverage": 29,
-    "coveragePerFact": 3.62,
+    "coverage": 30,
+    "coveragePerFact": 3.75,
     "directAnchorFacts": 8,
     "directAnchorPct": 100.0,
-    "territorySpecificFacts": 2,
-    "territorySpecificPct": 25.0,
+    "territorySpecificFacts": 3,
+    "territorySpecificPct": 37.5,
     "averageSourcesPerFact": 2.25,
-    "activeTerritorialNodes": 3,
+    "activeTerritorialNodes": 4,
     "failedSources": 10,
     "acceptedWithoutLocalEvidence": 1,
     "examplesAcceptedWithoutLocalEvidence": [
