@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-15T10:13:48.401897+00:00",
+  "updatedAt": "2026-10-15T15:17:22.842098+00:00",
   "window": "14 días",
   "purpose": "Detectar qué se está moviendo en San Patricio del Chañar y mostrar de dónde surge cada señal.",
   "architecture": "contrato universal de procedencia + fuentes profesionales + adaptadores específicos + validación semántica + temporalidad + evidencia editorial separada",
@@ -49,7 +49,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://chanardigital.com.ar/",
-      "lastFetch": "2026-10-15T10:13:25.395022+00:00",
+      "lastFetch": "2026-10-15T15:17:00.704454+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -65,7 +65,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.radiomia.com.ar/",
-      "lastFetch": "2026-10-15T10:13:28.363913+00:00",
+      "lastFetch": "2026-10-15T15:17:04.513066+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -80,7 +80,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://tuitvacamuerta.com/",
-      "lastFetch": "2026-10-15T10:13:30.112430+00:00",
+      "lastFetch": "2026-10-15T15:17:05.911430+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -95,7 +95,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.vacamuertanews.com/",
-      "lastFetch": "2026-10-15T10:13:30.867590+00:00",
+      "lastFetch": "2026-10-15T15:17:06.482476+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -111,7 +111,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.neuqueninforma.gob.ar/",
-      "lastFetch": "2026-10-15T10:13:32.455366+00:00",
+      "lastFetch": "2026-10-15T15:17:07.616969+00:00",
       "success": false,
       "attempted": 3,
       "failures": [
@@ -128,7 +128,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://sanpatricio.gob.ar/",
-      "lastFetch": "2026-10-15T10:13:33.606524+00:00",
+      "lastFetch": "2026-10-15T15:17:08.428906+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -143,7 +143,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://boletinoficial.neuquen.gov.ar/",
-      "lastFetch": "2026-10-15T10:13:34.379136+00:00",
+      "lastFetch": "2026-10-15T15:17:09.401681+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -158,7 +158,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.lmneuquen.com/",
-      "lastFetch": "2026-10-15T10:13:34.579024+00:00",
+      "lastFetch": "2026-10-15T15:17:09.656632+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -174,7 +174,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.rionegro.com.ar/",
-      "lastFetch": "2026-10-15T10:13:36.894730+00:00",
+      "lastFetch": "2026-10-15T15:17:12.471505+00:00",
       "success": true,
       "attempted": 2,
       "failures": [
@@ -189,7 +189,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.mejorinformado.com/",
-      "lastFetch": "2026-10-15T10:13:37.553940+00:00",
+      "lastFetch": "2026-10-15T15:17:13.396718+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -205,7 +205,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.diariamenteneuquen.com/",
-      "lastFetch": "2026-10-15T10:13:38.567182+00:00",
+      "lastFetch": "2026-10-15T15:17:14.206744+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -709,13 +709,13 @@
   "languageAudit": [
     {
       "term": "el chañar",
-      "hits": 18,
-      "direct": 18
+      "hits": 19,
+      "direct": 19
     },
     {
       "term": "san patricio del chañar",
-      "hits": 15,
-      "direct": 15
+      "hits": 16,
+      "direct": 16
     },
     {
       "term": "parque industrial",
@@ -1884,11 +1884,11 @@
     "interpretation": "auditoría sobre eventos aceptados; la próxima capa debe instrumentar rechazos antes del clustering"
   },
   "stats": {
-    "total": 21,
-    "direct": 21,
+    "total": 22,
+    "direct": 22,
     "regional": 0,
-    "new": 0,
-    "sources": 13,
+    "new": 1,
+    "sources": 14,
     "directSignals": 0,
     "localDirectSignals": 0,
     "radioDirectSignals": 0,
@@ -1901,8 +1901,8 @@
       "forecastWindKmh": 24.0,
       "forecastGustKmh": 24.0,
       "forecastWindDirection": "E",
-      "forecastTemperatureC": 20.0,
-      "retrievedAt": "2026-10-15T10:13:22.538120+00:00",
+      "forecastTemperatureC": 18.0,
+      "retrievedAt": "2026-10-15T15:16:58.288177+00:00",
       "source": "AIC",
       "sourceTier": "primary",
       "sourceUrl": "https://www.aic.gob.ar/sitio/home?a=1015&z=1967225803",
@@ -1932,7 +1932,7 @@
       "currentProgrammedMinM3s": 440,
       "programDate": "2026-10-16",
       "tableDate": "2026-10-15",
-      "retrievedAt": "2026-10-15T10:13:22.538120+00:00",
+      "retrievedAt": "2026-10-15T15:16:58.288177+00:00",
       "source": "AIC",
       "sourceTier": "primary",
       "sourceUrl": "https://www.aic.gob.ar/sitio/caudales",
@@ -1952,17 +1952,17 @@
         "url": "https://www.aic.gob.ar/sitio/caudales"
       }
     ],
-    "updatedAt": "2026-10-15T10:13:22.538120+00:00"
+    "updatedAt": "2026-10-15T15:16:58.288177+00:00"
   },
   "operational": {
-    "updatedAt": "2026-10-15T10:13:22.538120+00:00",
+    "updatedAt": "2026-10-15T15:16:58.288177+00:00",
     "route7": {
       "source": "Dirección Provincial de Vialidad",
       "sourceTier": "primary",
       "sourceUrl": "https://www.dpvneuquen.gov.ar/",
       "semanticState": null,
       "publicationState": "source_reachable_no_current_machine_readable_state",
-      "retrievedAt": "2026-10-15T10:13:22.538120+00:00",
+      "retrievedAt": "2026-10-15T15:16:58.288177+00:00",
       "evidence": {
         "route7Mention": true,
         "route8Mention": false
@@ -1974,7 +1974,7 @@
       "sourceUrl": "https://www.dpvneuquen.gov.ar/",
       "semanticState": null,
       "publicationState": "source_reachable_no_current_machine_readable_state",
-      "retrievedAt": "2026-10-15T10:13:22.538120+00:00",
+      "retrievedAt": "2026-10-15T15:16:58.288177+00:00",
       "evidence": {
         "route7Mention": true,
         "route8Mention": false
@@ -1988,7 +1988,7 @@
       "eventType": null,
       "detail": null,
       "publicationState": "source_reachable_no_specific_local_notice",
-      "retrievedAt": "2026-10-15T10:13:22.538120+00:00"
+      "retrievedAt": "2026-10-15T15:16:58.288177+00:00"
     },
     "water": {
       "source": "EPAS",
@@ -1998,7 +1998,7 @@
       "eventType": null,
       "detail": null,
       "publicationState": "source_reachable_no_specific_local_notice",
-      "retrievedAt": "2026-10-15T10:13:22.538120+00:00"
+      "retrievedAt": "2026-10-15T15:16:58.288177+00:00"
     },
     "sources": [
       {
@@ -2410,7 +2410,7 @@
       "label": "Conversación general",
       "signal": 9,
       "status": "cobertura editorial",
-      "freshnessHours": 15.8,
+      "freshnessHours": 20.9,
       "mode": "evidencia editorial",
       "evidenceCount": 9,
       "sourceContract": {
@@ -2450,7 +2450,7 @@
       "label": "Corredor Ruta 7",
       "signal": 1,
       "status": "estado vial",
-      "freshnessHours": 15.8,
+      "freshnessHours": 20.9,
       "mode": "evidencia territorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -2490,7 +2490,7 @@
         "sourceUrl": "https://www.dpvneuquen.gov.ar/",
         "semanticState": null,
         "publicationState": "source_reachable_no_current_machine_readable_state",
-        "retrievedAt": "2026-10-15T10:13:22.538120+00:00",
+        "retrievedAt": "2026-10-15T15:16:58.288177+00:00",
         "evidence": {
           "route7Mention": true,
           "route8Mention": false
@@ -2542,7 +2542,7 @@
         "sourceUrl": "https://www.dpvneuquen.gov.ar/",
         "semanticState": null,
         "publicationState": "source_reachable_no_current_machine_readable_state",
-        "retrievedAt": "2026-10-15T10:13:22.538120+00:00",
+        "retrievedAt": "2026-10-15T15:16:58.288177+00:00",
         "evidence": {
           "route7Mention": true,
           "route8Mention": false
@@ -2642,7 +2642,7 @@
         "eventType": null,
         "detail": null,
         "publicationState": "source_reachable_no_specific_local_notice",
-        "retrievedAt": "2026-10-15T10:13:22.538120+00:00"
+        "retrievedAt": "2026-10-15T15:16:58.288177+00:00"
       }
     },
     {
@@ -2650,7 +2650,7 @@
       "label": "Agua / abastecimiento",
       "signal": 1,
       "status": "evento hídrico",
-      "freshnessHours": 211.9,
+      "freshnessHours": 216.9,
       "mode": "evidencia editorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -2692,7 +2692,7 @@
         "eventType": null,
         "detail": null,
         "publicationState": "source_reachable_no_specific_local_notice",
-        "retrievedAt": "2026-10-15T10:13:22.538120+00:00"
+        "retrievedAt": "2026-10-15T15:16:58.288177+00:00"
       }
     },
     {
@@ -2700,7 +2700,7 @@
       "label": "Servicios e infraestructura",
       "signal": 1,
       "status": "evidencia de servicio",
-      "freshnessHours": 211.9,
+      "freshnessHours": 216.9,
       "mode": "evidencia editorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -2740,7 +2740,7 @@
       "label": "Salud",
       "signal": 1,
       "status": "evidencia sanitaria",
-      "freshnessHours": 219.2,
+      "freshnessHours": 224.3,
       "mode": "evidencia editorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -2780,7 +2780,7 @@
       "label": "Educación",
       "signal": 2,
       "status": "evidencia educativa",
-      "freshnessHours": 443.2,
+      "freshnessHours": 448.2,
       "mode": "evidencia editorial",
       "evidenceCount": 2,
       "sourceContract": {
@@ -2900,7 +2900,7 @@
       "label": "Territorio / microzonas",
       "signal": 2,
       "status": "hecho territorial",
-      "freshnessHours": 15.8,
+      "freshnessHours": 20.9,
       "mode": "evidencia territorial",
       "evidenceCount": 2,
       "sourceContract": {
@@ -2957,7 +2957,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://chanardigital.com.ar/",
-        "lastFetch": "2026-10-15T10:13:25.395022+00:00",
+        "lastFetch": "2026-10-15T15:17:00.704454+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -2973,7 +2973,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.radiomia.com.ar/",
-        "lastFetch": "2026-10-15T10:13:28.363913+00:00",
+        "lastFetch": "2026-10-15T15:17:04.513066+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -2988,7 +2988,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://tuitvacamuerta.com/",
-        "lastFetch": "2026-10-15T10:13:30.112430+00:00",
+        "lastFetch": "2026-10-15T15:17:05.911430+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -3003,7 +3003,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.vacamuertanews.com/",
-        "lastFetch": "2026-10-15T10:13:30.867590+00:00",
+        "lastFetch": "2026-10-15T15:17:06.482476+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3019,7 +3019,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.neuqueninforma.gob.ar/",
-        "lastFetch": "2026-10-15T10:13:32.455366+00:00",
+        "lastFetch": "2026-10-15T15:17:07.616969+00:00",
         "success": false,
         "attempted": 3,
         "failures": [
@@ -3036,7 +3036,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://sanpatricio.gob.ar/",
-        "lastFetch": "2026-10-15T10:13:33.606524+00:00",
+        "lastFetch": "2026-10-15T15:17:08.428906+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -3051,7 +3051,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://boletinoficial.neuquen.gov.ar/",
-        "lastFetch": "2026-10-15T10:13:34.379136+00:00",
+        "lastFetch": "2026-10-15T15:17:09.401681+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -3066,7 +3066,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.lmneuquen.com/",
-        "lastFetch": "2026-10-15T10:13:34.579024+00:00",
+        "lastFetch": "2026-10-15T15:17:09.656632+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3082,7 +3082,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.rionegro.com.ar/",
-        "lastFetch": "2026-10-15T10:13:36.894730+00:00",
+        "lastFetch": "2026-10-15T15:17:12.471505+00:00",
         "success": true,
         "attempted": 2,
         "failures": [
@@ -3097,7 +3097,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.mejorinformado.com/",
-        "lastFetch": "2026-10-15T10:13:37.553940+00:00",
+        "lastFetch": "2026-10-15T15:17:13.396718+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3113,7 +3113,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.diariamenteneuquen.com/",
-        "lastFetch": "2026-10-15T10:13:38.567182+00:00",
+        "lastFetch": "2026-10-15T15:17:14.206744+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3140,8 +3140,8 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SERVICIOS",
-      "movement": 66,
-      "coverage": 14,
+      "movement": 65,
+      "coverage": 15,
       "sourceCount": 8,
       "directSourceCount": 0,
       "territorialAnchors": [
@@ -3317,6 +3317,7 @@
       "movementDelta": -1,
       "previousCoverage": 14,
       "newSources": [
+        "Cutral Co al Instante",
         "NoticiasNQN",
         "Chañar Digital"
       ],
@@ -3361,7 +3362,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "MOVILIDAD",
-      "movement": 57,
+      "movement": 55,
       "coverage": 1,
       "sourceCount": 1,
       "directSourceCount": 0,
@@ -3395,7 +3396,7 @@
         }
       ],
       "lifecycle": "EMERGENTE",
-      "movementDelta": -1,
+      "movementDelta": -2,
       "previousCoverage": 1,
       "newSources": [],
       "sourceDiversity": 1,
@@ -3455,7 +3456,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SERVICIOS",
-      "movement": 49,
+      "movement": 48,
       "coverage": 1,
       "sourceCount": 1,
       "directSourceCount": 0,
@@ -3488,7 +3489,7 @@
         }
       ],
       "lifecycle": "SOSTENIDO",
-      "movementDelta": -2,
+      "movementDelta": -1,
       "previousCoverage": 1,
       "newSources": [],
       "sourceDiversity": 1,
@@ -3532,7 +3533,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SERVICIOS",
-      "movement": 20,
+      "movement": 18,
       "coverage": 1,
       "sourceCount": 1,
       "directSourceCount": 0,
@@ -3565,7 +3566,7 @@
         }
       ],
       "lifecycle": "RECIENTE",
-      "movementDelta": -1,
+      "movementDelta": -2,
       "previousCoverage": 1,
       "newSources": [],
       "sourceDiversity": 1,
@@ -4429,6 +4430,25 @@
       "sourcePriority": 3
     },
     {
+      "title": "San Patricio del Chañar: excavan tumbas NN en busca de posibles desaparecidos durante la dictadura - Cutral Co al Instante",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPb245bllHWGhhTFZJNFhISlYxT2p0dk5wVXc1Rkw1bzZWbmhCZzh2WW40YTVyQXViYjdSZjVvalF5ZEQyMHhJa1B4Sk1MZEVzVWNtVDhlOWRKSHlVNWZiVUZfUkJsYjZZaGl2NzY1X1pyYWxTdXUxcGthek9paHNQaXpHMnc5VmxfbEFBWUFnODdHa0ZabHYtMllWTW1vd3lOamZ1eUREa09SdnZGbXRRVE53QUMzbWNHRmJsZkJFMURuZ1IwX21nMGhpbDVDOHg3UUpMMmM4S0pRalRl?oc=5",
+      "publishedAt": "2026-10-07T20:00:00+00:00",
+      "published": "2026-10-07T20:00:00+00:00",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMi3AFBVV95cUxPb245bllHWGhhTFZJNFhISlYxT2p0dk5wVXc1Rkw1bzZWbmhCZzh2WW40YTVyQXViYjdSZjVvalF5ZEQyMHhJa1B4Sk1MZEVzVWNtVDhlOWRKSHlVNWZiVUZfUkJsYjZZaGl2NzY1X1pyYWxTdXUxcGthek9paHNQaXpHMnc5VmxfbEFBWUFnODdHa0ZabHYtMllWTW1vd3lOamZ1eUREa09SdnZGbXRRVE53QUMzbWNHRmJsZkJFMURuZ1IwX21nMGhpbDVDOHg3UUpMMmM4S0pRalRl?oc=5\" target=\"_blank\">San Patricio del Chañar: excavan tumbas NN en busca de posibles desaparecidos durante la dictadura</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Cutral Co al Instante</font>",
+      "source": "Cutral Co al Instante",
+      "sourceType": "BUSCADOR / RESPALDO",
+      "sourceUrl": "",
+      "collection": "BUSCADOR",
+      "query": "\"San Patricio del Chañar\"",
+      "relevance": 3,
+      "relevanceLabel": "DIRECTA",
+      "firstSeen": "2026-10-15T15:17:22.842098+00:00",
+      "isNew": true,
+      "titleKey": "excavan tumbas busca posibles desaparecidos durante dictadura cutral instante",
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPb245bllHWGhhTFZJNFhISlYxT2p0dk5wVXc1Rkw1bzZWbmhCZzh2WW40YTVyQXViYjdSZjVvalF5ZEQyMHhJa1B4Sk1MZEVzVWNtVDhlOWRKSHlVNWZiVUZfUkJsYjZZaGl2NzY1X1pyYWxTdXUxcGthek9paHNQaXpHMnc5VmxfbEFBWUFnODdHa0ZabHYtMllWTW1vd3lOamZ1eUREa09SdnZGbXRRVE53QUMzbWNHRmJsZkJFMURuZ1IwX21nMGhpbDVDOHg3UUpMMmM4S0pRalRl?oc=5",
+      "sourcePriority": 3
+    },
+    {
       "title": "Realizan excavaciones en el cementerio de San Patricio del Chañar por orden de la Justicia Federal - NoticiasNQN",
       "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPZVkxdGVuNU1uUnFRZFJZTXZZV0MzV1BLMFE2NmN4OUs3UzQzb1F6YVdyY3k0MUtHalB4WFktQTlXZi02SF9uTGt2TWRoa0J1WHdSbFBYak10NzduSndGYjNLZURrVS03cHpSLU5LRWNoNlNzWGlXMllRZVF0NTdwUi1fX0pJSmJzbWdVRllfWjRWSDBiX3dQWC1TOVJ3MFRuYkdEZ2stUDZSbmxPQ0RxYUZUaVZEYWlOQ1hRU29TWEZ1YTc5RWJiTm45blZWTFJHMzZITWVycHBZXzAxa2ZwMUF5aEcxTkUtLVdLZ9IB8gFBVV95cUxPdkVid2llNEJiNFRpTHJQcXNsZmdKclJjTkRoYlE5TmV5bkpqY0d1X3JQbHhXa3NBYlRsNWotdUc4UHlhVlhUaS1MYmlvQVlvcE0tLUxSQl9kQlRxY0h3NEVuY0Q0Wk5zeVptOWhjU3h0bmNza2t5Wkp2ZEVNYTZtWTAzek1HZ2tDdFd2cmRXenlXb1kzWnFPc1dOTFhZUjBiTWlfcTRaOU82dEsycnpWQV9KZk1GWEsxMG1VVzZuaVg0TXA5QTRpbk55MDZQY0F1WUdUWkRvNXNpSElFZUU5OFdhanZoYTVxVG9UeDVuQVhwdw?oc=5",
       "publishedAt": "2026-10-07T13:37:45+00:00",
@@ -4564,7 +4584,7 @@
   ],
   "territorialGraph": {
     "version": "2.0",
-    "generatedAt": "2026-10-15T10:14:08.239786+00:00",
+    "generatedAt": "2026-10-15T15:17:33.221398+00:00",
     "root": "spc",
     "rule": "evidence-first",
     "levels": [
@@ -5200,11 +5220,11 @@
   },
   "audit": {
     "version": "1.0",
-    "updatedAt": "2026-10-15T10:14:08.283372+00:00",
+    "updatedAt": "2026-10-15T15:17:33.254545+00:00",
     "rule": "fact != coverage; territory requires textual evidence",
     "facts": 9,
-    "coverage": 29,
-    "coveragePerFact": 3.22,
+    "coverage": 30,
+    "coveragePerFact": 3.33,
     "directAnchorFacts": 9,
     "directAnchorPct": 100.0,
     "territorySpecificFacts": 4,
