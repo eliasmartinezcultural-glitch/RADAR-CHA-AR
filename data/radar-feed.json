@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T19:33:52.289913+00:00",
+  "updatedAt": "2026-10-18T22:19:40.908935+00:00",
   "window": "14 días",
   "purpose": "Detectar qué se está moviendo en San Patricio del Chañar y mostrar de dónde surge cada señal.",
   "architecture": "contrato universal de procedencia + fuentes profesionales + adaptadores específicos + validación semántica + temporalidad + evidencia editorial separada",
@@ -49,7 +49,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://chanardigital.com.ar/",
-      "lastFetch": "2026-10-18T19:33:31.752902+00:00",
+      "lastFetch": "2026-10-18T22:19:20.985331+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -65,7 +65,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.radiomia.com.ar/",
-      "lastFetch": "2026-10-18T19:33:33.007587+00:00",
+      "lastFetch": "2026-10-18T22:19:22.042386+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -80,7 +80,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://tuitvacamuerta.com/",
-      "lastFetch": "2026-10-18T19:33:34.951752+00:00",
+      "lastFetch": "2026-10-18T22:19:23.538233+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -95,7 +95,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.vacamuertanews.com/",
-      "lastFetch": "2026-10-18T19:33:35.431969+00:00",
+      "lastFetch": "2026-10-18T22:19:24.195623+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -111,7 +111,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.neuqueninforma.gob.ar/",
-      "lastFetch": "2026-10-18T19:33:37.130093+00:00",
+      "lastFetch": "2026-10-18T22:19:25.582657+00:00",
       "success": false,
       "attempted": 3,
       "failures": [
@@ -128,7 +128,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://sanpatricio.gob.ar/",
-      "lastFetch": "2026-10-18T19:33:38.427334+00:00",
+      "lastFetch": "2026-10-18T22:19:26.557466+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -143,7 +143,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://boletinoficial.neuquen.gov.ar/",
-      "lastFetch": "2026-10-18T19:33:39.704682+00:00",
+      "lastFetch": "2026-10-18T22:19:27.267153+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -158,7 +158,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.lmneuquen.com/",
-      "lastFetch": "2026-10-18T19:33:39.956068+00:00",
+      "lastFetch": "2026-10-18T22:19:27.543371+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -174,7 +174,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.rionegro.com.ar/",
-      "lastFetch": "2026-10-18T19:33:42.468551+00:00",
+      "lastFetch": "2026-10-18T22:19:29.955355+00:00",
       "success": true,
       "attempted": 2,
       "failures": [
@@ -189,7 +189,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.mejorinformado.com/",
-      "lastFetch": "2026-10-18T19:33:43.162246+00:00",
+      "lastFetch": "2026-10-18T22:19:30.803322+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -205,7 +205,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.diariamenteneuquen.com/",
-      "lastFetch": "2026-10-18T19:33:44.100409+00:00",
+      "lastFetch": "2026-10-18T22:19:31.600936+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -728,11 +728,6 @@
       "direct": 1
     },
     {
-      "term": "centro de salud",
-      "hits": 1,
-      "direct": 1
-    },
-    {
       "term": "viñedos",
       "hits": 0,
       "direct": 0
@@ -889,6 +884,11 @@
     },
     {
       "term": "chacra",
+      "hits": 0,
+      "direct": 0
+    },
+    {
+      "term": "centro de salud",
       "hits": 0,
       "direct": 0
     },
@@ -1209,14 +1209,13 @@
         "source": "Neuquen Informa",
         "group": "OBSERVADA",
         "role": "fuente detectada fuera del catálogo",
-        "accepted": 3,
-        "direct": 3,
+        "accepted": 2,
+        "direct": 2,
         "anchored": 0,
         "falsePositives": 0,
         "falsePositiveTypes": [],
         "topics": [
           "MOVILIDAD",
-          "SALUD",
           "SERVICIOS"
         ]
       },
@@ -1470,17 +1469,6 @@
         "territorialTerms": [
           "parque industrial",
           "ruta 7"
-        ]
-      },
-      {
-        "source": "Neuquen Informa",
-        "topic": "SALUD",
-        "accepted": 1,
-        "direct": 1,
-        "anchored": 0,
-        "falsePositives": 0,
-        "territorialTerms": [
-          "centro de salud"
         ]
       },
       {
@@ -1773,8 +1761,8 @@
       },
       {
         "term": "centro de salud",
-        "acceptedHits": 1,
-        "directHits": 1,
+        "acceptedHits": 0,
+        "directHits": 0,
         "rejectedTitleHits": 0,
         "territorialStrength": "FUERTE"
       },
@@ -1875,8 +1863,8 @@
     "interpretation": "auditoría sobre eventos aceptados; la próxima capa debe instrumentar rechazos antes del clustering"
   },
   "stats": {
-    "total": 18,
-    "direct": 18,
+    "total": 17,
+    "direct": 17,
     "regional": 0,
     "new": 0,
     "sources": 11,
@@ -1893,7 +1881,7 @@
       "forecastGustKmh": 32.0,
       "forecastWindDirection": "NE",
       "forecastTemperatureC": 21.0,
-      "retrievedAt": "2026-10-18T19:33:29.083030+00:00",
+      "retrievedAt": "2026-10-18T22:19:18.639266+00:00",
       "source": "AIC",
       "sourceTier": "primary",
       "sourceUrl": "https://www.aic.gob.ar/sitio/home?a=1015&z=1967225803",
@@ -1923,7 +1911,7 @@
       "currentProgrammedMinM3s": 490,
       "programDate": "2026-10-19",
       "tableDate": "2026-10-18",
-      "retrievedAt": "2026-10-18T19:33:29.083030+00:00",
+      "retrievedAt": "2026-10-18T22:19:18.639266+00:00",
       "source": "AIC",
       "sourceTier": "primary",
       "sourceUrl": "https://www.aic.gob.ar/sitio/caudales",
@@ -1943,17 +1931,17 @@
         "url": "https://www.aic.gob.ar/sitio/caudales"
       }
     ],
-    "updatedAt": "2026-10-18T19:33:29.083030+00:00"
+    "updatedAt": "2026-10-18T22:19:18.639266+00:00"
   },
   "operational": {
-    "updatedAt": "2026-10-18T19:33:29.083030+00:00",
+    "updatedAt": "2026-10-18T22:19:18.639266+00:00",
     "route7": {
       "source": "Dirección Provincial de Vialidad",
       "sourceTier": "primary",
       "sourceUrl": "https://www.dpvneuquen.gov.ar/",
       "semanticState": null,
       "publicationState": "source_reachable_no_current_machine_readable_state",
-      "retrievedAt": "2026-10-18T19:33:29.083030+00:00",
+      "retrievedAt": "2026-10-18T22:19:18.639266+00:00",
       "evidence": {
         "route7Mention": true,
         "route8Mention": false
@@ -1965,7 +1953,7 @@
       "sourceUrl": "https://www.dpvneuquen.gov.ar/",
       "semanticState": null,
       "publicationState": "source_reachable_no_current_machine_readable_state",
-      "retrievedAt": "2026-10-18T19:33:29.083030+00:00",
+      "retrievedAt": "2026-10-18T22:19:18.639266+00:00",
       "evidence": {
         "route7Mention": true,
         "route8Mention": false
@@ -1979,7 +1967,7 @@
       "eventType": "scheduled_outage",
       "detail": "-03:00 Corte programado en sectores de Rincón de los Sauces el 17/10/26 Prensa EPEN 2026-10-16T11:42:32-03:00 Prensa EPEN 2026-10-16T11:42:32-03:00 Corte Programado en sectores de San Patricio del Chañar el 20/10/2026 Prensa EPEN 2026-10-16T08:52:16-03:00 Prensa EPEN 2026-10-16T08:52:16-03:00 Corte Programado en Caviahue/Copahue el 15/10/2026 Prensa EPEN 2026-10-14T13:22:08-03:00 Prensa EPEN 2026-10-14T13:22:08-03:00 Cortes Programados en sectores de Villa La Angostura los días 15 y 16/10/2026 Prensa EPEN 2026-10-13T10:16:03-03:00 Prensa EPEN 2026-10-13T10:16:03-03:00 Corte Programado en sectores de Villa La Angostu",
       "publicationState": "specific_local_notice_found",
-      "retrievedAt": "2026-10-18T19:33:29.083030+00:00"
+      "retrievedAt": "2026-10-18T22:19:18.639266+00:00"
     },
     "water": {
       "source": "EPAS",
@@ -1989,7 +1977,7 @@
       "eventType": null,
       "detail": null,
       "publicationState": "source_reachable_no_specific_local_notice",
-      "retrievedAt": "2026-10-18T19:33:29.083030+00:00"
+      "retrievedAt": "2026-10-18T22:19:18.639266+00:00"
     },
     "sources": [
       {
@@ -2399,11 +2387,11 @@
     {
       "id": "CONVERSACIÓN",
       "label": "Conversación general",
-      "signal": 9,
+      "signal": 8,
       "status": "cobertura editorial",
-      "freshnessHours": 42.4,
+      "freshnessHours": 45.2,
       "mode": "evidencia editorial",
-      "evidenceCount": 9,
+      "evidenceCount": 8,
       "sourceContract": {
         "primary": "medios locales identificables",
         "secondary": "fuentes institucionales competentes",
@@ -2441,7 +2429,7 @@
       "label": "Corredor Ruta 7",
       "signal": 1,
       "status": "estado vial",
-      "freshnessHours": 97.2,
+      "freshnessHours": 100.0,
       "mode": "evidencia territorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -2481,7 +2469,7 @@
         "sourceUrl": "https://www.dpvneuquen.gov.ar/",
         "semanticState": null,
         "publicationState": "source_reachable_no_current_machine_readable_state",
-        "retrievedAt": "2026-10-18T19:33:29.083030+00:00",
+        "retrievedAt": "2026-10-18T22:19:18.639266+00:00",
         "evidence": {
           "route7Mention": true,
           "route8Mention": false
@@ -2533,7 +2521,7 @@
         "sourceUrl": "https://www.dpvneuquen.gov.ar/",
         "semanticState": null,
         "publicationState": "source_reachable_no_current_machine_readable_state",
-        "retrievedAt": "2026-10-18T19:33:29.083030+00:00",
+        "retrievedAt": "2026-10-18T22:19:18.639266+00:00",
         "evidence": {
           "route7Mention": true,
           "route8Mention": false
@@ -2633,7 +2621,7 @@
         "eventType": "scheduled_outage",
         "detail": "-03:00 Corte programado en sectores de Rincón de los Sauces el 17/10/26 Prensa EPEN 2026-10-16T11:42:32-03:00 Prensa EPEN 2026-10-16T11:42:32-03:00 Corte Programado en sectores de San Patricio del Chañar el 20/10/2026 Prensa EPEN 2026-10-16T08:52:16-03:00 Prensa EPEN 2026-10-16T08:52:16-03:00 Corte Programado en Caviahue/Copahue el 15/10/2026 Prensa EPEN 2026-10-14T13:22:08-03:00 Prensa EPEN 2026-10-14T13:22:08-03:00 Cortes Programados en sectores de Villa La Angostura los días 15 y 16/10/2026 Prensa EPEN 2026-10-13T10:16:03-03:00 Prensa EPEN 2026-10-13T10:16:03-03:00 Corte Programado en sectores de Villa La Angostu",
         "publicationState": "specific_local_notice_found",
-        "retrievedAt": "2026-10-18T19:33:29.083030+00:00"
+        "retrievedAt": "2026-10-18T22:19:18.639266+00:00"
       }
     },
     {
@@ -2641,7 +2629,7 @@
       "label": "Agua / abastecimiento",
       "signal": 2,
       "status": "evento hídrico",
-      "freshnessHours": 42.4,
+      "freshnessHours": 45.2,
       "mode": "evidencia editorial",
       "evidenceCount": 2,
       "sourceContract": {
@@ -2683,7 +2671,7 @@
         "eventType": null,
         "detail": null,
         "publicationState": "source_reachable_no_specific_local_notice",
-        "retrievedAt": "2026-10-18T19:33:29.083030+00:00"
+        "retrievedAt": "2026-10-18T22:19:18.639266+00:00"
       }
     },
     {
@@ -2691,7 +2679,7 @@
       "label": "Servicios e infraestructura",
       "signal": 2,
       "status": "evidencia de servicio",
-      "freshnessHours": 42.4,
+      "freshnessHours": 45.2,
       "mode": "evidencia editorial",
       "evidenceCount": 2,
       "sourceContract": {
@@ -2729,11 +2717,11 @@
     {
       "id": "SALUD",
       "label": "Salud",
-      "signal": 1,
+      "signal": 0,
       "status": "evidencia sanitaria",
-      "freshnessHours": 300.6,
+      "freshnessHours": null,
       "mode": "evidencia editorial",
-      "evidenceCount": 1,
+      "evidenceCount": 0,
       "sourceContract": {
         "primary": "Ministerio de Salud de la Provincia del Neuquén",
         "secondary": "Hospital San Patricio del Chañar Dra. Alicia Cruz",
@@ -2771,7 +2759,7 @@
       "label": "Educación",
       "signal": 2,
       "status": "evidencia educativa",
-      "freshnessHours": 524.5,
+      "freshnessHours": 527.3,
       "mode": "evidencia editorial",
       "evidenceCount": 2,
       "sourceContract": {
@@ -2891,7 +2879,7 @@
       "label": "Territorio / microzonas",
       "signal": 1,
       "status": "hecho territorial",
-      "freshnessHours": 97.2,
+      "freshnessHours": 100.0,
       "mode": "evidencia territorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -2948,7 +2936,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://chanardigital.com.ar/",
-        "lastFetch": "2026-10-18T19:33:31.752902+00:00",
+        "lastFetch": "2026-10-18T22:19:20.985331+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -2964,7 +2952,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.radiomia.com.ar/",
-        "lastFetch": "2026-10-18T19:33:33.007587+00:00",
+        "lastFetch": "2026-10-18T22:19:22.042386+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -2979,7 +2967,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://tuitvacamuerta.com/",
-        "lastFetch": "2026-10-18T19:33:34.951752+00:00",
+        "lastFetch": "2026-10-18T22:19:23.538233+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -2994,7 +2982,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.vacamuertanews.com/",
-        "lastFetch": "2026-10-18T19:33:35.431969+00:00",
+        "lastFetch": "2026-10-18T22:19:24.195623+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3010,7 +2998,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.neuqueninforma.gob.ar/",
-        "lastFetch": "2026-10-18T19:33:37.130093+00:00",
+        "lastFetch": "2026-10-18T22:19:25.582657+00:00",
         "success": false,
         "attempted": 3,
         "failures": [
@@ -3027,7 +3015,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://sanpatricio.gob.ar/",
-        "lastFetch": "2026-10-18T19:33:38.427334+00:00",
+        "lastFetch": "2026-10-18T22:19:26.557466+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -3042,7 +3030,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://boletinoficial.neuquen.gov.ar/",
-        "lastFetch": "2026-10-18T19:33:39.704682+00:00",
+        "lastFetch": "2026-10-18T22:19:27.267153+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -3057,7 +3045,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.lmneuquen.com/",
-        "lastFetch": "2026-10-18T19:33:39.956068+00:00",
+        "lastFetch": "2026-10-18T22:19:27.543371+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3073,7 +3061,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.rionegro.com.ar/",
-        "lastFetch": "2026-10-18T19:33:42.468551+00:00",
+        "lastFetch": "2026-10-18T22:19:29.955355+00:00",
         "success": true,
         "attempted": 2,
         "failures": [
@@ -3088,7 +3076,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.mejorinformado.com/",
-        "lastFetch": "2026-10-18T19:33:43.162246+00:00",
+        "lastFetch": "2026-10-18T22:19:30.803322+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3104,7 +3092,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.diariamenteneuquen.com/",
-        "lastFetch": "2026-10-18T19:33:44.100409+00:00",
+        "lastFetch": "2026-10-18T22:19:31.600936+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3412,7 +3400,7 @@
         }
       ],
       "lifecycle": "SOSTENIDO",
-      "movementDelta": -1,
+      "movementDelta": 0,
       "previousCoverage": 2,
       "newSources": [
         "EPEN"
@@ -3543,7 +3531,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "MOVILIDAD",
-      "movement": 35,
+      "movement": 34,
       "coverage": 1,
       "sourceCount": 1,
       "directSourceCount": 0,
@@ -3576,8 +3564,8 @@
           "sourcePriority": 3
         }
       ],
-      "lifecycle": "SOSTENIDO",
-      "movementDelta": 0,
+      "lifecycle": "RECIENTE",
+      "movementDelta": -1,
       "previousCoverage": 1,
       "newSources": [],
       "sourceDiversity": 1,
@@ -3637,7 +3625,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SERVICIOS",
-      "movement": 28,
+      "movement": 27,
       "coverage": 1,
       "sourceCount": 1,
       "directSourceCount": 0,
@@ -3670,7 +3658,7 @@
         }
       ],
       "lifecycle": "EN DESCENSO",
-      "movementDelta": 0,
+      "movementDelta": -1,
       "previousCoverage": 1,
       "newSources": [],
       "sourceDiversity": 1,
@@ -3752,85 +3740,6 @@
       "previousCoverage": 1,
       "newSources": [
         "Neuquén News"
-      ],
-      "sourceDiversity": 1,
-      "memoryMatched": true,
-      "isNew": false,
-      "view": "INCIDENCIA",
-      "incidenceEligible": true,
-      "signalReason": "reservado a incidencia territorial",
-      "incidenceReason": "anclaje directo + tema operativo/local",
-      "territory": {
-        "version": "2.0",
-        "primary": "San Patricio del Chañar",
-        "nodes": [
-          "San Patricio del Chañar"
-        ],
-        "sectors": [],
-        "barrios": [],
-        "microzones": [],
-        "corridors": [],
-        "institutions": [],
-        "services": [],
-        "spaces": [],
-        "production": [],
-        "path": "San Patricio del Chañar",
-        "evidence": [
-          {
-            "node": "San Patricio del Chañar",
-            "level": "localidad",
-            "evidence": "DIRECTA"
-          }
-        ]
-      }
-    },
-    {
-      "eventId": "CHA-8faef8807320",
-      "title": "Zapala suma un nuevo centro de salud para acompañar el crecimiento de la ciudad - Neuquen Informa",
-      "publishedAt": "2026-10-06T07:00:00+00:00",
-      "firstSeen": "2026-10-12T21:50:29.911963+00:00",
-      "lastSeen": "2026-10-06T07:00:00+00:00",
-      "relevance": 3,
-      "relevanceLabel": "DIRECTA",
-      "incidenceLabel": "DIRECTA EN CHANAR",
-      "topic": "SALUD",
-      "movement": 16,
-      "coverage": 1,
-      "sourceCount": 1,
-      "directSourceCount": 0,
-      "territorialAnchors": [
-        "centro de salud"
-      ],
-      "sources": [
-        "Neuquen Informa"
-      ],
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQZ0s5R2pkREVPSTAwVUNpalhFclpUUUp4SXpwSEVfSWttWDFuRXV6RG10bkJDZ3F1aWJKQXhRTkF1NV9rSEpJWUw3TjVJQkhCNUI4MnB1d09JTGJacXptVllETklyd3FfYVFVSHQxSWZ0MnBzcHZ6SXo5Vjd5M1FnX2tmaVdYbDRiSkVNRmpoOUxTU0RybENjNW9IWXFDUFR2N2NpZWtKQUU2TktoWkxBQmdEQVh5M1hyMFhKdVIweURVUWhxZWFENm5WT0lyUWFFRmZmcDNFVdIB3AFBVV95cUxNUHlEazY4dFRjV29qeUJvbjhPd1dIRjk3TkR5VjR4ZGlvYnFQT2JNeG5YR1B0Y01IRlZydl9Ob1k2bVBDRTBtcERLOUZWMVl0TVk2NmswdnZSalFDUVVNMlZmeVZKQTNWemNWaS1xYnZ4ZjZheHNocFRtNll1TUh2X3Q3RDVUZldhaWNWZlBTOE9mcFJyUmp6bU1oQWJYdWx6VVJfM0Y1WDRnV2FyR1lqbU1MVUFkenRDX1h1cnVBYThOWFd6azdLWXlsZE5uYVZWeGtGazJFTC1oaUdK?oc=5",
-      "items": [
-        {
-          "title": "Zapala suma un nuevo centro de salud para acompañar el crecimiento de la ciudad - Neuquen Informa",
-          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQZ0s5R2pkREVPSTAwVUNpalhFclpUUUp4SXpwSEVfSWttWDFuRXV6RG10bkJDZ3F1aWJKQXhRTkF1NV9rSEpJWUw3TjVJQkhCNUI4MnB1d09JTGJacXptVllETklyd3FfYVFVSHQxSWZ0MnBzcHZ6SXo5Vjd5M1FnX2tmaVdYbDRiSkVNRmpoOUxTU0RybENjNW9IWXFDUFR2N2NpZWtKQUU2TktoWkxBQmdEQVh5M1hyMFhKdVIweURVUWhxZWFENm5WT0lyUWFFRmZmcDNFVdIB3AFBVV95cUxNUHlEazY4dFRjV29qeUJvbjhPd1dIRjk3TkR5VjR4ZGlvYnFQT2JNeG5YR1B0Y01IRlZydl9Ob1k2bVBDRTBtcERLOUZWMVl0TVk2NmswdnZSalFDUVVNMlZmeVZKQTNWemNWaS1xYnZ4ZjZheHNocFRtNll1TUh2X3Q3RDVUZldhaWNWZlBTOE9mcFJyUmp6bU1oQWJYdWx6VVJfM0Y1WDRnV2FyR1lqbU1MVUFkenRDX1h1cnVBYThOWFd6azdLWXlsZE5uYVZWeGtGazJFTC1oaUdK?oc=5",
-          "publishedAt": "2026-10-06T07:00:00+00:00",
-          "published": "2026-10-06T07:00:00+00:00",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMi1wFBVV95cUxQZ0s5R2pkREVPSTAwVUNpalhFclpUUUp4SXpwSEVfSWttWDFuRXV6RG10bkJDZ3F1aWJKQXhRTkF1NV9rSEpJWUw3TjVJQkhCNUI4MnB1d09JTGJacXptVllETklyd3FfYVFVSHQxSWZ0MnBzcHZ6SXo5Vjd5M1FnX2tmaVdYbDRiSkVNRmpoOUxTU0RybENjNW9IWXFDUFR2N2NpZWtKQUU2TktoWkxBQmdEQVh5M1hyMFhKdVIweURVUWhxZWFENm5WT0lyUWFFRmZmcDNFVdIB3AFBVV95cUxNUHlEazY4dFRjV29qeUJvbjhPd1dIRjk3TkR5VjR4ZGlvYnFQT2JNeG5YR1B0Y01IRlZydl9Ob1k2bVBDRTBtcERLOUZWMVl0TVk2NmswdnZSalFDUVVNMlZmeVZKQTNWemNWaS1xYnZ4ZjZheHNocFRtNll1TUh2X3Q3RDVUZldhaWNWZlBTOE9mcFJyUmp6bU1oQWJYdWx6VVJfM0Y1WDRnV2FyR1lqbU1MVUFkenRDX1h1cnVBYThOWFd6azdLWXlsZE5uYVZWeGtGazJFTC1oaUdK?oc=5\" target=\"_blank\">Zapala suma un nuevo centro de salud para acompañar el crecimiento de la ciudad</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Neuquen Informa</font>",
-          "source": "Neuquen Informa",
-          "sourceType": "BUSCADOR / RESPALDO",
-          "sourceUrl": "",
-          "collection": "BUSCADOR",
-          "query": "site:neuqueninforma.gob.ar \"San Patricio del Chañar\"",
-          "relevance": 3,
-          "relevanceLabel": "DIRECTA",
-          "firstSeen": "2026-10-12T21:50:29.911963+00:00",
-          "isNew": false,
-          "titleKey": "zapala suma nuevo centro salud acompañar crecimiento informa",
-          "evidenceUrl": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQZ0s5R2pkREVPSTAwVUNpalhFclpUUUp4SXpwSEVfSWttWDFuRXV6RG10bkJDZ3F1aWJKQXhRTkF1NV9rSEpJWUw3TjVJQkhCNUI4MnB1d09JTGJacXptVllETklyd3FfYVFVSHQxSWZ0MnBzcHZ6SXo5Vjd5M1FnX2tmaVdYbDRiSkVNRmpoOUxTU0RybENjNW9IWXFDUFR2N2NpZWtKQUU2TktoWkxBQmdEQVh5M1hyMFhKdVIweURVUWhxZWFENm5WT0lyUWFFRmZmcDNFVdIB3AFBVV95cUxNUHlEazY4dFRjV29qeUJvbjhPd1dIRjk3TkR5VjR4ZGlvYnFQT2JNeG5YR1B0Y01IRlZydl9Ob1k2bVBDRTBtcERLOUZWMVl0TVk2NmswdnZSalFDUVVNMlZmeVZKQTNWemNWaS1xYnZ4ZjZheHNocFRtNll1TUh2X3Q3RDVUZldhaWNWZlBTOE9mcFJyUmp6bU1oQWJYdWx6VVJfM0Y1WDRnV2FyR1lqbU1MVUFkenRDX1h1cnVBYThOWFd6azdLWXlsZE5uYVZWeGtGazJFTC1oaUdK?oc=5",
-          "sourcePriority": 3
-        }
-      ],
-      "lifecycle": "EN DESCENSO",
-      "movementDelta": 0,
-      "previousCoverage": 1,
-      "newSources": [
-        "Neuquen Informa"
       ],
       "sourceDiversity": 1,
       "memoryMatched": true,
@@ -4480,30 +4389,11 @@
       "titleKey": "despues banderas contra pidio disculpas consejo federal diario rio negro",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNYzBPQUNwZjdRTHFmZ1FtRUZIMUZEbDJRTkhTSmcwVmZ6VkhSLXFVemkyeENKalZjeXEwcnV4X0M3eFhrUV9uRk0zVWs4YXF6bTlVWkx4SXplekhidm1YeVE4OU9PVXpHNVVmTkFTc3BRWDNZOWhTOUhDcXVSeG53cFdQeTY4UUpPMEo0LVBGbTZVcmNVbnUzQlEtMWZVUVVyUTJjX0RwRXd6M292S19EWm9rYXRHOWZONExaRDltcjZsLW5nbURLRDd5dU9hWXpMYlRHTkxfaDHSAeABQVVfeXFMTm8zU3pNSXB4Y242bE8wa05maFVSZHFUQVRzTXhkQUNPUk4zWTFVS0tWeDFsdDB2cHEzWGxaUWtsV0ZreGxjbFFYQ1dCcWJJZHFZTFhkNURyVmNmTHRfOTZidkpQTlBMSHJicEpiQ0NfVldHVXlWRFdUMjdVUm1LcmJhSjh4UFVNNWkwTloxMW9iWDV0azZjdlhFaTdjMnRiLTYxcm9vVElEQ3d1WlhUS1AzUUpSVVBUeXlLZVFRV0xUM1hvaEx0VDdrNXpRVUtkR2hNRTFvQllpMUtSeGxrRng?oc=5",
       "sourcePriority": 3
-    },
-    {
-      "title": "Zapala suma un nuevo centro de salud para acompañar el crecimiento de la ciudad - Neuquen Informa",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQZ0s5R2pkREVPSTAwVUNpalhFclpUUUp4SXpwSEVfSWttWDFuRXV6RG10bkJDZ3F1aWJKQXhRTkF1NV9rSEpJWUw3TjVJQkhCNUI4MnB1d09JTGJacXptVllETklyd3FfYVFVSHQxSWZ0MnBzcHZ6SXo5Vjd5M1FnX2tmaVdYbDRiSkVNRmpoOUxTU0RybENjNW9IWXFDUFR2N2NpZWtKQUU2TktoWkxBQmdEQVh5M1hyMFhKdVIweURVUWhxZWFENm5WT0lyUWFFRmZmcDNFVdIB3AFBVV95cUxNUHlEazY4dFRjV29qeUJvbjhPd1dIRjk3TkR5VjR4ZGlvYnFQT2JNeG5YR1B0Y01IRlZydl9Ob1k2bVBDRTBtcERLOUZWMVl0TVk2NmswdnZSalFDUVVNMlZmeVZKQTNWemNWaS1xYnZ4ZjZheHNocFRtNll1TUh2X3Q3RDVUZldhaWNWZlBTOE9mcFJyUmp6bU1oQWJYdWx6VVJfM0Y1WDRnV2FyR1lqbU1MVUFkenRDX1h1cnVBYThOWFd6azdLWXlsZE5uYVZWeGtGazJFTC1oaUdK?oc=5",
-      "publishedAt": "2026-10-06T07:00:00+00:00",
-      "published": "2026-10-06T07:00:00+00:00",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMi1wFBVV95cUxQZ0s5R2pkREVPSTAwVUNpalhFclpUUUp4SXpwSEVfSWttWDFuRXV6RG10bkJDZ3F1aWJKQXhRTkF1NV9rSEpJWUw3TjVJQkhCNUI4MnB1d09JTGJacXptVllETklyd3FfYVFVSHQxSWZ0MnBzcHZ6SXo5Vjd5M1FnX2tmaVdYbDRiSkVNRmpoOUxTU0RybENjNW9IWXFDUFR2N2NpZWtKQUU2TktoWkxBQmdEQVh5M1hyMFhKdVIweURVUWhxZWFENm5WT0lyUWFFRmZmcDNFVdIB3AFBVV95cUxNUHlEazY4dFRjV29qeUJvbjhPd1dIRjk3TkR5VjR4ZGlvYnFQT2JNeG5YR1B0Y01IRlZydl9Ob1k2bVBDRTBtcERLOUZWMVl0TVk2NmswdnZSalFDUVVNMlZmeVZKQTNWemNWaS1xYnZ4ZjZheHNocFRtNll1TUh2X3Q3RDVUZldhaWNWZlBTOE9mcFJyUmp6bU1oQWJYdWx6VVJfM0Y1WDRnV2FyR1lqbU1MVUFkenRDX1h1cnVBYThOWFd6azdLWXlsZE5uYVZWeGtGazJFTC1oaUdK?oc=5\" target=\"_blank\">Zapala suma un nuevo centro de salud para acompañar el crecimiento de la ciudad</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Neuquen Informa</font>",
-      "source": "Neuquen Informa",
-      "sourceType": "BUSCADOR / RESPALDO",
-      "sourceUrl": "",
-      "collection": "BUSCADOR",
-      "query": "site:neuqueninforma.gob.ar \"San Patricio del Chañar\"",
-      "relevance": 3,
-      "relevanceLabel": "DIRECTA",
-      "firstSeen": "2026-10-12T21:50:29.911963+00:00",
-      "isNew": false,
-      "titleKey": "zapala suma nuevo centro salud acompañar crecimiento informa",
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQZ0s5R2pkREVPSTAwVUNpalhFclpUUUp4SXpwSEVfSWttWDFuRXV6RG10bkJDZ3F1aWJKQXhRTkF1NV9rSEpJWUw3TjVJQkhCNUI4MnB1d09JTGJacXptVllETklyd3FfYVFVSHQxSWZ0MnBzcHZ6SXo5Vjd5M1FnX2tmaVdYbDRiSkVNRmpoOUxTU0RybENjNW9IWXFDUFR2N2NpZWtKQUU2TktoWkxBQmdEQVh5M1hyMFhKdVIweURVUWhxZWFENm5WT0lyUWFFRmZmcDNFVdIB3AFBVV95cUxNUHlEazY4dFRjV29qeUJvbjhPd1dIRjk3TkR5VjR4ZGlvYnFQT2JNeG5YR1B0Y01IRlZydl9Ob1k2bVBDRTBtcERLOUZWMVl0TVk2NmswdnZSalFDUVVNMlZmeVZKQTNWemNWaS1xYnZ4ZjZheHNocFRtNll1TUh2X3Q3RDVUZldhaWNWZlBTOE9mcFJyUmp6bU1oQWJYdWx6VVJfM0Y1WDRnV2FyR1lqbU1MVUFkenRDX1h1cnVBYThOWFd6azdLWXlsZE5uYVZWeGtGazJFTC1oaUdK?oc=5",
-      "sourcePriority": 3
     }
   ],
   "territorialGraph": {
     "version": "2.0",
-    "generatedAt": "2026-10-18T19:34:08.069202+00:00",
+    "generatedAt": "2026-10-18T22:19:53.768852+00:00",
     "root": "spc",
     "rule": "evidence-first",
     "levels": [
@@ -4530,7 +4420,7 @@
           "el chañar",
           "el chanar"
         ],
-        "eventCount": 9
+        "eventCount": 8
       },
       {
         "id": "rio-neuquen",
@@ -5102,9 +4992,6 @@
       "CHA-4e28c8319ee6": [
         "spc"
       ],
-      "CHA-8faef8807320": [
-        "spc"
-      ],
       "CHA-1298f0d1783a": [
         "spc",
         "epet-26"
@@ -5129,7 +5016,7 @@
       "nodes": 46,
       "activeNodes": 6,
       "edges": 6,
-      "eventsLinked": 9,
+      "eventsLinked": 8,
       "eventsWithMicrozones": 0,
       "eventsWithBarrios": 0,
       "eventsWithSectors": 1,
@@ -5149,26 +5036,20 @@
   },
   "audit": {
     "version": "1.0",
-    "updatedAt": "2026-10-18T19:34:08.119239+00:00",
+    "updatedAt": "2026-10-18T22:19:53.819804+00:00",
     "rule": "fact != coverage; territory requires textual evidence",
-    "facts": 9,
-    "coverage": 27,
-    "coveragePerFact": 3.0,
-    "directAnchorFacts": 9,
+    "facts": 8,
+    "coverage": 26,
+    "coveragePerFact": 3.25,
+    "directAnchorFacts": 8,
     "directAnchorPct": 100.0,
     "territorySpecificFacts": 3,
-    "territorySpecificPct": 33.3,
-    "averageSourcesPerFact": 2.0,
+    "territorySpecificPct": 37.5,
+    "averageSourcesPerFact": 2.12,
     "activeTerritorialNodes": 6,
     "failedSources": 10,
-    "acceptedWithoutLocalEvidence": 1,
-    "examplesAcceptedWithoutLocalEvidence": [
-      {
-        "title": "Zapala suma un nuevo centro de salud para acompañar el crecimiento de la ciudad - Neuquen Informa",
-        "source": "Neuquen Informa",
-        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQZ0s5R2pkREVPSTAwVUNpalhFclpUUUp4SXpwSEVfSWttWDFuRXV6RG10bkJDZ3F1aWJKQXhRTkF1NV9rSEpJWUw3TjVJQkhCNUI4MnB1d09JTGJacXptVllETklyd3FfYVFVSHQxSWZ0MnBzcHZ6SXo5Vjd5M1FnX2tmaVdYbDRiSkVNRmpoOUxTU0RybENjNW9IWXFDUFR2N2NpZWtKQUU2TktoWkxBQmdEQVh5M1hyMFhKdVIweURVUWhxZWFENm5WT0lyUWFFRmZmcDNFVdIB3AFBVV95cUxNUHlEazY4dFRjV29qeUJvbjhPd1dIRjk3TkR5VjR4ZGlvYnFQT2JNeG5YR1B0Y01IRlZydl9Ob1k2bVBDRTBtcERLOUZWMVl0TVk2NmswdnZSalFDUVVNMlZmeVZKQTNWemNWaS1xYnZ4ZjZheHNocFRtNll1TUh2X3Q3RDVUZldhaWNWZlBTOE9mcFJyUmp6bU1oQWJYdWx6VVJfM0Y1WDRnV2FyR1lqbU1MVUFkenRDX1h1cnVBYThOWFd6azdLWXlsZE5uYVZWeGtGazJFTC1oaUdK?oc=5"
-      }
-    ],
+    "acceptedWithoutLocalEvidence": 0,
+    "examplesAcceptedWithoutLocalEvidence": [],
     "interpretation": "auditoria técnica; no mide importancia, calidad periodística ni verdad del hecho"
   }
 }
