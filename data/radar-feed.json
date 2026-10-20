@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-20T01:11:04.302541+00:00",
+  "updatedAt": "2026-10-20T06:26:54.874553+00:00",
   "window": "14 días",
   "purpose": "Detectar qué se está moviendo en San Patricio del Chañar y mostrar de dónde surge cada señal.",
   "architecture": "contrato universal de procedencia + fuentes profesionales + adaptadores específicos + validación semántica + temporalidad + evidencia editorial separada",
@@ -49,7 +49,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://chanardigital.com.ar/",
-      "lastFetch": "2026-10-20T01:10:35.346652+00:00",
+      "lastFetch": "2026-10-20T06:26:28.866615+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -65,7 +65,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.radiomia.com.ar/",
-      "lastFetch": "2026-10-20T01:10:44.521333+00:00",
+      "lastFetch": "2026-10-20T06:26:35.743197+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -80,7 +80,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://tuitvacamuerta.com/",
-      "lastFetch": "2026-10-20T01:10:46.200839+00:00",
+      "lastFetch": "2026-10-20T06:26:37.717274+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -95,7 +95,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.vacamuertanews.com/",
-      "lastFetch": "2026-10-20T01:10:46.936839+00:00",
+      "lastFetch": "2026-10-20T06:26:38.371941+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -111,7 +111,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.neuqueninforma.gob.ar/",
-      "lastFetch": "2026-10-20T01:10:48.414858+00:00",
+      "lastFetch": "2026-10-20T06:26:40.031017+00:00",
       "success": false,
       "attempted": 3,
       "failures": [
@@ -128,7 +128,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://sanpatricio.gob.ar/",
-      "lastFetch": "2026-10-20T01:10:49.451873+00:00",
+      "lastFetch": "2026-10-20T06:26:41.090113+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -143,7 +143,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://boletinoficial.neuquen.gov.ar/",
-      "lastFetch": "2026-10-20T01:10:50.519277+00:00",
+      "lastFetch": "2026-10-20T06:26:41.857379+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -158,7 +158,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.lmneuquen.com/",
-      "lastFetch": "2026-10-20T01:10:50.964505+00:00",
+      "lastFetch": "2026-10-20T06:26:42.035037+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -174,7 +174,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.rionegro.com.ar/",
-      "lastFetch": "2026-10-20T01:10:51.501515+00:00",
+      "lastFetch": "2026-10-20T06:26:43.362370+00:00",
       "success": true,
       "attempted": 2,
       "failures": [
@@ -189,7 +189,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.mejorinformado.com/",
-      "lastFetch": "2026-10-20T01:10:52.883328+00:00",
+      "lastFetch": "2026-10-20T06:26:44.216451+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -205,7 +205,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.diariamenteneuquen.com/",
-      "lastFetch": "2026-10-20T01:10:53.767402+00:00",
+      "lastFetch": "2026-10-20T06:26:45.146355+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -718,16 +718,6 @@
       "direct": 17
     },
     {
-      "term": "ruta 7",
-      "hits": 1,
-      "direct": 1
-    },
-    {
-      "term": "parque industrial",
-      "hits": 1,
-      "direct": 1
-    },
-    {
       "term": "viñedos",
       "hits": 0,
       "direct": 0
@@ -754,6 +744,11 @@
     },
     {
       "term": "ruta 8",
+      "hits": 0,
+      "direct": 0
+    },
+    {
+      "term": "ruta 7",
       "hits": 0,
       "direct": 0
     },
@@ -809,6 +804,11 @@
     },
     {
       "term": "picada 1",
+      "hits": 0,
+      "direct": 0
+    },
+    {
+      "term": "parque industrial",
       "hits": 0,
       "direct": 0
     },
@@ -1219,19 +1219,6 @@
         "topics": []
       },
       {
-        "source": "Neuquen Informa",
-        "group": "OBSERVADA",
-        "role": "fuente detectada fuera del catálogo",
-        "accepted": 1,
-        "direct": 1,
-        "anchored": 0,
-        "falsePositives": 0,
-        "falsePositiveTypes": [],
-        "topics": [
-          "MOVILIDAD"
-        ]
-      },
-      {
         "source": "Neuquén Informa",
         "group": "REGIONAL",
         "role": "comunicación oficial provincial",
@@ -1498,18 +1485,6 @@
         ]
       },
       {
-        "source": "Neuquen Informa",
-        "topic": "MOVILIDAD",
-        "accepted": 1,
-        "direct": 1,
-        "anchored": 0,
-        "falsePositives": 0,
-        "territorialTerms": [
-          "parque industrial",
-          "ruta 7"
-        ]
-      },
-      {
         "source": "Neuquén News",
         "topic": "SEGURIDAD / EMERGENCIAS",
         "accepted": 1,
@@ -1678,8 +1653,8 @@
       },
       {
         "term": "parque industrial",
-        "acceptedHits": 1,
-        "directHits": 1,
+        "acceptedHits": 0,
+        "directHits": 0,
         "rejectedTitleHits": 0,
         "territorialStrength": "FUERTE"
       },
@@ -1776,8 +1751,8 @@
       },
       {
         "term": "ruta 7",
-        "acceptedHits": 1,
-        "directHits": 1,
+        "acceptedHits": 0,
+        "directHits": 0,
         "rejectedTitleHits": 0,
         "territorialStrength": "CORREDOR"
       },
@@ -1913,11 +1888,11 @@
     "interpretation": "auditoría sobre eventos aceptados; la próxima capa debe instrumentar rechazos antes del clustering"
   },
   "stats": {
-    "total": 21,
-    "direct": 21,
+    "total": 20,
+    "direct": 20,
     "regional": 0,
-    "new": 2,
-    "sources": 13,
+    "new": 0,
+    "sources": 12,
     "directSignals": 0,
     "localDirectSignals": 0,
     "radioDirectSignals": 0,
@@ -1931,7 +1906,7 @@
       "forecastGustKmh": 47.0,
       "forecastWindDirection": "NE",
       "forecastTemperatureC": 20.0,
-      "retrievedAt": "2026-10-20T01:10:33.271474+00:00",
+      "retrievedAt": "2026-10-20T06:26:26.516435+00:00",
       "source": "AIC",
       "sourceTier": "primary",
       "sourceUrl": "https://www.aic.gob.ar/sitio/home?a=1015&z=1967225803",
@@ -1961,7 +1936,7 @@
       "currentProgrammedMinM3s": 530,
       "programDate": "2026-10-21",
       "tableDate": "2026-10-20",
-      "retrievedAt": "2026-10-20T01:10:33.271474+00:00",
+      "retrievedAt": "2026-10-20T06:26:26.516435+00:00",
       "source": "AIC",
       "sourceTier": "primary",
       "sourceUrl": "https://www.aic.gob.ar/sitio/caudales",
@@ -1981,17 +1956,17 @@
         "url": "https://www.aic.gob.ar/sitio/caudales"
       }
     ],
-    "updatedAt": "2026-10-20T01:10:33.271474+00:00"
+    "updatedAt": "2026-10-20T06:26:26.516435+00:00"
   },
   "operational": {
-    "updatedAt": "2026-10-20T01:10:33.271474+00:00",
+    "updatedAt": "2026-10-20T06:26:26.516435+00:00",
     "route7": {
       "source": "Dirección Provincial de Vialidad",
       "sourceTier": "primary",
       "sourceUrl": "https://www.dpvneuquen.gov.ar/",
       "semanticState": null,
       "publicationState": "source_reachable_no_current_machine_readable_state",
-      "retrievedAt": "2026-10-20T01:10:33.271474+00:00",
+      "retrievedAt": "2026-10-20T06:26:26.516435+00:00",
       "evidence": {
         "route7Mention": true,
         "route8Mention": false
@@ -2003,7 +1978,7 @@
       "sourceUrl": "https://www.dpvneuquen.gov.ar/",
       "semanticState": null,
       "publicationState": "source_reachable_no_current_machine_readable_state",
-      "retrievedAt": "2026-10-20T01:10:33.271474+00:00",
+      "retrievedAt": "2026-10-20T06:26:26.516435+00:00",
       "evidence": {
         "route7Mention": true,
         "route8Mention": false
@@ -2017,7 +1992,7 @@
       "eventType": "scheduled_outage",
       "detail": "-03:00 Corte programado en sectores de Rincón de los Sauces el 17/10/26 Prensa EPEN 2026-10-16T11:42:32-03:00 Prensa EPEN 2026-10-16T11:42:32-03:00 Corte Programado en sectores de San Patricio del Chañar el 20/10/2026 Prensa EPEN 2026-10-16T08:52:16-03:00 Prensa EPEN 2026-10-16T08:52:16-03:00 Corte Programado en Caviahue/Copahue el 15/10/2026 Prensa EPEN 2026-10-14T13:22:08-03:00 Prensa EPEN 2026-10-14T13:22:08-03:00 Cortes Programados en sectores de Villa La Angostura los días 15 y 16/10/2026 Prensa EPEN 2026-10-13T10:16:03-03:00 Prensa EPEN 2026-10-13T10:16:03-03:00 1 2 Siguiente Load More Posts Visitanos en nuest",
       "publicationState": "specific_local_notice_found",
-      "retrievedAt": "2026-10-20T01:10:33.271474+00:00"
+      "retrievedAt": "2026-10-20T06:26:26.516435+00:00"
     },
     "water": {
       "source": "EPAS",
@@ -2027,7 +2002,7 @@
       "eventType": null,
       "detail": null,
       "publicationState": "source_reachable_no_specific_local_notice",
-      "retrievedAt": "2026-10-20T01:10:33.271474+00:00"
+      "retrievedAt": "2026-10-20T06:26:26.516435+00:00"
     },
     "sources": [
       {
@@ -2437,11 +2412,11 @@
     {
       "id": "CONVERSACIÓN",
       "label": "Conversación general",
-      "signal": 10,
+      "signal": 9,
       "status": "cobertura editorial",
-      "freshnessHours": 1.5,
+      "freshnessHours": 6.8,
       "mode": "evidencia editorial",
-      "evidenceCount": 10,
+      "evidenceCount": 9,
       "sourceContract": {
         "primary": "medios locales identificables",
         "secondary": "fuentes institucionales competentes",
@@ -2477,11 +2452,11 @@
     {
       "id": "RUTA 7",
       "label": "Corredor Ruta 7",
-      "signal": 1,
+      "signal": 0,
       "status": "estado vial",
-      "freshnessHours": 126.8,
+      "freshnessHours": null,
       "mode": "evidencia territorial",
-      "evidenceCount": 1,
+      "evidenceCount": 0,
       "sourceContract": {
         "primary": "Dirección Provincial de Vialidad del Neuquén",
         "secondary": "WSESTADORUTAS · sistema oficial de estado vial",
@@ -2519,7 +2494,7 @@
         "sourceUrl": "https://www.dpvneuquen.gov.ar/",
         "semanticState": null,
         "publicationState": "source_reachable_no_current_machine_readable_state",
-        "retrievedAt": "2026-10-20T01:10:33.271474+00:00",
+        "retrievedAt": "2026-10-20T06:26:26.516435+00:00",
         "evidence": {
           "route7Mention": true,
           "route8Mention": false
@@ -2571,7 +2546,7 @@
         "sourceUrl": "https://www.dpvneuquen.gov.ar/",
         "semanticState": null,
         "publicationState": "source_reachable_no_current_machine_readable_state",
-        "retrievedAt": "2026-10-20T01:10:33.271474+00:00",
+        "retrievedAt": "2026-10-20T06:26:26.516435+00:00",
         "evidence": {
           "route7Mention": true,
           "route8Mention": false
@@ -2671,7 +2646,7 @@
         "eventType": "scheduled_outage",
         "detail": "-03:00 Corte programado en sectores de Rincón de los Sauces el 17/10/26 Prensa EPEN 2026-10-16T11:42:32-03:00 Prensa EPEN 2026-10-16T11:42:32-03:00 Corte Programado en sectores de San Patricio del Chañar el 20/10/2026 Prensa EPEN 2026-10-16T08:52:16-03:00 Prensa EPEN 2026-10-16T08:52:16-03:00 Corte Programado en Caviahue/Copahue el 15/10/2026 Prensa EPEN 2026-10-14T13:22:08-03:00 Prensa EPEN 2026-10-14T13:22:08-03:00 Cortes Programados en sectores de Villa La Angostura los días 15 y 16/10/2026 Prensa EPEN 2026-10-13T10:16:03-03:00 Prensa EPEN 2026-10-13T10:16:03-03:00 1 2 Siguiente Load More Posts Visitanos en nuest",
         "publicationState": "specific_local_notice_found",
-        "retrievedAt": "2026-10-20T01:10:33.271474+00:00"
+        "retrievedAt": "2026-10-20T06:26:26.516435+00:00"
       }
     },
     {
@@ -2679,7 +2654,7 @@
       "label": "Agua / abastecimiento",
       "signal": 2,
       "status": "evento hídrico",
-      "freshnessHours": 72.0,
+      "freshnessHours": 77.3,
       "mode": "evidencia editorial",
       "evidenceCount": 2,
       "sourceContract": {
@@ -2721,7 +2696,7 @@
         "eventType": null,
         "detail": null,
         "publicationState": "source_reachable_no_specific_local_notice",
-        "retrievedAt": "2026-10-20T01:10:33.271474+00:00"
+        "retrievedAt": "2026-10-20T06:26:26.516435+00:00"
       }
     },
     {
@@ -2729,7 +2704,7 @@
       "label": "Servicios e infraestructura",
       "signal": 2,
       "status": "evidencia de servicio",
-      "freshnessHours": 72.0,
+      "freshnessHours": 77.3,
       "mode": "evidencia editorial",
       "evidenceCount": 2,
       "sourceContract": {
@@ -2809,7 +2784,7 @@
       "label": "Educación",
       "signal": 2,
       "status": "evidencia educativa",
-      "freshnessHours": 554.1,
+      "freshnessHours": 559.4,
       "mode": "evidencia editorial",
       "evidenceCount": 2,
       "sourceContract": {
@@ -2889,7 +2864,7 @@
       "label": "Seguridad / emergencias",
       "signal": 1,
       "status": "cobertura de emergencia",
-      "freshnessHours": 1.5,
+      "freshnessHours": 6.8,
       "mode": "evidencia editorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -2927,11 +2902,11 @@
     {
       "id": "TERRITORIO",
       "label": "Territorio / microzonas",
-      "signal": 1,
+      "signal": 0,
       "status": "hecho territorial",
-      "freshnessHours": 126.8,
+      "freshnessHours": null,
       "mode": "evidencia territorial",
-      "evidenceCount": 1,
+      "evidenceCount": 0,
       "sourceContract": {
         "primary": "Municipalidad de San Patricio del Chañar",
         "secondary": "organismo provincial competente según fenómeno",
@@ -2986,7 +2961,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://chanardigital.com.ar/",
-        "lastFetch": "2026-10-20T01:10:35.346652+00:00",
+        "lastFetch": "2026-10-20T06:26:28.866615+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3002,7 +2977,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.radiomia.com.ar/",
-        "lastFetch": "2026-10-20T01:10:44.521333+00:00",
+        "lastFetch": "2026-10-20T06:26:35.743197+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -3017,7 +2992,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://tuitvacamuerta.com/",
-        "lastFetch": "2026-10-20T01:10:46.200839+00:00",
+        "lastFetch": "2026-10-20T06:26:37.717274+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -3032,7 +3007,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.vacamuertanews.com/",
-        "lastFetch": "2026-10-20T01:10:46.936839+00:00",
+        "lastFetch": "2026-10-20T06:26:38.371941+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3048,7 +3023,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.neuqueninforma.gob.ar/",
-        "lastFetch": "2026-10-20T01:10:48.414858+00:00",
+        "lastFetch": "2026-10-20T06:26:40.031017+00:00",
         "success": false,
         "attempted": 3,
         "failures": [
@@ -3065,7 +3040,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://sanpatricio.gob.ar/",
-        "lastFetch": "2026-10-20T01:10:49.451873+00:00",
+        "lastFetch": "2026-10-20T06:26:41.090113+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -3080,7 +3055,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://boletinoficial.neuquen.gov.ar/",
-        "lastFetch": "2026-10-20T01:10:50.519277+00:00",
+        "lastFetch": "2026-10-20T06:26:41.857379+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -3095,7 +3070,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.lmneuquen.com/",
-        "lastFetch": "2026-10-20T01:10:50.964505+00:00",
+        "lastFetch": "2026-10-20T06:26:42.035037+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3111,7 +3086,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.rionegro.com.ar/",
-        "lastFetch": "2026-10-20T01:10:51.501515+00:00",
+        "lastFetch": "2026-10-20T06:26:43.362370+00:00",
         "success": true,
         "attempted": 2,
         "failures": [
@@ -3126,7 +3101,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.mejorinformado.com/",
-        "lastFetch": "2026-10-20T01:10:52.883328+00:00",
+        "lastFetch": "2026-10-20T06:26:44.216451+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3142,7 +3117,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.diariamenteneuquen.com/",
-        "lastFetch": "2026-10-20T01:10:53.767402+00:00",
+        "lastFetch": "2026-10-20T06:26:45.146355+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3169,7 +3144,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SEGURIDAD / EMERGENCIAS",
-      "movement": 76,
+      "movement": 75,
       "coverage": 2,
       "sourceCount": 2,
       "directSourceCount": 0,
@@ -3197,7 +3172,7 @@
           "relevance": 3,
           "relevanceLabel": "DIRECTA",
           "firstSeen": "2026-10-20T01:11:04.302541+00:00",
-          "isNew": true,
+          "isNew": false,
           "titleKey": "tras casi ocho años esfuerzo bomberos inauguran emblematico cuartel news",
           "evidenceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOT05TMWhjREpVcVl4dnhKdXZ1a29rcGZGTHJFdlVYTnVFaV96Z2hIY0I3d3A4cFVnaFpXZDVsbEcyZWdET18tQ1ZGakp0YzRQdmIwcTNOc0VhVVh3U2xrTzZYQjhUN2Z3cWJTcjdPcU43NG00dGoyNWxTVWkzbWQwRE5XdmdUMnoySW5OYkpKZ05oMkZUWDB6OUhPdXdXT0JZZzk5Ukcwc3dyWXZNR2RoblJ6cWxvdnRSZTVRVFNXbHc?oc=5",
           "sourcePriority": 3
@@ -3216,19 +3191,16 @@
           "relevance": 3,
           "relevanceLabel": "DIRECTA",
           "firstSeen": "2026-10-20T01:11:04.302541+00:00",
-          "isNew": true,
+          "isNew": false,
           "titleKey": "despues años esfuerzo bomberos inauguran cuartel noticiasnqn",
           "evidenceUrl": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxONWNnbEdkekJMbmtfVjRjdl9OeEdTcEo0MlQ2bFhSR0VzOVNOT3BVc2dIbDlWaE1ORi1ONW9pbkVOZnpOZG9CazkxOEdtUmRqbml2SXpsUnVDY3hvNnBXcFBQdjRqZUtBN3F0Um9Bd2VvcE0wRWNyNTVTYV9ZVWV4SG4xeUs2bWQtYV9qY3JXdVdVVl9iYkVKNnRzdlM2b1FwMVQtUlZ4VzJ0anB3b3hGU18weVpOUWVzS2JHTkt4RGlyeXM5ZXNRaEVJdlVJOEhoNmg3aFkzNy14aVdzc1FHMXRtc0nSAeQBQVVfeXFMTjVjZ2xHZHpCTG5rX1Y0Y3ZfTnhHU3BKNDJUNmxYUkdFczlTTk9wVXNnSGw5VmhNTkYtTjVvaW5FTmZ6TmRvQms5MThHbVJkam5pdkl6bFJ1Q2N4bzZwV3BQUHY0amVLQTdxdFJvQXdlb3BNMEVjcjU1U2FfWVVleEhuMXlLNm1kLWFfamNyV3VXVVZfYmJFSjZ0c3ZTNm9RcDFULVJWeFcydGpwd294RlNfMHlaTlFlc0tiR05LeERpcnlzOWVzUWhFSXZVSThIaDZoN2hZMzcteGlXc3NRRzF0bXNJ?oc=5",
           "sourcePriority": 3
         }
       ],
       "lifecycle": "EMERGENTE",
-      "movementDelta": 31,
-      "previousCoverage": 1,
-      "newSources": [
-        "Neuquén News",
-        "NoticiasNQN"
-      ],
+      "movementDelta": -1,
+      "previousCoverage": 2,
+      "newSources": [],
       "sourceDiversity": 2,
       "memoryMatched": true,
       "isNew": false,
@@ -3264,84 +3236,6 @@
             "node": "Bomberos Voluntarios",
             "level": "institucion",
             "evidence": "TEXTUAL"
-          }
-        ]
-      }
-    },
-    {
-      "eventId": "CHA-c17768fff2dc",
-      "title": "ATE exige una mesa de trabajo urgente al Municipio de San Patricio del Chañar - Chañar Digital",
-      "publishedAt": "2026-10-19T02:50:04+00:00",
-      "firstSeen": "2026-10-19T11:07:35.517182+00:00",
-      "lastSeen": "2026-10-19T02:50:04+00:00",
-      "relevance": 3,
-      "relevanceLabel": "DIRECTA",
-      "incidenceLabel": "DIRECTA EN CHANAR",
-      "topic": "SERVICIOS",
-      "movement": 55,
-      "coverage": 1,
-      "sourceCount": 1,
-      "directSourceCount": 0,
-      "territorialAnchors": [
-        "san patricio del chañar",
-        "el chañar"
-      ],
-      "sources": [
-        "Chañar Digital"
-      ],
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPNEtheVlFSERIbHJqTlFnb2Fqd04zWmNoRndIcmltSkJDcnBBZjVwdU94ZmRNNE5iV1dUVXhRcEdBZ0RSVnJmai05V21RRG9RZkN4bFVYX1VnWkkxSm5jeTNPNG1EaTJPLVBlOGk1aUR5aFBqTm9YcTVTaTJ1LVFIcW93X0xUVmlDUnNUdTFsSmx0dW9TeVc2TTJLVW90NTc1MzR4aHFOdTZzdHdVUjB4cmlUckRlLVJ2V0hvNTNFejlROGJjVFBjd2tjRQ?oc=5",
-      "items": [
-        {
-          "title": "ATE exige una mesa de trabajo urgente al Municipio de San Patricio del Chañar - Chañar Digital",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPNEtheVlFSERIbHJqTlFnb2Fqd04zWmNoRndIcmltSkJDcnBBZjVwdU94ZmRNNE5iV1dUVXhRcEdBZ0RSVnJmai05V21RRG9RZkN4bFVYX1VnWkkxSm5jeTNPNG1EaTJPLVBlOGk1aUR5aFBqTm9YcTVTaTJ1LVFIcW93X0xUVmlDUnNUdTFsSmx0dW9TeVc2TTJLVW90NTc1MzR4aHFOdTZzdHdVUjB4cmlUckRlLVJ2V0hvNTNFejlROGJjVFBjd2tjRQ?oc=5",
-          "publishedAt": "2026-10-19T02:50:04+00:00",
-          "published": "2026-10-19T02:50:04+00:00",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMiywFBVV95cUxPNEtheVlFSERIbHJqTlFnb2Fqd04zWmNoRndIcmltSkJDcnBBZjVwdU94ZmRNNE5iV1dUVXhRcEdBZ0RSVnJmai05V21RRG9RZkN4bFVYX1VnWkkxSm5jeTNPNG1EaTJPLVBlOGk1aUR5aFBqTm9YcTVTaTJ1LVFIcW93X0xUVmlDUnNUdTFsSmx0dW9TeVc2TTJLVW90NTc1MzR4aHFOdTZzdHdVUjB4cmlUckRlLVJ2V0hvNTNFejlROGJjVFBjd2tjRQ?oc=5\" target=\"_blank\">ATE exige una mesa de trabajo urgente al Municipio de San Patricio del Chañar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Chañar Digital</font>",
-          "source": "Chañar Digital",
-          "sourceType": "BUSCADOR / RESPALDO",
-          "sourceUrl": "",
-          "collection": "BUSCADOR",
-          "query": "site:chanardigital.com.ar \"San Patricio del Chañar\"",
-          "relevance": 3,
-          "relevanceLabel": "DIRECTA",
-          "firstSeen": "2026-10-19T11:07:35.517182+00:00",
-          "isNew": false,
-          "titleKey": "ate exige mesa trabajo urgente digital",
-          "evidenceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPNEtheVlFSERIbHJqTlFnb2Fqd04zWmNoRndIcmltSkJDcnBBZjVwdU94ZmRNNE5iV1dUVXhRcEdBZ0RSVnJmai05V21RRG9RZkN4bFVYX1VnWkkxSm5jeTNPNG1EaTJPLVBlOGk1aUR5aFBqTm9YcTVTaTJ1LVFIcW93X0xUVmlDUnNUdTFsSmx0dW9TeVc2TTJLVW90NTc1MzR4aHFOdTZzdHdVUjB4cmlUckRlLVJ2V0hvNTNFejlROGJjVFBjd2tjRQ?oc=5",
-          "sourcePriority": 3
-        }
-      ],
-      "lifecycle": "EMERGENTE",
-      "movementDelta": -1,
-      "previousCoverage": 1,
-      "newSources": [],
-      "sourceDiversity": 1,
-      "memoryMatched": true,
-      "isNew": false,
-      "view": "INCIDENCIA",
-      "incidenceEligible": true,
-      "signalReason": "reservado a incidencia territorial",
-      "incidenceReason": "anclaje directo + tema operativo/local",
-      "territory": {
-        "version": "2.0",
-        "primary": "San Patricio del Chañar",
-        "nodes": [
-          "San Patricio del Chañar"
-        ],
-        "sectors": [],
-        "barrios": [],
-        "microzones": [],
-        "corridors": [],
-        "institutions": [],
-        "services": [],
-        "spaces": [],
-        "production": [],
-        "path": "San Patricio del Chañar",
-        "evidence": [
-          {
-            "node": "San Patricio del Chañar",
-            "level": "localidad",
-            "evidence": "DIRECTA"
           }
         ]
       }
@@ -3530,8 +3424,8 @@
         }
       ],
       "lifecycle": "ACTIVO",
-      "movementDelta": 39,
-      "previousCoverage": 7,
+      "movementDelta": 10,
+      "previousCoverage": 1,
       "newSources": [
         "Alerta Digital",
         "Neuquén al instante",
@@ -3543,6 +3437,84 @@
         "NoticiasNQN"
       ],
       "sourceDiversity": 8,
+      "memoryMatched": true,
+      "isNew": false,
+      "view": "INCIDENCIA",
+      "incidenceEligible": true,
+      "signalReason": "reservado a incidencia territorial",
+      "incidenceReason": "anclaje directo + tema operativo/local",
+      "territory": {
+        "version": "2.0",
+        "primary": "San Patricio del Chañar",
+        "nodes": [
+          "San Patricio del Chañar"
+        ],
+        "sectors": [],
+        "barrios": [],
+        "microzones": [],
+        "corridors": [],
+        "institutions": [],
+        "services": [],
+        "spaces": [],
+        "production": [],
+        "path": "San Patricio del Chañar",
+        "evidence": [
+          {
+            "node": "San Patricio del Chañar",
+            "level": "localidad",
+            "evidence": "DIRECTA"
+          }
+        ]
+      }
+    },
+    {
+      "eventId": "CHA-c17768fff2dc",
+      "title": "ATE exige una mesa de trabajo urgente al Municipio de San Patricio del Chañar - Chañar Digital",
+      "publishedAt": "2026-10-19T02:50:04+00:00",
+      "firstSeen": "2026-10-19T11:07:35.517182+00:00",
+      "lastSeen": "2026-10-19T02:50:04+00:00",
+      "relevance": 3,
+      "relevanceLabel": "DIRECTA",
+      "incidenceLabel": "DIRECTA EN CHANAR",
+      "topic": "SERVICIOS",
+      "movement": 53,
+      "coverage": 1,
+      "sourceCount": 1,
+      "directSourceCount": 0,
+      "territorialAnchors": [
+        "san patricio del chañar",
+        "el chañar"
+      ],
+      "sources": [
+        "Chañar Digital"
+      ],
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPNEtheVlFSERIbHJqTlFnb2Fqd04zWmNoRndIcmltSkJDcnBBZjVwdU94ZmRNNE5iV1dUVXhRcEdBZ0RSVnJmai05V21RRG9RZkN4bFVYX1VnWkkxSm5jeTNPNG1EaTJPLVBlOGk1aUR5aFBqTm9YcTVTaTJ1LVFIcW93X0xUVmlDUnNUdTFsSmx0dW9TeVc2TTJLVW90NTc1MzR4aHFOdTZzdHdVUjB4cmlUckRlLVJ2V0hvNTNFejlROGJjVFBjd2tjRQ?oc=5",
+      "items": [
+        {
+          "title": "ATE exige una mesa de trabajo urgente al Municipio de San Patricio del Chañar - Chañar Digital",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPNEtheVlFSERIbHJqTlFnb2Fqd04zWmNoRndIcmltSkJDcnBBZjVwdU94ZmRNNE5iV1dUVXhRcEdBZ0RSVnJmai05V21RRG9RZkN4bFVYX1VnWkkxSm5jeTNPNG1EaTJPLVBlOGk1aUR5aFBqTm9YcTVTaTJ1LVFIcW93X0xUVmlDUnNUdTFsSmx0dW9TeVc2TTJLVW90NTc1MzR4aHFOdTZzdHdVUjB4cmlUckRlLVJ2V0hvNTNFejlROGJjVFBjd2tjRQ?oc=5",
+          "publishedAt": "2026-10-19T02:50:04+00:00",
+          "published": "2026-10-19T02:50:04+00:00",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMiywFBVV95cUxPNEtheVlFSERIbHJqTlFnb2Fqd04zWmNoRndIcmltSkJDcnBBZjVwdU94ZmRNNE5iV1dUVXhRcEdBZ0RSVnJmai05V21RRG9RZkN4bFVYX1VnWkkxSm5jeTNPNG1EaTJPLVBlOGk1aUR5aFBqTm9YcTVTaTJ1LVFIcW93X0xUVmlDUnNUdTFsSmx0dW9TeVc2TTJLVW90NTc1MzR4aHFOdTZzdHdVUjB4cmlUckRlLVJ2V0hvNTNFejlROGJjVFBjd2tjRQ?oc=5\" target=\"_blank\">ATE exige una mesa de trabajo urgente al Municipio de San Patricio del Chañar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Chañar Digital</font>",
+          "source": "Chañar Digital",
+          "sourceType": "BUSCADOR / RESPALDO",
+          "sourceUrl": "",
+          "collection": "BUSCADOR",
+          "query": "site:chanardigital.com.ar \"San Patricio del Chañar\"",
+          "relevance": 3,
+          "relevanceLabel": "DIRECTA",
+          "firstSeen": "2026-10-19T11:07:35.517182+00:00",
+          "isNew": false,
+          "titleKey": "ate exige mesa trabajo urgente digital",
+          "evidenceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPNEtheVlFSERIbHJqTlFnb2Fqd04zWmNoRndIcmltSkJDcnBBZjVwdU94ZmRNNE5iV1dUVXhRcEdBZ0RSVnJmai05V21RRG9RZkN4bFVYX1VnWkkxSm5jeTNPNG1EaTJPLVBlOGk1aUR5aFBqTm9YcTVTaTJ1LVFIcW93X0xUVmlDUnNUdTFsSmx0dW9TeVc2TTJLVW90NTc1MzR4aHFOdTZzdHdVUjB4cmlUckRlLVJ2V0hvNTNFejlROGJjVFBjd2tjRQ?oc=5",
+          "sourcePriority": 3
+        }
+      ],
+      "lifecycle": "EMERGENTE",
+      "movementDelta": -2,
+      "previousCoverage": 1,
+      "newSources": [],
+      "sourceDiversity": 1,
       "memoryMatched": true,
       "isNew": false,
       "view": "INCIDENCIA",
@@ -3662,7 +3634,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SERVICIOS",
-      "movement": 42,
+      "movement": 40,
       "coverage": 2,
       "sourceCount": 2,
       "directSourceCount": 0,
@@ -3716,7 +3688,7 @@
         }
       ],
       "lifecycle": "SOSTENIDO",
-      "movementDelta": 22,
+      "movementDelta": 20,
       "previousCoverage": 1,
       "newSources": [
         "Chañar Digital",
@@ -3760,100 +3732,6 @@
       }
     },
     {
-      "eventId": "CHA-3c484dc05a5b",
-      "title": "Precaución en Ruta 7: Realizarán estudios para el proyecto de intercambiador en la rotonda del Parque Industrial - Neuquen Informa",
-      "publishedAt": "2026-10-14T18:22:46+00:00",
-      "firstSeen": "2026-10-18T13:31:25.333115+00:00",
-      "lastSeen": "2026-10-14T18:22:46+00:00",
-      "relevance": 3,
-      "relevanceLabel": "DIRECTA",
-      "incidenceLabel": "DIRECTA EN CHANAR",
-      "topic": "MOVILIDAD",
-      "movement": 27,
-      "coverage": 1,
-      "sourceCount": 1,
-      "directSourceCount": 0,
-      "territorialAnchors": [
-        "parque industrial",
-        "ruta 7"
-      ],
-      "sources": [
-        "Neuquen Informa"
-      ],
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOZFNielEtcHJnODZrUld0dUV3SWRJc21mNHFaWXY0RjRXYWZ1V0gtLVBWMFhWMU5wcldwTW5pel9WWVlVRWJzV25pWjFuOTgyNWdQVWt0Z0tLNlQ1YmdmNUJ1eUxQdFZLZ3Q0SmctaUNmQ2RRbXlseDU1T0hBRWxUWTZPU2J4WEtpN1p2bDVySFFaU3o2U3FTOGdDNENzYmZ3cVM0T2tLVXpHbGhTQ2FMV05vd1BnVVJWelZmLUluTlVMZS1haDFlVkkyQXBPUlVmTm9EcU9NRXppWk12Z29ia1piVE1uazFCaEg1dUsxb0gyYkRnTUhmUTFjaVhCa3QxckHSAYcCQVVfeXFMT20tUm8zQTNBb19zcEo0M3J0a1otQW0xcFlqN291YWhpZWVLT3d5Qm42ejVTVmp1TVFiM1pnem1zLXc1UDYySGVEcjZ5Y3otRWN6TC1ZZ3RlTEtPYkw2TFEzbjhuWmJrU3pLSGtLSUl3RkdObDN3bVZSM1ZGOHJnU1BHWEdkc1lhSkZ5QzNRQ0RMZTBGQl9Uc0xYa0dVZXZNclJNOWtZRTFwMl9KSWJCVkpTc1FWX1Q5NGl3SkFXaHREN3ZxNEpxMW5BdjAxaTBfV1RLcjBneFRGU2Q5b0Exb282TFBob0ZCN3hUOEFWU19aZ2dpN09HRXBMX3I5R3I0VmJGVm0xTjQ?oc=5",
-      "items": [
-        {
-          "title": "Precaución en Ruta 7: Realizarán estudios para el proyecto de intercambiador en la rotonda del Parque Industrial - Neuquen Informa",
-          "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOZFNielEtcHJnODZrUld0dUV3SWRJc21mNHFaWXY0RjRXYWZ1V0gtLVBWMFhWMU5wcldwTW5pel9WWVlVRWJzV25pWjFuOTgyNWdQVWt0Z0tLNlQ1YmdmNUJ1eUxQdFZLZ3Q0SmctaUNmQ2RRbXlseDU1T0hBRWxUWTZPU2J4WEtpN1p2bDVySFFaU3o2U3FTOGdDNENzYmZ3cVM0T2tLVXpHbGhTQ2FMV05vd1BnVVJWelZmLUluTlVMZS1haDFlVkkyQXBPUlVmTm9EcU9NRXppWk12Z29ia1piVE1uazFCaEg1dUsxb0gyYkRnTUhmUTFjaVhCa3QxckHSAYcCQVVfeXFMT20tUm8zQTNBb19zcEo0M3J0a1otQW0xcFlqN291YWhpZWVLT3d5Qm42ejVTVmp1TVFiM1pnem1zLXc1UDYySGVEcjZ5Y3otRWN6TC1ZZ3RlTEtPYkw2TFEzbjhuWmJrU3pLSGtLSUl3RkdObDN3bVZSM1ZGOHJnU1BHWEdkc1lhSkZ5QzNRQ0RMZTBGQl9Uc0xYa0dVZXZNclJNOWtZRTFwMl9KSWJCVkpTc1FWX1Q5NGl3SkFXaHREN3ZxNEpxMW5BdjAxaTBfV1RLcjBneFRGU2Q5b0Exb282TFBob0ZCN3hUOEFWU19aZ2dpN09HRXBMX3I5R3I0VmJGVm0xTjQ?oc=5",
-          "publishedAt": "2026-10-14T18:22:46+00:00",
-          "published": "2026-10-14T18:22:46+00:00",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMiggJBVV95cUxOZFNielEtcHJnODZrUld0dUV3SWRJc21mNHFaWXY0RjRXYWZ1V0gtLVBWMFhWMU5wcldwTW5pel9WWVlVRWJzV25pWjFuOTgyNWdQVWt0Z0tLNlQ1YmdmNUJ1eUxQdFZLZ3Q0SmctaUNmQ2RRbXlseDU1T0hBRWxUWTZPU2J4WEtpN1p2bDVySFFaU3o2U3FTOGdDNENzYmZ3cVM0T2tLVXpHbGhTQ2FMV05vd1BnVVJWelZmLUluTlVMZS1haDFlVkkyQXBPUlVmTm9EcU9NRXppWk12Z29ia1piVE1uazFCaEg1dUsxb0gyYkRnTUhmUTFjaVhCa3QxckHSAYcCQVVfeXFMT20tUm8zQTNBb19zcEo0M3J0a1otQW0xcFlqN291YWhpZWVLT3d5Qm42ejVTVmp1TVFiM1pnem1zLXc1UDYySGVEcjZ5Y3otRWN6TC1ZZ3RlTEtPYkw2TFEzbjhuWmJrU3pLSGtLSUl3RkdObDN3bVZSM1ZGOHJnU1BHWEdkc1lhSkZ5QzNRQ0RMZTBGQl9Uc0xYa0dVZXZNclJNOWtZRTFwMl9KSWJCVkpTc1FWX1Q5NGl3SkFXaHREN3ZxNEpxMW5BdjAxaTBfV1RLcjBneFRGU2Q5b0Exb282TFBob0ZCN3hUOEFWU19aZ2dpN09HRXBMX3I5R3I0VmJGVm0xTjQ?oc=5\" target=\"_blank\">Precaución en Ruta 7: Realizarán estudios para el proyecto de intercambiador en la rotonda del Parque Industrial</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Neuquen Informa</font>",
-          "source": "Neuquen Informa",
-          "sourceType": "BUSCADOR / RESPALDO",
-          "sourceUrl": "",
-          "collection": "BUSCADOR",
-          "query": "site:neuqueninforma.gob.ar \"San Patricio del Chañar\"",
-          "relevance": 3,
-          "relevanceLabel": "DIRECTA",
-          "firstSeen": "2026-10-18T13:31:25.333115+00:00",
-          "isNew": false,
-          "titleKey": "precaucion ruta realizaran estudios proyecto intercambiador rotonda parque industrial informa",
-          "evidenceUrl": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOZFNielEtcHJnODZrUld0dUV3SWRJc21mNHFaWXY0RjRXYWZ1V0gtLVBWMFhWMU5wcldwTW5pel9WWVlVRWJzV25pWjFuOTgyNWdQVWt0Z0tLNlQ1YmdmNUJ1eUxQdFZLZ3Q0SmctaUNmQ2RRbXlseDU1T0hBRWxUWTZPU2J4WEtpN1p2bDVySFFaU3o2U3FTOGdDNENzYmZ3cVM0T2tLVXpHbGhTQ2FMV05vd1BnVVJWelZmLUluTlVMZS1haDFlVkkyQXBPUlVmTm9EcU9NRXppWk12Z29ia1piVE1uazFCaEg1dUsxb0gyYkRnTUhmUTFjaVhCa3QxckHSAYcCQVVfeXFMT20tUm8zQTNBb19zcEo0M3J0a1otQW0xcFlqN291YWhpZWVLT3d5Qm42ejVTVmp1TVFiM1pnem1zLXc1UDYySGVEcjZ5Y3otRWN6TC1ZZ3RlTEtPYkw2TFEzbjhuWmJrU3pLSGtLSUl3RkdObDN3bVZSM1ZGOHJnU1BHWEdkc1lhSkZ5QzNRQ0RMZTBGQl9Uc0xYa0dVZXZNclJNOWtZRTFwMl9KSWJCVkpTc1FWX1Q5NGl3SkFXaHREN3ZxNEpxMW5BdjAxaTBfV1RLcjBneFRGU2Q5b0Exb282TFBob0ZCN3hUOEFWU19aZ2dpN09HRXBMX3I5R3I0VmJGVm0xTjQ?oc=5",
-          "sourcePriority": 3
-        }
-      ],
-      "lifecycle": "RECIENTE",
-      "movementDelta": -1,
-      "previousCoverage": 1,
-      "newSources": [],
-      "sourceDiversity": 1,
-      "memoryMatched": true,
-      "isNew": false,
-      "view": "INCIDENCIA",
-      "incidenceEligible": true,
-      "signalReason": "reservado a incidencia territorial",
-      "incidenceReason": "anclaje directo + tema operativo/local",
-      "territory": {
-        "version": "2.0",
-        "primary": "San Patricio del Chañar",
-        "nodes": [
-          "San Patricio del Chañar",
-          "Ruta 7",
-          "Parque Industrial"
-        ],
-        "sectors": [
-          "Parque Industrial"
-        ],
-        "barrios": [],
-        "microzones": [],
-        "corridors": [
-          "Ruta 7"
-        ],
-        "institutions": [],
-        "services": [],
-        "spaces": [],
-        "production": [],
-        "path": "San Patricio del Chañar → Parque Industrial → Ruta 7",
-        "evidence": [
-          {
-            "node": "San Patricio del Chañar",
-            "level": "localidad",
-            "evidence": "DIRECTA"
-          },
-          {
-            "node": "Ruta 7",
-            "level": "corredor",
-            "evidence": "TEXTUAL"
-          },
-          {
-            "node": "Parque Industrial",
-            "level": "sector",
-            "evidence": "TEXTUAL"
-          }
-        ]
-      }
-    },
-    {
       "eventId": "CHA-7b194d928a62",
       "title": "Finaliza la tarea en el cementerio de El Chañar, donde buscaban desaparecidos de Neuquén - Diario Río Negro",
       "publishedAt": "2026-10-13T15:16:00+00:00",
@@ -3863,7 +3741,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SERVICIOS",
-      "movement": 20,
+      "movement": 18,
       "coverage": 1,
       "sourceCount": 1,
       "directSourceCount": 0,
@@ -3896,7 +3774,7 @@
         }
       ],
       "lifecycle": "EN DESCENSO",
-      "movementDelta": 4,
+      "movementDelta": 2,
       "previousCoverage": 1,
       "newSources": [
         "Diario Río Negro"
@@ -3975,15 +3853,15 @@
           "sourcePriority": 3
         }
       ],
-      "lifecycle": "ACTIVO",
-      "movementDelta": 0,
-      "previousCoverage": 0,
+      "lifecycle": "EN DESCENSO",
+      "movementDelta": -11,
+      "previousCoverage": 1,
       "newSources": [
         "Neuquén News"
       ],
       "sourceDiversity": 1,
-      "memoryMatched": false,
-      "isNew": true,
+      "memoryMatched": true,
+      "isNew": false,
       "view": "INCIDENCIA",
       "incidenceEligible": true,
       "signalReason": "reservado a incidencia territorial",
@@ -4321,7 +4199,7 @@
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "firstSeen": "2026-10-20T01:11:04.302541+00:00",
-      "isNew": true,
+      "isNew": false,
       "titleKey": "tras casi ocho años esfuerzo bomberos inauguran emblematico cuartel news",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOT05TMWhjREpVcVl4dnhKdXZ1a29rcGZGTHJFdlVYTnVFaV96Z2hIY0I3d3A4cFVnaFpXZDVsbEcyZWdET18tQ1ZGakp0YzRQdmIwcTNOc0VhVVh3U2xrTzZYQjhUN2Z3cWJTcjdPcU43NG00dGoyNWxTVWkzbWQwRE5XdmdUMnoySW5OYkpKZ05oMkZUWDB6OUhPdXdXT0JZZzk5Ukcwc3dyWXZNR2RoblJ6cWxvdnRSZTVRVFNXbHc?oc=5",
       "sourcePriority": 3
@@ -4340,7 +4218,7 @@
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "firstSeen": "2026-10-20T01:11:04.302541+00:00",
-      "isNew": true,
+      "isNew": false,
       "titleKey": "despues años esfuerzo bomberos inauguran cuartel noticiasnqn",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxONWNnbEdkekJMbmtfVjRjdl9OeEdTcEo0MlQ2bFhSR0VzOVNOT3BVc2dIbDlWaE1ORi1ONW9pbkVOZnpOZG9CazkxOEdtUmRqbml2SXpsUnVDY3hvNnBXcFBQdjRqZUtBN3F0Um9Bd2VvcE0wRWNyNTVTYV9ZVWV4SG4xeUs2bWQtYV9qY3JXdVdVVl9iYkVKNnRzdlM2b1FwMVQtUlZ4VzJ0anB3b3hGU18weVpOUWVzS2JHTkt4RGlyeXM5ZXNRaEVJdlVJOEhoNmg3aFkzNy14aVdzc1FHMXRtc0nSAeQBQVVfeXFMTjVjZ2xHZHpCTG5rX1Y0Y3ZfTnhHU3BKNDJUNmxYUkdFczlTTk9wVXNnSGw5VmhNTkYtTjVvaW5FTmZ6TmRvQms5MThHbVJkam5pdkl6bFJ1Q2N4bzZwV3BQUHY0amVLQTdxdFJvQXdlb3BNMEVjcjU1U2FfWVVleEhuMXlLNm1kLWFfamNyV3VXVVZfYmJFSjZ0c3ZTNm9RcDFULVJWeFcydGpwd294RlNfMHlaTlFlc0tiR05LeERpcnlzOWVzUWhFSXZVSThIaDZoN2hZMzcteGlXc3NRRzF0bXNJ?oc=5",
       "sourcePriority": 3
@@ -4400,25 +4278,6 @@
       "isNew": false,
       "titleKey": "corte programado sectores 2026 epen",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNcEw5enVjamYtdkJ3VXpFaTEtbTlHX2VVMVpjdnVIM2N4QmEzZ0UyNlltaFhTN3l1QVh0NUZ0eXhTY3lJOHVKbWE3SlhFVjk0Wm9XY3JLb0pNQzJMSzhmby1hTmdvbW9OOUFRejh5NU92YTNpRlBuQ2J4ZGtfSXVhZ3Rfbk1la1p4TUsxdzRTT3hKNFhsSm81RzVvWVFDWHB5elhlSHNxV2V3ZElJc1dtb19ndFpsdw?oc=5",
-      "sourcePriority": 3
-    },
-    {
-      "title": "Precaución en Ruta 7: Realizarán estudios para el proyecto de intercambiador en la rotonda del Parque Industrial - Neuquen Informa",
-      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOZFNielEtcHJnODZrUld0dUV3SWRJc21mNHFaWXY0RjRXYWZ1V0gtLVBWMFhWMU5wcldwTW5pel9WWVlVRWJzV25pWjFuOTgyNWdQVWt0Z0tLNlQ1YmdmNUJ1eUxQdFZLZ3Q0SmctaUNmQ2RRbXlseDU1T0hBRWxUWTZPU2J4WEtpN1p2bDVySFFaU3o2U3FTOGdDNENzYmZ3cVM0T2tLVXpHbGhTQ2FMV05vd1BnVVJWelZmLUluTlVMZS1haDFlVkkyQXBPUlVmTm9EcU9NRXppWk12Z29ia1piVE1uazFCaEg1dUsxb0gyYkRnTUhmUTFjaVhCa3QxckHSAYcCQVVfeXFMT20tUm8zQTNBb19zcEo0M3J0a1otQW0xcFlqN291YWhpZWVLT3d5Qm42ejVTVmp1TVFiM1pnem1zLXc1UDYySGVEcjZ5Y3otRWN6TC1ZZ3RlTEtPYkw2TFEzbjhuWmJrU3pLSGtLSUl3RkdObDN3bVZSM1ZGOHJnU1BHWEdkc1lhSkZ5QzNRQ0RMZTBGQl9Uc0xYa0dVZXZNclJNOWtZRTFwMl9KSWJCVkpTc1FWX1Q5NGl3SkFXaHREN3ZxNEpxMW5BdjAxaTBfV1RLcjBneFRGU2Q5b0Exb282TFBob0ZCN3hUOEFWU19aZ2dpN09HRXBMX3I5R3I0VmJGVm0xTjQ?oc=5",
-      "publishedAt": "2026-10-14T18:22:46+00:00",
-      "published": "2026-10-14T18:22:46+00:00",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMiggJBVV95cUxOZFNielEtcHJnODZrUld0dUV3SWRJc21mNHFaWXY0RjRXYWZ1V0gtLVBWMFhWMU5wcldwTW5pel9WWVlVRWJzV25pWjFuOTgyNWdQVWt0Z0tLNlQ1YmdmNUJ1eUxQdFZLZ3Q0SmctaUNmQ2RRbXlseDU1T0hBRWxUWTZPU2J4WEtpN1p2bDVySFFaU3o2U3FTOGdDNENzYmZ3cVM0T2tLVXpHbGhTQ2FMV05vd1BnVVJWelZmLUluTlVMZS1haDFlVkkyQXBPUlVmTm9EcU9NRXppWk12Z29ia1piVE1uazFCaEg1dUsxb0gyYkRnTUhmUTFjaVhCa3QxckHSAYcCQVVfeXFMT20tUm8zQTNBb19zcEo0M3J0a1otQW0xcFlqN291YWhpZWVLT3d5Qm42ejVTVmp1TVFiM1pnem1zLXc1UDYySGVEcjZ5Y3otRWN6TC1ZZ3RlTEtPYkw2TFEzbjhuWmJrU3pLSGtLSUl3RkdObDN3bVZSM1ZGOHJnU1BHWEdkc1lhSkZ5QzNRQ0RMZTBGQl9Uc0xYa0dVZXZNclJNOWtZRTFwMl9KSWJCVkpTc1FWX1Q5NGl3SkFXaHREN3ZxNEpxMW5BdjAxaTBfV1RLcjBneFRGU2Q5b0Exb282TFBob0ZCN3hUOEFWU19aZ2dpN09HRXBMX3I5R3I0VmJGVm0xTjQ?oc=5\" target=\"_blank\">Precaución en Ruta 7: Realizarán estudios para el proyecto de intercambiador en la rotonda del Parque Industrial</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Neuquen Informa</font>",
-      "source": "Neuquen Informa",
-      "sourceType": "BUSCADOR / RESPALDO",
-      "sourceUrl": "",
-      "collection": "BUSCADOR",
-      "query": "site:neuqueninforma.gob.ar \"San Patricio del Chañar\"",
-      "relevance": 3,
-      "relevanceLabel": "DIRECTA",
-      "firstSeen": "2026-10-18T13:31:25.333115+00:00",
-      "isNew": false,
-      "titleKey": "precaucion ruta realizaran estudios proyecto intercambiador rotonda parque industrial informa",
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOZFNielEtcHJnODZrUld0dUV3SWRJc21mNHFaWXY0RjRXYWZ1V0gtLVBWMFhWMU5wcldwTW5pel9WWVlVRWJzV25pWjFuOTgyNWdQVWt0Z0tLNlQ1YmdmNUJ1eUxQdFZLZ3Q0SmctaUNmQ2RRbXlseDU1T0hBRWxUWTZPU2J4WEtpN1p2bDVySFFaU3o2U3FTOGdDNENzYmZ3cVM0T2tLVXpHbGhTQ2FMV05vd1BnVVJWelZmLUluTlVMZS1haDFlVkkyQXBPUlVmTm9EcU9NRXppWk12Z29ia1piVE1uazFCaEg1dUsxb0gyYkRnTUhmUTFjaVhCa3QxckHSAYcCQVVfeXFMT20tUm8zQTNBb19zcEo0M3J0a1otQW0xcFlqN291YWhpZWVLT3d5Qm42ejVTVmp1TVFiM1pnem1zLXc1UDYySGVEcjZ5Y3otRWN6TC1ZZ3RlTEtPYkw2TFEzbjhuWmJrU3pLSGtLSUl3RkdObDN3bVZSM1ZGOHJnU1BHWEdkc1lhSkZ5QzNRQ0RMZTBGQl9Uc0xYa0dVZXZNclJNOWtZRTFwMl9KSWJCVkpTc1FWX1Q5NGl3SkFXaHREN3ZxNEpxMW5BdjAxaTBfV1RLcjBneFRGU2Q5b0Exb282TFBob0ZCN3hUOEFWU19aZ2dpN09HRXBMX3I5R3I0VmJGVm0xTjQ?oc=5",
       "sourcePriority": 3
     },
     {
@@ -4709,7 +4568,7 @@
   ],
   "territorialGraph": {
     "version": "2.0",
-    "generatedAt": "2026-10-20T01:11:15.558758+00:00",
+    "generatedAt": "2026-10-20T06:27:06.654706+00:00",
     "root": "spc",
     "rule": "evidence-first",
     "levels": [
@@ -4736,7 +4595,7 @@
           "el chañar",
           "el chanar"
         ],
-        "eventCount": 10
+        "eventCount": 9
       },
       {
         "id": "rio-neuquen",
@@ -4758,7 +4617,7 @@
           "ruta 7",
           "ruta provincial 7"
         ],
-        "eventCount": 1
+        "eventCount": 0
       },
       {
         "id": "ruta-8",
@@ -4945,7 +4804,7 @@
         "aliases": [
           "parque industrial"
         ],
-        "eventCount": 1
+        "eventCount": 0
       },
       {
         "id": "loteo-social",
@@ -5265,28 +5124,7 @@
         "evidence": "menciones de ambos nodos dentro del mismo hecho"
       },
       {
-        "from": "parque-industrial",
-        "to": "ruta-7",
-        "relation": "COOCURRENCIA_TEXTUAL",
-        "eventCount": 1,
-        "evidence": "menciones de ambos nodos dentro del mismo hecho"
-      },
-      {
-        "from": "parque-industrial",
-        "to": "spc",
-        "relation": "COOCURRENCIA_TEXTUAL",
-        "eventCount": 1,
-        "evidence": "menciones de ambos nodos dentro del mismo hecho"
-      },
-      {
         "from": "rio-neuquen",
-        "to": "spc",
-        "relation": "COOCURRENCIA_TEXTUAL",
-        "eventCount": 1,
-        "evidence": "menciones de ambos nodos dentro del mismo hecho"
-      },
-      {
-        "from": "ruta-7",
         "to": "spc",
         "relation": "COOCURRENCIA_TEXTUAL",
         "eventCount": 1,
@@ -5298,20 +5136,15 @@
         "spc",
         "bomberos"
       ],
+      "CHA-13874c30895e": [
+        "spc"
+      ],
       "CHA-c17768fff2dc": [
         "spc",
         "rio-neuquen"
       ],
-      "CHA-13874c30895e": [
-        "spc"
-      ],
       "CHA-8aa66f131026": [
         "spc"
-      ],
-      "CHA-3c484dc05a5b": [
-        "spc",
-        "ruta-7",
-        "parque-industrial"
       ],
       "CHA-7b194d928a62": [
         "spc"
@@ -5341,18 +5174,18 @@
     },
     "stats": {
       "nodes": 46,
-      "activeNodes": 7,
-      "edges": 7,
-      "eventsLinked": 9,
+      "activeNodes": 5,
+      "edges": 4,
+      "eventsLinked": 8,
       "eventsWithMicrozones": 0,
       "eventsWithBarrios": 0,
-      "eventsWithSectors": 1,
+      "eventsWithSectors": 0,
       "levelActivity": {
         "localidad": 1,
         "microregion": 1,
-        "corredor": 1,
+        "corredor": 0,
         "microzona": 0,
-        "sector": 1,
+        "sector": 0,
         "barrio": 0,
         "institucion": 3,
         "servicio": 0,
@@ -5363,17 +5196,17 @@
   },
   "audit": {
     "version": "1.0",
-    "updatedAt": "2026-10-20T01:11:15.598485+00:00",
+    "updatedAt": "2026-10-20T06:27:06.698080+00:00",
     "rule": "fact != coverage; territory requires textual evidence",
-    "facts": 10,
-    "coverage": 30,
-    "coveragePerFact": 3.0,
-    "directAnchorFacts": 10,
+    "facts": 9,
+    "coverage": 29,
+    "coveragePerFact": 3.22,
+    "directAnchorFacts": 9,
     "directAnchorPct": 100.0,
-    "territorySpecificFacts": 4,
-    "territorySpecificPct": 40.0,
-    "averageSourcesPerFact": 2.0,
-    "activeTerritorialNodes": 7,
+    "territorySpecificFacts": 3,
+    "territorySpecificPct": 33.3,
+    "averageSourcesPerFact": 2.11,
+    "activeTerritorialNodes": 5,
     "failedSources": 10,
     "acceptedWithoutLocalEvidence": 0,
     "examplesAcceptedWithoutLocalEvidence": [],
