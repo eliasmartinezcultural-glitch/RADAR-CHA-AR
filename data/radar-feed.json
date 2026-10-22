@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-22T11:31:31.557890+00:00",
+  "updatedAt": "2026-10-22T16:57:43.238172+00:00",
   "window": "14 días",
   "purpose": "Detectar qué se está moviendo en San Patricio del Chañar y mostrar de dónde surge cada señal.",
   "architecture": "contrato universal de procedencia + fuentes profesionales + adaptadores específicos + validación semántica + temporalidad + evidencia editorial separada",
@@ -49,7 +49,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://chanardigital.com.ar/",
-      "lastFetch": "2026-10-22T11:31:09.380231+00:00",
+      "lastFetch": "2026-10-22T16:57:19.626592+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -65,7 +65,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.radiomia.com.ar/",
-      "lastFetch": "2026-10-22T11:31:12.296922+00:00",
+      "lastFetch": "2026-10-22T16:57:20.934384+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -80,7 +80,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://tuitvacamuerta.com/",
-      "lastFetch": "2026-10-22T11:31:13.995164+00:00",
+      "lastFetch": "2026-10-22T16:57:23.017049+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -95,7 +95,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.vacamuertanews.com/",
-      "lastFetch": "2026-10-22T11:31:14.677133+00:00",
+      "lastFetch": "2026-10-22T16:57:23.701443+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -111,7 +111,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.neuqueninforma.gob.ar/",
-      "lastFetch": "2026-10-22T11:31:16.484695+00:00",
+      "lastFetch": "2026-10-22T16:57:25.675241+00:00",
       "success": false,
       "attempted": 3,
       "failures": [
@@ -128,7 +128,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://sanpatricio.gob.ar/",
-      "lastFetch": "2026-10-22T11:31:17.738579+00:00",
+      "lastFetch": "2026-10-22T16:57:26.944964+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -143,7 +143,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://boletinoficial.neuquen.gov.ar/",
-      "lastFetch": "2026-10-22T11:31:18.950025+00:00",
+      "lastFetch": "2026-10-22T16:57:28.141068+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -158,7 +158,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.lmneuquen.com/",
-      "lastFetch": "2026-10-22T11:31:19.175031+00:00",
+      "lastFetch": "2026-10-22T16:57:28.402319+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -171,17 +171,17 @@
     {
       "name": "Diario Río Negro",
       "type": "MEDIO REGIONAL",
-      "mode": "RSS DIRECTO",
-      "signals": 1,
+      "mode": "SIN RESPUESTA",
+      "signals": 0,
       "url": "https://www.rionegro.com.ar/",
-      "lastFetch": "2026-10-22T11:31:21.432919+00:00",
+      "lastFetch": "2026-10-22T16:57:31.284370+00:00",
       "success": true,
       "attempted": 2,
       "failures": [
         "WEB:AttributeError"
       ],
       "directAvailability": "available",
-      "freshnessHours": 8.0
+      "freshnessHours": null
     },
     {
       "name": "Mejor Informado",
@@ -189,7 +189,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.mejorinformado.com/",
-      "lastFetch": "2026-10-22T11:31:22.117245+00:00",
+      "lastFetch": "2026-10-22T16:57:34.161041+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -205,7 +205,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.diariamenteneuquen.com/",
-      "lastFetch": "2026-10-22T11:31:23.779870+00:00",
+      "lastFetch": "2026-10-22T16:57:35.132207+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -518,11 +518,11 @@
       "group": "REGIONAL",
       "role": "medio regional",
       "url": "https://www.diariamenteneuquen.com/",
-      "signals": 0,
-      "directSignals": 0,
+      "signals": 1,
+      "directSignals": 1,
       "anchoredSignals": 0,
-      "lastSeen": null,
-      "status": "SIN SEÑALES EN VENTANA",
+      "lastSeen": "2026-10-22T14:25:28+00:00",
+      "status": "CON SEÑALES",
       "note": "ausencia de señales no equivale a ausencia del hecho"
     },
     {
@@ -605,7 +605,7 @@
       "signals": 2,
       "directSignals": 2,
       "anchoredSignals": 0,
-      "lastSeen": "2026-10-22T03:30:00+00:00",
+      "lastSeen": "2026-10-22T12:50:53+00:00",
       "status": "CON SEÑALES",
       "note": "ausencia de señales no equivale a ausencia del hecho"
     },
@@ -709,8 +709,8 @@
   "languageAudit": [
     {
       "term": "el chañar",
-      "hits": 10,
-      "direct": 10
+      "hits": 12,
+      "direct": 12
     },
     {
       "term": "san patricio del chañar",
@@ -718,9 +718,9 @@
       "direct": 7
     },
     {
-      "term": "parque industrial",
-      "hits": 1,
-      "direct": 1
+      "term": "ruta 7",
+      "hits": 3,
+      "direct": 3
     },
     {
       "term": "viñedos",
@@ -749,11 +749,6 @@
     },
     {
       "term": "ruta 8",
-      "hits": 0,
-      "direct": 0
-    },
-    {
-      "term": "ruta 7",
       "hits": 0,
       "direct": 0
     },
@@ -809,6 +804,11 @@
     },
     {
       "term": "picada 1",
+      "hits": 0,
+      "direct": 0
+    },
+    {
+      "term": "parque industrial",
       "hits": 0,
       "direct": 0
     },
@@ -1045,13 +1045,14 @@
         "source": "Diario Neuquino",
         "group": "REGIONAL",
         "role": "medio regional",
-        "accepted": 1,
-        "direct": 1,
+        "accepted": 2,
+        "direct": 2,
         "anchored": 0,
         "falsePositives": 0,
         "falsePositiveTypes": [],
         "topics": [
-          "EDUCACIÓN"
+          "EDUCACIÓN",
+          "MOVILIDAD"
         ]
       },
       {
@@ -1064,6 +1065,7 @@
         "falsePositives": 0,
         "falsePositiveTypes": [],
         "topics": [
+          "MOVILIDAD",
           "SERVICIOS"
         ]
       },
@@ -1220,12 +1222,13 @@
         "source": "NoticiasNQN",
         "group": "OBSERVADA",
         "role": "fuente detectada fuera del catálogo",
-        "accepted": 1,
-        "direct": 1,
+        "accepted": 2,
+        "direct": 2,
         "anchored": 0,
         "falsePositives": 0,
         "falsePositiveTypes": [],
         "topics": [
+          "MOVILIDAD",
           "SEGURIDAD / EMERGENCIAS"
         ]
       },
@@ -1261,19 +1264,6 @@
         "falsePositives": 0,
         "falsePositiveTypes": [],
         "topics": []
-      },
-      {
-        "source": "Radio UNCo CALF",
-        "group": "OBSERVADA",
-        "role": "fuente detectada fuera del catálogo",
-        "accepted": 1,
-        "direct": 1,
-        "anchored": 0,
-        "falsePositives": 0,
-        "falsePositiveTypes": [],
-        "topics": [
-          "SERVICIOS"
-        ]
       },
       {
         "source": "Servicio Meteorológico Nacional",
@@ -1348,18 +1338,6 @@
         ]
       },
       {
-        "source": "Diario Río Negro",
-        "topic": "SERVICIOS",
-        "accepted": 2,
-        "direct": 2,
-        "anchored": 0,
-        "falsePositives": 0,
-        "territorialTerms": [
-          "parque industrial",
-          "el chañar"
-        ]
-      },
-      {
         "source": "Alerta Digital",
         "topic": "SERVICIOS",
         "accepted": 1,
@@ -1394,6 +1372,43 @@
           "san patricio del chañar",
           "el chañar",
           "epet 26"
+        ]
+      },
+      {
+        "source": "Diario Neuquino",
+        "topic": "MOVILIDAD",
+        "accepted": 1,
+        "direct": 1,
+        "anchored": 0,
+        "falsePositives": 0,
+        "territorialTerms": [
+          "san patricio del chañar",
+          "el chañar",
+          "ruta 7"
+        ]
+      },
+      {
+        "source": "Diario Río Negro",
+        "topic": "MOVILIDAD",
+        "accepted": 1,
+        "direct": 1,
+        "anchored": 0,
+        "falsePositives": 0,
+        "territorialTerms": [
+          "san patricio del chañar",
+          "el chañar",
+          "ruta 7"
+        ]
+      },
+      {
+        "source": "Diario Río Negro",
+        "topic": "SERVICIOS",
+        "accepted": 1,
+        "direct": 1,
+        "anchored": 0,
+        "falsePositives": 0,
+        "territorialTerms": [
+          "el chañar"
         ]
       },
       {
@@ -1434,19 +1449,20 @@
       },
       {
         "source": "NoticiasNQN",
-        "topic": "SEGURIDAD / EMERGENCIAS",
+        "topic": "MOVILIDAD",
         "accepted": 1,
         "direct": 1,
         "anchored": 0,
         "falsePositives": 0,
         "territorialTerms": [
           "san patricio del chañar",
-          "el chañar"
+          "el chañar",
+          "ruta 7"
         ]
       },
       {
-        "source": "Radio UNCo CALF",
-        "topic": "SERVICIOS",
+        "source": "NoticiasNQN",
+        "topic": "SEGURIDAD / EMERGENCIAS",
         "accepted": 1,
         "direct": 1,
         "anchored": 0,
@@ -1474,8 +1490,8 @@
       },
       {
         "term": "el chañar",
-        "acceptedHits": 12,
-        "directHits": 12,
+        "acceptedHits": 14,
+        "directHits": 14,
         "rejectedTitleHits": 0,
         "territorialStrength": "FUERTE"
       },
@@ -1565,8 +1581,8 @@
       },
       {
         "term": "parque industrial",
-        "acceptedHits": 1,
-        "directHits": 1,
+        "acceptedHits": 0,
+        "directHits": 0,
         "rejectedTitleHits": 0,
         "territorialStrength": "FUERTE"
       },
@@ -1663,8 +1679,8 @@
       },
       {
         "term": "ruta 7",
-        "acceptedHits": 0,
-        "directHits": 0,
+        "acceptedHits": 3,
+        "directHits": 3,
         "rejectedTitleHits": 0,
         "territorialStrength": "CORREDOR"
       },
@@ -1800,12 +1816,12 @@
     "interpretation": "auditoría sobre eventos aceptados; la próxima capa debe instrumentar rechazos antes del clustering"
   },
   "stats": {
-    "total": 11,
-    "direct": 11,
+    "total": 12,
+    "direct": 12,
     "regional": 0,
-    "new": 0,
+    "new": 3,
     "sources": 8,
-    "directSignals": 1,
+    "directSignals": 0,
     "localDirectSignals": 0,
     "radioDirectSignals": 0,
     "precisionRule": "evidence-first",
@@ -1814,11 +1830,11 @@
   "environment": {
     "weather": {
       "dataType": "forecast",
-      "forecastWindKmh": 21.0,
-      "forecastGustKmh": 25.0,
+      "forecastWindKmh": 26.0,
+      "forecastGustKmh": 26.0,
       "forecastWindDirection": "E",
-      "forecastTemperatureC": 18.0,
-      "retrievedAt": "2026-10-22T11:31:06.636142+00:00",
+      "forecastTemperatureC": 17.0,
+      "retrievedAt": "2026-10-22T16:57:17.024845+00:00",
       "source": "AIC",
       "sourceTier": "primary",
       "sourceUrl": "https://www.aic.gob.ar/sitio/home?a=1015&z=1967225803",
@@ -1827,28 +1843,28 @@
     "hydrology": {
       "site": "El Chañar",
       "flowType": "programmed_outflow",
-      "erogatedM3s": 523,
+      "erogatedM3s": 503,
       "programmedMaxM3s": [
         530,
-        560,
+        550,
         560,
         560,
         560,
         560
       ],
       "programmedMinM3s": [
-        510,
-        540,
+        500,
+        520,
         540,
         540,
         540,
         540
       ],
       "currentProgrammedMaxM3s": 530,
-      "currentProgrammedMinM3s": 510,
+      "currentProgrammedMinM3s": 500,
       "programDate": "2026-10-23",
       "tableDate": "2026-10-22",
-      "retrievedAt": "2026-10-22T11:31:06.636142+00:00",
+      "retrievedAt": "2026-10-22T16:57:17.024845+00:00",
       "source": "AIC",
       "sourceTier": "primary",
       "sourceUrl": "https://www.aic.gob.ar/sitio/caudales",
@@ -1868,17 +1884,17 @@
         "url": "https://www.aic.gob.ar/sitio/caudales"
       }
     ],
-    "updatedAt": "2026-10-22T11:31:06.636142+00:00"
+    "updatedAt": "2026-10-22T16:57:17.024845+00:00"
   },
   "operational": {
-    "updatedAt": "2026-10-22T11:31:06.636142+00:00",
+    "updatedAt": "2026-10-22T16:57:17.024845+00:00",
     "route7": {
       "source": "Dirección Provincial de Vialidad",
       "sourceTier": "primary",
       "sourceUrl": "https://www.dpvneuquen.gov.ar/",
       "semanticState": null,
       "publicationState": "source_reachable_no_current_machine_readable_state",
-      "retrievedAt": "2026-10-22T11:31:06.636142+00:00",
+      "retrievedAt": "2026-10-22T16:57:17.024845+00:00",
       "evidence": {
         "route7Mention": true,
         "route8Mention": false
@@ -1890,7 +1906,7 @@
       "sourceUrl": "https://www.dpvneuquen.gov.ar/",
       "semanticState": null,
       "publicationState": "source_reachable_no_current_machine_readable_state",
-      "retrievedAt": "2026-10-22T11:31:06.636142+00:00",
+      "retrievedAt": "2026-10-22T16:57:17.024845+00:00",
       "evidence": {
         "route7Mention": true,
         "route8Mention": false
@@ -1900,11 +1916,11 @@
       "source": "EPEN",
       "sourceTier": "primary",
       "sourceUrl": "https://www.epen.gov.ar/index.php/cortes-programados/",
-      "semanticState": "corte_programado",
-      "eventType": "scheduled_outage",
-      "detail": "-03:00 Corte programado en sectores de Rincón de los Sauces el 17/10/26 Prensa EPEN 2026-10-16T11:42:32-03:00 Prensa EPEN 2026-10-16T11:42:32-03:00 Corte Programado en sectores de San Patricio del Chañar el 20/10/2026 Prensa EPEN 2026-10-16T08:52:16-03:00 Prensa EPEN 2026-10-16T08:52:16-03:00 1 2 Siguiente Load More Posts Visitanos en nuestras redes sociales Web Mail Ente Provincial de Energía del Neuquén © Copyright 2026 Page load link var fusionNavIsCollapsed=function(e){var t,n;window.innerWidth {e.classList.remove(\"no-wrapper-transition\")},400),e.classList.remove(\"loading\")},fusionRunNavIsCollapsed=function(){va",
-      "publicationState": "specific_local_notice_found",
-      "retrievedAt": "2026-10-22T11:31:06.636142+00:00"
+      "semanticState": null,
+      "eventType": null,
+      "detail": null,
+      "publicationState": "source_reachable_no_specific_local_notice",
+      "retrievedAt": "2026-10-22T16:57:17.024845+00:00"
     },
     "water": {
       "source": "EPAS",
@@ -1914,7 +1930,7 @@
       "eventType": null,
       "detail": null,
       "publicationState": "source_reachable_no_specific_local_notice",
-      "retrievedAt": "2026-10-22T11:31:06.636142+00:00"
+      "retrievedAt": "2026-10-22T16:57:17.024845+00:00"
     },
     "sources": [
       {
@@ -2326,7 +2342,7 @@
       "label": "Conversación general",
       "signal": 9,
       "status": "cobertura editorial",
-      "freshnessHours": 8.0,
+      "freshnessHours": 2.5,
       "mode": "evidencia editorial",
       "evidenceCount": 9,
       "sourceContract": {
@@ -2364,11 +2380,11 @@
     {
       "id": "RUTA 7",
       "label": "Corredor Ruta 7",
-      "signal": 0,
+      "signal": 1,
       "status": "estado vial",
-      "freshnessHours": null,
+      "freshnessHours": 2.5,
       "mode": "evidencia territorial",
-      "evidenceCount": 0,
+      "evidenceCount": 1,
       "sourceContract": {
         "primary": "Dirección Provincial de Vialidad del Neuquén",
         "secondary": "WSESTADORUTAS · sistema oficial de estado vial",
@@ -2406,7 +2422,7 @@
         "sourceUrl": "https://www.dpvneuquen.gov.ar/",
         "semanticState": null,
         "publicationState": "source_reachable_no_current_machine_readable_state",
-        "retrievedAt": "2026-10-22T11:31:06.636142+00:00",
+        "retrievedAt": "2026-10-22T16:57:17.024845+00:00",
         "evidence": {
           "route7Mention": true,
           "route8Mention": false
@@ -2416,11 +2432,11 @@
     {
       "id": "RUTA 8",
       "label": "Corredor Ruta 8",
-      "signal": 0,
+      "signal": 1,
       "status": "estado vial",
-      "freshnessHours": null,
+      "freshnessHours": 2.5,
       "mode": "evidencia territorial",
-      "evidenceCount": 0,
+      "evidenceCount": 1,
       "sourceContract": {
         "primary": "Dirección Provincial de Vialidad del Neuquén",
         "secondary": "WSESTADORUTAS · sistema oficial de estado vial",
@@ -2458,7 +2474,7 @@
         "sourceUrl": "https://www.dpvneuquen.gov.ar/",
         "semanticState": null,
         "publicationState": "source_reachable_no_current_machine_readable_state",
-        "retrievedAt": "2026-10-22T11:31:06.636142+00:00",
+        "retrievedAt": "2026-10-22T16:57:17.024845+00:00",
         "evidence": {
           "route7Mention": true,
           "route8Mention": false
@@ -2468,7 +2484,7 @@
     {
       "id": "VIENTO",
       "label": "Condición de viento",
-      "signal": 21.0,
+      "signal": 26.0,
       "status": "pronóstico local",
       "freshnessHours": null,
       "mode": "DATO DIRECTO",
@@ -2554,11 +2570,11 @@
         "source": "EPEN",
         "sourceTier": "primary",
         "sourceUrl": "https://www.epen.gov.ar/index.php/cortes-programados/",
-        "semanticState": "corte_programado",
-        "eventType": "scheduled_outage",
-        "detail": "-03:00 Corte programado en sectores de Rincón de los Sauces el 17/10/26 Prensa EPEN 2026-10-16T11:42:32-03:00 Prensa EPEN 2026-10-16T11:42:32-03:00 Corte Programado en sectores de San Patricio del Chañar el 20/10/2026 Prensa EPEN 2026-10-16T08:52:16-03:00 Prensa EPEN 2026-10-16T08:52:16-03:00 1 2 Siguiente Load More Posts Visitanos en nuestras redes sociales Web Mail Ente Provincial de Energía del Neuquén © Copyright 2026 Page load link var fusionNavIsCollapsed=function(e){var t,n;window.innerWidth {e.classList.remove(\"no-wrapper-transition\")},400),e.classList.remove(\"loading\")},fusionRunNavIsCollapsed=function(){va",
-        "publicationState": "specific_local_notice_found",
-        "retrievedAt": "2026-10-22T11:31:06.636142+00:00"
+        "semanticState": null,
+        "eventType": null,
+        "detail": null,
+        "publicationState": "source_reachable_no_specific_local_notice",
+        "retrievedAt": "2026-10-22T16:57:17.024845+00:00"
       }
     },
     {
@@ -2566,7 +2582,7 @@
       "label": "Agua / abastecimiento",
       "signal": 1,
       "status": "evento hídrico",
-      "freshnessHours": 130.4,
+      "freshnessHours": 135.8,
       "mode": "evidencia editorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -2608,7 +2624,7 @@
         "eventType": null,
         "detail": null,
         "publicationState": "source_reachable_no_specific_local_notice",
-        "retrievedAt": "2026-10-22T11:31:06.636142+00:00"
+        "retrievedAt": "2026-10-22T16:57:17.024845+00:00"
       }
     },
     {
@@ -2616,7 +2632,7 @@
       "label": "Servicios e infraestructura",
       "signal": 1,
       "status": "evidencia de servicio",
-      "freshnessHours": 130.4,
+      "freshnessHours": 135.8,
       "mode": "evidencia editorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -2696,7 +2712,7 @@
       "label": "Educación",
       "signal": 2,
       "status": "evidencia educativa",
-      "freshnessHours": 612.5,
+      "freshnessHours": 617.9,
       "mode": "evidencia editorial",
       "evidenceCount": 2,
       "sourceContract": {
@@ -2776,7 +2792,7 @@
       "label": "Seguridad / emergencias",
       "signal": 1,
       "status": "cobertura de emergencia",
-      "freshnessHours": 59.9,
+      "freshnessHours": 65.3,
       "mode": "evidencia editorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -2814,11 +2830,11 @@
     {
       "id": "TERRITORIO",
       "label": "Territorio / microzonas",
-      "signal": 1,
+      "signal": 0,
       "status": "hecho territorial",
-      "freshnessHours": 8.0,
+      "freshnessHours": null,
       "mode": "evidencia territorial",
-      "evidenceCount": 1,
+      "evidenceCount": 0,
       "sourceContract": {
         "primary": "Municipalidad de San Patricio del Chañar",
         "secondary": "organismo provincial competente según fenómeno",
@@ -2873,7 +2889,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://chanardigital.com.ar/",
-        "lastFetch": "2026-10-22T11:31:09.380231+00:00",
+        "lastFetch": "2026-10-22T16:57:19.626592+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -2889,7 +2905,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.radiomia.com.ar/",
-        "lastFetch": "2026-10-22T11:31:12.296922+00:00",
+        "lastFetch": "2026-10-22T16:57:20.934384+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -2904,7 +2920,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://tuitvacamuerta.com/",
-        "lastFetch": "2026-10-22T11:31:13.995164+00:00",
+        "lastFetch": "2026-10-22T16:57:23.017049+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -2919,7 +2935,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.vacamuertanews.com/",
-        "lastFetch": "2026-10-22T11:31:14.677133+00:00",
+        "lastFetch": "2026-10-22T16:57:23.701443+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -2935,7 +2951,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.neuqueninforma.gob.ar/",
-        "lastFetch": "2026-10-22T11:31:16.484695+00:00",
+        "lastFetch": "2026-10-22T16:57:25.675241+00:00",
         "success": false,
         "attempted": 3,
         "failures": [
@@ -2952,7 +2968,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://sanpatricio.gob.ar/",
-        "lastFetch": "2026-10-22T11:31:17.738579+00:00",
+        "lastFetch": "2026-10-22T16:57:26.944964+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -2967,7 +2983,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://boletinoficial.neuquen.gov.ar/",
-        "lastFetch": "2026-10-22T11:31:18.950025+00:00",
+        "lastFetch": "2026-10-22T16:57:28.141068+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -2982,7 +2998,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.lmneuquen.com/",
-        "lastFetch": "2026-10-22T11:31:19.175031+00:00",
+        "lastFetch": "2026-10-22T16:57:28.402319+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -2995,17 +3011,17 @@
       {
         "name": "Diario Río Negro",
         "type": "MEDIO REGIONAL",
-        "mode": "RSS DIRECTO",
-        "signals": 1,
+        "mode": "SIN RESPUESTA",
+        "signals": 0,
         "url": "https://www.rionegro.com.ar/",
-        "lastFetch": "2026-10-22T11:31:21.432919+00:00",
+        "lastFetch": "2026-10-22T16:57:31.284370+00:00",
         "success": true,
         "attempted": 2,
         "failures": [
           "WEB:AttributeError"
         ],
         "directAvailability": "available",
-        "freshnessHours": 8.0
+        "freshnessHours": null
       },
       {
         "name": "Mejor Informado",
@@ -3013,7 +3029,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.mejorinformado.com/",
-        "lastFetch": "2026-10-22T11:31:22.117245+00:00",
+        "lastFetch": "2026-10-22T16:57:34.161041+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3029,7 +3045,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.diariamenteneuquen.com/",
-        "lastFetch": "2026-10-22T11:31:23.779870+00:00",
+        "lastFetch": "2026-10-22T16:57:35.132207+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3047,6 +3063,136 @@
   },
   "events": [
     {
+      "eventId": "CHA-9e0580d6e847",
+      "title": "Fuerte choque en la Ruta 7 cerca de San Patricio del Chañar: tres vehículos involucrados y demoras en el tránsito - Diario Neuquino",
+      "publishedAt": "2026-10-22T14:25:28+00:00",
+      "firstSeen": "2026-10-22T16:57:43.238172+00:00",
+      "lastSeen": "2026-10-22T14:25:28+00:00",
+      "relevance": 3,
+      "relevanceLabel": "DIRECTA",
+      "incidenceLabel": "DIRECTA EN CHANAR",
+      "topic": "MOVILIDAD",
+      "movement": 92,
+      "coverage": 3,
+      "sourceCount": 3,
+      "directSourceCount": 0,
+      "territorialAnchors": [
+        "san patricio del chañar",
+        "el chañar",
+        "ruta 7"
+      ],
+      "sources": [
+        "Diario Neuquino",
+        "Diario Río Negro",
+        "NoticiasNQN"
+      ],
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPdlZmTThheTJyUTBuamRoM3R6dkd5clFVdE1hWFo2TjdhSEFVNDgzUVRKMlpDWDRPTTZjNE9ob3NpcmpXeDItQ0xCNHRxU1FEeFktUzdYTzNEUDBvVlpsdmF6Rl94QnNianRLZGdpeDY4dkdzdzRsMGlxMFN3OGlBV3dlRG5mSFkzSE5iSzI4bDEwQVVMclRUNGxKRVJ4WEhrSzRDU3BNUHlRY1JEekN2Zjd6YmV2MkUzWW1YN3dyX2lJUllIWlNtZ1FwSFFnbkpsVGtIYzZCb3AyQjA?oc=5",
+      "items": [
+        {
+          "title": "Fuerte choque en la Ruta 7 cerca de San Patricio del Chañar: tres vehículos involucrados y demoras en el tránsito - Diario Neuquino",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPdlZmTThheTJyUTBuamRoM3R6dkd5clFVdE1hWFo2TjdhSEFVNDgzUVRKMlpDWDRPTTZjNE9ob3NpcmpXeDItQ0xCNHRxU1FEeFktUzdYTzNEUDBvVlpsdmF6Rl94QnNianRLZGdpeDY4dkdzdzRsMGlxMFN3OGlBV3dlRG5mSFkzSE5iSzI4bDEwQVVMclRUNGxKRVJ4WEhrSzRDU3BNUHlRY1JEekN2Zjd6YmV2MkUzWW1YN3dyX2lJUllIWlNtZ1FwSFFnbkpsVGtIYzZCb3AyQjA?oc=5",
+          "publishedAt": "2026-10-22T14:25:28+00:00",
+          "published": "2026-10-22T14:25:28+00:00",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMi2wFBVV95cUxPdlZmTThheTJyUTBuamRoM3R6dkd5clFVdE1hWFo2TjdhSEFVNDgzUVRKMlpDWDRPTTZjNE9ob3NpcmpXeDItQ0xCNHRxU1FEeFktUzdYTzNEUDBvVlpsdmF6Rl94QnNianRLZGdpeDY4dkdzdzRsMGlxMFN3OGlBV3dlRG5mSFkzSE5iSzI4bDEwQVVMclRUNGxKRVJ4WEhrSzRDU3BNUHlRY1JEekN2Zjd6YmV2MkUzWW1YN3dyX2lJUllIWlNtZ1FwSFFnbkpsVGtIYzZCb3AyQjA?oc=5\" target=\"_blank\">Fuerte choque en la Ruta 7 cerca de San Patricio del Chañar: tres vehículos involucrados y demoras en el tránsito</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Diario Neuquino</font>",
+          "source": "Diario Neuquino",
+          "sourceType": "BUSCADOR / RESPALDO",
+          "sourceUrl": "",
+          "collection": "BUSCADOR",
+          "query": "\"San Patricio del Chañar\"",
+          "relevance": 3,
+          "relevanceLabel": "DIRECTA",
+          "firstSeen": "2026-10-22T16:57:43.238172+00:00",
+          "isNew": true,
+          "titleKey": "fuerte choque ruta cerca tres vehiculos involucrados demoras transito diario neuquino",
+          "evidenceUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPdlZmTThheTJyUTBuamRoM3R6dkd5clFVdE1hWFo2TjdhSEFVNDgzUVRKMlpDWDRPTTZjNE9ob3NpcmpXeDItQ0xCNHRxU1FEeFktUzdYTzNEUDBvVlpsdmF6Rl94QnNianRLZGdpeDY4dkdzdzRsMGlxMFN3OGlBV3dlRG5mSFkzSE5iSzI4bDEwQVVMclRUNGxKRVJ4WEhrSzRDU3BNUHlRY1JEekN2Zjd6YmV2MkUzWW1YN3dyX2lJUllIWlNtZ1FwSFFnbkpsVGtIYzZCb3AyQjA?oc=5",
+          "sourcePriority": 3
+        },
+        {
+          "title": "Demoras por un fuerte choque en la Ruta 7, cerca de El Chañar: piden circular con precaución - Diario Río Negro",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNNl9jYnNQajktaWdNbFdnQWFSMS1fZkVobzA4dnVPTklVMkhXYnJqcm1EN2NEUUxoRHhKbHJwb0lmd3JfX0FWcHdtSjJscElGaURSdXhzWWhXMzVOUF9QcG5Ka2dOU1ZYOGYxWm5zME8xbUxBR2pOaVNUbzluYUwzalNybW9pSVFzajVqaFp2emFvN2dQZ1Z6Rkxaa1I3OHR4MmZGRXB0ZW5Ba21SUVJqbGY1YkJrdDd3WkRnSEc0RG5JRktEMDR0LU5KMUlZUjVOc2fSAdoBQVVfeXFMTjZXVnE2OFoxc3ctQkQxWURaZUF4WEstcHNYZDdLZDJUMW1PQXpSUlV6Y3Yya29Lc19aTWNoei13QzF0bllYZG5NTHI1Z2YyT09xUmN3WkM5RHlRMktzemNOVWE5cUZvV1NyeGh5ZmpvTFRvVkd0SnRZZmhuZXJrcVFhdW9uYndvOUVxNmZ1TlowMXY2TXhtbEl5LWJsSGdNM09rcjBTeTh1WjhDLVd5OFdQemV3M3hGa1Y4WVhZQjBqV2FfS1VUTldZZXUwN3pzUUhfYkd2WXpnOUE?oc=5",
+          "publishedAt": "2026-10-22T12:50:53+00:00",
+          "published": "2026-10-22T12:50:53+00:00",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMi0gFBVV95cUxNNl9jYnNQajktaWdNbFdnQWFSMS1fZkVobzA4dnVPTklVMkhXYnJqcm1EN2NEUUxoRHhKbHJwb0lmd3JfX0FWcHdtSjJscElGaURSdXhzWWhXMzVOUF9QcG5Ka2dOU1ZYOGYxWm5zME8xbUxBR2pOaVNUbzluYUwzalNybW9pSVFzajVqaFp2emFvN2dQZ1Z6Rkxaa1I3OHR4MmZGRXB0ZW5Ba21SUVJqbGY1YkJrdDd3WkRnSEc0RG5JRktEMDR0LU5KMUlZUjVOc2fSAdoBQVVfeXFMTjZXVnE2OFoxc3ctQkQxWURaZUF4WEstcHNYZDdLZDJUMW1PQXpSUlV6Y3Yya29Lc19aTWNoei13QzF0bllYZG5NTHI1Z2YyT09xUmN3WkM5RHlRMktzemNOVWE5cUZvV1NyeGh5ZmpvTFRvVkd0SnRZZmhuZXJrcVFhdW9uYndvOUVxNmZ1TlowMXY2TXhtbEl5LWJsSGdNM09rcjBTeTh1WjhDLVd5OFdQemV3M3hGa1Y4WVhZQjBqV2FfS1VUTldZZXUwN3pzUUhfYkd2WXpnOUE?oc=5\" target=\"_blank\">Demoras por un fuerte choque en la Ruta 7, cerca de El Chañar: piden circular con precaución</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Diario Río Negro</font>",
+          "source": "Diario Río Negro",
+          "sourceType": "BUSCADOR / RESPALDO",
+          "sourceUrl": "",
+          "collection": "BUSCADOR",
+          "query": "\"San Patricio del Chañar\"",
+          "relevance": 3,
+          "relevanceLabel": "DIRECTA",
+          "firstSeen": "2026-10-22T16:57:43.238172+00:00",
+          "isNew": true,
+          "titleKey": "demoras fuerte choque ruta cerca piden circular precaucion diario rio negro",
+          "evidenceUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNNl9jYnNQajktaWdNbFdnQWFSMS1fZkVobzA4dnVPTklVMkhXYnJqcm1EN2NEUUxoRHhKbHJwb0lmd3JfX0FWcHdtSjJscElGaURSdXhzWWhXMzVOUF9QcG5Ka2dOU1ZYOGYxWm5zME8xbUxBR2pOaVNUbzluYUwzalNybW9pSVFzajVqaFp2emFvN2dQZ1Z6Rkxaa1I3OHR4MmZGRXB0ZW5Ba21SUVJqbGY1YkJrdDd3WkRnSEc0RG5JRktEMDR0LU5KMUlZUjVOc2fSAdoBQVVfeXFMTjZXVnE2OFoxc3ctQkQxWURaZUF4WEstcHNYZDdLZDJUMW1PQXpSUlV6Y3Yya29Lc19aTWNoei13QzF0bllYZG5NTHI1Z2YyT09xUmN3WkM5RHlRMktzemNOVWE5cUZvV1NyeGh5ZmpvTFRvVkd0SnRZZmhuZXJrcVFhdW9uYndvOUVxNmZ1TlowMXY2TXhtbEl5LWJsSGdNM09rcjBTeTh1WjhDLVd5OFdQemV3M3hGa1Y4WVhZQjBqV2FfS1VUTldZZXUwN3pzUUhfYkd2WXpnOUE?oc=5",
+          "sourcePriority": 3
+        },
+        {
+          "title": "Choque entre un camión y dos camionetas sobre la Ruta 7 en el Chañar - NoticiasNQN",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNdG5CSUNHb2tWb3ptQW1JaFFPb2JYQnp2enI4MEN3ellaQS1vU3RRZGFpTmVlcVJzazNRSklUSnBoUVRNbGFab1FZWTloZWdiT2JNNXMyR3dQU3dIVW9SREV0WEExOHh5ZUVEODhhamFaRFN2NDMwbHhibG1KRzRLbmVIdWNDaENBNXpMaDc4NUhQaWZ3WWxUY19FWmxXdDl6WW1mbTQ5a3NwaEdTUXJSX0xoaGFpZ3FiVmtTNW10YlpiSlhL0gHKAUFVX3lxTE5JSjVqM3BnRlNfVm5fTTBTa0hUZkU4RVJORkRfRkVtNlFmYVdmNUI4Nzc2S3FSVmVIcml5VXlXRGdrTTg4VWJfenF3XzdVTE81TFJYMGUtR2ozbEdNREJnN0hJajRZYXRfQTVnc3lSMVhEODdaaFlZcTZnMXBKQmNUNGpyTTNGcU1iU2kyZG5WWFl1blhYcjhMREc0TDdvdUV1UVRDMEJncXpXamhhaVZGWm9GbkdLSGVrRUxmRndnOE02Nk9oaGdzVWc?oc=5",
+          "publishedAt": "2026-10-22T12:00:09+00:00",
+          "published": "2026-10-22T12:00:09+00:00",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMixAFBVV95cUxNdG5CSUNHb2tWb3ptQW1JaFFPb2JYQnp2enI4MEN3ellaQS1vU3RRZGFpTmVlcVJzazNRSklUSnBoUVRNbGFab1FZWTloZWdiT2JNNXMyR3dQU3dIVW9SREV0WEExOHh5ZUVEODhhamFaRFN2NDMwbHhibG1KRzRLbmVIdWNDaENBNXpMaDc4NUhQaWZ3WWxUY19FWmxXdDl6WW1mbTQ5a3NwaEdTUXJSX0xoaGFpZ3FiVmtTNW10YlpiSlhL0gHKAUFVX3lxTE5JSjVqM3BnRlNfVm5fTTBTa0hUZkU4RVJORkRfRkVtNlFmYVdmNUI4Nzc2S3FSVmVIcml5VXlXRGdrTTg4VWJfenF3XzdVTE81TFJYMGUtR2ozbEdNREJnN0hJajRZYXRfQTVnc3lSMVhEODdaaFlZcTZnMXBKQmNUNGpyTTNGcU1iU2kyZG5WWFl1blhYcjhMREc0TDdvdUV1UVRDMEJncXpXamhhaVZGWm9GbkdLSGVrRUxmRndnOE02Nk9oaGdzVWc?oc=5\" target=\"_blank\">Choque entre un camión y dos camionetas sobre la Ruta 7 en el Chañar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NoticiasNQN</font>",
+          "source": "NoticiasNQN",
+          "sourceType": "BUSCADOR / RESPALDO",
+          "sourceUrl": "",
+          "collection": "BUSCADOR",
+          "query": "\"San Patricio del Chañar\"",
+          "relevance": 3,
+          "relevanceLabel": "DIRECTA",
+          "firstSeen": "2026-10-22T16:57:43.238172+00:00",
+          "isNew": true,
+          "titleKey": "choque entre camion dos camionetas ruta noticiasnqn",
+          "evidenceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNdG5CSUNHb2tWb3ptQW1JaFFPb2JYQnp2enI4MEN3ellaQS1vU3RRZGFpTmVlcVJzazNRSklUSnBoUVRNbGFab1FZWTloZWdiT2JNNXMyR3dQU3dIVW9SREV0WEExOHh5ZUVEODhhamFaRFN2NDMwbHhibG1KRzRLbmVIdWNDaENBNXpMaDc4NUhQaWZ3WWxUY19FWmxXdDl6WW1mbTQ5a3NwaEdTUXJSX0xoaGFpZ3FiVmtTNW10YlpiSlhL0gHKAUFVX3lxTE5JSjVqM3BnRlNfVm5fTTBTa0hUZkU4RVJORkRfRkVtNlFmYVdmNUI4Nzc2S3FSVmVIcml5VXlXRGdrTTg4VWJfenF3XzdVTE81TFJYMGUtR2ozbEdNREJnN0hJajRZYXRfQTVnc3lSMVhEODdaaFlZcTZnMXBKQmNUNGpyTTNGcU1iU2kyZG5WWFl1blhYcjhMREc0TDdvdUV1UVRDMEJncXpXamhhaVZGWm9GbkdLSGVrRUxmRndnOE02Nk9oaGdzVWc?oc=5",
+          "sourcePriority": 3
+        }
+      ],
+      "lifecycle": "EMERGENTE",
+      "movementDelta": 31,
+      "previousCoverage": 2,
+      "newSources": [
+        "Diario Neuquino",
+        "Diario Río Negro"
+      ],
+      "sourceDiversity": 3,
+      "memoryMatched": true,
+      "isNew": false,
+      "view": "INCIDENCIA",
+      "incidenceEligible": true,
+      "signalReason": "reservado a incidencia territorial",
+      "incidenceReason": "anclaje directo + tema operativo/local",
+      "territory": {
+        "version": "2.0",
+        "primary": "San Patricio del Chañar",
+        "nodes": [
+          "San Patricio del Chañar",
+          "Ruta 7"
+        ],
+        "sectors": [],
+        "barrios": [],
+        "microzones": [],
+        "corridors": [
+          "Ruta 7"
+        ],
+        "institutions": [],
+        "services": [],
+        "spaces": [],
+        "production": [],
+        "path": "San Patricio del Chañar → Ruta 7",
+        "evidence": [
+          {
+            "node": "San Patricio del Chañar",
+            "level": "localidad",
+            "evidence": "DIRECTA"
+          },
+          {
+            "node": "Ruta 7",
+            "level": "corredor",
+            "evidence": "TEXTUAL"
+          }
+        ]
+      }
+    },
+    {
       "eventId": "CHA-72b74320143b",
       "title": "Tras casi ocho años de esfuerzo, los Bomberos de San Patricio del Chañar inauguran su emblemático cuartel - Neuquén News",
       "publishedAt": "2026-10-19T23:39:00+00:00",
@@ -3056,7 +3202,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SEGURIDAD / EMERGENCIAS",
-      "movement": 61,
+      "movement": 59,
       "coverage": 2,
       "sourceCount": 2,
       "directSourceCount": 0,
@@ -3109,10 +3255,13 @@
           "sourcePriority": 3
         }
       ],
-      "lifecycle": "SOSTENIDO",
-      "movementDelta": -1,
-      "previousCoverage": 2,
-      "newSources": [],
+      "lifecycle": "ACTIVO",
+      "movementDelta": 14,
+      "previousCoverage": 1,
+      "newSources": [
+        "Neuquén News",
+        "NoticiasNQN"
+      ],
       "sourceDiversity": 2,
       "memoryMatched": true,
       "isNew": false,
@@ -3153,91 +3302,6 @@
       }
     },
     {
-      "eventId": "CHA-452be51c215a",
-      "title": "AOG: Neuquén redobla la apuesta a Vaca Muerta y tendrá el parque industrial más grande del país",
-      "publishedAt": "2026-10-22T03:30:00+00:00",
-      "firstSeen": "2026-10-22T05:54:38.506564+00:00",
-      "lastSeen": "2026-10-22T03:30:00+00:00",
-      "relevance": 3,
-      "relevanceLabel": "DIRECTA",
-      "incidenceLabel": "DIRECTA EN CHANAR",
-      "topic": "SERVICIOS",
-      "movement": 59,
-      "coverage": 1,
-      "sourceCount": 1,
-      "directSourceCount": 1,
-      "territorialAnchors": [
-        "parque industrial"
-      ],
-      "sources": [
-        "Diario Río Negro"
-      ],
-      "evidenceUrl": "https://www.rionegro.com.ar/energia/aog-neuquen-redobla-la-apuesta-a-vaca-muerta-y-tendra-el-parque-industrial-mas-grande-del-pais/",
-      "items": [
-        {
-          "title": "AOG: Neuquén redobla la apuesta a Vaca Muerta y tendrá el parque industrial más grande del país",
-          "url": "https://www.rionegro.com.ar/energia/aog-neuquen-redobla-la-apuesta-a-vaca-muerta-y-tendra-el-parque-industrial-mas-grande-del-pais/",
-          "publishedAt": "2026-10-22T03:30:00+00:00",
-          "published": "2026-10-22T03:30:00+00:00",
-          "description": "",
-          "source": "Diario Río Negro",
-          "sourceType": "MEDIO REGIONAL",
-          "sourceUrl": "https://www.rionegro.com.ar/",
-          "collection": "DIRECTA",
-          "query": "https://www.rionegro.com.ar/feed/",
-          "relevance": 3,
-          "relevanceLabel": "DIRECTA",
-          "firstSeen": "2026-10-22T05:54:38.506564+00:00",
-          "isNew": false,
-          "titleKey": "aog redobla apuesta vaca muerta tendra parque industrial mas grande pais",
-          "evidenceUrl": "https://www.rionegro.com.ar/energia/aog-neuquen-redobla-la-apuesta-a-vaca-muerta-y-tendra-el-parque-industrial-mas-grande-del-pais/",
-          "sourcePriority": 2
-        }
-      ],
-      "lifecycle": "EMERGENTE",
-      "movementDelta": -1,
-      "previousCoverage": 1,
-      "newSources": [],
-      "sourceDiversity": 1,
-      "memoryMatched": true,
-      "isNew": false,
-      "view": "INCIDENCIA",
-      "incidenceEligible": true,
-      "signalReason": "reservado a incidencia territorial",
-      "incidenceReason": "anclaje directo + tema operativo/local",
-      "territory": {
-        "version": "2.0",
-        "primary": "San Patricio del Chañar",
-        "nodes": [
-          "San Patricio del Chañar",
-          "Parque Industrial"
-        ],
-        "sectors": [
-          "Parque Industrial"
-        ],
-        "barrios": [],
-        "microzones": [],
-        "corridors": [],
-        "institutions": [],
-        "services": [],
-        "spaces": [],
-        "production": [],
-        "path": "San Patricio del Chañar → Parque Industrial",
-        "evidence": [
-          {
-            "node": "San Patricio del Chañar",
-            "level": "localidad",
-            "evidence": "DIRECTA"
-          },
-          {
-            "node": "Parque Industrial",
-            "level": "sector",
-            "evidence": "TEXTUAL"
-          }
-        ]
-      }
-    },
-    {
       "eventId": "CHA-13874c30895e",
       "title": "Detuvieron a un hombre por amenazas con armas de fuego en la Toma La Costa de El Chañar - Chañar Digital",
       "publishedAt": "2026-10-21T00:25:31+00:00",
@@ -3247,7 +3311,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SERVICIOS",
-      "movement": 59,
+      "movement": 57,
       "coverage": 2,
       "sourceCount": 1,
       "directSourceCount": 0,
@@ -3300,132 +3364,10 @@
         }
       ],
       "lifecycle": "SOSTENIDO",
-      "movementDelta": -1,
+      "movementDelta": -2,
       "previousCoverage": 2,
       "newSources": [],
       "sourceDiversity": 1,
-      "memoryMatched": true,
-      "isNew": false,
-      "view": "INCIDENCIA",
-      "incidenceEligible": true,
-      "signalReason": "reservado a incidencia territorial",
-      "incidenceReason": "anclaje directo + tema operativo/local",
-      "territory": {
-        "version": "2.0",
-        "primary": "San Patricio del Chañar",
-        "nodes": [
-          "San Patricio del Chañar"
-        ],
-        "sectors": [],
-        "barrios": [],
-        "microzones": [],
-        "corridors": [],
-        "institutions": [],
-        "services": [],
-        "spaces": [],
-        "production": [],
-        "path": "San Patricio del Chañar",
-        "evidence": [
-          {
-            "node": "San Patricio del Chañar",
-            "level": "localidad",
-            "evidence": "DIRECTA"
-          }
-        ]
-      }
-    },
-    {
-      "eventId": "CHA-13874c30895e",
-      "title": "El intendente de San Patricio del Chañar habló del aporte del municipio a la investigación que realiza el EAAF en el cementerio - Radio UNCo CALF",
-      "publishedAt": "2026-10-10T01:01:04+00:00",
-      "firstSeen": "2026-10-11T09:13:06.915788+00:00",
-      "lastSeen": "2026-10-10T01:01:04+00:00",
-      "relevance": 3,
-      "relevanceLabel": "DIRECTA",
-      "incidenceLabel": "DIRECTA EN CHANAR",
-      "topic": "SERVICIOS",
-      "movement": 48,
-      "coverage": 3,
-      "sourceCount": 3,
-      "directSourceCount": 0,
-      "territorialAnchors": [
-        "san patricio del chañar",
-        "el chañar"
-      ],
-      "sources": [
-        "Neuquén al instante",
-        "Alerta Digital",
-        "Radio UNCo CALF"
-      ],
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNeGpmS3gwaFpHRlpFdmxhTnUtVDlITktyay1uak9aS1lLUHM3eVZYTDltQU1VMUVzME96ZVB0b2RicGdNY3pqdW5oTkFLWk9LMW94blp0QURJR29IQUZkTHFGVDdEVmRmR0lCZFF3OEd0ZFlrZ1RCR0xhTWVqNi1FcGlLR0F3REdubGNxZ0hyc3UyYzB4S3RFX0MybnRnTWpzc3FqU25fR3A2QlVQWE9uSlRSaXFHWW10b1ZBWmxvcEFvWGNtamdVMFBMMUp4YWJaRHpZVy1FZGVrY2t0LVJ2cmtzeXhieWxEZG5vS1h1QUZWc3NzRTk3cA?oc=5",
-      "items": [
-        {
-          "title": "Provincia adjudicó la construcción de un nuevo Centro Deportivo Comunitario en San Patricio del Chañar - Neuquén al instante",
-          "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQOVhQOThuamtvX25sa2k4eWRSM1FwLTNPTU1JbEdXYWV1Z3Nubzh6QmJtRVhyZ1lXaHBuN1h3RGRSNjNidnpIQ2ZYMGJNVjZUcUhCMTlkTFVFTzliWktXNzhlUHlKazNZUktodHZudHRUU2dDNzhMOEljMjg0MWl4amp3NzB5bzJkdWdiRzc1emNIdDNsWk5ZWEk2dWxYa3dlWDYtdkZHcHRtZnJXY2tORWJCZHh5SUFjNExBOUxCa19HQ0xfckJSS3pUeUppU2d5QkdaVllNZ1ltNWJjQlVDbmo3MThxYlNndWVmaHZQcnJVc01mek5XT0tn0gH_AUFVX3lxTE9Dc2Y0bEVJRnFGdVQzSWUtZXM5Ym9BNjdHdHg2UGYycWFKZ2dKTmZURGtYNzlxakxIZG1CZEd3X3NUMUdac2xEQV9NS0NzZEl0T0FuVThqcVlhQ2xRcjQ3R0Z6dG03ZG5JUElxN1BqYzZMOGQ1QVcwYU1TaG9qTzZ1clI5dXdPNkREblh4SG1UczJDY3d1VUxaZU5abkZUNFhjb2IxX2N6XzQ2Sk5zcVh4Y08zNVo3Y0s5RXF0ZGt3SlFRMFFRV3NWOTNMRFpadmdkakxYa0VLSTc1eEdhR0Fuek52M0p5aVBzcU1vcE5BdnM1WF9nMlJzMmNoNDlNbw?oc=5",
-          "publishedAt": "2026-10-10T01:01:04+00:00",
-          "published": "2026-10-10T01:01:04+00:00",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMi-gFBVV95cUxQOVhQOThuamtvX25sa2k4eWRSM1FwLTNPTU1JbEdXYWV1Z3Nubzh6QmJtRVhyZ1lXaHBuN1h3RGRSNjNidnpIQ2ZYMGJNVjZUcUhCMTlkTFVFTzliWktXNzhlUHlKazNZUktodHZudHRUU2dDNzhMOEljMjg0MWl4amp3NzB5bzJkdWdiRzc1emNIdDNsWk5ZWEk2dWxYa3dlWDYtdkZHcHRtZnJXY2tORWJCZHh5SUFjNExBOUxCa19HQ0xfckJSS3pUeUppU2d5QkdaVllNZ1ltNWJjQlVDbmo3MThxYlNndWVmaHZQcnJVc01mek5XT0tn0gH_AUFVX3lxTE9Dc2Y0bEVJRnFGdVQzSWUtZXM5Ym9BNjdHdHg2UGYycWFKZ2dKTmZURGtYNzlxakxIZG1CZEd3X3NUMUdac2xEQV9NS0NzZEl0T0FuVThqcVlhQ2xRcjQ3R0Z6dG03ZG5JUElxN1BqYzZMOGQ1QVcwYU1TaG9qTzZ1clI5dXdPNkREblh4SG1UczJDY3d1VUxaZU5abkZUNFhjb2IxX2N6XzQ2Sk5zcVh4Y08zNVo3Y0s5RXF0ZGt3SlFRMFFRV3NWOTNMRFpadmdkakxYa0VLSTc1eEdhR0Fuek52M0p5aVBzcU1vcE5BdnM1WF9nMlJzMmNoNDlNbw?oc=5\" target=\"_blank\">Provincia adjudicó la construcción de un nuevo Centro Deportivo Comunitario en San Patricio del Chañar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Neuquén al instante</font>",
-          "source": "Neuquén al instante",
-          "sourceType": "BUSCADOR / RESPALDO",
-          "sourceUrl": "",
-          "collection": "BUSCADOR",
-          "query": "\"San Patricio del Chañar\"",
-          "relevance": 3,
-          "relevanceLabel": "DIRECTA",
-          "firstSeen": "2026-10-19T17:41:00.683313+00:00",
-          "isNew": false,
-          "titleKey": "adjudico construccion nuevo centro deportivo comunitario instante",
-          "evidenceUrl": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQOVhQOThuamtvX25sa2k4eWRSM1FwLTNPTU1JbEdXYWV1Z3Nubzh6QmJtRVhyZ1lXaHBuN1h3RGRSNjNidnpIQ2ZYMGJNVjZUcUhCMTlkTFVFTzliWktXNzhlUHlKazNZUktodHZudHRUU2dDNzhMOEljMjg0MWl4amp3NzB5bzJkdWdiRzc1emNIdDNsWk5ZWEk2dWxYa3dlWDYtdkZHcHRtZnJXY2tORWJCZHh5SUFjNExBOUxCa19HQ0xfckJSS3pUeUppU2d5QkdaVllNZ1ltNWJjQlVDbmo3MThxYlNndWVmaHZQcnJVc01mek5XT0tn0gH_AUFVX3lxTE9Dc2Y0bEVJRnFGdVQzSWUtZXM5Ym9BNjdHdHg2UGYycWFKZ2dKTmZURGtYNzlxakxIZG1CZEd3X3NUMUdac2xEQV9NS0NzZEl0T0FuVThqcVlhQ2xRcjQ3R0Z6dG03ZG5JUElxN1BqYzZMOGQ1QVcwYU1TaG9qTzZ1clI5dXdPNkREblh4SG1UczJDY3d1VUxaZU5abkZUNFhjb2IxX2N6XzQ2Sk5zcVh4Y08zNVo3Y0s5RXF0ZGt3SlFRMFFRV3NWOTNMRFpadmdkakxYa0VLSTc1eEdhR0Fuek52M0p5aVBzcU1vcE5BdnM1WF9nMlJzMmNoNDlNbw?oc=5",
-          "sourcePriority": 3
-        },
-        {
-          "title": "San Patricio del Chañar tendrá un Centro Deportivo Comunitario para 400 personas - Alerta Digital",
-          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPNmNMY3pkSDZWMVN0cE9WNms3WW9JZWFJX3YxcGR0ajNKQ1BPNWlKVGRNYWVOMXZueWZDaTFUMzIzeW1IZkl1U0J3R052dlN4SHF6UXphc3JvTzY1NlFrLUxMWDlBOVNRZGlOVTZsTnQ2QlVXYXhVMGlzMTY1MUJ2aXhRb25ucG9QUlFBMTNHbG1vNFl6MWdOYUtXNWpTVm1XM2hXZTZnd1Z6dkhSZzl1VlZTQm9UalpBejdJQW81bWhrWnJPMjM0NTFRc19laFp0VlHSAdcBQVVfeXFMTU93UHhsaTZkNjVobTlRWWdJalJLYXFNMjZoQkFsNEp2RDhsMWtPQnVZc2FKMlE5dnlsWmZndXJSYWtrVWQyUmxFaDloUEowalpvc0o5cUwwYThsRFZXRXVOX1h4WjMyMm4wQlBFLVlVRUxYZURSY3BYdC01NmdSclBubGtWMlZndl9TLUduVjdtMVFoeXBIUXFvUEVrTG1iTlpvMUV2UU93MWRFdkt3X0UxMk9HbFV3RWVkWnBORF8xZ0pGWFFwTGlJWUNTY2hmQU9fZGVXRGs?oc=5",
-          "publishedAt": "2026-10-09T07:00:00+00:00",
-          "published": "2026-10-09T07:00:00+00:00",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMi0gFBVV95cUxPNmNMY3pkSDZWMVN0cE9WNms3WW9JZWFJX3YxcGR0ajNKQ1BPNWlKVGRNYWVOMXZueWZDaTFUMzIzeW1IZkl1U0J3R052dlN4SHF6UXphc3JvTzY1NlFrLUxMWDlBOVNRZGlOVTZsTnQ2QlVXYXhVMGlzMTY1MUJ2aXhRb25ucG9QUlFBMTNHbG1vNFl6MWdOYUtXNWpTVm1XM2hXZTZnd1Z6dkhSZzl1VlZTQm9UalpBejdJQW81bWhrWnJPMjM0NTFRc19laFp0VlHSAdcBQVVfeXFMTU93UHhsaTZkNjVobTlRWWdJalJLYXFNMjZoQkFsNEp2RDhsMWtPQnVZc2FKMlE5dnlsWmZndXJSYWtrVWQyUmxFaDloUEowalpvc0o5cUwwYThsRFZXRXVOX1h4WjMyMm4wQlBFLVlVRUxYZURSY3BYdC01NmdSclBubGtWMlZndl9TLUduVjdtMVFoeXBIUXFvUEVrTG1iTlpvMUV2UU93MWRFdkt3X0UxMk9HbFV3RWVkWnBORF8xZ0pGWFFwTGlJWUNTY2hmQU9fZGVXRGs?oc=5\" target=\"_blank\">San Patricio del Chañar tendrá un Centro Deportivo Comunitario para 400 personas</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Alerta Digital</font>",
-          "source": "Alerta Digital",
-          "sourceType": "BUSCADOR / RESPALDO",
-          "sourceUrl": "",
-          "collection": "BUSCADOR",
-          "query": "\"San Patricio del Chañar\"",
-          "relevance": 3,
-          "relevanceLabel": "DIRECTA",
-          "firstSeen": "2026-10-11T09:13:06.915788+00:00",
-          "isNew": false,
-          "titleKey": "tendra centro deportivo comunitario 400 personas alerta digital",
-          "evidenceUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPNmNMY3pkSDZWMVN0cE9WNms3WW9JZWFJX3YxcGR0ajNKQ1BPNWlKVGRNYWVOMXZueWZDaTFUMzIzeW1IZkl1U0J3R052dlN4SHF6UXphc3JvTzY1NlFrLUxMWDlBOVNRZGlOVTZsTnQ2QlVXYXhVMGlzMTY1MUJ2aXhRb25ucG9QUlFBMTNHbG1vNFl6MWdOYUtXNWpTVm1XM2hXZTZnd1Z6dkhSZzl1VlZTQm9UalpBejdJQW81bWhrWnJPMjM0NTFRc19laFp0VlHSAdcBQVVfeXFMTU93UHhsaTZkNjVobTlRWWdJalJLYXFNMjZoQkFsNEp2RDhsMWtPQnVZc2FKMlE5dnlsWmZndXJSYWtrVWQyUmxFaDloUEowalpvc0o5cUwwYThsRFZXRXVOX1h4WjMyMm4wQlBFLVlVRUxYZURSY3BYdC01NmdSclBubGtWMlZndl9TLUduVjdtMVFoeXBIUXFvUEVrTG1iTlpvMUV2UU93MWRFdkt3X0UxMk9HbFV3RWVkWnBORF8xZ0pGWFFwTGlJWUNTY2hmQU9fZGVXRGs?oc=5",
-          "sourcePriority": 3
-        },
-        {
-          "title": "El intendente de San Patricio del Chañar habló del aporte del municipio a la investigación que realiza el EAAF en el cementerio - Radio UNCo CALF",
-          "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNeGpmS3gwaFpHRlpFdmxhTnUtVDlITktyay1uak9aS1lLUHM3eVZYTDltQU1VMUVzME96ZVB0b2RicGdNY3pqdW5oTkFLWk9LMW94blp0QURJR29IQUZkTHFGVDdEVmRmR0lCZFF3OEd0ZFlrZ1RCR0xhTWVqNi1FcGlLR0F3REdubGNxZ0hyc3UyYzB4S3RFX0MybnRnTWpzc3FqU25fR3A2QlVQWE9uSlRSaXFHWW10b1ZBWmxvcEFvWGNtamdVMFBMMUp4YWJaRHpZVy1FZGVrY2t0LVJ2cmtzeXhieWxEZG5vS1h1QUZWc3NzRTk3cA?oc=5",
-          "publishedAt": "2026-10-08T15:10:17+00:00",
-          "published": "2026-10-08T15:10:17+00:00",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMi-AFBVV95cUxNeGpmS3gwaFpHRlpFdmxhTnUtVDlITktyay1uak9aS1lLUHM3eVZYTDltQU1VMUVzME96ZVB0b2RicGdNY3pqdW5oTkFLWk9LMW94blp0QURJR29IQUZkTHFGVDdEVmRmR0lCZFF3OEd0ZFlrZ1RCR0xhTWVqNi1FcGlLR0F3REdubGNxZ0hyc3UyYzB4S3RFX0MybnRnTWpzc3FqU25fR3A2QlVQWE9uSlRSaXFHWW10b1ZBWmxvcEFvWGNtamdVMFBMMUp4YWJaRHpZVy1FZGVrY2t0LVJ2cmtzeXhieWxEZG5vS1h1QUZWc3NzRTk3cA?oc=5\" target=\"_blank\">El intendente de San Patricio del Chañar habló del aporte del municipio a la investigación que realiza el EAAF en el cementerio</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Radio UNCo CALF</font>",
-          "source": "Radio UNCo CALF",
-          "sourceType": "BUSCADOR / RESPALDO",
-          "sourceUrl": "",
-          "collection": "BUSCADOR",
-          "query": "\"San Patricio del Chañar\"",
-          "relevance": 3,
-          "relevanceLabel": "DIRECTA",
-          "firstSeen": "2026-10-18T05:00:08.833754+00:00",
-          "isNew": false,
-          "titleKey": "intendente hablo aporte investigacion realiza eaaf cementerio radio unco calf",
-          "evidenceUrl": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNeGpmS3gwaFpHRlpFdmxhTnUtVDlITktyay1uak9aS1lLUHM3eVZYTDltQU1VMUVzME96ZVB0b2RicGdNY3pqdW5oTkFLWk9LMW94blp0QURJR29IQUZkTHFGVDdEVmRmR0lCZFF3OEd0ZFlrZ1RCR0xhTWVqNi1FcGlLR0F3REdubGNxZ0hyc3UyYzB4S3RFX0MybnRnTWpzc3FqU25fR3A2QlVQWE9uSlRSaXFHWW10b1ZBWmxvcEFvWGNtamdVMFBMMUp4YWJaRHpZVy1FZGVrY2t0LVJ2cmtzeXhieWxEZG5vS1h1QUZWc3NzRTk3cA?oc=5",
-          "sourcePriority": 3
-        }
-      ],
-      "lifecycle": "SOSTENIDO",
-      "movementDelta": 32,
-      "previousCoverage": 7,
-      "newSources": [
-        "Neuquén al instante",
-        "Alerta Digital",
-        "Radio UNCo CALF"
-      ],
-      "sourceDiversity": 3,
       "memoryMatched": true,
       "isNew": false,
       "view": "INCIDENCIA",
@@ -3536,6 +3478,107 @@
       "sourceContinuity": "fuente conocida sin respuesta; no se infiere desaparición"
     },
     {
+      "eventId": "CHA-c0796e018b9c",
+      "title": "Provincia adjudicó la construcción de un nuevo Centro Deportivo Comunitario en San Patricio del Chañar - Neuquén al instante",
+      "publishedAt": "2026-10-10T01:01:04+00:00",
+      "firstSeen": "2026-10-11T09:13:06.915788+00:00",
+      "lastSeen": "2026-10-10T01:01:04+00:00",
+      "relevance": 3,
+      "relevanceLabel": "DIRECTA",
+      "incidenceLabel": "DIRECTA EN CHANAR",
+      "topic": "SERVICIOS",
+      "movement": 32,
+      "coverage": 2,
+      "sourceCount": 2,
+      "directSourceCount": 0,
+      "territorialAnchors": [
+        "san patricio del chañar",
+        "el chañar"
+      ],
+      "sources": [
+        "Neuquén al instante",
+        "Alerta Digital"
+      ],
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQOVhQOThuamtvX25sa2k4eWRSM1FwLTNPTU1JbEdXYWV1Z3Nubzh6QmJtRVhyZ1lXaHBuN1h3RGRSNjNidnpIQ2ZYMGJNVjZUcUhCMTlkTFVFTzliWktXNzhlUHlKazNZUktodHZudHRUU2dDNzhMOEljMjg0MWl4amp3NzB5bzJkdWdiRzc1emNIdDNsWk5ZWEk2dWxYa3dlWDYtdkZHcHRtZnJXY2tORWJCZHh5SUFjNExBOUxCa19HQ0xfckJSS3pUeUppU2d5QkdaVllNZ1ltNWJjQlVDbmo3MThxYlNndWVmaHZQcnJVc01mek5XT0tn0gH_AUFVX3lxTE9Dc2Y0bEVJRnFGdVQzSWUtZXM5Ym9BNjdHdHg2UGYycWFKZ2dKTmZURGtYNzlxakxIZG1CZEd3X3NUMUdac2xEQV9NS0NzZEl0T0FuVThqcVlhQ2xRcjQ3R0Z6dG03ZG5JUElxN1BqYzZMOGQ1QVcwYU1TaG9qTzZ1clI5dXdPNkREblh4SG1UczJDY3d1VUxaZU5abkZUNFhjb2IxX2N6XzQ2Sk5zcVh4Y08zNVo3Y0s5RXF0ZGt3SlFRMFFRV3NWOTNMRFpadmdkakxYa0VLSTc1eEdhR0Fuek52M0p5aVBzcU1vcE5BdnM1WF9nMlJzMmNoNDlNbw?oc=5",
+      "items": [
+        {
+          "title": "Provincia adjudicó la construcción de un nuevo Centro Deportivo Comunitario en San Patricio del Chañar - Neuquén al instante",
+          "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQOVhQOThuamtvX25sa2k4eWRSM1FwLTNPTU1JbEdXYWV1Z3Nubzh6QmJtRVhyZ1lXaHBuN1h3RGRSNjNidnpIQ2ZYMGJNVjZUcUhCMTlkTFVFTzliWktXNzhlUHlKazNZUktodHZudHRUU2dDNzhMOEljMjg0MWl4amp3NzB5bzJkdWdiRzc1emNIdDNsWk5ZWEk2dWxYa3dlWDYtdkZHcHRtZnJXY2tORWJCZHh5SUFjNExBOUxCa19HQ0xfckJSS3pUeUppU2d5QkdaVllNZ1ltNWJjQlVDbmo3MThxYlNndWVmaHZQcnJVc01mek5XT0tn0gH_AUFVX3lxTE9Dc2Y0bEVJRnFGdVQzSWUtZXM5Ym9BNjdHdHg2UGYycWFKZ2dKTmZURGtYNzlxakxIZG1CZEd3X3NUMUdac2xEQV9NS0NzZEl0T0FuVThqcVlhQ2xRcjQ3R0Z6dG03ZG5JUElxN1BqYzZMOGQ1QVcwYU1TaG9qTzZ1clI5dXdPNkREblh4SG1UczJDY3d1VUxaZU5abkZUNFhjb2IxX2N6XzQ2Sk5zcVh4Y08zNVo3Y0s5RXF0ZGt3SlFRMFFRV3NWOTNMRFpadmdkakxYa0VLSTc1eEdhR0Fuek52M0p5aVBzcU1vcE5BdnM1WF9nMlJzMmNoNDlNbw?oc=5",
+          "publishedAt": "2026-10-10T01:01:04+00:00",
+          "published": "2026-10-10T01:01:04+00:00",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMi-gFBVV95cUxQOVhQOThuamtvX25sa2k4eWRSM1FwLTNPTU1JbEdXYWV1Z3Nubzh6QmJtRVhyZ1lXaHBuN1h3RGRSNjNidnpIQ2ZYMGJNVjZUcUhCMTlkTFVFTzliWktXNzhlUHlKazNZUktodHZudHRUU2dDNzhMOEljMjg0MWl4amp3NzB5bzJkdWdiRzc1emNIdDNsWk5ZWEk2dWxYa3dlWDYtdkZHcHRtZnJXY2tORWJCZHh5SUFjNExBOUxCa19HQ0xfckJSS3pUeUppU2d5QkdaVllNZ1ltNWJjQlVDbmo3MThxYlNndWVmaHZQcnJVc01mek5XT0tn0gH_AUFVX3lxTE9Dc2Y0bEVJRnFGdVQzSWUtZXM5Ym9BNjdHdHg2UGYycWFKZ2dKTmZURGtYNzlxakxIZG1CZEd3X3NUMUdac2xEQV9NS0NzZEl0T0FuVThqcVlhQ2xRcjQ3R0Z6dG03ZG5JUElxN1BqYzZMOGQ1QVcwYU1TaG9qTzZ1clI5dXdPNkREblh4SG1UczJDY3d1VUxaZU5abkZUNFhjb2IxX2N6XzQ2Sk5zcVh4Y08zNVo3Y0s5RXF0ZGt3SlFRMFFRV3NWOTNMRFpadmdkakxYa0VLSTc1eEdhR0Fuek52M0p5aVBzcU1vcE5BdnM1WF9nMlJzMmNoNDlNbw?oc=5\" target=\"_blank\">Provincia adjudicó la construcción de un nuevo Centro Deportivo Comunitario en San Patricio del Chañar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Neuquén al instante</font>",
+          "source": "Neuquén al instante",
+          "sourceType": "BUSCADOR / RESPALDO",
+          "sourceUrl": "",
+          "collection": "BUSCADOR",
+          "query": "\"San Patricio del Chañar\"",
+          "relevance": 3,
+          "relevanceLabel": "DIRECTA",
+          "firstSeen": "2026-10-19T17:41:00.683313+00:00",
+          "isNew": false,
+          "titleKey": "adjudico construccion nuevo centro deportivo comunitario instante",
+          "evidenceUrl": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQOVhQOThuamtvX25sa2k4eWRSM1FwLTNPTU1JbEdXYWV1Z3Nubzh6QmJtRVhyZ1lXaHBuN1h3RGRSNjNidnpIQ2ZYMGJNVjZUcUhCMTlkTFVFTzliWktXNzhlUHlKazNZUktodHZudHRUU2dDNzhMOEljMjg0MWl4amp3NzB5bzJkdWdiRzc1emNIdDNsWk5ZWEk2dWxYa3dlWDYtdkZHcHRtZnJXY2tORWJCZHh5SUFjNExBOUxCa19HQ0xfckJSS3pUeUppU2d5QkdaVllNZ1ltNWJjQlVDbmo3MThxYlNndWVmaHZQcnJVc01mek5XT0tn0gH_AUFVX3lxTE9Dc2Y0bEVJRnFGdVQzSWUtZXM5Ym9BNjdHdHg2UGYycWFKZ2dKTmZURGtYNzlxakxIZG1CZEd3X3NUMUdac2xEQV9NS0NzZEl0T0FuVThqcVlhQ2xRcjQ3R0Z6dG03ZG5JUElxN1BqYzZMOGQ1QVcwYU1TaG9qTzZ1clI5dXdPNkREblh4SG1UczJDY3d1VUxaZU5abkZUNFhjb2IxX2N6XzQ2Sk5zcVh4Y08zNVo3Y0s5RXF0ZGt3SlFRMFFRV3NWOTNMRFpadmdkakxYa0VLSTc1eEdhR0Fuek52M0p5aVBzcU1vcE5BdnM1WF9nMlJzMmNoNDlNbw?oc=5",
+          "sourcePriority": 3
+        },
+        {
+          "title": "San Patricio del Chañar tendrá un Centro Deportivo Comunitario para 400 personas - Alerta Digital",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPNmNMY3pkSDZWMVN0cE9WNms3WW9JZWFJX3YxcGR0ajNKQ1BPNWlKVGRNYWVOMXZueWZDaTFUMzIzeW1IZkl1U0J3R052dlN4SHF6UXphc3JvTzY1NlFrLUxMWDlBOVNRZGlOVTZsTnQ2QlVXYXhVMGlzMTY1MUJ2aXhRb25ucG9QUlFBMTNHbG1vNFl6MWdOYUtXNWpTVm1XM2hXZTZnd1Z6dkhSZzl1VlZTQm9UalpBejdJQW81bWhrWnJPMjM0NTFRc19laFp0VlHSAdcBQVVfeXFMTU93UHhsaTZkNjVobTlRWWdJalJLYXFNMjZoQkFsNEp2RDhsMWtPQnVZc2FKMlE5dnlsWmZndXJSYWtrVWQyUmxFaDloUEowalpvc0o5cUwwYThsRFZXRXVOX1h4WjMyMm4wQlBFLVlVRUxYZURSY3BYdC01NmdSclBubGtWMlZndl9TLUduVjdtMVFoeXBIUXFvUEVrTG1iTlpvMUV2UU93MWRFdkt3X0UxMk9HbFV3RWVkWnBORF8xZ0pGWFFwTGlJWUNTY2hmQU9fZGVXRGs?oc=5",
+          "publishedAt": "2026-10-09T07:00:00+00:00",
+          "published": "2026-10-09T07:00:00+00:00",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMi0gFBVV95cUxPNmNMY3pkSDZWMVN0cE9WNms3WW9JZWFJX3YxcGR0ajNKQ1BPNWlKVGRNYWVOMXZueWZDaTFUMzIzeW1IZkl1U0J3R052dlN4SHF6UXphc3JvTzY1NlFrLUxMWDlBOVNRZGlOVTZsTnQ2QlVXYXhVMGlzMTY1MUJ2aXhRb25ucG9QUlFBMTNHbG1vNFl6MWdOYUtXNWpTVm1XM2hXZTZnd1Z6dkhSZzl1VlZTQm9UalpBejdJQW81bWhrWnJPMjM0NTFRc19laFp0VlHSAdcBQVVfeXFMTU93UHhsaTZkNjVobTlRWWdJalJLYXFNMjZoQkFsNEp2RDhsMWtPQnVZc2FKMlE5dnlsWmZndXJSYWtrVWQyUmxFaDloUEowalpvc0o5cUwwYThsRFZXRXVOX1h4WjMyMm4wQlBFLVlVRUxYZURSY3BYdC01NmdSclBubGtWMlZndl9TLUduVjdtMVFoeXBIUXFvUEVrTG1iTlpvMUV2UU93MWRFdkt3X0UxMk9HbFV3RWVkWnBORF8xZ0pGWFFwTGlJWUNTY2hmQU9fZGVXRGs?oc=5\" target=\"_blank\">San Patricio del Chañar tendrá un Centro Deportivo Comunitario para 400 personas</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Alerta Digital</font>",
+          "source": "Alerta Digital",
+          "sourceType": "BUSCADOR / RESPALDO",
+          "sourceUrl": "",
+          "collection": "BUSCADOR",
+          "query": "\"San Patricio del Chañar\"",
+          "relevance": 3,
+          "relevanceLabel": "DIRECTA",
+          "firstSeen": "2026-10-11T09:13:06.915788+00:00",
+          "isNew": false,
+          "titleKey": "tendra centro deportivo comunitario 400 personas alerta digital",
+          "evidenceUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPNmNMY3pkSDZWMVN0cE9WNms3WW9JZWFJX3YxcGR0ajNKQ1BPNWlKVGRNYWVOMXZueWZDaTFUMzIzeW1IZkl1U0J3R052dlN4SHF6UXphc3JvTzY1NlFrLUxMWDlBOVNRZGlOVTZsTnQ2QlVXYXhVMGlzMTY1MUJ2aXhRb25ucG9QUlFBMTNHbG1vNFl6MWdOYUtXNWpTVm1XM2hXZTZnd1Z6dkhSZzl1VlZTQm9UalpBejdJQW81bWhrWnJPMjM0NTFRc19laFp0VlHSAdcBQVVfeXFMTU93UHhsaTZkNjVobTlRWWdJalJLYXFNMjZoQkFsNEp2RDhsMWtPQnVZc2FKMlE5dnlsWmZndXJSYWtrVWQyUmxFaDloUEowalpvc0o5cUwwYThsRFZXRXVOX1h4WjMyMm4wQlBFLVlVRUxYZURSY3BYdC01NmdSclBubGtWMlZndl9TLUduVjdtMVFoeXBIUXFvUEVrTG1iTlpvMUV2UU93MWRFdkt3X0UxMk9HbFV3RWVkWnBORF8xZ0pGWFFwTGlJWUNTY2hmQU9fZGVXRGs?oc=5",
+          "sourcePriority": 3
+        }
+      ],
+      "lifecycle": "EN DESCENSO",
+      "movementDelta": 16,
+      "previousCoverage": 7,
+      "newSources": [
+        "Neuquén al instante",
+        "Alerta Digital"
+      ],
+      "sourceDiversity": 2,
+      "memoryMatched": true,
+      "isNew": false,
+      "view": "INCIDENCIA",
+      "incidenceEligible": true,
+      "signalReason": "reservado a incidencia territorial",
+      "incidenceReason": "anclaje directo + tema operativo/local",
+      "territory": {
+        "version": "2.0",
+        "primary": "San Patricio del Chañar",
+        "nodes": [
+          "San Patricio del Chañar"
+        ],
+        "sectors": [],
+        "barrios": [],
+        "microzones": [],
+        "corridors": [],
+        "institutions": [],
+        "services": [],
+        "spaces": [],
+        "production": [],
+        "path": "San Patricio del Chañar",
+        "evidence": [
+          {
+            "node": "San Patricio del Chañar",
+            "level": "localidad",
+            "evidence": "DIRECTA"
+          }
+        ]
+      }
+    },
+    {
       "eventId": "CHA-c17768fff2dc",
       "title": "La AIC aumentará el caudal del río Neuquén aguas abajo del compensador El Chañar - Chañar Digital",
       "publishedAt": "2026-10-17T01:10:25+00:00",
@@ -3545,7 +3588,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SERVICIOS",
-      "movement": 26,
+      "movement": 24,
       "coverage": 2,
       "sourceCount": 2,
       "directSourceCount": 0,
@@ -3599,7 +3642,7 @@
         }
       ],
       "lifecycle": "EN DESCENSO",
-      "movementDelta": -1,
+      "movementDelta": -2,
       "previousCoverage": 2,
       "newSources": [
         "EPEN"
@@ -3684,11 +3727,9 @@
         }
       ],
       "lifecycle": "EN DESCENSO",
-      "movementDelta": -29,
+      "movementDelta": -43,
       "previousCoverage": 1,
-      "newSources": [
-        "Diario Río Negro"
-      ],
+      "newSources": [],
       "sourceDiversity": 1,
       "memoryMatched": true,
       "isNew": false,
@@ -4016,23 +4057,61 @@
   ],
   "items": [
     {
-      "title": "AOG: Neuquén redobla la apuesta a Vaca Muerta y tendrá el parque industrial más grande del país",
-      "url": "https://www.rionegro.com.ar/energia/aog-neuquen-redobla-la-apuesta-a-vaca-muerta-y-tendra-el-parque-industrial-mas-grande-del-pais/",
-      "publishedAt": "2026-10-22T03:30:00+00:00",
-      "published": "2026-10-22T03:30:00+00:00",
-      "description": "",
-      "source": "Diario Río Negro",
-      "sourceType": "MEDIO REGIONAL",
-      "sourceUrl": "https://www.rionegro.com.ar/",
-      "collection": "DIRECTA",
-      "query": "https://www.rionegro.com.ar/feed/",
+      "title": "Fuerte choque en la Ruta 7 cerca de San Patricio del Chañar: tres vehículos involucrados y demoras en el tránsito - Diario Neuquino",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPdlZmTThheTJyUTBuamRoM3R6dkd5clFVdE1hWFo2TjdhSEFVNDgzUVRKMlpDWDRPTTZjNE9ob3NpcmpXeDItQ0xCNHRxU1FEeFktUzdYTzNEUDBvVlpsdmF6Rl94QnNianRLZGdpeDY4dkdzdzRsMGlxMFN3OGlBV3dlRG5mSFkzSE5iSzI4bDEwQVVMclRUNGxKRVJ4WEhrSzRDU3BNUHlRY1JEekN2Zjd6YmV2MkUzWW1YN3dyX2lJUllIWlNtZ1FwSFFnbkpsVGtIYzZCb3AyQjA?oc=5",
+      "publishedAt": "2026-10-22T14:25:28+00:00",
+      "published": "2026-10-22T14:25:28+00:00",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMi2wFBVV95cUxPdlZmTThheTJyUTBuamRoM3R6dkd5clFVdE1hWFo2TjdhSEFVNDgzUVRKMlpDWDRPTTZjNE9ob3NpcmpXeDItQ0xCNHRxU1FEeFktUzdYTzNEUDBvVlpsdmF6Rl94QnNianRLZGdpeDY4dkdzdzRsMGlxMFN3OGlBV3dlRG5mSFkzSE5iSzI4bDEwQVVMclRUNGxKRVJ4WEhrSzRDU3BNUHlRY1JEekN2Zjd6YmV2MkUzWW1YN3dyX2lJUllIWlNtZ1FwSFFnbkpsVGtIYzZCb3AyQjA?oc=5\" target=\"_blank\">Fuerte choque en la Ruta 7 cerca de San Patricio del Chañar: tres vehículos involucrados y demoras en el tránsito</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Diario Neuquino</font>",
+      "source": "Diario Neuquino",
+      "sourceType": "BUSCADOR / RESPALDO",
+      "sourceUrl": "",
+      "collection": "BUSCADOR",
+      "query": "\"San Patricio del Chañar\"",
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
-      "firstSeen": "2026-10-22T05:54:38.506564+00:00",
-      "isNew": false,
-      "titleKey": "aog redobla apuesta vaca muerta tendra parque industrial mas grande pais",
-      "evidenceUrl": "https://www.rionegro.com.ar/energia/aog-neuquen-redobla-la-apuesta-a-vaca-muerta-y-tendra-el-parque-industrial-mas-grande-del-pais/",
-      "sourcePriority": 2
+      "firstSeen": "2026-10-22T16:57:43.238172+00:00",
+      "isNew": true,
+      "titleKey": "fuerte choque ruta cerca tres vehiculos involucrados demoras transito diario neuquino",
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPdlZmTThheTJyUTBuamRoM3R6dkd5clFVdE1hWFo2TjdhSEFVNDgzUVRKMlpDWDRPTTZjNE9ob3NpcmpXeDItQ0xCNHRxU1FEeFktUzdYTzNEUDBvVlpsdmF6Rl94QnNianRLZGdpeDY4dkdzdzRsMGlxMFN3OGlBV3dlRG5mSFkzSE5iSzI4bDEwQVVMclRUNGxKRVJ4WEhrSzRDU3BNUHlRY1JEekN2Zjd6YmV2MkUzWW1YN3dyX2lJUllIWlNtZ1FwSFFnbkpsVGtIYzZCb3AyQjA?oc=5",
+      "sourcePriority": 3
+    },
+    {
+      "title": "Demoras por un fuerte choque en la Ruta 7, cerca de El Chañar: piden circular con precaución - Diario Río Negro",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNNl9jYnNQajktaWdNbFdnQWFSMS1fZkVobzA4dnVPTklVMkhXYnJqcm1EN2NEUUxoRHhKbHJwb0lmd3JfX0FWcHdtSjJscElGaURSdXhzWWhXMzVOUF9QcG5Ka2dOU1ZYOGYxWm5zME8xbUxBR2pOaVNUbzluYUwzalNybW9pSVFzajVqaFp2emFvN2dQZ1Z6Rkxaa1I3OHR4MmZGRXB0ZW5Ba21SUVJqbGY1YkJrdDd3WkRnSEc0RG5JRktEMDR0LU5KMUlZUjVOc2fSAdoBQVVfeXFMTjZXVnE2OFoxc3ctQkQxWURaZUF4WEstcHNYZDdLZDJUMW1PQXpSUlV6Y3Yya29Lc19aTWNoei13QzF0bllYZG5NTHI1Z2YyT09xUmN3WkM5RHlRMktzemNOVWE5cUZvV1NyeGh5ZmpvTFRvVkd0SnRZZmhuZXJrcVFhdW9uYndvOUVxNmZ1TlowMXY2TXhtbEl5LWJsSGdNM09rcjBTeTh1WjhDLVd5OFdQemV3M3hGa1Y4WVhZQjBqV2FfS1VUTldZZXUwN3pzUUhfYkd2WXpnOUE?oc=5",
+      "publishedAt": "2026-10-22T12:50:53+00:00",
+      "published": "2026-10-22T12:50:53+00:00",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMi0gFBVV95cUxNNl9jYnNQajktaWdNbFdnQWFSMS1fZkVobzA4dnVPTklVMkhXYnJqcm1EN2NEUUxoRHhKbHJwb0lmd3JfX0FWcHdtSjJscElGaURSdXhzWWhXMzVOUF9QcG5Ka2dOU1ZYOGYxWm5zME8xbUxBR2pOaVNUbzluYUwzalNybW9pSVFzajVqaFp2emFvN2dQZ1Z6Rkxaa1I3OHR4MmZGRXB0ZW5Ba21SUVJqbGY1YkJrdDd3WkRnSEc0RG5JRktEMDR0LU5KMUlZUjVOc2fSAdoBQVVfeXFMTjZXVnE2OFoxc3ctQkQxWURaZUF4WEstcHNYZDdLZDJUMW1PQXpSUlV6Y3Yya29Lc19aTWNoei13QzF0bllYZG5NTHI1Z2YyT09xUmN3WkM5RHlRMktzemNOVWE5cUZvV1NyeGh5ZmpvTFRvVkd0SnRZZmhuZXJrcVFhdW9uYndvOUVxNmZ1TlowMXY2TXhtbEl5LWJsSGdNM09rcjBTeTh1WjhDLVd5OFdQemV3M3hGa1Y4WVhZQjBqV2FfS1VUTldZZXUwN3pzUUhfYkd2WXpnOUE?oc=5\" target=\"_blank\">Demoras por un fuerte choque en la Ruta 7, cerca de El Chañar: piden circular con precaución</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Diario Río Negro</font>",
+      "source": "Diario Río Negro",
+      "sourceType": "BUSCADOR / RESPALDO",
+      "sourceUrl": "",
+      "collection": "BUSCADOR",
+      "query": "\"San Patricio del Chañar\"",
+      "relevance": 3,
+      "relevanceLabel": "DIRECTA",
+      "firstSeen": "2026-10-22T16:57:43.238172+00:00",
+      "isNew": true,
+      "titleKey": "demoras fuerte choque ruta cerca piden circular precaucion diario rio negro",
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNNl9jYnNQajktaWdNbFdnQWFSMS1fZkVobzA4dnVPTklVMkhXYnJqcm1EN2NEUUxoRHhKbHJwb0lmd3JfX0FWcHdtSjJscElGaURSdXhzWWhXMzVOUF9QcG5Ka2dOU1ZYOGYxWm5zME8xbUxBR2pOaVNUbzluYUwzalNybW9pSVFzajVqaFp2emFvN2dQZ1Z6Rkxaa1I3OHR4MmZGRXB0ZW5Ba21SUVJqbGY1YkJrdDd3WkRnSEc0RG5JRktEMDR0LU5KMUlZUjVOc2fSAdoBQVVfeXFMTjZXVnE2OFoxc3ctQkQxWURaZUF4WEstcHNYZDdLZDJUMW1PQXpSUlV6Y3Yya29Lc19aTWNoei13QzF0bllYZG5NTHI1Z2YyT09xUmN3WkM5RHlRMktzemNOVWE5cUZvV1NyeGh5ZmpvTFRvVkd0SnRZZmhuZXJrcVFhdW9uYndvOUVxNmZ1TlowMXY2TXhtbEl5LWJsSGdNM09rcjBTeTh1WjhDLVd5OFdQemV3M3hGa1Y4WVhZQjBqV2FfS1VUTldZZXUwN3pzUUhfYkd2WXpnOUE?oc=5",
+      "sourcePriority": 3
+    },
+    {
+      "title": "Choque entre un camión y dos camionetas sobre la Ruta 7 en el Chañar - NoticiasNQN",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNdG5CSUNHb2tWb3ptQW1JaFFPb2JYQnp2enI4MEN3ellaQS1vU3RRZGFpTmVlcVJzazNRSklUSnBoUVRNbGFab1FZWTloZWdiT2JNNXMyR3dQU3dIVW9SREV0WEExOHh5ZUVEODhhamFaRFN2NDMwbHhibG1KRzRLbmVIdWNDaENBNXpMaDc4NUhQaWZ3WWxUY19FWmxXdDl6WW1mbTQ5a3NwaEdTUXJSX0xoaGFpZ3FiVmtTNW10YlpiSlhL0gHKAUFVX3lxTE5JSjVqM3BnRlNfVm5fTTBTa0hUZkU4RVJORkRfRkVtNlFmYVdmNUI4Nzc2S3FSVmVIcml5VXlXRGdrTTg4VWJfenF3XzdVTE81TFJYMGUtR2ozbEdNREJnN0hJajRZYXRfQTVnc3lSMVhEODdaaFlZcTZnMXBKQmNUNGpyTTNGcU1iU2kyZG5WWFl1blhYcjhMREc0TDdvdUV1UVRDMEJncXpXamhhaVZGWm9GbkdLSGVrRUxmRndnOE02Nk9oaGdzVWc?oc=5",
+      "publishedAt": "2026-10-22T12:00:09+00:00",
+      "published": "2026-10-22T12:00:09+00:00",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMixAFBVV95cUxNdG5CSUNHb2tWb3ptQW1JaFFPb2JYQnp2enI4MEN3ellaQS1vU3RRZGFpTmVlcVJzazNRSklUSnBoUVRNbGFab1FZWTloZWdiT2JNNXMyR3dQU3dIVW9SREV0WEExOHh5ZUVEODhhamFaRFN2NDMwbHhibG1KRzRLbmVIdWNDaENBNXpMaDc4NUhQaWZ3WWxUY19FWmxXdDl6WW1mbTQ5a3NwaEdTUXJSX0xoaGFpZ3FiVmtTNW10YlpiSlhL0gHKAUFVX3lxTE5JSjVqM3BnRlNfVm5fTTBTa0hUZkU4RVJORkRfRkVtNlFmYVdmNUI4Nzc2S3FSVmVIcml5VXlXRGdrTTg4VWJfenF3XzdVTE81TFJYMGUtR2ozbEdNREJnN0hJajRZYXRfQTVnc3lSMVhEODdaaFlZcTZnMXBKQmNUNGpyTTNGcU1iU2kyZG5WWFl1blhYcjhMREc0TDdvdUV1UVRDMEJncXpXamhhaVZGWm9GbkdLSGVrRUxmRndnOE02Nk9oaGdzVWc?oc=5\" target=\"_blank\">Choque entre un camión y dos camionetas sobre la Ruta 7 en el Chañar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NoticiasNQN</font>",
+      "source": "NoticiasNQN",
+      "sourceType": "BUSCADOR / RESPALDO",
+      "sourceUrl": "",
+      "collection": "BUSCADOR",
+      "query": "\"San Patricio del Chañar\"",
+      "relevance": 3,
+      "relevanceLabel": "DIRECTA",
+      "firstSeen": "2026-10-22T16:57:43.238172+00:00",
+      "isNew": true,
+      "titleKey": "choque entre camion dos camionetas ruta noticiasnqn",
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNdG5CSUNHb2tWb3ptQW1JaFFPb2JYQnp2enI4MEN3ellaQS1vU3RRZGFpTmVlcVJzazNRSklUSnBoUVRNbGFab1FZWTloZWdiT2JNNXMyR3dQU3dIVW9SREV0WEExOHh5ZUVEODhhamFaRFN2NDMwbHhibG1KRzRLbmVIdWNDaENBNXpMaDc4NUhQaWZ3WWxUY19FWmxXdDl6WW1mbTQ5a3NwaEdTUXJSX0xoaGFpZ3FiVmtTNW10YlpiSlhL0gHKAUFVX3lxTE5JSjVqM3BnRlNfVm5fTTBTa0hUZkU4RVJORkRfRkVtNlFmYVdmNUI4Nzc2S3FSVmVIcml5VXlXRGdrTTg4VWJfenF3XzdVTE81TFJYMGUtR2ozbEdNREJnN0hJajRZYXRfQTVnc3lSMVhEODdaaFlZcTZnMXBKQmNUNGpyTTNGcU1iU2kyZG5WWFl1blhYcjhMREc0TDdvdUV1UVRDMEJncXpXamhhaVZGWm9GbkdLSGVrRUxmRndnOE02Nk9oaGdzVWc?oc=5",
+      "sourcePriority": 3
     },
     {
       "title": "Detuvieron a un hombre por amenazas con armas de fuego en la Toma La Costa de El Chañar - Chañar Digital",
@@ -4204,30 +4283,11 @@
       "titleKey": "tendra centro deportivo comunitario 400 personas alerta digital",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPNmNMY3pkSDZWMVN0cE9WNms3WW9JZWFJX3YxcGR0ajNKQ1BPNWlKVGRNYWVOMXZueWZDaTFUMzIzeW1IZkl1U0J3R052dlN4SHF6UXphc3JvTzY1NlFrLUxMWDlBOVNRZGlOVTZsTnQ2QlVXYXhVMGlzMTY1MUJ2aXhRb25ucG9QUlFBMTNHbG1vNFl6MWdOYUtXNWpTVm1XM2hXZTZnd1Z6dkhSZzl1VlZTQm9UalpBejdJQW81bWhrWnJPMjM0NTFRc19laFp0VlHSAdcBQVVfeXFMTU93UHhsaTZkNjVobTlRWWdJalJLYXFNMjZoQkFsNEp2RDhsMWtPQnVZc2FKMlE5dnlsWmZndXJSYWtrVWQyUmxFaDloUEowalpvc0o5cUwwYThsRFZXRXVOX1h4WjMyMm4wQlBFLVlVRUxYZURSY3BYdC01NmdSclBubGtWMlZndl9TLUduVjdtMVFoeXBIUXFvUEVrTG1iTlpvMUV2UU93MWRFdkt3X0UxMk9HbFV3RWVkWnBORF8xZ0pGWFFwTGlJWUNTY2hmQU9fZGVXRGs?oc=5",
       "sourcePriority": 3
-    },
-    {
-      "title": "El intendente de San Patricio del Chañar habló del aporte del municipio a la investigación que realiza el EAAF en el cementerio - Radio UNCo CALF",
-      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNeGpmS3gwaFpHRlpFdmxhTnUtVDlITktyay1uak9aS1lLUHM3eVZYTDltQU1VMUVzME96ZVB0b2RicGdNY3pqdW5oTkFLWk9LMW94blp0QURJR29IQUZkTHFGVDdEVmRmR0lCZFF3OEd0ZFlrZ1RCR0xhTWVqNi1FcGlLR0F3REdubGNxZ0hyc3UyYzB4S3RFX0MybnRnTWpzc3FqU25fR3A2QlVQWE9uSlRSaXFHWW10b1ZBWmxvcEFvWGNtamdVMFBMMUp4YWJaRHpZVy1FZGVrY2t0LVJ2cmtzeXhieWxEZG5vS1h1QUZWc3NzRTk3cA?oc=5",
-      "publishedAt": "2026-10-08T15:10:17+00:00",
-      "published": "2026-10-08T15:10:17+00:00",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMi-AFBVV95cUxNeGpmS3gwaFpHRlpFdmxhTnUtVDlITktyay1uak9aS1lLUHM3eVZYTDltQU1VMUVzME96ZVB0b2RicGdNY3pqdW5oTkFLWk9LMW94blp0QURJR29IQUZkTHFGVDdEVmRmR0lCZFF3OEd0ZFlrZ1RCR0xhTWVqNi1FcGlLR0F3REdubGNxZ0hyc3UyYzB4S3RFX0MybnRnTWpzc3FqU25fR3A2QlVQWE9uSlRSaXFHWW10b1ZBWmxvcEFvWGNtamdVMFBMMUp4YWJaRHpZVy1FZGVrY2t0LVJ2cmtzeXhieWxEZG5vS1h1QUZWc3NzRTk3cA?oc=5\" target=\"_blank\">El intendente de San Patricio del Chañar habló del aporte del municipio a la investigación que realiza el EAAF en el cementerio</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Radio UNCo CALF</font>",
-      "source": "Radio UNCo CALF",
-      "sourceType": "BUSCADOR / RESPALDO",
-      "sourceUrl": "",
-      "collection": "BUSCADOR",
-      "query": "\"San Patricio del Chañar\"",
-      "relevance": 3,
-      "relevanceLabel": "DIRECTA",
-      "firstSeen": "2026-10-18T05:00:08.833754+00:00",
-      "isNew": false,
-      "titleKey": "intendente hablo aporte investigacion realiza eaaf cementerio radio unco calf",
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNeGpmS3gwaFpHRlpFdmxhTnUtVDlITktyay1uak9aS1lLUHM3eVZYTDltQU1VMUVzME96ZVB0b2RicGdNY3pqdW5oTkFLWk9LMW94blp0QURJR29IQUZkTHFGVDdEVmRmR0lCZFF3OEd0ZFlrZ1RCR0xhTWVqNi1FcGlLR0F3REdubGNxZ0hyc3UyYzB4S3RFX0MybnRnTWpzc3FqU25fR3A2QlVQWE9uSlRSaXFHWW10b1ZBWmxvcEFvWGNtamdVMFBMMUp4YWJaRHpZVy1FZGVrY2t0LVJ2cmtzeXhieWxEZG5vS1h1QUZWc3NzRTk3cA?oc=5",
-      "sourcePriority": 3
     }
   ],
   "territorialGraph": {
     "version": "2.0",
-    "generatedAt": "2026-10-22T11:31:44.659827+00:00",
+    "generatedAt": "2026-10-22T16:57:57.195517+00:00",
     "root": "spc",
     "rule": "evidence-first",
     "levels": [
@@ -4276,7 +4336,7 @@
           "ruta 7",
           "ruta provincial 7"
         ],
-        "eventCount": 0
+        "eventCount": 1
       },
       {
         "id": "ruta-8",
@@ -4463,7 +4523,7 @@
         "aliases": [
           "parque industrial"
         ],
-        "eventCount": 1
+        "eventCount": 0
       },
       {
         "id": "loteo-social",
@@ -4783,14 +4843,14 @@
         "evidence": "menciones de ambos nodos dentro del mismo hecho"
       },
       {
-        "from": "parque-industrial",
+        "from": "rio-neuquen",
         "to": "spc",
         "relation": "COOCURRENCIA_TEXTUAL",
         "eventCount": 1,
         "evidence": "menciones de ambos nodos dentro del mismo hecho"
       },
       {
-        "from": "rio-neuquen",
+        "from": "ruta-7",
         "to": "spc",
         "relation": "COOCURRENCIA_TEXTUAL",
         "eventCount": 1,
@@ -4798,18 +4858,21 @@
       }
     ],
     "eventNodes": {
+      "CHA-9e0580d6e847": [
+        "spc",
+        "ruta-7"
+      ],
       "CHA-72b74320143b": [
         "spc",
         "bomberos"
-      ],
-      "CHA-452be51c215a": [
-        "spc",
-        "parque-industrial"
       ],
       "CHA-13874c30895e": [
         "spc"
       ],
       "CHA-8aa66f131026": [
+        "spc"
+      ],
+      "CHA-c0796e018b9c": [
         "spc"
       ],
       "CHA-c17768fff2dc": [
@@ -4843,16 +4906,16 @@
       "nodes": 46,
       "activeNodes": 6,
       "edges": 5,
-      "eventsLinked": 8,
+      "eventsLinked": 9,
       "eventsWithMicrozones": 0,
       "eventsWithBarrios": 0,
-      "eventsWithSectors": 1,
+      "eventsWithSectors": 0,
       "levelActivity": {
         "localidad": 1,
         "microregion": 1,
-        "corredor": 0,
+        "corredor": 1,
         "microzona": 0,
-        "sector": 1,
+        "sector": 0,
         "barrio": 0,
         "institucion": 3,
         "servicio": 0,
@@ -4863,16 +4926,16 @@
   },
   "audit": {
     "version": "1.0",
-    "updatedAt": "2026-10-22T11:31:44.714559+00:00",
+    "updatedAt": "2026-10-22T16:57:57.247202+00:00",
     "rule": "fact != coverage; territory requires textual evidence",
     "facts": 9,
-    "coverage": 20,
-    "coveragePerFact": 2.22,
+    "coverage": 21,
+    "coveragePerFact": 2.33,
     "directAnchorFacts": 9,
     "directAnchorPct": 100.0,
     "territorySpecificFacts": 4,
     "territorySpecificPct": 44.4,
-    "averageSourcesPerFact": 1.56,
+    "averageSourcesPerFact": 1.67,
     "activeTerritorialNodes": 6,
     "failedSources": 10,
     "acceptedWithoutLocalEvidence": 0,
