@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23T04:15:04.778747+00:00",
+  "updatedAt": "2026-10-23T09:30:07.704293+00:00",
   "window": "14 días",
   "purpose": "Detectar qué se está moviendo en San Patricio del Chañar y mostrar de dónde surge cada señal.",
   "architecture": "contrato universal de procedencia + fuentes profesionales + adaptadores específicos + validación semántica + temporalidad + evidencia editorial separada",
@@ -49,7 +49,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://chanardigital.com.ar/",
-      "lastFetch": "2026-10-23T04:14:40.174681+00:00",
+      "lastFetch": "2026-10-23T09:29:46.862332+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -65,7 +65,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.radiomia.com.ar/",
-      "lastFetch": "2026-10-23T04:14:41.669563+00:00",
+      "lastFetch": "2026-10-23T09:29:48.233507+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -80,7 +80,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://tuitvacamuerta.com/",
-      "lastFetch": "2026-10-23T04:14:43.650326+00:00",
+      "lastFetch": "2026-10-23T09:29:49.933893+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -95,7 +95,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.vacamuertanews.com/",
-      "lastFetch": "2026-10-23T04:14:44.360255+00:00",
+      "lastFetch": "2026-10-23T09:29:50.565090+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -111,7 +111,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.neuqueninforma.gob.ar/",
-      "lastFetch": "2026-10-23T04:14:46.051123+00:00",
+      "lastFetch": "2026-10-23T09:29:51.829522+00:00",
       "success": false,
       "attempted": 3,
       "failures": [
@@ -128,7 +128,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://sanpatricio.gob.ar/",
-      "lastFetch": "2026-10-23T04:14:47.150776+00:00",
+      "lastFetch": "2026-10-23T09:29:52.980812+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -143,7 +143,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://boletinoficial.neuquen.gov.ar/",
-      "lastFetch": "2026-10-23T04:14:47.934647+00:00",
+      "lastFetch": "2026-10-23T09:29:53.602998+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -158,7 +158,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.lmneuquen.com/",
-      "lastFetch": "2026-10-23T04:14:48.193261+00:00",
+      "lastFetch": "2026-10-23T09:29:53.830460+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -174,7 +174,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.rionegro.com.ar/",
-      "lastFetch": "2026-10-23T04:14:49.745475+00:00",
+      "lastFetch": "2026-10-23T09:29:56.083602+00:00",
       "success": true,
       "attempted": 2,
       "failures": [
@@ -189,7 +189,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.mejorinformado.com/",
-      "lastFetch": "2026-10-23T04:14:50.758996+00:00",
+      "lastFetch": "2026-10-23T09:29:57.031439+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -205,7 +205,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.diariamenteneuquen.com/",
-      "lastFetch": "2026-10-23T04:14:51.502517+00:00",
+      "lastFetch": "2026-10-23T09:29:57.990987+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -709,8 +709,8 @@
   "languageAudit": [
     {
       "term": "el chañar",
-      "hits": 14,
-      "direct": 14
+      "hits": 13,
+      "direct": 13
     },
     {
       "term": "san patricio del chañar",
@@ -957,19 +957,6 @@
         "falsePositives": 0,
         "falsePositiveTypes": [],
         "topics": []
-      },
-      {
-        "source": "Alerta Digital",
-        "group": "OBSERVADA",
-        "role": "fuente detectada fuera del catálogo",
-        "accepted": 1,
-        "direct": 1,
-        "anchored": 0,
-        "falsePositives": 0,
-        "falsePositiveTypes": [],
-        "topics": [
-          "SERVICIOS"
-        ]
       },
       {
         "source": "Argentina.gob.ar",
@@ -1351,18 +1338,6 @@
         ]
       },
       {
-        "source": "Alerta Digital",
-        "topic": "SERVICIOS",
-        "accepted": 1,
-        "direct": 1,
-        "anchored": 0,
-        "falsePositives": 0,
-        "territorialTerms": [
-          "san patricio del chañar",
-          "el chañar"
-        ]
-      },
-      {
         "source": "Chañar Digital",
         "topic": "DEPORTE",
         "accepted": 1,
@@ -1432,8 +1407,8 @@
         "anchored": 0,
         "falsePositives": 0,
         "territorialTerms": [
-          "el chañar",
-          "san patricio del chañar"
+          "san patricio del chañar",
+          "el chañar"
         ]
       },
       {
@@ -1518,8 +1493,8 @@
       },
       {
         "term": "el chañar",
-        "acceptedHits": 16,
-        "directHits": 16,
+        "acceptedHits": 15,
+        "directHits": 15,
         "rejectedTitleHits": 0,
         "territorialStrength": "FUERTE"
       },
@@ -1844,11 +1819,11 @@
     "interpretation": "auditoría sobre eventos aceptados; la próxima capa debe instrumentar rechazos antes del clustering"
   },
   "stats": {
-    "total": 14,
-    "direct": 14,
+    "total": 13,
+    "direct": 13,
     "regional": 0,
-    "new": 1,
-    "sources": 9,
+    "new": 2,
+    "sources": 8,
     "directSignals": 0,
     "localDirectSignals": 0,
     "radioDirectSignals": 0,
@@ -1862,7 +1837,7 @@
       "forecastGustKmh": 26.0,
       "forecastWindDirection": "E",
       "forecastTemperatureC": 17.0,
-      "retrievedAt": "2026-10-23T04:14:37.618081+00:00",
+      "retrievedAt": "2026-10-23T09:29:44.608019+00:00",
       "source": "AIC",
       "sourceTier": "primary",
       "sourceUrl": "https://www.aic.gob.ar/sitio/home?a=1015&z=1967225803",
@@ -1892,7 +1867,7 @@
       "currentProgrammedMinM3s": 500,
       "programDate": "2026-10-24",
       "tableDate": "2026-10-23",
-      "retrievedAt": "2026-10-23T04:14:37.618081+00:00",
+      "retrievedAt": "2026-10-23T09:29:44.608019+00:00",
       "source": "AIC",
       "sourceTier": "primary",
       "sourceUrl": "https://www.aic.gob.ar/sitio/caudales",
@@ -1912,17 +1887,17 @@
         "url": "https://www.aic.gob.ar/sitio/caudales"
       }
     ],
-    "updatedAt": "2026-10-23T04:14:37.618081+00:00"
+    "updatedAt": "2026-10-23T09:29:44.608019+00:00"
   },
   "operational": {
-    "updatedAt": "2026-10-23T04:14:37.618081+00:00",
+    "updatedAt": "2026-10-23T09:29:44.608019+00:00",
     "route7": {
       "source": "Dirección Provincial de Vialidad",
       "sourceTier": "primary",
       "sourceUrl": "https://www.dpvneuquen.gov.ar/",
       "semanticState": null,
       "publicationState": "source_reachable_no_current_machine_readable_state",
-      "retrievedAt": "2026-10-23T04:14:37.618081+00:00",
+      "retrievedAt": "2026-10-23T09:29:44.608019+00:00",
       "evidence": {
         "route7Mention": true,
         "route8Mention": false
@@ -1934,7 +1909,7 @@
       "sourceUrl": "https://www.dpvneuquen.gov.ar/",
       "semanticState": null,
       "publicationState": "source_reachable_no_current_machine_readable_state",
-      "retrievedAt": "2026-10-23T04:14:37.618081+00:00",
+      "retrievedAt": "2026-10-23T09:29:44.608019+00:00",
       "evidence": {
         "route7Mention": true,
         "route8Mention": false
@@ -1948,7 +1923,7 @@
       "eventType": null,
       "detail": null,
       "publicationState": "source_reachable_no_specific_local_notice",
-      "retrievedAt": "2026-10-23T04:14:37.618081+00:00"
+      "retrievedAt": "2026-10-23T09:29:44.608019+00:00"
     },
     "water": {
       "source": "EPAS",
@@ -1958,7 +1933,7 @@
       "eventType": null,
       "detail": null,
       "publicationState": "source_reachable_no_specific_local_notice",
-      "retrievedAt": "2026-10-23T04:14:37.618081+00:00"
+      "retrievedAt": "2026-10-23T09:29:44.608019+00:00"
     },
     "sources": [
       {
@@ -2370,7 +2345,7 @@
       "label": "Conversación general",
       "signal": 10,
       "status": "cobertura editorial",
-      "freshnessHours": 2.8,
+      "freshnessHours": 8.1,
       "mode": "evidencia editorial",
       "evidenceCount": 10,
       "sourceContract": {
@@ -2408,11 +2383,11 @@
     {
       "id": "RUTA 7",
       "label": "Corredor Ruta 7",
-      "signal": 1,
+      "signal": 2,
       "status": "estado vial",
-      "freshnessHours": 11.3,
+      "freshnessHours": 16.5,
       "mode": "evidencia territorial",
-      "evidenceCount": 1,
+      "evidenceCount": 2,
       "sourceContract": {
         "primary": "Dirección Provincial de Vialidad del Neuquén",
         "secondary": "WSESTADORUTAS · sistema oficial de estado vial",
@@ -2450,7 +2425,7 @@
         "sourceUrl": "https://www.dpvneuquen.gov.ar/",
         "semanticState": null,
         "publicationState": "source_reachable_no_current_machine_readable_state",
-        "retrievedAt": "2026-10-23T04:14:37.618081+00:00",
+        "retrievedAt": "2026-10-23T09:29:44.608019+00:00",
         "evidence": {
           "route7Mention": true,
           "route8Mention": false
@@ -2460,11 +2435,11 @@
     {
       "id": "RUTA 8",
       "label": "Corredor Ruta 8",
-      "signal": 1,
+      "signal": 2,
       "status": "estado vial",
-      "freshnessHours": 11.3,
+      "freshnessHours": 16.5,
       "mode": "evidencia territorial",
-      "evidenceCount": 1,
+      "evidenceCount": 2,
       "sourceContract": {
         "primary": "Dirección Provincial de Vialidad del Neuquén",
         "secondary": "WSESTADORUTAS · sistema oficial de estado vial",
@@ -2502,7 +2477,7 @@
         "sourceUrl": "https://www.dpvneuquen.gov.ar/",
         "semanticState": null,
         "publicationState": "source_reachable_no_current_machine_readable_state",
-        "retrievedAt": "2026-10-23T04:14:37.618081+00:00",
+        "retrievedAt": "2026-10-23T09:29:44.608019+00:00",
         "evidence": {
           "route7Mention": true,
           "route8Mention": false
@@ -2558,11 +2533,11 @@
     {
       "id": "ENERGÍA",
       "label": "Electricidad / cortes de luz",
-      "signal": 0,
+      "signal": 1,
       "status": "evento eléctrico",
-      "freshnessHours": null,
+      "freshnessHours": 183.6,
       "mode": "evidencia editorial",
-      "evidenceCount": 0,
+      "evidenceCount": 1,
       "sourceContract": {
         "primary": "Ente Provincial de Energía del Neuquén (EPEN)",
         "secondary": "EPEN · cortes programados / comunicados",
@@ -2602,17 +2577,17 @@
         "eventType": null,
         "detail": null,
         "publicationState": "source_reachable_no_specific_local_notice",
-        "retrievedAt": "2026-10-23T04:14:37.618081+00:00"
+        "retrievedAt": "2026-10-23T09:29:44.608019+00:00"
       }
     },
     {
       "id": "AGUA",
       "label": "Agua / abastecimiento",
-      "signal": 1,
+      "signal": 0,
       "status": "evento hídrico",
-      "freshnessHours": 147.1,
+      "freshnessHours": null,
       "mode": "evidencia editorial",
-      "evidenceCount": 1,
+      "evidenceCount": 0,
       "sourceContract": {
         "primary": "Ente Provincial de Agua y Saneamiento (EPAS)",
         "secondary": "Municipalidad de San Patricio del Chañar",
@@ -2652,17 +2627,17 @@
         "eventType": null,
         "detail": null,
         "publicationState": "source_reachable_no_specific_local_notice",
-        "retrievedAt": "2026-10-23T04:14:37.618081+00:00"
+        "retrievedAt": "2026-10-23T09:29:44.608019+00:00"
       }
     },
     {
       "id": "SERVICIOS",
       "label": "Servicios e infraestructura",
-      "signal": 1,
+      "signal": 0,
       "status": "evidencia de servicio",
-      "freshnessHours": 147.1,
+      "freshnessHours": null,
       "mode": "evidencia editorial",
-      "evidenceCount": 1,
+      "evidenceCount": 0,
       "sourceContract": {
         "primary": "Municipalidad de San Patricio del Chañar",
         "secondary": "organismo provincial competente según servicio",
@@ -2740,7 +2715,7 @@
       "label": "Educación",
       "signal": 2,
       "status": "evidencia educativa",
-      "freshnessHours": 629.2,
+      "freshnessHours": 634.4,
       "mode": "evidencia editorial",
       "evidenceCount": 2,
       "sourceContract": {
@@ -2820,7 +2795,7 @@
       "label": "Seguridad / emergencias",
       "signal": 1,
       "status": "cobertura de emergencia",
-      "freshnessHours": 61.1,
+      "freshnessHours": 66.4,
       "mode": "evidencia editorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -2858,11 +2833,11 @@
     {
       "id": "TERRITORIO",
       "label": "Territorio / microzonas",
-      "signal": 0,
+      "signal": 1,
       "status": "hecho territorial",
-      "freshnessHours": null,
+      "freshnessHours": 183.6,
       "mode": "evidencia territorial",
-      "evidenceCount": 0,
+      "evidenceCount": 1,
       "sourceContract": {
         "primary": "Municipalidad de San Patricio del Chañar",
         "secondary": "organismo provincial competente según fenómeno",
@@ -2917,7 +2892,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://chanardigital.com.ar/",
-        "lastFetch": "2026-10-23T04:14:40.174681+00:00",
+        "lastFetch": "2026-10-23T09:29:46.862332+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -2933,7 +2908,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.radiomia.com.ar/",
-        "lastFetch": "2026-10-23T04:14:41.669563+00:00",
+        "lastFetch": "2026-10-23T09:29:48.233507+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -2948,7 +2923,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://tuitvacamuerta.com/",
-        "lastFetch": "2026-10-23T04:14:43.650326+00:00",
+        "lastFetch": "2026-10-23T09:29:49.933893+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -2963,7 +2938,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.vacamuertanews.com/",
-        "lastFetch": "2026-10-23T04:14:44.360255+00:00",
+        "lastFetch": "2026-10-23T09:29:50.565090+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -2979,7 +2954,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.neuqueninforma.gob.ar/",
-        "lastFetch": "2026-10-23T04:14:46.051123+00:00",
+        "lastFetch": "2026-10-23T09:29:51.829522+00:00",
         "success": false,
         "attempted": 3,
         "failures": [
@@ -2996,7 +2971,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://sanpatricio.gob.ar/",
-        "lastFetch": "2026-10-23T04:14:47.150776+00:00",
+        "lastFetch": "2026-10-23T09:29:52.980812+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -3011,7 +2986,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://boletinoficial.neuquen.gov.ar/",
-        "lastFetch": "2026-10-23T04:14:47.934647+00:00",
+        "lastFetch": "2026-10-23T09:29:53.602998+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -3026,7 +3001,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.lmneuquen.com/",
-        "lastFetch": "2026-10-23T04:14:48.193261+00:00",
+        "lastFetch": "2026-10-23T09:29:53.830460+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3042,7 +3017,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.rionegro.com.ar/",
-        "lastFetch": "2026-10-23T04:14:49.745475+00:00",
+        "lastFetch": "2026-10-23T09:29:56.083602+00:00",
         "success": true,
         "attempted": 2,
         "failures": [
@@ -3057,7 +3032,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.mejorinformado.com/",
-        "lastFetch": "2026-10-23T04:14:50.758996+00:00",
+        "lastFetch": "2026-10-23T09:29:57.031439+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3073,7 +3048,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.diariamenteneuquen.com/",
-        "lastFetch": "2026-10-23T04:14:51.502517+00:00",
+        "lastFetch": "2026-10-23T09:29:57.990987+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3100,7 +3075,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SEGURIDAD / EMERGENCIAS",
-      "movement": 76,
+      "movement": 75,
       "coverage": 3,
       "sourceCount": 3,
       "directSourceCount": 0,
@@ -3156,21 +3131,21 @@
         },
         {
           "title": "Después de años de esfuerzo, los Bomberos de San Patricio del Chañar inauguran su cuartel - NoticiasNQN",
-          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxONWNnbEdkekJMbmtfVjRjdl9OeEdTcEo0MlQ2bFhSR0VzOVNOT3BVc2dIbDlWaE1ORi1ONW9pbkVOZnpOZG9CazkxOEdtUmRqbml2SXpsUnVDY3hvNnBXcFBQdjRqZUtBN3F0Um9Bd2VvcE0wRWNyNTVTYV9ZVWV4SG4xeUs2bWQtYV9qY3JXdVdVVl9iYkVKNnRzdlM2b1FwMVQtUlZ4VzJ0anB3b3hGU18weVpOUWVzS2JHTkt4RGlyeXM5ZXNRaEVJdlVJOEhoNmg3aFkzNy14aVdzc1FHMXRtc0nSAeQBQVVfeXFMTjVjZ2xHZHpCTG5rX1Y0Y3ZfTnhHU3BKNDJUNmxYUkdFczlTTk9wVXNnSGw5VmhNTkYtTjVvaW5FTmZ6TmRvQms5MThHbVJkam5pdkl6bFJ1Q2N4bzZwV3BQUHY0amVLQTdxdFJvQXdlb3BNMEVjcjU1U2FfWVVleEhuMXlLNm1kLWFfamNyV3VXVVZfYmJFSjZ0c3ZTNm9RcDFULVJWeFcydGpwd294RlNfMHlaTlFlc0tiR05LeERpcnlzOWVzUWhFSXZVSThIaDZoN2hZMzcteGlXc3NRRzF0bXNJ?oc=5",
-          "publishedAt": "2026-10-19T20:39:58+00:00",
-          "published": "2026-10-19T20:39:58+00:00",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMi5AFBVV95cUxONWNnbEdkekJMbmtfVjRjdl9OeEdTcEo0MlQ2bFhSR0VzOVNOT3BVc2dIbDlWaE1ORi1ONW9pbkVOZnpOZG9CazkxOEdtUmRqbml2SXpsUnVDY3hvNnBXcFBQdjRqZUtBN3F0Um9Bd2VvcE0wRWNyNTVTYV9ZVWV4SG4xeUs2bWQtYV9qY3JXdVdVVl9iYkVKNnRzdlM2b1FwMVQtUlZ4VzJ0anB3b3hGU18weVpOUWVzS2JHTkt4RGlyeXM5ZXNRaEVJdlVJOEhoNmg3aFkzNy14aVdzc1FHMXRtc0nSAeQBQVVfeXFMTjVjZ2xHZHpCTG5rX1Y0Y3ZfTnhHU3BKNDJUNmxYUkdFczlTTk9wVXNnSGw5VmhNTkYtTjVvaW5FTmZ6TmRvQms5MThHbVJkam5pdkl6bFJ1Q2N4bzZwV3BQUHY0amVLQTdxdFJvQXdlb3BNMEVjcjU1U2FfWVVleEhuMXlLNm1kLWFfamNyV3VXVVZfYmJFSjZ0c3ZTNm9RcDFULVJWeFcydGpwd294RlNfMHlaTlFlc0tiR05LeERpcnlzOWVzUWhFSXZVSThIaDZoN2hZMzcteGlXc3NRRzF0bXNJ?oc=5\" target=\"_blank\">Después de años de esfuerzo, los Bomberos de San Patricio del Chañar inauguran su cuartel</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NoticiasNQN</font>",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOZG9wSEhidWJ4NmlHVFhVYlRDMHJTdlNRTktETHo1V2FfdEtJSjF2TEV5Ukw1dExoeTJSczlmT1dHc2JDakZaXzRZOWZxUUREZHVXM2YtcHdTVk5oVGxaM0dCWVNMUVlpbWMwX2NGWnNIZFdOUkFyamE5LWlEWnk5ZFZJQVNSSldDVXVjbmlfalRuOXlkRy1aVk9PV2t5SmlDZ1JSYlIxUnltZmtoQ19HcDZKdFpHd2NjOGVPaFFGYmY0QlYtRmUyb2NGRTBmbzJFclpER0RzR1p3VXBJVDFZ0gHkAUFVX3lxTE41Y2dsR2R6Qkxua19WNGN2X054R1NwSjQyVDZsWFJHRXM5U05PcFVzZ0hsOVZoTU5GLU41b2luRU5mek5kb0JrOTE4R21SZGpuaXZJemxSdUNjeG82cFdwUFB2NGplS0E3cXRSb0F3ZW9wTTBFY3I1NVNhX1lVZXhIbjF5SzZtZC1hX2pjcld1V1VWX2JiRUo2dHN2UzZvUXAxVC1SVnhXMnRqcHdveEZTXzB5Wk5RZXNLYkdOS3hEaXJ5czllc1FoRUl2VUk4SGg2aDdoWTM3LXhpV3NzUUcxdG1zSQ?oc=5",
+          "publishedAt": "2026-10-19T20:38:57+00:00",
+          "published": "2026-10-19T20:38:57+00:00",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMi3wFBVV95cUxOZG9wSEhidWJ4NmlHVFhVYlRDMHJTdlNRTktETHo1V2FfdEtJSjF2TEV5Ukw1dExoeTJSczlmT1dHc2JDakZaXzRZOWZxUUREZHVXM2YtcHdTVk5oVGxaM0dCWVNMUVlpbWMwX2NGWnNIZFdOUkFyamE5LWlEWnk5ZFZJQVNSSldDVXVjbmlfalRuOXlkRy1aVk9PV2t5SmlDZ1JSYlIxUnltZmtoQ19HcDZKdFpHd2NjOGVPaFFGYmY0QlYtRmUyb2NGRTBmbzJFclpER0RzR1p3VXBJVDFZ0gHkAUFVX3lxTE41Y2dsR2R6Qkxua19WNGN2X054R1NwSjQyVDZsWFJHRXM5U05PcFVzZ0hsOVZoTU5GLU41b2luRU5mek5kb0JrOTE4R21SZGpuaXZJemxSdUNjeG82cFdwUFB2NGplS0E3cXRSb0F3ZW9wTTBFY3I1NVNhX1lVZXhIbjF5SzZtZC1hX2pjcld1V1VWX2JiRUo2dHN2UzZvUXAxVC1SVnhXMnRqcHdveEZTXzB5Wk5RZXNLYkdOS3hEaXJ5czllc1FoRUl2VUk4SGg2aDdoWTM3LXhpV3NzUUcxdG1zSQ?oc=5\" target=\"_blank\">Después de años de esfuerzo, los Bomberos de San Patricio del Chañar inauguran su cuartel</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NoticiasNQN</font>",
           "source": "NoticiasNQN",
           "sourceType": "BUSCADOR / RESPALDO",
           "sourceUrl": "",
           "collection": "BUSCADOR",
-          "query": "\"San Patricio del Chañar\" Neuquén",
+          "query": "\"San Patricio del Chañar\"",
           "relevance": 3,
           "relevanceLabel": "DIRECTA",
-          "firstSeen": "2026-10-22T23:32:55.391801+00:00",
-          "isNew": false,
+          "firstSeen": "2026-10-23T09:30:07.704293+00:00",
+          "isNew": true,
           "titleKey": "despues años esfuerzo bomberos inauguran cuartel noticiasnqn",
-          "evidenceUrl": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxONWNnbEdkekJMbmtfVjRjdl9OeEdTcEo0MlQ2bFhSR0VzOVNOT3BVc2dIbDlWaE1ORi1ONW9pbkVOZnpOZG9CazkxOEdtUmRqbml2SXpsUnVDY3hvNnBXcFBQdjRqZUtBN3F0Um9Bd2VvcE0wRWNyNTVTYV9ZVWV4SG4xeUs2bWQtYV9qY3JXdVdVVl9iYkVKNnRzdlM2b1FwMVQtUlZ4VzJ0anB3b3hGU18weVpOUWVzS2JHTkt4RGlyeXM5ZXNRaEVJdlVJOEhoNmg3aFkzNy14aVdzc1FHMXRtc0nSAeQBQVVfeXFMTjVjZ2xHZHpCTG5rX1Y0Y3ZfTnhHU3BKNDJUNmxYUkdFczlTTk9wVXNnSGw5VmhNTkYtTjVvaW5FTmZ6TmRvQms5MThHbVJkam5pdkl6bFJ1Q2N4bzZwV3BQUHY0amVLQTdxdFJvQXdlb3BNMEVjcjU1U2FfWVVleEhuMXlLNm1kLWFfamNyV3VXVVZfYmJFSjZ0c3ZTNm9RcDFULVJWeFcydGpwd294RlNfMHlaTlFlc0tiR05LeERpcnlzOWVzUWhFSXZVSThIaDZoN2hZMzcteGlXc3NRRzF0bXNJ?oc=5",
+          "evidenceUrl": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOZG9wSEhidWJ4NmlHVFhVYlRDMHJTdlNRTktETHo1V2FfdEtJSjF2TEV5Ukw1dExoeTJSczlmT1dHc2JDakZaXzRZOWZxUUREZHVXM2YtcHdTVk5oVGxaM0dCWVNMUVlpbWMwX2NGWnNIZFdOUkFyamE5LWlEWnk5ZFZJQVNSSldDVXVjbmlfalRuOXlkRy1aVk9PV2t5SmlDZ1JSYlIxUnltZmtoQ19HcDZKdFpHd2NjOGVPaFFGYmY0QlYtRmUyb2NGRTBmbzJFclpER0RzR1p3VXBJVDFZ0gHkAUFVX3lxTE41Y2dsR2R6Qkxua19WNGN2X054R1NwSjQyVDZsWFJHRXM5U05PcFVzZ0hsOVZoTU5GLU41b2luRU5mek5kb0JrOTE4R21SZGpuaXZJemxSdUNjeG82cFdwUFB2NGplS0E3cXRSb0F3ZW9wTTBFY3I1NVNhX1lVZXhIbjF5SzZtZC1hX2pjcld1V1VWX2JiRUo2dHN2UzZvUXAxVC1SVnhXMnRqcHdveEZTXzB5Wk5RZXNLYkdOS3hEaXJ5czllc1FoRUl2VUk4SGg2aDdoWTM3LXhpV3NzUUcxdG1zSQ?oc=5",
           "sourcePriority": 3
         }
       ],
@@ -3227,7 +3202,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "MOVILIDAD",
-      "movement": 74,
+      "movement": 72,
       "coverage": 3,
       "sourceCount": 3,
       "directSourceCount": 0,
@@ -3302,7 +3277,7 @@
         }
       ],
       "lifecycle": "EMERGENTE",
-      "movementDelta": -1,
+      "movementDelta": -2,
       "previousCoverage": 3,
       "newSources": [
         "NoticiasNQN"
@@ -3348,7 +3323,7 @@
     },
     {
       "eventId": "CHA-c17768fff2dc",
-      "title": "El Rally neuquino confirmó su regreso a San Patricio del Chañar - Chañar Digital",
+      "title": "Ramón Soto confirmó que será candidato a intendente de San Patricio del Chañar - Chañar Digital",
       "publishedAt": "2026-10-23T01:24:22+00:00",
       "firstSeen": "2026-10-23T04:15:04.778747+00:00",
       "lastSeen": "2026-10-23T01:24:22+00:00",
@@ -3356,8 +3331,8 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SERVICIOS",
-      "movement": 60,
-      "coverage": 1,
+      "movement": 66,
+      "coverage": 2,
       "sourceCount": 1,
       "directSourceCount": 0,
       "territorialAnchors": [
@@ -3367,7 +3342,7 @@
       "sources": [
         "Chañar Digital"
       ],
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPNTNFdHNGamZaVDBGMGl4cGJPamQ4eVRvM0VIbGtXWDBkbHdkMnNrVXpYSUkzeUNTQ0NiTGJXcnIzTVdFYmJSYWx6ZWszaldidFRVT0w1dTltSUVQSy1LNUlEY29vc3JCWUdoNFpabGZZNFVNZ3Q5OGV3ZHVHRkw1cGdlY2MzNWF2eWk3aFpzTUYyWmJ2TXZQVmdrTDFrYXplN0FpdzBaOE5VN0Zob1FKLTViZ1EwWHlr?oc=5",
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPR21XWHlNb1NFSE4yY043dGtQemI1NFNqZHZtYkRaekxFdWQ4X0V3TldiNjJmNjZPS2FKcHJnVVRVWDRVMzNCWlBMdEdCbzBMRk9hZXNFcWhSREhERXkxM1E3OUJFVXV2VktrN0tHSnZ1d2tkV19Kc2tSYmd5YUNkZ0tfVFI2RjNtNEs0ZHNHcDB5VGswNXBONnpraEZSdFVNdU1sNHNlX1U2RUcwTWU1V3lnY0tfMThqRGJfRkJSUzNicGZpQ21UcGVKcVo?oc=5",
       "items": [
         {
           "title": "El Rally neuquino confirmó su regreso a San Patricio del Chañar - Chañar Digital",
@@ -3383,15 +3358,34 @@
           "relevance": 3,
           "relevanceLabel": "DIRECTA",
           "firstSeen": "2026-10-23T04:15:04.778747+00:00",
-          "isNew": true,
+          "isNew": false,
           "titleKey": "rally neuquino confirmo regreso digital",
           "evidenceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPNTNFdHNGamZaVDBGMGl4cGJPamQ4eVRvM0VIbGtXWDBkbHdkMnNrVXpYSUkzeUNTQ0NiTGJXcnIzTVdFYmJSYWx6ZWszaldidFRVT0w1dTltSUVQSy1LNUlEY29vc3JCWUdoNFpabGZZNFVNZ3Q5OGV3ZHVHRkw1cGdlY2MzNWF2eWk3aFpzTUYyWmJ2TXZQVmdrTDFrYXplN0FpdzBaOE5VN0Zob1FKLTViZ1EwWHlr?oc=5",
+          "sourcePriority": 3
+        },
+        {
+          "title": "Ramón Soto confirmó que será candidato a intendente de San Patricio del Chañar - Chañar Digital",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPR21XWHlNb1NFSE4yY043dGtQemI1NFNqZHZtYkRaekxFdWQ4X0V3TldiNjJmNjZPS2FKcHJnVVRVWDRVMzNCWlBMdEdCbzBMRk9hZXNFcWhSREhERXkxM1E3OUJFVXV2VktrN0tHSnZ1d2tkV19Kc2tSYmd5YUNkZ0tfVFI2RjNtNEs0ZHNHcDB5VGswNXBONnpraEZSdFVNdU1sNHNlX1U2RUcwTWU1V3lnY0tfMThqRGJfRkJSUzNicGZpQ21UcGVKcVo?oc=5",
+          "publishedAt": "2026-10-23T01:24:21+00:00",
+          "published": "2026-10-23T01:24:21+00:00",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMizAFBVV95cUxPR21XWHlNb1NFSE4yY043dGtQemI1NFNqZHZtYkRaekxFdWQ4X0V3TldiNjJmNjZPS2FKcHJnVVRVWDRVMzNCWlBMdEdCbzBMRk9hZXNFcWhSREhERXkxM1E3OUJFVXV2VktrN0tHSnZ1d2tkV19Kc2tSYmd5YUNkZ0tfVFI2RjNtNEs0ZHNHcDB5VGswNXBONnpraEZSdFVNdU1sNHNlX1U2RUcwTWU1V3lnY0tfMThqRGJfRkJSUzNicGZpQ21UcGVKcVo?oc=5\" target=\"_blank\">Ramón Soto confirmó que será candidato a intendente de San Patricio del Chañar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Chañar Digital</font>",
+          "source": "Chañar Digital",
+          "sourceType": "BUSCADOR / RESPALDO",
+          "sourceUrl": "",
+          "collection": "BUSCADOR",
+          "query": "site:chanardigital.com.ar \"San Patricio del Chañar\"",
+          "relevance": 3,
+          "relevanceLabel": "DIRECTA",
+          "firstSeen": "2026-10-23T09:30:07.704293+00:00",
+          "isNew": true,
+          "titleKey": "ramon soto confirmo sera candidato intendente digital",
+          "evidenceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPR21XWHlNb1NFSE4yY043dGtQemI1NFNqZHZtYkRaekxFdWQ4X0V3TldiNjJmNjZPS2FKcHJnVVRVWDRVMzNCWlBMdEdCbzBMRk9hZXNFcWhSREhERXkxM1E3OUJFVXV2VktrN0tHSnZ1d2tkV19Kc2tSYmd5YUNkZ0tfVFI2RjNtNEs0ZHNHcDB5VGswNXBONnpraEZSdFVNdU1sNHNlX1U2RUcwTWU1V3lnY0tfMThqRGJfRkJSUzNicGZpQ21UcGVKcVo?oc=5",
           "sourcePriority": 3
         }
       ],
       "lifecycle": "EMERGENTE",
-      "movementDelta": 37,
-      "previousCoverage": 2,
+      "movementDelta": 6,
+      "previousCoverage": 1,
       "newSources": [],
       "sourceDiversity": 1,
       "memoryMatched": true,
@@ -3434,7 +3428,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SERVICIOS",
-      "movement": 54,
+      "movement": 53,
       "coverage": 2,
       "sourceCount": 1,
       "directSourceCount": 0,
@@ -3487,7 +3481,7 @@
         }
       ],
       "lifecycle": "EMERGENTE",
-      "movementDelta": -2,
+      "movementDelta": -1,
       "previousCoverage": 2,
       "newSources": [],
       "sourceDiversity": 1,
@@ -3601,149 +3595,28 @@
       "sourceContinuity": "fuente conocida sin respuesta; no se infiere desaparición"
     },
     {
-      "eventId": "CHA-c0796e018b9c",
-      "title": "Provincia adjudicó la construcción de un nuevo Centro Deportivo Comunitario en San Patricio del Chañar - Neuquén al instante",
-      "publishedAt": "2026-10-10T01:01:04+00:00",
+      "eventId": "CHA-16b3feeb55f6",
+      "title": "Corte Programado en sectores de San Patricio del Chañar el 20/10/2026 - EPEN",
+      "publishedAt": "2026-10-15T17:56:00+00:00",
       "firstSeen": "2026-10-22T23:32:55.391801+00:00",
-      "lastSeen": "2026-10-10T01:01:04+00:00",
+      "lastSeen": "2026-10-15T17:56:00+00:00",
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SERVICIOS",
-      "movement": 32,
-      "coverage": 2,
-      "sourceCount": 2,
+      "movement": 16,
+      "coverage": 1,
+      "sourceCount": 1,
       "directSourceCount": 0,
       "territorialAnchors": [
         "san patricio del chañar",
         "el chañar"
       ],
       "sources": [
-        "Neuquén al instante",
-        "Alerta Digital"
-      ],
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQOVhQOThuamtvX25sa2k4eWRSM1FwLTNPTU1JbEdXYWV1Z3Nubzh6QmJtRVhyZ1lXaHBuN1h3RGRSNjNidnpIQ2ZYMGJNVjZUcUhCMTlkTFVFTzliWktXNzhlUHlKazNZUktodHZudHRUU2dDNzhMOEljMjg0MWl4amp3NzB5bzJkdWdiRzc1emNIdDNsWk5ZWEk2dWxYa3dlWDYtdkZHcHRtZnJXY2tORWJCZHh5SUFjNExBOUxCa19HQ0xfckJSS3pUeUppU2d5QkdaVllNZ1ltNWJjQlVDbmo3MThxYlNndWVmaHZQcnJVc01mek5XT0tn0gH_AUFVX3lxTE9Dc2Y0bEVJRnFGdVQzSWUtZXM5Ym9BNjdHdHg2UGYycWFKZ2dKTmZURGtYNzlxakxIZG1CZEd3X3NUMUdac2xEQV9NS0NzZEl0T0FuVThqcVlhQ2xRcjQ3R0Z6dG03ZG5JUElxN1BqYzZMOGQ1QVcwYU1TaG9qTzZ1clI5dXdPNkREblh4SG1UczJDY3d1VUxaZU5abkZUNFhjb2IxX2N6XzQ2Sk5zcVh4Y08zNVo3Y0s5RXF0ZGt3SlFRMFFRV3NWOTNMRFpadmdkakxYa0VLSTc1eEdhR0Fuek52M0p5aVBzcU1vcE5BdnM1WF9nMlJzMmNoNDlNbw?oc=5",
-      "items": [
-        {
-          "title": "Provincia adjudicó la construcción de un nuevo Centro Deportivo Comunitario en San Patricio del Chañar - Neuquén al instante",
-          "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQOVhQOThuamtvX25sa2k4eWRSM1FwLTNPTU1JbEdXYWV1Z3Nubzh6QmJtRVhyZ1lXaHBuN1h3RGRSNjNidnpIQ2ZYMGJNVjZUcUhCMTlkTFVFTzliWktXNzhlUHlKazNZUktodHZudHRUU2dDNzhMOEljMjg0MWl4amp3NzB5bzJkdWdiRzc1emNIdDNsWk5ZWEk2dWxYa3dlWDYtdkZHcHRtZnJXY2tORWJCZHh5SUFjNExBOUxCa19HQ0xfckJSS3pUeUppU2d5QkdaVllNZ1ltNWJjQlVDbmo3MThxYlNndWVmaHZQcnJVc01mek5XT0tn0gH_AUFVX3lxTE9Dc2Y0bEVJRnFGdVQzSWUtZXM5Ym9BNjdHdHg2UGYycWFKZ2dKTmZURGtYNzlxakxIZG1CZEd3X3NUMUdac2xEQV9NS0NzZEl0T0FuVThqcVlhQ2xRcjQ3R0Z6dG03ZG5JUElxN1BqYzZMOGQ1QVcwYU1TaG9qTzZ1clI5dXdPNkREblh4SG1UczJDY3d1VUxaZU5abkZUNFhjb2IxX2N6XzQ2Sk5zcVh4Y08zNVo3Y0s5RXF0ZGt3SlFRMFFRV3NWOTNMRFpadmdkakxYa0VLSTc1eEdhR0Fuek52M0p5aVBzcU1vcE5BdnM1WF9nMlJzMmNoNDlNbw?oc=5",
-          "publishedAt": "2026-10-10T01:01:04+00:00",
-          "published": "2026-10-10T01:01:04+00:00",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMi-gFBVV95cUxQOVhQOThuamtvX25sa2k4eWRSM1FwLTNPTU1JbEdXYWV1Z3Nubzh6QmJtRVhyZ1lXaHBuN1h3RGRSNjNidnpIQ2ZYMGJNVjZUcUhCMTlkTFVFTzliWktXNzhlUHlKazNZUktodHZudHRUU2dDNzhMOEljMjg0MWl4amp3NzB5bzJkdWdiRzc1emNIdDNsWk5ZWEk2dWxYa3dlWDYtdkZHcHRtZnJXY2tORWJCZHh5SUFjNExBOUxCa19HQ0xfckJSS3pUeUppU2d5QkdaVllNZ1ltNWJjQlVDbmo3MThxYlNndWVmaHZQcnJVc01mek5XT0tn0gH_AUFVX3lxTE9Dc2Y0bEVJRnFGdVQzSWUtZXM5Ym9BNjdHdHg2UGYycWFKZ2dKTmZURGtYNzlxakxIZG1CZEd3X3NUMUdac2xEQV9NS0NzZEl0T0FuVThqcVlhQ2xRcjQ3R0Z6dG03ZG5JUElxN1BqYzZMOGQ1QVcwYU1TaG9qTzZ1clI5dXdPNkREblh4SG1UczJDY3d1VUxaZU5abkZUNFhjb2IxX2N6XzQ2Sk5zcVh4Y08zNVo3Y0s5RXF0ZGt3SlFRMFFRV3NWOTNMRFpadmdkakxYa0VLSTc1eEdhR0Fuek52M0p5aVBzcU1vcE5BdnM1WF9nMlJzMmNoNDlNbw?oc=5\" target=\"_blank\">Provincia adjudicó la construcción de un nuevo Centro Deportivo Comunitario en San Patricio del Chañar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Neuquén al instante</font>",
-          "source": "Neuquén al instante",
-          "sourceType": "BUSCADOR / RESPALDO",
-          "sourceUrl": "",
-          "collection": "BUSCADOR",
-          "query": "\"San Patricio del Chañar\"",
-          "relevance": 3,
-          "relevanceLabel": "DIRECTA",
-          "firstSeen": "2026-10-22T23:32:55.391801+00:00",
-          "isNew": false,
-          "titleKey": "adjudico construccion nuevo centro deportivo comunitario instante",
-          "evidenceUrl": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQOVhQOThuamtvX25sa2k4eWRSM1FwLTNPTU1JbEdXYWV1Z3Nubzh6QmJtRVhyZ1lXaHBuN1h3RGRSNjNidnpIQ2ZYMGJNVjZUcUhCMTlkTFVFTzliWktXNzhlUHlKazNZUktodHZudHRUU2dDNzhMOEljMjg0MWl4amp3NzB5bzJkdWdiRzc1emNIdDNsWk5ZWEk2dWxYa3dlWDYtdkZHcHRtZnJXY2tORWJCZHh5SUFjNExBOUxCa19HQ0xfckJSS3pUeUppU2d5QkdaVllNZ1ltNWJjQlVDbmo3MThxYlNndWVmaHZQcnJVc01mek5XT0tn0gH_AUFVX3lxTE9Dc2Y0bEVJRnFGdVQzSWUtZXM5Ym9BNjdHdHg2UGYycWFKZ2dKTmZURGtYNzlxakxIZG1CZEd3X3NUMUdac2xEQV9NS0NzZEl0T0FuVThqcVlhQ2xRcjQ3R0Z6dG03ZG5JUElxN1BqYzZMOGQ1QVcwYU1TaG9qTzZ1clI5dXdPNkREblh4SG1UczJDY3d1VUxaZU5abkZUNFhjb2IxX2N6XzQ2Sk5zcVh4Y08zNVo3Y0s5RXF0ZGt3SlFRMFFRV3NWOTNMRFpadmdkakxYa0VLSTc1eEdhR0Fuek52M0p5aVBzcU1vcE5BdnM1WF9nMlJzMmNoNDlNbw?oc=5",
-          "sourcePriority": 3
-        },
-        {
-          "title": "San Patricio del Chañar tendrá un Centro Deportivo Comunitario para 400 personas - Alerta Digital",
-          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPNmNMY3pkSDZWMVN0cE9WNms3WW9JZWFJX3YxcGR0ajNKQ1BPNWlKVGRNYWVOMXZueWZDaTFUMzIzeW1IZkl1U0J3R052dlN4SHF6UXphc3JvTzY1NlFrLUxMWDlBOVNRZGlOVTZsTnQ2QlVXYXhVMGlzMTY1MUJ2aXhRb25ucG9QUlFBMTNHbG1vNFl6MWdOYUtXNWpTVm1XM2hXZTZnd1Z6dkhSZzl1VlZTQm9UalpBejdJQW81bWhrWnJPMjM0NTFRc19laFp0VlHSAdcBQVVfeXFMTU93UHhsaTZkNjVobTlRWWdJalJLYXFNMjZoQkFsNEp2RDhsMWtPQnVZc2FKMlE5dnlsWmZndXJSYWtrVWQyUmxFaDloUEowalpvc0o5cUwwYThsRFZXRXVOX1h4WjMyMm4wQlBFLVlVRUxYZURSY3BYdC01NmdSclBubGtWMlZndl9TLUduVjdtMVFoeXBIUXFvUEVrTG1iTlpvMUV2UU93MWRFdkt3X0UxMk9HbFV3RWVkWnBORF8xZ0pGWFFwTGlJWUNTY2hmQU9fZGVXRGs?oc=5",
-          "publishedAt": "2026-10-09T07:00:00+00:00",
-          "published": "2026-10-09T07:00:00+00:00",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMi0gFBVV95cUxPNmNMY3pkSDZWMVN0cE9WNms3WW9JZWFJX3YxcGR0ajNKQ1BPNWlKVGRNYWVOMXZueWZDaTFUMzIzeW1IZkl1U0J3R052dlN4SHF6UXphc3JvTzY1NlFrLUxMWDlBOVNRZGlOVTZsTnQ2QlVXYXhVMGlzMTY1MUJ2aXhRb25ucG9QUlFBMTNHbG1vNFl6MWdOYUtXNWpTVm1XM2hXZTZnd1Z6dkhSZzl1VlZTQm9UalpBejdJQW81bWhrWnJPMjM0NTFRc19laFp0VlHSAdcBQVVfeXFMTU93UHhsaTZkNjVobTlRWWdJalJLYXFNMjZoQkFsNEp2RDhsMWtPQnVZc2FKMlE5dnlsWmZndXJSYWtrVWQyUmxFaDloUEowalpvc0o5cUwwYThsRFZXRXVOX1h4WjMyMm4wQlBFLVlVRUxYZURSY3BYdC01NmdSclBubGtWMlZndl9TLUduVjdtMVFoeXBIUXFvUEVrTG1iTlpvMUV2UU93MWRFdkt3X0UxMk9HbFV3RWVkWnBORF8xZ0pGWFFwTGlJWUNTY2hmQU9fZGVXRGs?oc=5\" target=\"_blank\">San Patricio del Chañar tendrá un Centro Deportivo Comunitario para 400 personas</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Alerta Digital</font>",
-          "source": "Alerta Digital",
-          "sourceType": "BUSCADOR / RESPALDO",
-          "sourceUrl": "",
-          "collection": "BUSCADOR",
-          "query": "\"San Patricio del Chañar\"",
-          "relevance": 3,
-          "relevanceLabel": "DIRECTA",
-          "firstSeen": "2026-10-22T23:32:55.391801+00:00",
-          "isNew": false,
-          "titleKey": "tendra centro deportivo comunitario 400 personas alerta digital",
-          "evidenceUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPNmNMY3pkSDZWMVN0cE9WNms3WW9JZWFJX3YxcGR0ajNKQ1BPNWlKVGRNYWVOMXZueWZDaTFUMzIzeW1IZkl1U0J3R052dlN4SHF6UXphc3JvTzY1NlFrLUxMWDlBOVNRZGlOVTZsTnQ2QlVXYXhVMGlzMTY1MUJ2aXhRb25ucG9QUlFBMTNHbG1vNFl6MWdOYUtXNWpTVm1XM2hXZTZnd1Z6dkhSZzl1VlZTQm9UalpBejdJQW81bWhrWnJPMjM0NTFRc19laFp0VlHSAdcBQVVfeXFMTU93UHhsaTZkNjVobTlRWWdJalJLYXFNMjZoQkFsNEp2RDhsMWtPQnVZc2FKMlE5dnlsWmZndXJSYWtrVWQyUmxFaDloUEowalpvc0o5cUwwYThsRFZXRXVOX1h4WjMyMm4wQlBFLVlVRUxYZURSY3BYdC01NmdSclBubGtWMlZndl9TLUduVjdtMVFoeXBIUXFvUEVrTG1iTlpvMUV2UU93MWRFdkt3X0UxMk9HbFV3RWVkWnBORF8xZ0pGWFFwTGlJWUNTY2hmQU9fZGVXRGs?oc=5",
-          "sourcePriority": 3
-        }
-      ],
-      "lifecycle": "ACTIVO",
-      "movementDelta": 16,
-      "previousCoverage": 1,
-      "newSources": [
-        "Neuquén al instante",
-        "Alerta Digital"
-      ],
-      "sourceDiversity": 2,
-      "memoryMatched": true,
-      "isNew": false,
-      "view": "INCIDENCIA",
-      "incidenceEligible": true,
-      "signalReason": "reservado a incidencia territorial",
-      "incidenceReason": "anclaje directo + tema operativo/local",
-      "territory": {
-        "version": "2.0",
-        "primary": "San Patricio del Chañar",
-        "nodes": [
-          "San Patricio del Chañar"
-        ],
-        "sectors": [],
-        "barrios": [],
-        "microzones": [],
-        "corridors": [],
-        "institutions": [],
-        "services": [],
-        "spaces": [],
-        "production": [],
-        "path": "San Patricio del Chañar",
-        "evidence": [
-          {
-            "node": "San Patricio del Chañar",
-            "level": "localidad",
-            "evidence": "DIRECTA"
-          }
-        ]
-      }
-    },
-    {
-      "eventId": "CHA-c17768fff2dc",
-      "title": "La AIC aumentará el caudal del río Neuquén aguas abajo del compensador El Chañar - Chañar Digital",
-      "publishedAt": "2026-10-17T01:10:25+00:00",
-      "firstSeen": "2026-10-22T23:32:55.391801+00:00",
-      "lastSeen": "2026-10-17T01:10:25+00:00",
-      "relevance": 3,
-      "relevanceLabel": "DIRECTA",
-      "incidenceLabel": "DIRECTA EN CHANAR",
-      "topic": "SERVICIOS",
-      "movement": 21,
-      "coverage": 2,
-      "sourceCount": 2,
-      "directSourceCount": 0,
-      "territorialAnchors": [
-        "el chañar",
-        "san patricio del chañar"
-      ],
-      "sources": [
-        "Chañar Digital",
         "EPEN"
       ],
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNRHpnalpYOVdNOUhCbDQyWkNIZFI5N29aM21GQlIxeUxPLVlDMzhmSlEwcTVpOEtmdk9rbVk2aUtHVlhpdkhsdnRBcmNhTmdNdkdGTXVxYjVlQTJid1JMLUNrLWptTlRWVGhoNUVJVDgwMjZJNXVnejJiR05wbF9TaW5tWFRUU1E3NXBvOFNpRDlqTDloNXV4OHBEWDU2ZmRqXy1pQ2JnSHVRRWktUkNjZDByZ213MEExWmkxcFRSbzloQjJRSHBYeWF2M3RKQjA?oc=5",
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNcEw5enVjamYtdkJ3VXpFaTEtbTlHX2VVMVpjdnVIM2N4QmEzZ0UyNlltaFhTN3l1QVh0NUZ0eXhTY3lJOHVKbWE3SlhFVjk0Wm9XY3JLb0pNQzJMSzhmby1hTmdvbW9OOUFRejh5NU92YTNpRlBuQ2J4ZGtfSXVhZ3Rfbk1la1p4TUsxdzRTT3hKNFhsSm81RzVvWVFDWHB5elhlSHNxV2V3ZElJc1dtb19ndFpsdw?oc=5",
       "items": [
-        {
-          "title": "La AIC aumentará el caudal del río Neuquén aguas abajo del compensador El Chañar - Chañar Digital",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNRHpnalpYOVdNOUhCbDQyWkNIZFI5N29aM21GQlIxeUxPLVlDMzhmSlEwcTVpOEtmdk9rbVk2aUtHVlhpdkhsdnRBcmNhTmdNdkdGTXVxYjVlQTJid1JMLUNrLWptTlRWVGhoNUVJVDgwMjZJNXVnejJiR05wbF9TaW5tWFRUU1E3NXBvOFNpRDlqTDloNXV4OHBEWDU2ZmRqXy1pQ2JnSHVRRWktUkNjZDByZ213MEExWmkxcFRSbzloQjJRSHBYeWF2M3RKQjA?oc=5",
-          "publishedAt": "2026-10-17T01:10:25+00:00",
-          "published": "2026-10-17T01:10:25+00:00",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMizwFBVV95cUxNRHpnalpYOVdNOUhCbDQyWkNIZFI5N29aM21GQlIxeUxPLVlDMzhmSlEwcTVpOEtmdk9rbVk2aUtHVlhpdkhsdnRBcmNhTmdNdkdGTXVxYjVlQTJid1JMLUNrLWptTlRWVGhoNUVJVDgwMjZJNXVnejJiR05wbF9TaW5tWFRUU1E3NXBvOFNpRDlqTDloNXV4OHBEWDU2ZmRqXy1pQ2JnSHVRRWktUkNjZDByZ213MEExWmkxcFRSbzloQjJRSHBYeWF2M3RKQjA?oc=5\" target=\"_blank\">La AIC aumentará el caudal del río Neuquén aguas abajo del compensador El Chañar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Chañar Digital</font>",
-          "source": "Chañar Digital",
-          "sourceType": "BUSCADOR / RESPALDO",
-          "sourceUrl": "",
-          "collection": "BUSCADOR",
-          "query": "site:chanardigital.com.ar \"San Patricio del Chañar\"",
-          "relevance": 3,
-          "relevanceLabel": "DIRECTA",
-          "firstSeen": "2026-10-22T23:32:55.391801+00:00",
-          "isNew": false,
-          "titleKey": "aic aumentara caudal rio aguas abajo compensador digital",
-          "evidenceUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNRHpnalpYOVdNOUhCbDQyWkNIZFI5N29aM21GQlIxeUxPLVlDMzhmSlEwcTVpOEtmdk9rbVk2aUtHVlhpdkhsdnRBcmNhTmdNdkdGTXVxYjVlQTJid1JMLUNrLWptTlRWVGhoNUVJVDgwMjZJNXVnejJiR05wbF9TaW5tWFRUU1E3NXBvOFNpRDlqTDloNXV4OHBEWDU2ZmRqXy1pQ2JnSHVRRWktUkNjZDByZ213MEExWmkxcFRSbzloQjJRSHBYeWF2M3RKQjA?oc=5",
-          "sourcePriority": 3
-        },
         {
           "title": "Corte Programado en sectores de San Patricio del Chañar el 20/10/2026 - EPEN",
           "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNcEw5enVjamYtdkJ3VXpFaTEtbTlHX2VVMVpjdnVIM2N4QmEzZ0UyNlltaFhTN3l1QVh0NUZ0eXhTY3lJOHVKbWE3SlhFVjk0Wm9XY3JLb0pNQzJMSzhmby1hTmdvbW9OOUFRejh5NU92YTNpRlBuQ2J4ZGtfSXVhZ3Rfbk1la1p4TUsxdzRTT3hKNFhsSm81RzVvWVFDWHB5elhlSHNxV2V3ZElJc1dtb19ndFpsdw?oc=5",
@@ -3765,13 +3638,12 @@
         }
       ],
       "lifecycle": "RECIENTE",
-      "movementDelta": -11,
+      "movementDelta": -16,
       "previousCoverage": 2,
       "newSources": [
-        "Chañar Digital",
         "EPEN"
       ],
-      "sourceDiversity": 2,
+      "sourceDiversity": 1,
       "memoryMatched": true,
       "isNew": false,
       "view": "INCIDENCIA",
@@ -3783,14 +3655,16 @@
         "primary": "San Patricio del Chañar",
         "nodes": [
           "San Patricio del Chañar",
-          "Río Neuquén"
+          "EPEN"
         ],
         "sectors": [],
         "barrios": [],
         "microzones": [],
         "corridors": [],
         "institutions": [],
-        "services": [],
+        "services": [
+          "EPEN"
+        ],
         "spaces": [],
         "production": [],
         "path": "San Patricio del Chañar",
@@ -3801,9 +3675,9 @@
             "evidence": "DIRECTA"
           },
           {
-            "node": "Río Neuquén",
-            "level": "microregion",
-            "evidence": "FUERTE"
+            "node": "EPEN",
+            "level": "servicio",
+            "evidence": "TEXTUAL"
           }
         ]
       }
@@ -3851,10 +3725,90 @@
         }
       ],
       "lifecycle": "RECIENTE",
+      "movementDelta": -29,
+      "previousCoverage": 1,
+      "newSources": [
+        "Diario Río Negro"
+      ],
+      "sourceDiversity": 1,
+      "memoryMatched": true,
+      "isNew": false,
+      "view": "INCIDENCIA",
+      "incidenceEligible": true,
+      "signalReason": "reservado a incidencia territorial",
+      "incidenceReason": "anclaje directo + tema operativo/local",
+      "territory": {
+        "version": "2.0",
+        "primary": "San Patricio del Chañar",
+        "nodes": [
+          "San Patricio del Chañar"
+        ],
+        "sectors": [],
+        "barrios": [],
+        "microzones": [],
+        "corridors": [],
+        "institutions": [],
+        "services": [],
+        "spaces": [],
+        "production": [],
+        "path": "San Patricio del Chañar",
+        "evidence": [
+          {
+            "node": "San Patricio del Chañar",
+            "level": "localidad",
+            "evidence": "DIRECTA"
+          }
+        ]
+      }
+    },
+    {
+      "eventId": "CHA-c0796e018b9c",
+      "title": "Provincia adjudicó la construcción de un nuevo Centro Deportivo Comunitario en San Patricio del Chañar - Neuquén al instante",
+      "publishedAt": "2026-10-10T01:01:04+00:00",
+      "firstSeen": "2026-10-22T23:32:55.391801+00:00",
+      "lastSeen": "2026-10-10T01:01:04+00:00",
+      "relevance": 3,
+      "relevanceLabel": "DIRECTA",
+      "incidenceLabel": "DIRECTA EN CHANAR",
+      "topic": "SERVICIOS",
+      "movement": 16,
+      "coverage": 1,
+      "sourceCount": 1,
+      "directSourceCount": 0,
+      "territorialAnchors": [
+        "san patricio del chañar",
+        "el chañar"
+      ],
+      "sources": [
+        "Neuquén al instante"
+      ],
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQOVhQOThuamtvX25sa2k4eWRSM1FwLTNPTU1JbEdXYWV1Z3Nubzh6QmJtRVhyZ1lXaHBuN1h3RGRSNjNidnpIQ2ZYMGJNVjZUcUhCMTlkTFVFTzliWktXNzhlUHlKazNZUktodHZudHRUU2dDNzhMOEljMjg0MWl4amp3NzB5bzJkdWdiRzc1emNIdDNsWk5ZWEk2dWxYa3dlWDYtdkZHcHRtZnJXY2tORWJCZHh5SUFjNExBOUxCa19HQ0xfckJSS3pUeUppU2d5QkdaVllNZ1ltNWJjQlVDbmo3MThxYlNndWVmaHZQcnJVc01mek5XT0tn0gH_AUFVX3lxTE9Dc2Y0bEVJRnFGdVQzSWUtZXM5Ym9BNjdHdHg2UGYycWFKZ2dKTmZURGtYNzlxakxIZG1CZEd3X3NUMUdac2xEQV9NS0NzZEl0T0FuVThqcVlhQ2xRcjQ3R0Z6dG03ZG5JUElxN1BqYzZMOGQ1QVcwYU1TaG9qTzZ1clI5dXdPNkREblh4SG1UczJDY3d1VUxaZU5abkZUNFhjb2IxX2N6XzQ2Sk5zcVh4Y08zNVo3Y0s5RXF0ZGt3SlFRMFFRV3NWOTNMRFpadmdkakxYa0VLSTc1eEdhR0Fuek52M0p5aVBzcU1vcE5BdnM1WF9nMlJzMmNoNDlNbw?oc=5",
+      "items": [
+        {
+          "title": "Provincia adjudicó la construcción de un nuevo Centro Deportivo Comunitario en San Patricio del Chañar - Neuquén al instante",
+          "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQOVhQOThuamtvX25sa2k4eWRSM1FwLTNPTU1JbEdXYWV1Z3Nubzh6QmJtRVhyZ1lXaHBuN1h3RGRSNjNidnpIQ2ZYMGJNVjZUcUhCMTlkTFVFTzliWktXNzhlUHlKazNZUktodHZudHRUU2dDNzhMOEljMjg0MWl4amp3NzB5bzJkdWdiRzc1emNIdDNsWk5ZWEk2dWxYa3dlWDYtdkZHcHRtZnJXY2tORWJCZHh5SUFjNExBOUxCa19HQ0xfckJSS3pUeUppU2d5QkdaVllNZ1ltNWJjQlVDbmo3MThxYlNndWVmaHZQcnJVc01mek5XT0tn0gH_AUFVX3lxTE9Dc2Y0bEVJRnFGdVQzSWUtZXM5Ym9BNjdHdHg2UGYycWFKZ2dKTmZURGtYNzlxakxIZG1CZEd3X3NUMUdac2xEQV9NS0NzZEl0T0FuVThqcVlhQ2xRcjQ3R0Z6dG03ZG5JUElxN1BqYzZMOGQ1QVcwYU1TaG9qTzZ1clI5dXdPNkREblh4SG1UczJDY3d1VUxaZU5abkZUNFhjb2IxX2N6XzQ2Sk5zcVh4Y08zNVo3Y0s5RXF0ZGt3SlFRMFFRV3NWOTNMRFpadmdkakxYa0VLSTc1eEdhR0Fuek52M0p5aVBzcU1vcE5BdnM1WF9nMlJzMmNoNDlNbw?oc=5",
+          "publishedAt": "2026-10-10T01:01:04+00:00",
+          "published": "2026-10-10T01:01:04+00:00",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMi-gFBVV95cUxQOVhQOThuamtvX25sa2k4eWRSM1FwLTNPTU1JbEdXYWV1Z3Nubzh6QmJtRVhyZ1lXaHBuN1h3RGRSNjNidnpIQ2ZYMGJNVjZUcUhCMTlkTFVFTzliWktXNzhlUHlKazNZUktodHZudHRUU2dDNzhMOEljMjg0MWl4amp3NzB5bzJkdWdiRzc1emNIdDNsWk5ZWEk2dWxYa3dlWDYtdkZHcHRtZnJXY2tORWJCZHh5SUFjNExBOUxCa19HQ0xfckJSS3pUeUppU2d5QkdaVllNZ1ltNWJjQlVDbmo3MThxYlNndWVmaHZQcnJVc01mek5XT0tn0gH_AUFVX3lxTE9Dc2Y0bEVJRnFGdVQzSWUtZXM5Ym9BNjdHdHg2UGYycWFKZ2dKTmZURGtYNzlxakxIZG1CZEd3X3NUMUdac2xEQV9NS0NzZEl0T0FuVThqcVlhQ2xRcjQ3R0Z6dG03ZG5JUElxN1BqYzZMOGQ1QVcwYU1TaG9qTzZ1clI5dXdPNkREblh4SG1UczJDY3d1VUxaZU5abkZUNFhjb2IxX2N6XzQ2Sk5zcVh4Y08zNVo3Y0s5RXF0ZGt3SlFRMFFRV3NWOTNMRFpadmdkakxYa0VLSTc1eEdhR0Fuek52M0p5aVBzcU1vcE5BdnM1WF9nMlJzMmNoNDlNbw?oc=5\" target=\"_blank\">Provincia adjudicó la construcción de un nuevo Centro Deportivo Comunitario en San Patricio del Chañar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Neuquén al instante</font>",
+          "source": "Neuquén al instante",
+          "sourceType": "BUSCADOR / RESPALDO",
+          "sourceUrl": "",
+          "collection": "BUSCADOR",
+          "query": "\"San Patricio del Chañar\"",
+          "relevance": 3,
+          "relevanceLabel": "DIRECTA",
+          "firstSeen": "2026-10-22T23:32:55.391801+00:00",
+          "isNew": false,
+          "titleKey": "adjudico construccion nuevo centro deportivo comunitario instante",
+          "evidenceUrl": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQOVhQOThuamtvX25sa2k4eWRSM1FwLTNPTU1JbEdXYWV1Z3Nubzh6QmJtRVhyZ1lXaHBuN1h3RGRSNjNidnpIQ2ZYMGJNVjZUcUhCMTlkTFVFTzliWktXNzhlUHlKazNZUktodHZudHRUU2dDNzhMOEljMjg0MWl4amp3NzB5bzJkdWdiRzc1emNIdDNsWk5ZWEk2dWxYa3dlWDYtdkZHcHRtZnJXY2tORWJCZHh5SUFjNExBOUxCa19HQ0xfckJSS3pUeUppU2d5QkdaVllNZ1ltNWJjQlVDbmo3MThxYlNndWVmaHZQcnJVc01mek5XT0tn0gH_AUFVX3lxTE9Dc2Y0bEVJRnFGdVQzSWUtZXM5Ym9BNjdHdHg2UGYycWFKZ2dKTmZURGtYNzlxakxIZG1CZEd3X3NUMUdac2xEQV9NS0NzZEl0T0FuVThqcVlhQ2xRcjQ3R0Z6dG03ZG5JUElxN1BqYzZMOGQ1QVcwYU1TaG9qTzZ1clI5dXdPNkREblh4SG1UczJDY3d1VUxaZU5abkZUNFhjb2IxX2N6XzQ2Sk5zcVh4Y08zNVo3Y0s5RXF0ZGt3SlFRMFFRV3NWOTNMRFpadmdkakxYa0VLSTc1eEdhR0Fuek52M0p5aVBzcU1vcE5BdnM1WF9nMlJzMmNoNDlNbw?oc=5",
+          "sourcePriority": 3
+        }
+      ],
+      "lifecycle": "RECIENTE",
       "movementDelta": 0,
       "previousCoverage": 7,
       "newSources": [
-        "Diario Río Negro"
+        "Neuquén al instante"
       ],
       "sourceDiversity": 1,
       "memoryMatched": true,
@@ -4196,9 +4150,28 @@
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "firstSeen": "2026-10-23T04:15:04.778747+00:00",
-      "isNew": true,
+      "isNew": false,
       "titleKey": "rally neuquino confirmo regreso digital",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPNTNFdHNGamZaVDBGMGl4cGJPamQ4eVRvM0VIbGtXWDBkbHdkMnNrVXpYSUkzeUNTQ0NiTGJXcnIzTVdFYmJSYWx6ZWszaldidFRVT0w1dTltSUVQSy1LNUlEY29vc3JCWUdoNFpabGZZNFVNZ3Q5OGV3ZHVHRkw1cGdlY2MzNWF2eWk3aFpzTUYyWmJ2TXZQVmdrTDFrYXplN0FpdzBaOE5VN0Zob1FKLTViZ1EwWHlr?oc=5",
+      "sourcePriority": 3
+    },
+    {
+      "title": "Ramón Soto confirmó que será candidato a intendente de San Patricio del Chañar - Chañar Digital",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPR21XWHlNb1NFSE4yY043dGtQemI1NFNqZHZtYkRaekxFdWQ4X0V3TldiNjJmNjZPS2FKcHJnVVRVWDRVMzNCWlBMdEdCbzBMRk9hZXNFcWhSREhERXkxM1E3OUJFVXV2VktrN0tHSnZ1d2tkV19Kc2tSYmd5YUNkZ0tfVFI2RjNtNEs0ZHNHcDB5VGswNXBONnpraEZSdFVNdU1sNHNlX1U2RUcwTWU1V3lnY0tfMThqRGJfRkJSUzNicGZpQ21UcGVKcVo?oc=5",
+      "publishedAt": "2026-10-23T01:24:21+00:00",
+      "published": "2026-10-23T01:24:21+00:00",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMizAFBVV95cUxPR21XWHlNb1NFSE4yY043dGtQemI1NFNqZHZtYkRaekxFdWQ4X0V3TldiNjJmNjZPS2FKcHJnVVRVWDRVMzNCWlBMdEdCbzBMRk9hZXNFcWhSREhERXkxM1E3OUJFVXV2VktrN0tHSnZ1d2tkV19Kc2tSYmd5YUNkZ0tfVFI2RjNtNEs0ZHNHcDB5VGswNXBONnpraEZSdFVNdU1sNHNlX1U2RUcwTWU1V3lnY0tfMThqRGJfRkJSUzNicGZpQ21UcGVKcVo?oc=5\" target=\"_blank\">Ramón Soto confirmó que será candidato a intendente de San Patricio del Chañar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Chañar Digital</font>",
+      "source": "Chañar Digital",
+      "sourceType": "BUSCADOR / RESPALDO",
+      "sourceUrl": "",
+      "collection": "BUSCADOR",
+      "query": "site:chanardigital.com.ar \"San Patricio del Chañar\"",
+      "relevance": 3,
+      "relevanceLabel": "DIRECTA",
+      "firstSeen": "2026-10-23T09:30:07.704293+00:00",
+      "isNew": true,
+      "titleKey": "ramon soto confirmo sera candidato intendente digital",
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPR21XWHlNb1NFSE4yY043dGtQemI1NFNqZHZtYkRaekxFdWQ4X0V3TldiNjJmNjZPS2FKcHJnVVRVWDRVMzNCWlBMdEdCbzBMRk9hZXNFcWhSREhERXkxM1E3OUJFVXV2VktrN0tHSnZ1d2tkV19Kc2tSYmd5YUNkZ0tfVFI2RjNtNEs0ZHNHcDB5VGswNXBONnpraEZSdFVNdU1sNHNlX1U2RUcwTWU1V3lnY0tfMThqRGJfRkJSUzNicGZpQ21UcGVKcVo?oc=5",
       "sourcePriority": 3
     },
     {
@@ -4317,21 +4290,21 @@
     },
     {
       "title": "Después de años de esfuerzo, los Bomberos de San Patricio del Chañar inauguran su cuartel - NoticiasNQN",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxONWNnbEdkekJMbmtfVjRjdl9OeEdTcEo0MlQ2bFhSR0VzOVNOT3BVc2dIbDlWaE1ORi1ONW9pbkVOZnpOZG9CazkxOEdtUmRqbml2SXpsUnVDY3hvNnBXcFBQdjRqZUtBN3F0Um9Bd2VvcE0wRWNyNTVTYV9ZVWV4SG4xeUs2bWQtYV9qY3JXdVdVVl9iYkVKNnRzdlM2b1FwMVQtUlZ4VzJ0anB3b3hGU18weVpOUWVzS2JHTkt4RGlyeXM5ZXNRaEVJdlVJOEhoNmg3aFkzNy14aVdzc1FHMXRtc0nSAeQBQVVfeXFMTjVjZ2xHZHpCTG5rX1Y0Y3ZfTnhHU3BKNDJUNmxYUkdFczlTTk9wVXNnSGw5VmhNTkYtTjVvaW5FTmZ6TmRvQms5MThHbVJkam5pdkl6bFJ1Q2N4bzZwV3BQUHY0amVLQTdxdFJvQXdlb3BNMEVjcjU1U2FfWVVleEhuMXlLNm1kLWFfamNyV3VXVVZfYmJFSjZ0c3ZTNm9RcDFULVJWeFcydGpwd294RlNfMHlaTlFlc0tiR05LeERpcnlzOWVzUWhFSXZVSThIaDZoN2hZMzcteGlXc3NRRzF0bXNJ?oc=5",
-      "publishedAt": "2026-10-19T20:39:58+00:00",
-      "published": "2026-10-19T20:39:58+00:00",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMi5AFBVV95cUxONWNnbEdkekJMbmtfVjRjdl9OeEdTcEo0MlQ2bFhSR0VzOVNOT3BVc2dIbDlWaE1ORi1ONW9pbkVOZnpOZG9CazkxOEdtUmRqbml2SXpsUnVDY3hvNnBXcFBQdjRqZUtBN3F0Um9Bd2VvcE0wRWNyNTVTYV9ZVWV4SG4xeUs2bWQtYV9qY3JXdVdVVl9iYkVKNnRzdlM2b1FwMVQtUlZ4VzJ0anB3b3hGU18weVpOUWVzS2JHTkt4RGlyeXM5ZXNRaEVJdlVJOEhoNmg3aFkzNy14aVdzc1FHMXRtc0nSAeQBQVVfeXFMTjVjZ2xHZHpCTG5rX1Y0Y3ZfTnhHU3BKNDJUNmxYUkdFczlTTk9wVXNnSGw5VmhNTkYtTjVvaW5FTmZ6TmRvQms5MThHbVJkam5pdkl6bFJ1Q2N4bzZwV3BQUHY0amVLQTdxdFJvQXdlb3BNMEVjcjU1U2FfWVVleEhuMXlLNm1kLWFfamNyV3VXVVZfYmJFSjZ0c3ZTNm9RcDFULVJWeFcydGpwd294RlNfMHlaTlFlc0tiR05LeERpcnlzOWVzUWhFSXZVSThIaDZoN2hZMzcteGlXc3NRRzF0bXNJ?oc=5\" target=\"_blank\">Después de años de esfuerzo, los Bomberos de San Patricio del Chañar inauguran su cuartel</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NoticiasNQN</font>",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOZG9wSEhidWJ4NmlHVFhVYlRDMHJTdlNRTktETHo1V2FfdEtJSjF2TEV5Ukw1dExoeTJSczlmT1dHc2JDakZaXzRZOWZxUUREZHVXM2YtcHdTVk5oVGxaM0dCWVNMUVlpbWMwX2NGWnNIZFdOUkFyamE5LWlEWnk5ZFZJQVNSSldDVXVjbmlfalRuOXlkRy1aVk9PV2t5SmlDZ1JSYlIxUnltZmtoQ19HcDZKdFpHd2NjOGVPaFFGYmY0QlYtRmUyb2NGRTBmbzJFclpER0RzR1p3VXBJVDFZ0gHkAUFVX3lxTE41Y2dsR2R6Qkxua19WNGN2X054R1NwSjQyVDZsWFJHRXM5U05PcFVzZ0hsOVZoTU5GLU41b2luRU5mek5kb0JrOTE4R21SZGpuaXZJemxSdUNjeG82cFdwUFB2NGplS0E3cXRSb0F3ZW9wTTBFY3I1NVNhX1lVZXhIbjF5SzZtZC1hX2pjcld1V1VWX2JiRUo2dHN2UzZvUXAxVC1SVnhXMnRqcHdveEZTXzB5Wk5RZXNLYkdOS3hEaXJ5czllc1FoRUl2VUk4SGg2aDdoWTM3LXhpV3NzUUcxdG1zSQ?oc=5",
+      "publishedAt": "2026-10-19T20:38:57+00:00",
+      "published": "2026-10-19T20:38:57+00:00",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMi3wFBVV95cUxOZG9wSEhidWJ4NmlHVFhVYlRDMHJTdlNRTktETHo1V2FfdEtJSjF2TEV5Ukw1dExoeTJSczlmT1dHc2JDakZaXzRZOWZxUUREZHVXM2YtcHdTVk5oVGxaM0dCWVNMUVlpbWMwX2NGWnNIZFdOUkFyamE5LWlEWnk5ZFZJQVNSSldDVXVjbmlfalRuOXlkRy1aVk9PV2t5SmlDZ1JSYlIxUnltZmtoQ19HcDZKdFpHd2NjOGVPaFFGYmY0QlYtRmUyb2NGRTBmbzJFclpER0RzR1p3VXBJVDFZ0gHkAUFVX3lxTE41Y2dsR2R6Qkxua19WNGN2X054R1NwSjQyVDZsWFJHRXM5U05PcFVzZ0hsOVZoTU5GLU41b2luRU5mek5kb0JrOTE4R21SZGpuaXZJemxSdUNjeG82cFdwUFB2NGplS0E3cXRSb0F3ZW9wTTBFY3I1NVNhX1lVZXhIbjF5SzZtZC1hX2pjcld1V1VWX2JiRUo2dHN2UzZvUXAxVC1SVnhXMnRqcHdveEZTXzB5Wk5RZXNLYkdOS3hEaXJ5czllc1FoRUl2VUk4SGg2aDdoWTM3LXhpV3NzUUcxdG1zSQ?oc=5\" target=\"_blank\">Después de años de esfuerzo, los Bomberos de San Patricio del Chañar inauguran su cuartel</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NoticiasNQN</font>",
       "source": "NoticiasNQN",
       "sourceType": "BUSCADOR / RESPALDO",
       "sourceUrl": "",
       "collection": "BUSCADOR",
-      "query": "\"San Patricio del Chañar\" Neuquén",
+      "query": "\"San Patricio del Chañar\"",
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
-      "firstSeen": "2026-10-22T23:32:55.391801+00:00",
-      "isNew": false,
+      "firstSeen": "2026-10-23T09:30:07.704293+00:00",
+      "isNew": true,
       "titleKey": "despues años esfuerzo bomberos inauguran cuartel noticiasnqn",
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxONWNnbEdkekJMbmtfVjRjdl9OeEdTcEo0MlQ2bFhSR0VzOVNOT3BVc2dIbDlWaE1ORi1ONW9pbkVOZnpOZG9CazkxOEdtUmRqbml2SXpsUnVDY3hvNnBXcFBQdjRqZUtBN3F0Um9Bd2VvcE0wRWNyNTVTYV9ZVWV4SG4xeUs2bWQtYV9qY3JXdVdVVl9iYkVKNnRzdlM2b1FwMVQtUlZ4VzJ0anB3b3hGU18weVpOUWVzS2JHTkt4RGlyeXM5ZXNRaEVJdlVJOEhoNmg3aFkzNy14aVdzc1FHMXRtc0nSAeQBQVVfeXFMTjVjZ2xHZHpCTG5rX1Y0Y3ZfTnhHU3BKNDJUNmxYUkdFczlTTk9wVXNnSGw5VmhNTkYtTjVvaW5FTmZ6TmRvQms5MThHbVJkam5pdkl6bFJ1Q2N4bzZwV3BQUHY0amVLQTdxdFJvQXdlb3BNMEVjcjU1U2FfWVVleEhuMXlLNm1kLWFfamNyV3VXVVZfYmJFSjZ0c3ZTNm9RcDFULVJWeFcydGpwd294RlNfMHlaTlFlc0tiR05LeERpcnlzOWVzUWhFSXZVSThIaDZoN2hZMzcteGlXc3NRRzF0bXNJ?oc=5",
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOZG9wSEhidWJ4NmlHVFhVYlRDMHJTdlNRTktETHo1V2FfdEtJSjF2TEV5Ukw1dExoeTJSczlmT1dHc2JDakZaXzRZOWZxUUREZHVXM2YtcHdTVk5oVGxaM0dCWVNMUVlpbWMwX2NGWnNIZFdOUkFyamE5LWlEWnk5ZFZJQVNSSldDVXVjbmlfalRuOXlkRy1aVk9PV2t5SmlDZ1JSYlIxUnltZmtoQ19HcDZKdFpHd2NjOGVPaFFGYmY0QlYtRmUyb2NGRTBmbzJFclpER0RzR1p3VXBJVDFZ0gHkAUFVX3lxTE41Y2dsR2R6Qkxua19WNGN2X054R1NwSjQyVDZsWFJHRXM5U05PcFVzZ0hsOVZoTU5GLU41b2luRU5mek5kb0JrOTE4R21SZGpuaXZJemxSdUNjeG82cFdwUFB2NGplS0E3cXRSb0F3ZW9wTTBFY3I1NVNhX1lVZXhIbjF5SzZtZC1hX2pjcld1V1VWX2JiRUo2dHN2UzZvUXAxVC1SVnhXMnRqcHdveEZTXzB5Wk5RZXNLYkdOS3hEaXJ5czllc1FoRUl2VUk4SGg2aDdoWTM3LXhpV3NzUUcxdG1zSQ?oc=5",
       "sourcePriority": 3
     },
     {
@@ -4351,25 +4324,6 @@
       "isNew": false,
       "titleKey": "ate exige mesa trabajo urgente digital",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPNEtheVlFSERIbHJqTlFnb2Fqd04zWmNoRndIcmltSkJDcnBBZjVwdU94ZmRNNE5iV1dUVXhRcEdBZ0RSVnJmai05V21RRG9RZkN4bFVYX1VnWkkxSm5jeTNPNG1EaTJPLVBlOGk1aUR5aFBqTm9YcTVTaTJ1LVFIcW93X0xUVmlDUnNUdTFsSmx0dW9TeVc2TTJLVW90NTc1MzR4aHFOdTZzdHdVUjB4cmlUckRlLVJ2V0hvNTNFejlROGJjVFBjd2tjRQ?oc=5",
-      "sourcePriority": 3
-    },
-    {
-      "title": "La AIC aumentará el caudal del río Neuquén aguas abajo del compensador El Chañar - Chañar Digital",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNRHpnalpYOVdNOUhCbDQyWkNIZFI5N29aM21GQlIxeUxPLVlDMzhmSlEwcTVpOEtmdk9rbVk2aUtHVlhpdkhsdnRBcmNhTmdNdkdGTXVxYjVlQTJid1JMLUNrLWptTlRWVGhoNUVJVDgwMjZJNXVnejJiR05wbF9TaW5tWFRUU1E3NXBvOFNpRDlqTDloNXV4OHBEWDU2ZmRqXy1pQ2JnSHVRRWktUkNjZDByZ213MEExWmkxcFRSbzloQjJRSHBYeWF2M3RKQjA?oc=5",
-      "publishedAt": "2026-10-17T01:10:25+00:00",
-      "published": "2026-10-17T01:10:25+00:00",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMizwFBVV95cUxNRHpnalpYOVdNOUhCbDQyWkNIZFI5N29aM21GQlIxeUxPLVlDMzhmSlEwcTVpOEtmdk9rbVk2aUtHVlhpdkhsdnRBcmNhTmdNdkdGTXVxYjVlQTJid1JMLUNrLWptTlRWVGhoNUVJVDgwMjZJNXVnejJiR05wbF9TaW5tWFRUU1E3NXBvOFNpRDlqTDloNXV4OHBEWDU2ZmRqXy1pQ2JnSHVRRWktUkNjZDByZ213MEExWmkxcFRSbzloQjJRSHBYeWF2M3RKQjA?oc=5\" target=\"_blank\">La AIC aumentará el caudal del río Neuquén aguas abajo del compensador El Chañar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Chañar Digital</font>",
-      "source": "Chañar Digital",
-      "sourceType": "BUSCADOR / RESPALDO",
-      "sourceUrl": "",
-      "collection": "BUSCADOR",
-      "query": "site:chanardigital.com.ar \"San Patricio del Chañar\"",
-      "relevance": 3,
-      "relevanceLabel": "DIRECTA",
-      "firstSeen": "2026-10-22T23:32:55.391801+00:00",
-      "isNew": false,
-      "titleKey": "aic aumentara caudal rio aguas abajo compensador digital",
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNRHpnalpYOVdNOUhCbDQyWkNIZFI5N29aM21GQlIxeUxPLVlDMzhmSlEwcTVpOEtmdk9rbVk2aUtHVlhpdkhsdnRBcmNhTmdNdkdGTXVxYjVlQTJid1JMLUNrLWptTlRWVGhoNUVJVDgwMjZJNXVnejJiR05wbF9TaW5tWFRUU1E3NXBvOFNpRDlqTDloNXV4OHBEWDU2ZmRqXy1pQ2JnSHVRRWktUkNjZDByZ213MEExWmkxcFRSbzloQjJRSHBYeWF2M3RKQjA?oc=5",
       "sourcePriority": 3
     },
     {
@@ -4428,30 +4382,11 @@
       "titleKey": "adjudico construccion nuevo centro deportivo comunitario instante",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQOVhQOThuamtvX25sa2k4eWRSM1FwLTNPTU1JbEdXYWV1Z3Nubzh6QmJtRVhyZ1lXaHBuN1h3RGRSNjNidnpIQ2ZYMGJNVjZUcUhCMTlkTFVFTzliWktXNzhlUHlKazNZUktodHZudHRUU2dDNzhMOEljMjg0MWl4amp3NzB5bzJkdWdiRzc1emNIdDNsWk5ZWEk2dWxYa3dlWDYtdkZHcHRtZnJXY2tORWJCZHh5SUFjNExBOUxCa19HQ0xfckJSS3pUeUppU2d5QkdaVllNZ1ltNWJjQlVDbmo3MThxYlNndWVmaHZQcnJVc01mek5XT0tn0gH_AUFVX3lxTE9Dc2Y0bEVJRnFGdVQzSWUtZXM5Ym9BNjdHdHg2UGYycWFKZ2dKTmZURGtYNzlxakxIZG1CZEd3X3NUMUdac2xEQV9NS0NzZEl0T0FuVThqcVlhQ2xRcjQ3R0Z6dG03ZG5JUElxN1BqYzZMOGQ1QVcwYU1TaG9qTzZ1clI5dXdPNkREblh4SG1UczJDY3d1VUxaZU5abkZUNFhjb2IxX2N6XzQ2Sk5zcVh4Y08zNVo3Y0s5RXF0ZGt3SlFRMFFRV3NWOTNMRFpadmdkakxYa0VLSTc1eEdhR0Fuek52M0p5aVBzcU1vcE5BdnM1WF9nMlJzMmNoNDlNbw?oc=5",
       "sourcePriority": 3
-    },
-    {
-      "title": "San Patricio del Chañar tendrá un Centro Deportivo Comunitario para 400 personas - Alerta Digital",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPNmNMY3pkSDZWMVN0cE9WNms3WW9JZWFJX3YxcGR0ajNKQ1BPNWlKVGRNYWVOMXZueWZDaTFUMzIzeW1IZkl1U0J3R052dlN4SHF6UXphc3JvTzY1NlFrLUxMWDlBOVNRZGlOVTZsTnQ2QlVXYXhVMGlzMTY1MUJ2aXhRb25ucG9QUlFBMTNHbG1vNFl6MWdOYUtXNWpTVm1XM2hXZTZnd1Z6dkhSZzl1VlZTQm9UalpBejdJQW81bWhrWnJPMjM0NTFRc19laFp0VlHSAdcBQVVfeXFMTU93UHhsaTZkNjVobTlRWWdJalJLYXFNMjZoQkFsNEp2RDhsMWtPQnVZc2FKMlE5dnlsWmZndXJSYWtrVWQyUmxFaDloUEowalpvc0o5cUwwYThsRFZXRXVOX1h4WjMyMm4wQlBFLVlVRUxYZURSY3BYdC01NmdSclBubGtWMlZndl9TLUduVjdtMVFoeXBIUXFvUEVrTG1iTlpvMUV2UU93MWRFdkt3X0UxMk9HbFV3RWVkWnBORF8xZ0pGWFFwTGlJWUNTY2hmQU9fZGVXRGs?oc=5",
-      "publishedAt": "2026-10-09T07:00:00+00:00",
-      "published": "2026-10-09T07:00:00+00:00",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMi0gFBVV95cUxPNmNMY3pkSDZWMVN0cE9WNms3WW9JZWFJX3YxcGR0ajNKQ1BPNWlKVGRNYWVOMXZueWZDaTFUMzIzeW1IZkl1U0J3R052dlN4SHF6UXphc3JvTzY1NlFrLUxMWDlBOVNRZGlOVTZsTnQ2QlVXYXhVMGlzMTY1MUJ2aXhRb25ucG9QUlFBMTNHbG1vNFl6MWdOYUtXNWpTVm1XM2hXZTZnd1Z6dkhSZzl1VlZTQm9UalpBejdJQW81bWhrWnJPMjM0NTFRc19laFp0VlHSAdcBQVVfeXFMTU93UHhsaTZkNjVobTlRWWdJalJLYXFNMjZoQkFsNEp2RDhsMWtPQnVZc2FKMlE5dnlsWmZndXJSYWtrVWQyUmxFaDloUEowalpvc0o5cUwwYThsRFZXRXVOX1h4WjMyMm4wQlBFLVlVRUxYZURSY3BYdC01NmdSclBubGtWMlZndl9TLUduVjdtMVFoeXBIUXFvUEVrTG1iTlpvMUV2UU93MWRFdkt3X0UxMk9HbFV3RWVkWnBORF8xZ0pGWFFwTGlJWUNTY2hmQU9fZGVXRGs?oc=5\" target=\"_blank\">San Patricio del Chañar tendrá un Centro Deportivo Comunitario para 400 personas</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Alerta Digital</font>",
-      "source": "Alerta Digital",
-      "sourceType": "BUSCADOR / RESPALDO",
-      "sourceUrl": "",
-      "collection": "BUSCADOR",
-      "query": "\"San Patricio del Chañar\"",
-      "relevance": 3,
-      "relevanceLabel": "DIRECTA",
-      "firstSeen": "2026-10-22T23:32:55.391801+00:00",
-      "isNew": false,
-      "titleKey": "tendra centro deportivo comunitario 400 personas alerta digital",
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPNmNMY3pkSDZWMVN0cE9WNms3WW9JZWFJX3YxcGR0ajNKQ1BPNWlKVGRNYWVOMXZueWZDaTFUMzIzeW1IZkl1U0J3R052dlN4SHF6UXphc3JvTzY1NlFrLUxMWDlBOVNRZGlOVTZsTnQ2QlVXYXhVMGlzMTY1MUJ2aXhRb25ucG9QUlFBMTNHbG1vNFl6MWdOYUtXNWpTVm1XM2hXZTZnd1Z6dkhSZzl1VlZTQm9UalpBejdJQW81bWhrWnJPMjM0NTFRc19laFp0VlHSAdcBQVVfeXFMTU93UHhsaTZkNjVobTlRWWdJalJLYXFNMjZoQkFsNEp2RDhsMWtPQnVZc2FKMlE5dnlsWmZndXJSYWtrVWQyUmxFaDloUEowalpvc0o5cUwwYThsRFZXRXVOX1h4WjMyMm4wQlBFLVlVRUxYZURSY3BYdC01NmdSclBubGtWMlZndl9TLUduVjdtMVFoeXBIUXFvUEVrTG1iTlpvMUV2UU93MWRFdkt3X0UxMk9HbFV3RWVkWnBORF8xZ0pGWFFwTGlJWUNTY2hmQU9fZGVXRGs?oc=5",
-      "sourcePriority": 3
     }
   ],
   "territorialGraph": {
     "version": "2.0",
-    "generatedAt": "2026-10-23T04:15:17.396987+00:00",
+    "generatedAt": "2026-10-23T09:30:18.744929+00:00",
     "root": "spc",
     "rule": "evidence-first",
     "levels": [
@@ -4489,7 +4424,7 @@
           "río neuquén",
           "rio neuquen"
         ],
-        "eventCount": 1
+        "eventCount": 0
       },
       {
         "id": "ruta-7",
@@ -4917,7 +4852,7 @@
           "epen",
           "ente provincial de energía"
         ],
-        "eventCount": 0
+        "eventCount": 1
       },
       {
         "id": "bomberos",
@@ -5000,14 +4935,14 @@
         "evidence": "menciones de ambos nodos dentro del mismo hecho"
       },
       {
-        "from": "epet-26",
+        "from": "epen",
         "to": "spc",
         "relation": "COOCURRENCIA_TEXTUAL",
         "eventCount": 1,
         "evidence": "menciones de ambos nodos dentro del mismo hecho"
       },
       {
-        "from": "rio-neuquen",
+        "from": "epet-26",
         "to": "spc",
         "relation": "COOCURRENCIA_TEXTUAL",
         "eventCount": 1,
@@ -5031,8 +4966,7 @@
         "ruta-7"
       ],
       "CHA-c17768fff2dc": [
-        "spc",
-        "rio-neuquen"
+        "spc"
       ],
       "CHA-13874c30895e": [
         "spc"
@@ -5040,10 +4974,14 @@
       "CHA-8aa66f131026": [
         "spc"
       ],
-      "CHA-c0796e018b9c": [
-        "spc"
+      "CHA-16b3feeb55f6": [
+        "spc",
+        "epen"
       ],
       "CHA-7b194d928a62": [
+        "spc"
+      ],
+      "CHA-c0796e018b9c": [
         "spc"
       ],
       "CHA-1298f0d1783a": [
@@ -5070,19 +5008,19 @@
       "nodes": 46,
       "activeNodes": 6,
       "edges": 5,
-      "eventsLinked": 9,
+      "eventsLinked": 10,
       "eventsWithMicrozones": 0,
       "eventsWithBarrios": 0,
       "eventsWithSectors": 0,
       "levelActivity": {
         "localidad": 1,
-        "microregion": 1,
+        "microregion": 0,
         "corredor": 1,
         "microzona": 0,
         "sector": 0,
         "barrio": 0,
         "institucion": 3,
-        "servicio": 0,
+        "servicio": 1,
         "produccion": 0,
         "espacio": 0
       }
@@ -5090,16 +5028,16 @@
   },
   "audit": {
     "version": "1.0",
-    "updatedAt": "2026-10-23T04:15:17.433180+00:00",
+    "updatedAt": "2026-10-23T09:30:18.780976+00:00",
     "rule": "fact != coverage; territory requires textual evidence",
     "facts": 10,
-    "coverage": 23,
-    "coveragePerFact": 2.3,
+    "coverage": 22,
+    "coveragePerFact": 2.2,
     "directAnchorFacts": 10,
     "directAnchorPct": 100.0,
     "territorySpecificFacts": 4,
     "territorySpecificPct": 40.0,
-    "averageSourcesPerFact": 1.7,
+    "averageSourcesPerFact": 1.5,
     "activeTerritorialNodes": 6,
     "failedSources": 10,
     "acceptedWithoutLocalEvidence": 0,

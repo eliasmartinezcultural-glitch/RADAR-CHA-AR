@@ -2,7 +2,7 @@
   "version": "1.1",
   "windowDays": 45,
   "bucketHours": 2,
-  "generatedAt": "2026-10-23T04:15:17.497612+00:00",
+  "generatedAt": "2026-10-23T09:30:18.859327+00:00",
   "snapshots": [
     {
       "at": "2026-09-20T01:58:09.322313+00:00",
@@ -17141,6 +17141,101 @@
         "Bomberos Voluntarios": 1,
         "Ruta 7": 1,
         "Río Neuquén": 1,
+        "EPET 26": 1,
+        "CPEM 31": 1
+      },
+      "activeNodes": 6,
+      "directSignals": 0,
+      "newSignals": 0,
+      "sourceHealth": {
+        "Chañar Digital": {
+          "success": false,
+          "signals": 0,
+          "freshnessHours": null
+        },
+        "Mía Radio 94.7": {
+          "success": false,
+          "signals": 0,
+          "freshnessHours": null
+        },
+        "Radio Tuit Vaca Muerta 90.5": {
+          "success": false,
+          "signals": 0,
+          "freshnessHours": null
+        },
+        "Vaca Muerta News": {
+          "success": false,
+          "signals": 0,
+          "freshnessHours": null
+        },
+        "Neuquén Informa": {
+          "success": false,
+          "signals": 0,
+          "freshnessHours": null
+        },
+        "Municipalidad de San Patricio del Chañar": {
+          "success": false,
+          "signals": 0,
+          "freshnessHours": null
+        },
+        "Boletín Oficial de Neuquén": {
+          "success": false,
+          "signals": 0,
+          "freshnessHours": null
+        },
+        "LM Neuquén": {
+          "success": false,
+          "signals": 0,
+          "freshnessHours": null
+        },
+        "Diario Río Negro": {
+          "success": true,
+          "signals": 0,
+          "freshnessHours": null
+        },
+        "Mejor Informado": {
+          "success": false,
+          "signals": 0,
+          "freshnessHours": null
+        },
+        "Diariamente Neuquén": {
+          "success": false,
+          "signals": 0,
+          "freshnessHours": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-23T09:30:18.859206+00:00",
+      "bucket": "2026-10-23T09:30:00+00:00",
+      "events": 10,
+      "topics": {
+        "SEGURIDAD / EMERGENCIAS": 1,
+        "MOVILIDAD": 1,
+        "SERVICIOS": 5,
+        "DEPORTE": 1,
+        "EDUCACIÓN": 2
+      },
+      "sources": {
+        "www.portadadigital.com.ar": 1,
+        "Neuquén News": 1,
+        "NoticiasNQN": 2,
+        "Diario Neuquino": 2,
+        "Diario Río Negro": 2,
+        "Chañar Digital": 5,
+        "EPEN": 1,
+        "Neuquén al instante": 1
+      },
+      "lifecycle": {
+        "EMERGENTE": 4,
+        "SIN NUEVA COBERTURA": 3,
+        "RECIENTE": 3
+      },
+      "nodes": {
+        "San Patricio del Chañar": 10,
+        "Bomberos Voluntarios": 1,
+        "Ruta 7": 1,
+        "EPEN": 1,
         "EPET 26": 1,
         "CPEM 31": 1
       },
