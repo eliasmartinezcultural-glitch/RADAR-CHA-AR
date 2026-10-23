@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23T09:30:07.704293+00:00",
+  "updatedAt": "2026-10-23T14:23:27.055499+00:00",
   "window": "14 días",
   "purpose": "Detectar qué se está moviendo en San Patricio del Chañar y mostrar de dónde surge cada señal.",
   "architecture": "contrato universal de procedencia + fuentes profesionales + adaptadores específicos + validación semántica + temporalidad + evidencia editorial separada",
@@ -49,7 +49,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://chanardigital.com.ar/",
-      "lastFetch": "2026-10-23T09:29:46.862332+00:00",
+      "lastFetch": "2026-10-23T14:23:04.367352+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -65,7 +65,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.radiomia.com.ar/",
-      "lastFetch": "2026-10-23T09:29:48.233507+00:00",
+      "lastFetch": "2026-10-23T14:23:05.942728+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -80,7 +80,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://tuitvacamuerta.com/",
-      "lastFetch": "2026-10-23T09:29:49.933893+00:00",
+      "lastFetch": "2026-10-23T14:23:07.620437+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -95,7 +95,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.vacamuertanews.com/",
-      "lastFetch": "2026-10-23T09:29:50.565090+00:00",
+      "lastFetch": "2026-10-23T14:23:08.418834+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -111,7 +111,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.neuqueninforma.gob.ar/",
-      "lastFetch": "2026-10-23T09:29:51.829522+00:00",
+      "lastFetch": "2026-10-23T14:23:10.264497+00:00",
       "success": false,
       "attempted": 3,
       "failures": [
@@ -128,7 +128,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://sanpatricio.gob.ar/",
-      "lastFetch": "2026-10-23T09:29:52.980812+00:00",
+      "lastFetch": "2026-10-23T14:23:11.134276+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -143,7 +143,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://boletinoficial.neuquen.gov.ar/",
-      "lastFetch": "2026-10-23T09:29:53.602998+00:00",
+      "lastFetch": "2026-10-23T14:23:12.170387+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -158,7 +158,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.lmneuquen.com/",
-      "lastFetch": "2026-10-23T09:29:53.830460+00:00",
+      "lastFetch": "2026-10-23T14:23:12.473643+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -174,7 +174,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.rionegro.com.ar/",
-      "lastFetch": "2026-10-23T09:29:56.083602+00:00",
+      "lastFetch": "2026-10-23T14:23:14.655415+00:00",
       "success": true,
       "attempted": 2,
       "failures": [
@@ -189,7 +189,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.mejorinformado.com/",
-      "lastFetch": "2026-10-23T09:29:57.031439+00:00",
+      "lastFetch": "2026-10-23T14:23:15.565507+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -205,7 +205,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.diariamenteneuquen.com/",
-      "lastFetch": "2026-10-23T09:29:57.990987+00:00",
+      "lastFetch": "2026-10-23T14:23:16.330032+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -709,13 +709,13 @@
   "languageAudit": [
     {
       "term": "el chañar",
-      "hits": 13,
-      "direct": 13
+      "hits": 14,
+      "direct": 14
     },
     {
       "term": "san patricio del chañar",
-      "hits": 9,
-      "direct": 9
+      "hits": 10,
+      "direct": 10
     },
     {
       "term": "ruta 7",
@@ -1016,6 +1016,19 @@
         "falsePositives": 0,
         "falsePositiveTypes": [],
         "topics": []
+      },
+      {
+        "source": "Cutral Co al Instante",
+        "group": "OBSERVADA",
+        "role": "fuente detectada fuera del catálogo",
+        "accepted": 1,
+        "direct": 1,
+        "anchored": 0,
+        "falsePositives": 0,
+        "falsePositiveTypes": [],
+        "topics": [
+          "SERVICIOS"
+        ]
       },
       {
         "source": "Defensa Civil Neuquén",
@@ -1350,6 +1363,18 @@
         ]
       },
       {
+        "source": "Cutral Co al Instante",
+        "topic": "SERVICIOS",
+        "accepted": 1,
+        "direct": 1,
+        "anchored": 0,
+        "falsePositives": 0,
+        "territorialTerms": [
+          "san patricio del chañar",
+          "el chañar"
+        ]
+      },
+      {
         "source": "Diario Neuquino",
         "topic": "EDUCACIÓN",
         "accepted": 1,
@@ -1479,8 +1504,8 @@
     "languagePrecision": [
       {
         "term": "san patricio del chañar",
-        "acceptedHits": 11,
-        "directHits": 11,
+        "acceptedHits": 12,
+        "directHits": 12,
         "rejectedTitleHits": 0,
         "territorialStrength": "FUERTE"
       },
@@ -1493,8 +1518,8 @@
       },
       {
         "term": "el chañar",
-        "acceptedHits": 15,
-        "directHits": 15,
+        "acceptedHits": 16,
+        "directHits": 16,
         "rejectedTitleHits": 0,
         "territorialStrength": "FUERTE"
       },
@@ -1819,11 +1844,11 @@
     "interpretation": "auditoría sobre eventos aceptados; la próxima capa debe instrumentar rechazos antes del clustering"
   },
   "stats": {
-    "total": 13,
-    "direct": 13,
+    "total": 14,
+    "direct": 14,
     "regional": 0,
-    "new": 2,
-    "sources": 8,
+    "new": 1,
+    "sources": 9,
     "directSignals": 0,
     "localDirectSignals": 0,
     "radioDirectSignals": 0,
@@ -1833,11 +1858,11 @@
   "environment": {
     "weather": {
       "dataType": "forecast",
-      "forecastWindKmh": 26.0,
-      "forecastGustKmh": 26.0,
-      "forecastWindDirection": "E",
-      "forecastTemperatureC": 17.0,
-      "retrievedAt": "2026-10-23T09:29:44.608019+00:00",
+      "forecastWindKmh": 17.0,
+      "forecastGustKmh": 28.0,
+      "forecastWindDirection": "SE",
+      "forecastTemperatureC": 15.0,
+      "retrievedAt": "2026-10-23T14:23:01.338981+00:00",
       "source": "AIC",
       "sourceTier": "primary",
       "sourceUrl": "https://www.aic.gob.ar/sitio/home?a=1015&z=1967225803",
@@ -1867,7 +1892,7 @@
       "currentProgrammedMinM3s": 500,
       "programDate": "2026-10-24",
       "tableDate": "2026-10-23",
-      "retrievedAt": "2026-10-23T09:29:44.608019+00:00",
+      "retrievedAt": "2026-10-23T14:23:01.338981+00:00",
       "source": "AIC",
       "sourceTier": "primary",
       "sourceUrl": "https://www.aic.gob.ar/sitio/caudales",
@@ -1887,17 +1912,17 @@
         "url": "https://www.aic.gob.ar/sitio/caudales"
       }
     ],
-    "updatedAt": "2026-10-23T09:29:44.608019+00:00"
+    "updatedAt": "2026-10-23T14:23:01.338981+00:00"
   },
   "operational": {
-    "updatedAt": "2026-10-23T09:29:44.608019+00:00",
+    "updatedAt": "2026-10-23T14:23:01.338981+00:00",
     "route7": {
       "source": "Dirección Provincial de Vialidad",
       "sourceTier": "primary",
       "sourceUrl": "https://www.dpvneuquen.gov.ar/",
       "semanticState": null,
       "publicationState": "source_reachable_no_current_machine_readable_state",
-      "retrievedAt": "2026-10-23T09:29:44.608019+00:00",
+      "retrievedAt": "2026-10-23T14:23:01.338981+00:00",
       "evidence": {
         "route7Mention": true,
         "route8Mention": false
@@ -1909,7 +1934,7 @@
       "sourceUrl": "https://www.dpvneuquen.gov.ar/",
       "semanticState": null,
       "publicationState": "source_reachable_no_current_machine_readable_state",
-      "retrievedAt": "2026-10-23T09:29:44.608019+00:00",
+      "retrievedAt": "2026-10-23T14:23:01.338981+00:00",
       "evidence": {
         "route7Mention": true,
         "route8Mention": false
@@ -1923,7 +1948,7 @@
       "eventType": null,
       "detail": null,
       "publicationState": "source_reachable_no_specific_local_notice",
-      "retrievedAt": "2026-10-23T09:29:44.608019+00:00"
+      "retrievedAt": "2026-10-23T14:23:01.338981+00:00"
     },
     "water": {
       "source": "EPAS",
@@ -1933,7 +1958,7 @@
       "eventType": null,
       "detail": null,
       "publicationState": "source_reachable_no_specific_local_notice",
-      "retrievedAt": "2026-10-23T09:29:44.608019+00:00"
+      "retrievedAt": "2026-10-23T14:23:01.338981+00:00"
     },
     "sources": [
       {
@@ -2345,7 +2370,7 @@
       "label": "Conversación general",
       "signal": 10,
       "status": "cobertura editorial",
-      "freshnessHours": 8.1,
+      "freshnessHours": 0.4,
       "mode": "evidencia editorial",
       "evidenceCount": 10,
       "sourceContract": {
@@ -2385,7 +2410,7 @@
       "label": "Corredor Ruta 7",
       "signal": 2,
       "status": "estado vial",
-      "freshnessHours": 16.5,
+      "freshnessHours": 21.4,
       "mode": "evidencia territorial",
       "evidenceCount": 2,
       "sourceContract": {
@@ -2425,7 +2450,7 @@
         "sourceUrl": "https://www.dpvneuquen.gov.ar/",
         "semanticState": null,
         "publicationState": "source_reachable_no_current_machine_readable_state",
-        "retrievedAt": "2026-10-23T09:29:44.608019+00:00",
+        "retrievedAt": "2026-10-23T14:23:01.338981+00:00",
         "evidence": {
           "route7Mention": true,
           "route8Mention": false
@@ -2437,7 +2462,7 @@
       "label": "Corredor Ruta 8",
       "signal": 2,
       "status": "estado vial",
-      "freshnessHours": 16.5,
+      "freshnessHours": 21.4,
       "mode": "evidencia territorial",
       "evidenceCount": 2,
       "sourceContract": {
@@ -2477,7 +2502,7 @@
         "sourceUrl": "https://www.dpvneuquen.gov.ar/",
         "semanticState": null,
         "publicationState": "source_reachable_no_current_machine_readable_state",
-        "retrievedAt": "2026-10-23T09:29:44.608019+00:00",
+        "retrievedAt": "2026-10-23T14:23:01.338981+00:00",
         "evidence": {
           "route7Mention": true,
           "route8Mention": false
@@ -2487,7 +2512,7 @@
     {
       "id": "VIENTO",
       "label": "Condición de viento",
-      "signal": 26.0,
+      "signal": 17.0,
       "status": "pronóstico local",
       "freshnessHours": null,
       "mode": "DATO DIRECTO",
@@ -2535,7 +2560,7 @@
       "label": "Electricidad / cortes de luz",
       "signal": 1,
       "status": "evento eléctrico",
-      "freshnessHours": 183.6,
+      "freshnessHours": 188.5,
       "mode": "evidencia editorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -2577,7 +2602,7 @@
         "eventType": null,
         "detail": null,
         "publicationState": "source_reachable_no_specific_local_notice",
-        "retrievedAt": "2026-10-23T09:29:44.608019+00:00"
+        "retrievedAt": "2026-10-23T14:23:01.338981+00:00"
       }
     },
     {
@@ -2627,7 +2652,7 @@
         "eventType": null,
         "detail": null,
         "publicationState": "source_reachable_no_specific_local_notice",
-        "retrievedAt": "2026-10-23T09:29:44.608019+00:00"
+        "retrievedAt": "2026-10-23T14:23:01.338981+00:00"
       }
     },
     {
@@ -2715,7 +2740,7 @@
       "label": "Educación",
       "signal": 2,
       "status": "evidencia educativa",
-      "freshnessHours": 634.4,
+      "freshnessHours": 639.3,
       "mode": "evidencia editorial",
       "evidenceCount": 2,
       "sourceContract": {
@@ -2795,7 +2820,7 @@
       "label": "Seguridad / emergencias",
       "signal": 1,
       "status": "cobertura de emergencia",
-      "freshnessHours": 66.4,
+      "freshnessHours": 71.3,
       "mode": "evidencia editorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -2835,7 +2860,7 @@
       "label": "Territorio / microzonas",
       "signal": 1,
       "status": "hecho territorial",
-      "freshnessHours": 183.6,
+      "freshnessHours": 188.5,
       "mode": "evidencia territorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -2892,7 +2917,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://chanardigital.com.ar/",
-        "lastFetch": "2026-10-23T09:29:46.862332+00:00",
+        "lastFetch": "2026-10-23T14:23:04.367352+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -2908,7 +2933,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.radiomia.com.ar/",
-        "lastFetch": "2026-10-23T09:29:48.233507+00:00",
+        "lastFetch": "2026-10-23T14:23:05.942728+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -2923,7 +2948,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://tuitvacamuerta.com/",
-        "lastFetch": "2026-10-23T09:29:49.933893+00:00",
+        "lastFetch": "2026-10-23T14:23:07.620437+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -2938,7 +2963,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.vacamuertanews.com/",
-        "lastFetch": "2026-10-23T09:29:50.565090+00:00",
+        "lastFetch": "2026-10-23T14:23:08.418834+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -2954,7 +2979,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.neuqueninforma.gob.ar/",
-        "lastFetch": "2026-10-23T09:29:51.829522+00:00",
+        "lastFetch": "2026-10-23T14:23:10.264497+00:00",
         "success": false,
         "attempted": 3,
         "failures": [
@@ -2971,7 +2996,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://sanpatricio.gob.ar/",
-        "lastFetch": "2026-10-23T09:29:52.980812+00:00",
+        "lastFetch": "2026-10-23T14:23:11.134276+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -2986,7 +3011,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://boletinoficial.neuquen.gov.ar/",
-        "lastFetch": "2026-10-23T09:29:53.602998+00:00",
+        "lastFetch": "2026-10-23T14:23:12.170387+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -3001,7 +3026,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.lmneuquen.com/",
-        "lastFetch": "2026-10-23T09:29:53.830460+00:00",
+        "lastFetch": "2026-10-23T14:23:12.473643+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3017,7 +3042,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.rionegro.com.ar/",
-        "lastFetch": "2026-10-23T09:29:56.083602+00:00",
+        "lastFetch": "2026-10-23T14:23:14.655415+00:00",
         "success": true,
         "attempted": 2,
         "failures": [
@@ -3032,7 +3057,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.mejorinformado.com/",
-        "lastFetch": "2026-10-23T09:29:57.031439+00:00",
+        "lastFetch": "2026-10-23T14:23:15.565507+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3048,7 +3073,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.diariamenteneuquen.com/",
-        "lastFetch": "2026-10-23T09:29:57.990987+00:00",
+        "lastFetch": "2026-10-23T14:23:16.330032+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3066,6 +3091,125 @@
   },
   "events": [
     {
+      "eventId": "CHA-13874c30895e",
+      "title": "San Patricio del Chañar será sede de la novena fecha del Rally Neuquino - Cutral Co al Instante",
+      "publishedAt": "2026-10-23T14:00:00+00:00",
+      "firstSeen": "2026-10-23T04:15:04.778747+00:00",
+      "lastSeen": "2026-10-23T14:00:00+00:00",
+      "relevance": 3,
+      "relevanceLabel": "DIRECTA",
+      "incidenceLabel": "DIRECTA EN CHANAR",
+      "topic": "SERVICIOS",
+      "movement": 84,
+      "coverage": 3,
+      "sourceCount": 2,
+      "directSourceCount": 0,
+      "territorialAnchors": [
+        "san patricio del chañar",
+        "el chañar"
+      ],
+      "sources": [
+        "Cutral Co al Instante",
+        "Chañar Digital"
+      ],
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQcGxhSkYwOHVadDJlZkI2YU5YSU4xM2FydFE0cGc4dldZR0pkbGJ6alBEVVpoMU1EN0t5dHlLVkRod1gxRFdPVGYwQjZIdVFLVEJhOTdtOXZyZ2FrclY5VEN6R0V4Z051NWhVWW54N1hXOUpKZmF6azFUVDFJUVlwNXNKd1djZ2pxQkE2MXh4ZXVHOWFTVURFMk14eXRXSmU1Y0MzbVNuNjZ1VWRRVi1Pc1RvMXpYMm1vc2c?oc=5",
+      "items": [
+        {
+          "title": "San Patricio del Chañar será sede de la novena fecha del Rally Neuquino - Cutral Co al Instante",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQcGxhSkYwOHVadDJlZkI2YU5YSU4xM2FydFE0cGc4dldZR0pkbGJ6alBEVVpoMU1EN0t5dHlLVkRod1gxRFdPVGYwQjZIdVFLVEJhOTdtOXZyZ2FrclY5VEN6R0V4Z051NWhVWW54N1hXOUpKZmF6azFUVDFJUVlwNXNKd1djZ2pxQkE2MXh4ZXVHOWFTVURFMk14eXRXSmU1Y0MzbVNuNjZ1VWRRVi1Pc1RvMXpYMm1vc2c?oc=5",
+          "publishedAt": "2026-10-23T14:00:00+00:00",
+          "published": "2026-10-23T14:00:00+00:00",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxQcGxhSkYwOHVadDJlZkI2YU5YSU4xM2FydFE0cGc4dldZR0pkbGJ6alBEVVpoMU1EN0t5dHlLVkRod1gxRFdPVGYwQjZIdVFLVEJhOTdtOXZyZ2FrclY5VEN6R0V4Z051NWhVWW54N1hXOUpKZmF6azFUVDFJUVlwNXNKd1djZ2pxQkE2MXh4ZXVHOWFTVURFMk14eXRXSmU1Y0MzbVNuNjZ1VWRRVi1Pc1RvMXpYMm1vc2c?oc=5\" target=\"_blank\">San Patricio del Chañar será sede de la novena fecha del Rally Neuquino</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Cutral Co al Instante</font>",
+          "source": "Cutral Co al Instante",
+          "sourceType": "BUSCADOR / RESPALDO",
+          "sourceUrl": "",
+          "collection": "BUSCADOR",
+          "query": "\"San Patricio del Chañar\"",
+          "relevance": 3,
+          "relevanceLabel": "DIRECTA",
+          "firstSeen": "2026-10-23T14:23:27.055499+00:00",
+          "isNew": true,
+          "titleKey": "sera sede novena fecha rally neuquino cutral instante",
+          "evidenceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQcGxhSkYwOHVadDJlZkI2YU5YSU4xM2FydFE0cGc4dldZR0pkbGJ6alBEVVpoMU1EN0t5dHlLVkRod1gxRFdPVGYwQjZIdVFLVEJhOTdtOXZyZ2FrclY5VEN6R0V4Z051NWhVWW54N1hXOUpKZmF6azFUVDFJUVlwNXNKd1djZ2pxQkE2MXh4ZXVHOWFTVURFMk14eXRXSmU1Y0MzbVNuNjZ1VWRRVi1Pc1RvMXpYMm1vc2c?oc=5",
+          "sourcePriority": 3
+        },
+        {
+          "title": "El Rally neuquino confirmó su regreso a San Patricio del Chañar - Chañar Digital",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPNTNFdHNGamZaVDBGMGl4cGJPamQ4eVRvM0VIbGtXWDBkbHdkMnNrVXpYSUkzeUNTQ0NiTGJXcnIzTVdFYmJSYWx6ZWszaldidFRVT0w1dTltSUVQSy1LNUlEY29vc3JCWUdoNFpabGZZNFVNZ3Q5OGV3ZHVHRkw1cGdlY2MzNWF2eWk3aFpzTUYyWmJ2TXZQVmdrTDFrYXplN0FpdzBaOE5VN0Zob1FKLTViZ1EwWHlr?oc=5",
+          "publishedAt": "2026-10-23T01:24:22+00:00",
+          "published": "2026-10-23T01:24:22+00:00",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMiuAFBVV95cUxPNTNFdHNGamZaVDBGMGl4cGJPamQ4eVRvM0VIbGtXWDBkbHdkMnNrVXpYSUkzeUNTQ0NiTGJXcnIzTVdFYmJSYWx6ZWszaldidFRVT0w1dTltSUVQSy1LNUlEY29vc3JCWUdoNFpabGZZNFVNZ3Q5OGV3ZHVHRkw1cGdlY2MzNWF2eWk3aFpzTUYyWmJ2TXZQVmdrTDFrYXplN0FpdzBaOE5VN0Zob1FKLTViZ1EwWHlr?oc=5\" target=\"_blank\">El Rally neuquino confirmó su regreso a San Patricio del Chañar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Chañar Digital</font>",
+          "source": "Chañar Digital",
+          "sourceType": "BUSCADOR / RESPALDO",
+          "sourceUrl": "",
+          "collection": "BUSCADOR",
+          "query": "site:chanardigital.com.ar \"San Patricio del Chañar\"",
+          "relevance": 3,
+          "relevanceLabel": "DIRECTA",
+          "firstSeen": "2026-10-23T04:15:04.778747+00:00",
+          "isNew": false,
+          "titleKey": "rally neuquino confirmo regreso digital",
+          "evidenceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPNTNFdHNGamZaVDBGMGl4cGJPamQ4eVRvM0VIbGtXWDBkbHdkMnNrVXpYSUkzeUNTQ0NiTGJXcnIzTVdFYmJSYWx6ZWszaldidFRVT0w1dTltSUVQSy1LNUlEY29vc3JCWUdoNFpabGZZNFVNZ3Q5OGV3ZHVHRkw1cGdlY2MzNWF2eWk3aFpzTUYyWmJ2TXZQVmdrTDFrYXplN0FpdzBaOE5VN0Zob1FKLTViZ1EwWHlr?oc=5",
+          "sourcePriority": 3
+        },
+        {
+          "title": "Ramón Soto confirmó que será candidato a intendente de San Patricio del Chañar - Chañar Digital",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPR21XWHlNb1NFSE4yY043dGtQemI1NFNqZHZtYkRaekxFdWQ4X0V3TldiNjJmNjZPS2FKcHJnVVRVWDRVMzNCWlBMdEdCbzBMRk9hZXNFcWhSREhERXkxM1E3OUJFVXV2VktrN0tHSnZ1d2tkV19Kc2tSYmd5YUNkZ0tfVFI2RjNtNEs0ZHNHcDB5VGswNXBONnpraEZSdFVNdU1sNHNlX1U2RUcwTWU1V3lnY0tfMThqRGJfRkJSUzNicGZpQ21UcGVKcVo?oc=5",
+          "publishedAt": "2026-10-23T01:24:21+00:00",
+          "published": "2026-10-23T01:24:21+00:00",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMizAFBVV95cUxPR21XWHlNb1NFSE4yY043dGtQemI1NFNqZHZtYkRaekxFdWQ4X0V3TldiNjJmNjZPS2FKcHJnVVRVWDRVMzNCWlBMdEdCbzBMRk9hZXNFcWhSREhERXkxM1E3OUJFVXV2VktrN0tHSnZ1d2tkV19Kc2tSYmd5YUNkZ0tfVFI2RjNtNEs0ZHNHcDB5VGswNXBONnpraEZSdFVNdU1sNHNlX1U2RUcwTWU1V3lnY0tfMThqRGJfRkJSUzNicGZpQ21UcGVKcVo?oc=5\" target=\"_blank\">Ramón Soto confirmó que será candidato a intendente de San Patricio del Chañar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Chañar Digital</font>",
+          "source": "Chañar Digital",
+          "sourceType": "BUSCADOR / RESPALDO",
+          "sourceUrl": "",
+          "collection": "BUSCADOR",
+          "query": "site:chanardigital.com.ar \"San Patricio del Chañar\"",
+          "relevance": 3,
+          "relevanceLabel": "DIRECTA",
+          "firstSeen": "2026-10-23T09:30:07.704293+00:00",
+          "isNew": false,
+          "titleKey": "ramon soto confirmo sera candidato intendente digital",
+          "evidenceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPR21XWHlNb1NFSE4yY043dGtQemI1NFNqZHZtYkRaekxFdWQ4X0V3TldiNjJmNjZPS2FKcHJnVVRVWDRVMzNCWlBMdEdCbzBMRk9hZXNFcWhSREhERXkxM1E3OUJFVXV2VktrN0tHSnZ1d2tkV19Kc2tSYmd5YUNkZ0tfVFI2RjNtNEs0ZHNHcDB5VGswNXBONnpraEZSdFVNdU1sNHNlX1U2RUcwTWU1V3lnY0tfMThqRGJfRkJSUzNicGZpQ21UcGVKcVo?oc=5",
+          "sourcePriority": 3
+        }
+      ],
+      "lifecycle": "EMERGENTE",
+      "movementDelta": 31,
+      "previousCoverage": 2,
+      "newSources": [
+        "Cutral Co al Instante"
+      ],
+      "sourceDiversity": 2,
+      "memoryMatched": true,
+      "isNew": false,
+      "view": "INCIDENCIA",
+      "incidenceEligible": true,
+      "signalReason": "reservado a incidencia territorial",
+      "incidenceReason": "anclaje directo + tema operativo/local",
+      "territory": {
+        "version": "2.0",
+        "primary": "San Patricio del Chañar",
+        "nodes": [
+          "San Patricio del Chañar"
+        ],
+        "sectors": [],
+        "barrios": [],
+        "microzones": [],
+        "corridors": [],
+        "institutions": [],
+        "services": [],
+        "spaces": [],
+        "production": [],
+        "path": "San Patricio del Chañar",
+        "evidence": [
+          {
+            "node": "San Patricio del Chañar",
+            "level": "localidad",
+            "evidence": "DIRECTA"
+          }
+        ]
+      }
+    },
+    {
       "eventId": "CHA-7153405d1ec0",
       "title": "Los Bomberos Voluntarios de San Patricio del Chañar inaugurarán su cuartel tras casi ocho años de trabajo - www.portadadigital.com.ar",
       "publishedAt": "2026-10-20T15:08:24+00:00",
@@ -3075,7 +3219,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SEGURIDAD / EMERGENCIAS",
-      "movement": 75,
+      "movement": 73,
       "coverage": 3,
       "sourceCount": 3,
       "directSourceCount": 0,
@@ -3143,14 +3287,14 @@
           "relevance": 3,
           "relevanceLabel": "DIRECTA",
           "firstSeen": "2026-10-23T09:30:07.704293+00:00",
-          "isNew": true,
+          "isNew": false,
           "titleKey": "despues años esfuerzo bomberos inauguran cuartel noticiasnqn",
           "evidenceUrl": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOZG9wSEhidWJ4NmlHVFhVYlRDMHJTdlNRTktETHo1V2FfdEtJSjF2TEV5Ukw1dExoeTJSczlmT1dHc2JDakZaXzRZOWZxUUREZHVXM2YtcHdTVk5oVGxaM0dCWVNMUVlpbWMwX2NGWnNIZFdOUkFyamE5LWlEWnk5ZFZJQVNSSldDVXVjbmlfalRuOXlkRy1aVk9PV2t5SmlDZ1JSYlIxUnltZmtoQ19HcDZKdFpHd2NjOGVPaFFGYmY0QlYtRmUyb2NGRTBmbzJFclpER0RzR1p3VXBJVDFZ0gHkAUFVX3lxTE41Y2dsR2R6Qkxua19WNGN2X054R1NwSjQyVDZsWFJHRXM5U05PcFVzZ0hsOVZoTU5GLU41b2luRU5mek5kb0JrOTE4R21SZGpuaXZJemxSdUNjeG82cFdwUFB2NGplS0E3cXRSb0F3ZW9wTTBFY3I1NVNhX1lVZXhIbjF5SzZtZC1hX2pjcld1V1VWX2JiRUo2dHN2UzZvUXAxVC1SVnhXMnRqcHdveEZTXzB5Wk5RZXNLYkdOS3hEaXJ5czllc1FoRUl2VUk4SGg2aDdoWTM3LXhpV3NzUUcxdG1zSQ?oc=5",
           "sourcePriority": 3
         }
       ],
       "lifecycle": "EMERGENTE",
-      "movementDelta": -1,
+      "movementDelta": -2,
       "previousCoverage": 3,
       "newSources": [],
       "sourceDiversity": 3,
@@ -3202,7 +3346,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "MOVILIDAD",
-      "movement": 72,
+      "movement": 71,
       "coverage": 3,
       "sourceCount": 3,
       "directSourceCount": 0,
@@ -3238,11 +3382,11 @@
           "sourcePriority": 3
         },
         {
-          "title": "Demoras por un fuerte choque en la Ruta 7, cerca de El Chañar: piden circular con precaución - Diario Río Negro",
+          "title": "Un fuerte choque complicó el tránsito en la Ruta 7, cerca de El Chañar: qué pasó - Diario Río Negro",
           "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNNl9jYnNQajktaWdNbFdnQWFSMS1fZkVobzA4dnVPTklVMkhXYnJqcm1EN2NEUUxoRHhKbHJwb0lmd3JfX0FWcHdtSjJscElGaURSdXhzWWhXMzVOUF9QcG5Ka2dOU1ZYOGYxWm5zME8xbUxBR2pOaVNUbzluYUwzalNybW9pSVFzajVqaFp2emFvN2dQZ1Z6Rkxaa1I3OHR4MmZGRXB0ZW5Ba21SUVJqbGY1YkJrdDd3WkRnSEc0RG5JRktEMDR0LU5KMUlZUjVOc2fSAdoBQVVfeXFMTjZXVnE2OFoxc3ctQkQxWURaZUF4WEstcHNYZDdLZDJUMW1PQXpSUlV6Y3Yya29Lc19aTWNoei13QzF0bllYZG5NTHI1Z2YyT09xUmN3WkM5RHlRMktzemNOVWE5cUZvV1NyeGh5ZmpvTFRvVkd0SnRZZmhuZXJrcVFhdW9uYndvOUVxNmZ1TlowMXY2TXhtbEl5LWJsSGdNM09rcjBTeTh1WjhDLVd5OFdQemV3M3hGa1Y4WVhZQjBqV2FfS1VUTldZZXUwN3pzUUhfYkd2WXpnOUE?oc=5",
           "publishedAt": "2026-10-22T12:50:53+00:00",
           "published": "2026-10-22T12:50:53+00:00",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMi0gFBVV95cUxNNl9jYnNQajktaWdNbFdnQWFSMS1fZkVobzA4dnVPTklVMkhXYnJqcm1EN2NEUUxoRHhKbHJwb0lmd3JfX0FWcHdtSjJscElGaURSdXhzWWhXMzVOUF9QcG5Ka2dOU1ZYOGYxWm5zME8xbUxBR2pOaVNUbzluYUwzalNybW9pSVFzajVqaFp2emFvN2dQZ1Z6Rkxaa1I3OHR4MmZGRXB0ZW5Ba21SUVJqbGY1YkJrdDd3WkRnSEc0RG5JRktEMDR0LU5KMUlZUjVOc2fSAdoBQVVfeXFMTjZXVnE2OFoxc3ctQkQxWURaZUF4WEstcHNYZDdLZDJUMW1PQXpSUlV6Y3Yya29Lc19aTWNoei13QzF0bllYZG5NTHI1Z2YyT09xUmN3WkM5RHlRMktzemNOVWE5cUZvV1NyeGh5ZmpvTFRvVkd0SnRZZmhuZXJrcVFhdW9uYndvOUVxNmZ1TlowMXY2TXhtbEl5LWJsSGdNM09rcjBTeTh1WjhDLVd5OFdQemV3M3hGa1Y4WVhZQjBqV2FfS1VUTldZZXUwN3pzUUhfYkd2WXpnOUE?oc=5\" target=\"_blank\">Demoras por un fuerte choque en la Ruta 7, cerca de El Chañar: piden circular con precaución</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Diario Río Negro</font>",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMi0gFBVV95cUxNNl9jYnNQajktaWdNbFdnQWFSMS1fZkVobzA4dnVPTklVMkhXYnJqcm1EN2NEUUxoRHhKbHJwb0lmd3JfX0FWcHdtSjJscElGaURSdXhzWWhXMzVOUF9QcG5Ka2dOU1ZYOGYxWm5zME8xbUxBR2pOaVNUbzluYUwzalNybW9pSVFzajVqaFp2emFvN2dQZ1Z6Rkxaa1I3OHR4MmZGRXB0ZW5Ba21SUVJqbGY1YkJrdDd3WkRnSEc0RG5JRktEMDR0LU5KMUlZUjVOc2fSAdoBQVVfeXFMTjZXVnE2OFoxc3ctQkQxWURaZUF4WEstcHNYZDdLZDJUMW1PQXpSUlV6Y3Yya29Lc19aTWNoei13QzF0bllYZG5NTHI1Z2YyT09xUmN3WkM5RHlRMktzemNOVWE5cUZvV1NyeGh5ZmpvTFRvVkd0SnRZZmhuZXJrcVFhdW9uYndvOUVxNmZ1TlowMXY2TXhtbEl5LWJsSGdNM09rcjBTeTh1WjhDLVd5OFdQemV3M3hGa1Y4WVhZQjBqV2FfS1VUTldZZXUwN3pzUUhfYkd2WXpnOUE?oc=5\" target=\"_blank\">Un fuerte choque complicó el tránsito en la Ruta 7, cerca de El Chañar: qué pasó</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Diario Río Negro</font>",
           "source": "Diario Río Negro",
           "sourceType": "BUSCADOR / RESPALDO",
           "sourceUrl": "",
@@ -3252,7 +3396,7 @@
           "relevanceLabel": "DIRECTA",
           "firstSeen": "2026-10-22T23:32:55.391801+00:00",
           "isNew": false,
-          "titleKey": "demoras fuerte choque ruta cerca piden circular precaucion diario rio negro",
+          "titleKey": "fuerte choque complico transito ruta cerca paso diario rio negro",
           "evidenceUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNNl9jYnNQajktaWdNbFdnQWFSMS1fZkVobzA4dnVPTklVMkhXYnJqcm1EN2NEUUxoRHhKbHJwb0lmd3JfX0FWcHdtSjJscElGaURSdXhzWWhXMzVOUF9QcG5Ka2dOU1ZYOGYxWm5zME8xbUxBR2pOaVNUbzluYUwzalNybW9pSVFzajVqaFp2emFvN2dQZ1Z6Rkxaa1I3OHR4MmZGRXB0ZW5Ba21SUVJqbGY1YkJrdDd3WkRnSEc0RG5JRktEMDR0LU5KMUlZUjVOc2fSAdoBQVVfeXFMTjZXVnE2OFoxc3ctQkQxWURaZUF4WEstcHNYZDdLZDJUMW1PQXpSUlV6Y3Yya29Lc19aTWNoei13QzF0bllYZG5NTHI1Z2YyT09xUmN3WkM5RHlRMktzemNOVWE5cUZvV1NyeGh5ZmpvTFRvVkd0SnRZZmhuZXJrcVFhdW9uYndvOUVxNmZ1TlowMXY2TXhtbEl5LWJsSGdNM09rcjBTeTh1WjhDLVd5OFdQemV3M3hGa1Y4WVhZQjBqV2FfS1VUTldZZXUwN3pzUUhfYkd2WXpnOUE?oc=5",
           "sourcePriority": 3
         },
@@ -3277,7 +3421,7 @@
         }
       ],
       "lifecycle": "EMERGENTE",
-      "movementDelta": -2,
+      "movementDelta": -1,
       "previousCoverage": 3,
       "newSources": [
         "NoticiasNQN"
@@ -3323,103 +3467,6 @@
     },
     {
       "eventId": "CHA-c17768fff2dc",
-      "title": "Ramón Soto confirmó que será candidato a intendente de San Patricio del Chañar - Chañar Digital",
-      "publishedAt": "2026-10-23T01:24:22+00:00",
-      "firstSeen": "2026-10-23T04:15:04.778747+00:00",
-      "lastSeen": "2026-10-23T01:24:22+00:00",
-      "relevance": 3,
-      "relevanceLabel": "DIRECTA",
-      "incidenceLabel": "DIRECTA EN CHANAR",
-      "topic": "SERVICIOS",
-      "movement": 66,
-      "coverage": 2,
-      "sourceCount": 1,
-      "directSourceCount": 0,
-      "territorialAnchors": [
-        "san patricio del chañar",
-        "el chañar"
-      ],
-      "sources": [
-        "Chañar Digital"
-      ],
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPR21XWHlNb1NFSE4yY043dGtQemI1NFNqZHZtYkRaekxFdWQ4X0V3TldiNjJmNjZPS2FKcHJnVVRVWDRVMzNCWlBMdEdCbzBMRk9hZXNFcWhSREhERXkxM1E3OUJFVXV2VktrN0tHSnZ1d2tkV19Kc2tSYmd5YUNkZ0tfVFI2RjNtNEs0ZHNHcDB5VGswNXBONnpraEZSdFVNdU1sNHNlX1U2RUcwTWU1V3lnY0tfMThqRGJfRkJSUzNicGZpQ21UcGVKcVo?oc=5",
-      "items": [
-        {
-          "title": "El Rally neuquino confirmó su regreso a San Patricio del Chañar - Chañar Digital",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPNTNFdHNGamZaVDBGMGl4cGJPamQ4eVRvM0VIbGtXWDBkbHdkMnNrVXpYSUkzeUNTQ0NiTGJXcnIzTVdFYmJSYWx6ZWszaldidFRVT0w1dTltSUVQSy1LNUlEY29vc3JCWUdoNFpabGZZNFVNZ3Q5OGV3ZHVHRkw1cGdlY2MzNWF2eWk3aFpzTUYyWmJ2TXZQVmdrTDFrYXplN0FpdzBaOE5VN0Zob1FKLTViZ1EwWHlr?oc=5",
-          "publishedAt": "2026-10-23T01:24:22+00:00",
-          "published": "2026-10-23T01:24:22+00:00",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMiuAFBVV95cUxPNTNFdHNGamZaVDBGMGl4cGJPamQ4eVRvM0VIbGtXWDBkbHdkMnNrVXpYSUkzeUNTQ0NiTGJXcnIzTVdFYmJSYWx6ZWszaldidFRVT0w1dTltSUVQSy1LNUlEY29vc3JCWUdoNFpabGZZNFVNZ3Q5OGV3ZHVHRkw1cGdlY2MzNWF2eWk3aFpzTUYyWmJ2TXZQVmdrTDFrYXplN0FpdzBaOE5VN0Zob1FKLTViZ1EwWHlr?oc=5\" target=\"_blank\">El Rally neuquino confirmó su regreso a San Patricio del Chañar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Chañar Digital</font>",
-          "source": "Chañar Digital",
-          "sourceType": "BUSCADOR / RESPALDO",
-          "sourceUrl": "",
-          "collection": "BUSCADOR",
-          "query": "site:chanardigital.com.ar \"San Patricio del Chañar\"",
-          "relevance": 3,
-          "relevanceLabel": "DIRECTA",
-          "firstSeen": "2026-10-23T04:15:04.778747+00:00",
-          "isNew": false,
-          "titleKey": "rally neuquino confirmo regreso digital",
-          "evidenceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPNTNFdHNGamZaVDBGMGl4cGJPamQ4eVRvM0VIbGtXWDBkbHdkMnNrVXpYSUkzeUNTQ0NiTGJXcnIzTVdFYmJSYWx6ZWszaldidFRVT0w1dTltSUVQSy1LNUlEY29vc3JCWUdoNFpabGZZNFVNZ3Q5OGV3ZHVHRkw1cGdlY2MzNWF2eWk3aFpzTUYyWmJ2TXZQVmdrTDFrYXplN0FpdzBaOE5VN0Zob1FKLTViZ1EwWHlr?oc=5",
-          "sourcePriority": 3
-        },
-        {
-          "title": "Ramón Soto confirmó que será candidato a intendente de San Patricio del Chañar - Chañar Digital",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPR21XWHlNb1NFSE4yY043dGtQemI1NFNqZHZtYkRaekxFdWQ4X0V3TldiNjJmNjZPS2FKcHJnVVRVWDRVMzNCWlBMdEdCbzBMRk9hZXNFcWhSREhERXkxM1E3OUJFVXV2VktrN0tHSnZ1d2tkV19Kc2tSYmd5YUNkZ0tfVFI2RjNtNEs0ZHNHcDB5VGswNXBONnpraEZSdFVNdU1sNHNlX1U2RUcwTWU1V3lnY0tfMThqRGJfRkJSUzNicGZpQ21UcGVKcVo?oc=5",
-          "publishedAt": "2026-10-23T01:24:21+00:00",
-          "published": "2026-10-23T01:24:21+00:00",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMizAFBVV95cUxPR21XWHlNb1NFSE4yY043dGtQemI1NFNqZHZtYkRaekxFdWQ4X0V3TldiNjJmNjZPS2FKcHJnVVRVWDRVMzNCWlBMdEdCbzBMRk9hZXNFcWhSREhERXkxM1E3OUJFVXV2VktrN0tHSnZ1d2tkV19Kc2tSYmd5YUNkZ0tfVFI2RjNtNEs0ZHNHcDB5VGswNXBONnpraEZSdFVNdU1sNHNlX1U2RUcwTWU1V3lnY0tfMThqRGJfRkJSUzNicGZpQ21UcGVKcVo?oc=5\" target=\"_blank\">Ramón Soto confirmó que será candidato a intendente de San Patricio del Chañar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Chañar Digital</font>",
-          "source": "Chañar Digital",
-          "sourceType": "BUSCADOR / RESPALDO",
-          "sourceUrl": "",
-          "collection": "BUSCADOR",
-          "query": "site:chanardigital.com.ar \"San Patricio del Chañar\"",
-          "relevance": 3,
-          "relevanceLabel": "DIRECTA",
-          "firstSeen": "2026-10-23T09:30:07.704293+00:00",
-          "isNew": true,
-          "titleKey": "ramon soto confirmo sera candidato intendente digital",
-          "evidenceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPR21XWHlNb1NFSE4yY043dGtQemI1NFNqZHZtYkRaekxFdWQ4X0V3TldiNjJmNjZPS2FKcHJnVVRVWDRVMzNCWlBMdEdCbzBMRk9hZXNFcWhSREhERXkxM1E3OUJFVXV2VktrN0tHSnZ1d2tkV19Kc2tSYmd5YUNkZ0tfVFI2RjNtNEs0ZHNHcDB5VGswNXBONnpraEZSdFVNdU1sNHNlX1U2RUcwTWU1V3lnY0tfMThqRGJfRkJSUzNicGZpQ21UcGVKcVo?oc=5",
-          "sourcePriority": 3
-        }
-      ],
-      "lifecycle": "EMERGENTE",
-      "movementDelta": 6,
-      "previousCoverage": 1,
-      "newSources": [],
-      "sourceDiversity": 1,
-      "memoryMatched": true,
-      "isNew": false,
-      "view": "INCIDENCIA",
-      "incidenceEligible": true,
-      "signalReason": "reservado a incidencia territorial",
-      "incidenceReason": "anclaje directo + tema operativo/local",
-      "territory": {
-        "version": "2.0",
-        "primary": "San Patricio del Chañar",
-        "nodes": [
-          "San Patricio del Chañar"
-        ],
-        "sectors": [],
-        "barrios": [],
-        "microzones": [],
-        "corridors": [],
-        "institutions": [],
-        "services": [],
-        "spaces": [],
-        "production": [],
-        "path": "San Patricio del Chañar",
-        "evidence": [
-          {
-            "node": "San Patricio del Chañar",
-            "level": "localidad",
-            "evidence": "DIRECTA"
-          }
-        ]
-      }
-    },
-    {
-      "eventId": "CHA-13874c30895e",
       "title": "Detuvieron a un hombre por amenazas con armas de fuego en la Toma La Costa de El Chañar - Chañar Digital",
       "publishedAt": "2026-10-21T00:25:31+00:00",
       "firstSeen": "2026-10-22T23:32:55.391801+00:00",
@@ -3428,7 +3475,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SERVICIOS",
-      "movement": 53,
+      "movement": 52,
       "coverage": 2,
       "sourceCount": 1,
       "directSourceCount": 0,
@@ -3481,7 +3528,7 @@
         }
       ],
       "lifecycle": "EMERGENTE",
-      "movementDelta": -1,
+      "movementDelta": -14,
       "previousCoverage": 2,
       "newSources": [],
       "sourceDiversity": 1,
@@ -3638,11 +3685,9 @@
         }
       ],
       "lifecycle": "RECIENTE",
-      "movementDelta": -16,
-      "previousCoverage": 2,
-      "newSources": [
-        "EPEN"
-      ],
+      "movementDelta": 0,
+      "previousCoverage": 1,
+      "newSources": [],
       "sourceDiversity": 1,
       "memoryMatched": true,
       "isNew": false,
@@ -3725,7 +3770,7 @@
         }
       ],
       "lifecycle": "RECIENTE",
-      "movementDelta": -29,
+      "movementDelta": 0,
       "previousCoverage": 1,
       "newSources": [
         "Diario Río Negro"
@@ -3805,8 +3850,8 @@
         }
       ],
       "lifecycle": "RECIENTE",
-      "movementDelta": 0,
-      "previousCoverage": 7,
+      "movementDelta": -29,
+      "previousCoverage": 1,
       "newSources": [
         "Neuquén al instante"
       ],
@@ -4137,6 +4182,25 @@
   ],
   "items": [
     {
+      "title": "San Patricio del Chañar será sede de la novena fecha del Rally Neuquino - Cutral Co al Instante",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQcGxhSkYwOHVadDJlZkI2YU5YSU4xM2FydFE0cGc4dldZR0pkbGJ6alBEVVpoMU1EN0t5dHlLVkRod1gxRFdPVGYwQjZIdVFLVEJhOTdtOXZyZ2FrclY5VEN6R0V4Z051NWhVWW54N1hXOUpKZmF6azFUVDFJUVlwNXNKd1djZ2pxQkE2MXh4ZXVHOWFTVURFMk14eXRXSmU1Y0MzbVNuNjZ1VWRRVi1Pc1RvMXpYMm1vc2c?oc=5",
+      "publishedAt": "2026-10-23T14:00:00+00:00",
+      "published": "2026-10-23T14:00:00+00:00",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxQcGxhSkYwOHVadDJlZkI2YU5YSU4xM2FydFE0cGc4dldZR0pkbGJ6alBEVVpoMU1EN0t5dHlLVkRod1gxRFdPVGYwQjZIdVFLVEJhOTdtOXZyZ2FrclY5VEN6R0V4Z051NWhVWW54N1hXOUpKZmF6azFUVDFJUVlwNXNKd1djZ2pxQkE2MXh4ZXVHOWFTVURFMk14eXRXSmU1Y0MzbVNuNjZ1VWRRVi1Pc1RvMXpYMm1vc2c?oc=5\" target=\"_blank\">San Patricio del Chañar será sede de la novena fecha del Rally Neuquino</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Cutral Co al Instante</font>",
+      "source": "Cutral Co al Instante",
+      "sourceType": "BUSCADOR / RESPALDO",
+      "sourceUrl": "",
+      "collection": "BUSCADOR",
+      "query": "\"San Patricio del Chañar\"",
+      "relevance": 3,
+      "relevanceLabel": "DIRECTA",
+      "firstSeen": "2026-10-23T14:23:27.055499+00:00",
+      "isNew": true,
+      "titleKey": "sera sede novena fecha rally neuquino cutral instante",
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQcGxhSkYwOHVadDJlZkI2YU5YSU4xM2FydFE0cGc4dldZR0pkbGJ6alBEVVpoMU1EN0t5dHlLVkRod1gxRFdPVGYwQjZIdVFLVEJhOTdtOXZyZ2FrclY5VEN6R0V4Z051NWhVWW54N1hXOUpKZmF6azFUVDFJUVlwNXNKd1djZ2pxQkE2MXh4ZXVHOWFTVURFMk14eXRXSmU1Y0MzbVNuNjZ1VWRRVi1Pc1RvMXpYMm1vc2c?oc=5",
+      "sourcePriority": 3
+    },
+    {
       "title": "El Rally neuquino confirmó su regreso a San Patricio del Chañar - Chañar Digital",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPNTNFdHNGamZaVDBGMGl4cGJPamQ4eVRvM0VIbGtXWDBkbHdkMnNrVXpYSUkzeUNTQ0NiTGJXcnIzTVdFYmJSYWx6ZWszaldidFRVT0w1dTltSUVQSy1LNUlEY29vc3JCWUdoNFpabGZZNFVNZ3Q5OGV3ZHVHRkw1cGdlY2MzNWF2eWk3aFpzTUYyWmJ2TXZQVmdrTDFrYXplN0FpdzBaOE5VN0Zob1FKLTViZ1EwWHlr?oc=5",
       "publishedAt": "2026-10-23T01:24:22+00:00",
@@ -4169,7 +4233,7 @@
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "firstSeen": "2026-10-23T09:30:07.704293+00:00",
-      "isNew": true,
+      "isNew": false,
       "titleKey": "ramon soto confirmo sera candidato intendente digital",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPR21XWHlNb1NFSE4yY043dGtQemI1NFNqZHZtYkRaekxFdWQ4X0V3TldiNjJmNjZPS2FKcHJnVVRVWDRVMzNCWlBMdEdCbzBMRk9hZXNFcWhSREhERXkxM1E3OUJFVXV2VktrN0tHSnZ1d2tkV19Kc2tSYmd5YUNkZ0tfVFI2RjNtNEs0ZHNHcDB5VGswNXBONnpraEZSdFVNdU1sNHNlX1U2RUcwTWU1V3lnY0tfMThqRGJfRkJSUzNicGZpQ21UcGVKcVo?oc=5",
       "sourcePriority": 3
@@ -4213,11 +4277,11 @@
       "sourcePriority": 3
     },
     {
-      "title": "Demoras por un fuerte choque en la Ruta 7, cerca de El Chañar: piden circular con precaución - Diario Río Negro",
+      "title": "Un fuerte choque complicó el tránsito en la Ruta 7, cerca de El Chañar: qué pasó - Diario Río Negro",
       "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNNl9jYnNQajktaWdNbFdnQWFSMS1fZkVobzA4dnVPTklVMkhXYnJqcm1EN2NEUUxoRHhKbHJwb0lmd3JfX0FWcHdtSjJscElGaURSdXhzWWhXMzVOUF9QcG5Ka2dOU1ZYOGYxWm5zME8xbUxBR2pOaVNUbzluYUwzalNybW9pSVFzajVqaFp2emFvN2dQZ1Z6Rkxaa1I3OHR4MmZGRXB0ZW5Ba21SUVJqbGY1YkJrdDd3WkRnSEc0RG5JRktEMDR0LU5KMUlZUjVOc2fSAdoBQVVfeXFMTjZXVnE2OFoxc3ctQkQxWURaZUF4WEstcHNYZDdLZDJUMW1PQXpSUlV6Y3Yya29Lc19aTWNoei13QzF0bllYZG5NTHI1Z2YyT09xUmN3WkM5RHlRMktzemNOVWE5cUZvV1NyeGh5ZmpvTFRvVkd0SnRZZmhuZXJrcVFhdW9uYndvOUVxNmZ1TlowMXY2TXhtbEl5LWJsSGdNM09rcjBTeTh1WjhDLVd5OFdQemV3M3hGa1Y4WVhZQjBqV2FfS1VUTldZZXUwN3pzUUhfYkd2WXpnOUE?oc=5",
       "publishedAt": "2026-10-22T12:50:53+00:00",
       "published": "2026-10-22T12:50:53+00:00",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMi0gFBVV95cUxNNl9jYnNQajktaWdNbFdnQWFSMS1fZkVobzA4dnVPTklVMkhXYnJqcm1EN2NEUUxoRHhKbHJwb0lmd3JfX0FWcHdtSjJscElGaURSdXhzWWhXMzVOUF9QcG5Ka2dOU1ZYOGYxWm5zME8xbUxBR2pOaVNUbzluYUwzalNybW9pSVFzajVqaFp2emFvN2dQZ1Z6Rkxaa1I3OHR4MmZGRXB0ZW5Ba21SUVJqbGY1YkJrdDd3WkRnSEc0RG5JRktEMDR0LU5KMUlZUjVOc2fSAdoBQVVfeXFMTjZXVnE2OFoxc3ctQkQxWURaZUF4WEstcHNYZDdLZDJUMW1PQXpSUlV6Y3Yya29Lc19aTWNoei13QzF0bllYZG5NTHI1Z2YyT09xUmN3WkM5RHlRMktzemNOVWE5cUZvV1NyeGh5ZmpvTFRvVkd0SnRZZmhuZXJrcVFhdW9uYndvOUVxNmZ1TlowMXY2TXhtbEl5LWJsSGdNM09rcjBTeTh1WjhDLVd5OFdQemV3M3hGa1Y4WVhZQjBqV2FfS1VUTldZZXUwN3pzUUhfYkd2WXpnOUE?oc=5\" target=\"_blank\">Demoras por un fuerte choque en la Ruta 7, cerca de El Chañar: piden circular con precaución</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Diario Río Negro</font>",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMi0gFBVV95cUxNNl9jYnNQajktaWdNbFdnQWFSMS1fZkVobzA4dnVPTklVMkhXYnJqcm1EN2NEUUxoRHhKbHJwb0lmd3JfX0FWcHdtSjJscElGaURSdXhzWWhXMzVOUF9QcG5Ka2dOU1ZYOGYxWm5zME8xbUxBR2pOaVNUbzluYUwzalNybW9pSVFzajVqaFp2emFvN2dQZ1Z6Rkxaa1I3OHR4MmZGRXB0ZW5Ba21SUVJqbGY1YkJrdDd3WkRnSEc0RG5JRktEMDR0LU5KMUlZUjVOc2fSAdoBQVVfeXFMTjZXVnE2OFoxc3ctQkQxWURaZUF4WEstcHNYZDdLZDJUMW1PQXpSUlV6Y3Yya29Lc19aTWNoei13QzF0bllYZG5NTHI1Z2YyT09xUmN3WkM5RHlRMktzemNOVWE5cUZvV1NyeGh5ZmpvTFRvVkd0SnRZZmhuZXJrcVFhdW9uYndvOUVxNmZ1TlowMXY2TXhtbEl5LWJsSGdNM09rcjBTeTh1WjhDLVd5OFdQemV3M3hGa1Y4WVhZQjBqV2FfS1VUTldZZXUwN3pzUUhfYkd2WXpnOUE?oc=5\" target=\"_blank\">Un fuerte choque complicó el tránsito en la Ruta 7, cerca de El Chañar: qué pasó</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Diario Río Negro</font>",
       "source": "Diario Río Negro",
       "sourceType": "BUSCADOR / RESPALDO",
       "sourceUrl": "",
@@ -4227,7 +4291,7 @@
       "relevanceLabel": "DIRECTA",
       "firstSeen": "2026-10-22T23:32:55.391801+00:00",
       "isNew": false,
-      "titleKey": "demoras fuerte choque ruta cerca piden circular precaucion diario rio negro",
+      "titleKey": "fuerte choque complico transito ruta cerca paso diario rio negro",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNNl9jYnNQajktaWdNbFdnQWFSMS1fZkVobzA4dnVPTklVMkhXYnJqcm1EN2NEUUxoRHhKbHJwb0lmd3JfX0FWcHdtSjJscElGaURSdXhzWWhXMzVOUF9QcG5Ka2dOU1ZYOGYxWm5zME8xbUxBR2pOaVNUbzluYUwzalNybW9pSVFzajVqaFp2emFvN2dQZ1Z6Rkxaa1I3OHR4MmZGRXB0ZW5Ba21SUVJqbGY1YkJrdDd3WkRnSEc0RG5JRktEMDR0LU5KMUlZUjVOc2fSAdoBQVVfeXFMTjZXVnE2OFoxc3ctQkQxWURaZUF4WEstcHNYZDdLZDJUMW1PQXpSUlV6Y3Yya29Lc19aTWNoei13QzF0bllYZG5NTHI1Z2YyT09xUmN3WkM5RHlRMktzemNOVWE5cUZvV1NyeGh5ZmpvTFRvVkd0SnRZZmhuZXJrcVFhdW9uYndvOUVxNmZ1TlowMXY2TXhtbEl5LWJsSGdNM09rcjBTeTh1WjhDLVd5OFdQemV3M3hGa1Y4WVhZQjBqV2FfS1VUTldZZXUwN3pzUUhfYkd2WXpnOUE?oc=5",
       "sourcePriority": 3
     },
@@ -4302,7 +4366,7 @@
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "firstSeen": "2026-10-23T09:30:07.704293+00:00",
-      "isNew": true,
+      "isNew": false,
       "titleKey": "despues años esfuerzo bomberos inauguran cuartel noticiasnqn",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOZG9wSEhidWJ4NmlHVFhVYlRDMHJTdlNRTktETHo1V2FfdEtJSjF2TEV5Ukw1dExoeTJSczlmT1dHc2JDakZaXzRZOWZxUUREZHVXM2YtcHdTVk5oVGxaM0dCWVNMUVlpbWMwX2NGWnNIZFdOUkFyamE5LWlEWnk5ZFZJQVNSSldDVXVjbmlfalRuOXlkRy1aVk9PV2t5SmlDZ1JSYlIxUnltZmtoQ19HcDZKdFpHd2NjOGVPaFFGYmY0QlYtRmUyb2NGRTBmbzJFclpER0RzR1p3VXBJVDFZ0gHkAUFVX3lxTE41Y2dsR2R6Qkxua19WNGN2X054R1NwSjQyVDZsWFJHRXM5U05PcFVzZ0hsOVZoTU5GLU41b2luRU5mek5kb0JrOTE4R21SZGpuaXZJemxSdUNjeG82cFdwUFB2NGplS0E3cXRSb0F3ZW9wTTBFY3I1NVNhX1lVZXhIbjF5SzZtZC1hX2pjcld1V1VWX2JiRUo2dHN2UzZvUXAxVC1SVnhXMnRqcHdveEZTXzB5Wk5RZXNLYkdOS3hEaXJ5czllc1FoRUl2VUk4SGg2aDdoWTM3LXhpV3NzUUcxdG1zSQ?oc=5",
       "sourcePriority": 3
@@ -4386,7 +4450,7 @@
   ],
   "territorialGraph": {
     "version": "2.0",
-    "generatedAt": "2026-10-23T09:30:18.744929+00:00",
+    "generatedAt": "2026-10-23T14:23:38.968352+00:00",
     "root": "spc",
     "rule": "evidence-first",
     "levels": [
@@ -4957,6 +5021,9 @@
       }
     ],
     "eventNodes": {
+      "CHA-13874c30895e": [
+        "spc"
+      ],
       "CHA-7153405d1ec0": [
         "spc",
         "bomberos"
@@ -4966,9 +5033,6 @@
         "ruta-7"
       ],
       "CHA-c17768fff2dc": [
-        "spc"
-      ],
-      "CHA-13874c30895e": [
         "spc"
       ],
       "CHA-8aa66f131026": [
@@ -5028,16 +5092,16 @@
   },
   "audit": {
     "version": "1.0",
-    "updatedAt": "2026-10-23T09:30:18.780976+00:00",
+    "updatedAt": "2026-10-23T14:23:39.005538+00:00",
     "rule": "fact != coverage; territory requires textual evidence",
     "facts": 10,
-    "coverage": 22,
-    "coveragePerFact": 2.2,
+    "coverage": 23,
+    "coveragePerFact": 2.3,
     "directAnchorFacts": 10,
     "directAnchorPct": 100.0,
     "territorySpecificFacts": 4,
     "territorySpecificPct": 40.0,
-    "averageSourcesPerFact": 1.5,
+    "averageSourcesPerFact": 1.6,
     "activeTerritorialNodes": 6,
     "failedSources": 10,
     "acceptedWithoutLocalEvidence": 0,
