@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23T21:57:06.181654+00:00",
+  "updatedAt": "2026-10-24T00:28:17.763269+00:00",
   "window": "14 días",
   "purpose": "Detectar qué se está moviendo en San Patricio del Chañar y mostrar de dónde surge cada señal.",
   "architecture": "contrato universal de procedencia + fuentes profesionales + adaptadores específicos + validación semántica + temporalidad + evidencia editorial separada",
@@ -49,7 +49,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://chanardigital.com.ar/",
-      "lastFetch": "2026-10-23T21:56:45.865834+00:00",
+      "lastFetch": "2026-10-24T00:27:54.919697+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -65,7 +65,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.radiomia.com.ar/",
-      "lastFetch": "2026-10-23T21:56:47.269073+00:00",
+      "lastFetch": "2026-10-24T00:27:56.182386+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -80,7 +80,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://tuitvacamuerta.com/",
-      "lastFetch": "2026-10-23T21:56:48.854084+00:00",
+      "lastFetch": "2026-10-24T00:27:58.193284+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -95,7 +95,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.vacamuertanews.com/",
-      "lastFetch": "2026-10-23T21:56:49.665756+00:00",
+      "lastFetch": "2026-10-24T00:27:58.762628+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -111,7 +111,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.neuqueninforma.gob.ar/",
-      "lastFetch": "2026-10-23T21:56:51.040814+00:00",
+      "lastFetch": "2026-10-24T00:28:00.370465+00:00",
       "success": false,
       "attempted": 3,
       "failures": [
@@ -128,11 +128,11 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://sanpatricio.gob.ar/",
-      "lastFetch": "2026-10-23T21:56:52.046027+00:00",
+      "lastFetch": "2026-10-24T00:28:01.446454+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
-        "WEB:AttributeError"
+        "WEB:HTTPError"
       ],
       "directAvailability": "failed",
       "freshnessHours": null
@@ -143,7 +143,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://boletinoficial.neuquen.gov.ar/",
-      "lastFetch": "2026-10-23T21:56:53.021605+00:00",
+      "lastFetch": "2026-10-24T00:28:02.579178+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -158,7 +158,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.lmneuquen.com/",
-      "lastFetch": "2026-10-23T21:56:53.189308+00:00",
+      "lastFetch": "2026-10-24T00:28:02.929510+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -174,7 +174,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.rionegro.com.ar/",
-      "lastFetch": "2026-10-23T21:56:54.965641+00:00",
+      "lastFetch": "2026-10-24T00:28:05.337489+00:00",
       "success": true,
       "attempted": 2,
       "failures": [
@@ -189,7 +189,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.mejorinformado.com/",
-      "lastFetch": "2026-10-23T21:56:55.536345+00:00",
+      "lastFetch": "2026-10-24T00:28:06.444743+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -205,7 +205,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.diariamenteneuquen.com/",
-      "lastFetch": "2026-10-23T21:56:56.487025+00:00",
+      "lastFetch": "2026-10-24T00:28:07.353586+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -995,8 +995,8 @@
         "source": "Chañar Digital",
         "group": "LOCAL",
         "role": "medio local",
-        "accepted": 13,
-        "direct": 13,
+        "accepted": 15,
+        "direct": 15,
         "anchored": 0,
         "falsePositives": 0,
         "falsePositiveTypes": [],
@@ -1354,8 +1354,8 @@
       {
         "source": "Chañar Digital",
         "topic": "SERVICIOS",
-        "accepted": 5,
-        "direct": 5,
+        "accepted": 7,
+        "direct": 7,
         "anchored": 0,
         "falsePositives": 0,
         "territorialTerms": [
@@ -1529,8 +1529,8 @@
     "languagePrecision": [
       {
         "term": "san patricio del chañar",
-        "acceptedHits": 13,
-        "directHits": 13,
+        "acceptedHits": 14,
+        "directHits": 14,
         "rejectedTitleHits": 0,
         "territorialStrength": "FUERTE"
       },
@@ -1543,8 +1543,8 @@
       },
       {
         "term": "el chañar",
-        "acceptedHits": 17,
-        "directHits": 17,
+        "acceptedHits": 19,
+        "directHits": 19,
         "rejectedTitleHits": 0,
         "territorialStrength": "FUERTE"
       },
@@ -1872,7 +1872,7 @@
     "total": 16,
     "direct": 16,
     "regional": 0,
-    "new": 2,
+    "new": 0,
     "sources": 10,
     "directSignals": 0,
     "localDirectSignals": 0,
@@ -1887,7 +1887,7 @@
       "forecastGustKmh": 28.0,
       "forecastWindDirection": "SE",
       "forecastTemperatureC": 15.0,
-      "retrievedAt": "2026-10-23T21:56:43.884224+00:00",
+      "retrievedAt": "2026-10-24T00:27:52.290675+00:00",
       "source": "AIC",
       "sourceTier": "primary",
       "sourceUrl": "https://www.aic.gob.ar/sitio/home?a=1015&z=1967225803",
@@ -1915,9 +1915,9 @@
       ],
       "currentProgrammedMaxM3s": 520,
       "currentProgrammedMinM3s": 500,
-      "programDate": "2026-10-24",
-      "tableDate": "2026-10-23",
-      "retrievedAt": "2026-10-23T21:56:43.884224+00:00",
+      "programDate": "2026-10-25",
+      "tableDate": "2026-10-24",
+      "retrievedAt": "2026-10-24T00:27:52.290675+00:00",
       "source": "AIC",
       "sourceTier": "primary",
       "sourceUrl": "https://www.aic.gob.ar/sitio/caudales",
@@ -1937,17 +1937,17 @@
         "url": "https://www.aic.gob.ar/sitio/caudales"
       }
     ],
-    "updatedAt": "2026-10-23T21:56:43.884224+00:00"
+    "updatedAt": "2026-10-24T00:27:52.290675+00:00"
   },
   "operational": {
-    "updatedAt": "2026-10-23T21:56:43.884224+00:00",
+    "updatedAt": "2026-10-24T00:27:52.290675+00:00",
     "route7": {
       "source": "Dirección Provincial de Vialidad",
       "sourceTier": "primary",
       "sourceUrl": "https://www.dpvneuquen.gov.ar/",
       "semanticState": null,
       "publicationState": "source_reachable_no_current_machine_readable_state",
-      "retrievedAt": "2026-10-23T21:56:43.884224+00:00",
+      "retrievedAt": "2026-10-24T00:27:52.290675+00:00",
       "evidence": {
         "route7Mention": true,
         "route8Mention": false
@@ -1959,7 +1959,7 @@
       "sourceUrl": "https://www.dpvneuquen.gov.ar/",
       "semanticState": null,
       "publicationState": "source_reachable_no_current_machine_readable_state",
-      "retrievedAt": "2026-10-23T21:56:43.884224+00:00",
+      "retrievedAt": "2026-10-24T00:27:52.290675+00:00",
       "evidence": {
         "route7Mention": true,
         "route8Mention": false
@@ -1973,7 +1973,7 @@
       "eventType": null,
       "detail": null,
       "publicationState": "source_reachable_no_specific_local_notice",
-      "retrievedAt": "2026-10-23T21:56:43.884224+00:00"
+      "retrievedAt": "2026-10-24T00:27:52.290675+00:00"
     },
     "water": {
       "source": "EPAS",
@@ -1983,7 +1983,7 @@
       "eventType": null,
       "detail": null,
       "publicationState": "source_reachable_no_specific_local_notice",
-      "retrievedAt": "2026-10-23T21:56:43.884224+00:00"
+      "retrievedAt": "2026-10-24T00:27:52.290675+00:00"
     },
     "sources": [
       {
@@ -2395,7 +2395,7 @@
       "label": "Conversación general",
       "signal": 11,
       "status": "cobertura editorial",
-      "freshnessHours": 5.4,
+      "freshnessHours": 7.9,
       "mode": "evidencia editorial",
       "evidenceCount": 11,
       "sourceContract": {
@@ -2435,7 +2435,7 @@
       "label": "Corredor Ruta 7",
       "signal": 2,
       "status": "estado vial",
-      "freshnessHours": 29.0,
+      "freshnessHours": 31.5,
       "mode": "evidencia territorial",
       "evidenceCount": 2,
       "sourceContract": {
@@ -2475,7 +2475,7 @@
         "sourceUrl": "https://www.dpvneuquen.gov.ar/",
         "semanticState": null,
         "publicationState": "source_reachable_no_current_machine_readable_state",
-        "retrievedAt": "2026-10-23T21:56:43.884224+00:00",
+        "retrievedAt": "2026-10-24T00:27:52.290675+00:00",
         "evidence": {
           "route7Mention": true,
           "route8Mention": false
@@ -2487,7 +2487,7 @@
       "label": "Corredor Ruta 8",
       "signal": 2,
       "status": "estado vial",
-      "freshnessHours": 29.0,
+      "freshnessHours": 31.5,
       "mode": "evidencia territorial",
       "evidenceCount": 2,
       "sourceContract": {
@@ -2527,7 +2527,7 @@
         "sourceUrl": "https://www.dpvneuquen.gov.ar/",
         "semanticState": null,
         "publicationState": "source_reachable_no_current_machine_readable_state",
-        "retrievedAt": "2026-10-23T21:56:43.884224+00:00",
+        "retrievedAt": "2026-10-24T00:27:52.290675+00:00",
         "evidence": {
           "route7Mention": true,
           "route8Mention": false
@@ -2585,7 +2585,7 @@
       "label": "Electricidad / cortes de luz",
       "signal": 1,
       "status": "evento eléctrico",
-      "freshnessHours": 196.0,
+      "freshnessHours": 198.5,
       "mode": "evidencia editorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -2627,7 +2627,7 @@
         "eventType": null,
         "detail": null,
         "publicationState": "source_reachable_no_specific_local_notice",
-        "retrievedAt": "2026-10-23T21:56:43.884224+00:00"
+        "retrievedAt": "2026-10-24T00:27:52.290675+00:00"
       }
     },
     {
@@ -2677,7 +2677,7 @@
         "eventType": null,
         "detail": null,
         "publicationState": "source_reachable_no_specific_local_notice",
-        "retrievedAt": "2026-10-23T21:56:43.884224+00:00"
+        "retrievedAt": "2026-10-24T00:27:52.290675+00:00"
       }
     },
     {
@@ -2765,7 +2765,7 @@
       "label": "Educación",
       "signal": 2,
       "status": "evidencia educativa",
-      "freshnessHours": 646.9,
+      "freshnessHours": 649.4,
       "mode": "evidencia editorial",
       "evidenceCount": 2,
       "sourceContract": {
@@ -2805,7 +2805,7 @@
       "label": "Producción rural",
       "signal": 1,
       "status": "evidencia productiva",
-      "freshnessHours": 5.4,
+      "freshnessHours": 7.9,
       "mode": "evidencia editorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -2845,7 +2845,7 @@
       "label": "Seguridad / emergencias",
       "signal": 1,
       "status": "cobertura de emergencia",
-      "freshnessHours": 78.8,
+      "freshnessHours": 81.3,
       "mode": "evidencia editorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -2885,7 +2885,7 @@
       "label": "Territorio / microzonas",
       "signal": 1,
       "status": "hecho territorial",
-      "freshnessHours": 196.0,
+      "freshnessHours": 198.5,
       "mode": "evidencia territorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -2942,7 +2942,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://chanardigital.com.ar/",
-        "lastFetch": "2026-10-23T21:56:45.865834+00:00",
+        "lastFetch": "2026-10-24T00:27:54.919697+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -2958,7 +2958,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.radiomia.com.ar/",
-        "lastFetch": "2026-10-23T21:56:47.269073+00:00",
+        "lastFetch": "2026-10-24T00:27:56.182386+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -2973,7 +2973,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://tuitvacamuerta.com/",
-        "lastFetch": "2026-10-23T21:56:48.854084+00:00",
+        "lastFetch": "2026-10-24T00:27:58.193284+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -2988,7 +2988,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.vacamuertanews.com/",
-        "lastFetch": "2026-10-23T21:56:49.665756+00:00",
+        "lastFetch": "2026-10-24T00:27:58.762628+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3004,7 +3004,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.neuqueninforma.gob.ar/",
-        "lastFetch": "2026-10-23T21:56:51.040814+00:00",
+        "lastFetch": "2026-10-24T00:28:00.370465+00:00",
         "success": false,
         "attempted": 3,
         "failures": [
@@ -3021,11 +3021,11 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://sanpatricio.gob.ar/",
-        "lastFetch": "2026-10-23T21:56:52.046027+00:00",
+        "lastFetch": "2026-10-24T00:28:01.446454+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
-          "WEB:AttributeError"
+          "WEB:HTTPError"
         ],
         "directAvailability": "failed",
         "freshnessHours": null
@@ -3036,7 +3036,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://boletinoficial.neuquen.gov.ar/",
-        "lastFetch": "2026-10-23T21:56:53.021605+00:00",
+        "lastFetch": "2026-10-24T00:28:02.579178+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -3051,7 +3051,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.lmneuquen.com/",
-        "lastFetch": "2026-10-23T21:56:53.189308+00:00",
+        "lastFetch": "2026-10-24T00:28:02.929510+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3067,7 +3067,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.rionegro.com.ar/",
-        "lastFetch": "2026-10-23T21:56:54.965641+00:00",
+        "lastFetch": "2026-10-24T00:28:05.337489+00:00",
         "success": true,
         "attempted": 2,
         "failures": [
@@ -3082,7 +3082,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.mejorinformado.com/",
-        "lastFetch": "2026-10-23T21:56:55.536345+00:00",
+        "lastFetch": "2026-10-24T00:28:06.444743+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3098,7 +3098,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.diariamenteneuquen.com/",
-        "lastFetch": "2026-10-23T21:56:56.487025+00:00",
+        "lastFetch": "2026-10-24T00:28:07.353586+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3125,7 +3125,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SERVICIOS",
-      "movement": 82,
+      "movement": 81,
       "coverage": 3,
       "sourceCount": 2,
       "directSourceCount": 0,
@@ -3316,8 +3316,8 @@
           "sourcePriority": 3
         }
       ],
-      "lifecycle": "EMERGENTE",
-      "movementDelta": -1,
+      "lifecycle": "ACTIVO",
+      "movementDelta": 0,
       "previousCoverage": 3,
       "newSources": [],
       "sourceDiversity": 3,
@@ -3369,7 +3369,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "MOVILIDAD",
-      "movement": 69,
+      "movement": 68,
       "coverage": 3,
       "sourceCount": 3,
       "directSourceCount": 0,
@@ -3443,12 +3443,10 @@
           "sourcePriority": 3
         }
       ],
-      "lifecycle": "EMERGENTE",
-      "movementDelta": 53,
-      "previousCoverage": 1,
+      "lifecycle": "ACTIVO",
+      "movementDelta": -1,
+      "previousCoverage": 3,
       "newSources": [
-        "Diario Neuquino",
-        "Diario Río Negro",
         "NoticiasNQN"
       ],
       "sourceDiversity": 3,
@@ -3526,18 +3524,16 @@
           "relevance": 3,
           "relevanceLabel": "DIRECTA",
           "firstSeen": "2026-10-23T21:57:06.181654+00:00",
-          "isNew": true,
+          "isNew": false,
           "titleKey": "bodega familia schroeder llevo seleccion sus vinos aog patagonia 2026 lmneuquen com",
           "evidenceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQbDRGdHZNMDljbG5wbF9nY2hVZlA3VEZ4aVpYX04tTmxXWk5LTVNYZWhESWRBOVZmZENIVEM5S1ZqaHhxZFhvcmVGSW5JblBudUNkSkZZZXVpd0ZrTDFxbUNmaUNGbTQ3MnJhNW8tZWZXUGxvOG5yVVlsRkpEaEo2dzQ1RWFUN0pnOGs2N1MwNGNMSVFEXzdvOXd0Y25OT2lvWHRrY2xYaVNiWXRfbzVxSktQcmFrME9PdXlkcndpQnVzd9IBxwFBVV95cUxPRy1nRGVNbUZ2cl9Sd1hzNDEyeENiMi1xdkJaNF9TaWU5UFBzaEFBUTV6RGVNQ09kaVBhWXpCSlR4YTFXMzVqQUtZRGg1REJMWFhscmRVMGNWNmFXbGFLR00xMWZBbGl6Yk1KbncwemJvN1dLdUFMX0Eyb0lqS2lmaWJnZ21NWDcxeHBWN0dWaXZzX2JYbjE2NGR3b09UUU9JZXdVOXpJNERxanhRekE2NkVlRjh6U0NYVGc2NmNUTlVzRkpkdHpV?oc=5",
           "sourcePriority": 3
         }
       ],
       "lifecycle": "EMERGENTE",
-      "movementDelta": -11,
-      "previousCoverage": 3,
-      "newSources": [
-        "Lmneuquen.com"
-      ],
+      "movementDelta": 0,
+      "previousCoverage": 1,
+      "newSources": [],
       "sourceDiversity": 1,
       "memoryMatched": true,
       "isNew": false,
@@ -3588,7 +3584,7 @@
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SERVICIOS",
       "movement": 50,
-      "coverage": 2,
+      "coverage": 4,
       "sourceCount": 1,
       "directSourceCount": 0,
       "territorialAnchors": [
@@ -3637,12 +3633,52 @@
           "titleKey": "ate exige mesa trabajo urgente digital",
           "evidenceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPNEtheVlFSERIbHJqTlFnb2Fqd04zWmNoRndIcmltSkJDcnBBZjVwdU94ZmRNNE5iV1dUVXhRcEdBZ0RSVnJmai05V21RRG9RZkN4bFVYX1VnWkkxSm5jeTNPNG1EaTJPLVBlOGk1aUR5aFBqTm9YcTVTaTJ1LVFIcW93X0xUVmlDUnNUdTFsSmx0dW9TeVc2TTJLVW90NTc1MzR4aHFOdTZzdHdVUjB4cmlUckRlLVJ2V0hvNTNFejlROGJjVFBjd2tjRQ?oc=5",
           "sourcePriority": 3
+        },
+        {
+          "title": "Detuvieron a un hombre por amenazas con armas de fuego en la Toma La Costa de El Chañar - Chañar Digital",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPX256Ti05NXhyUXQ2bDhmTGlhS3lVaTFOYzdTaHhQclZ1NS0xUThYRURKVllGbFZDTmdBRFFNd2RGR3JrQllsTDBlSDZZYWViZXY5SGZyNGp2S2xhNTFoOXg3djhxeGt0bTBPbGJlbnd2ZkcwQTZYaGk0c1VZQWFxb2k3cF83bmdzdl9tOUhhMlltaHcyRGtRUDZxWW9PbUJfM1VoOEg5U0pSVk0wTGdSUjFyZ3pZeEc0dlBBT2xVcWh0TnRpYXVDUk1ERW5hcW01SmNB?oc=5",
+          "publishedAt": "2026-10-21T00:25:31+00:00",
+          "published": "2026-10-21T00:25:31+00:00",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMi0wFBVV95cUxPX256Ti05NXhyUXQ2bDhmTGlhS3lVaTFOYzdTaHhQclZ1NS0xUThYRURKVllGbFZDTmdBRFFNd2RGR3JrQllsTDBlSDZZYWViZXY5SGZyNGp2S2xhNTFoOXg3djhxeGt0bTBPbGJlbnd2ZkcwQTZYaGk0c1VZQWFxb2k3cF83bmdzdl9tOUhhMlltaHcyRGtRUDZxWW9PbUJfM1VoOEg5U0pSVk0wTGdSUjFyZ3pZeEc0dlBBT2xVcWh0TnRpYXVDUk1ERW5hcW01SmNB?oc=5\" target=\"_blank\">Detuvieron a un hombre por amenazas con armas de fuego en la Toma La Costa de El Chañar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Chañar Digital</font>",
+          "source": "Chañar Digital",
+          "sourceType": "BUSCADOR / RESPALDO",
+          "sourceUrl": "",
+          "collection": "BUSCADOR",
+          "query": "site:chanardigital.com.ar \"San Patricio del Chañar\"",
+          "relevance": 3,
+          "relevanceLabel": "DIRECTA",
+          "firstSeen": "2026-10-22T23:32:55.391801+00:00",
+          "isNew": false,
+          "titleKey": "detuvieron hombre amenazas armas fuego toma costa digital",
+          "evidenceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPX256Ti05NXhyUXQ2bDhmTGlhS3lVaTFOYzdTaHhQclZ1NS0xUThYRURKVllGbFZDTmdBRFFNd2RGR3JrQllsTDBlSDZZYWViZXY5SGZyNGp2S2xhNTFoOXg3djhxeGt0bTBPbGJlbnd2ZkcwQTZYaGk0c1VZQWFxb2k3cF83bmdzdl9tOUhhMlltaHcyRGtRUDZxWW9PbUJfM1VoOEg5U0pSVk0wTGdSUjFyZ3pZeEc0dlBBT2xVcWh0TnRpYXVDUk1ERW5hcW01SmNB?oc=5",
+          "sourcePriority": 3
+        },
+        {
+          "title": "ATE exige una mesa de trabajo urgente al Municipio de San Patricio del Chañar - Chañar Digital",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPNEtheVlFSERIbHJqTlFnb2Fqd04zWmNoRndIcmltSkJDcnBBZjVwdU94ZmRNNE5iV1dUVXhRcEdBZ0RSVnJmai05V21RRG9RZkN4bFVYX1VnWkkxSm5jeTNPNG1EaTJPLVBlOGk1aUR5aFBqTm9YcTVTaTJ1LVFIcW93X0xUVmlDUnNUdTFsSmx0dW9TeVc2TTJLVW90NTc1MzR4aHFOdTZzdHdVUjB4cmlUckRlLVJ2V0hvNTNFejlROGJjVFBjd2tjRQ?oc=5",
+          "publishedAt": "2026-10-19T02:50:04+00:00",
+          "published": "2026-10-19T02:50:04+00:00",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMiywFBVV95cUxPNEtheVlFSERIbHJqTlFnb2Fqd04zWmNoRndIcmltSkJDcnBBZjVwdU94ZmRNNE5iV1dUVXhRcEdBZ0RSVnJmai05V21RRG9RZkN4bFVYX1VnWkkxSm5jeTNPNG1EaTJPLVBlOGk1aUR5aFBqTm9YcTVTaTJ1LVFIcW93X0xUVmlDUnNUdTFsSmx0dW9TeVc2TTJLVW90NTc1MzR4aHFOdTZzdHdVUjB4cmlUckRlLVJ2V0hvNTNFejlROGJjVFBjd2tjRQ?oc=5\" target=\"_blank\">ATE exige una mesa de trabajo urgente al Municipio de San Patricio del Chañar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Chañar Digital</font>",
+          "source": "Chañar Digital",
+          "sourceType": "BUSCADOR / RESPALDO",
+          "sourceUrl": "",
+          "collection": "BUSCADOR",
+          "query": "site:chanardigital.com.ar \"San Patricio del Chañar\"",
+          "relevance": 3,
+          "relevanceLabel": "DIRECTA",
+          "firstSeen": "2026-10-22T23:32:55.391801+00:00",
+          "isNew": false,
+          "titleKey": "ate exige mesa trabajo urgente digital",
+          "evidenceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPNEtheVlFSERIbHJqTlFnb2Fqd04zWmNoRndIcmltSkJDcnBBZjVwdU94ZmRNNE5iV1dUVXhRcEdBZ0RSVnJmai05V21RRG9RZkN4bFVYX1VnWkkxSm5jeTNPNG1EaTJPLVBlOGk1aUR5aFBqTm9YcTVTaTJ1LVFIcW93X0xUVmlDUnNUdTFsSmx0dW9TeVc2TTJLVW90NTc1MzR4aHFOdTZzdHdVUjB4cmlUckRlLVJ2V0hvNTNFejlROGJjVFBjd2tjRQ?oc=5",
+          "sourcePriority": 3
         }
       ],
-      "lifecycle": "EMERGENTE",
-      "movementDelta": -1,
+      "lifecycle": "SIN NUEVA COBERTURA",
+      "movementDelta": 0,
       "previousCoverage": 2,
-      "newSources": [],
+      "newSources": [
+        "Chañar Digital"
+      ],
       "sourceDiversity": 1,
       "memoryMatched": true,
       "isNew": false,
@@ -3672,7 +3708,8 @@
             "evidence": "DIRECTA"
           }
         ]
-      }
+      },
+      "sourceContinuity": "fuente conocida sin respuesta; no se infiere desaparición"
     },
     {
       "eventId": "CHA-8aa66f131026",
@@ -3896,18 +3933,16 @@
           "relevance": 3,
           "relevanceLabel": "DIRECTA",
           "firstSeen": "2026-10-23T21:57:06.181654+00:00",
-          "isNew": true,
+          "isNew": false,
           "titleKey": "demoraron hombre pedido captura vigente digital",
           "evidenceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPUm5ORTV2YlE5dE1qWUVvUEowUE01bnY4cUc3NDk3MGlDSzNRY0I5Q2JDQkVwbktueTU5LWRWdlFhZjUwS2M4UExKN2M3LUxNcDU4dEVpZUpfdUQyM3ZVMmdFNWFYb29QbVJmaXZZeVQ3LWt3MXJKMUl2RkFaZl9oNnI2eExoa1JpWEFNLUxEUGhvZTZtTUx3eUVCeUNkb1BNX3lPeVZhWFc4cWhZMHV0V29FcEphRDFrWmlfdjlIMG9ESzYxNi1yYQ?oc=5",
           "sourcePriority": 3
         }
       ],
       "lifecycle": "RECIENTE",
-      "movementDelta": -29,
-      "previousCoverage": 1,
-      "newSources": [
-        "Diario Río Negro"
-      ],
+      "movementDelta": 0,
+      "previousCoverage": 2,
+      "newSources": [],
       "sourceDiversity": 2,
       "memoryMatched": true,
       "isNew": false,
@@ -3984,7 +4019,7 @@
       ],
       "lifecycle": "RECIENTE",
       "movementDelta": 0,
-      "previousCoverage": 1,
+      "previousCoverage": 7,
       "newSources": [
         "Neuquén al instante"
       ],
@@ -4328,7 +4363,7 @@
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "firstSeen": "2026-10-23T21:57:06.181654+00:00",
-      "isNew": true,
+      "isNew": false,
       "titleKey": "bodega familia schroeder llevo seleccion sus vinos aog patagonia 2026 lmneuquen com",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQbDRGdHZNMDljbG5wbF9nY2hVZlA3VEZ4aVpYX04tTmxXWk5LTVNYZWhESWRBOVZmZENIVEM5S1ZqaHhxZFhvcmVGSW5JblBudUNkSkZZZXVpd0ZrTDFxbUNmaUNGbTQ3MnJhNW8tZWZXUGxvOG5yVVlsRkpEaEo2dzQ1RWFUN0pnOGs2N1MwNGNMSVFEXzdvOXd0Y25OT2lvWHRrY2xYaVNiWXRfbzVxSktQcmFrME9PdXlkcndpQnVzd9IBxwFBVV95cUxPRy1nRGVNbUZ2cl9Sd1hzNDEyeENiMi1xdkJaNF9TaWU5UFBzaEFBUTV6RGVNQ09kaVBhWXpCSlR4YTFXMzVqQUtZRGg1REJMWFhscmRVMGNWNmFXbGFLR00xMWZBbGl6Yk1KbncwemJvN1dLdUFMX0Eyb0lqS2lmaWJnZ21NWDcxeHBWN0dWaXZzX2JYbjE2NGR3b09UUU9JZXdVOXpJNERxanhRekE2NkVlRjh6U0NYVGc2NmNUTlVzRkpkdHpV?oc=5",
       "sourcePriority": 3
@@ -4594,7 +4629,7 @@
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "firstSeen": "2026-10-23T21:57:06.181654+00:00",
-      "isNew": true,
+      "isNew": false,
       "titleKey": "demoraron hombre pedido captura vigente digital",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPUm5ORTV2YlE5dE1qWUVvUEowUE01bnY4cUc3NDk3MGlDSzNRY0I5Q2JDQkVwbktueTU5LWRWdlFhZjUwS2M4UExKN2M3LUxNcDU4dEVpZUpfdUQyM3ZVMmdFNWFYb29QbVJmaXZZeVQ3LWt3MXJKMUl2RkFaZl9oNnI2eExoa1JpWEFNLUxEUGhvZTZtTUx3eUVCeUNkb1BNX3lPeVZhWFc4cWhZMHV0V29FcEphRDFrWmlfdjlIMG9ESzYxNi1yYQ?oc=5",
       "sourcePriority": 3
@@ -4621,7 +4656,7 @@
   ],
   "territorialGraph": {
     "version": "2.0",
-    "generatedAt": "2026-10-23T21:57:18.581119+00:00",
+    "generatedAt": "2026-10-24T00:28:29.702690+00:00",
     "root": "spc",
     "rule": "evidence-first",
     "levels": [
@@ -5274,11 +5309,11 @@
   },
   "audit": {
     "version": "1.0",
-    "updatedAt": "2026-10-23T21:57:18.638368+00:00",
+    "updatedAt": "2026-10-24T00:28:29.745276+00:00",
     "rule": "fact != coverage; territory requires textual evidence",
     "facts": 11,
-    "coverage": 25,
-    "coveragePerFact": 2.27,
+    "coverage": 27,
+    "coveragePerFact": 2.45,
     "directAnchorFacts": 11,
     "directAnchorPct": 100.0,
     "territorySpecificFacts": 4,
