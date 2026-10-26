@@ -2,7 +2,7 @@
   "version": "1.1",
   "windowDays": 45,
   "bucketHours": 2,
-  "generatedAt": "2026-10-26T01:36:58.618145+00:00",
+  "generatedAt": "2026-10-26T07:38:22.002153+00:00",
   "snapshots": [
     {
       "at": "2026-09-20T01:58:09.322313+00:00",
@@ -19070,6 +19070,108 @@
           "success": true,
           "signals": 1,
           "freshnessHours": 2.5
+        },
+        "Mejor Informado": {
+          "success": false,
+          "signals": 0,
+          "freshnessHours": null
+        },
+        "Diariamente Neuquén": {
+          "success": false,
+          "signals": 0,
+          "freshnessHours": null
+        }
+      }
+    },
+    {
+      "at": "2026-10-26T07:38:22.002010+00:00",
+      "bucket": "2026-10-26T07:38:00+00:00",
+      "events": 12,
+      "topics": {
+        "SERVICIOS": 5,
+        "DEPORTE": 2,
+        "SEGURIDAD / EMERGENCIAS": 1,
+        "MOVILIDAD": 1,
+        "PRODUCCIÓN": 1,
+        "EDUCACIÓN": 2
+      },
+      "sources": {
+        "MejorInformado.com": 1,
+        "mpfneuquen": 1,
+        "Diario Río Negro": 4,
+        "NoticiasNQN": 3,
+        "Cutral Co al Instante": 1,
+        "Chañar Digital": 5,
+        "portadadigital.com.ar": 1,
+        "Neuquén News": 1,
+        "Diario Neuquino": 2,
+        "Lmneuquen.com": 1,
+        "EPEN": 1
+      },
+      "lifecycle": {
+        "EMERGENTE": 2,
+        "ACTIVO": 5,
+        "SOSTENIDO": 2,
+        "RECIENTE": 1,
+        "SIN NUEVA COBERTURA": 2
+      },
+      "nodes": {
+        "San Patricio del Chañar": 12,
+        "Bomberos Voluntarios": 1,
+        "Ruta 7": 1,
+        "Bodegas y viñedos": 1,
+        "EPEN": 1,
+        "EPET 26": 1,
+        "CPEM 31": 1
+      },
+      "activeNodes": 7,
+      "directSignals": 0,
+      "newSignals": 3,
+      "sourceHealth": {
+        "Chañar Digital": {
+          "success": false,
+          "signals": 0,
+          "freshnessHours": null
+        },
+        "Mía Radio 94.7": {
+          "success": false,
+          "signals": 0,
+          "freshnessHours": null
+        },
+        "Radio Tuit Vaca Muerta 90.5": {
+          "success": false,
+          "signals": 0,
+          "freshnessHours": null
+        },
+        "Vaca Muerta News": {
+          "success": false,
+          "signals": 0,
+          "freshnessHours": null
+        },
+        "Neuquén Informa": {
+          "success": false,
+          "signals": 0,
+          "freshnessHours": null
+        },
+        "Municipalidad de San Patricio del Chañar": {
+          "success": false,
+          "signals": 0,
+          "freshnessHours": null
+        },
+        "Boletín Oficial de Neuquén": {
+          "success": false,
+          "signals": 0,
+          "freshnessHours": null
+        },
+        "LM Neuquén": {
+          "success": false,
+          "signals": 0,
+          "freshnessHours": null
+        },
+        "Diario Río Negro": {
+          "success": true,
+          "signals": 0,
+          "freshnessHours": null
         },
         "Mejor Informado": {
           "success": false,
