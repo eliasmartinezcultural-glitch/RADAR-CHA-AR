@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27T05:27:32.956146+00:00",
+  "updatedAt": "2026-10-27T10:52:17.276386+00:00",
   "window": "14 días",
   "purpose": "Detectar qué se está moviendo en San Patricio del Chañar y mostrar de dónde surge cada señal.",
   "architecture": "contrato universal de procedencia + fuentes profesionales + adaptadores específicos + validación semántica + temporalidad + evidencia editorial separada",
@@ -49,7 +49,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://chanardigital.com.ar/",
-      "lastFetch": "2026-10-27T05:27:16.581480+00:00",
+      "lastFetch": "2026-10-27T10:51:58.885677+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -65,7 +65,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.radiomia.com.ar/",
-      "lastFetch": "2026-10-27T05:27:17.785685+00:00",
+      "lastFetch": "2026-10-27T10:51:59.964069+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -80,7 +80,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://tuitvacamuerta.com/",
-      "lastFetch": "2026-10-27T05:27:19.480194+00:00",
+      "lastFetch": "2026-10-27T10:52:01.676661+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -95,7 +95,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.vacamuertanews.com/",
-      "lastFetch": "2026-10-27T05:27:19.818658+00:00",
+      "lastFetch": "2026-10-27T10:52:01.984093+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -111,7 +111,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.neuqueninforma.gob.ar/",
-      "lastFetch": "2026-10-27T05:27:20.929263+00:00",
+      "lastFetch": "2026-10-27T10:52:02.926836+00:00",
       "success": false,
       "attempted": 3,
       "failures": [
@@ -128,7 +128,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://sanpatricio.gob.ar/",
-      "lastFetch": "2026-10-27T05:27:21.862776+00:00",
+      "lastFetch": "2026-10-27T10:52:03.850605+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -143,7 +143,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://boletinoficial.neuquen.gov.ar/",
-      "lastFetch": "2026-10-27T05:27:22.782919+00:00",
+      "lastFetch": "2026-10-27T10:52:04.689348+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -158,7 +158,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.lmneuquen.com/",
-      "lastFetch": "2026-10-27T05:27:22.962711+00:00",
+      "lastFetch": "2026-10-27T10:52:05.031462+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -174,7 +174,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.rionegro.com.ar/",
-      "lastFetch": "2026-10-27T05:27:23.295889+00:00",
+      "lastFetch": "2026-10-27T10:52:06.731037+00:00",
       "success": true,
       "attempted": 2,
       "failures": [
@@ -189,7 +189,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.mejorinformado.com/",
-      "lastFetch": "2026-10-27T05:27:23.773636+00:00",
+      "lastFetch": "2026-10-27T10:52:07.209826+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -205,7 +205,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.diariamenteneuquen.com/",
-      "lastFetch": "2026-10-27T05:27:24.423802+00:00",
+      "lastFetch": "2026-10-27T10:52:07.838968+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -709,18 +709,18 @@
   "languageAudit": [
     {
       "term": "el chañar",
-      "hits": 24,
-      "direct": 24
+      "hits": 22,
+      "direct": 22
     },
     {
       "term": "san patricio del chañar",
-      "hits": 17,
-      "direct": 17
+      "hits": 16,
+      "direct": 16
     },
     {
       "term": "ruta 7",
-      "hits": 3,
-      "direct": 3
+      "hits": 2,
+      "direct": 2
     },
     {
       "term": "bomberos voluntarios",
@@ -1109,8 +1109,8 @@
         "source": "Flipr.news",
         "group": "OBSERVADA",
         "role": "fuente detectada fuera del catálogo",
-        "accepted": 2,
-        "direct": 2,
+        "accepted": 1,
+        "direct": 1,
         "anchored": 0,
         "falsePositives": 0,
         "falsePositiveTypes": [],
@@ -1200,6 +1200,19 @@
         "topics": []
       },
       {
+        "source": "Minuto Neuquén",
+        "group": "OBSERVADA",
+        "role": "fuente detectada fuera del catálogo",
+        "accepted": 1,
+        "direct": 1,
+        "anchored": 0,
+        "falsePositives": 0,
+        "falsePositiveTypes": [],
+        "topics": [
+          "SERVICIOS"
+        ]
+      },
+      {
         "source": "Municipalidad de San Patricio del Chañar",
         "group": "LOCAL",
         "role": "fuente institucional primaria",
@@ -1262,13 +1275,12 @@
         "source": "NoticiasNQN",
         "group": "OBSERVADA",
         "role": "fuente detectada fuera del catálogo",
-        "accepted": 3,
-        "direct": 3,
+        "accepted": 2,
+        "direct": 2,
         "anchored": 0,
         "falsePositives": 0,
         "falsePositiveTypes": [],
         "topics": [
-          "MOVILIDAD",
           "SEGURIDAD / EMERGENCIAS",
           "SERVICIOS"
         ]
@@ -1416,18 +1428,6 @@
         ]
       },
       {
-        "source": "Flipr.news",
-        "topic": "SERVICIOS",
-        "accepted": 2,
-        "direct": 2,
-        "anchored": 0,
-        "falsePositives": 0,
-        "territorialTerms": [
-          "san patricio del chañar",
-          "el chañar"
-        ]
-      },
-      {
         "source": "MejorInformado.com",
         "topic": "SERVICIOS",
         "accepted": 2,
@@ -1527,6 +1527,18 @@
         ]
       },
       {
+        "source": "Flipr.news",
+        "topic": "SERVICIOS",
+        "accepted": 1,
+        "direct": 1,
+        "anchored": 0,
+        "falsePositives": 0,
+        "territorialTerms": [
+          "san patricio del chañar",
+          "el chañar"
+        ]
+      },
+      {
         "source": "Lmneuquen.com",
         "topic": "PRODUCCIÓN",
         "accepted": 1,
@@ -1535,6 +1547,18 @@
         "falsePositives": 0,
         "territorialTerms": [
           "bodega familia schroeder"
+        ]
+      },
+      {
+        "source": "Minuto Neuquén",
+        "topic": "SERVICIOS",
+        "accepted": 1,
+        "direct": 1,
+        "anchored": 0,
+        "falsePositives": 0,
+        "territorialTerms": [
+          "san patricio del chañar",
+          "el chañar"
         ]
       },
       {
@@ -1560,19 +1584,6 @@
           "san patricio del chañar",
           "el chañar",
           "bomberos voluntarios"
-        ]
-      },
-      {
-        "source": "NoticiasNQN",
-        "topic": "MOVILIDAD",
-        "accepted": 1,
-        "direct": 1,
-        "anchored": 0,
-        "falsePositives": 0,
-        "territorialTerms": [
-          "san patricio del chañar",
-          "el chañar",
-          "ruta 7"
         ]
       },
       {
@@ -1643,8 +1654,8 @@
       },
       {
         "term": "el chañar",
-        "acceptedHits": 24,
-        "directHits": 24,
+        "acceptedHits": 23,
+        "directHits": 23,
         "rejectedTitleHits": 0,
         "territorialStrength": "FUERTE"
       },
@@ -1832,8 +1843,8 @@
       },
       {
         "term": "ruta 7",
-        "acceptedHits": 3,
-        "directHits": 3,
+        "acceptedHits": 2,
+        "directHits": 2,
         "rejectedTitleHits": 0,
         "territorialStrength": "CORREDOR"
       },
@@ -1969,10 +1980,10 @@
     "interpretation": "auditoría sobre eventos aceptados; la próxima capa debe instrumentar rechazos antes del clustering"
   },
   "stats": {
-    "total": 25,
-    "direct": 25,
+    "total": 23,
+    "direct": 23,
     "regional": 0,
-    "new": 2,
+    "new": 1,
     "sources": 14,
     "directSignals": 0,
     "localDirectSignals": 0,
@@ -1983,11 +1994,11 @@
   "environment": {
     "weather": {
       "dataType": "forecast",
-      "forecastWindKmh": 29.0,
-      "forecastGustKmh": 34.0,
-      "forecastWindDirection": "NE",
-      "forecastTemperatureC": 23.0,
-      "retrievedAt": "2026-10-27T05:27:14.528218+00:00",
+      "forecastWindKmh": 28.0,
+      "forecastGustKmh": 28.0,
+      "forecastWindDirection": "SO",
+      "forecastTemperatureC": 25.0,
+      "retrievedAt": "2026-10-27T10:51:56.540292+00:00",
       "source": "AIC",
       "sourceTier": "primary",
       "sourceUrl": "https://www.aic.gob.ar/sitio/home?a=1015&z=1967225803",
@@ -2017,7 +2028,7 @@
       "currentProgrammedMinM3s": 450,
       "programDate": "2026-10-28",
       "tableDate": "2026-10-27",
-      "retrievedAt": "2026-10-27T05:27:14.528218+00:00",
+      "retrievedAt": "2026-10-27T10:51:56.540292+00:00",
       "source": "AIC",
       "sourceTier": "primary",
       "sourceUrl": "https://www.aic.gob.ar/sitio/caudales",
@@ -2037,17 +2048,17 @@
         "url": "https://www.aic.gob.ar/sitio/caudales"
       }
     ],
-    "updatedAt": "2026-10-27T05:27:14.528218+00:00"
+    "updatedAt": "2026-10-27T10:51:56.540292+00:00"
   },
   "operational": {
-    "updatedAt": "2026-10-27T05:27:14.528218+00:00",
+    "updatedAt": "2026-10-27T10:51:56.540292+00:00",
     "route7": {
       "source": "Dirección Provincial de Vialidad",
       "sourceTier": "primary",
       "sourceUrl": "https://www.dpvneuquen.gov.ar/",
       "semanticState": null,
       "publicationState": "source_reachable_no_current_machine_readable_state",
-      "retrievedAt": "2026-10-27T05:27:14.528218+00:00",
+      "retrievedAt": "2026-10-27T10:51:56.540292+00:00",
       "evidence": {
         "route7Mention": true,
         "route8Mention": false
@@ -2059,7 +2070,7 @@
       "sourceUrl": "https://www.dpvneuquen.gov.ar/",
       "semanticState": null,
       "publicationState": "source_reachable_no_current_machine_readable_state",
-      "retrievedAt": "2026-10-27T05:27:14.528218+00:00",
+      "retrievedAt": "2026-10-27T10:51:56.540292+00:00",
       "evidence": {
         "route7Mention": true,
         "route8Mention": false
@@ -2073,7 +2084,7 @@
       "eventType": null,
       "detail": null,
       "publicationState": "source_reachable_no_specific_local_notice",
-      "retrievedAt": "2026-10-27T05:27:14.528218+00:00"
+      "retrievedAt": "2026-10-27T10:51:56.540292+00:00"
     },
     "water": {
       "source": "EPAS",
@@ -2083,7 +2094,7 @@
       "eventType": null,
       "detail": null,
       "publicationState": "source_reachable_no_specific_local_notice",
-      "retrievedAt": "2026-10-27T05:27:14.528218+00:00"
+      "retrievedAt": "2026-10-27T10:51:56.540292+00:00"
     },
     "sources": [
       {
@@ -2495,7 +2506,7 @@
       "label": "Conversación general",
       "signal": 11,
       "status": "cobertura editorial",
-      "freshnessHours": 9.0,
+      "freshnessHours": 14.4,
       "mode": "evidencia editorial",
       "evidenceCount": 11,
       "sourceContract": {
@@ -2535,7 +2546,7 @@
       "label": "Corredor Ruta 7",
       "signal": 2,
       "status": "estado vial",
-      "freshnessHours": 108.5,
+      "freshnessHours": 113.9,
       "mode": "evidencia territorial",
       "evidenceCount": 2,
       "sourceContract": {
@@ -2575,7 +2586,7 @@
         "sourceUrl": "https://www.dpvneuquen.gov.ar/",
         "semanticState": null,
         "publicationState": "source_reachable_no_current_machine_readable_state",
-        "retrievedAt": "2026-10-27T05:27:14.528218+00:00",
+        "retrievedAt": "2026-10-27T10:51:56.540292+00:00",
         "evidence": {
           "route7Mention": true,
           "route8Mention": false
@@ -2587,7 +2598,7 @@
       "label": "Corredor Ruta 8",
       "signal": 2,
       "status": "estado vial",
-      "freshnessHours": 108.5,
+      "freshnessHours": 113.9,
       "mode": "evidencia territorial",
       "evidenceCount": 2,
       "sourceContract": {
@@ -2627,7 +2638,7 @@
         "sourceUrl": "https://www.dpvneuquen.gov.ar/",
         "semanticState": null,
         "publicationState": "source_reachable_no_current_machine_readable_state",
-        "retrievedAt": "2026-10-27T05:27:14.528218+00:00",
+        "retrievedAt": "2026-10-27T10:51:56.540292+00:00",
         "evidence": {
           "route7Mention": true,
           "route8Mention": false
@@ -2637,7 +2648,7 @@
     {
       "id": "VIENTO",
       "label": "Condición de viento",
-      "signal": 29.0,
+      "signal": 28.0,
       "status": "pronóstico local",
       "freshnessHours": null,
       "mode": "DATO DIRECTO",
@@ -2685,7 +2696,7 @@
       "label": "Electricidad / cortes de luz",
       "signal": 1,
       "status": "evento eléctrico",
-      "freshnessHours": 275.5,
+      "freshnessHours": 280.9,
       "mode": "evidencia editorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -2727,7 +2738,7 @@
         "eventType": null,
         "detail": null,
         "publicationState": "source_reachable_no_specific_local_notice",
-        "retrievedAt": "2026-10-27T05:27:14.528218+00:00"
+        "retrievedAt": "2026-10-27T10:51:56.540292+00:00"
       }
     },
     {
@@ -2777,7 +2788,7 @@
         "eventType": null,
         "detail": null,
         "publicationState": "source_reachable_no_specific_local_notice",
-        "retrievedAt": "2026-10-27T05:27:14.528218+00:00"
+        "retrievedAt": "2026-10-27T10:51:56.540292+00:00"
       }
     },
     {
@@ -2785,7 +2796,7 @@
       "label": "Servicios e infraestructura",
       "signal": 1,
       "status": "evidencia de servicio",
-      "freshnessHours": 9.0,
+      "freshnessHours": 14.4,
       "mode": "evidencia editorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -2865,7 +2876,7 @@
       "label": "Educación",
       "signal": 1,
       "status": "evidencia educativa",
-      "freshnessHours": 726.4,
+      "freshnessHours": 731.8,
       "mode": "evidencia editorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -2905,7 +2916,7 @@
       "label": "Producción rural",
       "signal": 1,
       "status": "evidencia productiva",
-      "freshnessHours": 83.8,
+      "freshnessHours": 90.3,
       "mode": "evidencia editorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -2945,7 +2956,7 @@
       "label": "Seguridad / emergencias",
       "signal": 1,
       "status": "cobertura de emergencia",
-      "freshnessHours": 161.2,
+      "freshnessHours": 166.6,
       "mode": "evidencia editorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -2985,7 +2996,7 @@
       "label": "Territorio / microzonas",
       "signal": 1,
       "status": "hecho territorial",
-      "freshnessHours": 275.5,
+      "freshnessHours": 280.9,
       "mode": "evidencia territorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -3042,7 +3053,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://chanardigital.com.ar/",
-        "lastFetch": "2026-10-27T05:27:16.581480+00:00",
+        "lastFetch": "2026-10-27T10:51:58.885677+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3058,7 +3069,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.radiomia.com.ar/",
-        "lastFetch": "2026-10-27T05:27:17.785685+00:00",
+        "lastFetch": "2026-10-27T10:51:59.964069+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -3073,7 +3084,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://tuitvacamuerta.com/",
-        "lastFetch": "2026-10-27T05:27:19.480194+00:00",
+        "lastFetch": "2026-10-27T10:52:01.676661+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -3088,7 +3099,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.vacamuertanews.com/",
-        "lastFetch": "2026-10-27T05:27:19.818658+00:00",
+        "lastFetch": "2026-10-27T10:52:01.984093+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3104,7 +3115,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.neuqueninforma.gob.ar/",
-        "lastFetch": "2026-10-27T05:27:20.929263+00:00",
+        "lastFetch": "2026-10-27T10:52:02.926836+00:00",
         "success": false,
         "attempted": 3,
         "failures": [
@@ -3121,7 +3132,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://sanpatricio.gob.ar/",
-        "lastFetch": "2026-10-27T05:27:21.862776+00:00",
+        "lastFetch": "2026-10-27T10:52:03.850605+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -3136,7 +3147,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://boletinoficial.neuquen.gov.ar/",
-        "lastFetch": "2026-10-27T05:27:22.782919+00:00",
+        "lastFetch": "2026-10-27T10:52:04.689348+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -3151,7 +3162,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.lmneuquen.com/",
-        "lastFetch": "2026-10-27T05:27:22.962711+00:00",
+        "lastFetch": "2026-10-27T10:52:05.031462+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3167,7 +3178,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.rionegro.com.ar/",
-        "lastFetch": "2026-10-27T05:27:23.295889+00:00",
+        "lastFetch": "2026-10-27T10:52:06.731037+00:00",
         "success": true,
         "attempted": 2,
         "failures": [
@@ -3182,7 +3193,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.mejorinformado.com/",
-        "lastFetch": "2026-10-27T05:27:23.773636+00:00",
+        "lastFetch": "2026-10-27T10:52:07.209826+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3198,7 +3209,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.diariamenteneuquen.com/",
-        "lastFetch": "2026-10-27T05:27:24.423802+00:00",
+        "lastFetch": "2026-10-27T10:52:07.838968+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3219,14 +3230,14 @@
       "eventId": "CHA-5b8df4045776",
       "title": "Cocaína, cannabis y transferencias millonarias: las dos causas por drogas y armas que avanzan en El Chañar - Diario Río Negro",
       "publishedAt": "2026-10-26T20:30:00+00:00",
-      "firstSeen": "2026-10-25T18:18:09.482213+00:00",
+      "firstSeen": "2026-10-25T23:29:25.972376+00:00",
       "lastSeen": "2026-10-26T20:30:00+00:00",
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SERVICIOS",
-      "movement": 97,
-      "coverage": 9,
+      "movement": 95,
+      "coverage": 8,
       "sourceCount": 7,
       "directSourceCount": 0,
       "territorialAnchors": [
@@ -3238,9 +3249,9 @@
         "Neuquen Post",
         "MejorInformado.com",
         "Diario Río Negro",
-        "NoticiasNQN",
         "mpfneuquen",
-        "Minuto Neuquén"
+        "Minuto Neuquén",
+        "NoticiasNQN"
       ],
       "evidenceUrl": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOSjl6Z0dGT3Vlc2dRTDllUG54cGdKcmdlUUZQV3RnblYyVngwOXI4RzlPcEtMTFRXR3gwM010MFotZzNhVGkzWkhBYUpveDd5b0UyZm5TVDNZV0d4dFdnMWxCY3ZIVHYtTFdCZEZkQ3AwbFU1bGluMjQzZ0VMMWZOU29xUzVPaFVpLWVzWjJMWHdZcjVZZlhBb0xjRkpJbkJFYnNLakdCRmM0cTVXSVU0TlhNemFfRThjTElVTFVZM05UelBrUVEwMGQzdnBSR2tDM0Y1Z2hPVGR4SVY1X19wWjlyRl_SAewBQVVfeXFMTjdLR2NYZUNtWmpXekluT2tqUFluTjdBcHVkcmNFRm5jaVhRaGJGRVdZdUdaSklYUDJ1SGpnMUJuNDlScENWNWRQVEJwSDZabmY1TGxXVjNnRmxSQU9yWjdYX3NzVGpJcGU0ZVNSNk5FdVgzQks4LVotUXg4RjRfSFlBcVZHSmFPQ05ucG12YnpIZm5vZFM0V21CQ2lUZnVyVmtDVjQxakI4b2lsRGVVTE5aZXUwSm5VTHZZMUFzY0NnVFhyMmswcEpsOHV5MnJfNGF5VzNvN3RPNXBuLUJhRzF4X21TOVdGOV9oSTM?oc=5",
       "items": [
@@ -3302,25 +3313,6 @@
           "sourcePriority": 3
         },
         {
-          "title": "Dos imputados por vender droga en San Patricio del Chañar: quedaron en prisión preventiva - Flipr.news",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOczRSdWRrb0MzRG9YZkQ3cXF3MVVDclI5T0RtWGRzSzBqXzJnSU41Y2JrSVpzT3BNcVhxZjY4dk54eklUSDQ1bU9VS3Vqck43bk9OcWNiUjA4M2lhQTN0LVRmZXZ0MG42ZG5EZVpwZVplRUgtcTVjZXhsMkgtZ2xjYTFtTjh4d2RVa2wyRWlaNk5mQW93WngtOWlNU3VGTmFXaFBueFZ0MW9nUDB1X1htU2dPQlJUdjNmSDFvZDZ2UXUtUEkxcUFKODVLa1ZRZw?oc=5",
-          "publishedAt": "2026-10-25T22:19:46+00:00",
-          "published": "2026-10-25T22:19:46+00:00",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMizgFBVV95cUxOczRSdWRrb0MzRG9YZkQ3cXF3MVVDclI5T0RtWGRzSzBqXzJnSU41Y2JrSVpzT3BNcVhxZjY4dk54eklUSDQ1bU9VS3Vqck43bk9OcWNiUjA4M2lhQTN0LVRmZXZ0MG42ZG5EZVpwZVplRUgtcTVjZXhsMkgtZ2xjYTFtTjh4d2RVa2wyRWlaNk5mQW93WngtOWlNU3VGTmFXaFBueFZ0MW9nUDB1X1htU2dPQlJUdjNmSDFvZDZ2UXUtUEkxcUFKODVLa1ZRZw?oc=5\" target=\"_blank\">Dos imputados por vender droga en San Patricio del Chañar: quedaron en prisión preventiva</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Flipr.news</font>",
-          "source": "Flipr.news",
-          "sourceType": "BUSCADOR / RESPALDO",
-          "sourceUrl": "",
-          "collection": "BUSCADOR",
-          "query": "\"San Patricio del Chañar\"",
-          "relevance": 3,
-          "relevanceLabel": "DIRECTA",
-          "firstSeen": "2026-10-27T05:27:32.956146+00:00",
-          "isNew": true,
-          "titleKey": "dos imputados vender droga quedaron prision preventiva flipr news",
-          "evidenceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOczRSdWRrb0MzRG9YZkQ3cXF3MVVDclI5T0RtWGRzSzBqXzJnSU41Y2JrSVpzT3BNcVhxZjY4dk54eklUSDQ1bU9VS3Vqck43bk9OcWNiUjA4M2lhQTN0LVRmZXZ0MG42ZG5EZVpwZVplRUgtcTVjZXhsMkgtZ2xjYTFtTjh4d2RVa2wyRWlaNk5mQW93WngtOWlNU3VGTmFXaFBueFZ0MW9nUDB1X1htU2dPQlJUdjNmSDFvZDZ2UXUtUEkxcUFKODVLa1ZRZw?oc=5",
-          "sourcePriority": 3
-        },
-        {
           "title": "Dos imputados por vender droga en San Patricio del Chañar: quedaron en prisión preventiva - MejorInformado.com",
           "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNdHpTX2F1UXlHcW1LcFJBY1FneElESEN5elRPTnlGV1h4VFVsRWE3N3RrN1RFTjdmUTE5RDlNS21uZGRaR1RQY3pTYkFGMjF3WVphRVZWYkY4cGRkc1VOajlsNktTMWc4UnpvaTJJd3o4VWpwQ2JiMjUtdHh2WkEwMnZIWWphQWt5Sm9NYU1hdW5LU2U5SGVLaTlOVTVUV2xlVWs5MU5XdHFQdXV3RHU4Qkp0WmE4Z1Z0bWVyQ1oxLWNiN055UlHSAcYBQVVfeXFMTXR6U19hdVF5R3FtS3BSQWNRZ3hJREhDeXpUT055RldYeFRVbEVhNzd0azdURU43ZlExOUQ5TUttbmRkWkdUUGN6U2JBRjIxd1laYUVWVmJGOHBkZHNVTmo5bDZLUzFnOFJ6b2kySXd6OFVqcENiYjI1LXR4dlpBMDJ2SFlqYUFreUpvTWFNYXVuS1NlOUhlS2k5TlU1VFdsZVVrOTFOV3RxUHV1d0R1OEJKdFphOGdWdG1lckNaMS1jYjdOeVJR?oc=5",
           "publishedAt": "2026-10-25T19:15:20+00:00",
@@ -3359,25 +3351,6 @@
           "sourcePriority": 3
         },
         {
-          "title": "Allanamientos en San Patricio del Chañar: dos imputados quedaron presos y otro tendrá prisión domiciliaria - NoticiasNQN",
-          "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOc1hnOXBKSHlfMEoxdWRGQjRlOElZb2FCNktObFhZSk1tQ0l4OHo4RVpPaUJXVjZRY3REYlQ1OVBWb2lfcTRHbDNtTVlpOU4xWm5CajRyVExMU1JCaVg0Vm1EUWVySHc4WnNZYnBpc3JBQWN5T3NZVHNVZkNIdnU4OXVLOVlvSjE2OWxIaGg4dmliYnkzNmdhODc4MkRoUUExc2diRVZMQWpsQTh1dlR0WTZqMVVBQUdpRFA2MVpoQTF3LXZpTlR5cVdTU09zOGdETTJUTTkwVnFwTjNPT2E3M1U3OGM3WFFrYWRhNUhJODh4Q0tGVlHSAfsBQVVfeXFMTnZxbzdpLWVrZjVxQWFWUzlNckRUVHlrMUlkNWhuZGdfQ3JYTVN1X1Q1N2N0TEVmSHZTMTgwSHhBSXZLckVEQ3BtRnpYcThEWGI4Um8xTnRlRVpOOWZQT0Zwb003NmZmZUF2YWlnNlB3MTRNUUZLeDN6OTVLc1JWUVd1RmdHemhIQ3hZR2tvOV9hVVFCbTl3MG9lU0k3OEtkRU9xUTFOejRCZGZGTExNOUg3NThLS1lQYzk2MkpXRWJoSlVCT3p2dlRLR3BOUjRCVGk5STFUdWpMR25wUHd4N1Y1ZGN1LTdXSkxwWWRaZkVfMUIyOEFYRFJFQ1U?oc=5",
-          "publishedAt": "2026-10-25T17:00:46+00:00",
-          "published": "2026-10-25T17:00:46+00:00",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMi9gFBVV95cUxOc1hnOXBKSHlfMEoxdWRGQjRlOElZb2FCNktObFhZSk1tQ0l4OHo4RVpPaUJXVjZRY3REYlQ1OVBWb2lfcTRHbDNtTVlpOU4xWm5CajRyVExMU1JCaVg0Vm1EUWVySHc4WnNZYnBpc3JBQWN5T3NZVHNVZkNIdnU4OXVLOVlvSjE2OWxIaGg4dmliYnkzNmdhODc4MkRoUUExc2diRVZMQWpsQTh1dlR0WTZqMVVBQUdpRFA2MVpoQTF3LXZpTlR5cVdTU09zOGdETTJUTTkwVnFwTjNPT2E3M1U3OGM3WFFrYWRhNUhJODh4Q0tGVlHSAfsBQVVfeXFMTnZxbzdpLWVrZjVxQWFWUzlNckRUVHlrMUlkNWhuZGdfQ3JYTVN1X1Q1N2N0TEVmSHZTMTgwSHhBSXZLckVEQ3BtRnpYcThEWGI4Um8xTnRlRVpOOWZQT0Zwb003NmZmZUF2YWlnNlB3MTRNUUZLeDN6OTVLc1JWUVd1RmdHemhIQ3hZR2tvOV9hVVFCbTl3MG9lU0k3OEtkRU9xUTFOejRCZGZGTExNOUg3NThLS1lQYzk2MkpXRWJoSlVCT3p2dlRLR3BOUjRCVGk5STFUdWpMR25wUHd4N1Y1ZGN1LTdXSkxwWWRaZkVfMUIyOEFYRFJFQ1U?oc=5\" target=\"_blank\">Allanamientos en San Patricio del Chañar: dos imputados quedaron presos y otro tendrá prisión domiciliaria</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NoticiasNQN</font>",
-          "source": "NoticiasNQN",
-          "sourceType": "BUSCADOR / RESPALDO",
-          "sourceUrl": "",
-          "collection": "BUSCADOR",
-          "query": "\"San Patricio del Chañar\"",
-          "relevance": 3,
-          "relevanceLabel": "DIRECTA",
-          "firstSeen": "2026-10-25T18:18:09.482213+00:00",
-          "isNew": false,
-          "titleKey": "allanamientos dos imputados quedaron presos otro tendra prision domiciliaria noticiasnqn",
-          "evidenceUrl": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOc1hnOXBKSHlfMEoxdWRGQjRlOElZb2FCNktObFhZSk1tQ0l4OHo4RVpPaUJXVjZRY3REYlQ1OVBWb2lfcTRHbDNtTVlpOU4xWm5CajRyVExMU1JCaVg0Vm1EUWVySHc4WnNZYnBpc3JBQWN5T3NZVHNVZkNIdnU4OXVLOVlvSjE2OWxIaGg4dmliYnkzNmdhODc4MkRoUUExc2diRVZMQWpsQTh1dlR0WTZqMVVBQUdpRFA2MVpoQTF3LXZpTlR5cVdTU09zOGdETTJUTTkwVnFwTjNPT2E3M1U3OGM3WFFrYWRhNUhJODh4Q0tGVlHSAfsBQVVfeXFMTnZxbzdpLWVrZjVxQWFWUzlNckRUVHlrMUlkNWhuZGdfQ3JYTVN1X1Q1N2N0TEVmSHZTMTgwSHhBSXZLckVEQ3BtRnpYcThEWGI4Um8xTnRlRVpOOWZQT0Zwb003NmZmZUF2YWlnNlB3MTRNUUZLeDN6OTVLc1JWUVd1RmdHemhIQ3hZR2tvOV9hVVFCbTl3MG9lU0k3OEtkRU9xUTFOejRCZGZGTExNOUg3NThLS1lQYzk2MkpXRWJoSlVCT3p2dlRLR3BOUjRCVGk5STFUdWpMR25wUHd4N1Y1ZGN1LTdXSkxwWWRaZkVfMUIyOEFYRFJFQ1U?oc=5",
-          "sourcePriority": 3
-        },
-        {
           "title": "Imputaron a dos personas por vender drogas en San Patricio del Chañar y quedaron en prisión preventiva - mpfneuquen",
           "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQVmt0T2xsYldUQWFady0zR2R2UUI2U1FyQXJlamx3TVdRMndpWnNheTc0MjFQU1p3MDJ6RGVYa01EZ3lKZU5SYnQxUzdzTnBoQXNKZzlVclNHd0FFbXR0TW9KLTZ6NFJ0TGlJRVJSM1hISXdXXzg3bEZNUGxkSk9vQTFCeDllZUUwYkNtdm83XzdKOWVMRUVMSm1qUmx5eVZROGdQZ3p3aVNMZzI3OHVvbDBEY1pQNExVRkV4dG9NajYxcE5neEtDR29yVmwyYUExRzlhWHFEMGhLY19HOV94TUZVZFE0NlFGZ0haVTk1NVRaaFlKODZYTHFiYWRhVVBRZHJRcmdCWQ?oc=5",
           "publishedAt": "2026-10-25T16:01:55+00:00",
@@ -3395,13 +3368,52 @@
           "titleKey": "imputaron dos personas vender drogas quedaron prision preventiva mpfneuquen",
           "evidenceUrl": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQVmt0T2xsYldUQWFady0zR2R2UUI2U1FyQXJlamx3TVdRMndpWnNheTc0MjFQU1p3MDJ6RGVYa01EZ3lKZU5SYnQxUzdzTnBoQXNKZzlVclNHd0FFbXR0TW9KLTZ6NFJ0TGlJRVJSM1hISXdXXzg3bEZNUGxkSk9vQTFCeDllZUUwYkNtdm83XzdKOWVMRUVMSm1qUmx5eVZROGdQZ3p3aVNMZzI3OHVvbDBEY1pQNExVRkV4dG9NajYxcE5neEtDR29yVmwyYUExRzlhWHFEMGhLY19HOV94TUZVZFE0NlFGZ0haVTk1NVRaaFlKODZYTHFiYWRhVVBRZHJRcmdCWQ?oc=5",
           "sourcePriority": 3
+        },
+        {
+          "title": "Golpe al narcomenudeo: realizaron 11 allanamientos entre Neuquén capital y San Patricio del Chañar - Minuto Neuquén",
+          "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNbDBhRWF4NGRzMXZfYjZ2c3VhcHVGdlZBYkhkeC0tZ2J0MWxtTU02ak04NlY4aDRsU0dRd21qWEpDV0w4aDdwNF9mZDhnbmtZbERIRGl3R1haOWlQX2pHX2xLYllxbEdsM1RGWjV0eGI1Q3I3b2N3RVkyYTIybHBaUjhTUE4tb3V4YmdsX2FQSlkzR1JieHJVY3VUUGpKdzRObXc3UF9MWGJ3T1Qyai1vN01tVTl1M3dFOUJNUWg1UWREZU15aGloYVRXQXpWcnhoT05fVFdVT2ZlSGNySW9ybDQ2Z1Q1NnRmVGdFbnFPZw?oc=5",
+          "publishedAt": "2026-10-26T20:30:00+00:00",
+          "published": "2026-10-26T20:30:00+00:00",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMi7wFBVV95cUxNbDBhRWF4NGRzMXZfYjZ2c3VhcHVGdlZBYkhkeC0tZ2J0MWxtTU02ak04NlY4aDRsU0dRd21qWEpDV0w4aDdwNF9mZDhnbmtZbERIRGl3R1haOWlQX2pHX2xLYllxbEdsM1RGWjV0eGI1Q3I3b2N3RVkyYTIybHBaUjhTUE4tb3V4YmdsX2FQSlkzR1JieHJVY3VUUGpKdzRObXc3UF9MWGJ3T1Qyai1vN01tVTl1M3dFOUJNUWg1UWREZU15aGloYVRXQXpWcnhoT05fVFdVT2ZlSGNySW9ybDQ2Z1Q1NnRmVGdFbnFPZw?oc=5\" target=\"_blank\">Golpe al narcomenudeo: realizaron 11 allanamientos entre Neuquén capital y San Patricio del Chañar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Minuto Neuquén</font>",
+          "source": "Minuto Neuquén",
+          "sourceType": "BUSCADOR / RESPALDO",
+          "sourceUrl": "",
+          "collection": "BUSCADOR",
+          "query": "\"San Patricio del Chañar\"",
+          "relevance": 3,
+          "relevanceLabel": "DIRECTA",
+          "firstSeen": "2026-10-26T20:41:34.231085+00:00",
+          "isNew": false,
+          "titleKey": "golpe narcomenudeo realizaron allanamientos entre capital minuto",
+          "evidenceUrl": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNbDBhRWF4NGRzMXZfYjZ2c3VhcHVGdlZBYkhkeC0tZ2J0MWxtTU02ak04NlY4aDRsU0dRd21qWEpDV0w4aDdwNF9mZDhnbmtZbERIRGl3R1haOWlQX2pHX2xLYllxbEdsM1RGWjV0eGI1Q3I3b2N3RVkyYTIybHBaUjhTUE4tb3V4YmdsX2FQSlkzR1JieHJVY3VUUGpKdzRObXc3UF9MWGJ3T1Qyai1vN01tVTl1M3dFOUJNUWg1UWREZU15aGloYVRXQXpWcnhoT05fVFdVT2ZlSGNySW9ybDQ2Z1Q1NnRmVGdFbnFPZw?oc=5",
+          "sourcePriority": 3
+        },
+        {
+          "title": "Allanamientos en San Patricio del Chañar: dos imputados quedaron presos y otro tendrá prisión domiciliaria - NoticiasNQN",
+          "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOc1hnOXBKSHlfMEoxdWRGQjRlOElZb2FCNktObFhZSk1tQ0l4OHo4RVpPaUJXVjZRY3REYlQ1OVBWb2lfcTRHbDNtTVlpOU4xWm5CajRyVExMU1JCaVg0Vm1EUWVySHc4WnNZYnBpc3JBQWN5T3NZVHNVZkNIdnU4OXVLOVlvSjE2OWxIaGg4dmliYnkzNmdhODc4MkRoUUExc2diRVZMQWpsQTh1dlR0WTZqMVVBQUdpRFA2MVpoQTF3LXZpTlR5cVdTU09zOGdETTJUTTkwVnFwTjNPT2E3M1U3OGM3WFFrYWRhNUhJODh4Q0tGVlHSAfsBQVVfeXFMTnZxbzdpLWVrZjVxQWFWUzlNckRUVHlrMUlkNWhuZGdfQ3JYTVN1X1Q1N2N0TEVmSHZTMTgwSHhBSXZLckVEQ3BtRnpYcThEWGI4Um8xTnRlRVpOOWZQT0Zwb003NmZmZUF2YWlnNlB3MTRNUUZLeDN6OTVLc1JWUVd1RmdHemhIQ3hZR2tvOV9hVVFCbTl3MG9lU0k3OEtkRU9xUTFOejRCZGZGTExNOUg3NThLS1lQYzk2MkpXRWJoSlVCT3p2dlRLR3BOUjRCVGk5STFUdWpMR25wUHd4N1Y1ZGN1LTdXSkxwWWRaZkVfMUIyOEFYRFJFQ1U?oc=5",
+          "publishedAt": "2026-10-25T17:00:46+00:00",
+          "published": "2026-10-25T17:00:46+00:00",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMi9gFBVV95cUxOc1hnOXBKSHlfMEoxdWRGQjRlOElZb2FCNktObFhZSk1tQ0l4OHo4RVpPaUJXVjZRY3REYlQ1OVBWb2lfcTRHbDNtTVlpOU4xWm5CajRyVExMU1JCaVg0Vm1EUWVySHc4WnNZYnBpc3JBQWN5T3NZVHNVZkNIdnU4OXVLOVlvSjE2OWxIaGg4dmliYnkzNmdhODc4MkRoUUExc2diRVZMQWpsQTh1dlR0WTZqMVVBQUdpRFA2MVpoQTF3LXZpTlR5cVdTU09zOGdETTJUTTkwVnFwTjNPT2E3M1U3OGM3WFFrYWRhNUhJODh4Q0tGVlHSAfsBQVVfeXFMTnZxbzdpLWVrZjVxQWFWUzlNckRUVHlrMUlkNWhuZGdfQ3JYTVN1X1Q1N2N0TEVmSHZTMTgwSHhBSXZLckVEQ3BtRnpYcThEWGI4Um8xTnRlRVpOOWZQT0Zwb003NmZmZUF2YWlnNlB3MTRNUUZLeDN6OTVLc1JWUVd1RmdHemhIQ3hZR2tvOV9hVVFCbTl3MG9lU0k3OEtkRU9xUTFOejRCZGZGTExNOUg3NThLS1lQYzk2MkpXRWJoSlVCT3p2dlRLR3BOUjRCVGk5STFUdWpMR25wUHd4N1Y1ZGN1LTdXSkxwWWRaZkVfMUIyOEFYRFJFQ1U?oc=5\" target=\"_blank\">Allanamientos en San Patricio del Chañar: dos imputados quedaron presos y otro tendrá prisión domiciliaria</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NoticiasNQN</font>",
+          "source": "NoticiasNQN",
+          "sourceType": "BUSCADOR / RESPALDO",
+          "sourceUrl": "",
+          "collection": "BUSCADOR",
+          "query": "\"San Patricio del Chañar\"",
+          "relevance": 3,
+          "relevanceLabel": "DIRECTA",
+          "firstSeen": "2026-10-25T18:18:09.482213+00:00",
+          "isNew": false,
+          "titleKey": "allanamientos dos imputados quedaron presos otro tendra prision domiciliaria noticiasnqn",
+          "evidenceUrl": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOc1hnOXBKSHlfMEoxdWRGQjRlOElZb2FCNktObFhZSk1tQ0l4OHo4RVpPaUJXVjZRY3REYlQ1OVBWb2lfcTRHbDNtTVlpOU4xWm5CajRyVExMU1JCaVg0Vm1EUWVySHc4WnNZYnBpc3JBQWN5T3NZVHNVZkNIdnU4OXVLOVlvSjE2OWxIaGg4dmliYnkzNmdhODc4MkRoUUExc2diRVZMQWpsQTh1dlR0WTZqMVVBQUdpRFA2MVpoQTF3LXZpTlR5cVdTU09zOGdETTJUTTkwVnFwTjNPT2E3M1U3OGM3WFFrYWRhNUhJODh4Q0tGVlHSAfsBQVVfeXFMTnZxbzdpLWVrZjVxQWFWUzlNckRUVHlrMUlkNWhuZGdfQ3JYTVN1X1Q1N2N0TEVmSHZTMTgwSHhBSXZLckVEQ3BtRnpYcThEWGI4Um8xTnRlRVpOOWZQT0Zwb003NmZmZUF2YWlnNlB3MTRNUUZLeDN6OTVLc1JWUVd1RmdHemhIQ3hZR2tvOV9hVVFCbTl3MG9lU0k3OEtkRU9xUTFOejRCZGZGTExNOUg3NThLS1lQYzk2MkpXRWJoSlVCT3p2dlRLR3BOUjRCVGk5STFUdWpMR25wUHd4N1Y1ZGN1LTdXSkxwWWRaZkVfMUIyOEFYRFJFQ1U?oc=5",
+          "sourcePriority": 3
         }
       ],
       "lifecycle": "ACTIVO",
-      "movementDelta": -1,
-      "previousCoverage": 8,
+      "movementDelta": -2,
+      "previousCoverage": 9,
       "newSources": [
-        "Minuto Neuquén"
+        "Minuto Neuquén",
+        "NoticiasNQN"
       ],
       "sourceDiversity": 7,
       "memoryMatched": true,
@@ -3444,7 +3456,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "DEPORTE",
-      "movement": 53,
+      "movement": 51,
       "coverage": 1,
       "sourceCount": 1,
       "directSourceCount": 0,
@@ -3477,8 +3489,8 @@
           "sourcePriority": 3
         }
       ],
-      "lifecycle": "EMERGENTE",
-      "movementDelta": -1,
+      "lifecycle": "SOSTENIDO",
+      "movementDelta": -2,
       "previousCoverage": 1,
       "newSources": [],
       "sourceDiversity": 1,
@@ -3522,7 +3534,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SEGURIDAD / EMERGENCIAS",
-      "movement": 49,
+      "movement": 48,
       "coverage": 3,
       "sourceCount": 3,
       "directSourceCount": 0,
@@ -3597,7 +3609,7 @@
         }
       ],
       "lifecycle": "SOSTENIDO",
-      "movementDelta": -2,
+      "movementDelta": -1,
       "previousCoverage": 3,
       "newSources": [],
       "sourceDiversity": 3,
@@ -3649,9 +3661,9 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "MOVILIDAD",
-      "movement": 48,
-      "coverage": 3,
-      "sourceCount": 3,
+      "movement": 46,
+      "coverage": 2,
+      "sourceCount": 2,
       "directSourceCount": 0,
       "territorialAnchors": [
         "san patricio del chañar",
@@ -3660,8 +3672,7 @@
       ],
       "sources": [
         "Diario Neuquino",
-        "Diario Río Negro",
-        "NoticiasNQN"
+        "Diario Río Negro"
       ],
       "evidenceUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPdlZmTThheTJyUTBuamRoM3R6dkd5clFVdE1hWFo2TjdhSEFVNDgzUVRKMlpDWDRPTTZjNE9ob3NpcmpXeDItQ0xCNHRxU1FEeFktUzdYTzNEUDBvVlpsdmF6Rl94QnNianRLZGdpeDY4dkdzdzRsMGlxMFN3OGlBV3dlRG5mSFkzSE5iSzI4bDEwQVVMclRUNGxKRVJ4WEhrSzRDU3BNUHlRY1JEekN2Zjd6YmV2MkUzWW1YN3dyX2lJUllIWlNtZ1FwSFFnbkpsVGtIYzZCb3AyQjA?oc=5",
       "items": [
@@ -3702,34 +3713,13 @@
           "titleKey": "fuerte choque complico transito ruta cerca paso diario rio negro",
           "evidenceUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNNl9jYnNQajktaWdNbFdnQWFSMS1fZkVobzA4dnVPTklVMkhXYnJqcm1EN2NEUUxoRHhKbHJwb0lmd3JfX0FWcHdtSjJscElGaURSdXhzWWhXMzVOUF9QcG5Ka2dOU1ZYOGYxWm5zME8xbUxBR2pOaVNUbzluYUwzalNybW9pSVFzajVqaFp2emFvN2dQZ1Z6Rkxaa1I3OHR4MmZGRXB0ZW5Ba21SUVJqbGY1YkJrdDd3WkRnSEc0RG5JRktEMDR0LU5KMUlZUjVOc2fSAdoBQVVfeXFMTjZXVnE2OFoxc3ctQkQxWURaZUF4WEstcHNYZDdLZDJUMW1PQXpSUlV6Y3Yya29Lc19aTWNoei13QzF0bllYZG5NTHI1Z2YyT09xUmN3WkM5RHlRMktzemNOVWE5cUZvV1NyeGh5ZmpvTFRvVkd0SnRZZmhuZXJrcVFhdW9uYndvOUVxNmZ1TlowMXY2TXhtbEl5LWJsSGdNM09rcjBTeTh1WjhDLVd5OFdQemV3M3hGa1Y4WVhZQjBqV2FfS1VUTldZZXUwN3pzUUhfYkd2WXpnOUE?oc=5",
           "sourcePriority": 3
-        },
-        {
-          "title": "Choque entre un camión y dos camionetas sobre la Ruta 7 en el Chañar - NoticiasNQN",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNdG5CSUNHb2tWb3ptQW1JaFFPb2JYQnp2enI4MEN3ellaQS1vU3RRZGFpTmVlcVJzazNRSklUSnBoUVRNbGFab1FZWTloZWdiT2JNNXMyR3dQU3dIVW9SREV0WEExOHh5ZUVEODhhamFaRFN2NDMwbHhibG1KRzRLbmVIdWNDaENBNXpMaDc4NUhQaWZ3WWxUY19FWmxXdDl6WW1mbTQ5a3NwaEdTUXJSX0xoaGFpZ3FiVmtTNW10YlpiSlhL0gHKAUFVX3lxTE5JSjVqM3BnRlNfVm5fTTBTa0hUZkU4RVJORkRfRkVtNlFmYVdmNUI4Nzc2S3FSVmVIcml5VXlXRGdrTTg4VWJfenF3XzdVTE81TFJYMGUtR2ozbEdNREJnN0hJajRZYXRfQTVnc3lSMVhEODdaaFlZcTZnMXBKQmNUNGpyTTNGcU1iU2kyZG5WWFl1blhYcjhMREc0TDdvdUV1UVRDMEJncXpXamhhaVZGWm9GbkdLSGVrRUxmRndnOE02Nk9oaGdzVWc?oc=5",
-          "publishedAt": "2026-10-22T13:39:20+00:00",
-          "published": "2026-10-22T13:39:20+00:00",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMixAFBVV95cUxNdG5CSUNHb2tWb3ptQW1JaFFPb2JYQnp2enI4MEN3ellaQS1vU3RRZGFpTmVlcVJzazNRSklUSnBoUVRNbGFab1FZWTloZWdiT2JNNXMyR3dQU3dIVW9SREV0WEExOHh5ZUVEODhhamFaRFN2NDMwbHhibG1KRzRLbmVIdWNDaENBNXpMaDc4NUhQaWZ3WWxUY19FWmxXdDl6WW1mbTQ5a3NwaEdTUXJSX0xoaGFpZ3FiVmtTNW10YlpiSlhL0gHKAUFVX3lxTE5JSjVqM3BnRlNfVm5fTTBTa0hUZkU4RVJORkRfRkVtNlFmYVdmNUI4Nzc2S3FSVmVIcml5VXlXRGdrTTg4VWJfenF3XzdVTE81TFJYMGUtR2ozbEdNREJnN0hJajRZYXRfQTVnc3lSMVhEODdaaFlZcTZnMXBKQmNUNGpyTTNGcU1iU2kyZG5WWFl1blhYcjhMREc0TDdvdUV1UVRDMEJncXpXamhhaVZGWm9GbkdLSGVrRUxmRndnOE02Nk9oaGdzVWc?oc=5\" target=\"_blank\">Choque entre un camión y dos camionetas sobre la Ruta 7 en el Chañar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NoticiasNQN</font>",
-          "source": "NoticiasNQN",
-          "sourceType": "BUSCADOR / RESPALDO",
-          "sourceUrl": "",
-          "collection": "BUSCADOR",
-          "query": "\"San Patricio del Chañar\"",
-          "relevance": 3,
-          "relevanceLabel": "DIRECTA",
-          "firstSeen": "2026-10-22T23:32:55.391801+00:00",
-          "isNew": false,
-          "titleKey": "choque entre camion dos camionetas ruta noticiasnqn",
-          "evidenceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNdG5CSUNHb2tWb3ptQW1JaFFPb2JYQnp2enI4MEN3ellaQS1vU3RRZGFpTmVlcVJzazNRSklUSnBoUVRNbGFab1FZWTloZWdiT2JNNXMyR3dQU3dIVW9SREV0WEExOHh5ZUVEODhhamFaRFN2NDMwbHhibG1KRzRLbmVIdWNDaENBNXpMaDc4NUhQaWZ3WWxUY19FWmxXdDl6WW1mbTQ5a3NwaEdTUXJSX0xoaGFpZ3FiVmtTNW10YlpiSlhL0gHKAUFVX3lxTE5JSjVqM3BnRlNfVm5fTTBTa0hUZkU4RVJORkRfRkVtNlFmYVdmNUI4Nzc2S3FSVmVIcml5VXlXRGdrTTg4VWJfenF3XzdVTE81TFJYMGUtR2ozbEdNREJnN0hJajRZYXRfQTVnc3lSMVhEODdaaFlZcTZnMXBKQmNUNGpyTTNGcU1iU2kyZG5WWFl1blhYcjhMREc0TDdvdUV1UVRDMEJncXpXamhhaVZGWm9GbkdLSGVrRUxmRndnOE02Nk9oaGdzVWc?oc=5",
-          "sourcePriority": 3
         }
       ],
       "lifecycle": "SOSTENIDO",
-      "movementDelta": -1,
+      "movementDelta": -2,
       "previousCoverage": 3,
-      "newSources": [
-        "NoticiasNQN"
-      ],
-      "sourceDiversity": 3,
+      "newSources": [],
+      "sourceDiversity": 2,
       "memoryMatched": true,
       "isNew": false,
       "view": "INCIDENCIA",
@@ -3778,7 +3768,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SERVICIOS",
-      "movement": 43,
+      "movement": 42,
       "coverage": 3,
       "sourceCount": 2,
       "directSourceCount": 0,
@@ -3851,7 +3841,7 @@
         }
       ],
       "lifecycle": "ACTIVO",
-      "movementDelta": 27,
+      "movementDelta": 26,
       "previousCoverage": 1,
       "newSources": [
         "Chañar Digital",
@@ -3891,14 +3881,14 @@
     {
       "eventId": "CHA-b816538f7fd0",
       "title": "Bodega Familia Schroeder llevó una selección de sus vinos a la AOG Patagonia 2026 - Lmneuquen.com",
-      "publishedAt": "2026-10-23T17:40:23+00:00",
-      "firstSeen": "2026-10-27T05:27:32.956146+00:00",
-      "lastSeen": "2026-10-23T17:40:23+00:00",
+      "publishedAt": "2026-10-23T16:35:00+00:00",
+      "firstSeen": "2026-10-27T10:52:17.276386+00:00",
+      "lastSeen": "2026-10-23T16:35:00+00:00",
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "PRODUCCIÓN",
-      "movement": 38,
+      "movement": 37,
       "coverage": 1,
       "sourceCount": 1,
       "directSourceCount": 0,
@@ -3908,14 +3898,14 @@
       "sources": [
         "Lmneuquen.com"
       ],
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPRy1nRGVNbUZ2cl9Sd1hzNDEyeENiMi1xdkJaNF9TaWU5UFBzaEFBUTV6RGVNQ09kaVBhWXpCSlR4YTFXMzVqQUtZRGg1REJMWFhscmRVMGNWNmFXbGFLR00xMWZBbGl6Yk1KbncwemJvN1dLdUFMX0Eyb0lqS2lmaWJnZ21NWDcxeHBWN0dWaXZzX2JYbjE2NGR3b09UUU9JZXdVOXpJNERxanhRekE2NkVlRjh6U0NYVGc2NmNUTlVzRkpkdHpV0gHHAUFVX3lxTE9HLWdEZU1tRnZyX1J3WHM0MTJ4Q2IyLXF2Qlo0X1NpZTlQUHNoQUFRNXpEZU1DT2RpUGFZekJKVHhhMVczNWpBS1lEaDVEQkxYWGxyZFUwY1Y2YVdsYUtHTTExZkFsaXpiTUpudzB6Ym83V0t1QUxfQTJvSWpLaWZpYmdnbU1YNzF4cFY3R1ZpdnNfYlhuMTY0ZHdvT1RRT0lld1U5ekk0RHFqeFF6QTY2RWVGOHpTQ1hUZzY2Y1ROVXNGSmR0elU?oc=5",
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQbDRGdHZNMDljbG5wbF9nY2hVZlA3VEZ4aVpYX04tTmxXWk5LTVNYZWhESWRBOVZmZENIVEM5S1ZqaHhxZFhvcmVGSW5JblBudUNkSkZZZXVpd0ZrTDFxbUNmaUNGbTQ3MnJhNW8tZWZXUGxvOG5yVVlsRkpEaEo2dzQ1RWFUN0pnOGs2N1MwNGNMSVFEXzdvOXd0Y25OT2lvWHRrY2xYaVNiWXRfbzVxSktQcmFrME9PdXlkcndpQnVzd9IBxwFBVV95cUxPRy1nRGVNbUZ2cl9Sd1hzNDEyeENiMi1xdkJaNF9TaWU5UFBzaEFBUTV6RGVNQ09kaVBhWXpCSlR4YTFXMzVqQUtZRGg1REJMWFhscmRVMGNWNmFXbGFLR00xMWZBbGl6Yk1KbncwemJvN1dLdUFMX0Eyb0lqS2lmaWJnZ21NWDcxeHBWN0dWaXZzX2JYbjE2NGR3b09UUU9JZXdVOXpJNERxanhRekE2NkVlRjh6U0NYVGc2NmNUTlVzRkpkdHpV?oc=5",
       "items": [
         {
           "title": "Bodega Familia Schroeder llevó una selección de sus vinos a la AOG Patagonia 2026 - Lmneuquen.com",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPRy1nRGVNbUZ2cl9Sd1hzNDEyeENiMi1xdkJaNF9TaWU5UFBzaEFBUTV6RGVNQ09kaVBhWXpCSlR4YTFXMzVqQUtZRGg1REJMWFhscmRVMGNWNmFXbGFLR00xMWZBbGl6Yk1KbncwemJvN1dLdUFMX0Eyb0lqS2lmaWJnZ21NWDcxeHBWN0dWaXZzX2JYbjE2NGR3b09UUU9JZXdVOXpJNERxanhRekE2NkVlRjh6U0NYVGc2NmNUTlVzRkpkdHpV0gHHAUFVX3lxTE9HLWdEZU1tRnZyX1J3WHM0MTJ4Q2IyLXF2Qlo0X1NpZTlQUHNoQUFRNXpEZU1DT2RpUGFZekJKVHhhMVczNWpBS1lEaDVEQkxYWGxyZFUwY1Y2YVdsYUtHTTExZkFsaXpiTUpudzB6Ym83V0t1QUxfQTJvSWpLaWZpYmdnbU1YNzF4cFY3R1ZpdnNfYlhuMTY0ZHdvT1RRT0lld1U5ekk0RHFqeFF6QTY2RWVGOHpTQ1hUZzY2Y1ROVXNGSmR0elU?oc=5",
-          "publishedAt": "2026-10-23T17:40:23+00:00",
-          "published": "2026-10-23T17:40:23+00:00",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMixwFBVV95cUxPRy1nRGVNbUZ2cl9Sd1hzNDEyeENiMi1xdkJaNF9TaWU5UFBzaEFBUTV6RGVNQ09kaVBhWXpCSlR4YTFXMzVqQUtZRGg1REJMWFhscmRVMGNWNmFXbGFLR00xMWZBbGl6Yk1KbncwemJvN1dLdUFMX0Eyb0lqS2lmaWJnZ21NWDcxeHBWN0dWaXZzX2JYbjE2NGR3b09UUU9JZXdVOXpJNERxanhRekE2NkVlRjh6U0NYVGc2NmNUTlVzRkpkdHpV0gHHAUFVX3lxTE9HLWdEZU1tRnZyX1J3WHM0MTJ4Q2IyLXF2Qlo0X1NpZTlQUHNoQUFRNXpEZU1DT2RpUGFZekJKVHhhMVczNWpBS1lEaDVEQkxYWGxyZFUwY1Y2YVdsYUtHTTExZkFsaXpiTUpudzB6Ym83V0t1QUxfQTJvSWpLaWZpYmdnbU1YNzF4cFY3R1ZpdnNfYlhuMTY0ZHdvT1RRT0lld1U5ekk0RHFqeFF6QTY2RWVGOHpTQ1hUZzY2Y1ROVXNGSmR0elU?oc=5\" target=\"_blank\">Bodega Familia Schroeder llevó una selección de sus vinos a la AOG Patagonia 2026</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Lmneuquen.com</font>",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQbDRGdHZNMDljbG5wbF9nY2hVZlA3VEZ4aVpYX04tTmxXWk5LTVNYZWhESWRBOVZmZENIVEM5S1ZqaHhxZFhvcmVGSW5JblBudUNkSkZZZXVpd0ZrTDFxbUNmaUNGbTQ3MnJhNW8tZWZXUGxvOG5yVVlsRkpEaEo2dzQ1RWFUN0pnOGs2N1MwNGNMSVFEXzdvOXd0Y25OT2lvWHRrY2xYaVNiWXRfbzVxSktQcmFrME9PdXlkcndpQnVzd9IBxwFBVV95cUxPRy1nRGVNbUZ2cl9Sd1hzNDEyeENiMi1xdkJaNF9TaWU5UFBzaEFBUTV6RGVNQ09kaVBhWXpCSlR4YTFXMzVqQUtZRGg1REJMWFhscmRVMGNWNmFXbGFLR00xMWZBbGl6Yk1KbncwemJvN1dLdUFMX0Eyb0lqS2lmaWJnZ21NWDcxeHBWN0dWaXZzX2JYbjE2NGR3b09UUU9JZXdVOXpJNERxanhRekE2NkVlRjh6U0NYVGc2NmNUTlVzRkpkdHpV?oc=5",
+          "publishedAt": "2026-10-23T16:35:00+00:00",
+          "published": "2026-10-23T16:35:00+00:00",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMiwgFBVV95cUxQbDRGdHZNMDljbG5wbF9nY2hVZlA3VEZ4aVpYX04tTmxXWk5LTVNYZWhESWRBOVZmZENIVEM5S1ZqaHhxZFhvcmVGSW5JblBudUNkSkZZZXVpd0ZrTDFxbUNmaUNGbTQ3MnJhNW8tZWZXUGxvOG5yVVlsRkpEaEo2dzQ1RWFUN0pnOGs2N1MwNGNMSVFEXzdvOXd0Y25OT2lvWHRrY2xYaVNiWXRfbzVxSktQcmFrME9PdXlkcndpQnVzd9IBxwFBVV95cUxPRy1nRGVNbUZ2cl9Sd1hzNDEyeENiMi1xdkJaNF9TaWU5UFBzaEFBUTV6RGVNQ09kaVBhWXpCSlR4YTFXMzVqQUtZRGg1REJMWFhscmRVMGNWNmFXbGFLR00xMWZBbGl6Yk1KbncwemJvN1dLdUFMX0Eyb0lqS2lmaWJnZ21NWDcxeHBWN0dWaXZzX2JYbjE2NGR3b09UUU9JZXdVOXpJNERxanhRekE2NkVlRjh6U0NYVGc2NmNUTlVzRkpkdHpV?oc=5\" target=\"_blank\">Bodega Familia Schroeder llevó una selección de sus vinos a la AOG Patagonia 2026</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Lmneuquen.com</font>",
           "source": "Lmneuquen.com",
           "sourceType": "BUSCADOR / RESPALDO",
           "sourceUrl": "",
@@ -3923,10 +3913,10 @@
           "query": "\"San Patricio del Chañar\"",
           "relevance": 3,
           "relevanceLabel": "DIRECTA",
-          "firstSeen": "2026-10-27T05:27:32.956146+00:00",
+          "firstSeen": "2026-10-27T10:52:17.276386+00:00",
           "isNew": true,
           "titleKey": "bodega familia schroeder llevo seleccion sus vinos aog patagonia 2026 lmneuquen com",
-          "evidenceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPRy1nRGVNbUZ2cl9Sd1hzNDEyeENiMi1xdkJaNF9TaWU5UFBzaEFBUTV6RGVNQ09kaVBhWXpCSlR4YTFXMzVqQUtZRGg1REJMWFhscmRVMGNWNmFXbGFLR00xMWZBbGl6Yk1KbncwemJvN1dLdUFMX0Eyb0lqS2lmaWJnZ21NWDcxeHBWN0dWaXZzX2JYbjE2NGR3b09UUU9JZXdVOXpJNERxanhRekE2NkVlRjh6U0NYVGc2NmNUTlVzRkpkdHpV0gHHAUFVX3lxTE9HLWdEZU1tRnZyX1J3WHM0MTJ4Q2IyLXF2Qlo0X1NpZTlQUHNoQUFRNXpEZU1DT2RpUGFZekJKVHhhMVczNWpBS1lEaDVEQkxYWGxyZFUwY1Y2YVdsYUtHTTExZkFsaXpiTUpudzB6Ym83V0t1QUxfQTJvSWpLaWZpYmdnbU1YNzF4cFY3R1ZpdnNfYlhuMTY0ZHdvT1RRT0lld1U5ekk0RHFqeFF6QTY2RWVGOHpTQ1hUZzY2Y1ROVXNGSmR0elU?oc=5",
+          "evidenceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQbDRGdHZNMDljbG5wbF9nY2hVZlA3VEZ4aVpYX04tTmxXWk5LTVNYZWhESWRBOVZmZENIVEM5S1ZqaHhxZFhvcmVGSW5JblBudUNkSkZZZXVpd0ZrTDFxbUNmaUNGbTQ3MnJhNW8tZWZXUGxvOG5yVVlsRkpEaEo2dzQ1RWFUN0pnOGs2N1MwNGNMSVFEXzdvOXd0Y25OT2lvWHRrY2xYaVNiWXRfbzVxSktQcmFrME9PdXlkcndpQnVzd9IBxwFBVV95cUxPRy1nRGVNbUZ2cl9Sd1hzNDEyeENiMi1xdkJaNF9TaWU5UFBzaEFBUTV6RGVNQ09kaVBhWXpCSlR4YTFXMzVqQUtZRGg1REJMWFhscmRVMGNWNmFXbGFLR00xMWZBbGl6Yk1KbncwemJvN1dLdUFMX0Eyb0lqS2lmaWJnZ21NWDcxeHBWN0dWaXZzX2JYbjE2NGR3b09UUU9JZXdVOXpJNERxanhRekE2NkVlRjh6U0NYVGc2NmNUTlVzRkpkdHpV?oc=5",
           "sourcePriority": 3
         }
       ],
@@ -3983,7 +3973,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SERVICIOS",
-      "movement": 28,
+      "movement": 26,
       "coverage": 2,
       "sourceCount": 1,
       "directSourceCount": 0,
@@ -4036,7 +4026,7 @@
         }
       ],
       "lifecycle": "ACTIVO",
-      "movementDelta": 12,
+      "movementDelta": 10,
       "previousCoverage": 1,
       "newSources": [],
       "sourceDiversity": 1,
@@ -4046,84 +4036,6 @@
       "incidenceEligible": true,
       "signalReason": "reservado a incidencia territorial",
       "incidenceReason": "anclaje directo + tema operativo/local",
-      "territory": {
-        "version": "2.0",
-        "primary": "San Patricio del Chañar",
-        "nodes": [
-          "San Patricio del Chañar"
-        ],
-        "sectors": [],
-        "barrios": [],
-        "microzones": [],
-        "corridors": [],
-        "institutions": [],
-        "services": [],
-        "spaces": [],
-        "production": [],
-        "path": "San Patricio del Chañar",
-        "evidence": [
-          {
-            "node": "San Patricio del Chañar",
-            "level": "localidad",
-            "evidence": "DIRECTA"
-          }
-        ]
-      }
-    },
-    {
-      "eventId": "CHA-8aa66f131026",
-      "title": "La Liga Comunitaria de San Patricio del Chañar disputa la cuarta fecha - Chañar Digital",
-      "publishedAt": "2026-10-16T01:07:48+00:00",
-      "firstSeen": "2026-10-24T22:21:09.982876+00:00",
-      "lastSeen": "2026-10-16T01:07:48+00:00",
-      "relevance": 3,
-      "relevanceLabel": "DIRECTA",
-      "incidenceLabel": "DIRECTA EN CHANAR",
-      "topic": "DEPORTE",
-      "movement": 16,
-      "coverage": 1,
-      "sourceCount": 1,
-      "directSourceCount": 0,
-      "territorialAnchors": [
-        "san patricio del chañar",
-        "el chañar"
-      ],
-      "sources": [
-        "Chañar Digital"
-      ],
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNWjk5Y01wSmFxcXduWlY1M084R1FQSnUyYUFsS1plYWVxdzZRNHkzSUxIbjBoMXR3dlBjZXFHSEtsaWRoRFVWd1F6dmRkVWlWLWVZRkdsaFJQT3Jua3lPc1Ryd2VjcEladm1RejNuXzNkaW5CeWFnLWF4NW5nTHJadU1MZnFrOXpjMjZtY3hDVmJNSDlQMnVpVkM4bk5SaHc5UEZKeDdqMVl4RkFJUmZpMjFSd0hSc0w1cmpyT3lXSV9Gdw?oc=5",
-      "items": [
-        {
-          "title": "La Liga Comunitaria de San Patricio del Chañar disputa la cuarta fecha - Chañar Digital",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNWjk5Y01wSmFxcXduWlY1M084R1FQSnUyYUFsS1plYWVxdzZRNHkzSUxIbjBoMXR3dlBjZXFHSEtsaWRoRFVWd1F6dmRkVWlWLWVZRkdsaFJQT3Jua3lPc1Ryd2VjcEladm1RejNuXzNkaW5CeWFnLWF4NW5nTHJadU1MZnFrOXpjMjZtY3hDVmJNSDlQMnVpVkM4bk5SaHc5UEZKeDdqMVl4RkFJUmZpMjFSd0hSc0w1cmpyT3lXSV9Gdw?oc=5",
-          "publishedAt": "2026-10-16T01:07:48+00:00",
-          "published": "2026-10-16T01:07:48+00:00",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMiwgFBVV95cUxNWjk5Y01wSmFxcXduWlY1M084R1FQSnUyYUFsS1plYWVxdzZRNHkzSUxIbjBoMXR3dlBjZXFHSEtsaWRoRFVWd1F6dmRkVWlWLWVZRkdsaFJQT3Jua3lPc1Ryd2VjcEladm1RejNuXzNkaW5CeWFnLWF4NW5nTHJadU1MZnFrOXpjMjZtY3hDVmJNSDlQMnVpVkM4bk5SaHc5UEZKeDdqMVl4RkFJUmZpMjFSd0hSc0w1cmpyT3lXSV9Gdw?oc=5\" target=\"_blank\">La Liga Comunitaria de San Patricio del Chañar disputa la cuarta fecha</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Chañar Digital</font>",
-          "source": "Chañar Digital",
-          "sourceType": "BUSCADOR / RESPALDO",
-          "sourceUrl": "",
-          "collection": "BUSCADOR",
-          "query": "site:chanardigital.com.ar \"San Patricio del Chañar\"",
-          "relevance": 3,
-          "relevanceLabel": "DIRECTA",
-          "firstSeen": "2026-10-24T22:21:09.982876+00:00",
-          "isNew": false,
-          "titleKey": "liga comunitaria disputa cuarta fecha digital",
-          "evidenceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNWjk5Y01wSmFxcXduWlY1M084R1FQSnUyYUFsS1plYWVxdzZRNHkzSUxIbjBoMXR3dlBjZXFHSEtsaWRoRFVWd1F6dmRkVWlWLWVZRkdsaFJQT3Jua3lPc1Ryd2VjcEladm1RejNuXzNkaW5CeWFnLWF4NW5nTHJadU1MZnFrOXpjMjZtY3hDVmJNSDlQMnVpVkM4bk5SaHc5UEZKeDdqMVl4RkFJUmZpMjFSd0hSc0w1cmpyT3lXSV9Gdw?oc=5",
-          "sourcePriority": 3
-        }
-      ],
-      "lifecycle": "RECIENTE",
-      "movementDelta": 0,
-      "previousCoverage": 7,
-      "newSources": [],
-      "sourceDiversity": 1,
-      "memoryMatched": true,
-      "isNew": false,
-      "view": "SEÑAL",
-      "incidenceEligible": false,
-      "signalReason": "movimiento informativo / cobertura / diversidad de fuentes",
-      "incidenceReason": null,
       "territory": {
         "version": "2.0",
         "primary": "San Patricio del Chañar",
@@ -4191,15 +4103,15 @@
           "sourcePriority": 3
         }
       ],
-      "lifecycle": "ACTIVO",
+      "lifecycle": "EN DESCENSO",
       "movementDelta": 0,
-      "previousCoverage": 0,
+      "previousCoverage": 7,
       "newSources": [
         "EPEN"
       ],
       "sourceDiversity": 1,
-      "memoryMatched": false,
-      "isNew": true,
+      "memoryMatched": true,
+      "isNew": false,
       "view": "INCIDENCIA",
       "incidenceEligible": true,
       "signalReason": "reservado a incidencia territorial",
@@ -4232,6 +4144,86 @@
             "node": "EPEN",
             "level": "servicio",
             "evidence": "TEXTUAL"
+          }
+        ]
+      }
+    },
+    {
+      "eventId": "CHA-8aa66f131026",
+      "title": "La Liga Comunitaria de San Patricio del Chañar disputa la cuarta fecha - Chañar Digital",
+      "publishedAt": "2026-10-15T07:00:00+00:00",
+      "firstSeen": "2026-10-24T22:21:09.982876+00:00",
+      "lastSeen": "2026-10-15T07:00:00+00:00",
+      "relevance": 3,
+      "relevanceLabel": "DIRECTA",
+      "incidenceLabel": "DIRECTA EN CHANAR",
+      "topic": "DEPORTE",
+      "movement": 16,
+      "coverage": 1,
+      "sourceCount": 1,
+      "directSourceCount": 0,
+      "territorialAnchors": [
+        "san patricio del chañar",
+        "el chañar"
+      ],
+      "sources": [
+        "Chañar Digital"
+      ],
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNWjk5Y01wSmFxcXduWlY1M084R1FQSnUyYUFsS1plYWVxdzZRNHkzSUxIbjBoMXR3dlBjZXFHSEtsaWRoRFVWd1F6dmRkVWlWLWVZRkdsaFJQT3Jua3lPc1Ryd2VjcEladm1RejNuXzNkaW5CeWFnLWF4NW5nTHJadU1MZnFrOXpjMjZtY3hDVmJNSDlQMnVpVkM4bk5SaHc5UEZKeDdqMVl4RkFJUmZpMjFSd0hSc0w1cmpyT3lXSV9Gdw?oc=5",
+      "items": [
+        {
+          "title": "La Liga Comunitaria de San Patricio del Chañar disputa la cuarta fecha - Chañar Digital",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNWjk5Y01wSmFxcXduWlY1M084R1FQSnUyYUFsS1plYWVxdzZRNHkzSUxIbjBoMXR3dlBjZXFHSEtsaWRoRFVWd1F6dmRkVWlWLWVZRkdsaFJQT3Jua3lPc1Ryd2VjcEladm1RejNuXzNkaW5CeWFnLWF4NW5nTHJadU1MZnFrOXpjMjZtY3hDVmJNSDlQMnVpVkM4bk5SaHc5UEZKeDdqMVl4RkFJUmZpMjFSd0hSc0w1cmpyT3lXSV9Gdw?oc=5",
+          "publishedAt": "2026-10-15T07:00:00+00:00",
+          "published": "2026-10-15T07:00:00+00:00",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMiwgFBVV95cUxNWjk5Y01wSmFxcXduWlY1M084R1FQSnUyYUFsS1plYWVxdzZRNHkzSUxIbjBoMXR3dlBjZXFHSEtsaWRoRFVWd1F6dmRkVWlWLWVZRkdsaFJQT3Jua3lPc1Ryd2VjcEladm1RejNuXzNkaW5CeWFnLWF4NW5nTHJadU1MZnFrOXpjMjZtY3hDVmJNSDlQMnVpVkM4bk5SaHc5UEZKeDdqMVl4RkFJUmZpMjFSd0hSc0w1cmpyT3lXSV9Gdw?oc=5\" target=\"_blank\">La Liga Comunitaria de San Patricio del Chañar disputa la cuarta fecha</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Chañar Digital</font>",
+          "source": "Chañar Digital",
+          "sourceType": "BUSCADOR / RESPALDO",
+          "sourceUrl": "",
+          "collection": "BUSCADOR",
+          "query": "site:chanardigital.com.ar \"San Patricio del Chañar\"",
+          "relevance": 3,
+          "relevanceLabel": "DIRECTA",
+          "firstSeen": "2026-10-24T22:21:09.982876+00:00",
+          "isNew": false,
+          "titleKey": "liga comunitaria disputa cuarta fecha digital",
+          "evidenceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNWjk5Y01wSmFxcXduWlY1M084R1FQSnUyYUFsS1plYWVxdzZRNHkzSUxIbjBoMXR3dlBjZXFHSEtsaWRoRFVWd1F6dmRkVWlWLWVZRkdsaFJQT3Jua3lPc1Ryd2VjcEladm1RejNuXzNkaW5CeWFnLWF4NW5nTHJadU1MZnFrOXpjMjZtY3hDVmJNSDlQMnVpVkM4bk5SaHc5UEZKeDdqMVl4RkFJUmZpMjFSd0hSc0w1cmpyT3lXSV9Gdw?oc=5",
+          "sourcePriority": 3
+        }
+      ],
+      "lifecycle": "ACTIVO",
+      "movementDelta": 0,
+      "previousCoverage": 0,
+      "newSources": [
+        "Chañar Digital"
+      ],
+      "sourceDiversity": 1,
+      "memoryMatched": false,
+      "isNew": true,
+      "view": "SEÑAL",
+      "incidenceEligible": false,
+      "signalReason": "movimiento informativo / cobertura / diversidad de fuentes",
+      "incidenceReason": null,
+      "territory": {
+        "version": "2.0",
+        "primary": "San Patricio del Chañar",
+        "nodes": [
+          "San Patricio del Chañar"
+        ],
+        "sectors": [],
+        "barrios": [],
+        "microzones": [],
+        "corridors": [],
+        "institutions": [],
+        "services": [],
+        "spaces": [],
+        "production": [],
+        "path": "San Patricio del Chañar",
+        "evidence": [
+          {
+            "node": "San Patricio del Chañar",
+            "level": "localidad",
+            "evidence": "DIRECTA"
           }
         ]
       }
@@ -4618,25 +4610,6 @@
       "sourcePriority": 3
     },
     {
-      "title": "Dos imputados por vender droga en San Patricio del Chañar: quedaron en prisión preventiva - Flipr.news",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOczRSdWRrb0MzRG9YZkQ3cXF3MVVDclI5T0RtWGRzSzBqXzJnSU41Y2JrSVpzT3BNcVhxZjY4dk54eklUSDQ1bU9VS3Vqck43bk9OcWNiUjA4M2lhQTN0LVRmZXZ0MG42ZG5EZVpwZVplRUgtcTVjZXhsMkgtZ2xjYTFtTjh4d2RVa2wyRWlaNk5mQW93WngtOWlNU3VGTmFXaFBueFZ0MW9nUDB1X1htU2dPQlJUdjNmSDFvZDZ2UXUtUEkxcUFKODVLa1ZRZw?oc=5",
-      "publishedAt": "2026-10-25T22:19:46+00:00",
-      "published": "2026-10-25T22:19:46+00:00",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMizgFBVV95cUxOczRSdWRrb0MzRG9YZkQ3cXF3MVVDclI5T0RtWGRzSzBqXzJnSU41Y2JrSVpzT3BNcVhxZjY4dk54eklUSDQ1bU9VS3Vqck43bk9OcWNiUjA4M2lhQTN0LVRmZXZ0MG42ZG5EZVpwZVplRUgtcTVjZXhsMkgtZ2xjYTFtTjh4d2RVa2wyRWlaNk5mQW93WngtOWlNU3VGTmFXaFBueFZ0MW9nUDB1X1htU2dPQlJUdjNmSDFvZDZ2UXUtUEkxcUFKODVLa1ZRZw?oc=5\" target=\"_blank\">Dos imputados por vender droga en San Patricio del Chañar: quedaron en prisión preventiva</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Flipr.news</font>",
-      "source": "Flipr.news",
-      "sourceType": "BUSCADOR / RESPALDO",
-      "sourceUrl": "",
-      "collection": "BUSCADOR",
-      "query": "\"San Patricio del Chañar\"",
-      "relevance": 3,
-      "relevanceLabel": "DIRECTA",
-      "firstSeen": "2026-10-27T05:27:32.956146+00:00",
-      "isNew": true,
-      "titleKey": "dos imputados vender droga quedaron prision preventiva flipr news",
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOczRSdWRrb0MzRG9YZkQ3cXF3MVVDclI5T0RtWGRzSzBqXzJnSU41Y2JrSVpzT3BNcVhxZjY4dk54eklUSDQ1bU9VS3Vqck43bk9OcWNiUjA4M2lhQTN0LVRmZXZ0MG42ZG5EZVpwZVplRUgtcTVjZXhsMkgtZ2xjYTFtTjh4d2RVa2wyRWlaNk5mQW93WngtOWlNU3VGTmFXaFBueFZ0MW9nUDB1X1htU2dPQlJUdjNmSDFvZDZ2UXUtUEkxcUFKODVLa1ZRZw?oc=5",
-      "sourcePriority": 3
-    },
-    {
       "title": "Dos imputados por vender droga en San Patricio del Chañar: quedaron en prisión preventiva - MejorInformado.com",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNdHpTX2F1UXlHcW1LcFJBY1FneElESEN5elRPTnlGV1h4VFVsRWE3N3RrN1RFTjdmUTE5RDlNS21uZGRaR1RQY3pTYkFGMjF3WVphRVZWYkY4cGRkc1VOajlsNktTMWc4UnpvaTJJd3o4VWpwQ2JiMjUtdHh2WkEwMnZIWWphQWt5Sm9NYU1hdW5LU2U5SGVLaTlOVTVUV2xlVWs5MU5XdHFQdXV3RHU4Qkp0WmE4Z1Z0bWVyQ1oxLWNiN055UlHSAcYBQVVfeXFMTXR6U19hdVF5R3FtS3BSQWNRZ3hJREhDeXpUT055RldYeFRVbEVhNzd0azdURU43ZlExOUQ5TUttbmRkWkdUUGN6U2JBRjIxd1laYUVWVmJGOHBkZHNVTmo5bDZLUzFnOFJ6b2kySXd6OFVqcENiYjI1LXR4dlpBMDJ2SFlqYUFreUpvTWFNYXVuS1NlOUhlS2k5TlU1VFdsZVVrOTFOV3RxUHV1d0R1OEJKdFphOGdWdG1lckNaMS1jYjdOeVJR?oc=5",
       "publishedAt": "2026-10-25T19:15:20+00:00",
@@ -4714,10 +4687,10 @@
     },
     {
       "title": "Bodega Familia Schroeder llevó una selección de sus vinos a la AOG Patagonia 2026 - Lmneuquen.com",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPRy1nRGVNbUZ2cl9Sd1hzNDEyeENiMi1xdkJaNF9TaWU5UFBzaEFBUTV6RGVNQ09kaVBhWXpCSlR4YTFXMzVqQUtZRGg1REJMWFhscmRVMGNWNmFXbGFLR00xMWZBbGl6Yk1KbncwemJvN1dLdUFMX0Eyb0lqS2lmaWJnZ21NWDcxeHBWN0dWaXZzX2JYbjE2NGR3b09UUU9JZXdVOXpJNERxanhRekE2NkVlRjh6U0NYVGc2NmNUTlVzRkpkdHpV0gHHAUFVX3lxTE9HLWdEZU1tRnZyX1J3WHM0MTJ4Q2IyLXF2Qlo0X1NpZTlQUHNoQUFRNXpEZU1DT2RpUGFZekJKVHhhMVczNWpBS1lEaDVEQkxYWGxyZFUwY1Y2YVdsYUtHTTExZkFsaXpiTUpudzB6Ym83V0t1QUxfQTJvSWpLaWZpYmdnbU1YNzF4cFY3R1ZpdnNfYlhuMTY0ZHdvT1RRT0lld1U5ekk0RHFqeFF6QTY2RWVGOHpTQ1hUZzY2Y1ROVXNGSmR0elU?oc=5",
-      "publishedAt": "2026-10-23T17:40:23+00:00",
-      "published": "2026-10-23T17:40:23+00:00",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMixwFBVV95cUxPRy1nRGVNbUZ2cl9Sd1hzNDEyeENiMi1xdkJaNF9TaWU5UFBzaEFBUTV6RGVNQ09kaVBhWXpCSlR4YTFXMzVqQUtZRGg1REJMWFhscmRVMGNWNmFXbGFLR00xMWZBbGl6Yk1KbncwemJvN1dLdUFMX0Eyb0lqS2lmaWJnZ21NWDcxeHBWN0dWaXZzX2JYbjE2NGR3b09UUU9JZXdVOXpJNERxanhRekE2NkVlRjh6U0NYVGc2NmNUTlVzRkpkdHpV0gHHAUFVX3lxTE9HLWdEZU1tRnZyX1J3WHM0MTJ4Q2IyLXF2Qlo0X1NpZTlQUHNoQUFRNXpEZU1DT2RpUGFZekJKVHhhMVczNWpBS1lEaDVEQkxYWGxyZFUwY1Y2YVdsYUtHTTExZkFsaXpiTUpudzB6Ym83V0t1QUxfQTJvSWpLaWZpYmdnbU1YNzF4cFY3R1ZpdnNfYlhuMTY0ZHdvT1RRT0lld1U5ekk0RHFqeFF6QTY2RWVGOHpTQ1hUZzY2Y1ROVXNGSmR0elU?oc=5\" target=\"_blank\">Bodega Familia Schroeder llevó una selección de sus vinos a la AOG Patagonia 2026</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Lmneuquen.com</font>",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQbDRGdHZNMDljbG5wbF9nY2hVZlA3VEZ4aVpYX04tTmxXWk5LTVNYZWhESWRBOVZmZENIVEM5S1ZqaHhxZFhvcmVGSW5JblBudUNkSkZZZXVpd0ZrTDFxbUNmaUNGbTQ3MnJhNW8tZWZXUGxvOG5yVVlsRkpEaEo2dzQ1RWFUN0pnOGs2N1MwNGNMSVFEXzdvOXd0Y25OT2lvWHRrY2xYaVNiWXRfbzVxSktQcmFrME9PdXlkcndpQnVzd9IBxwFBVV95cUxPRy1nRGVNbUZ2cl9Sd1hzNDEyeENiMi1xdkJaNF9TaWU5UFBzaEFBUTV6RGVNQ09kaVBhWXpCSlR4YTFXMzVqQUtZRGg1REJMWFhscmRVMGNWNmFXbGFLR00xMWZBbGl6Yk1KbncwemJvN1dLdUFMX0Eyb0lqS2lmaWJnZ21NWDcxeHBWN0dWaXZzX2JYbjE2NGR3b09UUU9JZXdVOXpJNERxanhRekE2NkVlRjh6U0NYVGc2NmNUTlVzRkpkdHpV?oc=5",
+      "publishedAt": "2026-10-23T16:35:00+00:00",
+      "published": "2026-10-23T16:35:00+00:00",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMiwgFBVV95cUxQbDRGdHZNMDljbG5wbF9nY2hVZlA3VEZ4aVpYX04tTmxXWk5LTVNYZWhESWRBOVZmZENIVEM5S1ZqaHhxZFhvcmVGSW5JblBudUNkSkZZZXVpd0ZrTDFxbUNmaUNGbTQ3MnJhNW8tZWZXUGxvOG5yVVlsRkpEaEo2dzQ1RWFUN0pnOGs2N1MwNGNMSVFEXzdvOXd0Y25OT2lvWHRrY2xYaVNiWXRfbzVxSktQcmFrME9PdXlkcndpQnVzd9IBxwFBVV95cUxPRy1nRGVNbUZ2cl9Sd1hzNDEyeENiMi1xdkJaNF9TaWU5UFBzaEFBUTV6RGVNQ09kaVBhWXpCSlR4YTFXMzVqQUtZRGg1REJMWFhscmRVMGNWNmFXbGFLR00xMWZBbGl6Yk1KbncwemJvN1dLdUFMX0Eyb0lqS2lmaWJnZ21NWDcxeHBWN0dWaXZzX2JYbjE2NGR3b09UUU9JZXdVOXpJNERxanhRekE2NkVlRjh6U0NYVGc2NmNUTlVzRkpkdHpV?oc=5\" target=\"_blank\">Bodega Familia Schroeder llevó una selección de sus vinos a la AOG Patagonia 2026</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Lmneuquen.com</font>",
       "source": "Lmneuquen.com",
       "sourceType": "BUSCADOR / RESPALDO",
       "sourceUrl": "",
@@ -4725,10 +4698,10 @@
       "query": "\"San Patricio del Chañar\"",
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
-      "firstSeen": "2026-10-27T05:27:32.956146+00:00",
+      "firstSeen": "2026-10-27T10:52:17.276386+00:00",
       "isNew": true,
       "titleKey": "bodega familia schroeder llevo seleccion sus vinos aog patagonia 2026 lmneuquen com",
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPRy1nRGVNbUZ2cl9Sd1hzNDEyeENiMi1xdkJaNF9TaWU5UFBzaEFBUTV6RGVNQ09kaVBhWXpCSlR4YTFXMzVqQUtZRGg1REJMWFhscmRVMGNWNmFXbGFLR00xMWZBbGl6Yk1KbncwemJvN1dLdUFMX0Eyb0lqS2lmaWJnZ21NWDcxeHBWN0dWaXZzX2JYbjE2NGR3b09UUU9JZXdVOXpJNERxanhRekE2NkVlRjh6U0NYVGc2NmNUTlVzRkpkdHpV0gHHAUFVX3lxTE9HLWdEZU1tRnZyX1J3WHM0MTJ4Q2IyLXF2Qlo0X1NpZTlQUHNoQUFRNXpEZU1DT2RpUGFZekJKVHhhMVczNWpBS1lEaDVEQkxYWGxyZFUwY1Y2YVdsYUtHTTExZkFsaXpiTUpudzB6Ym83V0t1QUxfQTJvSWpLaWZpYmdnbU1YNzF4cFY3R1ZpdnNfYlhuMTY0ZHdvT1RRT0lld1U5ekk0RHFqeFF6QTY2RWVGOHpTQ1hUZzY2Y1ROVXNGSmR0elU?oc=5",
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQbDRGdHZNMDljbG5wbF9nY2hVZlA3VEZ4aVpYX04tTmxXWk5LTVNYZWhESWRBOVZmZENIVEM5S1ZqaHhxZFhvcmVGSW5JblBudUNkSkZZZXVpd0ZrTDFxbUNmaUNGbTQ3MnJhNW8tZWZXUGxvOG5yVVlsRkpEaEo2dzQ1RWFUN0pnOGs2N1MwNGNMSVFEXzdvOXd0Y25OT2lvWHRrY2xYaVNiWXRfbzVxSktQcmFrME9PdXlkcndpQnVzd9IBxwFBVV95cUxPRy1nRGVNbUZ2cl9Sd1hzNDEyeENiMi1xdkJaNF9TaWU5UFBzaEFBUTV6RGVNQ09kaVBhWXpCSlR4YTFXMzVqQUtZRGg1REJMWFhscmRVMGNWNmFXbGFLR00xMWZBbGl6Yk1KbncwemJvN1dLdUFMX0Eyb0lqS2lmaWJnZ21NWDcxeHBWN0dWaXZzX2JYbjE2NGR3b09UUU9JZXdVOXpJNERxanhRekE2NkVlRjh6U0NYVGc2NmNUTlVzRkpkdHpV?oc=5",
       "sourcePriority": 3
     },
     {
@@ -4805,25 +4778,6 @@
       "isNew": false,
       "titleKey": "fuerte choque ruta cerca tres vehiculos involucrados demoras transito diario neuquino",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPdlZmTThheTJyUTBuamRoM3R6dkd5clFVdE1hWFo2TjdhSEFVNDgzUVRKMlpDWDRPTTZjNE9ob3NpcmpXeDItQ0xCNHRxU1FEeFktUzdYTzNEUDBvVlpsdmF6Rl94QnNianRLZGdpeDY4dkdzdzRsMGlxMFN3OGlBV3dlRG5mSFkzSE5iSzI4bDEwQVVMclRUNGxKRVJ4WEhrSzRDU3BNUHlRY1JEekN2Zjd6YmV2MkUzWW1YN3dyX2lJUllIWlNtZ1FwSFFnbkpsVGtIYzZCb3AyQjA?oc=5",
-      "sourcePriority": 3
-    },
-    {
-      "title": "Choque entre un camión y dos camionetas sobre la Ruta 7 en el Chañar - NoticiasNQN",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNdG5CSUNHb2tWb3ptQW1JaFFPb2JYQnp2enI4MEN3ellaQS1vU3RRZGFpTmVlcVJzazNRSklUSnBoUVRNbGFab1FZWTloZWdiT2JNNXMyR3dQU3dIVW9SREV0WEExOHh5ZUVEODhhamFaRFN2NDMwbHhibG1KRzRLbmVIdWNDaENBNXpMaDc4NUhQaWZ3WWxUY19FWmxXdDl6WW1mbTQ5a3NwaEdTUXJSX0xoaGFpZ3FiVmtTNW10YlpiSlhL0gHKAUFVX3lxTE5JSjVqM3BnRlNfVm5fTTBTa0hUZkU4RVJORkRfRkVtNlFmYVdmNUI4Nzc2S3FSVmVIcml5VXlXRGdrTTg4VWJfenF3XzdVTE81TFJYMGUtR2ozbEdNREJnN0hJajRZYXRfQTVnc3lSMVhEODdaaFlZcTZnMXBKQmNUNGpyTTNGcU1iU2kyZG5WWFl1blhYcjhMREc0TDdvdUV1UVRDMEJncXpXamhhaVZGWm9GbkdLSGVrRUxmRndnOE02Nk9oaGdzVWc?oc=5",
-      "publishedAt": "2026-10-22T13:39:20+00:00",
-      "published": "2026-10-22T13:39:20+00:00",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMixAFBVV95cUxNdG5CSUNHb2tWb3ptQW1JaFFPb2JYQnp2enI4MEN3ellaQS1vU3RRZGFpTmVlcVJzazNRSklUSnBoUVRNbGFab1FZWTloZWdiT2JNNXMyR3dQU3dIVW9SREV0WEExOHh5ZUVEODhhamFaRFN2NDMwbHhibG1KRzRLbmVIdWNDaENBNXpMaDc4NUhQaWZ3WWxUY19FWmxXdDl6WW1mbTQ5a3NwaEdTUXJSX0xoaGFpZ3FiVmtTNW10YlpiSlhL0gHKAUFVX3lxTE5JSjVqM3BnRlNfVm5fTTBTa0hUZkU4RVJORkRfRkVtNlFmYVdmNUI4Nzc2S3FSVmVIcml5VXlXRGdrTTg4VWJfenF3XzdVTE81TFJYMGUtR2ozbEdNREJnN0hJajRZYXRfQTVnc3lSMVhEODdaaFlZcTZnMXBKQmNUNGpyTTNGcU1iU2kyZG5WWFl1blhYcjhMREc0TDdvdUV1UVRDMEJncXpXamhhaVZGWm9GbkdLSGVrRUxmRndnOE02Nk9oaGdzVWc?oc=5\" target=\"_blank\">Choque entre un camión y dos camionetas sobre la Ruta 7 en el Chañar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NoticiasNQN</font>",
-      "source": "NoticiasNQN",
-      "sourceType": "BUSCADOR / RESPALDO",
-      "sourceUrl": "",
-      "collection": "BUSCADOR",
-      "query": "\"San Patricio del Chañar\"",
-      "relevance": 3,
-      "relevanceLabel": "DIRECTA",
-      "firstSeen": "2026-10-22T23:32:55.391801+00:00",
-      "isNew": false,
-      "titleKey": "choque entre camion dos camionetas ruta noticiasnqn",
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNdG5CSUNHb2tWb3ptQW1JaFFPb2JYQnp2enI4MEN3ellaQS1vU3RRZGFpTmVlcVJzazNRSklUSnBoUVRNbGFab1FZWTloZWdiT2JNNXMyR3dQU3dIVW9SREV0WEExOHh5ZUVEODhhamFaRFN2NDMwbHhibG1KRzRLbmVIdWNDaENBNXpMaDc4NUhQaWZ3WWxUY19FWmxXdDl6WW1mbTQ5a3NwaEdTUXJSX0xoaGFpZ3FiVmtTNW10YlpiSlhL0gHKAUFVX3lxTE5JSjVqM3BnRlNfVm5fTTBTa0hUZkU4RVJORkRfRkVtNlFmYVdmNUI4Nzc2S3FSVmVIcml5VXlXRGdrTTg4VWJfenF3XzdVTE81TFJYMGUtR2ozbEdNREJnN0hJajRZYXRfQTVnc3lSMVhEODdaaFlZcTZnMXBKQmNUNGpyTTNGcU1iU2kyZG5WWFl1blhYcjhMREc0TDdvdUV1UVRDMEJncXpXamhhaVZGWm9GbkdLSGVrRUxmRndnOE02Nk9oaGdzVWc?oc=5",
       "sourcePriority": 3
     },
     {
@@ -4941,25 +4895,6 @@
       "sourcePriority": 3
     },
     {
-      "title": "La Liga Comunitaria de San Patricio del Chañar disputa la cuarta fecha - Chañar Digital",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNWjk5Y01wSmFxcXduWlY1M084R1FQSnUyYUFsS1plYWVxdzZRNHkzSUxIbjBoMXR3dlBjZXFHSEtsaWRoRFVWd1F6dmRkVWlWLWVZRkdsaFJQT3Jua3lPc1Ryd2VjcEladm1RejNuXzNkaW5CeWFnLWF4NW5nTHJadU1MZnFrOXpjMjZtY3hDVmJNSDlQMnVpVkM4bk5SaHc5UEZKeDdqMVl4RkFJUmZpMjFSd0hSc0w1cmpyT3lXSV9Gdw?oc=5",
-      "publishedAt": "2026-10-16T01:07:48+00:00",
-      "published": "2026-10-16T01:07:48+00:00",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMiwgFBVV95cUxNWjk5Y01wSmFxcXduWlY1M084R1FQSnUyYUFsS1plYWVxdzZRNHkzSUxIbjBoMXR3dlBjZXFHSEtsaWRoRFVWd1F6dmRkVWlWLWVZRkdsaFJQT3Jua3lPc1Ryd2VjcEladm1RejNuXzNkaW5CeWFnLWF4NW5nTHJadU1MZnFrOXpjMjZtY3hDVmJNSDlQMnVpVkM4bk5SaHc5UEZKeDdqMVl4RkFJUmZpMjFSd0hSc0w1cmpyT3lXSV9Gdw?oc=5\" target=\"_blank\">La Liga Comunitaria de San Patricio del Chañar disputa la cuarta fecha</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Chañar Digital</font>",
-      "source": "Chañar Digital",
-      "sourceType": "BUSCADOR / RESPALDO",
-      "sourceUrl": "",
-      "collection": "BUSCADOR",
-      "query": "site:chanardigital.com.ar \"San Patricio del Chañar\"",
-      "relevance": 3,
-      "relevanceLabel": "DIRECTA",
-      "firstSeen": "2026-10-24T22:21:09.982876+00:00",
-      "isNew": false,
-      "titleKey": "liga comunitaria disputa cuarta fecha digital",
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNWjk5Y01wSmFxcXduWlY1M084R1FQSnUyYUFsS1plYWVxdzZRNHkzSUxIbjBoMXR3dlBjZXFHSEtsaWRoRFVWd1F6dmRkVWlWLWVZRkdsaFJQT3Jua3lPc1Ryd2VjcEladm1RejNuXzNkaW5CeWFnLWF4NW5nTHJadU1MZnFrOXpjMjZtY3hDVmJNSDlQMnVpVkM4bk5SaHc5UEZKeDdqMVl4RkFJUmZpMjFSd0hSc0w1cmpyT3lXSV9Gdw?oc=5",
-      "sourcePriority": 3
-    },
-    {
       "title": "Corte Programado en sectores de San Patricio del Chañar el 20/10/2026 - EPEN",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNcEw5enVjamYtdkJ3VXpFaTEtbTlHX2VVMVpjdnVIM2N4QmEzZ0UyNlltaFhTN3l1QVh0NUZ0eXhTY3lJOHVKbWE3SlhFVjk0Wm9XY3JLb0pNQzJMSzhmby1hTmdvbW9OOUFRejh5NU92YTNpRlBuQ2J4ZGtfSXVhZ3Rfbk1la1p4TUsxdzRTT3hKNFhsSm81RzVvWVFDWHB5elhlSHNxV2V3ZElJc1dtb19ndFpsdw?oc=5",
       "publishedAt": "2026-10-15T17:56:00+00:00",
@@ -4976,6 +4911,25 @@
       "isNew": false,
       "titleKey": "corte programado sectores 2026 epen",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNcEw5enVjamYtdkJ3VXpFaTEtbTlHX2VVMVpjdnVIM2N4QmEzZ0UyNlltaFhTN3l1QVh0NUZ0eXhTY3lJOHVKbWE3SlhFVjk0Wm9XY3JLb0pNQzJMSzhmby1hTmdvbW9OOUFRejh5NU92YTNpRlBuQ2J4ZGtfSXVhZ3Rfbk1la1p4TUsxdzRTT3hKNFhsSm81RzVvWVFDWHB5elhlSHNxV2V3ZElJc1dtb19ndFpsdw?oc=5",
+      "sourcePriority": 3
+    },
+    {
+      "title": "La Liga Comunitaria de San Patricio del Chañar disputa la cuarta fecha - Chañar Digital",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNWjk5Y01wSmFxcXduWlY1M084R1FQSnUyYUFsS1plYWVxdzZRNHkzSUxIbjBoMXR3dlBjZXFHSEtsaWRoRFVWd1F6dmRkVWlWLWVZRkdsaFJQT3Jua3lPc1Ryd2VjcEladm1RejNuXzNkaW5CeWFnLWF4NW5nTHJadU1MZnFrOXpjMjZtY3hDVmJNSDlQMnVpVkM4bk5SaHc5UEZKeDdqMVl4RkFJUmZpMjFSd0hSc0w1cmpyT3lXSV9Gdw?oc=5",
+      "publishedAt": "2026-10-15T07:00:00+00:00",
+      "published": "2026-10-15T07:00:00+00:00",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMiwgFBVV95cUxNWjk5Y01wSmFxcXduWlY1M084R1FQSnUyYUFsS1plYWVxdzZRNHkzSUxIbjBoMXR3dlBjZXFHSEtsaWRoRFVWd1F6dmRkVWlWLWVZRkdsaFJQT3Jua3lPc1Ryd2VjcEladm1RejNuXzNkaW5CeWFnLWF4NW5nTHJadU1MZnFrOXpjMjZtY3hDVmJNSDlQMnVpVkM4bk5SaHc5UEZKeDdqMVl4RkFJUmZpMjFSd0hSc0w1cmpyT3lXSV9Gdw?oc=5\" target=\"_blank\">La Liga Comunitaria de San Patricio del Chañar disputa la cuarta fecha</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Chañar Digital</font>",
+      "source": "Chañar Digital",
+      "sourceType": "BUSCADOR / RESPALDO",
+      "sourceUrl": "",
+      "collection": "BUSCADOR",
+      "query": "site:chanardigital.com.ar \"San Patricio del Chañar\"",
+      "relevance": 3,
+      "relevanceLabel": "DIRECTA",
+      "firstSeen": "2026-10-24T22:21:09.982876+00:00",
+      "isNew": false,
+      "titleKey": "liga comunitaria disputa cuarta fecha digital",
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNWjk5Y01wSmFxcXduWlY1M084R1FQSnUyYUFsS1plYWVxdzZRNHkzSUxIbjBoMXR3dlBjZXFHSEtsaWRoRFVWd1F6dmRkVWlWLWVZRkdsaFJQT3Jua3lPc1Ryd2VjcEladm1RejNuXzNkaW5CeWFnLWF4NW5nTHJadU1MZnFrOXpjMjZtY3hDVmJNSDlQMnVpVkM4bk5SaHc5UEZKeDdqMVl4RkFJUmZpMjFSd0hSc0w1cmpyT3lXSV9Gdw?oc=5",
       "sourcePriority": 3
     },
     {
@@ -5000,7 +4954,7 @@
   ],
   "territorialGraph": {
     "version": "2.0",
-    "generatedAt": "2026-10-27T05:27:45.043492+00:00",
+    "generatedAt": "2026-10-27T10:52:26.993108+00:00",
     "root": "spc",
     "rule": "evidence-first",
     "levels": [
@@ -5595,12 +5549,12 @@
       "CHA-83aaffb78689": [
         "spc"
       ],
-      "CHA-8aa66f131026": [
-        "spc"
-      ],
       "CHA-16b3feeb55f6": [
         "spc",
         "epen"
+      ],
+      "CHA-8aa66f131026": [
+        "spc"
       ],
       "CHA-7b194d928a62": [
         "spc"
@@ -5645,16 +5599,16 @@
   },
   "audit": {
     "version": "1.0",
-    "updatedAt": "2026-10-27T05:27:45.096888+00:00",
+    "updatedAt": "2026-10-27T10:52:27.039419+00:00",
     "rule": "fact != coverage; territory requires textual evidence",
     "facts": 11,
-    "coverage": 32,
-    "coveragePerFact": 2.91,
+    "coverage": 30,
+    "coveragePerFact": 2.73,
     "directAnchorFacts": 11,
     "directAnchorPct": 100.0,
     "territorySpecificFacts": 3,
     "territorySpecificPct": 27.3,
-    "averageSourcesPerFact": 2.09,
+    "averageSourcesPerFact": 2.0,
     "activeTerritorialNodes": 6,
     "failedSources": 10,
     "acceptedWithoutLocalEvidence": 1,
@@ -5662,7 +5616,7 @@
       {
         "title": "Bodega Familia Schroeder llevó una selección de sus vinos a la AOG Patagonia 2026 - Lmneuquen.com",
         "source": "Lmneuquen.com",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPRy1nRGVNbUZ2cl9Sd1hzNDEyeENiMi1xdkJaNF9TaWU5UFBzaEFBUTV6RGVNQ09kaVBhWXpCSlR4YTFXMzVqQUtZRGg1REJMWFhscmRVMGNWNmFXbGFLR00xMWZBbGl6Yk1KbncwemJvN1dLdUFMX0Eyb0lqS2lmaWJnZ21NWDcxeHBWN0dWaXZzX2JYbjE2NGR3b09UUU9JZXdVOXpJNERxanhRekE2NkVlRjh6U0NYVGc2NmNUTlVzRkpkdHpV0gHHAUFVX3lxTE9HLWdEZU1tRnZyX1J3WHM0MTJ4Q2IyLXF2Qlo0X1NpZTlQUHNoQUFRNXpEZU1DT2RpUGFZekJKVHhhMVczNWpBS1lEaDVEQkxYWGxyZFUwY1Y2YVdsYUtHTTExZkFsaXpiTUpudzB6Ym83V0t1QUxfQTJvSWpLaWZpYmdnbU1YNzF4cFY3R1ZpdnNfYlhuMTY0ZHdvT1RRT0lld1U5ekk0RHFqeFF6QTY2RWVGOHpTQ1hUZzY2Y1ROVXNGSmR0elU?oc=5"
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQbDRGdHZNMDljbG5wbF9nY2hVZlA3VEZ4aVpYX04tTmxXWk5LTVNYZWhESWRBOVZmZENIVEM5S1ZqaHhxZFhvcmVGSW5JblBudUNkSkZZZXVpd0ZrTDFxbUNmaUNGbTQ3MnJhNW8tZWZXUGxvOG5yVVlsRkpEaEo2dzQ1RWFUN0pnOGs2N1MwNGNMSVFEXzdvOXd0Y25OT2lvWHRrY2xYaVNiWXRfbzVxSktQcmFrME9PdXlkcndpQnVzd9IBxwFBVV95cUxPRy1nRGVNbUZ2cl9Sd1hzNDEyeENiMi1xdkJaNF9TaWU5UFBzaEFBUTV6RGVNQ09kaVBhWXpCSlR4YTFXMzVqQUtZRGg1REJMWFhscmRVMGNWNmFXbGFLR00xMWZBbGl6Yk1KbncwemJvN1dLdUFMX0Eyb0lqS2lmaWJnZ21NWDcxeHBWN0dWaXZzX2JYbjE2NGR3b09UUU9JZXdVOXpJNERxanhRekE2NkVlRjh6U0NYVGc2NmNUTlVzRkpkdHpV?oc=5"
       }
     ],
     "interpretation": "auditoria técnica; no mide importancia, calidad periodística ni verdad del hecho"
