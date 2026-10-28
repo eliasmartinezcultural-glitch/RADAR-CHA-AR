@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28T13:25:45.004795+00:00",
+  "updatedAt": "2026-10-28T19:02:16.571389+00:00",
   "window": "14 días",
   "purpose": "Detectar qué se está moviendo en San Patricio del Chañar y mostrar de dónde surge cada señal.",
   "architecture": "contrato universal de procedencia + fuentes profesionales + adaptadores específicos + validación semántica + temporalidad + evidencia editorial separada",
@@ -49,7 +49,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://chanardigital.com.ar/",
-      "lastFetch": "2026-10-28T13:25:23.162781+00:00",
+      "lastFetch": "2026-10-28T19:01:55.985095+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -65,7 +65,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.radiomia.com.ar/",
-      "lastFetch": "2026-10-28T13:25:24.703425+00:00",
+      "lastFetch": "2026-10-28T19:01:57.167867+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -80,7 +80,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://tuitvacamuerta.com/",
-      "lastFetch": "2026-10-28T13:25:26.608089+00:00",
+      "lastFetch": "2026-10-28T19:01:59.041981+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -95,7 +95,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.vacamuertanews.com/",
-      "lastFetch": "2026-10-28T13:25:27.371463+00:00",
+      "lastFetch": "2026-10-28T19:01:59.802406+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -111,7 +111,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.neuqueninforma.gob.ar/",
-      "lastFetch": "2026-10-28T13:25:29.082845+00:00",
+      "lastFetch": "2026-10-28T19:02:01.484743+00:00",
       "success": false,
       "attempted": 3,
       "failures": [
@@ -128,7 +128,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://sanpatricio.gob.ar/",
-      "lastFetch": "2026-10-28T13:25:30.140810+00:00",
+      "lastFetch": "2026-10-28T19:02:02.687080+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -143,7 +143,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://boletinoficial.neuquen.gov.ar/",
-      "lastFetch": "2026-10-28T13:25:31.233151+00:00",
+      "lastFetch": "2026-10-28T19:02:03.455649+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -158,7 +158,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.lmneuquen.com/",
-      "lastFetch": "2026-10-28T13:25:31.490305+00:00",
+      "lastFetch": "2026-10-28T19:02:03.698096+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -174,7 +174,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.rionegro.com.ar/",
-      "lastFetch": "2026-10-28T13:25:32.787219+00:00",
+      "lastFetch": "2026-10-28T19:02:06.040308+00:00",
       "success": true,
       "attempted": 2,
       "failures": [
@@ -189,7 +189,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.mejorinformado.com/",
-      "lastFetch": "2026-10-28T13:25:33.653024+00:00",
+      "lastFetch": "2026-10-28T19:02:06.979053+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -205,7 +205,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.diariamenteneuquen.com/",
-      "lastFetch": "2026-10-28T13:25:34.644052+00:00",
+      "lastFetch": "2026-10-28T19:02:07.940874+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -709,8 +709,8 @@
   "languageAudit": [
     {
       "term": "el chañar",
-      "hits": 24,
-      "direct": 24
+      "hits": 23,
+      "direct": 23
     },
     {
       "term": "san patricio del chañar",
@@ -1168,8 +1168,8 @@
         "source": "MejorInformado.com",
         "group": "OBSERVADA",
         "role": "fuente detectada fuera del catálogo",
-        "accepted": 2,
-        "direct": 2,
+        "accepted": 1,
+        "direct": 1,
         "anchored": 0,
         "falsePositives": 0,
         "falsePositiveTypes": [],
@@ -1198,6 +1198,19 @@
         "falsePositives": 0,
         "falsePositiveTypes": [],
         "topics": []
+      },
+      {
+        "source": "Minuto Neuquén",
+        "group": "OBSERVADA",
+        "role": "fuente detectada fuera del catálogo",
+        "accepted": 1,
+        "direct": 1,
+        "anchored": 0,
+        "falsePositives": 0,
+        "falsePositiveTypes": [],
+        "topics": [
+          "SERVICIOS"
+        ]
       },
       {
         "source": "Municipalidad de San Patricio del Chañar",
@@ -1403,18 +1416,6 @@
         ]
       },
       {
-        "source": "MejorInformado.com",
-        "topic": "SERVICIOS",
-        "accepted": 2,
-        "direct": 2,
-        "anchored": 0,
-        "falsePositives": 0,
-        "territorialTerms": [
-          "san patricio del chañar",
-          "el chañar"
-        ]
-      },
-      {
         "source": "NoticiasNQN",
         "topic": "SERVICIOS",
         "accepted": 2,
@@ -1549,6 +1550,30 @@
         ]
       },
       {
+        "source": "MejorInformado.com",
+        "topic": "SERVICIOS",
+        "accepted": 1,
+        "direct": 1,
+        "anchored": 0,
+        "falsePositives": 0,
+        "territorialTerms": [
+          "san patricio del chañar",
+          "el chañar"
+        ]
+      },
+      {
+        "source": "Minuto Neuquén",
+        "topic": "SERVICIOS",
+        "accepted": 1,
+        "direct": 1,
+        "anchored": 0,
+        "falsePositives": 0,
+        "territorialTerms": [
+          "san patricio del chañar",
+          "el chañar"
+        ]
+      },
+      {
         "source": "Neuquen Post",
         "topic": "SERVICIOS",
         "accepted": 1,
@@ -1615,8 +1640,8 @@
     "languagePrecision": [
       {
         "term": "san patricio del chañar",
-        "acceptedHits": 17,
-        "directHits": 17,
+        "acceptedHits": 18,
+        "directHits": 18,
         "rejectedTitleHits": 0,
         "territorialStrength": "FUERTE"
       },
@@ -1955,10 +1980,10 @@
     "interpretation": "auditoría sobre eventos aceptados; la próxima capa debe instrumentar rechazos antes del clustering"
   },
   "stats": {
-    "total": 25,
-    "direct": 25,
+    "total": 24,
+    "direct": 24,
     "regional": 0,
-    "new": 1,
+    "new": 0,
     "sources": 14,
     "directSignals": 0,
     "localDirectSignals": 0,
@@ -1973,7 +1998,7 @@
       "forecastGustKmh": 31.0,
       "forecastWindDirection": "SE",
       "forecastTemperatureC": 25.0,
-      "retrievedAt": "2026-10-28T13:25:20.353173+00:00",
+      "retrievedAt": "2026-10-28T19:01:53.557613+00:00",
       "source": "AIC",
       "sourceTier": "primary",
       "sourceUrl": "https://www.aic.gob.ar/sitio/home?a=1015&z=1967225803",
@@ -1982,28 +2007,28 @@
     "hydrology": {
       "site": "El Chañar",
       "flowType": "programmed_outflow",
-      "erogatedM3s": 475,
+      "erogatedM3s": 470,
       "programmedMaxM3s": [
-        480,
         440,
+        420,
         420,
         420,
         420,
         420
       ],
       "programmedMinM3s": [
-        460,
         420,
+        410,
         410,
         410,
         410,
         410
       ],
-      "currentProgrammedMaxM3s": 480,
-      "currentProgrammedMinM3s": 460,
+      "currentProgrammedMaxM3s": 440,
+      "currentProgrammedMinM3s": 420,
       "programDate": "2026-10-29",
       "tableDate": "2026-10-28",
-      "retrievedAt": "2026-10-28T13:25:20.353173+00:00",
+      "retrievedAt": "2026-10-28T19:01:53.557613+00:00",
       "source": "AIC",
       "sourceTier": "primary",
       "sourceUrl": "https://www.aic.gob.ar/sitio/caudales",
@@ -2023,17 +2048,17 @@
         "url": "https://www.aic.gob.ar/sitio/caudales"
       }
     ],
-    "updatedAt": "2026-10-28T13:25:20.353173+00:00"
+    "updatedAt": "2026-10-28T19:01:53.557613+00:00"
   },
   "operational": {
-    "updatedAt": "2026-10-28T13:25:20.353173+00:00",
+    "updatedAt": "2026-10-28T19:01:53.557613+00:00",
     "route7": {
       "source": "Dirección Provincial de Vialidad",
       "sourceTier": "primary",
       "sourceUrl": "https://www.dpvneuquen.gov.ar/",
       "semanticState": null,
       "publicationState": "source_reachable_no_current_machine_readable_state",
-      "retrievedAt": "2026-10-28T13:25:20.353173+00:00",
+      "retrievedAt": "2026-10-28T19:01:53.557613+00:00",
       "evidence": {
         "route7Mention": true,
         "route8Mention": false
@@ -2045,7 +2070,7 @@
       "sourceUrl": "https://www.dpvneuquen.gov.ar/",
       "semanticState": null,
       "publicationState": "source_reachable_no_current_machine_readable_state",
-      "retrievedAt": "2026-10-28T13:25:20.353173+00:00",
+      "retrievedAt": "2026-10-28T19:01:53.557613+00:00",
       "evidence": {
         "route7Mention": true,
         "route8Mention": false
@@ -2059,7 +2084,7 @@
       "eventType": null,
       "detail": null,
       "publicationState": "source_reachable_no_specific_local_notice",
-      "retrievedAt": "2026-10-28T13:25:20.353173+00:00"
+      "retrievedAt": "2026-10-28T19:01:53.557613+00:00"
     },
     "water": {
       "source": "EPAS",
@@ -2069,7 +2094,7 @@
       "eventType": null,
       "detail": null,
       "publicationState": "source_reachable_no_specific_local_notice",
-      "retrievedAt": "2026-10-28T13:25:20.353173+00:00"
+      "retrievedAt": "2026-10-28T19:01:53.557613+00:00"
     },
     "sources": [
       {
@@ -2481,7 +2506,7 @@
       "label": "Conversación general",
       "signal": 11,
       "status": "cobertura editorial",
-      "freshnessHours": 18.3,
+      "freshnessHours": 24.0,
       "mode": "evidencia editorial",
       "evidenceCount": 11,
       "sourceContract": {
@@ -2521,7 +2546,7 @@
       "label": "Corredor Ruta 7",
       "signal": 1,
       "status": "estado vial",
-      "freshnessHours": 140.5,
+      "freshnessHours": 146.1,
       "mode": "evidencia territorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -2561,7 +2586,7 @@
         "sourceUrl": "https://www.dpvneuquen.gov.ar/",
         "semanticState": null,
         "publicationState": "source_reachable_no_current_machine_readable_state",
-        "retrievedAt": "2026-10-28T13:25:20.353173+00:00",
+        "retrievedAt": "2026-10-28T19:01:53.557613+00:00",
         "evidence": {
           "route7Mention": true,
           "route8Mention": false
@@ -2573,7 +2598,7 @@
       "label": "Corredor Ruta 8",
       "signal": 1,
       "status": "estado vial",
-      "freshnessHours": 140.5,
+      "freshnessHours": 146.1,
       "mode": "evidencia territorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -2613,7 +2638,7 @@
         "sourceUrl": "https://www.dpvneuquen.gov.ar/",
         "semanticState": null,
         "publicationState": "source_reachable_no_current_machine_readable_state",
-        "retrievedAt": "2026-10-28T13:25:20.353173+00:00",
+        "retrievedAt": "2026-10-28T19:01:53.557613+00:00",
         "evidence": {
           "route7Mention": true,
           "route8Mention": false
@@ -2713,7 +2738,7 @@
         "eventType": null,
         "detail": null,
         "publicationState": "source_reachable_no_specific_local_notice",
-        "retrievedAt": "2026-10-28T13:25:20.353173+00:00"
+        "retrievedAt": "2026-10-28T19:01:53.557613+00:00"
       }
     },
     {
@@ -2721,7 +2746,7 @@
       "label": "Agua / abastecimiento",
       "signal": 1,
       "status": "evento hídrico",
-      "freshnessHours": 270.4,
+      "freshnessHours": 276.0,
       "mode": "evidencia editorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -2763,7 +2788,7 @@
         "eventType": null,
         "detail": null,
         "publicationState": "source_reachable_no_specific_local_notice",
-        "retrievedAt": "2026-10-28T13:25:20.353173+00:00"
+        "retrievedAt": "2026-10-28T19:01:53.557613+00:00"
       }
     },
     {
@@ -2771,7 +2796,7 @@
       "label": "Servicios e infraestructura",
       "signal": 2,
       "status": "evidencia de servicio",
-      "freshnessHours": 18.3,
+      "freshnessHours": 24.0,
       "mode": "evidencia editorial",
       "evidenceCount": 2,
       "sourceContract": {
@@ -2851,7 +2876,7 @@
       "label": "Educación",
       "signal": 1,
       "status": "evidencia educativa",
-      "freshnessHours": 758.4,
+      "freshnessHours": 764.0,
       "mode": "evidencia editorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -2891,7 +2916,7 @@
       "label": "Producción rural",
       "signal": 1,
       "status": "evidencia productiva",
-      "freshnessHours": 116.8,
+      "freshnessHours": 122.5,
       "mode": "evidencia editorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -2931,7 +2956,7 @@
       "label": "Seguridad / emergencias",
       "signal": 1,
       "status": "cobertura de emergencia",
-      "freshnessHours": 193.1,
+      "freshnessHours": 198.8,
       "mode": "evidencia editorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -3028,7 +3053,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://chanardigital.com.ar/",
-        "lastFetch": "2026-10-28T13:25:23.162781+00:00",
+        "lastFetch": "2026-10-28T19:01:55.985095+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3044,7 +3069,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.radiomia.com.ar/",
-        "lastFetch": "2026-10-28T13:25:24.703425+00:00",
+        "lastFetch": "2026-10-28T19:01:57.167867+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -3059,7 +3084,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://tuitvacamuerta.com/",
-        "lastFetch": "2026-10-28T13:25:26.608089+00:00",
+        "lastFetch": "2026-10-28T19:01:59.041981+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -3074,7 +3099,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.vacamuertanews.com/",
-        "lastFetch": "2026-10-28T13:25:27.371463+00:00",
+        "lastFetch": "2026-10-28T19:01:59.802406+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3090,7 +3115,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.neuqueninforma.gob.ar/",
-        "lastFetch": "2026-10-28T13:25:29.082845+00:00",
+        "lastFetch": "2026-10-28T19:02:01.484743+00:00",
         "success": false,
         "attempted": 3,
         "failures": [
@@ -3107,7 +3132,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://sanpatricio.gob.ar/",
-        "lastFetch": "2026-10-28T13:25:30.140810+00:00",
+        "lastFetch": "2026-10-28T19:02:02.687080+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -3122,7 +3147,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://boletinoficial.neuquen.gov.ar/",
-        "lastFetch": "2026-10-28T13:25:31.233151+00:00",
+        "lastFetch": "2026-10-28T19:02:03.455649+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -3137,7 +3162,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.lmneuquen.com/",
-        "lastFetch": "2026-10-28T13:25:31.490305+00:00",
+        "lastFetch": "2026-10-28T19:02:03.698096+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3153,7 +3178,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.rionegro.com.ar/",
-        "lastFetch": "2026-10-28T13:25:32.787219+00:00",
+        "lastFetch": "2026-10-28T19:02:06.040308+00:00",
         "success": true,
         "attempted": 2,
         "failures": [
@@ -3168,7 +3193,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.mejorinformado.com/",
-        "lastFetch": "2026-10-28T13:25:33.653024+00:00",
+        "lastFetch": "2026-10-28T19:02:06.979053+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3184,7 +3209,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.diariamenteneuquen.com/",
-        "lastFetch": "2026-10-28T13:25:34.644052+00:00",
+        "lastFetch": "2026-10-28T19:02:07.940874+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3211,8 +3236,8 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SERVICIOS",
-      "movement": 88,
-      "coverage": 9,
+      "movement": 87,
+      "coverage": 8,
       "sourceCount": 8,
       "directSourceCount": 0,
       "territorialAnchors": [
@@ -3267,25 +3292,6 @@
           "isNew": false,
           "titleKey": "once allanamientos venta drogas ocho personas fueron imputadas post",
           "evidenceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQbXBVVS16UlM2LVpnbTN5X2hCbFZJT0lodldnd0lYYks3b2pJd3c3bkJpaWdkaHE0eVhOMTQ3dl9ndXlkdklaNXdYZ1VQcHNoc1MyVkNDbjJ1MkQwM0JWb29MMXlUN3hfMFFRbW1oSHZmR0xRdGh2Z2JHbUNEemdza1VRb2RmMWtSVm5kdFdaRmtIY1pOZ3RGQTk3MXN0QjkyOC1uSFJIemdjbjFwXy1wSDFacEdOd0JU?oc=5",
-          "sourcePriority": 3
-        },
-        {
-          "title": "Once allanamientos en El Chañar y barrios neuquinos por venta de drogas: hay ocho personas imputadas - MejorInformado.com",
-          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNUWZHZFRMX2tOdUNNeVpPOWltXzdPa2dKS3FWeWczMHJSeDVtN1l4c3lCbUpVcGJ0ckNaSERnMC1wb0dTRjE0LW1ZX1FtTnR4c3RNZWdyd1hzXzFTS3ZfdksxQ2w3RUc0enZoYk54Y2tMUDFBelhQYkJSOENWRlgtZDZYV0M0X1M1eDlfcWZMdnJkUGV1SHJfUUxHQ2ZxQjJ6NDBsc0JPa2VsUHZVaVVZeF9Hdmc1MUZwUERNUlR5a0pnd0JQZ00zVExkdnNWczVmMjFz0gHTAUFVX3lxTE1RZkdkVExfa051Q015Wk85aW1fN09rZ0pLcVZ5ZzMwclJ4NW03WXhzeUJtSlVwYnRyQ1pIRGcwLXBvR1NGMTQtbVlfUW1OdHhzdE1lZ3J3WHNfMVNLdl92SzFDbDdFRzR6dmhiTnhja0xQMUF6WFBiQlI4Q1ZGWC1kNlhXQzRfUzV4OV9xZkx2cmRQZXVIcl9RTEdDZnFCMno0MGxzQk9rZWxQdlVpVVl4X0d2ZzUxRnBQRE1SVHlrSmd3QlBnTTNUTGR2c1ZzNWYyMXM?oc=5",
-          "publishedAt": "2026-10-26T13:45:39+00:00",
-          "published": "2026-10-26T13:45:39+00:00",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMi0wFBVV95cUxNUWZHZFRMX2tOdUNNeVpPOWltXzdPa2dKS3FWeWczMHJSeDVtN1l4c3lCbUpVcGJ0ckNaSERnMC1wb0dTRjE0LW1ZX1FtTnR4c3RNZWdyd1hzXzFTS3ZfdksxQ2w3RUc0enZoYk54Y2tMUDFBelhQYkJSOENWRlgtZDZYV0M0X1M1eDlfcWZMdnJkUGV1SHJfUUxHQ2ZxQjJ6NDBsc0JPa2VsUHZVaVVZeF9Hdmc1MUZwUERNUlR5a0pnd0JQZ00zVExkdnNWczVmMjFz0gHTAUFVX3lxTE1RZkdkVExfa051Q015Wk85aW1fN09rZ0pLcVZ5ZzMwclJ4NW03WXhzeUJtSlVwYnRyQ1pIRGcwLXBvR1NGMTQtbVlfUW1OdHhzdE1lZ3J3WHNfMVNLdl92SzFDbDdFRzR6dmhiTnhja0xQMUF6WFBiQlI4Q1ZGWC1kNlhXQzRfUzV4OV9xZkx2cmRQZXVIcl9RTEdDZnFCMno0MGxzQk9rZWxQdlVpVVl4X0d2ZzUxRnBQRE1SVHlrSmd3QlBnTTNUTGR2c1ZzNWYyMXM?oc=5\" target=\"_blank\">Once allanamientos en El Chañar y barrios neuquinos por venta de drogas: hay ocho personas imputadas</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MejorInformado.com</font>",
-          "source": "MejorInformado.com",
-          "sourceType": "BUSCADOR / RESPALDO",
-          "sourceUrl": "",
-          "collection": "BUSCADOR",
-          "query": "\"San Patricio del Chañar\"",
-          "relevance": 3,
-          "relevanceLabel": "DIRECTA",
-          "firstSeen": "2026-10-26T15:02:19.812890+00:00",
-          "isNew": false,
-          "titleKey": "once allanamientos barrios neuquinos venta drogas hay ocho personas imputadas mejorinformado com",
-          "evidenceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNUWZHZFRMX2tOdUNNeVpPOWltXzdPa2dKS3FWeWczMHJSeDVtN1l4c3lCbUpVcGJ0ckNaSERnMC1wb0dTRjE0LW1ZX1FtTnR4c3RNZWdyd1hzXzFTS3ZfdksxQ2w3RUc0enZoYk54Y2tMUDFBelhQYkJSOENWRlgtZDZYV0M0X1M1eDlfcWZMdnJkUGV1SHJfUUxHQ2ZxQjJ6NDBsc0JPa2VsUHZVaVVZeF9Hdmc1MUZwUERNUlR5a0pnd0JQZ00zVExkdnNWczVmMjFz0gHTAUFVX3lxTE1RZkdkVExfa051Q015Wk85aW1fN09rZ0pLcVZ5ZzMwclJ4NW03WXhzeUJtSlVwYnRyQ1pIRGcwLXBvR1NGMTQtbVlfUW1OdHhzdE1lZ3J3WHNfMVNLdl92SzFDbDdFRzR6dmhiTnhja0xQMUF6WFBiQlI4Q1ZGWC1kNlhXQzRfUzV4OV9xZkx2cmRQZXVIcl9RTEdDZnFCMno0MGxzQk9rZWxQdlVpVVl4X0d2ZzUxRnBQRE1SVHlrSmd3QlBnTTNUTGR2c1ZzNWYyMXM?oc=5",
           "sourcePriority": 3
         },
         {
@@ -3382,12 +3388,32 @@
           "titleKey": "bajara caudal rio cuanto erogara dique noticiasnqn",
           "evidenceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNRzRyLUw0LVZVWExjZjY0RXV3dWc4S0xJMHJYVl9FQnBQOWhTZ1J1cnZod09zbDUzUnVHdURyeHZiWmJlMldMVWp1Z3kxUlBzOFpSbmt1SGdiNUF3eFozUEU5Ym5qaXhhWldhZ0VHWTNRNU5DYjZiMGw2TTEycGFhRS1MQW02amxoT2t6SXhtblFVUXZ0QWxUVDA4WVBRb29wVlRzZ0R1RXFlQ0FqZUlpTlgtT3NXY2VTTVY5WDZKTnV1N3BHYXRr0gHHAUFVX3lxTE1HNHItTDQtVlVYTGNmNjRFdXd1ZzhLTEkwclhWX0VCcFA5aFNnUnVydmh3T3NsNTNSdUd1RHJ4dmJaYmUyV0xVanVneTFSUHM4WlJua3VIZ2I1QXd4WjNQRTlibmppeGFaV2FnRUdZM1E1TkNiNmIwbDZNMTJwYWFFLUxBbTZqbGhPa3pJeG1uUVVRdnRBbFRUMDhZUFFvb3BWVHNnRHVFcWVDQWplSWlOWC1Pc1djZVNNVjlYNkpOdXU3cEdhdGs?oc=5",
           "sourcePriority": 3
+        },
+        {
+          "title": "Golpe al narcomenudeo: realizaron 11 allanamientos entre Neuquén capital y San Patricio del Chañar - Minuto Neuquén",
+          "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNbDBhRWF4NGRzMXZfYjZ2c3VhcHVGdlZBYkhkeC0tZ2J0MWxtTU02ak04NlY4aDRsU0dRd21qWEpDV0w4aDdwNF9mZDhnbmtZbERIRGl3R1haOWlQX2pHX2xLYllxbEdsM1RGWjV0eGI1Q3I3b2N3RVkyYTIybHBaUjhTUE4tb3V4YmdsX2FQSlkzR1JieHJVY3VUUGpKdzRObXc3UF9MWGJ3T1Qyai1vN01tVTl1M3dFOUJNUWg1UWREZU15aGloYVRXQXpWcnhoT05fVFdVT2ZlSGNySW9ybDQ2Z1Q1NnRmVGdFbnFPZw?oc=5",
+          "publishedAt": "2026-10-26T20:30:00+00:00",
+          "published": "2026-10-26T20:30:00+00:00",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMi7wFBVV95cUxNbDBhRWF4NGRzMXZfYjZ2c3VhcHVGdlZBYkhkeC0tZ2J0MWxtTU02ak04NlY4aDRsU0dRd21qWEpDV0w4aDdwNF9mZDhnbmtZbERIRGl3R1haOWlQX2pHX2xLYllxbEdsM1RGWjV0eGI1Q3I3b2N3RVkyYTIybHBaUjhTUE4tb3V4YmdsX2FQSlkzR1JieHJVY3VUUGpKdzRObXc3UF9MWGJ3T1Qyai1vN01tVTl1M3dFOUJNUWg1UWREZU15aGloYVRXQXpWcnhoT05fVFdVT2ZlSGNySW9ybDQ2Z1Q1NnRmVGdFbnFPZw?oc=5\" target=\"_blank\">Golpe al narcomenudeo: realizaron 11 allanamientos entre Neuquén capital y San Patricio del Chañar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Minuto Neuquén</font>",
+          "source": "Minuto Neuquén",
+          "sourceType": "BUSCADOR / RESPALDO",
+          "sourceUrl": "",
+          "collection": "BUSCADOR",
+          "query": "\"San Patricio del Chañar\"",
+          "relevance": 3,
+          "relevanceLabel": "DIRECTA",
+          "firstSeen": "2026-10-26T20:41:34.231085+00:00",
+          "isNew": false,
+          "titleKey": "golpe narcomenudeo realizaron allanamientos entre capital minuto",
+          "evidenceUrl": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNbDBhRWF4NGRzMXZfYjZ2c3VhcHVGdlZBYkhkeC0tZ2J0MWxtTU02ak04NlY4aDRsU0dRd21qWEpDV0w4aDdwNF9mZDhnbmtZbERIRGl3R1haOWlQX2pHX2xLYllxbEdsM1RGWjV0eGI1Q3I3b2N3RVkyYTIybHBaUjhTUE4tb3V4YmdsX2FQSlkzR1JieHJVY3VUUGpKdzRObXc3UF9MWGJ3T1Qyai1vN01tVTl1M3dFOUJNUWg1UWREZU15aGloYVRXQXpWcnhoT05fVFdVT2ZlSGNySW9ybDQ2Z1Q1NnRmVGdFbnFPZw?oc=5",
+          "sourcePriority": 3
         }
       ],
       "lifecycle": "ACTIVO",
-      "movementDelta": -2,
+      "movementDelta": -1,
       "previousCoverage": 9,
       "newSources": [
+        "NoticiasNQN",
         "Minuto Neuquén"
       ],
       "sourceDiversity": 8,
@@ -3562,7 +3588,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "DEPORTE",
-      "movement": 44,
+      "movement": 43,
       "coverage": 1,
       "sourceCount": 1,
       "directSourceCount": 0,
@@ -3596,7 +3622,7 @@
         }
       ],
       "lifecycle": "SOSTENIDO",
-      "movementDelta": -2,
+      "movementDelta": -1,
       "previousCoverage": 1,
       "newSources": [],
       "sourceDiversity": 1,
@@ -3640,7 +3666,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SERVICIOS",
-      "movement": 43,
+      "movement": 41,
       "coverage": 1,
       "sourceCount": 1,
       "directSourceCount": 0,
@@ -3674,8 +3700,8 @@
         }
       ],
       "lifecycle": "SOSTENIDO",
-      "movementDelta": 27,
-      "previousCoverage": 1,
+      "movementDelta": 18,
+      "previousCoverage": 2,
       "newSources": [
         "NoticiasNQN"
       ],
@@ -3720,7 +3746,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "MOVILIDAD",
-      "movement": 39,
+      "movement": 38,
       "coverage": 2,
       "sourceCount": 2,
       "directSourceCount": 0,
@@ -3775,7 +3801,7 @@
         }
       ],
       "lifecycle": "SOSTENIDO",
-      "movementDelta": 23,
+      "movementDelta": 22,
       "previousCoverage": 7,
       "newSources": [
         "Diario Río Negro"
@@ -3829,7 +3855,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SERVICIOS",
-      "movement": 34,
+      "movement": 33,
       "coverage": 3,
       "sourceCount": 2,
       "directSourceCount": 0,
@@ -3902,7 +3928,7 @@
         }
       ],
       "lifecycle": "EN DESCENSO",
-      "movementDelta": -7,
+      "movementDelta": -6,
       "previousCoverage": 2,
       "newSources": [
         "Chañar Digital",
@@ -3949,7 +3975,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "PRODUCCIÓN",
-      "movement": 30,
+      "movement": 28,
       "coverage": 1,
       "sourceCount": 1,
       "directSourceCount": 0,
@@ -3982,7 +4008,7 @@
         }
       ],
       "lifecycle": "RECIENTE",
-      "movementDelta": -1,
+      "movementDelta": -2,
       "previousCoverage": 1,
       "newSources": [],
       "sourceDiversity": 1,
@@ -4161,7 +4187,7 @@
           "relevance": 3,
           "relevanceLabel": "DIRECTA",
           "firstSeen": "2026-10-28T13:25:45.004795+00:00",
-          "isNew": true,
+          "isNew": false,
           "titleKey": "aic aumentara caudal rio aguas abajo compensador digital",
           "evidenceUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNRHpnalpYOVdNOUhCbDQyWkNIZFI5N29aM21GQlIxeUxPLVlDMzhmSlEwcTVpOEtmdk9rbVk2aUtHVlhpdkhsdnRBcmNhTmdNdkdGTXVxYjVlQTJid1JMLUNrLWptTlRWVGhoNUVJVDgwMjZJNXVnejJiR05wbF9TaW5tWFRUU1E3NXBvOFNpRDlqTDloNXV4OHBEWDU2ZmRqXy1pQ2JnSHVRRWktUkNjZDByZ213MEExWmkxcFRSbzloQjJRSHBYeWF2M3RKQjA?oc=5",
           "sourcePriority": 3
@@ -4613,25 +4639,6 @@
       "sourcePriority": 3
     },
     {
-      "title": "Once allanamientos en El Chañar y barrios neuquinos por venta de drogas: hay ocho personas imputadas - MejorInformado.com",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNUWZHZFRMX2tOdUNNeVpPOWltXzdPa2dKS3FWeWczMHJSeDVtN1l4c3lCbUpVcGJ0ckNaSERnMC1wb0dTRjE0LW1ZX1FtTnR4c3RNZWdyd1hzXzFTS3ZfdksxQ2w3RUc0enZoYk54Y2tMUDFBelhQYkJSOENWRlgtZDZYV0M0X1M1eDlfcWZMdnJkUGV1SHJfUUxHQ2ZxQjJ6NDBsc0JPa2VsUHZVaVVZeF9Hdmc1MUZwUERNUlR5a0pnd0JQZ00zVExkdnNWczVmMjFz0gHTAUFVX3lxTE1RZkdkVExfa051Q015Wk85aW1fN09rZ0pLcVZ5ZzMwclJ4NW03WXhzeUJtSlVwYnRyQ1pIRGcwLXBvR1NGMTQtbVlfUW1OdHhzdE1lZ3J3WHNfMVNLdl92SzFDbDdFRzR6dmhiTnhja0xQMUF6WFBiQlI4Q1ZGWC1kNlhXQzRfUzV4OV9xZkx2cmRQZXVIcl9RTEdDZnFCMno0MGxzQk9rZWxQdlVpVVl4X0d2ZzUxRnBQRE1SVHlrSmd3QlBnTTNUTGR2c1ZzNWYyMXM?oc=5",
-      "publishedAt": "2026-10-26T13:45:39+00:00",
-      "published": "2026-10-26T13:45:39+00:00",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMi0wFBVV95cUxNUWZHZFRMX2tOdUNNeVpPOWltXzdPa2dKS3FWeWczMHJSeDVtN1l4c3lCbUpVcGJ0ckNaSERnMC1wb0dTRjE0LW1ZX1FtTnR4c3RNZWdyd1hzXzFTS3ZfdksxQ2w3RUc0enZoYk54Y2tMUDFBelhQYkJSOENWRlgtZDZYV0M0X1M1eDlfcWZMdnJkUGV1SHJfUUxHQ2ZxQjJ6NDBsc0JPa2VsUHZVaVVZeF9Hdmc1MUZwUERNUlR5a0pnd0JQZ00zVExkdnNWczVmMjFz0gHTAUFVX3lxTE1RZkdkVExfa051Q015Wk85aW1fN09rZ0pLcVZ5ZzMwclJ4NW03WXhzeUJtSlVwYnRyQ1pIRGcwLXBvR1NGMTQtbVlfUW1OdHhzdE1lZ3J3WHNfMVNLdl92SzFDbDdFRzR6dmhiTnhja0xQMUF6WFBiQlI4Q1ZGWC1kNlhXQzRfUzV4OV9xZkx2cmRQZXVIcl9RTEdDZnFCMno0MGxzQk9rZWxQdlVpVVl4X0d2ZzUxRnBQRE1SVHlrSmd3QlBnTTNUTGR2c1ZzNWYyMXM?oc=5\" target=\"_blank\">Once allanamientos en El Chañar y barrios neuquinos por venta de drogas: hay ocho personas imputadas</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MejorInformado.com</font>",
-      "source": "MejorInformado.com",
-      "sourceType": "BUSCADOR / RESPALDO",
-      "sourceUrl": "",
-      "collection": "BUSCADOR",
-      "query": "\"San Patricio del Chañar\"",
-      "relevance": 3,
-      "relevanceLabel": "DIRECTA",
-      "firstSeen": "2026-10-26T15:02:19.812890+00:00",
-      "isNew": false,
-      "titleKey": "once allanamientos barrios neuquinos venta drogas hay ocho personas imputadas mejorinformado com",
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNUWZHZFRMX2tOdUNNeVpPOWltXzdPa2dKS3FWeWczMHJSeDVtN1l4c3lCbUpVcGJ0ckNaSERnMC1wb0dTRjE0LW1ZX1FtTnR4c3RNZWdyd1hzXzFTS3ZfdksxQ2w3RUc0enZoYk54Y2tMUDFBelhQYkJSOENWRlgtZDZYV0M0X1M1eDlfcWZMdnJkUGV1SHJfUUxHQ2ZxQjJ6NDBsc0JPa2VsUHZVaVVZeF9Hdmc1MUZwUERNUlR5a0pnd0JQZ00zVExkdnNWczVmMjFz0gHTAUFVX3lxTE1RZkdkVExfa051Q015Wk85aW1fN09rZ0pLcVZ5ZzMwclJ4NW03WXhzeUJtSlVwYnRyQ1pIRGcwLXBvR1NGMTQtbVlfUW1OdHhzdE1lZ3J3WHNfMVNLdl92SzFDbDdFRzR6dmhiTnhja0xQMUF6WFBiQlI4Q1ZGWC1kNlhXQzRfUzV4OV9xZkx2cmRQZXVIcl9RTEdDZnFCMno0MGxzQk9rZWxQdlVpVVl4X0d2ZzUxRnBQRE1SVHlrSmd3QlBnTTNUTGR2c1ZzNWYyMXM?oc=5",
-      "sourcePriority": 3
-    },
-    {
       "title": "Atlético Regina goleó a San Patricio del Chañar: los resultados de la tercera ronda del Regional Amateur - Diario Río Negro",
       "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQRlA1Wllpb0hBMm9sME5ULUxIaUt0QWdmUXNzcWh4bFo4eXhVaEZnV0VZLVZKS0J6MjFnTWQ3OWhYY3Q3VmlLLWlNN1d3YjdGMDc0QXVLMGlyQktvU1dFQ3VEWUJnYlJnSUZFOHBLYkxFelBORkhlQzBrRDY3ajhTS0wyX2pGUzk5UllraW02ZG1fQ3VqZHRpQndhQXpWVFY4UzdjN0JaZHdFVUVyVzFxcTdMSHk5dk45c2Y4eUtJTm14dXJvUVZoZXI5OFh1cWdqNk55X3RsOHdMS1Z3TVZTR2lFNUZIWFBiUjdZ0gHrAUFVX3lxTFBGUDVaWWlvSEEyb2wwTlQtTEhpS3RBZ2ZRc3NxaHhsWjh5eFVoRmdXRVktVkpLQnoyMWdNZDc5aFhjdDdWaUstaU03V3diN0YwNzRBdUswaXJCS29TV0VDdURZQmdiUmdJRkU4cEtiTEV6UE5GSGVDMGtENjdqOFNLTDJfakZTOTlSWWtpbTZkbV9DdWpkdGlCd2FBelZUVjhTN2M3Qlpkd0VVRXJXMXFxN0xIeTl2TjlzZjh5S0lObXh1cm9RVmhlcjk4WHVxZ2o2TnlfdGw4d0xLVndNVlNHaUU1RkhYUGJSN1k?oc=5",
       "publishedAt": "2026-10-25T23:08:15+00:00",
@@ -4949,7 +4956,7 @@
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "firstSeen": "2026-10-28T13:25:45.004795+00:00",
-      "isNew": true,
+      "isNew": false,
       "titleKey": "aic aumentara caudal rio aguas abajo compensador digital",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNRHpnalpYOVdNOUhCbDQyWkNIZFI5N29aM21GQlIxeUxPLVlDMzhmSlEwcTVpOEtmdk9rbVk2aUtHVlhpdkhsdnRBcmNhTmdNdkdGTXVxYjVlQTJid1JMLUNrLWptTlRWVGhoNUVJVDgwMjZJNXVnejJiR05wbF9TaW5tWFRUU1E3NXBvOFNpRDlqTDloNXV4OHBEWDU2ZmRqXy1pQ2JnSHVRRWktUkNjZDByZ213MEExWmkxcFRSbzloQjJRSHBYeWF2M3RKQjA?oc=5",
       "sourcePriority": 3
@@ -4995,7 +5002,7 @@
   ],
   "territorialGraph": {
     "version": "2.0",
-    "generatedAt": "2026-10-28T13:25:55.785903+00:00",
+    "generatedAt": "2026-10-28T19:02:26.949355+00:00",
     "root": "spc",
     "rule": "evidence-first",
     "levels": [
@@ -5640,11 +5647,11 @@
   },
   "audit": {
     "version": "1.0",
-    "updatedAt": "2026-10-28T13:25:55.818663+00:00",
+    "updatedAt": "2026-10-28T19:02:26.986379+00:00",
     "rule": "fact != coverage; territory requires textual evidence",
     "facts": 11,
-    "coverage": 32,
-    "coveragePerFact": 2.91,
+    "coverage": 31,
+    "coveragePerFact": 2.82,
     "directAnchorFacts": 11,
     "directAnchorPct": 100.0,
     "territorySpecificFacts": 3,
