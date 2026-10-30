@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T21:41:47.947759+00:00",
+  "updatedAt": "2026-10-30T01:46:27.771030+00:00",
   "window": "14 días",
   "purpose": "Detectar qué se está moviendo en San Patricio del Chañar y mostrar de dónde surge cada señal.",
   "architecture": "contrato universal de procedencia + fuentes profesionales + adaptadores específicos + validación semántica + temporalidad + evidencia editorial separada",
@@ -49,7 +49,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://chanardigital.com.ar/",
-      "lastFetch": "2026-10-29T21:41:29.826966+00:00",
+      "lastFetch": "2026-10-30T01:46:03.552641+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -65,7 +65,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.radiomia.com.ar/",
-      "lastFetch": "2026-10-29T21:41:31.037220+00:00",
+      "lastFetch": "2026-10-30T01:46:06.234249+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -80,7 +80,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://tuitvacamuerta.com/",
-      "lastFetch": "2026-10-29T21:41:32.601457+00:00",
+      "lastFetch": "2026-10-30T01:46:07.793726+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -95,7 +95,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.vacamuertanews.com/",
-      "lastFetch": "2026-10-29T21:41:32.903221+00:00",
+      "lastFetch": "2026-10-30T01:46:08.183098+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -111,7 +111,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.neuqueninforma.gob.ar/",
-      "lastFetch": "2026-10-29T21:41:34.035046+00:00",
+      "lastFetch": "2026-10-30T01:46:09.758788+00:00",
       "success": false,
       "attempted": 3,
       "failures": [
@@ -128,7 +128,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://sanpatricio.gob.ar/",
-      "lastFetch": "2026-10-29T21:41:34.957740+00:00",
+      "lastFetch": "2026-10-30T01:46:10.792633+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -143,7 +143,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://boletinoficial.neuquen.gov.ar/",
-      "lastFetch": "2026-10-29T21:41:35.880786+00:00",
+      "lastFetch": "2026-10-30T01:46:11.824846+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -158,7 +158,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.lmneuquen.com/",
-      "lastFetch": "2026-10-29T21:41:36.054276+00:00",
+      "lastFetch": "2026-10-30T01:46:12.116198+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -174,14 +174,14 @@
       "mode": "RSS DIRECTO",
       "signals": 1,
       "url": "https://www.rionegro.com.ar/",
-      "lastFetch": "2026-10-29T21:41:36.217554+00:00",
+      "lastFetch": "2026-10-30T01:46:14.591505+00:00",
       "success": true,
       "attempted": 2,
       "failures": [
         "WEB:AttributeError"
       ],
       "directAvailability": "available",
-      "freshnessHours": 0.0
+      "freshnessHours": 4.1
     },
     {
       "name": "Mejor Informado",
@@ -189,7 +189,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.mejorinformado.com/",
-      "lastFetch": "2026-10-29T21:41:36.747140+00:00",
+      "lastFetch": "2026-10-30T01:46:15.611084+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -205,7 +205,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.diariamenteneuquen.com/",
-      "lastFetch": "2026-10-29T21:41:37.378305+00:00",
+      "lastFetch": "2026-10-30T01:46:16.328638+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -709,8 +709,8 @@
   "languageAudit": [
     {
       "term": "el chañar",
-      "hits": 24,
-      "direct": 24
+      "hits": 25,
+      "direct": 25
     },
     {
       "term": "san patricio del chañar",
@@ -1191,8 +1191,8 @@
         "source": "Minuto Neuquén",
         "group": "OBSERVADA",
         "role": "fuente detectada fuera del catálogo",
-        "accepted": 2,
-        "direct": 2,
+        "accepted": 3,
+        "direct": 3,
         "anchored": 0,
         "falsePositives": 0,
         "falsePositiveTypes": [],
@@ -1412,8 +1412,20 @@
         "anchored": 0,
         "falsePositives": 0,
         "territorialTerms": [
-          "san patricio del chañar",
-          "el chañar"
+          "el chañar",
+          "san patricio del chañar"
+        ]
+      },
+      {
+        "source": "Minuto Neuquén",
+        "topic": "SERVICIOS",
+        "accepted": 3,
+        "direct": 3,
+        "anchored": 0,
+        "falsePositives": 0,
+        "territorialTerms": [
+          "el chañar",
+          "san patricio del chañar"
         ]
       },
       {
@@ -1437,21 +1449,9 @@
         "anchored": 0,
         "falsePositives": 0,
         "territorialTerms": [
-          "san patricio del chañar",
           "el chañar",
-          "parque industrial"
-        ]
-      },
-      {
-        "source": "Minuto Neuquén",
-        "topic": "SERVICIOS",
-        "accepted": 2,
-        "direct": 2,
-        "anchored": 0,
-        "falsePositives": 0,
-        "territorialTerms": [
           "san patricio del chañar",
-          "el chañar"
+          "parque industrial"
         ]
       },
       {
@@ -1474,8 +1474,8 @@
         "anchored": 0,
         "falsePositives": 0,
         "territorialTerms": [
-          "san patricio del chañar",
-          "el chañar"
+          "el chañar",
+          "san patricio del chañar"
         ]
       },
       {
@@ -1572,8 +1572,8 @@
         "anchored": 0,
         "falsePositives": 0,
         "territorialTerms": [
-          "san patricio del chañar",
-          "el chañar"
+          "el chañar",
+          "san patricio del chañar"
         ]
       },
       {
@@ -1622,8 +1622,8 @@
         "anchored": 0,
         "falsePositives": 0,
         "territorialTerms": [
-          "san patricio del chañar",
-          "el chañar"
+          "el chañar",
+          "san patricio del chañar"
         ]
       },
       {
@@ -1669,8 +1669,8 @@
       },
       {
         "term": "el chañar",
-        "acceptedHits": 26,
-        "directHits": 26,
+        "acceptedHits": 27,
+        "directHits": 27,
         "rejectedTitleHits": 0,
         "territorialStrength": "FUERTE"
       },
@@ -1995,10 +1995,10 @@
     "interpretation": "auditoría sobre eventos aceptados; la próxima capa debe instrumentar rechazos antes del clustering"
   },
   "stats": {
-    "total": 27,
-    "direct": 27,
+    "total": 28,
+    "direct": 28,
     "regional": 0,
-    "new": 3,
+    "new": 1,
     "sources": 14,
     "directSignals": 1,
     "localDirectSignals": 0,
@@ -2013,7 +2013,7 @@
       "forecastGustKmh": 24.0,
       "forecastWindDirection": "NE",
       "forecastTemperatureC": 28.0,
-      "retrievedAt": "2026-10-29T21:41:27.744507+00:00",
+      "retrievedAt": "2026-10-30T01:46:01.266627+00:00",
       "source": "AIC",
       "sourceTier": "primary",
       "sourceUrl": "https://www.aic.gob.ar/sitio/home?a=1015&z=1967225803",
@@ -2041,9 +2041,9 @@
       ],
       "currentProgrammedMaxM3s": 420,
       "currentProgrammedMinM3s": 400,
-      "programDate": "2026-10-30",
-      "tableDate": "2026-10-29",
-      "retrievedAt": "2026-10-29T21:41:27.744507+00:00",
+      "programDate": "2026-10-31",
+      "tableDate": "2026-10-30",
+      "retrievedAt": "2026-10-30T01:46:01.266627+00:00",
       "source": "AIC",
       "sourceTier": "primary",
       "sourceUrl": "https://www.aic.gob.ar/sitio/caudales",
@@ -2063,17 +2063,17 @@
         "url": "https://www.aic.gob.ar/sitio/caudales"
       }
     ],
-    "updatedAt": "2026-10-29T21:41:27.744507+00:00"
+    "updatedAt": "2026-10-30T01:46:01.266627+00:00"
   },
   "operational": {
-    "updatedAt": "2026-10-29T21:41:27.744507+00:00",
+    "updatedAt": "2026-10-30T01:46:01.266627+00:00",
     "route7": {
       "source": "Dirección Provincial de Vialidad",
       "sourceTier": "primary",
       "sourceUrl": "https://www.dpvneuquen.gov.ar/",
       "semanticState": null,
       "publicationState": "source_reachable_no_current_machine_readable_state",
-      "retrievedAt": "2026-10-29T21:41:27.744507+00:00",
+      "retrievedAt": "2026-10-30T01:46:01.266627+00:00",
       "evidence": {
         "route7Mention": true,
         "route8Mention": false
@@ -2085,7 +2085,7 @@
       "sourceUrl": "https://www.dpvneuquen.gov.ar/",
       "semanticState": null,
       "publicationState": "source_reachable_no_current_machine_readable_state",
-      "retrievedAt": "2026-10-29T21:41:27.744507+00:00",
+      "retrievedAt": "2026-10-30T01:46:01.266627+00:00",
       "evidence": {
         "route7Mention": true,
         "route8Mention": false
@@ -2099,7 +2099,7 @@
       "eventType": null,
       "detail": null,
       "publicationState": "source_reachable_no_specific_local_notice",
-      "retrievedAt": "2026-10-29T21:41:27.744507+00:00"
+      "retrievedAt": "2026-10-30T01:46:01.266627+00:00"
     },
     "water": {
       "source": "EPAS",
@@ -2109,7 +2109,7 @@
       "eventType": null,
       "detail": null,
       "publicationState": "source_reachable_no_specific_local_notice",
-      "retrievedAt": "2026-10-29T21:41:27.744507+00:00"
+      "retrievedAt": "2026-10-30T01:46:01.266627+00:00"
     },
     "sources": [
       {
@@ -2521,7 +2521,7 @@
       "label": "Conversación general",
       "signal": 12,
       "status": "cobertura editorial",
-      "freshnessHours": 0.1,
+      "freshnessHours": 1.8,
       "mode": "evidencia editorial",
       "evidenceCount": 12,
       "sourceContract": {
@@ -2561,7 +2561,7 @@
       "label": "Corredor Ruta 7",
       "signal": 1,
       "status": "estado vial",
-      "freshnessHours": 172.7,
+      "freshnessHours": 176.8,
       "mode": "evidencia territorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -2601,7 +2601,7 @@
         "sourceUrl": "https://www.dpvneuquen.gov.ar/",
         "semanticState": null,
         "publicationState": "source_reachable_no_current_machine_readable_state",
-        "retrievedAt": "2026-10-29T21:41:27.744507+00:00",
+        "retrievedAt": "2026-10-30T01:46:01.266627+00:00",
         "evidence": {
           "route7Mention": true,
           "route8Mention": false
@@ -2613,7 +2613,7 @@
       "label": "Corredor Ruta 8",
       "signal": 1,
       "status": "estado vial",
-      "freshnessHours": 172.7,
+      "freshnessHours": 176.8,
       "mode": "evidencia territorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -2653,7 +2653,7 @@
         "sourceUrl": "https://www.dpvneuquen.gov.ar/",
         "semanticState": null,
         "publicationState": "source_reachable_no_current_machine_readable_state",
-        "retrievedAt": "2026-10-29T21:41:27.744507+00:00",
+        "retrievedAt": "2026-10-30T01:46:01.266627+00:00",
         "evidence": {
           "route7Mention": true,
           "route8Mention": false
@@ -2753,7 +2753,7 @@
         "eventType": null,
         "detail": null,
         "publicationState": "source_reachable_no_specific_local_notice",
-        "retrievedAt": "2026-10-29T21:41:27.744507+00:00"
+        "retrievedAt": "2026-10-30T01:46:01.266627+00:00"
       }
     },
     {
@@ -2761,7 +2761,7 @@
       "label": "Agua / abastecimiento",
       "signal": 1,
       "status": "evento hídrico",
-      "freshnessHours": 302.7,
+      "freshnessHours": 306.8,
       "mode": "evidencia editorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -2803,7 +2803,7 @@
         "eventType": null,
         "detail": null,
         "publicationState": "source_reachable_no_specific_local_notice",
-        "retrievedAt": "2026-10-29T21:41:27.744507+00:00"
+        "retrievedAt": "2026-10-30T01:46:01.266627+00:00"
       }
     },
     {
@@ -2811,7 +2811,7 @@
       "label": "Servicios e infraestructura",
       "signal": 2,
       "status": "evidencia de servicio",
-      "freshnessHours": 54.3,
+      "freshnessHours": 58.4,
       "mode": "evidencia editorial",
       "evidenceCount": 2,
       "sourceContract": {
@@ -2891,7 +2891,7 @@
       "label": "Educación",
       "signal": 1,
       "status": "evidencia educativa",
-      "freshnessHours": 790.6,
+      "freshnessHours": 794.7,
       "mode": "evidencia editorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -2931,7 +2931,7 @@
       "label": "Producción rural",
       "signal": 1,
       "status": "evidencia productiva",
-      "freshnessHours": 149.1,
+      "freshnessHours": 153.2,
       "mode": "evidencia editorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -2971,7 +2971,7 @@
       "label": "Seguridad / emergencias",
       "signal": 1,
       "status": "cobertura de emergencia",
-      "freshnessHours": 225.4,
+      "freshnessHours": 229.5,
       "mode": "evidencia editorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -3011,7 +3011,7 @@
       "label": "Territorio / microzonas",
       "signal": 1,
       "status": "hecho territorial",
-      "freshnessHours": 0.1,
+      "freshnessHours": 4.1,
       "mode": "evidencia territorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -3068,7 +3068,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://chanardigital.com.ar/",
-        "lastFetch": "2026-10-29T21:41:29.826966+00:00",
+        "lastFetch": "2026-10-30T01:46:03.552641+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3084,7 +3084,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.radiomia.com.ar/",
-        "lastFetch": "2026-10-29T21:41:31.037220+00:00",
+        "lastFetch": "2026-10-30T01:46:06.234249+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -3099,7 +3099,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://tuitvacamuerta.com/",
-        "lastFetch": "2026-10-29T21:41:32.601457+00:00",
+        "lastFetch": "2026-10-30T01:46:07.793726+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -3114,7 +3114,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.vacamuertanews.com/",
-        "lastFetch": "2026-10-29T21:41:32.903221+00:00",
+        "lastFetch": "2026-10-30T01:46:08.183098+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3130,7 +3130,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.neuqueninforma.gob.ar/",
-        "lastFetch": "2026-10-29T21:41:34.035046+00:00",
+        "lastFetch": "2026-10-30T01:46:09.758788+00:00",
         "success": false,
         "attempted": 3,
         "failures": [
@@ -3147,7 +3147,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://sanpatricio.gob.ar/",
-        "lastFetch": "2026-10-29T21:41:34.957740+00:00",
+        "lastFetch": "2026-10-30T01:46:10.792633+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -3162,7 +3162,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://boletinoficial.neuquen.gov.ar/",
-        "lastFetch": "2026-10-29T21:41:35.880786+00:00",
+        "lastFetch": "2026-10-30T01:46:11.824846+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -3177,7 +3177,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.lmneuquen.com/",
-        "lastFetch": "2026-10-29T21:41:36.054276+00:00",
+        "lastFetch": "2026-10-30T01:46:12.116198+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3193,14 +3193,14 @@
         "mode": "RSS DIRECTO",
         "signals": 1,
         "url": "https://www.rionegro.com.ar/",
-        "lastFetch": "2026-10-29T21:41:36.217554+00:00",
+        "lastFetch": "2026-10-30T01:46:14.591505+00:00",
         "success": true,
         "attempted": 2,
         "failures": [
           "WEB:AttributeError"
         ],
         "directAvailability": "available",
-        "freshnessHours": 0.0
+        "freshnessHours": 4.1
       },
       {
         "name": "Mejor Informado",
@@ -3208,7 +3208,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.mejorinformado.com/",
-        "lastFetch": "2026-10-29T21:41:36.747140+00:00",
+        "lastFetch": "2026-10-30T01:46:15.611084+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3224,7 +3224,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.diariamenteneuquen.com/",
-        "lastFetch": "2026-10-29T21:41:37.378305+00:00",
+        "lastFetch": "2026-10-30T01:46:16.328638+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3244,31 +3244,50 @@
     {
       "eventId": "CHA-bf6be71254d9",
       "title": "Le robaron el auto a un joven de 23 años en San Patricio del Chañar: dos testigos lo vieron todo e identificar - Mejor Informado",
-      "publishedAt": "2026-10-29T17:00:00+00:00",
+      "publishedAt": "2026-10-30T00:00:00+00:00",
       "firstSeen": "2026-10-27T20:52:48.800113+00:00",
-      "lastSeen": "2026-10-29T17:00:00+00:00",
+      "lastSeen": "2026-10-30T00:00:00+00:00",
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SERVICIOS",
-      "movement": 98,
-      "coverage": 6,
+      "movement": 100,
+      "coverage": 7,
       "sourceCount": 6,
       "directSourceCount": 0,
       "territorialAnchors": [
-        "san patricio del chañar",
-        "el chañar"
+        "el chañar",
+        "san patricio del chañar"
       ],
       "sources": [
+        "Minuto Neuquén",
         "Mejor Informado",
         "ANBariloche",
         "Patagonia Press",
         "Chañar Digital",
-        "Minuto Neuquén",
         "Lmneuquen.com"
       ],
       "evidenceUrl": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQY0RiZFlaVzBCQVViMGhuNU1zRm0zNVhyZHlDbnVjVExsN2NBdVBpTGJUMXJ2TGpoejRNY0REa3RpVDVpSldzN1ZweHF2LXNWNG56YjczTHdUUm54UnhqU180MmhfeWhVWW9Cc1dEYWIwZUpwYlp6MGlic3ZmSjUxZXhqc0g3SEhHekZfMjRfdVZrNUxhT1ozMUY2QmVNU3dfWU1ncjhWNXVjY2tvUmk2a0ltUFFacTlTVngzd19sUGM4RnpjNFR2ZkN0UXdrZml0LXBKcENBUldVRTBQamlHQjJB0gHiAUFVX3lxTFBjRGJkWVpXMEJBVWIwaG41TXNGbTM1WHJkeUNudWNUTGw3Y0F1UGlMYlQxcnZMamh6NE1jRERrdGlUNWlKV3M3VnB4cXYtc1Y0bnpiNzNMd1RSbnhSeGpTXzQyaF95aFVZb0JzV0RhYjBlSnBiWnowaWJzdmZKNTFleGpzSDdISEd6Rl8yNF91Vms1TGFPWjMxRjZCZU1Td19ZTWdyOFY1dWNja29SaTZrSW1QUVpxOVNWeDN3X2xQYzhGemM0VHZmQ3RRd2tmaXQtcEpwQ0FSV1VFMFBqaUdCMkE?oc=5",
       "items": [
+        {
+          "title": "Robaron un automóvil en El Chañar y lo encontraron más tarde abandonado en Río Negro - Minuto Neuquén",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQN2hySGdtYXNiUFpZMzJZdEk3R0xLNkJiME5mVTMxT1pNRWphV3lwdFFBbDRmZnlJTTdFeHI2NnRrZ0JSRlhtSkdsOUlWTW4xQlBidUJmcXN2NHh0c3MwbkJHUUg5cHRoLUp5bFZmQlE2bEM3MDRSb2FTTVMzeU4wN2hWeVJ1OFBUQlVXYm9zZmdrWjJBdTZVNGhLem5MRmJmM0k2OHN6ZFpEd3IyV19YWE1JOHRSaHpSWno0WUs3YTBOWVZOTUYweEtGU2dsc1habEVkV1VId1psSEg0YXc?oc=5",
+          "publishedAt": "2026-10-30T00:00:00+00:00",
+          "published": "2026-10-30T00:00:00+00:00",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMi3gFBVV95cUxQN2hySGdtYXNiUFpZMzJZdEk3R0xLNkJiME5mVTMxT1pNRWphV3lwdFFBbDRmZnlJTTdFeHI2NnRrZ0JSRlhtSkdsOUlWTW4xQlBidUJmcXN2NHh0c3MwbkJHUUg5cHRoLUp5bFZmQlE2bEM3MDRSb2FTTVMzeU4wN2hWeVJ1OFBUQlVXYm9zZmdrWjJBdTZVNGhLem5MRmJmM0k2OHN6ZFpEd3IyV19YWE1JOHRSaHpSWno0WUs3YTBOWVZOTUYweEtGU2dsc1habEVkV1VId1psSEg0YXc?oc=5\" target=\"_blank\">Robaron un automóvil en El Chañar y lo encontraron más tarde abandonado en Río Negro</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Minuto Neuquén</font>",
+          "source": "Minuto Neuquén",
+          "sourceType": "BUSCADOR / RESPALDO",
+          "sourceUrl": "",
+          "collection": "BUSCADOR",
+          "query": "\"San Patricio del Chañar\"",
+          "relevance": 3,
+          "relevanceLabel": "DIRECTA",
+          "firstSeen": "2026-10-30T01:46:27.771030+00:00",
+          "isNew": true,
+          "titleKey": "robaron automovil encontraron mas tarde abandonado rio negro minuto",
+          "evidenceUrl": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQN2hySGdtYXNiUFpZMzJZdEk3R0xLNkJiME5mVTMxT1pNRWphV3lwdFFBbDRmZnlJTTdFeHI2NnRrZ0JSRlhtSkdsOUlWTW4xQlBidUJmcXN2NHh0c3MwbkJHUUg5cHRoLUp5bFZmQlE2bEM3MDRSb2FTTVMzeU4wN2hWeVJ1OFBUQlVXYm9zZmdrWjJBdTZVNGhLem5MRmJmM0k2OHN6ZFpEd3IyV19YWE1JOHRSaHpSWno0WUs3YTBOWVZOTUYweEtGU2dsc1habEVkV1VId1psSEg0YXc?oc=5",
+          "sourcePriority": 3
+        },
         {
           "title": "Le robaron el auto a un joven de 23 años en San Patricio del Chañar: dos testigos lo vieron todo e identificar - Mejor Informado",
           "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQY0RiZFlaVzBCQVViMGhuNU1zRm0zNVhyZHlDbnVjVExsN2NBdVBpTGJUMXJ2TGpoejRNY0REa3RpVDVpSldzN1ZweHF2LXNWNG56YjczTHdUUm54UnhqU180MmhfeWhVWW9Cc1dEYWIwZUpwYlp6MGlic3ZmSjUxZXhqc0g3SEhHekZfMjRfdVZrNUxhT1ozMUY2QmVNU3dfWU1ncjhWNXVjY2tvUmk2a0ltUFFacTlTVngzd19sUGM4RnpjNFR2ZkN0UXdrZml0LXBKcENBUldVRTBQamlHQjJB0gHiAUFVX3lxTFBjRGJkWVpXMEJBVWIwaG41TXNGbTM1WHJkeUNudWNUTGw3Y0F1UGlMYlQxcnZMamh6NE1jRERrdGlUNWlKV3M3VnB4cXYtc1Y0bnpiNzNMd1RSbnhSeGpTXzQyaF95aFVZb0JzV0RhYjBlSnBiWnowaWJzdmZKNTFleGpzSDdISEd6Rl8yNF91Vms1TGFPWjMxRjZCZU1Td19ZTWdyOFY1dWNja29SaTZrSW1QUVpxOVNWeDN3X2xQYzhGemM0VHZmQ3RRd2tmaXQtcEpwQ0FSV1VFMFBqaUdCMkE?oc=5",
@@ -3359,7 +3378,7 @@
           "relevance": 3,
           "relevanceLabel": "DIRECTA",
           "firstSeen": "2026-10-29T21:41:47.947759+00:00",
-          "isNew": true,
+          "isNew": false,
           "titleKey": "tenia prision domiciliaria fue imputado venta drogas enviaran senillosa minuto",
           "evidenceUrl": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNVXl3bHJZVU94em0yMlF5Uy03eUctTlF4UE40MzYtM2ZiU1czVk9LanJxd2JiSmhfWndZX21GZkNWSU9EM25CcDdDYnhWYnR6RVpoMkxMeWJUQzRmQ09mSFpRSFRwZzJsWGFBWGRCOTd5LVZoNGRNSVZFRURhOUVwcUdORlBFVkFfZktfSk5CeTd4aXJ4aHpCc0kzS0tnX3V5Ulg0NTNiQ2gycXBsaFpabjkzVERvQzQ0SlA4NTZWZ1VFYVNYb3J6ZzA1T043aUhtTU1ZeXphdDBrSjBkUlFxRjBad1hBWXZmblNJYQ?oc=5",
           "sourcePriority": 3
@@ -3385,7 +3404,7 @@
         }
       ],
       "lifecycle": "ACTIVO",
-      "movementDelta": -2,
+      "movementDelta": 2,
       "previousCoverage": 6,
       "newSources": [
         "Lmneuquen.com"
@@ -3431,7 +3450,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SERVICIOS",
-      "movement": 77,
+      "movement": 76,
       "coverage": 2,
       "sourceCount": 2,
       "directSourceCount": 1,
@@ -3458,7 +3477,7 @@
           "relevance": 3,
           "relevanceLabel": "DIRECTA",
           "firstSeen": "2026-10-29T21:41:47.947759+00:00",
-          "isNew": true,
+          "isNew": false,
           "titleKey": "empresas parque industrial capital tendran años exencion licencia comercial",
           "evidenceUrl": "https://www.rionegro.com.ar/municipales/las-empresas-del-parque-industrial-capital-de-neuquen-tendran-10-anos-de-exencion-de-la-licencia-comercial-4778078/",
           "sourcePriority": 2
@@ -3484,11 +3503,9 @@
         }
       ],
       "lifecycle": "EMERGENTE",
-      "movementDelta": 24,
-      "previousCoverage": 1,
-      "newSources": [
-        "Diario Río Negro"
-      ],
+      "movementDelta": -1,
+      "previousCoverage": 2,
+      "newSources": [],
       "sourceDiversity": 2,
       "memoryMatched": true,
       "isNew": false,
@@ -3538,7 +3555,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SERVICIOS",
-      "movement": 72,
+      "movement": 71,
       "coverage": 6,
       "sourceCount": 5,
       "directSourceCount": 0,
@@ -3671,7 +3688,7 @@
         }
       ],
       "lifecycle": "ACTIVO",
-      "movementDelta": 49,
+      "movementDelta": 48,
       "previousCoverage": 2,
       "newSources": [
         "Neuquen Post",
@@ -3852,7 +3869,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "DEPORTE",
-      "movement": 36,
+      "movement": 34,
       "coverage": 1,
       "sourceCount": 1,
       "directSourceCount": 0,
@@ -3879,14 +3896,14 @@
           "relevance": 3,
           "relevanceLabel": "DIRECTA",
           "firstSeen": "2026-10-29T21:41:47.947759+00:00",
-          "isNew": true,
+          "isNew": false,
           "titleKey": "atletico regina goleo resultados tercera ronda regional amateur diario rio negro",
           "evidenceUrl": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOekFUdW5Bc1paVmNkSVpLTm9EYlVTeEdpSGNtSThCX0FDVWF5M2Y2YnlJY1hwTTNMcEFOMHhjbDJXX1hOSVo3VE1ZUlRHdG5NbmZIcTRXdFZsN1p5V3pFSGZ6OVdrWEtmVVRoUW4xT3dZMEpKbVhZc3lzcW5hamRFS3BZaE9vdmZjY3BUYnpGbmNaU0lZUm1KRy01N0RoVXA1aENQSU14OUZCQW92SlpRcmtKUHBrSWFldW5OU0lpR2VDSGZGT0pWVVd6Z3RWSnhhRXpqcG1VZVcxWW5RWXhzaDZ5UdIB6wFBVV95cUxQRlA1Wllpb0hBMm9sME5ULUxIaUt0QWdmUXNzcWh4bFo4eXhVaEZnV0VZLVZKS0J6MjFnTWQ3OWhYY3Q3VmlLLWlNN1d3YjdGMDc0QXVLMGlyQktvU1dFQ3VEWUJnYlJnSUZFOHBLYkxFelBORkhlQzBrRDY3ajhTS0wyX2pGUzk5UllraW02ZG1fQ3VqZHRpQndhQXpWVFY4UzdjN0JaZHdFVUVyVzFxcTdMSHk5dk45c2Y4eUtJTm14dXJvUVZoZXI5OFh1cWdqNk55X3RsOHdMS1Z3TVZTR2lFNUZIWFBiUjdZ?oc=5",
           "sourcePriority": 3
         }
       ],
-      "lifecycle": "SOSTENIDO",
-      "movementDelta": -1,
+      "lifecycle": "RECIENTE",
+      "movementDelta": -2,
       "previousCoverage": 1,
       "newSources": [],
       "sourceDiversity": 1,
@@ -4040,7 +4057,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SERVICIOS",
-      "movement": 26,
+      "movement": 25,
       "coverage": 3,
       "sourceCount": 2,
       "directSourceCount": 0,
@@ -4113,7 +4130,7 @@
         }
       ],
       "lifecycle": "EN DESCENSO",
-      "movementDelta": -6,
+      "movementDelta": -7,
       "previousCoverage": 2,
       "newSources": [
         "Chañar Digital",
@@ -4259,7 +4276,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "PRODUCCIÓN",
-      "movement": 21,
+      "movement": 20,
       "coverage": 1,
       "sourceCount": 1,
       "directSourceCount": 0,
@@ -4708,6 +4725,25 @@
   ],
   "items": [
     {
+      "title": "Robaron un automóvil en El Chañar y lo encontraron más tarde abandonado en Río Negro - Minuto Neuquén",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQN2hySGdtYXNiUFpZMzJZdEk3R0xLNkJiME5mVTMxT1pNRWphV3lwdFFBbDRmZnlJTTdFeHI2NnRrZ0JSRlhtSkdsOUlWTW4xQlBidUJmcXN2NHh0c3MwbkJHUUg5cHRoLUp5bFZmQlE2bEM3MDRSb2FTTVMzeU4wN2hWeVJ1OFBUQlVXYm9zZmdrWjJBdTZVNGhLem5MRmJmM0k2OHN6ZFpEd3IyV19YWE1JOHRSaHpSWno0WUs3YTBOWVZOTUYweEtGU2dsc1habEVkV1VId1psSEg0YXc?oc=5",
+      "publishedAt": "2026-10-30T00:00:00+00:00",
+      "published": "2026-10-30T00:00:00+00:00",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMi3gFBVV95cUxQN2hySGdtYXNiUFpZMzJZdEk3R0xLNkJiME5mVTMxT1pNRWphV3lwdFFBbDRmZnlJTTdFeHI2NnRrZ0JSRlhtSkdsOUlWTW4xQlBidUJmcXN2NHh0c3MwbkJHUUg5cHRoLUp5bFZmQlE2bEM3MDRSb2FTTVMzeU4wN2hWeVJ1OFBUQlVXYm9zZmdrWjJBdTZVNGhLem5MRmJmM0k2OHN6ZFpEd3IyV19YWE1JOHRSaHpSWno0WUs3YTBOWVZOTUYweEtGU2dsc1habEVkV1VId1psSEg0YXc?oc=5\" target=\"_blank\">Robaron un automóvil en El Chañar y lo encontraron más tarde abandonado en Río Negro</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Minuto Neuquén</font>",
+      "source": "Minuto Neuquén",
+      "sourceType": "BUSCADOR / RESPALDO",
+      "sourceUrl": "",
+      "collection": "BUSCADOR",
+      "query": "\"San Patricio del Chañar\"",
+      "relevance": 3,
+      "relevanceLabel": "DIRECTA",
+      "firstSeen": "2026-10-30T01:46:27.771030+00:00",
+      "isNew": true,
+      "titleKey": "robaron automovil encontraron mas tarde abandonado rio negro minuto",
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQN2hySGdtYXNiUFpZMzJZdEk3R0xLNkJiME5mVTMxT1pNRWphV3lwdFFBbDRmZnlJTTdFeHI2NnRrZ0JSRlhtSkdsOUlWTW4xQlBidUJmcXN2NHh0c3MwbkJHUUg5cHRoLUp5bFZmQlE2bEM3MDRSb2FTTVMzeU4wN2hWeVJ1OFBUQlVXYm9zZmdrWjJBdTZVNGhLem5MRmJmM0k2OHN6ZFpEd3IyV19YWE1JOHRSaHpSWno0WUs3YTBOWVZOTUYweEtGU2dsc1habEVkV1VId1psSEg0YXc?oc=5",
+      "sourcePriority": 3
+    },
+    {
       "title": "Las empresas del Parque Industrial Capital de Neuquén tendrán 10 años de exención de la licencia comercial",
       "url": "https://www.rionegro.com.ar/municipales/las-empresas-del-parque-industrial-capital-de-neuquen-tendran-10-anos-de-exencion-de-la-licencia-comercial-4778078/",
       "publishedAt": "2026-10-29T21:38:38+00:00",
@@ -4721,7 +4757,7 @@
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "firstSeen": "2026-10-29T21:41:47.947759+00:00",
-      "isNew": true,
+      "isNew": false,
       "titleKey": "empresas parque industrial capital tendran años exencion licencia comercial",
       "evidenceUrl": "https://www.rionegro.com.ar/municipales/las-empresas-del-parque-industrial-capital-de-neuquen-tendran-10-anos-de-exencion-de-la-licencia-comercial-4778078/",
       "sourcePriority": 2
@@ -4740,7 +4776,7 @@
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "firstSeen": "2026-10-29T21:41:47.947759+00:00",
-      "isNew": true,
+      "isNew": false,
       "titleKey": "tenia prision domiciliaria fue imputado venta drogas enviaran senillosa minuto",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNVXl3bHJZVU94em0yMlF5Uy03eUctTlF4UE40MzYtM2ZiU1czVk9LanJxd2JiSmhfWndZX21GZkNWSU9EM25CcDdDYnhWYnR6RVpoMkxMeWJUQzRmQ09mSFpRSFRwZzJsWGFBWGRCOTd5LVZoNGRNSVZFRURhOUVwcUdORlBFVkFfZktfSk5CeTd4aXJ4aHpCc0kzS0tnX3V5Ulg0NTNiQ2gycXBsaFpabjkzVERvQzQ0SlA4NTZWZ1VFYVNYb3J6ZzA1T043aUhtTU1ZeXphdDBrSjBkUlFxRjBad1hBWXZmblNJYQ?oc=5",
       "sourcePriority": 3
@@ -4930,7 +4966,7 @@
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "firstSeen": "2026-10-29T21:41:47.947759+00:00",
-      "isNew": true,
+      "isNew": false,
       "titleKey": "atletico regina goleo resultados tercera ronda regional amateur diario rio negro",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOekFUdW5Bc1paVmNkSVpLTm9EYlVTeEdpSGNtSThCX0FDVWF5M2Y2YnlJY1hwTTNMcEFOMHhjbDJXX1hOSVo3VE1ZUlRHdG5NbmZIcTRXdFZsN1p5V3pFSGZ6OVdrWEtmVVRoUW4xT3dZMEpKbVhZc3lzcW5hamRFS3BZaE9vdmZjY3BUYnpGbmNaU0lZUm1KRy01N0RoVXA1aENQSU14OUZCQW92SlpRcmtKUHBrSWFldW5OU0lpR2VDSGZGT0pWVVd6Z3RWSnhhRXpqcG1VZVcxWW5RWXhzaDZ5UdIB6wFBVV95cUxQRlA1Wllpb0hBMm9sME5ULUxIaUt0QWdmUXNzcWh4bFo4eXhVaEZnV0VZLVZKS0J6MjFnTWQ3OWhYY3Q3VmlLLWlNN1d3YjdGMDc0QXVLMGlyQktvU1dFQ3VEWUJnYlJnSUZFOHBLYkxFelBORkhlQzBrRDY3ajhTS0wyX2pGUzk5UllraW02ZG1fQ3VqZHRpQndhQXpWVFY4UzdjN0JaZHdFVUVyVzFxcTdMSHk5dk45c2Y4eUtJTm14dXJvUVZoZXI5OFh1cWdqNk55X3RsOHdMS1Z3TVZTR2lFNUZIWFBiUjdZ?oc=5",
       "sourcePriority": 3
@@ -5223,7 +5259,7 @@
   ],
   "territorialGraph": {
     "version": "2.0",
-    "generatedAt": "2026-10-29T21:41:58.012899+00:00",
+    "generatedAt": "2026-10-30T01:46:40.373636+00:00",
     "root": "spc",
     "rule": "evidence-first",
     "levels": [
@@ -5879,11 +5915,11 @@
   },
   "audit": {
     "version": "1.0",
-    "updatedAt": "2026-10-29T21:41:58.058177+00:00",
+    "updatedAt": "2026-10-30T01:46:40.403318+00:00",
     "rule": "fact != coverage; territory requires textual evidence",
     "facts": 12,
-    "coverage": 35,
-    "coveragePerFact": 2.92,
+    "coverage": 36,
+    "coveragePerFact": 3.0,
     "directAnchorFacts": 12,
     "directAnchorPct": 100.0,
     "territorySpecificFacts": 4,
