@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T23:59:05.008874+00:00",
+  "updatedAt": "2026-10-31T05:23:53.642305+00:00",
   "window": "14 días",
   "purpose": "Detectar qué se está moviendo en San Patricio del Chañar y mostrar de dónde surge cada señal.",
   "architecture": "contrato universal de procedencia + fuentes profesionales + adaptadores específicos + validación semántica + temporalidad + evidencia editorial separada",
@@ -49,7 +49,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://chanardigital.com.ar/",
-      "lastFetch": "2026-10-30T23:58:45.102292+00:00",
+      "lastFetch": "2026-10-31T05:23:35.264213+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -65,7 +65,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.radiomia.com.ar/",
-      "lastFetch": "2026-10-30T23:58:46.205608+00:00",
+      "lastFetch": "2026-10-31T05:23:36.447979+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -80,7 +80,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://tuitvacamuerta.com/",
-      "lastFetch": "2026-10-30T23:58:48.051347+00:00",
+      "lastFetch": "2026-10-31T05:23:37.975550+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -95,7 +95,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.vacamuertanews.com/",
-      "lastFetch": "2026-10-30T23:58:48.702159+00:00",
+      "lastFetch": "2026-10-31T05:23:38.691550+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -111,7 +111,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.neuqueninforma.gob.ar/",
-      "lastFetch": "2026-10-30T23:58:50.313865+00:00",
+      "lastFetch": "2026-10-31T05:23:40.104786+00:00",
       "success": false,
       "attempted": 3,
       "failures": [
@@ -128,7 +128,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://sanpatricio.gob.ar/",
-      "lastFetch": "2026-10-30T23:58:51.378033+00:00",
+      "lastFetch": "2026-10-31T05:23:41.121155+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -143,7 +143,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://boletinoficial.neuquen.gov.ar/",
-      "lastFetch": "2026-10-30T23:58:52.342164+00:00",
+      "lastFetch": "2026-10-31T05:23:41.817974+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -158,7 +158,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.lmneuquen.com/",
-      "lastFetch": "2026-10-30T23:58:52.485383+00:00",
+      "lastFetch": "2026-10-31T05:23:42.034851+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -174,7 +174,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.rionegro.com.ar/",
-      "lastFetch": "2026-10-30T23:58:54.617626+00:00",
+      "lastFetch": "2026-10-31T05:23:43.256270+00:00",
       "success": true,
       "attempted": 2,
       "failures": [
@@ -189,7 +189,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.mejorinformado.com/",
-      "lastFetch": "2026-10-30T23:58:55.473667+00:00",
+      "lastFetch": "2026-10-31T05:23:44.133566+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -205,7 +205,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.diariamenteneuquen.com/",
-      "lastFetch": "2026-10-30T23:58:56.362313+00:00",
+      "lastFetch": "2026-10-31T05:23:45.047824+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -626,11 +626,11 @@
       "group": "REGIONAL",
       "role": "medio regional",
       "url": "https://www.mejorinformado.com/",
-      "signals": 1,
-      "directSignals": 1,
+      "signals": 0,
+      "directSignals": 0,
       "anchoredSignals": 0,
-      "lastSeen": "2026-10-29T15:20:53+00:00",
-      "status": "CON SEÑALES",
+      "lastSeen": null,
+      "status": "SIN SEÑALES EN VENTANA",
       "note": "ausencia de señales no equivale a ausencia del hecho"
     },
     {
@@ -714,8 +714,8 @@
     },
     {
       "term": "san patricio del chañar",
-      "hits": 16,
-      "direct": 16
+      "hits": 17,
+      "direct": 17
     },
     {
       "term": "ruta 7",
@@ -1142,8 +1142,8 @@
         "source": "Lmneuquen.com",
         "group": "OBSERVADA",
         "role": "fuente detectada fuera del catálogo",
-        "accepted": 2,
-        "direct": 2,
+        "accepted": 3,
+        "direct": 3,
         "anchored": 0,
         "falsePositives": 0,
         "falsePositiveTypes": [],
@@ -1156,6 +1156,17 @@
         "source": "Mejor Informado",
         "group": "REGIONAL",
         "role": "medio regional",
+        "accepted": 0,
+        "direct": 0,
+        "anchored": 0,
+        "falsePositives": 0,
+        "falsePositiveTypes": [],
+        "topics": []
+      },
+      {
+        "source": "MejorInformado.com",
+        "group": "OBSERVADA",
+        "role": "fuente detectada fuera del catálogo",
         "accepted": 1,
         "direct": 1,
         "anchored": 0,
@@ -1270,19 +1281,6 @@
         "falsePositiveTypes": [],
         "topics": [
           "SEGURIDAD / EMERGENCIAS",
-          "SERVICIOS"
-        ]
-      },
-      {
-        "source": "Patagonia Press",
-        "group": "OBSERVADA",
-        "role": "fuente detectada fuera del catálogo",
-        "accepted": 1,
-        "direct": 1,
-        "anchored": 0,
-        "falsePositives": 0,
-        "falsePositiveTypes": [],
-        "topics": [
           "SERVICIOS"
         ]
       },
@@ -1429,6 +1427,18 @@
         ]
       },
       {
+        "source": "Lmneuquen.com",
+        "topic": "SERVICIOS",
+        "accepted": 2,
+        "direct": 2,
+        "anchored": 0,
+        "falsePositives": 0,
+        "territorialTerms": [
+          "el chañar",
+          "san patricio del chañar"
+        ]
+      },
+      {
         "source": "NoticiasNQN",
         "topic": "SERVICIOS",
         "accepted": 2,
@@ -1551,19 +1561,7 @@
         ]
       },
       {
-        "source": "Lmneuquen.com",
-        "topic": "SERVICIOS",
-        "accepted": 1,
-        "direct": 1,
-        "anchored": 0,
-        "falsePositives": 0,
-        "territorialTerms": [
-          "el chañar",
-          "san patricio del chañar"
-        ]
-      },
-      {
-        "source": "Mejor Informado",
+        "source": "MejorInformado.com",
         "topic": "SERVICIOS",
         "accepted": 1,
         "direct": 1,
@@ -1613,18 +1611,6 @@
         ]
       },
       {
-        "source": "Patagonia Press",
-        "topic": "SERVICIOS",
-        "accepted": 1,
-        "direct": 1,
-        "anchored": 0,
-        "falsePositives": 0,
-        "territorialTerms": [
-          "el chañar",
-          "san patricio del chañar"
-        ]
-      },
-      {
         "source": "mpfneuquen",
         "topic": "SERVICIOS",
         "accepted": 1,
@@ -1653,8 +1639,8 @@
     "languagePrecision": [
       {
         "term": "san patricio del chañar",
-        "acceptedHits": 18,
-        "directHits": 18,
+        "acceptedHits": 19,
+        "directHits": 19,
         "rejectedTitleHits": 0,
         "territorialStrength": "FUERTE"
       },
@@ -1996,8 +1982,8 @@
     "total": 26,
     "direct": 26,
     "regional": 0,
-    "new": 0,
-    "sources": 14,
+    "new": 1,
+    "sources": 13,
     "directSignals": 0,
     "localDirectSignals": 0,
     "radioDirectSignals": 0,
@@ -2011,7 +1997,7 @@
       "forecastGustKmh": 17.0,
       "forecastWindDirection": "SO",
       "forecastTemperatureC": 29.0,
-      "retrievedAt": "2026-10-30T23:58:42.837608+00:00",
+      "retrievedAt": "2026-10-31T05:23:31.488424+00:00",
       "source": "AIC",
       "sourceTier": "primary",
       "sourceUrl": "https://www.aic.gob.ar/sitio/home?a=1015&z=1967225803",
@@ -2039,9 +2025,9 @@
       ],
       "currentProgrammedMaxM3s": 420,
       "currentProgrammedMinM3s": 400,
-      "programDate": "2026-10-31",
-      "tableDate": "2026-10-30",
-      "retrievedAt": "2026-10-30T23:58:42.837608+00:00",
+      "programDate": "2026-11-01",
+      "tableDate": "2026-10-31",
+      "retrievedAt": "2026-10-31T05:23:31.488424+00:00",
       "source": "AIC",
       "sourceTier": "primary",
       "sourceUrl": "https://www.aic.gob.ar/sitio/caudales",
@@ -2061,17 +2047,17 @@
         "url": "https://www.aic.gob.ar/sitio/caudales"
       }
     ],
-    "updatedAt": "2026-10-30T23:58:42.837608+00:00"
+    "updatedAt": "2026-10-31T05:23:31.488424+00:00"
   },
   "operational": {
-    "updatedAt": "2026-10-30T23:58:42.837608+00:00",
+    "updatedAt": "2026-10-31T05:23:31.488424+00:00",
     "route7": {
       "source": "Dirección Provincial de Vialidad",
       "sourceTier": "primary",
       "sourceUrl": "https://www.dpvneuquen.gov.ar/",
       "semanticState": null,
       "publicationState": "source_reachable_no_current_machine_readable_state",
-      "retrievedAt": "2026-10-30T23:58:42.837608+00:00",
+      "retrievedAt": "2026-10-31T05:23:31.488424+00:00",
       "evidence": {
         "route7Mention": true,
         "route8Mention": false
@@ -2083,7 +2069,7 @@
       "sourceUrl": "https://www.dpvneuquen.gov.ar/",
       "semanticState": null,
       "publicationState": "source_reachable_no_current_machine_readable_state",
-      "retrievedAt": "2026-10-30T23:58:42.837608+00:00",
+      "retrievedAt": "2026-10-31T05:23:31.488424+00:00",
       "evidence": {
         "route7Mention": true,
         "route8Mention": false
@@ -2097,7 +2083,7 @@
       "eventType": null,
       "detail": null,
       "publicationState": "source_reachable_no_specific_local_notice",
-      "retrievedAt": "2026-10-30T23:58:42.837608+00:00"
+      "retrievedAt": "2026-10-31T05:23:31.488424+00:00"
     },
     "water": {
       "source": "EPAS",
@@ -2107,7 +2093,7 @@
       "eventType": null,
       "detail": null,
       "publicationState": "source_reachable_no_specific_local_notice",
-      "retrievedAt": "2026-10-30T23:58:42.837608+00:00"
+      "retrievedAt": "2026-10-31T05:23:31.488424+00:00"
     },
     "sources": [
       {
@@ -2519,7 +2505,7 @@
       "label": "Conversación general",
       "signal": 11,
       "status": "cobertura editorial",
-      "freshnessHours": 24.0,
+      "freshnessHours": 4.2,
       "mode": "evidencia editorial",
       "evidenceCount": 11,
       "sourceContract": {
@@ -2559,7 +2545,7 @@
       "label": "Corredor Ruta 7",
       "signal": 1,
       "status": "estado vial",
-      "freshnessHours": 199.0,
+      "freshnessHours": 204.4,
       "mode": "evidencia territorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -2599,7 +2585,7 @@
         "sourceUrl": "https://www.dpvneuquen.gov.ar/",
         "semanticState": null,
         "publicationState": "source_reachable_no_current_machine_readable_state",
-        "retrievedAt": "2026-10-30T23:58:42.837608+00:00",
+        "retrievedAt": "2026-10-31T05:23:31.488424+00:00",
         "evidence": {
           "route7Mention": true,
           "route8Mention": false
@@ -2611,7 +2597,7 @@
       "label": "Corredor Ruta 8",
       "signal": 1,
       "status": "estado vial",
-      "freshnessHours": 199.0,
+      "freshnessHours": 204.4,
       "mode": "evidencia territorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -2651,7 +2637,7 @@
         "sourceUrl": "https://www.dpvneuquen.gov.ar/",
         "semanticState": null,
         "publicationState": "source_reachable_no_current_machine_readable_state",
-        "retrievedAt": "2026-10-30T23:58:42.837608+00:00",
+        "retrievedAt": "2026-10-31T05:23:31.488424+00:00",
         "evidence": {
           "route7Mention": true,
           "route8Mention": false
@@ -2751,7 +2737,7 @@
         "eventType": null,
         "detail": null,
         "publicationState": "source_reachable_no_specific_local_notice",
-        "retrievedAt": "2026-10-30T23:58:42.837608+00:00"
+        "retrievedAt": "2026-10-31T05:23:31.488424+00:00"
       }
     },
     {
@@ -2759,7 +2745,7 @@
       "label": "Agua / abastecimiento",
       "signal": 1,
       "status": "evento hídrico",
-      "freshnessHours": 329.0,
+      "freshnessHours": 334.4,
       "mode": "evidencia editorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -2801,7 +2787,7 @@
         "eventType": null,
         "detail": null,
         "publicationState": "source_reachable_no_specific_local_notice",
-        "retrievedAt": "2026-10-30T23:58:42.837608+00:00"
+        "retrievedAt": "2026-10-31T05:23:31.488424+00:00"
       }
     },
     {
@@ -2809,7 +2795,7 @@
       "label": "Servicios e infraestructura",
       "signal": 2,
       "status": "evidencia de servicio",
-      "freshnessHours": 80.6,
+      "freshnessHours": 86.0,
       "mode": "evidencia editorial",
       "evidenceCount": 2,
       "sourceContract": {
@@ -2889,7 +2875,7 @@
       "label": "Educación",
       "signal": 1,
       "status": "evidencia educativa",
-      "freshnessHours": 816.9,
+      "freshnessHours": 822.3,
       "mode": "evidencia editorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -2929,7 +2915,7 @@
       "label": "Producción rural",
       "signal": 1,
       "status": "evidencia productiva",
-      "freshnessHours": 175.4,
+      "freshnessHours": 180.8,
       "mode": "evidencia editorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -2969,7 +2955,7 @@
       "label": "Seguridad / emergencias",
       "signal": 1,
       "status": "cobertura de emergencia",
-      "freshnessHours": 251.7,
+      "freshnessHours": 257.1,
       "mode": "evidencia editorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -3066,7 +3052,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://chanardigital.com.ar/",
-        "lastFetch": "2026-10-30T23:58:45.102292+00:00",
+        "lastFetch": "2026-10-31T05:23:35.264213+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3082,7 +3068,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.radiomia.com.ar/",
-        "lastFetch": "2026-10-30T23:58:46.205608+00:00",
+        "lastFetch": "2026-10-31T05:23:36.447979+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -3097,7 +3083,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://tuitvacamuerta.com/",
-        "lastFetch": "2026-10-30T23:58:48.051347+00:00",
+        "lastFetch": "2026-10-31T05:23:37.975550+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -3112,7 +3098,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.vacamuertanews.com/",
-        "lastFetch": "2026-10-30T23:58:48.702159+00:00",
+        "lastFetch": "2026-10-31T05:23:38.691550+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3128,7 +3114,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.neuqueninforma.gob.ar/",
-        "lastFetch": "2026-10-30T23:58:50.313865+00:00",
+        "lastFetch": "2026-10-31T05:23:40.104786+00:00",
         "success": false,
         "attempted": 3,
         "failures": [
@@ -3145,7 +3131,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://sanpatricio.gob.ar/",
-        "lastFetch": "2026-10-30T23:58:51.378033+00:00",
+        "lastFetch": "2026-10-31T05:23:41.121155+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -3160,7 +3146,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://boletinoficial.neuquen.gov.ar/",
-        "lastFetch": "2026-10-30T23:58:52.342164+00:00",
+        "lastFetch": "2026-10-31T05:23:41.817974+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -3175,7 +3161,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.lmneuquen.com/",
-        "lastFetch": "2026-10-30T23:58:52.485383+00:00",
+        "lastFetch": "2026-10-31T05:23:42.034851+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3191,7 +3177,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.rionegro.com.ar/",
-        "lastFetch": "2026-10-30T23:58:54.617626+00:00",
+        "lastFetch": "2026-10-31T05:23:43.256270+00:00",
         "success": true,
         "attempted": 2,
         "failures": [
@@ -3206,7 +3192,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.mejorinformado.com/",
-        "lastFetch": "2026-10-30T23:58:55.473667+00:00",
+        "lastFetch": "2026-10-31T05:23:44.133566+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3222,7 +3208,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.diariamenteneuquen.com/",
-        "lastFetch": "2026-10-30T23:58:56.362313+00:00",
+        "lastFetch": "2026-10-31T05:23:45.047824+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3240,18 +3226,18 @@
   },
   "events": [
     {
-      "eventId": "CHA-bf6be71254d9",
-      "title": "Le robaron el auto a un joven de 23 años en San Patricio del Chañar: dos testigos lo vieron todo e identificar - Mejor Informado",
-      "publishedAt": "2026-10-30T00:00:00+00:00",
+      "eventId": "CHA-d5b38a117a1f",
+      "title": "Le robaron el auto a un joven de 23 años en San Patricio del Chañar: dos testigos lo vieron todo e identificar - MejorInformado.com",
+      "publishedAt": "2026-10-31T01:11:00+00:00",
       "firstSeen": "2026-10-27T20:52:48.800113+00:00",
-      "lastSeen": "2026-10-30T00:00:00+00:00",
+      "lastSeen": "2026-10-31T01:11:00+00:00",
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SERVICIOS",
-      "movement": 94,
+      "movement": 92,
       "coverage": 7,
-      "sourceCount": 6,
+      "sourceCount": 5,
       "directSourceCount": 0,
       "territorialAnchors": [
         "el chañar",
@@ -3259,9 +3245,8 @@
       ],
       "sources": [
         "Minuto Neuquén",
-        "Mejor Informado",
+        "MejorInformado.com",
         "ANBariloche",
-        "Patagonia Press",
         "Chañar Digital",
         "Lmneuquen.com"
       ],
@@ -3287,12 +3272,12 @@
           "sourcePriority": 3
         },
         {
-          "title": "Le robaron el auto a un joven de 23 años en San Patricio del Chañar: dos testigos lo vieron todo e identificar - Mejor Informado",
+          "title": "Le robaron el auto a un joven de 23 años en San Patricio del Chañar: dos testigos lo vieron todo e identificar - MejorInformado.com",
           "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQY0RiZFlaVzBCQVViMGhuNU1zRm0zNVhyZHlDbnVjVExsN2NBdVBpTGJUMXJ2TGpoejRNY0REa3RpVDVpSldzN1ZweHF2LXNWNG56YjczTHdUUm54UnhqU180MmhfeWhVWW9Cc1dEYWIwZUpwYlp6MGlic3ZmSjUxZXhqc0g3SEhHekZfMjRfdVZrNUxhT1ozMUY2QmVNU3dfWU1ncjhWNXVjY2tvUmk2a0ltUFFacTlTVngzd19sUGM4RnpjNFR2ZkN0UXdrZml0LXBKcENBUldVRTBQamlHQjJB0gHiAUFVX3lxTFBjRGJkWVpXMEJBVWIwaG41TXNGbTM1WHJkeUNudWNUTGw3Y0F1UGlMYlQxcnZMamh6NE1jRERrdGlUNWlKV3M3VnB4cXYtc1Y0bnpiNzNMd1RSbnhSeGpTXzQyaF95aFVZb0JzV0RhYjBlSnBiWnowaWJzdmZKNTFleGpzSDdISEd6Rl8yNF91Vms1TGFPWjMxRjZCZU1Td19ZTWdyOFY1dWNja29SaTZrSW1QUVpxOVNWeDN3X2xQYzhGemM0VHZmQ3RRd2tmaXQtcEpwQ0FSV1VFMFBqaUdCMkE?oc=5",
           "publishedAt": "2026-10-29T15:20:53+00:00",
           "published": "2026-10-29T15:20:53+00:00",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMi4gFBVV95cUxQY0RiZFlaVzBCQVViMGhuNU1zRm0zNVhyZHlDbnVjVExsN2NBdVBpTGJUMXJ2TGpoejRNY0REa3RpVDVpSldzN1ZweHF2LXNWNG56YjczTHdUUm54UnhqU180MmhfeWhVWW9Cc1dEYWIwZUpwYlp6MGlic3ZmSjUxZXhqc0g3SEhHekZfMjRfdVZrNUxhT1ozMUY2QmVNU3dfWU1ncjhWNXVjY2tvUmk2a0ltUFFacTlTVngzd19sUGM4RnpjNFR2ZkN0UXdrZml0LXBKcENBUldVRTBQamlHQjJB0gHiAUFVX3lxTFBjRGJkWVpXMEJBVWIwaG41TXNGbTM1WHJkeUNudWNUTGw3Y0F1UGlMYlQxcnZMamh6NE1jRERrdGlUNWlKV3M3VnB4cXYtc1Y0bnpiNzNMd1RSbnhSeGpTXzQyaF95aFVZb0JzV0RhYjBlSnBiWnowaWJzdmZKNTFleGpzSDdISEd6Rl8yNF91Vms1TGFPWjMxRjZCZU1Td19ZTWdyOFY1dWNja29SaTZrSW1QUVpxOVNWeDN3X2xQYzhGemM0VHZmQ3RRd2tmaXQtcEpwQ0FSV1VFMFBqaUdCMkE?oc=5\" target=\"_blank\">Le robaron el auto a un joven de 23 años en San Patricio del Chañar: dos testigos lo vieron todo e identificar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Mejor Informado</font>",
-          "source": "Mejor Informado",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMi4gFBVV95cUxQY0RiZFlaVzBCQVViMGhuNU1zRm0zNVhyZHlDbnVjVExsN2NBdVBpTGJUMXJ2TGpoejRNY0REa3RpVDVpSldzN1ZweHF2LXNWNG56YjczTHdUUm54UnhqU180MmhfeWhVWW9Cc1dEYWIwZUpwYlp6MGlic3ZmSjUxZXhqc0g3SEhHekZfMjRfdVZrNUxhT1ozMUY2QmVNU3dfWU1ncjhWNXVjY2tvUmk2a0ltUFFacTlTVngzd19sUGM4RnpjNFR2ZkN0UXdrZml0LXBKcENBUldVRTBQamlHQjJB0gHiAUFVX3lxTFBjRGJkWVpXMEJBVWIwaG41TXNGbTM1WHJkeUNudWNUTGw3Y0F1UGlMYlQxcnZMamh6NE1jRERrdGlUNWlKV3M3VnB4cXYtc1Y0bnpiNzNMd1RSbnhSeGpTXzQyaF95aFVZb0JzV0RhYjBlSnBiWnowaWJzdmZKNTFleGpzSDdISEd6Rl8yNF91Vms1TGFPWjMxRjZCZU1Td19ZTWdyOFY1dWNja29SaTZrSW1QUVpxOVNWeDN3X2xQYzhGemM0VHZmQ3RRd2tmaXQtcEpwQ0FSV1VFMFBqaUdCMkE?oc=5\" target=\"_blank\">Le robaron el auto a un joven de 23 años en San Patricio del Chañar: dos testigos lo vieron todo e identificar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MejorInformado.com</font>",
+          "source": "MejorInformado.com",
           "sourceType": "BUSCADOR / RESPALDO",
           "sourceUrl": "",
           "collection": "BUSCADOR",
@@ -3301,7 +3286,7 @@
           "relevanceLabel": "DIRECTA",
           "firstSeen": "2026-10-29T16:48:07.923021+00:00",
           "isNew": false,
-          "titleKey": "robaron auto joven años dos testigos vieron todo identificar mejor informado",
+          "titleKey": "robaron auto joven años dos testigos vieron todo identificar mejorinformado com",
           "evidenceUrl": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQY0RiZFlaVzBCQVViMGhuNU1zRm0zNVhyZHlDbnVjVExsN2NBdVBpTGJUMXJ2TGpoejRNY0REa3RpVDVpSldzN1ZweHF2LXNWNG56YjczTHdUUm54UnhqU180MmhfeWhVWW9Cc1dEYWIwZUpwYlp6MGlic3ZmSjUxZXhqc0g3SEhHekZfMjRfdVZrNUxhT1ozMUY2QmVNU3dfWU1ncjhWNXVjY2tvUmk2a0ltUFFacTlTVngzd19sUGM4RnpjNFR2ZkN0UXdrZml0LXBKcENBUldVRTBQamlHQjJB0gHiAUFVX3lxTFBjRGJkWVpXMEJBVWIwaG41TXNGbTM1WHJkeUNudWNUTGw3Y0F1UGlMYlQxcnZMamh6NE1jRERrdGlUNWlKV3M3VnB4cXYtc1Y0bnpiNzNMd1RSbnhSeGpTXzQyaF95aFVZb0JzV0RhYjBlSnBiWnowaWJzdmZKNTFleGpzSDdISEd6Rl8yNF91Vms1TGFPWjMxRjZCZU1Td19ZTWdyOFY1dWNja29SaTZrSW1QUVpxOVNWeDN3X2xQYzhGemM0VHZmQ3RRd2tmaXQtcEpwQ0FSV1VFMFBqaUdCMkE?oc=5",
           "sourcePriority": 3
         },
@@ -3322,25 +3307,6 @@
           "isNew": false,
           "titleKey": "robaron auto punta amenazas encontraron rio negro anbariloche",
           "evidenceUrl": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNeDZVNUZ2ZFF1MURTSkVQd2FsUTZRblByOHhBYUpycUE5TGlNNUFPVEdrRVVUTy1HakhaQ3BDcjlNcVRKVC1qbDZXTDRFRGd0c1Zhd3dLVUhZc2h0dXNQdVdIY0RseWpENWEwLW5iQW9GazZHeEVHdlpCa2NVN3VxT0lnbXRjc1VJVm5Fam5qYkk2Ni01cDJNOW0xcGxTeGExTW44NHNxZG82NC0ySDJKbDYwLVVaQ29RekxzNEtMM2FPVzNGbExSNXdJcE9TVTIxSWpFRUlGd2tqaEJOeG5ZUUNNNEtzWC1zT3hkZGtn0gHuAUFVX3lxTE14NlU1RnZkUXUxRFNKRVB3YWxRNlFuUHI4eEFhSnJxQTlMaU01QU9UR2tFVVRPLUdqSFpDcENyOU1xVEpULWpsNldMNEVEZ3RzVmF3d0tVSFlzaHR1c1B1V0hjRGx5akQ1YTAtbmJBb0ZrNkd4RUd2WkJrY1U3dXFPSWdtdGNzVUlWbkVqbmpiSTY2LTVwMk05bTFwbFN4YTFNbjg0c3FkbzY0LTJIMkpsNjAtVVpDb1F6THM0S0wzYU9XM0ZsTFI1d0lwT1NVMjFJakVFSUZ3a2poQk54bllRQ000S3NYLXNPeGRka2c?oc=5",
-          "sourcePriority": 3
-        },
-        {
-          "title": "Le robaron el auto tras un forcejeo en El Chañar y apareció horas después en Río Negro - Patagonia Press",
-          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPMDNVUVlYN1VoSmM5T1F0SzBVQ3FDaVRvRzZjTEo2RVhvamRFaGdPenZ0dVlORGVZX2dSSTdCUFotVmlLeTF4UkNLZ2FQa1h6b0VGN01aZUVDbFhTalkweUhaSndGeWxyZERTakN5NTRWcmpvZjZvdUFvQVZOOEl0SE9BeTk1Z2ZFT0xRdmlPSGc5X0V2c3dLeVR1R3RPcFNIeVVSZTNvZjZiNGhvVmhjMTZfdzhBb1JDSmhOV0d2N3VVaHBVNTVfRXUzT3dSUjlRcGJ0UGlNSU8xeElqbGE2LQ?oc=5",
-          "publishedAt": "2026-10-29T11:48:37+00:00",
-          "published": "2026-10-29T11:48:37+00:00",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMi4AFBVV95cUxPMDNVUVlYN1VoSmM5T1F0SzBVQ3FDaVRvRzZjTEo2RVhvamRFaGdPenZ0dVlORGVZX2dSSTdCUFotVmlLeTF4UkNLZ2FQa1h6b0VGN01aZUVDbFhTalkweUhaSndGeWxyZERTakN5NTRWcmpvZjZvdUFvQVZOOEl0SE9BeTk1Z2ZFT0xRdmlPSGc5X0V2c3dLeVR1R3RPcFNIeVVSZTNvZjZiNGhvVmhjMTZfdzhBb1JDSmhOV0d2N3VVaHBVNTVfRXUzT3dSUjlRcGJ0UGlNSU8xeElqbGE2LQ?oc=5\" target=\"_blank\">Le robaron el auto tras un forcejeo en El Chañar y apareció horas después en Río Negro</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Patagonia Press</font>",
-          "source": "Patagonia Press",
-          "sourceType": "BUSCADOR / RESPALDO",
-          "sourceUrl": "",
-          "collection": "BUSCADOR",
-          "query": "\"San Patricio del Chañar\"",
-          "relevance": 3,
-          "relevanceLabel": "DIRECTA",
-          "firstSeen": "2026-10-29T16:48:07.923021+00:00",
-          "isNew": false,
-          "titleKey": "robaron auto tras forcejeo aparecio horas despues rio negro patagonia press",
-          "evidenceUrl": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPMDNVUVlYN1VoSmM5T1F0SzBVQ3FDaVRvRzZjTEo2RVhvamRFaGdPenZ0dVlORGVZX2dSSTdCUFotVmlLeTF4UkNLZ2FQa1h6b0VGN01aZUVDbFhTalkweUhaSndGeWxyZERTakN5NTRWcmpvZjZvdUFvQVZOOEl0SE9BeTk1Z2ZFT0xRdmlPSGc5X0V2c3dLeVR1R3RPcFNIeVVSZTNvZjZiNGhvVmhjMTZfdzhBb1JDSmhOV0d2N3VVaHBVNTVfRXUzT3dSUjlRcGJ0UGlNSU8xeElqbGE2LQ?oc=5",
           "sourcePriority": 3
         },
         {
@@ -3399,15 +3365,37 @@
           "titleKey": "narco incorregible tenia prision domiciliaria armo kiosco lmneuquen com",
           "evidenceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPejFCX2kxWHptT2VYZW5PQy11MTJPVk50U1EtbmlUZUg5N2RRZXNBRHk2bnM3b0lTNHBQa2pxVTItQ0NUZE9aaUdhRU4xNWxoZ193WTFHb3lFY3ViWHJxaVZ5LUYteWt6aUxTbHhoT3FtQ3VOaUZWUXMtTHNONjh1OV9xQktGenQxX2JzQzFIWDd5VVMxQmFVOFVaYl9PYlk3YmdlM2Q1bHE0YVRrM1I2cGhtT28zU2VLMHhGT3IySmozOHRjN2NWNXV5Sm8tMk5FVzFMTNIB2gFBVV95cUxPWVg1NG9jSGVBN1hjbzZUX1dQcVhvTjhXYVNoUmdHU1FIM0tGOHVBS0ZTRGhYQy1UVmFJal9acTV5SUxEZ1BaZEp6MnFfcy1VeEVhSjBla1YtUkQwZ0dpWVZXeTRNU3VIRGJWcE9CTFZXR3Q5c0x4U2FMVjdMa0xuelNRZzU1eFlYZWZLdkNVbGoxcFFfQ2lEcmp1bUpwbnU1WENqYjNrcG55NWtPczJSTGVQN0Zpb0l2bk1RQW9mNWtaRGdzX21iUlE1TDA2ekV1dEdRVXY0UTlnUQ?oc=5",
           "sourcePriority": 3
+        },
+        {
+          "title": "Conmoción por la muerte de un joven en San Patricio del Chañar: qué se sabe - Lmneuquen.com",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOWEpuZW42ckxUUk1Bb0lVeWE0UUszNmVkUUhDSjlqUUo5NTJ6OV8tNG91TDdQTklJd3RXZFd4aHh1LVdXdEs3UWV1QXpHVDRBRzQzcnFpQXh2bTNfWHp4WFEwLUg2dUV1OFNRUGFvMkdOMjI4dzZEbU5PeDBseEFvbDBqSXRJM1hfcG0wOUo5ZWxQYmxRVlVveVJoTmVBS2RyelliYk9TOHF4a1XSAbABQVVfeXFMUFJsRGpyWTZZLWtUTWc0TFRUTVo5bUVtM1F2cHVXM3VfQ1RXR2dTeTJBdHN0V1FDNTFNbnlBM21QUkQ3UThVb2JtMVVibWpldVRZZXNxYjJyUWpZVllSZkFKMHF3QlZLNjNLMk5mLUc2N3hCd2FVa0puTzR6SU5uYUhGQUgtRHRuWGt6Tk9ZZHdGSDltRENKY0F5em80ZXgtUmxTYldBSm5qMTVlc3lnazc?oc=5",
+          "publishedAt": "2026-10-31T01:11:00+00:00",
+          "published": "2026-10-31T01:11:00+00:00",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxOWEpuZW42ckxUUk1Bb0lVeWE0UUszNmVkUUhDSjlqUUo5NTJ6OV8tNG91TDdQTklJd3RXZFd4aHh1LVdXdEs3UWV1QXpHVDRBRzQzcnFpQXh2bTNfWHp4WFEwLUg2dUV1OFNRUGFvMkdOMjI4dzZEbU5PeDBseEFvbDBqSXRJM1hfcG0wOUo5ZWxQYmxRVlVveVJoTmVBS2RyelliYk9TOHF4a1XSAbABQVVfeXFMUFJsRGpyWTZZLWtUTWc0TFRUTVo5bUVtM1F2cHVXM3VfQ1RXR2dTeTJBdHN0V1FDNTFNbnlBM21QUkQ3UThVb2JtMVVibWpldVRZZXNxYjJyUWpZVllSZkFKMHF3QlZLNjNLMk5mLUc2N3hCd2FVa0puTzR6SU5uYUhGQUgtRHRuWGt6Tk9ZZHdGSDltRENKY0F5em80ZXgtUmxTYldBSm5qMTVlc3lnazc?oc=5\" target=\"_blank\">Conmoción por la muerte de un joven en San Patricio del Chañar: qué se sabe</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Lmneuquen.com</font>",
+          "source": "Lmneuquen.com",
+          "sourceType": "BUSCADOR / RESPALDO",
+          "sourceUrl": "",
+          "collection": "BUSCADOR",
+          "query": "\"San Patricio del Chañar\"",
+          "relevance": 3,
+          "relevanceLabel": "DIRECTA",
+          "firstSeen": "2026-10-31T05:23:53.642305+00:00",
+          "isNew": true,
+          "titleKey": "conmocion muerte joven sabe lmneuquen com",
+          "evidenceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOWEpuZW42ckxUUk1Bb0lVeWE0UUszNmVkUUhDSjlqUUo5NTJ6OV8tNG91TDdQTklJd3RXZFd4aHh1LVdXdEs3UWV1QXpHVDRBRzQzcnFpQXh2bTNfWHp4WFEwLUg2dUV1OFNRUGFvMkdOMjI4dzZEbU5PeDBseEFvbDBqSXRJM1hfcG0wOUo5ZWxQYmxRVlVveVJoTmVBS2RyelliYk9TOHF4a1XSAbABQVVfeXFMUFJsRGpyWTZZLWtUTWc0TFRUTVo5bUVtM1F2cHVXM3VfQ1RXR2dTeTJBdHN0V1FDNTFNbnlBM21QUkQ3UThVb2JtMVVibWpldVRZZXNxYjJyUWpZVllSZkFKMHF3QlZLNjNLMk5mLUc2N3hCd2FVa0puTzR6SU5uYUhGQUgtRHRuWGt6Tk9ZZHdGSDltRENKY0F5em80ZXgtUmxTYldBSm5qMTVlc3lnazc?oc=5",
+          "sourcePriority": 3
         }
       ],
       "lifecycle": "ACTIVO",
-      "movementDelta": -1,
-      "previousCoverage": 7,
+      "movementDelta": 69,
+      "previousCoverage": 2,
       "newSources": [
+        "Minuto Neuquén",
+        "MejorInformado.com",
+        "ANBariloche",
         "Lmneuquen.com"
       ],
-      "sourceDiversity": 6,
+      "sourceDiversity": 5,
       "memoryMatched": true,
       "isNew": false,
       "view": "INCIDENCIA",
@@ -3448,7 +3436,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SERVICIOS",
-      "movement": 65,
+      "movement": 63,
       "coverage": 6,
       "sourceCount": 5,
       "directSourceCount": 0,
@@ -3581,11 +3569,10 @@
         }
       ],
       "lifecycle": "ACTIVO",
-      "movementDelta": 42,
-      "previousCoverage": 2,
+      "movementDelta": 35,
+      "previousCoverage": 1,
       "newSources": [
         "Neuquen Post",
-        "Diario Río Negro",
         "mpfneuquen",
         "NoticiasNQN",
         "Minuto Neuquén"
@@ -3799,8 +3786,8 @@
         {
           "title": "Un fuerte choque complicó el tránsito en la Ruta 7, cerca de El Chañar: qué pasó - Diario Río Negro",
           "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNNl9jYnNQajktaWdNbFdnQWFSMS1fZkVobzA4dnVPTklVMkhXYnJqcm1EN2NEUUxoRHhKbHJwb0lmd3JfX0FWcHdtSjJscElGaURSdXhzWWhXMzVOUF9QcG5Ka2dOU1ZYOGYxWm5zME8xbUxBR2pOaVNUbzluYUwzalNybW9pSVFzajVqaFp2emFvN2dQZ1Z6Rkxaa1I3OHR4MmZGRXB0ZW5Ba21SUVJqbGY1YkJrdDd3WkRnSEc0RG5JRktEMDR0LU5KMUlZUjVOc2fSAdoBQVVfeXFMTjZXVnE2OFoxc3ctQkQxWURaZUF4WEstcHNYZDdLZDJUMW1PQXpSUlV6Y3Yya29Lc19aTWNoei13QzF0bllYZG5NTHI1Z2YyT09xUmN3WkM5RHlRMktzemNOVWE5cUZvV1NyeGh5ZmpvTFRvVkd0SnRZZmhuZXJrcVFhdW9uYndvOUVxNmZ1TlowMXY2TXhtbEl5LWJsSGdNM09rcjBTeTh1WjhDLVd5OFdQemV3M3hGa1Y4WVhZQjBqV2FfS1VUTldZZXUwN3pzUUhfYkd2WXpnOUE?oc=5",
-          "publishedAt": "2026-10-22T12:50:53+00:00",
-          "published": "2026-10-22T12:50:53+00:00",
+          "publishedAt": "2026-10-22T07:00:00+00:00",
+          "published": "2026-10-22T07:00:00+00:00",
           "description": "<a href=\"https://news.google.com/rss/articles/CBMi0gFBVV95cUxNNl9jYnNQajktaWdNbFdnQWFSMS1fZkVobzA4dnVPTklVMkhXYnJqcm1EN2NEUUxoRHhKbHJwb0lmd3JfX0FWcHdtSjJscElGaURSdXhzWWhXMzVOUF9QcG5Ka2dOU1ZYOGYxWm5zME8xbUxBR2pOaVNUbzluYUwzalNybW9pSVFzajVqaFp2emFvN2dQZ1Z6Rkxaa1I3OHR4MmZGRXB0ZW5Ba21SUVJqbGY1YkJrdDd3WkRnSEc0RG5JRktEMDR0LU5KMUlZUjVOc2fSAdoBQVVfeXFMTjZXVnE2OFoxc3ctQkQxWURaZUF4WEstcHNYZDdLZDJUMW1PQXpSUlV6Y3Yya29Lc19aTWNoei13QzF0bllYZG5NTHI1Z2YyT09xUmN3WkM5RHlRMktzemNOVWE5cUZvV1NyeGh5ZmpvTFRvVkd0SnRZZmhuZXJrcVFhdW9uYndvOUVxNmZ1TlowMXY2TXhtbEl5LWJsSGdNM09rcjBTeTh1WjhDLVd5OFdQemV3M3hGa1Y4WVhZQjBqV2FfS1VUTldZZXUwN3pzUUhfYkd2WXpnOUE?oc=5\" target=\"_blank\">Un fuerte choque complicó el tránsito en la Ruta 7, cerca de El Chañar: qué pasó</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Diario Río Negro</font>",
           "source": "Diario Río Negro",
           "sourceType": "BUSCADOR / RESPALDO",
@@ -3816,16 +3803,16 @@
           "sourcePriority": 3
         }
       ],
-      "lifecycle": "EN DESCENSO",
-      "movementDelta": -16,
-      "previousCoverage": 3,
+      "lifecycle": "ACTIVO",
+      "movementDelta": 0,
+      "previousCoverage": 0,
       "newSources": [
         "Diario Neuquino",
         "Diario Río Negro"
       ],
       "sourceDiversity": 2,
-      "memoryMatched": true,
-      "isNew": false,
+      "memoryMatched": false,
+      "isNew": true,
       "view": "INCIDENCIA",
       "incidenceEligible": true,
       "signalReason": "reservado a incidencia territorial",
@@ -3872,7 +3859,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "DEPORTE",
-      "movement": 28,
+      "movement": 27,
       "coverage": 1,
       "sourceCount": 1,
       "directSourceCount": 0,
@@ -3906,9 +3893,11 @@
         }
       ],
       "lifecycle": "RECIENTE",
-      "movementDelta": -2,
+      "movementDelta": 11,
       "previousCoverage": 1,
-      "newSources": [],
+      "newSources": [
+        "Diario Río Negro"
+      ],
       "sourceDiversity": 1,
       "memoryMatched": true,
       "isNew": false,
@@ -4023,8 +4012,8 @@
         }
       ],
       "lifecycle": "EN DESCENSO",
-      "movementDelta": -9,
-      "previousCoverage": 2,
+      "movementDelta": -25,
+      "previousCoverage": 3,
       "newSources": [
         "Chañar Digital",
         "Cutral Co al Instante"
@@ -4618,6 +4607,25 @@
   ],
   "items": [
     {
+      "title": "Conmoción por la muerte de un joven en San Patricio del Chañar: qué se sabe - Lmneuquen.com",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOWEpuZW42ckxUUk1Bb0lVeWE0UUszNmVkUUhDSjlqUUo5NTJ6OV8tNG91TDdQTklJd3RXZFd4aHh1LVdXdEs3UWV1QXpHVDRBRzQzcnFpQXh2bTNfWHp4WFEwLUg2dUV1OFNRUGFvMkdOMjI4dzZEbU5PeDBseEFvbDBqSXRJM1hfcG0wOUo5ZWxQYmxRVlVveVJoTmVBS2RyelliYk9TOHF4a1XSAbABQVVfeXFMUFJsRGpyWTZZLWtUTWc0TFRUTVo5bUVtM1F2cHVXM3VfQ1RXR2dTeTJBdHN0V1FDNTFNbnlBM21QUkQ3UThVb2JtMVVibWpldVRZZXNxYjJyUWpZVllSZkFKMHF3QlZLNjNLMk5mLUc2N3hCd2FVa0puTzR6SU5uYUhGQUgtRHRuWGt6Tk9ZZHdGSDltRENKY0F5em80ZXgtUmxTYldBSm5qMTVlc3lnazc?oc=5",
+      "publishedAt": "2026-10-31T01:11:00+00:00",
+      "published": "2026-10-31T01:11:00+00:00",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxOWEpuZW42ckxUUk1Bb0lVeWE0UUszNmVkUUhDSjlqUUo5NTJ6OV8tNG91TDdQTklJd3RXZFd4aHh1LVdXdEs3UWV1QXpHVDRBRzQzcnFpQXh2bTNfWHp4WFEwLUg2dUV1OFNRUGFvMkdOMjI4dzZEbU5PeDBseEFvbDBqSXRJM1hfcG0wOUo5ZWxQYmxRVlVveVJoTmVBS2RyelliYk9TOHF4a1XSAbABQVVfeXFMUFJsRGpyWTZZLWtUTWc0TFRUTVo5bUVtM1F2cHVXM3VfQ1RXR2dTeTJBdHN0V1FDNTFNbnlBM21QUkQ3UThVb2JtMVVibWpldVRZZXNxYjJyUWpZVllSZkFKMHF3QlZLNjNLMk5mLUc2N3hCd2FVa0puTzR6SU5uYUhGQUgtRHRuWGt6Tk9ZZHdGSDltRENKY0F5em80ZXgtUmxTYldBSm5qMTVlc3lnazc?oc=5\" target=\"_blank\">Conmoción por la muerte de un joven en San Patricio del Chañar: qué se sabe</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Lmneuquen.com</font>",
+      "source": "Lmneuquen.com",
+      "sourceType": "BUSCADOR / RESPALDO",
+      "sourceUrl": "",
+      "collection": "BUSCADOR",
+      "query": "\"San Patricio del Chañar\"",
+      "relevance": 3,
+      "relevanceLabel": "DIRECTA",
+      "firstSeen": "2026-10-31T05:23:53.642305+00:00",
+      "isNew": true,
+      "titleKey": "conmocion muerte joven sabe lmneuquen com",
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOWEpuZW42ckxUUk1Bb0lVeWE0UUszNmVkUUhDSjlqUUo5NTJ6OV8tNG91TDdQTklJd3RXZFd4aHh1LVdXdEs3UWV1QXpHVDRBRzQzcnFpQXh2bTNfWHp4WFEwLUg2dUV1OFNRUGFvMkdOMjI4dzZEbU5PeDBseEFvbDBqSXRJM1hfcG0wOUo5ZWxQYmxRVlVveVJoTmVBS2RyelliYk9TOHF4a1XSAbABQVVfeXFMUFJsRGpyWTZZLWtUTWc0TFRUTVo5bUVtM1F2cHVXM3VfQ1RXR2dTeTJBdHN0V1FDNTFNbnlBM21QUkQ3UThVb2JtMVVibWpldVRZZXNxYjJyUWpZVllSZkFKMHF3QlZLNjNLMk5mLUc2N3hCd2FVa0puTzR6SU5uYUhGQUgtRHRuWGt6Tk9ZZHdGSDltRENKY0F5em80ZXgtUmxTYldBSm5qMTVlc3lnazc?oc=5",
+      "sourcePriority": 3
+    },
+    {
       "title": "Robaron un automóvil en El Chañar y lo encontraron más tarde abandonado en Río Negro - Minuto Neuquén",
       "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQN2hySGdtYXNiUFpZMzJZdEk3R0xLNkJiME5mVTMxT1pNRWphV3lwdFFBbDRmZnlJTTdFeHI2NnRrZ0JSRlhtSkdsOUlWTW4xQlBidUJmcXN2NHh0c3MwbkJHUUg5cHRoLUp5bFZmQlE2bEM3MDRSb2FTTVMzeU4wN2hWeVJ1OFBUQlVXYm9zZmdrWjJBdTZVNGhLem5MRmJmM0k2OHN6ZFpEd3IyV19YWE1JOHRSaHpSWno0WUs3YTBOWVZOTUYweEtGU2dsc1habEVkV1VId1psSEg0YXc?oc=5",
       "publishedAt": "2026-10-30T00:00:00+00:00",
@@ -4656,12 +4664,12 @@
       "sourcePriority": 3
     },
     {
-      "title": "Le robaron el auto a un joven de 23 años en San Patricio del Chañar: dos testigos lo vieron todo e identificar - Mejor Informado",
+      "title": "Le robaron el auto a un joven de 23 años en San Patricio del Chañar: dos testigos lo vieron todo e identificar - MejorInformado.com",
       "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQY0RiZFlaVzBCQVViMGhuNU1zRm0zNVhyZHlDbnVjVExsN2NBdVBpTGJUMXJ2TGpoejRNY0REa3RpVDVpSldzN1ZweHF2LXNWNG56YjczTHdUUm54UnhqU180MmhfeWhVWW9Cc1dEYWIwZUpwYlp6MGlic3ZmSjUxZXhqc0g3SEhHekZfMjRfdVZrNUxhT1ozMUY2QmVNU3dfWU1ncjhWNXVjY2tvUmk2a0ltUFFacTlTVngzd19sUGM4RnpjNFR2ZkN0UXdrZml0LXBKcENBUldVRTBQamlHQjJB0gHiAUFVX3lxTFBjRGJkWVpXMEJBVWIwaG41TXNGbTM1WHJkeUNudWNUTGw3Y0F1UGlMYlQxcnZMamh6NE1jRERrdGlUNWlKV3M3VnB4cXYtc1Y0bnpiNzNMd1RSbnhSeGpTXzQyaF95aFVZb0JzV0RhYjBlSnBiWnowaWJzdmZKNTFleGpzSDdISEd6Rl8yNF91Vms1TGFPWjMxRjZCZU1Td19ZTWdyOFY1dWNja29SaTZrSW1QUVpxOVNWeDN3X2xQYzhGemM0VHZmQ3RRd2tmaXQtcEpwQ0FSV1VFMFBqaUdCMkE?oc=5",
       "publishedAt": "2026-10-29T15:20:53+00:00",
       "published": "2026-10-29T15:20:53+00:00",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMi4gFBVV95cUxQY0RiZFlaVzBCQVViMGhuNU1zRm0zNVhyZHlDbnVjVExsN2NBdVBpTGJUMXJ2TGpoejRNY0REa3RpVDVpSldzN1ZweHF2LXNWNG56YjczTHdUUm54UnhqU180MmhfeWhVWW9Cc1dEYWIwZUpwYlp6MGlic3ZmSjUxZXhqc0g3SEhHekZfMjRfdVZrNUxhT1ozMUY2QmVNU3dfWU1ncjhWNXVjY2tvUmk2a0ltUFFacTlTVngzd19sUGM4RnpjNFR2ZkN0UXdrZml0LXBKcENBUldVRTBQamlHQjJB0gHiAUFVX3lxTFBjRGJkWVpXMEJBVWIwaG41TXNGbTM1WHJkeUNudWNUTGw3Y0F1UGlMYlQxcnZMamh6NE1jRERrdGlUNWlKV3M3VnB4cXYtc1Y0bnpiNzNMd1RSbnhSeGpTXzQyaF95aFVZb0JzV0RhYjBlSnBiWnowaWJzdmZKNTFleGpzSDdISEd6Rl8yNF91Vms1TGFPWjMxRjZCZU1Td19ZTWdyOFY1dWNja29SaTZrSW1QUVpxOVNWeDN3X2xQYzhGemM0VHZmQ3RRd2tmaXQtcEpwQ0FSV1VFMFBqaUdCMkE?oc=5\" target=\"_blank\">Le robaron el auto a un joven de 23 años en San Patricio del Chañar: dos testigos lo vieron todo e identificar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Mejor Informado</font>",
-      "source": "Mejor Informado",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMi4gFBVV95cUxQY0RiZFlaVzBCQVViMGhuNU1zRm0zNVhyZHlDbnVjVExsN2NBdVBpTGJUMXJ2TGpoejRNY0REa3RpVDVpSldzN1ZweHF2LXNWNG56YjczTHdUUm54UnhqU180MmhfeWhVWW9Cc1dEYWIwZUpwYlp6MGlic3ZmSjUxZXhqc0g3SEhHekZfMjRfdVZrNUxhT1ozMUY2QmVNU3dfWU1ncjhWNXVjY2tvUmk2a0ltUFFacTlTVngzd19sUGM4RnpjNFR2ZkN0UXdrZml0LXBKcENBUldVRTBQamlHQjJB0gHiAUFVX3lxTFBjRGJkWVpXMEJBVWIwaG41TXNGbTM1WHJkeUNudWNUTGw3Y0F1UGlMYlQxcnZMamh6NE1jRERrdGlUNWlKV3M3VnB4cXYtc1Y0bnpiNzNMd1RSbnhSeGpTXzQyaF95aFVZb0JzV0RhYjBlSnBiWnowaWJzdmZKNTFleGpzSDdISEd6Rl8yNF91Vms1TGFPWjMxRjZCZU1Td19ZTWdyOFY1dWNja29SaTZrSW1QUVpxOVNWeDN3X2xQYzhGemM0VHZmQ3RRd2tmaXQtcEpwQ0FSV1VFMFBqaUdCMkE?oc=5\" target=\"_blank\">Le robaron el auto a un joven de 23 años en San Patricio del Chañar: dos testigos lo vieron todo e identificar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MejorInformado.com</font>",
+      "source": "MejorInformado.com",
       "sourceType": "BUSCADOR / RESPALDO",
       "sourceUrl": "",
       "collection": "BUSCADOR",
@@ -4670,7 +4678,7 @@
       "relevanceLabel": "DIRECTA",
       "firstSeen": "2026-10-29T16:48:07.923021+00:00",
       "isNew": false,
-      "titleKey": "robaron auto joven años dos testigos vieron todo identificar mejor informado",
+      "titleKey": "robaron auto joven años dos testigos vieron todo identificar mejorinformado com",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQY0RiZFlaVzBCQVViMGhuNU1zRm0zNVhyZHlDbnVjVExsN2NBdVBpTGJUMXJ2TGpoejRNY0REa3RpVDVpSldzN1ZweHF2LXNWNG56YjczTHdUUm54UnhqU180MmhfeWhVWW9Cc1dEYWIwZUpwYlp6MGlic3ZmSjUxZXhqc0g3SEhHekZfMjRfdVZrNUxhT1ozMUY2QmVNU3dfWU1ncjhWNXVjY2tvUmk2a0ltUFFacTlTVngzd19sUGM4RnpjNFR2ZkN0UXdrZml0LXBKcENBUldVRTBQamlHQjJB0gHiAUFVX3lxTFBjRGJkWVpXMEJBVWIwaG41TXNGbTM1WHJkeUNudWNUTGw3Y0F1UGlMYlQxcnZMamh6NE1jRERrdGlUNWlKV3M3VnB4cXYtc1Y0bnpiNzNMd1RSbnhSeGpTXzQyaF95aFVZb0JzV0RhYjBlSnBiWnowaWJzdmZKNTFleGpzSDdISEd6Rl8yNF91Vms1TGFPWjMxRjZCZU1Td19ZTWdyOFY1dWNja29SaTZrSW1QUVpxOVNWeDN3X2xQYzhGemM0VHZmQ3RRd2tmaXQtcEpwQ0FSV1VFMFBqaUdCMkE?oc=5",
       "sourcePriority": 3
     },
@@ -4691,25 +4699,6 @@
       "isNew": false,
       "titleKey": "robaron auto punta amenazas encontraron rio negro anbariloche",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNeDZVNUZ2ZFF1MURTSkVQd2FsUTZRblByOHhBYUpycUE5TGlNNUFPVEdrRVVUTy1HakhaQ3BDcjlNcVRKVC1qbDZXTDRFRGd0c1Zhd3dLVUhZc2h0dXNQdVdIY0RseWpENWEwLW5iQW9GazZHeEVHdlpCa2NVN3VxT0lnbXRjc1VJVm5Fam5qYkk2Ni01cDJNOW0xcGxTeGExTW44NHNxZG82NC0ySDJKbDYwLVVaQ29RekxzNEtMM2FPVzNGbExSNXdJcE9TVTIxSWpFRUlGd2tqaEJOeG5ZUUNNNEtzWC1zT3hkZGtn0gHuAUFVX3lxTE14NlU1RnZkUXUxRFNKRVB3YWxRNlFuUHI4eEFhSnJxQTlMaU01QU9UR2tFVVRPLUdqSFpDcENyOU1xVEpULWpsNldMNEVEZ3RzVmF3d0tVSFlzaHR1c1B1V0hjRGx5akQ1YTAtbmJBb0ZrNkd4RUd2WkJrY1U3dXFPSWdtdGNzVUlWbkVqbmpiSTY2LTVwMk05bTFwbFN4YTFNbjg0c3FkbzY0LTJIMkpsNjAtVVpDb1F6THM0S0wzYU9XM0ZsTFI1d0lwT1NVMjFJakVFSUZ3a2poQk54bllRQ000S3NYLXNPeGRka2c?oc=5",
-      "sourcePriority": 3
-    },
-    {
-      "title": "Le robaron el auto tras un forcejeo en El Chañar y apareció horas después en Río Negro - Patagonia Press",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPMDNVUVlYN1VoSmM5T1F0SzBVQ3FDaVRvRzZjTEo2RVhvamRFaGdPenZ0dVlORGVZX2dSSTdCUFotVmlLeTF4UkNLZ2FQa1h6b0VGN01aZUVDbFhTalkweUhaSndGeWxyZERTakN5NTRWcmpvZjZvdUFvQVZOOEl0SE9BeTk1Z2ZFT0xRdmlPSGc5X0V2c3dLeVR1R3RPcFNIeVVSZTNvZjZiNGhvVmhjMTZfdzhBb1JDSmhOV0d2N3VVaHBVNTVfRXUzT3dSUjlRcGJ0UGlNSU8xeElqbGE2LQ?oc=5",
-      "publishedAt": "2026-10-29T11:48:37+00:00",
-      "published": "2026-10-29T11:48:37+00:00",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMi4AFBVV95cUxPMDNVUVlYN1VoSmM5T1F0SzBVQ3FDaVRvRzZjTEo2RVhvamRFaGdPenZ0dVlORGVZX2dSSTdCUFotVmlLeTF4UkNLZ2FQa1h6b0VGN01aZUVDbFhTalkweUhaSndGeWxyZERTakN5NTRWcmpvZjZvdUFvQVZOOEl0SE9BeTk1Z2ZFT0xRdmlPSGc5X0V2c3dLeVR1R3RPcFNIeVVSZTNvZjZiNGhvVmhjMTZfdzhBb1JDSmhOV0d2N3VVaHBVNTVfRXUzT3dSUjlRcGJ0UGlNSU8xeElqbGE2LQ?oc=5\" target=\"_blank\">Le robaron el auto tras un forcejeo en El Chañar y apareció horas después en Río Negro</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Patagonia Press</font>",
-      "source": "Patagonia Press",
-      "sourceType": "BUSCADOR / RESPALDO",
-      "sourceUrl": "",
-      "collection": "BUSCADOR",
-      "query": "\"San Patricio del Chañar\"",
-      "relevance": 3,
-      "relevanceLabel": "DIRECTA",
-      "firstSeen": "2026-10-29T16:48:07.923021+00:00",
-      "isNew": false,
-      "titleKey": "robaron auto tras forcejeo aparecio horas despues rio negro patagonia press",
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPMDNVUVlYN1VoSmM5T1F0SzBVQ3FDaVRvRzZjTEo2RVhvamRFaGdPenZ0dVlORGVZX2dSSTdCUFotVmlLeTF4UkNLZ2FQa1h6b0VGN01aZUVDbFhTalkweUhaSndGeWxyZERTakN5NTRWcmpvZjZvdUFvQVZOOEl0SE9BeTk1Z2ZFT0xRdmlPSGc5X0V2c3dLeVR1R3RPcFNIeVVSZTNvZjZiNGhvVmhjMTZfdzhBb1JDSmhOV0d2N3VVaHBVNTVfRXUzT3dSUjlRcGJ0UGlNSU8xeElqbGE2LQ?oc=5",
       "sourcePriority": 3
     },
     {
@@ -4981,8 +4970,8 @@
     {
       "title": "Un fuerte choque complicó el tránsito en la Ruta 7, cerca de El Chañar: qué pasó - Diario Río Negro",
       "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNNl9jYnNQajktaWdNbFdnQWFSMS1fZkVobzA4dnVPTklVMkhXYnJqcm1EN2NEUUxoRHhKbHJwb0lmd3JfX0FWcHdtSjJscElGaURSdXhzWWhXMzVOUF9QcG5Ka2dOU1ZYOGYxWm5zME8xbUxBR2pOaVNUbzluYUwzalNybW9pSVFzajVqaFp2emFvN2dQZ1Z6Rkxaa1I3OHR4MmZGRXB0ZW5Ba21SUVJqbGY1YkJrdDd3WkRnSEc0RG5JRktEMDR0LU5KMUlZUjVOc2fSAdoBQVVfeXFMTjZXVnE2OFoxc3ctQkQxWURaZUF4WEstcHNYZDdLZDJUMW1PQXpSUlV6Y3Yya29Lc19aTWNoei13QzF0bllYZG5NTHI1Z2YyT09xUmN3WkM5RHlRMktzemNOVWE5cUZvV1NyeGh5ZmpvTFRvVkd0SnRZZmhuZXJrcVFhdW9uYndvOUVxNmZ1TlowMXY2TXhtbEl5LWJsSGdNM09rcjBTeTh1WjhDLVd5OFdQemV3M3hGa1Y4WVhZQjBqV2FfS1VUTldZZXUwN3pzUUhfYkd2WXpnOUE?oc=5",
-      "publishedAt": "2026-10-22T12:50:53+00:00",
-      "published": "2026-10-22T12:50:53+00:00",
+      "publishedAt": "2026-10-22T07:00:00+00:00",
+      "published": "2026-10-22T07:00:00+00:00",
       "description": "<a href=\"https://news.google.com/rss/articles/CBMi0gFBVV95cUxNNl9jYnNQajktaWdNbFdnQWFSMS1fZkVobzA4dnVPTklVMkhXYnJqcm1EN2NEUUxoRHhKbHJwb0lmd3JfX0FWcHdtSjJscElGaURSdXhzWWhXMzVOUF9QcG5Ka2dOU1ZYOGYxWm5zME8xbUxBR2pOaVNUbzluYUwzalNybW9pSVFzajVqaFp2emFvN2dQZ1Z6Rkxaa1I3OHR4MmZGRXB0ZW5Ba21SUVJqbGY1YkJrdDd3WkRnSEc0RG5JRktEMDR0LU5KMUlZUjVOc2fSAdoBQVVfeXFMTjZXVnE2OFoxc3ctQkQxWURaZUF4WEstcHNYZDdLZDJUMW1PQXpSUlV6Y3Yya29Lc19aTWNoei13QzF0bllYZG5NTHI1Z2YyT09xUmN3WkM5RHlRMktzemNOVWE5cUZvV1NyeGh5ZmpvTFRvVkd0SnRZZmhuZXJrcVFhdW9uYndvOUVxNmZ1TlowMXY2TXhtbEl5LWJsSGdNM09rcjBTeTh1WjhDLVd5OFdQemV3M3hGa1Y4WVhZQjBqV2FfS1VUTldZZXUwN3pzUUhfYkd2WXpnOUE?oc=5\" target=\"_blank\">Un fuerte choque complicó el tránsito en la Ruta 7, cerca de El Chañar: qué pasó</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Diario Río Negro</font>",
       "source": "Diario Río Negro",
       "sourceType": "BUSCADOR / RESPALDO",
@@ -5114,7 +5103,7 @@
   ],
   "territorialGraph": {
     "version": "2.0",
-    "generatedAt": "2026-10-30T23:59:16.895188+00:00",
+    "generatedAt": "2026-10-31T05:24:05.881872+00:00",
     "root": "spc",
     "rule": "evidence-first",
     "levels": [
@@ -5685,7 +5674,7 @@
       }
     ],
     "eventNodes": {
-      "CHA-bf6be71254d9": [
+      "CHA-d5b38a117a1f": [
         "spc"
       ],
       "CHA-325bcc6fddb9": [
@@ -5759,7 +5748,7 @@
   },
   "audit": {
     "version": "1.0",
-    "updatedAt": "2026-10-30T23:59:16.940202+00:00",
+    "updatedAt": "2026-10-31T05:24:05.923875+00:00",
     "rule": "fact != coverage; territory requires textual evidence",
     "facts": 11,
     "coverage": 34,
@@ -5768,7 +5757,7 @@
     "directAnchorPct": 100.0,
     "territorySpecificFacts": 3,
     "territorySpecificPct": 27.3,
-    "averageSourcesPerFact": 2.27,
+    "averageSourcesPerFact": 2.18,
     "activeTerritorialNodes": 6,
     "failedSources": 10,
     "acceptedWithoutLocalEvidence": 1,
