@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T05:28:46.453823+00:00",
+  "updatedAt": "2026-11-01T11:59:30.495666+00:00",
   "window": "14 días",
   "purpose": "Detectar qué se está moviendo en San Patricio del Chañar y mostrar de dónde surge cada señal.",
   "architecture": "contrato universal de procedencia + fuentes profesionales + adaptadores específicos + validación semántica + temporalidad + evidencia editorial separada",
@@ -49,7 +49,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://chanardigital.com.ar/",
-      "lastFetch": "2026-11-01T05:28:26.865684+00:00",
+      "lastFetch": "2026-11-01T11:59:13.981784+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -65,7 +65,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.radiomia.com.ar/",
-      "lastFetch": "2026-11-01T05:28:28.265639+00:00",
+      "lastFetch": "2026-11-01T11:59:15.061273+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -80,7 +80,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://tuitvacamuerta.com/",
-      "lastFetch": "2026-11-01T05:28:29.784691+00:00",
+      "lastFetch": "2026-11-01T11:59:16.663166+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -95,7 +95,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.vacamuertanews.com/",
-      "lastFetch": "2026-11-01T05:28:30.290650+00:00",
+      "lastFetch": "2026-11-01T11:59:16.900864+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -111,7 +111,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.neuqueninforma.gob.ar/",
-      "lastFetch": "2026-11-01T05:28:31.745773+00:00",
+      "lastFetch": "2026-11-01T11:59:17.751335+00:00",
       "success": false,
       "attempted": 3,
       "failures": [
@@ -128,7 +128,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://sanpatricio.gob.ar/",
-      "lastFetch": "2026-11-01T05:28:32.726924+00:00",
+      "lastFetch": "2026-11-01T11:59:18.600233+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -143,7 +143,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://boletinoficial.neuquen.gov.ar/",
-      "lastFetch": "2026-11-01T05:28:33.617790+00:00",
+      "lastFetch": "2026-11-01T11:59:19.243612+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -158,7 +158,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.lmneuquen.com/",
-      "lastFetch": "2026-11-01T05:28:33.835079+00:00",
+      "lastFetch": "2026-11-01T11:59:19.425625+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -174,7 +174,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.rionegro.com.ar/",
-      "lastFetch": "2026-11-01T05:28:35.178528+00:00",
+      "lastFetch": "2026-11-01T11:59:21.318674+00:00",
       "success": true,
       "attempted": 2,
       "failures": [
@@ -189,7 +189,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.mejorinformado.com/",
-      "lastFetch": "2026-11-01T05:28:36.095674+00:00",
+      "lastFetch": "2026-11-01T11:59:21.794737+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -205,7 +205,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.diariamenteneuquen.com/",
-      "lastFetch": "2026-11-01T05:28:36.990984+00:00",
+      "lastFetch": "2026-11-01T11:59:22.384455+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -386,8 +386,8 @@
       "group": "LOCAL",
       "role": "medio local",
       "url": "https://chanardigital.com.ar/",
-      "signals": 6,
-      "directSignals": 6,
+      "signals": 5,
+      "directSignals": 5,
       "anchoredSignals": 0,
       "lastSeen": "2026-10-31T22:26:47+00:00",
       "status": "CON SEÑALES",
@@ -709,13 +709,13 @@
   "languageAudit": [
     {
       "term": "el chañar",
-      "hits": 28,
-      "direct": 28
+      "hits": 27,
+      "direct": 27
     },
     {
       "term": "san patricio del chañar",
-      "hits": 22,
-      "direct": 22
+      "hits": 21,
+      "direct": 21
     },
     {
       "term": "ruta 7",
@@ -1008,8 +1008,8 @@
         "source": "Chañar Digital",
         "group": "LOCAL",
         "role": "medio local",
-        "accepted": 16,
-        "direct": 16,
+        "accepted": 12,
+        "direct": 12,
         "anchored": 0,
         "falsePositives": 0,
         "falsePositiveTypes": [],
@@ -1405,18 +1405,6 @@
     "matrix": [
       {
         "source": "Chañar Digital",
-        "topic": "SERVICIOS",
-        "accepted": 9,
-        "direct": 9,
-        "anchored": 0,
-        "falsePositives": 0,
-        "territorialTerms": [
-          "san patricio del chañar",
-          "el chañar"
-        ]
-      },
-      {
-        "source": "Chañar Digital",
         "topic": "EDUCACIÓN",
         "accepted": 6,
         "direct": 6,
@@ -1426,6 +1414,18 @@
           "san patricio del chañar",
           "el chañar",
           "epet 26"
+        ]
+      },
+      {
+        "source": "Chañar Digital",
+        "topic": "SERVICIOS",
+        "accepted": 5,
+        "direct": 5,
+        "anchored": 0,
+        "falsePositives": 0,
+        "territorialTerms": [
+          "san patricio del chañar",
+          "el chañar"
         ]
       },
       {
@@ -1677,8 +1677,8 @@
     "languagePrecision": [
       {
         "term": "san patricio del chañar",
-        "acceptedHits": 24,
-        "directHits": 24,
+        "acceptedHits": 23,
+        "directHits": 23,
         "rejectedTitleHits": 0,
         "territorialStrength": "FUERTE"
       },
@@ -1691,8 +1691,8 @@
       },
       {
         "term": "el chañar",
-        "acceptedHits": 33,
-        "directHits": 33,
+        "acceptedHits": 29,
+        "directHits": 29,
         "rejectedTitleHits": 0,
         "territorialStrength": "FUERTE"
       },
@@ -2017,10 +2017,10 @@
     "interpretation": "auditoría sobre eventos aceptados; la próxima capa debe instrumentar rechazos antes del clustering"
   },
   "stats": {
-    "total": 29,
-    "direct": 29,
+    "total": 28,
+    "direct": 28,
     "regional": 0,
-    "new": 1,
+    "new": 0,
     "sources": 14,
     "directSignals": 0,
     "localDirectSignals": 0,
@@ -2031,11 +2031,11 @@
   "environment": {
     "weather": {
       "dataType": "forecast",
-      "forecastWindKmh": 15.0,
-      "forecastGustKmh": 34.0,
+      "forecastWindKmh": 40.0,
+      "forecastGustKmh": 45.0,
       "forecastWindDirection": "SO",
-      "forecastTemperatureC": 28.0,
-      "retrievedAt": "2026-11-01T05:28:24.706757+00:00",
+      "forecastTemperatureC": 25.0,
+      "retrievedAt": "2026-11-01T11:59:11.106607+00:00",
       "source": "AIC",
       "sourceTier": "primary",
       "sourceUrl": "https://www.aic.gob.ar/sitio/home?a=1015&z=1967225803",
@@ -2065,7 +2065,7 @@
       "currentProgrammedMinM3s": 400,
       "programDate": "2026-11-02",
       "tableDate": "2026-11-01",
-      "retrievedAt": "2026-11-01T05:28:24.706757+00:00",
+      "retrievedAt": "2026-11-01T11:59:11.106607+00:00",
       "source": "AIC",
       "sourceTier": "primary",
       "sourceUrl": "https://www.aic.gob.ar/sitio/caudales",
@@ -2085,17 +2085,17 @@
         "url": "https://www.aic.gob.ar/sitio/caudales"
       }
     ],
-    "updatedAt": "2026-11-01T05:28:24.706757+00:00"
+    "updatedAt": "2026-11-01T11:59:11.106607+00:00"
   },
   "operational": {
-    "updatedAt": "2026-11-01T05:28:24.706757+00:00",
+    "updatedAt": "2026-11-01T11:59:11.106607+00:00",
     "route7": {
       "source": "Dirección Provincial de Vialidad",
       "sourceTier": "primary",
       "sourceUrl": "https://www.dpvneuquen.gov.ar/",
       "semanticState": null,
       "publicationState": "source_reachable_no_current_machine_readable_state",
-      "retrievedAt": "2026-11-01T05:28:24.706757+00:00",
+      "retrievedAt": "2026-11-01T11:59:11.106607+00:00",
       "evidence": {
         "route7Mention": true,
         "route8Mention": false
@@ -2107,7 +2107,7 @@
       "sourceUrl": "https://www.dpvneuquen.gov.ar/",
       "semanticState": null,
       "publicationState": "source_reachable_no_current_machine_readable_state",
-      "retrievedAt": "2026-11-01T05:28:24.706757+00:00",
+      "retrievedAt": "2026-11-01T11:59:11.106607+00:00",
       "evidence": {
         "route7Mention": true,
         "route8Mention": false
@@ -2121,7 +2121,7 @@
       "eventType": null,
       "detail": null,
       "publicationState": "source_reachable_no_specific_local_notice",
-      "retrievedAt": "2026-11-01T05:28:24.706757+00:00"
+      "retrievedAt": "2026-11-01T11:59:11.106607+00:00"
     },
     "water": {
       "source": "EPAS",
@@ -2131,7 +2131,7 @@
       "eventType": null,
       "detail": null,
       "publicationState": "source_reachable_no_specific_local_notice",
-      "retrievedAt": "2026-11-01T05:28:24.706757+00:00"
+      "retrievedAt": "2026-11-01T11:59:11.106607+00:00"
     },
     "sources": [
       {
@@ -2541,11 +2541,11 @@
     {
       "id": "CONVERSACIÓN",
       "label": "Conversación general",
-      "signal": 12,
+      "signal": 11,
       "status": "cobertura editorial",
-      "freshnessHours": 7.0,
+      "freshnessHours": 13.5,
       "mode": "evidencia editorial",
-      "evidenceCount": 12,
+      "evidenceCount": 11,
       "sourceContract": {
         "primary": "medios locales identificables",
         "secondary": "fuentes institucionales competentes",
@@ -2583,7 +2583,7 @@
       "label": "Corredor Ruta 7",
       "signal": 1,
       "status": "estado vial",
-      "freshnessHours": 228.5,
+      "freshnessHours": 235.0,
       "mode": "evidencia territorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -2623,7 +2623,7 @@
         "sourceUrl": "https://www.dpvneuquen.gov.ar/",
         "semanticState": null,
         "publicationState": "source_reachable_no_current_machine_readable_state",
-        "retrievedAt": "2026-11-01T05:28:24.706757+00:00",
+        "retrievedAt": "2026-11-01T11:59:11.106607+00:00",
         "evidence": {
           "route7Mention": true,
           "route8Mention": false
@@ -2635,7 +2635,7 @@
       "label": "Corredor Ruta 8",
       "signal": 1,
       "status": "estado vial",
-      "freshnessHours": 228.5,
+      "freshnessHours": 235.0,
       "mode": "evidencia territorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -2675,7 +2675,7 @@
         "sourceUrl": "https://www.dpvneuquen.gov.ar/",
         "semanticState": null,
         "publicationState": "source_reachable_no_current_machine_readable_state",
-        "retrievedAt": "2026-11-01T05:28:24.706757+00:00",
+        "retrievedAt": "2026-11-01T11:59:11.106607+00:00",
         "evidence": {
           "route7Mention": true,
           "route8Mention": false
@@ -2685,7 +2685,7 @@
     {
       "id": "VIENTO",
       "label": "Condición de viento",
-      "signal": 15.0,
+      "signal": 40.0,
       "status": "pronóstico local",
       "freshnessHours": null,
       "mode": "DATO DIRECTO",
@@ -2775,7 +2775,7 @@
         "eventType": null,
         "detail": null,
         "publicationState": "source_reachable_no_specific_local_notice",
-        "retrievedAt": "2026-11-01T05:28:24.706757+00:00"
+        "retrievedAt": "2026-11-01T11:59:11.106607+00:00"
       }
     },
     {
@@ -2825,7 +2825,7 @@
         "eventType": null,
         "detail": null,
         "publicationState": "source_reachable_no_specific_local_notice",
-        "retrievedAt": "2026-11-01T05:28:24.706757+00:00"
+        "retrievedAt": "2026-11-01T11:59:11.106607+00:00"
       }
     },
     {
@@ -2833,7 +2833,7 @@
       "label": "Servicios e infraestructura",
       "signal": 1,
       "status": "evidencia de servicio",
-      "freshnessHours": 129.0,
+      "freshnessHours": 135.5,
       "mode": "evidencia editorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -2913,7 +2913,7 @@
       "label": "Educación",
       "signal": 1,
       "status": "evidencia educativa",
-      "freshnessHours": 846.4,
+      "freshnessHours": 852.9,
       "mode": "evidencia editorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -2953,7 +2953,7 @@
       "label": "Producción rural",
       "signal": 1,
       "status": "evidencia productiva",
-      "freshnessHours": 204.9,
+      "freshnessHours": 211.4,
       "mode": "evidencia editorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -2993,7 +2993,7 @@
       "label": "Seguridad / emergencias",
       "signal": 1,
       "status": "cobertura de emergencia",
-      "freshnessHours": 281.2,
+      "freshnessHours": 287.7,
       "mode": "evidencia editorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -3090,7 +3090,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://chanardigital.com.ar/",
-        "lastFetch": "2026-11-01T05:28:26.865684+00:00",
+        "lastFetch": "2026-11-01T11:59:13.981784+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3106,7 +3106,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.radiomia.com.ar/",
-        "lastFetch": "2026-11-01T05:28:28.265639+00:00",
+        "lastFetch": "2026-11-01T11:59:15.061273+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -3121,7 +3121,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://tuitvacamuerta.com/",
-        "lastFetch": "2026-11-01T05:28:29.784691+00:00",
+        "lastFetch": "2026-11-01T11:59:16.663166+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -3136,7 +3136,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.vacamuertanews.com/",
-        "lastFetch": "2026-11-01T05:28:30.290650+00:00",
+        "lastFetch": "2026-11-01T11:59:16.900864+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3152,7 +3152,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.neuqueninforma.gob.ar/",
-        "lastFetch": "2026-11-01T05:28:31.745773+00:00",
+        "lastFetch": "2026-11-01T11:59:17.751335+00:00",
         "success": false,
         "attempted": 3,
         "failures": [
@@ -3169,7 +3169,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://sanpatricio.gob.ar/",
-        "lastFetch": "2026-11-01T05:28:32.726924+00:00",
+        "lastFetch": "2026-11-01T11:59:18.600233+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -3184,7 +3184,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://boletinoficial.neuquen.gov.ar/",
-        "lastFetch": "2026-11-01T05:28:33.617790+00:00",
+        "lastFetch": "2026-11-01T11:59:19.243612+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -3199,7 +3199,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.lmneuquen.com/",
-        "lastFetch": "2026-11-01T05:28:33.835079+00:00",
+        "lastFetch": "2026-11-01T11:59:19.425625+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3215,7 +3215,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.rionegro.com.ar/",
-        "lastFetch": "2026-11-01T05:28:35.178528+00:00",
+        "lastFetch": "2026-11-01T11:59:21.318674+00:00",
         "success": true,
         "attempted": 2,
         "failures": [
@@ -3230,7 +3230,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.mejorinformado.com/",
-        "lastFetch": "2026-11-01T05:28:36.095674+00:00",
+        "lastFetch": "2026-11-01T11:59:21.794737+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3246,7 +3246,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.diariamenteneuquen.com/",
-        "lastFetch": "2026-11-01T05:28:36.990984+00:00",
+        "lastFetch": "2026-11-01T11:59:22.384455+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3273,7 +3273,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SERVICIOS",
-      "movement": 98,
+      "movement": 96,
       "coverage": 9,
       "sourceCount": 7,
       "directSourceCount": 0,
@@ -3306,7 +3306,7 @@
           "relevance": 3,
           "relevanceLabel": "DIRECTA",
           "firstSeen": "2026-11-01T05:28:46.453823+00:00",
-          "isNew": true,
+          "isNew": false,
           "titleKey": "nueva muerte joven reabre debate prevencion suicidio digital",
           "evidenceUrl": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPZF9iTVRkZjFkSkQyb1FIVmx2dTJPeDBkekprTW5qTTNKd0NteGx3R3lyNko4MDRvbVdadDdaVDRCaGgzRVM3a0p6YjFrQlhxa2F0UWJkbUM1aUZITmdQMzJPRGpUbFR5SXVvd3BxUTFTMzl3MXBjVTVfRFl0NWkyQUZXMFRqS0d0cUN1RmJ6bXRNZHF6Y1N6MG10Wi1yNFlDOHFEZHRfb2tCQWhXYzJmcnowRVdVcXFEQmp2XzlRUnhOdGdCMHhKTlAtUzIzMm5MN1NNcEVKR0l0YXY3eENfWFduYmc?oc=5",
           "sourcePriority": 3
@@ -3446,13 +3446,12 @@
         }
       ],
       "lifecycle": "EMERGENTE",
-      "movementDelta": 75,
-      "previousCoverage": 3,
+      "movementDelta": -2,
+      "previousCoverage": 9,
       "newSources": [
-        "Patagonia Press",
         "Minuto Neuquén",
-        "Diario Neuquino",
-        "Lmneuquen.com"
+        "MejorInformado.com",
+        "ANBariloche"
       ],
       "sourceDiversity": 7,
       "memoryMatched": true,
@@ -3626,7 +3625,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SERVICIOS",
-      "movement": 43,
+      "movement": 41,
       "coverage": 2,
       "sourceCount": 2,
       "directSourceCount": 0,
@@ -3680,10 +3679,9 @@
         }
       ],
       "lifecycle": "SOSTENIDO",
-      "movementDelta": 20,
-      "previousCoverage": 4,
+      "movementDelta": -2,
+      "previousCoverage": 2,
       "newSources": [
-        "Lmneuquen.com",
         "NoticiasNQN"
       ],
       "sourceDiversity": 2,
@@ -3727,7 +3725,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SERVICIOS",
-      "movement": 41,
+      "movement": 39,
       "coverage": 6,
       "sourceCount": 6,
       "directSourceCount": 0,
@@ -3861,7 +3859,7 @@
         }
       ],
       "lifecycle": "ACTIVO",
-      "movementDelta": 19,
+      "movementDelta": 18,
       "previousCoverage": 1,
       "newSources": [
         "Neuquen Post",
@@ -4011,8 +4009,8 @@
       }
     },
     {
-      "eventId": "CHA-1dd50b7bd05b",
-      "title": "San Patricio del Chañar: detuvieron a un hombre con dos pedidos judiciales vigentes - Chañar Digital",
+      "eventId": "CHA-83aaffb78689",
+      "title": "Detuvieron a un hombre por amenazas con armas de fuego en la Toma La Costa de El Chañar - Chañar Digital",
       "publishedAt": "2026-10-23T14:00:00+00:00",
       "firstSeen": "2026-10-31T16:15:44.628540+00:00",
       "lastSeen": "2026-10-23T14:00:00+00:00",
@@ -4020,8 +4018,8 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SERVICIOS",
-      "movement": 23,
-      "coverage": 3,
+      "movement": 31,
+      "coverage": 4,
       "sourceCount": 2,
       "directSourceCount": 0,
       "territorialAnchors": [
@@ -4032,7 +4030,7 @@
         "Chañar Digital",
         "Cutral Co al Instante"
       ],
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPWllTUm9NMl9FelVYQklaQmlJdjREekV4YjdOc3dSNmFDbTN3TWplTEM0MDctVnFmR2Z5d3dZeUhoc3VOSUhzdnNoNUdsazRkNGRvSFdiVVppaldGZmVwZERyMVdpbzUwSGdVdDg4MTZkNUpwUzlwazZWbGc0NFBJNEZmM0NfdlhLUUxOajdhMjJqNlZCZDhxRll6S05FbG9YLVQxQXc2Y1ZncDdpa0Q3Z05kVmljTnZVVTZYX2xHaU9lVjl4dHROaUZjZmhRZlExQ1E?oc=5",
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPdlN6ZGFMY09CWUEwRnJWWTFEamZ3b3ZJeWZpM09MSjUyeFgxbzk5UGdfeHdaTmxLN041Y3NhblJZMlVJRHZ4TV96MmE3VGMwRnI0Tm9Sb2MtS29xaWcySDFTWnRuRlFoclRvUHh1SGtDeDI5d1hER2loTGFvTVVBcS1ZLXVVeEpYQTFOWW53d3B6UlV2bHlKVGoxUFhRSDljM181QXdCSmt0aVF1SF9sLTExMFdqSXR1Ml9wNHpvWUhsOEhVSHF0cDNwUjMzZlBMWjdSUjUyWDE?oc=5",
       "items": [
         {
           "title": "San Patricio del Chañar: detuvieron a un hombre con dos pedidos judiciales vigentes - Chañar Digital",
@@ -4056,8 +4054,8 @@
         {
           "title": "Ramón Soto confirmó que será candidato a intendente de San Patricio del Chañar - Chañar Digital",
           "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPR21XWHlNb1NFSE4yY043dGtQemI1NFNqZHZtYkRaekxFdWQ4X0V3TldiNjJmNjZPS2FKcHJnVVRVWDRVMzNCWlBMdEdCbzBMRk9hZXNFcWhSREhERXkxM1E3OUJFVXV2VktrN0tHSnZ1d2tkV19Kc2tSYmd5YUNkZ0tfVFI2RjNtNEs0ZHNHcDB5VGswNXBONnpraEZSdFVNdU1sNHNlX1U2RUcwTWU1V3lnY0tfMThqRGJfRkJSUzNicGZpQ21UcGVKcVo?oc=5",
-          "publishedAt": "2026-10-23T01:24:21+00:00",
-          "published": "2026-10-23T01:24:21+00:00",
+          "publishedAt": "2026-10-22T07:00:00+00:00",
+          "published": "2026-10-22T07:00:00+00:00",
           "description": "<a href=\"https://news.google.com/rss/articles/CBMizAFBVV95cUxPR21XWHlNb1NFSE4yY043dGtQemI1NFNqZHZtYkRaekxFdWQ4X0V3TldiNjJmNjZPS2FKcHJnVVRVWDRVMzNCWlBMdEdCbzBMRk9hZXNFcWhSREhERXkxM1E3OUJFVXV2VktrN0tHSnZ1d2tkV19Kc2tSYmd5YUNkZ0tfVFI2RjNtNEs0ZHNHcDB5VGswNXBONnpraEZSdFVNdU1sNHNlX1U2RUcwTWU1V3lnY0tfMThqRGJfRkJSUzNicGZpQ21UcGVKcVo?oc=5\" target=\"_blank\">Ramón Soto confirmó que será candidato a intendente de San Patricio del Chañar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Chañar Digital</font>",
           "source": "Chañar Digital",
           "sourceType": "BUSCADOR / RESPALDO",
@@ -4070,6 +4068,25 @@
           "isNew": false,
           "titleKey": "ramon soto confirmo sera candidato intendente digital",
           "evidenceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPR21XWHlNb1NFSE4yY043dGtQemI1NFNqZHZtYkRaekxFdWQ4X0V3TldiNjJmNjZPS2FKcHJnVVRVWDRVMzNCWlBMdEdCbzBMRk9hZXNFcWhSREhERXkxM1E3OUJFVXV2VktrN0tHSnZ1d2tkV19Kc2tSYmd5YUNkZ0tfVFI2RjNtNEs0ZHNHcDB5VGswNXBONnpraEZSdFVNdU1sNHNlX1U2RUcwTWU1V3lnY0tfMThqRGJfRkJSUzNicGZpQ21UcGVKcVo?oc=5",
+          "sourcePriority": 3
+        },
+        {
+          "title": "Detuvieron a un hombre por amenazas con armas de fuego en la Toma La Costa de El Chañar - Chañar Digital",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPdlN6ZGFMY09CWUEwRnJWWTFEamZ3b3ZJeWZpM09MSjUyeFgxbzk5UGdfeHdaTmxLN041Y3NhblJZMlVJRHZ4TV96MmE3VGMwRnI0Tm9Sb2MtS29xaWcySDFTWnRuRlFoclRvUHh1SGtDeDI5d1hER2loTGFvTVVBcS1ZLXVVeEpYQTFOWW53d3B6UlV2bHlKVGoxUFhRSDljM181QXdCSmt0aVF1SF9sLTExMFdqSXR1Ml9wNHpvWUhsOEhVSHF0cDNwUjMzZlBMWjdSUjUyWDE?oc=5",
+          "publishedAt": "2026-10-20T22:34:30+00:00",
+          "published": "2026-10-20T22:34:30+00:00",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMi2AFBVV95cUxPdlN6ZGFMY09CWUEwRnJWWTFEamZ3b3ZJeWZpM09MSjUyeFgxbzk5UGdfeHdaTmxLN041Y3NhblJZMlVJRHZ4TV96MmE3VGMwRnI0Tm9Sb2MtS29xaWcySDFTWnRuRlFoclRvUHh1SGtDeDI5d1hER2loTGFvTVVBcS1ZLXVVeEpYQTFOWW53d3B6UlV2bHlKVGoxUFhRSDljM181QXdCSmt0aVF1SF9sLTExMFdqSXR1Ml9wNHpvWUhsOEhVSHF0cDNwUjMzZlBMWjdSUjUyWDE?oc=5\" target=\"_blank\">Detuvieron a un hombre por amenazas con armas de fuego en la Toma La Costa de El Chañar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Chañar Digital</font>",
+          "source": "Chañar Digital",
+          "sourceType": "BUSCADOR / RESPALDO",
+          "sourceUrl": "",
+          "collection": "BUSCADOR",
+          "query": "site:chanardigital.com.ar \"San Patricio del Chañar\"",
+          "relevance": 3,
+          "relevanceLabel": "DIRECTA",
+          "firstSeen": "2026-10-31T16:15:44.628540+00:00",
+          "isNew": false,
+          "titleKey": "detuvieron hombre amenazas armas fuego toma costa digital",
+          "evidenceUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPdlN6ZGFMY09CWUEwRnJWWTFEamZ3b3ZJeWZpM09MSjUyeFgxbzk5UGdfeHdaTmxLN041Y3NhblJZMlVJRHZ4TV96MmE3VGMwRnI0Tm9Sb2MtS29xaWcySDFTWnRuRlFoclRvUHh1SGtDeDI5d1hER2loTGFvTVVBcS1ZLXVVeEpYQTFOWW53d3B6UlV2bHlKVGoxUFhRSDljM181QXdCSmt0aVF1SF9sLTExMFdqSXR1Ml9wNHpvWUhsOEhVSHF0cDNwUjMzZlBMWjdSUjUyWDE?oc=5",
           "sourcePriority": 3
         },
         {
@@ -4131,163 +4148,6 @@
       }
     },
     {
-      "eventId": "CHA-83aaffb78689",
-      "title": "Detuvieron a un hombre por amenazas con armas de fuego en la Toma La Costa de El Chañar - Chañar Digital",
-      "publishedAt": "2026-10-20T22:34:30+00:00",
-      "firstSeen": "2026-10-31T16:15:44.628540+00:00",
-      "lastSeen": "2026-10-20T22:34:30+00:00",
-      "relevance": 3,
-      "relevanceLabel": "DIRECTA",
-      "incidenceLabel": "DIRECTA EN CHANAR",
-      "topic": "SERVICIOS",
-      "movement": 23,
-      "coverage": 5,
-      "sourceCount": 1,
-      "directSourceCount": 0,
-      "territorialAnchors": [
-        "el chañar",
-        "san patricio del chañar"
-      ],
-      "sources": [
-        "Chañar Digital"
-      ],
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPdlN6ZGFMY09CWUEwRnJWWTFEamZ3b3ZJeWZpM09MSjUyeFgxbzk5UGdfeHdaTmxLN041Y3NhblJZMlVJRHZ4TV96MmE3VGMwRnI0Tm9Sb2MtS29xaWcySDFTWnRuRlFoclRvUHh1SGtDeDI5d1hER2loTGFvTVVBcS1ZLXVVeEpYQTFOWW53d3B6UlV2bHlKVGoxUFhRSDljM181QXdCSmt0aVF1SF9sLTExMFdqSXR1Ml9wNHpvWUhsOEhVSHF0cDNwUjMzZlBMWjdSUjUyWDE?oc=5",
-      "items": [
-        {
-          "title": "Detuvieron a un hombre por amenazas con armas de fuego en la Toma La Costa de El Chañar - Chañar Digital",
-          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPdlN6ZGFMY09CWUEwRnJWWTFEamZ3b3ZJeWZpM09MSjUyeFgxbzk5UGdfeHdaTmxLN041Y3NhblJZMlVJRHZ4TV96MmE3VGMwRnI0Tm9Sb2MtS29xaWcySDFTWnRuRlFoclRvUHh1SGtDeDI5d1hER2loTGFvTVVBcS1ZLXVVeEpYQTFOWW53d3B6UlV2bHlKVGoxUFhRSDljM181QXdCSmt0aVF1SF9sLTExMFdqSXR1Ml9wNHpvWUhsOEhVSHF0cDNwUjMzZlBMWjdSUjUyWDE?oc=5",
-          "publishedAt": "2026-10-20T22:34:30+00:00",
-          "published": "2026-10-20T22:34:30+00:00",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMi2AFBVV95cUxPdlN6ZGFMY09CWUEwRnJWWTFEamZ3b3ZJeWZpM09MSjUyeFgxbzk5UGdfeHdaTmxLN041Y3NhblJZMlVJRHZ4TV96MmE3VGMwRnI0Tm9Sb2MtS29xaWcySDFTWnRuRlFoclRvUHh1SGtDeDI5d1hER2loTGFvTVVBcS1ZLXVVeEpYQTFOWW53d3B6UlV2bHlKVGoxUFhRSDljM181QXdCSmt0aVF1SF9sLTExMFdqSXR1Ml9wNHpvWUhsOEhVSHF0cDNwUjMzZlBMWjdSUjUyWDE?oc=5\" target=\"_blank\">Detuvieron a un hombre por amenazas con armas de fuego en la Toma La Costa de El Chañar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Chañar Digital</font>",
-          "source": "Chañar Digital",
-          "sourceType": "BUSCADOR / RESPALDO",
-          "sourceUrl": "",
-          "collection": "BUSCADOR",
-          "query": "site:chanardigital.com.ar \"San Patricio del Chañar\"",
-          "relevance": 3,
-          "relevanceLabel": "DIRECTA",
-          "firstSeen": "2026-10-31T16:15:44.628540+00:00",
-          "isNew": true,
-          "titleKey": "detuvieron hombre amenazas armas fuego toma costa digital",
-          "evidenceUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPdlN6ZGFMY09CWUEwRnJWWTFEamZ3b3ZJeWZpM09MSjUyeFgxbzk5UGdfeHdaTmxLN041Y3NhblJZMlVJRHZ4TV96MmE3VGMwRnI0Tm9Sb2MtS29xaWcySDFTWnRuRlFoclRvUHh1SGtDeDI5d1hER2loTGFvTVVBcS1ZLXVVeEpYQTFOWW53d3B6UlV2bHlKVGoxUFhRSDljM181QXdCSmt0aVF1SF9sLTExMFdqSXR1Ml9wNHpvWUhsOEhVSHF0cDNwUjMzZlBMWjdSUjUyWDE?oc=5",
-          "sourcePriority": 3
-        },
-        {
-          "title": "ATE exige una mesa de trabajo urgente al Municipio de San Patricio del Chañar - Chañar Digital",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPNEtheVlFSERIbHJqTlFnb2Fqd04zWmNoRndIcmltSkJDcnBBZjVwdU94ZmRNNE5iV1dUVXhRcEdBZ0RSVnJmai05V21RRG9RZkN4bFVYX1VnWkkxSm5jeTNPNG1EaTJPLVBlOGk1aUR5aFBqTm9YcTVTaTJ1LVFIcW93X0xUVmlDUnNUdTFsSmx0dW9TeVc2TTJLVW90NTc1MzR4aHFOdTZzdHdVUjB4cmlUckRlLVJ2V0hvNTNFejlROGJjVFBjd2tjRQ?oc=5",
-          "publishedAt": "2026-10-19T02:50:04+00:00",
-          "published": "2026-10-19T02:50:04+00:00",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMiywFBVV95cUxPNEtheVlFSERIbHJqTlFnb2Fqd04zWmNoRndIcmltSkJDcnBBZjVwdU94ZmRNNE5iV1dUVXhRcEdBZ0RSVnJmai05V21RRG9RZkN4bFVYX1VnWkkxSm5jeTNPNG1EaTJPLVBlOGk1aUR5aFBqTm9YcTVTaTJ1LVFIcW93X0xUVmlDUnNUdTFsSmx0dW9TeVc2TTJLVW90NTc1MzR4aHFOdTZzdHdVUjB4cmlUckRlLVJ2V0hvNTNFejlROGJjVFBjd2tjRQ?oc=5\" target=\"_blank\">ATE exige una mesa de trabajo urgente al Municipio de San Patricio del Chañar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Chañar Digital</font>",
-          "source": "Chañar Digital",
-          "sourceType": "BUSCADOR / RESPALDO",
-          "sourceUrl": "",
-          "collection": "BUSCADOR",
-          "query": "site:chanardigital.com.ar \"San Patricio del Chañar\"",
-          "relevance": 3,
-          "relevanceLabel": "DIRECTA",
-          "firstSeen": "2026-10-31T16:15:44.628540+00:00",
-          "isNew": true,
-          "titleKey": "ate exige mesa trabajo urgente digital",
-          "evidenceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPNEtheVlFSERIbHJqTlFnb2Fqd04zWmNoRndIcmltSkJDcnBBZjVwdU94ZmRNNE5iV1dUVXhRcEdBZ0RSVnJmai05V21RRG9RZkN4bFVYX1VnWkkxSm5jeTNPNG1EaTJPLVBlOGk1aUR5aFBqTm9YcTVTaTJ1LVFIcW93X0xUVmlDUnNUdTFsSmx0dW9TeVc2TTJLVW90NTc1MzR4aHFOdTZzdHdVUjB4cmlUckRlLVJ2V0hvNTNFejlROGJjVFBjd2tjRQ?oc=5",
-          "sourcePriority": 3
-        },
-        {
-          "title": "Detuvieron a un hombre por amenazas con armas de fuego en la Toma La Costa de El Chañar - Chañar Digital",
-          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPdlN6ZGFMY09CWUEwRnJWWTFEamZ3b3ZJeWZpM09MSjUyeFgxbzk5UGdfeHdaTmxLN041Y3NhblJZMlVJRHZ4TV96MmE3VGMwRnI0Tm9Sb2MtS29xaWcySDFTWnRuRlFoclRvUHh1SGtDeDI5d1hER2loTGFvTVVBcS1ZLXVVeEpYQTFOWW53d3B6UlV2bHlKVGoxUFhRSDljM181QXdCSmt0aVF1SF9sLTExMFdqSXR1Ml9wNHpvWUhsOEhVSHF0cDNwUjMzZlBMWjdSUjUyWDE?oc=5",
-          "publishedAt": "2026-10-20T22:34:30+00:00",
-          "published": "2026-10-20T22:34:30+00:00",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMi2AFBVV95cUxPdlN6ZGFMY09CWUEwRnJWWTFEamZ3b3ZJeWZpM09MSjUyeFgxbzk5UGdfeHdaTmxLN041Y3NhblJZMlVJRHZ4TV96MmE3VGMwRnI0Tm9Sb2MtS29xaWcySDFTWnRuRlFoclRvUHh1SGtDeDI5d1hER2loTGFvTVVBcS1ZLXVVeEpYQTFOWW53d3B6UlV2bHlKVGoxUFhRSDljM181QXdCSmt0aVF1SF9sLTExMFdqSXR1Ml9wNHpvWUhsOEhVSHF0cDNwUjMzZlBMWjdSUjUyWDE?oc=5\" target=\"_blank\">Detuvieron a un hombre por amenazas con armas de fuego en la Toma La Costa de El Chañar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Chañar Digital</font>",
-          "source": "Chañar Digital",
-          "sourceType": "BUSCADOR / RESPALDO",
-          "sourceUrl": "",
-          "collection": "BUSCADOR",
-          "query": "site:chanardigital.com.ar \"San Patricio del Chañar\"",
-          "relevance": 3,
-          "relevanceLabel": "DIRECTA",
-          "firstSeen": "2026-10-31T16:15:44.628540+00:00",
-          "isNew": false,
-          "titleKey": "detuvieron hombre amenazas armas fuego toma costa digital",
-          "evidenceUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPdlN6ZGFMY09CWUEwRnJWWTFEamZ3b3ZJeWZpM09MSjUyeFgxbzk5UGdfeHdaTmxLN041Y3NhblJZMlVJRHZ4TV96MmE3VGMwRnI0Tm9Sb2MtS29xaWcySDFTWnRuRlFoclRvUHh1SGtDeDI5d1hER2loTGFvTVVBcS1ZLXVVeEpYQTFOWW53d3B6UlV2bHlKVGoxUFhRSDljM181QXdCSmt0aVF1SF9sLTExMFdqSXR1Ml9wNHpvWUhsOEhVSHF0cDNwUjMzZlBMWjdSUjUyWDE?oc=5",
-          "sourcePriority": 3
-        },
-        {
-          "title": "Detuvieron a un hombre por amenazas con armas de fuego en la Toma La Costa de El Chañar - Chañar Digital",
-          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPdlN6ZGFMY09CWUEwRnJWWTFEamZ3b3ZJeWZpM09MSjUyeFgxbzk5UGdfeHdaTmxLN041Y3NhblJZMlVJRHZ4TV96MmE3VGMwRnI0Tm9Sb2MtS29xaWcySDFTWnRuRlFoclRvUHh1SGtDeDI5d1hER2loTGFvTVVBcS1ZLXVVeEpYQTFOWW53d3B6UlV2bHlKVGoxUFhRSDljM181QXdCSmt0aVF1SF9sLTExMFdqSXR1Ml9wNHpvWUhsOEhVSHF0cDNwUjMzZlBMWjdSUjUyWDE?oc=5",
-          "publishedAt": "2026-10-20T22:34:30+00:00",
-          "published": "2026-10-20T22:34:30+00:00",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMi2AFBVV95cUxPdlN6ZGFMY09CWUEwRnJWWTFEamZ3b3ZJeWZpM09MSjUyeFgxbzk5UGdfeHdaTmxLN041Y3NhblJZMlVJRHZ4TV96MmE3VGMwRnI0Tm9Sb2MtS29xaWcySDFTWnRuRlFoclRvUHh1SGtDeDI5d1hER2loTGFvTVVBcS1ZLXVVeEpYQTFOWW53d3B6UlV2bHlKVGoxUFhRSDljM181QXdCSmt0aVF1SF9sLTExMFdqSXR1Ml9wNHpvWUhsOEhVSHF0cDNwUjMzZlBMWjdSUjUyWDE?oc=5\" target=\"_blank\">Detuvieron a un hombre por amenazas con armas de fuego en la Toma La Costa de El Chañar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Chañar Digital</font>",
-          "source": "Chañar Digital",
-          "sourceType": "BUSCADOR / RESPALDO",
-          "sourceUrl": "",
-          "collection": "BUSCADOR",
-          "query": "site:chanardigital.com.ar \"San Patricio del Chañar\"",
-          "relevance": 3,
-          "relevanceLabel": "DIRECTA",
-          "firstSeen": "2026-10-31T16:15:44.628540+00:00",
-          "isNew": false,
-          "titleKey": "detuvieron hombre amenazas armas fuego toma costa digital",
-          "evidenceUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPdlN6ZGFMY09CWUEwRnJWWTFEamZ3b3ZJeWZpM09MSjUyeFgxbzk5UGdfeHdaTmxLN041Y3NhblJZMlVJRHZ4TV96MmE3VGMwRnI0Tm9Sb2MtS29xaWcySDFTWnRuRlFoclRvUHh1SGtDeDI5d1hER2loTGFvTVVBcS1ZLXVVeEpYQTFOWW53d3B6UlV2bHlKVGoxUFhRSDljM181QXdCSmt0aVF1SF9sLTExMFdqSXR1Ml9wNHpvWUhsOEhVSHF0cDNwUjMzZlBMWjdSUjUyWDE?oc=5",
-          "sourcePriority": 3
-        },
-        {
-          "title": "Detuvieron a un hombre por amenazas con armas de fuego en la Toma La Costa de El Chañar - Chañar Digital",
-          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPdlN6ZGFMY09CWUEwRnJWWTFEamZ3b3ZJeWZpM09MSjUyeFgxbzk5UGdfeHdaTmxLN041Y3NhblJZMlVJRHZ4TV96MmE3VGMwRnI0Tm9Sb2MtS29xaWcySDFTWnRuRlFoclRvUHh1SGtDeDI5d1hER2loTGFvTVVBcS1ZLXVVeEpYQTFOWW53d3B6UlV2bHlKVGoxUFhRSDljM181QXdCSmt0aVF1SF9sLTExMFdqSXR1Ml9wNHpvWUhsOEhVSHF0cDNwUjMzZlBMWjdSUjUyWDE?oc=5",
-          "publishedAt": "2026-10-20T22:34:30+00:00",
-          "published": "2026-10-20T22:34:30+00:00",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMi2AFBVV95cUxPdlN6ZGFMY09CWUEwRnJWWTFEamZ3b3ZJeWZpM09MSjUyeFgxbzk5UGdfeHdaTmxLN041Y3NhblJZMlVJRHZ4TV96MmE3VGMwRnI0Tm9Sb2MtS29xaWcySDFTWnRuRlFoclRvUHh1SGtDeDI5d1hER2loTGFvTVVBcS1ZLXVVeEpYQTFOWW53d3B6UlV2bHlKVGoxUFhRSDljM181QXdCSmt0aVF1SF9sLTExMFdqSXR1Ml9wNHpvWUhsOEhVSHF0cDNwUjMzZlBMWjdSUjUyWDE?oc=5\" target=\"_blank\">Detuvieron a un hombre por amenazas con armas de fuego en la Toma La Costa de El Chañar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Chañar Digital</font>",
-          "source": "Chañar Digital",
-          "sourceType": "BUSCADOR / RESPALDO",
-          "sourceUrl": "",
-          "collection": "BUSCADOR",
-          "query": "site:chanardigital.com.ar \"San Patricio del Chañar\"",
-          "relevance": 3,
-          "relevanceLabel": "DIRECTA",
-          "firstSeen": "2026-10-31T16:15:44.628540+00:00",
-          "isNew": false,
-          "titleKey": "detuvieron hombre amenazas armas fuego toma costa digital",
-          "evidenceUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPdlN6ZGFMY09CWUEwRnJWWTFEamZ3b3ZJeWZpM09MSjUyeFgxbzk5UGdfeHdaTmxLN041Y3NhblJZMlVJRHZ4TV96MmE3VGMwRnI0Tm9Sb2MtS29xaWcySDFTWnRuRlFoclRvUHh1SGtDeDI5d1hER2loTGFvTVVBcS1ZLXVVeEpYQTFOWW53d3B6UlV2bHlKVGoxUFhRSDljM181QXdCSmt0aVF1SF9sLTExMFdqSXR1Ml9wNHpvWUhsOEhVSHF0cDNwUjMzZlBMWjdSUjUyWDE?oc=5",
-          "sourcePriority": 3
-        }
-      ],
-      "lifecycle": "SIN NUEVA COBERTURA",
-      "movementDelta": 0,
-      "previousCoverage": 0,
-      "newSources": [
-        "Chañar Digital"
-      ],
-      "sourceDiversity": 1,
-      "memoryMatched": true,
-      "isNew": false,
-      "view": "INCIDENCIA",
-      "incidenceEligible": true,
-      "signalReason": "reservado a incidencia territorial",
-      "incidenceReason": "anclaje directo + tema operativo/local",
-      "territory": {
-        "version": "2.0",
-        "primary": "San Patricio del Chañar",
-        "nodes": [
-          "San Patricio del Chañar"
-        ],
-        "sectors": [],
-        "barrios": [],
-        "microzones": [],
-        "corridors": [],
-        "institutions": [],
-        "services": [],
-        "spaces": [],
-        "production": [],
-        "path": "San Patricio del Chañar",
-        "evidence": [
-          {
-            "node": "San Patricio del Chañar",
-            "level": "localidad",
-            "evidence": "DIRECTA"
-          }
-        ]
-      },
-      "sourceContinuity": "fuente conocida sin respuesta; no se infiere desaparición"
-    },
-    {
       "eventId": "CHA-7a71d56a0d12",
       "title": "Atlético Regina goleó a San Patricio del Chañar: los resultados de la tercera ronda del Regional Amateur - Diario Río Negro",
       "publishedAt": "2026-10-25T23:08:15+00:00",
@@ -4297,7 +4157,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "DEPORTE",
-      "movement": 21,
+      "movement": 19,
       "coverage": 1,
       "sourceCount": 1,
       "directSourceCount": 0,
@@ -4331,7 +4191,7 @@
         }
       ],
       "lifecycle": "RECIENTE",
-      "movementDelta": 5,
+      "movementDelta": 3,
       "previousCoverage": 1,
       "newSources": [
         "Diario Río Negro"
@@ -4495,15 +4355,15 @@
           "sourcePriority": 3
         }
       ],
-      "lifecycle": "ACTIVO",
+      "lifecycle": "SIN NUEVA COBERTURA",
       "movementDelta": 0,
       "previousCoverage": 0,
       "newSources": [
         "Chañar Digital"
       ],
       "sourceDiversity": 1,
-      "memoryMatched": false,
-      "isNew": true,
+      "memoryMatched": true,
+      "isNew": false,
       "view": "INCIDENCIA",
       "incidenceEligible": true,
       "signalReason": "reservado a incidencia territorial",
@@ -4530,7 +4390,8 @@
             "evidence": "DIRECTA"
           }
         ]
-      }
+      },
+      "sourceContinuity": "fuente conocida sin respuesta; no se infiere desaparición"
     },
     {
       "eventId": "CHA-8aa66f131026",
@@ -4834,7 +4695,7 @@
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "firstSeen": "2026-11-01T05:28:46.453823+00:00",
-      "isNew": true,
+      "isNew": false,
       "titleKey": "nueva muerte joven reabre debate prevencion suicidio digital",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPZF9iTVRkZjFkSkQyb1FIVmx2dTJPeDBkekprTW5qTTNKd0NteGx3R3lyNko4MDRvbVdadDdaVDRCaGgzRVM3a0p6YjFrQlhxa2F0UWJkbUM1aUZITmdQMzJPRGpUbFR5SXVvd3BxUTFTMzl3MXBjVTVfRFl0NWkyQUZXMFRqS0d0cUN1RmJ6bXRNZHF6Y1N6MG10Wi1yNFlDOHFEZHRfb2tCQWhXYzJmcnowRVdVcXFEQmp2XzlRUnhOdGdCMHhKTlAtUzIzMm5MN1NNcEVKR0l0YXY3eENfWFduYmc?oc=5",
       "sourcePriority": 3
@@ -5220,25 +5081,6 @@
       "sourcePriority": 3
     },
     {
-      "title": "Ramón Soto confirmó que será candidato a intendente de San Patricio del Chañar - Chañar Digital",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPR21XWHlNb1NFSE4yY043dGtQemI1NFNqZHZtYkRaekxFdWQ4X0V3TldiNjJmNjZPS2FKcHJnVVRVWDRVMzNCWlBMdEdCbzBMRk9hZXNFcWhSREhERXkxM1E3OUJFVXV2VktrN0tHSnZ1d2tkV19Kc2tSYmd5YUNkZ0tfVFI2RjNtNEs0ZHNHcDB5VGswNXBONnpraEZSdFVNdU1sNHNlX1U2RUcwTWU1V3lnY0tfMThqRGJfRkJSUzNicGZpQ21UcGVKcVo?oc=5",
-      "publishedAt": "2026-10-23T01:24:21+00:00",
-      "published": "2026-10-23T01:24:21+00:00",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMizAFBVV95cUxPR21XWHlNb1NFSE4yY043dGtQemI1NFNqZHZtYkRaekxFdWQ4X0V3TldiNjJmNjZPS2FKcHJnVVRVWDRVMzNCWlBMdEdCbzBMRk9hZXNFcWhSREhERXkxM1E3OUJFVXV2VktrN0tHSnZ1d2tkV19Kc2tSYmd5YUNkZ0tfVFI2RjNtNEs0ZHNHcDB5VGswNXBONnpraEZSdFVNdU1sNHNlX1U2RUcwTWU1V3lnY0tfMThqRGJfRkJSUzNicGZpQ21UcGVKcVo?oc=5\" target=\"_blank\">Ramón Soto confirmó que será candidato a intendente de San Patricio del Chañar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Chañar Digital</font>",
-      "source": "Chañar Digital",
-      "sourceType": "BUSCADOR / RESPALDO",
-      "sourceUrl": "",
-      "collection": "BUSCADOR",
-      "query": "site:chanardigital.com.ar \"San Patricio del Chañar\"",
-      "relevance": 3,
-      "relevanceLabel": "DIRECTA",
-      "firstSeen": "2026-10-31T16:15:44.628540+00:00",
-      "isNew": false,
-      "titleKey": "ramon soto confirmo sera candidato intendente digital",
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPR21XWHlNb1NFSE4yY043dGtQemI1NFNqZHZtYkRaekxFdWQ4X0V3TldiNjJmNjZPS2FKcHJnVVRVWDRVMzNCWlBMdEdCbzBMRk9hZXNFcWhSREhERXkxM1E3OUJFVXV2VktrN0tHSnZ1d2tkV19Kc2tSYmd5YUNkZ0tfVFI2RjNtNEs0ZHNHcDB5VGswNXBONnpraEZSdFVNdU1sNHNlX1U2RUcwTWU1V3lnY0tfMThqRGJfRkJSUzNicGZpQ21UcGVKcVo?oc=5",
-      "sourcePriority": 3
-    },
-    {
       "title": "Fuerte choque en la Ruta 7 cerca de San Patricio del Chañar: tres vehículos involucrados y demoras en el tránsito - Diario Neuquino",
       "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPdlZmTThheTJyUTBuamRoM3R6dkd5clFVdE1hWFo2TjdhSEFVNDgzUVRKMlpDWDRPTTZjNE9ob3NpcmpXeDItQ0xCNHRxU1FEeFktUzdYTzNEUDBvVlpsdmF6Rl94QnNianRLZGdpeDY4dkdzdzRsMGlxMFN3OGlBV3dlRG5mSFkzSE5iSzI4bDEwQVVMclRUNGxKRVJ4WEhrSzRDU3BNUHlRY1JEekN2Zjd6YmV2MkUzWW1YN3dyX2lJUllIWlNtZ1FwSFFnbkpsVGtIYzZCb3AyQjA?oc=5",
       "publishedAt": "2026-10-22T16:58:01+00:00",
@@ -5274,6 +5116,25 @@
       "isNew": false,
       "titleKey": "fuerte choque complico transito ruta cerca paso diario rio negro",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNNl9jYnNQajktaWdNbFdnQWFSMS1fZkVobzA4dnVPTklVMkhXYnJqcm1EN2NEUUxoRHhKbHJwb0lmd3JfX0FWcHdtSjJscElGaURSdXhzWWhXMzVOUF9QcG5Ka2dOU1ZYOGYxWm5zME8xbUxBR2pOaVNUbzluYUwzalNybW9pSVFzajVqaFp2emFvN2dQZ1Z6Rkxaa1I3OHR4MmZGRXB0ZW5Ba21SUVJqbGY1YkJrdDd3WkRnSEc0RG5JRktEMDR0LU5KMUlZUjVOc2fSAdoBQVVfeXFMTjZXVnE2OFoxc3ctQkQxWURaZUF4WEstcHNYZDdLZDJUMW1PQXpSUlV6Y3Yya29Lc19aTWNoei13QzF0bllYZG5NTHI1Z2YyT09xUmN3WkM5RHlRMktzemNOVWE5cUZvV1NyeGh5ZmpvTFRvVkd0SnRZZmhuZXJrcVFhdW9uYndvOUVxNmZ1TlowMXY2TXhtbEl5LWJsSGdNM09rcjBTeTh1WjhDLVd5OFdQemV3M3hGa1Y4WVhZQjBqV2FfS1VUTldZZXUwN3pzUUhfYkd2WXpnOUE?oc=5",
+      "sourcePriority": 3
+    },
+    {
+      "title": "Ramón Soto confirmó que será candidato a intendente de San Patricio del Chañar - Chañar Digital",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPR21XWHlNb1NFSE4yY043dGtQemI1NFNqZHZtYkRaekxFdWQ4X0V3TldiNjJmNjZPS2FKcHJnVVRVWDRVMzNCWlBMdEdCbzBMRk9hZXNFcWhSREhERXkxM1E3OUJFVXV2VktrN0tHSnZ1d2tkV19Kc2tSYmd5YUNkZ0tfVFI2RjNtNEs0ZHNHcDB5VGswNXBONnpraEZSdFVNdU1sNHNlX1U2RUcwTWU1V3lnY0tfMThqRGJfRkJSUzNicGZpQ21UcGVKcVo?oc=5",
+      "publishedAt": "2026-10-22T07:00:00+00:00",
+      "published": "2026-10-22T07:00:00+00:00",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMizAFBVV95cUxPR21XWHlNb1NFSE4yY043dGtQemI1NFNqZHZtYkRaekxFdWQ4X0V3TldiNjJmNjZPS2FKcHJnVVRVWDRVMzNCWlBMdEdCbzBMRk9hZXNFcWhSREhERXkxM1E3OUJFVXV2VktrN0tHSnZ1d2tkV19Kc2tSYmd5YUNkZ0tfVFI2RjNtNEs0ZHNHcDB5VGswNXBONnpraEZSdFVNdU1sNHNlX1U2RUcwTWU1V3lnY0tfMThqRGJfRkJSUzNicGZpQ21UcGVKcVo?oc=5\" target=\"_blank\">Ramón Soto confirmó que será candidato a intendente de San Patricio del Chañar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Chañar Digital</font>",
+      "source": "Chañar Digital",
+      "sourceType": "BUSCADOR / RESPALDO",
+      "sourceUrl": "",
+      "collection": "BUSCADOR",
+      "query": "site:chanardigital.com.ar \"San Patricio del Chañar\"",
+      "relevance": 3,
+      "relevanceLabel": "DIRECTA",
+      "firstSeen": "2026-10-31T16:15:44.628540+00:00",
+      "isNew": false,
+      "titleKey": "ramon soto confirmo sera candidato intendente digital",
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPR21XWHlNb1NFSE4yY043dGtQemI1NFNqZHZtYkRaekxFdWQ4X0V3TldiNjJmNjZPS2FKcHJnVVRVWDRVMzNCWlBMdEdCbzBMRk9hZXNFcWhSREhERXkxM1E3OUJFVXV2VktrN0tHSnZ1d2tkV19Kc2tSYmd5YUNkZ0tfVFI2RjNtNEs0ZHNHcDB5VGswNXBONnpraEZSdFVNdU1sNHNlX1U2RUcwTWU1V3lnY0tfMThqRGJfRkJSUzNicGZpQ21UcGVKcVo?oc=5",
       "sourcePriority": 3
     },
     {
@@ -5351,30 +5212,11 @@
       "titleKey": "despues años esfuerzo bomberos inauguran cuartel noticiasnqn",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOZG9wSEhidWJ4NmlHVFhVYlRDMHJTdlNRTktETHo1V2FfdEtJSjF2TEV5Ukw1dExoeTJSczlmT1dHc2JDakZaXzRZOWZxUUREZHVXM2YtcHdTVk5oVGxaM0dCWVNMUVlpbWMwX2NGWnNIZFdOUkFyamE5LWlEWnk5ZFZJQVNSSldDVXVjbmlfalRuOXlkRy1aVk9PV2t5SmlDZ1JSYlIxUnltZmtoQ19HcDZKdFpHd2NjOGVPaFFGYmY0QlYtRmUyb2NGRTBmbzJFclpER0RzR1p3VXBJVDFZ0gHkAUFVX3lxTE41Y2dsR2R6Qkxua19WNGN2X054R1NwSjQyVDZsWFJHRXM5U05PcFVzZ0hsOVZoTU5GLU41b2luRU5mek5kb0JrOTE4R21SZGpuaXZJemxSdUNjeG82cFdwUFB2NGplS0E3cXRSb0F3ZW9wTTBFY3I1NVNhX1lVZXhIbjF5SzZtZC1hX2pjcld1V1VWX2JiRUo2dHN2UzZvUXAxVC1SVnhXMnRqcHdveEZTXzB5Wk5RZXNLYkdOS3hEaXJ5czllc1FoRUl2VUk4SGg2aDdoWTM3LXhpV3NzUUcxdG1zSQ?oc=5",
       "sourcePriority": 3
-    },
-    {
-      "title": "ATE exige una mesa de trabajo urgente al Municipio de San Patricio del Chañar - Chañar Digital",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPNEtheVlFSERIbHJqTlFnb2Fqd04zWmNoRndIcmltSkJDcnBBZjVwdU94ZmRNNE5iV1dUVXhRcEdBZ0RSVnJmai05V21RRG9RZkN4bFVYX1VnWkkxSm5jeTNPNG1EaTJPLVBlOGk1aUR5aFBqTm9YcTVTaTJ1LVFIcW93X0xUVmlDUnNUdTFsSmx0dW9TeVc2TTJLVW90NTc1MzR4aHFOdTZzdHdVUjB4cmlUckRlLVJ2V0hvNTNFejlROGJjVFBjd2tjRQ?oc=5",
-      "publishedAt": "2026-10-18T07:00:00+00:00",
-      "published": "2026-10-18T07:00:00+00:00",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMiywFBVV95cUxPNEtheVlFSERIbHJqTlFnb2Fqd04zWmNoRndIcmltSkJDcnBBZjVwdU94ZmRNNE5iV1dUVXhRcEdBZ0RSVnJmai05V21RRG9RZkN4bFVYX1VnWkkxSm5jeTNPNG1EaTJPLVBlOGk1aUR5aFBqTm9YcTVTaTJ1LVFIcW93X0xUVmlDUnNUdTFsSmx0dW9TeVc2TTJLVW90NTc1MzR4aHFOdTZzdHdVUjB4cmlUckRlLVJ2V0hvNTNFejlROGJjVFBjd2tjRQ?oc=5\" target=\"_blank\">ATE exige una mesa de trabajo urgente al Municipio de San Patricio del Chañar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Chañar Digital</font>",
-      "source": "Chañar Digital",
-      "sourceType": "BUSCADOR / RESPALDO",
-      "sourceUrl": "",
-      "collection": "BUSCADOR",
-      "query": "site:chanardigital.com.ar \"San Patricio del Chañar\"",
-      "relevance": 3,
-      "relevanceLabel": "DIRECTA",
-      "firstSeen": "2026-10-31T16:15:44.628540+00:00",
-      "isNew": false,
-      "titleKey": "ate exige mesa trabajo urgente digital",
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPNEtheVlFSERIbHJqTlFnb2Fqd04zWmNoRndIcmltSkJDcnBBZjVwdU94ZmRNNE5iV1dUVXhRcEdBZ0RSVnJmai05V21RRG9RZkN4bFVYX1VnWkkxSm5jeTNPNG1EaTJPLVBlOGk1aUR5aFBqTm9YcTVTaTJ1LVFIcW93X0xUVmlDUnNUdTFsSmx0dW9TeVc2TTJLVW90NTc1MzR4aHFOdTZzdHdVUjB4cmlUckRlLVJ2V0hvNTNFejlROGJjVFBjd2tjRQ?oc=5",
-      "sourcePriority": 3
     }
   ],
   "territorialGraph": {
     "version": "2.0",
-    "generatedAt": "2026-11-01T05:28:57.808892+00:00",
+    "generatedAt": "2026-11-01T11:59:41.291401+00:00",
     "root": "spc",
     "rule": "evidence-first",
     "levels": [
@@ -5401,7 +5243,7 @@
           "el chañar",
           "el chanar"
         ],
-        "eventCount": 12
+        "eventCount": 11
       },
       {
         "id": "rio-neuquen",
@@ -6011,16 +5853,16 @@
   },
   "audit": {
     "version": "1.0",
-    "updatedAt": "2026-11-01T05:28:57.840551+00:00",
+    "updatedAt": "2026-11-01T11:59:41.334928+00:00",
     "rule": "fact != coverage; territory requires textual evidence",
-    "facts": 12,
-    "coverage": 41,
-    "coveragePerFact": 3.42,
-    "directAnchorFacts": 12,
+    "facts": 11,
+    "coverage": 37,
+    "coveragePerFact": 3.36,
+    "directAnchorFacts": 11,
     "directAnchorPct": 100.0,
     "territorySpecificFacts": 3,
-    "territorySpecificPct": 25.0,
-    "averageSourcesPerFact": 2.42,
+    "territorySpecificPct": 27.3,
+    "averageSourcesPerFact": 2.55,
     "activeTerritorialNodes": 5,
     "failedSources": 10,
     "acceptedWithoutLocalEvidence": 1,
