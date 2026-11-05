@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T07:14:47.387947+00:00",
+  "updatedAt": "2026-11-05T15:43:31.441991+00:00",
   "window": "14 días",
   "purpose": "Detectar qué se está moviendo en San Patricio del Chañar y mostrar de dónde surge cada señal.",
   "architecture": "contrato universal de procedencia + fuentes profesionales + adaptadores específicos + validación semántica + temporalidad + evidencia editorial separada",
@@ -49,7 +49,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://chanardigital.com.ar/",
-      "lastFetch": "2026-11-05T07:14:28.216727+00:00",
+      "lastFetch": "2026-11-05T15:43:06.712778+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -65,7 +65,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.radiomia.com.ar/",
-      "lastFetch": "2026-11-05T07:14:29.298511+00:00",
+      "lastFetch": "2026-11-05T15:43:08.528521+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -80,7 +80,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://tuitvacamuerta.com/",
-      "lastFetch": "2026-11-05T07:14:31.387782+00:00",
+      "lastFetch": "2026-11-05T15:43:10.306157+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -95,7 +95,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.vacamuertanews.com/",
-      "lastFetch": "2026-11-05T07:14:31.678493+00:00",
+      "lastFetch": "2026-11-05T15:43:10.951835+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -111,7 +111,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.neuqueninforma.gob.ar/",
-      "lastFetch": "2026-11-05T07:14:32.876501+00:00",
+      "lastFetch": "2026-11-05T15:43:12.521780+00:00",
       "success": false,
       "attempted": 3,
       "failures": [
@@ -128,7 +128,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://sanpatricio.gob.ar/",
-      "lastFetch": "2026-11-05T07:14:33.817441+00:00",
+      "lastFetch": "2026-11-05T15:43:13.370855+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -143,7 +143,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://boletinoficial.neuquen.gov.ar/",
-      "lastFetch": "2026-11-05T07:14:34.713837+00:00",
+      "lastFetch": "2026-11-05T15:43:14.342466+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -158,7 +158,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.lmneuquen.com/",
-      "lastFetch": "2026-11-05T07:14:34.944145+00:00",
+      "lastFetch": "2026-11-05T15:43:14.494203+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -174,7 +174,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.rionegro.com.ar/",
-      "lastFetch": "2026-11-05T07:14:35.341463+00:00",
+      "lastFetch": "2026-11-05T15:43:16.883956+00:00",
       "success": true,
       "attempted": 2,
       "failures": [
@@ -189,7 +189,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.mejorinformado.com/",
-      "lastFetch": "2026-11-05T07:14:35.999329+00:00",
+      "lastFetch": "2026-11-05T15:43:17.456594+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -205,7 +205,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.diariamenteneuquen.com/",
-      "lastFetch": "2026-11-05T07:14:36.758337+00:00",
+      "lastFetch": "2026-11-05T15:43:18.390355+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -718,11 +718,6 @@
       "direct": 23
     },
     {
-      "term": "parque industrial",
-      "hits": 1,
-      "direct": 1
-    },
-    {
       "term": "bodega familia schroeder",
       "hits": 1,
       "direct": 1
@@ -814,6 +809,11 @@
     },
     {
       "term": "picada 1",
+      "hits": 0,
+      "direct": 0
+    },
+    {
+      "term": "parque industrial",
       "hits": 0,
       "direct": 0
     },
@@ -1129,8 +1129,8 @@
         "source": "Lmneuquen.com",
         "group": "OBSERVADA",
         "role": "fuente detectada fuera del catálogo",
-        "accepted": 4,
-        "direct": 4,
+        "accepted": 3,
+        "direct": 3,
         "anchored": 0,
         "falsePositives": 0,
         "falsePositiveTypes": [],
@@ -1427,7 +1427,7 @@
         ]
       },
       {
-        "source": "Lmneuquen.com",
+        "source": "NoticiasNQN",
         "topic": "SERVICIOS",
         "accepted": 3,
         "direct": 3,
@@ -1435,15 +1435,14 @@
         "falsePositives": 0,
         "territorialTerms": [
           "san patricio del chañar",
-          "el chañar",
-          "parque industrial"
+          "el chañar"
         ]
       },
       {
-        "source": "NoticiasNQN",
+        "source": "Lmneuquen.com",
         "topic": "SERVICIOS",
-        "accepted": 3,
-        "direct": 3,
+        "accepted": 2,
+        "direct": 2,
         "anchored": 0,
         "falsePositives": 0,
         "territorialTerms": [
@@ -1752,8 +1751,8 @@
       },
       {
         "term": "parque industrial",
-        "acceptedHits": 1,
-        "directHits": 1,
+        "acceptedHits": 0,
+        "directHits": 0,
         "rejectedTitleHits": 0,
         "territorialStrength": "FUERTE"
       },
@@ -1987,8 +1986,8 @@
     "interpretation": "auditoría sobre eventos aceptados; la próxima capa debe instrumentar rechazos antes del clustering"
   },
   "stats": {
-    "total": 28,
-    "direct": 28,
+    "total": 27,
+    "direct": 27,
     "regional": 0,
     "new": 2,
     "sources": 15,
@@ -2001,11 +2000,11 @@
   "environment": {
     "weather": {
       "dataType": "forecast",
-      "forecastWindKmh": 42.0,
-      "forecastGustKmh": 20.0,
+      "forecastWindKmh": 27.0,
+      "forecastGustKmh": 44.0,
       "forecastWindDirection": "SO",
-      "forecastTemperatureC": 24.0,
-      "retrievedAt": "2026-11-05T07:14:26.290809+00:00",
+      "forecastTemperatureC": 25.0,
+      "retrievedAt": "2026-11-05T15:43:04.236285+00:00",
       "source": "AIC",
       "sourceTier": "primary",
       "sourceUrl": "https://www.aic.gob.ar/sitio/home?a=1015&z=1967225803",
@@ -2035,7 +2034,7 @@
       "currentProgrammedMinM3s": 400,
       "programDate": "2026-11-06",
       "tableDate": "2026-11-05",
-      "retrievedAt": "2026-11-05T07:14:26.290809+00:00",
+      "retrievedAt": "2026-11-05T15:43:04.236285+00:00",
       "source": "AIC",
       "sourceTier": "primary",
       "sourceUrl": "https://www.aic.gob.ar/sitio/caudales",
@@ -2055,17 +2054,17 @@
         "url": "https://www.aic.gob.ar/sitio/caudales"
       }
     ],
-    "updatedAt": "2026-11-05T07:14:26.290809+00:00"
+    "updatedAt": "2026-11-05T15:43:04.236285+00:00"
   },
   "operational": {
-    "updatedAt": "2026-11-05T07:14:26.290809+00:00",
+    "updatedAt": "2026-11-05T15:43:04.236285+00:00",
     "route7": {
       "source": "Dirección Provincial de Vialidad",
       "sourceTier": "primary",
       "sourceUrl": "https://www.dpvneuquen.gov.ar/",
       "semanticState": null,
       "publicationState": "source_reachable_no_current_machine_readable_state",
-      "retrievedAt": "2026-11-05T07:14:26.290809+00:00",
+      "retrievedAt": "2026-11-05T15:43:04.236285+00:00",
       "evidence": {
         "route7Mention": true,
         "route8Mention": false
@@ -2077,7 +2076,7 @@
       "sourceUrl": "https://www.dpvneuquen.gov.ar/",
       "semanticState": null,
       "publicationState": "source_reachable_no_current_machine_readable_state",
-      "retrievedAt": "2026-11-05T07:14:26.290809+00:00",
+      "retrievedAt": "2026-11-05T15:43:04.236285+00:00",
       "evidence": {
         "route7Mention": true,
         "route8Mention": false
@@ -2091,7 +2090,7 @@
       "eventType": null,
       "detail": null,
       "publicationState": "source_reachable_no_specific_local_notice",
-      "retrievedAt": "2026-11-05T07:14:26.290809+00:00"
+      "retrievedAt": "2026-11-05T15:43:04.236285+00:00"
     },
     "water": {
       "source": "EPAS",
@@ -2101,7 +2100,7 @@
       "eventType": null,
       "detail": null,
       "publicationState": "source_reachable_no_specific_local_notice",
-      "retrievedAt": "2026-11-05T07:14:26.290809+00:00"
+      "retrievedAt": "2026-11-05T15:43:04.236285+00:00"
     },
     "sources": [
       {
@@ -2511,11 +2510,11 @@
     {
       "id": "CONVERSACIÓN",
       "label": "Conversación general",
-      "signal": 11,
+      "signal": 10,
       "status": "cobertura editorial",
-      "freshnessHours": 29.6,
+      "freshnessHours": 38.0,
       "mode": "evidencia editorial",
-      "evidenceCount": 11,
+      "evidenceCount": 10,
       "sourceContract": {
         "primary": "medios locales identificables",
         "secondary": "fuentes institucionales competentes",
@@ -2593,7 +2592,7 @@
         "sourceUrl": "https://www.dpvneuquen.gov.ar/",
         "semanticState": null,
         "publicationState": "source_reachable_no_current_machine_readable_state",
-        "retrievedAt": "2026-11-05T07:14:26.290809+00:00",
+        "retrievedAt": "2026-11-05T15:43:04.236285+00:00",
         "evidence": {
           "route7Mention": true,
           "route8Mention": false
@@ -2645,7 +2644,7 @@
         "sourceUrl": "https://www.dpvneuquen.gov.ar/",
         "semanticState": null,
         "publicationState": "source_reachable_no_current_machine_readable_state",
-        "retrievedAt": "2026-11-05T07:14:26.290809+00:00",
+        "retrievedAt": "2026-11-05T15:43:04.236285+00:00",
         "evidence": {
           "route7Mention": true,
           "route8Mention": false
@@ -2655,7 +2654,7 @@
     {
       "id": "VIENTO",
       "label": "Condición de viento",
-      "signal": 42.0,
+      "signal": 27.0,
       "status": "pronóstico local",
       "freshnessHours": null,
       "mode": "DATO DIRECTO",
@@ -2745,7 +2744,7 @@
         "eventType": null,
         "detail": null,
         "publicationState": "source_reachable_no_specific_local_notice",
-        "retrievedAt": "2026-11-05T07:14:26.290809+00:00"
+        "retrievedAt": "2026-11-05T15:43:04.236285+00:00"
       }
     },
     {
@@ -2795,7 +2794,7 @@
         "eventType": null,
         "detail": null,
         "publicationState": "source_reachable_no_specific_local_notice",
-        "retrievedAt": "2026-11-05T07:14:26.290809+00:00"
+        "retrievedAt": "2026-11-05T15:43:04.236285+00:00"
       }
     },
     {
@@ -2803,7 +2802,7 @@
       "label": "Servicios e infraestructura",
       "signal": 1,
       "status": "evidencia de servicio",
-      "freshnessHours": 207.9,
+      "freshnessHours": 216.4,
       "mode": "evidencia editorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -2883,7 +2882,7 @@
       "label": "Educación",
       "signal": 1,
       "status": "evidencia educativa",
-      "freshnessHours": 944.2,
+      "freshnessHours": 952.7,
       "mode": "evidencia editorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -2923,7 +2922,7 @@
       "label": "Producción rural",
       "signal": 1,
       "status": "evidencia productiva",
-      "freshnessHours": 302.7,
+      "freshnessHours": 311.1,
       "mode": "evidencia editorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -2963,7 +2962,7 @@
       "label": "Seguridad / emergencias",
       "signal": 1,
       "status": "cobertura de emergencia",
-      "freshnessHours": 29.7,
+      "freshnessHours": 38.2,
       "mode": "evidencia editorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -3001,11 +3000,11 @@
     {
       "id": "TERRITORIO",
       "label": "Territorio / microzonas",
-      "signal": 1,
+      "signal": 0,
       "status": "hecho territorial",
-      "freshnessHours": 153.2,
+      "freshnessHours": null,
       "mode": "evidencia territorial",
-      "evidenceCount": 1,
+      "evidenceCount": 0,
       "sourceContract": {
         "primary": "Municipalidad de San Patricio del Chañar",
         "secondary": "organismo provincial competente según fenómeno",
@@ -3060,7 +3059,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://chanardigital.com.ar/",
-        "lastFetch": "2026-11-05T07:14:28.216727+00:00",
+        "lastFetch": "2026-11-05T15:43:06.712778+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3076,7 +3075,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.radiomia.com.ar/",
-        "lastFetch": "2026-11-05T07:14:29.298511+00:00",
+        "lastFetch": "2026-11-05T15:43:08.528521+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -3091,7 +3090,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://tuitvacamuerta.com/",
-        "lastFetch": "2026-11-05T07:14:31.387782+00:00",
+        "lastFetch": "2026-11-05T15:43:10.306157+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -3106,7 +3105,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.vacamuertanews.com/",
-        "lastFetch": "2026-11-05T07:14:31.678493+00:00",
+        "lastFetch": "2026-11-05T15:43:10.951835+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3122,7 +3121,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.neuqueninforma.gob.ar/",
-        "lastFetch": "2026-11-05T07:14:32.876501+00:00",
+        "lastFetch": "2026-11-05T15:43:12.521780+00:00",
         "success": false,
         "attempted": 3,
         "failures": [
@@ -3139,7 +3138,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://sanpatricio.gob.ar/",
-        "lastFetch": "2026-11-05T07:14:33.817441+00:00",
+        "lastFetch": "2026-11-05T15:43:13.370855+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -3154,7 +3153,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://boletinoficial.neuquen.gov.ar/",
-        "lastFetch": "2026-11-05T07:14:34.713837+00:00",
+        "lastFetch": "2026-11-05T15:43:14.342466+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -3169,7 +3168,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.lmneuquen.com/",
-        "lastFetch": "2026-11-05T07:14:34.944145+00:00",
+        "lastFetch": "2026-11-05T15:43:14.494203+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3185,7 +3184,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.rionegro.com.ar/",
-        "lastFetch": "2026-11-05T07:14:35.341463+00:00",
+        "lastFetch": "2026-11-05T15:43:16.883956+00:00",
         "success": true,
         "attempted": 2,
         "failures": [
@@ -3200,7 +3199,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.mejorinformado.com/",
-        "lastFetch": "2026-11-05T07:14:35.999329+00:00",
+        "lastFetch": "2026-11-05T15:43:17.456594+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3216,7 +3215,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.diariamenteneuquen.com/",
-        "lastFetch": "2026-11-05T07:14:36.758337+00:00",
+        "lastFetch": "2026-11-05T15:43:18.390355+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3237,13 +3236,13 @@
       "eventId": "CHA-83aaffb78689",
       "title": "San Patricio del Chañar: clausuraron un boliche, aprehendieron a un motociclista y secuestraron tres motos - portadadigital.com.ar",
       "publishedAt": "2026-11-04T01:41:15+00:00",
-      "firstSeen": "2026-11-02T01:23:58.390470+00:00",
+      "firstSeen": "2026-11-02T08:06:37.476076+00:00",
       "lastSeen": "2026-11-04T01:41:15+00:00",
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SERVICIOS",
-      "movement": 82,
+      "movement": 80,
       "coverage": 12,
       "sourceCount": 8,
       "directSourceCount": 0,
@@ -3277,7 +3276,7 @@
           "relevance": 3,
           "relevanceLabel": "DIRECTA",
           "firstSeen": "2026-11-05T07:14:47.387947+00:00",
-          "isNew": true,
+          "isNew": false,
           "titleKey": "clausuraron boliche aprehendieron motociclista secuestraron tres motos portadadigital com",
           "evidenceUrl": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQTkVLRGlmZHpUaFJld2xjRmZKeldXR2dYcUR5RVlwTUFWcmcxYmN5cWdIWEZuVU9fdnB5WDVPOS16eXFmbnd0Y2RwVHc3enlxMXhkSnlPNlg0MGdETjNvblBQdE1NTGMzR3RGSEVRcU9GcVl2T2hJeDJsVW05MDJKZ0pKRWtQZ3Q1X1ZTNTBWNnRSOHFNeF96QnM1TWNHdVdNN1oyVlUwWElkVVlIN1ZTcDBzYkJFVHVqWFE3THNxcTQ1Qi1MSW1qWnNXTWo2bFpuclRkcHlpRHlLS2pEQng3OUlKM0JJanl5?oc=5",
           "sourcePriority": 3
@@ -3322,29 +3321,29 @@
         },
         {
           "title": "Un boliche clausurado, un hombre aprehendido y tres motos secuestradas en San Patricio del Chañar - NoticiasNQN",
-          "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNRTZYQTZqd3V4UW1Vd3dGeVB4bk9pWVlPN3pKeGZHeGhVdDZJSTdLZWhwQmlCUnI0bEVSbV9yc0NMaTRLd2p2WloyQk9za3R3bmtMQzNNUTZGSjZNcE9Ba0Z3dndKbXlHLTZjYnl3QzhuNVBnc2QtUU8yUC14eDhCM3lrU2ZqLTJpLXN4d1FIY045SkJTWHJaaHp1ZHJZU2tHcllidjIwNVptTVdtYkpxV0FsTUs2TEllUEVQTHhfVFJ3dEx2RmczSE00U2ZhVS1DZlh6UnRoelBHb1Jldy1kUFYxOEpEOXFxSmJxRTd6b9IB7wFBVV95cUxNRTZYQTZqd3V4UW1Vd3dGeVB4bk9pWVlPN3pKeGZHeGhVdDZJSTdLZWhwQmlCUnI0bEVSbV9yc0NMaTRLd2p2WloyQk9za3R3bmtMQzNNUTZGSjZNcE9Ba0Z3dndKbXlHLTZjYnl3QzhuNVBnc2QtUU8yUC14eDhCM3lrU2ZqLTJpLXN4d1FIY045SkJTWHJaaHp1ZHJZU2tHcllidjIwNVptTVdtYkpxV0FsTUs2TEllUEVQTHhfVFJ3dEx2RmczSE00U2ZhVS1DZlh6UnRoelBHb1Jldy1kUFYxOEpEOXFxSmJxRTd6bw?oc=5",
-          "publishedAt": "2026-11-01T17:07:37+00:00",
-          "published": "2026-11-01T17:07:37+00:00",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMi7wFBVV95cUxNRTZYQTZqd3V4UW1Vd3dGeVB4bk9pWVlPN3pKeGZHeGhVdDZJSTdLZWhwQmlCUnI0bEVSbV9yc0NMaTRLd2p2WloyQk9za3R3bmtMQzNNUTZGSjZNcE9Ba0Z3dndKbXlHLTZjYnl3QzhuNVBnc2QtUU8yUC14eDhCM3lrU2ZqLTJpLXN4d1FIY045SkJTWHJaaHp1ZHJZU2tHcllidjIwNVptTVdtYkpxV0FsTUs2TEllUEVQTHhfVFJ3dEx2RmczSE00U2ZhVS1DZlh6UnRoelBHb1Jldy1kUFYxOEpEOXFxSmJxRTd6b9IB7wFBVV95cUxNRTZYQTZqd3V4UW1Vd3dGeVB4bk9pWVlPN3pKeGZHeGhVdDZJSTdLZWhwQmlCUnI0bEVSbV9yc0NMaTRLd2p2WloyQk9za3R3bmtMQzNNUTZGSjZNcE9Ba0Z3dndKbXlHLTZjYnl3QzhuNVBnc2QtUU8yUC14eDhCM3lrU2ZqLTJpLXN4d1FIY045SkJTWHJaaHp1ZHJZU2tHcllidjIwNVptTVdtYkpxV0FsTUs2TEllUEVQTHhfVFJ3dEx2RmczSE00U2ZhVS1DZlh6UnRoelBHb1Jldy1kUFYxOEpEOXFxSmJxRTd6bw?oc=5\" target=\"_blank\">Un boliche clausurado, un hombre aprehendido y tres motos secuestradas en San Patricio del Chañar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NoticiasNQN</font>",
+          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPYURkUlQyQi0yRjJ4REFDV0N1M0h2SjFXMGdTbmRFSWRpUVk5dHdoWi1abHBBZlJPeUMxS3VVbldpZk1YVnRzaUV4YnNia25KSk42X1REOXc2Zlg2QXRDczJXN2I3N25yYV9Vb2pZVTEzaFF0RUVEZ0h5dkczRVpOZVJkYWVRMVQxX1Itd2VQTmVyRWJvRkdGcnYxMGg0cWtUU0NaT3RtMFl3R3RIdkYtR3NMX3BPa1o4Xy1jMWxRYkFuc3M1STVNVDVmUXo0UENCM3h0ZkJnaGZEbFIyR2FfejhoR0swVzVoRlHSAe8BQVVfeXFMTUU2WEE2and1eFFtVXd3RnlQeG5PaVlZTzd6SnhmR3hoVXQ2SUk3S2VocEJpQlJyNGxFUm1fcnNDTGk0S3dqdlpaMkJPc2t0d25rTEMzTVE2Rko2TXBPQWtGd3Z3Sm15Ry02Y2J5d0M4bjVQZ3NkLVFPMlAteHg4QjN5a1Nmai0yaS1zeHdRSGNOOUpCU1hyWmh6dWRyWVNrR3JZYnYyMDVabU1XbWJKcVdBbE1LNkxJZVBFUEx4X1RSd3RMdkZnM0hNNFNmYVUtQ2ZYelJ0aHpQR29SZXctZFBWMThKRDlxcUpicUU3em8?oc=5",
+          "publishedAt": "2026-11-01T17:06:45+00:00",
+          "published": "2026-11-01T17:06:45+00:00",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMi6gFBVV95cUxPYURkUlQyQi0yRjJ4REFDV0N1M0h2SjFXMGdTbmRFSWRpUVk5dHdoWi1abHBBZlJPeUMxS3VVbldpZk1YVnRzaUV4YnNia25KSk42X1REOXc2Zlg2QXRDczJXN2I3N25yYV9Vb2pZVTEzaFF0RUVEZ0h5dkczRVpOZVJkYWVRMVQxX1Itd2VQTmVyRWJvRkdGcnYxMGg0cWtUU0NaT3RtMFl3R3RIdkYtR3NMX3BPa1o4Xy1jMWxRYkFuc3M1STVNVDVmUXo0UENCM3h0ZkJnaGZEbFIyR2FfejhoR0swVzVoRlHSAe8BQVVfeXFMTUU2WEE2and1eFFtVXd3RnlQeG5PaVlZTzd6SnhmR3hoVXQ2SUk3S2VocEJpQlJyNGxFUm1fcnNDTGk0S3dqdlpaMkJPc2t0d25rTEMzTVE2Rko2TXBPQWtGd3Z3Sm15Ry02Y2J5d0M4bjVQZ3NkLVFPMlAteHg4QjN5a1Nmai0yaS1zeHdRSGNOOUpCU1hyWmh6dWRyWVNrR3JZYnYyMDVabU1XbWJKcVdBbE1LNkxJZVBFUEx4X1RSd3RMdkZnM0hNNFNmYVUtQ2ZYelJ0aHpQR29SZXctZFBWMThKRDlxcUpicUU3em8?oc=5\" target=\"_blank\">Un boliche clausurado, un hombre aprehendido y tres motos secuestradas en San Patricio del Chañar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NoticiasNQN</font>",
           "source": "NoticiasNQN",
           "sourceType": "BUSCADOR / RESPALDO",
           "sourceUrl": "",
           "collection": "BUSCADOR",
-          "query": "\"San Patricio del Chañar\" tránsito transporte ruta",
+          "query": "\"San Patricio del Chañar\"",
           "relevance": 3,
           "relevanceLabel": "DIRECTA",
-          "firstSeen": "2026-11-02T01:23:58.390470+00:00",
-          "isNew": false,
+          "firstSeen": "2026-11-05T15:43:31.441991+00:00",
+          "isNew": true,
           "titleKey": "boliche clausurado hombre aprehendido tres motos secuestradas noticiasnqn",
-          "evidenceUrl": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNRTZYQTZqd3V4UW1Vd3dGeVB4bk9pWVlPN3pKeGZHeGhVdDZJSTdLZWhwQmlCUnI0bEVSbV9yc0NMaTRLd2p2WloyQk9za3R3bmtMQzNNUTZGSjZNcE9Ba0Z3dndKbXlHLTZjYnl3QzhuNVBnc2QtUU8yUC14eDhCM3lrU2ZqLTJpLXN4d1FIY045SkJTWHJaaHp1ZHJZU2tHcllidjIwNVptTVdtYkpxV0FsTUs2TEllUEVQTHhfVFJ3dEx2RmczSE00U2ZhVS1DZlh6UnRoelBHb1Jldy1kUFYxOEpEOXFxSmJxRTd6b9IB7wFBVV95cUxNRTZYQTZqd3V4UW1Vd3dGeVB4bk9pWVlPN3pKeGZHeGhVdDZJSTdLZWhwQmlCUnI0bEVSbV9yc0NMaTRLd2p2WloyQk9za3R3bmtMQzNNUTZGSjZNcE9Ba0Z3dndKbXlHLTZjYnl3QzhuNVBnc2QtUU8yUC14eDhCM3lrU2ZqLTJpLXN4d1FIY045SkJTWHJaaHp1ZHJZU2tHcllidjIwNVptTVdtYkpxV0FsTUs2TEllUEVQTHhfVFJ3dEx2RmczSE00U2ZhVS1DZlh6UnRoelBHb1Jldy1kUFYxOEpEOXFxSmJxRTd6bw?oc=5",
+          "evidenceUrl": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPYURkUlQyQi0yRjJ4REFDV0N1M0h2SjFXMGdTbmRFSWRpUVk5dHdoWi1abHBBZlJPeUMxS3VVbldpZk1YVnRzaUV4YnNia25KSk42X1REOXc2Zlg2QXRDczJXN2I3N25yYV9Vb2pZVTEzaFF0RUVEZ0h5dkczRVpOZVJkYWVRMVQxX1Itd2VQTmVyRWJvRkdGcnYxMGg0cWtUU0NaT3RtMFl3R3RIdkYtR3NMX3BPa1o4Xy1jMWxRYkFuc3M1STVNVDVmUXo0UENCM3h0ZkJnaGZEbFIyR2FfejhoR0swVzVoRlHSAe8BQVVfeXFMTUU2WEE2and1eFFtVXd3RnlQeG5PaVlZTzd6SnhmR3hoVXQ2SUk3S2VocEJpQlJyNGxFUm1fcnNDTGk0S3dqdlpaMkJPc2t0d25rTEMzTVE2Rko2TXBPQWtGd3Z3Sm15Ry02Y2J5d0M4bjVQZ3NkLVFPMlAteHg4QjN5a1Nmai0yaS1zeHdRSGNOOUpCU1hyWmh6dWRyWVNrR3JZYnYyMDVabU1XbWJKcVdBbE1LNkxJZVBFUEx4X1RSd3RMdkZnM0hNNFNmYVUtQ2ZYelJ0aHpQR29SZXctZFBWMThKRDlxcUpicUU3em8?oc=5",
           "sourcePriority": 3
         },
         {
           "title": "San Patricio del Chañar: una nueva muerte joven reabre el debate sobre la prevención del suicidio - Chañar Digital",
-          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPeUdDX25qWmswVDdXUGlmVmFPQUJtTE4wZEVoZGE2c1lyV1lwRy11eW4wT3RCSDhzalNGdGdvSGRZNzJNYW1JZ3hDOVkwbERQLVd1UkNfbEhzVXVZS3hIUUI3Q3BRM05mZTBKaGVDSVB0TlRFRzVBU1Q5ZUdGWDdpclI3bHB6X3JEOEoyZ19DUUtwSUFmX3M4cFA4RUd2ZmVrR21kbHFjbzE5TERDZFN1V1k4LVNhN1VXSWFTZUtYTHB2SU9BVVh6aXN4a0dwZEMtbkx6V3RFSHRtTjFsNUxJ?oc=5",
-          "publishedAt": "2026-10-31T22:26:32+00:00",
-          "published": "2026-10-31T22:26:32+00:00",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMi3wFBVV95cUxPeUdDX25qWmswVDdXUGlmVmFPQUJtTE4wZEVoZGE2c1lyV1lwRy11eW4wT3RCSDhzalNGdGdvSGRZNzJNYW1JZ3hDOVkwbERQLVd1UkNfbEhzVXVZS3hIUUI3Q3BRM05mZTBKaGVDSVB0TlRFRzVBU1Q5ZUdGWDdpclI3bHB6X3JEOEoyZ19DUUtwSUFmX3M4cFA4RUd2ZmVrR21kbHFjbzE5TERDZFN1V1k4LVNhN1VXSWFTZUtYTHB2SU9BVVh6aXN4a0dwZEMtbkx6V3RFSHRtTjFsNUxJ?oc=5\" target=\"_blank\">San Patricio del Chañar: una nueva muerte joven reabre el debate sobre la prevención del suicidio</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Chañar Digital</font>",
+          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPZF9iTVRkZjFkSkQyb1FIVmx2dTJPeDBkekprTW5qTTNKd0NteGx3R3lyNko4MDRvbVdadDdaVDRCaGgzRVM3a0p6YjFrQlhxa2F0UWJkbUM1aUZITmdQMzJPRGpUbFR5SXVvd3BxUTFTMzl3MXBjVTVfRFl0NWkyQUZXMFRqS0d0cUN1RmJ6bXRNZHF6Y1N6MG10Wi1yNFlDOHFEZHRfb2tCQWhXYzJmcnowRVdVcXFEQmp2XzlRUnhOdGdCMHhKTlAtUzIzMm5MN1NNcEVKR0l0YXY3eENfWFduYmc?oc=5",
+          "publishedAt": "2026-10-31T22:26:47+00:00",
+          "published": "2026-10-31T22:26:47+00:00",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMi5AFBVV95cUxPZF9iTVRkZjFkSkQyb1FIVmx2dTJPeDBkekprTW5qTTNKd0NteGx3R3lyNko4MDRvbVdadDdaVDRCaGgzRVM3a0p6YjFrQlhxa2F0UWJkbUM1aUZITmdQMzJPRGpUbFR5SXVvd3BxUTFTMzl3MXBjVTVfRFl0NWkyQUZXMFRqS0d0cUN1RmJ6bXRNZHF6Y1N6MG10Wi1yNFlDOHFEZHRfb2tCQWhXYzJmcnowRVdVcXFEQmp2XzlRUnhOdGdCMHhKTlAtUzIzMm5MN1NNcEVKR0l0YXY3eENfWFduYmc?oc=5\" target=\"_blank\">San Patricio del Chañar: una nueva muerte joven reabre el debate sobre la prevención del suicidio</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Chañar Digital</font>",
           "source": "Chañar Digital",
           "sourceType": "BUSCADOR / RESPALDO",
           "sourceUrl": "",
@@ -3352,10 +3351,10 @@
           "query": "site:chanardigital.com.ar \"San Patricio del Chañar\"",
           "relevance": 3,
           "relevanceLabel": "DIRECTA",
-          "firstSeen": "2026-11-02T01:23:58.390470+00:00",
-          "isNew": false,
+          "firstSeen": "2026-11-05T15:43:31.441991+00:00",
+          "isNew": true,
           "titleKey": "nueva muerte joven reabre debate prevencion suicidio digital",
-          "evidenceUrl": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPeUdDX25qWmswVDdXUGlmVmFPQUJtTE4wZEVoZGE2c1lyV1lwRy11eW4wT3RCSDhzalNGdGdvSGRZNzJNYW1JZ3hDOVkwbERQLVd1UkNfbEhzVXVZS3hIUUI3Q3BRM05mZTBKaGVDSVB0TlRFRzVBU1Q5ZUdGWDdpclI3bHB6X3JEOEoyZ19DUUtwSUFmX3M4cFA4RUd2ZmVrR21kbHFjbzE5TERDZFN1V1k4LVNhN1VXSWFTZUtYTHB2SU9BVVh6aXN4a0dwZEMtbkx6V3RFSHRtTjFsNUxJ?oc=5",
+          "evidenceUrl": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPZF9iTVRkZjFkSkQyb1FIVmx2dTJPeDBkekprTW5qTTNKd0NteGx3R3lyNko4MDRvbVdadDdaVDRCaGgzRVM3a0p6YjFrQlhxa2F0UWJkbUM1aUZITmdQMzJPRGpUbFR5SXVvd3BxUTFTMzl3MXBjVTVfRFl0NWkyQUZXMFRqS0d0cUN1RmJ6bXRNZHF6Y1N6MG10Wi1yNFlDOHFEZHRfb2tCQWhXYzJmcnowRVdVcXFEQmp2XzlRUnhOdGdCMHhKTlAtUzIzMm5MN1NNcEVKR0l0YXY3eENfWFduYmc?oc=5",
           "sourcePriority": 3
         },
         {
@@ -3468,7 +3467,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "EDUCACIÓN",
-      "movement": 67,
+      "movement": 65,
       "coverage": 2,
       "sourceCount": 2,
       "directSourceCount": 0,
@@ -3515,7 +3514,7 @@
           "relevance": 3,
           "relevanceLabel": "DIRECTA",
           "firstSeen": "2026-11-05T07:14:47.387947+00:00",
-          "isNew": true,
+          "isNew": false,
           "titleKey": "educacion ambiental reunio 350 estudiantes informa",
           "evidenceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPQWZaQTl3aERRc0g2OW04T1d3dkFvbThwRnMzMUtscFpFRTEyRlBVbmVXcWhud3RrMnVNY3pkcnNlaEwzamF0ZVdqZTVodFlsdUdDVy14MHFWZGpQZWw5dlU5T3MtaGJablhjamtySjFnQ0lnWnFzQzhhT2lRUktrdm5HblhMN19kMThlbWVodzVia2lmQmhoS01MRHJLUU9zT0xkelRSTjUxRXRwa1pqc0FTaDMxa3FoaS1zSHVWU2w2ZEl2NFFCeFdVWXMyTWVD0gHWAUFVX3lxTE13TFNYRF9NQkdwRXhMdF9mRlEyYlVIRDdFeU1mMkZhVkxHQmlGNlEyRUltbmx2QWlRWlJFSFRvRHk3RTQ1QUQ3RFMwSnZjZGhnU0c1bmZ4Y3NyaVdBOXRmWEU4czRKcm9pN3NURUp5ekZzbkFVSEpYNHl3Y0VxZGhIdng0OU9GamYtNTdxNF9ncXFvLUNxTXJzNm9kbjZUa1d1SjAxQ19zZEZILWhjakxVVGlfVkI4QnNpRFRtNnY1SFA1RFVTQU1oZXZyNTdvdl90NHNRTHc?oc=5",
           "sourcePriority": 3
@@ -3524,9 +3523,7 @@
       "lifecycle": "ACTIVO",
       "movementDelta": -2,
       "previousCoverage": 2,
-      "newSources": [
-        "Neuquen Informa"
-      ],
+      "newSources": [],
       "sourceDiversity": 2,
       "memoryMatched": true,
       "isNew": false,
@@ -3568,7 +3565,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SEGURIDAD / EMERGENCIAS",
-      "movement": 53,
+      "movement": 51,
       "coverage": 1,
       "sourceCount": 1,
       "directSourceCount": 0,
@@ -3601,7 +3598,7 @@
           "sourcePriority": 3
         }
       ],
-      "lifecycle": "EMERGENTE",
+      "lifecycle": "SOSTENIDO",
       "movementDelta": -2,
       "previousCoverage": 1,
       "newSources": [],
@@ -3787,9 +3784,9 @@
           "sourcePriority": 3
         }
       ],
-      "lifecycle": "RECIENTE",
-      "movementDelta": 16,
-      "previousCoverage": 7,
+      "lifecycle": "ACTIVO",
+      "movementDelta": 12,
+      "previousCoverage": 1,
       "newSources": [
         "Neuquen Post",
         "Diario Río Negro",
@@ -3825,91 +3822,6 @@
             "node": "San Patricio del Chañar",
             "level": "localidad",
             "evidence": "DIRECTA"
-          }
-        ]
-      }
-    },
-    {
-      "eventId": "CHA-8c440a94bffe",
-      "title": "Neuquén aprobó beneficios impositivos por 10 años para las empresas del Parque Industrial - Lmneuquen.com",
-      "publishedAt": "2026-10-29T22:05:00+00:00",
-      "firstSeen": "2026-11-03T08:31:42.827022+00:00",
-      "lastSeen": "2026-10-29T22:05:00+00:00",
-      "relevance": 3,
-      "relevanceLabel": "DIRECTA",
-      "incidenceLabel": "DIRECTA EN CHANAR",
-      "topic": "SERVICIOS",
-      "movement": 20,
-      "coverage": 1,
-      "sourceCount": 1,
-      "directSourceCount": 0,
-      "territorialAnchors": [
-        "parque industrial"
-      ],
-      "sources": [
-        "Lmneuquen.com"
-      ],
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPUkxGWDZrbjNlcHFnTEVaTEFmczVxdDg2V2l5OEJqLU1oT0F5a3ZmN3BpNzA2VHBYeFRjVTRRSU44Vk5HX1dGMFV2TlVDYlMtUzNtMHoyUzBWNnpFQlBSbHY0ZnNIZmxFOG5ib20xLWtIM05oNTE4V1JvSWk4YW5ETzJHMTZjWE9lS2N4a0tjUEJYVl9mbGdfSEt3bnFudWppaVF4VnBiSHVjZkF1T0dFQnhBaWlUem0yLTlobTZidkTSAcYBQVVfeXFMUGZ4N0xYanJQbmI4anBpa2FQb1ZpVEtHbklUdDIyUXhndFM2T3FSYzBzbEVHbmEwSzRVN3FLMnlfNWlkZjVqMTl5LThab0JJTkZiYWhJaGxJME9KbWlyNTJpWURLTFBHTWUyNHBVX1FkdHBRLU5XNFVUNEFqY1MtaGZOY0d0ckVodHRwTWZHTy00VlZQYXhhMmh6ZjIyMFpZa29ZZGRBLVl1LVZjMk5HbjBuYkUwbVFaRlRYbWVsVWlkQVg4YkFR?oc=5",
-      "items": [
-        {
-          "title": "Neuquén aprobó beneficios impositivos por 10 años para las empresas del Parque Industrial - Lmneuquen.com",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPUkxGWDZrbjNlcHFnTEVaTEFmczVxdDg2V2l5OEJqLU1oT0F5a3ZmN3BpNzA2VHBYeFRjVTRRSU44Vk5HX1dGMFV2TlVDYlMtUzNtMHoyUzBWNnpFQlBSbHY0ZnNIZmxFOG5ib20xLWtIM05oNTE4V1JvSWk4YW5ETzJHMTZjWE9lS2N4a0tjUEJYVl9mbGdfSEt3bnFudWppaVF4VnBiSHVjZkF1T0dFQnhBaWlUem0yLTlobTZidkTSAcYBQVVfeXFMUGZ4N0xYanJQbmI4anBpa2FQb1ZpVEtHbklUdDIyUXhndFM2T3FSYzBzbEVHbmEwSzRVN3FLMnlfNWlkZjVqMTl5LThab0JJTkZiYWhJaGxJME9KbWlyNTJpWURLTFBHTWUyNHBVX1FkdHBRLU5XNFVUNEFqY1MtaGZOY0d0ckVodHRwTWZHTy00VlZQYXhhMmh6ZjIyMFpZa29ZZGRBLVl1LVZjMk5HbjBuYkUwbVFaRlRYbWVsVWlkQVg4YkFR?oc=5",
-          "publishedAt": "2026-10-29T22:05:00+00:00",
-          "published": "2026-10-29T22:05:00+00:00",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxPUkxGWDZrbjNlcHFnTEVaTEFmczVxdDg2V2l5OEJqLU1oT0F5a3ZmN3BpNzA2VHBYeFRjVTRRSU44Vk5HX1dGMFV2TlVDYlMtUzNtMHoyUzBWNnpFQlBSbHY0ZnNIZmxFOG5ib20xLWtIM05oNTE4V1JvSWk4YW5ETzJHMTZjWE9lS2N4a0tjUEJYVl9mbGdfSEt3bnFudWppaVF4VnBiSHVjZkF1T0dFQnhBaWlUem0yLTlobTZidkTSAcYBQVVfeXFMUGZ4N0xYanJQbmI4anBpa2FQb1ZpVEtHbklUdDIyUXhndFM2T3FSYzBzbEVHbmEwSzRVN3FLMnlfNWlkZjVqMTl5LThab0JJTkZiYWhJaGxJME9KbWlyNTJpWURLTFBHTWUyNHBVX1FkdHBRLU5XNFVUNEFqY1MtaGZOY0d0ckVodHRwTWZHTy00VlZQYXhhMmh6ZjIyMFpZa29ZZGRBLVl1LVZjMk5HbjBuYkUwbVFaRlRYbWVsVWlkQVg4YkFR?oc=5\" target=\"_blank\">Neuquén aprobó beneficios impositivos por 10 años para las empresas del Parque Industrial</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Lmneuquen.com</font>",
-          "source": "Lmneuquen.com",
-          "sourceType": "BUSCADOR / RESPALDO",
-          "sourceUrl": "",
-          "collection": "BUSCADOR",
-          "query": "site:lmneuquen.com \"San Patricio del Chañar\"",
-          "relevance": 3,
-          "relevanceLabel": "DIRECTA",
-          "firstSeen": "2026-11-03T08:31:42.827022+00:00",
-          "isNew": false,
-          "titleKey": "aprobo beneficios impositivos años empresas parque industrial lmneuquen com",
-          "evidenceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPUkxGWDZrbjNlcHFnTEVaTEFmczVxdDg2V2l5OEJqLU1oT0F5a3ZmN3BpNzA2VHBYeFRjVTRRSU44Vk5HX1dGMFV2TlVDYlMtUzNtMHoyUzBWNnpFQlBSbHY0ZnNIZmxFOG5ib20xLWtIM05oNTE4V1JvSWk4YW5ETzJHMTZjWE9lS2N4a0tjUEJYVl9mbGdfSEt3bnFudWppaVF4VnBiSHVjZkF1T0dFQnhBaWlUem0yLTlobTZidkTSAcYBQVVfeXFMUGZ4N0xYanJQbmI4anBpa2FQb1ZpVEtHbklUdDIyUXhndFM2T3FSYzBzbEVHbmEwSzRVN3FLMnlfNWlkZjVqMTl5LThab0JJTkZiYWhJaGxJME9KbWlyNTJpWURLTFBHTWUyNHBVX1FkdHBRLU5XNFVUNEFqY1MtaGZOY0d0ckVodHRwTWZHTy00VlZQYXhhMmh6ZjIyMFpZa29ZZGRBLVl1LVZjMk5HbjBuYkUwbVFaRlRYbWVsVWlkQVg4YkFR?oc=5",
-          "sourcePriority": 3
-        }
-      ],
-      "lifecycle": "RECIENTE",
-      "movementDelta": -2,
-      "previousCoverage": 1,
-      "newSources": [],
-      "sourceDiversity": 1,
-      "memoryMatched": true,
-      "isNew": false,
-      "view": "INCIDENCIA",
-      "incidenceEligible": true,
-      "signalReason": "reservado a incidencia territorial",
-      "incidenceReason": "anclaje directo + tema operativo/local",
-      "territory": {
-        "version": "2.0",
-        "primary": "San Patricio del Chañar",
-        "nodes": [
-          "San Patricio del Chañar",
-          "Parque Industrial"
-        ],
-        "sectors": [
-          "Parque Industrial"
-        ],
-        "barrios": [],
-        "microzones": [],
-        "corridors": [],
-        "institutions": [],
-        "services": [],
-        "spaces": [],
-        "production": [],
-        "path": "San Patricio del Chañar → Parque Industrial",
-        "evidence": [
-          {
-            "node": "San Patricio del Chañar",
-            "level": "localidad",
-            "evidence": "DIRECTA"
-          },
-          {
-            "node": "Parque Industrial",
-            "level": "sector",
-            "evidence": "TEXTUAL"
           }
         ]
       }
@@ -4642,7 +4554,7 @@
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "firstSeen": "2026-11-05T07:14:47.387947+00:00",
-      "isNew": true,
+      "isNew": false,
       "titleKey": "educacion ambiental reunio 350 estudiantes informa",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPQWZaQTl3aERRc0g2OW04T1d3dkFvbThwRnMzMUtscFpFRTEyRlBVbmVXcWhud3RrMnVNY3pkcnNlaEwzamF0ZVdqZTVodFlsdUdDVy14MHFWZGpQZWw5dlU5T3MtaGJablhjamtySjFnQ0lnWnFzQzhhT2lRUktrdm5HblhMN19kMThlbWVodzVia2lmQmhoS01MRHJLUU9zT0xkelRSTjUxRXRwa1pqc0FTaDMxa3FoaS1zSHVWU2w2ZEl2NFFCeFdVWXMyTWVD0gHWAUFVX3lxTE13TFNYRF9NQkdwRXhMdF9mRlEyYlVIRDdFeU1mMkZhVkxHQmlGNlEyRUltbmx2QWlRWlJFSFRvRHk3RTQ1QUQ3RFMwSnZjZGhnU0c1bmZ4Y3NyaVdBOXRmWEU4czRKcm9pN3NURUp5ekZzbkFVSEpYNHl3Y0VxZGhIdng0OU9GamYtNTdxNF9ncXFvLUNxTXJzNm9kbjZUa1d1SjAxQ19zZEZILWhjakxVVGlfVkI4QnNpRFRtNnY1SFA1RFVTQU1oZXZyNTdvdl90NHNRTHc?oc=5",
       "sourcePriority": 3
@@ -4661,7 +4573,7 @@
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "firstSeen": "2026-11-05T07:14:47.387947+00:00",
-      "isNew": true,
+      "isNew": false,
       "titleKey": "clausuraron boliche aprehendieron motociclista secuestraron tres motos portadadigital com",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQTkVLRGlmZHpUaFJld2xjRmZKeldXR2dYcUR5RVlwTUFWcmcxYmN5cWdIWEZuVU9fdnB5WDVPOS16eXFmbnd0Y2RwVHc3enlxMXhkSnlPNlg0MGdETjNvblBQdE1NTGMzR3RGSEVRcU9GcVl2T2hJeDJsVW05MDJKZ0pKRWtQZ3Q1X1ZTNTBWNnRSOHFNeF96QnM1TWNHdVdNN1oyVlUwWElkVVlIN1ZTcDBzYkJFVHVqWFE3THNxcTQ1Qi1MSW1qWnNXTWo2bFpuclRkcHlpRHlLS2pEQng3OUlKM0JJanl5?oc=5",
       "sourcePriority": 3
@@ -4706,29 +4618,29 @@
     },
     {
       "title": "Un boliche clausurado, un hombre aprehendido y tres motos secuestradas en San Patricio del Chañar - NoticiasNQN",
-      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNRTZYQTZqd3V4UW1Vd3dGeVB4bk9pWVlPN3pKeGZHeGhVdDZJSTdLZWhwQmlCUnI0bEVSbV9yc0NMaTRLd2p2WloyQk9za3R3bmtMQzNNUTZGSjZNcE9Ba0Z3dndKbXlHLTZjYnl3QzhuNVBnc2QtUU8yUC14eDhCM3lrU2ZqLTJpLXN4d1FIY045SkJTWHJaaHp1ZHJZU2tHcllidjIwNVptTVdtYkpxV0FsTUs2TEllUEVQTHhfVFJ3dEx2RmczSE00U2ZhVS1DZlh6UnRoelBHb1Jldy1kUFYxOEpEOXFxSmJxRTd6b9IB7wFBVV95cUxNRTZYQTZqd3V4UW1Vd3dGeVB4bk9pWVlPN3pKeGZHeGhVdDZJSTdLZWhwQmlCUnI0bEVSbV9yc0NMaTRLd2p2WloyQk9za3R3bmtMQzNNUTZGSjZNcE9Ba0Z3dndKbXlHLTZjYnl3QzhuNVBnc2QtUU8yUC14eDhCM3lrU2ZqLTJpLXN4d1FIY045SkJTWHJaaHp1ZHJZU2tHcllidjIwNVptTVdtYkpxV0FsTUs2TEllUEVQTHhfVFJ3dEx2RmczSE00U2ZhVS1DZlh6UnRoelBHb1Jldy1kUFYxOEpEOXFxSmJxRTd6bw?oc=5",
-      "publishedAt": "2026-11-01T17:07:37+00:00",
-      "published": "2026-11-01T17:07:37+00:00",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMi7wFBVV95cUxNRTZYQTZqd3V4UW1Vd3dGeVB4bk9pWVlPN3pKeGZHeGhVdDZJSTdLZWhwQmlCUnI0bEVSbV9yc0NMaTRLd2p2WloyQk9za3R3bmtMQzNNUTZGSjZNcE9Ba0Z3dndKbXlHLTZjYnl3QzhuNVBnc2QtUU8yUC14eDhCM3lrU2ZqLTJpLXN4d1FIY045SkJTWHJaaHp1ZHJZU2tHcllidjIwNVptTVdtYkpxV0FsTUs2TEllUEVQTHhfVFJ3dEx2RmczSE00U2ZhVS1DZlh6UnRoelBHb1Jldy1kUFYxOEpEOXFxSmJxRTd6b9IB7wFBVV95cUxNRTZYQTZqd3V4UW1Vd3dGeVB4bk9pWVlPN3pKeGZHeGhVdDZJSTdLZWhwQmlCUnI0bEVSbV9yc0NMaTRLd2p2WloyQk9za3R3bmtMQzNNUTZGSjZNcE9Ba0Z3dndKbXlHLTZjYnl3QzhuNVBnc2QtUU8yUC14eDhCM3lrU2ZqLTJpLXN4d1FIY045SkJTWHJaaHp1ZHJZU2tHcllidjIwNVptTVdtYkpxV0FsTUs2TEllUEVQTHhfVFJ3dEx2RmczSE00U2ZhVS1DZlh6UnRoelBHb1Jldy1kUFYxOEpEOXFxSmJxRTd6bw?oc=5\" target=\"_blank\">Un boliche clausurado, un hombre aprehendido y tres motos secuestradas en San Patricio del Chañar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NoticiasNQN</font>",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPYURkUlQyQi0yRjJ4REFDV0N1M0h2SjFXMGdTbmRFSWRpUVk5dHdoWi1abHBBZlJPeUMxS3VVbldpZk1YVnRzaUV4YnNia25KSk42X1REOXc2Zlg2QXRDczJXN2I3N25yYV9Vb2pZVTEzaFF0RUVEZ0h5dkczRVpOZVJkYWVRMVQxX1Itd2VQTmVyRWJvRkdGcnYxMGg0cWtUU0NaT3RtMFl3R3RIdkYtR3NMX3BPa1o4Xy1jMWxRYkFuc3M1STVNVDVmUXo0UENCM3h0ZkJnaGZEbFIyR2FfejhoR0swVzVoRlHSAe8BQVVfeXFMTUU2WEE2and1eFFtVXd3RnlQeG5PaVlZTzd6SnhmR3hoVXQ2SUk3S2VocEJpQlJyNGxFUm1fcnNDTGk0S3dqdlpaMkJPc2t0d25rTEMzTVE2Rko2TXBPQWtGd3Z3Sm15Ry02Y2J5d0M4bjVQZ3NkLVFPMlAteHg4QjN5a1Nmai0yaS1zeHdRSGNOOUpCU1hyWmh6dWRyWVNrR3JZYnYyMDVabU1XbWJKcVdBbE1LNkxJZVBFUEx4X1RSd3RMdkZnM0hNNFNmYVUtQ2ZYelJ0aHpQR29SZXctZFBWMThKRDlxcUpicUU3em8?oc=5",
+      "publishedAt": "2026-11-01T17:06:45+00:00",
+      "published": "2026-11-01T17:06:45+00:00",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMi6gFBVV95cUxPYURkUlQyQi0yRjJ4REFDV0N1M0h2SjFXMGdTbmRFSWRpUVk5dHdoWi1abHBBZlJPeUMxS3VVbldpZk1YVnRzaUV4YnNia25KSk42X1REOXc2Zlg2QXRDczJXN2I3N25yYV9Vb2pZVTEzaFF0RUVEZ0h5dkczRVpOZVJkYWVRMVQxX1Itd2VQTmVyRWJvRkdGcnYxMGg0cWtUU0NaT3RtMFl3R3RIdkYtR3NMX3BPa1o4Xy1jMWxRYkFuc3M1STVNVDVmUXo0UENCM3h0ZkJnaGZEbFIyR2FfejhoR0swVzVoRlHSAe8BQVVfeXFMTUU2WEE2and1eFFtVXd3RnlQeG5PaVlZTzd6SnhmR3hoVXQ2SUk3S2VocEJpQlJyNGxFUm1fcnNDTGk0S3dqdlpaMkJPc2t0d25rTEMzTVE2Rko2TXBPQWtGd3Z3Sm15Ry02Y2J5d0M4bjVQZ3NkLVFPMlAteHg4QjN5a1Nmai0yaS1zeHdRSGNOOUpCU1hyWmh6dWRyWVNrR3JZYnYyMDVabU1XbWJKcVdBbE1LNkxJZVBFUEx4X1RSd3RMdkZnM0hNNFNmYVUtQ2ZYelJ0aHpQR29SZXctZFBWMThKRDlxcUpicUU3em8?oc=5\" target=\"_blank\">Un boliche clausurado, un hombre aprehendido y tres motos secuestradas en San Patricio del Chañar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NoticiasNQN</font>",
       "source": "NoticiasNQN",
       "sourceType": "BUSCADOR / RESPALDO",
       "sourceUrl": "",
       "collection": "BUSCADOR",
-      "query": "\"San Patricio del Chañar\" tránsito transporte ruta",
+      "query": "\"San Patricio del Chañar\"",
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
-      "firstSeen": "2026-11-02T01:23:58.390470+00:00",
-      "isNew": false,
+      "firstSeen": "2026-11-05T15:43:31.441991+00:00",
+      "isNew": true,
       "titleKey": "boliche clausurado hombre aprehendido tres motos secuestradas noticiasnqn",
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNRTZYQTZqd3V4UW1Vd3dGeVB4bk9pWVlPN3pKeGZHeGhVdDZJSTdLZWhwQmlCUnI0bEVSbV9yc0NMaTRLd2p2WloyQk9za3R3bmtMQzNNUTZGSjZNcE9Ba0Z3dndKbXlHLTZjYnl3QzhuNVBnc2QtUU8yUC14eDhCM3lrU2ZqLTJpLXN4d1FIY045SkJTWHJaaHp1ZHJZU2tHcllidjIwNVptTVdtYkpxV0FsTUs2TEllUEVQTHhfVFJ3dEx2RmczSE00U2ZhVS1DZlh6UnRoelBHb1Jldy1kUFYxOEpEOXFxSmJxRTd6b9IB7wFBVV95cUxNRTZYQTZqd3V4UW1Vd3dGeVB4bk9pWVlPN3pKeGZHeGhVdDZJSTdLZWhwQmlCUnI0bEVSbV9yc0NMaTRLd2p2WloyQk9za3R3bmtMQzNNUTZGSjZNcE9Ba0Z3dndKbXlHLTZjYnl3QzhuNVBnc2QtUU8yUC14eDhCM3lrU2ZqLTJpLXN4d1FIY045SkJTWHJaaHp1ZHJZU2tHcllidjIwNVptTVdtYkpxV0FsTUs2TEllUEVQTHhfVFJ3dEx2RmczSE00U2ZhVS1DZlh6UnRoelBHb1Jldy1kUFYxOEpEOXFxSmJxRTd6bw?oc=5",
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPYURkUlQyQi0yRjJ4REFDV0N1M0h2SjFXMGdTbmRFSWRpUVk5dHdoWi1abHBBZlJPeUMxS3VVbldpZk1YVnRzaUV4YnNia25KSk42X1REOXc2Zlg2QXRDczJXN2I3N25yYV9Vb2pZVTEzaFF0RUVEZ0h5dkczRVpOZVJkYWVRMVQxX1Itd2VQTmVyRWJvRkdGcnYxMGg0cWtUU0NaT3RtMFl3R3RIdkYtR3NMX3BPa1o4Xy1jMWxRYkFuc3M1STVNVDVmUXo0UENCM3h0ZkJnaGZEbFIyR2FfejhoR0swVzVoRlHSAe8BQVVfeXFMTUU2WEE2and1eFFtVXd3RnlQeG5PaVlZTzd6SnhmR3hoVXQ2SUk3S2VocEJpQlJyNGxFUm1fcnNDTGk0S3dqdlpaMkJPc2t0d25rTEMzTVE2Rko2TXBPQWtGd3Z3Sm15Ry02Y2J5d0M4bjVQZ3NkLVFPMlAteHg4QjN5a1Nmai0yaS1zeHdRSGNOOUpCU1hyWmh6dWRyWVNrR3JZYnYyMDVabU1XbWJKcVdBbE1LNkxJZVBFUEx4X1RSd3RMdkZnM0hNNFNmYVUtQ2ZYelJ0aHpQR29SZXctZFBWMThKRDlxcUpicUU3em8?oc=5",
       "sourcePriority": 3
     },
     {
       "title": "San Patricio del Chañar: una nueva muerte joven reabre el debate sobre la prevención del suicidio - Chañar Digital",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPeUdDX25qWmswVDdXUGlmVmFPQUJtTE4wZEVoZGE2c1lyV1lwRy11eW4wT3RCSDhzalNGdGdvSGRZNzJNYW1JZ3hDOVkwbERQLVd1UkNfbEhzVXVZS3hIUUI3Q3BRM05mZTBKaGVDSVB0TlRFRzVBU1Q5ZUdGWDdpclI3bHB6X3JEOEoyZ19DUUtwSUFmX3M4cFA4RUd2ZmVrR21kbHFjbzE5TERDZFN1V1k4LVNhN1VXSWFTZUtYTHB2SU9BVVh6aXN4a0dwZEMtbkx6V3RFSHRtTjFsNUxJ?oc=5",
-      "publishedAt": "2026-10-31T22:26:32+00:00",
-      "published": "2026-10-31T22:26:32+00:00",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMi3wFBVV95cUxPeUdDX25qWmswVDdXUGlmVmFPQUJtTE4wZEVoZGE2c1lyV1lwRy11eW4wT3RCSDhzalNGdGdvSGRZNzJNYW1JZ3hDOVkwbERQLVd1UkNfbEhzVXVZS3hIUUI3Q3BRM05mZTBKaGVDSVB0TlRFRzVBU1Q5ZUdGWDdpclI3bHB6X3JEOEoyZ19DUUtwSUFmX3M4cFA4RUd2ZmVrR21kbHFjbzE5TERDZFN1V1k4LVNhN1VXSWFTZUtYTHB2SU9BVVh6aXN4a0dwZEMtbkx6V3RFSHRtTjFsNUxJ?oc=5\" target=\"_blank\">San Patricio del Chañar: una nueva muerte joven reabre el debate sobre la prevención del suicidio</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Chañar Digital</font>",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPZF9iTVRkZjFkSkQyb1FIVmx2dTJPeDBkekprTW5qTTNKd0NteGx3R3lyNko4MDRvbVdadDdaVDRCaGgzRVM3a0p6YjFrQlhxa2F0UWJkbUM1aUZITmdQMzJPRGpUbFR5SXVvd3BxUTFTMzl3MXBjVTVfRFl0NWkyQUZXMFRqS0d0cUN1RmJ6bXRNZHF6Y1N6MG10Wi1yNFlDOHFEZHRfb2tCQWhXYzJmcnowRVdVcXFEQmp2XzlRUnhOdGdCMHhKTlAtUzIzMm5MN1NNcEVKR0l0YXY3eENfWFduYmc?oc=5",
+      "publishedAt": "2026-10-31T22:26:47+00:00",
+      "published": "2026-10-31T22:26:47+00:00",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMi5AFBVV95cUxPZF9iTVRkZjFkSkQyb1FIVmx2dTJPeDBkekprTW5qTTNKd0NteGx3R3lyNko4MDRvbVdadDdaVDRCaGgzRVM3a0p6YjFrQlhxa2F0UWJkbUM1aUZITmdQMzJPRGpUbFR5SXVvd3BxUTFTMzl3MXBjVTVfRFl0NWkyQUZXMFRqS0d0cUN1RmJ6bXRNZHF6Y1N6MG10Wi1yNFlDOHFEZHRfb2tCQWhXYzJmcnowRVdVcXFEQmp2XzlRUnhOdGdCMHhKTlAtUzIzMm5MN1NNcEVKR0l0YXY3eENfWFduYmc?oc=5\" target=\"_blank\">San Patricio del Chañar: una nueva muerte joven reabre el debate sobre la prevención del suicidio</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Chañar Digital</font>",
       "source": "Chañar Digital",
       "sourceType": "BUSCADOR / RESPALDO",
       "sourceUrl": "",
@@ -4736,10 +4648,10 @@
       "query": "site:chanardigital.com.ar \"San Patricio del Chañar\"",
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
-      "firstSeen": "2026-11-02T01:23:58.390470+00:00",
-      "isNew": false,
+      "firstSeen": "2026-11-05T15:43:31.441991+00:00",
+      "isNew": true,
       "titleKey": "nueva muerte joven reabre debate prevencion suicidio digital",
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPeUdDX25qWmswVDdXUGlmVmFPQUJtTE4wZEVoZGE2c1lyV1lwRy11eW4wT3RCSDhzalNGdGdvSGRZNzJNYW1JZ3hDOVkwbERQLVd1UkNfbEhzVXVZS3hIUUI3Q3BRM05mZTBKaGVDSVB0TlRFRzVBU1Q5ZUdGWDdpclI3bHB6X3JEOEoyZ19DUUtwSUFmX3M4cFA4RUd2ZmVrR21kbHFjbzE5TERDZFN1V1k4LVNhN1VXSWFTZUtYTHB2SU9BVVh6aXN4a0dwZEMtbkx6V3RFSHRtTjFsNUxJ?oc=5",
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPZF9iTVRkZjFkSkQyb1FIVmx2dTJPeDBkekprTW5qTTNKd0NteGx3R3lyNko4MDRvbVdadDdaVDRCaGgzRVM3a0p6YjFrQlhxa2F0UWJkbUM1aUZITmdQMzJPRGpUbFR5SXVvd3BxUTFTMzl3MXBjVTVfRFl0NWkyQUZXMFRqS0d0cUN1RmJ6bXRNZHF6Y1N6MG10Wi1yNFlDOHFEZHRfb2tCQWhXYzJmcnowRVdVcXFEQmp2XzlRUnhOdGdCMHhKTlAtUzIzMm5MN1NNcEVKR0l0YXY3eENfWFduYmc?oc=5",
       "sourcePriority": 3
     },
     {
@@ -4816,25 +4728,6 @@
       "isNew": false,
       "titleKey": "conmocion muerte joven sabe lmneuquen com",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOWEpuZW42ckxUUk1Bb0lVeWE0UUszNmVkUUhDSjlqUUo5NTJ6OV8tNG91TDdQTklJd3RXZFd4aHh1LVdXdEs3UWV1QXpHVDRBRzQzcnFpQXh2bTNfWHp4WFEwLUg2dUV1OFNRUGFvMkdOMjI4dzZEbU5PeDBseEFvbDBqSXRJM1hfcG0wOUo5ZWxQYmxRVlVveVJoTmVBS2RyelliYk9TOHF4a1XSAbABQVVfeXFMUFJsRGpyWTZZLWtUTWc0TFRUTVo5bUVtM1F2cHVXM3VfQ1RXR2dTeTJBdHN0V1FDNTFNbnlBM21QUkQ3UThVb2JtMVVibWpldVRZZXNxYjJyUWpZVllSZkFKMHF3QlZLNjNLMk5mLUc2N3hCd2FVa0puTzR6SU5uYUhGQUgtRHRuWGt6Tk9ZZHdGSDltRENKY0F5em80ZXgtUmxTYldBSm5qMTVlc3lnazc?oc=5",
-      "sourcePriority": 3
-    },
-    {
-      "title": "Neuquén aprobó beneficios impositivos por 10 años para las empresas del Parque Industrial - Lmneuquen.com",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPUkxGWDZrbjNlcHFnTEVaTEFmczVxdDg2V2l5OEJqLU1oT0F5a3ZmN3BpNzA2VHBYeFRjVTRRSU44Vk5HX1dGMFV2TlVDYlMtUzNtMHoyUzBWNnpFQlBSbHY0ZnNIZmxFOG5ib20xLWtIM05oNTE4V1JvSWk4YW5ETzJHMTZjWE9lS2N4a0tjUEJYVl9mbGdfSEt3bnFudWppaVF4VnBiSHVjZkF1T0dFQnhBaWlUem0yLTlobTZidkTSAcYBQVVfeXFMUGZ4N0xYanJQbmI4anBpa2FQb1ZpVEtHbklUdDIyUXhndFM2T3FSYzBzbEVHbmEwSzRVN3FLMnlfNWlkZjVqMTl5LThab0JJTkZiYWhJaGxJME9KbWlyNTJpWURLTFBHTWUyNHBVX1FkdHBRLU5XNFVUNEFqY1MtaGZOY0d0ckVodHRwTWZHTy00VlZQYXhhMmh6ZjIyMFpZa29ZZGRBLVl1LVZjMk5HbjBuYkUwbVFaRlRYbWVsVWlkQVg4YkFR?oc=5",
-      "publishedAt": "2026-10-29T22:05:00+00:00",
-      "published": "2026-10-29T22:05:00+00:00",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxPUkxGWDZrbjNlcHFnTEVaTEFmczVxdDg2V2l5OEJqLU1oT0F5a3ZmN3BpNzA2VHBYeFRjVTRRSU44Vk5HX1dGMFV2TlVDYlMtUzNtMHoyUzBWNnpFQlBSbHY0ZnNIZmxFOG5ib20xLWtIM05oNTE4V1JvSWk4YW5ETzJHMTZjWE9lS2N4a0tjUEJYVl9mbGdfSEt3bnFudWppaVF4VnBiSHVjZkF1T0dFQnhBaWlUem0yLTlobTZidkTSAcYBQVVfeXFMUGZ4N0xYanJQbmI4anBpa2FQb1ZpVEtHbklUdDIyUXhndFM2T3FSYzBzbEVHbmEwSzRVN3FLMnlfNWlkZjVqMTl5LThab0JJTkZiYWhJaGxJME9KbWlyNTJpWURLTFBHTWUyNHBVX1FkdHBRLU5XNFVUNEFqY1MtaGZOY0d0ckVodHRwTWZHTy00VlZQYXhhMmh6ZjIyMFpZa29ZZGRBLVl1LVZjMk5HbjBuYkUwbVFaRlRYbWVsVWlkQVg4YkFR?oc=5\" target=\"_blank\">Neuquén aprobó beneficios impositivos por 10 años para las empresas del Parque Industrial</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Lmneuquen.com</font>",
-      "source": "Lmneuquen.com",
-      "sourceType": "BUSCADOR / RESPALDO",
-      "sourceUrl": "",
-      "collection": "BUSCADOR",
-      "query": "site:lmneuquen.com \"San Patricio del Chañar\"",
-      "relevance": 3,
-      "relevanceLabel": "DIRECTA",
-      "firstSeen": "2026-11-03T08:31:42.827022+00:00",
-      "isNew": false,
-      "titleKey": "aprobo beneficios impositivos años empresas parque industrial lmneuquen com",
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPUkxGWDZrbjNlcHFnTEVaTEFmczVxdDg2V2l5OEJqLU1oT0F5a3ZmN3BpNzA2VHBYeFRjVTRRSU44Vk5HX1dGMFV2TlVDYlMtUzNtMHoyUzBWNnpFQlBSbHY0ZnNIZmxFOG5ib20xLWtIM05oNTE4V1JvSWk4YW5ETzJHMTZjWE9lS2N4a0tjUEJYVl9mbGdfSEt3bnFudWppaVF4VnBiSHVjZkF1T0dFQnhBaWlUem0yLTlobTZidkTSAcYBQVVfeXFMUGZ4N0xYanJQbmI4anBpa2FQb1ZpVEtHbklUdDIyUXhndFM2T3FSYzBzbEVHbmEwSzRVN3FLMnlfNWlkZjVqMTl5LThab0JJTkZiYWhJaGxJME9KbWlyNTJpWURLTFBHTWUyNHBVX1FkdHBRLU5XNFVUNEFqY1MtaGZOY0d0ckVodHRwTWZHTy00VlZQYXhhMmh6ZjIyMFpZa29ZZGRBLVl1LVZjMk5HbjBuYkUwbVFaRlRYbWVsVWlkQVg4YkFR?oc=5",
       "sourcePriority": 3
     },
     {
@@ -5106,7 +4999,7 @@
   ],
   "territorialGraph": {
     "version": "2.0",
-    "generatedAt": "2026-11-05T07:14:59.744923+00:00",
+    "generatedAt": "2026-11-05T15:43:44.098971+00:00",
     "root": "spc",
     "rule": "evidence-first",
     "levels": [
@@ -5133,7 +5026,7 @@
           "el chañar",
           "el chanar"
         ],
-        "eventCount": 11
+        "eventCount": 10
       },
       {
         "id": "rio-neuquen",
@@ -5342,7 +5235,7 @@
         "aliases": [
           "parque industrial"
         ],
-        "eventCount": 1
+        "eventCount": 0
       },
       {
         "id": "loteo-social",
@@ -5660,13 +5553,6 @@
         "relation": "COOCURRENCIA_TEXTUAL",
         "eventCount": 1,
         "evidence": "menciones de ambos nodos dentro del mismo hecho"
-      },
-      {
-        "from": "parque-industrial",
-        "to": "spc",
-        "relation": "COOCURRENCIA_TEXTUAL",
-        "eventCount": 1,
-        "evidence": "menciones de ambos nodos dentro del mismo hecho"
       }
     ],
     "eventNodes": {
@@ -5682,10 +5568,6 @@
       ],
       "CHA-3ae74d67b64f": [
         "spc"
-      ],
-      "CHA-8c440a94bffe": [
-        "spc",
-        "parque-industrial"
       ],
       "CHA-45db1e787c52": [
         "spc"
@@ -5721,18 +5603,18 @@
     },
     "stats": {
       "nodes": 46,
-      "activeNodes": 5,
-      "edges": 4,
-      "eventsLinked": 11,
+      "activeNodes": 4,
+      "edges": 3,
+      "eventsLinked": 10,
       "eventsWithMicrozones": 0,
       "eventsWithBarrios": 0,
-      "eventsWithSectors": 1,
+      "eventsWithSectors": 0,
       "levelActivity": {
         "localidad": 1,
         "microregion": 0,
         "corredor": 0,
         "microzona": 0,
-        "sector": 1,
+        "sector": 0,
         "barrio": 0,
         "institucion": 2,
         "servicio": 0,
@@ -5743,17 +5625,17 @@
   },
   "audit": {
     "version": "1.0",
-    "updatedAt": "2026-11-05T07:14:59.792006+00:00",
+    "updatedAt": "2026-11-05T15:43:44.142168+00:00",
     "rule": "fact != coverage; territory requires textual evidence",
-    "facts": 11,
-    "coverage": 36,
-    "coveragePerFact": 3.27,
-    "directAnchorFacts": 11,
+    "facts": 10,
+    "coverage": 35,
+    "coveragePerFact": 3.5,
+    "directAnchorFacts": 10,
     "directAnchorPct": 100.0,
-    "territorySpecificFacts": 3,
-    "territorySpecificPct": 27.3,
-    "averageSourcesPerFact": 2.45,
-    "activeTerritorialNodes": 5,
+    "territorySpecificFacts": 2,
+    "territorySpecificPct": 20.0,
+    "averageSourcesPerFact": 2.6,
+    "activeTerritorialNodes": 4,
     "failedSources": 10,
     "acceptedWithoutLocalEvidence": 1,
     "examplesAcceptedWithoutLocalEvidence": [
