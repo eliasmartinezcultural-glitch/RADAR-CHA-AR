@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06T09:44:29.910466+00:00",
+  "updatedAt": "2026-11-06T17:17:00.515682+00:00",
   "window": "14 días",
   "purpose": "Detectar qué se está moviendo en San Patricio del Chañar y mostrar de dónde surge cada señal.",
   "architecture": "contrato universal de procedencia + fuentes profesionales + adaptadores específicos + validación semántica + temporalidad + evidencia editorial separada",
@@ -49,7 +49,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://chanardigital.com.ar/",
-      "lastFetch": "2026-11-06T09:44:13.071917+00:00",
+      "lastFetch": "2026-11-06T17:16:39.204364+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -65,7 +65,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.radiomia.com.ar/",
-      "lastFetch": "2026-11-06T09:44:14.009983+00:00",
+      "lastFetch": "2026-11-06T17:16:40.448185+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -80,7 +80,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://tuitvacamuerta.com/",
-      "lastFetch": "2026-11-06T09:44:15.626404+00:00",
+      "lastFetch": "2026-11-06T17:16:42.139638+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -95,7 +95,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.vacamuertanews.com/",
-      "lastFetch": "2026-11-06T09:44:15.856167+00:00",
+      "lastFetch": "2026-11-06T17:16:43.002502+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -111,7 +111,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.neuqueninforma.gob.ar/",
-      "lastFetch": "2026-11-06T09:44:16.639038+00:00",
+      "lastFetch": "2026-11-06T17:16:44.551614+00:00",
       "success": false,
       "attempted": 3,
       "failures": [
@@ -128,7 +128,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://sanpatricio.gob.ar/",
-      "lastFetch": "2026-11-06T09:44:17.492108+00:00",
+      "lastFetch": "2026-11-06T17:16:45.515100+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -143,7 +143,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://boletinoficial.neuquen.gov.ar/",
-      "lastFetch": "2026-11-06T09:44:18.277783+00:00",
+      "lastFetch": "2026-11-06T17:16:46.387159+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -158,7 +158,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.lmneuquen.com/",
-      "lastFetch": "2026-11-06T09:44:18.479229+00:00",
+      "lastFetch": "2026-11-06T17:16:46.632641+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -174,7 +174,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.rionegro.com.ar/",
-      "lastFetch": "2026-11-06T09:44:19.620391+00:00",
+      "lastFetch": "2026-11-06T17:16:48.906778+00:00",
       "success": true,
       "attempted": 2,
       "failures": [
@@ -189,7 +189,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.mejorinformado.com/",
-      "lastFetch": "2026-11-06T09:44:20.061653+00:00",
+      "lastFetch": "2026-11-06T17:16:49.915055+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -205,7 +205,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.diariamenteneuquen.com/",
-      "lastFetch": "2026-11-06T09:44:20.659012+00:00",
+      "lastFetch": "2026-11-06T17:16:50.879723+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -718,11 +718,6 @@
       "direct": 21
     },
     {
-      "term": "bodega familia schroeder",
-      "hits": 1,
-      "direct": 1
-    },
-    {
       "term": "viñedos",
       "hits": 0,
       "direct": 0
@@ -904,6 +899,11 @@
     },
     {
       "term": "bodegas",
+      "hits": 0,
+      "direct": 0
+    },
+    {
+      "term": "bodega familia schroeder",
       "hits": 0,
       "direct": 0
     },
@@ -1116,13 +1116,12 @@
         "source": "Lmneuquen.com",
         "group": "OBSERVADA",
         "role": "fuente detectada fuera del catálogo",
-        "accepted": 3,
-        "direct": 3,
+        "accepted": 2,
+        "direct": 2,
         "anchored": 0,
         "falsePositives": 0,
         "falsePositiveTypes": [],
         "topics": [
-          "PRODUCCIÓN",
           "SERVICIOS"
         ]
       },
@@ -1523,17 +1522,6 @@
         ]
       },
       {
-        "source": "Lmneuquen.com",
-        "topic": "PRODUCCIÓN",
-        "accepted": 1,
-        "direct": 1,
-        "anchored": 0,
-        "falsePositives": 0,
-        "territorialTerms": [
-          "bodega familia schroeder"
-        ]
-      },
-      {
         "source": "MejorInformado.com",
         "topic": "SERVICIOS",
         "accepted": 1,
@@ -1733,8 +1721,8 @@
       },
       {
         "term": "bodega familia schroeder",
-        "acceptedHits": 1,
-        "directHits": 1,
+        "acceptedHits": 0,
+        "directHits": 0,
         "rejectedTitleHits": 0,
         "territorialStrength": "FUERTE"
       },
@@ -1961,10 +1949,10 @@
     "interpretation": "auditoría sobre eventos aceptados; la próxima capa debe instrumentar rechazos antes del clustering"
   },
   "stats": {
-    "total": 25,
-    "direct": 25,
+    "total": 24,
+    "direct": 24,
     "regional": 0,
-    "new": 1,
+    "new": 0,
     "sources": 13,
     "directSignals": 0,
     "localDirectSignals": 0,
@@ -1975,11 +1963,11 @@
   "environment": {
     "weather": {
       "dataType": "forecast",
-      "forecastWindKmh": 27.0,
-      "forecastGustKmh": 44.0,
-      "forecastWindDirection": "SO",
-      "forecastTemperatureC": 25.0,
-      "retrievedAt": "2026-11-06T09:44:11.128873+00:00",
+      "forecastWindKmh": 34.0,
+      "forecastGustKmh": 38.0,
+      "forecastWindDirection": "SE",
+      "forecastTemperatureC": 16.0,
+      "retrievedAt": "2026-11-06T17:16:36.490659+00:00",
       "source": "AIC",
       "sourceTier": "primary",
       "sourceUrl": "https://www.aic.gob.ar/sitio/home?a=1015&z=1967225803",
@@ -1988,28 +1976,28 @@
     "hydrology": {
       "site": "El Chañar",
       "flowType": "programmed_outflow",
-      "erogatedM3s": 409,
+      "erogatedM3s": 390,
       "programmedMaxM3s": [
-        380,
-        370,
-        370,
-        370,
-        370,
-        370
+        410,
+        410,
+        410,
+        410,
+        410,
+        410
       ],
       "programmedMinM3s": [
-        360,
-        350,
-        350,
-        350,
-        350,
-        350
+        390,
+        390,
+        390,
+        390,
+        390,
+        390
       ],
-      "currentProgrammedMaxM3s": 380,
-      "currentProgrammedMinM3s": 360,
+      "currentProgrammedMaxM3s": 410,
+      "currentProgrammedMinM3s": 390,
       "programDate": "2026-11-07",
       "tableDate": "2026-11-06",
-      "retrievedAt": "2026-11-06T09:44:11.128873+00:00",
+      "retrievedAt": "2026-11-06T17:16:36.490659+00:00",
       "source": "AIC",
       "sourceTier": "primary",
       "sourceUrl": "https://www.aic.gob.ar/sitio/caudales",
@@ -2029,17 +2017,17 @@
         "url": "https://www.aic.gob.ar/sitio/caudales"
       }
     ],
-    "updatedAt": "2026-11-06T09:44:11.128873+00:00"
+    "updatedAt": "2026-11-06T17:16:36.490659+00:00"
   },
   "operational": {
-    "updatedAt": "2026-11-06T09:44:11.128873+00:00",
+    "updatedAt": "2026-11-06T17:16:36.490659+00:00",
     "route7": {
       "source": "Dirección Provincial de Vialidad",
       "sourceTier": "primary",
       "sourceUrl": "https://www.dpvneuquen.gov.ar/",
       "semanticState": null,
       "publicationState": "source_reachable_no_current_machine_readable_state",
-      "retrievedAt": "2026-11-06T09:44:11.128873+00:00",
+      "retrievedAt": "2026-11-06T17:16:36.490659+00:00",
       "evidence": {
         "route7Mention": true,
         "route8Mention": false
@@ -2051,7 +2039,7 @@
       "sourceUrl": "https://www.dpvneuquen.gov.ar/",
       "semanticState": null,
       "publicationState": "source_reachable_no_current_machine_readable_state",
-      "retrievedAt": "2026-11-06T09:44:11.128873+00:00",
+      "retrievedAt": "2026-11-06T17:16:36.490659+00:00",
       "evidence": {
         "route7Mention": true,
         "route8Mention": false
@@ -2065,7 +2053,7 @@
       "eventType": null,
       "detail": null,
       "publicationState": "source_reachable_no_specific_local_notice",
-      "retrievedAt": "2026-11-06T09:44:11.128873+00:00"
+      "retrievedAt": "2026-11-06T17:16:36.490659+00:00"
     },
     "water": {
       "source": "EPAS",
@@ -2075,7 +2063,7 @@
       "eventType": null,
       "detail": null,
       "publicationState": "source_reachable_no_specific_local_notice",
-      "retrievedAt": "2026-11-06T09:44:11.128873+00:00"
+      "retrievedAt": "2026-11-06T17:16:36.490659+00:00"
     },
     "sources": [
       {
@@ -2485,11 +2473,11 @@
     {
       "id": "CONVERSACIÓN",
       "label": "Conversación general",
-      "signal": 10,
+      "signal": 9,
       "status": "cobertura editorial",
-      "freshnessHours": 56.1,
+      "freshnessHours": 63.6,
       "mode": "evidencia editorial",
-      "evidenceCount": 10,
+      "evidenceCount": 9,
       "sourceContract": {
         "primary": "medios locales identificables",
         "secondary": "fuentes institucionales competentes",
@@ -2567,7 +2555,7 @@
         "sourceUrl": "https://www.dpvneuquen.gov.ar/",
         "semanticState": null,
         "publicationState": "source_reachable_no_current_machine_readable_state",
-        "retrievedAt": "2026-11-06T09:44:11.128873+00:00",
+        "retrievedAt": "2026-11-06T17:16:36.490659+00:00",
         "evidence": {
           "route7Mention": true,
           "route8Mention": false
@@ -2619,7 +2607,7 @@
         "sourceUrl": "https://www.dpvneuquen.gov.ar/",
         "semanticState": null,
         "publicationState": "source_reachable_no_current_machine_readable_state",
-        "retrievedAt": "2026-11-06T09:44:11.128873+00:00",
+        "retrievedAt": "2026-11-06T17:16:36.490659+00:00",
         "evidence": {
           "route7Mention": true,
           "route8Mention": false
@@ -2629,7 +2617,7 @@
     {
       "id": "VIENTO",
       "label": "Condición de viento",
-      "signal": 27.0,
+      "signal": 34.0,
       "status": "pronóstico local",
       "freshnessHours": null,
       "mode": "DATO DIRECTO",
@@ -2719,7 +2707,7 @@
         "eventType": null,
         "detail": null,
         "publicationState": "source_reachable_no_specific_local_notice",
-        "retrievedAt": "2026-11-06T09:44:11.128873+00:00"
+        "retrievedAt": "2026-11-06T17:16:36.490659+00:00"
       }
     },
     {
@@ -2769,7 +2757,7 @@
         "eventType": null,
         "detail": null,
         "publicationState": "source_reachable_no_specific_local_notice",
-        "retrievedAt": "2026-11-06T09:44:11.128873+00:00"
+        "retrievedAt": "2026-11-06T17:16:36.490659+00:00"
       }
     },
     {
@@ -2777,7 +2765,7 @@
       "label": "Servicios e infraestructura",
       "signal": 1,
       "status": "evidencia de servicio",
-      "freshnessHours": 234.4,
+      "freshnessHours": 241.9,
       "mode": "evidencia editorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -2857,7 +2845,7 @@
       "label": "Educación",
       "signal": 1,
       "status": "evidencia educativa",
-      "freshnessHours": 970.7,
+      "freshnessHours": 978.2,
       "mode": "evidencia editorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -2895,11 +2883,11 @@
     {
       "id": "PRODUCCIÓN",
       "label": "Producción rural",
-      "signal": 1,
+      "signal": 0,
       "status": "evidencia productiva",
-      "freshnessHours": 329.2,
+      "freshnessHours": null,
       "mode": "evidencia editorial",
-      "evidenceCount": 1,
+      "evidenceCount": 0,
       "sourceContract": {
         "primary": "Ministerio de Producción e Industria del Neuquén",
         "secondary": "organismo provincial productivo competente",
@@ -2937,7 +2925,7 @@
       "label": "Seguridad / emergencias",
       "signal": 1,
       "status": "cobertura de emergencia",
-      "freshnessHours": 56.2,
+      "freshnessHours": 63.8,
       "mode": "evidencia editorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -3034,7 +3022,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://chanardigital.com.ar/",
-        "lastFetch": "2026-11-06T09:44:13.071917+00:00",
+        "lastFetch": "2026-11-06T17:16:39.204364+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3050,7 +3038,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.radiomia.com.ar/",
-        "lastFetch": "2026-11-06T09:44:14.009983+00:00",
+        "lastFetch": "2026-11-06T17:16:40.448185+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -3065,7 +3053,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://tuitvacamuerta.com/",
-        "lastFetch": "2026-11-06T09:44:15.626404+00:00",
+        "lastFetch": "2026-11-06T17:16:42.139638+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -3080,7 +3068,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.vacamuertanews.com/",
-        "lastFetch": "2026-11-06T09:44:15.856167+00:00",
+        "lastFetch": "2026-11-06T17:16:43.002502+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3096,7 +3084,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.neuqueninforma.gob.ar/",
-        "lastFetch": "2026-11-06T09:44:16.639038+00:00",
+        "lastFetch": "2026-11-06T17:16:44.551614+00:00",
         "success": false,
         "attempted": 3,
         "failures": [
@@ -3113,7 +3101,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://sanpatricio.gob.ar/",
-        "lastFetch": "2026-11-06T09:44:17.492108+00:00",
+        "lastFetch": "2026-11-06T17:16:45.515100+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -3128,7 +3116,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://boletinoficial.neuquen.gov.ar/",
-        "lastFetch": "2026-11-06T09:44:18.277783+00:00",
+        "lastFetch": "2026-11-06T17:16:46.387159+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -3143,7 +3131,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.lmneuquen.com/",
-        "lastFetch": "2026-11-06T09:44:18.479229+00:00",
+        "lastFetch": "2026-11-06T17:16:46.632641+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3159,7 +3147,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.rionegro.com.ar/",
-        "lastFetch": "2026-11-06T09:44:19.620391+00:00",
+        "lastFetch": "2026-11-06T17:16:48.906778+00:00",
         "success": true,
         "attempted": 2,
         "failures": [
@@ -3174,7 +3162,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.mejorinformado.com/",
-        "lastFetch": "2026-11-06T09:44:20.061653+00:00",
+        "lastFetch": "2026-11-06T17:16:49.915055+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3190,7 +3178,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.diariamenteneuquen.com/",
-        "lastFetch": "2026-11-06T09:44:20.659012+00:00",
+        "lastFetch": "2026-11-06T17:16:50.879723+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3217,7 +3205,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SERVICIOS",
-      "movement": 75,
+      "movement": 73,
       "coverage": 12,
       "sourceCount": 8,
       "directSourceCount": 0,
@@ -3394,6 +3382,7 @@
       "movementDelta": -2,
       "previousCoverage": 12,
       "newSources": [
+        "Chañar Digital",
         "Patagonia Press",
         "Minuto Neuquén",
         "Diario Neuquino",
@@ -3442,7 +3431,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "EDUCACIÓN",
-      "movement": 61,
+      "movement": 59,
       "coverage": 2,
       "sourceCount": 2,
       "directSourceCount": 0,
@@ -3470,7 +3459,7 @@
           "relevance": 3,
           "relevanceLabel": "DIRECTA",
           "firstSeen": "2026-11-06T09:44:29.910466+00:00",
-          "isNew": true,
+          "isNew": false,
           "titleKey": "educacion ambiental reunio 350 estudiantes instante",
           "evidenceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOMC14ZjBESGNEVkk3WERIUkZFVTU3VGt1X0pKOGVTXzE3SklrTnRfX05yTUlGakZtclZNdWpRWVl0NkRGNzdOV0EwRGFaeHEyYTdOeEFxa01UNGV6X2p5bE5NRlIzOF9zd0pLVFhXSy15ZVFFeFJJSUplQmNRdnJOUDQ5UTJPM3pOVk1Ja21aRE1zakZmdVJqdVJYeUd2SDcyMWNNZk5oX3hpWnlqRlZwQXhGVVVOWll1V1lpbTQ4SERJVUg1R0F0SUFBQW5NbkFSV3hkedIB2gFBVV95cUxNdGEzYUsxNDdvbXA3YjFEbU9ISElEMHhhanplUXlTN2tFUHM2Wl9Kb24wZms3Z2xxU21QbzlpVE9RSUtsQ2ZKeFctWlJRNW5tcTdndlR6b0g1eFZieU5kMElJaWdKSzA5WEdMQzJTaXVfcXZOcHNnc1RkbHNVa3pHX21YZGVLNHJjSGI1ZVhUNmFzd3dhYnBCWWtFOUFISTZKN2dPYmp1Ti1Ub1BhUm1qbVVuTUF5Qnl4ZXBZLU5oSnFXeGlIWFJ0aVl2N0VvZVh4cHJONDNLajRiUQ?oc=5",
           "sourcePriority": 3
@@ -3496,11 +3485,9 @@
         }
       ],
       "lifecycle": "SOSTENIDO",
-      "movementDelta": -1,
+      "movementDelta": -2,
       "previousCoverage": 2,
-      "newSources": [
-        "Neuquén al instante"
-      ],
+      "newSources": [],
       "sourceDiversity": 2,
       "memoryMatched": true,
       "isNew": false,
@@ -3542,7 +3529,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SEGURIDAD / EMERGENCIAS",
-      "movement": 46,
+      "movement": 44,
       "coverage": 1,
       "sourceCount": 1,
       "directSourceCount": 0,
@@ -3806,9 +3793,9 @@
     {
       "eventId": "CHA-45db1e787c52",
       "title": "Un narco incorregible: tenía prisión domiciliaria y se armó un \"kiosco\" en San Patricio del Chañar - Lmneuquen.com",
-      "publishedAt": "2026-10-29T09:35:00+00:00",
+      "publishedAt": "2026-10-29T07:00:00+00:00",
       "firstSeen": "2026-11-02T01:23:58.390470+00:00",
-      "lastSeen": "2026-10-29T09:35:00+00:00",
+      "lastSeen": "2026-10-29T07:00:00+00:00",
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
@@ -3829,8 +3816,8 @@
         {
           "title": "Un narco incorregible: tenía prisión domiciliaria y se armó un \"kiosco\" en San Patricio del Chañar - Lmneuquen.com",
           "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPejFCX2kxWHptT2VYZW5PQy11MTJPVk50U1EtbmlUZUg5N2RRZXNBRHk2bnM3b0lTNHBQa2pxVTItQ0NUZE9aaUdhRU4xNWxoZ193WTFHb3lFY3ViWHJxaVZ5LUYteWt6aUxTbHhoT3FtQ3VOaUZWUXMtTHNONjh1OV9xQktGenQxX2JzQzFIWDd5VVMxQmFVOFVaYl9PYlk3YmdlM2Q1bHE0YVRrM1I2cGhtT28zU2VLMHhGT3IySmozOHRjN2NWNXV5Sm8tMk5FVzFMTNIB2gFBVV95cUxPWVg1NG9jSGVBN1hjbzZUX1dQcVhvTjhXYVNoUmdHU1FIM0tGOHVBS0ZTRGhYQy1UVmFJal9acTV5SUxEZ1BaZEp6MnFfcy1VeEVhSjBla1YtUkQwZ0dpWVZXeTRNU3VIRGJWcE9CTFZXR3Q5c0x4U2FMVjdMa0xuelNRZzU1eFlYZWZLdkNVbGoxcFFfQ2lEcmp1bUpwbnU1WENqYjNrcG55NWtPczJSTGVQN0Zpb0l2bk1RQW9mNWtaRGdzX21iUlE1TDA2ekV1dEdRVXY0UTlnUQ?oc=5",
-          "publishedAt": "2026-10-29T09:35:00+00:00",
-          "published": "2026-10-29T09:35:00+00:00",
+          "publishedAt": "2026-10-29T07:00:00+00:00",
+          "published": "2026-10-29T07:00:00+00:00",
           "description": "<a href=\"https://news.google.com/rss/articles/CBMi1AFBVV95cUxPejFCX2kxWHptT2VYZW5PQy11MTJPVk50U1EtbmlUZUg5N2RRZXNBRHk2bnM3b0lTNHBQa2pxVTItQ0NUZE9aaUdhRU4xNWxoZ193WTFHb3lFY3ViWHJxaVZ5LUYteWt6aUxTbHhoT3FtQ3VOaUZWUXMtTHNONjh1OV9xQktGenQxX2JzQzFIWDd5VVMxQmFVOFVaYl9PYlk3YmdlM2Q1bHE0YVRrM1I2cGhtT28zU2VLMHhGT3IySmozOHRjN2NWNXV5Sm8tMk5FVzFMTNIB2gFBVV95cUxPWVg1NG9jSGVBN1hjbzZUX1dQcVhvTjhXYVNoUmdHU1FIM0tGOHVBS0ZTRGhYQy1UVmFJal9acTV5SUxEZ1BaZEp6MnFfcy1VeEVhSjBla1YtUkQwZ0dpWVZXeTRNU3VIRGJWcE9CTFZXR3Q5c0x4U2FMVjdMa0xuelNRZzU1eFlYZWZLdkNVbGoxcFFfQ2lEcmp1bUpwbnU1WENqYjNrcG55NWtPczJSTGVQN0Zpb0l2bk1RQW9mNWtaRGdzX21iUlE1TDA2ekV1dEdRVXY0UTlnUQ?oc=5\" target=\"_blank\">Un narco incorregible: tenía prisión domiciliaria y se armó un \"kiosco\" en San Patricio del Chañar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Lmneuquen.com</font>",
           "source": "Lmneuquen.com",
           "sourceType": "BUSCADOR / RESPALDO",
@@ -4039,93 +4026,6 @@
             "node": "San Patricio del Chañar",
             "level": "localidad",
             "evidence": "DIRECTA"
-          }
-        ]
-      }
-    },
-    {
-      "eventId": "CHA-b816538f7fd0",
-      "title": "Bodega Familia Schroeder llevó una selección de sus vinos a la AOG Patagonia 2026 - Lmneuquen.com",
-      "publishedAt": "2026-10-23T16:35:00+00:00",
-      "firstSeen": "2026-11-02T01:23:58.390470+00:00",
-      "lastSeen": "2026-10-23T16:35:00+00:00",
-      "relevance": 3,
-      "relevanceLabel": "DIRECTA",
-      "incidenceLabel": "DIRECTA EN CHANAR",
-      "topic": "PRODUCCIÓN",
-      "movement": 16,
-      "coverage": 1,
-      "sourceCount": 1,
-      "directSourceCount": 0,
-      "territorialAnchors": [
-        "bodega familia schroeder"
-      ],
-      "sources": [
-        "Lmneuquen.com"
-      ],
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQbDRGdHZNMDljbG5wbF9nY2hVZlA3VEZ4aVpYX04tTmxXWk5LTVNYZWhESWRBOVZmZENIVEM5S1ZqaHhxZFhvcmVGSW5JblBudUNkSkZZZXVpd0ZrTDFxbUNmaUNGbTQ3MnJhNW8tZWZXUGxvOG5yVVlsRkpEaEo2dzQ1RWFUN0pnOGs2N1MwNGNMSVFEXzdvOXd0Y25OT2lvWHRrY2xYaVNiWXRfbzVxSktQcmFrME9PdXlkcndpQnVzd9IBxwFBVV95cUxPRy1nRGVNbUZ2cl9Sd1hzNDEyeENiMi1xdkJaNF9TaWU5UFBzaEFBUTV6RGVNQ09kaVBhWXpCSlR4YTFXMzVqQUtZRGg1REJMWFhscmRVMGNWNmFXbGFLR00xMWZBbGl6Yk1KbncwemJvN1dLdUFMX0Eyb0lqS2lmaWJnZ21NWDcxeHBWN0dWaXZzX2JYbjE2NGR3b09UUU9JZXdVOXpJNERxanhRekE2NkVlRjh6U0NYVGc2NmNUTlVzRkpkdHpV?oc=5",
-      "items": [
-        {
-          "title": "Bodega Familia Schroeder llevó una selección de sus vinos a la AOG Patagonia 2026 - Lmneuquen.com",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQbDRGdHZNMDljbG5wbF9nY2hVZlA3VEZ4aVpYX04tTmxXWk5LTVNYZWhESWRBOVZmZENIVEM5S1ZqaHhxZFhvcmVGSW5JblBudUNkSkZZZXVpd0ZrTDFxbUNmaUNGbTQ3MnJhNW8tZWZXUGxvOG5yVVlsRkpEaEo2dzQ1RWFUN0pnOGs2N1MwNGNMSVFEXzdvOXd0Y25OT2lvWHRrY2xYaVNiWXRfbzVxSktQcmFrME9PdXlkcndpQnVzd9IBxwFBVV95cUxPRy1nRGVNbUZ2cl9Sd1hzNDEyeENiMi1xdkJaNF9TaWU5UFBzaEFBUTV6RGVNQ09kaVBhWXpCSlR4YTFXMzVqQUtZRGg1REJMWFhscmRVMGNWNmFXbGFLR00xMWZBbGl6Yk1KbncwemJvN1dLdUFMX0Eyb0lqS2lmaWJnZ21NWDcxeHBWN0dWaXZzX2JYbjE2NGR3b09UUU9JZXdVOXpJNERxanhRekE2NkVlRjh6U0NYVGc2NmNUTlVzRkpkdHpV?oc=5",
-          "publishedAt": "2026-10-23T16:35:00+00:00",
-          "published": "2026-10-23T16:35:00+00:00",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMiwgFBVV95cUxQbDRGdHZNMDljbG5wbF9nY2hVZlA3VEZ4aVpYX04tTmxXWk5LTVNYZWhESWRBOVZmZENIVEM5S1ZqaHhxZFhvcmVGSW5JblBudUNkSkZZZXVpd0ZrTDFxbUNmaUNGbTQ3MnJhNW8tZWZXUGxvOG5yVVlsRkpEaEo2dzQ1RWFUN0pnOGs2N1MwNGNMSVFEXzdvOXd0Y25OT2lvWHRrY2xYaVNiWXRfbzVxSktQcmFrME9PdXlkcndpQnVzd9IBxwFBVV95cUxPRy1nRGVNbUZ2cl9Sd1hzNDEyeENiMi1xdkJaNF9TaWU5UFBzaEFBUTV6RGVNQ09kaVBhWXpCSlR4YTFXMzVqQUtZRGg1REJMWFhscmRVMGNWNmFXbGFLR00xMWZBbGl6Yk1KbncwemJvN1dLdUFMX0Eyb0lqS2lmaWJnZ21NWDcxeHBWN0dWaXZzX2JYbjE2NGR3b09UUU9JZXdVOXpJNERxanhRekE2NkVlRjh6U0NYVGc2NmNUTlVzRkpkdHpV?oc=5\" target=\"_blank\">Bodega Familia Schroeder llevó una selección de sus vinos a la AOG Patagonia 2026</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Lmneuquen.com</font>",
-          "source": "Lmneuquen.com",
-          "sourceType": "BUSCADOR / RESPALDO",
-          "sourceUrl": "",
-          "collection": "BUSCADOR",
-          "query": "\"San Patricio del Chañar\"",
-          "relevance": 3,
-          "relevanceLabel": "DIRECTA",
-          "firstSeen": "2026-11-02T01:23:58.390470+00:00",
-          "isNew": false,
-          "titleKey": "bodega familia schroeder llevo seleccion sus vinos aog patagonia 2026 lmneuquen com",
-          "evidenceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQbDRGdHZNMDljbG5wbF9nY2hVZlA3VEZ4aVpYX04tTmxXWk5LTVNYZWhESWRBOVZmZENIVEM5S1ZqaHhxZFhvcmVGSW5JblBudUNkSkZZZXVpd0ZrTDFxbUNmaUNGbTQ3MnJhNW8tZWZXUGxvOG5yVVlsRkpEaEo2dzQ1RWFUN0pnOGs2N1MwNGNMSVFEXzdvOXd0Y25OT2lvWHRrY2xYaVNiWXRfbzVxSktQcmFrME9PdXlkcndpQnVzd9IBxwFBVV95cUxPRy1nRGVNbUZ2cl9Sd1hzNDEyeENiMi1xdkJaNF9TaWU5UFBzaEFBUTV6RGVNQ09kaVBhWXpCSlR4YTFXMzVqQUtZRGg1REJMWFhscmRVMGNWNmFXbGFLR00xMWZBbGl6Yk1KbncwemJvN1dLdUFMX0Eyb0lqS2lmaWJnZ21NWDcxeHBWN0dWaXZzX2JYbjE2NGR3b09UUU9JZXdVOXpJNERxanhRekE2NkVlRjh6U0NYVGc2NmNUTlVzRkpkdHpV?oc=5",
-          "sourcePriority": 3
-        }
-      ],
-      "lifecycle": "ACTIVO",
-      "movementDelta": 0,
-      "previousCoverage": 0,
-      "newSources": [
-        "Lmneuquen.com"
-      ],
-      "sourceDiversity": 1,
-      "memoryMatched": false,
-      "isNew": true,
-      "view": "INCIDENCIA",
-      "incidenceEligible": true,
-      "signalReason": "reservado a incidencia territorial",
-      "incidenceReason": "anclaje directo + tema operativo/local",
-      "territory": {
-        "version": "2.0",
-        "primary": "San Patricio del Chañar",
-        "nodes": [
-          "San Patricio del Chañar",
-          "Bodegas y viñedos"
-        ],
-        "sectors": [],
-        "barrios": [],
-        "microzones": [],
-        "corridors": [],
-        "institutions": [],
-        "services": [],
-        "spaces": [],
-        "production": [
-          "Bodegas y viñedos"
-        ],
-        "path": "San Patricio del Chañar → Bodegas y viñedos",
-        "evidence": [
-          {
-            "node": "San Patricio del Chañar",
-            "level": "localidad",
-            "evidence": "DIRECTA"
-          },
-          {
-            "node": "Bodegas y viñedos",
-            "level": "produccion",
-            "evidence": "TEXTUAL"
           }
         ]
       }
@@ -4470,7 +4370,7 @@
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "firstSeen": "2026-11-06T09:44:29.910466+00:00",
-      "isNew": true,
+      "isNew": false,
       "titleKey": "educacion ambiental reunio 350 estudiantes instante",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOMC14ZjBESGNEVkk3WERIUkZFVTU3VGt1X0pKOGVTXzE3SklrTnRfX05yTUlGakZtclZNdWpRWVl0NkRGNzdOV0EwRGFaeHEyYTdOeEFxa01UNGV6X2p5bE5NRlIzOF9zd0pLVFhXSy15ZVFFeFJJSUplQmNRdnJOUDQ5UTJPM3pOVk1Ja21aRE1zakZmdVJqdVJYeUd2SDcyMWNNZk5oX3hpWnlqRlZwQXhGVVVOWll1V1lpbTQ4SERJVUg1R0F0SUFBQW5NbkFSV3hkedIB2gFBVV95cUxNdGEzYUsxNDdvbXA3YjFEbU9ISElEMHhhanplUXlTN2tFUHM2Wl9Kb24wZms3Z2xxU21QbzlpVE9RSUtsQ2ZKeFctWlJRNW5tcTdndlR6b0g1eFZieU5kMElJaWdKSzA5WEdMQzJTaXVfcXZOcHNnc1RkbHNVa3pHX21YZGVLNHJjSGI1ZVhUNmFzd3dhYnBCWWtFOUFISTZKN2dPYmp1Ti1Ub1BhUm1qbVVuTUF5Qnl4ZXBZLU5oSnFXeGlIWFJ0aVl2N0VvZVh4cHJONDNLajRiUQ?oc=5",
       "sourcePriority": 3
@@ -4687,8 +4587,8 @@
     {
       "title": "Un narco incorregible: tenía prisión domiciliaria y se armó un \"kiosco\" en San Patricio del Chañar - Lmneuquen.com",
       "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPejFCX2kxWHptT2VYZW5PQy11MTJPVk50U1EtbmlUZUg5N2RRZXNBRHk2bnM3b0lTNHBQa2pxVTItQ0NUZE9aaUdhRU4xNWxoZ193WTFHb3lFY3ViWHJxaVZ5LUYteWt6aUxTbHhoT3FtQ3VOaUZWUXMtTHNONjh1OV9xQktGenQxX2JzQzFIWDd5VVMxQmFVOFVaYl9PYlk3YmdlM2Q1bHE0YVRrM1I2cGhtT28zU2VLMHhGT3IySmozOHRjN2NWNXV5Sm8tMk5FVzFMTNIB2gFBVV95cUxPWVg1NG9jSGVBN1hjbzZUX1dQcVhvTjhXYVNoUmdHU1FIM0tGOHVBS0ZTRGhYQy1UVmFJal9acTV5SUxEZ1BaZEp6MnFfcy1VeEVhSjBla1YtUkQwZ0dpWVZXeTRNU3VIRGJWcE9CTFZXR3Q5c0x4U2FMVjdMa0xuelNRZzU1eFlYZWZLdkNVbGoxcFFfQ2lEcmp1bUpwbnU1WENqYjNrcG55NWtPczJSTGVQN0Zpb0l2bk1RQW9mNWtaRGdzX21iUlE1TDA2ekV1dEdRVXY0UTlnUQ?oc=5",
-      "publishedAt": "2026-10-29T09:35:00+00:00",
-      "published": "2026-10-29T09:35:00+00:00",
+      "publishedAt": "2026-10-29T07:00:00+00:00",
+      "published": "2026-10-29T07:00:00+00:00",
       "description": "<a href=\"https://news.google.com/rss/articles/CBMi1AFBVV95cUxPejFCX2kxWHptT2VYZW5PQy11MTJPVk50U1EtbmlUZUg5N2RRZXNBRHk2bnM3b0lTNHBQa2pxVTItQ0NUZE9aaUdhRU4xNWxoZ193WTFHb3lFY3ViWHJxaVZ5LUYteWt6aUxTbHhoT3FtQ3VOaUZWUXMtTHNONjh1OV9xQktGenQxX2JzQzFIWDd5VVMxQmFVOFVaYl9PYlk3YmdlM2Q1bHE0YVRrM1I2cGhtT28zU2VLMHhGT3IySmozOHRjN2NWNXV5Sm8tMk5FVzFMTNIB2gFBVV95cUxPWVg1NG9jSGVBN1hjbzZUX1dQcVhvTjhXYVNoUmdHU1FIM0tGOHVBS0ZTRGhYQy1UVmFJal9acTV5SUxEZ1BaZEp6MnFfcy1VeEVhSjBla1YtUkQwZ0dpWVZXeTRNU3VIRGJWcE9CTFZXR3Q5c0x4U2FMVjdMa0xuelNRZzU1eFlYZWZLdkNVbGoxcFFfQ2lEcmp1bUpwbnU1WENqYjNrcG55NWtPczJSTGVQN0Zpb0l2bk1RQW9mNWtaRGdzX21iUlE1TDA2ekV1dEdRVXY0UTlnUQ?oc=5\" target=\"_blank\">Un narco incorregible: tenía prisión domiciliaria y se armó un \"kiosco\" en San Patricio del Chañar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Lmneuquen.com</font>",
       "source": "Lmneuquen.com",
       "sourceType": "BUSCADOR / RESPALDO",
@@ -4873,30 +4773,11 @@
       "titleKey": "atletico regina goleo resultados tercera ronda regional amateur diario rio negro",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOekFUdW5Bc1paVmNkSVpLTm9EYlVTeEdpSGNtSThCX0FDVWF5M2Y2YnlJY1hwTTNMcEFOMHhjbDJXX1hOSVo3VE1ZUlRHdG5NbmZIcTRXdFZsN1p5V3pFSGZ6OVdrWEtmVVRoUW4xT3dZMEpKbVhZc3lzcW5hamRFS3BZaE9vdmZjY3BUYnpGbmNaU0lZUm1KRy01N0RoVXA1aENQSU14OUZCQW92SlpRcmtKUHBrSWFldW5OU0lpR2VDSGZGT0pWVVd6Z3RWSnhhRXpqcG1VZVcxWW5RWXhzaDZ5UdIB6wFBVV95cUxQRlA1Wllpb0hBMm9sME5ULUxIaUt0QWdmUXNzcWh4bFo4eXhVaEZnV0VZLVZKS0J6MjFnTWQ3OWhYY3Q3VmlLLWlNN1d3YjdGMDc0QXVLMGlyQktvU1dFQ3VEWUJnYlJnSUZFOHBLYkxFelBORkhlQzBrRDY3ajhTS0wyX2pGUzk5UllraW02ZG1fQ3VqZHRpQndhQXpWVFY4UzdjN0JaZHdFVUVyVzFxcTdMSHk5dk45c2Y4eUtJTm14dXJvUVZoZXI5OFh1cWdqNk55X3RsOHdMS1Z3TVZTR2lFNUZIWFBiUjdZ?oc=5",
       "sourcePriority": 3
-    },
-    {
-      "title": "Bodega Familia Schroeder llevó una selección de sus vinos a la AOG Patagonia 2026 - Lmneuquen.com",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQbDRGdHZNMDljbG5wbF9nY2hVZlA3VEZ4aVpYX04tTmxXWk5LTVNYZWhESWRBOVZmZENIVEM5S1ZqaHhxZFhvcmVGSW5JblBudUNkSkZZZXVpd0ZrTDFxbUNmaUNGbTQ3MnJhNW8tZWZXUGxvOG5yVVlsRkpEaEo2dzQ1RWFUN0pnOGs2N1MwNGNMSVFEXzdvOXd0Y25OT2lvWHRrY2xYaVNiWXRfbzVxSktQcmFrME9PdXlkcndpQnVzd9IBxwFBVV95cUxPRy1nRGVNbUZ2cl9Sd1hzNDEyeENiMi1xdkJaNF9TaWU5UFBzaEFBUTV6RGVNQ09kaVBhWXpCSlR4YTFXMzVqQUtZRGg1REJMWFhscmRVMGNWNmFXbGFLR00xMWZBbGl6Yk1KbncwemJvN1dLdUFMX0Eyb0lqS2lmaWJnZ21NWDcxeHBWN0dWaXZzX2JYbjE2NGR3b09UUU9JZXdVOXpJNERxanhRekE2NkVlRjh6U0NYVGc2NmNUTlVzRkpkdHpV?oc=5",
-      "publishedAt": "2026-10-23T16:35:00+00:00",
-      "published": "2026-10-23T16:35:00+00:00",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMiwgFBVV95cUxQbDRGdHZNMDljbG5wbF9nY2hVZlA3VEZ4aVpYX04tTmxXWk5LTVNYZWhESWRBOVZmZENIVEM5S1ZqaHhxZFhvcmVGSW5JblBudUNkSkZZZXVpd0ZrTDFxbUNmaUNGbTQ3MnJhNW8tZWZXUGxvOG5yVVlsRkpEaEo2dzQ1RWFUN0pnOGs2N1MwNGNMSVFEXzdvOXd0Y25OT2lvWHRrY2xYaVNiWXRfbzVxSktQcmFrME9PdXlkcndpQnVzd9IBxwFBVV95cUxPRy1nRGVNbUZ2cl9Sd1hzNDEyeENiMi1xdkJaNF9TaWU5UFBzaEFBUTV6RGVNQ09kaVBhWXpCSlR4YTFXMzVqQUtZRGg1REJMWFhscmRVMGNWNmFXbGFLR00xMWZBbGl6Yk1KbncwemJvN1dLdUFMX0Eyb0lqS2lmaWJnZ21NWDcxeHBWN0dWaXZzX2JYbjE2NGR3b09UUU9JZXdVOXpJNERxanhRekE2NkVlRjh6U0NYVGc2NmNUTlVzRkpkdHpV?oc=5\" target=\"_blank\">Bodega Familia Schroeder llevó una selección de sus vinos a la AOG Patagonia 2026</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Lmneuquen.com</font>",
-      "source": "Lmneuquen.com",
-      "sourceType": "BUSCADOR / RESPALDO",
-      "sourceUrl": "",
-      "collection": "BUSCADOR",
-      "query": "\"San Patricio del Chañar\"",
-      "relevance": 3,
-      "relevanceLabel": "DIRECTA",
-      "firstSeen": "2026-11-02T01:23:58.390470+00:00",
-      "isNew": false,
-      "titleKey": "bodega familia schroeder llevo seleccion sus vinos aog patagonia 2026 lmneuquen com",
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQbDRGdHZNMDljbG5wbF9nY2hVZlA3VEZ4aVpYX04tTmxXWk5LTVNYZWhESWRBOVZmZENIVEM5S1ZqaHhxZFhvcmVGSW5JblBudUNkSkZZZXVpd0ZrTDFxbUNmaUNGbTQ3MnJhNW8tZWZXUGxvOG5yVVlsRkpEaEo2dzQ1RWFUN0pnOGs2N1MwNGNMSVFEXzdvOXd0Y25OT2lvWHRrY2xYaVNiWXRfbzVxSktQcmFrME9PdXlkcndpQnVzd9IBxwFBVV95cUxPRy1nRGVNbUZ2cl9Sd1hzNDEyeENiMi1xdkJaNF9TaWU5UFBzaEFBUTV6RGVNQ09kaVBhWXpCSlR4YTFXMzVqQUtZRGg1REJMWFhscmRVMGNWNmFXbGFLR00xMWZBbGl6Yk1KbncwemJvN1dLdUFMX0Eyb0lqS2lmaWJnZ21NWDcxeHBWN0dWaXZzX2JYbjE2NGR3b09UUU9JZXdVOXpJNERxanhRekE2NkVlRjh6U0NYVGc2NmNUTlVzRkpkdHpV?oc=5",
-      "sourcePriority": 3
     }
   ],
   "territorialGraph": {
     "version": "2.0",
-    "generatedAt": "2026-11-06T09:44:41.356599+00:00",
+    "generatedAt": "2026-11-06T17:17:11.460214+00:00",
     "root": "spc",
     "rule": "evidence-first",
     "levels": [
@@ -4923,7 +4804,7 @@
           "el chañar",
           "el chanar"
         ],
-        "eventCount": 10
+        "eventCount": 9
       },
       {
         "id": "rio-neuquen",
@@ -5395,7 +5276,7 @@
           "bodega del fin del mundo",
           "bodega malma"
         ],
-        "eventCount": 1
+        "eventCount": 0
       },
       {
         "id": "balneario",
@@ -5430,13 +5311,6 @@
       }
     ],
     "edges": [
-      {
-        "from": "bodegas",
-        "to": "spc",
-        "relation": "COOCURRENCIA_TEXTUAL",
-        "eventCount": 1,
-        "evidence": "menciones de ambos nodos dentro del mismo hecho"
-      },
       {
         "from": "bomberos",
         "to": "spc",
@@ -5475,10 +5349,6 @@
       "CHA-7a71d56a0d12": [
         "spc"
       ],
-      "CHA-b816538f7fd0": [
-        "spc",
-        "bodegas"
-      ],
       "CHA-8aa66f131026": [
         "spc"
       ],
@@ -5500,9 +5370,9 @@
     },
     "stats": {
       "nodes": 46,
-      "activeNodes": 4,
-      "edges": 3,
-      "eventsLinked": 10,
+      "activeNodes": 3,
+      "edges": 2,
+      "eventsLinked": 9,
       "eventsWithMicrozones": 0,
       "eventsWithBarrios": 0,
       "eventsWithSectors": 0,
@@ -5515,33 +5385,27 @@
         "barrio": 0,
         "institucion": 2,
         "servicio": 0,
-        "produccion": 1,
+        "produccion": 0,
         "espacio": 0
       }
     }
   },
   "audit": {
     "version": "1.0",
-    "updatedAt": "2026-11-06T09:44:41.400573+00:00",
+    "updatedAt": "2026-11-06T17:17:11.498113+00:00",
     "rule": "fact != coverage; territory requires textual evidence",
-    "facts": 10,
-    "coverage": 33,
-    "coveragePerFact": 3.3,
-    "directAnchorFacts": 10,
+    "facts": 9,
+    "coverage": 32,
+    "coveragePerFact": 3.56,
+    "directAnchorFacts": 9,
     "directAnchorPct": 100.0,
     "territorySpecificFacts": 2,
-    "territorySpecificPct": 20.0,
-    "averageSourcesPerFact": 2.4,
-    "activeTerritorialNodes": 4,
+    "territorySpecificPct": 22.2,
+    "averageSourcesPerFact": 2.56,
+    "activeTerritorialNodes": 3,
     "failedSources": 10,
-    "acceptedWithoutLocalEvidence": 1,
-    "examplesAcceptedWithoutLocalEvidence": [
-      {
-        "title": "Bodega Familia Schroeder llevó una selección de sus vinos a la AOG Patagonia 2026 - Lmneuquen.com",
-        "source": "Lmneuquen.com",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQbDRGdHZNMDljbG5wbF9nY2hVZlA3VEZ4aVpYX04tTmxXWk5LTVNYZWhESWRBOVZmZENIVEM5S1ZqaHhxZFhvcmVGSW5JblBudUNkSkZZZXVpd0ZrTDFxbUNmaUNGbTQ3MnJhNW8tZWZXUGxvOG5yVVlsRkpEaEo2dzQ1RWFUN0pnOGs2N1MwNGNMSVFEXzdvOXd0Y25OT2lvWHRrY2xYaVNiWXRfbzVxSktQcmFrME9PdXlkcndpQnVzd9IBxwFBVV95cUxPRy1nRGVNbUZ2cl9Sd1hzNDEyeENiMi1xdkJaNF9TaWU5UFBzaEFBUTV6RGVNQ09kaVBhWXpCSlR4YTFXMzVqQUtZRGg1REJMWFhscmRVMGNWNmFXbGFLR00xMWZBbGl6Yk1KbncwemJvN1dLdUFMX0Eyb0lqS2lmaWJnZ21NWDcxeHBWN0dWaXZzX2JYbjE2NGR3b09UUU9JZXdVOXpJNERxanhRekE2NkVlRjh6U0NYVGc2NmNUTlVzRkpkdHpV?oc=5"
-      }
-    ],
+    "acceptedWithoutLocalEvidence": 0,
+    "examplesAcceptedWithoutLocalEvidence": [],
     "interpretation": "auditoria técnica; no mide importancia, calidad periodística ni verdad del hecho"
   }
 }
