@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06T22:17:42.620628+00:00",
+  "updatedAt": "2026-11-07T02:16:00.315071+00:00",
   "window": "14 días",
   "purpose": "Detectar qué se está moviendo en San Patricio del Chañar y mostrar de dónde surge cada señal.",
   "architecture": "contrato universal de procedencia + fuentes profesionales + adaptadores específicos + validación semántica + temporalidad + evidencia editorial separada",
@@ -49,7 +49,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://chanardigital.com.ar/",
-      "lastFetch": "2026-11-06T22:17:23.953563+00:00",
+      "lastFetch": "2026-11-07T02:15:39.498029+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -65,7 +65,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.radiomia.com.ar/",
-      "lastFetch": "2026-11-06T22:17:24.883372+00:00",
+      "lastFetch": "2026-11-07T02:15:40.944936+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -80,7 +80,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://tuitvacamuerta.com/",
-      "lastFetch": "2026-11-06T22:17:26.843561+00:00",
+      "lastFetch": "2026-11-07T02:15:42.722911+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -95,7 +95,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.vacamuertanews.com/",
-      "lastFetch": "2026-11-06T22:17:27.271232+00:00",
+      "lastFetch": "2026-11-07T02:15:43.582817+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -111,7 +111,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.neuqueninforma.gob.ar/",
-      "lastFetch": "2026-11-06T22:17:28.170059+00:00",
+      "lastFetch": "2026-11-07T02:15:45.127163+00:00",
       "success": false,
       "attempted": 3,
       "failures": [
@@ -128,7 +128,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://sanpatricio.gob.ar/",
-      "lastFetch": "2026-11-06T22:17:29.004034+00:00",
+      "lastFetch": "2026-11-07T02:15:46.015137+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -143,7 +143,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://boletinoficial.neuquen.gov.ar/",
-      "lastFetch": "2026-11-06T22:17:29.766685+00:00",
+      "lastFetch": "2026-11-07T02:15:46.975295+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -158,7 +158,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.lmneuquen.com/",
-      "lastFetch": "2026-11-06T22:17:29.913377+00:00",
+      "lastFetch": "2026-11-07T02:15:47.210816+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -174,7 +174,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.rionegro.com.ar/",
-      "lastFetch": "2026-11-06T22:17:31.386306+00:00",
+      "lastFetch": "2026-11-07T02:15:50.167308+00:00",
       "success": true,
       "attempted": 2,
       "failures": [
@@ -189,7 +189,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.mejorinformado.com/",
-      "lastFetch": "2026-11-06T22:17:31.815872+00:00",
+      "lastFetch": "2026-11-07T02:15:50.982186+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -205,7 +205,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.diariamenteneuquen.com/",
-      "lastFetch": "2026-11-06T22:17:32.510772+00:00",
+      "lastFetch": "2026-11-07T02:15:51.999181+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -709,13 +709,13 @@
   "languageAudit": [
     {
       "term": "el chañar",
-      "hits": 24,
-      "direct": 24
+      "hits": 23,
+      "direct": 23
     },
     {
       "term": "san patricio del chañar",
-      "hits": 21,
-      "direct": 21
+      "hits": 20,
+      "direct": 20
     },
     {
       "term": "viñedos",
@@ -1116,8 +1116,8 @@
         "source": "Lmneuquen.com",
         "group": "OBSERVADA",
         "role": "fuente detectada fuera del catálogo",
-        "accepted": 2,
-        "direct": 2,
+        "accepted": 1,
+        "direct": 1,
         "anchored": 0,
         "falsePositives": 0,
         "falsePositiveTypes": [],
@@ -1425,18 +1425,6 @@
         ]
       },
       {
-        "source": "Lmneuquen.com",
-        "topic": "SERVICIOS",
-        "accepted": 2,
-        "direct": 2,
-        "anchored": 0,
-        "falsePositives": 0,
-        "territorialTerms": [
-          "san patricio del chañar",
-          "el chañar"
-        ]
-      },
-      {
         "source": "Minuto Neuquén",
         "topic": "SERVICIOS",
         "accepted": 2,
@@ -1519,6 +1507,18 @@
         "territorialTerms": [
           "el chañar",
           "san patricio del chañar"
+        ]
+      },
+      {
+        "source": "Lmneuquen.com",
+        "topic": "SERVICIOS",
+        "accepted": 1,
+        "direct": 1,
+        "anchored": 0,
+        "falsePositives": 0,
+        "territorialTerms": [
+          "san patricio del chañar",
+          "el chañar"
         ]
       },
       {
@@ -1609,8 +1609,8 @@
     "languagePrecision": [
       {
         "term": "san patricio del chañar",
-        "acceptedHits": 19,
-        "directHits": 19,
+        "acceptedHits": 18,
+        "directHits": 18,
         "rejectedTitleHits": 0,
         "territorialStrength": "FUERTE"
       },
@@ -1623,8 +1623,8 @@
       },
       {
         "term": "el chañar",
-        "acceptedHits": 22,
-        "directHits": 22,
+        "acceptedHits": 21,
+        "directHits": 21,
         "rejectedTitleHits": 0,
         "territorialStrength": "FUERTE"
       },
@@ -1949,8 +1949,8 @@
     "interpretation": "auditoría sobre eventos aceptados; la próxima capa debe instrumentar rechazos antes del clustering"
   },
   "stats": {
-    "total": 24,
-    "direct": 24,
+    "total": 23,
+    "direct": 23,
     "regional": 0,
     "new": 0,
     "sources": 13,
@@ -1967,7 +1967,7 @@
       "forecastGustKmh": 38.0,
       "forecastWindDirection": "SE",
       "forecastTemperatureC": 16.0,
-      "retrievedAt": "2026-11-06T22:17:21.752948+00:00",
+      "retrievedAt": "2026-11-07T02:15:37.370055+00:00",
       "source": "AIC",
       "sourceTier": "primary",
       "sourceUrl": "https://www.aic.gob.ar/sitio/home?a=1015&z=1967225803",
@@ -1995,9 +1995,9 @@
       ],
       "currentProgrammedMaxM3s": 410,
       "currentProgrammedMinM3s": 390,
-      "programDate": "2026-11-07",
-      "tableDate": "2026-11-06",
-      "retrievedAt": "2026-11-06T22:17:21.752948+00:00",
+      "programDate": "2026-11-08",
+      "tableDate": "2026-11-07",
+      "retrievedAt": "2026-11-07T02:15:37.370055+00:00",
       "source": "AIC",
       "sourceTier": "primary",
       "sourceUrl": "https://www.aic.gob.ar/sitio/caudales",
@@ -2017,17 +2017,17 @@
         "url": "https://www.aic.gob.ar/sitio/caudales"
       }
     ],
-    "updatedAt": "2026-11-06T22:17:21.752948+00:00"
+    "updatedAt": "2026-11-07T02:15:37.370055+00:00"
   },
   "operational": {
-    "updatedAt": "2026-11-06T22:17:21.752948+00:00",
+    "updatedAt": "2026-11-07T02:15:37.370055+00:00",
     "route7": {
       "source": "Dirección Provincial de Vialidad",
       "sourceTier": "primary",
       "sourceUrl": "https://www.dpvneuquen.gov.ar/",
       "semanticState": null,
       "publicationState": "source_reachable_no_current_machine_readable_state",
-      "retrievedAt": "2026-11-06T22:17:21.752948+00:00",
+      "retrievedAt": "2026-11-07T02:15:37.370055+00:00",
       "evidence": {
         "route7Mention": true,
         "route8Mention": false
@@ -2039,7 +2039,7 @@
       "sourceUrl": "https://www.dpvneuquen.gov.ar/",
       "semanticState": null,
       "publicationState": "source_reachable_no_current_machine_readable_state",
-      "retrievedAt": "2026-11-06T22:17:21.752948+00:00",
+      "retrievedAt": "2026-11-07T02:15:37.370055+00:00",
       "evidence": {
         "route7Mention": true,
         "route8Mention": false
@@ -2053,7 +2053,7 @@
       "eventType": null,
       "detail": null,
       "publicationState": "source_reachable_no_specific_local_notice",
-      "retrievedAt": "2026-11-06T22:17:21.752948+00:00"
+      "retrievedAt": "2026-11-07T02:15:37.370055+00:00"
     },
     "water": {
       "source": "EPAS",
@@ -2063,7 +2063,7 @@
       "eventType": null,
       "detail": null,
       "publicationState": "source_reachable_no_specific_local_notice",
-      "retrievedAt": "2026-11-06T22:17:21.752948+00:00"
+      "retrievedAt": "2026-11-07T02:15:37.370055+00:00"
     },
     "sources": [
       {
@@ -2475,7 +2475,7 @@
       "label": "Conversación general",
       "signal": 8,
       "status": "cobertura editorial",
-      "freshnessHours": 68.6,
+      "freshnessHours": 72.6,
       "mode": "evidencia editorial",
       "evidenceCount": 8,
       "sourceContract": {
@@ -2555,7 +2555,7 @@
         "sourceUrl": "https://www.dpvneuquen.gov.ar/",
         "semanticState": null,
         "publicationState": "source_reachable_no_current_machine_readable_state",
-        "retrievedAt": "2026-11-06T22:17:21.752948+00:00",
+        "retrievedAt": "2026-11-07T02:15:37.370055+00:00",
         "evidence": {
           "route7Mention": true,
           "route8Mention": false
@@ -2607,7 +2607,7 @@
         "sourceUrl": "https://www.dpvneuquen.gov.ar/",
         "semanticState": null,
         "publicationState": "source_reachable_no_current_machine_readable_state",
-        "retrievedAt": "2026-11-06T22:17:21.752948+00:00",
+        "retrievedAt": "2026-11-07T02:15:37.370055+00:00",
         "evidence": {
           "route7Mention": true,
           "route8Mention": false
@@ -2707,7 +2707,7 @@
         "eventType": null,
         "detail": null,
         "publicationState": "source_reachable_no_specific_local_notice",
-        "retrievedAt": "2026-11-06T22:17:21.752948+00:00"
+        "retrievedAt": "2026-11-07T02:15:37.370055+00:00"
       }
     },
     {
@@ -2757,7 +2757,7 @@
         "eventType": null,
         "detail": null,
         "publicationState": "source_reachable_no_specific_local_notice",
-        "retrievedAt": "2026-11-06T22:17:21.752948+00:00"
+        "retrievedAt": "2026-11-07T02:15:37.370055+00:00"
       }
     },
     {
@@ -2765,7 +2765,7 @@
       "label": "Servicios e infraestructura",
       "signal": 1,
       "status": "evidencia de servicio",
-      "freshnessHours": 255.3,
+      "freshnessHours": 250.9,
       "mode": "evidencia editorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -2845,7 +2845,7 @@
       "label": "Educación",
       "signal": 1,
       "status": "evidencia educativa",
-      "freshnessHours": 983.2,
+      "freshnessHours": 987.2,
       "mode": "evidencia editorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -2925,7 +2925,7 @@
       "label": "Seguridad / emergencias",
       "signal": 1,
       "status": "cobertura de emergencia",
-      "freshnessHours": 68.8,
+      "freshnessHours": 72.7,
       "mode": "evidencia editorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -3022,7 +3022,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://chanardigital.com.ar/",
-        "lastFetch": "2026-11-06T22:17:23.953563+00:00",
+        "lastFetch": "2026-11-07T02:15:39.498029+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3038,7 +3038,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.radiomia.com.ar/",
-        "lastFetch": "2026-11-06T22:17:24.883372+00:00",
+        "lastFetch": "2026-11-07T02:15:40.944936+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -3053,7 +3053,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://tuitvacamuerta.com/",
-        "lastFetch": "2026-11-06T22:17:26.843561+00:00",
+        "lastFetch": "2026-11-07T02:15:42.722911+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -3068,7 +3068,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.vacamuertanews.com/",
-        "lastFetch": "2026-11-06T22:17:27.271232+00:00",
+        "lastFetch": "2026-11-07T02:15:43.582817+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3084,7 +3084,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.neuqueninforma.gob.ar/",
-        "lastFetch": "2026-11-06T22:17:28.170059+00:00",
+        "lastFetch": "2026-11-07T02:15:45.127163+00:00",
         "success": false,
         "attempted": 3,
         "failures": [
@@ -3101,7 +3101,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://sanpatricio.gob.ar/",
-        "lastFetch": "2026-11-06T22:17:29.004034+00:00",
+        "lastFetch": "2026-11-07T02:15:46.015137+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -3116,7 +3116,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://boletinoficial.neuquen.gov.ar/",
-        "lastFetch": "2026-11-06T22:17:29.766685+00:00",
+        "lastFetch": "2026-11-07T02:15:46.975295+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -3131,7 +3131,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.lmneuquen.com/",
-        "lastFetch": "2026-11-06T22:17:29.913377+00:00",
+        "lastFetch": "2026-11-07T02:15:47.210816+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3147,7 +3147,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.rionegro.com.ar/",
-        "lastFetch": "2026-11-06T22:17:31.386306+00:00",
+        "lastFetch": "2026-11-07T02:15:50.167308+00:00",
         "success": true,
         "attempted": 2,
         "failures": [
@@ -3162,7 +3162,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.mejorinformado.com/",
-        "lastFetch": "2026-11-06T22:17:31.815872+00:00",
+        "lastFetch": "2026-11-07T02:15:50.982186+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3178,7 +3178,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.diariamenteneuquen.com/",
-        "lastFetch": "2026-11-06T22:17:32.510772+00:00",
+        "lastFetch": "2026-11-07T02:15:51.999181+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3205,7 +3205,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SERVICIOS",
-      "movement": 71,
+      "movement": 70,
       "coverage": 12,
       "sourceCount": 8,
       "directSourceCount": 0,
@@ -3379,15 +3379,13 @@
         }
       ],
       "lifecycle": "ACTIVO",
-      "movementDelta": -2,
+      "movementDelta": -1,
       "previousCoverage": 12,
       "newSources": [
         "Chañar Digital",
         "Patagonia Press",
-        "Minuto Neuquén",
         "Diario Neuquino",
         "Lmneuquen.com",
-        "MejorInformado.com",
         "Neuquén al instante"
       ],
       "sourceDiversity": 8,
@@ -3431,7 +3429,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "EDUCACIÓN",
-      "movement": 58,
+      "movement": 57,
       "coverage": 2,
       "sourceCount": 2,
       "directSourceCount": 0,
@@ -3529,7 +3527,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SEGURIDAD / EMERGENCIAS",
-      "movement": 42,
+      "movement": 41,
       "coverage": 1,
       "sourceCount": 1,
       "directSourceCount": 0,
@@ -3563,7 +3561,7 @@
         }
       ],
       "lifecycle": "SOSTENIDO",
-      "movementDelta": -2,
+      "movementDelta": -1,
       "previousCoverage": 1,
       "newSources": [],
       "sourceDiversity": 1,
@@ -3608,15 +3606,15 @@
     {
       "eventId": "CHA-3ae74d67b64f",
       "title": "Cocaína, cannabis y transferencias millonarias: las dos causas por drogas y armas que avanzan en El Chañar - Diario Río Negro",
-      "publishedAt": "2026-10-27T07:00:00+00:00",
+      "publishedAt": "2026-10-27T15:21:48+00:00",
       "firstSeen": "2026-11-02T01:23:58.390470+00:00",
-      "lastSeen": "2026-10-27T07:00:00+00:00",
+      "lastSeen": "2026-10-27T15:21:48+00:00",
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SERVICIOS",
       "movement": 32,
-      "coverage": 7,
+      "coverage": 6,
       "sourceCount": 6,
       "directSourceCount": 0,
       "territorialAnchors": [
@@ -3712,8 +3710,8 @@
         {
           "title": "Bajará el caudal del río Neuquén: cuánto erogará el dique El Chañar - NoticiasNQN",
           "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPVnZuNlMyZ1hXQmRIWl9WYzVLbURDUTZIMmNXNDBPSEtZZjhUTTQ0LWRPV1dLQ3NlOXpVXy0tT1VHNEpseWgzenF3cDBNVEpncGpyWEkzT18zby1SQjUyenk3ZmZlbzdkMnZjQlVfWUJBclE0X2FYY1JYUmpmSVVnV19OSTVhMjZDNXJtUG1GYkFVeGtobTM2SkxwZy1pS2V6c2ZubjBMYVJjRUJSekNsRWZtaUE0SWkwY0hQeEdwLWRKUdIBxwFBVV95cUxNRzRyLUw0LVZVWExjZjY0RXV3dWc4S0xJMHJYVl9FQnBQOWhTZ1J1cnZod09zbDUzUnVHdURyeHZiWmJlMldMVWp1Z3kxUlBzOFpSbmt1SGdiNUF3eFozUEU5Ym5qaXhhWldhZ0VHWTNRNU5DYjZiMGw2TTEycGFhRS1MQW02amxoT2t6SXhtblFVUXZ0QWxUVDA4WVBRb29wVlRzZ0R1RXFlQ0FqZUlpTlgtT3NXY2VTTVY5WDZKTnV1N3BHYXRr?oc=5",
-          "publishedAt": "2026-10-27T07:00:00+00:00",
-          "published": "2026-10-27T07:00:00+00:00",
+          "publishedAt": "2026-10-27T15:21:48+00:00",
+          "published": "2026-10-27T15:21:48+00:00",
           "description": "<a href=\"https://news.google.com/rss/articles/CBMiwgFBVV95cUxPVnZuNlMyZ1hXQmRIWl9WYzVLbURDUTZIMmNXNDBPSEtZZjhUTTQ0LWRPV1dLQ3NlOXpVXy0tT1VHNEpseWgzenF3cDBNVEpncGpyWEkzT18zby1SQjUyenk3ZmZlbzdkMnZjQlVfWUJBclE0X2FYY1JYUmpmSVVnV19OSTVhMjZDNXJtUG1GYkFVeGtobTM2SkxwZy1pS2V6c2ZubjBMYVJjRUJSekNsRWZtaUE0SWkwY0hQeEdwLWRKUdIBxwFBVV95cUxNRzRyLUw0LVZVWExjZjY0RXV3dWc4S0xJMHJYVl9FQnBQOWhTZ1J1cnZod09zbDUzUnVHdURyeHZiWmJlMldMVWp1Z3kxUlBzOFpSbmt1SGdiNUF3eFozUEU5Ym5qaXhhWldhZ0VHWTNRNU5DYjZiMGw2TTEycGFhRS1MQW02amxoT2t6SXhtblFVUXZ0QWxUVDA4WVBRb29wVlRzZ0R1RXFlQ0FqZUlpTlgtT3NXY2VTTVY5WDZKTnV1N3BHYXRr?oc=5\" target=\"_blank\">Bajará el caudal del río Neuquén: cuánto erogará el dique El Chañar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NoticiasNQN</font>",
           "source": "NoticiasNQN",
           "sourceType": "BUSCADOR / RESPALDO",
@@ -3745,25 +3743,6 @@
           "isNew": false,
           "titleKey": "golpe narcomenudeo realizaron allanamientos entre capital minuto",
           "evidenceUrl": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNbDBhRWF4NGRzMXZfYjZ2c3VhcHVGdlZBYkhkeC0tZ2J0MWxtTU02ak04NlY4aDRsU0dRd21qWEpDV0w4aDdwNF9mZDhnbmtZbERIRGl3R1haOWlQX2pHX2xLYllxbEdsM1RGWjV0eGI1Q3I3b2N3RVkyYTIybHBaUjhTUE4tb3V4YmdsX2FQSlkzR1JieHJVY3VUUGpKdzRObXc3UF9MWGJ3T1Qyai1vN01tVTl1M3dFOUJNUWg1UWREZU15aGloYVRXQXpWcnhoT05fVFdVT2ZlSGNySW9ybDQ2Z1Q1NnRmVGdFbnFPZw?oc=5",
-          "sourcePriority": 3
-        },
-        {
-          "title": "Allanamientos en San Patricio del Chañar: dos imputados quedaron presos y otro tendrá prisión domiciliaria - NoticiasNQN",
-          "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOc1hnOXBKSHlfMEoxdWRGQjRlOElZb2FCNktObFhZSk1tQ0l4OHo4RVpPaUJXVjZRY3REYlQ1OVBWb2lfcTRHbDNtTVlpOU4xWm5CajRyVExMU1JCaVg0Vm1EUWVySHc4WnNZYnBpc3JBQWN5T3NZVHNVZkNIdnU4OXVLOVlvSjE2OWxIaGg4dmliYnkzNmdhODc4MkRoUUExc2diRVZMQWpsQTh1dlR0WTZqMVVBQUdpRFA2MVpoQTF3LXZpTlR5cVdTU09zOGdETTJUTTkwVnFwTjNPT2E3M1U3OGM3WFFrYWRhNUhJODh4Q0tGVlHSAfsBQVVfeXFMTnZxbzdpLWVrZjVxQWFWUzlNckRUVHlrMUlkNWhuZGdfQ3JYTVN1X1Q1N2N0TEVmSHZTMTgwSHhBSXZLckVEQ3BtRnpYcThEWGI4Um8xTnRlRVpOOWZQT0Zwb003NmZmZUF2YWlnNlB3MTRNUUZLeDN6OTVLc1JWUVd1RmdHemhIQ3hZR2tvOV9hVVFCbTl3MG9lU0k3OEtkRU9xUTFOejRCZGZGTExNOUg3NThLS1lQYzk2MkpXRWJoSlVCT3p2dlRLR3BOUjRCVGk5STFUdWpMR25wUHd4N1Y1ZGN1LTdXSkxwWWRaZkVfMUIyOEFYRFJFQ1U?oc=5",
-          "publishedAt": "2026-10-25T07:00:00+00:00",
-          "published": "2026-10-25T07:00:00+00:00",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMi9gFBVV95cUxOc1hnOXBKSHlfMEoxdWRGQjRlOElZb2FCNktObFhZSk1tQ0l4OHo4RVpPaUJXVjZRY3REYlQ1OVBWb2lfcTRHbDNtTVlpOU4xWm5CajRyVExMU1JCaVg0Vm1EUWVySHc4WnNZYnBpc3JBQWN5T3NZVHNVZkNIdnU4OXVLOVlvSjE2OWxIaGg4dmliYnkzNmdhODc4MkRoUUExc2diRVZMQWpsQTh1dlR0WTZqMVVBQUdpRFA2MVpoQTF3LXZpTlR5cVdTU09zOGdETTJUTTkwVnFwTjNPT2E3M1U3OGM3WFFrYWRhNUhJODh4Q0tGVlHSAfsBQVVfeXFMTnZxbzdpLWVrZjVxQWFWUzlNckRUVHlrMUlkNWhuZGdfQ3JYTVN1X1Q1N2N0TEVmSHZTMTgwSHhBSXZLckVEQ3BtRnpYcThEWGI4Um8xTnRlRVpOOWZQT0Zwb003NmZmZUF2YWlnNlB3MTRNUUZLeDN6OTVLc1JWUVd1RmdHemhIQ3hZR2tvOV9hVVFCbTl3MG9lU0k3OEtkRU9xUTFOejRCZGZGTExNOUg3NThLS1lQYzk2MkpXRWJoSlVCT3p2dlRLR3BOUjRCVGk5STFUdWpMR25wUHd4N1Y1ZGN1LTdXSkxwWWRaZkVfMUIyOEFYRFJFQ1U?oc=5\" target=\"_blank\">Allanamientos en San Patricio del Chañar: dos imputados quedaron presos y otro tendrá prisión domiciliaria</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NoticiasNQN</font>",
-          "source": "NoticiasNQN",
-          "sourceType": "BUSCADOR / RESPALDO",
-          "sourceUrl": "",
-          "collection": "BUSCADOR",
-          "query": "\"San Patricio del Chañar\"",
-          "relevance": 3,
-          "relevanceLabel": "DIRECTA",
-          "firstSeen": "2026-11-02T01:23:58.390470+00:00",
-          "isNew": false,
-          "titleKey": "allanamientos dos imputados quedaron presos otro tendra prision domiciliaria noticiasnqn",
-          "evidenceUrl": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOc1hnOXBKSHlfMEoxdWRGQjRlOElZb2FCNktObFhZSk1tQ0l4OHo4RVpPaUJXVjZRY3REYlQ1OVBWb2lfcTRHbDNtTVlpOU4xWm5CajRyVExMU1JCaVg0Vm1EUWVySHc4WnNZYnBpc3JBQWN5T3NZVHNVZkNIdnU4OXVLOVlvSjE2OWxIaGg4dmliYnkzNmdhODc4MkRoUUExc2diRVZMQWpsQTh1dlR0WTZqMVVBQUdpRFA2MVpoQTF3LXZpTlR5cVdTU09zOGdETTJUTTkwVnFwTjNPT2E3M1U3OGM3WFFrYWRhNUhJODh4Q0tGVlHSAfsBQVVfeXFMTnZxbzdpLWVrZjVxQWFWUzlNckRUVHlrMUlkNWhuZGdfQ3JYTVN1X1Q1N2N0TEVmSHZTMTgwSHhBSXZLckVEQ3BtRnpYcThEWGI4Um8xTnRlRVpOOWZQT0Zwb003NmZmZUF2YWlnNlB3MTRNUUZLeDN6OTVLc1JWUVd1RmdHemhIQ3hZR2tvOV9hVVFCbTl3MG9lU0k3OEtkRU9xUTFOejRCZGZGTExNOUg3NThLS1lQYzk2MkpXRWJoSlVCT3p2dlRLR3BOUjRCVGk5STFUdWpMR25wUHd4N1Y1ZGN1LTdXSkxwWWRaZkVfMUIyOEFYRFJFQ1U?oc=5",
           "sourcePriority": 3
         }
       ],
@@ -3810,11 +3789,11 @@
       }
     },
     {
-      "eventId": "CHA-45db1e787c52",
-      "title": "Un narco incorregible: tenía prisión domiciliaria y se armó un \"kiosco\" en San Patricio del Chañar - Lmneuquen.com",
-      "publishedAt": "2026-10-29T07:00:00+00:00",
+      "eventId": "CHA-bf6be71254d9",
+      "title": "Allanamientos en San Patricio del Chañar: dos imputados quedaron presos y otro tendrá prisión domiciliaria - NoticiasNQN",
+      "publishedAt": "2026-10-25T07:00:00+00:00",
       "firstSeen": "2026-11-02T01:23:58.390470+00:00",
-      "lastSeen": "2026-10-29T07:00:00+00:00",
+      "lastSeen": "2026-10-25T07:00:00+00:00",
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
@@ -3828,17 +3807,17 @@
         "el chañar"
       ],
       "sources": [
-        "Lmneuquen.com"
+        "NoticiasNQN"
       ],
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPejFCX2kxWHptT2VYZW5PQy11MTJPVk50U1EtbmlUZUg5N2RRZXNBRHk2bnM3b0lTNHBQa2pxVTItQ0NUZE9aaUdhRU4xNWxoZ193WTFHb3lFY3ViWHJxaVZ5LUYteWt6aUxTbHhoT3FtQ3VOaUZWUXMtTHNONjh1OV9xQktGenQxX2JzQzFIWDd5VVMxQmFVOFVaYl9PYlk3YmdlM2Q1bHE0YVRrM1I2cGhtT28zU2VLMHhGT3IySmozOHRjN2NWNXV5Sm8tMk5FVzFMTNIB2gFBVV95cUxPWVg1NG9jSGVBN1hjbzZUX1dQcVhvTjhXYVNoUmdHU1FIM0tGOHVBS0ZTRGhYQy1UVmFJal9acTV5SUxEZ1BaZEp6MnFfcy1VeEVhSjBla1YtUkQwZ0dpWVZXeTRNU3VIRGJWcE9CTFZXR3Q5c0x4U2FMVjdMa0xuelNRZzU1eFlYZWZLdkNVbGoxcFFfQ2lEcmp1bUpwbnU1WENqYjNrcG55NWtPczJSTGVQN0Zpb0l2bk1RQW9mNWtaRGdzX21iUlE1TDA2ekV1dEdRVXY0UTlnUQ?oc=5",
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOc1hnOXBKSHlfMEoxdWRGQjRlOElZb2FCNktObFhZSk1tQ0l4OHo4RVpPaUJXVjZRY3REYlQ1OVBWb2lfcTRHbDNtTVlpOU4xWm5CajRyVExMU1JCaVg0Vm1EUWVySHc4WnNZYnBpc3JBQWN5T3NZVHNVZkNIdnU4OXVLOVlvSjE2OWxIaGg4dmliYnkzNmdhODc4MkRoUUExc2diRVZMQWpsQTh1dlR0WTZqMVVBQUdpRFA2MVpoQTF3LXZpTlR5cVdTU09zOGdETTJUTTkwVnFwTjNPT2E3M1U3OGM3WFFrYWRhNUhJODh4Q0tGVlHSAfsBQVVfeXFMTnZxbzdpLWVrZjVxQWFWUzlNckRUVHlrMUlkNWhuZGdfQ3JYTVN1X1Q1N2N0TEVmSHZTMTgwSHhBSXZLckVEQ3BtRnpYcThEWGI4Um8xTnRlRVpOOWZQT0Zwb003NmZmZUF2YWlnNlB3MTRNUUZLeDN6OTVLc1JWUVd1RmdHemhIQ3hZR2tvOV9hVVFCbTl3MG9lU0k3OEtkRU9xUTFOejRCZGZGTExNOUg3NThLS1lQYzk2MkpXRWJoSlVCT3p2dlRLR3BOUjRCVGk5STFUdWpMR25wUHd4N1Y1ZGN1LTdXSkxwWWRaZkVfMUIyOEFYRFJFQ1U?oc=5",
       "items": [
         {
-          "title": "Un narco incorregible: tenía prisión domiciliaria y se armó un \"kiosco\" en San Patricio del Chañar - Lmneuquen.com",
-          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPejFCX2kxWHptT2VYZW5PQy11MTJPVk50U1EtbmlUZUg5N2RRZXNBRHk2bnM3b0lTNHBQa2pxVTItQ0NUZE9aaUdhRU4xNWxoZ193WTFHb3lFY3ViWHJxaVZ5LUYteWt6aUxTbHhoT3FtQ3VOaUZWUXMtTHNONjh1OV9xQktGenQxX2JzQzFIWDd5VVMxQmFVOFVaYl9PYlk3YmdlM2Q1bHE0YVRrM1I2cGhtT28zU2VLMHhGT3IySmozOHRjN2NWNXV5Sm8tMk5FVzFMTNIB2gFBVV95cUxPWVg1NG9jSGVBN1hjbzZUX1dQcVhvTjhXYVNoUmdHU1FIM0tGOHVBS0ZTRGhYQy1UVmFJal9acTV5SUxEZ1BaZEp6MnFfcy1VeEVhSjBla1YtUkQwZ0dpWVZXeTRNU3VIRGJWcE9CTFZXR3Q5c0x4U2FMVjdMa0xuelNRZzU1eFlYZWZLdkNVbGoxcFFfQ2lEcmp1bUpwbnU1WENqYjNrcG55NWtPczJSTGVQN0Zpb0l2bk1RQW9mNWtaRGdzX21iUlE1TDA2ekV1dEdRVXY0UTlnUQ?oc=5",
-          "publishedAt": "2026-10-29T07:00:00+00:00",
-          "published": "2026-10-29T07:00:00+00:00",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMi1AFBVV95cUxPejFCX2kxWHptT2VYZW5PQy11MTJPVk50U1EtbmlUZUg5N2RRZXNBRHk2bnM3b0lTNHBQa2pxVTItQ0NUZE9aaUdhRU4xNWxoZ193WTFHb3lFY3ViWHJxaVZ5LUYteWt6aUxTbHhoT3FtQ3VOaUZWUXMtTHNONjh1OV9xQktGenQxX2JzQzFIWDd5VVMxQmFVOFVaYl9PYlk3YmdlM2Q1bHE0YVRrM1I2cGhtT28zU2VLMHhGT3IySmozOHRjN2NWNXV5Sm8tMk5FVzFMTNIB2gFBVV95cUxPWVg1NG9jSGVBN1hjbzZUX1dQcVhvTjhXYVNoUmdHU1FIM0tGOHVBS0ZTRGhYQy1UVmFJal9acTV5SUxEZ1BaZEp6MnFfcy1VeEVhSjBla1YtUkQwZ0dpWVZXeTRNU3VIRGJWcE9CTFZXR3Q5c0x4U2FMVjdMa0xuelNRZzU1eFlYZWZLdkNVbGoxcFFfQ2lEcmp1bUpwbnU1WENqYjNrcG55NWtPczJSTGVQN0Zpb0l2bk1RQW9mNWtaRGdzX21iUlE1TDA2ekV1dEdRVXY0UTlnUQ?oc=5\" target=\"_blank\">Un narco incorregible: tenía prisión domiciliaria y se armó un \"kiosco\" en San Patricio del Chañar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Lmneuquen.com</font>",
-          "source": "Lmneuquen.com",
+          "title": "Allanamientos en San Patricio del Chañar: dos imputados quedaron presos y otro tendrá prisión domiciliaria - NoticiasNQN",
+          "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOc1hnOXBKSHlfMEoxdWRGQjRlOElZb2FCNktObFhZSk1tQ0l4OHo4RVpPaUJXVjZRY3REYlQ1OVBWb2lfcTRHbDNtTVlpOU4xWm5CajRyVExMU1JCaVg0Vm1EUWVySHc4WnNZYnBpc3JBQWN5T3NZVHNVZkNIdnU4OXVLOVlvSjE2OWxIaGg4dmliYnkzNmdhODc4MkRoUUExc2diRVZMQWpsQTh1dlR0WTZqMVVBQUdpRFA2MVpoQTF3LXZpTlR5cVdTU09zOGdETTJUTTkwVnFwTjNPT2E3M1U3OGM3WFFrYWRhNUhJODh4Q0tGVlHSAfsBQVVfeXFMTnZxbzdpLWVrZjVxQWFWUzlNckRUVHlrMUlkNWhuZGdfQ3JYTVN1X1Q1N2N0TEVmSHZTMTgwSHhBSXZLckVEQ3BtRnpYcThEWGI4Um8xTnRlRVpOOWZQT0Zwb003NmZmZUF2YWlnNlB3MTRNUUZLeDN6OTVLc1JWUVd1RmdHemhIQ3hZR2tvOV9hVVFCbTl3MG9lU0k3OEtkRU9xUTFOejRCZGZGTExNOUg3NThLS1lQYzk2MkpXRWJoSlVCT3p2dlRLR3BOUjRCVGk5STFUdWpMR25wUHd4N1Y1ZGN1LTdXSkxwWWRaZkVfMUIyOEFYRFJFQ1U?oc=5",
+          "publishedAt": "2026-10-25T07:00:00+00:00",
+          "published": "2026-10-25T07:00:00+00:00",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMi9gFBVV95cUxOc1hnOXBKSHlfMEoxdWRGQjRlOElZb2FCNktObFhZSk1tQ0l4OHo4RVpPaUJXVjZRY3REYlQ1OVBWb2lfcTRHbDNtTVlpOU4xWm5CajRyVExMU1JCaVg0Vm1EUWVySHc4WnNZYnBpc3JBQWN5T3NZVHNVZkNIdnU4OXVLOVlvSjE2OWxIaGg4dmliYnkzNmdhODc4MkRoUUExc2diRVZMQWpsQTh1dlR0WTZqMVVBQUdpRFA2MVpoQTF3LXZpTlR5cVdTU09zOGdETTJUTTkwVnFwTjNPT2E3M1U3OGM3WFFrYWRhNUhJODh4Q0tGVlHSAfsBQVVfeXFMTnZxbzdpLWVrZjVxQWFWUzlNckRUVHlrMUlkNWhuZGdfQ3JYTVN1X1Q1N2N0TEVmSHZTMTgwSHhBSXZLckVEQ3BtRnpYcThEWGI4Um8xTnRlRVpOOWZQT0Zwb003NmZmZUF2YWlnNlB3MTRNUUZLeDN6OTVLc1JWUVd1RmdHemhIQ3hZR2tvOV9hVVFCbTl3MG9lU0k3OEtkRU9xUTFOejRCZGZGTExNOUg3NThLS1lQYzk2MkpXRWJoSlVCT3p2dlRLR3BOUjRCVGk5STFUdWpMR25wUHd4N1Y1ZGN1LTdXSkxwWWRaZkVfMUIyOEFYRFJFQ1U?oc=5\" target=\"_blank\">Allanamientos en San Patricio del Chañar: dos imputados quedaron presos y otro tendrá prisión domiciliaria</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NoticiasNQN</font>",
+          "source": "NoticiasNQN",
           "sourceType": "BUSCADOR / RESPALDO",
           "sourceUrl": "",
           "collection": "BUSCADOR",
@@ -3847,20 +3826,20 @@
           "relevanceLabel": "DIRECTA",
           "firstSeen": "2026-11-02T01:23:58.390470+00:00",
           "isNew": false,
-          "titleKey": "narco incorregible tenia prision domiciliaria armo kiosco lmneuquen com",
-          "evidenceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPejFCX2kxWHptT2VYZW5PQy11MTJPVk50U1EtbmlUZUg5N2RRZXNBRHk2bnM3b0lTNHBQa2pxVTItQ0NUZE9aaUdhRU4xNWxoZ193WTFHb3lFY3ViWHJxaVZ5LUYteWt6aUxTbHhoT3FtQ3VOaUZWUXMtTHNONjh1OV9xQktGenQxX2JzQzFIWDd5VVMxQmFVOFVaYl9PYlk3YmdlM2Q1bHE0YVRrM1I2cGhtT28zU2VLMHhGT3IySmozOHRjN2NWNXV5Sm8tMk5FVzFMTNIB2gFBVV95cUxPWVg1NG9jSGVBN1hjbzZUX1dQcVhvTjhXYVNoUmdHU1FIM0tGOHVBS0ZTRGhYQy1UVmFJal9acTV5SUxEZ1BaZEp6MnFfcy1VeEVhSjBla1YtUkQwZ0dpWVZXeTRNU3VIRGJWcE9CTFZXR3Q5c0x4U2FMVjdMa0xuelNRZzU1eFlYZWZLdkNVbGoxcFFfQ2lEcmp1bUpwbnU1WENqYjNrcG55NWtPczJSTGVQN0Zpb0l2bk1RQW9mNWtaRGdzX21iUlE1TDA2ekV1dEdRVXY0UTlnUQ?oc=5",
+          "titleKey": "allanamientos dos imputados quedaron presos otro tendra prision domiciliaria noticiasnqn",
+          "evidenceUrl": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOc1hnOXBKSHlfMEoxdWRGQjRlOElZb2FCNktObFhZSk1tQ0l4OHo4RVpPaUJXVjZRY3REYlQ1OVBWb2lfcTRHbDNtTVlpOU4xWm5CajRyVExMU1JCaVg0Vm1EUWVySHc4WnNZYnBpc3JBQWN5T3NZVHNVZkNIdnU4OXVLOVlvSjE2OWxIaGg4dmliYnkzNmdhODc4MkRoUUExc2diRVZMQWpsQTh1dlR0WTZqMVVBQUdpRFA2MVpoQTF3LXZpTlR5cVdTU09zOGdETTJUTTkwVnFwTjNPT2E3M1U3OGM3WFFrYWRhNUhJODh4Q0tGVlHSAfsBQVVfeXFMTnZxbzdpLWVrZjVxQWFWUzlNckRUVHlrMUlkNWhuZGdfQ3JYTVN1X1Q1N2N0TEVmSHZTMTgwSHhBSXZLckVEQ3BtRnpYcThEWGI4Um8xTnRlRVpOOWZQT0Zwb003NmZmZUF2YWlnNlB3MTRNUUZLeDN6OTVLc1JWUVd1RmdHemhIQ3hZR2tvOV9hVVFCbTl3MG9lU0k3OEtkRU9xUTFOejRCZGZGTExNOUg3NThLS1lQYzk2MkpXRWJoSlVCT3p2dlRLR3BOUjRCVGk5STFUdWpMR25wUHd4N1Y1ZGN1LTdXSkxwWWRaZkVfMUIyOEFYRFJFQ1U?oc=5",
           "sourcePriority": 3
         }
       ],
-      "lifecycle": "EN DESCENSO",
-      "movementDelta": -16,
-      "previousCoverage": 6,
+      "lifecycle": "ACTIVO",
+      "movementDelta": 0,
+      "previousCoverage": 0,
       "newSources": [
-        "Lmneuquen.com"
+        "NoticiasNQN"
       ],
       "sourceDiversity": 1,
-      "memoryMatched": true,
-      "isNew": false,
+      "memoryMatched": false,
+      "isNew": true,
       "view": "INCIDENCIA",
       "incidenceEligible": true,
       "signalReason": "reservado a incidencia territorial",
@@ -4524,25 +4503,6 @@
       "sourcePriority": 3
     },
     {
-      "title": "Un narco incorregible: tenía prisión domiciliaria y se armó un \"kiosco\" en San Patricio del Chañar - Lmneuquen.com",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPejFCX2kxWHptT2VYZW5PQy11MTJPVk50U1EtbmlUZUg5N2RRZXNBRHk2bnM3b0lTNHBQa2pxVTItQ0NUZE9aaUdhRU4xNWxoZ193WTFHb3lFY3ViWHJxaVZ5LUYteWt6aUxTbHhoT3FtQ3VOaUZWUXMtTHNONjh1OV9xQktGenQxX2JzQzFIWDd5VVMxQmFVOFVaYl9PYlk3YmdlM2Q1bHE0YVRrM1I2cGhtT28zU2VLMHhGT3IySmozOHRjN2NWNXV5Sm8tMk5FVzFMTNIB2gFBVV95cUxPWVg1NG9jSGVBN1hjbzZUX1dQcVhvTjhXYVNoUmdHU1FIM0tGOHVBS0ZTRGhYQy1UVmFJal9acTV5SUxEZ1BaZEp6MnFfcy1VeEVhSjBla1YtUkQwZ0dpWVZXeTRNU3VIRGJWcE9CTFZXR3Q5c0x4U2FMVjdMa0xuelNRZzU1eFlYZWZLdkNVbGoxcFFfQ2lEcmp1bUpwbnU1WENqYjNrcG55NWtPczJSTGVQN0Zpb0l2bk1RQW9mNWtaRGdzX21iUlE1TDA2ekV1dEdRVXY0UTlnUQ?oc=5",
-      "publishedAt": "2026-10-29T07:00:00+00:00",
-      "published": "2026-10-29T07:00:00+00:00",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMi1AFBVV95cUxPejFCX2kxWHptT2VYZW5PQy11MTJPVk50U1EtbmlUZUg5N2RRZXNBRHk2bnM3b0lTNHBQa2pxVTItQ0NUZE9aaUdhRU4xNWxoZ193WTFHb3lFY3ViWHJxaVZ5LUYteWt6aUxTbHhoT3FtQ3VOaUZWUXMtTHNONjh1OV9xQktGenQxX2JzQzFIWDd5VVMxQmFVOFVaYl9PYlk3YmdlM2Q1bHE0YVRrM1I2cGhtT28zU2VLMHhGT3IySmozOHRjN2NWNXV5Sm8tMk5FVzFMTNIB2gFBVV95cUxPWVg1NG9jSGVBN1hjbzZUX1dQcVhvTjhXYVNoUmdHU1FIM0tGOHVBS0ZTRGhYQy1UVmFJal9acTV5SUxEZ1BaZEp6MnFfcy1VeEVhSjBla1YtUkQwZ0dpWVZXeTRNU3VIRGJWcE9CTFZXR3Q5c0x4U2FMVjdMa0xuelNRZzU1eFlYZWZLdkNVbGoxcFFfQ2lEcmp1bUpwbnU1WENqYjNrcG55NWtPczJSTGVQN0Zpb0l2bk1RQW9mNWtaRGdzX21iUlE1TDA2ekV1dEdRVXY0UTlnUQ?oc=5\" target=\"_blank\">Un narco incorregible: tenía prisión domiciliaria y se armó un \"kiosco\" en San Patricio del Chañar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Lmneuquen.com</font>",
-      "source": "Lmneuquen.com",
-      "sourceType": "BUSCADOR / RESPALDO",
-      "sourceUrl": "",
-      "collection": "BUSCADOR",
-      "query": "\"San Patricio del Chañar\"",
-      "relevance": 3,
-      "relevanceLabel": "DIRECTA",
-      "firstSeen": "2026-11-02T01:23:58.390470+00:00",
-      "isNew": false,
-      "titleKey": "narco incorregible tenia prision domiciliaria armo kiosco lmneuquen com",
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPejFCX2kxWHptT2VYZW5PQy11MTJPVk50U1EtbmlUZUg5N2RRZXNBRHk2bnM3b0lTNHBQa2pxVTItQ0NUZE9aaUdhRU4xNWxoZ193WTFHb3lFY3ViWHJxaVZ5LUYteWt6aUxTbHhoT3FtQ3VOaUZWUXMtTHNONjh1OV9xQktGenQxX2JzQzFIWDd5VVMxQmFVOFVaYl9PYlk3YmdlM2Q1bHE0YVRrM1I2cGhtT28zU2VLMHhGT3IySmozOHRjN2NWNXV5Sm8tMk5FVzFMTNIB2gFBVV95cUxPWVg1NG9jSGVBN1hjbzZUX1dQcVhvTjhXYVNoUmdHU1FIM0tGOHVBS0ZTRGhYQy1UVmFJal9acTV5SUxEZ1BaZEp6MnFfcy1VeEVhSjBla1YtUkQwZ0dpWVZXeTRNU3VIRGJWcE9CTFZXR3Q5c0x4U2FMVjdMa0xuelNRZzU1eFlYZWZLdkNVbGoxcFFfQ2lEcmp1bUpwbnU1WENqYjNrcG55NWtPczJSTGVQN0Zpb0l2bk1RQW9mNWtaRGdzX21iUlE1TDA2ekV1dEdRVXY0UTlnUQ?oc=5",
-      "sourcePriority": 3
-    },
-    {
       "title": "San Patricio del Chañar: recuperaron una bicicleta robada y detuvieron a un sospechoso - Chañar Digital",
       "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNM2FOSVh6d1BKWmJnRjU4SEJGNmNpZS0zellmbkdYRmpoV1pONXFzT3poR2F4a2p2T2ZNdXE0bU5mN3VMY0daUlprRzlhQWhoYXByTlYyZ1E1ZlNNT1dxY1U2MWdvWnJkeVRQemtxTEZPM1Z2bHM1d2VnSWNRa1I4RXFoRFRYU2tkWnlqdWFpRVQxWGoya29yVzZmaW9OTjJudFFRTmlwLWV2MmlGdVlJa1VWTzBERHVQZ1JrUThHZ19pZHZXZThRTWlFdHJMTGlqa3pLMGd3?oc=5",
       "publishedAt": "2026-10-27T19:05:17+00:00",
@@ -4564,8 +4524,8 @@
     {
       "title": "Bajará el caudal del río Neuquén: cuánto erogará el dique El Chañar - NoticiasNQN",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPVnZuNlMyZ1hXQmRIWl9WYzVLbURDUTZIMmNXNDBPSEtZZjhUTTQ0LWRPV1dLQ3NlOXpVXy0tT1VHNEpseWgzenF3cDBNVEpncGpyWEkzT18zby1SQjUyenk3ZmZlbzdkMnZjQlVfWUJBclE0X2FYY1JYUmpmSVVnV19OSTVhMjZDNXJtUG1GYkFVeGtobTM2SkxwZy1pS2V6c2ZubjBMYVJjRUJSekNsRWZtaUE0SWkwY0hQeEdwLWRKUdIBxwFBVV95cUxNRzRyLUw0LVZVWExjZjY0RXV3dWc4S0xJMHJYVl9FQnBQOWhTZ1J1cnZod09zbDUzUnVHdURyeHZiWmJlMldMVWp1Z3kxUlBzOFpSbmt1SGdiNUF3eFozUEU5Ym5qaXhhWldhZ0VHWTNRNU5DYjZiMGw2TTEycGFhRS1MQW02amxoT2t6SXhtblFVUXZ0QWxUVDA4WVBRb29wVlRzZ0R1RXFlQ0FqZUlpTlgtT3NXY2VTTVY5WDZKTnV1N3BHYXRr?oc=5",
-      "publishedAt": "2026-10-27T07:00:00+00:00",
-      "published": "2026-10-27T07:00:00+00:00",
+      "publishedAt": "2026-10-27T15:21:48+00:00",
+      "published": "2026-10-27T15:21:48+00:00",
       "description": "<a href=\"https://news.google.com/rss/articles/CBMiwgFBVV95cUxPVnZuNlMyZ1hXQmRIWl9WYzVLbURDUTZIMmNXNDBPSEtZZjhUTTQ0LWRPV1dLQ3NlOXpVXy0tT1VHNEpseWgzenF3cDBNVEpncGpyWEkzT18zby1SQjUyenk3ZmZlbzdkMnZjQlVfWUJBclE0X2FYY1JYUmpmSVVnV19OSTVhMjZDNXJtUG1GYkFVeGtobTM2SkxwZy1pS2V6c2ZubjBMYVJjRUJSekNsRWZtaUE0SWkwY0hQeEdwLWRKUdIBxwFBVV95cUxNRzRyLUw0LVZVWExjZjY0RXV3dWc4S0xJMHJYVl9FQnBQOWhTZ1J1cnZod09zbDUzUnVHdURyeHZiWmJlMldMVWp1Z3kxUlBzOFpSbmt1SGdiNUF3eFozUEU5Ym5qaXhhWldhZ0VHWTNRNU5DYjZiMGw2TTEycGFhRS1MQW02amxoT2t6SXhtblFVUXZ0QWxUVDA4WVBRb29wVlRzZ0R1RXFlQ0FqZUlpTlgtT3NXY2VTTVY5WDZKTnV1N3BHYXRr?oc=5\" target=\"_blank\">Bajará el caudal del río Neuquén: cuánto erogará el dique El Chañar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NoticiasNQN</font>",
       "source": "NoticiasNQN",
       "sourceType": "BUSCADOR / RESPALDO",
@@ -4716,7 +4676,7 @@
   ],
   "territorialGraph": {
     "version": "2.0",
-    "generatedAt": "2026-11-06T22:17:53.822399+00:00",
+    "generatedAt": "2026-11-07T02:16:11.760769+00:00",
     "root": "spc",
     "rule": "evidence-first",
     "levels": [
@@ -5279,7 +5239,7 @@
       "CHA-3ae74d67b64f": [
         "spc"
       ],
-      "CHA-45db1e787c52": [
+      "CHA-bf6be71254d9": [
         "spc"
       ],
       "CHA-7a71d56a0d12": [
@@ -5328,11 +5288,11 @@
   },
   "audit": {
     "version": "1.0",
-    "updatedAt": "2026-11-06T22:17:53.867620+00:00",
+    "updatedAt": "2026-11-07T02:16:11.796950+00:00",
     "rule": "fact != coverage; territory requires textual evidence",
     "facts": 8,
-    "coverage": 32,
-    "coveragePerFact": 4.0,
+    "coverage": 31,
+    "coveragePerFact": 3.88,
     "directAnchorFacts": 8,
     "directAnchorPct": 100.0,
     "territorySpecificFacts": 2,
