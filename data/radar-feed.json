@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-08T13:04:10.984616+00:00",
+  "updatedAt": "2026-11-08T18:26:39.459191+00:00",
   "window": "14 días",
   "purpose": "Detectar qué se está moviendo en San Patricio del Chañar y mostrar de dónde surge cada señal.",
   "architecture": "contrato universal de procedencia + fuentes profesionales + adaptadores específicos + validación semántica + temporalidad + evidencia editorial separada",
@@ -49,7 +49,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://chanardigital.com.ar/",
-      "lastFetch": "2026-11-08T13:03:53.067735+00:00",
+      "lastFetch": "2026-11-08T18:26:17.858203+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -65,7 +65,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.radiomia.com.ar/",
-      "lastFetch": "2026-11-08T13:03:54.558107+00:00",
+      "lastFetch": "2026-11-08T18:26:19.066961+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -80,7 +80,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://tuitvacamuerta.com/",
-      "lastFetch": "2026-11-08T13:03:56.226031+00:00",
+      "lastFetch": "2026-11-08T18:26:20.765172+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -95,7 +95,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.vacamuertanews.com/",
-      "lastFetch": "2026-11-08T13:03:56.646108+00:00",
+      "lastFetch": "2026-11-08T18:26:21.191056+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -111,7 +111,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.neuqueninforma.gob.ar/",
-      "lastFetch": "2026-11-08T13:03:57.258752+00:00",
+      "lastFetch": "2026-11-08T18:26:22.472111+00:00",
       "success": false,
       "attempted": 3,
       "failures": [
@@ -128,7 +128,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://sanpatricio.gob.ar/",
-      "lastFetch": "2026-11-08T13:03:58.018950+00:00",
+      "lastFetch": "2026-11-08T18:26:23.464239+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -143,7 +143,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://boletinoficial.neuquen.gov.ar/",
-      "lastFetch": "2026-11-08T13:03:58.538197+00:00",
+      "lastFetch": "2026-11-08T18:26:24.168899+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -158,7 +158,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.lmneuquen.com/",
-      "lastFetch": "2026-11-08T13:03:58.828966+00:00",
+      "lastFetch": "2026-11-08T18:26:24.463458+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -174,7 +174,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.rionegro.com.ar/",
-      "lastFetch": "2026-11-08T13:04:00.736133+00:00",
+      "lastFetch": "2026-11-08T18:26:26.860103+00:00",
       "success": true,
       "attempted": 2,
       "failures": [
@@ -189,7 +189,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.mejorinformado.com/",
-      "lastFetch": "2026-11-08T13:04:01.097390+00:00",
+      "lastFetch": "2026-11-08T18:26:27.709361+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -205,7 +205,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.diariamenteneuquen.com/",
-      "lastFetch": "2026-11-08T13:04:01.708829+00:00",
+      "lastFetch": "2026-11-08T18:26:28.646242+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -709,13 +709,13 @@
   "languageAudit": [
     {
       "term": "el chañar",
-      "hits": 25,
-      "direct": 25
+      "hits": 24,
+      "direct": 24
     },
     {
       "term": "san patricio del chañar",
-      "hits": 22,
-      "direct": 22
+      "hits": 21,
+      "direct": 21
     },
     {
       "term": "ruta 7",
@@ -1360,19 +1360,6 @@
         "topics": []
       },
       {
-        "source": "mpfneuquen",
-        "group": "OBSERVADA",
-        "role": "fuente detectada fuera del catálogo",
-        "accepted": 1,
-        "direct": 1,
-        "anchored": 0,
-        "falsePositives": 0,
-        "falsePositiveTypes": [],
-        "topics": [
-          "SERVICIOS"
-        ]
-      },
-      {
         "source": "portadadigital.com.ar",
         "group": "OBSERVADA",
         "role": "fuente detectada fuera del catálogo",
@@ -1596,18 +1583,6 @@
         ]
       },
       {
-        "source": "mpfneuquen",
-        "topic": "SERVICIOS",
-        "accepted": 1,
-        "direct": 1,
-        "anchored": 0,
-        "falsePositives": 0,
-        "territorialTerms": [
-          "el chañar",
-          "san patricio del chañar"
-        ]
-      },
-      {
         "source": "portadadigital.com.ar",
         "topic": "SERVICIOS",
         "accepted": 1,
@@ -1623,8 +1598,8 @@
     "languagePrecision": [
       {
         "term": "san patricio del chañar",
-        "acceptedHits": 24,
-        "directHits": 24,
+        "acceptedHits": 23,
+        "directHits": 23,
         "rejectedTitleHits": 0,
         "territorialStrength": "FUERTE"
       },
@@ -1637,8 +1612,8 @@
       },
       {
         "term": "el chañar",
-        "acceptedHits": 27,
-        "directHits": 27,
+        "acceptedHits": 26,
+        "directHits": 26,
         "rejectedTitleHits": 0,
         "territorialStrength": "FUERTE"
       },
@@ -1963,11 +1938,11 @@
     "interpretation": "auditoría sobre eventos aceptados; la próxima capa debe instrumentar rechazos antes del clustering"
   },
   "stats": {
-    "total": 25,
-    "direct": 25,
+    "total": 24,
+    "direct": 24,
     "regional": 0,
-    "new": 2,
-    "sources": 12,
+    "new": 0,
+    "sources": 11,
     "directSignals": 0,
     "localDirectSignals": 0,
     "radioDirectSignals": 0,
@@ -1977,11 +1952,11 @@
   "environment": {
     "weather": {
       "dataType": "forecast",
-      "forecastWindKmh": 19.0,
-      "forecastGustKmh": 19.0,
-      "forecastWindDirection": "NE",
+      "forecastWindKmh": 18.0,
+      "forecastGustKmh": 25.0,
+      "forecastWindDirection": "E",
       "forecastTemperatureC": 29.0,
-      "retrievedAt": "2026-11-08T13:03:50.817946+00:00",
+      "retrievedAt": "2026-11-08T18:26:15.690779+00:00",
       "source": "AIC",
       "sourceTier": "primary",
       "sourceUrl": "https://www.aic.gob.ar/sitio/home?a=1015&z=1967225803",
@@ -1990,7 +1965,7 @@
     "hydrology": {
       "site": "El Chañar",
       "flowType": "programmed_outflow",
-      "erogatedM3s": 396,
+      "erogatedM3s": 402,
       "programmedMaxM3s": [
         410,
         410,
@@ -2011,7 +1986,7 @@
       "currentProgrammedMinM3s": 390,
       "programDate": "2026-11-09",
       "tableDate": "2026-11-08",
-      "retrievedAt": "2026-11-08T13:03:50.817946+00:00",
+      "retrievedAt": "2026-11-08T18:26:15.690779+00:00",
       "source": "AIC",
       "sourceTier": "primary",
       "sourceUrl": "https://www.aic.gob.ar/sitio/caudales",
@@ -2031,17 +2006,17 @@
         "url": "https://www.aic.gob.ar/sitio/caudales"
       }
     ],
-    "updatedAt": "2026-11-08T13:03:50.817946+00:00"
+    "updatedAt": "2026-11-08T18:26:15.690779+00:00"
   },
   "operational": {
-    "updatedAt": "2026-11-08T13:03:50.817946+00:00",
+    "updatedAt": "2026-11-08T18:26:15.690779+00:00",
     "route7": {
       "source": "Dirección Provincial de Vialidad",
       "sourceTier": "primary",
       "sourceUrl": "https://www.dpvneuquen.gov.ar/",
       "semanticState": null,
       "publicationState": "source_reachable_no_current_machine_readable_state",
-      "retrievedAt": "2026-11-08T13:03:50.817946+00:00",
+      "retrievedAt": "2026-11-08T18:26:15.690779+00:00",
       "evidence": {
         "route7Mention": true,
         "route8Mention": false
@@ -2053,7 +2028,7 @@
       "sourceUrl": "https://www.dpvneuquen.gov.ar/",
       "semanticState": null,
       "publicationState": "source_reachable_no_current_machine_readable_state",
-      "retrievedAt": "2026-11-08T13:03:50.817946+00:00",
+      "retrievedAt": "2026-11-08T18:26:15.690779+00:00",
       "evidence": {
         "route7Mention": true,
         "route8Mention": false
@@ -2067,7 +2042,7 @@
       "eventType": null,
       "detail": null,
       "publicationState": "source_reachable_no_specific_local_notice",
-      "retrievedAt": "2026-11-08T13:03:50.817946+00:00"
+      "retrievedAt": "2026-11-08T18:26:15.690779+00:00"
     },
     "water": {
       "source": "EPAS",
@@ -2077,7 +2052,7 @@
       "eventType": null,
       "detail": null,
       "publicationState": "source_reachable_no_specific_local_notice",
-      "retrievedAt": "2026-11-08T13:03:50.817946+00:00"
+      "retrievedAt": "2026-11-08T18:26:15.690779+00:00"
     },
     "sources": [
       {
@@ -2489,7 +2464,7 @@
       "label": "Conversación general",
       "signal": 10,
       "status": "cobertura editorial",
-      "freshnessHours": 0.1,
+      "freshnessHours": 5.6,
       "mode": "evidencia editorial",
       "evidenceCount": 10,
       "sourceContract": {
@@ -2529,7 +2504,7 @@
       "label": "Corredor Ruta 7",
       "signal": 1,
       "status": "estado vial",
-      "freshnessHours": 0.1,
+      "freshnessHours": 5.6,
       "mode": "evidencia territorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -2569,7 +2544,7 @@
         "sourceUrl": "https://www.dpvneuquen.gov.ar/",
         "semanticState": null,
         "publicationState": "source_reachable_no_current_machine_readable_state",
-        "retrievedAt": "2026-11-08T13:03:50.817946+00:00",
+        "retrievedAt": "2026-11-08T18:26:15.690779+00:00",
         "evidence": {
           "route7Mention": true,
           "route8Mention": false
@@ -2621,7 +2596,7 @@
         "sourceUrl": "https://www.dpvneuquen.gov.ar/",
         "semanticState": null,
         "publicationState": "source_reachable_no_current_machine_readable_state",
-        "retrievedAt": "2026-11-08T13:03:50.817946+00:00",
+        "retrievedAt": "2026-11-08T18:26:15.690779+00:00",
         "evidence": {
           "route7Mention": true,
           "route8Mention": false
@@ -2631,7 +2606,7 @@
     {
       "id": "VIENTO",
       "label": "Condición de viento",
-      "signal": 19.0,
+      "signal": 18.0,
       "status": "pronóstico local",
       "freshnessHours": null,
       "mode": "DATO DIRECTO",
@@ -2721,7 +2696,7 @@
         "eventType": null,
         "detail": null,
         "publicationState": "source_reachable_no_specific_local_notice",
-        "retrievedAt": "2026-11-08T13:03:50.817946+00:00"
+        "retrievedAt": "2026-11-08T18:26:15.690779+00:00"
       }
     },
     {
@@ -2771,7 +2746,7 @@
         "eventType": null,
         "detail": null,
         "publicationState": "source_reachable_no_specific_local_notice",
-        "retrievedAt": "2026-11-08T13:03:50.817946+00:00"
+        "retrievedAt": "2026-11-08T18:26:15.690779+00:00"
       }
     },
     {
@@ -2779,7 +2754,7 @@
       "label": "Servicios e infraestructura",
       "signal": 1,
       "status": "evidencia de servicio",
-      "freshnessHours": 304.6,
+      "freshnessHours": 309.9,
       "mode": "evidencia editorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -2859,7 +2834,7 @@
       "label": "Educación",
       "signal": 1,
       "status": "evidencia educativa",
-      "freshnessHours": 1022.0,
+      "freshnessHours": 1027.4,
       "mode": "evidencia editorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -2939,7 +2914,7 @@
       "label": "Seguridad / emergencias",
       "signal": 1,
       "status": "cobertura de emergencia",
-      "freshnessHours": 107.5,
+      "freshnessHours": 112.9,
       "mode": "evidencia editorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -2979,7 +2954,7 @@
       "label": "Territorio / microzonas",
       "signal": 1,
       "status": "hecho territorial",
-      "freshnessHours": 304.6,
+      "freshnessHours": 309.9,
       "mode": "evidencia territorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -3036,7 +3011,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://chanardigital.com.ar/",
-        "lastFetch": "2026-11-08T13:03:53.067735+00:00",
+        "lastFetch": "2026-11-08T18:26:17.858203+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3052,7 +3027,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.radiomia.com.ar/",
-        "lastFetch": "2026-11-08T13:03:54.558107+00:00",
+        "lastFetch": "2026-11-08T18:26:19.066961+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -3067,7 +3042,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://tuitvacamuerta.com/",
-        "lastFetch": "2026-11-08T13:03:56.226031+00:00",
+        "lastFetch": "2026-11-08T18:26:20.765172+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -3082,7 +3057,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.vacamuertanews.com/",
-        "lastFetch": "2026-11-08T13:03:56.646108+00:00",
+        "lastFetch": "2026-11-08T18:26:21.191056+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3098,7 +3073,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.neuqueninforma.gob.ar/",
-        "lastFetch": "2026-11-08T13:03:57.258752+00:00",
+        "lastFetch": "2026-11-08T18:26:22.472111+00:00",
         "success": false,
         "attempted": 3,
         "failures": [
@@ -3115,7 +3090,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://sanpatricio.gob.ar/",
-        "lastFetch": "2026-11-08T13:03:58.018950+00:00",
+        "lastFetch": "2026-11-08T18:26:23.464239+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -3130,7 +3105,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://boletinoficial.neuquen.gov.ar/",
-        "lastFetch": "2026-11-08T13:03:58.538197+00:00",
+        "lastFetch": "2026-11-08T18:26:24.168899+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -3145,7 +3120,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.lmneuquen.com/",
-        "lastFetch": "2026-11-08T13:03:58.828966+00:00",
+        "lastFetch": "2026-11-08T18:26:24.463458+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3161,7 +3136,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.rionegro.com.ar/",
-        "lastFetch": "2026-11-08T13:04:00.736133+00:00",
+        "lastFetch": "2026-11-08T18:26:26.860103+00:00",
         "success": true,
         "attempted": 2,
         "failures": [
@@ -3176,7 +3151,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.mejorinformado.com/",
-        "lastFetch": "2026-11-08T13:04:01.097390+00:00",
+        "lastFetch": "2026-11-08T18:26:27.709361+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3192,7 +3167,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.diariamenteneuquen.com/",
-        "lastFetch": "2026-11-08T13:04:01.708829+00:00",
+        "lastFetch": "2026-11-08T18:26:28.646242+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3212,14 +3187,14 @@
     {
       "eventId": "CHA-b2bacbd8d798",
       "title": "Una camioneta se incendió en la Ruta 7 cerca de San Patricio del Chañar: el conductor se quemó intentando apag - MejorInformado.com",
-      "publishedAt": "2026-11-08T12:56:15+00:00",
+      "publishedAt": "2026-11-08T12:53:05+00:00",
       "firstSeen": "2026-11-07T20:03:41.330744+00:00",
-      "lastSeen": "2026-11-08T12:56:15+00:00",
+      "lastSeen": "2026-11-08T12:53:05+00:00",
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "MOVILIDAD",
-      "movement": 77,
+      "movement": 75,
       "coverage": 2,
       "sourceCount": 2,
       "directSourceCount": 0,
@@ -3237,8 +3212,8 @@
         {
           "title": "Una camioneta se incendió en la Ruta 7 cerca de San Patricio del Chañar: el conductor se quemó intentando apag - MejorInformado.com",
           "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNbnJLX2J6dDJxbFhwLXJpUkJmUnVmcmdFSllVdTFfbVAwWExyZnQ4NXZGQVdldnVzWUZfLXYxNm9XNk5XdzhHcklrbzBmeGJRTkJDUmlRaHBReXZUbzRNME5BMVozb3VnX0RIUDMxb0JRVzdsek1Mbk5CVFNuNXpGR2hyR3RJdWlOU3EtbV9WYnNHSmt5NDdyZm1adHRRZnBITXEzWTFaUXdESV94Y0RWZ2VvTUdlczRhV2E3ZXkzc3RMMHFnX1ZWTVdGMkdMQ3RaWm1DYy1oWdIB1wFBVV95cUxNbnJLX2J6dDJxbFhwLXJpUkJmUnVmcmdFSllVdTFfbVAwWExyZnQ4NXZGQVdldnVzWUZfLXYxNm9XNk5XdzhHcklrbzBmeGJRTkJDUmlRaHBReXZUbzRNME5BMVozb3VnX0RIUDMxb0JRVzdsek1Mbk5CVFNuNXpGR2hyR3RJdWlOU3EtbV9WYnNHSmt5NDdyZm1adHRRZnBITXEzWTFaUXdESV94Y0RWZ2VvTUdlczRhV2E3ZXkzc3RMMHFnX1ZWTVdGMkdMQ3RaWm1DYy1oWQ?oc=5",
-          "publishedAt": "2026-11-08T12:56:15+00:00",
-          "published": "2026-11-08T12:56:15+00:00",
+          "publishedAt": "2026-11-08T12:53:05+00:00",
+          "published": "2026-11-08T12:53:05+00:00",
           "description": "<a href=\"https://news.google.com/rss/articles/CBMi1wFBVV95cUxNbnJLX2J6dDJxbFhwLXJpUkJmUnVmcmdFSllVdTFfbVAwWExyZnQ4NXZGQVdldnVzWUZfLXYxNm9XNk5XdzhHcklrbzBmeGJRTkJDUmlRaHBReXZUbzRNME5BMVozb3VnX0RIUDMxb0JRVzdsek1Mbk5CVFNuNXpGR2hyR3RJdWlOU3EtbV9WYnNHSmt5NDdyZm1adHRRZnBITXEzWTFaUXdESV94Y0RWZ2VvTUdlczRhV2E3ZXkzc3RMMHFnX1ZWTVdGMkdMQ3RaWm1DYy1oWdIB1wFBVV95cUxNbnJLX2J6dDJxbFhwLXJpUkJmUnVmcmdFSllVdTFfbVAwWExyZnQ4NXZGQVdldnVzWUZfLXYxNm9XNk5XdzhHcklrbzBmeGJRTkJDUmlRaHBReXZUbzRNME5BMVozb3VnX0RIUDMxb0JRVzdsek1Mbk5CVFNuNXpGR2hyR3RJdWlOU3EtbV9WYnNHSmt5NDdyZm1adHRRZnBITXEzWTFaUXdESV94Y0RWZ2VvTUdlczRhV2E3ZXkzc3RMMHFnX1ZWTVdGMkdMQ3RaWm1DYy1oWQ?oc=5\" target=\"_blank\">Una camioneta se incendió en la Ruta 7 cerca de San Patricio del Chañar: el conductor se quemó intentando apag</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MejorInformado.com</font>",
           "source": "MejorInformado.com",
           "sourceType": "BUSCADOR / RESPALDO",
@@ -3248,7 +3223,7 @@
           "relevance": 3,
           "relevanceLabel": "DIRECTA",
           "firstSeen": "2026-11-08T13:04:10.984616+00:00",
-          "isNew": true,
+          "isNew": false,
           "titleKey": "camioneta incendio ruta cerca conductor quemo intentando apag mejorinformado com",
           "evidenceUrl": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNbnJLX2J6dDJxbFhwLXJpUkJmUnVmcmdFSllVdTFfbVAwWExyZnQ4NXZGQVdldnVzWUZfLXYxNm9XNk5XdzhHcklrbzBmeGJRTkJDUmlRaHBReXZUbzRNME5BMVozb3VnX0RIUDMxb0JRVzdsek1Mbk5CVFNuNXpGR2hyR3RJdWlOU3EtbV9WYnNHSmt5NDdyZm1adHRRZnBITXEzWTFaUXdESV94Y0RWZ2VvTUdlczRhV2E3ZXkzc3RMMHFnX1ZWTVdGMkdMQ3RaWm1DYy1oWdIB1wFBVV95cUxNbnJLX2J6dDJxbFhwLXJpUkJmUnVmcmdFSllVdTFfbVAwWExyZnQ4NXZGQVdldnVzWUZfLXYxNm9XNk5XdzhHcklrbzBmeGJRTkJDUmlRaHBReXZUbzRNME5BMVozb3VnX0RIUDMxb0JRVzdsek1Mbk5CVFNuNXpGR2hyR3RJdWlOU3EtbV9WYnNHSmt5NDdyZm1adHRRZnBITXEzWTFaUXdESV94Y0RWZ2VvTUdlczRhV2E3ZXkzc3RMMHFnX1ZWTVdGMkdMQ3RaWm1DYy1oWQ?oc=5",
           "sourcePriority": 3
@@ -3274,11 +3249,9 @@
         }
       ],
       "lifecycle": "EMERGENTE",
-      "movementDelta": 19,
-      "previousCoverage": 1,
-      "newSources": [
-        "MejorInformado.com"
-      ],
+      "movementDelta": -2,
+      "previousCoverage": 2,
+      "newSources": [],
       "sourceDiversity": 2,
       "memoryMatched": true,
       "isNew": false,
@@ -3328,7 +3301,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SERVICIOS",
-      "movement": 61,
+      "movement": 59,
       "coverage": 8,
       "sourceCount": 7,
       "directSourceCount": 0,
@@ -3501,176 +3474,16 @@
         }
       ],
       "lifecycle": "SOSTENIDO",
-      "movementDelta": -7,
-      "previousCoverage": 30,
+      "movementDelta": -2,
+      "previousCoverage": 8,
       "newSources": [
+        "Chañar Digital",
+        "Patagonia Press",
         "Neuquén al instante"
       ],
       "sourceDiversity": 7,
       "memoryMatched": true,
       "isNew": false,
-      "view": "INCIDENCIA",
-      "incidenceEligible": true,
-      "signalReason": "reservado a incidencia territorial",
-      "incidenceReason": "anclaje directo + tema operativo/local",
-      "territory": {
-        "version": "2.0",
-        "primary": "San Patricio del Chañar",
-        "nodes": [
-          "San Patricio del Chañar"
-        ],
-        "sectors": [],
-        "barrios": [],
-        "microzones": [],
-        "corridors": [],
-        "institutions": [],
-        "services": [],
-        "spaces": [],
-        "production": [],
-        "path": "San Patricio del Chañar",
-        "evidence": [
-          {
-            "node": "San Patricio del Chañar",
-            "level": "localidad",
-            "evidence": "DIRECTA"
-          }
-        ]
-      }
-    },
-    {
-      "eventId": "CHA-5b8df4045776",
-      "title": "Once allanamientos en El Chañar y barrios neuquinos por venta de drogas: hay ocho personas imputadas - MejorInformado.com",
-      "publishedAt": "2026-10-26T20:30:00+00:00",
-      "firstSeen": "2026-11-02T01:23:58.390470+00:00",
-      "lastSeen": "2026-10-26T20:30:00+00:00",
-      "relevance": 3,
-      "relevanceLabel": "DIRECTA",
-      "incidenceLabel": "DIRECTA EN CHANAR",
-      "topic": "SERVICIOS",
-      "movement": 55,
-      "coverage": 5,
-      "sourceCount": 4,
-      "directSourceCount": 0,
-      "territorialAnchors": [
-        "el chañar",
-        "san patricio del chañar"
-      ],
-      "sources": [
-        "Neuquen Post",
-        "MejorInformado.com",
-        "mpfneuquen",
-        "Minuto Neuquén"
-      ],
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNUWZHZFRMX2tOdUNNeVpPOWltXzdPa2dKS3FWeWczMHJSeDVtN1l4c3lCbUpVcGJ0ckNaSERnMC1wb0dTRjE0LW1ZX1FtTnR4c3RNZWdyd1hzXzFTS3ZfdksxQ2w3RUc0enZoYk54Y2tMUDFBelhQYkJSOENWRlgtZDZYV0M0X1M1eDlfcWZMdnJkUGV1SHJfUUxHQ2ZxQjJ6NDBsc0JPa2VsUHZVaVVZeF9Hdmc1MUZwUERNUlR5a0pnd0JQZ00zVExkdnNWczVmMjFz0gHTAUFVX3lxTE1RZkdkVExfa051Q015Wk85aW1fN09rZ0pLcVZ5ZzMwclJ4NW03WXhzeUJtSlVwYnRyQ1pIRGcwLXBvR1NGMTQtbVlfUW1OdHhzdE1lZ3J3WHNfMVNLdl92SzFDbDdFRzR6dmhiTnhja0xQMUF6WFBiQlI4Q1ZGWC1kNlhXQzRfUzV4OV9xZkx2cmRQZXVIcl9RTEdDZnFCMno0MGxzQk9rZWxQdlVpVVl4X0d2ZzUxRnBQRE1SVHlrSmd3QlBnTTNUTGR2c1ZzNWYyMXM?oc=5",
-      "items": [
-        {
-          "title": "Once allanamientos por venta de drogas en Neuquén y El Chañar: ocho personas fueron imputadas - Neuquen Post",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQbXBVVS16UlM2LVpnbTN5X2hCbFZJT0lodldnd0lYYks3b2pJd3c3bkJpaWdkaHE0eVhOMTQ3dl9ndXlkdklaNXdYZ1VQcHNoc1MyVkNDbjJ1MkQwM0JWb29MMXlUN3hfMFFRbW1oSHZmR0xRdGh2Z2JHbUNEemdza1VRb2RmMWtSVm5kdFdaRmtIY1pOZ3RGQTk3MXN0QjkyOC1uSFJIemdjbjFwXy1wSDFacEdOd0JU?oc=5",
-          "publishedAt": "2026-10-26T15:44:27+00:00",
-          "published": "2026-10-26T15:44:27+00:00",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMiuAFBVV95cUxQbXBVVS16UlM2LVpnbTN5X2hCbFZJT0lodldnd0lYYks3b2pJd3c3bkJpaWdkaHE0eVhOMTQ3dl9ndXlkdklaNXdYZ1VQcHNoc1MyVkNDbjJ1MkQwM0JWb29MMXlUN3hfMFFRbW1oSHZmR0xRdGh2Z2JHbUNEemdza1VRb2RmMWtSVm5kdFdaRmtIY1pOZ3RGQTk3MXN0QjkyOC1uSFJIemdjbjFwXy1wSDFacEdOd0JU?oc=5\" target=\"_blank\">Once allanamientos por venta de drogas en Neuquén y El Chañar: ocho personas fueron imputadas</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Neuquen Post</font>",
-          "source": "Neuquen Post",
-          "sourceType": "BUSCADOR / RESPALDO",
-          "sourceUrl": "",
-          "collection": "BUSCADOR",
-          "query": "\"San Patricio del Chañar\"",
-          "relevance": 3,
-          "relevanceLabel": "DIRECTA",
-          "firstSeen": "2026-11-02T01:23:58.390470+00:00",
-          "isNew": false,
-          "titleKey": "once allanamientos venta drogas ocho personas fueron imputadas post",
-          "evidenceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQbXBVVS16UlM2LVpnbTN5X2hCbFZJT0lodldnd0lYYks3b2pJd3c3bkJpaWdkaHE0eVhOMTQ3dl9ndXlkdklaNXdYZ1VQcHNoc1MyVkNDbjJ1MkQwM0JWb29MMXlUN3hfMFFRbW1oSHZmR0xRdGh2Z2JHbUNEemdza1VRb2RmMWtSVm5kdFdaRmtIY1pOZ3RGQTk3MXN0QjkyOC1uSFJIemdjbjFwXy1wSDFacEdOd0JU?oc=5",
-          "sourcePriority": 3
-        },
-        {
-          "title": "Once allanamientos en El Chañar y barrios neuquinos por venta de drogas: hay ocho personas imputadas - MejorInformado.com",
-          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNUWZHZFRMX2tOdUNNeVpPOWltXzdPa2dKS3FWeWczMHJSeDVtN1l4c3lCbUpVcGJ0ckNaSERnMC1wb0dTRjE0LW1ZX1FtTnR4c3RNZWdyd1hzXzFTS3ZfdksxQ2w3RUc0enZoYk54Y2tMUDFBelhQYkJSOENWRlgtZDZYV0M0X1M1eDlfcWZMdnJkUGV1SHJfUUxHQ2ZxQjJ6NDBsc0JPa2VsUHZVaVVZeF9Hdmc1MUZwUERNUlR5a0pnd0JQZ00zVExkdnNWczVmMjFz0gHTAUFVX3lxTE1RZkdkVExfa051Q015Wk85aW1fN09rZ0pLcVZ5ZzMwclJ4NW03WXhzeUJtSlVwYnRyQ1pIRGcwLXBvR1NGMTQtbVlfUW1OdHhzdE1lZ3J3WHNfMVNLdl92SzFDbDdFRzR6dmhiTnhja0xQMUF6WFBiQlI4Q1ZGWC1kNlhXQzRfUzV4OV9xZkx2cmRQZXVIcl9RTEdDZnFCMno0MGxzQk9rZWxQdlVpVVl4X0d2ZzUxRnBQRE1SVHlrSmd3QlBnTTNUTGR2c1ZzNWYyMXM?oc=5",
-          "publishedAt": "2026-10-26T07:00:00+00:00",
-          "published": "2026-10-26T07:00:00+00:00",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMi0wFBVV95cUxNUWZHZFRMX2tOdUNNeVpPOWltXzdPa2dKS3FWeWczMHJSeDVtN1l4c3lCbUpVcGJ0ckNaSERnMC1wb0dTRjE0LW1ZX1FtTnR4c3RNZWdyd1hzXzFTS3ZfdksxQ2w3RUc0enZoYk54Y2tMUDFBelhQYkJSOENWRlgtZDZYV0M0X1M1eDlfcWZMdnJkUGV1SHJfUUxHQ2ZxQjJ6NDBsc0JPa2VsUHZVaVVZeF9Hdmc1MUZwUERNUlR5a0pnd0JQZ00zVExkdnNWczVmMjFz0gHTAUFVX3lxTE1RZkdkVExfa051Q015Wk85aW1fN09rZ0pLcVZ5ZzMwclJ4NW03WXhzeUJtSlVwYnRyQ1pIRGcwLXBvR1NGMTQtbVlfUW1OdHhzdE1lZ3J3WHNfMVNLdl92SzFDbDdFRzR6dmhiTnhja0xQMUF6WFBiQlI4Q1ZGWC1kNlhXQzRfUzV4OV9xZkx2cmRQZXVIcl9RTEdDZnFCMno0MGxzQk9rZWxQdlVpVVl4X0d2ZzUxRnBQRE1SVHlrSmd3QlBnTTNUTGR2c1ZzNWYyMXM?oc=5\" target=\"_blank\">Once allanamientos en El Chañar y barrios neuquinos por venta de drogas: hay ocho personas imputadas</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MejorInformado.com</font>",
-          "source": "MejorInformado.com",
-          "sourceType": "BUSCADOR / RESPALDO",
-          "sourceUrl": "",
-          "collection": "BUSCADOR",
-          "query": "\"San Patricio del Chañar\" \"Vaca Muerta\"",
-          "relevance": 3,
-          "relevanceLabel": "DIRECTA",
-          "firstSeen": "2026-11-07T09:07:28.668533+00:00",
-          "isNew": false,
-          "titleKey": "once allanamientos barrios neuquinos venta drogas hay ocho personas imputadas mejorinformado com",
-          "evidenceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNUWZHZFRMX2tOdUNNeVpPOWltXzdPa2dKS3FWeWczMHJSeDVtN1l4c3lCbUpVcGJ0ckNaSERnMC1wb0dTRjE0LW1ZX1FtTnR4c3RNZWdyd1hzXzFTS3ZfdksxQ2w3RUc0enZoYk54Y2tMUDFBelhQYkJSOENWRlgtZDZYV0M0X1M1eDlfcWZMdnJkUGV1SHJfUUxHQ2ZxQjJ6NDBsc0JPa2VsUHZVaVVZeF9Hdmc1MUZwUERNUlR5a0pnd0JQZ00zVExkdnNWczVmMjFz0gHTAUFVX3lxTE1RZkdkVExfa051Q015Wk85aW1fN09rZ0pLcVZ5ZzMwclJ4NW03WXhzeUJtSlVwYnRyQ1pIRGcwLXBvR1NGMTQtbVlfUW1OdHhzdE1lZ3J3WHNfMVNLdl92SzFDbDdFRzR6dmhiTnhja0xQMUF6WFBiQlI4Q1ZGWC1kNlhXQzRfUzV4OV9xZkx2cmRQZXVIcl9RTEdDZnFCMno0MGxzQk9rZWxQdlVpVVl4X0d2ZzUxRnBQRE1SVHlrSmd3QlBnTTNUTGR2c1ZzNWYyMXM?oc=5",
-          "sourcePriority": 3
-        },
-        {
-          "title": "Dos imputados por vender droga en San Patricio del Chañar: quedaron en prisión preventiva - MejorInformado.com",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNdHpTX2F1UXlHcW1LcFJBY1FneElESEN5elRPTnlGV1h4VFVsRWE3N3RrN1RFTjdmUTE5RDlNS21uZGRaR1RQY3pTYkFGMjF3WVphRVZWYkY4cGRkc1VOajlsNktTMWc4UnpvaTJJd3o4VWpwQ2JiMjUtdHh2WkEwMnZIWWphQWt5Sm9NYU1hdW5LU2U5SGVLaTlOVTVUV2xlVWs5MU5XdHFQdXV3RHU4Qkp0WmE4Z1Z0bWVyQ1oxLWNiN055UlHSAcYBQVVfeXFMTXR6U19hdVF5R3FtS3BSQWNRZ3hJREhDeXpUT055RldYeFRVbEVhNzd0azdURU43ZlExOUQ5TUttbmRkWkdUUGN6U2JBRjIxd1laYUVWVmJGOHBkZHNVTmo5bDZLUzFnOFJ6b2kySXd6OFVqcENiYjI1LXR4dlpBMDJ2SFlqYUFreUpvTWFNYXVuS1NlOUhlS2k5TlU1VFdsZVVrOTFOV3RxUHV1d0R1OEJKdFphOGdWdG1lckNaMS1jYjdOeVJR?oc=5",
-          "publishedAt": "2026-10-25T19:15:20+00:00",
-          "published": "2026-10-25T19:15:20+00:00",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMixgFBVV95cUxNdHpTX2F1UXlHcW1LcFJBY1FneElESEN5elRPTnlGV1h4VFVsRWE3N3RrN1RFTjdmUTE5RDlNS21uZGRaR1RQY3pTYkFGMjF3WVphRVZWYkY4cGRkc1VOajlsNktTMWc4UnpvaTJJd3o4VWpwQ2JiMjUtdHh2WkEwMnZIWWphQWt5Sm9NYU1hdW5LU2U5SGVLaTlOVTVUV2xlVWs5MU5XdHFQdXV3RHU4Qkp0WmE4Z1Z0bWVyQ1oxLWNiN055UlHSAcYBQVVfeXFMTXR6U19hdVF5R3FtS3BSQWNRZ3hJREhDeXpUT055RldYeFRVbEVhNzd0azdURU43ZlExOUQ5TUttbmRkWkdUUGN6U2JBRjIxd1laYUVWVmJGOHBkZHNVTmo5bDZLUzFnOFJ6b2kySXd6OFVqcENiYjI1LXR4dlpBMDJ2SFlqYUFreUpvTWFNYXVuS1NlOUhlS2k5TlU1VFdsZVVrOTFOV3RxUHV1d0R1OEJKdFphOGdWdG1lckNaMS1jYjdOeVJR?oc=5\" target=\"_blank\">Dos imputados por vender droga en San Patricio del Chañar: quedaron en prisión preventiva</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MejorInformado.com</font>",
-          "source": "MejorInformado.com",
-          "sourceType": "BUSCADOR / RESPALDO",
-          "sourceUrl": "",
-          "collection": "BUSCADOR",
-          "query": "site:mejorinformado.com \"San Patricio del Chañar\"",
-          "relevance": 3,
-          "relevanceLabel": "DIRECTA",
-          "firstSeen": "2026-11-02T01:23:58.390470+00:00",
-          "isNew": false,
-          "titleKey": "dos imputados vender droga quedaron prision preventiva mejorinformado com",
-          "evidenceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNdHpTX2F1UXlHcW1LcFJBY1FneElESEN5elRPTnlGV1h4VFVsRWE3N3RrN1RFTjdmUTE5RDlNS21uZGRaR1RQY3pTYkFGMjF3WVphRVZWYkY4cGRkc1VOajlsNktTMWc4UnpvaTJJd3o4VWpwQ2JiMjUtdHh2WkEwMnZIWWphQWt5Sm9NYU1hdW5LU2U5SGVLaTlOVTVUV2xlVWs5MU5XdHFQdXV3RHU4Qkp0WmE4Z1Z0bWVyQ1oxLWNiN055UlHSAcYBQVVfeXFMTXR6U19hdVF5R3FtS3BSQWNRZ3hJREhDeXpUT055RldYeFRVbEVhNzd0azdURU43ZlExOUQ5TUttbmRkWkdUUGN6U2JBRjIxd1laYUVWVmJGOHBkZHNVTmo5bDZLUzFnOFJ6b2kySXd6OFVqcENiYjI1LXR4dlpBMDJ2SFlqYUFreUpvTWFNYXVuS1NlOUhlS2k5TlU1VFdsZVVrOTFOV3RxUHV1d0R1OEJKdFphOGdWdG1lckNaMS1jYjdOeVJR?oc=5",
-          "sourcePriority": 3
-        },
-        {
-          "title": "Imputaron a dos personas por vender drogas en San Patricio del Chañar y quedaron en prisión preventiva - mpfneuquen",
-          "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQVmt0T2xsYldUQWFady0zR2R2UUI2U1FyQXJlamx3TVdRMndpWnNheTc0MjFQU1p3MDJ6RGVYa01EZ3lKZU5SYnQxUzdzTnBoQXNKZzlVclNHd0FFbXR0TW9KLTZ6NFJ0TGlJRVJSM1hISXdXXzg3bEZNUGxkSk9vQTFCeDllZUUwYkNtdm83XzdKOWVMRUVMSm1qUmx5eVZROGdQZ3p3aVNMZzI3OHVvbDBEY1pQNExVRkV4dG9NajYxcE5neEtDR29yVmwyYUExRzlhWHFEMGhLY19HOV94TUZVZFE0NlFGZ0haVTk1NVRaaFlKODZYTHFiYWRhVVBRZHJRcmdCWQ?oc=5",
-          "publishedAt": "2026-10-25T16:01:55+00:00",
-          "published": "2026-10-25T16:01:55+00:00",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMihwJBVV95cUxQVmt0T2xsYldUQWFady0zR2R2UUI2U1FyQXJlamx3TVdRMndpWnNheTc0MjFQU1p3MDJ6RGVYa01EZ3lKZU5SYnQxUzdzTnBoQXNKZzlVclNHd0FFbXR0TW9KLTZ6NFJ0TGlJRVJSM1hISXdXXzg3bEZNUGxkSk9vQTFCeDllZUUwYkNtdm83XzdKOWVMRUVMSm1qUmx5eVZROGdQZ3p3aVNMZzI3OHVvbDBEY1pQNExVRkV4dG9NajYxcE5neEtDR29yVmwyYUExRzlhWHFEMGhLY19HOV94TUZVZFE0NlFGZ0haVTk1NVRaaFlKODZYTHFiYWRhVVBRZHJRcmdCWQ?oc=5\" target=\"_blank\">Imputaron a dos personas por vender drogas en San Patricio del Chañar y quedaron en prisión preventiva</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">mpfneuquen</font>",
-          "source": "mpfneuquen",
-          "sourceType": "BUSCADOR / RESPALDO",
-          "sourceUrl": "",
-          "collection": "BUSCADOR",
-          "query": "\"San Patricio del Chañar\"",
-          "relevance": 3,
-          "relevanceLabel": "DIRECTA",
-          "firstSeen": "2026-11-08T13:04:10.984616+00:00",
-          "isNew": true,
-          "titleKey": "imputaron dos personas vender drogas quedaron prision preventiva mpfneuquen",
-          "evidenceUrl": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQVmt0T2xsYldUQWFady0zR2R2UUI2U1FyQXJlamx3TVdRMndpWnNheTc0MjFQU1p3MDJ6RGVYa01EZ3lKZU5SYnQxUzdzTnBoQXNKZzlVclNHd0FFbXR0TW9KLTZ6NFJ0TGlJRVJSM1hISXdXXzg3bEZNUGxkSk9vQTFCeDllZUUwYkNtdm83XzdKOWVMRUVMSm1qUmx5eVZROGdQZ3p3aVNMZzI3OHVvbDBEY1pQNExVRkV4dG9NajYxcE5neEtDR29yVmwyYUExRzlhWHFEMGhLY19HOV94TUZVZFE0NlFGZ0haVTk1NVRaaFlKODZYTHFiYWRhVVBRZHJRcmdCWQ?oc=5",
-          "sourcePriority": 3
-        },
-        {
-          "title": "Golpe al narcomenudeo: realizaron 11 allanamientos entre Neuquén capital y San Patricio del Chañar - Minuto Neuquén",
-          "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNbDBhRWF4NGRzMXZfYjZ2c3VhcHVGdlZBYkhkeC0tZ2J0MWxtTU02ak04NlY4aDRsU0dRd21qWEpDV0w4aDdwNF9mZDhnbmtZbERIRGl3R1haOWlQX2pHX2xLYllxbEdsM1RGWjV0eGI1Q3I3b2N3RVkyYTIybHBaUjhTUE4tb3V4YmdsX2FQSlkzR1JieHJVY3VUUGpKdzRObXc3UF9MWGJ3T1Qyai1vN01tVTl1M3dFOUJNUWg1UWREZU15aGloYVRXQXpWcnhoT05fVFdVT2ZlSGNySW9ybDQ2Z1Q1NnRmVGdFbnFPZw?oc=5",
-          "publishedAt": "2026-10-26T20:30:00+00:00",
-          "published": "2026-10-26T20:30:00+00:00",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMi7wFBVV95cUxNbDBhRWF4NGRzMXZfYjZ2c3VhcHVGdlZBYkhkeC0tZ2J0MWxtTU02ak04NlY4aDRsU0dRd21qWEpDV0w4aDdwNF9mZDhnbmtZbERIRGl3R1haOWlQX2pHX2xLYllxbEdsM1RGWjV0eGI1Q3I3b2N3RVkyYTIybHBaUjhTUE4tb3V4YmdsX2FQSlkzR1JieHJVY3VUUGpKdzRObXc3UF9MWGJ3T1Qyai1vN01tVTl1M3dFOUJNUWg1UWREZU15aGloYVRXQXpWcnhoT05fVFdVT2ZlSGNySW9ybDQ2Z1Q1NnRmVGdFbnFPZw?oc=5\" target=\"_blank\">Golpe al narcomenudeo: realizaron 11 allanamientos entre Neuquén capital y San Patricio del Chañar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Minuto Neuquén</font>",
-          "source": "Minuto Neuquén",
-          "sourceType": "BUSCADOR / RESPALDO",
-          "sourceUrl": "",
-          "collection": "BUSCADOR",
-          "query": "\"San Patricio del Chañar\"",
-          "relevance": 3,
-          "relevanceLabel": "DIRECTA",
-          "firstSeen": "2026-11-02T01:23:58.390470+00:00",
-          "isNew": false,
-          "titleKey": "golpe narcomenudeo realizaron allanamientos entre capital minuto",
-          "evidenceUrl": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNbDBhRWF4NGRzMXZfYjZ2c3VhcHVGdlZBYkhkeC0tZ2J0MWxtTU02ak04NlY4aDRsU0dRd21qWEpDV0w4aDdwNF9mZDhnbmtZbERIRGl3R1haOWlQX2pHX2xLYllxbEdsM1RGWjV0eGI1Q3I3b2N3RVkyYTIybHBaUjhTUE4tb3V4YmdsX2FQSlkzR1JieHJVY3VUUGpKdzRObXc3UF9MWGJ3T1Qyai1vN01tVTl1M3dFOUJNUWg1UWREZU15aGloYVRXQXpWcnhoT05fVFdVT2ZlSGNySW9ybDQ2Z1Q1NnRmVGdFbnFPZw?oc=5",
-          "sourcePriority": 3
-        }
-      ],
-      "lifecycle": "ACTIVO",
-      "movementDelta": 0,
-      "previousCoverage": 0,
-      "newSources": [
-        "Neuquen Post",
-        "MejorInformado.com",
-        "mpfneuquen",
-        "Minuto Neuquén"
-      ],
-      "sourceDiversity": 4,
-      "memoryMatched": false,
-      "isNew": true,
       "view": "INCIDENCIA",
       "incidenceEligible": true,
       "signalReason": "reservado a incidencia territorial",
@@ -3709,7 +3522,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "EDUCACIÓN",
-      "movement": 48,
+      "movement": 46,
       "coverage": 2,
       "sourceCount": 2,
       "directSourceCount": 0,
@@ -3807,7 +3620,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SERVICIOS",
-      "movement": 45,
+      "movement": 43,
       "coverage": 1,
       "sourceCount": 1,
       "directSourceCount": 0,
@@ -3840,9 +3653,9 @@
           "sourcePriority": 3
         }
       ],
-      "lifecycle": "EMERGENTE",
-      "movementDelta": 6,
-      "previousCoverage": 4,
+      "lifecycle": "SOSTENIDO",
+      "movementDelta": -2,
+      "previousCoverage": 1,
       "newSources": [],
       "sourceDiversity": 1,
       "memoryMatched": true,
@@ -3978,15 +3791,16 @@
         }
       ],
       "lifecycle": "ACTIVO",
-      "movementDelta": 23,
-      "previousCoverage": 1,
+      "movementDelta": 0,
+      "previousCoverage": 0,
       "newSources": [
+        "Chañar Digital",
         "NoticiasNQN",
         "Lmneuquen.com"
       ],
       "sourceDiversity": 3,
-      "memoryMatched": true,
-      "isNew": false,
+      "memoryMatched": false,
+      "isNew": true,
       "view": "INCIDENCIA",
       "incidenceEligible": true,
       "signalReason": "reservado a incidencia territorial",
@@ -4016,55 +3830,118 @@
       }
     },
     {
-      "eventId": "CHA-482c885515b8",
-      "title": "Después de 11 años de espera, Bomberos de San Patricio del Chañar ya tiene su casa propia - Chañar Digital",
-      "publishedAt": "2026-11-04T01:32:09+00:00",
-      "firstSeen": "2026-11-04T10:43:03.453131+00:00",
-      "lastSeen": "2026-11-04T01:32:09+00:00",
+      "eventId": "CHA-5b8df4045776",
+      "title": "Once allanamientos en El Chañar y barrios neuquinos por venta de drogas: hay ocho personas imputadas - MejorInformado.com",
+      "publishedAt": "2026-10-26T20:30:00+00:00",
+      "firstSeen": "2026-11-02T01:23:58.390470+00:00",
+      "lastSeen": "2026-10-26T20:30:00+00:00",
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
-      "topic": "SEGURIDAD / EMERGENCIAS",
-      "movement": 32,
-      "coverage": 1,
-      "sourceCount": 1,
+      "topic": "SERVICIOS",
+      "movement": 39,
+      "coverage": 4,
+      "sourceCount": 3,
       "directSourceCount": 0,
       "territorialAnchors": [
-        "san patricio del chañar",
-        "el chañar"
+        "el chañar",
+        "san patricio del chañar"
       ],
       "sources": [
-        "Chañar Digital"
+        "Neuquen Post",
+        "MejorInformado.com",
+        "Minuto Neuquén"
       ],
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNOUpXS3FydV9lRnJEbTBBNThyNms0bEQ0U0dqY1pCb0FBTURPY2JFQzdSZ091aUttcy1WUnJqYkpMRm42TGNCRC1sdXNGNWFHWVVlbER1Y3JYVDNvb1haNjM3RUsydW5jcW5KRl82bS01WGNBRmhES0RCOWY2RGxLNWkzd1JkRDg2dWJWaEhrczBpY2poY2lSV0U3cWx2c2pFVy14cG0zQkRNcTRGUTRfRHhqd2otOGIwTXQ0SUdOUlhwdEFQdnRwRWVOOHYtNzdZb3hQZlREV3Atdw?oc=5",
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNUWZHZFRMX2tOdUNNeVpPOWltXzdPa2dKS3FWeWczMHJSeDVtN1l4c3lCbUpVcGJ0ckNaSERnMC1wb0dTRjE0LW1ZX1FtTnR4c3RNZWdyd1hzXzFTS3ZfdksxQ2w3RUc0enZoYk54Y2tMUDFBelhQYkJSOENWRlgtZDZYV0M0X1M1eDlfcWZMdnJkUGV1SHJfUUxHQ2ZxQjJ6NDBsc0JPa2VsUHZVaVVZeF9Hdmc1MUZwUERNUlR5a0pnd0JQZ00zVExkdnNWczVmMjFz0gHTAUFVX3lxTE1RZkdkVExfa051Q015Wk85aW1fN09rZ0pLcVZ5ZzMwclJ4NW03WXhzeUJtSlVwYnRyQ1pIRGcwLXBvR1NGMTQtbVlfUW1OdHhzdE1lZ3J3WHNfMVNLdl92SzFDbDdFRzR6dmhiTnhja0xQMUF6WFBiQlI4Q1ZGWC1kNlhXQzRfUzV4OV9xZkx2cmRQZXVIcl9RTEdDZnFCMno0MGxzQk9rZWxQdlVpVVl4X0d2ZzUxRnBQRE1SVHlrSmd3QlBnTTNUTGR2c1ZzNWYyMXM?oc=5",
       "items": [
         {
-          "title": "Después de 11 años de espera, Bomberos de San Patricio del Chañar ya tiene su casa propia - Chañar Digital",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNOUpXS3FydV9lRnJEbTBBNThyNms0bEQ0U0dqY1pCb0FBTURPY2JFQzdSZ091aUttcy1WUnJqYkpMRm42TGNCRC1sdXNGNWFHWVVlbER1Y3JYVDNvb1haNjM3RUsydW5jcW5KRl82bS01WGNBRmhES0RCOWY2RGxLNWkzd1JkRDg2dWJWaEhrczBpY2poY2lSV0U3cWx2c2pFVy14cG0zQkRNcTRGUTRfRHhqd2otOGIwTXQ0SUdOUlhwdEFQdnRwRWVOOHYtNzdZb3hQZlREV3Atdw?oc=5",
-          "publishedAt": "2026-11-04T01:32:09+00:00",
-          "published": "2026-11-04T01:32:09+00:00",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMi2gFBVV95cUxNOUpXS3FydV9lRnJEbTBBNThyNms0bEQ0U0dqY1pCb0FBTURPY2JFQzdSZ091aUttcy1WUnJqYkpMRm42TGNCRC1sdXNGNWFHWVVlbER1Y3JYVDNvb1haNjM3RUsydW5jcW5KRl82bS01WGNBRmhES0RCOWY2RGxLNWkzd1JkRDg2dWJWaEhrczBpY2poY2lSV0U3cWx2c2pFVy14cG0zQkRNcTRGUTRfRHhqd2otOGIwTXQ0SUdOUlhwdEFQdnRwRWVOOHYtNzdZb3hQZlREV3Atdw?oc=5\" target=\"_blank\">Después de 11 años de espera, Bomberos de San Patricio del Chañar ya tiene su casa propia</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Chañar Digital</font>",
-          "source": "Chañar Digital",
+          "title": "Once allanamientos por venta de drogas en Neuquén y El Chañar: ocho personas fueron imputadas - Neuquen Post",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQbXBVVS16UlM2LVpnbTN5X2hCbFZJT0lodldnd0lYYks3b2pJd3c3bkJpaWdkaHE0eVhOMTQ3dl9ndXlkdklaNXdYZ1VQcHNoc1MyVkNDbjJ1MkQwM0JWb29MMXlUN3hfMFFRbW1oSHZmR0xRdGh2Z2JHbUNEemdza1VRb2RmMWtSVm5kdFdaRmtIY1pOZ3RGQTk3MXN0QjkyOC1uSFJIemdjbjFwXy1wSDFacEdOd0JU?oc=5",
+          "publishedAt": "2026-10-26T15:44:27+00:00",
+          "published": "2026-10-26T15:44:27+00:00",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMiuAFBVV95cUxQbXBVVS16UlM2LVpnbTN5X2hCbFZJT0lodldnd0lYYks3b2pJd3c3bkJpaWdkaHE0eVhOMTQ3dl9ndXlkdklaNXdYZ1VQcHNoc1MyVkNDbjJ1MkQwM0JWb29MMXlUN3hfMFFRbW1oSHZmR0xRdGh2Z2JHbUNEemdza1VRb2RmMWtSVm5kdFdaRmtIY1pOZ3RGQTk3MXN0QjkyOC1uSFJIemdjbjFwXy1wSDFacEdOd0JU?oc=5\" target=\"_blank\">Once allanamientos por venta de drogas en Neuquén y El Chañar: ocho personas fueron imputadas</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Neuquen Post</font>",
+          "source": "Neuquen Post",
           "sourceType": "BUSCADOR / RESPALDO",
           "sourceUrl": "",
           "collection": "BUSCADOR",
-          "query": "site:chanardigital.com.ar \"San Patricio del Chañar\"",
+          "query": "\"San Patricio del Chañar\"",
           "relevance": 3,
           "relevanceLabel": "DIRECTA",
-          "firstSeen": "2026-11-04T10:43:03.453131+00:00",
+          "firstSeen": "2026-11-02T01:23:58.390470+00:00",
           "isNew": false,
-          "titleKey": "despues años espera bomberos tiene casa propia digital",
-          "evidenceUrl": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNOUpXS3FydV9lRnJEbTBBNThyNms0bEQ0U0dqY1pCb0FBTURPY2JFQzdSZ091aUttcy1WUnJqYkpMRm42TGNCRC1sdXNGNWFHWVVlbER1Y3JYVDNvb1haNjM3RUsydW5jcW5KRl82bS01WGNBRmhES0RCOWY2RGxLNWkzd1JkRDg2dWJWaEhrczBpY2poY2lSV0U3cWx2c2pFVy14cG0zQkRNcTRGUTRfRHhqd2otOGIwTXQ0SUdOUlhwdEFQdnRwRWVOOHYtNzdZb3hQZlREV3Atdw?oc=5",
+          "titleKey": "once allanamientos venta drogas ocho personas fueron imputadas post",
+          "evidenceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQbXBVVS16UlM2LVpnbTN5X2hCbFZJT0lodldnd0lYYks3b2pJd3c3bkJpaWdkaHE0eVhOMTQ3dl9ndXlkdklaNXdYZ1VQcHNoc1MyVkNDbjJ1MkQwM0JWb29MMXlUN3hfMFFRbW1oSHZmR0xRdGh2Z2JHbUNEemdza1VRb2RmMWtSVm5kdFdaRmtIY1pOZ3RGQTk3MXN0QjkyOC1uSFJIemdjbjFwXy1wSDFacEdOd0JU?oc=5",
+          "sourcePriority": 3
+        },
+        {
+          "title": "Once allanamientos en El Chañar y barrios neuquinos por venta de drogas: hay ocho personas imputadas - MejorInformado.com",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNUWZHZFRMX2tOdUNNeVpPOWltXzdPa2dKS3FWeWczMHJSeDVtN1l4c3lCbUpVcGJ0ckNaSERnMC1wb0dTRjE0LW1ZX1FtTnR4c3RNZWdyd1hzXzFTS3ZfdksxQ2w3RUc0enZoYk54Y2tMUDFBelhQYkJSOENWRlgtZDZYV0M0X1M1eDlfcWZMdnJkUGV1SHJfUUxHQ2ZxQjJ6NDBsc0JPa2VsUHZVaVVZeF9Hdmc1MUZwUERNUlR5a0pnd0JQZ00zVExkdnNWczVmMjFz0gHTAUFVX3lxTE1RZkdkVExfa051Q015Wk85aW1fN09rZ0pLcVZ5ZzMwclJ4NW03WXhzeUJtSlVwYnRyQ1pIRGcwLXBvR1NGMTQtbVlfUW1OdHhzdE1lZ3J3WHNfMVNLdl92SzFDbDdFRzR6dmhiTnhja0xQMUF6WFBiQlI4Q1ZGWC1kNlhXQzRfUzV4OV9xZkx2cmRQZXVIcl9RTEdDZnFCMno0MGxzQk9rZWxQdlVpVVl4X0d2ZzUxRnBQRE1SVHlrSmd3QlBnTTNUTGR2c1ZzNWYyMXM?oc=5",
+          "publishedAt": "2026-10-26T07:00:00+00:00",
+          "published": "2026-10-26T07:00:00+00:00",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMi0wFBVV95cUxNUWZHZFRMX2tOdUNNeVpPOWltXzdPa2dKS3FWeWczMHJSeDVtN1l4c3lCbUpVcGJ0ckNaSERnMC1wb0dTRjE0LW1ZX1FtTnR4c3RNZWdyd1hzXzFTS3ZfdksxQ2w3RUc0enZoYk54Y2tMUDFBelhQYkJSOENWRlgtZDZYV0M0X1M1eDlfcWZMdnJkUGV1SHJfUUxHQ2ZxQjJ6NDBsc0JPa2VsUHZVaVVZeF9Hdmc1MUZwUERNUlR5a0pnd0JQZ00zVExkdnNWczVmMjFz0gHTAUFVX3lxTE1RZkdkVExfa051Q015Wk85aW1fN09rZ0pLcVZ5ZzMwclJ4NW03WXhzeUJtSlVwYnRyQ1pIRGcwLXBvR1NGMTQtbVlfUW1OdHhzdE1lZ3J3WHNfMVNLdl92SzFDbDdFRzR6dmhiTnhja0xQMUF6WFBiQlI4Q1ZGWC1kNlhXQzRfUzV4OV9xZkx2cmRQZXVIcl9RTEdDZnFCMno0MGxzQk9rZWxQdlVpVVl4X0d2ZzUxRnBQRE1SVHlrSmd3QlBnTTNUTGR2c1ZzNWYyMXM?oc=5\" target=\"_blank\">Once allanamientos en El Chañar y barrios neuquinos por venta de drogas: hay ocho personas imputadas</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MejorInformado.com</font>",
+          "source": "MejorInformado.com",
+          "sourceType": "BUSCADOR / RESPALDO",
+          "sourceUrl": "",
+          "collection": "BUSCADOR",
+          "query": "\"San Patricio del Chañar\"",
+          "relevance": 3,
+          "relevanceLabel": "DIRECTA",
+          "firstSeen": "2026-11-07T09:07:28.668533+00:00",
+          "isNew": false,
+          "titleKey": "once allanamientos barrios neuquinos venta drogas hay ocho personas imputadas mejorinformado com",
+          "evidenceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNUWZHZFRMX2tOdUNNeVpPOWltXzdPa2dKS3FWeWczMHJSeDVtN1l4c3lCbUpVcGJ0ckNaSERnMC1wb0dTRjE0LW1ZX1FtTnR4c3RNZWdyd1hzXzFTS3ZfdksxQ2w3RUc0enZoYk54Y2tMUDFBelhQYkJSOENWRlgtZDZYV0M0X1M1eDlfcWZMdnJkUGV1SHJfUUxHQ2ZxQjJ6NDBsc0JPa2VsUHZVaVVZeF9Hdmc1MUZwUERNUlR5a0pnd0JQZ00zVExkdnNWczVmMjFz0gHTAUFVX3lxTE1RZkdkVExfa051Q015Wk85aW1fN09rZ0pLcVZ5ZzMwclJ4NW03WXhzeUJtSlVwYnRyQ1pIRGcwLXBvR1NGMTQtbVlfUW1OdHhzdE1lZ3J3WHNfMVNLdl92SzFDbDdFRzR6dmhiTnhja0xQMUF6WFBiQlI4Q1ZGWC1kNlhXQzRfUzV4OV9xZkx2cmRQZXVIcl9RTEdDZnFCMno0MGxzQk9rZWxQdlVpVVl4X0d2ZzUxRnBQRE1SVHlrSmd3QlBnTTNUTGR2c1ZzNWYyMXM?oc=5",
+          "sourcePriority": 3
+        },
+        {
+          "title": "Dos imputados por vender droga en San Patricio del Chañar: quedaron en prisión preventiva - MejorInformado.com",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNdHpTX2F1UXlHcW1LcFJBY1FneElESEN5elRPTnlGV1h4VFVsRWE3N3RrN1RFTjdmUTE5RDlNS21uZGRaR1RQY3pTYkFGMjF3WVphRVZWYkY4cGRkc1VOajlsNktTMWc4UnpvaTJJd3o4VWpwQ2JiMjUtdHh2WkEwMnZIWWphQWt5Sm9NYU1hdW5LU2U5SGVLaTlOVTVUV2xlVWs5MU5XdHFQdXV3RHU4Qkp0WmE4Z1Z0bWVyQ1oxLWNiN055UlHSAcYBQVVfeXFMTXR6U19hdVF5R3FtS3BSQWNRZ3hJREhDeXpUT055RldYeFRVbEVhNzd0azdURU43ZlExOUQ5TUttbmRkWkdUUGN6U2JBRjIxd1laYUVWVmJGOHBkZHNVTmo5bDZLUzFnOFJ6b2kySXd6OFVqcENiYjI1LXR4dlpBMDJ2SFlqYUFreUpvTWFNYXVuS1NlOUhlS2k5TlU1VFdsZVVrOTFOV3RxUHV1d0R1OEJKdFphOGdWdG1lckNaMS1jYjdOeVJR?oc=5",
+          "publishedAt": "2026-10-25T19:15:20+00:00",
+          "published": "2026-10-25T19:15:20+00:00",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMixgFBVV95cUxNdHpTX2F1UXlHcW1LcFJBY1FneElESEN5elRPTnlGV1h4VFVsRWE3N3RrN1RFTjdmUTE5RDlNS21uZGRaR1RQY3pTYkFGMjF3WVphRVZWYkY4cGRkc1VOajlsNktTMWc4UnpvaTJJd3o4VWpwQ2JiMjUtdHh2WkEwMnZIWWphQWt5Sm9NYU1hdW5LU2U5SGVLaTlOVTVUV2xlVWs5MU5XdHFQdXV3RHU4Qkp0WmE4Z1Z0bWVyQ1oxLWNiN055UlHSAcYBQVVfeXFMTXR6U19hdVF5R3FtS3BSQWNRZ3hJREhDeXpUT055RldYeFRVbEVhNzd0azdURU43ZlExOUQ5TUttbmRkWkdUUGN6U2JBRjIxd1laYUVWVmJGOHBkZHNVTmo5bDZLUzFnOFJ6b2kySXd6OFVqcENiYjI1LXR4dlpBMDJ2SFlqYUFreUpvTWFNYXVuS1NlOUhlS2k5TlU1VFdsZVVrOTFOV3RxUHV1d0R1OEJKdFphOGdWdG1lckNaMS1jYjdOeVJR?oc=5\" target=\"_blank\">Dos imputados por vender droga en San Patricio del Chañar: quedaron en prisión preventiva</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MejorInformado.com</font>",
+          "source": "MejorInformado.com",
+          "sourceType": "BUSCADOR / RESPALDO",
+          "sourceUrl": "",
+          "collection": "BUSCADOR",
+          "query": "\"San Patricio del Chañar\"",
+          "relevance": 3,
+          "relevanceLabel": "DIRECTA",
+          "firstSeen": "2026-11-02T01:23:58.390470+00:00",
+          "isNew": false,
+          "titleKey": "dos imputados vender droga quedaron prision preventiva mejorinformado com",
+          "evidenceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNdHpTX2F1UXlHcW1LcFJBY1FneElESEN5elRPTnlGV1h4VFVsRWE3N3RrN1RFTjdmUTE5RDlNS21uZGRaR1RQY3pTYkFGMjF3WVphRVZWYkY4cGRkc1VOajlsNktTMWc4UnpvaTJJd3o4VWpwQ2JiMjUtdHh2WkEwMnZIWWphQWt5Sm9NYU1hdW5LU2U5SGVLaTlOVTVUV2xlVWs5MU5XdHFQdXV3RHU4Qkp0WmE4Z1Z0bWVyQ1oxLWNiN055UlHSAcYBQVVfeXFMTXR6U19hdVF5R3FtS3BSQWNRZ3hJREhDeXpUT055RldYeFRVbEVhNzd0azdURU43ZlExOUQ5TUttbmRkWkdUUGN6U2JBRjIxd1laYUVWVmJGOHBkZHNVTmo5bDZLUzFnOFJ6b2kySXd6OFVqcENiYjI1LXR4dlpBMDJ2SFlqYUFreUpvTWFNYXVuS1NlOUhlS2k5TlU1VFdsZVVrOTFOV3RxUHV1d0R1OEJKdFphOGdWdG1lckNaMS1jYjdOeVJR?oc=5",
+          "sourcePriority": 3
+        },
+        {
+          "title": "Golpe al narcomenudeo: realizaron 11 allanamientos entre Neuquén capital y San Patricio del Chañar - Minuto Neuquén",
+          "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNbDBhRWF4NGRzMXZfYjZ2c3VhcHVGdlZBYkhkeC0tZ2J0MWxtTU02ak04NlY4aDRsU0dRd21qWEpDV0w4aDdwNF9mZDhnbmtZbERIRGl3R1haOWlQX2pHX2xLYllxbEdsM1RGWjV0eGI1Q3I3b2N3RVkyYTIybHBaUjhTUE4tb3V4YmdsX2FQSlkzR1JieHJVY3VUUGpKdzRObXc3UF9MWGJ3T1Qyai1vN01tVTl1M3dFOUJNUWg1UWREZU15aGloYVRXQXpWcnhoT05fVFdVT2ZlSGNySW9ybDQ2Z1Q1NnRmVGdFbnFPZw?oc=5",
+          "publishedAt": "2026-10-26T20:30:00+00:00",
+          "published": "2026-10-26T20:30:00+00:00",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMi7wFBVV95cUxNbDBhRWF4NGRzMXZfYjZ2c3VhcHVGdlZBYkhkeC0tZ2J0MWxtTU02ak04NlY4aDRsU0dRd21qWEpDV0w4aDdwNF9mZDhnbmtZbERIRGl3R1haOWlQX2pHX2xLYllxbEdsM1RGWjV0eGI1Q3I3b2N3RVkyYTIybHBaUjhTUE4tb3V4YmdsX2FQSlkzR1JieHJVY3VUUGpKdzRObXc3UF9MWGJ3T1Qyai1vN01tVTl1M3dFOUJNUWg1UWREZU15aGloYVRXQXpWcnhoT05fVFdVT2ZlSGNySW9ybDQ2Z1Q1NnRmVGdFbnFPZw?oc=5\" target=\"_blank\">Golpe al narcomenudeo: realizaron 11 allanamientos entre Neuquén capital y San Patricio del Chañar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Minuto Neuquén</font>",
+          "source": "Minuto Neuquén",
+          "sourceType": "BUSCADOR / RESPALDO",
+          "sourceUrl": "",
+          "collection": "BUSCADOR",
+          "query": "\"San Patricio del Chañar\"",
+          "relevance": 3,
+          "relevanceLabel": "DIRECTA",
+          "firstSeen": "2026-11-02T01:23:58.390470+00:00",
+          "isNew": false,
+          "titleKey": "golpe narcomenudeo realizaron allanamientos entre capital minuto",
+          "evidenceUrl": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNbDBhRWF4NGRzMXZfYjZ2c3VhcHVGdlZBYkhkeC0tZ2J0MWxtTU02ak04NlY4aDRsU0dRd21qWEpDV0w4aDdwNF9mZDhnbmtZbERIRGl3R1haOWlQX2pHX2xLYllxbEdsM1RGWjV0eGI1Q3I3b2N3RVkyYTIybHBaUjhTUE4tb3V4YmdsX2FQSlkzR1JieHJVY3VUUGpKdzRObXc3UF9MWGJ3T1Qyai1vN01tVTl1M3dFOUJNUWg1UWREZU15aGloYVRXQXpWcnhoT05fVFdVT2ZlSGNySW9ybDQ2Z1Q1NnRmVGdFbnFPZw?oc=5",
           "sourcePriority": 3
         }
       ],
-      "lifecycle": "EN DESCENSO",
-      "movementDelta": -2,
-      "previousCoverage": 1,
-      "newSources": [],
-      "sourceDiversity": 1,
-      "memoryMatched": true,
-      "isNew": false,
+      "lifecycle": "ACTIVO",
+      "movementDelta": 0,
+      "previousCoverage": 0,
+      "newSources": [
+        "Neuquen Post",
+        "MejorInformado.com",
+        "Minuto Neuquén"
+      ],
+      "sourceDiversity": 3,
+      "memoryMatched": false,
+      "isNew": true,
       "view": "INCIDENCIA",
       "incidenceEligible": true,
       "signalReason": "reservado a incidencia territorial",
@@ -4073,30 +3950,22 @@
         "version": "2.0",
         "primary": "San Patricio del Chañar",
         "nodes": [
-          "San Patricio del Chañar",
-          "Bomberos Voluntarios"
+          "San Patricio del Chañar"
         ],
         "sectors": [],
         "barrios": [],
         "microzones": [],
         "corridors": [],
-        "institutions": [
-          "Bomberos Voluntarios"
-        ],
+        "institutions": [],
         "services": [],
         "spaces": [],
         "production": [],
-        "path": "San Patricio del Chañar → Bomberos Voluntarios",
+        "path": "San Patricio del Chañar",
         "evidence": [
           {
             "node": "San Patricio del Chañar",
             "level": "localidad",
             "evidence": "DIRECTA"
-          },
-          {
-            "node": "Bomberos Voluntarios",
-            "level": "institucion",
-            "evidence": "TEXTUAL"
           }
         ]
       }
@@ -4165,10 +4034,9 @@
         }
       ],
       "lifecycle": "EN DESCENSO",
-      "movementDelta": -23,
+      "movementDelta": 16,
       "previousCoverage": 7,
       "newSources": [
-        "Diario Neuquino",
         "Lmneuquen.com"
       ],
       "sourceDiversity": 2,
@@ -4198,6 +4066,92 @@
             "node": "San Patricio del Chañar",
             "level": "localidad",
             "evidence": "DIRECTA"
+          }
+        ]
+      }
+    },
+    {
+      "eventId": "CHA-482c885515b8",
+      "title": "Después de 11 años de espera, Bomberos de San Patricio del Chañar ya tiene su casa propia - Chañar Digital",
+      "publishedAt": "2026-11-04T01:32:09+00:00",
+      "firstSeen": "2026-11-04T10:43:03.453131+00:00",
+      "lastSeen": "2026-11-04T01:32:09+00:00",
+      "relevance": 3,
+      "relevanceLabel": "DIRECTA",
+      "incidenceLabel": "DIRECTA EN CHANAR",
+      "topic": "SEGURIDAD / EMERGENCIAS",
+      "movement": 31,
+      "coverage": 1,
+      "sourceCount": 1,
+      "directSourceCount": 0,
+      "territorialAnchors": [
+        "san patricio del chañar",
+        "el chañar"
+      ],
+      "sources": [
+        "Chañar Digital"
+      ],
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNOUpXS3FydV9lRnJEbTBBNThyNms0bEQ0U0dqY1pCb0FBTURPY2JFQzdSZ091aUttcy1WUnJqYkpMRm42TGNCRC1sdXNGNWFHWVVlbER1Y3JYVDNvb1haNjM3RUsydW5jcW5KRl82bS01WGNBRmhES0RCOWY2RGxLNWkzd1JkRDg2dWJWaEhrczBpY2poY2lSV0U3cWx2c2pFVy14cG0zQkRNcTRGUTRfRHhqd2otOGIwTXQ0SUdOUlhwdEFQdnRwRWVOOHYtNzdZb3hQZlREV3Atdw?oc=5",
+      "items": [
+        {
+          "title": "Después de 11 años de espera, Bomberos de San Patricio del Chañar ya tiene su casa propia - Chañar Digital",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNOUpXS3FydV9lRnJEbTBBNThyNms0bEQ0U0dqY1pCb0FBTURPY2JFQzdSZ091aUttcy1WUnJqYkpMRm42TGNCRC1sdXNGNWFHWVVlbER1Y3JYVDNvb1haNjM3RUsydW5jcW5KRl82bS01WGNBRmhES0RCOWY2RGxLNWkzd1JkRDg2dWJWaEhrczBpY2poY2lSV0U3cWx2c2pFVy14cG0zQkRNcTRGUTRfRHhqd2otOGIwTXQ0SUdOUlhwdEFQdnRwRWVOOHYtNzdZb3hQZlREV3Atdw?oc=5",
+          "publishedAt": "2026-11-04T01:32:09+00:00",
+          "published": "2026-11-04T01:32:09+00:00",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMi2gFBVV95cUxNOUpXS3FydV9lRnJEbTBBNThyNms0bEQ0U0dqY1pCb0FBTURPY2JFQzdSZ091aUttcy1WUnJqYkpMRm42TGNCRC1sdXNGNWFHWVVlbER1Y3JYVDNvb1haNjM3RUsydW5jcW5KRl82bS01WGNBRmhES0RCOWY2RGxLNWkzd1JkRDg2dWJWaEhrczBpY2poY2lSV0U3cWx2c2pFVy14cG0zQkRNcTRGUTRfRHhqd2otOGIwTXQ0SUdOUlhwdEFQdnRwRWVOOHYtNzdZb3hQZlREV3Atdw?oc=5\" target=\"_blank\">Después de 11 años de espera, Bomberos de San Patricio del Chañar ya tiene su casa propia</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Chañar Digital</font>",
+          "source": "Chañar Digital",
+          "sourceType": "BUSCADOR / RESPALDO",
+          "sourceUrl": "",
+          "collection": "BUSCADOR",
+          "query": "site:chanardigital.com.ar \"San Patricio del Chañar\"",
+          "relevance": 3,
+          "relevanceLabel": "DIRECTA",
+          "firstSeen": "2026-11-04T10:43:03.453131+00:00",
+          "isNew": false,
+          "titleKey": "despues años espera bomberos tiene casa propia digital",
+          "evidenceUrl": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNOUpXS3FydV9lRnJEbTBBNThyNms0bEQ0U0dqY1pCb0FBTURPY2JFQzdSZ091aUttcy1WUnJqYkpMRm42TGNCRC1sdXNGNWFHWVVlbER1Y3JYVDNvb1haNjM3RUsydW5jcW5KRl82bS01WGNBRmhES0RCOWY2RGxLNWkzd1JkRDg2dWJWaEhrczBpY2poY2lSV0U3cWx2c2pFVy14cG0zQkRNcTRGUTRfRHhqd2otOGIwTXQ0SUdOUlhwdEFQdnRwRWVOOHYtNzdZb3hQZlREV3Atdw?oc=5",
+          "sourcePriority": 3
+        }
+      ],
+      "lifecycle": "EN DESCENSO",
+      "movementDelta": -1,
+      "previousCoverage": 1,
+      "newSources": [],
+      "sourceDiversity": 1,
+      "memoryMatched": true,
+      "isNew": false,
+      "view": "INCIDENCIA",
+      "incidenceEligible": true,
+      "signalReason": "reservado a incidencia territorial",
+      "incidenceReason": "anclaje directo + tema operativo/local",
+      "territory": {
+        "version": "2.0",
+        "primary": "San Patricio del Chañar",
+        "nodes": [
+          "San Patricio del Chañar",
+          "Bomberos Voluntarios"
+        ],
+        "sectors": [],
+        "barrios": [],
+        "microzones": [],
+        "corridors": [],
+        "institutions": [
+          "Bomberos Voluntarios"
+        ],
+        "services": [],
+        "spaces": [],
+        "production": [],
+        "path": "San Patricio del Chañar → Bomberos Voluntarios",
+        "evidence": [
+          {
+            "node": "San Patricio del Chañar",
+            "level": "localidad",
+            "evidence": "DIRECTA"
+          },
+          {
+            "node": "Bomberos Voluntarios",
+            "level": "institucion",
+            "evidence": "TEXTUAL"
           }
         ]
       }
@@ -4493,8 +4447,8 @@
     {
       "title": "Una camioneta se incendió en la Ruta 7 cerca de San Patricio del Chañar: el conductor se quemó intentando apag - MejorInformado.com",
       "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNbnJLX2J6dDJxbFhwLXJpUkJmUnVmcmdFSllVdTFfbVAwWExyZnQ4NXZGQVdldnVzWUZfLXYxNm9XNk5XdzhHcklrbzBmeGJRTkJDUmlRaHBReXZUbzRNME5BMVozb3VnX0RIUDMxb0JRVzdsek1Mbk5CVFNuNXpGR2hyR3RJdWlOU3EtbV9WYnNHSmt5NDdyZm1adHRRZnBITXEzWTFaUXdESV94Y0RWZ2VvTUdlczRhV2E3ZXkzc3RMMHFnX1ZWTVdGMkdMQ3RaWm1DYy1oWdIB1wFBVV95cUxNbnJLX2J6dDJxbFhwLXJpUkJmUnVmcmdFSllVdTFfbVAwWExyZnQ4NXZGQVdldnVzWUZfLXYxNm9XNk5XdzhHcklrbzBmeGJRTkJDUmlRaHBReXZUbzRNME5BMVozb3VnX0RIUDMxb0JRVzdsek1Mbk5CVFNuNXpGR2hyR3RJdWlOU3EtbV9WYnNHSmt5NDdyZm1adHRRZnBITXEzWTFaUXdESV94Y0RWZ2VvTUdlczRhV2E3ZXkzc3RMMHFnX1ZWTVdGMkdMQ3RaWm1DYy1oWQ?oc=5",
-      "publishedAt": "2026-11-08T12:56:15+00:00",
-      "published": "2026-11-08T12:56:15+00:00",
+      "publishedAt": "2026-11-08T12:53:05+00:00",
+      "published": "2026-11-08T12:53:05+00:00",
       "description": "<a href=\"https://news.google.com/rss/articles/CBMi1wFBVV95cUxNbnJLX2J6dDJxbFhwLXJpUkJmUnVmcmdFSllVdTFfbVAwWExyZnQ4NXZGQVdldnVzWUZfLXYxNm9XNk5XdzhHcklrbzBmeGJRTkJDUmlRaHBReXZUbzRNME5BMVozb3VnX0RIUDMxb0JRVzdsek1Mbk5CVFNuNXpGR2hyR3RJdWlOU3EtbV9WYnNHSmt5NDdyZm1adHRRZnBITXEzWTFaUXdESV94Y0RWZ2VvTUdlczRhV2E3ZXkzc3RMMHFnX1ZWTVdGMkdMQ3RaWm1DYy1oWdIB1wFBVV95cUxNbnJLX2J6dDJxbFhwLXJpUkJmUnVmcmdFSllVdTFfbVAwWExyZnQ4NXZGQVdldnVzWUZfLXYxNm9XNk5XdzhHcklrbzBmeGJRTkJDUmlRaHBReXZUbzRNME5BMVozb3VnX0RIUDMxb0JRVzdsek1Mbk5CVFNuNXpGR2hyR3RJdWlOU3EtbV9WYnNHSmt5NDdyZm1adHRRZnBITXEzWTFaUXdESV94Y0RWZ2VvTUdlczRhV2E3ZXkzc3RMMHFnX1ZWTVdGMkdMQ3RaWm1DYy1oWQ?oc=5\" target=\"_blank\">Una camioneta se incendió en la Ruta 7 cerca de San Patricio del Chañar: el conductor se quemó intentando apag</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MejorInformado.com</font>",
       "source": "MejorInformado.com",
       "sourceType": "BUSCADOR / RESPALDO",
@@ -4504,7 +4458,7 @@
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "firstSeen": "2026-11-08T13:04:10.984616+00:00",
-      "isNew": true,
+      "isNew": false,
       "titleKey": "camioneta incendio ruta cerca conductor quemo intentando apag mejorinformado com",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNbnJLX2J6dDJxbFhwLXJpUkJmUnVmcmdFSllVdTFfbVAwWExyZnQ4NXZGQVdldnVzWUZfLXYxNm9XNk5XdzhHcklrbzBmeGJRTkJDUmlRaHBReXZUbzRNME5BMVozb3VnX0RIUDMxb0JRVzdsek1Mbk5CVFNuNXpGR2hyR3RJdWlOU3EtbV9WYnNHSmt5NDdyZm1adHRRZnBITXEzWTFaUXdESV94Y0RWZ2VvTUdlczRhV2E3ZXkzc3RMMHFnX1ZWTVdGMkdMQ3RaWm1DYy1oWdIB1wFBVV95cUxNbnJLX2J6dDJxbFhwLXJpUkJmUnVmcmdFSllVdTFfbVAwWExyZnQ4NXZGQVdldnVzWUZfLXYxNm9XNk5XdzhHcklrbzBmeGJRTkJDUmlRaHBReXZUbzRNME5BMVozb3VnX0RIUDMxb0JRVzdsek1Mbk5CVFNuNXpGR2hyR3RJdWlOU3EtbV9WYnNHSmt5NDdyZm1adHRRZnBITXEzWTFaUXdESV94Y0RWZ2VvTUdlczRhV2E3ZXkzc3RMMHFnX1ZWTVdGMkdMQ3RaWm1DYy1oWQ?oc=5",
       "sourcePriority": 3
@@ -4918,7 +4872,7 @@
       "sourceType": "BUSCADOR / RESPALDO",
       "sourceUrl": "",
       "collection": "BUSCADOR",
-      "query": "\"San Patricio del Chañar\" \"Vaca Muerta\"",
+      "query": "\"San Patricio del Chañar\"",
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "firstSeen": "2026-11-07T09:07:28.668533+00:00",
@@ -4937,7 +4891,7 @@
       "sourceType": "BUSCADOR / RESPALDO",
       "sourceUrl": "",
       "collection": "BUSCADOR",
-      "query": "site:mejorinformado.com \"San Patricio del Chañar\"",
+      "query": "\"San Patricio del Chañar\"",
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "firstSeen": "2026-11-02T01:23:58.390470+00:00",
@@ -4945,30 +4899,11 @@
       "titleKey": "dos imputados vender droga quedaron prision preventiva mejorinformado com",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNdHpTX2F1UXlHcW1LcFJBY1FneElESEN5elRPTnlGV1h4VFVsRWE3N3RrN1RFTjdmUTE5RDlNS21uZGRaR1RQY3pTYkFGMjF3WVphRVZWYkY4cGRkc1VOajlsNktTMWc4UnpvaTJJd3o4VWpwQ2JiMjUtdHh2WkEwMnZIWWphQWt5Sm9NYU1hdW5LU2U5SGVLaTlOVTVUV2xlVWs5MU5XdHFQdXV3RHU4Qkp0WmE4Z1Z0bWVyQ1oxLWNiN055UlHSAcYBQVVfeXFMTXR6U19hdVF5R3FtS3BSQWNRZ3hJREhDeXpUT055RldYeFRVbEVhNzd0azdURU43ZlExOUQ5TUttbmRkWkdUUGN6U2JBRjIxd1laYUVWVmJGOHBkZHNVTmo5bDZLUzFnOFJ6b2kySXd6OFVqcENiYjI1LXR4dlpBMDJ2SFlqYUFreUpvTWFNYXVuS1NlOUhlS2k5TlU1VFdsZVVrOTFOV3RxUHV1d0R1OEJKdFphOGdWdG1lckNaMS1jYjdOeVJR?oc=5",
       "sourcePriority": 3
-    },
-    {
-      "title": "Imputaron a dos personas por vender drogas en San Patricio del Chañar y quedaron en prisión preventiva - mpfneuquen",
-      "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQVmt0T2xsYldUQWFady0zR2R2UUI2U1FyQXJlamx3TVdRMndpWnNheTc0MjFQU1p3MDJ6RGVYa01EZ3lKZU5SYnQxUzdzTnBoQXNKZzlVclNHd0FFbXR0TW9KLTZ6NFJ0TGlJRVJSM1hISXdXXzg3bEZNUGxkSk9vQTFCeDllZUUwYkNtdm83XzdKOWVMRUVMSm1qUmx5eVZROGdQZ3p3aVNMZzI3OHVvbDBEY1pQNExVRkV4dG9NajYxcE5neEtDR29yVmwyYUExRzlhWHFEMGhLY19HOV94TUZVZFE0NlFGZ0haVTk1NVRaaFlKODZYTHFiYWRhVVBRZHJRcmdCWQ?oc=5",
-      "publishedAt": "2026-10-25T16:01:55+00:00",
-      "published": "2026-10-25T16:01:55+00:00",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMihwJBVV95cUxQVmt0T2xsYldUQWFady0zR2R2UUI2U1FyQXJlamx3TVdRMndpWnNheTc0MjFQU1p3MDJ6RGVYa01EZ3lKZU5SYnQxUzdzTnBoQXNKZzlVclNHd0FFbXR0TW9KLTZ6NFJ0TGlJRVJSM1hISXdXXzg3bEZNUGxkSk9vQTFCeDllZUUwYkNtdm83XzdKOWVMRUVMSm1qUmx5eVZROGdQZ3p3aVNMZzI3OHVvbDBEY1pQNExVRkV4dG9NajYxcE5neEtDR29yVmwyYUExRzlhWHFEMGhLY19HOV94TUZVZFE0NlFGZ0haVTk1NVRaaFlKODZYTHFiYWRhVVBRZHJRcmdCWQ?oc=5\" target=\"_blank\">Imputaron a dos personas por vender drogas en San Patricio del Chañar y quedaron en prisión preventiva</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">mpfneuquen</font>",
-      "source": "mpfneuquen",
-      "sourceType": "BUSCADOR / RESPALDO",
-      "sourceUrl": "",
-      "collection": "BUSCADOR",
-      "query": "\"San Patricio del Chañar\"",
-      "relevance": 3,
-      "relevanceLabel": "DIRECTA",
-      "firstSeen": "2026-11-08T13:04:10.984616+00:00",
-      "isNew": true,
-      "titleKey": "imputaron dos personas vender drogas quedaron prision preventiva mpfneuquen",
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQVmt0T2xsYldUQWFady0zR2R2UUI2U1FyQXJlamx3TVdRMndpWnNheTc0MjFQU1p3MDJ6RGVYa01EZ3lKZU5SYnQxUzdzTnBoQXNKZzlVclNHd0FFbXR0TW9KLTZ6NFJ0TGlJRVJSM1hISXdXXzg3bEZNUGxkSk9vQTFCeDllZUUwYkNtdm83XzdKOWVMRUVMSm1qUmx5eVZROGdQZ3p3aVNMZzI3OHVvbDBEY1pQNExVRkV4dG9NajYxcE5neEtDR29yVmwyYUExRzlhWHFEMGhLY19HOV94TUZVZFE0NlFGZ0haVTk1NVRaaFlKODZYTHFiYWRhVVBRZHJRcmdCWQ?oc=5",
-      "sourcePriority": 3
     }
   ],
   "territorialGraph": {
     "version": "2.0",
-    "generatedAt": "2026-11-08T13:04:23.737977+00:00",
+    "generatedAt": "2026-11-08T18:26:50.279382+00:00",
     "root": "spc",
     "rule": "evidence-first",
     "levels": [
@@ -5532,21 +5467,21 @@
       "CHA-83aaffb78689": [
         "spc"
       ],
-      "CHA-5b8df4045776": [
-        "spc"
-      ],
       "CHA-8c6c3def1f0f": [
         "spc"
       ],
       "CHA-222f034bc5a6": [
         "spc"
       ],
-      "CHA-482c885515b8": [
-        "spc",
-        "bomberos"
+      "CHA-5b8df4045776": [
+        "spc"
       ],
       "CHA-ce71e945d743": [
         "spc"
+      ],
+      "CHA-482c885515b8": [
+        "spc",
+        "bomberos"
       ],
       "CHA-8aa66f131026": [
         "spc"
@@ -5591,16 +5526,16 @@
   },
   "audit": {
     "version": "1.0",
-    "updatedAt": "2026-11-08T13:04:23.778962+00:00",
+    "updatedAt": "2026-11-08T18:26:50.310591+00:00",
     "rule": "fact != coverage; territory requires textual evidence",
     "facts": 10,
-    "coverage": 33,
-    "coveragePerFact": 3.3,
+    "coverage": 32,
+    "coveragePerFact": 3.2,
     "directAnchorFacts": 10,
     "directAnchorPct": 100.0,
     "territorySpecificFacts": 3,
     "territorySpecificPct": 30.0,
-    "averageSourcesPerFact": 2.5,
+    "averageSourcesPerFact": 2.4,
     "activeTerritorialNodes": 4,
     "failedSources": 10,
     "acceptedWithoutLocalEvidence": 0,
