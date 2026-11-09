@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09T09:30:09.078627+00:00",
+  "updatedAt": "2026-11-09T19:59:59.008037+00:00",
   "window": "14 días",
   "purpose": "Detectar qué se está moviendo en San Patricio del Chañar y mostrar de dónde surge cada señal.",
   "architecture": "contrato universal de procedencia + fuentes profesionales + adaptadores específicos + validación semántica + temporalidad + evidencia editorial separada",
@@ -49,7 +49,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://chanardigital.com.ar/",
-      "lastFetch": "2026-11-09T09:29:49.491750+00:00",
+      "lastFetch": "2026-11-09T19:59:38.831658+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -65,7 +65,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.radiomia.com.ar/",
-      "lastFetch": "2026-11-09T09:29:50.516976+00:00",
+      "lastFetch": "2026-11-09T19:59:41.765066+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -80,7 +80,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://tuitvacamuerta.com/",
-      "lastFetch": "2026-11-09T09:29:52.182029+00:00",
+      "lastFetch": "2026-11-09T19:59:43.258111+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -95,7 +95,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.vacamuertanews.com/",
-      "lastFetch": "2026-11-09T09:29:52.548224+00:00",
+      "lastFetch": "2026-11-09T19:59:43.563212+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -111,7 +111,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.neuqueninforma.gob.ar/",
-      "lastFetch": "2026-11-09T09:29:53.720496+00:00",
+      "lastFetch": "2026-11-09T19:59:44.390691+00:00",
       "success": false,
       "attempted": 3,
       "failures": [
@@ -128,7 +128,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://sanpatricio.gob.ar/",
-      "lastFetch": "2026-11-09T09:29:54.496777+00:00",
+      "lastFetch": "2026-11-09T19:59:45.066883+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -143,7 +143,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://boletinoficial.neuquen.gov.ar/",
-      "lastFetch": "2026-11-09T09:29:55.197825+00:00",
+      "lastFetch": "2026-11-09T19:59:45.819100+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -158,7 +158,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.lmneuquen.com/",
-      "lastFetch": "2026-11-09T09:29:55.424785+00:00",
+      "lastFetch": "2026-11-09T19:59:46.058422+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -174,7 +174,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.rionegro.com.ar/",
-      "lastFetch": "2026-11-09T09:29:57.518447+00:00",
+      "lastFetch": "2026-11-09T19:59:47.438568+00:00",
       "success": true,
       "attempted": 2,
       "failures": [
@@ -189,7 +189,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.mejorinformado.com/",
-      "lastFetch": "2026-11-09T09:29:58.262686+00:00",
+      "lastFetch": "2026-11-09T19:59:48.207210+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -205,7 +205,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.diariamenteneuquen.com/",
-      "lastFetch": "2026-11-09T09:29:58.849672+00:00",
+      "lastFetch": "2026-11-09T19:59:48.858724+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -709,8 +709,8 @@
   "languageAudit": [
     {
       "term": "el chañar",
-      "hits": 24,
-      "direct": 24
+      "hits": 23,
+      "direct": 23
     },
     {
       "term": "san patricio del chañar",
@@ -1206,19 +1206,6 @@
         "topics": []
       },
       {
-        "source": "Neuquen Post",
-        "group": "OBSERVADA",
-        "role": "fuente detectada fuera del catálogo",
-        "accepted": 1,
-        "direct": 1,
-        "anchored": 0,
-        "falsePositives": 0,
-        "falsePositiveTypes": [],
-        "topics": [
-          "SERVICIOS"
-        ]
-      },
-      {
         "source": "Neuquén Informa",
         "group": "REGIONAL",
         "role": "comunicación oficial provincial",
@@ -1546,18 +1533,6 @@
         ]
       },
       {
-        "source": "Neuquen Post",
-        "topic": "SERVICIOS",
-        "accepted": 1,
-        "direct": 1,
-        "anchored": 0,
-        "falsePositives": 0,
-        "territorialTerms": [
-          "san patricio del chañar",
-          "el chañar"
-        ]
-      },
-      {
         "source": "Neuquén al instante",
         "topic": "EDUCACIÓN",
         "accepted": 1,
@@ -1599,8 +1574,8 @@
       },
       {
         "term": "el chañar",
-        "acceptedHits": 31,
-        "directHits": 31,
+        "acceptedHits": 30,
+        "directHits": 30,
         "rejectedTitleHits": 0,
         "territorialStrength": "FUERTE"
       },
@@ -1925,11 +1900,11 @@
     "interpretation": "auditoría sobre eventos aceptados; la próxima capa debe instrumentar rechazos antes del clustering"
   },
   "stats": {
-    "total": 24,
-    "direct": 24,
+    "total": 23,
+    "direct": 23,
     "regional": 0,
-    "new": 24,
-    "sources": 11,
+    "new": 0,
+    "sources": 10,
     "directSignals": 0,
     "localDirectSignals": 0,
     "radioDirectSignals": 0,
@@ -1939,11 +1914,11 @@
   "environment": {
     "weather": {
       "dataType": "forecast",
-      "forecastWindKmh": 18.0,
-      "forecastGustKmh": 25.0,
-      "forecastWindDirection": "E",
-      "forecastTemperatureC": 29.0,
-      "retrievedAt": "2026-11-09T09:29:47.293775+00:00",
+      "forecastWindKmh": 27.0,
+      "forecastGustKmh": 27.0,
+      "forecastWindDirection": "SE",
+      "forecastTemperatureC": 33.0,
+      "retrievedAt": "2026-11-09T19:59:36.819978+00:00",
       "source": "AIC",
       "sourceTier": "primary",
       "sourceUrl": "https://www.aic.gob.ar/sitio/home?a=1015&z=1967225803",
@@ -1952,28 +1927,28 @@
     "hydrology": {
       "site": "El Chañar",
       "flowType": "programmed_outflow",
-      "erogatedM3s": 402,
+      "erogatedM3s": 407,
       "programmedMaxM3s": [
-        410,
-        410,
-        410,
-        410,
-        410,
-        410
+        360,
+        360,
+        360,
+        360,
+        360,
+        360
       ],
       "programmedMinM3s": [
-        390,
-        390,
-        390,
-        390,
-        390,
-        390
+        340,
+        340,
+        340,
+        340,
+        340,
+        340
       ],
-      "currentProgrammedMaxM3s": 410,
-      "currentProgrammedMinM3s": 390,
+      "currentProgrammedMaxM3s": 360,
+      "currentProgrammedMinM3s": 340,
       "programDate": "2026-11-10",
       "tableDate": "2026-11-09",
-      "retrievedAt": "2026-11-09T09:29:47.293775+00:00",
+      "retrievedAt": "2026-11-09T19:59:36.819978+00:00",
       "source": "AIC",
       "sourceTier": "primary",
       "sourceUrl": "https://www.aic.gob.ar/sitio/caudales",
@@ -1993,17 +1968,17 @@
         "url": "https://www.aic.gob.ar/sitio/caudales"
       }
     ],
-    "updatedAt": "2026-11-09T09:29:47.293775+00:00"
+    "updatedAt": "2026-11-09T19:59:36.819978+00:00"
   },
   "operational": {
-    "updatedAt": "2026-11-09T09:29:47.293775+00:00",
+    "updatedAt": "2026-11-09T19:59:36.819978+00:00",
     "route7": {
       "source": "Dirección Provincial de Vialidad",
       "sourceTier": "primary",
       "sourceUrl": "https://www.dpvneuquen.gov.ar/",
       "semanticState": null,
       "publicationState": "source_reachable_no_current_machine_readable_state",
-      "retrievedAt": "2026-11-09T09:29:47.293775+00:00",
+      "retrievedAt": "2026-11-09T19:59:36.819978+00:00",
       "evidence": {
         "route7Mention": true,
         "route8Mention": false
@@ -2015,7 +1990,7 @@
       "sourceUrl": "https://www.dpvneuquen.gov.ar/",
       "semanticState": null,
       "publicationState": "source_reachable_no_current_machine_readable_state",
-      "retrievedAt": "2026-11-09T09:29:47.293775+00:00",
+      "retrievedAt": "2026-11-09T19:59:36.819978+00:00",
       "evidence": {
         "route7Mention": true,
         "route8Mention": false
@@ -2029,7 +2004,7 @@
       "eventType": null,
       "detail": null,
       "publicationState": "source_reachable_no_specific_local_notice",
-      "retrievedAt": "2026-11-09T09:29:47.293775+00:00"
+      "retrievedAt": "2026-11-09T19:59:36.819978+00:00"
     },
     "water": {
       "source": "EPAS",
@@ -2039,7 +2014,7 @@
       "eventType": null,
       "detail": null,
       "publicationState": "source_reachable_no_specific_local_notice",
-      "retrievedAt": "2026-11-09T09:29:47.293775+00:00"
+      "retrievedAt": "2026-11-09T19:59:36.819978+00:00"
     },
     "sources": [
       {
@@ -2451,7 +2426,7 @@
       "label": "Conversación general",
       "signal": 9,
       "status": "cobertura editorial",
-      "freshnessHours": 20.6,
+      "freshnessHours": 31.1,
       "mode": "evidencia editorial",
       "evidenceCount": 9,
       "sourceContract": {
@@ -2491,7 +2466,7 @@
       "label": "Corredor Ruta 7",
       "signal": 1,
       "status": "estado vial",
-      "freshnessHours": 20.6,
+      "freshnessHours": 31.1,
       "mode": "evidencia territorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -2531,7 +2506,7 @@
         "sourceUrl": "https://www.dpvneuquen.gov.ar/",
         "semanticState": null,
         "publicationState": "source_reachable_no_current_machine_readable_state",
-        "retrievedAt": "2026-11-09T09:29:47.293775+00:00",
+        "retrievedAt": "2026-11-09T19:59:36.819978+00:00",
         "evidence": {
           "route7Mention": true,
           "route8Mention": false
@@ -2583,7 +2558,7 @@
         "sourceUrl": "https://www.dpvneuquen.gov.ar/",
         "semanticState": null,
         "publicationState": "source_reachable_no_current_machine_readable_state",
-        "retrievedAt": "2026-11-09T09:29:47.293775+00:00",
+        "retrievedAt": "2026-11-09T19:59:36.819978+00:00",
         "evidence": {
           "route7Mention": true,
           "route8Mention": false
@@ -2593,7 +2568,7 @@
     {
       "id": "VIENTO",
       "label": "Condición de viento",
-      "signal": 18.0,
+      "signal": 27.0,
       "status": "pronóstico local",
       "freshnessHours": null,
       "mode": "DATO DIRECTO",
@@ -2683,7 +2658,7 @@
         "eventType": null,
         "detail": null,
         "publicationState": "source_reachable_no_specific_local_notice",
-        "retrievedAt": "2026-11-09T09:29:47.293775+00:00"
+        "retrievedAt": "2026-11-09T19:59:36.819978+00:00"
       }
     },
     {
@@ -2733,7 +2708,7 @@
         "eventType": null,
         "detail": null,
         "publicationState": "source_reachable_no_specific_local_notice",
-        "retrievedAt": "2026-11-09T09:29:47.293775+00:00"
+        "retrievedAt": "2026-11-09T19:59:36.819978+00:00"
       }
     },
     {
@@ -2821,7 +2796,7 @@
       "label": "Educación",
       "signal": 1,
       "status": "evidencia educativa",
-      "freshnessHours": 1042.4,
+      "freshnessHours": 1052.9,
       "mode": "evidencia editorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -2901,7 +2876,7 @@
       "label": "Seguridad / emergencias",
       "signal": 1,
       "status": "cobertura de emergencia",
-      "freshnessHours": 128.0,
+      "freshnessHours": 138.5,
       "mode": "evidencia editorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -2998,7 +2973,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://chanardigital.com.ar/",
-        "lastFetch": "2026-11-09T09:29:49.491750+00:00",
+        "lastFetch": "2026-11-09T19:59:38.831658+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3014,7 +2989,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.radiomia.com.ar/",
-        "lastFetch": "2026-11-09T09:29:50.516976+00:00",
+        "lastFetch": "2026-11-09T19:59:41.765066+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -3029,7 +3004,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://tuitvacamuerta.com/",
-        "lastFetch": "2026-11-09T09:29:52.182029+00:00",
+        "lastFetch": "2026-11-09T19:59:43.258111+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -3044,7 +3019,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.vacamuertanews.com/",
-        "lastFetch": "2026-11-09T09:29:52.548224+00:00",
+        "lastFetch": "2026-11-09T19:59:43.563212+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3060,7 +3035,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.neuqueninforma.gob.ar/",
-        "lastFetch": "2026-11-09T09:29:53.720496+00:00",
+        "lastFetch": "2026-11-09T19:59:44.390691+00:00",
         "success": false,
         "attempted": 3,
         "failures": [
@@ -3077,7 +3052,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://sanpatricio.gob.ar/",
-        "lastFetch": "2026-11-09T09:29:54.496777+00:00",
+        "lastFetch": "2026-11-09T19:59:45.066883+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -3092,7 +3067,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://boletinoficial.neuquen.gov.ar/",
-        "lastFetch": "2026-11-09T09:29:55.197825+00:00",
+        "lastFetch": "2026-11-09T19:59:45.819100+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -3107,7 +3082,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.lmneuquen.com/",
-        "lastFetch": "2026-11-09T09:29:55.424785+00:00",
+        "lastFetch": "2026-11-09T19:59:46.058422+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3123,7 +3098,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.rionegro.com.ar/",
-        "lastFetch": "2026-11-09T09:29:57.518447+00:00",
+        "lastFetch": "2026-11-09T19:59:47.438568+00:00",
         "success": true,
         "attempted": 2,
         "failures": [
@@ -3138,7 +3113,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.mejorinformado.com/",
-        "lastFetch": "2026-11-09T09:29:58.262686+00:00",
+        "lastFetch": "2026-11-09T19:59:48.207210+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3154,7 +3129,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.diariamenteneuquen.com/",
-        "lastFetch": "2026-11-09T09:29:58.849672+00:00",
+        "lastFetch": "2026-11-09T19:59:48.858724+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3181,7 +3156,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "MOVILIDAD",
-      "movement": 71,
+      "movement": 68,
       "coverage": 2,
       "sourceCount": 2,
       "directSourceCount": 0,
@@ -3210,7 +3185,7 @@
           "relevance": 3,
           "relevanceLabel": "DIRECTA",
           "firstSeen": "2026-11-09T09:30:09.078627+00:00",
-          "isNew": true,
+          "isNew": false,
           "titleKey": "camioneta incendio ruta cerca conductor quemo intentando apag mejorinformado com",
           "evidenceUrl": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNbnJLX2J6dDJxbFhwLXJpUkJmUnVmcmdFSllVdTFfbVAwWExyZnQ4NXZGQVdldnVzWUZfLXYxNm9XNk5XdzhHcklrbzBmeGJRTkJDUmlRaHBReXZUbzRNME5BMVozb3VnX0RIUDMxb0JRVzdsek1Mbk5CVFNuNXpGR2hyR3RJdWlOU3EtbV9WYnNHSmt5NDdyZm1adHRRZnBITXEzWTFaUXdESV94Y0RWZ2VvTUdlczRhV2E3ZXkzc3RMMHFnX1ZWTVdGMkdMQ3RaWm1DYy1oWdIB1wFBVV95cUxNbnJLX2J6dDJxbFhwLXJpUkJmUnVmcmdFSllVdTFfbVAwWExyZnQ4NXZGQVdldnVzWUZfLXYxNm9XNk5XdzhHcklrbzBmeGJRTkJDUmlRaHBReXZUbzRNME5BMVozb3VnX0RIUDMxb0JRVzdsek1Mbk5CVFNuNXpGR2hyR3RJdWlOU3EtbV9WYnNHSmt5NDdyZm1adHRRZnBITXEzWTFaUXdESV94Y0RWZ2VvTUdlczRhV2E3ZXkzc3RMMHFnX1ZWTVdGMkdMQ3RaWm1DYy1oWQ?oc=5",
           "sourcePriority": 3
@@ -3229,18 +3204,16 @@
           "relevance": 3,
           "relevanceLabel": "DIRECTA",
           "firstSeen": "2026-11-09T09:30:09.078627+00:00",
-          "isNew": true,
+          "isNew": false,
           "titleKey": "camioneta incendio ruta cerca conductor sufrio quemaduras diario neuquino",
           "evidenceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQaWVHU3dKZUxQNURFN0NUV0RLUThDd3djRXlkcTNrSUdwNnQzaEtkNGhHMmwwcDltaVY3d2VrV3JlMkROb2JhUXZxSzV0LWJVZkZucEZfUUs3S3F5U1hPc1E1YXA1VXBUWVFSQ0VUR2NQcnRYQXg4SmpQcHlzUGJZUEVreXBuZkMwRTF4bGltREZadXVqSHRtOS1Qbk9STW0wWVNUOGx2TXVwUTRpaTNidTNuM3k2RTRtUm96bFZtUGdIUEhQbVU5MFpadzRtNmZY?oc=5",
           "sourcePriority": 3
         }
       ],
       "lifecycle": "EMERGENTE",
-      "movementDelta": 13,
-      "previousCoverage": 11,
-      "newSources": [
-        "MejorInformado.com"
-      ],
+      "movementDelta": -3,
+      "previousCoverage": 2,
+      "newSources": [],
       "sourceDiversity": 2,
       "memoryMatched": true,
       "isNew": false,
@@ -3291,7 +3264,7 @@
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SERVICIOS",
       "movement": 58,
-      "coverage": 13,
+      "coverage": 15,
       "sourceCount": 8,
       "directSourceCount": 0,
       "territorialAnchors": [
@@ -3548,7 +3521,7 @@
           "relevance": 3,
           "relevanceLabel": "DIRECTA",
           "firstSeen": "2026-11-09T09:30:09.078627+00:00",
-          "isNew": true,
+          "isNew": false,
           "titleKey": "clausuraron boliche aprehendieron motociclista secuestraron tres motos portadadigital com",
           "evidenceUrl": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQTkVLRGlmZHpUaFJld2xjRmZKeldXR2dYcUR5RVlwTUFWcmcxYmN5cWdIWEZuVU9fdnB5WDVPOS16eXFmbnd0Y2RwVHc3enlxMXhkSnlPNlg0MGdETjNvblBQdE1NTGMzR3RGSEVRcU9GcVl2T2hJeDJsVW05MDJKZ0pKRWtQZ3Q1X1ZTNTBWNnRSOHFNeF96QnM1TWNHdVdNN1oyVlUwWElkVVlIN1ZTcDBzYkJFVHVqWFE3THNxcTQ1Qi1MSW1qWnNXTWo2bFpuclRkcHlpRHlLS2pEQng3OUlKM0JJanl5?oc=5",
           "sourcePriority": 3
@@ -3567,7 +3540,7 @@
           "relevance": 3,
           "relevanceLabel": "DIRECTA",
           "firstSeen": "2026-11-09T09:30:09.078627+00:00",
-          "isNew": true,
+          "isNew": false,
           "titleKey": "clausuraron boliche secuestraron motos operativo nocturno digital",
           "evidenceUrl": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNM0c2ZzVxMVUtXzZuTHZKS0MxeVZlSjctem9lam8xVEJqbVN2YmxwalJNNGE3S0VyTDdXdll4OGNDai11bjJETFFIbmJkeHc4VkZsalUtRDQ2dk1PWnQwVzZKdVZ3NGU2SUZ2b2RaU2Vyd25FaFhpNlktQTBJUjVtREhqVURwbTZ0MXlCdVQ4bV92SGZKTjg4NTdaSmc1NzdVMHY1WW1YbHFUd0p1d1lHcTFQT1cxNkJvVF9fNWQ5SnpxY2RSVmIyOXZhZDVSRWxBSXdxR3UxTVZwT1ZSTkdF?oc=5",
           "sourcePriority": 3
@@ -3586,7 +3559,7 @@
           "relevance": 3,
           "relevanceLabel": "DIRECTA",
           "firstSeen": "2026-11-09T09:30:09.078627+00:00",
-          "isNew": true,
+          "isNew": false,
           "titleKey": "operativos nocturnos secuestraron motos clausuraron boliche lmneuquen com",
           "evidenceUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQSVp3MmhCZHBMa0tGM2RIMGF4UTRaWVNGSE02QlIwYWhJQ19PTTJSSmVLSmpRTHptZGhlTVlzZzdob3pUb0FzaDhBUzFkZ21yMUxORmNNSnpFMVNXUHo4RUFkSFlRODVFTl9fajdLbFNsdkZ1TG9ZTjR3RmRQX01FdkV1QzJoZjdseU9mYmZTNC1OREFadDExcEk5UmotdUNMVXNWd1JZNUVFR0xsNWp0V3FxWWYxbktTY2hvcU5kdTU4dExFeVg2VW5SRGdycjDSAdQBQVVfeXFMTVpwOWZwVWV0WE1ZdzNYSERmdFdKZ3pSWU5UTWpNeEZUeXRldGFVdGxqdG9xRDJFTTVjdHVMLWVIcWtiUWZTWHlHelEyalpLRTU0VHhxSE9nM3NENnl4THRkelhMNUp1N0RMN0tnc3A5amgwQnJncjdEbEl2dE05Z19NUVVZZ1FSdVpLR256Q0ZMRDRFNWhjYWRQMkNEZ3RINHhNU01tVVVOSXVmTExlUlU3RE1Rc0JTeDkzS2hVWU56TlliSnVVWUlPU3VhWTVMUVFUZ3g?oc=5",
           "sourcePriority": 3
@@ -3594,8 +3567,8 @@
         {
           "title": "Un boliche clausurado, un hombre aprehendido y tres motos secuestradas en San Patricio del Chañar - NoticiasNQN",
           "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPYURkUlQyQi0yRjJ4REFDV0N1M0h2SjFXMGdTbmRFSWRpUVk5dHdoWi1abHBBZlJPeUMxS3VVbldpZk1YVnRzaUV4YnNia25KSk42X1REOXc2Zlg2QXRDczJXN2I3N25yYV9Vb2pZVTEzaFF0RUVEZ0h5dkczRVpOZVJkYWVRMVQxX1Itd2VQTmVyRWJvRkdGcnYxMGg0cWtUU0NaT3RtMFl3R3RIdkYtR3NMX3BPa1o4Xy1jMWxRYkFuc3M1STVNVDVmUXo0UENCM3h0ZkJnaGZEbFIyR2FfejhoR0swVzVoRlHSAe8BQVVfeXFMTUU2WEE2and1eFFtVXd3RnlQeG5PaVlZTzd6SnhmR3hoVXQ2SUk3S2VocEJpQlJyNGxFUm1fcnNDTGk0S3dqdlpaMkJPc2t0d25rTEMzTVE2Rko2TXBPQWtGd3Z3Sm15Ry02Y2J5d0M4bjVQZ3NkLVFPMlAteHg4QjN5a1Nmai0yaS1zeHdRSGNOOUpCU1hyWmh6dWRyWVNrR3JZYnYyMDVabU1XbWJKcVdBbE1LNkxJZVBFUEx4X1RSd3RMdkZnM0hNNFNmYVUtQ2ZYelJ0aHpQR29SZXctZFBWMThKRDlxcUpicUU3em8?oc=5",
-          "publishedAt": "2026-11-01T17:06:45+00:00",
-          "published": "2026-11-01T17:06:45+00:00",
+          "publishedAt": "2026-11-01T07:00:00+00:00",
+          "published": "2026-11-01T07:00:00+00:00",
           "description": "<a href=\"https://news.google.com/rss/articles/CBMi6gFBVV95cUxPYURkUlQyQi0yRjJ4REFDV0N1M0h2SjFXMGdTbmRFSWRpUVk5dHdoWi1abHBBZlJPeUMxS3VVbldpZk1YVnRzaUV4YnNia25KSk42X1REOXc2Zlg2QXRDczJXN2I3N25yYV9Vb2pZVTEzaFF0RUVEZ0h5dkczRVpOZVJkYWVRMVQxX1Itd2VQTmVyRWJvRkdGcnYxMGg0cWtUU0NaT3RtMFl3R3RIdkYtR3NMX3BPa1o4Xy1jMWxRYkFuc3M1STVNVDVmUXo0UENCM3h0ZkJnaGZEbFIyR2FfejhoR0swVzVoRlHSAe8BQVVfeXFMTUU2WEE2and1eFFtVXd3RnlQeG5PaVlZTzd6SnhmR3hoVXQ2SUk3S2VocEJpQlJyNGxFUm1fcnNDTGk0S3dqdlpaMkJPc2t0d25rTEMzTVE2Rko2TXBPQWtGd3Z3Sm15Ry02Y2J5d0M4bjVQZ3NkLVFPMlAteHg4QjN5a1Nmai0yaS1zeHdRSGNOOUpCU1hyWmh6dWRyWVNrR3JZYnYyMDVabU1XbWJKcVdBbE1LNkxJZVBFUEx4X1RSd3RMdkZnM0hNNFNmYVUtQ2ZYelJ0aHpQR29SZXctZFBWMThKRDlxcUpicUU3em8?oc=5\" target=\"_blank\">Un boliche clausurado, un hombre aprehendido y tres motos secuestradas en San Patricio del Chañar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NoticiasNQN</font>",
           "source": "NoticiasNQN",
           "sourceType": "BUSCADOR / RESPALDO",
@@ -3605,7 +3578,7 @@
           "relevance": 3,
           "relevanceLabel": "DIRECTA",
           "firstSeen": "2026-11-09T09:30:09.078627+00:00",
-          "isNew": true,
+          "isNew": false,
           "titleKey": "boliche clausurado hombre aprehendido tres motos secuestradas noticiasnqn",
           "evidenceUrl": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPYURkUlQyQi0yRjJ4REFDV0N1M0h2SjFXMGdTbmRFSWRpUVk5dHdoWi1abHBBZlJPeUMxS3VVbldpZk1YVnRzaUV4YnNia25KSk42X1REOXc2Zlg2QXRDczJXN2I3N25yYV9Vb2pZVTEzaFF0RUVEZ0h5dkczRVpOZVJkYWVRMVQxX1Itd2VQTmVyRWJvRkdGcnYxMGg0cWtUU0NaT3RtMFl3R3RIdkYtR3NMX3BPa1o4Xy1jMWxRYkFuc3M1STVNVDVmUXo0UENCM3h0ZkJnaGZEbFIyR2FfejhoR0swVzVoRlHSAe8BQVVfeXFMTUU2WEE2and1eFFtVXd3RnlQeG5PaVlZTzd6SnhmR3hoVXQ2SUk3S2VocEJpQlJyNGxFUm1fcnNDTGk0S3dqdlpaMkJPc2t0d25rTEMzTVE2Rko2TXBPQWtGd3Z3Sm15Ry02Y2J5d0M4bjVQZ3NkLVFPMlAteHg4QjN5a1Nmai0yaS1zeHdRSGNOOUpCU1hyWmh6dWRyWVNrR3JZYnYyMDVabU1XbWJKcVdBbE1LNkxJZVBFUEx4X1RSd3RMdkZnM0hNNFNmYVUtQ2ZYelJ0aHpQR29SZXctZFBWMThKRDlxcUpicUU3em8?oc=5",
           "sourcePriority": 3
@@ -3624,7 +3597,7 @@
           "relevance": 3,
           "relevanceLabel": "DIRECTA",
           "firstSeen": "2026-11-09T09:30:09.078627+00:00",
-          "isNew": true,
+          "isNew": false,
           "titleKey": "nueva muerte joven reabre debate prevencion suicidio digital",
           "evidenceUrl": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPZF9iTVRkZjFkSkQyb1FIVmx2dTJPeDBkekprTW5qTTNKd0NteGx3R3lyNko4MDRvbVdadDdaVDRCaGgzRVM3a0p6YjFrQlhxa2F0UWJkbUM1aUZITmdQMzJPRGpUbFR5SXVvd3BxUTFTMzl3MXBjVTVfRFl0NWkyQUZXMFRqS0d0cUN1RmJ6bXRNZHF6Y1N6MG10Wi1yNFlDOHFEZHRfb2tCQWhXYzJmcnowRVdVcXFEQmp2XzlRUnhOdGdCMHhKTlAtUzIzMm5MN1NNcEVKR0l0YXY3eENfWFduYmc?oc=5",
           "sourcePriority": 3
@@ -3643,7 +3616,7 @@
           "relevance": 3,
           "relevanceLabel": "DIRECTA",
           "firstSeen": "2026-11-09T09:30:09.078627+00:00",
-          "isNew": true,
+          "isNew": false,
           "titleKey": "muerte joven años desperto nuevamente preocupacion patagonia press",
           "evidenceUrl": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPbGVjUHU4WXhjRGp2REN5bmxicnFHVUt5ek9KaldrbmJYUXlsUVZPZTRveGl5VzlXTTBZRFhUWHoyY3ZYTG1oMktqczVQUGwtUmRpbjJBc25IU1VvMnl5X2xLVHNBTlU1c2RWSXV3a2FlWVF2NDlRRU14VWZ4ZldxaFJaS2ZLbkNleXJrN1lyT2ZHVXpteEFoV2dhTHc2dm82WTU2RjRLWnZreUUxc1k2VlRYUWUwc3Z5ZklGd2dwZXpJYjQ3ZHVLVEdXckJtOHluQ0NTRm5jaTZCZzlvUDRfMVVyS05YQXhxdjJMOA?oc=5",
           "sourcePriority": 3
@@ -3662,7 +3635,7 @@
           "relevance": 3,
           "relevanceLabel": "DIRECTA",
           "firstSeen": "2026-11-09T09:30:09.078627+00:00",
-          "isNew": true,
+          "isNew": false,
           "titleKey": "investigan muerte joven años minuto",
           "evidenceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPZ2xNeF9EMnN0TDBBanhCREJZOWd5cGVpeWZZU3NLLVNybWJWV09JOVlOcDJ4Q19Gc1hPRmFBUkZ6b0g5Y01qaGNHSzQyUDRhSVByRkFXU012N2xpQS1QN25UNkR6Z0NlMFlsWVBNRkJFWFAyQ2YxZDNRWlVXZ2FmcExOLXhvOUxQTDNiQU9ONWEySlJqcS1VOEZVOTRGVmxManpBQk00VGtfd3A1V1YxNEx1YjBaSXZHTG5ZUnNJS05WYm9DVVdkMThGYw?oc=5",
           "sourcePriority": 3
@@ -3681,7 +3654,7 @@
           "relevance": 3,
           "relevanceLabel": "DIRECTA",
           "firstSeen": "2026-11-09T09:30:09.078627+00:00",
-          "isNew": true,
+          "isNew": false,
           "titleKey": "investigan muerte joven años diario neuquino",
           "evidenceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOaFpITm1ILTRZY3VOS0ZGRE9DdEJEaXV4dlJQa3dxRHEtSU9QRU5yTWFEMWF6WEtkS1FFZVlGbDQxd1Jyc0VIZ0l4aG50RU1wRXJvc29FQURVb2l4dDh4bGFQWXlVTXpDY0RIVzE3OTZLeVF1OW0wSVZ2bkUzODNJNFpkZ0pnVG1lZFZqNU9xMTNELUZtSFNyVGx4dzFZTUw2aFpr?oc=5",
           "sourcePriority": 3
@@ -3689,19 +3662,16 @@
       ],
       "lifecycle": "EMERGENTE",
       "movementDelta": 0,
-      "previousCoverage": 0,
+      "previousCoverage": 9,
       "newSources": [
-        "portadadigital.com.ar",
         "Chañar Digital",
-        "Lmneuquen.com",
-        "NoticiasNQN",
         "Patagonia Press",
-        "Minuto Neuquén",
-        "Diario Neuquino"
+        "Diario Neuquino",
+        "Lmneuquen.com"
       ],
       "sourceDiversity": 7,
-      "memoryMatched": false,
-      "isNew": true,
+      "memoryMatched": true,
+      "isNew": false,
       "view": "INCIDENCIA",
       "incidenceEligible": true,
       "signalReason": "reservado a incidencia territorial",
@@ -3740,7 +3710,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "EDUCACIÓN",
-      "movement": 42,
+      "movement": 39,
       "coverage": 2,
       "sourceCount": 2,
       "directSourceCount": 0,
@@ -3768,7 +3738,7 @@
           "relevance": 3,
           "relevanceLabel": "DIRECTA",
           "firstSeen": "2026-11-09T09:30:09.078627+00:00",
-          "isNew": true,
+          "isNew": false,
           "titleKey": "educacion ambiental reunio 350 estudiantes instante",
           "evidenceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOMC14ZjBESGNEVkk3WERIUkZFVTU3VGt1X0pKOGVTXzE3SklrTnRfX05yTUlGakZtclZNdWpRWVl0NkRGNzdOV0EwRGFaeHEyYTdOeEFxa01UNGV6X2p5bE5NRlIzOF9zd0pLVFhXSy15ZVFFeFJJSUplQmNRdnJOUDQ5UTJPM3pOVk1Ja21aRE1zakZmdVJqdVJYeUd2SDcyMWNNZk5oX3hpWnlqRlZwQXhGVVVOWll1V1lpbTQ4SERJVUg1R0F0SUFBQW5NbkFSV3hkedIB2gFBVV95cUxNdGEzYUsxNDdvbXA3YjFEbU9ISElEMHhhanplUXlTN2tFUHM2Wl9Kb24wZms3Z2xxU21QbzlpVE9RSUtsQ2ZKeFctWlJRNW5tcTdndlR6b0g1eFZieU5kMElJaWdKSzA5WEdMQzJTaXVfcXZOcHNnc1RkbHNVa3pHX21YZGVLNHJjSGI1ZVhUNmFzd3dhYnBCWWtFOUFISTZKN2dPYmp1Ti1Ub1BhUm1qbVVuTUF5Qnl4ZXBZLU5oSnFXeGlIWFJ0aVl2N0VvZVh4cHJONDNLajRiUQ?oc=5",
           "sourcePriority": 3
@@ -3787,19 +3757,16 @@
           "relevance": 3,
           "relevanceLabel": "DIRECTA",
           "firstSeen": "2026-11-09T09:30:09.078627+00:00",
-          "isNew": true,
+          "isNew": false,
           "titleKey": "educacion ambiental mas 350 estudiantes unen futuro ecologico patagonia ambiental",
           "evidenceUrl": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQcUw3VWg3dGNwN211cHhUby1OQVlQdmtNakJ2NGp4WDRRVmo1NjBxZzBuSGFGYXRDTVNQQWNiY0Y2bmFkWm9NMDQwUWVjRDQzZjRhY05tMmMwTVhTMDFKNThEUmlzcGpkQnI3ZVBjamJyRnJwTFcxb3FxQ1UxdnpGN2h1cF9kQnFySlgzdzY4NDRnR24zRVY5WDFLTHRrc3ZJN1RLcVhyTEQ1UG11S053RGZHWW1GRlNUOGJRcEVQMklzN2JKUzNubjB5TFhMcHptb3VjcTJnclZyTW1yRE9Ia0Jjc1R0MXRscnVlZHRKQnR6cDFK?oc=5",
           "sourcePriority": 3
         }
       ],
       "lifecycle": "SOSTENIDO",
-      "movementDelta": 26,
-      "previousCoverage": 7,
-      "newSources": [
-        "Neuquén al instante",
-        "Patagonia Ambiental"
-      ],
+      "movementDelta": -3,
+      "previousCoverage": 2,
+      "newSources": [],
       "sourceDiversity": 2,
       "memoryMatched": true,
       "isNew": false,
@@ -3872,7 +3839,7 @@
           "relevance": 3,
           "relevanceLabel": "DIRECTA",
           "firstSeen": "2026-11-09T09:30:09.078627+00:00",
-          "isNew": true,
+          "isNew": false,
           "titleKey": "violento robo auto digital",
           "evidenceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQbWx5a1RGWGR6M0lxSkpFM0lvRDBXU2FvV1pLaG1veHFGMTBYZGgwZkxHZUxCUy1TSENFQmp5dzU0Y3o2cllBVUh1Q25zMTlXMHZuMi1LdTVob3NVd1NoaW5WMEhRM2p2X0dmTExteUtNUlhlTUQ0dThrbV9oQkllRGRYejFFUHNtM3FaTjlWczVQSWRUWUF2dmRPSE0wbGQxWW9YcV8wTWY?oc=5",
           "sourcePriority": 3
@@ -3891,7 +3858,7 @@
           "relevance": 3,
           "relevanceLabel": "DIRECTA",
           "firstSeen": "2026-11-09T09:30:09.078627+00:00",
-          "isNew": true,
+          "isNew": false,
           "titleKey": "bajara caudal rio cuanto erogara dique noticiasnqn",
           "evidenceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPVnZuNlMyZ1hXQmRIWl9WYzVLbURDUTZIMmNXNDBPSEtZZjhUTTQ0LWRPV1dLQ3NlOXpVXy0tT1VHNEpseWgzenF3cDBNVEpncGpyWEkzT18zby1SQjUyenk3ZmZlbzdkMnZjQlVfWUJBclE0X2FYY1JYUmpmSVVnV19OSTVhMjZDNXJtUG1GYkFVeGtobTM2SkxwZy1pS2V6c2ZubjBMYVJjRUJSekNsRWZtaUE0SWkwY0hQeEdwLWRKUdIBxwFBVV95cUxNRzRyLUw0LVZVWExjZjY0RXV3dWc4S0xJMHJYVl9FQnBQOWhTZ1J1cnZod09zbDUzUnVHdURyeHZiWmJlMldMVWp1Z3kxUlBzOFpSbmt1SGdiNUF3eFozUEU5Ym5qaXhhWldhZ0VHWTNRNU5DYjZiMGw2TTEycGFhRS1MQW02amxoT2t6SXhtblFVUXZ0QWxUVDA4WVBRb29wVlRzZ0R1RXFlQ0FqZUlpTlgtT3NXY2VTTVY5WDZKTnV1N3BHYXRr?oc=5",
           "sourcePriority": 3
@@ -3910,7 +3877,7 @@
           "relevance": 3,
           "relevanceLabel": "DIRECTA",
           "firstSeen": "2026-11-09T09:30:09.078627+00:00",
-          "isNew": true,
+          "isNew": false,
           "titleKey": "recuperaron bicicleta robada detuvieron sospechoso digital",
           "evidenceUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNM2FOSVh6d1BKWmJnRjU4SEJGNmNpZS0zellmbkdYRmpoV1pONXFzT3poR2F4a2p2T2ZNdXE0bU5mN3VMY0daUlprRzlhQWhoYXByTlYyZ1E1ZlNNT1dxY1U2MWdvWnJkeVRQemtxTEZPM1Z2bHM1d2VnSWNRa1I4RXFoRFRYU2tkWnlqdWFpRVQxWGoya29yVzZmaW9OTjJudFFRTmlwLWV2MmlGdVlJa1VWTzBERHVQZ1JrUThHZ19pZHZXZThRTWlFdHJMTGlqa3pLMGd3?oc=5",
           "sourcePriority": 3
@@ -3929,7 +3896,7 @@
           "relevance": 3,
           "relevanceLabel": "DIRECTA",
           "firstSeen": "2026-11-09T09:30:09.078627+00:00",
-          "isNew": true,
+          "isNew": false,
           "titleKey": "robaron automovil encontraron mas tarde abandonado rio negro minuto",
           "evidenceUrl": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQN2hySGdtYXNiUFpZMzJZdEk3R0xLNkJiME5mVTMxT1pNRWphV3lwdFFBbDRmZnlJTTdFeHI2NnRrZ0JSRlhtSkdsOUlWTW4xQlBidUJmcXN2NHh0c3MwbkJHUUg5cHRoLUp5bFZmQlE2bEM3MDRSb2FTTVMzeU4wN2hWeVJ1OFBUQlVXYm9zZmdrWjJBdTZVNGhLem5MRmJmM0k2OHN6ZFpEd3IyV19YWE1JOHRSaHpSWno0WUs3YTBOWVZOTUYweEtGU2dsc1habEVkV1VId1psSEg0YXc?oc=5",
           "sourcePriority": 3
@@ -3948,7 +3915,7 @@
           "relevance": 3,
           "relevanceLabel": "DIRECTA",
           "firstSeen": "2026-11-09T09:30:09.078627+00:00",
-          "isNew": true,
+          "isNew": false,
           "titleKey": "robaron auto joven años dos testigos vieron todo identificar mejorinformado com",
           "evidenceUrl": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQY0RiZFlaVzBCQVViMGhuNU1zRm0zNVhyZHlDbnVjVExsN2NBdVBpTGJUMXJ2TGpoejRNY0REa3RpVDVpSldzN1ZweHF2LXNWNG56YjczTHdUUm54UnhqU180MmhfeWhVWW9Cc1dEYWIwZUpwYlp6MGlic3ZmSjUxZXhqc0g3SEhHekZfMjRfdVZrNUxhT1ozMUY2QmVNU3dfWU1ncjhWNXVjY2tvUmk2a0ltUFFacTlTVngzd19sUGM4RnpjNFR2ZkN0UXdrZml0LXBKcENBUldVRTBQamlHQjJB0gHiAUFVX3lxTFBjRGJkWVpXMEJBVWIwaG41TXNGbTM1WHJkeUNudWNUTGw3Y0F1UGlMYlQxcnZMamh6NE1jRERrdGlUNWlKV3M3VnB4cXYtc1Y0bnpiNzNMd1RSbnhSeGpTXzQyaF95aFVZb0JzV0RhYjBlSnBiWnowaWJzdmZKNTFleGpzSDdISEd6Rl8yNF91Vms1TGFPWjMxRjZCZU1Td19ZTWdyOFY1dWNja29SaTZrSW1QUVpxOVNWeDN3X2xQYzhGemM0VHZmQ3RRd2tmaXQtcEpwQ0FSV1VFMFBqaUdCMkE?oc=5",
           "sourcePriority": 3
@@ -3967,7 +3934,7 @@
           "relevance": 3,
           "relevanceLabel": "DIRECTA",
           "firstSeen": "2026-11-09T09:30:09.078627+00:00",
-          "isNew": true,
+          "isNew": false,
           "titleKey": "narco incorregible tenia prision domiciliaria armo kiosco lmneuquen com",
           "evidenceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPejFCX2kxWHptT2VYZW5PQy11MTJPVk50U1EtbmlUZUg5N2RRZXNBRHk2bnM3b0lTNHBQa2pxVTItQ0NUZE9aaUdhRU4xNWxoZ193WTFHb3lFY3ViWHJxaVZ5LUYteWt6aUxTbHhoT3FtQ3VOaUZWUXMtTHNONjh1OV9xQktGenQxX2JzQzFIWDd5VVMxQmFVOFVaYl9PYlk3YmdlM2Q1bHE0YVRrM1I2cGhtT28zU2VLMHhGT3IySmozOHRjN2NWNXV5Sm8tMk5FVzFMTNIB2gFBVV95cUxPWVg1NG9jSGVBN1hjbzZUX1dQcVhvTjhXYVNoUmdHU1FIM0tGOHVBS0ZTRGhYQy1UVmFJal9acTV5SUxEZ1BaZEp6MnFfcy1VeEVhSjBla1YtUkQwZ0dpWVZXeTRNU3VIRGJWcE9CTFZXR3Q5c0x4U2FMVjdMa0xuelNRZzU1eFlYZWZLdkNVbGoxcFFfQ2lEcmp1bUpwbnU1WENqYjNrcG55NWtPczJSTGVQN0Zpb0l2bk1RQW9mNWtaRGdzX21iUlE1TDA2ekV1dEdRVXY0UTlnUQ?oc=5",
           "sourcePriority": 3
@@ -4024,7 +3991,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SEGURIDAD / EMERGENCIAS",
-      "movement": 27,
+      "movement": 24,
       "coverage": 1,
       "sourceCount": 1,
       "directSourceCount": 0,
@@ -4051,14 +4018,14 @@
           "relevance": 3,
           "relevanceLabel": "DIRECTA",
           "firstSeen": "2026-11-09T09:30:09.078627+00:00",
-          "isNew": true,
+          "isNew": false,
           "titleKey": "despues años espera bomberos tiene casa propia digital",
           "evidenceUrl": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNOUpXS3FydV9lRnJEbTBBNThyNms0bEQ0U0dqY1pCb0FBTURPY2JFQzdSZ091aUttcy1WUnJqYkpMRm42TGNCRC1sdXNGNWFHWVVlbER1Y3JYVDNvb1haNjM3RUsydW5jcW5KRl82bS01WGNBRmhES0RCOWY2RGxLNWkzd1JkRDg2dWJWaEhrczBpY2poY2lSV0U3cWx2c2pFVy14cG0zQkRNcTRGUTRfRHhqd2otOGIwTXQ0SUdOUlhwdEFQdnRwRWVOOHYtNzdZb3hQZlREV3Atdw?oc=5",
           "sourcePriority": 3
         }
       ],
       "lifecycle": "RECIENTE",
-      "movementDelta": 11,
+      "movementDelta": -3,
       "previousCoverage": 1,
       "newSources": [],
       "sourceDiversity": 1,
@@ -4111,16 +4078,15 @@
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SERVICIOS",
       "movement": 16,
-      "coverage": 2,
-      "sourceCount": 2,
+      "coverage": 1,
+      "sourceCount": 1,
       "directSourceCount": 0,
       "territorialAnchors": [
         "san patricio del chañar",
         "el chañar"
       ],
       "sources": [
-        "Minuto Neuquén",
-        "Neuquen Post"
+        "Minuto Neuquén"
       ],
       "evidenceUrl": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNbDBhRWF4NGRzMXZfYjZ2c3VhcHVGdlZBYkhkeC0tZ2J0MWxtTU02ak04NlY4aDRsU0dRd21qWEpDV0w4aDdwNF9mZDhnbmtZbERIRGl3R1haOWlQX2pHX2xLYllxbEdsM1RGWjV0eGI1Q3I3b2N3RVkyYTIybHBaUjhTUE4tb3V4YmdsX2FQSlkzR1JieHJVY3VUUGpKdzRObXc3UF9MWGJ3T1Qyai1vN01tVTl1M3dFOUJNUWg1UWREZU15aGloYVRXQXpWcnhoT05fVFdVT2ZlSGNySW9ybDQ2Z1Q1NnRmVGdFbnFPZw?oc=5",
       "items": [
@@ -4138,28 +4104,9 @@
           "relevance": 3,
           "relevanceLabel": "DIRECTA",
           "firstSeen": "2026-11-09T09:30:09.078627+00:00",
-          "isNew": true,
+          "isNew": false,
           "titleKey": "golpe narcomenudeo realizaron allanamientos entre capital minuto",
           "evidenceUrl": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNbDBhRWF4NGRzMXZfYjZ2c3VhcHVGdlZBYkhkeC0tZ2J0MWxtTU02ak04NlY4aDRsU0dRd21qWEpDV0w4aDdwNF9mZDhnbmtZbERIRGl3R1haOWlQX2pHX2xLYllxbEdsM1RGWjV0eGI1Q3I3b2N3RVkyYTIybHBaUjhTUE4tb3V4YmdsX2FQSlkzR1JieHJVY3VUUGpKdzRObXc3UF9MWGJ3T1Qyai1vN01tVTl1M3dFOUJNUWg1UWREZU15aGloYVRXQXpWcnhoT05fVFdVT2ZlSGNySW9ybDQ2Z1Q1NnRmVGdFbnFPZw?oc=5",
-          "sourcePriority": 3
-        },
-        {
-          "title": "Once allanamientos por venta de drogas en Neuquén y El Chañar: ocho personas fueron imputadas - Neuquen Post",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQbXBVVS16UlM2LVpnbTN5X2hCbFZJT0lodldnd0lYYks3b2pJd3c3bkJpaWdkaHE0eVhOMTQ3dl9ndXlkdklaNXdYZ1VQcHNoc1MyVkNDbjJ1MkQwM0JWb29MMXlUN3hfMFFRbW1oSHZmR0xRdGh2Z2JHbUNEemdza1VRb2RmMWtSVm5kdFdaRmtIY1pOZ3RGQTk3MXN0QjkyOC1uSFJIemdjbjFwXy1wSDFacEdOd0JU?oc=5",
-          "publishedAt": "2026-10-26T15:44:27+00:00",
-          "published": "2026-10-26T15:44:27+00:00",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMiuAFBVV95cUxQbXBVVS16UlM2LVpnbTN5X2hCbFZJT0lodldnd0lYYks3b2pJd3c3bkJpaWdkaHE0eVhOMTQ3dl9ndXlkdklaNXdYZ1VQcHNoc1MyVkNDbjJ1MkQwM0JWb29MMXlUN3hfMFFRbW1oSHZmR0xRdGh2Z2JHbUNEemdza1VRb2RmMWtSVm5kdFdaRmtIY1pOZ3RGQTk3MXN0QjkyOC1uSFJIemdjbjFwXy1wSDFacEdOd0JU?oc=5\" target=\"_blank\">Once allanamientos por venta de drogas en Neuquén y El Chañar: ocho personas fueron imputadas</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Neuquen Post</font>",
-          "source": "Neuquen Post",
-          "sourceType": "BUSCADOR / RESPALDO",
-          "sourceUrl": "",
-          "collection": "BUSCADOR",
-          "query": "\"San Patricio del Chañar\"",
-          "relevance": 3,
-          "relevanceLabel": "DIRECTA",
-          "firstSeen": "2026-11-09T09:30:09.078627+00:00",
-          "isNew": true,
-          "titleKey": "once allanamientos venta drogas ocho personas fueron imputadas post",
-          "evidenceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQbXBVVS16UlM2LVpnbTN5X2hCbFZJT0lodldnd0lYYks3b2pJd3c3bkJpaWdkaHE0eVhOMTQ3dl9ndXlkdklaNXdYZ1VQcHNoc1MyVkNDbjJ1MkQwM0JWb29MMXlUN3hfMFFRbW1oSHZmR0xRdGh2Z2JHbUNEemdza1VRb2RmMWtSVm5kdFdaRmtIY1pOZ3RGQTk3MXN0QjkyOC1uSFJIemdjbjFwXy1wSDFacEdOd0JU?oc=5",
           "sourcePriority": 3
         }
       ],
@@ -4167,10 +4114,9 @@
       "movementDelta": 0,
       "previousCoverage": 0,
       "newSources": [
-        "Minuto Neuquén",
-        "Neuquen Post"
+        "Minuto Neuquén"
       ],
-      "sourceDiversity": 2,
+      "sourceDiversity": 1,
       "memoryMatched": false,
       "isNew": true,
       "view": "INCIDENCIA",
@@ -4503,7 +4449,7 @@
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "firstSeen": "2026-11-09T09:30:09.078627+00:00",
-      "isNew": true,
+      "isNew": false,
       "titleKey": "camioneta incendio ruta cerca conductor quemo intentando apag mejorinformado com",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNbnJLX2J6dDJxbFhwLXJpUkJmUnVmcmdFSllVdTFfbVAwWExyZnQ4NXZGQVdldnVzWUZfLXYxNm9XNk5XdzhHcklrbzBmeGJRTkJDUmlRaHBReXZUbzRNME5BMVozb3VnX0RIUDMxb0JRVzdsek1Mbk5CVFNuNXpGR2hyR3RJdWlOU3EtbV9WYnNHSmt5NDdyZm1adHRRZnBITXEzWTFaUXdESV94Y0RWZ2VvTUdlczRhV2E3ZXkzc3RMMHFnX1ZWTVdGMkdMQ3RaWm1DYy1oWdIB1wFBVV95cUxNbnJLX2J6dDJxbFhwLXJpUkJmUnVmcmdFSllVdTFfbVAwWExyZnQ4NXZGQVdldnVzWUZfLXYxNm9XNk5XdzhHcklrbzBmeGJRTkJDUmlRaHBReXZUbzRNME5BMVozb3VnX0RIUDMxb0JRVzdsek1Mbk5CVFNuNXpGR2hyR3RJdWlOU3EtbV9WYnNHSmt5NDdyZm1adHRRZnBITXEzWTFaUXdESV94Y0RWZ2VvTUdlczRhV2E3ZXkzc3RMMHFnX1ZWTVdGMkdMQ3RaWm1DYy1oWQ?oc=5",
       "sourcePriority": 3
@@ -4522,7 +4468,7 @@
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "firstSeen": "2026-11-09T09:30:09.078627+00:00",
-      "isNew": true,
+      "isNew": false,
       "titleKey": "camioneta incendio ruta cerca conductor sufrio quemaduras diario neuquino",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQaWVHU3dKZUxQNURFN0NUV0RLUThDd3djRXlkcTNrSUdwNnQzaEtkNGhHMmwwcDltaVY3d2VrV3JlMkROb2JhUXZxSzV0LWJVZkZucEZfUUs3S3F5U1hPc1E1YXA1VXBUWVFSQ0VUR2NQcnRYQXg4SmpQcHlzUGJZUEVreXBuZkMwRTF4bGltREZadXVqSHRtOS1Qbk9STW0wWVNUOGx2TXVwUTRpaTNidTNuM3k2RTRtUm96bFZtUGdIUEhQbVU5MFpadzRtNmZY?oc=5",
       "sourcePriority": 3
@@ -4541,7 +4487,7 @@
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "firstSeen": "2026-11-09T09:30:09.078627+00:00",
-      "isNew": true,
+      "isNew": false,
       "titleKey": "registro civil normalizo atencion tras varias semanas interrupcion digital",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNWmsxZjRkcVdSNzl5Q3JiNExWNDI3alR6S2RtYVgzdWE5SHZDanR5RmZHcENOUG9fcDJvUDRTUFpaancxdUdrR2Jod1F1V3V5QnpSTV9McFBkancwQ0lodkppTHBVcnNrNUpWenE5d1dDWHBXcy1xR1dZMEs2d0tYRmtyNXJ3cThVRThSWXhqZHB0UHA5VUpTSVppUkl5ZVVTQjRweDc2Z3ZNYVZSbVdqa2RoNlJqbjRvS24yTUptXzB3bFFTVFVtZUw3YnF2dHZ1Rk80b243al93NzBPNzNKc25MbXpWWVlR?oc=5",
       "sourcePriority": 3
@@ -4560,7 +4506,7 @@
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "firstSeen": "2026-11-09T09:30:09.078627+00:00",
-      "isNew": true,
+      "isNew": false,
       "titleKey": "mejor vino patagonia neuquino nace instante",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOYnNacFZuNHBJRlJJbVhKcFg4Y0JPN3Bma0pQZ2dMNXk2MDl2V0gxVUFzaDR2SUdoWkxLdmpfY2s4MURINFN2cUtqN0NlM2YzYWZfdElkS0FIVXVTMVFybWNEN3RNSnpHSGZVWlJkay1kdGNRU0JldEpCRDZwZDlwLV9pUHhfR0hhSWpONkxvUTNzU0IwbTNmZkN2TkQzX2pidzJrQnZPbzV3MjJYMDJSakVUZklTVUZxQ3lQb1dEQnhER2t1aHIxdFNqeUwzSlBBN1pDN1V30gHbAUFVX3lxTFBOS1dWNUJxeDczRWxMLVZ2SmN4b0tDZWFyVlNiU2d6dWZ4YUlZTXNncXN6QXRobzM0RFdPc00tMFFXWVFNTElCejRmRTZJWDdWeS1zUUwtaHhZN2xVWEI0dkdnYzJPZVVyUzc5UVBKMFNfakZrQ3M5MUp3RDhmLWlFS21oS09BOGhEZmtvNl9BUnVQQUloTlNLZ21iSmpHVWUzb0stb2FEWG1veHVSTTNjekxZRmVMNDJyWnVvVUJ1cGJ0ZUFXRXpVNl9ZaDliamIyeGxwUDdoWmk4SQ?oc=5",
       "sourcePriority": 3
@@ -4579,7 +4525,7 @@
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "firstSeen": "2026-11-09T09:30:09.078627+00:00",
-      "isNew": true,
+      "isNew": false,
       "titleKey": "despues años espera bomberos tiene casa propia digital",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNOUpXS3FydV9lRnJEbTBBNThyNms0bEQ0U0dqY1pCb0FBTURPY2JFQzdSZ091aUttcy1WUnJqYkpMRm42TGNCRC1sdXNGNWFHWVVlbER1Y3JYVDNvb1haNjM3RUsydW5jcW5KRl82bS01WGNBRmhES0RCOWY2RGxLNWkzd1JkRDg2dWJWaEhrczBpY2poY2lSV0U3cWx2c2pFVy14cG0zQkRNcTRGUTRfRHhqd2otOGIwTXQ0SUdOUlhwdEFQdnRwRWVOOHYtNzdZb3hQZlREV3Atdw?oc=5",
       "sourcePriority": 3
@@ -4598,7 +4544,7 @@
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "firstSeen": "2026-11-09T09:30:09.078627+00:00",
-      "isNew": true,
+      "isNew": false,
       "titleKey": "educacion ambiental reunio 350 estudiantes instante",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOMC14ZjBESGNEVkk3WERIUkZFVTU3VGt1X0pKOGVTXzE3SklrTnRfX05yTUlGakZtclZNdWpRWVl0NkRGNzdOV0EwRGFaeHEyYTdOeEFxa01UNGV6X2p5bE5NRlIzOF9zd0pLVFhXSy15ZVFFeFJJSUplQmNRdnJOUDQ5UTJPM3pOVk1Ja21aRE1zakZmdVJqdVJYeUd2SDcyMWNNZk5oX3hpWnlqRlZwQXhGVVVOWll1V1lpbTQ4SERJVUg1R0F0SUFBQW5NbkFSV3hkedIB2gFBVV95cUxNdGEzYUsxNDdvbXA3YjFEbU9ISElEMHhhanplUXlTN2tFUHM2Wl9Kb24wZms3Z2xxU21QbzlpVE9RSUtsQ2ZKeFctWlJRNW5tcTdndlR6b0g1eFZieU5kMElJaWdKSzA5WEdMQzJTaXVfcXZOcHNnc1RkbHNVa3pHX21YZGVLNHJjSGI1ZVhUNmFzd3dhYnBCWWtFOUFISTZKN2dPYmp1Ti1Ub1BhUm1qbVVuTUF5Qnl4ZXBZLU5oSnFXeGlIWFJ0aVl2N0VvZVh4cHJONDNLajRiUQ?oc=5",
       "sourcePriority": 3
@@ -4617,7 +4563,7 @@
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "firstSeen": "2026-11-09T09:30:09.078627+00:00",
-      "isNew": true,
+      "isNew": false,
       "titleKey": "educacion ambiental mas 350 estudiantes unen futuro ecologico patagonia ambiental",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQcUw3VWg3dGNwN211cHhUby1OQVlQdmtNakJ2NGp4WDRRVmo1NjBxZzBuSGFGYXRDTVNQQWNiY0Y2bmFkWm9NMDQwUWVjRDQzZjRhY05tMmMwTVhTMDFKNThEUmlzcGpkQnI3ZVBjamJyRnJwTFcxb3FxQ1UxdnpGN2h1cF9kQnFySlgzdzY4NDRnR24zRVY5WDFLTHRrc3ZJN1RLcVhyTEQ1UG11S053RGZHWW1GRlNUOGJRcEVQMklzN2JKUzNubjB5TFhMcHptb3VjcTJnclZyTW1yRE9Ia0Jjc1R0MXRscnVlZHRKQnR6cDFK?oc=5",
       "sourcePriority": 3
@@ -4636,7 +4582,7 @@
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "firstSeen": "2026-11-09T09:30:09.078627+00:00",
-      "isNew": true,
+      "isNew": false,
       "titleKey": "clausuraron boliche aprehendieron motociclista secuestraron tres motos portadadigital com",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQTkVLRGlmZHpUaFJld2xjRmZKeldXR2dYcUR5RVlwTUFWcmcxYmN5cWdIWEZuVU9fdnB5WDVPOS16eXFmbnd0Y2RwVHc3enlxMXhkSnlPNlg0MGdETjNvblBQdE1NTGMzR3RGSEVRcU9GcVl2T2hJeDJsVW05MDJKZ0pKRWtQZ3Q1X1ZTNTBWNnRSOHFNeF96QnM1TWNHdVdNN1oyVlUwWElkVVlIN1ZTcDBzYkJFVHVqWFE3THNxcTQ1Qi1MSW1qWnNXTWo2bFpuclRkcHlpRHlLS2pEQng3OUlKM0JJanl5?oc=5",
       "sourcePriority": 3
@@ -4655,7 +4601,7 @@
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "firstSeen": "2026-11-09T09:30:09.078627+00:00",
-      "isNew": true,
+      "isNew": false,
       "titleKey": "clausuraron boliche secuestraron motos operativo nocturno digital",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNM0c2ZzVxMVUtXzZuTHZKS0MxeVZlSjctem9lam8xVEJqbVN2YmxwalJNNGE3S0VyTDdXdll4OGNDai11bjJETFFIbmJkeHc4VkZsalUtRDQ2dk1PWnQwVzZKdVZ3NGU2SUZ2b2RaU2Vyd25FaFhpNlktQTBJUjVtREhqVURwbTZ0MXlCdVQ4bV92SGZKTjg4NTdaSmc1NzdVMHY1WW1YbHFUd0p1d1lHcTFQT1cxNkJvVF9fNWQ5SnpxY2RSVmIyOXZhZDVSRWxBSXdxR3UxTVZwT1ZSTkdF?oc=5",
       "sourcePriority": 3
@@ -4674,7 +4620,7 @@
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "firstSeen": "2026-11-09T09:30:09.078627+00:00",
-      "isNew": true,
+      "isNew": false,
       "titleKey": "operativos nocturnos secuestraron motos clausuraron boliche lmneuquen com",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQSVp3MmhCZHBMa0tGM2RIMGF4UTRaWVNGSE02QlIwYWhJQ19PTTJSSmVLSmpRTHptZGhlTVlzZzdob3pUb0FzaDhBUzFkZ21yMUxORmNNSnpFMVNXUHo4RUFkSFlRODVFTl9fajdLbFNsdkZ1TG9ZTjR3RmRQX01FdkV1QzJoZjdseU9mYmZTNC1OREFadDExcEk5UmotdUNMVXNWd1JZNUVFR0xsNWp0V3FxWWYxbktTY2hvcU5kdTU4dExFeVg2VW5SRGdycjDSAdQBQVVfeXFMTVpwOWZwVWV0WE1ZdzNYSERmdFdKZ3pSWU5UTWpNeEZUeXRldGFVdGxqdG9xRDJFTTVjdHVMLWVIcWtiUWZTWHlHelEyalpLRTU0VHhxSE9nM3NENnl4THRkelhMNUp1N0RMN0tnc3A5amgwQnJncjdEbEl2dE05Z19NUVVZZ1FSdVpLR256Q0ZMRDRFNWhjYWRQMkNEZ3RINHhNU01tVVVOSXVmTExlUlU3RE1Rc0JTeDkzS2hVWU56TlliSnVVWUlPU3VhWTVMUVFUZ3g?oc=5",
       "sourcePriority": 3
@@ -4682,8 +4628,8 @@
     {
       "title": "Un boliche clausurado, un hombre aprehendido y tres motos secuestradas en San Patricio del Chañar - NoticiasNQN",
       "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPYURkUlQyQi0yRjJ4REFDV0N1M0h2SjFXMGdTbmRFSWRpUVk5dHdoWi1abHBBZlJPeUMxS3VVbldpZk1YVnRzaUV4YnNia25KSk42X1REOXc2Zlg2QXRDczJXN2I3N25yYV9Vb2pZVTEzaFF0RUVEZ0h5dkczRVpOZVJkYWVRMVQxX1Itd2VQTmVyRWJvRkdGcnYxMGg0cWtUU0NaT3RtMFl3R3RIdkYtR3NMX3BPa1o4Xy1jMWxRYkFuc3M1STVNVDVmUXo0UENCM3h0ZkJnaGZEbFIyR2FfejhoR0swVzVoRlHSAe8BQVVfeXFMTUU2WEE2and1eFFtVXd3RnlQeG5PaVlZTzd6SnhmR3hoVXQ2SUk3S2VocEJpQlJyNGxFUm1fcnNDTGk0S3dqdlpaMkJPc2t0d25rTEMzTVE2Rko2TXBPQWtGd3Z3Sm15Ry02Y2J5d0M4bjVQZ3NkLVFPMlAteHg4QjN5a1Nmai0yaS1zeHdRSGNOOUpCU1hyWmh6dWRyWVNrR3JZYnYyMDVabU1XbWJKcVdBbE1LNkxJZVBFUEx4X1RSd3RMdkZnM0hNNFNmYVUtQ2ZYelJ0aHpQR29SZXctZFBWMThKRDlxcUpicUU3em8?oc=5",
-      "publishedAt": "2026-11-01T17:06:45+00:00",
-      "published": "2026-11-01T17:06:45+00:00",
+      "publishedAt": "2026-11-01T07:00:00+00:00",
+      "published": "2026-11-01T07:00:00+00:00",
       "description": "<a href=\"https://news.google.com/rss/articles/CBMi6gFBVV95cUxPYURkUlQyQi0yRjJ4REFDV0N1M0h2SjFXMGdTbmRFSWRpUVk5dHdoWi1abHBBZlJPeUMxS3VVbldpZk1YVnRzaUV4YnNia25KSk42X1REOXc2Zlg2QXRDczJXN2I3N25yYV9Vb2pZVTEzaFF0RUVEZ0h5dkczRVpOZVJkYWVRMVQxX1Itd2VQTmVyRWJvRkdGcnYxMGg0cWtUU0NaT3RtMFl3R3RIdkYtR3NMX3BPa1o4Xy1jMWxRYkFuc3M1STVNVDVmUXo0UENCM3h0ZkJnaGZEbFIyR2FfejhoR0swVzVoRlHSAe8BQVVfeXFMTUU2WEE2and1eFFtVXd3RnlQeG5PaVlZTzd6SnhmR3hoVXQ2SUk3S2VocEJpQlJyNGxFUm1fcnNDTGk0S3dqdlpaMkJPc2t0d25rTEMzTVE2Rko2TXBPQWtGd3Z3Sm15Ry02Y2J5d0M4bjVQZ3NkLVFPMlAteHg4QjN5a1Nmai0yaS1zeHdRSGNOOUpCU1hyWmh6dWRyWVNrR3JZYnYyMDVabU1XbWJKcVdBbE1LNkxJZVBFUEx4X1RSd3RMdkZnM0hNNFNmYVUtQ2ZYelJ0aHpQR29SZXctZFBWMThKRDlxcUpicUU3em8?oc=5\" target=\"_blank\">Un boliche clausurado, un hombre aprehendido y tres motos secuestradas en San Patricio del Chañar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NoticiasNQN</font>",
       "source": "NoticiasNQN",
       "sourceType": "BUSCADOR / RESPALDO",
@@ -4693,7 +4639,7 @@
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "firstSeen": "2026-11-09T09:30:09.078627+00:00",
-      "isNew": true,
+      "isNew": false,
       "titleKey": "boliche clausurado hombre aprehendido tres motos secuestradas noticiasnqn",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPYURkUlQyQi0yRjJ4REFDV0N1M0h2SjFXMGdTbmRFSWRpUVk5dHdoWi1abHBBZlJPeUMxS3VVbldpZk1YVnRzaUV4YnNia25KSk42X1REOXc2Zlg2QXRDczJXN2I3N25yYV9Vb2pZVTEzaFF0RUVEZ0h5dkczRVpOZVJkYWVRMVQxX1Itd2VQTmVyRWJvRkdGcnYxMGg0cWtUU0NaT3RtMFl3R3RIdkYtR3NMX3BPa1o4Xy1jMWxRYkFuc3M1STVNVDVmUXo0UENCM3h0ZkJnaGZEbFIyR2FfejhoR0swVzVoRlHSAe8BQVVfeXFMTUU2WEE2and1eFFtVXd3RnlQeG5PaVlZTzd6SnhmR3hoVXQ2SUk3S2VocEJpQlJyNGxFUm1fcnNDTGk0S3dqdlpaMkJPc2t0d25rTEMzTVE2Rko2TXBPQWtGd3Z3Sm15Ry02Y2J5d0M4bjVQZ3NkLVFPMlAteHg4QjN5a1Nmai0yaS1zeHdRSGNOOUpCU1hyWmh6dWRyWVNrR3JZYnYyMDVabU1XbWJKcVdBbE1LNkxJZVBFUEx4X1RSd3RMdkZnM0hNNFNmYVUtQ2ZYelJ0aHpQR29SZXctZFBWMThKRDlxcUpicUU3em8?oc=5",
       "sourcePriority": 3
@@ -4712,7 +4658,7 @@
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "firstSeen": "2026-11-09T09:30:09.078627+00:00",
-      "isNew": true,
+      "isNew": false,
       "titleKey": "nueva muerte joven reabre debate prevencion suicidio digital",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPZF9iTVRkZjFkSkQyb1FIVmx2dTJPeDBkekprTW5qTTNKd0NteGx3R3lyNko4MDRvbVdadDdaVDRCaGgzRVM3a0p6YjFrQlhxa2F0UWJkbUM1aUZITmdQMzJPRGpUbFR5SXVvd3BxUTFTMzl3MXBjVTVfRFl0NWkyQUZXMFRqS0d0cUN1RmJ6bXRNZHF6Y1N6MG10Wi1yNFlDOHFEZHRfb2tCQWhXYzJmcnowRVdVcXFEQmp2XzlRUnhOdGdCMHhKTlAtUzIzMm5MN1NNcEVKR0l0YXY3eENfWFduYmc?oc=5",
       "sourcePriority": 3
@@ -4731,7 +4677,7 @@
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "firstSeen": "2026-11-09T09:30:09.078627+00:00",
-      "isNew": true,
+      "isNew": false,
       "titleKey": "muerte joven años desperto nuevamente preocupacion patagonia press",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPbGVjUHU4WXhjRGp2REN5bmxicnFHVUt5ek9KaldrbmJYUXlsUVZPZTRveGl5VzlXTTBZRFhUWHoyY3ZYTG1oMktqczVQUGwtUmRpbjJBc25IU1VvMnl5X2xLVHNBTlU1c2RWSXV3a2FlWVF2NDlRRU14VWZ4ZldxaFJaS2ZLbkNleXJrN1lyT2ZHVXpteEFoV2dhTHc2dm82WTU2RjRLWnZreUUxc1k2VlRYUWUwc3Z5ZklGd2dwZXpJYjQ3ZHVLVEdXckJtOHluQ0NTRm5jaTZCZzlvUDRfMVVyS05YQXhxdjJMOA?oc=5",
       "sourcePriority": 3
@@ -4750,7 +4696,7 @@
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "firstSeen": "2026-11-09T09:30:09.078627+00:00",
-      "isNew": true,
+      "isNew": false,
       "titleKey": "investigan muerte joven años minuto",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPZ2xNeF9EMnN0TDBBanhCREJZOWd5cGVpeWZZU3NLLVNybWJWV09JOVlOcDJ4Q19Gc1hPRmFBUkZ6b0g5Y01qaGNHSzQyUDRhSVByRkFXU012N2xpQS1QN25UNkR6Z0NlMFlsWVBNRkJFWFAyQ2YxZDNRWlVXZ2FmcExOLXhvOUxQTDNiQU9ONWEySlJqcS1VOEZVOTRGVmxManpBQk00VGtfd3A1V1YxNEx1YjBaSXZHTG5ZUnNJS05WYm9DVVdkMThGYw?oc=5",
       "sourcePriority": 3
@@ -4769,7 +4715,7 @@
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "firstSeen": "2026-11-09T09:30:09.078627+00:00",
-      "isNew": true,
+      "isNew": false,
       "titleKey": "investigan muerte joven años diario neuquino",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOaFpITm1ILTRZY3VOS0ZGRE9DdEJEaXV4dlJQa3dxRHEtSU9QRU5yTWFEMWF6WEtkS1FFZVlGbDQxd1Jyc0VIZ0l4aG50RU1wRXJvc29FQURVb2l4dDh4bGFQWXlVTXpDY0RIVzE3OTZLeVF1OW0wSVZ2bkUzODNJNFpkZ0pnVG1lZFZqNU9xMTNELUZtSFNyVGx4dzFZTUw2aFpr?oc=5",
       "sourcePriority": 3
@@ -4788,7 +4734,7 @@
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "firstSeen": "2026-11-09T09:30:09.078627+00:00",
-      "isNew": true,
+      "isNew": false,
       "titleKey": "conmocion muerte joven sabe lmneuquen com",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOWEpuZW42ckxUUk1Bb0lVeWE0UUszNmVkUUhDSjlqUUo5NTJ6OV8tNG91TDdQTklJd3RXZFd4aHh1LVdXdEs3UWV1QXpHVDRBRzQzcnFpQXh2bTNfWHp4WFEwLUg2dUV1OFNRUGFvMkdOMjI4dzZEbU5PeDBseEFvbDBqSXRJM1hfcG0wOUo5ZWxQYmxRVlVveVJoTmVBS2RyelliYk9TOHF4a1XSAbABQVVfeXFMUFJsRGpyWTZZLWtUTWc0TFRUTVo5bUVtM1F2cHVXM3VfQ1RXR2dTeTJBdHN0V1FDNTFNbnlBM21QUkQ3UThVb2JtMVVibWpldVRZZXNxYjJyUWpZVllSZkFKMHF3QlZLNjNLMk5mLUc2N3hCd2FVa0puTzR6SU5uYUhGQUgtRHRuWGt6Tk9ZZHdGSDltRENKY0F5em80ZXgtUmxTYldBSm5qMTVlc3lnazc?oc=5",
       "sourcePriority": 3
@@ -4807,7 +4753,7 @@
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "firstSeen": "2026-11-09T09:30:09.078627+00:00",
-      "isNew": true,
+      "isNew": false,
       "titleKey": "robaron automovil encontraron mas tarde abandonado rio negro minuto",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQN2hySGdtYXNiUFpZMzJZdEk3R0xLNkJiME5mVTMxT1pNRWphV3lwdFFBbDRmZnlJTTdFeHI2NnRrZ0JSRlhtSkdsOUlWTW4xQlBidUJmcXN2NHh0c3MwbkJHUUg5cHRoLUp5bFZmQlE2bEM3MDRSb2FTTVMzeU4wN2hWeVJ1OFBUQlVXYm9zZmdrWjJBdTZVNGhLem5MRmJmM0k2OHN6ZFpEd3IyV19YWE1JOHRSaHpSWno0WUs3YTBOWVZOTUYweEtGU2dsc1habEVkV1VId1psSEg0YXc?oc=5",
       "sourcePriority": 3
@@ -4826,7 +4772,7 @@
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "firstSeen": "2026-11-09T09:30:09.078627+00:00",
-      "isNew": true,
+      "isNew": false,
       "titleKey": "robaron auto joven años dos testigos vieron todo identificar mejorinformado com",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQY0RiZFlaVzBCQVViMGhuNU1zRm0zNVhyZHlDbnVjVExsN2NBdVBpTGJUMXJ2TGpoejRNY0REa3RpVDVpSldzN1ZweHF2LXNWNG56YjczTHdUUm54UnhqU180MmhfeWhVWW9Cc1dEYWIwZUpwYlp6MGlic3ZmSjUxZXhqc0g3SEhHekZfMjRfdVZrNUxhT1ozMUY2QmVNU3dfWU1ncjhWNXVjY2tvUmk2a0ltUFFacTlTVngzd19sUGM4RnpjNFR2ZkN0UXdrZml0LXBKcENBUldVRTBQamlHQjJB0gHiAUFVX3lxTFBjRGJkWVpXMEJBVWIwaG41TXNGbTM1WHJkeUNudWNUTGw3Y0F1UGlMYlQxcnZMamh6NE1jRERrdGlUNWlKV3M3VnB4cXYtc1Y0bnpiNzNMd1RSbnhSeGpTXzQyaF95aFVZb0JzV0RhYjBlSnBiWnowaWJzdmZKNTFleGpzSDdISEd6Rl8yNF91Vms1TGFPWjMxRjZCZU1Td19ZTWdyOFY1dWNja29SaTZrSW1QUVpxOVNWeDN3X2xQYzhGemM0VHZmQ3RRd2tmaXQtcEpwQ0FSV1VFMFBqaUdCMkE?oc=5",
       "sourcePriority": 3
@@ -4845,7 +4791,7 @@
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "firstSeen": "2026-11-09T09:30:09.078627+00:00",
-      "isNew": true,
+      "isNew": false,
       "titleKey": "narco incorregible tenia prision domiciliaria armo kiosco lmneuquen com",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPejFCX2kxWHptT2VYZW5PQy11MTJPVk50U1EtbmlUZUg5N2RRZXNBRHk2bnM3b0lTNHBQa2pxVTItQ0NUZE9aaUdhRU4xNWxoZ193WTFHb3lFY3ViWHJxaVZ5LUYteWt6aUxTbHhoT3FtQ3VOaUZWUXMtTHNONjh1OV9xQktGenQxX2JzQzFIWDd5VVMxQmFVOFVaYl9PYlk3YmdlM2Q1bHE0YVRrM1I2cGhtT28zU2VLMHhGT3IySmozOHRjN2NWNXV5Sm8tMk5FVzFMTNIB2gFBVV95cUxPWVg1NG9jSGVBN1hjbzZUX1dQcVhvTjhXYVNoUmdHU1FIM0tGOHVBS0ZTRGhYQy1UVmFJal9acTV5SUxEZ1BaZEp6MnFfcy1VeEVhSjBla1YtUkQwZ0dpWVZXeTRNU3VIRGJWcE9CTFZXR3Q5c0x4U2FMVjdMa0xuelNRZzU1eFlYZWZLdkNVbGoxcFFfQ2lEcmp1bUpwbnU1WENqYjNrcG55NWtPczJSTGVQN0Zpb0l2bk1RQW9mNWtaRGdzX21iUlE1TDA2ekV1dEdRVXY0UTlnUQ?oc=5",
       "sourcePriority": 3
@@ -4864,7 +4810,7 @@
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "firstSeen": "2026-11-09T09:30:09.078627+00:00",
-      "isNew": true,
+      "isNew": false,
       "titleKey": "violento robo auto digital",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQbWx5a1RGWGR6M0lxSkpFM0lvRDBXU2FvV1pLaG1veHFGMTBYZGgwZkxHZUxCUy1TSENFQmp5dzU0Y3o2cllBVUh1Q25zMTlXMHZuMi1LdTVob3NVd1NoaW5WMEhRM2p2X0dmTExteUtNUlhlTUQ0dThrbV9oQkllRGRYejFFUHNtM3FaTjlWczVQSWRUWUF2dmRPSE0wbGQxWW9YcV8wTWY?oc=5",
       "sourcePriority": 3
@@ -4883,7 +4829,7 @@
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "firstSeen": "2026-11-09T09:30:09.078627+00:00",
-      "isNew": true,
+      "isNew": false,
       "titleKey": "bajara caudal rio cuanto erogara dique noticiasnqn",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPVnZuNlMyZ1hXQmRIWl9WYzVLbURDUTZIMmNXNDBPSEtZZjhUTTQ0LWRPV1dLQ3NlOXpVXy0tT1VHNEpseWgzenF3cDBNVEpncGpyWEkzT18zby1SQjUyenk3ZmZlbzdkMnZjQlVfWUJBclE0X2FYY1JYUmpmSVVnV19OSTVhMjZDNXJtUG1GYkFVeGtobTM2SkxwZy1pS2V6c2ZubjBMYVJjRUJSekNsRWZtaUE0SWkwY0hQeEdwLWRKUdIBxwFBVV95cUxNRzRyLUw0LVZVWExjZjY0RXV3dWc4S0xJMHJYVl9FQnBQOWhTZ1J1cnZod09zbDUzUnVHdURyeHZiWmJlMldMVWp1Z3kxUlBzOFpSbmt1SGdiNUF3eFozUEU5Ym5qaXhhWldhZ0VHWTNRNU5DYjZiMGw2TTEycGFhRS1MQW02amxoT2t6SXhtblFVUXZ0QWxUVDA4WVBRb29wVlRzZ0R1RXFlQ0FqZUlpTlgtT3NXY2VTTVY5WDZKTnV1N3BHYXRr?oc=5",
       "sourcePriority": 3
@@ -4902,7 +4848,7 @@
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "firstSeen": "2026-11-09T09:30:09.078627+00:00",
-      "isNew": true,
+      "isNew": false,
       "titleKey": "recuperaron bicicleta robada detuvieron sospechoso digital",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNM2FOSVh6d1BKWmJnRjU4SEJGNmNpZS0zellmbkdYRmpoV1pONXFzT3poR2F4a2p2T2ZNdXE0bU5mN3VMY0daUlprRzlhQWhoYXByTlYyZ1E1ZlNNT1dxY1U2MWdvWnJkeVRQemtxTEZPM1Z2bHM1d2VnSWNRa1I4RXFoRFRYU2tkWnlqdWFpRVQxWGoya29yVzZmaW9OTjJudFFRTmlwLWV2MmlGdVlJa1VWTzBERHVQZ1JrUThHZ19pZHZXZThRTWlFdHJMTGlqa3pLMGd3?oc=5",
       "sourcePriority": 3
@@ -4921,34 +4867,15 @@
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "firstSeen": "2026-11-09T09:30:09.078627+00:00",
-      "isNew": true,
+      "isNew": false,
       "titleKey": "golpe narcomenudeo realizaron allanamientos entre capital minuto",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNbDBhRWF4NGRzMXZfYjZ2c3VhcHVGdlZBYkhkeC0tZ2J0MWxtTU02ak04NlY4aDRsU0dRd21qWEpDV0w4aDdwNF9mZDhnbmtZbERIRGl3R1haOWlQX2pHX2xLYllxbEdsM1RGWjV0eGI1Q3I3b2N3RVkyYTIybHBaUjhTUE4tb3V4YmdsX2FQSlkzR1JieHJVY3VUUGpKdzRObXc3UF9MWGJ3T1Qyai1vN01tVTl1M3dFOUJNUWg1UWREZU15aGloYVRXQXpWcnhoT05fVFdVT2ZlSGNySW9ybDQ2Z1Q1NnRmVGdFbnFPZw?oc=5",
-      "sourcePriority": 3
-    },
-    {
-      "title": "Once allanamientos por venta de drogas en Neuquén y El Chañar: ocho personas fueron imputadas - Neuquen Post",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQbXBVVS16UlM2LVpnbTN5X2hCbFZJT0lodldnd0lYYks3b2pJd3c3bkJpaWdkaHE0eVhOMTQ3dl9ndXlkdklaNXdYZ1VQcHNoc1MyVkNDbjJ1MkQwM0JWb29MMXlUN3hfMFFRbW1oSHZmR0xRdGh2Z2JHbUNEemdza1VRb2RmMWtSVm5kdFdaRmtIY1pOZ3RGQTk3MXN0QjkyOC1uSFJIemdjbjFwXy1wSDFacEdOd0JU?oc=5",
-      "publishedAt": "2026-10-26T15:44:27+00:00",
-      "published": "2026-10-26T15:44:27+00:00",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMiuAFBVV95cUxQbXBVVS16UlM2LVpnbTN5X2hCbFZJT0lodldnd0lYYks3b2pJd3c3bkJpaWdkaHE0eVhOMTQ3dl9ndXlkdklaNXdYZ1VQcHNoc1MyVkNDbjJ1MkQwM0JWb29MMXlUN3hfMFFRbW1oSHZmR0xRdGh2Z2JHbUNEemdza1VRb2RmMWtSVm5kdFdaRmtIY1pOZ3RGQTk3MXN0QjkyOC1uSFJIemdjbjFwXy1wSDFacEdOd0JU?oc=5\" target=\"_blank\">Once allanamientos por venta de drogas en Neuquén y El Chañar: ocho personas fueron imputadas</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Neuquen Post</font>",
-      "source": "Neuquen Post",
-      "sourceType": "BUSCADOR / RESPALDO",
-      "sourceUrl": "",
-      "collection": "BUSCADOR",
-      "query": "\"San Patricio del Chañar\"",
-      "relevance": 3,
-      "relevanceLabel": "DIRECTA",
-      "firstSeen": "2026-11-09T09:30:09.078627+00:00",
-      "isNew": true,
-      "titleKey": "once allanamientos venta drogas ocho personas fueron imputadas post",
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQbXBVVS16UlM2LVpnbTN5X2hCbFZJT0lodldnd0lYYks3b2pJd3c3bkJpaWdkaHE0eVhOMTQ3dl9ndXlkdklaNXdYZ1VQcHNoc1MyVkNDbjJ1MkQwM0JWb29MMXlUN3hfMFFRbW1oSHZmR0xRdGh2Z2JHbUNEemdza1VRb2RmMWtSVm5kdFdaRmtIY1pOZ3RGQTk3MXN0QjkyOC1uSFJIemdjbjFwXy1wSDFacEdOd0JU?oc=5",
       "sourcePriority": 3
     }
   ],
   "territorialGraph": {
     "version": "2.0",
-    "generatedAt": "2026-11-09T09:30:21.163750+00:00",
+    "generatedAt": "2026-11-09T20:00:09.986898+00:00",
     "root": "spc",
     "rule": "evidence-first",
     "levels": [
@@ -5571,16 +5498,16 @@
   },
   "audit": {
     "version": "1.0",
-    "updatedAt": "2026-11-09T09:30:21.201383+00:00",
+    "updatedAt": "2026-11-09T20:00:10.024047+00:00",
     "rule": "fact != coverage; territory requires textual evidence",
     "facts": 9,
-    "coverage": 43,
-    "coveragePerFact": 4.78,
+    "coverage": 44,
+    "coveragePerFact": 4.89,
     "directAnchorFacts": 9,
     "directAnchorPct": 100.0,
     "territorySpecificFacts": 3,
     "territorySpecificPct": 33.3,
-    "averageSourcesPerFact": 3.33,
+    "averageSourcesPerFact": 3.22,
     "activeTerritorialNodes": 4,
     "failedSources": 10,
     "acceptedWithoutLocalEvidence": 0,
