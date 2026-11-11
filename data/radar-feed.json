@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T05:56:40.610765+00:00",
+  "updatedAt": "2026-11-11T14:00:15.972541+00:00",
   "window": "14 días",
   "purpose": "Detectar qué se está moviendo en San Patricio del Chañar y mostrar de dónde surge cada señal.",
   "architecture": "contrato universal de procedencia + fuentes profesionales + adaptadores específicos + validación semántica + temporalidad + evidencia editorial separada",
@@ -49,7 +49,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://chanardigital.com.ar/",
-      "lastFetch": "2026-11-11T05:56:18.806174+00:00",
+      "lastFetch": "2026-11-11T13:59:52.315609+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -65,7 +65,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.radiomia.com.ar/",
-      "lastFetch": "2026-11-11T05:56:19.951442+00:00",
+      "lastFetch": "2026-11-11T13:59:53.416933+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -80,7 +80,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://tuitvacamuerta.com/",
-      "lastFetch": "2026-11-11T05:56:21.622208+00:00",
+      "lastFetch": "2026-11-11T13:59:54.989159+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -95,7 +95,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.vacamuertanews.com/",
-      "lastFetch": "2026-11-11T05:56:22.112321+00:00",
+      "lastFetch": "2026-11-11T13:59:55.288817+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -111,7 +111,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.neuqueninforma.gob.ar/",
-      "lastFetch": "2026-11-11T05:56:23.683755+00:00",
+      "lastFetch": "2026-11-11T13:59:56.553892+00:00",
       "success": false,
       "attempted": 3,
       "failures": [
@@ -128,7 +128,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://sanpatricio.gob.ar/",
-      "lastFetch": "2026-11-11T05:56:24.732359+00:00",
+      "lastFetch": "2026-11-11T13:59:57.518092+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -143,7 +143,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://boletinoficial.neuquen.gov.ar/",
-      "lastFetch": "2026-11-11T05:56:25.787805+00:00",
+      "lastFetch": "2026-11-11T13:59:58.483363+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -158,7 +158,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.lmneuquen.com/",
-      "lastFetch": "2026-11-11T05:56:26.078969+00:00",
+      "lastFetch": "2026-11-11T13:59:58.678322+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -171,17 +171,17 @@
     {
       "name": "Diario Río Negro",
       "type": "MEDIO REGIONAL",
-      "mode": "RSS DIRECTO",
-      "signals": 1,
+      "mode": "SIN RESPUESTA",
+      "signals": 0,
       "url": "https://www.rionegro.com.ar/",
-      "lastFetch": "2026-11-11T05:56:27.611751+00:00",
+      "lastFetch": "2026-11-11T14:00:00.790053+00:00",
       "success": true,
       "attempted": 2,
       "failures": [
         "WEB:AttributeError"
       ],
       "directAvailability": "available",
-      "freshnessHours": 7.0
+      "freshnessHours": null
     },
     {
       "name": "Mejor Informado",
@@ -189,7 +189,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.mejorinformado.com/",
-      "lastFetch": "2026-11-11T05:56:28.336978+00:00",
+      "lastFetch": "2026-11-11T14:00:01.484236+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -205,7 +205,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.diariamenteneuquen.com/",
-      "lastFetch": "2026-11-11T05:56:29.432540+00:00",
+      "lastFetch": "2026-11-11T14:00:02.134627+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -386,10 +386,10 @@
       "group": "LOCAL",
       "role": "medio local",
       "url": "https://chanardigital.com.ar/",
-      "signals": 6,
-      "directSignals": 6,
+      "signals": 7,
+      "directSignals": 7,
       "anchoredSignals": 0,
-      "lastSeen": "2026-11-09T22:04:22+00:00",
+      "lastSeen": "2026-11-11T06:01:49+00:00",
       "status": "CON SEÑALES",
       "note": "ausencia de señales no equivale a ausencia del hecho"
     },
@@ -602,11 +602,11 @@
       "group": "REGIONAL",
       "role": "medio regional",
       "url": "https://www.rionegro.com.ar/",
-      "signals": 1,
-      "directSignals": 1,
+      "signals": 0,
+      "directSignals": 0,
       "anchoredSignals": 0,
-      "lastSeen": "2026-11-10T22:57:13+00:00",
-      "status": "CON SEÑALES",
+      "lastSeen": null,
+      "status": "SIN SEÑALES EN VENTANA",
       "note": "ausencia de señales no equivale a ausencia del hecho"
     },
     {
@@ -709,13 +709,13 @@
   "languageAudit": [
     {
       "term": "el chañar",
-      "hits": 23,
-      "direct": 23
+      "hits": 24,
+      "direct": 24
     },
     {
       "term": "san patricio del chañar",
-      "hits": 20,
-      "direct": 20
+      "hits": 21,
+      "direct": 21
     },
     {
       "term": "ruta 7",
@@ -723,7 +723,7 @@
       "direct": 2
     },
     {
-      "term": "parque industrial",
+      "term": "loteo social",
       "hits": 1,
       "direct": 1
     },
@@ -813,12 +813,12 @@
       "direct": 0
     },
     {
-      "term": "municipalidad de san patricio",
+      "term": "parque industrial",
       "hits": 0,
       "direct": 0
     },
     {
-      "term": "loteo social",
+      "term": "municipalidad de san patricio",
       "hits": 0,
       "direct": 0
     },
@@ -995,8 +995,8 @@
         "source": "Chañar Digital",
         "group": "LOCAL",
         "role": "medio local",
-        "accepted": 14,
-        "direct": 14,
+        "accepted": 15,
+        "direct": 15,
         "anchored": 0,
         "falsePositives": 0,
         "falsePositiveTypes": [],
@@ -1033,8 +1033,8 @@
         "source": "Diario Neuquino",
         "group": "REGIONAL",
         "role": "medio regional",
-        "accepted": 4,
-        "direct": 4,
+        "accepted": 3,
+        "direct": 3,
         "anchored": 0,
         "falsePositives": 0,
         "falsePositiveTypes": [],
@@ -1048,14 +1048,12 @@
         "source": "Diario Río Negro",
         "group": "REGIONAL",
         "role": "medio regional",
-        "accepted": 1,
-        "direct": 1,
+        "accepted": 0,
+        "direct": 0,
         "anchored": 0,
         "falsePositives": 0,
         "falsePositiveTypes": [],
-        "topics": [
-          "SERVICIOS"
-        ]
+        "topics": []
       },
       {
         "source": "Dirección Provincial de Vialidad",
@@ -1116,8 +1114,8 @@
         "source": "Lmneuquen.com",
         "group": "OBSERVADA",
         "role": "fuente detectada fuera del catálogo",
-        "accepted": 4,
-        "direct": 4,
+        "accepted": 3,
+        "direct": 3,
         "anchored": 0,
         "falsePositives": 0,
         "falsePositiveTypes": [],
@@ -1140,8 +1138,8 @@
         "source": "MejorInformado.com",
         "group": "OBSERVADA",
         "role": "fuente detectada fuera del catálogo",
-        "accepted": 2,
-        "direct": 2,
+        "accepted": 3,
+        "direct": 3,
         "anchored": 0,
         "falsePositives": 0,
         "falsePositiveTypes": [],
@@ -1176,8 +1174,8 @@
         "source": "Minuto Neuquén",
         "group": "OBSERVADA",
         "role": "fuente detectada fuera del catálogo",
-        "accepted": 4,
-        "direct": 4,
+        "accepted": 3,
+        "direct": 3,
         "anchored": 0,
         "falsePositives": 0,
         "falsePositiveTypes": [],
@@ -1222,21 +1220,22 @@
         "source": "Neuquén al instante",
         "group": "OBSERVADA",
         "role": "fuente detectada fuera del catálogo",
-        "accepted": 1,
-        "direct": 1,
+        "accepted": 2,
+        "direct": 2,
         "anchored": 0,
         "falsePositives": 0,
         "falsePositiveTypes": [],
         "topics": [
-          "EDUCACIÓN"
+          "EDUCACIÓN",
+          "SERVICIOS"
         ]
       },
       {
         "source": "NoticiasNQN",
         "group": "OBSERVADA",
         "role": "fuente detectada fuera del catálogo",
-        "accepted": 2,
-        "direct": 2,
+        "accepted": 3,
+        "direct": 3,
         "anchored": 0,
         "falsePositives": 0,
         "falsePositiveTypes": [],
@@ -1261,8 +1260,8 @@
         "source": "Patagonia Press",
         "group": "OBSERVADA",
         "role": "fuente detectada fuera del catálogo",
-        "accepted": 3,
-        "direct": 3,
+        "accepted": 1,
+        "direct": 1,
         "anchored": 0,
         "falsePositives": 0,
         "falsePositiveTypes": [],
@@ -1346,22 +1345,22 @@
         "falsePositives": 0,
         "falsePositiveTypes": [],
         "topics": []
-      },
-      {
-        "source": "portadadigital.com.ar",
-        "group": "OBSERVADA",
-        "role": "fuente detectada fuera del catálogo",
-        "accepted": 1,
-        "direct": 1,
-        "anchored": 0,
-        "falsePositives": 0,
-        "falsePositiveTypes": [],
-        "topics": [
-          "SERVICIOS"
-        ]
       }
     ],
     "matrix": [
+      {
+        "source": "Chañar Digital",
+        "topic": "SERVICIOS",
+        "accepted": 7,
+        "direct": 7,
+        "anchored": 0,
+        "falsePositives": 0,
+        "territorialTerms": [
+          "san patricio del chañar",
+          "el chañar",
+          "loteo social"
+        ]
+      },
       {
         "source": "Chañar Digital",
         "topic": "EDUCACIÓN",
@@ -1376,43 +1375,7 @@
         ]
       },
       {
-        "source": "Chañar Digital",
-        "topic": "SERVICIOS",
-        "accepted": 6,
-        "direct": 6,
-        "anchored": 0,
-        "falsePositives": 0,
-        "territorialTerms": [
-          "san patricio del chañar",
-          "el chañar"
-        ]
-      },
-      {
         "source": "Lmneuquen.com",
-        "topic": "SERVICIOS",
-        "accepted": 4,
-        "direct": 4,
-        "anchored": 0,
-        "falsePositives": 0,
-        "territorialTerms": [
-          "san patricio del chañar",
-          "el chañar"
-        ]
-      },
-      {
-        "source": "Minuto Neuquén",
-        "topic": "SERVICIOS",
-        "accepted": 4,
-        "direct": 4,
-        "anchored": 0,
-        "falsePositives": 0,
-        "territorialTerms": [
-          "san patricio del chañar",
-          "el chañar"
-        ]
-      },
-      {
-        "source": "Patagonia Press",
         "topic": "SERVICIOS",
         "accepted": 3,
         "direct": 3,
@@ -1424,10 +1387,10 @@
         ]
       },
       {
-        "source": "Diario Neuquino",
+        "source": "Minuto Neuquén",
         "topic": "SERVICIOS",
-        "accepted": 2,
-        "direct": 2,
+        "accepted": 3,
+        "direct": 3,
         "anchored": 0,
         "falsePositives": 0,
         "territorialTerms": [
@@ -1437,6 +1400,18 @@
       },
       {
         "source": "NoticiasNQN",
+        "topic": "SERVICIOS",
+        "accepted": 3,
+        "direct": 3,
+        "anchored": 0,
+        "falsePositives": 0,
+        "territorialTerms": [
+          "san patricio del chañar",
+          "el chañar"
+        ]
+      },
+      {
+        "source": "MejorInformado.com",
         "topic": "SERVICIOS",
         "accepted": 2,
         "direct": 2,
@@ -1498,14 +1473,15 @@
         ]
       },
       {
-        "source": "Diario Río Negro",
+        "source": "Diario Neuquino",
         "topic": "SERVICIOS",
         "accepted": 1,
         "direct": 1,
         "anchored": 0,
         "falsePositives": 0,
         "territorialTerms": [
-          "parque industrial"
+          "san patricio del chañar",
+          "el chañar"
         ]
       },
       {
@@ -1522,20 +1498,20 @@
         ]
       },
       {
-        "source": "MejorInformado.com",
-        "topic": "SERVICIOS",
+        "source": "Neuquén al instante",
+        "topic": "EDUCACIÓN",
         "accepted": 1,
         "direct": 1,
         "anchored": 0,
         "falsePositives": 0,
         "territorialTerms": [
-          "el chañar",
-          "san patricio del chañar"
+          "san patricio del chañar",
+          "el chañar"
         ]
       },
       {
         "source": "Neuquén al instante",
-        "topic": "EDUCACIÓN",
+        "topic": "SERVICIOS",
         "accepted": 1,
         "direct": 1,
         "anchored": 0,
@@ -1558,7 +1534,7 @@
         ]
       },
       {
-        "source": "portadadigital.com.ar",
+        "source": "Patagonia Press",
         "topic": "SERVICIOS",
         "accepted": 1,
         "direct": 1,
@@ -1573,8 +1549,8 @@
     "languagePrecision": [
       {
         "term": "san patricio del chañar",
-        "acceptedHits": 27,
-        "directHits": 27,
+        "acceptedHits": 25,
+        "directHits": 25,
         "rejectedTitleHits": 0,
         "territorialStrength": "FUERTE"
       },
@@ -1587,8 +1563,8 @@
       },
       {
         "term": "el chañar",
-        "acceptedHits": 30,
-        "directHits": 30,
+        "acceptedHits": 27,
+        "directHits": 27,
         "rejectedTitleHits": 0,
         "territorialStrength": "FUERTE"
       },
@@ -1678,8 +1654,8 @@
       },
       {
         "term": "parque industrial",
-        "acceptedHits": 1,
-        "directHits": 1,
+        "acceptedHits": 0,
+        "directHits": 0,
         "rejectedTitleHits": 0,
         "territorialStrength": "FUERTE"
       },
@@ -1895,8 +1871,8 @@
       },
       {
         "term": "loteo social",
-        "acceptedHits": 0,
-        "directHits": 0,
+        "acceptedHits": 1,
+        "directHits": 1,
         "rejectedTitleHits": 0,
         "territorialStrength": "FUERTE"
       }
@@ -1913,12 +1889,12 @@
     "interpretation": "auditoría sobre eventos aceptados; la próxima capa debe instrumentar rechazos antes del clustering"
   },
   "stats": {
-    "total": 24,
-    "direct": 24,
+    "total": 25,
+    "direct": 25,
     "regional": 0,
-    "new": 0,
-    "sources": 10,
-    "directSignals": 1,
+    "new": 2,
+    "sources": 9,
+    "directSignals": 0,
     "localDirectSignals": 0,
     "radioDirectSignals": 0,
     "precisionRule": "evidence-first",
@@ -1927,11 +1903,11 @@
   "environment": {
     "weather": {
       "dataType": "forecast",
-      "forecastWindKmh": 33.0,
-      "forecastGustKmh": 40.0,
+      "forecastWindKmh": 27.0,
+      "forecastGustKmh": 27.0,
       "forecastWindDirection": "SO",
-      "forecastTemperatureC": 32.0,
-      "retrievedAt": "2026-11-11T05:56:16.279200+00:00",
+      "forecastTemperatureC": 31.0,
+      "retrievedAt": "2026-11-11T13:59:49.834417+00:00",
       "source": "AIC",
       "sourceTier": "primary",
       "sourceUrl": "https://www.aic.gob.ar/sitio/home?a=1015&z=1967225803",
@@ -1961,7 +1937,7 @@
       "currentProgrammedMinM3s": 340,
       "programDate": "2026-11-12",
       "tableDate": "2026-11-11",
-      "retrievedAt": "2026-11-11T05:56:16.279200+00:00",
+      "retrievedAt": "2026-11-11T13:59:49.834417+00:00",
       "source": "AIC",
       "sourceTier": "primary",
       "sourceUrl": "https://www.aic.gob.ar/sitio/caudales",
@@ -1981,17 +1957,17 @@
         "url": "https://www.aic.gob.ar/sitio/caudales"
       }
     ],
-    "updatedAt": "2026-11-11T05:56:16.279200+00:00"
+    "updatedAt": "2026-11-11T13:59:49.834417+00:00"
   },
   "operational": {
-    "updatedAt": "2026-11-11T05:56:16.279200+00:00",
+    "updatedAt": "2026-11-11T13:59:49.834417+00:00",
     "route7": {
       "source": "Dirección Provincial de Vialidad",
       "sourceTier": "primary",
       "sourceUrl": "https://www.dpvneuquen.gov.ar/",
       "semanticState": null,
       "publicationState": "source_reachable_no_current_machine_readable_state",
-      "retrievedAt": "2026-11-11T05:56:16.279200+00:00",
+      "retrievedAt": "2026-11-11T13:59:49.834417+00:00",
       "evidence": {
         "route7Mention": true,
         "route8Mention": false
@@ -2003,7 +1979,7 @@
       "sourceUrl": "https://www.dpvneuquen.gov.ar/",
       "semanticState": null,
       "publicationState": "source_reachable_no_current_machine_readable_state",
-      "retrievedAt": "2026-11-11T05:56:16.279200+00:00",
+      "retrievedAt": "2026-11-11T13:59:49.834417+00:00",
       "evidence": {
         "route7Mention": true,
         "route8Mention": false
@@ -2017,7 +1993,7 @@
       "eventType": null,
       "detail": null,
       "publicationState": "source_reachable_no_specific_local_notice",
-      "retrievedAt": "2026-11-11T05:56:16.279200+00:00"
+      "retrievedAt": "2026-11-11T13:59:49.834417+00:00"
     },
     "water": {
       "source": "EPAS",
@@ -2027,7 +2003,7 @@
       "eventType": null,
       "detail": null,
       "publicationState": "source_reachable_no_specific_local_notice",
-      "retrievedAt": "2026-11-11T05:56:16.279200+00:00"
+      "retrievedAt": "2026-11-11T13:59:49.834417+00:00"
     },
     "sources": [
       {
@@ -2439,7 +2415,7 @@
       "label": "Conversación general",
       "signal": 10,
       "status": "cobertura editorial",
-      "freshnessHours": 7.0,
+      "freshnessHours": 8.0,
       "mode": "evidencia editorial",
       "evidenceCount": 10,
       "sourceContract": {
@@ -2479,7 +2455,7 @@
       "label": "Corredor Ruta 7",
       "signal": 1,
       "status": "estado vial",
-      "freshnessHours": 65.1,
+      "freshnessHours": 73.1,
       "mode": "evidencia territorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -2519,7 +2495,7 @@
         "sourceUrl": "https://www.dpvneuquen.gov.ar/",
         "semanticState": null,
         "publicationState": "source_reachable_no_current_machine_readable_state",
-        "retrievedAt": "2026-11-11T05:56:16.279200+00:00",
+        "retrievedAt": "2026-11-11T13:59:49.834417+00:00",
         "evidence": {
           "route7Mention": true,
           "route8Mention": false
@@ -2571,7 +2547,7 @@
         "sourceUrl": "https://www.dpvneuquen.gov.ar/",
         "semanticState": null,
         "publicationState": "source_reachable_no_current_machine_readable_state",
-        "retrievedAt": "2026-11-11T05:56:16.279200+00:00",
+        "retrievedAt": "2026-11-11T13:59:49.834417+00:00",
         "evidence": {
           "route7Mention": true,
           "route8Mention": false
@@ -2581,7 +2557,7 @@
     {
       "id": "VIENTO",
       "label": "Condición de viento",
-      "signal": 33.0,
+      "signal": 27.0,
       "status": "pronóstico local",
       "freshnessHours": null,
       "mode": "DATO DIRECTO",
@@ -2671,7 +2647,7 @@
         "eventType": null,
         "detail": null,
         "publicationState": "source_reachable_no_specific_local_notice",
-        "retrievedAt": "2026-11-11T05:56:16.279200+00:00"
+        "retrievedAt": "2026-11-11T13:59:49.834417+00:00"
       }
     },
     {
@@ -2721,7 +2697,7 @@
         "eventType": null,
         "detail": null,
         "publicationState": "source_reachable_no_specific_local_notice",
-        "retrievedAt": "2026-11-11T05:56:16.279200+00:00"
+        "retrievedAt": "2026-11-11T13:59:49.834417+00:00"
       }
     },
     {
@@ -2809,7 +2785,7 @@
       "label": "Educación",
       "signal": 1,
       "status": "evidencia educativa",
-      "freshnessHours": 1086.9,
+      "freshnessHours": 1094.9,
       "mode": "evidencia editorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -2889,7 +2865,7 @@
       "label": "Seguridad / emergencias",
       "signal": 1,
       "status": "cobertura de emergencia",
-      "freshnessHours": 172.4,
+      "freshnessHours": 180.5,
       "mode": "evidencia editorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -2929,7 +2905,7 @@
       "label": "Territorio / microzonas",
       "signal": 1,
       "status": "hecho territorial",
-      "freshnessHours": 7.0,
+      "freshnessHours": 8.0,
       "mode": "evidencia territorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -2986,7 +2962,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://chanardigital.com.ar/",
-        "lastFetch": "2026-11-11T05:56:18.806174+00:00",
+        "lastFetch": "2026-11-11T13:59:52.315609+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3002,7 +2978,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.radiomia.com.ar/",
-        "lastFetch": "2026-11-11T05:56:19.951442+00:00",
+        "lastFetch": "2026-11-11T13:59:53.416933+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -3017,7 +2993,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://tuitvacamuerta.com/",
-        "lastFetch": "2026-11-11T05:56:21.622208+00:00",
+        "lastFetch": "2026-11-11T13:59:54.989159+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -3032,7 +3008,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.vacamuertanews.com/",
-        "lastFetch": "2026-11-11T05:56:22.112321+00:00",
+        "lastFetch": "2026-11-11T13:59:55.288817+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3048,7 +3024,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.neuqueninforma.gob.ar/",
-        "lastFetch": "2026-11-11T05:56:23.683755+00:00",
+        "lastFetch": "2026-11-11T13:59:56.553892+00:00",
         "success": false,
         "attempted": 3,
         "failures": [
@@ -3065,7 +3041,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://sanpatricio.gob.ar/",
-        "lastFetch": "2026-11-11T05:56:24.732359+00:00",
+        "lastFetch": "2026-11-11T13:59:57.518092+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -3080,7 +3056,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://boletinoficial.neuquen.gov.ar/",
-        "lastFetch": "2026-11-11T05:56:25.787805+00:00",
+        "lastFetch": "2026-11-11T13:59:58.483363+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -3095,7 +3071,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.lmneuquen.com/",
-        "lastFetch": "2026-11-11T05:56:26.078969+00:00",
+        "lastFetch": "2026-11-11T13:59:58.678322+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3108,17 +3084,17 @@
       {
         "name": "Diario Río Negro",
         "type": "MEDIO REGIONAL",
-        "mode": "RSS DIRECTO",
-        "signals": 1,
+        "mode": "SIN RESPUESTA",
+        "signals": 0,
         "url": "https://www.rionegro.com.ar/",
-        "lastFetch": "2026-11-11T05:56:27.611751+00:00",
+        "lastFetch": "2026-11-11T14:00:00.790053+00:00",
         "success": true,
         "attempted": 2,
         "failures": [
           "WEB:AttributeError"
         ],
         "directAvailability": "available",
-        "freshnessHours": 7.0
+        "freshnessHours": null
       },
       {
         "name": "Mejor Informado",
@@ -3126,7 +3102,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.mejorinformado.com/",
-        "lastFetch": "2026-11-11T05:56:28.336978+00:00",
+        "lastFetch": "2026-11-11T14:00:01.484236+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3142,7 +3118,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.diariamenteneuquen.com/",
-        "lastFetch": "2026-11-11T05:56:29.432540+00:00",
+        "lastFetch": "2026-11-11T14:00:02.134627+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3160,11 +3136,169 @@
   },
   "events": [
     {
-      "eventId": "CHA-e2161937d456",
-      "title": "Neuquén lanzó un desarrollo urbanístico con 3.200 lotes junto al Parque Industrial Capital: hasta cuándo hay tiempo para anotarse",
-      "publishedAt": "2026-11-10T22:57:13+00:00",
-      "firstSeen": "2026-11-10T23:57:52.200389+00:00",
-      "lastSeen": "2026-11-10T22:57:13+00:00",
+      "eventId": "CHA-d5b38a117a1f",
+      "title": "Con 41 binomios cerró la inscripción del Rally de San Patricio del Chañar - MejorInformado.com",
+      "publishedAt": "2026-11-11T01:25:56+00:00",
+      "firstSeen": "2026-11-10T18:33:33.196562+00:00",
+      "lastSeen": "2026-11-11T01:25:56+00:00",
+      "relevance": 3,
+      "relevanceLabel": "DIRECTA",
+      "incidenceLabel": "DIRECTA EN CHANAR",
+      "topic": "SERVICIOS",
+      "movement": 73,
+      "coverage": 5,
+      "sourceCount": 3,
+      "directSourceCount": 0,
+      "territorialAnchors": [
+        "san patricio del chañar",
+        "el chañar"
+      ],
+      "sources": [
+        "MejorInformado.com",
+        "NoticiasNQN",
+        "Chañar Digital"
+      ],
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOTnpRT1BqZ3MxSGhLNDNUTktKcFZJamRxZ0xGZG9EZTN0N1pTMDdIbHFNVktrNmFDN21iT3FqeGhJUmVOU0szeXFYdElEZmJGNy1IZnlaMjZZMUluY0lyczdCaHVuanE3aHBQN3U0cG9FYzNQLUYyaWFnSWlvbmh4NnQ2Q0lkTmlyZFhxQS1vcHU5NC1qeklqUml2MzdXSE5NekRzbE9mUHhqUdIBqgFBVV95cUxOTnpRT1BqZ3MxSGhLNDNUTktKcFZJamRxZ0xGZG9EZTN0N1pTMDdIbHFNVktrNmFDN21iT3FqeGhJUmVOU0szeXFYdElEZmJGNy1IZnlaMjZZMUluY0lyczdCaHVuanE3aHBQN3U0cG9FYzNQLUYyaWFnSWlvbmh4NnQ2Q0lkTmlyZFhxQS1vcHU5NC1qeklqUml2MzdXSE5NekRzbE9mUHhqUQ?oc=5",
+      "items": [
+        {
+          "title": "Con 41 binomios cerró la inscripción del Rally de San Patricio del Chañar - MejorInformado.com",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOTnpRT1BqZ3MxSGhLNDNUTktKcFZJamRxZ0xGZG9EZTN0N1pTMDdIbHFNVktrNmFDN21iT3FqeGhJUmVOU0szeXFYdElEZmJGNy1IZnlaMjZZMUluY0lyczdCaHVuanE3aHBQN3U0cG9FYzNQLUYyaWFnSWlvbmh4NnQ2Q0lkTmlyZFhxQS1vcHU5NC1qeklqUml2MzdXSE5NekRzbE9mUHhqUdIBqgFBVV95cUxOTnpRT1BqZ3MxSGhLNDNUTktKcFZJamRxZ0xGZG9EZTN0N1pTMDdIbHFNVktrNmFDN21iT3FqeGhJUmVOU0szeXFYdElEZmJGNy1IZnlaMjZZMUluY0lyczdCaHVuanE3aHBQN3U0cG9FYzNQLUYyaWFnSWlvbmh4NnQ2Q0lkTmlyZFhxQS1vcHU5NC1qeklqUml2MzdXSE5NekRzbE9mUHhqUQ?oc=5",
+          "publishedAt": "2026-11-11T01:25:56+00:00",
+          "published": "2026-11-11T01:25:56+00:00",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxOTnpRT1BqZ3MxSGhLNDNUTktKcFZJamRxZ0xGZG9EZTN0N1pTMDdIbHFNVktrNmFDN21iT3FqeGhJUmVOU0szeXFYdElEZmJGNy1IZnlaMjZZMUluY0lyczdCaHVuanE3aHBQN3U0cG9FYzNQLUYyaWFnSWlvbmh4NnQ2Q0lkTmlyZFhxQS1vcHU5NC1qeklqUml2MzdXSE5NekRzbE9mUHhqUdIBqgFBVV95cUxOTnpRT1BqZ3MxSGhLNDNUTktKcFZJamRxZ0xGZG9EZTN0N1pTMDdIbHFNVktrNmFDN21iT3FqeGhJUmVOU0szeXFYdElEZmJGNy1IZnlaMjZZMUluY0lyczdCaHVuanE3aHBQN3U0cG9FYzNQLUYyaWFnSWlvbmh4NnQ2Q0lkTmlyZFhxQS1vcHU5NC1qeklqUml2MzdXSE5NekRzbE9mUHhqUQ?oc=5\" target=\"_blank\">Con 41 binomios cerró la inscripción del Rally de San Patricio del Chañar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MejorInformado.com</font>",
+          "source": "MejorInformado.com",
+          "sourceType": "BUSCADOR / RESPALDO",
+          "sourceUrl": "",
+          "collection": "BUSCADOR",
+          "query": "\"San Patricio del Chañar\"",
+          "relevance": 3,
+          "relevanceLabel": "DIRECTA",
+          "firstSeen": "2026-11-11T14:00:15.972541+00:00",
+          "isNew": true,
+          "titleKey": "binomios cerro inscripcion rally mejorinformado com",
+          "evidenceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOTnpRT1BqZ3MxSGhLNDNUTktKcFZJamRxZ0xGZG9EZTN0N1pTMDdIbHFNVktrNmFDN21iT3FqeGhJUmVOU0szeXFYdElEZmJGNy1IZnlaMjZZMUluY0lyczdCaHVuanE3aHBQN3U0cG9FYzNQLUYyaWFnSWlvbmh4NnQ2Q0lkTmlyZFhxQS1vcHU5NC1qeklqUml2MzdXSE5NekRzbE9mUHhqUdIBqgFBVV95cUxOTnpRT1BqZ3MxSGhLNDNUTktKcFZJamRxZ0xGZG9EZTN0N1pTMDdIbHFNVktrNmFDN21iT3FqeGhJUmVOU0szeXFYdElEZmJGNy1IZnlaMjZZMUluY0lyczdCaHVuanE3aHBQN3U0cG9FYzNQLUYyaWFnSWlvbmh4NnQ2Q0lkTmlyZFhxQS1vcHU5NC1qeklqUml2MzdXSE5NekRzbE9mUHhqUQ?oc=5",
+          "sourcePriority": 3
+        },
+        {
+          "title": "San Patricio del Chañar será sede de una nueva fecha del Rally Neuquino - NoticiasNQN",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNk9jdGxwSEQ4TmxiLURmcHlSemtkNnp5R3NySHV3MWpCNXVRS09nYnlidmFGRnp2VzkxRk5nTVJVWi14VWl0Q05LRURuM2JkMXE4WFRyaWNURnh4WTNqaEZKNFV3SmhVTFBwVW5neUplRnVKTTM0a0h5c3ZXWEJqRXFyOUVUTE5UeEJvcDJHeWVYeHI2dmF0T3pxSmdvR0NuaXZCZkV5NEFPRG9jVnhmQmVXNUJIT01TU3VLYzBnRndvRkRFbzlZdNIBzgFBVV95cUxQQU5oSnZGRHF2R1NZUUpzM2h3ZFRTcmlSZldzQi1Nc3d0N3pCcXFzMlU0YjQzZ1BCT2xLVjQ4TzN2ZkhpR1ZJcC1ieFZZNzAtQThGaFVJSlhaeWd3NE9GaFZoM2doSV85eW91S19KMG5vbGhNbVBOdURfYkJ5TjJYbUxseHhqV1ZTZXlQMjlfREkxOEJ0cDNQYnYwV2RkMGlsU3RIWEZkZjNhRDh5YWh1LWFzd0xqYzhuMHdvVGhGMEZRYU5mQmVOUzVHYmJnZw?oc=5",
+          "publishedAt": "2026-11-10T12:22:36+00:00",
+          "published": "2026-11-10T12:22:36+00:00",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNk9jdGxwSEQ4TmxiLURmcHlSemtkNnp5R3NySHV3MWpCNXVRS09nYnlidmFGRnp2VzkxRk5nTVJVWi14VWl0Q05LRURuM2JkMXE4WFRyaWNURnh4WTNqaEZKNFV3SmhVTFBwVW5neUplRnVKTTM0a0h5c3ZXWEJqRXFyOUVUTE5UeEJvcDJHeWVYeHI2dmF0T3pxSmdvR0NuaXZCZkV5NEFPRG9jVnhmQmVXNUJIT01TU3VLYzBnRndvRkRFbzlZdNIBzgFBVV95cUxQQU5oSnZGRHF2R1NZUUpzM2h3ZFRTcmlSZldzQi1Nc3d0N3pCcXFzMlU0YjQzZ1BCT2xLVjQ4TzN2ZkhpR1ZJcC1ieFZZNzAtQThGaFVJSlhaeWd3NE9GaFZoM2doSV85eW91S19KMG5vbGhNbVBOdURfYkJ5TjJYbUxseHhqV1ZTZXlQMjlfREkxOEJ0cDNQYnYwV2RkMGlsU3RIWEZkZjNhRDh5YWh1LWFzd0xqYzhuMHdvVGhGMEZRYU5mQmVOUzVHYmJnZw?oc=5\" target=\"_blank\">San Patricio del Chañar será sede de una nueva fecha del Rally Neuquino</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NoticiasNQN</font>",
+          "source": "NoticiasNQN",
+          "sourceType": "BUSCADOR / RESPALDO",
+          "sourceUrl": "",
+          "collection": "BUSCADOR",
+          "query": "\"San Patricio del Chañar\"",
+          "relevance": 3,
+          "relevanceLabel": "DIRECTA",
+          "firstSeen": "2026-11-10T18:33:33.196562+00:00",
+          "isNew": false,
+          "titleKey": "sera sede nueva fecha rally neuquino noticiasnqn",
+          "evidenceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNk9jdGxwSEQ4TmxiLURmcHlSemtkNnp5R3NySHV3MWpCNXVRS09nYnlidmFGRnp2VzkxRk5nTVJVWi14VWl0Q05LRURuM2JkMXE4WFRyaWNURnh4WTNqaEZKNFV3SmhVTFBwVW5neUplRnVKTTM0a0h5c3ZXWEJqRXFyOUVUTE5UeEJvcDJHeWVYeHI2dmF0T3pxSmdvR0NuaXZCZkV5NEFPRG9jVnhmQmVXNUJIT01TU3VLYzBnRndvRkRFbzlZdNIBzgFBVV95cUxQQU5oSnZGRHF2R1NZUUpzM2h3ZFRTcmlSZldzQi1Nc3d0N3pCcXFzMlU0YjQzZ1BCT2xLVjQ4TzN2ZkhpR1ZJcC1ieFZZNzAtQThGaFVJSlhaeWd3NE9GaFZoM2doSV85eW91S19KMG5vbGhNbVBOdURfYkJ5TjJYbUxseHhqV1ZTZXlQMjlfREkxOEJ0cDNQYnYwV2RkMGlsU3RIWEZkZjNhRDh5YWh1LWFzd0xqYzhuMHdvVGhGMEZRYU5mQmVOUzVHYmJnZw?oc=5",
+          "sourcePriority": 3
+        },
+        {
+          "title": "San Patricio del Chañar será sede de una nueva fecha del Rally Neuquino - NoticiasNQN",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNk9jdGxwSEQ4TmxiLURmcHlSemtkNnp5R3NySHV3MWpCNXVRS09nYnlidmFGRnp2VzkxRk5nTVJVWi14VWl0Q05LRURuM2JkMXE4WFRyaWNURnh4WTNqaEZKNFV3SmhVTFBwVW5neUplRnVKTTM0a0h5c3ZXWEJqRXFyOUVUTE5UeEJvcDJHeWVYeHI2dmF0T3pxSmdvR0NuaXZCZkV5NEFPRG9jVnhmQmVXNUJIT01TU3VLYzBnRndvRkRFbzlZdNIBzgFBVV95cUxQQU5oSnZGRHF2R1NZUUpzM2h3ZFRTcmlSZldzQi1Nc3d0N3pCcXFzMlU0YjQzZ1BCT2xLVjQ4TzN2ZkhpR1ZJcC1ieFZZNzAtQThGaFVJSlhaeWd3NE9GaFZoM2doSV85eW91S19KMG5vbGhNbVBOdURfYkJ5TjJYbUxseHhqV1ZTZXlQMjlfREkxOEJ0cDNQYnYwV2RkMGlsU3RIWEZkZjNhRDh5YWh1LWFzd0xqYzhuMHdvVGhGMEZRYU5mQmVOUzVHYmJnZw?oc=5",
+          "publishedAt": "2026-11-10T12:22:36+00:00",
+          "published": "2026-11-10T12:22:36+00:00",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNk9jdGxwSEQ4TmxiLURmcHlSemtkNnp5R3NySHV3MWpCNXVRS09nYnlidmFGRnp2VzkxRk5nTVJVWi14VWl0Q05LRURuM2JkMXE4WFRyaWNURnh4WTNqaEZKNFV3SmhVTFBwVW5neUplRnVKTTM0a0h5c3ZXWEJqRXFyOUVUTE5UeEJvcDJHeWVYeHI2dmF0T3pxSmdvR0NuaXZCZkV5NEFPRG9jVnhmQmVXNUJIT01TU3VLYzBnRndvRkRFbzlZdNIBzgFBVV95cUxQQU5oSnZGRHF2R1NZUUpzM2h3ZFRTcmlSZldzQi1Nc3d0N3pCcXFzMlU0YjQzZ1BCT2xLVjQ4TzN2ZkhpR1ZJcC1ieFZZNzAtQThGaFVJSlhaeWd3NE9GaFZoM2doSV85eW91S19KMG5vbGhNbVBOdURfYkJ5TjJYbUxseHhqV1ZTZXlQMjlfREkxOEJ0cDNQYnYwV2RkMGlsU3RIWEZkZjNhRDh5YWh1LWFzd0xqYzhuMHdvVGhGMEZRYU5mQmVOUzVHYmJnZw?oc=5\" target=\"_blank\">San Patricio del Chañar será sede de una nueva fecha del Rally Neuquino</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NoticiasNQN</font>",
+          "source": "NoticiasNQN",
+          "sourceType": "BUSCADOR / RESPALDO",
+          "sourceUrl": "",
+          "collection": "BUSCADOR",
+          "query": "\"San Patricio del Chañar\"",
+          "relevance": 3,
+          "relevanceLabel": "DIRECTA",
+          "firstSeen": "2026-11-10T18:33:33.196562+00:00",
+          "isNew": false,
+          "titleKey": "sera sede nueva fecha rally neuquino noticiasnqn",
+          "evidenceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNk9jdGxwSEQ4TmxiLURmcHlSemtkNnp5R3NySHV3MWpCNXVRS09nYnlidmFGRnp2VzkxRk5nTVJVWi14VWl0Q05LRURuM2JkMXE4WFRyaWNURnh4WTNqaEZKNFV3SmhVTFBwVW5neUplRnVKTTM0a0h5c3ZXWEJqRXFyOUVUTE5UeEJvcDJHeWVYeHI2dmF0T3pxSmdvR0NuaXZCZkV5NEFPRG9jVnhmQmVXNUJIT01TU3VLYzBnRndvRkRFbzlZdNIBzgFBVV95cUxQQU5oSnZGRHF2R1NZUUpzM2h3ZFRTcmlSZldzQi1Nc3d0N3pCcXFzMlU0YjQzZ1BCT2xLVjQ4TzN2ZkhpR1ZJcC1ieFZZNzAtQThGaFVJSlhaeWd3NE9GaFZoM2doSV85eW91S19KMG5vbGhNbVBOdURfYkJ5TjJYbUxseHhqV1ZTZXlQMjlfREkxOEJ0cDNQYnYwV2RkMGlsU3RIWEZkZjNhRDh5YWh1LWFzd0xqYzhuMHdvVGhGMEZRYU5mQmVOUzVHYmJnZw?oc=5",
+          "sourcePriority": 3
+        },
+        {
+          "title": "Una delegación de San Patricio del Chañar viajó a Luján para participar de la misa del papa León XIV - Chañar Digital",
+          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOSjN0RGhmVlgzeWVPVGY4ZWthU3VybE81UXNGLVhvV0JoN1poNnZERjBLczBjRFJEM1R4UFpYM2hUdTI1UzZPdjVjdU51Sy1tT2hsNVctd2ZNUVpXamx1UnBXSm5wYVFFSFFqMXoxNUZCNDgtcDk3MTNUeEZ2dTExSlF1MjRGa3BLcmdhQUFvWEY2OU9ySXNkWGNUeE5rMWhNcE90eFFLSE5PT3hCVE1kejhKSFpMVjhDY3pHbkV4cUw3WEpkejNsOW5BQXdpaWZmZmVRWnYtYmVscUktWGdvSElmUzJ5ZnYwdUE?oc=5",
+          "publishedAt": "2026-11-09T22:04:22+00:00",
+          "published": "2026-11-09T22:04:22+00:00",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMi6gFBVV95cUxOSjN0RGhmVlgzeWVPVGY4ZWthU3VybE81UXNGLVhvV0JoN1poNnZERjBLczBjRFJEM1R4UFpYM2hUdTI1UzZPdjVjdU51Sy1tT2hsNVctd2ZNUVpXamx1UnBXSm5wYVFFSFFqMXoxNUZCNDgtcDk3MTNUeEZ2dTExSlF1MjRGa3BLcmdhQUFvWEY2OU9ySXNkWGNUeE5rMWhNcE90eFFLSE5PT3hCVE1kejhKSFpMVjhDY3pHbkV4cUw3WEpkejNsOW5BQXdpaWZmZmVRWnYtYmVscUktWGdvSElmUzJ5ZnYwdUE?oc=5\" target=\"_blank\">Una delegación de San Patricio del Chañar viajó a Luján para participar de la misa del papa León XIV</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Chañar Digital</font>",
+          "source": "Chañar Digital",
+          "sourceType": "BUSCADOR / RESPALDO",
+          "sourceUrl": "",
+          "collection": "BUSCADOR",
+          "query": "site:chanardigital.com.ar \"San Patricio del Chañar\"",
+          "relevance": 3,
+          "relevanceLabel": "DIRECTA",
+          "firstSeen": "2026-11-10T02:40:25.397970+00:00",
+          "isNew": false,
+          "titleKey": "delegacion viajo lujan participar misa papa leon xiv digital",
+          "evidenceUrl": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOSjN0RGhmVlgzeWVPVGY4ZWthU3VybE81UXNGLVhvV0JoN1poNnZERjBLczBjRFJEM1R4UFpYM2hUdTI1UzZPdjVjdU51Sy1tT2hsNVctd2ZNUVpXamx1UnBXSm5wYVFFSFFqMXoxNUZCNDgtcDk3MTNUeEZ2dTExSlF1MjRGa3BLcmdhQUFvWEY2OU9ySXNkWGNUeE5rMWhNcE90eFFLSE5PT3hCVE1kejhKSFpMVjhDY3pHbkV4cUw3WEpkejNsOW5BQXdpaWZmZmVRWnYtYmVscUktWGdvSElmUzJ5ZnYwdUE?oc=5",
+          "sourcePriority": 3
+        },
+        {
+          "title": "Una delegación de San Patricio del Chañar viajó a Luján para participar de la misa del papa León XIV - Chañar Digital",
+          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOSjN0RGhmVlgzeWVPVGY4ZWthU3VybE81UXNGLVhvV0JoN1poNnZERjBLczBjRFJEM1R4UFpYM2hUdTI1UzZPdjVjdU51Sy1tT2hsNVctd2ZNUVpXamx1UnBXSm5wYVFFSFFqMXoxNUZCNDgtcDk3MTNUeEZ2dTExSlF1MjRGa3BLcmdhQUFvWEY2OU9ySXNkWGNUeE5rMWhNcE90eFFLSE5PT3hCVE1kejhKSFpMVjhDY3pHbkV4cUw3WEpkejNsOW5BQXdpaWZmZmVRWnYtYmVscUktWGdvSElmUzJ5ZnYwdUE?oc=5",
+          "publishedAt": "2026-11-09T22:04:22+00:00",
+          "published": "2026-11-09T22:04:22+00:00",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMi6gFBVV95cUxOSjN0RGhmVlgzeWVPVGY4ZWthU3VybE81UXNGLVhvV0JoN1poNnZERjBLczBjRFJEM1R4UFpYM2hUdTI1UzZPdjVjdU51Sy1tT2hsNVctd2ZNUVpXamx1UnBXSm5wYVFFSFFqMXoxNUZCNDgtcDk3MTNUeEZ2dTExSlF1MjRGa3BLcmdhQUFvWEY2OU9ySXNkWGNUeE5rMWhNcE90eFFLSE5PT3hCVE1kejhKSFpMVjhDY3pHbkV4cUw3WEpkejNsOW5BQXdpaWZmZmVRWnYtYmVscUktWGdvSElmUzJ5ZnYwdUE?oc=5\" target=\"_blank\">Una delegación de San Patricio del Chañar viajó a Luján para participar de la misa del papa León XIV</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Chañar Digital</font>",
+          "source": "Chañar Digital",
+          "sourceType": "BUSCADOR / RESPALDO",
+          "sourceUrl": "",
+          "collection": "BUSCADOR",
+          "query": "site:chanardigital.com.ar \"San Patricio del Chañar\"",
+          "relevance": 3,
+          "relevanceLabel": "DIRECTA",
+          "firstSeen": "2026-11-10T02:40:25.397970+00:00",
+          "isNew": false,
+          "titleKey": "delegacion viajo lujan participar misa papa leon xiv digital",
+          "evidenceUrl": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOSjN0RGhmVlgzeWVPVGY4ZWthU3VybE81UXNGLVhvV0JoN1poNnZERjBLczBjRFJEM1R4UFpYM2hUdTI1UzZPdjVjdU51Sy1tT2hsNVctd2ZNUVpXamx1UnBXSm5wYVFFSFFqMXoxNUZCNDgtcDk3MTNUeEZ2dTExSlF1MjRGa3BLcmdhQUFvWEY2OU9ySXNkWGNUeE5rMWhNcE90eFFLSE5PT3hCVE1kejhKSFpMVjhDY3pHbkV4cUw3WEpkejNsOW5BQXdpaWZmZmVRWnYtYmVscUktWGdvSElmUzJ5ZnYwdUE?oc=5",
+          "sourcePriority": 3
+        }
+      ],
+      "lifecycle": "EMERGENTE",
+      "movementDelta": 41,
+      "previousCoverage": 5,
+      "newSources": [
+        "NoticiasNQN"
+      ],
+      "sourceDiversity": 3,
+      "memoryMatched": true,
+      "isNew": false,
+      "view": "INCIDENCIA",
+      "incidenceEligible": true,
+      "signalReason": "reservado a incidencia territorial",
+      "incidenceReason": "anclaje directo + tema operativo/local",
+      "territory": {
+        "version": "2.0",
+        "primary": "San Patricio del Chañar",
+        "nodes": [
+          "San Patricio del Chañar"
+        ],
+        "sectors": [],
+        "barrios": [],
+        "microzones": [],
+        "corridors": [],
+        "institutions": [],
+        "services": [],
+        "spaces": [],
+        "production": [],
+        "path": "San Patricio del Chañar",
+        "evidence": [
+          {
+            "node": "San Patricio del Chañar",
+            "level": "localidad",
+            "evidence": "DIRECTA"
+          }
+        ]
+      }
+    },
+    {
+      "eventId": "CHA-6da81d99e91d",
+      "title": "Más de 100 familias de Campo Grande reclaman avances en el Loteo Social Burgos - Chañar Digital",
+      "publishedAt": "2026-11-11T06:01:49+00:00",
+      "firstSeen": "2026-11-11T14:00:15.972541+00:00",
+      "lastSeen": "2026-11-11T06:01:49+00:00",
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
@@ -3172,38 +3306,38 @@
       "movement": 59,
       "coverage": 1,
       "sourceCount": 1,
-      "directSourceCount": 1,
+      "directSourceCount": 0,
       "territorialAnchors": [
-        "parque industrial"
+        "loteo social"
       ],
       "sources": [
-        "Diario Río Negro"
+        "Chañar Digital"
       ],
-      "evidenceUrl": "https://www.rionegro.com.ar/politica/neuquen-lanzo-un-desarrollo-urbanistico-con-3-200-lotes-junto-al-parque-industrial-capital-hasta-cuando-hay-tiempo-para-anotarse-4793214/",
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOcDdRTW1JZHRsSUh1Q1JhZkhkWnVsbkJjMVpJdmlXWTBKNDlSRUhNMUtsRjlfMzBpLURIX1Z4WTJ5SEpuNU9YX3hDcWgtOGdZMVRLMkd6YS1HaUl4aVFaVmF0d0dzdGZNREdkZkJTdEFhSmYxWjllUVdYdTh6TDdlWjFpVUoxWHU1bE4xaXRXUXo5SjVHSFNOUlBTSDg1UHhoSDduY2NldkJscXZMcEZTeVpLY2w0aUx2cG5UcklLWjQzT2NnUVBadEZFV2k?oc=5",
       "items": [
         {
-          "title": "Neuquén lanzó un desarrollo urbanístico con 3.200 lotes junto al Parque Industrial Capital: hasta cuándo hay tiempo para anotarse",
-          "url": "https://www.rionegro.com.ar/politica/neuquen-lanzo-un-desarrollo-urbanistico-con-3-200-lotes-junto-al-parque-industrial-capital-hasta-cuando-hay-tiempo-para-anotarse-4793214/",
-          "publishedAt": "2026-11-10T22:57:13+00:00",
-          "published": "2026-11-10T22:57:13+00:00",
-          "description": "",
-          "source": "Diario Río Negro",
-          "sourceType": "MEDIO REGIONAL",
-          "sourceUrl": "https://www.rionegro.com.ar/",
-          "collection": "DIRECTA",
-          "query": "https://www.rionegro.com.ar/feed/",
+          "title": "Más de 100 familias de Campo Grande reclaman avances en el Loteo Social Burgos - Chañar Digital",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOcDdRTW1JZHRsSUh1Q1JhZkhkWnVsbkJjMVpJdmlXWTBKNDlSRUhNMUtsRjlfMzBpLURIX1Z4WTJ5SEpuNU9YX3hDcWgtOGdZMVRLMkd6YS1HaUl4aVFaVmF0d0dzdGZNREdkZkJTdEFhSmYxWjllUVdYdTh6TDdlWjFpVUoxWHU1bE4xaXRXUXo5SjVHSFNOUlBTSDg1UHhoSDduY2NldkJscXZMcEZTeVpLY2w0aUx2cG5UcklLWjQzT2NnUVBadEZFV2k?oc=5",
+          "publishedAt": "2026-11-11T06:01:49+00:00",
+          "published": "2026-11-11T06:01:49+00:00",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMizAFBVV95cUxOcDdRTW1JZHRsSUh1Q1JhZkhkWnVsbkJjMVpJdmlXWTBKNDlSRUhNMUtsRjlfMzBpLURIX1Z4WTJ5SEpuNU9YX3hDcWgtOGdZMVRLMkd6YS1HaUl4aVFaVmF0d0dzdGZNREdkZkJTdEFhSmYxWjllUVdYdTh6TDdlWjFpVUoxWHU1bE4xaXRXUXo5SjVHSFNOUlBTSDg1UHhoSDduY2NldkJscXZMcEZTeVpLY2w0aUx2cG5UcklLWjQzT2NnUVBadEZFV2k?oc=5\" target=\"_blank\">Más de 100 familias de Campo Grande reclaman avances en el Loteo Social Burgos</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Chañar Digital</font>",
+          "source": "Chañar Digital",
+          "sourceType": "BUSCADOR / RESPALDO",
+          "sourceUrl": "",
+          "collection": "BUSCADOR",
+          "query": "site:chanardigital.com.ar \"San Patricio del Chañar\"",
           "relevance": 3,
           "relevanceLabel": "DIRECTA",
-          "firstSeen": "2026-11-10T23:57:52.200389+00:00",
-          "isNew": false,
-          "titleKey": "lanzo desarrollo urbanistico 200 lotes junto parque industrial capital hasta cuando hay tiempo anotarse",
-          "evidenceUrl": "https://www.rionegro.com.ar/politica/neuquen-lanzo-un-desarrollo-urbanistico-con-3-200-lotes-junto-al-parque-industrial-capital-hasta-cuando-hay-tiempo-para-anotarse-4793214/",
-          "sourcePriority": 2
+          "firstSeen": "2026-11-11T14:00:15.972541+00:00",
+          "isNew": true,
+          "titleKey": "mas 100 familias campo grande reclaman avances loteo social burgos digital",
+          "evidenceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOcDdRTW1JZHRsSUh1Q1JhZkhkWnVsbkJjMVpJdmlXWTBKNDlSRUhNMUtsRjlfMzBpLURIX1Z4WTJ5SEpuNU9YX3hDcWgtOGdZMVRLMkd6YS1HaUl4aVFaVmF0d0dzdGZNREdkZkJTdEFhSmYxWjllUVdYdTh6TDdlWjFpVUoxWHU1bE4xaXRXUXo5SjVHSFNOUlBTSDg1UHhoSDduY2NldkJscXZMcEZTeVpLY2w0aUx2cG5UcklLWjQzT2NnUVBadEZFV2k?oc=5",
+          "sourcePriority": 3
         }
       ],
       "lifecycle": "EMERGENTE",
-      "movementDelta": -2,
-      "previousCoverage": 1,
+      "movementDelta": 4,
+      "previousCoverage": 9,
       "newSources": [],
       "sourceDiversity": 1,
       "memoryMatched": true,
@@ -3217,10 +3351,10 @@
         "primary": "San Patricio del Chañar",
         "nodes": [
           "San Patricio del Chañar",
-          "Parque Industrial"
+          "Loteo Social"
         ],
         "sectors": [
-          "Parque Industrial"
+          "Loteo Social"
         ],
         "barrios": [],
         "microzones": [],
@@ -3229,7 +3363,7 @@
         "services": [],
         "spaces": [],
         "production": [],
-        "path": "San Patricio del Chañar → Parque Industrial",
+        "path": "San Patricio del Chañar → Loteo Social",
         "evidence": [
           {
             "node": "San Patricio del Chañar",
@@ -3237,7 +3371,7 @@
             "evidence": "DIRECTA"
           },
           {
-            "node": "Parque Industrial",
+            "node": "Loteo Social",
             "level": "sector",
             "evidence": "TEXTUAL"
           }
@@ -3254,7 +3388,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "MOVILIDAD",
-      "movement": 59,
+      "movement": 57,
       "coverage": 2,
       "sourceCount": 2,
       "directSourceCount": 0,
@@ -3352,152 +3486,33 @@
       }
     },
     {
-      "eventId": "CHA-e1ef239520a3",
-      "title": "San Patricio del Chañar será sede de una nueva fecha del Rally Neuquino - NoticiasNQN",
-      "publishedAt": "2026-11-10T12:22:36+00:00",
-      "firstSeen": "2026-11-10T18:33:33.196562+00:00",
-      "lastSeen": "2026-11-10T12:22:36+00:00",
-      "relevance": 3,
-      "relevanceLabel": "DIRECTA",
-      "incidenceLabel": "DIRECTA EN CHANAR",
-      "topic": "SERVICIOS",
-      "movement": 56,
-      "coverage": 2,
-      "sourceCount": 2,
-      "directSourceCount": 0,
-      "territorialAnchors": [
-        "san patricio del chañar",
-        "el chañar"
-      ],
-      "sources": [
-        "NoticiasNQN",
-        "Chañar Digital"
-      ],
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNk9jdGxwSEQ4TmxiLURmcHlSemtkNnp5R3NySHV3MWpCNXVRS09nYnlidmFGRnp2VzkxRk5nTVJVWi14VWl0Q05LRURuM2JkMXE4WFRyaWNURnh4WTNqaEZKNFV3SmhVTFBwVW5neUplRnVKTTM0a0h5c3ZXWEJqRXFyOUVUTE5UeEJvcDJHeWVYeHI2dmF0T3pxSmdvR0NuaXZCZkV5NEFPRG9jVnhmQmVXNUJIT01TU3VLYzBnRndvRkRFbzlZdNIBzgFBVV95cUxQQU5oSnZGRHF2R1NZUUpzM2h3ZFRTcmlSZldzQi1Nc3d0N3pCcXFzMlU0YjQzZ1BCT2xLVjQ4TzN2ZkhpR1ZJcC1ieFZZNzAtQThGaFVJSlhaeWd3NE9GaFZoM2doSV85eW91S19KMG5vbGhNbVBOdURfYkJ5TjJYbUxseHhqV1ZTZXlQMjlfREkxOEJ0cDNQYnYwV2RkMGlsU3RIWEZkZjNhRDh5YWh1LWFzd0xqYzhuMHdvVGhGMEZRYU5mQmVOUzVHYmJnZw?oc=5",
-      "items": [
-        {
-          "title": "San Patricio del Chañar será sede de una nueva fecha del Rally Neuquino - NoticiasNQN",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNk9jdGxwSEQ4TmxiLURmcHlSemtkNnp5R3NySHV3MWpCNXVRS09nYnlidmFGRnp2VzkxRk5nTVJVWi14VWl0Q05LRURuM2JkMXE4WFRyaWNURnh4WTNqaEZKNFV3SmhVTFBwVW5neUplRnVKTTM0a0h5c3ZXWEJqRXFyOUVUTE5UeEJvcDJHeWVYeHI2dmF0T3pxSmdvR0NuaXZCZkV5NEFPRG9jVnhmQmVXNUJIT01TU3VLYzBnRndvRkRFbzlZdNIBzgFBVV95cUxQQU5oSnZGRHF2R1NZUUpzM2h3ZFRTcmlSZldzQi1Nc3d0N3pCcXFzMlU0YjQzZ1BCT2xLVjQ4TzN2ZkhpR1ZJcC1ieFZZNzAtQThGaFVJSlhaeWd3NE9GaFZoM2doSV85eW91S19KMG5vbGhNbVBOdURfYkJ5TjJYbUxseHhqV1ZTZXlQMjlfREkxOEJ0cDNQYnYwV2RkMGlsU3RIWEZkZjNhRDh5YWh1LWFzd0xqYzhuMHdvVGhGMEZRYU5mQmVOUzVHYmJnZw?oc=5",
-          "publishedAt": "2026-11-10T12:22:36+00:00",
-          "published": "2026-11-10T12:22:36+00:00",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNk9jdGxwSEQ4TmxiLURmcHlSemtkNnp5R3NySHV3MWpCNXVRS09nYnlidmFGRnp2VzkxRk5nTVJVWi14VWl0Q05LRURuM2JkMXE4WFRyaWNURnh4WTNqaEZKNFV3SmhVTFBwVW5neUplRnVKTTM0a0h5c3ZXWEJqRXFyOUVUTE5UeEJvcDJHeWVYeHI2dmF0T3pxSmdvR0NuaXZCZkV5NEFPRG9jVnhmQmVXNUJIT01TU3VLYzBnRndvRkRFbzlZdNIBzgFBVV95cUxQQU5oSnZGRHF2R1NZUUpzM2h3ZFRTcmlSZldzQi1Nc3d0N3pCcXFzMlU0YjQzZ1BCT2xLVjQ4TzN2ZkhpR1ZJcC1ieFZZNzAtQThGaFVJSlhaeWd3NE9GaFZoM2doSV85eW91S19KMG5vbGhNbVBOdURfYkJ5TjJYbUxseHhqV1ZTZXlQMjlfREkxOEJ0cDNQYnYwV2RkMGlsU3RIWEZkZjNhRDh5YWh1LWFzd0xqYzhuMHdvVGhGMEZRYU5mQmVOUzVHYmJnZw?oc=5\" target=\"_blank\">San Patricio del Chañar será sede de una nueva fecha del Rally Neuquino</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NoticiasNQN</font>",
-          "source": "NoticiasNQN",
-          "sourceType": "BUSCADOR / RESPALDO",
-          "sourceUrl": "",
-          "collection": "BUSCADOR",
-          "query": "\"San Patricio del Chañar\"",
-          "relevance": 3,
-          "relevanceLabel": "DIRECTA",
-          "firstSeen": "2026-11-10T18:33:33.196562+00:00",
-          "isNew": false,
-          "titleKey": "sera sede nueva fecha rally neuquino noticiasnqn",
-          "evidenceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNk9jdGxwSEQ4TmxiLURmcHlSemtkNnp5R3NySHV3MWpCNXVRS09nYnlidmFGRnp2VzkxRk5nTVJVWi14VWl0Q05LRURuM2JkMXE4WFRyaWNURnh4WTNqaEZKNFV3SmhVTFBwVW5neUplRnVKTTM0a0h5c3ZXWEJqRXFyOUVUTE5UeEJvcDJHeWVYeHI2dmF0T3pxSmdvR0NuaXZCZkV5NEFPRG9jVnhmQmVXNUJIT01TU3VLYzBnRndvRkRFbzlZdNIBzgFBVV95cUxQQU5oSnZGRHF2R1NZUUpzM2h3ZFRTcmlSZldzQi1Nc3d0N3pCcXFzMlU0YjQzZ1BCT2xLVjQ4TzN2ZkhpR1ZJcC1ieFZZNzAtQThGaFVJSlhaeWd3NE9GaFZoM2doSV85eW91S19KMG5vbGhNbVBOdURfYkJ5TjJYbUxseHhqV1ZTZXlQMjlfREkxOEJ0cDNQYnYwV2RkMGlsU3RIWEZkZjNhRDh5YWh1LWFzd0xqYzhuMHdvVGhGMEZRYU5mQmVOUzVHYmJnZw?oc=5",
-          "sourcePriority": 3
-        },
-        {
-          "title": "Una delegación de San Patricio del Chañar viajó a Luján para participar de la misa del papa León XIV - Chañar Digital",
-          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOSjN0RGhmVlgzeWVPVGY4ZWthU3VybE81UXNGLVhvV0JoN1poNnZERjBLczBjRFJEM1R4UFpYM2hUdTI1UzZPdjVjdU51Sy1tT2hsNVctd2ZNUVpXamx1UnBXSm5wYVFFSFFqMXoxNUZCNDgtcDk3MTNUeEZ2dTExSlF1MjRGa3BLcmdhQUFvWEY2OU9ySXNkWGNUeE5rMWhNcE90eFFLSE5PT3hCVE1kejhKSFpMVjhDY3pHbkV4cUw3WEpkejNsOW5BQXdpaWZmZmVRWnYtYmVscUktWGdvSElmUzJ5ZnYwdUE?oc=5",
-          "publishedAt": "2026-11-09T22:04:22+00:00",
-          "published": "2026-11-09T22:04:22+00:00",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMi6gFBVV95cUxOSjN0RGhmVlgzeWVPVGY4ZWthU3VybE81UXNGLVhvV0JoN1poNnZERjBLczBjRFJEM1R4UFpYM2hUdTI1UzZPdjVjdU51Sy1tT2hsNVctd2ZNUVpXamx1UnBXSm5wYVFFSFFqMXoxNUZCNDgtcDk3MTNUeEZ2dTExSlF1MjRGa3BLcmdhQUFvWEY2OU9ySXNkWGNUeE5rMWhNcE90eFFLSE5PT3hCVE1kejhKSFpMVjhDY3pHbkV4cUw3WEpkejNsOW5BQXdpaWZmZmVRWnYtYmVscUktWGdvSElmUzJ5ZnYwdUE?oc=5\" target=\"_blank\">Una delegación de San Patricio del Chañar viajó a Luján para participar de la misa del papa León XIV</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Chañar Digital</font>",
-          "source": "Chañar Digital",
-          "sourceType": "BUSCADOR / RESPALDO",
-          "sourceUrl": "",
-          "collection": "BUSCADOR",
-          "query": "site:chanardigital.com.ar \"San Patricio del Chañar\"",
-          "relevance": 3,
-          "relevanceLabel": "DIRECTA",
-          "firstSeen": "2026-11-10T02:40:25.397970+00:00",
-          "isNew": false,
-          "titleKey": "delegacion viajo lujan participar misa papa leon xiv digital",
-          "evidenceUrl": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOSjN0RGhmVlgzeWVPVGY4ZWthU3VybE81UXNGLVhvV0JoN1poNnZERjBLczBjRFJEM1R4UFpYM2hUdTI1UzZPdjVjdU51Sy1tT2hsNVctd2ZNUVpXamx1UnBXSm5wYVFFSFFqMXoxNUZCNDgtcDk3MTNUeEZ2dTExSlF1MjRGa3BLcmdhQUFvWEY2OU9ySXNkWGNUeE5rMWhNcE90eFFLSE5PT3hCVE1kejhKSFpMVjhDY3pHbkV4cUw3WEpkejNsOW5BQXdpaWZmZmVRWnYtYmVscUktWGdvSElmUzJ5ZnYwdUE?oc=5",
-          "sourcePriority": 3
-        }
-      ],
-      "lifecycle": "EMERGENTE",
-      "movementDelta": -2,
-      "previousCoverage": 2,
-      "newSources": [],
-      "sourceDiversity": 2,
-      "memoryMatched": true,
-      "isNew": false,
-      "view": "INCIDENCIA",
-      "incidenceEligible": true,
-      "signalReason": "reservado a incidencia territorial",
-      "incidenceReason": "anclaje directo + tema operativo/local",
-      "territory": {
-        "version": "2.0",
-        "primary": "San Patricio del Chañar",
-        "nodes": [
-          "San Patricio del Chañar"
-        ],
-        "sectors": [],
-        "barrios": [],
-        "microzones": [],
-        "corridors": [],
-        "institutions": [],
-        "services": [],
-        "spaces": [],
-        "production": [],
-        "path": "San Patricio del Chañar",
-        "evidence": [
-          {
-            "node": "San Patricio del Chañar",
-            "level": "localidad",
-            "evidence": "DIRECTA"
-          }
-        ]
-      }
-    },
-    {
-      "eventId": "CHA-111c9a6edcdd",
-      "title": "San Patricio del Chañar: clausuraron un boliche, aprehendieron a un motociclista y secuestraron tres motos - portadadigital.com.ar",
-      "publishedAt": "2026-11-06T01:28:27+00:00",
+      "eventId": "CHA-859d2329b56b",
+      "title": "Un boliche clausurado, un hombre aprehendido y tres motos secuestradas en San Patricio del Chañar - NoticiasNQN",
+      "publishedAt": "2026-11-02T01:35:53+00:00",
       "firstSeen": "2026-11-09T09:30:09.078627+00:00",
-      "lastSeen": "2026-11-06T01:28:27+00:00",
+      "lastSeen": "2026-11-02T01:35:53+00:00",
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SERVICIOS",
-      "movement": 55,
-      "coverage": 13,
-      "sourceCount": 8,
+      "movement": 48,
+      "coverage": 9,
+      "sourceCount": 6,
       "directSourceCount": 0,
       "territorialAnchors": [
         "san patricio del chañar",
         "el chañar"
       ],
       "sources": [
-        "portadadigital.com.ar",
         "Chañar Digital",
         "Lmneuquen.com",
         "NoticiasNQN",
-        "Minuto Neuquén",
         "Diario Neuquino",
-        "Patagonia Press",
-        "Neuquén al instante"
+        "Minuto Neuquén",
+        "Patagonia Press"
       ],
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQTkVLRGlmZHpUaFJld2xjRmZKeldXR2dYcUR5RVlwTUFWcmcxYmN5cWdIWEZuVU9fdnB5WDVPOS16eXFmbnd0Y2RwVHc3enlxMXhkSnlPNlg0MGdETjNvblBQdE1NTGMzR3RGSEVRcU9GcVl2T2hJeDJsVW05MDJKZ0pKRWtQZ3Q1X1ZTNTBWNnRSOHFNeF96QnM1TWNHdVdNN1oyVlUwWElkVVlIN1ZTcDBzYkJFVHVqWFE3THNxcTQ1Qi1MSW1qWnNXTWo2bFpuclRkcHlpRHlLS2pEQng3OUlKM0JJanl5?oc=5",
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPYURkUlQyQi0yRjJ4REFDV0N1M0h2SjFXMGdTbmRFSWRpUVk5dHdoWi1abHBBZlJPeUMxS3VVbldpZk1YVnRzaUV4YnNia25KSk42X1REOXc2Zlg2QXRDczJXN2I3N25yYV9Vb2pZVTEzaFF0RUVEZ0h5dkczRVpOZVJkYWVRMVQxX1Itd2VQTmVyRWJvRkdGcnYxMGg0cWtUU0NaT3RtMFl3R3RIdkYtR3NMX3BPa1o4Xy1jMWxRYkFuc3M1STVNVDVmUXo0UENCM3h0ZkJnaGZEbFIyR2FfejhoR0swVzVoRlHSAe8BQVVfeXFMTUU2WEE2and1eFFtVXd3RnlQeG5PaVlZTzd6SnhmR3hoVXQ2SUk3S2VocEJpQlJyNGxFUm1fcnNDTGk0S3dqdlpaMkJPc2t0d25rTEMzTVE2Rko2TXBPQWtGd3Z3Sm15Ry02Y2J5d0M4bjVQZ3NkLVFPMlAteHg4QjN5a1Nmai0yaS1zeHdRSGNOOUpCU1hyWmh6dWRyWVNrR3JZYnYyMDVabU1XbWJKcVdBbE1LNkxJZVBFUEx4X1RSd3RMdkZnM0hNNFNmYVUtQ2ZYelJ0aHpQR29SZXctZFBWMThKRDlxcUpicUU3em8?oc=5",
       "items": [
-        {
-          "title": "San Patricio del Chañar: clausuraron un boliche, aprehendieron a un motociclista y secuestraron tres motos - portadadigital.com.ar",
-          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQTkVLRGlmZHpUaFJld2xjRmZKeldXR2dYcUR5RVlwTUFWcmcxYmN5cWdIWEZuVU9fdnB5WDVPOS16eXFmbnd0Y2RwVHc3enlxMXhkSnlPNlg0MGdETjNvblBQdE1NTGMzR3RGSEVRcU9GcVl2T2hJeDJsVW05MDJKZ0pKRWtQZ3Q1X1ZTNTBWNnRSOHFNeF96QnM1TWNHdVdNN1oyVlUwWElkVVlIN1ZTcDBzYkJFVHVqWFE3THNxcTQ1Qi1MSW1qWnNXTWo2bFpuclRkcHlpRHlLS2pEQng3OUlKM0JJanl5?oc=5",
-          "publishedAt": "2026-11-02T11:13:19+00:00",
-          "published": "2026-11-02T11:13:19+00:00",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMi6AFBVV95cUxQTkVLRGlmZHpUaFJld2xjRmZKeldXR2dYcUR5RVlwTUFWcmcxYmN5cWdIWEZuVU9fdnB5WDVPOS16eXFmbnd0Y2RwVHc3enlxMXhkSnlPNlg0MGdETjNvblBQdE1NTGMzR3RGSEVRcU9GcVl2T2hJeDJsVW05MDJKZ0pKRWtQZ3Q1X1ZTNTBWNnRSOHFNeF96QnM1TWNHdVdNN1oyVlUwWElkVVlIN1ZTcDBzYkJFVHVqWFE3THNxcTQ1Qi1MSW1qWnNXTWo2bFpuclRkcHlpRHlLS2pEQng3OUlKM0JJanl5?oc=5\" target=\"_blank\">San Patricio del Chañar: clausuraron un boliche, aprehendieron a un motociclista y secuestraron tres motos</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">portadadigital.com.ar</font>",
-          "source": "portadadigital.com.ar",
-          "sourceType": "BUSCADOR / RESPALDO",
-          "sourceUrl": "",
-          "collection": "BUSCADOR",
-          "query": "\"San Patricio del Chañar\"",
-          "relevance": 3,
-          "relevanceLabel": "DIRECTA",
-          "firstSeen": "2026-11-09T09:30:09.078627+00:00",
-          "isNew": false,
-          "titleKey": "clausuraron boliche aprehendieron motociclista secuestraron tres motos portadadigital com",
-          "evidenceUrl": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQTkVLRGlmZHpUaFJld2xjRmZKeldXR2dYcUR5RVlwTUFWcmcxYmN5cWdIWEZuVU9fdnB5WDVPOS16eXFmbnd0Y2RwVHc3enlxMXhkSnlPNlg0MGdETjNvblBQdE1NTGMzR3RGSEVRcU9GcVl2T2hJeDJsVW05MDJKZ0pKRWtQZ3Q1X1ZTNTBWNnRSOHFNeF96QnM1TWNHdVdNN1oyVlUwWElkVVlIN1ZTcDBzYkJFVHVqWFE3THNxcTQ1Qi1MSW1qWnNXTWo2bFpuclRkcHlpRHlLS2pEQng3OUlKM0JJanl5?oc=5",
-          "sourcePriority": 3
-        },
         {
           "title": "San Patricio del Chañar: clausuraron un boliche y secuestraron motos en un operativo nocturno - Chañar Digital",
           "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNM0c2ZzVxMVUtXzZuTHZKS0MxeVZlSjctem9lam8xVEJqbVN2YmxwalJNNGE3S0VyTDdXdll4OGNDai11bjJETFFIbmJkeHc4VkZsalUtRDQ2dk1PWnQwVzZKdVZ3NGU2SUZ2b2RaU2Vyd25FaFhpNlktQTBJUjVtREhqVURwbTZ0MXlCdVQ4bV92SGZKTjg4NTdaSmc1NzdVMHY1WW1YbHFUd0p1d1lHcTFQT1cxNkJvVF9fNWQ5SnpxY2RSVmIyOXZhZDVSRWxBSXdxR3UxTVZwT1ZSTkdF?oc=5",
@@ -3556,44 +3571,6 @@
           "sourcePriority": 3
         },
         {
-          "title": "San Patricio del Chañar: una nueva muerte joven reabre el debate sobre la prevención del suicidio - Chañar Digital",
-          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPZF9iTVRkZjFkSkQyb1FIVmx2dTJPeDBkekprTW5qTTNKd0NteGx3R3lyNko4MDRvbVdadDdaVDRCaGgzRVM3a0p6YjFrQlhxa2F0UWJkbUM1aUZITmdQMzJPRGpUbFR5SXVvd3BxUTFTMzl3MXBjVTVfRFl0NWkyQUZXMFRqS0d0cUN1RmJ6bXRNZHF6Y1N6MG10Wi1yNFlDOHFEZHRfb2tCQWhXYzJmcnowRVdVcXFEQmp2XzlRUnhOdGdCMHhKTlAtUzIzMm5MN1NNcEVKR0l0YXY3eENfWFduYmc?oc=5",
-          "publishedAt": "2026-10-31T22:26:47+00:00",
-          "published": "2026-10-31T22:26:47+00:00",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMi5AFBVV95cUxPZF9iTVRkZjFkSkQyb1FIVmx2dTJPeDBkekprTW5qTTNKd0NteGx3R3lyNko4MDRvbVdadDdaVDRCaGgzRVM3a0p6YjFrQlhxa2F0UWJkbUM1aUZITmdQMzJPRGpUbFR5SXVvd3BxUTFTMzl3MXBjVTVfRFl0NWkyQUZXMFRqS0d0cUN1RmJ6bXRNZHF6Y1N6MG10Wi1yNFlDOHFEZHRfb2tCQWhXYzJmcnowRVdVcXFEQmp2XzlRUnhOdGdCMHhKTlAtUzIzMm5MN1NNcEVKR0l0YXY3eENfWFduYmc?oc=5\" target=\"_blank\">San Patricio del Chañar: una nueva muerte joven reabre el debate sobre la prevención del suicidio</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Chañar Digital</font>",
-          "source": "Chañar Digital",
-          "sourceType": "BUSCADOR / RESPALDO",
-          "sourceUrl": "",
-          "collection": "BUSCADOR",
-          "query": "site:chanardigital.com.ar \"San Patricio del Chañar\"",
-          "relevance": 3,
-          "relevanceLabel": "DIRECTA",
-          "firstSeen": "2026-11-09T09:30:09.078627+00:00",
-          "isNew": false,
-          "titleKey": "nueva muerte joven reabre debate prevencion suicidio digital",
-          "evidenceUrl": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPZF9iTVRkZjFkSkQyb1FIVmx2dTJPeDBkekprTW5qTTNKd0NteGx3R3lyNko4MDRvbVdadDdaVDRCaGgzRVM3a0p6YjFrQlhxa2F0UWJkbUM1aUZITmdQMzJPRGpUbFR5SXVvd3BxUTFTMzl3MXBjVTVfRFl0NWkyQUZXMFRqS0d0cUN1RmJ6bXRNZHF6Y1N6MG10Wi1yNFlDOHFEZHRfb2tCQWhXYzJmcnowRVdVcXFEQmp2XzlRUnhOdGdCMHhKTlAtUzIzMm5MN1NNcEVKR0l0YXY3eENfWFduYmc?oc=5",
-          "sourcePriority": 3
-        },
-        {
-          "title": "Investigan la muerte de un joven de 19 años en San Patricio del Chañar - Minuto Neuquén",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPZ2xNeF9EMnN0TDBBanhCREJZOWd5cGVpeWZZU3NLLVNybWJWV09JOVlOcDJ4Q19Gc1hPRmFBUkZ6b0g5Y01qaGNHSzQyUDRhSVByRkFXU012N2xpQS1QN25UNkR6Z0NlMFlsWVBNRkJFWFAyQ2YxZDNRWlVXZ2FmcExOLXhvOUxQTDNiQU9ONWEySlJqcS1VOEZVOTRGVmxManpBQk00VGtfd3A1V1YxNEx1YjBaSXZHTG5ZUnNJS05WYm9DVVdkMThGYw?oc=5",
-          "publishedAt": "2026-10-31T13:00:00+00:00",
-          "published": "2026-10-31T13:00:00+00:00",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMiywFBVV95cUxPZ2xNeF9EMnN0TDBBanhCREJZOWd5cGVpeWZZU3NLLVNybWJWV09JOVlOcDJ4Q19Gc1hPRmFBUkZ6b0g5Y01qaGNHSzQyUDRhSVByRkFXU012N2xpQS1QN25UNkR6Z0NlMFlsWVBNRkJFWFAyQ2YxZDNRWlVXZ2FmcExOLXhvOUxQTDNiQU9ONWEySlJqcS1VOEZVOTRGVmxManpBQk00VGtfd3A1V1YxNEx1YjBaSXZHTG5ZUnNJS05WYm9DVVdkMThGYw?oc=5\" target=\"_blank\">Investigan la muerte de un joven de 19 años en San Patricio del Chañar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Minuto Neuquén</font>",
-          "source": "Minuto Neuquén",
-          "sourceType": "BUSCADOR / RESPALDO",
-          "sourceUrl": "",
-          "collection": "BUSCADOR",
-          "query": "\"San Patricio del Chañar\"",
-          "relevance": 3,
-          "relevanceLabel": "DIRECTA",
-          "firstSeen": "2026-11-09T09:30:09.078627+00:00",
-          "isNew": false,
-          "titleKey": "investigan muerte joven años minuto",
-          "evidenceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPZ2xNeF9EMnN0TDBBanhCREJZOWd5cGVpeWZZU3NLLVNybWJWV09JOVlOcDJ4Q19Gc1hPRmFBUkZ6b0g5Y01qaGNHSzQyUDRhSVByRkFXU012N2xpQS1QN25UNkR6Z0NlMFlsWVBNRkJFWFAyQ2YxZDNRWlVXZ2FmcExOLXhvOUxQTDNiQU9ONWEySlJqcS1VOEZVOTRGVmxManpBQk00VGtfd3A1V1YxNEx1YjBaSXZHTG5ZUnNJS05WYm9DVVdkMThGYw?oc=5",
-          "sourcePriority": 3
-        },
-        {
           "title": "Investigan la muerte de un joven de 19 años en San Patricio del Chañar - Diario Neuquino",
           "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOaFpITm1ILTRZY3VOS0ZGRE9DdEJEaXV4dlJQa3dxRHEtSU9QRU5yTWFEMWF6WEtkS1FFZVlGbDQxd1Jyc0VIZ0l4aG50RU1wRXJvc29FQURVb2l4dDh4bGFQWXlVTXpDY0RIVzE3OTZLeVF1OW0wSVZ2bkUzODNJNFpkZ0pnVG1lZFZqNU9xMTNELUZtSFNyVGx4dzFZTUw2aFpr?oc=5",
           "publishedAt": "2026-10-31T09:56:13+00:00",
@@ -3613,122 +3590,10 @@
           "sourcePriority": 3
         },
         {
-          "title": "La muerte de un joven de 19 años en San Patricio del Chañar despertó nuevamente la preocupación - Patagonia Press",
-          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPbGVjUHU4WXhjRGp2REN5bmxicnFHVUt5ek9KaldrbmJYUXlsUVZPZTRveGl5VzlXTTBZRFhUWHoyY3ZYTG1oMktqczVQUGwtUmRpbjJBc25IU1VvMnl5X2xLVHNBTlU1c2RWSXV3a2FlWVF2NDlRRU14VWZ4ZldxaFJaS2ZLbkNleXJrN1lyT2ZHVXpteEFoV2dhTHc2dm82WTU2RjRLWnZreUUxc1k2VlRYUWUwc3Z5ZklGd2dwZXpJYjQ3ZHVLVEdXckJtOHluQ0NTRm5jaTZCZzlvUDRfMVVyS05YQXhxdjJMOA?oc=5",
-          "publishedAt": "2026-10-31T07:00:00+00:00",
-          "published": "2026-10-31T07:00:00+00:00",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMi7AFBVV95cUxPbGVjUHU4WXhjRGp2REN5bmxicnFHVUt5ek9KaldrbmJYUXlsUVZPZTRveGl5VzlXTTBZRFhUWHoyY3ZYTG1oMktqczVQUGwtUmRpbjJBc25IU1VvMnl5X2xLVHNBTlU1c2RWSXV3a2FlWVF2NDlRRU14VWZ4ZldxaFJaS2ZLbkNleXJrN1lyT2ZHVXpteEFoV2dhTHc2dm82WTU2RjRLWnZreUUxc1k2VlRYUWUwc3Z5ZklGd2dwZXpJYjQ3ZHVLVEdXckJtOHluQ0NTRm5jaTZCZzlvUDRfMVVyS05YQXhxdjJMOA?oc=5\" target=\"_blank\">La muerte de un joven de 19 años en San Patricio del Chañar despertó nuevamente la preocupación</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Patagonia Press</font>",
-          "source": "Patagonia Press",
-          "sourceType": "BUSCADOR / RESPALDO",
-          "sourceUrl": "",
-          "collection": "BUSCADOR",
-          "query": "\"San Patricio del Chañar\"",
-          "relevance": 3,
-          "relevanceLabel": "DIRECTA",
-          "firstSeen": "2026-11-09T09:30:09.078627+00:00",
-          "isNew": false,
-          "titleKey": "muerte joven años desperto nuevamente preocupacion patagonia press",
-          "evidenceUrl": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPbGVjUHU4WXhjRGp2REN5bmxicnFHVUt5ek9KaldrbmJYUXlsUVZPZTRveGl5VzlXTTBZRFhUWHoyY3ZYTG1oMktqczVQUGwtUmRpbjJBc25IU1VvMnl5X2xLVHNBTlU1c2RWSXV3a2FlWVF2NDlRRU14VWZ4ZldxaFJaS2ZLbkNleXJrN1lyT2ZHVXpteEFoV2dhTHc2dm82WTU2RjRLWnZreUUxc1k2VlRYUWUwc3Z5ZklGd2dwZXpJYjQ3ZHVLVEdXckJtOHluQ0NTRm5jaTZCZzlvUDRfMVVyS05YQXhxdjJMOA?oc=5",
-          "sourcePriority": 3
-        }
-      ],
-      "lifecycle": "SIN NUEVA COBERTURA",
-      "movementDelta": 0,
-      "previousCoverage": 7,
-      "newSources": [
-        "portadadigital.com.ar",
-        "Lmneuquen.com",
-        "NoticiasNQN",
-        "Chañar Digital",
-        "Minuto Neuquén",
-        "Diario Neuquino",
-        "Patagonia Press",
-        "Neuquén al instante"
-      ],
-      "sourceDiversity": 8,
-      "memoryMatched": true,
-      "isNew": false,
-      "view": "INCIDENCIA",
-      "incidenceEligible": true,
-      "signalReason": "reservado a incidencia territorial",
-      "incidenceReason": "anclaje directo + tema operativo/local",
-      "territory": {
-        "version": "2.0",
-        "primary": "San Patricio del Chañar",
-        "nodes": [
-          "San Patricio del Chañar"
-        ],
-        "sectors": [],
-        "barrios": [],
-        "microzones": [],
-        "corridors": [],
-        "institutions": [],
-        "services": [],
-        "spaces": [],
-        "production": [],
-        "path": "San Patricio del Chañar",
-        "evidence": [
-          {
-            "node": "San Patricio del Chañar",
-            "level": "localidad",
-            "evidence": "DIRECTA"
-          }
-        ]
-      },
-      "sourceContinuity": "fuente conocida sin respuesta; no se infiere desaparición"
-    },
-    {
-      "eventId": "CHA-5dfadfac86a9",
-      "title": "San Patricio del Chañar: una nueva muerte joven reabre el debate sobre la prevención del suicidio - Chañar Digital",
-      "publishedAt": "2026-11-02T01:35:53+00:00",
-      "firstSeen": "2026-11-09T09:30:09.078627+00:00",
-      "lastSeen": "2026-11-02T01:35:53+00:00",
-      "relevance": 3,
-      "relevanceLabel": "DIRECTA",
-      "incidenceLabel": "DIRECTA EN CHANAR",
-      "topic": "SERVICIOS",
-      "movement": 55,
-      "coverage": 9,
-      "sourceCount": 6,
-      "directSourceCount": 0,
-      "territorialAnchors": [
-        "san patricio del chañar",
-        "el chañar"
-      ],
-      "sources": [
-        "Chañar Digital",
-        "Minuto Neuquén",
-        "Diario Neuquino",
-        "Patagonia Press",
-        "Lmneuquen.com",
-        "NoticiasNQN"
-      ],
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPZF9iTVRkZjFkSkQyb1FIVmx2dTJPeDBkekprTW5qTTNKd0NteGx3R3lyNko4MDRvbVdadDdaVDRCaGgzRVM3a0p6YjFrQlhxa2F0UWJkbUM1aUZITmdQMzJPRGpUbFR5SXVvd3BxUTFTMzl3MXBjVTVfRFl0NWkyQUZXMFRqS0d0cUN1RmJ6bXRNZHF6Y1N6MG10Wi1yNFlDOHFEZHRfb2tCQWhXYzJmcnowRVdVcXFEQmp2XzlRUnhOdGdCMHhKTlAtUzIzMm5MN1NNcEVKR0l0YXY3eENfWFduYmc?oc=5",
-      "items": [
-        {
-          "title": "San Patricio del Chañar: una nueva muerte joven reabre el debate sobre la prevención del suicidio - Chañar Digital",
-          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPZF9iTVRkZjFkSkQyb1FIVmx2dTJPeDBkekprTW5qTTNKd0NteGx3R3lyNko4MDRvbVdadDdaVDRCaGgzRVM3a0p6YjFrQlhxa2F0UWJkbUM1aUZITmdQMzJPRGpUbFR5SXVvd3BxUTFTMzl3MXBjVTVfRFl0NWkyQUZXMFRqS0d0cUN1RmJ6bXRNZHF6Y1N6MG10Wi1yNFlDOHFEZHRfb2tCQWhXYzJmcnowRVdVcXFEQmp2XzlRUnhOdGdCMHhKTlAtUzIzMm5MN1NNcEVKR0l0YXY3eENfWFduYmc?oc=5",
-          "publishedAt": "2026-10-31T22:26:47+00:00",
-          "published": "2026-10-31T22:26:47+00:00",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMi5AFBVV95cUxPZF9iTVRkZjFkSkQyb1FIVmx2dTJPeDBkekprTW5qTTNKd0NteGx3R3lyNko4MDRvbVdadDdaVDRCaGgzRVM3a0p6YjFrQlhxa2F0UWJkbUM1aUZITmdQMzJPRGpUbFR5SXVvd3BxUTFTMzl3MXBjVTVfRFl0NWkyQUZXMFRqS0d0cUN1RmJ6bXRNZHF6Y1N6MG10Wi1yNFlDOHFEZHRfb2tCQWhXYzJmcnowRVdVcXFEQmp2XzlRUnhOdGdCMHhKTlAtUzIzMm5MN1NNcEVKR0l0YXY3eENfWFduYmc?oc=5\" target=\"_blank\">San Patricio del Chañar: una nueva muerte joven reabre el debate sobre la prevención del suicidio</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Chañar Digital</font>",
-          "source": "Chañar Digital",
-          "sourceType": "BUSCADOR / RESPALDO",
-          "sourceUrl": "",
-          "collection": "BUSCADOR",
-          "query": "site:chanardigital.com.ar \"San Patricio del Chañar\"",
-          "relevance": 3,
-          "relevanceLabel": "DIRECTA",
-          "firstSeen": "2026-11-09T09:30:09.078627+00:00",
-          "isNew": false,
-          "titleKey": "nueva muerte joven reabre debate prevencion suicidio digital",
-          "evidenceUrl": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPZF9iTVRkZjFkSkQyb1FIVmx2dTJPeDBkekprTW5qTTNKd0NteGx3R3lyNko4MDRvbVdadDdaVDRCaGgzRVM3a0p6YjFrQlhxa2F0UWJkbUM1aUZITmdQMzJPRGpUbFR5SXVvd3BxUTFTMzl3MXBjVTVfRFl0NWkyQUZXMFRqS0d0cUN1RmJ6bXRNZHF6Y1N6MG10Wi1yNFlDOHFEZHRfb2tCQWhXYzJmcnowRVdVcXFEQmp2XzlRUnhOdGdCMHhKTlAtUzIzMm5MN1NNcEVKR0l0YXY3eENfWFduYmc?oc=5",
-          "sourcePriority": 3
-        },
-        {
           "title": "Investigan la muerte de un joven de 19 años en San Patricio del Chañar - Minuto Neuquén",
           "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPZ2xNeF9EMnN0TDBBanhCREJZOWd5cGVpeWZZU3NLLVNybWJWV09JOVlOcDJ4Q19Gc1hPRmFBUkZ6b0g5Y01qaGNHSzQyUDRhSVByRkFXU012N2xpQS1QN25UNkR6Z0NlMFlsWVBNRkJFWFAyQ2YxZDNRWlVXZ2FmcExOLXhvOUxQTDNiQU9ONWEySlJqcS1VOEZVOTRGVmxManpBQk00VGtfd3A1V1YxNEx1YjBaSXZHTG5ZUnNJS05WYm9DVVdkMThGYw?oc=5",
-          "publishedAt": "2026-10-31T13:00:00+00:00",
-          "published": "2026-10-31T13:00:00+00:00",
+          "publishedAt": "2026-10-31T07:00:00+00:00",
+          "published": "2026-10-31T07:00:00+00:00",
           "description": "<a href=\"https://news.google.com/rss/articles/CBMiywFBVV95cUxPZ2xNeF9EMnN0TDBBanhCREJZOWd5cGVpeWZZU3NLLVNybWJWV09JOVlOcDJ4Q19Gc1hPRmFBUkZ6b0g5Y01qaGNHSzQyUDRhSVByRkFXU012N2xpQS1QN25UNkR6Z0NlMFlsWVBNRkJFWFAyQ2YxZDNRWlVXZ2FmcExOLXhvOUxQTDNiQU9ONWEySlJqcS1VOEZVOTRGVmxManpBQk00VGtfd3A1V1YxNEx1YjBaSXZHTG5ZUnNJS05WYm9DVVdkMThGYw?oc=5\" target=\"_blank\">Investigan la muerte de un joven de 19 años en San Patricio del Chañar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Minuto Neuquén</font>",
           "source": "Minuto Neuquén",
           "sourceType": "BUSCADOR / RESPALDO",
@@ -3741,44 +3606,6 @@
           "isNew": false,
           "titleKey": "investigan muerte joven años minuto",
           "evidenceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPZ2xNeF9EMnN0TDBBanhCREJZOWd5cGVpeWZZU3NLLVNybWJWV09JOVlOcDJ4Q19Gc1hPRmFBUkZ6b0g5Y01qaGNHSzQyUDRhSVByRkFXU012N2xpQS1QN25UNkR6Z0NlMFlsWVBNRkJFWFAyQ2YxZDNRWlVXZ2FmcExOLXhvOUxQTDNiQU9ONWEySlJqcS1VOEZVOTRGVmxManpBQk00VGtfd3A1V1YxNEx1YjBaSXZHTG5ZUnNJS05WYm9DVVdkMThGYw?oc=5",
-          "sourcePriority": 3
-        },
-        {
-          "title": "Investigan la muerte de un joven de 19 años en San Patricio del Chañar - Diario Neuquino",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOaFpITm1ILTRZY3VOS0ZGRE9DdEJEaXV4dlJQa3dxRHEtSU9QRU5yTWFEMWF6WEtkS1FFZVlGbDQxd1Jyc0VIZ0l4aG50RU1wRXJvc29FQURVb2l4dDh4bGFQWXlVTXpDY0RIVzE3OTZLeVF1OW0wSVZ2bkUzODNJNFpkZ0pnVG1lZFZqNU9xMTNELUZtSFNyVGx4dzFZTUw2aFpr?oc=5",
-          "publishedAt": "2026-10-31T09:56:13+00:00",
-          "published": "2026-10-31T09:56:13+00:00",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxOaFpITm1ILTRZY3VOS0ZGRE9DdEJEaXV4dlJQa3dxRHEtSU9QRU5yTWFEMWF6WEtkS1FFZVlGbDQxd1Jyc0VIZ0l4aG50RU1wRXJvc29FQURVb2l4dDh4bGFQWXlVTXpDY0RIVzE3OTZLeVF1OW0wSVZ2bkUzODNJNFpkZ0pnVG1lZFZqNU9xMTNELUZtSFNyVGx4dzFZTUw2aFpr?oc=5\" target=\"_blank\">Investigan la muerte de un joven de 19 años en San Patricio del Chañar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Diario Neuquino</font>",
-          "source": "Diario Neuquino",
-          "sourceType": "BUSCADOR / RESPALDO",
-          "sourceUrl": "",
-          "collection": "BUSCADOR",
-          "query": "\"San Patricio del Chañar\"",
-          "relevance": 3,
-          "relevanceLabel": "DIRECTA",
-          "firstSeen": "2026-11-09T09:30:09.078627+00:00",
-          "isNew": false,
-          "titleKey": "investigan muerte joven años diario neuquino",
-          "evidenceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOaFpITm1ILTRZY3VOS0ZGRE9DdEJEaXV4dlJQa3dxRHEtSU9QRU5yTWFEMWF6WEtkS1FFZVlGbDQxd1Jyc0VIZ0l4aG50RU1wRXJvc29FQURVb2l4dDh4bGFQWXlVTXpDY0RIVzE3OTZLeVF1OW0wSVZ2bkUzODNJNFpkZ0pnVG1lZFZqNU9xMTNELUZtSFNyVGx4dzFZTUw2aFpr?oc=5",
-          "sourcePriority": 3
-        },
-        {
-          "title": "La muerte de un joven de 19 años en San Patricio del Chañar despertó nuevamente la preocupación - Patagonia Press",
-          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPbGVjUHU4WXhjRGp2REN5bmxicnFHVUt5ek9KaldrbmJYUXlsUVZPZTRveGl5VzlXTTBZRFhUWHoyY3ZYTG1oMktqczVQUGwtUmRpbjJBc25IU1VvMnl5X2xLVHNBTlU1c2RWSXV3a2FlWVF2NDlRRU14VWZ4ZldxaFJaS2ZLbkNleXJrN1lyT2ZHVXpteEFoV2dhTHc2dm82WTU2RjRLWnZreUUxc1k2VlRYUWUwc3Z5ZklGd2dwZXpJYjQ3ZHVLVEdXckJtOHluQ0NTRm5jaTZCZzlvUDRfMVVyS05YQXhxdjJMOA?oc=5",
-          "publishedAt": "2026-10-31T07:00:00+00:00",
-          "published": "2026-10-31T07:00:00+00:00",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMi7AFBVV95cUxPbGVjUHU4WXhjRGp2REN5bmxicnFHVUt5ek9KaldrbmJYUXlsUVZPZTRveGl5VzlXTTBZRFhUWHoyY3ZYTG1oMktqczVQUGwtUmRpbjJBc25IU1VvMnl5X2xLVHNBTlU1c2RWSXV3a2FlWVF2NDlRRU14VWZ4ZldxaFJaS2ZLbkNleXJrN1lyT2ZHVXpteEFoV2dhTHc2dm82WTU2RjRLWnZreUUxc1k2VlRYUWUwc3Z5ZklGd2dwZXpJYjQ3ZHVLVEdXckJtOHluQ0NTRm5jaTZCZzlvUDRfMVVyS05YQXhxdjJMOA?oc=5\" target=\"_blank\">La muerte de un joven de 19 años en San Patricio del Chañar despertó nuevamente la preocupación</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Patagonia Press</font>",
-          "source": "Patagonia Press",
-          "sourceType": "BUSCADOR / RESPALDO",
-          "sourceUrl": "",
-          "collection": "BUSCADOR",
-          "query": "\"San Patricio del Chañar\"",
-          "relevance": 3,
-          "relevanceLabel": "DIRECTA",
-          "firstSeen": "2026-11-09T09:30:09.078627+00:00",
-          "isNew": false,
-          "titleKey": "muerte joven años desperto nuevamente preocupacion patagonia press",
-          "evidenceUrl": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPbGVjUHU4WXhjRGp2REN5bmxicnFHVUt5ek9KaldrbmJYUXlsUVZPZTRveGl5VzlXTTBZRFhUWHoyY3ZYTG1oMktqczVQUGwtUmRpbjJBc25IU1VvMnl5X2xLVHNBTlU1c2RWSXV3a2FlWVF2NDlRRU14VWZ4ZldxaFJaS2ZLbkNleXJrN1lyT2ZHVXpteEFoV2dhTHc2dm82WTU2RjRLWnZreUUxc1k2VlRYUWUwc3Z5ZklGd2dwZXpJYjQ3ZHVLVEdXckJtOHluQ0NTRm5jaTZCZzlvUDRfMVVyS05YQXhxdjJMOA?oc=5",
           "sourcePriority": 3
         },
         {
@@ -3801,30 +3628,11 @@
           "sourcePriority": 3
         },
         {
-          "title": "Le robaron el auto tras un forcejeo en El Chañar y apareció horas después en Río Negro - Patagonia Press",
-          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPMDNVUVlYN1VoSmM5T1F0SzBVQ3FDaVRvRzZjTEo2RVhvamRFaGdPenZ0dVlORGVZX2dSSTdCUFotVmlLeTF4UkNLZ2FQa1h6b0VGN01aZUVDbFhTalkweUhaSndGeWxyZERTakN5NTRWcmpvZjZvdUFvQVZOOEl0SE9BeTk1Z2ZFT0xRdmlPSGc5X0V2c3dLeVR1R3RPcFNIeVVSZTNvZjZiNGhvVmhjMTZfdzhBb1JDSmhOV0d2N3VVaHBVNTVfRXUzT3dSUjlRcGJ0UGlNSU8xeElqbGE2LQ?oc=5",
-          "publishedAt": "2026-10-29T07:00:00+00:00",
-          "published": "2026-10-29T07:00:00+00:00",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMi4AFBVV95cUxPMDNVUVlYN1VoSmM5T1F0SzBVQ3FDaVRvRzZjTEo2RVhvamRFaGdPenZ0dVlORGVZX2dSSTdCUFotVmlLeTF4UkNLZ2FQa1h6b0VGN01aZUVDbFhTalkweUhaSndGeWxyZERTakN5NTRWcmpvZjZvdUFvQVZOOEl0SE9BeTk1Z2ZFT0xRdmlPSGc5X0V2c3dLeVR1R3RPcFNIeVVSZTNvZjZiNGhvVmhjMTZfdzhBb1JDSmhOV0d2N3VVaHBVNTVfRXUzT3dSUjlRcGJ0UGlNSU8xeElqbGE2LQ?oc=5\" target=\"_blank\">Le robaron el auto tras un forcejeo en El Chañar y apareció horas después en Río Negro</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Patagonia Press</font>",
-          "source": "Patagonia Press",
-          "sourceType": "BUSCADOR / RESPALDO",
-          "sourceUrl": "",
-          "collection": "BUSCADOR",
-          "query": "\"San Patricio del Chañar\"",
-          "relevance": 3,
-          "relevanceLabel": "DIRECTA",
-          "firstSeen": "2026-11-10T10:55:31.979459+00:00",
-          "isNew": false,
-          "titleKey": "robaron auto tras forcejeo aparecio horas despues rio negro patagonia press",
-          "evidenceUrl": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPMDNVUVlYN1VoSmM5T1F0SzBVQ3FDaVRvRzZjTEo2RVhvamRFaGdPenZ0dVlORGVZX2dSSTdCUFotVmlLeTF4UkNLZ2FQa1h6b0VGN01aZUVDbFhTalkweUhaSndGeWxyZERTakN5NTRWcmpvZjZvdUFvQVZOOEl0SE9BeTk1Z2ZFT0xRdmlPSGc5X0V2c3dLeVR1R3RPcFNIeVVSZTNvZjZiNGhvVmhjMTZfdzhBb1JDSmhOV0d2N3VVaHBVNTVfRXUzT3dSUjlRcGJ0UGlNSU8xeElqbGE2LQ?oc=5",
-          "sourcePriority": 3
-        },
-        {
-          "title": "San Patricio del Chañar: clausuraron un boliche y secuestraron motos en un operativo nocturno - Chañar Digital",
-          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNM0c2ZzVxMVUtXzZuTHZKS0MxeVZlSjctem9lam8xVEJqbVN2YmxwalJNNGE3S0VyTDdXdll4OGNDai11bjJETFFIbmJkeHc4VkZsalUtRDQ2dk1PWnQwVzZKdVZ3NGU2SUZ2b2RaU2Vyd25FaFhpNlktQTBJUjVtREhqVURwbTZ0MXlCdVQ4bV92SGZKTjg4NTdaSmc1NzdVMHY1WW1YbHFUd0p1d1lHcTFQT1cxNkJvVF9fNWQ5SnpxY2RSVmIyOXZhZDVSRWxBSXdxR3UxTVZwT1ZSTkdF?oc=5",
-          "publishedAt": "2026-11-02T01:35:53+00:00",
-          "published": "2026-11-02T01:35:53+00:00",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMi3wFBVV95cUxNM0c2ZzVxMVUtXzZuTHZKS0MxeVZlSjctem9lam8xVEJqbVN2YmxwalJNNGE3S0VyTDdXdll4OGNDai11bjJETFFIbmJkeHc4VkZsalUtRDQ2dk1PWnQwVzZKdVZ3NGU2SUZ2b2RaU2Vyd25FaFhpNlktQTBJUjVtREhqVURwbTZ0MXlCdVQ4bV92SGZKTjg4NTdaSmc1NzdVMHY1WW1YbHFUd0p1d1lHcTFQT1cxNkJvVF9fNWQ5SnpxY2RSVmIyOXZhZDVSRWxBSXdxR3UxTVZwT1ZSTkdF?oc=5\" target=\"_blank\">San Patricio del Chañar: clausuraron un boliche y secuestraron motos en un operativo nocturno</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Chañar Digital</font>",
+          "title": "San Patricio del Chañar: una nueva muerte joven reabre el debate sobre la prevención del suicidio - Chañar Digital",
+          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPZF9iTVRkZjFkSkQyb1FIVmx2dTJPeDBkekprTW5qTTNKd0NteGx3R3lyNko4MDRvbVdadDdaVDRCaGgzRVM3a0p6YjFrQlhxa2F0UWJkbUM1aUZITmdQMzJPRGpUbFR5SXVvd3BxUTFTMzl3MXBjVTVfRFl0NWkyQUZXMFRqS0d0cUN1RmJ6bXRNZHF6Y1N6MG10Wi1yNFlDOHFEZHRfb2tCQWhXYzJmcnowRVdVcXFEQmp2XzlRUnhOdGdCMHhKTlAtUzIzMm5MN1NNcEVKR0l0YXY3eENfWFduYmc?oc=5",
+          "publishedAt": "2026-10-31T22:26:47+00:00",
+          "published": "2026-10-31T22:26:47+00:00",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMi5AFBVV95cUxPZF9iTVRkZjFkSkQyb1FIVmx2dTJPeDBkekprTW5qTTNKd0NteGx3R3lyNko4MDRvbVdadDdaVDRCaGgzRVM3a0p6YjFrQlhxa2F0UWJkbUM1aUZITmdQMzJPRGpUbFR5SXVvd3BxUTFTMzl3MXBjVTVfRFl0NWkyQUZXMFRqS0d0cUN1RmJ6bXRNZHF6Y1N6MG10Wi1yNFlDOHFEZHRfb2tCQWhXYzJmcnowRVdVcXFEQmp2XzlRUnhOdGdCMHhKTlAtUzIzMm5MN1NNcEVKR0l0YXY3eENfWFduYmc?oc=5\" target=\"_blank\">San Patricio del Chañar: una nueva muerte joven reabre el debate sobre la prevención del suicidio</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Chañar Digital</font>",
           "source": "Chañar Digital",
           "sourceType": "BUSCADOR / RESPALDO",
           "sourceUrl": "",
@@ -3834,17 +3642,17 @@
           "relevanceLabel": "DIRECTA",
           "firstSeen": "2026-11-09T09:30:09.078627+00:00",
           "isNew": false,
-          "titleKey": "clausuraron boliche secuestraron motos operativo nocturno digital",
-          "evidenceUrl": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNM0c2ZzVxMVUtXzZuTHZKS0MxeVZlSjctem9lam8xVEJqbVN2YmxwalJNNGE3S0VyTDdXdll4OGNDai11bjJETFFIbmJkeHc4VkZsalUtRDQ2dk1PWnQwVzZKdVZ3NGU2SUZ2b2RaU2Vyd25FaFhpNlktQTBJUjVtREhqVURwbTZ0MXlCdVQ4bV92SGZKTjg4NTdaSmc1NzdVMHY1WW1YbHFUd0p1d1lHcTFQT1cxNkJvVF9fNWQ5SnpxY2RSVmIyOXZhZDVSRWxBSXdxR3UxTVZwT1ZSTkdF?oc=5",
+          "titleKey": "nueva muerte joven reabre debate prevencion suicidio digital",
+          "evidenceUrl": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPZF9iTVRkZjFkSkQyb1FIVmx2dTJPeDBkekprTW5qTTNKd0NteGx3R3lyNko4MDRvbVdadDdaVDRCaGgzRVM3a0p6YjFrQlhxa2F0UWJkbUM1aUZITmdQMzJPRGpUbFR5SXVvd3BxUTFTMzl3MXBjVTVfRFl0NWkyQUZXMFRqS0d0cUN1RmJ6bXRNZHF6Y1N6MG10Wi1yNFlDOHFEZHRfb2tCQWhXYzJmcnowRVdVcXFEQmp2XzlRUnhOdGdCMHhKTlAtUzIzMm5MN1NNcEVKR0l0YXY3eENfWFduYmc?oc=5",
           "sourcePriority": 3
         },
         {
-          "title": "Operativos nocturnos en San Patricio del Chañar: secuestraron motos y clausuraron un boliche - Lmneuquen.com",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQSVp3MmhCZHBMa0tGM2RIMGF4UTRaWVNGSE02QlIwYWhJQ19PTTJSSmVLSmpRTHptZGhlTVlzZzdob3pUb0FzaDhBUzFkZ21yMUxORmNNSnpFMVNXUHo4RUFkSFlRODVFTl9fajdLbFNsdkZ1TG9ZTjR3RmRQX01FdkV1QzJoZjdseU9mYmZTNC1OREFadDExcEk5UmotdUNMVXNWd1JZNUVFR0xsNWp0V3FxWWYxbktTY2hvcU5kdTU4dExFeVg2VW5SRGdycjDSAdQBQVVfeXFMTVpwOWZwVWV0WE1ZdzNYSERmdFdKZ3pSWU5UTWpNeEZUeXRldGFVdGxqdG9xRDJFTTVjdHVMLWVIcWtiUWZTWHlHelEyalpLRTU0VHhxSE9nM3NENnl4THRkelhMNUp1N0RMN0tnc3A5amgwQnJncjdEbEl2dE05Z19NUVVZZ1FSdVpLR256Q0ZMRDRFNWhjYWRQMkNEZ3RINHhNU01tVVVOSXVmTExlUlU3RE1Rc0JTeDkzS2hVWU56TlliSnVVWUlPU3VhWTVMUVFUZ3g?oc=5",
-          "publishedAt": "2026-11-01T07:00:00+00:00",
-          "published": "2026-11-01T07:00:00+00:00",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMizwFBVV95cUxQSVp3MmhCZHBMa0tGM2RIMGF4UTRaWVNGSE02QlIwYWhJQ19PTTJSSmVLSmpRTHptZGhlTVlzZzdob3pUb0FzaDhBUzFkZ21yMUxORmNNSnpFMVNXUHo4RUFkSFlRODVFTl9fajdLbFNsdkZ1TG9ZTjR3RmRQX01FdkV1QzJoZjdseU9mYmZTNC1OREFadDExcEk5UmotdUNMVXNWd1JZNUVFR0xsNWp0V3FxWWYxbktTY2hvcU5kdTU4dExFeVg2VW5SRGdycjDSAdQBQVVfeXFMTVpwOWZwVWV0WE1ZdzNYSERmdFdKZ3pSWU5UTWpNeEZUeXRldGFVdGxqdG9xRDJFTTVjdHVMLWVIcWtiUWZTWHlHelEyalpLRTU0VHhxSE9nM3NENnl4THRkelhMNUp1N0RMN0tnc3A5amgwQnJncjdEbEl2dE05Z19NUVVZZ1FSdVpLR256Q0ZMRDRFNWhjYWRQMkNEZ3RINHhNU01tVVVOSXVmTExlUlU3RE1Rc0JTeDkzS2hVWU56TlliSnVVWUlPU3VhWTVMUVFUZ3g?oc=5\" target=\"_blank\">Operativos nocturnos en San Patricio del Chañar: secuestraron motos y clausuraron un boliche</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Lmneuquen.com</font>",
-          "source": "Lmneuquen.com",
+          "title": "La muerte de un joven de 19 años en San Patricio del Chañar despertó nuevamente la preocupación - Patagonia Press",
+          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPbGVjUHU4WXhjRGp2REN5bmxicnFHVUt5ek9KaldrbmJYUXlsUVZPZTRveGl5VzlXTTBZRFhUWHoyY3ZYTG1oMktqczVQUGwtUmRpbjJBc25IU1VvMnl5X2xLVHNBTlU1c2RWSXV3a2FlWVF2NDlRRU14VWZ4ZldxaFJaS2ZLbkNleXJrN1lyT2ZHVXpteEFoV2dhTHc2dm82WTU2RjRLWnZreUUxc1k2VlRYUWUwc3Z5ZklGd2dwZXpJYjQ3ZHVLVEdXckJtOHluQ0NTRm5jaTZCZzlvUDRfMVVyS05YQXhxdjJMOA?oc=5",
+          "publishedAt": "2026-10-31T07:00:00+00:00",
+          "published": "2026-10-31T07:00:00+00:00",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMi7AFBVV95cUxPbGVjUHU4WXhjRGp2REN5bmxicnFHVUt5ek9KaldrbmJYUXlsUVZPZTRveGl5VzlXTTBZRFhUWHoyY3ZYTG1oMktqczVQUGwtUmRpbjJBc25IU1VvMnl5X2xLVHNBTlU1c2RWSXV3a2FlWVF2NDlRRU14VWZ4ZldxaFJaS2ZLbkNleXJrN1lyT2ZHVXpteEFoV2dhTHc2dm82WTU2RjRLWnZreUUxc1k2VlRYUWUwc3Z5ZklGd2dwZXpJYjQ3ZHVLVEdXckJtOHluQ0NTRm5jaTZCZzlvUDRfMVVyS05YQXhxdjJMOA?oc=5\" target=\"_blank\">La muerte de un joven de 19 años en San Patricio del Chañar despertó nuevamente la preocupación</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Patagonia Press</font>",
+          "source": "Patagonia Press",
           "sourceType": "BUSCADOR / RESPALDO",
           "sourceUrl": "",
           "collection": "BUSCADOR",
@@ -3853,19 +3661,21 @@
           "relevanceLabel": "DIRECTA",
           "firstSeen": "2026-11-09T09:30:09.078627+00:00",
           "isNew": false,
-          "titleKey": "operativos nocturnos secuestraron motos clausuraron boliche lmneuquen com",
-          "evidenceUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQSVp3MmhCZHBMa0tGM2RIMGF4UTRaWVNGSE02QlIwYWhJQ19PTTJSSmVLSmpRTHptZGhlTVlzZzdob3pUb0FzaDhBUzFkZ21yMUxORmNNSnpFMVNXUHo4RUFkSFlRODVFTl9fajdLbFNsdkZ1TG9ZTjR3RmRQX01FdkV1QzJoZjdseU9mYmZTNC1OREFadDExcEk5UmotdUNMVXNWd1JZNUVFR0xsNWp0V3FxWWYxbktTY2hvcU5kdTU4dExFeVg2VW5SRGdycjDSAdQBQVVfeXFMTVpwOWZwVWV0WE1ZdzNYSERmdFdKZ3pSWU5UTWpNeEZUeXRldGFVdGxqdG9xRDJFTTVjdHVMLWVIcWtiUWZTWHlHelEyalpLRTU0VHhxSE9nM3NENnl4THRkelhMNUp1N0RMN0tnc3A5amgwQnJncjdEbEl2dE05Z19NUVVZZ1FSdVpLR256Q0ZMRDRFNWhjYWRQMkNEZ3RINHhNU01tVVVOSXVmTExlUlU3RE1Rc0JTeDkzS2hVWU56TlliSnVVWUlPU3VhWTVMUVFUZ3g?oc=5",
+          "titleKey": "muerte joven años desperto nuevamente preocupacion patagonia press",
+          "evidenceUrl": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPbGVjUHU4WXhjRGp2REN5bmxicnFHVUt5ek9KaldrbmJYUXlsUVZPZTRveGl5VzlXTTBZRFhUWHoyY3ZYTG1oMktqczVQUGwtUmRpbjJBc25IU1VvMnl5X2xLVHNBTlU1c2RWSXV3a2FlWVF2NDlRRU14VWZ4ZldxaFJaS2ZLbkNleXJrN1lyT2ZHVXpteEFoV2dhTHc2dm82WTU2RjRLWnZreUUxc1k2VlRYUWUwc3Z5ZklGd2dwZXpJYjQ3ZHVLVEdXckJtOHluQ0NTRm5jaTZCZzlvUDRfMVVyS05YQXhxdjJMOA?oc=5",
           "sourcePriority": 3
         }
       ],
-      "lifecycle": "SOSTENIDO",
-      "movementDelta": 39,
-      "previousCoverage": 7,
+      "lifecycle": "ACTIVO",
+      "movementDelta": -11,
+      "previousCoverage": 1,
       "newSources": [
-        "Minuto Neuquén",
-        "Patagonia Press",
+        "Chañar Digital",
         "Lmneuquen.com",
-        "NoticiasNQN"
+        "NoticiasNQN",
+        "Diario Neuquino",
+        "Minuto Neuquén",
+        "Patagonia Press"
       ],
       "sourceDiversity": 6,
       "memoryMatched": true,
@@ -4130,6 +3940,106 @@
       "sourceDiversity": 4,
       "memoryMatched": false,
       "isNew": true,
+      "view": "INCIDENCIA",
+      "incidenceEligible": true,
+      "signalReason": "reservado a incidencia territorial",
+      "incidenceReason": "anclaje directo + tema operativo/local",
+      "territory": {
+        "version": "2.0",
+        "primary": "San Patricio del Chañar",
+        "nodes": [
+          "San Patricio del Chañar"
+        ],
+        "sectors": [],
+        "barrios": [],
+        "microzones": [],
+        "corridors": [],
+        "institutions": [],
+        "services": [],
+        "spaces": [],
+        "production": [],
+        "path": "San Patricio del Chañar",
+        "evidence": [
+          {
+            "node": "San Patricio del Chañar",
+            "level": "localidad",
+            "evidence": "DIRECTA"
+          }
+        ]
+      }
+    },
+    {
+      "eventId": "CHA-8802dd694d3c",
+      "title": "San Patricio del Chañar: el Registro Civil normalizó su atención tras varias semanas de interrupción - Chañar Digital",
+      "publishedAt": "2026-11-06T01:28:27+00:00",
+      "firstSeen": "2026-11-09T09:30:09.078627+00:00",
+      "lastSeen": "2026-11-06T01:28:27+00:00",
+      "relevance": 3,
+      "relevanceLabel": "DIRECTA",
+      "incidenceLabel": "DIRECTA EN CHANAR",
+      "topic": "SERVICIOS",
+      "movement": 25,
+      "coverage": 2,
+      "sourceCount": 2,
+      "directSourceCount": 0,
+      "territorialAnchors": [
+        "san patricio del chañar",
+        "el chañar"
+      ],
+      "sources": [
+        "Chañar Digital",
+        "Neuquén al instante"
+      ],
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNWmsxZjRkcVdSNzl5Q3JiNExWNDI3alR6S2RtYVgzdWE5SHZDanR5RmZHcENOUG9fcDJvUDRTUFpaancxdUdrR2Jod1F1V3V5QnpSTV9McFBkancwQ0lodkppTHBVcnNrNUpWenE5d1dDWHBXcy1xR1dZMEs2d0tYRmtyNXJ3cThVRThSWXhqZHB0UHA5VUpTSVppUkl5ZVVTQjRweDc2Z3ZNYVZSbVdqa2RoNlJqbjRvS24yTUptXzB3bFFTVFVtZUw3YnF2dHZ1Rk80b243al93NzBPNzNKc25MbXpWWVlR?oc=5",
+      "items": [
+        {
+          "title": "San Patricio del Chañar: el Registro Civil normalizó su atención tras varias semanas de interrupción - Chañar Digital",
+          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNWmsxZjRkcVdSNzl5Q3JiNExWNDI3alR6S2RtYVgzdWE5SHZDanR5RmZHcENOUG9fcDJvUDRTUFpaancxdUdrR2Jod1F1V3V5QnpSTV9McFBkancwQ0lodkppTHBVcnNrNUpWenE5d1dDWHBXcy1xR1dZMEs2d0tYRmtyNXJ3cThVRThSWXhqZHB0UHA5VUpTSVppUkl5ZVVTQjRweDc2Z3ZNYVZSbVdqa2RoNlJqbjRvS24yTUptXzB3bFFTVFVtZUw3YnF2dHZ1Rk80b243al93NzBPNzNKc25MbXpWWVlR?oc=5",
+          "publishedAt": "2026-11-06T01:28:27+00:00",
+          "published": "2026-11-06T01:28:27+00:00",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMi6AFBVV95cUxNWmsxZjRkcVdSNzl5Q3JiNExWNDI3alR6S2RtYVgzdWE5SHZDanR5RmZHcENOUG9fcDJvUDRTUFpaancxdUdrR2Jod1F1V3V5QnpSTV9McFBkancwQ0lodkppTHBVcnNrNUpWenE5d1dDWHBXcy1xR1dZMEs2d0tYRmtyNXJ3cThVRThSWXhqZHB0UHA5VUpTSVppUkl5ZVVTQjRweDc2Z3ZNYVZSbVdqa2RoNlJqbjRvS24yTUptXzB3bFFTVFVtZUw3YnF2dHZ1Rk80b243al93NzBPNzNKc25MbXpWWVlR?oc=5\" target=\"_blank\">San Patricio del Chañar: el Registro Civil normalizó su atención tras varias semanas de interrupción</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Chañar Digital</font>",
+          "source": "Chañar Digital",
+          "sourceType": "BUSCADOR / RESPALDO",
+          "sourceUrl": "",
+          "collection": "BUSCADOR",
+          "query": "site:chanardigital.com.ar \"San Patricio del Chañar\"",
+          "relevance": 3,
+          "relevanceLabel": "DIRECTA",
+          "firstSeen": "2026-11-09T09:30:09.078627+00:00",
+          "isNew": false,
+          "titleKey": "registro civil normalizo atencion tras varias semanas interrupcion digital",
+          "evidenceUrl": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNWmsxZjRkcVdSNzl5Q3JiNExWNDI3alR6S2RtYVgzdWE5SHZDanR5RmZHcENOUG9fcDJvUDRTUFpaancxdUdrR2Jod1F1V3V5QnpSTV9McFBkancwQ0lodkppTHBVcnNrNUpWenE5d1dDWHBXcy1xR1dZMEs2d0tYRmtyNXJ3cThVRThSWXhqZHB0UHA5VUpTSVppUkl5ZVVTQjRweDc2Z3ZNYVZSbVdqa2RoNlJqbjRvS24yTUptXzB3bFFTVFVtZUw3YnF2dHZ1Rk80b243al93NzBPNzNKc25MbXpWWVlR?oc=5",
+          "sourcePriority": 3
+        },
+        {
+          "title": "El Mejor Vino de la Patagonia es neuquino y nace en San Patricio del Chañar - Neuquén al instante",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOYnNacFZuNHBJRlJJbVhKcFg4Y0JPN3Bma0pQZ2dMNXk2MDl2V0gxVUFzaDR2SUdoWkxLdmpfY2s4MURINFN2cUtqN0NlM2YzYWZfdElkS0FIVXVTMVFybWNEN3RNSnpHSGZVWlJkay1kdGNRU0JldEpCRDZwZDlwLV9pUHhfR0hhSWpONkxvUTNzU0IwbTNmZkN2TkQzX2pidzJrQnZPbzV3MjJYMDJSakVUZklTVUZxQ3lQb1dEQnhER2t1aHIxdFNqeUwzSlBBN1pDN1V30gHbAUFVX3lxTFBOS1dWNUJxeDczRWxMLVZ2SmN4b0tDZWFyVlNiU2d6dWZ4YUlZTXNncXN6QXRobzM0RFdPc00tMFFXWVFNTElCejRmRTZJWDdWeS1zUUwtaHhZN2xVWEI0dkdnYzJPZVVyUzc5UVBKMFNfakZrQ3M5MUp3RDhmLWlFS21oS09BOGhEZmtvNl9BUnVQQUloTlNLZ21iSmpHVWUzb0stb2FEWG1veHVSTTNjekxZRmVMNDJyWnVvVUJ1cGJ0ZUFXRXpVNl9ZaDliamIyeGxwUDdoWmk4SQ?oc=5",
+          "publishedAt": "2026-11-04T01:41:15+00:00",
+          "published": "2026-11-04T01:41:15+00:00",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMi1gFBVV95cUxOYnNacFZuNHBJRlJJbVhKcFg4Y0JPN3Bma0pQZ2dMNXk2MDl2V0gxVUFzaDR2SUdoWkxLdmpfY2s4MURINFN2cUtqN0NlM2YzYWZfdElkS0FIVXVTMVFybWNEN3RNSnpHSGZVWlJkay1kdGNRU0JldEpCRDZwZDlwLV9pUHhfR0hhSWpONkxvUTNzU0IwbTNmZkN2TkQzX2pidzJrQnZPbzV3MjJYMDJSakVUZklTVUZxQ3lQb1dEQnhER2t1aHIxdFNqeUwzSlBBN1pDN1V30gHbAUFVX3lxTFBOS1dWNUJxeDczRWxMLVZ2SmN4b0tDZWFyVlNiU2d6dWZ4YUlZTXNncXN6QXRobzM0RFdPc00tMFFXWVFNTElCejRmRTZJWDdWeS1zUUwtaHhZN2xVWEI0dkdnYzJPZVVyUzc5UVBKMFNfakZrQ3M5MUp3RDhmLWlFS21oS09BOGhEZmtvNl9BUnVQQUloTlNLZ21iSmpHVWUzb0stb2FEWG1veHVSTTNjekxZRmVMNDJyWnVvVUJ1cGJ0ZUFXRXpVNl9ZaDliamIyeGxwUDdoWmk4SQ?oc=5\" target=\"_blank\">El Mejor Vino de la Patagonia es neuquino y nace en San Patricio del Chañar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Neuquén al instante</font>",
+          "source": "Neuquén al instante",
+          "sourceType": "BUSCADOR / RESPALDO",
+          "sourceUrl": "",
+          "collection": "BUSCADOR",
+          "query": "\"San Patricio del Chañar\" Neuquén",
+          "relevance": 3,
+          "relevanceLabel": "DIRECTA",
+          "firstSeen": "2026-11-09T09:30:09.078627+00:00",
+          "isNew": false,
+          "titleKey": "mejor vino patagonia neuquino nace instante",
+          "evidenceUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOYnNacFZuNHBJRlJJbVhKcFg4Y0JPN3Bma0pQZ2dMNXk2MDl2V0gxVUFzaDR2SUdoWkxLdmpfY2s4MURINFN2cUtqN0NlM2YzYWZfdElkS0FIVXVTMVFybWNEN3RNSnpHSGZVWlJkay1kdGNRU0JldEpCRDZwZDlwLV9pUHhfR0hhSWpONkxvUTNzU0IwbTNmZkN2TkQzX2pidzJrQnZPbzV3MjJYMDJSakVUZklTVUZxQ3lQb1dEQnhER2t1aHIxdFNqeUwzSlBBN1pDN1V30gHbAUFVX3lxTFBOS1dWNUJxeDczRWxMLVZ2SmN4b0tDZWFyVlNiU2d6dWZ4YUlZTXNncXN6QXRobzM0RFdPc00tMFFXWVFNTElCejRmRTZJWDdWeS1zUUwtaHhZN2xVWEI0dkdnYzJPZVVyUzc5UVBKMFNfakZrQ3M5MUp3RDhmLWlFS21oS09BOGhEZmtvNl9BUnVQQUloTlNLZ21iSmpHVWUzb0stb2FEWG1veHVSTTNjekxZRmVMNDJyWnVvVUJ1cGJ0ZUFXRXpVNl9ZaDliamIyeGxwUDdoWmk4SQ?oc=5",
+          "sourcePriority": 3
+        }
+      ],
+      "lifecycle": "RECIENTE",
+      "movementDelta": -31,
+      "previousCoverage": 2,
+      "newSources": [
+        "Neuquén al instante"
+      ],
+      "sourceDiversity": 2,
+      "memoryMatched": true,
+      "isNew": false,
       "view": "INCIDENCIA",
       "incidenceEligible": true,
       "signalReason": "reservado a incidencia territorial",
@@ -4533,23 +4443,42 @@
   ],
   "items": [
     {
-      "title": "Neuquén lanzó un desarrollo urbanístico con 3.200 lotes junto al Parque Industrial Capital: hasta cuándo hay tiempo para anotarse",
-      "url": "https://www.rionegro.com.ar/politica/neuquen-lanzo-un-desarrollo-urbanistico-con-3-200-lotes-junto-al-parque-industrial-capital-hasta-cuando-hay-tiempo-para-anotarse-4793214/",
-      "publishedAt": "2026-11-10T22:57:13+00:00",
-      "published": "2026-11-10T22:57:13+00:00",
-      "description": "",
-      "source": "Diario Río Negro",
-      "sourceType": "MEDIO REGIONAL",
-      "sourceUrl": "https://www.rionegro.com.ar/",
-      "collection": "DIRECTA",
-      "query": "https://www.rionegro.com.ar/feed/",
+      "title": "Más de 100 familias de Campo Grande reclaman avances en el Loteo Social Burgos - Chañar Digital",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOcDdRTW1JZHRsSUh1Q1JhZkhkWnVsbkJjMVpJdmlXWTBKNDlSRUhNMUtsRjlfMzBpLURIX1Z4WTJ5SEpuNU9YX3hDcWgtOGdZMVRLMkd6YS1HaUl4aVFaVmF0d0dzdGZNREdkZkJTdEFhSmYxWjllUVdYdTh6TDdlWjFpVUoxWHU1bE4xaXRXUXo5SjVHSFNOUlBTSDg1UHhoSDduY2NldkJscXZMcEZTeVpLY2w0aUx2cG5UcklLWjQzT2NnUVBadEZFV2k?oc=5",
+      "publishedAt": "2026-11-11T06:01:49+00:00",
+      "published": "2026-11-11T06:01:49+00:00",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMizAFBVV95cUxOcDdRTW1JZHRsSUh1Q1JhZkhkWnVsbkJjMVpJdmlXWTBKNDlSRUhNMUtsRjlfMzBpLURIX1Z4WTJ5SEpuNU9YX3hDcWgtOGdZMVRLMkd6YS1HaUl4aVFaVmF0d0dzdGZNREdkZkJTdEFhSmYxWjllUVdYdTh6TDdlWjFpVUoxWHU1bE4xaXRXUXo5SjVHSFNOUlBTSDg1UHhoSDduY2NldkJscXZMcEZTeVpLY2w0aUx2cG5UcklLWjQzT2NnUVBadEZFV2k?oc=5\" target=\"_blank\">Más de 100 familias de Campo Grande reclaman avances en el Loteo Social Burgos</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Chañar Digital</font>",
+      "source": "Chañar Digital",
+      "sourceType": "BUSCADOR / RESPALDO",
+      "sourceUrl": "",
+      "collection": "BUSCADOR",
+      "query": "site:chanardigital.com.ar \"San Patricio del Chañar\"",
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
-      "firstSeen": "2026-11-10T23:57:52.200389+00:00",
-      "isNew": false,
-      "titleKey": "lanzo desarrollo urbanistico 200 lotes junto parque industrial capital hasta cuando hay tiempo anotarse",
-      "evidenceUrl": "https://www.rionegro.com.ar/politica/neuquen-lanzo-un-desarrollo-urbanistico-con-3-200-lotes-junto-al-parque-industrial-capital-hasta-cuando-hay-tiempo-para-anotarse-4793214/",
-      "sourcePriority": 2
+      "firstSeen": "2026-11-11T14:00:15.972541+00:00",
+      "isNew": true,
+      "titleKey": "mas 100 familias campo grande reclaman avances loteo social burgos digital",
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOcDdRTW1JZHRsSUh1Q1JhZkhkWnVsbkJjMVpJdmlXWTBKNDlSRUhNMUtsRjlfMzBpLURIX1Z4WTJ5SEpuNU9YX3hDcWgtOGdZMVRLMkd6YS1HaUl4aVFaVmF0d0dzdGZNREdkZkJTdEFhSmYxWjllUVdYdTh6TDdlWjFpVUoxWHU1bE4xaXRXUXo5SjVHSFNOUlBTSDg1UHhoSDduY2NldkJscXZMcEZTeVpLY2w0aUx2cG5UcklLWjQzT2NnUVBadEZFV2k?oc=5",
+      "sourcePriority": 3
+    },
+    {
+      "title": "Con 41 binomios cerró la inscripción del Rally de San Patricio del Chañar - MejorInformado.com",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOTnpRT1BqZ3MxSGhLNDNUTktKcFZJamRxZ0xGZG9EZTN0N1pTMDdIbHFNVktrNmFDN21iT3FqeGhJUmVOU0szeXFYdElEZmJGNy1IZnlaMjZZMUluY0lyczdCaHVuanE3aHBQN3U0cG9FYzNQLUYyaWFnSWlvbmh4NnQ2Q0lkTmlyZFhxQS1vcHU5NC1qeklqUml2MzdXSE5NekRzbE9mUHhqUdIBqgFBVV95cUxOTnpRT1BqZ3MxSGhLNDNUTktKcFZJamRxZ0xGZG9EZTN0N1pTMDdIbHFNVktrNmFDN21iT3FqeGhJUmVOU0szeXFYdElEZmJGNy1IZnlaMjZZMUluY0lyczdCaHVuanE3aHBQN3U0cG9FYzNQLUYyaWFnSWlvbmh4NnQ2Q0lkTmlyZFhxQS1vcHU5NC1qeklqUml2MzdXSE5NekRzbE9mUHhqUQ?oc=5",
+      "publishedAt": "2026-11-11T01:25:56+00:00",
+      "published": "2026-11-11T01:25:56+00:00",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxOTnpRT1BqZ3MxSGhLNDNUTktKcFZJamRxZ0xGZG9EZTN0N1pTMDdIbHFNVktrNmFDN21iT3FqeGhJUmVOU0szeXFYdElEZmJGNy1IZnlaMjZZMUluY0lyczdCaHVuanE3aHBQN3U0cG9FYzNQLUYyaWFnSWlvbmh4NnQ2Q0lkTmlyZFhxQS1vcHU5NC1qeklqUml2MzdXSE5NekRzbE9mUHhqUdIBqgFBVV95cUxOTnpRT1BqZ3MxSGhLNDNUTktKcFZJamRxZ0xGZG9EZTN0N1pTMDdIbHFNVktrNmFDN21iT3FqeGhJUmVOU0szeXFYdElEZmJGNy1IZnlaMjZZMUluY0lyczdCaHVuanE3aHBQN3U0cG9FYzNQLUYyaWFnSWlvbmh4NnQ2Q0lkTmlyZFhxQS1vcHU5NC1qeklqUml2MzdXSE5NekRzbE9mUHhqUQ?oc=5\" target=\"_blank\">Con 41 binomios cerró la inscripción del Rally de San Patricio del Chañar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MejorInformado.com</font>",
+      "source": "MejorInformado.com",
+      "sourceType": "BUSCADOR / RESPALDO",
+      "sourceUrl": "",
+      "collection": "BUSCADOR",
+      "query": "\"San Patricio del Chañar\"",
+      "relevance": 3,
+      "relevanceLabel": "DIRECTA",
+      "firstSeen": "2026-11-11T14:00:15.972541+00:00",
+      "isNew": true,
+      "titleKey": "binomios cerro inscripcion rally mejorinformado com",
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOTnpRT1BqZ3MxSGhLNDNUTktKcFZJamRxZ0xGZG9EZTN0N1pTMDdIbHFNVktrNmFDN21iT3FqeGhJUmVOU0szeXFYdElEZmJGNy1IZnlaMjZZMUluY0lyczdCaHVuanE3aHBQN3U0cG9FYzNQLUYyaWFnSWlvbmh4NnQ2Q0lkTmlyZFhxQS1vcHU5NC1qeklqUml2MzdXSE5NekRzbE9mUHhqUdIBqgFBVV95cUxOTnpRT1BqZ3MxSGhLNDNUTktKcFZJamRxZ0xGZG9EZTN0N1pTMDdIbHFNVktrNmFDN21iT3FqeGhJUmVOU0szeXFYdElEZmJGNy1IZnlaMjZZMUluY0lyczdCaHVuanE3aHBQN3U0cG9FYzNQLUYyaWFnSWlvbmh4NnQ2Q0lkTmlyZFhxQS1vcHU5NC1qeklqUml2MzdXSE5NekRzbE9mUHhqUQ?oc=5",
+      "sourcePriority": 3
     },
     {
       "title": "San Patricio del Chañar será sede de una nueva fecha del Rally Neuquino - NoticiasNQN",
@@ -4799,25 +4728,6 @@
       "sourcePriority": 3
     },
     {
-      "title": "Investigan la muerte de un joven de 19 años en San Patricio del Chañar - Minuto Neuquén",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPZ2xNeF9EMnN0TDBBanhCREJZOWd5cGVpeWZZU3NLLVNybWJWV09JOVlOcDJ4Q19Gc1hPRmFBUkZ6b0g5Y01qaGNHSzQyUDRhSVByRkFXU012N2xpQS1QN25UNkR6Z0NlMFlsWVBNRkJFWFAyQ2YxZDNRWlVXZ2FmcExOLXhvOUxQTDNiQU9ONWEySlJqcS1VOEZVOTRGVmxManpBQk00VGtfd3A1V1YxNEx1YjBaSXZHTG5ZUnNJS05WYm9DVVdkMThGYw?oc=5",
-      "publishedAt": "2026-10-31T13:00:00+00:00",
-      "published": "2026-10-31T13:00:00+00:00",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMiywFBVV95cUxPZ2xNeF9EMnN0TDBBanhCREJZOWd5cGVpeWZZU3NLLVNybWJWV09JOVlOcDJ4Q19Gc1hPRmFBUkZ6b0g5Y01qaGNHSzQyUDRhSVByRkFXU012N2xpQS1QN25UNkR6Z0NlMFlsWVBNRkJFWFAyQ2YxZDNRWlVXZ2FmcExOLXhvOUxQTDNiQU9ONWEySlJqcS1VOEZVOTRGVmxManpBQk00VGtfd3A1V1YxNEx1YjBaSXZHTG5ZUnNJS05WYm9DVVdkMThGYw?oc=5\" target=\"_blank\">Investigan la muerte de un joven de 19 años en San Patricio del Chañar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Minuto Neuquén</font>",
-      "source": "Minuto Neuquén",
-      "sourceType": "BUSCADOR / RESPALDO",
-      "sourceUrl": "",
-      "collection": "BUSCADOR",
-      "query": "\"San Patricio del Chañar\"",
-      "relevance": 3,
-      "relevanceLabel": "DIRECTA",
-      "firstSeen": "2026-11-09T09:30:09.078627+00:00",
-      "isNew": false,
-      "titleKey": "investigan muerte joven años minuto",
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPZ2xNeF9EMnN0TDBBanhCREJZOWd5cGVpeWZZU3NLLVNybWJWV09JOVlOcDJ4Q19Gc1hPRmFBUkZ6b0g5Y01qaGNHSzQyUDRhSVByRkFXU012N2xpQS1QN25UNkR6Z0NlMFlsWVBNRkJFWFAyQ2YxZDNRWlVXZ2FmcExOLXhvOUxQTDNiQU9ONWEySlJqcS1VOEZVOTRGVmxManpBQk00VGtfd3A1V1YxNEx1YjBaSXZHTG5ZUnNJS05WYm9DVVdkMThGYw?oc=5",
-      "sourcePriority": 3
-    },
-    {
       "title": "Investigan la muerte de un joven de 19 años en San Patricio del Chañar - Diario Neuquino",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOaFpITm1ILTRZY3VOS0ZGRE9DdEJEaXV4dlJQa3dxRHEtSU9QRU5yTWFEMWF6WEtkS1FFZVlGbDQxd1Jyc0VIZ0l4aG50RU1wRXJvc29FQURVb2l4dDh4bGFQWXlVTXpDY0RIVzE3OTZLeVF1OW0wSVZ2bkUzODNJNFpkZ0pnVG1lZFZqNU9xMTNELUZtSFNyVGx4dzFZTUw2aFpr?oc=5",
       "publishedAt": "2026-10-31T09:56:13+00:00",
@@ -4853,6 +4763,25 @@
       "isNew": false,
       "titleKey": "muerte joven años desperto nuevamente preocupacion patagonia press",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPbGVjUHU4WXhjRGp2REN5bmxicnFHVUt5ek9KaldrbmJYUXlsUVZPZTRveGl5VzlXTTBZRFhUWHoyY3ZYTG1oMktqczVQUGwtUmRpbjJBc25IU1VvMnl5X2xLVHNBTlU1c2RWSXV3a2FlWVF2NDlRRU14VWZ4ZldxaFJaS2ZLbkNleXJrN1lyT2ZHVXpteEFoV2dhTHc2dm82WTU2RjRLWnZreUUxc1k2VlRYUWUwc3Z5ZklGd2dwZXpJYjQ3ZHVLVEdXckJtOHluQ0NTRm5jaTZCZzlvUDRfMVVyS05YQXhxdjJMOA?oc=5",
+      "sourcePriority": 3
+    },
+    {
+      "title": "Investigan la muerte de un joven de 19 años en San Patricio del Chañar - Minuto Neuquén",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPZ2xNeF9EMnN0TDBBanhCREJZOWd5cGVpeWZZU3NLLVNybWJWV09JOVlOcDJ4Q19Gc1hPRmFBUkZ6b0g5Y01qaGNHSzQyUDRhSVByRkFXU012N2xpQS1QN25UNkR6Z0NlMFlsWVBNRkJFWFAyQ2YxZDNRWlVXZ2FmcExOLXhvOUxQTDNiQU9ONWEySlJqcS1VOEZVOTRGVmxManpBQk00VGtfd3A1V1YxNEx1YjBaSXZHTG5ZUnNJS05WYm9DVVdkMThGYw?oc=5",
+      "publishedAt": "2026-10-31T07:00:00+00:00",
+      "published": "2026-10-31T07:00:00+00:00",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMiywFBVV95cUxPZ2xNeF9EMnN0TDBBanhCREJZOWd5cGVpeWZZU3NLLVNybWJWV09JOVlOcDJ4Q19Gc1hPRmFBUkZ6b0g5Y01qaGNHSzQyUDRhSVByRkFXU012N2xpQS1QN25UNkR6Z0NlMFlsWVBNRkJFWFAyQ2YxZDNRWlVXZ2FmcExOLXhvOUxQTDNiQU9ONWEySlJqcS1VOEZVOTRGVmxManpBQk00VGtfd3A1V1YxNEx1YjBaSXZHTG5ZUnNJS05WYm9DVVdkMThGYw?oc=5\" target=\"_blank\">Investigan la muerte de un joven de 19 años en San Patricio del Chañar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Minuto Neuquén</font>",
+      "source": "Minuto Neuquén",
+      "sourceType": "BUSCADOR / RESPALDO",
+      "sourceUrl": "",
+      "collection": "BUSCADOR",
+      "query": "\"San Patricio del Chañar\"",
+      "relevance": 3,
+      "relevanceLabel": "DIRECTA",
+      "firstSeen": "2026-11-09T09:30:09.078627+00:00",
+      "isNew": false,
+      "titleKey": "investigan muerte joven años minuto",
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPZ2xNeF9EMnN0TDBBanhCREJZOWd5cGVpeWZZU3NLLVNybWJWV09JOVlOcDJ4Q19Gc1hPRmFBUkZ6b0g5Y01qaGNHSzQyUDRhSVByRkFXU012N2xpQS1QN25UNkR6Z0NlMFlsWVBNRkJFWFAyQ2YxZDNRWlVXZ2FmcExOLXhvOUxQTDNiQU9ONWEySlJqcS1VOEZVOTRGVmxManpBQk00VGtfd3A1V1YxNEx1YjBaSXZHTG5ZUnNJS05WYm9DVVdkMThGYw?oc=5",
       "sourcePriority": 3
     },
     {
@@ -4991,7 +4920,7 @@
   ],
   "territorialGraph": {
     "version": "2.0",
-    "generatedAt": "2026-11-11T05:56:51.385180+00:00",
+    "generatedAt": "2026-11-11T14:00:26.910728+00:00",
     "root": "spc",
     "rule": "evidence-first",
     "levels": [
@@ -5227,7 +5156,7 @@
         "aliases": [
           "parque industrial"
         ],
-        "eventCount": 1
+        "eventCount": 0
       },
       {
         "id": "loteo-social",
@@ -5237,7 +5166,7 @@
         "aliases": [
           "loteo social"
         ],
-        "eventCount": 0
+        "eventCount": 1
       },
       {
         "id": "costa-verde",
@@ -5540,7 +5469,7 @@
         "evidence": "menciones de ambos nodos dentro del mismo hecho"
       },
       {
-        "from": "parque-industrial",
+        "from": "loteo-social",
         "to": "spc",
         "relation": "COOCURRENCIA_TEXTUAL",
         "eventCount": 1,
@@ -5555,27 +5484,24 @@
       }
     ],
     "eventNodes": {
-      "CHA-e2161937d456": [
+      "CHA-d5b38a117a1f": [
+        "spc"
+      ],
+      "CHA-6da81d99e91d": [
         "spc",
-        "parque-industrial"
+        "loteo-social"
       ],
       "CHA-4b8240322bf2": [
         "spc",
         "ruta-7"
       ],
-      "CHA-e1ef239520a3": [
-        "spc"
-      ],
-      "CHA-111c9a6edcdd": [
-        "spc"
-      ],
-      "CHA-5dfadfac86a9": [
+      "CHA-859d2329b56b": [
         "spc"
       ],
       "CHA-b0c86458f453": [
         "spc"
       ],
-      "CHA-d5b38a117a1f": [
+      "CHA-8802dd694d3c": [
         "spc"
       ],
       "CHA-482c885515b8": [
@@ -5605,7 +5531,7 @@
       "nodes": 46,
       "activeNodes": 5,
       "edges": 4,
-      "eventsLinked": 10,
+      "eventsLinked": 9,
       "eventsWithMicrozones": 0,
       "eventsWithBarrios": 0,
       "eventsWithSectors": 1,
@@ -5625,16 +5551,16 @@
   },
   "audit": {
     "version": "1.0",
-    "updatedAt": "2026-11-11T05:56:51.414804+00:00",
+    "updatedAt": "2026-11-11T14:00:26.957203+00:00",
     "rule": "fact != coverage; territory requires textual evidence",
     "facts": 10,
-    "coverage": 43,
-    "coveragePerFact": 4.3,
+    "coverage": 35,
+    "coveragePerFact": 3.5,
     "directAnchorFacts": 10,
     "directAnchorPct": 100.0,
     "territorySpecificFacts": 4,
     "territorySpecificPct": 40.0,
-    "averageSourcesPerFact": 2.9,
+    "averageSourcesPerFact": 2.4,
     "activeTerritorialNodes": 5,
     "failedSources": 10,
     "acceptedWithoutLocalEvidence": 0,
