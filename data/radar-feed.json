@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T14:00:15.972541+00:00",
+  "updatedAt": "2026-11-11T21:18:35.031176+00:00",
   "window": "14 días",
   "purpose": "Detectar qué se está moviendo en San Patricio del Chañar y mostrar de dónde surge cada señal.",
   "architecture": "contrato universal de procedencia + fuentes profesionales + adaptadores específicos + validación semántica + temporalidad + evidencia editorial separada",
@@ -49,7 +49,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://chanardigital.com.ar/",
-      "lastFetch": "2026-11-11T13:59:52.315609+00:00",
+      "lastFetch": "2026-11-11T21:17:33.214759+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -65,7 +65,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.radiomia.com.ar/",
-      "lastFetch": "2026-11-11T13:59:53.416933+00:00",
+      "lastFetch": "2026-11-11T21:17:34.671101+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -80,7 +80,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://tuitvacamuerta.com/",
-      "lastFetch": "2026-11-11T13:59:54.989159+00:00",
+      "lastFetch": "2026-11-11T21:17:36.423298+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -95,12 +95,12 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.vacamuertanews.com/",
-      "lastFetch": "2026-11-11T13:59:55.288817+00:00",
+      "lastFetch": "2026-11-11T21:18:16.603617+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
-        "RSS:HTTPError",
-        "WEB:AttributeError"
+        "RSS:TimeoutError",
+        "WEB:TimeoutError"
       ],
       "directAvailability": "failed",
       "freshnessHours": null
@@ -111,7 +111,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.neuqueninforma.gob.ar/",
-      "lastFetch": "2026-11-11T13:59:56.553892+00:00",
+      "lastFetch": "2026-11-11T21:18:18.191511+00:00",
       "success": false,
       "attempted": 3,
       "failures": [
@@ -128,7 +128,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://sanpatricio.gob.ar/",
-      "lastFetch": "2026-11-11T13:59:57.518092+00:00",
+      "lastFetch": "2026-11-11T21:18:19.215151+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -143,7 +143,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://boletinoficial.neuquen.gov.ar/",
-      "lastFetch": "2026-11-11T13:59:58.483363+00:00",
+      "lastFetch": "2026-11-11T21:18:19.987314+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -158,7 +158,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.lmneuquen.com/",
-      "lastFetch": "2026-11-11T13:59:58.678322+00:00",
+      "lastFetch": "2026-11-11T21:18:20.304628+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -171,17 +171,17 @@
     {
       "name": "Diario Río Negro",
       "type": "MEDIO REGIONAL",
-      "mode": "SIN RESPUESTA",
-      "signals": 0,
+      "mode": "RSS DIRECTO",
+      "signals": 1,
       "url": "https://www.rionegro.com.ar/",
-      "lastFetch": "2026-11-11T14:00:00.790053+00:00",
+      "lastFetch": "2026-11-11T21:18:22.709818+00:00",
       "success": true,
       "attempted": 2,
       "failures": [
         "WEB:AttributeError"
       ],
       "directAvailability": "available",
-      "freshnessHours": null
+      "freshnessHours": 2.2
     },
     {
       "name": "Mejor Informado",
@@ -189,7 +189,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.mejorinformado.com/",
-      "lastFetch": "2026-11-11T14:00:01.484236+00:00",
+      "lastFetch": "2026-11-11T21:18:23.487436+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -205,7 +205,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.diariamenteneuquen.com/",
-      "lastFetch": "2026-11-11T14:00:02.134627+00:00",
+      "lastFetch": "2026-11-11T21:18:24.350661+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -602,11 +602,11 @@
       "group": "REGIONAL",
       "role": "medio regional",
       "url": "https://www.rionegro.com.ar/",
-      "signals": 0,
-      "directSignals": 0,
+      "signals": 1,
+      "directSignals": 1,
       "anchoredSignals": 0,
-      "lastSeen": null,
-      "status": "SIN SEÑALES EN VENTANA",
+      "lastSeen": "2026-11-11T19:07:02+00:00",
+      "status": "CON SEÑALES",
       "note": "ausencia de señales no equivale a ausencia del hecho"
     },
     {
@@ -724,6 +724,11 @@
     },
     {
       "term": "loteo social",
+      "hits": 1,
+      "direct": 1
+    },
+    {
+      "term": "centro de salud",
       "hits": 1,
       "direct": 1
     },
@@ -888,11 +893,6 @@
       "direct": 0
     },
     {
-      "term": "centro de salud",
-      "hits": 0,
-      "direct": 0
-    },
-    {
       "term": "bomberos voluntarios",
       "hits": 0,
       "direct": 0
@@ -995,8 +995,8 @@
         "source": "Chañar Digital",
         "group": "LOCAL",
         "role": "medio local",
-        "accepted": 15,
-        "direct": 15,
+        "accepted": 14,
+        "direct": 14,
         "anchored": 0,
         "falsePositives": 0,
         "falsePositiveTypes": [],
@@ -1048,12 +1048,14 @@
         "source": "Diario Río Negro",
         "group": "REGIONAL",
         "role": "medio regional",
-        "accepted": 0,
-        "direct": 0,
+        "accepted": 1,
+        "direct": 1,
         "anchored": 0,
         "falsePositives": 0,
         "falsePositiveTypes": [],
-        "topics": []
+        "topics": [
+          "SALUD"
+        ]
       },
       {
         "source": "Dirección Provincial de Vialidad",
@@ -1234,8 +1236,8 @@
         "source": "NoticiasNQN",
         "group": "OBSERVADA",
         "role": "fuente detectada fuera del catálogo",
-        "accepted": 3,
-        "direct": 3,
+        "accepted": 2,
+        "direct": 2,
         "anchored": 0,
         "falsePositives": 0,
         "falsePositiveTypes": [],
@@ -1350,19 +1352,6 @@
     "matrix": [
       {
         "source": "Chañar Digital",
-        "topic": "SERVICIOS",
-        "accepted": 7,
-        "direct": 7,
-        "anchored": 0,
-        "falsePositives": 0,
-        "territorialTerms": [
-          "san patricio del chañar",
-          "el chañar",
-          "loteo social"
-        ]
-      },
-      {
-        "source": "Chañar Digital",
         "topic": "EDUCACIÓN",
         "accepted": 6,
         "direct": 6,
@@ -1372,6 +1361,19 @@
           "san patricio del chañar",
           "el chañar",
           "epet 26"
+        ]
+      },
+      {
+        "source": "Chañar Digital",
+        "topic": "SERVICIOS",
+        "accepted": 6,
+        "direct": 6,
+        "anchored": 0,
+        "falsePositives": 0,
+        "territorialTerms": [
+          "san patricio del chañar",
+          "el chañar",
+          "loteo social"
         ]
       },
       {
@@ -1399,10 +1401,10 @@
         ]
       },
       {
-        "source": "NoticiasNQN",
+        "source": "MejorInformado.com",
         "topic": "SERVICIOS",
-        "accepted": 3,
-        "direct": 3,
+        "accepted": 2,
+        "direct": 2,
         "anchored": 0,
         "falsePositives": 0,
         "territorialTerms": [
@@ -1411,7 +1413,7 @@
         ]
       },
       {
-        "source": "MejorInformado.com",
+        "source": "NoticiasNQN",
         "topic": "SERVICIOS",
         "accepted": 2,
         "direct": 2,
@@ -1485,6 +1487,17 @@
         ]
       },
       {
+        "source": "Diario Río Negro",
+        "topic": "SALUD",
+        "accepted": 1,
+        "direct": 1,
+        "anchored": 0,
+        "falsePositives": 0,
+        "territorialTerms": [
+          "centro de salud"
+        ]
+      },
+      {
         "source": "MejorInformado.com",
         "topic": "MOVILIDAD",
         "accepted": 1,
@@ -1549,8 +1562,8 @@
     "languagePrecision": [
       {
         "term": "san patricio del chañar",
-        "acceptedHits": 25,
-        "directHits": 25,
+        "acceptedHits": 23,
+        "directHits": 23,
         "rejectedTitleHits": 0,
         "territorialStrength": "FUERTE"
       },
@@ -1563,8 +1576,8 @@
       },
       {
         "term": "el chañar",
-        "acceptedHits": 27,
-        "directHits": 27,
+        "acceptedHits": 25,
+        "directHits": 25,
         "rejectedTitleHits": 0,
         "territorialStrength": "FUERTE"
       },
@@ -1787,8 +1800,8 @@
       },
       {
         "term": "centro de salud",
-        "acceptedHits": 0,
-        "directHits": 0,
+        "acceptedHits": 1,
+        "directHits": 1,
         "rejectedTitleHits": 0,
         "territorialStrength": "FUERTE"
       },
@@ -1889,12 +1902,12 @@
     "interpretation": "auditoría sobre eventos aceptados; la próxima capa debe instrumentar rechazos antes del clustering"
   },
   "stats": {
-    "total": 25,
-    "direct": 25,
+    "total": 26,
+    "direct": 26,
     "regional": 0,
-    "new": 2,
-    "sources": 9,
-    "directSignals": 0,
+    "new": 1,
+    "sources": 10,
+    "directSignals": 1,
     "localDirectSignals": 0,
     "radioDirectSignals": 0,
     "precisionRule": "evidence-first",
@@ -1907,7 +1920,7 @@
       "forecastGustKmh": 27.0,
       "forecastWindDirection": "SO",
       "forecastTemperatureC": 31.0,
-      "retrievedAt": "2026-11-11T13:59:49.834417+00:00",
+      "retrievedAt": "2026-11-11T21:17:30.938288+00:00",
       "source": "AIC",
       "sourceTier": "primary",
       "sourceUrl": "https://www.aic.gob.ar/sitio/home?a=1015&z=1967225803",
@@ -1937,7 +1950,7 @@
       "currentProgrammedMinM3s": 340,
       "programDate": "2026-11-12",
       "tableDate": "2026-11-11",
-      "retrievedAt": "2026-11-11T13:59:49.834417+00:00",
+      "retrievedAt": "2026-11-11T21:17:30.938288+00:00",
       "source": "AIC",
       "sourceTier": "primary",
       "sourceUrl": "https://www.aic.gob.ar/sitio/caudales",
@@ -1957,17 +1970,17 @@
         "url": "https://www.aic.gob.ar/sitio/caudales"
       }
     ],
-    "updatedAt": "2026-11-11T13:59:49.834417+00:00"
+    "updatedAt": "2026-11-11T21:17:30.938288+00:00"
   },
   "operational": {
-    "updatedAt": "2026-11-11T13:59:49.834417+00:00",
+    "updatedAt": "2026-11-11T21:17:30.938288+00:00",
     "route7": {
       "source": "Dirección Provincial de Vialidad",
       "sourceTier": "primary",
       "sourceUrl": "https://www.dpvneuquen.gov.ar/",
       "semanticState": null,
       "publicationState": "source_reachable_no_current_machine_readable_state",
-      "retrievedAt": "2026-11-11T13:59:49.834417+00:00",
+      "retrievedAt": "2026-11-11T21:17:30.938288+00:00",
       "evidence": {
         "route7Mention": true,
         "route8Mention": false
@@ -1979,7 +1992,7 @@
       "sourceUrl": "https://www.dpvneuquen.gov.ar/",
       "semanticState": null,
       "publicationState": "source_reachable_no_current_machine_readable_state",
-      "retrievedAt": "2026-11-11T13:59:49.834417+00:00",
+      "retrievedAt": "2026-11-11T21:17:30.938288+00:00",
       "evidence": {
         "route7Mention": true,
         "route8Mention": false
@@ -1993,7 +2006,7 @@
       "eventType": null,
       "detail": null,
       "publicationState": "source_reachable_no_specific_local_notice",
-      "retrievedAt": "2026-11-11T13:59:49.834417+00:00"
+      "retrievedAt": "2026-11-11T21:17:30.938288+00:00"
     },
     "water": {
       "source": "EPAS",
@@ -2003,7 +2016,7 @@
       "eventType": null,
       "detail": null,
       "publicationState": "source_reachable_no_specific_local_notice",
-      "retrievedAt": "2026-11-11T13:59:49.834417+00:00"
+      "retrievedAt": "2026-11-11T21:17:30.938288+00:00"
     },
     "sources": [
       {
@@ -2413,11 +2426,11 @@
     {
       "id": "CONVERSACIÓN",
       "label": "Conversación general",
-      "signal": 10,
+      "signal": 11,
       "status": "cobertura editorial",
-      "freshnessHours": 8.0,
+      "freshnessHours": 2.2,
       "mode": "evidencia editorial",
-      "evidenceCount": 10,
+      "evidenceCount": 11,
       "sourceContract": {
         "primary": "medios locales identificables",
         "secondary": "fuentes institucionales competentes",
@@ -2455,7 +2468,7 @@
       "label": "Corredor Ruta 7",
       "signal": 1,
       "status": "estado vial",
-      "freshnessHours": 73.1,
+      "freshnessHours": 80.4,
       "mode": "evidencia territorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -2495,7 +2508,7 @@
         "sourceUrl": "https://www.dpvneuquen.gov.ar/",
         "semanticState": null,
         "publicationState": "source_reachable_no_current_machine_readable_state",
-        "retrievedAt": "2026-11-11T13:59:49.834417+00:00",
+        "retrievedAt": "2026-11-11T21:17:30.938288+00:00",
         "evidence": {
           "route7Mention": true,
           "route8Mention": false
@@ -2547,7 +2560,7 @@
         "sourceUrl": "https://www.dpvneuquen.gov.ar/",
         "semanticState": null,
         "publicationState": "source_reachable_no_current_machine_readable_state",
-        "retrievedAt": "2026-11-11T13:59:49.834417+00:00",
+        "retrievedAt": "2026-11-11T21:17:30.938288+00:00",
         "evidence": {
           "route7Mention": true,
           "route8Mention": false
@@ -2647,7 +2660,7 @@
         "eventType": null,
         "detail": null,
         "publicationState": "source_reachable_no_specific_local_notice",
-        "retrievedAt": "2026-11-11T13:59:49.834417+00:00"
+        "retrievedAt": "2026-11-11T21:17:30.938288+00:00"
       }
     },
     {
@@ -2697,7 +2710,7 @@
         "eventType": null,
         "detail": null,
         "publicationState": "source_reachable_no_specific_local_notice",
-        "retrievedAt": "2026-11-11T13:59:49.834417+00:00"
+        "retrievedAt": "2026-11-11T21:17:30.938288+00:00"
       }
     },
     {
@@ -2743,11 +2756,11 @@
     {
       "id": "SALUD",
       "label": "Salud",
-      "signal": 0,
+      "signal": 1,
       "status": "evidencia sanitaria",
-      "freshnessHours": null,
+      "freshnessHours": 2.2,
       "mode": "evidencia editorial",
-      "evidenceCount": 0,
+      "evidenceCount": 1,
       "sourceContract": {
         "primary": "Ministerio de Salud de la Provincia del Neuquén",
         "secondary": "Hospital San Patricio del Chañar Dra. Alicia Cruz",
@@ -2785,7 +2798,7 @@
       "label": "Educación",
       "signal": 1,
       "status": "evidencia educativa",
-      "freshnessHours": 1094.9,
+      "freshnessHours": 1102.2,
       "mode": "evidencia editorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -2865,7 +2878,7 @@
       "label": "Seguridad / emergencias",
       "signal": 1,
       "status": "cobertura de emergencia",
-      "freshnessHours": 180.5,
+      "freshnessHours": 187.8,
       "mode": "evidencia editorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -2905,7 +2918,7 @@
       "label": "Territorio / microzonas",
       "signal": 1,
       "status": "hecho territorial",
-      "freshnessHours": 8.0,
+      "freshnessHours": 15.3,
       "mode": "evidencia territorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -2962,7 +2975,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://chanardigital.com.ar/",
-        "lastFetch": "2026-11-11T13:59:52.315609+00:00",
+        "lastFetch": "2026-11-11T21:17:33.214759+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -2978,7 +2991,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.radiomia.com.ar/",
-        "lastFetch": "2026-11-11T13:59:53.416933+00:00",
+        "lastFetch": "2026-11-11T21:17:34.671101+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -2993,7 +3006,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://tuitvacamuerta.com/",
-        "lastFetch": "2026-11-11T13:59:54.989159+00:00",
+        "lastFetch": "2026-11-11T21:17:36.423298+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -3008,12 +3021,12 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.vacamuertanews.com/",
-        "lastFetch": "2026-11-11T13:59:55.288817+00:00",
+        "lastFetch": "2026-11-11T21:18:16.603617+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
-          "RSS:HTTPError",
-          "WEB:AttributeError"
+          "RSS:TimeoutError",
+          "WEB:TimeoutError"
         ],
         "directAvailability": "failed",
         "freshnessHours": null
@@ -3024,7 +3037,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.neuqueninforma.gob.ar/",
-        "lastFetch": "2026-11-11T13:59:56.553892+00:00",
+        "lastFetch": "2026-11-11T21:18:18.191511+00:00",
         "success": false,
         "attempted": 3,
         "failures": [
@@ -3041,7 +3054,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://sanpatricio.gob.ar/",
-        "lastFetch": "2026-11-11T13:59:57.518092+00:00",
+        "lastFetch": "2026-11-11T21:18:19.215151+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -3056,7 +3069,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://boletinoficial.neuquen.gov.ar/",
-        "lastFetch": "2026-11-11T13:59:58.483363+00:00",
+        "lastFetch": "2026-11-11T21:18:19.987314+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -3071,7 +3084,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.lmneuquen.com/",
-        "lastFetch": "2026-11-11T13:59:58.678322+00:00",
+        "lastFetch": "2026-11-11T21:18:20.304628+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3084,17 +3097,17 @@
       {
         "name": "Diario Río Negro",
         "type": "MEDIO REGIONAL",
-        "mode": "SIN RESPUESTA",
-        "signals": 0,
+        "mode": "RSS DIRECTO",
+        "signals": 1,
         "url": "https://www.rionegro.com.ar/",
-        "lastFetch": "2026-11-11T14:00:00.790053+00:00",
+        "lastFetch": "2026-11-11T21:18:22.709818+00:00",
         "success": true,
         "attempted": 2,
         "failures": [
           "WEB:AttributeError"
         ],
         "directAvailability": "available",
-        "freshnessHours": null
+        "freshnessHours": 2.2
       },
       {
         "name": "Mejor Informado",
@@ -3102,7 +3115,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.mejorinformado.com/",
-        "lastFetch": "2026-11-11T14:00:01.484236+00:00",
+        "lastFetch": "2026-11-11T21:18:23.487436+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3118,7 +3131,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.diariamenteneuquen.com/",
-        "lastFetch": "2026-11-11T14:00:02.134627+00:00",
+        "lastFetch": "2026-11-11T21:18:24.350661+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3136,7 +3149,7 @@
   },
   "events": [
     {
-      "eventId": "CHA-d5b38a117a1f",
+      "eventId": "CHA-635a8290d749",
       "title": "Con 41 binomios cerró la inscripción del Rally de San Patricio del Chañar - MejorInformado.com",
       "publishedAt": "2026-11-11T01:25:56+00:00",
       "firstSeen": "2026-11-10T18:33:33.196562+00:00",
@@ -3145,8 +3158,8 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SERVICIOS",
-      "movement": 73,
-      "coverage": 5,
+      "movement": 71,
+      "coverage": 3,
       "sourceCount": 3,
       "directSourceCount": 0,
       "territorialAnchors": [
@@ -3170,11 +3183,11 @@
           "sourceType": "BUSCADOR / RESPALDO",
           "sourceUrl": "",
           "collection": "BUSCADOR",
-          "query": "\"San Patricio del Chañar\"",
+          "query": "\"San Patricio del Chañar\" deporte club polideportivo",
           "relevance": 3,
           "relevanceLabel": "DIRECTA",
           "firstSeen": "2026-11-11T14:00:15.972541+00:00",
-          "isNew": true,
+          "isNew": false,
           "titleKey": "binomios cerro inscripcion rally mejorinformado com",
           "evidenceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOTnpRT1BqZ3MxSGhLNDNUTktKcFZJamRxZ0xGZG9EZTN0N1pTMDdIbHFNVktrNmFDN21iT3FqeGhJUmVOU0szeXFYdElEZmJGNy1IZnlaMjZZMUluY0lyczdCaHVuanE3aHBQN3U0cG9FYzNQLUYyaWFnSWlvbmh4NnQ2Q0lkTmlyZFhxQS1vcHU5NC1qeklqUml2MzdXSE5NekRzbE9mUHhqUdIBqgFBVV95cUxOTnpRT1BqZ3MxSGhLNDNUTktKcFZJamRxZ0xGZG9EZTN0N1pTMDdIbHFNVktrNmFDN21iT3FqeGhJUmVOU0szeXFYdElEZmJGNy1IZnlaMjZZMUluY0lyczdCaHVuanE3aHBQN3U0cG9FYzNQLUYyaWFnSWlvbmh4NnQ2Q0lkTmlyZFhxQS1vcHU5NC1qeklqUml2MzdXSE5NekRzbE9mUHhqUQ?oc=5",
           "sourcePriority": 3
@@ -3199,44 +3212,6 @@
           "sourcePriority": 3
         },
         {
-          "title": "San Patricio del Chañar será sede de una nueva fecha del Rally Neuquino - NoticiasNQN",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNk9jdGxwSEQ4TmxiLURmcHlSemtkNnp5R3NySHV3MWpCNXVRS09nYnlidmFGRnp2VzkxRk5nTVJVWi14VWl0Q05LRURuM2JkMXE4WFRyaWNURnh4WTNqaEZKNFV3SmhVTFBwVW5neUplRnVKTTM0a0h5c3ZXWEJqRXFyOUVUTE5UeEJvcDJHeWVYeHI2dmF0T3pxSmdvR0NuaXZCZkV5NEFPRG9jVnhmQmVXNUJIT01TU3VLYzBnRndvRkRFbzlZdNIBzgFBVV95cUxQQU5oSnZGRHF2R1NZUUpzM2h3ZFRTcmlSZldzQi1Nc3d0N3pCcXFzMlU0YjQzZ1BCT2xLVjQ4TzN2ZkhpR1ZJcC1ieFZZNzAtQThGaFVJSlhaeWd3NE9GaFZoM2doSV85eW91S19KMG5vbGhNbVBOdURfYkJ5TjJYbUxseHhqV1ZTZXlQMjlfREkxOEJ0cDNQYnYwV2RkMGlsU3RIWEZkZjNhRDh5YWh1LWFzd0xqYzhuMHdvVGhGMEZRYU5mQmVOUzVHYmJnZw?oc=5",
-          "publishedAt": "2026-11-10T12:22:36+00:00",
-          "published": "2026-11-10T12:22:36+00:00",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNk9jdGxwSEQ4TmxiLURmcHlSemtkNnp5R3NySHV3MWpCNXVRS09nYnlidmFGRnp2VzkxRk5nTVJVWi14VWl0Q05LRURuM2JkMXE4WFRyaWNURnh4WTNqaEZKNFV3SmhVTFBwVW5neUplRnVKTTM0a0h5c3ZXWEJqRXFyOUVUTE5UeEJvcDJHeWVYeHI2dmF0T3pxSmdvR0NuaXZCZkV5NEFPRG9jVnhmQmVXNUJIT01TU3VLYzBnRndvRkRFbzlZdNIBzgFBVV95cUxQQU5oSnZGRHF2R1NZUUpzM2h3ZFRTcmlSZldzQi1Nc3d0N3pCcXFzMlU0YjQzZ1BCT2xLVjQ4TzN2ZkhpR1ZJcC1ieFZZNzAtQThGaFVJSlhaeWd3NE9GaFZoM2doSV85eW91S19KMG5vbGhNbVBOdURfYkJ5TjJYbUxseHhqV1ZTZXlQMjlfREkxOEJ0cDNQYnYwV2RkMGlsU3RIWEZkZjNhRDh5YWh1LWFzd0xqYzhuMHdvVGhGMEZRYU5mQmVOUzVHYmJnZw?oc=5\" target=\"_blank\">San Patricio del Chañar será sede de una nueva fecha del Rally Neuquino</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NoticiasNQN</font>",
-          "source": "NoticiasNQN",
-          "sourceType": "BUSCADOR / RESPALDO",
-          "sourceUrl": "",
-          "collection": "BUSCADOR",
-          "query": "\"San Patricio del Chañar\"",
-          "relevance": 3,
-          "relevanceLabel": "DIRECTA",
-          "firstSeen": "2026-11-10T18:33:33.196562+00:00",
-          "isNew": false,
-          "titleKey": "sera sede nueva fecha rally neuquino noticiasnqn",
-          "evidenceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNk9jdGxwSEQ4TmxiLURmcHlSemtkNnp5R3NySHV3MWpCNXVRS09nYnlidmFGRnp2VzkxRk5nTVJVWi14VWl0Q05LRURuM2JkMXE4WFRyaWNURnh4WTNqaEZKNFV3SmhVTFBwVW5neUplRnVKTTM0a0h5c3ZXWEJqRXFyOUVUTE5UeEJvcDJHeWVYeHI2dmF0T3pxSmdvR0NuaXZCZkV5NEFPRG9jVnhmQmVXNUJIT01TU3VLYzBnRndvRkRFbzlZdNIBzgFBVV95cUxQQU5oSnZGRHF2R1NZUUpzM2h3ZFRTcmlSZldzQi1Nc3d0N3pCcXFzMlU0YjQzZ1BCT2xLVjQ4TzN2ZkhpR1ZJcC1ieFZZNzAtQThGaFVJSlhaeWd3NE9GaFZoM2doSV85eW91S19KMG5vbGhNbVBOdURfYkJ5TjJYbUxseHhqV1ZTZXlQMjlfREkxOEJ0cDNQYnYwV2RkMGlsU3RIWEZkZjNhRDh5YWh1LWFzd0xqYzhuMHdvVGhGMEZRYU5mQmVOUzVHYmJnZw?oc=5",
-          "sourcePriority": 3
-        },
-        {
-          "title": "Una delegación de San Patricio del Chañar viajó a Luján para participar de la misa del papa León XIV - Chañar Digital",
-          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOSjN0RGhmVlgzeWVPVGY4ZWthU3VybE81UXNGLVhvV0JoN1poNnZERjBLczBjRFJEM1R4UFpYM2hUdTI1UzZPdjVjdU51Sy1tT2hsNVctd2ZNUVpXamx1UnBXSm5wYVFFSFFqMXoxNUZCNDgtcDk3MTNUeEZ2dTExSlF1MjRGa3BLcmdhQUFvWEY2OU9ySXNkWGNUeE5rMWhNcE90eFFLSE5PT3hCVE1kejhKSFpMVjhDY3pHbkV4cUw3WEpkejNsOW5BQXdpaWZmZmVRWnYtYmVscUktWGdvSElmUzJ5ZnYwdUE?oc=5",
-          "publishedAt": "2026-11-09T22:04:22+00:00",
-          "published": "2026-11-09T22:04:22+00:00",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMi6gFBVV95cUxOSjN0RGhmVlgzeWVPVGY4ZWthU3VybE81UXNGLVhvV0JoN1poNnZERjBLczBjRFJEM1R4UFpYM2hUdTI1UzZPdjVjdU51Sy1tT2hsNVctd2ZNUVpXamx1UnBXSm5wYVFFSFFqMXoxNUZCNDgtcDk3MTNUeEZ2dTExSlF1MjRGa3BLcmdhQUFvWEY2OU9ySXNkWGNUeE5rMWhNcE90eFFLSE5PT3hCVE1kejhKSFpMVjhDY3pHbkV4cUw3WEpkejNsOW5BQXdpaWZmZmVRWnYtYmVscUktWGdvSElmUzJ5ZnYwdUE?oc=5\" target=\"_blank\">Una delegación de San Patricio del Chañar viajó a Luján para participar de la misa del papa León XIV</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Chañar Digital</font>",
-          "source": "Chañar Digital",
-          "sourceType": "BUSCADOR / RESPALDO",
-          "sourceUrl": "",
-          "collection": "BUSCADOR",
-          "query": "site:chanardigital.com.ar \"San Patricio del Chañar\"",
-          "relevance": 3,
-          "relevanceLabel": "DIRECTA",
-          "firstSeen": "2026-11-10T02:40:25.397970+00:00",
-          "isNew": false,
-          "titleKey": "delegacion viajo lujan participar misa papa leon xiv digital",
-          "evidenceUrl": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOSjN0RGhmVlgzeWVPVGY4ZWthU3VybE81UXNGLVhvV0JoN1poNnZERjBLczBjRFJEM1R4UFpYM2hUdTI1UzZPdjVjdU51Sy1tT2hsNVctd2ZNUVpXamx1UnBXSm5wYVFFSFFqMXoxNUZCNDgtcDk3MTNUeEZ2dTExSlF1MjRGa3BLcmdhQUFvWEY2OU9ySXNkWGNUeE5rMWhNcE90eFFLSE5PT3hCVE1kejhKSFpMVjhDY3pHbkV4cUw3WEpkejNsOW5BQXdpaWZmZmVRWnYtYmVscUktWGdvSElmUzJ5ZnYwdUE?oc=5",
-          "sourcePriority": 3
-        },
-        {
           "title": "Una delegación de San Patricio del Chañar viajó a Luján para participar de la misa del papa León XIV - Chañar Digital",
           "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOSjN0RGhmVlgzeWVPVGY4ZWthU3VybE81UXNGLVhvV0JoN1poNnZERjBLczBjRFJEM1R4UFpYM2hUdTI1UzZPdjVjdU51Sy1tT2hsNVctd2ZNUVpXamx1UnBXSm5wYVFFSFFqMXoxNUZCNDgtcDk3MTNUeEZ2dTExSlF1MjRGa3BLcmdhQUFvWEY2OU9ySXNkWGNUeE5rMWhNcE90eFFLSE5PT3hCVE1kejhKSFpMVjhDY3pHbkV4cUw3WEpkejNsOW5BQXdpaWZmZmVRWnYtYmVscUktWGdvSElmUzJ5ZnYwdUE?oc=5",
           "publishedAt": "2026-11-09T22:04:22+00:00",
@@ -3256,13 +3231,93 @@
           "sourcePriority": 3
         }
       ],
-      "lifecycle": "EMERGENTE",
-      "movementDelta": 41,
-      "previousCoverage": 5,
+      "lifecycle": "ACTIVO",
+      "movementDelta": 46,
+      "previousCoverage": 2,
       "newSources": [
+        "MejorInformado.com",
         "NoticiasNQN"
       ],
       "sourceDiversity": 3,
+      "memoryMatched": true,
+      "isNew": false,
+      "view": "INCIDENCIA",
+      "incidenceEligible": true,
+      "signalReason": "reservado a incidencia territorial",
+      "incidenceReason": "anclaje directo + tema operativo/local",
+      "territory": {
+        "version": "2.0",
+        "primary": "San Patricio del Chañar",
+        "nodes": [
+          "San Patricio del Chañar"
+        ],
+        "sectors": [],
+        "barrios": [],
+        "microzones": [],
+        "corridors": [],
+        "institutions": [],
+        "services": [],
+        "spaces": [],
+        "production": [],
+        "path": "San Patricio del Chañar",
+        "evidence": [
+          {
+            "node": "San Patricio del Chañar",
+            "level": "localidad",
+            "evidence": "DIRECTA"
+          }
+        ]
+      }
+    },
+    {
+      "eventId": "CHA-d7f368e9cc79",
+      "title": "Incidente en un centro de salud de Bariloche con un sillón odontológico: una profesional lesionada",
+      "publishedAt": "2026-11-11T19:07:02+00:00",
+      "firstSeen": "2026-11-11T21:18:35.031176+00:00",
+      "lastSeen": "2026-11-11T19:07:02+00:00",
+      "relevance": 3,
+      "relevanceLabel": "DIRECTA",
+      "incidenceLabel": "DIRECTA EN CHANAR",
+      "topic": "SALUD",
+      "movement": 60,
+      "coverage": 1,
+      "sourceCount": 1,
+      "directSourceCount": 1,
+      "territorialAnchors": [
+        "centro de salud"
+      ],
+      "sources": [
+        "Diario Río Negro"
+      ],
+      "evidenceUrl": "https://www.rionegro.com.ar/sociedad/incidente-en-un-centro-de-salud-de-bariloche-con-un-sillon-odontologico-una-profesional-lesionada-4794664/",
+      "items": [
+        {
+          "title": "Incidente en un centro de salud de Bariloche con un sillón odontológico: una profesional lesionada",
+          "url": "https://www.rionegro.com.ar/sociedad/incidente-en-un-centro-de-salud-de-bariloche-con-un-sillon-odontologico-una-profesional-lesionada-4794664/",
+          "publishedAt": "2026-11-11T19:07:02+00:00",
+          "published": "2026-11-11T19:07:02+00:00",
+          "description": "",
+          "source": "Diario Río Negro",
+          "sourceType": "MEDIO REGIONAL",
+          "sourceUrl": "https://www.rionegro.com.ar/",
+          "collection": "DIRECTA",
+          "query": "https://www.rionegro.com.ar/feed/",
+          "relevance": 3,
+          "relevanceLabel": "DIRECTA",
+          "firstSeen": "2026-11-11T21:18:35.031176+00:00",
+          "isNew": true,
+          "titleKey": "incidente centro salud bariloche sillon odontologico profesional lesionada",
+          "evidenceUrl": "https://www.rionegro.com.ar/sociedad/incidente-en-un-centro-de-salud-de-bariloche-con-un-sillon-odontologico-una-profesional-lesionada-4794664/",
+          "sourcePriority": 2
+        }
+      ],
+      "lifecycle": "EMERGENTE",
+      "movementDelta": -13,
+      "previousCoverage": 5,
+      "newSources": [
+        "Diario Río Negro"
+      ],
+      "sourceDiversity": 1,
       "memoryMatched": true,
       "isNew": false,
       "view": "INCIDENCIA",
@@ -3303,7 +3358,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SERVICIOS",
-      "movement": 59,
+      "movement": 57,
       "coverage": 1,
       "sourceCount": 1,
       "directSourceCount": 0,
@@ -3329,15 +3384,15 @@
           "relevance": 3,
           "relevanceLabel": "DIRECTA",
           "firstSeen": "2026-11-11T14:00:15.972541+00:00",
-          "isNew": true,
+          "isNew": false,
           "titleKey": "mas 100 familias campo grande reclaman avances loteo social burgos digital",
           "evidenceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOcDdRTW1JZHRsSUh1Q1JhZkhkWnVsbkJjMVpJdmlXWTBKNDlSRUhNMUtsRjlfMzBpLURIX1Z4WTJ5SEpuNU9YX3hDcWgtOGdZMVRLMkd6YS1HaUl4aVFaVmF0d0dzdGZNREdkZkJTdEFhSmYxWjllUVdYdTh6TDdlWjFpVUoxWHU1bE4xaXRXUXo5SjVHSFNOUlBTSDg1UHhoSDduY2NldkJscXZMcEZTeVpLY2w0aUx2cG5UcklLWjQzT2NnUVBadEZFV2k?oc=5",
           "sourcePriority": 3
         }
       ],
       "lifecycle": "EMERGENTE",
-      "movementDelta": 4,
-      "previousCoverage": 9,
+      "movementDelta": -2,
+      "previousCoverage": 1,
       "newSources": [],
       "sourceDiversity": 1,
       "memoryMatched": true,
@@ -3388,7 +3443,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "MOVILIDAD",
-      "movement": 57,
+      "movement": 55,
       "coverage": 2,
       "sourceCount": 2,
       "directSourceCount": 0,
@@ -3667,8 +3722,8 @@
         }
       ],
       "lifecycle": "ACTIVO",
-      "movementDelta": -11,
-      "previousCoverage": 1,
+      "movementDelta": 0,
+      "previousCoverage": 0,
       "newSources": [
         "Chañar Digital",
         "Lmneuquen.com",
@@ -3678,8 +3733,8 @@
         "Patagonia Press"
       ],
       "sourceDiversity": 6,
-      "memoryMatched": true,
-      "isNew": false,
+      "memoryMatched": false,
+      "isNew": true,
       "view": "INCIDENCIA",
       "incidenceEligible": true,
       "signalReason": "reservado a incidencia territorial",
@@ -3772,9 +3827,12 @@
         }
       ],
       "lifecycle": "RECIENTE",
-      "movementDelta": 0,
-      "previousCoverage": 2,
-      "newSources": [],
+      "movementDelta": 16,
+      "previousCoverage": 7,
+      "newSources": [
+        "Neuquén al instante",
+        "Patagonia Ambiental"
+      ],
       "sourceDiversity": 2,
       "memoryMatched": true,
       "isNew": false,
@@ -3978,7 +4036,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SERVICIOS",
-      "movement": 25,
+      "movement": 23,
       "coverage": 2,
       "sourceCount": 2,
       "directSourceCount": 0,
@@ -4032,8 +4090,8 @@
         }
       ],
       "lifecycle": "RECIENTE",
-      "movementDelta": -31,
-      "previousCoverage": 2,
+      "movementDelta": 7,
+      "previousCoverage": 1,
       "newSources": [
         "Neuquén al instante"
       ],
@@ -4112,9 +4170,11 @@
         }
       ],
       "lifecycle": "RECIENTE",
-      "movementDelta": 0,
-      "previousCoverage": 1,
-      "newSources": [],
+      "movementDelta": -16,
+      "previousCoverage": 2,
+      "newSources": [
+        "Chañar Digital"
+      ],
       "sourceDiversity": 1,
       "memoryMatched": true,
       "isNew": false,
@@ -4443,6 +4503,25 @@
   ],
   "items": [
     {
+      "title": "Incidente en un centro de salud de Bariloche con un sillón odontológico: una profesional lesionada",
+      "url": "https://www.rionegro.com.ar/sociedad/incidente-en-un-centro-de-salud-de-bariloche-con-un-sillon-odontologico-una-profesional-lesionada-4794664/",
+      "publishedAt": "2026-11-11T19:07:02+00:00",
+      "published": "2026-11-11T19:07:02+00:00",
+      "description": "",
+      "source": "Diario Río Negro",
+      "sourceType": "MEDIO REGIONAL",
+      "sourceUrl": "https://www.rionegro.com.ar/",
+      "collection": "DIRECTA",
+      "query": "https://www.rionegro.com.ar/feed/",
+      "relevance": 3,
+      "relevanceLabel": "DIRECTA",
+      "firstSeen": "2026-11-11T21:18:35.031176+00:00",
+      "isNew": true,
+      "titleKey": "incidente centro salud bariloche sillon odontologico profesional lesionada",
+      "evidenceUrl": "https://www.rionegro.com.ar/sociedad/incidente-en-un-centro-de-salud-de-bariloche-con-un-sillon-odontologico-una-profesional-lesionada-4794664/",
+      "sourcePriority": 2
+    },
+    {
       "title": "Más de 100 familias de Campo Grande reclaman avances en el Loteo Social Burgos - Chañar Digital",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOcDdRTW1JZHRsSUh1Q1JhZkhkWnVsbkJjMVpJdmlXWTBKNDlSRUhNMUtsRjlfMzBpLURIX1Z4WTJ5SEpuNU9YX3hDcWgtOGdZMVRLMkd6YS1HaUl4aVFaVmF0d0dzdGZNREdkZkJTdEFhSmYxWjllUVdYdTh6TDdlWjFpVUoxWHU1bE4xaXRXUXo5SjVHSFNOUlBTSDg1UHhoSDduY2NldkJscXZMcEZTeVpLY2w0aUx2cG5UcklLWjQzT2NnUVBadEZFV2k?oc=5",
       "publishedAt": "2026-11-11T06:01:49+00:00",
@@ -4456,7 +4535,7 @@
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "firstSeen": "2026-11-11T14:00:15.972541+00:00",
-      "isNew": true,
+      "isNew": false,
       "titleKey": "mas 100 familias campo grande reclaman avances loteo social burgos digital",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOcDdRTW1JZHRsSUh1Q1JhZkhkWnVsbkJjMVpJdmlXWTBKNDlSRUhNMUtsRjlfMzBpLURIX1Z4WTJ5SEpuNU9YX3hDcWgtOGdZMVRLMkd6YS1HaUl4aVFaVmF0d0dzdGZNREdkZkJTdEFhSmYxWjllUVdYdTh6TDdlWjFpVUoxWHU1bE4xaXRXUXo5SjVHSFNOUlBTSDg1UHhoSDduY2NldkJscXZMcEZTeVpLY2w0aUx2cG5UcklLWjQzT2NnUVBadEZFV2k?oc=5",
       "sourcePriority": 3
@@ -4471,11 +4550,11 @@
       "sourceType": "BUSCADOR / RESPALDO",
       "sourceUrl": "",
       "collection": "BUSCADOR",
-      "query": "\"San Patricio del Chañar\"",
+      "query": "\"San Patricio del Chañar\" deporte club polideportivo",
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "firstSeen": "2026-11-11T14:00:15.972541+00:00",
-      "isNew": true,
+      "isNew": false,
       "titleKey": "binomios cerro inscripcion rally mejorinformado com",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOTnpRT1BqZ3MxSGhLNDNUTktKcFZJamRxZ0xGZG9EZTN0N1pTMDdIbHFNVktrNmFDN21iT3FqeGhJUmVOU0szeXFYdElEZmJGNy1IZnlaMjZZMUluY0lyczdCaHVuanE3aHBQN3U0cG9FYzNQLUYyaWFnSWlvbmh4NnQ2Q0lkTmlyZFhxQS1vcHU5NC1qeklqUml2MzdXSE5NekRzbE9mUHhqUdIBqgFBVV95cUxOTnpRT1BqZ3MxSGhLNDNUTktKcFZJamRxZ0xGZG9EZTN0N1pTMDdIbHFNVktrNmFDN21iT3FqeGhJUmVOU0szeXFYdElEZmJGNy1IZnlaMjZZMUluY0lyczdCaHVuanE3aHBQN3U0cG9FYzNQLUYyaWFnSWlvbmh4NnQ2Q0lkTmlyZFhxQS1vcHU5NC1qeklqUml2MzdXSE5NekRzbE9mUHhqUQ?oc=5",
       "sourcePriority": 3
@@ -4920,7 +4999,7 @@
   ],
   "territorialGraph": {
     "version": "2.0",
-    "generatedAt": "2026-11-11T14:00:26.910728+00:00",
+    "generatedAt": "2026-11-11T21:18:47.378081+00:00",
     "root": "spc",
     "rule": "evidence-first",
     "levels": [
@@ -4947,7 +5026,7 @@
           "el chañar",
           "el chanar"
         ],
-        "eventCount": 10
+        "eventCount": 11
       },
       {
         "id": "rio-neuquen",
@@ -5484,7 +5563,10 @@
       }
     ],
     "eventNodes": {
-      "CHA-d5b38a117a1f": [
+      "CHA-635a8290d749": [
+        "spc"
+      ],
+      "CHA-d7f368e9cc79": [
         "spc"
       ],
       "CHA-6da81d99e91d": [
@@ -5499,6 +5581,9 @@
         "spc"
       ],
       "CHA-b0c86458f453": [
+        "spc"
+      ],
+      "CHA-d5b38a117a1f": [
         "spc"
       ],
       "CHA-8802dd694d3c": [
@@ -5531,7 +5616,7 @@
       "nodes": 46,
       "activeNodes": 5,
       "edges": 4,
-      "eventsLinked": 9,
+      "eventsLinked": 11,
       "eventsWithMicrozones": 0,
       "eventsWithBarrios": 0,
       "eventsWithSectors": 1,
@@ -5551,20 +5636,26 @@
   },
   "audit": {
     "version": "1.0",
-    "updatedAt": "2026-11-11T14:00:26.957203+00:00",
+    "updatedAt": "2026-11-11T21:18:47.425279+00:00",
     "rule": "fact != coverage; territory requires textual evidence",
-    "facts": 10,
-    "coverage": 35,
-    "coveragePerFact": 3.5,
-    "directAnchorFacts": 10,
+    "facts": 11,
+    "coverage": 34,
+    "coveragePerFact": 3.09,
+    "directAnchorFacts": 11,
     "directAnchorPct": 100.0,
     "territorySpecificFacts": 4,
-    "territorySpecificPct": 40.0,
-    "averageSourcesPerFact": 2.4,
+    "territorySpecificPct": 36.4,
+    "averageSourcesPerFact": 2.27,
     "activeTerritorialNodes": 5,
     "failedSources": 10,
-    "acceptedWithoutLocalEvidence": 0,
-    "examplesAcceptedWithoutLocalEvidence": [],
+    "acceptedWithoutLocalEvidence": 1,
+    "examplesAcceptedWithoutLocalEvidence": [
+      {
+        "title": "Incidente en un centro de salud de Bariloche con un sillón odontológico: una profesional lesionada",
+        "source": "Diario Río Negro",
+        "url": "https://www.rionegro.com.ar/sociedad/incidente-en-un-centro-de-salud-de-bariloche-con-un-sillon-odontologico-una-profesional-lesionada-4794664/"
+      }
+    ],
     "interpretation": "auditoria técnica; no mide importancia, calidad periodística ni verdad del hecho"
   }
 }
