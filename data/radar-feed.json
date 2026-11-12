@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T10:10:07.452506+00:00",
+  "updatedAt": "2026-11-12T18:32:11.108570+00:00",
   "window": "14 días",
   "purpose": "Detectar qué se está moviendo en San Patricio del Chañar y mostrar de dónde surge cada señal.",
   "architecture": "contrato universal de procedencia + fuentes profesionales + adaptadores específicos + validación semántica + temporalidad + evidencia editorial separada",
@@ -49,7 +49,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://chanardigital.com.ar/",
-      "lastFetch": "2026-11-12T10:09:46.985704+00:00",
+      "lastFetch": "2026-11-12T18:31:46.232550+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -65,7 +65,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.radiomia.com.ar/",
-      "lastFetch": "2026-11-12T10:09:48.141723+00:00",
+      "lastFetch": "2026-11-12T18:31:48.811400+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -80,7 +80,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://tuitvacamuerta.com/",
-      "lastFetch": "2026-11-12T10:09:49.872965+00:00",
+      "lastFetch": "2026-11-12T18:31:50.342148+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -95,7 +95,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.vacamuertanews.com/",
-      "lastFetch": "2026-11-12T10:09:50.275418+00:00",
+      "lastFetch": "2026-11-12T18:31:50.916510+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -111,7 +111,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.neuqueninforma.gob.ar/",
-      "lastFetch": "2026-11-12T10:09:51.735202+00:00",
+      "lastFetch": "2026-11-12T18:31:52.378468+00:00",
       "success": false,
       "attempted": 3,
       "failures": [
@@ -128,7 +128,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://sanpatricio.gob.ar/",
-      "lastFetch": "2026-11-12T10:09:52.599616+00:00",
+      "lastFetch": "2026-11-12T18:31:55.521710+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -143,7 +143,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://boletinoficial.neuquen.gov.ar/",
-      "lastFetch": "2026-11-12T10:09:53.677357+00:00",
+      "lastFetch": "2026-11-12T18:31:56.436708+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -158,7 +158,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.lmneuquen.com/",
-      "lastFetch": "2026-11-12T10:09:53.908471+00:00",
+      "lastFetch": "2026-11-12T18:31:56.663536+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -174,7 +174,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.rionegro.com.ar/",
-      "lastFetch": "2026-11-12T10:09:55.962561+00:00",
+      "lastFetch": "2026-11-12T18:31:58.985284+00:00",
       "success": true,
       "attempted": 2,
       "failures": [
@@ -189,7 +189,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.mejorinformado.com/",
-      "lastFetch": "2026-11-12T10:09:56.408590+00:00",
+      "lastFetch": "2026-11-12T18:32:00.089978+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -205,7 +205,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.diariamenteneuquen.com/",
-      "lastFetch": "2026-11-12T10:09:56.990424+00:00",
+      "lastFetch": "2026-11-12T18:32:00.827717+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -714,8 +714,8 @@
     },
     {
       "term": "san patricio del chañar",
-      "hits": 18,
-      "direct": 18
+      "hits": 19,
+      "direct": 19
     },
     {
       "term": "ruta 7",
@@ -724,6 +724,11 @@
     },
     {
       "term": "loteo social",
+      "hits": 1,
+      "direct": 1
+    },
+    {
+      "term": "bomberos voluntarios",
       "hits": 1,
       "direct": 1
     },
@@ -889,11 +894,6 @@
     },
     {
       "term": "centro de salud",
-      "hits": 0,
-      "direct": 0
-    },
-    {
-      "term": "bomberos voluntarios",
       "hits": 0,
       "direct": 0
     },
@@ -1172,8 +1172,8 @@
         "source": "Minuto Neuquén",
         "group": "OBSERVADA",
         "role": "fuente detectada fuera del catálogo",
-        "accepted": 5,
-        "direct": 5,
+        "accepted": 6,
+        "direct": 6,
         "anchored": 0,
         "falsePositives": 0,
         "falsePositiveTypes": [],
@@ -1202,6 +1202,19 @@
         "falsePositives": 0,
         "falsePositiveTypes": [],
         "topics": []
+      },
+      {
+        "source": "Neuquen Informa",
+        "group": "OBSERVADA",
+        "role": "fuente detectada fuera del catálogo",
+        "accepted": 1,
+        "direct": 1,
+        "anchored": 0,
+        "falsePositives": 0,
+        "falsePositiveTypes": [],
+        "topics": [
+          "SEGURIDAD / EMERGENCIAS"
+        ]
       },
       {
         "source": "Neuquén Informa",
@@ -1362,8 +1375,8 @@
       {
         "source": "Minuto Neuquén",
         "topic": "SERVICIOS",
-        "accepted": 5,
-        "direct": 5,
+        "accepted": 6,
+        "direct": 6,
         "anchored": 0,
         "falsePositives": 0,
         "territorialTerms": [
@@ -1470,6 +1483,19 @@
         ]
       },
       {
+        "source": "Neuquen Informa",
+        "topic": "SEGURIDAD / EMERGENCIAS",
+        "accepted": 1,
+        "direct": 1,
+        "anchored": 0,
+        "falsePositives": 0,
+        "territorialTerms": [
+          "san patricio del chañar",
+          "el chañar",
+          "bomberos voluntarios"
+        ]
+      },
+      {
         "source": "Neuquén al instante",
         "topic": "EDUCACIÓN",
         "accepted": 1,
@@ -1521,8 +1547,8 @@
     "languagePrecision": [
       {
         "term": "san patricio del chañar",
-        "acceptedHits": 22,
-        "directHits": 22,
+        "acceptedHits": 23,
+        "directHits": 23,
         "rejectedTitleHits": 0,
         "territorialStrength": "FUERTE"
       },
@@ -1535,8 +1561,8 @@
       },
       {
         "term": "el chañar",
-        "acceptedHits": 26,
-        "directHits": 26,
+        "acceptedHits": 28,
+        "directHits": 28,
         "rejectedTitleHits": 0,
         "territorialStrength": "FUERTE"
       },
@@ -1745,8 +1771,8 @@
       },
       {
         "term": "bomberos voluntarios",
-        "acceptedHits": 0,
-        "directHits": 0,
+        "acceptedHits": 1,
+        "directHits": 1,
         "rejectedTitleHits": 0,
         "territorialStrength": "FUERTE"
       },
@@ -1864,8 +1890,8 @@
     "total": 21,
     "direct": 21,
     "regional": 0,
-    "new": 0,
-    "sources": 9,
+    "new": 1,
+    "sources": 10,
     "directSignals": 0,
     "localDirectSignals": 0,
     "radioDirectSignals": 0,
@@ -1875,11 +1901,11 @@
   "environment": {
     "weather": {
       "dataType": "forecast",
-      "forecastWindKmh": 24.0,
-      "forecastGustKmh": 24.0,
-      "forecastWindDirection": "SO",
+      "forecastWindKmh": 20.0,
+      "forecastGustKmh": 22.0,
+      "forecastWindDirection": "S",
       "forecastTemperatureC": 34.0,
-      "retrievedAt": "2026-11-12T10:09:44.650441+00:00",
+      "retrievedAt": "2026-11-12T18:31:44.086480+00:00",
       "source": "AIC",
       "sourceTier": "primary",
       "sourceUrl": "https://www.aic.gob.ar/sitio/home?a=1015&z=1967225803",
@@ -1888,7 +1914,7 @@
     "hydrology": {
       "site": "El Chañar",
       "flowType": "programmed_outflow",
-      "erogatedM3s": 381,
+      "erogatedM3s": 355,
       "programmedMaxM3s": [
         360,
         360,
@@ -1909,7 +1935,7 @@
       "currentProgrammedMinM3s": 340,
       "programDate": "2026-11-13",
       "tableDate": "2026-11-12",
-      "retrievedAt": "2026-11-12T10:09:44.650441+00:00",
+      "retrievedAt": "2026-11-12T18:31:44.086480+00:00",
       "source": "AIC",
       "sourceTier": "primary",
       "sourceUrl": "https://www.aic.gob.ar/sitio/caudales",
@@ -1929,17 +1955,17 @@
         "url": "https://www.aic.gob.ar/sitio/caudales"
       }
     ],
-    "updatedAt": "2026-11-12T10:09:44.650441+00:00"
+    "updatedAt": "2026-11-12T18:31:44.086480+00:00"
   },
   "operational": {
-    "updatedAt": "2026-11-12T10:09:44.650441+00:00",
+    "updatedAt": "2026-11-12T18:31:44.086480+00:00",
     "route7": {
       "source": "Dirección Provincial de Vialidad",
       "sourceTier": "primary",
       "sourceUrl": "https://www.dpvneuquen.gov.ar/",
       "semanticState": null,
       "publicationState": "source_reachable_no_current_machine_readable_state",
-      "retrievedAt": "2026-11-12T10:09:44.650441+00:00",
+      "retrievedAt": "2026-11-12T18:31:44.086480+00:00",
       "evidence": {
         "route7Mention": true,
         "route8Mention": false
@@ -1951,7 +1977,7 @@
       "sourceUrl": "https://www.dpvneuquen.gov.ar/",
       "semanticState": null,
       "publicationState": "source_reachable_no_current_machine_readable_state",
-      "retrievedAt": "2026-11-12T10:09:44.650441+00:00",
+      "retrievedAt": "2026-11-12T18:31:44.086480+00:00",
       "evidence": {
         "route7Mention": true,
         "route8Mention": false
@@ -1965,7 +1991,7 @@
       "eventType": null,
       "detail": null,
       "publicationState": "source_reachable_no_specific_local_notice",
-      "retrievedAt": "2026-11-12T10:09:44.650441+00:00"
+      "retrievedAt": "2026-11-12T18:31:44.086480+00:00"
     },
     "water": {
       "source": "EPAS",
@@ -1975,7 +2001,7 @@
       "eventType": null,
       "detail": null,
       "publicationState": "source_reachable_no_specific_local_notice",
-      "retrievedAt": "2026-11-12T10:09:44.650441+00:00"
+      "retrievedAt": "2026-11-12T18:31:44.086480+00:00"
     },
     "sources": [
       {
@@ -2385,11 +2411,11 @@
     {
       "id": "CONVERSACIÓN",
       "label": "Conversación general",
-      "signal": 9,
+      "signal": 10,
       "status": "cobertura editorial",
-      "freshnessHours": 28.1,
+      "freshnessHours": 2.1,
       "mode": "evidencia editorial",
-      "evidenceCount": 9,
+      "evidenceCount": 10,
       "sourceContract": {
         "primary": "medios locales identificables",
         "secondary": "fuentes institucionales competentes",
@@ -2427,7 +2453,7 @@
       "label": "Corredor Ruta 7",
       "signal": 1,
       "status": "estado vial",
-      "freshnessHours": 93.3,
+      "freshnessHours": 101.7,
       "mode": "evidencia territorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -2467,7 +2493,7 @@
         "sourceUrl": "https://www.dpvneuquen.gov.ar/",
         "semanticState": null,
         "publicationState": "source_reachable_no_current_machine_readable_state",
-        "retrievedAt": "2026-11-12T10:09:44.650441+00:00",
+        "retrievedAt": "2026-11-12T18:31:44.086480+00:00",
         "evidence": {
           "route7Mention": true,
           "route8Mention": false
@@ -2519,7 +2545,7 @@
         "sourceUrl": "https://www.dpvneuquen.gov.ar/",
         "semanticState": null,
         "publicationState": "source_reachable_no_current_machine_readable_state",
-        "retrievedAt": "2026-11-12T10:09:44.650441+00:00",
+        "retrievedAt": "2026-11-12T18:31:44.086480+00:00",
         "evidence": {
           "route7Mention": true,
           "route8Mention": false
@@ -2529,7 +2555,7 @@
     {
       "id": "VIENTO",
       "label": "Condición de viento",
-      "signal": 24.0,
+      "signal": 20.0,
       "status": "pronóstico local",
       "freshnessHours": null,
       "mode": "DATO DIRECTO",
@@ -2619,7 +2645,7 @@
         "eventType": null,
         "detail": null,
         "publicationState": "source_reachable_no_specific_local_notice",
-        "retrievedAt": "2026-11-12T10:09:44.650441+00:00"
+        "retrievedAt": "2026-11-12T18:31:44.086480+00:00"
       }
     },
     {
@@ -2669,7 +2695,7 @@
         "eventType": null,
         "detail": null,
         "publicationState": "source_reachable_no_specific_local_notice",
-        "retrievedAt": "2026-11-12T10:09:44.650441+00:00"
+        "retrievedAt": "2026-11-12T18:31:44.086480+00:00"
       }
     },
     {
@@ -2835,11 +2861,11 @@
     {
       "id": "EMERGENCIAS",
       "label": "Seguridad / emergencias",
-      "signal": 1,
+      "signal": 2,
       "status": "cobertura de emergencia",
-      "freshnessHours": 200.6,
+      "freshnessHours": 2.1,
       "mode": "evidencia editorial",
-      "evidenceCount": 1,
+      "evidenceCount": 2,
       "sourceContract": {
         "primary": "Secretaría de Emergencias y Gestión de Riesgos de la Provincia del Neuquén",
         "secondary": "Bomberos Voluntarios de San Patricio del Chañar",
@@ -2877,7 +2903,7 @@
       "label": "Territorio / microzonas",
       "signal": 1,
       "status": "hecho territorial",
-      "freshnessHours": 28.1,
+      "freshnessHours": 36.5,
       "mode": "evidencia territorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -2934,7 +2960,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://chanardigital.com.ar/",
-        "lastFetch": "2026-11-12T10:09:46.985704+00:00",
+        "lastFetch": "2026-11-12T18:31:46.232550+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -2950,7 +2976,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.radiomia.com.ar/",
-        "lastFetch": "2026-11-12T10:09:48.141723+00:00",
+        "lastFetch": "2026-11-12T18:31:48.811400+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -2965,7 +2991,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://tuitvacamuerta.com/",
-        "lastFetch": "2026-11-12T10:09:49.872965+00:00",
+        "lastFetch": "2026-11-12T18:31:50.342148+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -2980,7 +3006,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.vacamuertanews.com/",
-        "lastFetch": "2026-11-12T10:09:50.275418+00:00",
+        "lastFetch": "2026-11-12T18:31:50.916510+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -2996,7 +3022,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.neuqueninforma.gob.ar/",
-        "lastFetch": "2026-11-12T10:09:51.735202+00:00",
+        "lastFetch": "2026-11-12T18:31:52.378468+00:00",
         "success": false,
         "attempted": 3,
         "failures": [
@@ -3013,7 +3039,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://sanpatricio.gob.ar/",
-        "lastFetch": "2026-11-12T10:09:52.599616+00:00",
+        "lastFetch": "2026-11-12T18:31:55.521710+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -3028,7 +3054,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://boletinoficial.neuquen.gov.ar/",
-        "lastFetch": "2026-11-12T10:09:53.677357+00:00",
+        "lastFetch": "2026-11-12T18:31:56.436708+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -3043,7 +3069,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.lmneuquen.com/",
-        "lastFetch": "2026-11-12T10:09:53.908471+00:00",
+        "lastFetch": "2026-11-12T18:31:56.663536+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3059,7 +3085,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.rionegro.com.ar/",
-        "lastFetch": "2026-11-12T10:09:55.962561+00:00",
+        "lastFetch": "2026-11-12T18:31:58.985284+00:00",
         "success": true,
         "attempted": 2,
         "failures": [
@@ -3074,7 +3100,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.mejorinformado.com/",
-        "lastFetch": "2026-11-12T10:09:56.408590+00:00",
+        "lastFetch": "2026-11-12T18:32:00.089978+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3090,7 +3116,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.diariamenteneuquen.com/",
-        "lastFetch": "2026-11-12T10:09:56.990424+00:00",
+        "lastFetch": "2026-11-12T18:32:00.827717+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3117,7 +3143,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SERVICIOS",
-      "movement": 68,
+      "movement": 66,
       "coverage": 3,
       "sourceCount": 3,
       "directSourceCount": 0,
@@ -3226,6 +3252,95 @@
       }
     },
     {
+      "eventId": "CHA-84454b959dc3",
+      "title": "San Patricio del Chañar inauguró el nuevo cuartel de Bomberos Voluntarios - Neuquen Informa",
+      "publishedAt": "2026-11-12T16:23:44+00:00",
+      "firstSeen": "2026-11-12T18:32:11.108570+00:00",
+      "lastSeen": "2026-11-12T16:23:44+00:00",
+      "relevance": 3,
+      "relevanceLabel": "DIRECTA",
+      "incidenceLabel": "DIRECTA EN CHANAR",
+      "topic": "SEGURIDAD / EMERGENCIAS",
+      "movement": 60,
+      "coverage": 1,
+      "sourceCount": 1,
+      "directSourceCount": 0,
+      "territorialAnchors": [
+        "san patricio del chañar",
+        "el chañar",
+        "bomberos voluntarios"
+      ],
+      "sources": [
+        "Neuquen Informa"
+      ],
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOa2VSNnhzR1h0d2hsSE5xeWhWUWxIWExJODNEbWpuVHlrSUwyOEZEb2J0dmpCNWpjejAxMmt0UHhmQ3lpS2owWVA0cktjTVN5NU1WNWNTbHQ2LVZYQVFNVWhNT0lkbGpyNV9nWGU0TFhteUYxRVBTckwzYmFGcmtJbjdXZ3UzMUt5aDJydy1MTk05cDJZZUtDTk5SQWxaVHV3SDRDcmw5dTNGQWJCZ1oxS2k5NFRrRkRVRnZxZm5USXVNMkNiMVIxS1NsQ0FidFJUZUREQdIB1AFBVV95cUxOa2VSNnhzR1h0d2hsSE5xeWhWUWxIWExJODNEbWpuVHlrSUwyOEZEb2J0dmpCNWpjejAxMmt0UHhmQ3lpS2owWVA0cktjTVN5NU1WNWNTbHQ2LVZYQVFNVWhNT0lkbGpyNV9nWGU0TFhteUYxRVBTckwzYmFGcmtJbjdXZ3UzMUt5aDJydy1MTk05cDJZZUtDTk5SQWxaVHV3SDRDcmw5dTNGQWJCZ1oxS2k5NFRrRkRVRnZxZm5USXVNMkNiMVIxS1NsQ0FidFJUZUREQQ?oc=5",
+      "items": [
+        {
+          "title": "San Patricio del Chañar inauguró el nuevo cuartel de Bomberos Voluntarios - Neuquen Informa",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOa2VSNnhzR1h0d2hsSE5xeWhWUWxIWExJODNEbWpuVHlrSUwyOEZEb2J0dmpCNWpjejAxMmt0UHhmQ3lpS2owWVA0cktjTVN5NU1WNWNTbHQ2LVZYQVFNVWhNT0lkbGpyNV9nWGU0TFhteUYxRVBTckwzYmFGcmtJbjdXZ3UzMUt5aDJydy1MTk05cDJZZUtDTk5SQWxaVHV3SDRDcmw5dTNGQWJCZ1oxS2k5NFRrRkRVRnZxZm5USXVNMkNiMVIxS1NsQ0FidFJUZUREQdIB1AFBVV95cUxOa2VSNnhzR1h0d2hsSE5xeWhWUWxIWExJODNEbWpuVHlrSUwyOEZEb2J0dmpCNWpjejAxMmt0UHhmQ3lpS2owWVA0cktjTVN5NU1WNWNTbHQ2LVZYQVFNVWhNT0lkbGpyNV9nWGU0TFhteUYxRVBTckwzYmFGcmtJbjdXZ3UzMUt5aDJydy1MTk05cDJZZUtDTk5SQWxaVHV3SDRDcmw5dTNGQWJCZ1oxS2k5NFRrRkRVRnZxZm5USXVNMkNiMVIxS1NsQ0FidFJUZUREQQ?oc=5",
+          "publishedAt": "2026-11-12T16:23:44+00:00",
+          "published": "2026-11-12T16:23:44+00:00",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMi1AFBVV95cUxOa2VSNnhzR1h0d2hsSE5xeWhWUWxIWExJODNEbWpuVHlrSUwyOEZEb2J0dmpCNWpjejAxMmt0UHhmQ3lpS2owWVA0cktjTVN5NU1WNWNTbHQ2LVZYQVFNVWhNT0lkbGpyNV9nWGU0TFhteUYxRVBTckwzYmFGcmtJbjdXZ3UzMUt5aDJydy1MTk05cDJZZUtDTk5SQWxaVHV3SDRDcmw5dTNGQWJCZ1oxS2k5NFRrRkRVRnZxZm5USXVNMkNiMVIxS1NsQ0FidFJUZUREQdIB1AFBVV95cUxOa2VSNnhzR1h0d2hsSE5xeWhWUWxIWExJODNEbWpuVHlrSUwyOEZEb2J0dmpCNWpjejAxMmt0UHhmQ3lpS2owWVA0cktjTVN5NU1WNWNTbHQ2LVZYQVFNVWhNT0lkbGpyNV9nWGU0TFhteUYxRVBTckwzYmFGcmtJbjdXZ3UzMUt5aDJydy1MTk05cDJZZUtDTk5SQWxaVHV3SDRDcmw5dTNGQWJCZ1oxS2k5NFRrRkRVRnZxZm5USXVNMkNiMVIxS1NsQ0FidFJUZUREQQ?oc=5\" target=\"_blank\">San Patricio del Chañar inauguró el nuevo cuartel de Bomberos Voluntarios</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Neuquen Informa</font>",
+          "source": "Neuquen Informa",
+          "sourceType": "BUSCADOR / RESPALDO",
+          "sourceUrl": "",
+          "collection": "BUSCADOR",
+          "query": "\"San Patricio del Chañar\"",
+          "relevance": 3,
+          "relevanceLabel": "DIRECTA",
+          "firstSeen": "2026-11-12T18:32:11.108570+00:00",
+          "isNew": true,
+          "titleKey": "inauguro nuevo cuartel bomberos voluntarios informa",
+          "evidenceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOa2VSNnhzR1h0d2hsSE5xeWhWUWxIWExJODNEbWpuVHlrSUwyOEZEb2J0dmpCNWpjejAxMmt0UHhmQ3lpS2owWVA0cktjTVN5NU1WNWNTbHQ2LVZYQVFNVWhNT0lkbGpyNV9nWGU0TFhteUYxRVBTckwzYmFGcmtJbjdXZ3UzMUt5aDJydy1MTk05cDJZZUtDTk5SQWxaVHV3SDRDcmw5dTNGQWJCZ1oxS2k5NFRrRkRVRnZxZm5USXVNMkNiMVIxS1NsQ0FidFJUZUREQdIB1AFBVV95cUxOa2VSNnhzR1h0d2hsSE5xeWhWUWxIWExJODNEbWpuVHlrSUwyOEZEb2J0dmpCNWpjejAxMmt0UHhmQ3lpS2owWVA0cktjTVN5NU1WNWNTbHQ2LVZYQVFNVWhNT0lkbGpyNV9nWGU0TFhteUYxRVBTckwzYmFGcmtJbjdXZ3UzMUt5aDJydy1MTk05cDJZZUtDTk5SQWxaVHV3SDRDcmw5dTNGQWJCZ1oxS2k5NFRrRkRVRnZxZm5USXVNMkNiMVIxS1NsQ0FidFJUZUREQQ?oc=5",
+          "sourcePriority": 3
+        }
+      ],
+      "lifecycle": "EMERGENTE",
+      "movementDelta": 44,
+      "previousCoverage": 1,
+      "newSources": [
+        "Neuquen Informa"
+      ],
+      "sourceDiversity": 1,
+      "memoryMatched": true,
+      "isNew": false,
+      "view": "INCIDENCIA",
+      "incidenceEligible": true,
+      "signalReason": "reservado a incidencia territorial",
+      "incidenceReason": "anclaje directo + tema operativo/local",
+      "territory": {
+        "version": "2.0",
+        "primary": "San Patricio del Chañar",
+        "nodes": [
+          "San Patricio del Chañar",
+          "Bomberos Voluntarios"
+        ],
+        "sectors": [],
+        "barrios": [],
+        "microzones": [],
+        "corridors": [],
+        "institutions": [
+          "Bomberos Voluntarios"
+        ],
+        "services": [],
+        "spaces": [],
+        "production": [],
+        "path": "San Patricio del Chañar → Bomberos Voluntarios",
+        "evidence": [
+          {
+            "node": "San Patricio del Chañar",
+            "level": "localidad",
+            "evidence": "DIRECTA"
+          },
+          {
+            "node": "Bomberos Voluntarios",
+            "level": "institucion",
+            "evidence": "TEXTUAL"
+          }
+        ]
+      }
+    },
+    {
       "eventId": "CHA-6da81d99e91d",
       "title": "Más de 100 familias de Campo Grande reclaman avances en el Loteo Social Burgos - Chañar Digital",
       "publishedAt": "2026-11-11T06:01:49+00:00",
@@ -3235,7 +3350,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SERVICIOS",
-      "movement": 53,
+      "movement": 51,
       "coverage": 1,
       "sourceCount": 1,
       "directSourceCount": 0,
@@ -3267,7 +3382,7 @@
           "sourcePriority": 3
         }
       ],
-      "lifecycle": "EMERGENTE",
+      "lifecycle": "SOSTENIDO",
       "movementDelta": -2,
       "previousCoverage": 1,
       "newSources": [],
@@ -3320,7 +3435,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "MOVILIDAD",
-      "movement": 52,
+      "movement": 49,
       "coverage": 2,
       "sourceCount": 2,
       "directSourceCount": 0,
@@ -3375,7 +3490,7 @@
         }
       ],
       "lifecycle": "SOSTENIDO",
-      "movementDelta": -2,
+      "movementDelta": -3,
       "previousCoverage": 2,
       "newSources": [],
       "sourceDiversity": 2,
@@ -3749,7 +3864,7 @@
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SERVICIOS",
       "movement": 32,
-      "coverage": 7,
+      "coverage": 8,
       "sourceCount": 4,
       "directSourceCount": 0,
       "territorialAnchors": [
@@ -3896,6 +4011,25 @@
           "titleKey": "tenia prision domiciliaria fue imputado venta drogas enviaran senillosa minuto",
           "evidenceUrl": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNVXl3bHJZVU94em0yMlF5Uy03eUctTlF4UE40MzYtM2ZiU1czVk9LanJxd2JiSmhfWndZX21GZkNWSU9EM25CcDdDYnhWYnR6RVpoMkxMeWJUQzRmQ09mSFpRSFRwZzJsWGFBWGRCOTd5LVZoNGRNSVZFRURhOUVwcUdORlBFVkFfZktfSk5CeTd4aXJ4aHpCc0kzS0tnX3V5Ulg0NTNiQ2gycXBsaFpabjkzVERvQzQ0SlA4NTZWZ1VFYVNYb3J6ZzA1T043aUhtTU1ZeXphdDBrSjBkUlFxRjBad1hBWXZmblNJYQ?oc=5",
           "sourcePriority": 3
+        },
+        {
+          "title": "Robaron un automóvil en El Chañar y lo encontraron más tarde abandonado en Río Negro - Minuto Neuquén",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQN2hySGdtYXNiUFpZMzJZdEk3R0xLNkJiME5mVTMxT1pNRWphV3lwdFFBbDRmZnlJTTdFeHI2NnRrZ0JSRlhtSkdsOUlWTW4xQlBidUJmcXN2NHh0c3MwbkJHUUg5cHRoLUp5bFZmQlE2bEM3MDRSb2FTTVMzeU4wN2hWeVJ1OFBUQlVXYm9zZmdrWjJBdTZVNGhLem5MRmJmM0k2OHN6ZFpEd3IyV19YWE1JOHRSaHpSWno0WUs3YTBOWVZOTUYweEtGU2dsc1habEVkV1VId1psSEg0YXc?oc=5",
+          "publishedAt": "2026-10-30T00:00:00+00:00",
+          "published": "2026-10-30T00:00:00+00:00",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMi3gFBVV95cUxQN2hySGdtYXNiUFpZMzJZdEk3R0xLNkJiME5mVTMxT1pNRWphV3lwdFFBbDRmZnlJTTdFeHI2NnRrZ0JSRlhtSkdsOUlWTW4xQlBidUJmcXN2NHh0c3MwbkJHUUg5cHRoLUp5bFZmQlE2bEM3MDRSb2FTTVMzeU4wN2hWeVJ1OFBUQlVXYm9zZmdrWjJBdTZVNGhLem5MRmJmM0k2OHN6ZFpEd3IyV19YWE1JOHRSaHpSWno0WUs3YTBOWVZOTUYweEtGU2dsc1habEVkV1VId1psSEg0YXc?oc=5\" target=\"_blank\">Robaron un automóvil en El Chañar y lo encontraron más tarde abandonado en Río Negro</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Minuto Neuquén</font>",
+          "source": "Minuto Neuquén",
+          "sourceType": "BUSCADOR / RESPALDO",
+          "sourceUrl": "",
+          "collection": "BUSCADOR",
+          "query": "\"San Patricio del Chañar\"",
+          "relevance": 3,
+          "relevanceLabel": "DIRECTA",
+          "firstSeen": "2026-11-09T09:30:09.078627+00:00",
+          "isNew": false,
+          "titleKey": "robaron automovil encontraron mas tarde abandonado rio negro minuto",
+          "evidenceUrl": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQN2hySGdtYXNiUFpZMzJZdEk3R0xLNkJiME5mVTMxT1pNRWphV3lwdFFBbDRmZnlJTTdFeHI2NnRrZ0JSRlhtSkdsOUlWTW4xQlBidUJmcXN2NHh0c3MwbkJHUUg5cHRoLUp5bFZmQlE2bEM3MDRSb2FTTVMzeU4wN2hWeVJ1OFBUQlVXYm9zZmdrWjJBdTZVNGhLem5MRmJmM0k2OHN6ZFpEd3IyV19YWE1JOHRSaHpSWno0WUs3YTBOWVZOTUYweEtGU2dsc1habEVkV1VId1psSEg0YXc?oc=5",
+          "sourcePriority": 3
         }
       ],
       "lifecycle": "SIN NUEVA COBERTURA",
@@ -3940,7 +4074,7 @@
       "sourceContinuity": "fuente conocida sin respuesta; no se infiere desaparición"
     },
     {
-      "eventId": "CHA-8802dd694d3c",
+      "eventId": "CHA-859d2329b56b",
       "title": "San Patricio del Chañar: el Registro Civil normalizó su atención tras varias semanas de interrupción - Chañar Digital",
       "publishedAt": "2026-11-06T01:28:27+00:00",
       "firstSeen": "2026-11-09T09:30:09.078627+00:00",
@@ -3949,7 +4083,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SERVICIOS",
-      "movement": 20,
+      "movement": 18,
       "coverage": 2,
       "sourceCount": 2,
       "directSourceCount": 0,
@@ -4003,8 +4137,8 @@
         }
       ],
       "lifecycle": "RECIENTE",
-      "movementDelta": -12,
-      "previousCoverage": 5,
+      "movementDelta": -30,
+      "previousCoverage": 8,
       "newSources": [
         "Neuquén al instante"
       ],
@@ -4208,6 +4342,25 @@
     }
   ],
   "items": [
+    {
+      "title": "San Patricio del Chañar inauguró el nuevo cuartel de Bomberos Voluntarios - Neuquen Informa",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOa2VSNnhzR1h0d2hsSE5xeWhWUWxIWExJODNEbWpuVHlrSUwyOEZEb2J0dmpCNWpjejAxMmt0UHhmQ3lpS2owWVA0cktjTVN5NU1WNWNTbHQ2LVZYQVFNVWhNT0lkbGpyNV9nWGU0TFhteUYxRVBTckwzYmFGcmtJbjdXZ3UzMUt5aDJydy1MTk05cDJZZUtDTk5SQWxaVHV3SDRDcmw5dTNGQWJCZ1oxS2k5NFRrRkRVRnZxZm5USXVNMkNiMVIxS1NsQ0FidFJUZUREQdIB1AFBVV95cUxOa2VSNnhzR1h0d2hsSE5xeWhWUWxIWExJODNEbWpuVHlrSUwyOEZEb2J0dmpCNWpjejAxMmt0UHhmQ3lpS2owWVA0cktjTVN5NU1WNWNTbHQ2LVZYQVFNVWhNT0lkbGpyNV9nWGU0TFhteUYxRVBTckwzYmFGcmtJbjdXZ3UzMUt5aDJydy1MTk05cDJZZUtDTk5SQWxaVHV3SDRDcmw5dTNGQWJCZ1oxS2k5NFRrRkRVRnZxZm5USXVNMkNiMVIxS1NsQ0FidFJUZUREQQ?oc=5",
+      "publishedAt": "2026-11-12T16:23:44+00:00",
+      "published": "2026-11-12T16:23:44+00:00",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMi1AFBVV95cUxOa2VSNnhzR1h0d2hsSE5xeWhWUWxIWExJODNEbWpuVHlrSUwyOEZEb2J0dmpCNWpjejAxMmt0UHhmQ3lpS2owWVA0cktjTVN5NU1WNWNTbHQ2LVZYQVFNVWhNT0lkbGpyNV9nWGU0TFhteUYxRVBTckwzYmFGcmtJbjdXZ3UzMUt5aDJydy1MTk05cDJZZUtDTk5SQWxaVHV3SDRDcmw5dTNGQWJCZ1oxS2k5NFRrRkRVRnZxZm5USXVNMkNiMVIxS1NsQ0FidFJUZUREQdIB1AFBVV95cUxOa2VSNnhzR1h0d2hsSE5xeWhWUWxIWExJODNEbWpuVHlrSUwyOEZEb2J0dmpCNWpjejAxMmt0UHhmQ3lpS2owWVA0cktjTVN5NU1WNWNTbHQ2LVZYQVFNVWhNT0lkbGpyNV9nWGU0TFhteUYxRVBTckwzYmFGcmtJbjdXZ3UzMUt5aDJydy1MTk05cDJZZUtDTk5SQWxaVHV3SDRDcmw5dTNGQWJCZ1oxS2k5NFRrRkRVRnZxZm5USXVNMkNiMVIxS1NsQ0FidFJUZUREQQ?oc=5\" target=\"_blank\">San Patricio del Chañar inauguró el nuevo cuartel de Bomberos Voluntarios</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Neuquen Informa</font>",
+      "source": "Neuquen Informa",
+      "sourceType": "BUSCADOR / RESPALDO",
+      "sourceUrl": "",
+      "collection": "BUSCADOR",
+      "query": "\"San Patricio del Chañar\"",
+      "relevance": 3,
+      "relevanceLabel": "DIRECTA",
+      "firstSeen": "2026-11-12T18:32:11.108570+00:00",
+      "isNew": true,
+      "titleKey": "inauguro nuevo cuartel bomberos voluntarios informa",
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOa2VSNnhzR1h0d2hsSE5xeWhWUWxIWExJODNEbWpuVHlrSUwyOEZEb2J0dmpCNWpjejAxMmt0UHhmQ3lpS2owWVA0cktjTVN5NU1WNWNTbHQ2LVZYQVFNVWhNT0lkbGpyNV9nWGU0TFhteUYxRVBTckwzYmFGcmtJbjdXZ3UzMUt5aDJydy1MTk05cDJZZUtDTk5SQWxaVHV3SDRDcmw5dTNGQWJCZ1oxS2k5NFRrRkRVRnZxZm5USXVNMkNiMVIxS1NsQ0FidFJUZUREQdIB1AFBVV95cUxOa2VSNnhzR1h0d2hsSE5xeWhWUWxIWExJODNEbWpuVHlrSUwyOEZEb2J0dmpCNWpjejAxMmt0UHhmQ3lpS2owWVA0cktjTVN5NU1WNWNTbHQ2LVZYQVFNVWhNT0lkbGpyNV9nWGU0TFhteUYxRVBTckwzYmFGcmtJbjdXZ3UzMUt5aDJydy1MTk05cDJZZUtDTk5SQWxaVHV3SDRDcmw5dTNGQWJCZ1oxS2k5NFRrRkRVRnZxZm5USXVNMkNiMVIxS1NsQ0FidFJUZUREQQ?oc=5",
+      "sourcePriority": 3
+    },
     {
       "title": "Más de 100 familias de Campo Grande reclaman avances en el Loteo Social Burgos - Chañar Digital",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOcDdRTW1JZHRsSUh1Q1JhZkhkWnVsbkJjMVpJdmlXWTBKNDlSRUhNMUtsRjlfMzBpLURIX1Z4WTJ5SEpuNU9YX3hDcWgtOGdZMVRLMkd6YS1HaUl4aVFaVmF0d0dzdGZNREdkZkJTdEFhSmYxWjllUVdYdTh6TDdlWjFpVUoxWHU1bE4xaXRXUXo5SjVHSFNOUlBTSDg1UHhoSDduY2NldkJscXZMcEZTeVpLY2w0aUx2cG5UcklLWjQzT2NnUVBadEZFV2k?oc=5",
@@ -4587,30 +4740,11 @@
       "titleKey": "robaron automovil encontraron mas tarde abandonado rio negro minuto",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQN2hySGdtYXNiUFpZMzJZdEk3R0xLNkJiME5mVTMxT1pNRWphV3lwdFFBbDRmZnlJTTdFeHI2NnRrZ0JSRlhtSkdsOUlWTW4xQlBidUJmcXN2NHh0c3MwbkJHUUg5cHRoLUp5bFZmQlE2bEM3MDRSb2FTTVMzeU4wN2hWeVJ1OFBUQlVXYm9zZmdrWjJBdTZVNGhLem5MRmJmM0k2OHN6ZFpEd3IyV19YWE1JOHRSaHpSWno0WUs3YTBOWVZOTUYweEtGU2dsc1habEVkV1VId1psSEg0YXc?oc=5",
       "sourcePriority": 3
-    },
-    {
-      "title": "El Chañar: tenía prisión domiciliaria, fue imputado por venta de drogas y lo enviarán a Senillosa - Minuto Neuquén",
-      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNVXl3bHJZVU94em0yMlF5Uy03eUctTlF4UE40MzYtM2ZiU1czVk9LanJxd2JiSmhfWndZX21GZkNWSU9EM25CcDdDYnhWYnR6RVpoMkxMeWJUQzRmQ09mSFpRSFRwZzJsWGFBWGRCOTd5LVZoNGRNSVZFRURhOUVwcUdORlBFVkFfZktfSk5CeTd4aXJ4aHpCc0kzS0tnX3V5Ulg0NTNiQ2gycXBsaFpabjkzVERvQzQ0SlA4NTZWZ1VFYVNYb3J6ZzA1T043aUhtTU1ZeXphdDBrSjBkUlFxRjBad1hBWXZmblNJYQ?oc=5",
-      "publishedAt": "2026-10-29T17:00:00+00:00",
-      "published": "2026-10-29T17:00:00+00:00",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMi7AFBVV95cUxNVXl3bHJZVU94em0yMlF5Uy03eUctTlF4UE40MzYtM2ZiU1czVk9LanJxd2JiSmhfWndZX21GZkNWSU9EM25CcDdDYnhWYnR6RVpoMkxMeWJUQzRmQ09mSFpRSFRwZzJsWGFBWGRCOTd5LVZoNGRNSVZFRURhOUVwcUdORlBFVkFfZktfSk5CeTd4aXJ4aHpCc0kzS0tnX3V5Ulg0NTNiQ2gycXBsaFpabjkzVERvQzQ0SlA4NTZWZ1VFYVNYb3J6ZzA1T043aUhtTU1ZeXphdDBrSjBkUlFxRjBad1hBWXZmblNJYQ?oc=5\" target=\"_blank\">El Chañar: tenía prisión domiciliaria, fue imputado por venta de drogas y lo enviarán a Senillosa</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Minuto Neuquén</font>",
-      "source": "Minuto Neuquén",
-      "sourceType": "BUSCADOR / RESPALDO",
-      "sourceUrl": "",
-      "collection": "BUSCADOR",
-      "query": "\"San Patricio del Chañar\"",
-      "relevance": 3,
-      "relevanceLabel": "DIRECTA",
-      "firstSeen": "2026-11-10T10:55:31.979459+00:00",
-      "isNew": false,
-      "titleKey": "tenia prision domiciliaria fue imputado venta drogas enviaran senillosa minuto",
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNVXl3bHJZVU94em0yMlF5Uy03eUctTlF4UE40MzYtM2ZiU1czVk9LanJxd2JiSmhfWndZX21GZkNWSU9EM25CcDdDYnhWYnR6RVpoMkxMeWJUQzRmQ09mSFpRSFRwZzJsWGFBWGRCOTd5LVZoNGRNSVZFRURhOUVwcUdORlBFVkFfZktfSk5CeTd4aXJ4aHpCc0kzS0tnX3V5Ulg0NTNiQ2gycXBsaFpabjkzVERvQzQ0SlA4NTZWZ1VFYVNYb3J6ZzA1T043aUhtTU1ZeXphdDBrSjBkUlFxRjBad1hBWXZmblNJYQ?oc=5",
-      "sourcePriority": 3
     }
   ],
   "territorialGraph": {
     "version": "2.0",
-    "generatedAt": "2026-11-12T10:10:21.887259+00:00",
+    "generatedAt": "2026-11-12T18:32:21.329921+00:00",
     "root": "spc",
     "rule": "evidence-first",
     "levels": [
@@ -4637,7 +4771,7 @@
           "el chañar",
           "el chanar"
         ],
-        "eventCount": 9
+        "eventCount": 10
       },
       {
         "id": "rio-neuquen",
@@ -5087,7 +5221,7 @@
           "bomberos voluntarios",
           "bomberos de san patricio"
         ],
-        "eventCount": 1
+        "eventCount": 2
       },
       {
         "id": "correo",
@@ -5148,7 +5282,7 @@
         "from": "bomberos",
         "to": "spc",
         "relation": "COOCURRENCIA_TEXTUAL",
-        "eventCount": 1,
+        "eventCount": 2,
         "evidence": "menciones de ambos nodos dentro del mismo hecho"
       },
       {
@@ -5170,6 +5304,10 @@
       "CHA-635a8290d749": [
         "spc"
       ],
+      "CHA-84454b959dc3": [
+        "spc",
+        "bomberos"
+      ],
       "CHA-6da81d99e91d": [
         "spc",
         "loteo-social"
@@ -5185,9 +5323,6 @@
         "spc"
       ],
       "CHA-d5b38a117a1f": [
-        "spc"
-      ],
-      "CHA-8802dd694d3c": [
         "spc"
       ],
       "CHA-482c885515b8": [
@@ -5233,16 +5368,16 @@
   },
   "audit": {
     "version": "1.0",
-    "updatedAt": "2026-11-12T10:10:21.920803+00:00",
+    "updatedAt": "2026-11-12T18:32:21.370031+00:00",
     "rule": "fact != coverage; territory requires textual evidence",
-    "facts": 9,
-    "coverage": 27,
-    "coveragePerFact": 3.0,
-    "directAnchorFacts": 9,
+    "facts": 10,
+    "coverage": 29,
+    "coveragePerFact": 2.9,
+    "directAnchorFacts": 10,
     "directAnchorPct": 100.0,
-    "territorySpecificFacts": 3,
-    "territorySpecificPct": 33.3,
-    "averageSourcesPerFact": 2.44,
+    "territorySpecificFacts": 4,
+    "territorySpecificPct": 40.0,
+    "averageSourcesPerFact": 2.3,
     "activeTerritorialNodes": 4,
     "failedSources": 10,
     "acceptedWithoutLocalEvidence": 0,
