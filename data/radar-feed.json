@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-13T00:02:10.545486+00:00",
+  "updatedAt": "2026-11-13T07:06:31.416323+00:00",
   "window": "14 días",
   "purpose": "Detectar qué se está moviendo en San Patricio del Chañar y mostrar de dónde surge cada señal.",
   "architecture": "contrato universal de procedencia + fuentes profesionales + adaptadores específicos + validación semántica + temporalidad + evidencia editorial separada",
@@ -49,7 +49,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://chanardigital.com.ar/",
-      "lastFetch": "2026-11-13T00:01:47.524089+00:00",
+      "lastFetch": "2026-11-13T07:06:09.384285+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -65,7 +65,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.radiomia.com.ar/",
-      "lastFetch": "2026-11-13T00:01:48.991696+00:00",
+      "lastFetch": "2026-11-13T07:06:11.177194+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -80,7 +80,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://tuitvacamuerta.com/",
-      "lastFetch": "2026-11-13T00:01:50.857198+00:00",
+      "lastFetch": "2026-11-13T07:06:13.095553+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -95,7 +95,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.vacamuertanews.com/",
-      "lastFetch": "2026-11-13T00:01:51.574401+00:00",
+      "lastFetch": "2026-11-13T07:06:13.992151+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -111,7 +111,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.neuqueninforma.gob.ar/",
-      "lastFetch": "2026-11-13T00:01:53.187288+00:00",
+      "lastFetch": "2026-11-13T07:06:15.675586+00:00",
       "success": false,
       "attempted": 3,
       "failures": [
@@ -128,7 +128,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://sanpatricio.gob.ar/",
-      "lastFetch": "2026-11-13T00:01:54.512659+00:00",
+      "lastFetch": "2026-11-13T07:06:16.822940+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -143,7 +143,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://boletinoficial.neuquen.gov.ar/",
-      "lastFetch": "2026-11-13T00:01:55.208151+00:00",
+      "lastFetch": "2026-11-13T07:06:17.618075+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -158,7 +158,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.lmneuquen.com/",
-      "lastFetch": "2026-11-13T00:01:55.357104+00:00",
+      "lastFetch": "2026-11-13T07:06:17.889775+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -174,7 +174,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.rionegro.com.ar/",
-      "lastFetch": "2026-11-13T00:01:56.539199+00:00",
+      "lastFetch": "2026-11-13T07:06:19.720341+00:00",
       "success": true,
       "attempted": 2,
       "failures": [
@@ -189,7 +189,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.mejorinformado.com/",
-      "lastFetch": "2026-11-13T00:01:57.573492+00:00",
+      "lastFetch": "2026-11-13T07:06:20.624525+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -205,7 +205,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.diariamenteneuquen.com/",
-      "lastFetch": "2026-11-13T00:01:58.510799+00:00",
+      "lastFetch": "2026-11-13T07:06:21.514480+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -1127,8 +1127,8 @@
         "source": "Lmneuquen.com",
         "group": "OBSERVADA",
         "role": "fuente detectada fuera del catálogo",
-        "accepted": 3,
-        "direct": 3,
+        "accepted": 2,
+        "direct": 2,
         "anchored": 0,
         "falsePositives": 0,
         "falsePositiveTypes": [],
@@ -1187,12 +1187,13 @@
         "source": "Minuto Neuquén",
         "group": "OBSERVADA",
         "role": "fuente detectada fuera del catálogo",
-        "accepted": 5,
-        "direct": 5,
+        "accepted": 6,
+        "direct": 6,
         "anchored": 0,
         "falsePositives": 0,
         "falsePositiveTypes": [],
         "topics": [
+          "SEGURIDAD / EMERGENCIAS",
           "SERVICIOS"
         ]
       },
@@ -1389,8 +1390,8 @@
       {
         "source": "Lmneuquen.com",
         "topic": "SERVICIOS",
-        "accepted": 3,
-        "direct": 3,
+        "accepted": 2,
+        "direct": 2,
         "anchored": 0,
         "falsePositives": 0,
         "territorialTerms": [
@@ -1508,6 +1509,19 @@
           "san patricio del chañar",
           "el chañar",
           "ruta 7"
+        ]
+      },
+      {
+        "source": "Minuto Neuquén",
+        "topic": "SEGURIDAD / EMERGENCIAS",
+        "accepted": 1,
+        "direct": 1,
+        "anchored": 0,
+        "falsePositives": 0,
+        "territorialTerms": [
+          "san patricio del chañar",
+          "el chañar",
+          "bomberos voluntarios"
         ]
       },
       {
@@ -1905,8 +1919,8 @@
     "total": 22,
     "direct": 22,
     "regional": 0,
-    "new": 4,
-    "sources": 10,
+    "new": 1,
+    "sources": 11,
     "directSignals": 0,
     "localDirectSignals": 0,
     "radioDirectSignals": 0,
@@ -1920,7 +1934,7 @@
       "forecastGustKmh": 22.0,
       "forecastWindDirection": "S",
       "forecastTemperatureC": 34.0,
-      "retrievedAt": "2026-11-13T00:01:45.395808+00:00",
+      "retrievedAt": "2026-11-13T07:06:07.002535+00:00",
       "source": "AIC",
       "sourceTier": "primary",
       "sourceUrl": "https://www.aic.gob.ar/sitio/home?a=1015&z=1967225803",
@@ -1950,7 +1964,7 @@
       "currentProgrammedMinM3s": 340,
       "programDate": "2026-11-14",
       "tableDate": "2026-11-13",
-      "retrievedAt": "2026-11-13T00:01:45.395808+00:00",
+      "retrievedAt": "2026-11-13T07:06:07.002535+00:00",
       "source": "AIC",
       "sourceTier": "primary",
       "sourceUrl": "https://www.aic.gob.ar/sitio/caudales",
@@ -1970,17 +1984,17 @@
         "url": "https://www.aic.gob.ar/sitio/caudales"
       }
     ],
-    "updatedAt": "2026-11-13T00:01:45.395808+00:00"
+    "updatedAt": "2026-11-13T07:06:07.002535+00:00"
   },
   "operational": {
-    "updatedAt": "2026-11-13T00:01:45.395808+00:00",
+    "updatedAt": "2026-11-13T07:06:07.002535+00:00",
     "route7": {
       "source": "Dirección Provincial de Vialidad",
       "sourceTier": "primary",
       "sourceUrl": "https://www.dpvneuquen.gov.ar/",
       "semanticState": null,
       "publicationState": "source_reachable_no_current_machine_readable_state",
-      "retrievedAt": "2026-11-13T00:01:45.395808+00:00",
+      "retrievedAt": "2026-11-13T07:06:07.002535+00:00",
       "evidence": {
         "route7Mention": true,
         "route8Mention": false
@@ -1992,7 +2006,7 @@
       "sourceUrl": "https://www.dpvneuquen.gov.ar/",
       "semanticState": null,
       "publicationState": "source_reachable_no_current_machine_readable_state",
-      "retrievedAt": "2026-11-13T00:01:45.395808+00:00",
+      "retrievedAt": "2026-11-13T07:06:07.002535+00:00",
       "evidence": {
         "route7Mention": true,
         "route8Mention": false
@@ -2006,7 +2020,7 @@
       "eventType": null,
       "detail": null,
       "publicationState": "source_reachable_no_specific_local_notice",
-      "retrievedAt": "2026-11-13T00:01:45.395808+00:00"
+      "retrievedAt": "2026-11-13T07:06:07.002535+00:00"
     },
     "water": {
       "source": "EPAS",
@@ -2016,7 +2030,7 @@
       "eventType": null,
       "detail": null,
       "publicationState": "source_reachable_no_specific_local_notice",
-      "retrievedAt": "2026-11-13T00:01:45.395808+00:00"
+      "retrievedAt": "2026-11-13T07:06:07.002535+00:00"
     },
     "sources": [
       {
@@ -2428,7 +2442,7 @@
       "label": "Conversación general",
       "signal": 10,
       "status": "cobertura editorial",
-      "freshnessHours": 4.5,
+      "freshnessHours": 6.1,
       "mode": "evidencia editorial",
       "evidenceCount": 10,
       "sourceContract": {
@@ -2468,7 +2482,7 @@
       "label": "Corredor Ruta 7",
       "signal": 1,
       "status": "estado vial",
-      "freshnessHours": 107.2,
+      "freshnessHours": 114.2,
       "mode": "evidencia territorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -2508,7 +2522,7 @@
         "sourceUrl": "https://www.dpvneuquen.gov.ar/",
         "semanticState": null,
         "publicationState": "source_reachable_no_current_machine_readable_state",
-        "retrievedAt": "2026-11-13T00:01:45.395808+00:00",
+        "retrievedAt": "2026-11-13T07:06:07.002535+00:00",
         "evidence": {
           "route7Mention": true,
           "route8Mention": false
@@ -2560,7 +2574,7 @@
         "sourceUrl": "https://www.dpvneuquen.gov.ar/",
         "semanticState": null,
         "publicationState": "source_reachable_no_current_machine_readable_state",
-        "retrievedAt": "2026-11-13T00:01:45.395808+00:00",
+        "retrievedAt": "2026-11-13T07:06:07.002535+00:00",
         "evidence": {
           "route7Mention": true,
           "route8Mention": false
@@ -2660,7 +2674,7 @@
         "eventType": null,
         "detail": null,
         "publicationState": "source_reachable_no_specific_local_notice",
-        "retrievedAt": "2026-11-13T00:01:45.395808+00:00"
+        "retrievedAt": "2026-11-13T07:06:07.002535+00:00"
       }
     },
     {
@@ -2710,7 +2724,7 @@
         "eventType": null,
         "detail": null,
         "publicationState": "source_reachable_no_specific_local_notice",
-        "retrievedAt": "2026-11-13T00:01:45.395808+00:00"
+        "retrievedAt": "2026-11-13T07:06:07.002535+00:00"
       }
     },
     {
@@ -2878,7 +2892,7 @@
       "label": "Seguridad / emergencias",
       "signal": 2,
       "status": "cobertura de emergencia",
-      "freshnessHours": 4.5,
+      "freshnessHours": 6.1,
       "mode": "evidencia editorial",
       "evidenceCount": 2,
       "sourceContract": {
@@ -2918,7 +2932,7 @@
       "label": "Territorio / microzonas",
       "signal": 1,
       "status": "hecho territorial",
-      "freshnessHours": 42.0,
+      "freshnessHours": 49.1,
       "mode": "evidencia territorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -2975,7 +2989,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://chanardigital.com.ar/",
-        "lastFetch": "2026-11-13T00:01:47.524089+00:00",
+        "lastFetch": "2026-11-13T07:06:09.384285+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -2991,7 +3005,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.radiomia.com.ar/",
-        "lastFetch": "2026-11-13T00:01:48.991696+00:00",
+        "lastFetch": "2026-11-13T07:06:11.177194+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -3006,7 +3020,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://tuitvacamuerta.com/",
-        "lastFetch": "2026-11-13T00:01:50.857198+00:00",
+        "lastFetch": "2026-11-13T07:06:13.095553+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -3021,7 +3035,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.vacamuertanews.com/",
-        "lastFetch": "2026-11-13T00:01:51.574401+00:00",
+        "lastFetch": "2026-11-13T07:06:13.992151+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3037,7 +3051,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.neuqueninforma.gob.ar/",
-        "lastFetch": "2026-11-13T00:01:53.187288+00:00",
+        "lastFetch": "2026-11-13T07:06:15.675586+00:00",
         "success": false,
         "attempted": 3,
         "failures": [
@@ -3054,7 +3068,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://sanpatricio.gob.ar/",
-        "lastFetch": "2026-11-13T00:01:54.512659+00:00",
+        "lastFetch": "2026-11-13T07:06:16.822940+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -3069,7 +3083,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://boletinoficial.neuquen.gov.ar/",
-        "lastFetch": "2026-11-13T00:01:55.208151+00:00",
+        "lastFetch": "2026-11-13T07:06:17.618075+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -3084,7 +3098,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.lmneuquen.com/",
-        "lastFetch": "2026-11-13T00:01:55.357104+00:00",
+        "lastFetch": "2026-11-13T07:06:17.889775+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3100,7 +3114,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.rionegro.com.ar/",
-        "lastFetch": "2026-11-13T00:01:56.539199+00:00",
+        "lastFetch": "2026-11-13T07:06:19.720341+00:00",
         "success": true,
         "attempted": 2,
         "failures": [
@@ -3115,7 +3129,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.mejorinformado.com/",
-        "lastFetch": "2026-11-13T00:01:57.573492+00:00",
+        "lastFetch": "2026-11-13T07:06:20.624525+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3131,7 +3145,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.diariamenteneuquen.com/",
-        "lastFetch": "2026-11-13T00:01:58.510799+00:00",
+        "lastFetch": "2026-11-13T07:06:21.514480+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3149,18 +3163,18 @@
   },
   "events": [
     {
-      "eventId": "CHA-84454b959dc3",
-      "title": "San Patricio del Chañar inauguró el nuevo cuartel de Bomberos Voluntarios - Flipr.news",
-      "publishedAt": "2026-11-12T19:30:06+00:00",
+      "eventId": "CHA-cfafd4a1a0e5",
+      "title": "Bomberos de San Patricio del Chañar estrenan su cuartel tras casi ocho años y suman una autobomba - Minuto Neuquén",
+      "publishedAt": "2026-11-13T01:00:00+00:00",
       "firstSeen": "2026-11-13T00:02:10.545486+00:00",
-      "lastSeen": "2026-11-12T19:30:06+00:00",
+      "lastSeen": "2026-11-13T01:00:00+00:00",
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SEGURIDAD / EMERGENCIAS",
-      "movement": 75,
-      "coverage": 2,
-      "sourceCount": 2,
+      "movement": 91,
+      "coverage": 3,
+      "sourceCount": 3,
       "directSourceCount": 0,
       "territorialAnchors": [
         "san patricio del chañar",
@@ -3168,11 +3182,31 @@
         "bomberos voluntarios"
       ],
       "sources": [
+        "Minuto Neuquén",
         "Diario Río Negro",
         "Flipr.news"
       ],
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOZnJPQldCWTdQTmhDOGozcWVfbXdHNEZZMTZUWW4wRVFMZDVBYi1QdnIxYnBIejhDQXN1bjhoWUpfTG50aFVZT2dhVDFDMG1HNWpHLWdRYXZpN0hEV09YR1VYQTZiSnEteEs2b05RSVNmakV6bVdNbGR3UmhGLVUyNVI2dHJnMUhJbFpacmZ3dTFKUWhGTHdjZXlVcHpjQmRURmR0ODBHdXNrZWNXU2ZqczQtcnljdi1KYlI0ejhR?oc=5",
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQRm5HSmliVVBEZTFaTzNoZnAxWlpnSnU4UG1yaEhWbWEzTHFIOThLRXRqNk1WWV9kV0czNTVvei1uZHpXcTE1SmgxdTZPR0s2d2Mtd0pZUTg2Z2ZKeWZHSG1NNXR5N1pqbm1hM09XMW0tM2ZXMWdQR1RMempDMVZjcWVJMG16WWkyeUkyY3pvTkVFcUJEbTFWSE1saWN5bHRVNWFDOG4ybjBJeGZRU0J1alZ0ZnN1b3MtZnRtUEJsVGFiak5TTVVJRUN5WjQ1M1k4TWxFRFMtUXh1U3BNWm5DNDZpbUdIWG9XVnFSWVMwWQ?oc=5",
       "items": [
+        {
+          "title": "Bomberos de San Patricio del Chañar estrenan su cuartel tras casi ocho años y suman una autobomba - Minuto Neuquén",
+          "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQRm5HSmliVVBEZTFaTzNoZnAxWlpnSnU4UG1yaEhWbWEzTHFIOThLRXRqNk1WWV9kV0czNTVvei1uZHpXcTE1SmgxdTZPR0s2d2Mtd0pZUTg2Z2ZKeWZHSG1NNXR5N1pqbm1hM09XMW0tM2ZXMWdQR1RMempDMVZjcWVJMG16WWkyeUkyY3pvTkVFcUJEbTFWSE1saWN5bHRVNWFDOG4ybjBJeGZRU0J1alZ0ZnN1b3MtZnRtUEJsVGFiak5TTVVJRUN5WjQ1M1k4TWxFRFMtUXh1U3BNWm5DNDZpbUdIWG9XVnFSWVMwWQ?oc=5",
+          "publishedAt": "2026-11-13T01:00:00+00:00",
+          "published": "2026-11-13T01:00:00+00:00",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMi7wFBVV95cUxQRm5HSmliVVBEZTFaTzNoZnAxWlpnSnU4UG1yaEhWbWEzTHFIOThLRXRqNk1WWV9kV0czNTVvei1uZHpXcTE1SmgxdTZPR0s2d2Mtd0pZUTg2Z2ZKeWZHSG1NNXR5N1pqbm1hM09XMW0tM2ZXMWdQR1RMempDMVZjcWVJMG16WWkyeUkyY3pvTkVFcUJEbTFWSE1saWN5bHRVNWFDOG4ybjBJeGZRU0J1alZ0ZnN1b3MtZnRtUEJsVGFiak5TTVVJRUN5WjQ1M1k4TWxFRFMtUXh1U3BNWm5DNDZpbUdIWG9XVnFSWVMwWQ?oc=5\" target=\"_blank\">Bomberos de San Patricio del Chañar estrenan su cuartel tras casi ocho años y suman una autobomba</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Minuto Neuquén</font>",
+          "source": "Minuto Neuquén",
+          "sourceType": "BUSCADOR / RESPALDO",
+          "sourceUrl": "",
+          "collection": "BUSCADOR",
+          "query": "\"San Patricio del Chañar\"",
+          "relevance": 3,
+          "relevanceLabel": "DIRECTA",
+          "firstSeen": "2026-11-13T07:06:31.416323+00:00",
+          "isNew": true,
+          "titleKey": "bomberos estrenan cuartel tras casi ocho años suman autobomba minuto",
+          "evidenceUrl": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQRm5HSmliVVBEZTFaTzNoZnAxWlpnSnU4UG1yaEhWbWEzTHFIOThLRXRqNk1WWV9kV0czNTVvei1uZHpXcTE1SmgxdTZPR0s2d2Mtd0pZUTg2Z2ZKeWZHSG1NNXR5N1pqbm1hM09XMW0tM2ZXMWdQR1RMempDMVZjcWVJMG16WWkyeUkyY3pvTkVFcUJEbTFWSE1saWN5bHRVNWFDOG4ybjBJeGZRU0J1alZ0ZnN1b3MtZnRtUEJsVGFiak5TTVVJRUN5WjQ1M1k4TWxFRFMtUXh1U3BNWm5DNDZpbUdIWG9XVnFSWVMwWQ?oc=5",
+          "sourcePriority": 3
+        },
         {
           "title": "San Patricio del Chañar: bomberos estrenan cuartel y autobomba - Diario Río Negro",
           "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPNDBCWVFVWXgyS0hLYjVfMEFhdUszOXZHMXBzZkQ0b0c5MllSckJ0LTNrSVBvX1NrLVowbzJwUkxFZzU0SmpiZGU1d3Z1TV9MUVlSdTFwakVBaVhsZHkxMVNJUWF6c2ZXemZPMTFJZjAyV0FnY1l1U01HRUlLcDFicDVkSjZDMkx6ZnhxQ0g2TnZCZmh0Tm1FWktRS081Nkkwb2htMHdqNDJIRWhSeVpxT3k2a9IBswFBVV95cUxPNDBCWVFVWXgyS0hLYjVfMEFhdUszOXZHMXBzZkQ0b0c5MllSckJ0LTNrSVBvX1NrLVowbzJwUkxFZzU0SmpiZGU1d3Z1TV9MUVlSdTFwakVBaVhsZHkxMVNJUWF6c2ZXemZPMTFJZjAyV0FnY1l1U01HRUlLcDFicDVkSjZDMkx6ZnhxQ0g2TnZCZmh0Tm1FWktRS081Nkkwb2htMHdqNDJIRWhSeVpxT3k2aw?oc=5",
@@ -3187,7 +3221,7 @@
           "relevance": 3,
           "relevanceLabel": "DIRECTA",
           "firstSeen": "2026-11-13T00:02:10.545486+00:00",
-          "isNew": true,
+          "isNew": false,
           "titleKey": "bomberos estrenan cuartel autobomba diario rio negro",
           "evidenceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPNDBCWVFVWXgyS0hLYjVfMEFhdUszOXZHMXBzZkQ0b0c5MllSckJ0LTNrSVBvX1NrLVowbzJwUkxFZzU0SmpiZGU1d3Z1TV9MUVlSdTFwakVBaVhsZHkxMVNJUWF6c2ZXemZPMTFJZjAyV0FnY1l1U01HRUlLcDFicDVkSjZDMkx6ZnhxQ0g2TnZCZmh0Tm1FWktRS081Nkkwb2htMHdqNDJIRWhSeVpxT3k2a9IBswFBVV95cUxPNDBCWVFVWXgyS0hLYjVfMEFhdUszOXZHMXBzZkQ0b0c5MllSckJ0LTNrSVBvX1NrLVowbzJwUkxFZzU0SmpiZGU1d3Z1TV9MUVlSdTFwakVBaVhsZHkxMVNJUWF6c2ZXemZPMTFJZjAyV0FnY1l1U01HRUlLcDFicDVkSjZDMkx6ZnhxQ0g2TnZCZmh0Tm1FWktRS081Nkkwb2htMHdqNDJIRWhSeVpxT3k2aw?oc=5",
           "sourcePriority": 3
@@ -3206,20 +3240,19 @@
           "relevance": 3,
           "relevanceLabel": "DIRECTA",
           "firstSeen": "2026-11-13T00:02:10.545486+00:00",
-          "isNew": true,
+          "isNew": false,
           "titleKey": "inauguro nuevo cuartel bomberos voluntarios flipr news",
           "evidenceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOZnJPQldCWTdQTmhDOGozcWVfbXdHNEZZMTZUWW4wRVFMZDVBYi1QdnIxYnBIejhDQXN1bjhoWUpfTG50aFVZT2dhVDFDMG1HNWpHLWdRYXZpN0hEV09YR1VYQTZiSnEteEs2b05RSVNmakV6bVdNbGR3UmhGLVUyNVI2dHJnMUhJbFpacmZ3dTFKUWhGTHdjZXlVcHpjQmRURmR0ODBHdXNrZWNXU2ZqczQtcnljdi1KYlI0ejhR?oc=5",
           "sourcePriority": 3
         }
       ],
       "lifecycle": "EMERGENTE",
-      "movementDelta": 15,
-      "previousCoverage": 1,
+      "movementDelta": 16,
+      "previousCoverage": 2,
       "newSources": [
-        "Diario Río Negro",
-        "Flipr.news"
+        "Minuto Neuquén"
       ],
-      "sourceDiversity": 2,
+      "sourceDiversity": 3,
       "memoryMatched": true,
       "isNew": false,
       "view": "INCIDENCIA",
@@ -3253,7 +3286,7 @@
           {
             "node": "Bomberos Voluntarios",
             "level": "institucion",
-            "evidence": "TEXTUAL"
+            "evidence": "FUERTE"
           }
         ]
       }
@@ -3268,7 +3301,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SERVICIOS",
-      "movement": 64,
+      "movement": 62,
       "coverage": 5,
       "sourceCount": 3,
       "directSourceCount": 0,
@@ -3335,7 +3368,7 @@
           "relevance": 3,
           "relevanceLabel": "DIRECTA",
           "firstSeen": "2026-11-13T00:02:10.545486+00:00",
-          "isNew": true,
+          "isNew": false,
           "titleKey": "tres jovenes clasificaron provincial ajedrez digital",
           "evidenceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOTGZuVUVtSUdUWmFmNW1UTzE4aTB2S01kNHRnZzh4Uy15WEp4a2ZiNGo2OHROU09KbWhDY2JaaXAxZ1ZWTUR6YktsUnVZcmpNbHdqRGVZc3hnRDh2TGxmVEozUkpad3VPTDJKREZvbnZGdEVFQ1ppN3poUks1Q2FhX2c0dURXX3Z0RUtVNHhsN09FYVJoNnd5MTBsYUFlZ3JmSXUxNFNPQ0JGSjhjZ24zMWs1WVVWcWhYT1pWZXFfUWI2UE1pWkZ0T2JLUQ?oc=5",
           "sourcePriority": 3
@@ -3373,7 +3406,7 @@
           "relevance": 3,
           "relevanceLabel": "DIRECTA",
           "firstSeen": "2026-11-13T00:02:10.545486+00:00",
-          "isNew": true,
+          "isNew": false,
           "titleKey": "vecinos zona rural llevan tres dias sin agua reclaman respuestas digital",
           "evidenceUrl": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQT3JvbDdBSkZPMEhCSmloTEdiX2lNRURsbEx1Y1F4S1VsRkRaY0FkWU00ejJWSXYxNzdTcEd3ZG5CMXYxVGVoZUQ1YmNlTEJDUFBhVWFXRUM1a3lteDRodDV3bERkdTJOX25zX1VQN3dXckZDNDA2Sk9jNkJ5anMyTl9FRy1PSlNPVUlzdVlFeTd0Nk1YLU1uZi1GcUE0VW1NeU5Yck1UX1VmM3ZwVjIydzhpQTctU3h4cTczMlpSS0NTWlBHY04tcTlaa0lBbHlmeVJtRWdrMUlIOW5iSGd5WGFmc2s5Z19x?oc=5",
           "sourcePriority": 3
@@ -3381,7 +3414,7 @@
       ],
       "lifecycle": "SOSTENIDO",
       "movementDelta": -2,
-      "previousCoverage": 3,
+      "previousCoverage": 5,
       "newSources": [],
       "sourceDiversity": 3,
       "memoryMatched": true,
@@ -3424,7 +3457,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SERVICIOS",
-      "movement": 50,
+      "movement": 48,
       "coverage": 1,
       "sourceCount": 1,
       "directSourceCount": 0,
@@ -3457,7 +3490,7 @@
         }
       ],
       "lifecycle": "SOSTENIDO",
-      "movementDelta": -1,
+      "movementDelta": -2,
       "previousCoverage": 1,
       "newSources": [],
       "sourceDiversity": 1,
@@ -3500,113 +3533,6 @@
       }
     },
     {
-      "eventId": "CHA-4b8240322bf2",
-      "title": "Una camioneta se incendió en la Ruta 7 cerca de San Patricio del Chañar: el conductor se quemó intentando apag - MejorInformado.com",
-      "publishedAt": "2026-11-08T12:53:05+00:00",
-      "firstSeen": "2026-11-09T09:30:09.078627+00:00",
-      "lastSeen": "2026-11-08T12:53:05+00:00",
-      "relevance": 3,
-      "relevanceLabel": "DIRECTA",
-      "incidenceLabel": "DIRECTA EN CHANAR",
-      "topic": "MOVILIDAD",
-      "movement": 48,
-      "coverage": 2,
-      "sourceCount": 2,
-      "directSourceCount": 0,
-      "territorialAnchors": [
-        "san patricio del chañar",
-        "el chañar",
-        "ruta 7"
-      ],
-      "sources": [
-        "MejorInformado.com",
-        "Diario Neuquino"
-      ],
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNbnJLX2J6dDJxbFhwLXJpUkJmUnVmcmdFSllVdTFfbVAwWExyZnQ4NXZGQVdldnVzWUZfLXYxNm9XNk5XdzhHcklrbzBmeGJRTkJDUmlRaHBReXZUbzRNME5BMVozb3VnX0RIUDMxb0JRVzdsek1Mbk5CVFNuNXpGR2hyR3RJdWlOU3EtbV9WYnNHSmt5NDdyZm1adHRRZnBITXEzWTFaUXdESV94Y0RWZ2VvTUdlczRhV2E3ZXkzc3RMMHFnX1ZWTVdGMkdMQ3RaWm1DYy1oWdIB1wFBVV95cUxNbnJLX2J6dDJxbFhwLXJpUkJmUnVmcmdFSllVdTFfbVAwWExyZnQ4NXZGQVdldnVzWUZfLXYxNm9XNk5XdzhHcklrbzBmeGJRTkJDUmlRaHBReXZUbzRNME5BMVozb3VnX0RIUDMxb0JRVzdsek1Mbk5CVFNuNXpGR2hyR3RJdWlOU3EtbV9WYnNHSmt5NDdyZm1adHRRZnBITXEzWTFaUXdESV94Y0RWZ2VvTUdlczRhV2E3ZXkzc3RMMHFnX1ZWTVdGMkdMQ3RaWm1DYy1oWQ?oc=5",
-      "items": [
-        {
-          "title": "Una camioneta se incendió en la Ruta 7 cerca de San Patricio del Chañar: el conductor se quemó intentando apag - MejorInformado.com",
-          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNbnJLX2J6dDJxbFhwLXJpUkJmUnVmcmdFSllVdTFfbVAwWExyZnQ4NXZGQVdldnVzWUZfLXYxNm9XNk5XdzhHcklrbzBmeGJRTkJDUmlRaHBReXZUbzRNME5BMVozb3VnX0RIUDMxb0JRVzdsek1Mbk5CVFNuNXpGR2hyR3RJdWlOU3EtbV9WYnNHSmt5NDdyZm1adHRRZnBITXEzWTFaUXdESV94Y0RWZ2VvTUdlczRhV2E3ZXkzc3RMMHFnX1ZWTVdGMkdMQ3RaWm1DYy1oWdIB1wFBVV95cUxNbnJLX2J6dDJxbFhwLXJpUkJmUnVmcmdFSllVdTFfbVAwWExyZnQ4NXZGQVdldnVzWUZfLXYxNm9XNk5XdzhHcklrbzBmeGJRTkJDUmlRaHBReXZUbzRNME5BMVozb3VnX0RIUDMxb0JRVzdsek1Mbk5CVFNuNXpGR2hyR3RJdWlOU3EtbV9WYnNHSmt5NDdyZm1adHRRZnBITXEzWTFaUXdESV94Y0RWZ2VvTUdlczRhV2E3ZXkzc3RMMHFnX1ZWTVdGMkdMQ3RaWm1DYy1oWQ?oc=5",
-          "publishedAt": "2026-11-08T12:53:05+00:00",
-          "published": "2026-11-08T12:53:05+00:00",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMi1wFBVV95cUxNbnJLX2J6dDJxbFhwLXJpUkJmUnVmcmdFSllVdTFfbVAwWExyZnQ4NXZGQVdldnVzWUZfLXYxNm9XNk5XdzhHcklrbzBmeGJRTkJDUmlRaHBReXZUbzRNME5BMVozb3VnX0RIUDMxb0JRVzdsek1Mbk5CVFNuNXpGR2hyR3RJdWlOU3EtbV9WYnNHSmt5NDdyZm1adHRRZnBITXEzWTFaUXdESV94Y0RWZ2VvTUdlczRhV2E3ZXkzc3RMMHFnX1ZWTVdGMkdMQ3RaWm1DYy1oWdIB1wFBVV95cUxNbnJLX2J6dDJxbFhwLXJpUkJmUnVmcmdFSllVdTFfbVAwWExyZnQ4NXZGQVdldnVzWUZfLXYxNm9XNk5XdzhHcklrbzBmeGJRTkJDUmlRaHBReXZUbzRNME5BMVozb3VnX0RIUDMxb0JRVzdsek1Mbk5CVFNuNXpGR2hyR3RJdWlOU3EtbV9WYnNHSmt5NDdyZm1adHRRZnBITXEzWTFaUXdESV94Y0RWZ2VvTUdlczRhV2E3ZXkzc3RMMHFnX1ZWTVdGMkdMQ3RaWm1DYy1oWQ?oc=5\" target=\"_blank\">Una camioneta se incendió en la Ruta 7 cerca de San Patricio del Chañar: el conductor se quemó intentando apag</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MejorInformado.com</font>",
-          "source": "MejorInformado.com",
-          "sourceType": "BUSCADOR / RESPALDO",
-          "sourceUrl": "",
-          "collection": "BUSCADOR",
-          "query": "\"San Patricio del Chañar\"",
-          "relevance": 3,
-          "relevanceLabel": "DIRECTA",
-          "firstSeen": "2026-11-09T09:30:09.078627+00:00",
-          "isNew": false,
-          "titleKey": "camioneta incendio ruta cerca conductor quemo intentando apag mejorinformado com",
-          "evidenceUrl": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNbnJLX2J6dDJxbFhwLXJpUkJmUnVmcmdFSllVdTFfbVAwWExyZnQ4NXZGQVdldnVzWUZfLXYxNm9XNk5XdzhHcklrbzBmeGJRTkJDUmlRaHBReXZUbzRNME5BMVozb3VnX0RIUDMxb0JRVzdsek1Mbk5CVFNuNXpGR2hyR3RJdWlOU3EtbV9WYnNHSmt5NDdyZm1adHRRZnBITXEzWTFaUXdESV94Y0RWZ2VvTUdlczRhV2E3ZXkzc3RMMHFnX1ZWTVdGMkdMQ3RaWm1DYy1oWdIB1wFBVV95cUxNbnJLX2J6dDJxbFhwLXJpUkJmUnVmcmdFSllVdTFfbVAwWExyZnQ4NXZGQVdldnVzWUZfLXYxNm9XNk5XdzhHcklrbzBmeGJRTkJDUmlRaHBReXZUbzRNME5BMVozb3VnX0RIUDMxb0JRVzdsek1Mbk5CVFNuNXpGR2hyR3RJdWlOU3EtbV9WYnNHSmt5NDdyZm1adHRRZnBITXEzWTFaUXdESV94Y0RWZ2VvTUdlczRhV2E3ZXkzc3RMMHFnX1ZWTVdGMkdMQ3RaWm1DYy1oWQ?oc=5",
-          "sourcePriority": 3
-        },
-        {
-          "title": "Una camioneta se incendió en la Ruta 7 cerca de San Patricio del Chañar y su conductor sufrió quemaduras - Diario Neuquino",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQaWVHU3dKZUxQNURFN0NUV0RLUThDd3djRXlkcTNrSUdwNnQzaEtkNGhHMmwwcDltaVY3d2VrV3JlMkROb2JhUXZxSzV0LWJVZkZucEZfUUs3S3F5U1hPc1E1YXA1VXBUWVFSQ0VUR2NQcnRYQXg4SmpQcHlzUGJZUEVreXBuZkMwRTF4bGltREZadXVqSHRtOS1Qbk9STW0wWVNUOGx2TXVwUTRpaTNidTNuM3k2RTRtUm96bFZtUGdIUEhQbVU5MFpadzRtNmZY?oc=5",
-          "publishedAt": "2026-11-07T20:00:15+00:00",
-          "published": "2026-11-07T20:00:15+00:00",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMi0AFBVV95cUxQaWVHU3dKZUxQNURFN0NUV0RLUThDd3djRXlkcTNrSUdwNnQzaEtkNGhHMmwwcDltaVY3d2VrV3JlMkROb2JhUXZxSzV0LWJVZkZucEZfUUs3S3F5U1hPc1E1YXA1VXBUWVFSQ0VUR2NQcnRYQXg4SmpQcHlzUGJZUEVreXBuZkMwRTF4bGltREZadXVqSHRtOS1Qbk9STW0wWVNUOGx2TXVwUTRpaTNidTNuM3k2RTRtUm96bFZtUGdIUEhQbVU5MFpadzRtNmZY?oc=5\" target=\"_blank\">Una camioneta se incendió en la Ruta 7 cerca de San Patricio del Chañar y su conductor sufrió quemaduras</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Diario Neuquino</font>",
-          "source": "Diario Neuquino",
-          "sourceType": "BUSCADOR / RESPALDO",
-          "sourceUrl": "",
-          "collection": "BUSCADOR",
-          "query": "\"San Patricio del Chañar\"",
-          "relevance": 3,
-          "relevanceLabel": "DIRECTA",
-          "firstSeen": "2026-11-09T09:30:09.078627+00:00",
-          "isNew": false,
-          "titleKey": "camioneta incendio ruta cerca conductor sufrio quemaduras diario neuquino",
-          "evidenceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQaWVHU3dKZUxQNURFN0NUV0RLUThDd3djRXlkcTNrSUdwNnQzaEtkNGhHMmwwcDltaVY3d2VrV3JlMkROb2JhUXZxSzV0LWJVZkZucEZfUUs3S3F5U1hPc1E1YXA1VXBUWVFSQ0VUR2NQcnRYQXg4SmpQcHlzUGJZUEVreXBuZkMwRTF4bGltREZadXVqSHRtOS1Qbk9STW0wWVNUOGx2TXVwUTRpaTNidTNuM3k2RTRtUm96bFZtUGdIUEhQbVU5MFpadzRtNmZY?oc=5",
-          "sourcePriority": 3
-        }
-      ],
-      "lifecycle": "SOSTENIDO",
-      "movementDelta": -1,
-      "previousCoverage": 2,
-      "newSources": [],
-      "sourceDiversity": 2,
-      "memoryMatched": true,
-      "isNew": false,
-      "view": "INCIDENCIA",
-      "incidenceEligible": true,
-      "signalReason": "reservado a incidencia territorial",
-      "incidenceReason": "anclaje directo + tema operativo/local",
-      "territory": {
-        "version": "2.0",
-        "primary": "San Patricio del Chañar",
-        "nodes": [
-          "San Patricio del Chañar",
-          "Ruta 7"
-        ],
-        "sectors": [],
-        "barrios": [],
-        "microzones": [],
-        "corridors": [
-          "Ruta 7"
-        ],
-        "institutions": [],
-        "services": [],
-        "spaces": [],
-        "production": [],
-        "path": "San Patricio del Chañar → Ruta 7",
-        "evidence": [
-          {
-            "node": "San Patricio del Chañar",
-            "level": "localidad",
-            "evidence": "DIRECTA"
-          },
-          {
-            "node": "Ruta 7",
-            "level": "corredor",
-            "evidence": "TEXTUAL"
-          }
-        ]
-      }
-    },
-    {
       "eventId": "CHA-859d2329b56b",
       "title": "Un boliche clausurado, un hombre aprehendido y tres motos secuestradas en San Patricio del Chañar - NoticiasNQN",
       "publishedAt": "2026-11-02T01:35:53+00:00",
@@ -3617,7 +3543,7 @@
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SERVICIOS",
       "movement": 48,
-      "coverage": 7,
+      "coverage": 6,
       "sourceCount": 5,
       "directSourceCount": 0,
       "territorialAnchors": [
@@ -3746,25 +3672,6 @@
           "titleKey": "investigan muerte joven años diario neuquino",
           "evidenceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOaFpITm1ILTRZY3VOS0ZGRE9DdEJEaXV4dlJQa3dxRHEtSU9QRU5yTWFEMWF6WEtkS1FFZVlGbDQxd1Jyc0VIZ0l4aG50RU1wRXJvc29FQURVb2l4dDh4bGFQWXlVTXpDY0RIVzE3OTZLeVF1OW0wSVZ2bkUzODNJNFpkZ0pnVG1lZFZqNU9xMTNELUZtSFNyVGx4dzFZTUw2aFpr?oc=5",
           "sourcePriority": 3
-        },
-        {
-          "title": "Conmoción por la muerte de un joven en San Patricio del Chañar: qué se sabe - Lmneuquen.com",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOWEpuZW42ckxUUk1Bb0lVeWE0UUszNmVkUUhDSjlqUUo5NTJ6OV8tNG91TDdQTklJd3RXZFd4aHh1LVdXdEs3UWV1QXpHVDRBRzQzcnFpQXh2bTNfWHp4WFEwLUg2dUV1OFNRUGFvMkdOMjI4dzZEbU5PeDBseEFvbDBqSXRJM1hfcG0wOUo5ZWxQYmxRVlVveVJoTmVBS2RyelliYk9TOHF4a1XSAbABQVVfeXFMUFJsRGpyWTZZLWtUTWc0TFRUTVo5bUVtM1F2cHVXM3VfQ1RXR2dTeTJBdHN0V1FDNTFNbnlBM21QUkQ3UThVb2JtMVVibWpldVRZZXNxYjJyUWpZVllSZkFKMHF3QlZLNjNLMk5mLUc2N3hCd2FVa0puTzR6SU5uYUhGQUgtRHRuWGt6Tk9ZZHdGSDltRENKY0F5em80ZXgtUmxTYldBSm5qMTVlc3lnazc?oc=5",
-          "publishedAt": "2026-10-30T07:00:00+00:00",
-          "published": "2026-10-30T07:00:00+00:00",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxOWEpuZW42ckxUUk1Bb0lVeWE0UUszNmVkUUhDSjlqUUo5NTJ6OV8tNG91TDdQTklJd3RXZFd4aHh1LVdXdEs3UWV1QXpHVDRBRzQzcnFpQXh2bTNfWHp4WFEwLUg2dUV1OFNRUGFvMkdOMjI4dzZEbU5PeDBseEFvbDBqSXRJM1hfcG0wOUo5ZWxQYmxRVlVveVJoTmVBS2RyelliYk9TOHF4a1XSAbABQVVfeXFMUFJsRGpyWTZZLWtUTWc0TFRUTVo5bUVtM1F2cHVXM3VfQ1RXR2dTeTJBdHN0V1FDNTFNbnlBM21QUkQ3UThVb2JtMVVibWpldVRZZXNxYjJyUWpZVllSZkFKMHF3QlZLNjNLMk5mLUc2N3hCd2FVa0puTzR6SU5uYUhGQUgtRHRuWGt6Tk9ZZHdGSDltRENKY0F5em80ZXgtUmxTYldBSm5qMTVlc3lnazc?oc=5\" target=\"_blank\">Conmoción por la muerte de un joven en San Patricio del Chañar: qué se sabe</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Lmneuquen.com</font>",
-          "source": "Lmneuquen.com",
-          "sourceType": "BUSCADOR / RESPALDO",
-          "sourceUrl": "",
-          "collection": "BUSCADOR",
-          "query": "\"San Patricio del Chañar\"",
-          "relevance": 3,
-          "relevanceLabel": "DIRECTA",
-          "firstSeen": "2026-11-09T09:30:09.078627+00:00",
-          "isNew": false,
-          "titleKey": "conmocion muerte joven sabe lmneuquen com",
-          "evidenceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOWEpuZW42ckxUUk1Bb0lVeWE0UUszNmVkUUhDSjlqUUo5NTJ6OV8tNG91TDdQTklJd3RXZFd4aHh1LVdXdEs3UWV1QXpHVDRBRzQzcnFpQXh2bTNfWHp4WFEwLUg2dUV1OFNRUGFvMkdOMjI4dzZEbU5PeDBseEFvbDBqSXRJM1hfcG0wOUo5ZWxQYmxRVlVveVJoTmVBS2RyelliYk9TOHF4a1XSAbABQVVfeXFMUFJsRGpyWTZZLWtUTWc0TFRUTVo5bUVtM1F2cHVXM3VfQ1RXR2dTeTJBdHN0V1FDNTFNbnlBM21QUkQ3UThVb2JtMVVibWpldVRZZXNxYjJyUWpZVllSZkFKMHF3QlZLNjNLMk5mLUc2N3hCd2FVa0puTzR6SU5uYUhGQUgtRHRuWGt6Tk9ZZHdGSDltRENKY0F5em80ZXgtUmxTYldBSm5qMTVlc3lnazc?oc=5",
-          "sourcePriority": 3
         }
       ],
       "lifecycle": "ACTIVO",
@@ -3804,6 +3711,113 @@
             "node": "San Patricio del Chañar",
             "level": "localidad",
             "evidence": "DIRECTA"
+          }
+        ]
+      }
+    },
+    {
+      "eventId": "CHA-4b8240322bf2",
+      "title": "Una camioneta se incendió en la Ruta 7 cerca de San Patricio del Chañar: el conductor se quemó intentando apag - MejorInformado.com",
+      "publishedAt": "2026-11-08T12:53:05+00:00",
+      "firstSeen": "2026-11-09T09:30:09.078627+00:00",
+      "lastSeen": "2026-11-08T12:53:05+00:00",
+      "relevance": 3,
+      "relevanceLabel": "DIRECTA",
+      "incidenceLabel": "DIRECTA EN CHANAR",
+      "topic": "MOVILIDAD",
+      "movement": 46,
+      "coverage": 2,
+      "sourceCount": 2,
+      "directSourceCount": 0,
+      "territorialAnchors": [
+        "san patricio del chañar",
+        "el chañar",
+        "ruta 7"
+      ],
+      "sources": [
+        "MejorInformado.com",
+        "Diario Neuquino"
+      ],
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNbnJLX2J6dDJxbFhwLXJpUkJmUnVmcmdFSllVdTFfbVAwWExyZnQ4NXZGQVdldnVzWUZfLXYxNm9XNk5XdzhHcklrbzBmeGJRTkJDUmlRaHBReXZUbzRNME5BMVozb3VnX0RIUDMxb0JRVzdsek1Mbk5CVFNuNXpGR2hyR3RJdWlOU3EtbV9WYnNHSmt5NDdyZm1adHRRZnBITXEzWTFaUXdESV94Y0RWZ2VvTUdlczRhV2E3ZXkzc3RMMHFnX1ZWTVdGMkdMQ3RaWm1DYy1oWdIB1wFBVV95cUxNbnJLX2J6dDJxbFhwLXJpUkJmUnVmcmdFSllVdTFfbVAwWExyZnQ4NXZGQVdldnVzWUZfLXYxNm9XNk5XdzhHcklrbzBmeGJRTkJDUmlRaHBReXZUbzRNME5BMVozb3VnX0RIUDMxb0JRVzdsek1Mbk5CVFNuNXpGR2hyR3RJdWlOU3EtbV9WYnNHSmt5NDdyZm1adHRRZnBITXEzWTFaUXdESV94Y0RWZ2VvTUdlczRhV2E3ZXkzc3RMMHFnX1ZWTVdGMkdMQ3RaWm1DYy1oWQ?oc=5",
+      "items": [
+        {
+          "title": "Una camioneta se incendió en la Ruta 7 cerca de San Patricio del Chañar: el conductor se quemó intentando apag - MejorInformado.com",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNbnJLX2J6dDJxbFhwLXJpUkJmUnVmcmdFSllVdTFfbVAwWExyZnQ4NXZGQVdldnVzWUZfLXYxNm9XNk5XdzhHcklrbzBmeGJRTkJDUmlRaHBReXZUbzRNME5BMVozb3VnX0RIUDMxb0JRVzdsek1Mbk5CVFNuNXpGR2hyR3RJdWlOU3EtbV9WYnNHSmt5NDdyZm1adHRRZnBITXEzWTFaUXdESV94Y0RWZ2VvTUdlczRhV2E3ZXkzc3RMMHFnX1ZWTVdGMkdMQ3RaWm1DYy1oWdIB1wFBVV95cUxNbnJLX2J6dDJxbFhwLXJpUkJmUnVmcmdFSllVdTFfbVAwWExyZnQ4NXZGQVdldnVzWUZfLXYxNm9XNk5XdzhHcklrbzBmeGJRTkJDUmlRaHBReXZUbzRNME5BMVozb3VnX0RIUDMxb0JRVzdsek1Mbk5CVFNuNXpGR2hyR3RJdWlOU3EtbV9WYnNHSmt5NDdyZm1adHRRZnBITXEzWTFaUXdESV94Y0RWZ2VvTUdlczRhV2E3ZXkzc3RMMHFnX1ZWTVdGMkdMQ3RaWm1DYy1oWQ?oc=5",
+          "publishedAt": "2026-11-08T12:53:05+00:00",
+          "published": "2026-11-08T12:53:05+00:00",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMi1wFBVV95cUxNbnJLX2J6dDJxbFhwLXJpUkJmUnVmcmdFSllVdTFfbVAwWExyZnQ4NXZGQVdldnVzWUZfLXYxNm9XNk5XdzhHcklrbzBmeGJRTkJDUmlRaHBReXZUbzRNME5BMVozb3VnX0RIUDMxb0JRVzdsek1Mbk5CVFNuNXpGR2hyR3RJdWlOU3EtbV9WYnNHSmt5NDdyZm1adHRRZnBITXEzWTFaUXdESV94Y0RWZ2VvTUdlczRhV2E3ZXkzc3RMMHFnX1ZWTVdGMkdMQ3RaWm1DYy1oWdIB1wFBVV95cUxNbnJLX2J6dDJxbFhwLXJpUkJmUnVmcmdFSllVdTFfbVAwWExyZnQ4NXZGQVdldnVzWUZfLXYxNm9XNk5XdzhHcklrbzBmeGJRTkJDUmlRaHBReXZUbzRNME5BMVozb3VnX0RIUDMxb0JRVzdsek1Mbk5CVFNuNXpGR2hyR3RJdWlOU3EtbV9WYnNHSmt5NDdyZm1adHRRZnBITXEzWTFaUXdESV94Y0RWZ2VvTUdlczRhV2E3ZXkzc3RMMHFnX1ZWTVdGMkdMQ3RaWm1DYy1oWQ?oc=5\" target=\"_blank\">Una camioneta se incendió en la Ruta 7 cerca de San Patricio del Chañar: el conductor se quemó intentando apag</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MejorInformado.com</font>",
+          "source": "MejorInformado.com",
+          "sourceType": "BUSCADOR / RESPALDO",
+          "sourceUrl": "",
+          "collection": "BUSCADOR",
+          "query": "\"San Patricio del Chañar\"",
+          "relevance": 3,
+          "relevanceLabel": "DIRECTA",
+          "firstSeen": "2026-11-09T09:30:09.078627+00:00",
+          "isNew": false,
+          "titleKey": "camioneta incendio ruta cerca conductor quemo intentando apag mejorinformado com",
+          "evidenceUrl": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNbnJLX2J6dDJxbFhwLXJpUkJmUnVmcmdFSllVdTFfbVAwWExyZnQ4NXZGQVdldnVzWUZfLXYxNm9XNk5XdzhHcklrbzBmeGJRTkJDUmlRaHBReXZUbzRNME5BMVozb3VnX0RIUDMxb0JRVzdsek1Mbk5CVFNuNXpGR2hyR3RJdWlOU3EtbV9WYnNHSmt5NDdyZm1adHRRZnBITXEzWTFaUXdESV94Y0RWZ2VvTUdlczRhV2E3ZXkzc3RMMHFnX1ZWTVdGMkdMQ3RaWm1DYy1oWdIB1wFBVV95cUxNbnJLX2J6dDJxbFhwLXJpUkJmUnVmcmdFSllVdTFfbVAwWExyZnQ4NXZGQVdldnVzWUZfLXYxNm9XNk5XdzhHcklrbzBmeGJRTkJDUmlRaHBReXZUbzRNME5BMVozb3VnX0RIUDMxb0JRVzdsek1Mbk5CVFNuNXpGR2hyR3RJdWlOU3EtbV9WYnNHSmt5NDdyZm1adHRRZnBITXEzWTFaUXdESV94Y0RWZ2VvTUdlczRhV2E3ZXkzc3RMMHFnX1ZWTVdGMkdMQ3RaWm1DYy1oWQ?oc=5",
+          "sourcePriority": 3
+        },
+        {
+          "title": "Una camioneta se incendió en la Ruta 7 cerca de San Patricio del Chañar y su conductor sufrió quemaduras - Diario Neuquino",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQaWVHU3dKZUxQNURFN0NUV0RLUThDd3djRXlkcTNrSUdwNnQzaEtkNGhHMmwwcDltaVY3d2VrV3JlMkROb2JhUXZxSzV0LWJVZkZucEZfUUs3S3F5U1hPc1E1YXA1VXBUWVFSQ0VUR2NQcnRYQXg4SmpQcHlzUGJZUEVreXBuZkMwRTF4bGltREZadXVqSHRtOS1Qbk9STW0wWVNUOGx2TXVwUTRpaTNidTNuM3k2RTRtUm96bFZtUGdIUEhQbVU5MFpadzRtNmZY?oc=5",
+          "publishedAt": "2026-11-07T20:00:15+00:00",
+          "published": "2026-11-07T20:00:15+00:00",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMi0AFBVV95cUxQaWVHU3dKZUxQNURFN0NUV0RLUThDd3djRXlkcTNrSUdwNnQzaEtkNGhHMmwwcDltaVY3d2VrV3JlMkROb2JhUXZxSzV0LWJVZkZucEZfUUs3S3F5U1hPc1E1YXA1VXBUWVFSQ0VUR2NQcnRYQXg4SmpQcHlzUGJZUEVreXBuZkMwRTF4bGltREZadXVqSHRtOS1Qbk9STW0wWVNUOGx2TXVwUTRpaTNidTNuM3k2RTRtUm96bFZtUGdIUEhQbVU5MFpadzRtNmZY?oc=5\" target=\"_blank\">Una camioneta se incendió en la Ruta 7 cerca de San Patricio del Chañar y su conductor sufrió quemaduras</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Diario Neuquino</font>",
+          "source": "Diario Neuquino",
+          "sourceType": "BUSCADOR / RESPALDO",
+          "sourceUrl": "",
+          "collection": "BUSCADOR",
+          "query": "\"San Patricio del Chañar\"",
+          "relevance": 3,
+          "relevanceLabel": "DIRECTA",
+          "firstSeen": "2026-11-09T09:30:09.078627+00:00",
+          "isNew": false,
+          "titleKey": "camioneta incendio ruta cerca conductor sufrio quemaduras diario neuquino",
+          "evidenceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQaWVHU3dKZUxQNURFN0NUV0RLUThDd3djRXlkcTNrSUdwNnQzaEtkNGhHMmwwcDltaVY3d2VrV3JlMkROb2JhUXZxSzV0LWJVZkZucEZfUUs3S3F5U1hPc1E1YXA1VXBUWVFSQ0VUR2NQcnRYQXg4SmpQcHlzUGJZUEVreXBuZkMwRTF4bGltREZadXVqSHRtOS1Qbk9STW0wWVNUOGx2TXVwUTRpaTNidTNuM3k2RTRtUm96bFZtUGdIUEhQbVU5MFpadzRtNmZY?oc=5",
+          "sourcePriority": 3
+        }
+      ],
+      "lifecycle": "SOSTENIDO",
+      "movementDelta": -2,
+      "previousCoverage": 2,
+      "newSources": [],
+      "sourceDiversity": 2,
+      "memoryMatched": true,
+      "isNew": false,
+      "view": "INCIDENCIA",
+      "incidenceEligible": true,
+      "signalReason": "reservado a incidencia territorial",
+      "incidenceReason": "anclaje directo + tema operativo/local",
+      "territory": {
+        "version": "2.0",
+        "primary": "San Patricio del Chañar",
+        "nodes": [
+          "San Patricio del Chañar",
+          "Ruta 7"
+        ],
+        "sectors": [],
+        "barrios": [],
+        "microzones": [],
+        "corridors": [
+          "Ruta 7"
+        ],
+        "institutions": [],
+        "services": [],
+        "spaces": [],
+        "production": [],
+        "path": "San Patricio del Chañar → Ruta 7",
+        "evidence": [
+          {
+            "node": "San Patricio del Chañar",
+            "level": "localidad",
+            "evidence": "DIRECTA"
+          },
+          {
+            "node": "Ruta 7",
+            "level": "corredor",
+            "evidence": "TEXTUAL"
           }
         ]
       }
@@ -3871,16 +3885,13 @@
           "sourcePriority": 3
         }
       ],
-      "lifecycle": "ACTIVO",
+      "lifecycle": "RECIENTE",
       "movementDelta": 0,
-      "previousCoverage": 0,
-      "newSources": [
-        "Neuquén al instante",
-        "Patagonia Ambiental"
-      ],
+      "previousCoverage": 2,
+      "newSources": [],
       "sourceDiversity": 2,
-      "memoryMatched": false,
-      "isNew": true,
+      "memoryMatched": true,
+      "isNew": false,
       "view": "INCIDENCIA",
       "incidenceEligible": true,
       "signalReason": "reservado a incidencia territorial",
@@ -4130,7 +4141,7 @@
       "sourceContinuity": "fuente conocida sin respuesta; no se infiere desaparición"
     },
     {
-      "eventId": "CHA-8802dd694d3c",
+      "eventId": "CHA-859d2329b56b",
       "title": "San Patricio del Chañar: el Registro Civil normalizó su atención tras varias semanas de interrupción - Chañar Digital",
       "publishedAt": "2026-11-06T01:28:27+00:00",
       "firstSeen": "2026-11-09T09:30:09.078627+00:00",
@@ -4182,7 +4193,7 @@
           "sourceType": "BUSCADOR / RESPALDO",
           "sourceUrl": "",
           "collection": "BUSCADOR",
-          "query": "\"San Patricio del Chañar\" Neuquén",
+          "query": "\"San Patricio del Chañar\"",
           "relevance": 3,
           "relevanceLabel": "DIRECTA",
           "firstSeen": "2026-11-09T09:30:09.078627+00:00",
@@ -4193,8 +4204,8 @@
         }
       ],
       "lifecycle": "RECIENTE",
-      "movementDelta": 0,
-      "previousCoverage": 1,
+      "movementDelta": -32,
+      "previousCoverage": 7,
       "newSources": [
         "Neuquén al instante"
       ],
@@ -4273,11 +4284,9 @@
         }
       ],
       "lifecycle": "RECIENTE",
-      "movementDelta": -16,
-      "previousCoverage": 2,
-      "newSources": [
-        "Chañar Digital"
-      ],
+      "movementDelta": 0,
+      "previousCoverage": 1,
+      "newSources": [],
       "sourceDiversity": 1,
       "memoryMatched": true,
       "isNew": false,
@@ -4401,6 +4410,25 @@
   ],
   "items": [
     {
+      "title": "Bomberos de San Patricio del Chañar estrenan su cuartel tras casi ocho años y suman una autobomba - Minuto Neuquén",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQRm5HSmliVVBEZTFaTzNoZnAxWlpnSnU4UG1yaEhWbWEzTHFIOThLRXRqNk1WWV9kV0czNTVvei1uZHpXcTE1SmgxdTZPR0s2d2Mtd0pZUTg2Z2ZKeWZHSG1NNXR5N1pqbm1hM09XMW0tM2ZXMWdQR1RMempDMVZjcWVJMG16WWkyeUkyY3pvTkVFcUJEbTFWSE1saWN5bHRVNWFDOG4ybjBJeGZRU0J1alZ0ZnN1b3MtZnRtUEJsVGFiak5TTVVJRUN5WjQ1M1k4TWxFRFMtUXh1U3BNWm5DNDZpbUdIWG9XVnFSWVMwWQ?oc=5",
+      "publishedAt": "2026-11-13T01:00:00+00:00",
+      "published": "2026-11-13T01:00:00+00:00",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMi7wFBVV95cUxQRm5HSmliVVBEZTFaTzNoZnAxWlpnSnU4UG1yaEhWbWEzTHFIOThLRXRqNk1WWV9kV0czNTVvei1uZHpXcTE1SmgxdTZPR0s2d2Mtd0pZUTg2Z2ZKeWZHSG1NNXR5N1pqbm1hM09XMW0tM2ZXMWdQR1RMempDMVZjcWVJMG16WWkyeUkyY3pvTkVFcUJEbTFWSE1saWN5bHRVNWFDOG4ybjBJeGZRU0J1alZ0ZnN1b3MtZnRtUEJsVGFiak5TTVVJRUN5WjQ1M1k4TWxFRFMtUXh1U3BNWm5DNDZpbUdIWG9XVnFSWVMwWQ?oc=5\" target=\"_blank\">Bomberos de San Patricio del Chañar estrenan su cuartel tras casi ocho años y suman una autobomba</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Minuto Neuquén</font>",
+      "source": "Minuto Neuquén",
+      "sourceType": "BUSCADOR / RESPALDO",
+      "sourceUrl": "",
+      "collection": "BUSCADOR",
+      "query": "\"San Patricio del Chañar\"",
+      "relevance": 3,
+      "relevanceLabel": "DIRECTA",
+      "firstSeen": "2026-11-13T07:06:31.416323+00:00",
+      "isNew": true,
+      "titleKey": "bomberos estrenan cuartel tras casi ocho años suman autobomba minuto",
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQRm5HSmliVVBEZTFaTzNoZnAxWlpnSnU4UG1yaEhWbWEzTHFIOThLRXRqNk1WWV9kV0czNTVvei1uZHpXcTE1SmgxdTZPR0s2d2Mtd0pZUTg2Z2ZKeWZHSG1NNXR5N1pqbm1hM09XMW0tM2ZXMWdQR1RMempDMVZjcWVJMG16WWkyeUkyY3pvTkVFcUJEbTFWSE1saWN5bHRVNWFDOG4ybjBJeGZRU0J1alZ0ZnN1b3MtZnRtUEJsVGFiak5TTVVJRUN5WjQ1M1k4TWxFRFMtUXh1U3BNWm5DNDZpbUdIWG9XVnFSWVMwWQ?oc=5",
+      "sourcePriority": 3
+    },
+    {
       "title": "San Patricio del Chañar: bomberos estrenan cuartel y autobomba - Diario Río Negro",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPNDBCWVFVWXgyS0hLYjVfMEFhdUszOXZHMXBzZkQ0b0c5MllSckJ0LTNrSVBvX1NrLVowbzJwUkxFZzU0SmpiZGU1d3Z1TV9MUVlSdTFwakVBaVhsZHkxMVNJUWF6c2ZXemZPMTFJZjAyV0FnY1l1U01HRUlLcDFicDVkSjZDMkx6ZnhxQ0g2TnZCZmh0Tm1FWktRS081Nkkwb2htMHdqNDJIRWhSeVpxT3k2a9IBswFBVV95cUxPNDBCWVFVWXgyS0hLYjVfMEFhdUszOXZHMXBzZkQ0b0c5MllSckJ0LTNrSVBvX1NrLVowbzJwUkxFZzU0SmpiZGU1d3Z1TV9MUVlSdTFwakVBaVhsZHkxMVNJUWF6c2ZXemZPMTFJZjAyV0FnY1l1U01HRUlLcDFicDVkSjZDMkx6ZnhxQ0g2TnZCZmh0Tm1FWktRS081Nkkwb2htMHdqNDJIRWhSeVpxT3k2aw?oc=5",
       "publishedAt": "2026-11-12T19:30:06+00:00",
@@ -4414,7 +4442,7 @@
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "firstSeen": "2026-11-13T00:02:10.545486+00:00",
-      "isNew": true,
+      "isNew": false,
       "titleKey": "bomberos estrenan cuartel autobomba diario rio negro",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPNDBCWVFVWXgyS0hLYjVfMEFhdUszOXZHMXBzZkQ0b0c5MllSckJ0LTNrSVBvX1NrLVowbzJwUkxFZzU0SmpiZGU1d3Z1TV9MUVlSdTFwakVBaVhsZHkxMVNJUWF6c2ZXemZPMTFJZjAyV0FnY1l1U01HRUlLcDFicDVkSjZDMkx6ZnhxQ0g2TnZCZmh0Tm1FWktRS081Nkkwb2htMHdqNDJIRWhSeVpxT3k2a9IBswFBVV95cUxPNDBCWVFVWXgyS0hLYjVfMEFhdUszOXZHMXBzZkQ0b0c5MllSckJ0LTNrSVBvX1NrLVowbzJwUkxFZzU0SmpiZGU1d3Z1TV9MUVlSdTFwakVBaVhsZHkxMVNJUWF6c2ZXemZPMTFJZjAyV0FnY1l1U01HRUlLcDFicDVkSjZDMkx6ZnhxQ0g2TnZCZmh0Tm1FWktRS081Nkkwb2htMHdqNDJIRWhSeVpxT3k2aw?oc=5",
       "sourcePriority": 3
@@ -4433,7 +4461,7 @@
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "firstSeen": "2026-11-13T00:02:10.545486+00:00",
-      "isNew": true,
+      "isNew": false,
       "titleKey": "inauguro nuevo cuartel bomberos voluntarios flipr news",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOZnJPQldCWTdQTmhDOGozcWVfbXdHNEZZMTZUWW4wRVFMZDVBYi1QdnIxYnBIejhDQXN1bjhoWUpfTG50aFVZT2dhVDFDMG1HNWpHLWdRYXZpN0hEV09YR1VYQTZiSnEteEs2b05RSVNmakV6bVdNbGR3UmhGLVUyNVI2dHJnMUhJbFpacmZ3dTFKUWhGTHdjZXlVcHpjQmRURmR0ODBHdXNrZWNXU2ZqczQtcnljdi1KYlI0ejhR?oc=5",
       "sourcePriority": 3
@@ -4490,7 +4518,7 @@
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "firstSeen": "2026-11-13T00:02:10.545486+00:00",
-      "isNew": true,
+      "isNew": false,
       "titleKey": "vecinos zona rural llevan tres dias sin agua reclaman respuestas digital",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQT3JvbDdBSkZPMEhCSmloTEdiX2lNRURsbEx1Y1F4S1VsRkRaY0FkWU00ejJWSXYxNzdTcEd3ZG5CMXYxVGVoZUQ1YmNlTEJDUFBhVWFXRUM1a3lteDRodDV3bERkdTJOX25zX1VQN3dXckZDNDA2Sk9jNkJ5anMyTl9FRy1PSlNPVUlzdVlFeTd0Nk1YLU1uZi1GcUE0VW1NeU5Yck1UX1VmM3ZwVjIydzhpQTctU3h4cTczMlpSS0NTWlBHY04tcTlaa0lBbHlmeVJtRWdrMUlIOW5iSGd5WGFmc2s5Z19x?oc=5",
       "sourcePriority": 3
@@ -4528,7 +4556,7 @@
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "firstSeen": "2026-11-13T00:02:10.545486+00:00",
-      "isNew": true,
+      "isNew": false,
       "titleKey": "tres jovenes clasificaron provincial ajedrez digital",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOTGZuVUVtSUdUWmFmNW1UTzE4aTB2S01kNHRnZzh4Uy15WEp4a2ZiNGo2OHROU09KbWhDY2JaaXAxZ1ZWTUR6YktsUnVZcmpNbHdqRGVZc3hnRDh2TGxmVEozUkpad3VPTDJKREZvbnZGdEVFQ1ppN3poUks1Q2FhX2c0dURXX3Z0RUtVNHhsN09FYVJoNnd5MTBsYUFlZ3JmSXUxNFNPQ0JGSjhjZ24zMWs1WVVWcWhYT1pWZXFfUWI2UE1pWkZ0T2JLUQ?oc=5",
       "sourcePriority": 3
@@ -4619,7 +4647,7 @@
       "sourceType": "BUSCADOR / RESPALDO",
       "sourceUrl": "",
       "collection": "BUSCADOR",
-      "query": "\"San Patricio del Chañar\" Neuquén",
+      "query": "\"San Patricio del Chañar\"",
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "firstSeen": "2026-11-09T09:30:09.078627+00:00",
@@ -4798,30 +4826,11 @@
       "titleKey": "investigan muerte joven años diario neuquino",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOaFpITm1ILTRZY3VOS0ZGRE9DdEJEaXV4dlJQa3dxRHEtSU9QRU5yTWFEMWF6WEtkS1FFZVlGbDQxd1Jyc0VIZ0l4aG50RU1wRXJvc29FQURVb2l4dDh4bGFQWXlVTXpDY0RIVzE3OTZLeVF1OW0wSVZ2bkUzODNJNFpkZ0pnVG1lZFZqNU9xMTNELUZtSFNyVGx4dzFZTUw2aFpr?oc=5",
       "sourcePriority": 3
-    },
-    {
-      "title": "Conmoción por la muerte de un joven en San Patricio del Chañar: qué se sabe - Lmneuquen.com",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOWEpuZW42ckxUUk1Bb0lVeWE0UUszNmVkUUhDSjlqUUo5NTJ6OV8tNG91TDdQTklJd3RXZFd4aHh1LVdXdEs3UWV1QXpHVDRBRzQzcnFpQXh2bTNfWHp4WFEwLUg2dUV1OFNRUGFvMkdOMjI4dzZEbU5PeDBseEFvbDBqSXRJM1hfcG0wOUo5ZWxQYmxRVlVveVJoTmVBS2RyelliYk9TOHF4a1XSAbABQVVfeXFMUFJsRGpyWTZZLWtUTWc0TFRUTVo5bUVtM1F2cHVXM3VfQ1RXR2dTeTJBdHN0V1FDNTFNbnlBM21QUkQ3UThVb2JtMVVibWpldVRZZXNxYjJyUWpZVllSZkFKMHF3QlZLNjNLMk5mLUc2N3hCd2FVa0puTzR6SU5uYUhGQUgtRHRuWGt6Tk9ZZHdGSDltRENKY0F5em80ZXgtUmxTYldBSm5qMTVlc3lnazc?oc=5",
-      "publishedAt": "2026-10-30T07:00:00+00:00",
-      "published": "2026-10-30T07:00:00+00:00",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxOWEpuZW42ckxUUk1Bb0lVeWE0UUszNmVkUUhDSjlqUUo5NTJ6OV8tNG91TDdQTklJd3RXZFd4aHh1LVdXdEs3UWV1QXpHVDRBRzQzcnFpQXh2bTNfWHp4WFEwLUg2dUV1OFNRUGFvMkdOMjI4dzZEbU5PeDBseEFvbDBqSXRJM1hfcG0wOUo5ZWxQYmxRVlVveVJoTmVBS2RyelliYk9TOHF4a1XSAbABQVVfeXFMUFJsRGpyWTZZLWtUTWc0TFRUTVo5bUVtM1F2cHVXM3VfQ1RXR2dTeTJBdHN0V1FDNTFNbnlBM21QUkQ3UThVb2JtMVVibWpldVRZZXNxYjJyUWpZVllSZkFKMHF3QlZLNjNLMk5mLUc2N3hCd2FVa0puTzR6SU5uYUhGQUgtRHRuWGt6Tk9ZZHdGSDltRENKY0F5em80ZXgtUmxTYldBSm5qMTVlc3lnazc?oc=5\" target=\"_blank\">Conmoción por la muerte de un joven en San Patricio del Chañar: qué se sabe</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Lmneuquen.com</font>",
-      "source": "Lmneuquen.com",
-      "sourceType": "BUSCADOR / RESPALDO",
-      "sourceUrl": "",
-      "collection": "BUSCADOR",
-      "query": "\"San Patricio del Chañar\"",
-      "relevance": 3,
-      "relevanceLabel": "DIRECTA",
-      "firstSeen": "2026-11-09T09:30:09.078627+00:00",
-      "isNew": false,
-      "titleKey": "conmocion muerte joven sabe lmneuquen com",
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOWEpuZW42ckxUUk1Bb0lVeWE0UUszNmVkUUhDSjlqUUo5NTJ6OV8tNG91TDdQTklJd3RXZFd4aHh1LVdXdEs3UWV1QXpHVDRBRzQzcnFpQXh2bTNfWHp4WFEwLUg2dUV1OFNRUGFvMkdOMjI4dzZEbU5PeDBseEFvbDBqSXRJM1hfcG0wOUo5ZWxQYmxRVlVveVJoTmVBS2RyelliYk9TOHF4a1XSAbABQVVfeXFMUFJsRGpyWTZZLWtUTWc0TFRUTVo5bUVtM1F2cHVXM3VfQ1RXR2dTeTJBdHN0V1FDNTFNbnlBM21QUkQ3UThVb2JtMVVibWpldVRZZXNxYjJyUWpZVllSZkFKMHF3QlZLNjNLMk5mLUc2N3hCd2FVa0puTzR6SU5uYUhGQUgtRHRuWGt6Tk9ZZHdGSDltRENKY0F5em80ZXgtUmxTYldBSm5qMTVlc3lnazc?oc=5",
-      "sourcePriority": 3
     }
   ],
   "territorialGraph": {
     "version": "2.0",
-    "generatedAt": "2026-11-13T00:02:22.181631+00:00",
+    "generatedAt": "2026-11-13T07:06:44.309600+00:00",
     "root": "spc",
     "rule": "evidence-first",
     "levels": [
@@ -5378,7 +5387,7 @@
       }
     ],
     "eventNodes": {
-      "CHA-84454b959dc3": [
+      "CHA-cfafd4a1a0e5": [
         "spc",
         "bomberos"
       ],
@@ -5389,20 +5398,17 @@
         "spc",
         "loteo-social"
       ],
+      "CHA-859d2329b56b": [
+        "spc"
+      ],
       "CHA-4b8240322bf2": [
         "spc",
         "ruta-7"
-      ],
-      "CHA-859d2329b56b": [
-        "spc"
       ],
       "CHA-b0c86458f453": [
         "spc"
       ],
       "CHA-d5b38a117a1f": [
-        "spc"
-      ],
-      "CHA-8802dd694d3c": [
         "spc"
       ],
       "CHA-482c885515b8": [
@@ -5428,7 +5434,7 @@
       "nodes": 46,
       "activeNodes": 4,
       "edges": 3,
-      "eventsLinked": 10,
+      "eventsLinked": 9,
       "eventsWithMicrozones": 0,
       "eventsWithBarrios": 0,
       "eventsWithSectors": 1,
@@ -5448,7 +5454,7 @@
   },
   "audit": {
     "version": "1.0",
-    "updatedAt": "2026-11-13T00:02:22.228640+00:00",
+    "updatedAt": "2026-11-13T07:06:44.349613+00:00",
     "rule": "fact != coverage; territory requires textual evidence",
     "facts": 10,
     "coverage": 31,
@@ -5457,7 +5463,7 @@
     "directAnchorPct": 100.0,
     "territorySpecificFacts": 4,
     "territorySpecificPct": 40.0,
-    "averageSourcesPerFact": 2.3,
+    "averageSourcesPerFact": 2.4,
     "activeTerritorialNodes": 4,
     "failedSources": 10,
     "acceptedWithoutLocalEvidence": 0,
