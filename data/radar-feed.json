@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-14T20:38:30.630721+00:00",
+  "updatedAt": "2026-11-15T00:55:28.721350+00:00",
   "window": "14 días",
   "purpose": "Detectar qué se está moviendo en San Patricio del Chañar y mostrar de dónde surge cada señal.",
   "architecture": "contrato universal de procedencia + fuentes profesionales + adaptadores específicos + validación semántica + temporalidad + evidencia editorial separada",
@@ -49,7 +49,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://chanardigital.com.ar/",
-      "lastFetch": "2026-11-14T20:38:12.189164+00:00",
+      "lastFetch": "2026-11-15T00:55:07.229608+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -65,7 +65,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.radiomia.com.ar/",
-      "lastFetch": "2026-11-14T20:38:13.287100+00:00",
+      "lastFetch": "2026-11-15T00:55:08.754658+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -80,7 +80,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://tuitvacamuerta.com/",
-      "lastFetch": "2026-11-14T20:38:14.938325+00:00",
+      "lastFetch": "2026-11-15T00:55:10.192393+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -95,7 +95,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.vacamuertanews.com/",
-      "lastFetch": "2026-11-14T20:38:15.282855+00:00",
+      "lastFetch": "2026-11-15T00:55:10.778899+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -111,7 +111,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.neuqueninforma.gob.ar/",
-      "lastFetch": "2026-11-14T20:38:16.236311+00:00",
+      "lastFetch": "2026-11-15T00:55:12.251218+00:00",
       "success": false,
       "attempted": 3,
       "failures": [
@@ -128,7 +128,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://sanpatricio.gob.ar/",
-      "lastFetch": "2026-11-14T20:38:17.148400+00:00",
+      "lastFetch": "2026-11-15T00:55:13.182880+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -143,7 +143,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://boletinoficial.neuquen.gov.ar/",
-      "lastFetch": "2026-11-14T20:38:18.075703+00:00",
+      "lastFetch": "2026-11-15T00:55:13.882130+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -158,7 +158,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.lmneuquen.com/",
-      "lastFetch": "2026-11-14T20:38:18.365269+00:00",
+      "lastFetch": "2026-11-15T00:55:14.131189+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -174,7 +174,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.rionegro.com.ar/",
-      "lastFetch": "2026-11-14T20:38:19.755995+00:00",
+      "lastFetch": "2026-11-15T00:55:16.530467+00:00",
       "success": true,
       "attempted": 2,
       "failures": [
@@ -189,7 +189,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.mejorinformado.com/",
-      "lastFetch": "2026-11-14T20:38:20.000775+00:00",
+      "lastFetch": "2026-11-15T00:55:17.332958+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -205,7 +205,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.diariamenteneuquen.com/",
-      "lastFetch": "2026-11-14T20:38:20.618589+00:00",
+      "lastFetch": "2026-11-15T00:55:18.129238+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -709,13 +709,13 @@
   "languageAudit": [
     {
       "term": "el chañar",
-      "hits": 27,
-      "direct": 27
+      "hits": 26,
+      "direct": 26
     },
     {
       "term": "san patricio del chañar",
-      "hits": 25,
-      "direct": 25
+      "hits": 24,
+      "direct": 24
     },
     {
       "term": "ruta 7",
@@ -1246,19 +1246,6 @@
         ]
       },
       {
-        "source": "Neuquén Al Instante",
-        "group": "OBSERVADA",
-        "role": "fuente detectada fuera del catálogo",
-        "accepted": 1,
-        "direct": 1,
-        "anchored": 0,
-        "falsePositives": 0,
-        "falsePositiveTypes": [],
-        "topics": [
-          "SERVICIOS"
-        ]
-      },
-      {
         "source": "Neuquén Informa",
         "group": "REGIONAL",
         "role": "comunicación oficial provincial",
@@ -1273,21 +1260,22 @@
         "source": "Neuquén al instante",
         "group": "OBSERVADA",
         "role": "fuente detectada fuera del catálogo",
-        "accepted": 1,
-        "direct": 1,
+        "accepted": 2,
+        "direct": 2,
         "anchored": 0,
         "falsePositives": 0,
         "falsePositiveTypes": [],
         "topics": [
-          "EDUCACIÓN"
+          "EDUCACIÓN",
+          "SERVICIOS"
         ]
       },
       {
         "source": "NoticiasNQN",
         "group": "OBSERVADA",
         "role": "fuente detectada fuera del catálogo",
-        "accepted": 2,
-        "direct": 2,
+        "accepted": 1,
+        "direct": 1,
         "anchored": 0,
         "falsePositives": 0,
         "falsePositiveTypes": [],
@@ -1426,18 +1414,6 @@
           "san patricio del chañar",
           "el chañar",
           "loteo social"
-        ]
-      },
-      {
-        "source": "NoticiasNQN",
-        "topic": "SERVICIOS",
-        "accepted": 2,
-        "direct": 2,
-        "anchored": 0,
-        "falsePositives": 0,
-        "territorialTerms": [
-          "san patricio del chañar",
-          "el chañar"
         ]
       },
       {
@@ -1603,8 +1579,8 @@
         ]
       },
       {
-        "source": "Neuquén Al Instante",
-        "topic": "SERVICIOS",
+        "source": "Neuquén al instante",
+        "topic": "EDUCACIÓN",
         "accepted": 1,
         "direct": 1,
         "anchored": 0,
@@ -1616,7 +1592,19 @@
       },
       {
         "source": "Neuquén al instante",
-        "topic": "EDUCACIÓN",
+        "topic": "SERVICIOS",
+        "accepted": 1,
+        "direct": 1,
+        "anchored": 0,
+        "falsePositives": 0,
+        "territorialTerms": [
+          "san patricio del chañar",
+          "el chañar"
+        ]
+      },
+      {
+        "source": "NoticiasNQN",
+        "topic": "SERVICIOS",
         "accepted": 1,
         "direct": 1,
         "anchored": 0,
@@ -1679,8 +1667,8 @@
     "languagePrecision": [
       {
         "term": "san patricio del chañar",
-        "acceptedHits": 26,
-        "directHits": 26,
+        "acceptedHits": 25,
+        "directHits": 25,
         "rejectedTitleHits": 0,
         "territorialStrength": "FUERTE"
       },
@@ -1693,8 +1681,8 @@
       },
       {
         "term": "el chañar",
-        "acceptedHits": 28,
-        "directHits": 28,
+        "acceptedHits": 27,
+        "directHits": 27,
         "rejectedTitleHits": 0,
         "territorialStrength": "FUERTE"
       },
@@ -2019,11 +2007,11 @@
     "interpretation": "auditoría sobre eventos aceptados; la próxima capa debe instrumentar rechazos antes del clustering"
   },
   "stats": {
-    "total": 28,
-    "direct": 28,
+    "total": 27,
+    "direct": 27,
     "regional": 0,
-    "new": 2,
-    "sources": 16,
+    "new": 0,
+    "sources": 15,
     "directSignals": 0,
     "localDirectSignals": 0,
     "radioDirectSignals": 0,
@@ -2037,7 +2025,7 @@
       "forecastGustKmh": 21.0,
       "forecastWindDirection": "E",
       "forecastTemperatureC": 28.0,
-      "retrievedAt": "2026-11-14T20:38:09.737306+00:00",
+      "retrievedAt": "2026-11-15T00:55:04.859832+00:00",
       "source": "AIC",
       "sourceTier": "primary",
       "sourceUrl": "https://www.aic.gob.ar/sitio/home?a=1015&z=1967225803",
@@ -2065,9 +2053,9 @@
       ],
       "currentProgrammedMaxM3s": 360,
       "currentProgrammedMinM3s": 340,
-      "programDate": "2026-11-15",
-      "tableDate": "2026-11-14",
-      "retrievedAt": "2026-11-14T20:38:09.737306+00:00",
+      "programDate": "2026-11-16",
+      "tableDate": "2026-11-15",
+      "retrievedAt": "2026-11-15T00:55:04.859832+00:00",
       "source": "AIC",
       "sourceTier": "primary",
       "sourceUrl": "https://www.aic.gob.ar/sitio/caudales",
@@ -2087,17 +2075,17 @@
         "url": "https://www.aic.gob.ar/sitio/caudales"
       }
     ],
-    "updatedAt": "2026-11-14T20:38:09.737306+00:00"
+    "updatedAt": "2026-11-15T00:55:04.859832+00:00"
   },
   "operational": {
-    "updatedAt": "2026-11-14T20:38:09.737306+00:00",
+    "updatedAt": "2026-11-15T00:55:04.859832+00:00",
     "route7": {
       "source": "Dirección Provincial de Vialidad",
       "sourceTier": "primary",
       "sourceUrl": "https://www.dpvneuquen.gov.ar/",
       "semanticState": null,
       "publicationState": "source_reachable_no_current_machine_readable_state",
-      "retrievedAt": "2026-11-14T20:38:09.737306+00:00",
+      "retrievedAt": "2026-11-15T00:55:04.859832+00:00",
       "evidence": {
         "route7Mention": true,
         "route8Mention": false
@@ -2109,7 +2097,7 @@
       "sourceUrl": "https://www.dpvneuquen.gov.ar/",
       "semanticState": null,
       "publicationState": "source_reachable_no_current_machine_readable_state",
-      "retrievedAt": "2026-11-14T20:38:09.737306+00:00",
+      "retrievedAt": "2026-11-15T00:55:04.859832+00:00",
       "evidence": {
         "route7Mention": true,
         "route8Mention": false
@@ -2123,7 +2111,7 @@
       "eventType": null,
       "detail": null,
       "publicationState": "source_reachable_no_specific_local_notice",
-      "retrievedAt": "2026-11-14T20:38:09.737306+00:00"
+      "retrievedAt": "2026-11-15T00:55:04.859832+00:00"
     },
     "water": {
       "source": "EPAS",
@@ -2133,7 +2121,7 @@
       "eventType": null,
       "detail": null,
       "publicationState": "source_reachable_no_specific_local_notice",
-      "retrievedAt": "2026-11-14T20:38:09.737306+00:00"
+      "retrievedAt": "2026-11-15T00:55:04.859832+00:00"
     },
     "sources": [
       {
@@ -2545,7 +2533,7 @@
       "label": "Conversación general",
       "signal": 10,
       "status": "cobertura editorial",
-      "freshnessHours": 1.3,
+      "freshnessHours": 5.6,
       "mode": "evidencia editorial",
       "evidenceCount": 10,
       "sourceContract": {
@@ -2585,7 +2573,7 @@
       "label": "Corredor Ruta 7",
       "signal": 1,
       "status": "estado vial",
-      "freshnessHours": 151.8,
+      "freshnessHours": 156.0,
       "mode": "evidencia territorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -2625,7 +2613,7 @@
         "sourceUrl": "https://www.dpvneuquen.gov.ar/",
         "semanticState": null,
         "publicationState": "source_reachable_no_current_machine_readable_state",
-        "retrievedAt": "2026-11-14T20:38:09.737306+00:00",
+        "retrievedAt": "2026-11-15T00:55:04.859832+00:00",
         "evidence": {
           "route7Mention": true,
           "route8Mention": false
@@ -2677,7 +2665,7 @@
         "sourceUrl": "https://www.dpvneuquen.gov.ar/",
         "semanticState": null,
         "publicationState": "source_reachable_no_current_machine_readable_state",
-        "retrievedAt": "2026-11-14T20:38:09.737306+00:00",
+        "retrievedAt": "2026-11-15T00:55:04.859832+00:00",
         "evidence": {
           "route7Mention": true,
           "route8Mention": false
@@ -2777,7 +2765,7 @@
         "eventType": null,
         "detail": null,
         "publicationState": "source_reachable_no_specific_local_notice",
-        "retrievedAt": "2026-11-14T20:38:09.737306+00:00"
+        "retrievedAt": "2026-11-15T00:55:04.859832+00:00"
       }
     },
     {
@@ -2827,7 +2815,7 @@
         "eventType": null,
         "detail": null,
         "publicationState": "source_reachable_no_specific_local_notice",
-        "retrievedAt": "2026-11-14T20:38:09.737306+00:00"
+        "retrievedAt": "2026-11-15T00:55:04.859832+00:00"
       }
     },
     {
@@ -2835,7 +2823,7 @@
       "label": "Servicios e infraestructura",
       "signal": 1,
       "status": "evidencia de servicio",
-      "freshnessHours": 1.3,
+      "freshnessHours": 5.6,
       "mode": "evidencia editorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -2995,7 +2983,7 @@
       "label": "Seguridad / emergencias",
       "signal": 2,
       "status": "cobertura de emergencia",
-      "freshnessHours": 22.9,
+      "freshnessHours": 27.2,
       "mode": "evidencia editorial",
       "evidenceCount": 2,
       "sourceContract": {
@@ -3035,7 +3023,7 @@
       "label": "Territorio / microzonas",
       "signal": 1,
       "status": "hecho territorial",
-      "freshnessHours": 86.6,
+      "freshnessHours": 90.9,
       "mode": "evidencia territorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -3092,7 +3080,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://chanardigital.com.ar/",
-        "lastFetch": "2026-11-14T20:38:12.189164+00:00",
+        "lastFetch": "2026-11-15T00:55:07.229608+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3108,7 +3096,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.radiomia.com.ar/",
-        "lastFetch": "2026-11-14T20:38:13.287100+00:00",
+        "lastFetch": "2026-11-15T00:55:08.754658+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -3123,7 +3111,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://tuitvacamuerta.com/",
-        "lastFetch": "2026-11-14T20:38:14.938325+00:00",
+        "lastFetch": "2026-11-15T00:55:10.192393+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -3138,7 +3126,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.vacamuertanews.com/",
-        "lastFetch": "2026-11-14T20:38:15.282855+00:00",
+        "lastFetch": "2026-11-15T00:55:10.778899+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3154,7 +3142,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.neuqueninforma.gob.ar/",
-        "lastFetch": "2026-11-14T20:38:16.236311+00:00",
+        "lastFetch": "2026-11-15T00:55:12.251218+00:00",
         "success": false,
         "attempted": 3,
         "failures": [
@@ -3171,7 +3159,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://sanpatricio.gob.ar/",
-        "lastFetch": "2026-11-14T20:38:17.148400+00:00",
+        "lastFetch": "2026-11-15T00:55:13.182880+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -3186,7 +3174,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://boletinoficial.neuquen.gov.ar/",
-        "lastFetch": "2026-11-14T20:38:18.075703+00:00",
+        "lastFetch": "2026-11-15T00:55:13.882130+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -3201,7 +3189,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.lmneuquen.com/",
-        "lastFetch": "2026-11-14T20:38:18.365269+00:00",
+        "lastFetch": "2026-11-15T00:55:14.131189+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3217,7 +3205,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.rionegro.com.ar/",
-        "lastFetch": "2026-11-14T20:38:19.755995+00:00",
+        "lastFetch": "2026-11-15T00:55:16.530467+00:00",
         "success": true,
         "attempted": 2,
         "failures": [
@@ -3232,7 +3220,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.mejorinformado.com/",
-        "lastFetch": "2026-11-14T20:38:20.000775+00:00",
+        "lastFetch": "2026-11-15T00:55:17.332958+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3248,7 +3236,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.diariamenteneuquen.com/",
-        "lastFetch": "2026-11-14T20:38:20.618589+00:00",
+        "lastFetch": "2026-11-15T00:55:18.129238+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3275,7 +3263,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SEGURIDAD / EMERGENCIAS",
-      "movement": 94,
+      "movement": 93,
       "coverage": 5,
       "sourceCount": 5,
       "directSourceCount": 0,
@@ -3326,7 +3314,7 @@
           "relevance": 3,
           "relevanceLabel": "DIRECTA",
           "firstSeen": "2026-11-14T20:38:30.630721+00:00",
-          "isNew": true,
+          "isNew": false,
           "titleKey": "tiene cuartel bomberos phoenix aporto fondos terminar obra shale24",
           "evidenceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOalVsQzU0N09uMW90alBrYmhISlEzMFJSY0hpdjd2X0tMT2xENVZZNXBJVm85M2VmWm5EMjBFVG4wX2V0SFJQZ1ZhbUJqTHBybjZEdlRvY19ZcEtiV3FsWWI4T0psNFY1UlhFNlNTQ0ZoZS1JMjdlWi1DakR3TEJQbGxOdFNDRVNDcGIwZmVwY0ZuSUtfa1EtTUM4WHJPSjZiTVFwNTh2eU9TMEdIM0kteGtESHgwbEJpOTJr0gHAAUFVX3lxTE8wdkZoTjlpcWNZaXJqWkdHdEZveEczQkJjTUlKUHYzbGQ5TTRNN3lNVXY5Mm00X3RxRHN2d0t0a2tQSkd1OFByWjFVZThpblBSa3k5Z1puczl2Y2xpNzFEVkFCWnpJZWpJNDdNVXV4UTZYSGJqQ0FOdFh4aVM3TGVPdXhlVnVmZnR0TU9Hd0t4YjVGZk4teXJxeThFOG9SbVZEYThTM2N3VDJrV0w3ZDRyZFdUTUo3enlPbnVsVE1INA?oc=5",
           "sourcePriority": 3
@@ -3442,7 +3430,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SERVICIOS",
-      "movement": 92,
+      "movement": 91,
       "coverage": 8,
       "sourceCount": 7,
       "directSourceCount": 0,
@@ -3475,7 +3463,7 @@
           "relevance": 3,
           "relevanceLabel": "DIRECTA",
           "firstSeen": "2026-11-14T20:38:30.630721+00:00",
-          "isNew": true,
+          "isNew": false,
           "titleKey": "licitaran red cloacas 347 lotes informa",
           "evidenceUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPLWUycWR2RWtremFEcmVHVWk1VlJkWUkyQTZ4OTYyUC1hNlJCVkVxY1JHWEVWVVZWNEtZakdsU0dxTnhVLU43VzE5NWJncElvVmJuUUdpa2JlRHNqR0ZTVUlxcnhmdk1zNDlpMnc4eFdlLXYzTjRwMlltWU9rNERFNl9IZXY0UE91dW9uWThTNWp4REhZQkEtdWNnakI1UTI0bm80WVR2dE42LXBpN3F6WHNUZ1ZwQkFaaTFLdHQ5OWxCeEZZakFnWjZhdFpsQUXSAc8BQVVfeXFMTy1lMnFkdkVra3phRHJlR1VpNVZSZFlJMkE2eDk2MlAtYTZSQlZFcWNSR1hFVlVWVjRLWWpHbFNHcU54VS1ON1cxOTViZ3BJb1ZiblFHaWtiZURzakdGU1VJcXJ4ZnZNczQ5aTJ3OHhXZS12M040cDJZbVlPazRERTZfSGV2NFBPdXVvblk4UzVqeERIWUJBLXVjZ2pCNVEyNG5vNFlUdnRONi1waTdxelhzVGdWcEJBWmkxS3R0OTlsQnhGWWpBZ1o2YXRabEFF?oc=5",
           "sourcePriority": 3
@@ -3614,11 +3602,10 @@
           "sourcePriority": 3
         }
       ],
-      "lifecycle": "EMERGENTE",
-      "movementDelta": 20,
-      "previousCoverage": 7,
+      "lifecycle": "ACTIVO",
+      "movementDelta": -1,
+      "previousCoverage": 8,
       "newSources": [
-        "Neuquen Informa",
         "Diario Río Negro",
         "Patagonia Press",
         "Vaca Muerta News"
@@ -3777,91 +3764,6 @@
       }
     },
     {
-      "eventId": "CHA-6da81d99e91d",
-      "title": "Más de 100 familias de Campo Grande reclaman avances en el Loteo Social Burgos - Chañar Digital",
-      "publishedAt": "2026-11-11T06:01:49+00:00",
-      "firstSeen": "2026-11-11T14:00:15.972541+00:00",
-      "lastSeen": "2026-11-11T06:01:49+00:00",
-      "relevance": 3,
-      "relevanceLabel": "DIRECTA",
-      "incidenceLabel": "DIRECTA EN CHANAR",
-      "topic": "SERVICIOS",
-      "movement": 38,
-      "coverage": 1,
-      "sourceCount": 1,
-      "directSourceCount": 0,
-      "territorialAnchors": [
-        "loteo social"
-      ],
-      "sources": [
-        "Chañar Digital"
-      ],
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOcDdRTW1JZHRsSUh1Q1JhZkhkWnVsbkJjMVpJdmlXWTBKNDlSRUhNMUtsRjlfMzBpLURIX1Z4WTJ5SEpuNU9YX3hDcWgtOGdZMVRLMkd6YS1HaUl4aVFaVmF0d0dzdGZNREdkZkJTdEFhSmYxWjllUVdYdTh6TDdlWjFpVUoxWHU1bE4xaXRXUXo5SjVHSFNOUlBTSDg1UHhoSDduY2NldkJscXZMcEZTeVpLY2w0aUx2cG5UcklLWjQzT2NnUVBadEZFV2k?oc=5",
-      "items": [
-        {
-          "title": "Más de 100 familias de Campo Grande reclaman avances en el Loteo Social Burgos - Chañar Digital",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOcDdRTW1JZHRsSUh1Q1JhZkhkWnVsbkJjMVpJdmlXWTBKNDlSRUhNMUtsRjlfMzBpLURIX1Z4WTJ5SEpuNU9YX3hDcWgtOGdZMVRLMkd6YS1HaUl4aVFaVmF0d0dzdGZNREdkZkJTdEFhSmYxWjllUVdYdTh6TDdlWjFpVUoxWHU1bE4xaXRXUXo5SjVHSFNOUlBTSDg1UHhoSDduY2NldkJscXZMcEZTeVpLY2w0aUx2cG5UcklLWjQzT2NnUVBadEZFV2k?oc=5",
-          "publishedAt": "2026-11-11T06:01:49+00:00",
-          "published": "2026-11-11T06:01:49+00:00",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMizAFBVV95cUxOcDdRTW1JZHRsSUh1Q1JhZkhkWnVsbkJjMVpJdmlXWTBKNDlSRUhNMUtsRjlfMzBpLURIX1Z4WTJ5SEpuNU9YX3hDcWgtOGdZMVRLMkd6YS1HaUl4aVFaVmF0d0dzdGZNREdkZkJTdEFhSmYxWjllUVdYdTh6TDdlWjFpVUoxWHU1bE4xaXRXUXo5SjVHSFNOUlBTSDg1UHhoSDduY2NldkJscXZMcEZTeVpLY2w0aUx2cG5UcklLWjQzT2NnUVBadEZFV2k?oc=5\" target=\"_blank\">Más de 100 familias de Campo Grande reclaman avances en el Loteo Social Burgos</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Chañar Digital</font>",
-          "source": "Chañar Digital",
-          "sourceType": "BUSCADOR / RESPALDO",
-          "sourceUrl": "",
-          "collection": "BUSCADOR",
-          "query": "site:chanardigital.com.ar \"San Patricio del Chañar\"",
-          "relevance": 3,
-          "relevanceLabel": "DIRECTA",
-          "firstSeen": "2026-11-11T14:00:15.972541+00:00",
-          "isNew": false,
-          "titleKey": "mas 100 familias campo grande reclaman avances loteo social burgos digital",
-          "evidenceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOcDdRTW1JZHRsSUh1Q1JhZkhkWnVsbkJjMVpJdmlXWTBKNDlSRUhNMUtsRjlfMzBpLURIX1Z4WTJ5SEpuNU9YX3hDcWgtOGdZMVRLMkd6YS1HaUl4aVFaVmF0d0dzdGZNREdkZkJTdEFhSmYxWjllUVdYdTh6TDdlWjFpVUoxWHU1bE4xaXRXUXo5SjVHSFNOUlBTSDg1UHhoSDduY2NldkJscXZMcEZTeVpLY2w0aUx2cG5UcklLWjQzT2NnUVBadEZFV2k?oc=5",
-          "sourcePriority": 3
-        }
-      ],
-      "lifecycle": "SOSTENIDO",
-      "movementDelta": -1,
-      "previousCoverage": 1,
-      "newSources": [],
-      "sourceDiversity": 1,
-      "memoryMatched": true,
-      "isNew": false,
-      "view": "INCIDENCIA",
-      "incidenceEligible": true,
-      "signalReason": "reservado a incidencia territorial",
-      "incidenceReason": "anclaje directo + tema operativo/local",
-      "territory": {
-        "version": "2.0",
-        "primary": "San Patricio del Chañar",
-        "nodes": [
-          "San Patricio del Chañar",
-          "Loteo Social"
-        ],
-        "sectors": [
-          "Loteo Social"
-        ],
-        "barrios": [],
-        "microzones": [],
-        "corridors": [],
-        "institutions": [],
-        "services": [],
-        "spaces": [],
-        "production": [],
-        "path": "San Patricio del Chañar → Loteo Social",
-        "evidence": [
-          {
-            "node": "San Patricio del Chañar",
-            "level": "localidad",
-            "evidence": "DIRECTA"
-          },
-          {
-            "node": "Loteo Social",
-            "level": "sector",
-            "evidence": "TEXTUAL"
-          }
-        ]
-      }
-    },
-    {
       "eventId": "CHA-07615adc0efe",
       "title": "Una delegación de San Patricio del Chañar viajó a Luján para participar de la misa del papa León XIV - Chañar Digital",
       "publishedAt": "2026-11-10T14:01:17+00:00",
@@ -3871,17 +3773,16 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SERVICIOS",
-      "movement": 38,
-      "coverage": 4,
-      "sourceCount": 2,
+      "movement": 37,
+      "coverage": 3,
+      "sourceCount": 1,
       "directSourceCount": 0,
       "territorialAnchors": [
         "san patricio del chañar",
         "el chañar"
       ],
       "sources": [
-        "Chañar Digital",
-        "NoticiasNQN"
+        "Chañar Digital"
       ],
       "evidenceUrl": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOSjN0RGhmVlgzeWVPVGY4ZWthU3VybE81UXNGLVhvV0JoN1poNnZERjBLczBjRFJEM1R4UFpYM2hUdTI1UzZPdjVjdU51Sy1tT2hsNVctd2ZNUVpXamx1UnBXSm5wYVFFSFFqMXoxNUZCNDgtcDk3MTNUeEZ2dTExSlF1MjRGa3BLcmdhQUFvWEY2OU9ySXNkWGNUeE5rMWhNcE90eFFLSE5PT3hCVE1kejhKSFpMVjhDY3pHbkV4cUw3WEpkejNsOW5BQXdpaWZmZmVRWnYtYmVscUktWGdvSElmUzJ5ZnYwdUE?oc=5",
       "items": [
@@ -3941,37 +3842,17 @@
           "titleKey": "vecinos zona rural llevan tres dias sin agua reclaman respuestas digital",
           "evidenceUrl": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQT3JvbDdBSkZPMEhCSmloTEdiX2lNRURsbEx1Y1F4S1VsRkRaY0FkWU00ejJWSXYxNzdTcEd3ZG5CMXYxVGVoZUQ1YmNlTEJDUFBhVWFXRUM1a3lteDRodDV3bERkdTJOX25zX1VQN3dXckZDNDA2Sk9jNkJ5anMyTl9FRy1PSlNPVUlzdVlFeTd0Nk1YLU1uZi1GcUE0VW1NeU5Yck1UX1VmM3ZwVjIydzhpQTctU3h4cTczMlpSS0NTWlBHY04tcTlaa0lBbHlmeVJtRWdrMUlIOW5iSGd5WGFmc2s5Z19x?oc=5",
           "sourcePriority": 3
-        },
-        {
-          "title": "San Patricio del Chañar será sede de una nueva fecha del Rally Neuquino - NoticiasNQN",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNk9jdGxwSEQ4TmxiLURmcHlSemtkNnp5R3NySHV3MWpCNXVRS09nYnlidmFGRnp2VzkxRk5nTVJVWi14VWl0Q05LRURuM2JkMXE4WFRyaWNURnh4WTNqaEZKNFV3SmhVTFBwVW5neUplRnVKTTM0a0h5c3ZXWEJqRXFyOUVUTE5UeEJvcDJHeWVYeHI2dmF0T3pxSmdvR0NuaXZCZkV5NEFPRG9jVnhmQmVXNUJIT01TU3VLYzBnRndvRkRFbzlZdNIBzgFBVV95cUxQQU5oSnZGRHF2R1NZUUpzM2h3ZFRTcmlSZldzQi1Nc3d0N3pCcXFzMlU0YjQzZ1BCT2xLVjQ4TzN2ZkhpR1ZJcC1ieFZZNzAtQThGaFVJSlhaeWd3NE9GaFZoM2doSV85eW91S19KMG5vbGhNbVBOdURfYkJ5TjJYbUxseHhqV1ZTZXlQMjlfREkxOEJ0cDNQYnYwV2RkMGlsU3RIWEZkZjNhRDh5YWh1LWFzd0xqYzhuMHdvVGhGMEZRYU5mQmVOUzVHYmJnZw?oc=5",
-          "publishedAt": "2026-11-10T12:22:36+00:00",
-          "published": "2026-11-10T12:22:36+00:00",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNk9jdGxwSEQ4TmxiLURmcHlSemtkNnp5R3NySHV3MWpCNXVRS09nYnlidmFGRnp2VzkxRk5nTVJVWi14VWl0Q05LRURuM2JkMXE4WFRyaWNURnh4WTNqaEZKNFV3SmhVTFBwVW5neUplRnVKTTM0a0h5c3ZXWEJqRXFyOUVUTE5UeEJvcDJHeWVYeHI2dmF0T3pxSmdvR0NuaXZCZkV5NEFPRG9jVnhmQmVXNUJIT01TU3VLYzBnRndvRkRFbzlZdNIBzgFBVV95cUxQQU5oSnZGRHF2R1NZUUpzM2h3ZFRTcmlSZldzQi1Nc3d0N3pCcXFzMlU0YjQzZ1BCT2xLVjQ4TzN2ZkhpR1ZJcC1ieFZZNzAtQThGaFVJSlhaeWd3NE9GaFZoM2doSV85eW91S19KMG5vbGhNbVBOdURfYkJ5TjJYbUxseHhqV1ZTZXlQMjlfREkxOEJ0cDNQYnYwV2RkMGlsU3RIWEZkZjNhRDh5YWh1LWFzd0xqYzhuMHdvVGhGMEZRYU5mQmVOUzVHYmJnZw?oc=5\" target=\"_blank\">San Patricio del Chañar será sede de una nueva fecha del Rally Neuquino</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NoticiasNQN</font>",
-          "source": "NoticiasNQN",
-          "sourceType": "BUSCADOR / RESPALDO",
-          "sourceUrl": "",
-          "collection": "BUSCADOR",
-          "query": "\"San Patricio del Chañar\"",
-          "relevance": 3,
-          "relevanceLabel": "DIRECTA",
-          "firstSeen": "2026-11-10T18:33:33.196562+00:00",
-          "isNew": false,
-          "titleKey": "sera sede nueva fecha rally neuquino noticiasnqn",
-          "evidenceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNk9jdGxwSEQ4TmxiLURmcHlSemtkNnp5R3NySHV3MWpCNXVRS09nYnlidmFGRnp2VzkxRk5nTVJVWi14VWl0Q05LRURuM2JkMXE4WFRyaWNURnh4WTNqaEZKNFV3SmhVTFBwVW5neUplRnVKTTM0a0h5c3ZXWEJqRXFyOUVUTE5UeEJvcDJHeWVYeHI2dmF0T3pxSmdvR0NuaXZCZkV5NEFPRG9jVnhmQmVXNUJIT01TU3VLYzBnRndvRkRFbzlZdNIBzgFBVV95cUxQQU5oSnZGRHF2R1NZUUpzM2h3ZFRTcmlSZldzQi1Nc3d0N3pCcXFzMlU0YjQzZ1BCT2xLVjQ4TzN2ZkhpR1ZJcC1ieFZZNzAtQThGaFVJSlhaeWd3NE9GaFZoM2doSV85eW91S19KMG5vbGhNbVBOdURfYkJ5TjJYbUxseHhqV1ZTZXlQMjlfREkxOEJ0cDNQYnYwV2RkMGlsU3RIWEZkZjNhRDh5YWh1LWFzd0xqYzhuMHdvVGhGMEZRYU5mQmVOUzVHYmJnZw?oc=5",
-          "sourcePriority": 3
         }
       ],
-      "lifecycle": "ACTIVO",
-      "movementDelta": 0,
-      "previousCoverage": 0,
+      "lifecycle": "SOSTENIDO",
+      "movementDelta": 5,
+      "previousCoverage": 2,
       "newSources": [
-        "Chañar Digital",
-        "NoticiasNQN"
+        "Chañar Digital"
       ],
-      "sourceDiversity": 2,
-      "memoryMatched": false,
-      "isNew": true,
+      "sourceDiversity": 1,
+      "memoryMatched": true,
+      "isNew": false,
       "view": "INCIDENCIA",
       "incidenceEligible": true,
       "signalReason": "reservado a incidencia territorial",
@@ -4001,6 +3882,91 @@
       }
     },
     {
+      "eventId": "CHA-6da81d99e91d",
+      "title": "Más de 100 familias de Campo Grande reclaman avances en el Loteo Social Burgos - Chañar Digital",
+      "publishedAt": "2026-11-11T06:01:49+00:00",
+      "firstSeen": "2026-11-11T14:00:15.972541+00:00",
+      "lastSeen": "2026-11-11T06:01:49+00:00",
+      "relevance": 3,
+      "relevanceLabel": "DIRECTA",
+      "incidenceLabel": "DIRECTA EN CHANAR",
+      "topic": "SERVICIOS",
+      "movement": 36,
+      "coverage": 1,
+      "sourceCount": 1,
+      "directSourceCount": 0,
+      "territorialAnchors": [
+        "loteo social"
+      ],
+      "sources": [
+        "Chañar Digital"
+      ],
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOcDdRTW1JZHRsSUh1Q1JhZkhkWnVsbkJjMVpJdmlXWTBKNDlSRUhNMUtsRjlfMzBpLURIX1Z4WTJ5SEpuNU9YX3hDcWgtOGdZMVRLMkd6YS1HaUl4aVFaVmF0d0dzdGZNREdkZkJTdEFhSmYxWjllUVdYdTh6TDdlWjFpVUoxWHU1bE4xaXRXUXo5SjVHSFNOUlBTSDg1UHhoSDduY2NldkJscXZMcEZTeVpLY2w0aUx2cG5UcklLWjQzT2NnUVBadEZFV2k?oc=5",
+      "items": [
+        {
+          "title": "Más de 100 familias de Campo Grande reclaman avances en el Loteo Social Burgos - Chañar Digital",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOcDdRTW1JZHRsSUh1Q1JhZkhkWnVsbkJjMVpJdmlXWTBKNDlSRUhNMUtsRjlfMzBpLURIX1Z4WTJ5SEpuNU9YX3hDcWgtOGdZMVRLMkd6YS1HaUl4aVFaVmF0d0dzdGZNREdkZkJTdEFhSmYxWjllUVdYdTh6TDdlWjFpVUoxWHU1bE4xaXRXUXo5SjVHSFNOUlBTSDg1UHhoSDduY2NldkJscXZMcEZTeVpLY2w0aUx2cG5UcklLWjQzT2NnUVBadEZFV2k?oc=5",
+          "publishedAt": "2026-11-11T06:01:49+00:00",
+          "published": "2026-11-11T06:01:49+00:00",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMizAFBVV95cUxOcDdRTW1JZHRsSUh1Q1JhZkhkWnVsbkJjMVpJdmlXWTBKNDlSRUhNMUtsRjlfMzBpLURIX1Z4WTJ5SEpuNU9YX3hDcWgtOGdZMVRLMkd6YS1HaUl4aVFaVmF0d0dzdGZNREdkZkJTdEFhSmYxWjllUVdYdTh6TDdlWjFpVUoxWHU1bE4xaXRXUXo5SjVHSFNOUlBTSDg1UHhoSDduY2NldkJscXZMcEZTeVpLY2w0aUx2cG5UcklLWjQzT2NnUVBadEZFV2k?oc=5\" target=\"_blank\">Más de 100 familias de Campo Grande reclaman avances en el Loteo Social Burgos</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Chañar Digital</font>",
+          "source": "Chañar Digital",
+          "sourceType": "BUSCADOR / RESPALDO",
+          "sourceUrl": "",
+          "collection": "BUSCADOR",
+          "query": "site:chanardigital.com.ar \"San Patricio del Chañar\"",
+          "relevance": 3,
+          "relevanceLabel": "DIRECTA",
+          "firstSeen": "2026-11-11T14:00:15.972541+00:00",
+          "isNew": false,
+          "titleKey": "mas 100 familias campo grande reclaman avances loteo social burgos digital",
+          "evidenceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOcDdRTW1JZHRsSUh1Q1JhZkhkWnVsbkJjMVpJdmlXWTBKNDlSRUhNMUtsRjlfMzBpLURIX1Z4WTJ5SEpuNU9YX3hDcWgtOGdZMVRLMkd6YS1HaUl4aVFaVmF0d0dzdGZNREdkZkJTdEFhSmYxWjllUVdYdTh6TDdlWjFpVUoxWHU1bE4xaXRXUXo5SjVHSFNOUlBTSDg1UHhoSDduY2NldkJscXZMcEZTeVpLY2w0aUx2cG5UcklLWjQzT2NnUVBadEZFV2k?oc=5",
+          "sourcePriority": 3
+        }
+      ],
+      "lifecycle": "SOSTENIDO",
+      "movementDelta": -2,
+      "previousCoverage": 1,
+      "newSources": [],
+      "sourceDiversity": 1,
+      "memoryMatched": true,
+      "isNew": false,
+      "view": "INCIDENCIA",
+      "incidenceEligible": true,
+      "signalReason": "reservado a incidencia territorial",
+      "incidenceReason": "anclaje directo + tema operativo/local",
+      "territory": {
+        "version": "2.0",
+        "primary": "San Patricio del Chañar",
+        "nodes": [
+          "San Patricio del Chañar",
+          "Loteo Social"
+        ],
+        "sectors": [
+          "Loteo Social"
+        ],
+        "barrios": [],
+        "microzones": [],
+        "corridors": [],
+        "institutions": [],
+        "services": [],
+        "spaces": [],
+        "production": [],
+        "path": "San Patricio del Chañar → Loteo Social",
+        "evidence": [
+          {
+            "node": "San Patricio del Chañar",
+            "level": "localidad",
+            "evidence": "DIRECTA"
+          },
+          {
+            "node": "Loteo Social",
+            "level": "sector",
+            "evidence": "TEXTUAL"
+          }
+        ]
+      }
+    },
+    {
       "eventId": "CHA-4b8240322bf2",
       "title": "Una camioneta se incendió en la Ruta 7 cerca de San Patricio del Chañar: el conductor se quemó intentando apag - MejorInformado.com",
       "publishedAt": "2026-11-08T12:53:05+00:00",
@@ -4010,7 +3976,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "MOVILIDAD",
-      "movement": 36,
+      "movement": 35,
       "coverage": 2,
       "sourceCount": 2,
       "directSourceCount": 0,
@@ -4231,7 +4197,7 @@
       ],
       "sources": [
         "Chañar Digital",
-        "Neuquén Al Instante"
+        "Neuquén al instante"
       ],
       "evidenceUrl": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNWmsxZjRkcVdSNzl5Q3JiNExWNDI3alR6S2RtYVgzdWE5SHZDanR5RmZHcENOUG9fcDJvUDRTUFpaancxdUdrR2Jod1F1V3V5QnpSTV9McFBkancwQ0lodkppTHBVcnNrNUpWenE5d1dDWHBXcy1xR1dZMEs2d0tYRmtyNXJ3cThVRThSWXhqZHB0UHA5VUpTSVppUkl5ZVVTQjRweDc2Z3ZNYVZSbVdqa2RoNlJqbjRvS24yTUptXzB3bFFTVFVtZUw3YnF2dHZ1Rk80b243al93NzBPNzNKc25MbXpWWVlR?oc=5",
       "items": [
@@ -4255,12 +4221,12 @@
           "sourcePriority": 3
         },
         {
-          "title": "El Mejor Vino de la Patagonia es neuquino y nace en San Patricio del Chañar - Neuquén Al Instante",
+          "title": "El Mejor Vino de la Patagonia es neuquino y nace en San Patricio del Chañar - Neuquén al instante",
           "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOYnNacFZuNHBJRlJJbVhKcFg4Y0JPN3Bma0pQZ2dMNXk2MDl2V0gxVUFzaDR2SUdoWkxLdmpfY2s4MURINFN2cUtqN0NlM2YzYWZfdElkS0FIVXVTMVFybWNEN3RNSnpHSGZVWlJkay1kdGNRU0JldEpCRDZwZDlwLV9pUHhfR0hhSWpONkxvUTNzU0IwbTNmZkN2TkQzX2pidzJrQnZPbzV3MjJYMDJSakVUZklTVUZxQ3lQb1dEQnhER2t1aHIxdFNqeUwzSlBBN1pDN1V30gHbAUFVX3lxTFBOS1dWNUJxeDczRWxMLVZ2SmN4b0tDZWFyVlNiU2d6dWZ4YUlZTXNncXN6QXRobzM0RFdPc00tMFFXWVFNTElCejRmRTZJWDdWeS1zUUwtaHhZN2xVWEI0dkdnYzJPZVVyUzc5UVBKMFNfakZrQ3M5MUp3RDhmLWlFS21oS09BOGhEZmtvNl9BUnVQQUloTlNLZ21iSmpHVWUzb0stb2FEWG1veHVSTTNjekxZRmVMNDJyWnVvVUJ1cGJ0ZUFXRXpVNl9ZaDliamIyeGxwUDdoWmk4SQ?oc=5",
           "publishedAt": "2026-11-04T01:41:15+00:00",
           "published": "2026-11-04T01:41:15+00:00",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMi1gFBVV95cUxOYnNacFZuNHBJRlJJbVhKcFg4Y0JPN3Bma0pQZ2dMNXk2MDl2V0gxVUFzaDR2SUdoWkxLdmpfY2s4MURINFN2cUtqN0NlM2YzYWZfdElkS0FIVXVTMVFybWNEN3RNSnpHSGZVWlJkay1kdGNRU0JldEpCRDZwZDlwLV9pUHhfR0hhSWpONkxvUTNzU0IwbTNmZkN2TkQzX2pidzJrQnZPbzV3MjJYMDJSakVUZklTVUZxQ3lQb1dEQnhER2t1aHIxdFNqeUwzSlBBN1pDN1V30gHbAUFVX3lxTFBOS1dWNUJxeDczRWxMLVZ2SmN4b0tDZWFyVlNiU2d6dWZ4YUlZTXNncXN6QXRobzM0RFdPc00tMFFXWVFNTElCejRmRTZJWDdWeS1zUUwtaHhZN2xVWEI0dkdnYzJPZVVyUzc5UVBKMFNfakZrQ3M5MUp3RDhmLWlFS21oS09BOGhEZmtvNl9BUnVQQUloTlNLZ21iSmpHVWUzb0stb2FEWG1veHVSTTNjekxZRmVMNDJyWnVvVUJ1cGJ0ZUFXRXpVNl9ZaDliamIyeGxwUDdoWmk4SQ?oc=5\" target=\"_blank\">El Mejor Vino de la Patagonia es neuquino y nace en San Patricio del Chañar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Neuquén Al Instante</font>",
-          "source": "Neuquén Al Instante",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMi1gFBVV95cUxOYnNacFZuNHBJRlJJbVhKcFg4Y0JPN3Bma0pQZ2dMNXk2MDl2V0gxVUFzaDR2SUdoWkxLdmpfY2s4MURINFN2cUtqN0NlM2YzYWZfdElkS0FIVXVTMVFybWNEN3RNSnpHSGZVWlJkay1kdGNRU0JldEpCRDZwZDlwLV9pUHhfR0hhSWpONkxvUTNzU0IwbTNmZkN2TkQzX2pidzJrQnZPbzV3MjJYMDJSakVUZklTVUZxQ3lQb1dEQnhER2t1aHIxdFNqeUwzSlBBN1pDN1V30gHbAUFVX3lxTFBOS1dWNUJxeDczRWxMLVZ2SmN4b0tDZWFyVlNiU2d6dWZ4YUlZTXNncXN6QXRobzM0RFdPc00tMFFXWVFNTElCejRmRTZJWDdWeS1zUUwtaHhZN2xVWEI0dkdnYzJPZVVyUzc5UVBKMFNfakZrQ3M5MUp3RDhmLWlFS21oS09BOGhEZmtvNl9BUnVQQUloTlNLZ21iSmpHVWUzb0stb2FEWG1veHVSTTNjekxZRmVMNDJyWnVvVUJ1cGJ0ZUFXRXpVNl9ZaDliamIyeGxwUDdoWmk4SQ?oc=5\" target=\"_blank\">El Mejor Vino de la Patagonia es neuquino y nace en San Patricio del Chañar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Neuquén al instante</font>",
+          "source": "Neuquén al instante",
           "sourceType": "BUSCADOR / RESPALDO",
           "sourceUrl": "",
           "collection": "BUSCADOR",
@@ -4279,7 +4245,7 @@
       "previousCoverage": 0,
       "newSources": [
         "Chañar Digital",
-        "Neuquén Al Instante"
+        "Neuquén al instante"
       ],
       "sourceDiversity": 2,
       "memoryMatched": false,
@@ -4497,7 +4463,7 @@
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "firstSeen": "2026-11-14T20:38:30.630721+00:00",
-      "isNew": true,
+      "isNew": false,
       "titleKey": "licitaran red cloacas 347 lotes informa",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPLWUycWR2RWtremFEcmVHVWk1VlJkWUkyQTZ4OTYyUC1hNlJCVkVxY1JHWEVWVVZWNEtZakdsU0dxTnhVLU43VzE5NWJncElvVmJuUUdpa2JlRHNqR0ZTVUlxcnhmdk1zNDlpMnc4eFdlLXYzTjRwMlltWU9rNERFNl9IZXY0UE91dW9uWThTNWp4REhZQkEtdWNnakI1UTI0bm80WVR2dE42LXBpN3F6WHNUZ1ZwQkFaaTFLdHQ5OWxCeEZZakFnWjZhdFpsQUXSAc8BQVVfeXFMTy1lMnFkdkVra3phRHJlR1VpNVZSZFlJMkE2eDk2MlAtYTZSQlZFcWNSR1hFVlVWVjRLWWpHbFNHcU54VS1ON1cxOTViZ3BJb1ZiblFHaWtiZURzakdGU1VJcXJ4ZnZNczQ5aTJ3OHhXZS12M040cDJZbVlPazRERTZfSGV2NFBPdXVvblk4UzVqeERIWUJBLXVjZ2pCNVEyNG5vNFlUdnRONi1waTdxelhzVGdWcEJBWmkxS3R0OTlsQnhGWWpBZ1o2YXRabEFF?oc=5",
       "sourcePriority": 3
@@ -4668,7 +4634,7 @@
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "firstSeen": "2026-11-14T20:38:30.630721+00:00",
-      "isNew": true,
+      "isNew": false,
       "titleKey": "tiene cuartel bomberos phoenix aporto fondos terminar obra shale24",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOalVsQzU0N09uMW90alBrYmhISlEzMFJSY0hpdjd2X0tMT2xENVZZNXBJVm85M2VmWm5EMjBFVG4wX2V0SFJQZ1ZhbUJqTHBybjZEdlRvY19ZcEtiV3FsWWI4T0psNFY1UlhFNlNTQ0ZoZS1JMjdlWi1DakR3TEJQbGxOdFNDRVNDcGIwZmVwY0ZuSUtfa1EtTUM4WHJPSjZiTVFwNTh2eU9TMEdIM0kteGtESHgwbEJpOTJr0gHAAUFVX3lxTE8wdkZoTjlpcWNZaXJqWkdHdEZveEczQkJjTUlKUHYzbGQ5TTRNN3lNVXY5Mm00X3RxRHN2d0t0a2tQSkd1OFByWjFVZThpblBSa3k5Z1puczl2Y2xpNzFEVkFCWnpJZWpJNDdNVXV4UTZYSGJqQ0FOdFh4aVM3TGVPdXhlVnVmZnR0TU9Hd0t4YjVGZk4teXJxeThFOG9SbVZEYThTM2N3VDJrV0w3ZDRyZFdUTUo3enlPbnVsVE1INA?oc=5",
       "sourcePriority": 3
@@ -4769,25 +4735,6 @@
       "sourcePriority": 3
     },
     {
-      "title": "San Patricio del Chañar será sede de una nueva fecha del Rally Neuquino - NoticiasNQN",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNk9jdGxwSEQ4TmxiLURmcHlSemtkNnp5R3NySHV3MWpCNXVRS09nYnlidmFGRnp2VzkxRk5nTVJVWi14VWl0Q05LRURuM2JkMXE4WFRyaWNURnh4WTNqaEZKNFV3SmhVTFBwVW5neUplRnVKTTM0a0h5c3ZXWEJqRXFyOUVUTE5UeEJvcDJHeWVYeHI2dmF0T3pxSmdvR0NuaXZCZkV5NEFPRG9jVnhmQmVXNUJIT01TU3VLYzBnRndvRkRFbzlZdNIBzgFBVV95cUxQQU5oSnZGRHF2R1NZUUpzM2h3ZFRTcmlSZldzQi1Nc3d0N3pCcXFzMlU0YjQzZ1BCT2xLVjQ4TzN2ZkhpR1ZJcC1ieFZZNzAtQThGaFVJSlhaeWd3NE9GaFZoM2doSV85eW91S19KMG5vbGhNbVBOdURfYkJ5TjJYbUxseHhqV1ZTZXlQMjlfREkxOEJ0cDNQYnYwV2RkMGlsU3RIWEZkZjNhRDh5YWh1LWFzd0xqYzhuMHdvVGhGMEZRYU5mQmVOUzVHYmJnZw?oc=5",
-      "publishedAt": "2026-11-10T12:22:36+00:00",
-      "published": "2026-11-10T12:22:36+00:00",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNk9jdGxwSEQ4TmxiLURmcHlSemtkNnp5R3NySHV3MWpCNXVRS09nYnlidmFGRnp2VzkxRk5nTVJVWi14VWl0Q05LRURuM2JkMXE4WFRyaWNURnh4WTNqaEZKNFV3SmhVTFBwVW5neUplRnVKTTM0a0h5c3ZXWEJqRXFyOUVUTE5UeEJvcDJHeWVYeHI2dmF0T3pxSmdvR0NuaXZCZkV5NEFPRG9jVnhmQmVXNUJIT01TU3VLYzBnRndvRkRFbzlZdNIBzgFBVV95cUxQQU5oSnZGRHF2R1NZUUpzM2h3ZFRTcmlSZldzQi1Nc3d0N3pCcXFzMlU0YjQzZ1BCT2xLVjQ4TzN2ZkhpR1ZJcC1ieFZZNzAtQThGaFVJSlhaeWd3NE9GaFZoM2doSV85eW91S19KMG5vbGhNbVBOdURfYkJ5TjJYbUxseHhqV1ZTZXlQMjlfREkxOEJ0cDNQYnYwV2RkMGlsU3RIWEZkZjNhRDh5YWh1LWFzd0xqYzhuMHdvVGhGMEZRYU5mQmVOUzVHYmJnZw?oc=5\" target=\"_blank\">San Patricio del Chañar será sede de una nueva fecha del Rally Neuquino</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NoticiasNQN</font>",
-      "source": "NoticiasNQN",
-      "sourceType": "BUSCADOR / RESPALDO",
-      "sourceUrl": "",
-      "collection": "BUSCADOR",
-      "query": "\"San Patricio del Chañar\"",
-      "relevance": 3,
-      "relevanceLabel": "DIRECTA",
-      "firstSeen": "2026-11-10T18:33:33.196562+00:00",
-      "isNew": false,
-      "titleKey": "sera sede nueva fecha rally neuquino noticiasnqn",
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNk9jdGxwSEQ4TmxiLURmcHlSemtkNnp5R3NySHV3MWpCNXVRS09nYnlidmFGRnp2VzkxRk5nTVJVWi14VWl0Q05LRURuM2JkMXE4WFRyaWNURnh4WTNqaEZKNFV3SmhVTFBwVW5neUplRnVKTTM0a0h5c3ZXWEJqRXFyOUVUTE5UeEJvcDJHeWVYeHI2dmF0T3pxSmdvR0NuaXZCZkV5NEFPRG9jVnhmQmVXNUJIT01TU3VLYzBnRndvRkRFbzlZdNIBzgFBVV95cUxQQU5oSnZGRHF2R1NZUUpzM2h3ZFRTcmlSZldzQi1Nc3d0N3pCcXFzMlU0YjQzZ1BCT2xLVjQ4TzN2ZkhpR1ZJcC1ieFZZNzAtQThGaFVJSlhaeWd3NE9GaFZoM2doSV85eW91S19KMG5vbGhNbVBOdURfYkJ5TjJYbUxseHhqV1ZTZXlQMjlfREkxOEJ0cDNQYnYwV2RkMGlsU3RIWEZkZjNhRDh5YWh1LWFzd0xqYzhuMHdvVGhGMEZRYU5mQmVOUzVHYmJnZw?oc=5",
-      "sourcePriority": 3
-    },
-    {
       "title": "Tres jóvenes de San Patricio del Chañar clasificaron al Provincial de Ajedrez - Chañar Digital",
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOTGZuVUVtSUdUWmFmNW1UTzE4aTB2S01kNHRnZzh4Uy15WEp4a2ZiNGo2OHROU09KbWhDY2JaaXAxZ1ZWTUR6YktsUnVZcmpNbHdqRGVZc3hnRDh2TGxmVEozUkpad3VPTDJKREZvbnZGdEVFQ1ppN3poUks1Q2FhX2c0dURXX3Z0RUtVNHhsN09FYVJoNnd5MTBsYUFlZ3JmSXUxNFNPQ0JGSjhjZ24zMWs1WVVWcWhYT1pWZXFfUWI2UE1pWkZ0T2JLUQ?oc=5",
       "publishedAt": "2026-11-10T02:59:39+00:00",
@@ -4883,12 +4830,12 @@
       "sourcePriority": 3
     },
     {
-      "title": "El Mejor Vino de la Patagonia es neuquino y nace en San Patricio del Chañar - Neuquén Al Instante",
+      "title": "El Mejor Vino de la Patagonia es neuquino y nace en San Patricio del Chañar - Neuquén al instante",
       "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOYnNacFZuNHBJRlJJbVhKcFg4Y0JPN3Bma0pQZ2dMNXk2MDl2V0gxVUFzaDR2SUdoWkxLdmpfY2s4MURINFN2cUtqN0NlM2YzYWZfdElkS0FIVXVTMVFybWNEN3RNSnpHSGZVWlJkay1kdGNRU0JldEpCRDZwZDlwLV9pUHhfR0hhSWpONkxvUTNzU0IwbTNmZkN2TkQzX2pidzJrQnZPbzV3MjJYMDJSakVUZklTVUZxQ3lQb1dEQnhER2t1aHIxdFNqeUwzSlBBN1pDN1V30gHbAUFVX3lxTFBOS1dWNUJxeDczRWxMLVZ2SmN4b0tDZWFyVlNiU2d6dWZ4YUlZTXNncXN6QXRobzM0RFdPc00tMFFXWVFNTElCejRmRTZJWDdWeS1zUUwtaHhZN2xVWEI0dkdnYzJPZVVyUzc5UVBKMFNfakZrQ3M5MUp3RDhmLWlFS21oS09BOGhEZmtvNl9BUnVQQUloTlNLZ21iSmpHVWUzb0stb2FEWG1veHVSTTNjekxZRmVMNDJyWnVvVUJ1cGJ0ZUFXRXpVNl9ZaDliamIyeGxwUDdoWmk4SQ?oc=5",
       "publishedAt": "2026-11-04T01:41:15+00:00",
       "published": "2026-11-04T01:41:15+00:00",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMi1gFBVV95cUxOYnNacFZuNHBJRlJJbVhKcFg4Y0JPN3Bma0pQZ2dMNXk2MDl2V0gxVUFzaDR2SUdoWkxLdmpfY2s4MURINFN2cUtqN0NlM2YzYWZfdElkS0FIVXVTMVFybWNEN3RNSnpHSGZVWlJkay1kdGNRU0JldEpCRDZwZDlwLV9pUHhfR0hhSWpONkxvUTNzU0IwbTNmZkN2TkQzX2pidzJrQnZPbzV3MjJYMDJSakVUZklTVUZxQ3lQb1dEQnhER2t1aHIxdFNqeUwzSlBBN1pDN1V30gHbAUFVX3lxTFBOS1dWNUJxeDczRWxMLVZ2SmN4b0tDZWFyVlNiU2d6dWZ4YUlZTXNncXN6QXRobzM0RFdPc00tMFFXWVFNTElCejRmRTZJWDdWeS1zUUwtaHhZN2xVWEI0dkdnYzJPZVVyUzc5UVBKMFNfakZrQ3M5MUp3RDhmLWlFS21oS09BOGhEZmtvNl9BUnVQQUloTlNLZ21iSmpHVWUzb0stb2FEWG1veHVSTTNjekxZRmVMNDJyWnVvVUJ1cGJ0ZUFXRXpVNl9ZaDliamIyeGxwUDdoWmk4SQ?oc=5\" target=\"_blank\">El Mejor Vino de la Patagonia es neuquino y nace en San Patricio del Chañar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Neuquén Al Instante</font>",
-      "source": "Neuquén Al Instante",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMi1gFBVV95cUxOYnNacFZuNHBJRlJJbVhKcFg4Y0JPN3Bma0pQZ2dMNXk2MDl2V0gxVUFzaDR2SUdoWkxLdmpfY2s4MURINFN2cUtqN0NlM2YzYWZfdElkS0FIVXVTMVFybWNEN3RNSnpHSGZVWlJkay1kdGNRU0JldEpCRDZwZDlwLV9pUHhfR0hhSWpONkxvUTNzU0IwbTNmZkN2TkQzX2pidzJrQnZPbzV3MjJYMDJSakVUZklTVUZxQ3lQb1dEQnhER2t1aHIxdFNqeUwzSlBBN1pDN1V30gHbAUFVX3lxTFBOS1dWNUJxeDczRWxMLVZ2SmN4b0tDZWFyVlNiU2d6dWZ4YUlZTXNncXN6QXRobzM0RFdPc00tMFFXWVFNTElCejRmRTZJWDdWeS1zUUwtaHhZN2xVWEI0dkdnYzJPZVVyUzc5UVBKMFNfakZrQ3M5MUp3RDhmLWlFS21oS09BOGhEZmtvNl9BUnVQQUloTlNLZ21iSmpHVWUzb0stb2FEWG1veHVSTTNjekxZRmVMNDJyWnVvVUJ1cGJ0ZUFXRXpVNl9ZaDliamIyeGxwUDdoWmk4SQ?oc=5\" target=\"_blank\">El Mejor Vino de la Patagonia es neuquino y nace en San Patricio del Chañar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Neuquén al instante</font>",
+      "source": "Neuquén al instante",
       "sourceType": "BUSCADOR / RESPALDO",
       "sourceUrl": "",
       "collection": "BUSCADOR",
@@ -5018,7 +4965,7 @@
   ],
   "territorialGraph": {
     "version": "2.0",
-    "generatedAt": "2026-11-14T20:38:41.242346+00:00",
+    "generatedAt": "2026-11-15T00:55:39.509905+00:00",
     "root": "spc",
     "rule": "evidence-first",
     "levels": [
@@ -5585,12 +5532,12 @@
       "CHA-859d2329b56b": [
         "spc"
       ],
+      "CHA-07615adc0efe": [
+        "spc"
+      ],
       "CHA-6da81d99e91d": [
         "spc",
         "loteo-social"
-      ],
-      "CHA-07615adc0efe": [
-        "spc"
       ],
       "CHA-4b8240322bf2": [
         "spc",
@@ -5641,16 +5588,16 @@
   },
   "audit": {
     "version": "1.0",
-    "updatedAt": "2026-11-14T20:38:41.287358+00:00",
+    "updatedAt": "2026-11-15T00:55:39.547446+00:00",
     "rule": "fact != coverage; territory requires textual evidence",
     "facts": 10,
-    "coverage": 29,
-    "coveragePerFact": 2.9,
+    "coverage": 28,
+    "coveragePerFact": 2.8,
     "directAnchorFacts": 10,
     "directAnchorPct": 100.0,
     "territorySpecificFacts": 4,
     "territorySpecificPct": 40.0,
-    "averageSourcesPerFact": 2.6,
+    "averageSourcesPerFact": 2.5,
     "activeTerritorialNodes": 4,
     "failedSources": 10,
     "acceptedWithoutLocalEvidence": 0,
