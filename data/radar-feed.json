@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T00:54:16.997943+00:00",
+  "updatedAt": "2026-11-16T07:48:06.524480+00:00",
   "window": "14 días",
   "purpose": "Detectar qué se está moviendo en San Patricio del Chañar y mostrar de dónde surge cada señal.",
   "architecture": "contrato universal de procedencia + fuentes profesionales + adaptadores específicos + validación semántica + temporalidad + evidencia editorial separada",
@@ -49,7 +49,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://chanardigital.com.ar/",
-      "lastFetch": "2026-11-16T00:53:57.665870+00:00",
+      "lastFetch": "2026-11-16T07:47:47.384213+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -65,7 +65,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.radiomia.com.ar/",
-      "lastFetch": "2026-11-16T00:53:58.942863+00:00",
+      "lastFetch": "2026-11-16T07:47:48.321535+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -80,7 +80,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://tuitvacamuerta.com/",
-      "lastFetch": "2026-11-16T00:54:00.872255+00:00",
+      "lastFetch": "2026-11-16T07:47:50.072558+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -95,7 +95,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.vacamuertanews.com/",
-      "lastFetch": "2026-11-16T00:54:01.570582+00:00",
+      "lastFetch": "2026-11-16T07:47:50.562107+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -111,7 +111,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.neuqueninforma.gob.ar/",
-      "lastFetch": "2026-11-16T00:54:03.048068+00:00",
+      "lastFetch": "2026-11-16T07:47:51.940671+00:00",
       "success": false,
       "attempted": 3,
       "failures": [
@@ -128,7 +128,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://sanpatricio.gob.ar/",
-      "lastFetch": "2026-11-16T00:54:04.133100+00:00",
+      "lastFetch": "2026-11-16T07:47:52.979472+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -143,7 +143,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://boletinoficial.neuquen.gov.ar/",
-      "lastFetch": "2026-11-16T00:54:05.018301+00:00",
+      "lastFetch": "2026-11-16T07:47:53.754555+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -158,7 +158,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.lmneuquen.com/",
-      "lastFetch": "2026-11-16T00:54:05.155762+00:00",
+      "lastFetch": "2026-11-16T07:47:54.051711+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -171,17 +171,17 @@
     {
       "name": "Diario Río Negro",
       "type": "MEDIO REGIONAL",
-      "mode": "RSS DIRECTO",
-      "signals": 1,
+      "mode": "SIN RESPUESTA",
+      "signals": 0,
       "url": "https://www.rionegro.com.ar/",
-      "lastFetch": "2026-11-16T00:54:07.034937+00:00",
+      "lastFetch": "2026-11-16T07:47:54.622845+00:00",
       "success": true,
       "attempted": 2,
       "failures": [
         "WEB:AttributeError"
       ],
       "directAvailability": "available",
-      "freshnessHours": 0.7
+      "freshnessHours": null
     },
     {
       "name": "Mejor Informado",
@@ -189,7 +189,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.mejorinformado.com/",
-      "lastFetch": "2026-11-16T00:54:07.591234+00:00",
+      "lastFetch": "2026-11-16T07:47:55.263610+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -205,7 +205,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.diariamenteneuquen.com/",
-      "lastFetch": "2026-11-16T00:54:08.512231+00:00",
+      "lastFetch": "2026-11-16T07:47:55.840073+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -709,13 +709,13 @@
   "languageAudit": [
     {
       "term": "el chañar",
-      "hits": 26,
-      "direct": 26
+      "hits": 27,
+      "direct": 27
     },
     {
       "term": "san patricio del chañar",
-      "hits": 23,
-      "direct": 23
+      "hits": 24,
+      "direct": 24
     },
     {
       "term": "ruta 7",
@@ -959,6 +959,19 @@
         "topics": []
       },
       {
+        "source": "ANBariloche",
+        "group": "OBSERVADA",
+        "role": "fuente detectada fuera del catálogo",
+        "accepted": 1,
+        "direct": 1,
+        "anchored": 0,
+        "falsePositives": 0,
+        "falsePositiveTypes": [],
+        "topics": [
+          "SERVICIOS"
+        ]
+      },
+      {
         "source": "Argentina.gob.ar",
         "group": "EXTERNA",
         "role": "fuente nacional",
@@ -1059,8 +1072,8 @@
         "source": "Diario Río Negro",
         "group": "REGIONAL",
         "role": "medio regional",
-        "accepted": 2,
-        "direct": 2,
+        "accepted": 3,
+        "direct": 3,
         "anchored": 0,
         "falsePositives": 0,
         "falsePositiveTypes": [],
@@ -1101,6 +1114,19 @@
         "falsePositives": 0,
         "falsePositiveTypes": [],
         "topics": []
+      },
+      {
+        "source": "Flipr.news",
+        "group": "OBSERVADA",
+        "role": "fuente detectada fuera del catálogo",
+        "accepted": 1,
+        "direct": 1,
+        "anchored": 0,
+        "falsePositives": 0,
+        "falsePositiveTypes": [],
+        "topics": [
+          "SERVICIOS"
+        ]
       },
       {
         "source": "INTA",
@@ -1223,12 +1249,13 @@
         "source": "Neuquen Informa",
         "group": "OBSERVADA",
         "role": "fuente detectada fuera del catálogo",
-        "accepted": 1,
-        "direct": 1,
+        "accepted": 2,
+        "direct": 2,
         "anchored": 0,
         "falsePositives": 0,
         "falsePositiveTypes": [],
         "topics": [
+          "EDUCACIÓN",
           "SERVICIOS"
         ]
       },
@@ -1255,19 +1282,6 @@
         "falsePositives": 0,
         "falsePositiveTypes": [],
         "topics": []
-      },
-      {
-        "source": "Neuquén al instante",
-        "group": "OBSERVADA",
-        "role": "fuente detectada fuera del catálogo",
-        "accepted": 1,
-        "direct": 1,
-        "anchored": 0,
-        "falsePositives": 0,
-        "falsePositiveTypes": [],
-        "topics": [
-          "EDUCACIÓN"
-        ]
       },
       {
         "source": "Patagonia Ambiental",
@@ -1416,6 +1430,18 @@
         ]
       },
       {
+        "source": "Diario Río Negro",
+        "topic": "SERVICIOS",
+        "accepted": 2,
+        "direct": 2,
+        "anchored": 0,
+        "falsePositives": 0,
+        "territorialTerms": [
+          "san patricio del chañar",
+          "el chañar"
+        ]
+      },
+      {
         "source": "Vaca Muerta News",
         "topic": "SERVICIOS",
         "accepted": 2,
@@ -1438,6 +1464,18 @@
           "san patricio del chañar",
           "el chañar",
           "parque industrial"
+        ]
+      },
+      {
+        "source": "ANBariloche",
+        "topic": "SERVICIOS",
+        "accepted": 1,
+        "direct": 1,
+        "anchored": 0,
+        "falsePositives": 0,
+        "territorialTerms": [
+          "san patricio del chañar",
+          "el chañar"
         ]
       },
       {
@@ -1516,7 +1554,7 @@
         ]
       },
       {
-        "source": "Diario Río Negro",
+        "source": "Flipr.news",
         "topic": "SERVICIOS",
         "accepted": 1,
         "direct": 1,
@@ -1580,6 +1618,18 @@
       },
       {
         "source": "Neuquen Informa",
+        "topic": "EDUCACIÓN",
+        "accepted": 1,
+        "direct": 1,
+        "anchored": 0,
+        "falsePositives": 0,
+        "territorialTerms": [
+          "san patricio del chañar",
+          "el chañar"
+        ]
+      },
+      {
+        "source": "Neuquen Informa",
         "topic": "SERVICIOS",
         "accepted": 1,
         "direct": 1,
@@ -1593,18 +1643,6 @@
       {
         "source": "Neuquén Al Instante",
         "topic": "SERVICIOS",
-        "accepted": 1,
-        "direct": 1,
-        "anchored": 0,
-        "falsePositives": 0,
-        "territorialTerms": [
-          "san patricio del chañar",
-          "el chañar"
-        ]
-      },
-      {
-        "source": "Neuquén al instante",
-        "topic": "EDUCACIÓN",
         "accepted": 1,
         "direct": 1,
         "anchored": 0,
@@ -1655,8 +1693,8 @@
     "languagePrecision": [
       {
         "term": "san patricio del chañar",
-        "acceptedHits": 25,
-        "directHits": 25,
+        "acceptedHits": 27,
+        "directHits": 27,
         "rejectedTitleHits": 0,
         "territorialStrength": "FUERTE"
       },
@@ -1669,8 +1707,8 @@
       },
       {
         "term": "el chañar",
-        "acceptedHits": 27,
-        "directHits": 27,
+        "acceptedHits": 30,
+        "directHits": 30,
         "rejectedTitleHits": 0,
         "territorialStrength": "FUERTE"
       },
@@ -1995,12 +2033,12 @@
     "interpretation": "auditoría sobre eventos aceptados; la próxima capa debe instrumentar rechazos antes del clustering"
   },
   "stats": {
-    "total": 28,
-    "direct": 28,
+    "total": 29,
+    "direct": 29,
     "regional": 0,
-    "new": 3,
-    "sources": 17,
-    "directSignals": 1,
+    "new": 4,
+    "sources": 16,
+    "directSignals": 0,
     "localDirectSignals": 0,
     "radioDirectSignals": 0,
     "precisionRule": "evidence-first",
@@ -2013,7 +2051,7 @@
       "forecastGustKmh": 24.0,
       "forecastWindDirection": "NE",
       "forecastTemperatureC": 26.0,
-      "retrievedAt": "2026-11-16T00:53:55.236331+00:00",
+      "retrievedAt": "2026-11-16T07:47:44.602661+00:00",
       "source": "AIC",
       "sourceTier": "primary",
       "sourceUrl": "https://www.aic.gob.ar/sitio/home?a=1015&z=1967225803",
@@ -2043,7 +2081,7 @@
       "currentProgrammedMinM3s": 340,
       "programDate": "2026-11-17",
       "tableDate": "2026-11-16",
-      "retrievedAt": "2026-11-16T00:53:55.236331+00:00",
+      "retrievedAt": "2026-11-16T07:47:44.602661+00:00",
       "source": "AIC",
       "sourceTier": "primary",
       "sourceUrl": "https://www.aic.gob.ar/sitio/caudales",
@@ -2063,17 +2101,17 @@
         "url": "https://www.aic.gob.ar/sitio/caudales"
       }
     ],
-    "updatedAt": "2026-11-16T00:53:55.236331+00:00"
+    "updatedAt": "2026-11-16T07:47:44.602661+00:00"
   },
   "operational": {
-    "updatedAt": "2026-11-16T00:53:55.236331+00:00",
+    "updatedAt": "2026-11-16T07:47:44.602661+00:00",
     "route7": {
       "source": "Dirección Provincial de Vialidad",
       "sourceTier": "primary",
       "sourceUrl": "https://www.dpvneuquen.gov.ar/",
       "semanticState": null,
       "publicationState": "source_reachable_no_current_machine_readable_state",
-      "retrievedAt": "2026-11-16T00:53:55.236331+00:00",
+      "retrievedAt": "2026-11-16T07:47:44.602661+00:00",
       "evidence": {
         "route7Mention": true,
         "route8Mention": false
@@ -2085,7 +2123,7 @@
       "sourceUrl": "https://www.dpvneuquen.gov.ar/",
       "semanticState": null,
       "publicationState": "source_reachable_no_current_machine_readable_state",
-      "retrievedAt": "2026-11-16T00:53:55.236331+00:00",
+      "retrievedAt": "2026-11-16T07:47:44.602661+00:00",
       "evidence": {
         "route7Mention": true,
         "route8Mention": false
@@ -2099,7 +2137,7 @@
       "eventType": null,
       "detail": null,
       "publicationState": "source_reachable_no_specific_local_notice",
-      "retrievedAt": "2026-11-16T00:53:55.236331+00:00"
+      "retrievedAt": "2026-11-16T07:47:44.602661+00:00"
     },
     "water": {
       "source": "EPAS",
@@ -2109,7 +2147,7 @@
       "eventType": null,
       "detail": null,
       "publicationState": "source_reachable_no_specific_local_notice",
-      "retrievedAt": "2026-11-16T00:53:55.236331+00:00"
+      "retrievedAt": "2026-11-16T07:47:44.602661+00:00"
     },
     "sources": [
       {
@@ -2521,7 +2559,7 @@
       "label": "Conversación general",
       "signal": 12,
       "status": "cobertura editorial",
-      "freshnessHours": 0.7,
+      "freshnessHours": 7.6,
       "mode": "evidencia editorial",
       "evidenceCount": 12,
       "sourceContract": {
@@ -2561,7 +2599,7 @@
       "label": "Corredor Ruta 7",
       "signal": 1,
       "status": "estado vial",
-      "freshnessHours": 180.0,
+      "freshnessHours": 186.9,
       "mode": "evidencia territorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -2601,7 +2639,7 @@
         "sourceUrl": "https://www.dpvneuquen.gov.ar/",
         "semanticState": null,
         "publicationState": "source_reachable_no_current_machine_readable_state",
-        "retrievedAt": "2026-11-16T00:53:55.236331+00:00",
+        "retrievedAt": "2026-11-16T07:47:44.602661+00:00",
         "evidence": {
           "route7Mention": true,
           "route8Mention": false
@@ -2653,7 +2691,7 @@
         "sourceUrl": "https://www.dpvneuquen.gov.ar/",
         "semanticState": null,
         "publicationState": "source_reachable_no_current_machine_readable_state",
-        "retrievedAt": "2026-11-16T00:53:55.236331+00:00",
+        "retrievedAt": "2026-11-16T07:47:44.602661+00:00",
         "evidence": {
           "route7Mention": true,
           "route8Mention": false
@@ -2753,7 +2791,7 @@
         "eventType": null,
         "detail": null,
         "publicationState": "source_reachable_no_specific_local_notice",
-        "retrievedAt": "2026-11-16T00:53:55.236331+00:00"
+        "retrievedAt": "2026-11-16T07:47:44.602661+00:00"
       }
     },
     {
@@ -2761,7 +2799,7 @@
       "label": "Agua / abastecimiento",
       "signal": 1,
       "status": "evento hídrico",
-      "freshnessHours": 13.7,
+      "freshnessHours": 20.6,
       "mode": "evidencia editorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -2803,7 +2841,7 @@
         "eventType": null,
         "detail": null,
         "publicationState": "source_reachable_no_specific_local_notice",
-        "retrievedAt": "2026-11-16T00:53:55.236331+00:00"
+        "retrievedAt": "2026-11-16T07:47:44.602661+00:00"
       }
     },
     {
@@ -2811,7 +2849,7 @@
       "label": "Servicios e infraestructura",
       "signal": 2,
       "status": "evidencia de servicio",
-      "freshnessHours": 0.7,
+      "freshnessHours": 7.6,
       "mode": "evidencia editorial",
       "evidenceCount": 2,
       "sourceContract": {
@@ -2971,7 +3009,7 @@
       "label": "Seguridad / emergencias",
       "signal": 2,
       "status": "cobertura de emergencia",
-      "freshnessHours": 51.2,
+      "freshnessHours": 58.1,
       "mode": "evidencia editorial",
       "evidenceCount": 2,
       "sourceContract": {
@@ -3011,7 +3049,7 @@
       "label": "Territorio / microzonas",
       "signal": 2,
       "status": "hecho territorial",
-      "freshnessHours": 23.5,
+      "freshnessHours": 30.4,
       "mode": "evidencia territorial",
       "evidenceCount": 2,
       "sourceContract": {
@@ -3068,7 +3106,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://chanardigital.com.ar/",
-        "lastFetch": "2026-11-16T00:53:57.665870+00:00",
+        "lastFetch": "2026-11-16T07:47:47.384213+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3084,7 +3122,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.radiomia.com.ar/",
-        "lastFetch": "2026-11-16T00:53:58.942863+00:00",
+        "lastFetch": "2026-11-16T07:47:48.321535+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -3099,7 +3137,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://tuitvacamuerta.com/",
-        "lastFetch": "2026-11-16T00:54:00.872255+00:00",
+        "lastFetch": "2026-11-16T07:47:50.072558+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -3114,7 +3152,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.vacamuertanews.com/",
-        "lastFetch": "2026-11-16T00:54:01.570582+00:00",
+        "lastFetch": "2026-11-16T07:47:50.562107+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3130,7 +3168,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.neuqueninforma.gob.ar/",
-        "lastFetch": "2026-11-16T00:54:03.048068+00:00",
+        "lastFetch": "2026-11-16T07:47:51.940671+00:00",
         "success": false,
         "attempted": 3,
         "failures": [
@@ -3147,7 +3185,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://sanpatricio.gob.ar/",
-        "lastFetch": "2026-11-16T00:54:04.133100+00:00",
+        "lastFetch": "2026-11-16T07:47:52.979472+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -3162,7 +3200,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://boletinoficial.neuquen.gov.ar/",
-        "lastFetch": "2026-11-16T00:54:05.018301+00:00",
+        "lastFetch": "2026-11-16T07:47:53.754555+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -3177,7 +3215,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.lmneuquen.com/",
-        "lastFetch": "2026-11-16T00:54:05.155762+00:00",
+        "lastFetch": "2026-11-16T07:47:54.051711+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3190,17 +3228,17 @@
       {
         "name": "Diario Río Negro",
         "type": "MEDIO REGIONAL",
-        "mode": "RSS DIRECTO",
-        "signals": 1,
+        "mode": "SIN RESPUESTA",
+        "signals": 0,
         "url": "https://www.rionegro.com.ar/",
-        "lastFetch": "2026-11-16T00:54:07.034937+00:00",
+        "lastFetch": "2026-11-16T07:47:54.622845+00:00",
         "success": true,
         "attempted": 2,
         "failures": [
           "WEB:AttributeError"
         ],
         "directAvailability": "available",
-        "freshnessHours": 0.7
+        "freshnessHours": null
       },
       {
         "name": "Mejor Informado",
@@ -3208,7 +3246,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.mejorinformado.com/",
-        "lastFetch": "2026-11-16T00:54:07.591234+00:00",
+        "lastFetch": "2026-11-16T07:47:55.263610+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3224,7 +3262,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.diariamenteneuquen.com/",
-        "lastFetch": "2026-11-16T00:54:08.512231+00:00",
+        "lastFetch": "2026-11-16T07:47:55.840073+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3242,8 +3280,8 @@
   },
   "events": [
     {
-      "eventId": "CHA-d5b38a117a1f",
-      "title": "Doce denuncias anónimas destaparon una red de venta de drogas: cuatro condenados en el Chañar - MejorInformado.com",
+      "eventId": "CHA-07615adc0efe",
+      "title": "Doce denuncias anónimas destaparon una red de venta de drogas: cuatro condenados en el Chañar - Flipr.news",
       "publishedAt": "2026-11-16T00:12:23+00:00",
       "firstSeen": "2026-11-13T21:52:20.362037+00:00",
       "lastSeen": "2026-11-16T00:12:23+00:00",
@@ -3251,10 +3289,10 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SERVICIOS",
-      "movement": 95,
-      "coverage": 16,
-      "sourceCount": 8,
-      "directSourceCount": 1,
+      "movement": 92,
+      "coverage": 8,
+      "sourceCount": 7,
+      "directSourceCount": 0,
       "territorialAnchors": [
         "san patricio del chañar",
         "el chañar"
@@ -3262,14 +3300,13 @@
       "sources": [
         "tuitvacamuerta.com",
         "Neuquen Informa",
-        "MejorInformado.com",
+        "Flipr.news",
         "Chañar Digital",
         "Diario Río Negro",
         "Patagonia Press",
-        "Vaca Muerta News",
-        "Flipr.news"
+        "ANBariloche"
       ],
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQN3ItNmRpWHNkaGxIbUVIWnJuOTlYOEp3dGQ2TnY5LWZ6LXhEOF8yOXEtMEpUUDd5NlRLSzh6Y0NsbE1OSmFnNVdRWjNiejZPYnpDTzI3UTFBaHN6QjJ6RXBfUDMtNFdmaHczWDJ1MXBqdEFQMHNPOVJjNHh4bjVSZjZySWdWeXdNem5VcGZIVHN3NjJfbEY2cHVoVi1ROFp2azJyMzJBUk5nQlJlVHF1cXNXaDlqangwOXhxenNuQXJsRWFtQ1FIddIByAFBVV95cUxQN3ItNmRpWHNkaGxIbUVIWnJuOTlYOEp3dGQ2TnY5LWZ6LXhEOF8yOXEtMEpUUDd5NlRLSzh6Y0NsbE1OSmFnNVdRWjNiejZPYnpDTzI3UTFBaHN6QjJ6RXBfUDMtNFdmaHczWDJ1MXBqdEFQMHNPOVJjNHh4bjVSZjZySWdWeXdNem5VcGZIVHN3NjJfbEY2cHVoVi1ROFp2azJyMzJBUk5nQlJlVHF1cXNXaDlqangwOXhxenNuQXJsRWFtQ1FIdQ?oc=5",
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPRFRkVXBjRkROblhOeVhnaFNuQnBCQ1ZVMVJPbV9Vd21ERXpsMGMtcUFGWEljQ1lqZHBQeHc2bnFKNm5zcmRJRUItM09lY2pTcFNfeHdjWEJkeENLZTI1dmd2VGptYlNEZTA1NHk1cTFPRmRla1BRZW9hNS0tNTRJQjNSZUxNSzE3c1k1dk5RejJXRDM4Qzh5VDh0c3YtWUlIWWt3MlhqRnNLZUlYd0l1eEtEcnlxNFg5eFZocFJTSUpaZGdLRnBmclNxZmhSVF9RbzV3?oc=5",
       "items": [
         {
           "title": "SAN PATRICIO DEL CHAÑAR: licitarán la red de cloacas para 347 lotes. - tuitvacamuerta.com",
@@ -3310,22 +3347,22 @@
           "sourcePriority": 3
         },
         {
-          "title": "Doce denuncias anónimas destaparon una red de venta de drogas: cuatro condenados en el Chañar - MejorInformado.com",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQN3ItNmRpWHNkaGxIbUVIWnJuOTlYOEp3dGQ2TnY5LWZ6LXhEOF8yOXEtMEpUUDd5NlRLSzh6Y0NsbE1OSmFnNVdRWjNiejZPYnpDTzI3UTFBaHN6QjJ6RXBfUDMtNFdmaHczWDJ1MXBqdEFQMHNPOVJjNHh4bjVSZjZySWdWeXdNem5VcGZIVHN3NjJfbEY2cHVoVi1ROFp2azJyMzJBUk5nQlJlVHF1cXNXaDlqangwOXhxenNuQXJsRWFtQ1FIddIByAFBVV95cUxQN3ItNmRpWHNkaGxIbUVIWnJuOTlYOEp3dGQ2TnY5LWZ6LXhEOF8yOXEtMEpUUDd5NlRLSzh6Y0NsbE1OSmFnNVdRWjNiejZPYnpDTzI3UTFBaHN6QjJ6RXBfUDMtNFdmaHczWDJ1MXBqdEFQMHNPOVJjNHh4bjVSZjZySWdWeXdNem5VcGZIVHN3NjJfbEY2cHVoVi1ROFp2azJyMzJBUk5nQlJlVHF1cXNXaDlqangwOXhxenNuQXJsRWFtQ1FIdQ?oc=5",
-          "publishedAt": "2026-11-13T19:19:16+00:00",
-          "published": "2026-11-13T19:19:16+00:00",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxQN3ItNmRpWHNkaGxIbUVIWnJuOTlYOEp3dGQ2TnY5LWZ6LXhEOF8yOXEtMEpUUDd5NlRLSzh6Y0NsbE1OSmFnNVdRWjNiejZPYnpDTzI3UTFBaHN6QjJ6RXBfUDMtNFdmaHczWDJ1MXBqdEFQMHNPOVJjNHh4bjVSZjZySWdWeXdNem5VcGZIVHN3NjJfbEY2cHVoVi1ROFp2azJyMzJBUk5nQlJlVHF1cXNXaDlqangwOXhxenNuQXJsRWFtQ1FIddIByAFBVV95cUxQN3ItNmRpWHNkaGxIbUVIWnJuOTlYOEp3dGQ2TnY5LWZ6LXhEOF8yOXEtMEpUUDd5NlRLSzh6Y0NsbE1OSmFnNVdRWjNiejZPYnpDTzI3UTFBaHN6QjJ6RXBfUDMtNFdmaHczWDJ1MXBqdEFQMHNPOVJjNHh4bjVSZjZySWdWeXdNem5VcGZIVHN3NjJfbEY2cHVoVi1ROFp2azJyMzJBUk5nQlJlVHF1cXNXaDlqangwOXhxenNuQXJsRWFtQ1FIdQ?oc=5\" target=\"_blank\">Doce denuncias anónimas destaparon una red de venta de drogas: cuatro condenados en el Chañar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MejorInformado.com</font>",
-          "source": "MejorInformado.com",
+          "title": "Doce denuncias anónimas destaparon una red de venta de drogas: cuatro condenados en el Chañar - Flipr.news",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPRFRkVXBjRkROblhOeVhnaFNuQnBCQ1ZVMVJPbV9Vd21ERXpsMGMtcUFGWEljQ1lqZHBQeHc2bnFKNm5zcmRJRUItM09lY2pTcFNfeHdjWEJkeENLZTI1dmd2VGptYlNEZTA1NHk1cTFPRmRla1BRZW9hNS0tNTRJQjNSZUxNSzE3c1k1dk5RejJXRDM4Qzh5VDh0c3YtWUlIWWt3MlhqRnNLZUlYd0l1eEtEcnlxNFg5eFZocFJTSUpaZGdLRnBmclNxZmhSVF9RbzV3?oc=5",
+          "publishedAt": "2026-11-13T21:51:45+00:00",
+          "published": "2026-11-13T21:51:45+00:00",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMi0wFBVV95cUxPRFRkVXBjRkROblhOeVhnaFNuQnBCQ1ZVMVJPbV9Vd21ERXpsMGMtcUFGWEljQ1lqZHBQeHc2bnFKNm5zcmRJRUItM09lY2pTcFNfeHdjWEJkeENLZTI1dmd2VGptYlNEZTA1NHk1cTFPRmRla1BRZW9hNS0tNTRJQjNSZUxNSzE3c1k1dk5RejJXRDM4Qzh5VDh0c3YtWUlIWWt3MlhqRnNLZUlYd0l1eEtEcnlxNFg5eFZocFJTSUpaZGdLRnBmclNxZmhSVF9RbzV3?oc=5\" target=\"_blank\">Doce denuncias anónimas destaparon una red de venta de drogas: cuatro condenados en el Chañar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Flipr.news</font>",
+          "source": "Flipr.news",
           "sourceType": "BUSCADOR / RESPALDO",
           "sourceUrl": "",
           "collection": "BUSCADOR",
-          "query": "site:mejorinformado.com \"San Patricio del Chañar\"",
+          "query": "\"San Patricio del Chañar\" Neuquén",
           "relevance": 3,
           "relevanceLabel": "DIRECTA",
-          "firstSeen": "2026-11-15T07:42:29.242371+00:00",
+          "firstSeen": "2026-11-16T00:54:16.997943+00:00",
           "isNew": false,
-          "titleKey": "doce denuncias anonimas destaparon red venta drogas cuatro condenados mejorinformado com",
-          "evidenceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQN3ItNmRpWHNkaGxIbUVIWnJuOTlYOEp3dGQ2TnY5LWZ6LXhEOF8yOXEtMEpUUDd5NlRLSzh6Y0NsbE1OSmFnNVdRWjNiejZPYnpDTzI3UTFBaHN6QjJ6RXBfUDMtNFdmaHczWDJ1MXBqdEFQMHNPOVJjNHh4bjVSZjZySWdWeXdNem5VcGZIVHN3NjJfbEY2cHVoVi1ROFp2azJyMzJBUk5nQlJlVHF1cXNXaDlqangwOXhxenNuQXJsRWFtQ1FIddIByAFBVV95cUxQN3ItNmRpWHNkaGxIbUVIWnJuOTlYOEp3dGQ2TnY5LWZ6LXhEOF8yOXEtMEpUUDd5NlRLSzh6Y0NsbE1OSmFnNVdRWjNiejZPYnpDTzI3UTFBaHN6QjJ6RXBfUDMtNFdmaHczWDJ1MXBqdEFQMHNPOVJjNHh4bjVSZjZySWdWeXdNem5VcGZIVHN3NjJfbEY2cHVoVi1ROFp2azJyMzJBUk5nQlJlVHF1cXNXaDlqangwOXhxenNuQXJsRWFtQ1FIdQ?oc=5",
+          "titleKey": "doce denuncias anonimas destaparon red venta drogas cuatro condenados flipr news",
+          "evidenceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPRFRkVXBjRkROblhOeVhnaFNuQnBCQ1ZVMVJPbV9Vd21ERXpsMGMtcUFGWEljQ1lqZHBQeHc2bnFKNm5zcmRJRUItM09lY2pTcFNfeHdjWEJkeENLZTI1dmd2VGptYlNEZTA1NHk1cTFPRmRla1BRZW9hNS0tNTRJQjNSZUxNSzE3c1k1dk5RejJXRDM4Qzh5VDh0c3YtWUlIWWt3MlhqRnNLZUlYd0l1eEtEcnlxNFg5eFZocFJTSUpaZGdLRnBmclNxZmhSVF9RbzV3?oc=5",
           "sourcePriority": 3
         },
         {
@@ -3386,57 +3423,56 @@
           "sourcePriority": 3
         },
         {
-          "title": "Rally Neuquino en San Patricio del Chañar: Bruno Campos anticipó una fecha clave del campeonato - Chañar Digital",
-          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQVW50RVdpUTR2N3FVbDR1bHFLUFBsV2UwMHFJaDRBQ3dqMnQ1cDJTVWpMbFhPZ1k5YTh6czJSZjJaUE9GeEpjSGFoYXE0ZXJiTGdKVmpXakxRdU5rSVNwdkFJWDRlY2ZKVWVRZExJZE1ra3Zodl9jbGpiYW83THFtX20tQldzV2h0eWxjSzQ0UHFKNmF5ZEM3cmt6WjdUNm85WkN3dTNXcHFlc3gzRUFxZlI2M0dfM29YR1NQRmlwLUY5Z21wWml1Mnd6TEo4S0VrQzVTVkxiX3dkMXY5OWMxWUZR?oc=5",
-          "publishedAt": "2026-11-13T21:57:17+00:00",
-          "published": "2026-11-13T21:57:17+00:00",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMi4gFBVV95cUxQVW50RVdpUTR2N3FVbDR1bHFLUFBsV2UwMHFJaDRBQ3dqMnQ1cDJTVWpMbFhPZ1k5YTh6czJSZjJaUE9GeEpjSGFoYXE0ZXJiTGdKVmpXakxRdU5rSVNwdkFJWDRlY2ZKVWVRZExJZE1ra3Zodl9jbGpiYW83THFtX20tQldzV2h0eWxjSzQ0UHFKNmF5ZEM3cmt6WjdUNm85WkN3dTNXcHFlc3gzRUFxZlI2M0dfM29YR1NQRmlwLUY5Z21wWml1Mnd6TEo4S0VrQzVTVkxiX3dkMXY5OWMxWUZR?oc=5\" target=\"_blank\">Rally Neuquino en San Patricio del Chañar: Bruno Campos anticipó una fecha clave del campeonato</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Chañar Digital</font>",
-          "source": "Chañar Digital",
-          "sourceType": "BUSCADOR / RESPALDO",
-          "sourceUrl": "",
-          "collection": "BUSCADOR",
-          "query": "site:chanardigital.com.ar \"San Patricio del Chañar\"",
-          "relevance": 3,
-          "relevanceLabel": "DIRECTA",
-          "firstSeen": "2026-11-14T02:08:28.859890+00:00",
-          "isNew": false,
-          "titleKey": "rally neuquino bruno campos anticipo fecha clave campeonato digital",
-          "evidenceUrl": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQVW50RVdpUTR2N3FVbDR1bHFLUFBsV2UwMHFJaDRBQ3dqMnQ1cDJTVWpMbFhPZ1k5YTh6czJSZjJaUE9GeEpjSGFoYXE0ZXJiTGdKVmpXakxRdU5rSVNwdkFJWDRlY2ZKVWVRZExJZE1ra3Zodl9jbGpiYW83THFtX20tQldzV2h0eWxjSzQ0UHFKNmF5ZEM3cmt6WjdUNm85WkN3dTNXcHFlc3gzRUFxZlI2M0dfM29YR1NQRmlwLUY5Z21wWml1Mnd6TEo4S0VrQzVTVkxiX3dkMXY5OWMxWUZR?oc=5",
-          "sourcePriority": 3
-        },
-        {
-          "title": "San Patricio del Chañar crece al ritmo de Vaca Muerta - Vaca Muerta News",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQbGJsYVZWUW05OWRTWnBhQkV5R1dOX0NxSWY0Y0QwNmlHTG9GTFlXSDlOOFRuRkM3OThWTGljMlZrXzFqSmNBemVzSXllYkVBMUl5bDZHTk1UTWtUTWNoR3VQLVZHN0hHbWhDUDRNT3lmVUxSdjFpYThLWkJsdkNoUXMxUkxPMmRxOG9SSEQxZXZ2aHRjTTdpUzJadnh4QdIBlAFBVV95cUxPdkxSSGhvcWpqc3JSTVVsdUJ1WUEyUTF4b3pBaGNoNTB6SmtQVHNDdW5laGl3RkZSR2sxd004MFpLcVFDSDFEaDVYOHdNNDZfQ2p2NlB5U1FIdFU2TFRac2hMczZZMldMeG5vUkVSWUJnSkpZS1RCZlJtZ3VmY3FjMUxhbG9LZEU0YmtYdXU1QS16VEhp?oc=5",
-          "publishedAt": "2026-11-13T20:19:49+00:00",
-          "published": "2026-11-13T20:19:49+00:00",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxQbGJsYVZWUW05OWRTWnBhQkV5R1dOX0NxSWY0Y0QwNmlHTG9GTFlXSDlOOFRuRkM3OThWTGljMlZrXzFqSmNBemVzSXllYkVBMUl5bDZHTk1UTWtUTWNoR3VQLVZHN0hHbWhDUDRNT3lmVUxSdjFpYThLWkJsdkNoUXMxUkxPMmRxOG9SSEQxZXZ2aHRjTTdpUzJadnh4QdIBlAFBVV95cUxPdkxSSGhvcWpqc3JSTVVsdUJ1WUEyUTF4b3pBaGNoNTB6SmtQVHNDdW5laGl3RkZSR2sxd004MFpLcVFDSDFEaDVYOHdNNDZfQ2p2NlB5U1FIdFU2TFRac2hMczZZMldMeG5vUkVSWUJnSkpZS1RCZlJtZ3VmY3FjMUxhbG9LZEU0YmtYdXU1QS16VEhp?oc=5\" target=\"_blank\">San Patricio del Chañar crece al ritmo de Vaca Muerta</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Vaca Muerta News</font>",
-          "source": "Vaca Muerta News",
+          "title": "Rally Neuquino: Villanueva dio cátedra y Llanos gritó tricampeón en El Chañar - Diario Río Negro",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPakFyeFFzUEpucFFlME9FM19Kc0xORXV4aGFkOHBBejlzOS1td3lTMHFiRVpneEJLeWFLQ1pZRDFLTkpQcXoxb2p0cFpSVnlqb1NIQTBHZms1ZHpvOXhQSWxtQm5wanZuMVRmdzJRVEE3eHdiVXp3Y0t0SjQxdU1yUkpRWEQxRHlReXptcFRqdVhnVDVSdjNRMzV6VXY5ZldZWDM1ZmN0UnhBbjh0el9fQThsTTN1ZzFDRS10VEJYMNIBxwFBVV95cUxNQ0t2eThUQkM1bThiMXEzaHBZZTdqQVdjaVlNOWQyTldGNjlXTWxFdVRZanB1WExWdFR5eTZHTE9reXF2bmVfa1VkZS1uc1FYWTR1dXoySnFCZUZNc2VuRHVycU5WbTdUOHZEdExIWkVCRkNJd3ZKcDlPMVlpSFRnS0JSZkVsNnNVR3B2dGxSNGhHcjVRMk5QbGc1cTZVOTc0aU9tYm42UUNXa2o5N3lrYjMtbmU2NVJIalZMb1RpYWl5UHNUVHlj?oc=5",
+          "publishedAt": "2026-11-16T00:12:23+00:00",
+          "published": "2026-11-16T00:12:23+00:00",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMivwFBVV95cUxPakFyeFFzUEpucFFlME9FM19Kc0xORXV4aGFkOHBBejlzOS1td3lTMHFiRVpneEJLeWFLQ1pZRDFLTkpQcXoxb2p0cFpSVnlqb1NIQTBHZms1ZHpvOXhQSWxtQm5wanZuMVRmdzJRVEE3eHdiVXp3Y0t0SjQxdU1yUkpRWEQxRHlReXptcFRqdVhnVDVSdjNRMzV6VXY5ZldZWDM1ZmN0UnhBbjh0el9fQThsTTN1ZzFDRS10VEJYMNIBxwFBVV95cUxNQ0t2eThUQkM1bThiMXEzaHBZZTdqQVdjaVlNOWQyTldGNjlXTWxFdVRZanB1WExWdFR5eTZHTE9reXF2bmVfa1VkZS1uc1FYWTR1dXoySnFCZUZNc2VuRHVycU5WbTdUOHZEdExIWkVCRkNJd3ZKcDlPMVlpSFRnS0JSZkVsNnNVR3B2dGxSNGhHcjVRMk5QbGc1cTZVOTc0aU9tYm42UUNXa2o5N3lrYjMtbmU2NVJIalZMb1RpYWl5UHNUVHlj?oc=5\" target=\"_blank\">Rally Neuquino: Villanueva dio cátedra y Llanos gritó tricampeón en El Chañar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Diario Río Negro</font>",
+          "source": "Diario Río Negro",
           "sourceType": "BUSCADOR / RESPALDO",
           "sourceUrl": "",
           "collection": "BUSCADOR",
           "query": "\"San Patricio del Chañar\"",
           "relevance": 3,
           "relevanceLabel": "DIRECTA",
-          "firstSeen": "2026-11-14T02:08:28.859890+00:00",
+          "firstSeen": "2026-11-16T07:48:06.524480+00:00",
+          "isNew": true,
+          "titleKey": "rally neuquino villanueva dio catedra llanos grito tricampeon diario rio negro",
+          "evidenceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPakFyeFFzUEpucFFlME9FM19Kc0xORXV4aGFkOHBBejlzOS1td3lTMHFiRVpneEJLeWFLQ1pZRDFLTkpQcXoxb2p0cFpSVnlqb1NIQTBHZms1ZHpvOXhQSWxtQm5wanZuMVRmdzJRVEE3eHdiVXp3Y0t0SjQxdU1yUkpRWEQxRHlReXptcFRqdVhnVDVSdjNRMzV6VXY5ZldZWDM1ZmN0UnhBbjh0el9fQThsTTN1ZzFDRS10VEJYMNIBxwFBVV95cUxNQ0t2eThUQkM1bThiMXEzaHBZZTdqQVdjaVlNOWQyTldGNjlXTWxFdVRZanB1WExWdFR5eTZHTE9reXF2bmVfa1VkZS1uc1FYWTR1dXoySnFCZUZNc2VuRHVycU5WbTdUOHZEdExIWkVCRkNJd3ZKcDlPMVlpSFRnS0JSZkVsNnNVR3B2dGxSNGhHcjVRMk5QbGc1cTZVOTc0aU9tYm42UUNXa2o5N3lrYjMtbmU2NVJIalZMb1RpYWl5UHNUVHlj?oc=5",
+          "sourcePriority": 3
+        },
+        {
+          "title": "Cuatro condenados por vender drogas en San Patricio del Chañar: uno recibió prisión efectiva - ANBariloche",
+          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNdzAtNnBvcVVfendMd1p2YUlVdlJEcG1rMzN1RURXZU9MeTBvY1BXYXFLVXRfN1RtT0RTQy1xdk9YTEwwMzBnM3ZMb3RERDlPSGFnbzUwcktlZDJoV2dyUXMyV0xMUGp1SnVCSmJ2YmV1TVJ1eWgyZnNnYmRVWWRkREhhNmh6SVNqMmN2Q1kyMEJFVXBiOE0wam9UV19JOEo5RnJ2eTZRLWZKVHRWVVpfYmZNN014UlhleldMQjR2NWxZc1JqRThCeExQUU1PZG9ZMm5SV2RZLUxJbjVTZ2dqd2k2Nmg4bjha0gHoAUFVX3lxTE13MC02cG9xVV96d0x3WnZhSVV2UkRwbWszM3VFRFdlT0x5MG9jUFdhcUtVdF83VG1PRFNDLXF2T1hMTDAzMGczdkxvdEREOU9IYWdvNTByS2VkMmhXZ3JRczJXTExQanVKdUJKYnZiZXVNUnV5aDJmc2diZFVZZGRESGE2aHpJU2oyY3ZDWTIwQkVVcGI4TTBqb1RXX0k4SjlGcnZ5NlEtZkpUdFZVWl9iZk03TXhSWGV6V0xCNHY1bFlzUmpFOEJ4TFBRTU9kb1kyblJXZFktTEluNVNnZ2p3aTY2aDhuOFo?oc=5",
+          "publishedAt": "2026-11-15T20:00:47+00:00",
+          "published": "2026-11-15T20:00:47+00:00",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMi6AFBVV95cUxNdzAtNnBvcVVfendMd1p2YUlVdlJEcG1rMzN1RURXZU9MeTBvY1BXYXFLVXRfN1RtT0RTQy1xdk9YTEwwMzBnM3ZMb3RERDlPSGFnbzUwcktlZDJoV2dyUXMyV0xMUGp1SnVCSmJ2YmV1TVJ1eWgyZnNnYmRVWWRkREhhNmh6SVNqMmN2Q1kyMEJFVXBiOE0wam9UV19JOEo5RnJ2eTZRLWZKVHRWVVpfYmZNN014UlhleldMQjR2NWxZc1JqRThCeExQUU1PZG9ZMm5SV2RZLUxJbjVTZ2dqd2k2Nmg4bjha0gHoAUFVX3lxTE13MC02cG9xVV96d0x3WnZhSVV2UkRwbWszM3VFRFdlT0x5MG9jUFdhcUtVdF83VG1PRFNDLXF2T1hMTDAzMGczdkxvdEREOU9IYWdvNTByS2VkMmhXZ3JRczJXTExQanVKdUJKYnZiZXVNUnV5aDJmc2diZFVZZGRESGE2aHpJU2oyY3ZDWTIwQkVVcGI4TTBqb1RXX0k4SjlGcnZ5NlEtZkpUdFZVWl9iZk03TXhSWGV6V0xCNHY1bFlzUmpFOEJ4TFBRTU9kb1kyblJXZFktTEluNVNnZ2p3aTY2aDhuOFo?oc=5\" target=\"_blank\">Cuatro condenados por vender drogas en San Patricio del Chañar: uno recibió prisión efectiva</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ANBariloche</font>",
+          "source": "ANBariloche",
+          "sourceType": "BUSCADOR / RESPALDO",
+          "sourceUrl": "",
+          "collection": "BUSCADOR",
+          "query": "\"San Patricio del Chañar\"",
+          "relevance": 3,
+          "relevanceLabel": "DIRECTA",
+          "firstSeen": "2026-11-16T00:54:16.997943+00:00",
           "isNew": false,
-          "titleKey": "crece ritmo vaca muerta vaca muerta news",
-          "evidenceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxQbGJsYVZWUW05OWRTWnBhQkV5R1dOX0NxSWY0Y0QwNmlHTG9GTFlXSDlOOFRuRkM3OThWTGljMlZrXzFqSmNBemVzSXllYkVBMUl5bDZHTk1UTWtUTWNoR3VQLVZHN0hHbWhDUDRNT3lmVUxSdjFpYThLWkJsdkNoUXMxUkxPMmRxOG9SSEQxZXZ2aHRjTTdpUzJadnh4QdIBlAFBVV95cUxPdkxSSGhvcWpqc3JSTVVsdUJ1WUEyUTF4b3pBaGNoNTB6SmtQVHNDdW5laGl3RkZSR2sxd004MFpLcVFDSDFEaDVYOHdNNDZfQ2p2NlB5U1FIdFU2TFRac2hMczZZMldMeG5vUkVSWUJnSkpZS1RCZlJtZ3VmY3FjMUxhbG9LZEU0YmtYdXU1QS16VEhp?oc=5",
+          "titleKey": "cuatro condenados vender drogas uno recibio prision efectiva anbariloche",
+          "evidenceUrl": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNdzAtNnBvcVVfendMd1p2YUlVdlJEcG1rMzN1RURXZU9MeTBvY1BXYXFLVXRfN1RtT0RTQy1xdk9YTEwwMzBnM3ZMb3RERDlPSGFnbzUwcktlZDJoV2dyUXMyV0xMUGp1SnVCSmJ2YmV1TVJ1eWgyZnNnYmRVWWRkREhhNmh6SVNqMmN2Q1kyMEJFVXBiOE0wam9UV19JOEo5RnJ2eTZRLWZKVHRWVVpfYmZNN014UlhleldMQjR2NWxZc1JqRThCeExQUU1PZG9ZMm5SV2RZLUxJbjVTZ2dqd2k2Nmg4bjha0gHoAUFVX3lxTE13MC02cG9xVV96d0x3WnZhSVV2UkRwbWszM3VFRFdlT0x5MG9jUFdhcUtVdF83VG1PRFNDLXF2T1hMTDAzMGczdkxvdEREOU9IYWdvNTByS2VkMmhXZ3JRczJXTExQanVKdUJKYnZiZXVNUnV5aDJmc2diZFVZZGRESGE2aHpJU2oyY3ZDWTIwQkVVcGI4TTBqb1RXX0k4SjlGcnZ5NlEtZkpUdFZVWl9iZk03TXhSWGV6V0xCNHY1bFlzUmpFOEJ4TFBRTU9kb1kyblJXZFktTEluNVNnZ2p3aTY2aDhuOFo?oc=5",
           "sourcePriority": 3
         }
       ],
-      "lifecycle": "SIN NUEVA COBERTURA",
-      "movementDelta": 0,
-      "previousCoverage": 9,
+      "lifecycle": "ACTIVO",
+      "movementDelta": 62,
+      "previousCoverage": 3,
       "newSources": [
-        "Diario Río Negro",
-        "Patagonia Press",
-        "Vaca Muerta News",
         "tuitvacamuerta.com",
         "Neuquen Informa",
         "Flipr.news",
+        "Diario Río Negro",
+        "Patagonia Press",
         "ANBariloche"
       ],
-      "sourceDiversity": 8,
+      "sourceDiversity": 7,
       "memoryMatched": true,
       "isNew": false,
       "view": "INCIDENCIA",
@@ -3465,20 +3501,19 @@
             "evidence": "DIRECTA"
           }
         ]
-      },
-      "sourceContinuity": "fuente conocida sin respuesta; no se infiere desaparición"
+      }
     },
     {
       "eventId": "CHA-482c885515b8",
       "title": "Bomberos de San Patricio del Chañar estrenan su cuartel tras casi ocho años y suman una autobomba - Minuto Neuquén",
       "publishedAt": "2026-11-13T21:44:31+00:00",
-      "firstSeen": "2026-11-13T00:02:10.545486+00:00",
+      "firstSeen": "2026-11-13T07:06:31.416323+00:00",
       "lastSeen": "2026-11-13T21:44:31+00:00",
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SEGURIDAD / EMERGENCIAS",
-      "movement": 86,
+      "movement": 84,
       "coverage": 5,
       "sourceCount": 5,
       "directSourceCount": 0,
@@ -3574,10 +3609,10 @@
         },
         {
           "title": "San Patricio del Chañar: bomberos estrenan cuartel y autobomba - Diario Río Negro",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPNDBCWVFVWXgyS0hLYjVfMEFhdUszOXZHMXBzZkQ0b0c5MllSckJ0LTNrSVBvX1NrLVowbzJwUkxFZzU0SmpiZGU1d3Z1TV9MUVlSdTFwakVBaVhsZHkxMVNJUWF6c2ZXemZPMTFJZjAyV0FnY1l1U01HRUlLcDFicDVkSjZDMkx6ZnhxQ0g2TnZCZmh0Tm1FWktRS081Nkkwb2htMHdqNDJIRWhSeVpxT3k2a9IBswFBVV95cUxPNDBCWVFVWXgyS0hLYjVfMEFhdUszOXZHMXBzZkQ0b0c5MllSckJ0LTNrSVBvX1NrLVowbzJwUkxFZzU0SmpiZGU1d3Z1TV9MUVlSdTFwakVBaVhsZHkxMVNJUWF6c2ZXemZPMTFJZjAyV0FnY1l1U01HRUlLcDFicDVkSjZDMkx6ZnhxQ0g2TnZCZmh0Tm1FWktRS081Nkkwb2htMHdqNDJIRWhSeVpxT3k2aw?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQZFVJbWpVMWtpSU83U21qOG52UndBeWVBRTZmeU00OENGLUVxX0JQWXhmc2FjcklWMHpUT3NMaDVhQWRQN1ltWl9iNHd4TmZtYjVGR3FwRDlkdHBQTVZjWTJ1d3k2NG1IaUtoZWxaTjEyM2xKWE90UWtZRVVFMzhhMng0aFVkcmpVUThPRFNhMFNxaTQxczhmNVJNUXFYa3ZIMUNicXVOcDVWUE3SAbMBQVVfeXFMTzQwQllRVVl4MktIS2I1XzBBYXVLMzl2RzFwc2ZENG9HOTJZUnJCdC0za0lQb19Tay1aMG8ycFJMRWc1NEpqYmRlNXd2dU1fTFFZUnUxcGpFQWlYbGR5MTFTSVFhenNmV3pmTzExSWYwMldBZ2NZdVNNR0VJS3AxYnA1ZEo2QzJMemZ4cUNINk52QmZodE5tRVpLUUtPNTZJMG9obTB3ajQySEVoUnlacU95Nms?oc=5",
           "publishedAt": "2026-11-12T19:30:06+00:00",
           "published": "2026-11-12T19:30:06+00:00",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxPNDBCWVFVWXgyS0hLYjVfMEFhdUszOXZHMXBzZkQ0b0c5MllSckJ0LTNrSVBvX1NrLVowbzJwUkxFZzU0SmpiZGU1d3Z1TV9MUVlSdTFwakVBaVhsZHkxMVNJUWF6c2ZXemZPMTFJZjAyV0FnY1l1U01HRUlLcDFicDVkSjZDMkx6ZnhxQ0g2TnZCZmh0Tm1FWktRS081Nkkwb2htMHdqNDJIRWhSeVpxT3k2a9IBswFBVV95cUxPNDBCWVFVWXgyS0hLYjVfMEFhdUszOXZHMXBzZkQ0b0c5MllSckJ0LTNrSVBvX1NrLVowbzJwUkxFZzU0SmpiZGU1d3Z1TV9MUVlSdTFwakVBaVhsZHkxMVNJUWF6c2ZXemZPMTFJZjAyV0FnY1l1U01HRUlLcDFicDVkSjZDMkx6ZnhxQ0g2TnZCZmh0Tm1FWktRS081Nkkwb2htMHdqNDJIRWhSeVpxT3k2aw?oc=5\" target=\"_blank\">San Patricio del Chañar: bomberos estrenan cuartel y autobomba</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Diario Río Negro</font>",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxQZFVJbWpVMWtpSU83U21qOG52UndBeWVBRTZmeU00OENGLUVxX0JQWXhmc2FjcklWMHpUT3NMaDVhQWRQN1ltWl9iNHd4TmZtYjVGR3FwRDlkdHBQTVZjWTJ1d3k2NG1IaUtoZWxaTjEyM2xKWE90UWtZRVVFMzhhMng0aFVkcmpVUThPRFNhMFNxaTQxczhmNVJNUXFYa3ZIMUNicXVOcDVWUE3SAbMBQVVfeXFMTzQwQllRVVl4MktIS2I1XzBBYXVLMzl2RzFwc2ZENG9HOTJZUnJCdC0za0lQb19Tay1aMG8ycFJMRWc1NEpqYmRlNXd2dU1fTFFZUnUxcGpFQWlYbGR5MTFTSVFhenNmV3pmTzExSWYwMldBZ2NZdVNNR0VJS3AxYnA1ZEo2QzJMemZ4cUNINk52QmZodE5tRVpLUUtPNTZJMG9obTB3ajQySEVoUnlacU95Nms?oc=5\" target=\"_blank\">San Patricio del Chañar: bomberos estrenan cuartel y autobomba</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Diario Río Negro</font>",
           "source": "Diario Río Negro",
           "sourceType": "BUSCADOR / RESPALDO",
           "sourceUrl": "",
@@ -3585,15 +3620,15 @@
           "query": "\"San Patricio del Chañar\"",
           "relevance": 3,
           "relevanceLabel": "DIRECTA",
-          "firstSeen": "2026-11-13T00:02:10.545486+00:00",
-          "isNew": false,
+          "firstSeen": "2026-11-16T07:48:06.524480+00:00",
+          "isNew": true,
           "titleKey": "bomberos estrenan cuartel autobomba diario rio negro",
-          "evidenceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPNDBCWVFVWXgyS0hLYjVfMEFhdUszOXZHMXBzZkQ0b0c5MllSckJ0LTNrSVBvX1NrLVowbzJwUkxFZzU0SmpiZGU1d3Z1TV9MUVlSdTFwakVBaVhsZHkxMVNJUWF6c2ZXemZPMTFJZjAyV0FnY1l1U01HRUlLcDFicDVkSjZDMkx6ZnhxQ0g2TnZCZmh0Tm1FWktRS081Nkkwb2htMHdqNDJIRWhSeVpxT3k2a9IBswFBVV95cUxPNDBCWVFVWXgyS0hLYjVfMEFhdUszOXZHMXBzZkQ0b0c5MllSckJ0LTNrSVBvX1NrLVowbzJwUkxFZzU0SmpiZGU1d3Z1TV9MUVlSdTFwakVBaVhsZHkxMVNJUWF6c2ZXemZPMTFJZjAyV0FnY1l1U01HRUlLcDFicDVkSjZDMkx6ZnhxQ0g2TnZCZmh0Tm1FWktRS081Nkkwb2htMHdqNDJIRWhSeVpxT3k2aw?oc=5",
+          "evidenceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQZFVJbWpVMWtpSU83U21qOG52UndBeWVBRTZmeU00OENGLUVxX0JQWXhmc2FjcklWMHpUT3NMaDVhQWRQN1ltWl9iNHd4TmZtYjVGR3FwRDlkdHBQTVZjWTJ1d3k2NG1IaUtoZWxaTjEyM2xKWE90UWtZRVVFMzhhMng0aFVkcmpVUThPRFNhMFNxaTQxczhmNVJNUXFYa3ZIMUNicXVOcDVWUE3SAbMBQVVfeXFMTzQwQllRVVl4MktIS2I1XzBBYXVLMzl2RzFwc2ZENG9HOTJZUnJCdC0za0lQb19Tay1aMG8ycFJMRWc1NEpqYmRlNXd2dU1fTFFZUnUxcGpFQWlYbGR5MTFTSVFhenNmV3pmTzExSWYwMldBZ2NZdVNNR0VJS3AxYnA1ZEo2QzJMemZ4cUNINk52QmZodE5tRVpLUUtPNTZJMG9obTB3ajQySEVoUnlacU95Nms?oc=5",
           "sourcePriority": 3
         }
       ],
       "lifecycle": "ACTIVO",
-      "movementDelta": -1,
+      "movementDelta": -2,
       "previousCoverage": 5,
       "newSources": [],
       "sourceDiversity": 5,
@@ -3645,7 +3680,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "INSTITUCIONES",
-      "movement": 57,
+      "movement": 55,
       "coverage": 1,
       "sourceCount": 1,
       "directSourceCount": 0,
@@ -3679,7 +3714,7 @@
         }
       ],
       "lifecycle": "EMERGENTE",
-      "movementDelta": -1,
+      "movementDelta": -2,
       "previousCoverage": 1,
       "newSources": [],
       "sourceDiversity": 1,
@@ -3723,7 +3758,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SERVICIOS",
-      "movement": 55,
+      "movement": 53,
       "coverage": 1,
       "sourceCount": 1,
       "directSourceCount": 0,
@@ -3755,8 +3790,8 @@
           "sourcePriority": 3
         }
       ],
-      "lifecycle": "EMERGENTE",
-      "movementDelta": -1,
+      "lifecycle": "SOSTENIDO",
+      "movementDelta": -2,
       "previousCoverage": 1,
       "newSources": [],
       "sourceDiversity": 1,
@@ -3809,8 +3844,8 @@
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SERVICIOS",
       "movement": 47,
-      "coverage": 2,
-      "sourceCount": 2,
+      "coverage": 5,
+      "sourceCount": 3,
       "directSourceCount": 0,
       "territorialAnchors": [
         "san patricio del chañar",
@@ -3818,7 +3853,8 @@
       ],
       "sources": [
         "Chañar Digital",
-        "Vaca Muerta News"
+        "Vaca Muerta News",
+        "MejorInformado.com"
       ],
       "evidenceUrl": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQVW50RVdpUTR2N3FVbDR1bHFLUFBsV2UwMHFJaDRBQ3dqMnQ1cDJTVWpMbFhPZ1k5YTh6czJSZjJaUE9GeEpjSGFoYXE0ZXJiTGdKVmpXakxRdU5rSVNwdkFJWDRlY2ZKVWVRZExJZE1ra3Zodl9jbGpiYW83THFtX20tQldzV2h0eWxjSzQ0UHFKNmF5ZEM3cmt6WjdUNm85WkN3dTNXcHFlc3gzRUFxZlI2M0dfM29YR1NQRmlwLUY5Z21wWml1Mnd6TEo4S0VrQzVTVkxiX3dkMXY5OWMxWUZR?oc=5",
       "items": [
@@ -3859,15 +3895,72 @@
           "titleKey": "crece ritmo vaca muerta vaca muerta news",
           "evidenceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxQbGJsYVZWUW05OWRTWnBhQkV5R1dOX0NxSWY0Y0QwNmlHTG9GTFlXSDlOOFRuRkM3OThWTGljMlZrXzFqSmNBemVzSXllYkVBMUl5bDZHTk1UTWtUTWNoR3VQLVZHN0hHbWhDUDRNT3lmVUxSdjFpYThLWkJsdkNoUXMxUkxPMmRxOG9SSEQxZXZ2aHRjTTdpUzJadnh4QdIBlAFBVV95cUxPdkxSSGhvcWpqc3JSTVVsdUJ1WUEyUTF4b3pBaGNoNTB6SmtQVHNDdW5laGl3RkZSR2sxd004MFpLcVFDSDFEaDVYOHdNNDZfQ2p2NlB5U1FIdFU2TFRac2hMczZZMldMeG5vUkVSWUJnSkpZS1RCZlJtZ3VmY3FjMUxhbG9LZEU0YmtYdXU1QS16VEhp?oc=5",
           "sourcePriority": 3
+        },
+        {
+          "title": "Rally Neuquino en San Patricio del Chañar: Bruno Campos anticipó una fecha clave del campeonato - Chañar Digital",
+          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQVW50RVdpUTR2N3FVbDR1bHFLUFBsV2UwMHFJaDRBQ3dqMnQ1cDJTVWpMbFhPZ1k5YTh6czJSZjJaUE9GeEpjSGFoYXE0ZXJiTGdKVmpXakxRdU5rSVNwdkFJWDRlY2ZKVWVRZExJZE1ra3Zodl9jbGpiYW83THFtX20tQldzV2h0eWxjSzQ0UHFKNmF5ZEM3cmt6WjdUNm85WkN3dTNXcHFlc3gzRUFxZlI2M0dfM29YR1NQRmlwLUY5Z21wWml1Mnd6TEo4S0VrQzVTVkxiX3dkMXY5OWMxWUZR?oc=5",
+          "publishedAt": "2026-11-13T21:57:17+00:00",
+          "published": "2026-11-13T21:57:17+00:00",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMi4gFBVV95cUxQVW50RVdpUTR2N3FVbDR1bHFLUFBsV2UwMHFJaDRBQ3dqMnQ1cDJTVWpMbFhPZ1k5YTh6czJSZjJaUE9GeEpjSGFoYXE0ZXJiTGdKVmpXakxRdU5rSVNwdkFJWDRlY2ZKVWVRZExJZE1ra3Zodl9jbGpiYW83THFtX20tQldzV2h0eWxjSzQ0UHFKNmF5ZEM3cmt6WjdUNm85WkN3dTNXcHFlc3gzRUFxZlI2M0dfM29YR1NQRmlwLUY5Z21wWml1Mnd6TEo4S0VrQzVTVkxiX3dkMXY5OWMxWUZR?oc=5\" target=\"_blank\">Rally Neuquino en San Patricio del Chañar: Bruno Campos anticipó una fecha clave del campeonato</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Chañar Digital</font>",
+          "source": "Chañar Digital",
+          "sourceType": "BUSCADOR / RESPALDO",
+          "sourceUrl": "",
+          "collection": "BUSCADOR",
+          "query": "site:chanardigital.com.ar \"San Patricio del Chañar\"",
+          "relevance": 3,
+          "relevanceLabel": "DIRECTA",
+          "firstSeen": "2026-11-14T02:08:28.859890+00:00",
+          "isNew": false,
+          "titleKey": "rally neuquino bruno campos anticipo fecha clave campeonato digital",
+          "evidenceUrl": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQVW50RVdpUTR2N3FVbDR1bHFLUFBsV2UwMHFJaDRBQ3dqMnQ1cDJTVWpMbFhPZ1k5YTh6czJSZjJaUE9GeEpjSGFoYXE0ZXJiTGdKVmpXakxRdU5rSVNwdkFJWDRlY2ZKVWVRZExJZE1ra3Zodl9jbGpiYW83THFtX20tQldzV2h0eWxjSzQ0UHFKNmF5ZEM3cmt6WjdUNm85WkN3dTNXcHFlc3gzRUFxZlI2M0dfM29YR1NQRmlwLUY5Z21wWml1Mnd6TEo4S0VrQzVTVkxiX3dkMXY5OWMxWUZR?oc=5",
+          "sourcePriority": 3
+        },
+        {
+          "title": "San Patricio del Chañar crece al ritmo de Vaca Muerta - Vaca Muerta News",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQbGJsYVZWUW05OWRTWnBhQkV5R1dOX0NxSWY0Y0QwNmlHTG9GTFlXSDlOOFRuRkM3OThWTGljMlZrXzFqSmNBemVzSXllYkVBMUl5bDZHTk1UTWtUTWNoR3VQLVZHN0hHbWhDUDRNT3lmVUxSdjFpYThLWkJsdkNoUXMxUkxPMmRxOG9SSEQxZXZ2aHRjTTdpUzJadnh4QdIBlAFBVV95cUxPdkxSSGhvcWpqc3JSTVVsdUJ1WUEyUTF4b3pBaGNoNTB6SmtQVHNDdW5laGl3RkZSR2sxd004MFpLcVFDSDFEaDVYOHdNNDZfQ2p2NlB5U1FIdFU2TFRac2hMczZZMldMeG5vUkVSWUJnSkpZS1RCZlJtZ3VmY3FjMUxhbG9LZEU0YmtYdXU1QS16VEhp?oc=5",
+          "publishedAt": "2026-11-13T20:19:49+00:00",
+          "published": "2026-11-13T20:19:49+00:00",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxQbGJsYVZWUW05OWRTWnBhQkV5R1dOX0NxSWY0Y0QwNmlHTG9GTFlXSDlOOFRuRkM3OThWTGljMlZrXzFqSmNBemVzSXllYkVBMUl5bDZHTk1UTWtUTWNoR3VQLVZHN0hHbWhDUDRNT3lmVUxSdjFpYThLWkJsdkNoUXMxUkxPMmRxOG9SSEQxZXZ2aHRjTTdpUzJadnh4QdIBlAFBVV95cUxPdkxSSGhvcWpqc3JSTVVsdUJ1WUEyUTF4b3pBaGNoNTB6SmtQVHNDdW5laGl3RkZSR2sxd004MFpLcVFDSDFEaDVYOHdNNDZfQ2p2NlB5U1FIdFU2TFRac2hMczZZMldMeG5vUkVSWUJnSkpZS1RCZlJtZ3VmY3FjMUxhbG9LZEU0YmtYdXU1QS16VEhp?oc=5\" target=\"_blank\">San Patricio del Chañar crece al ritmo de Vaca Muerta</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Vaca Muerta News</font>",
+          "source": "Vaca Muerta News",
+          "sourceType": "BUSCADOR / RESPALDO",
+          "sourceUrl": "",
+          "collection": "BUSCADOR",
+          "query": "\"San Patricio del Chañar\"",
+          "relevance": 3,
+          "relevanceLabel": "DIRECTA",
+          "firstSeen": "2026-11-14T02:08:28.859890+00:00",
+          "isNew": false,
+          "titleKey": "crece ritmo vaca muerta vaca muerta news",
+          "evidenceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxQbGJsYVZWUW05OWRTWnBhQkV5R1dOX0NxSWY0Y0QwNmlHTG9GTFlXSDlOOFRuRkM3OThWTGljMlZrXzFqSmNBemVzSXllYkVBMUl5bDZHTk1UTWtUTWNoR3VQLVZHN0hHbWhDUDRNT3lmVUxSdjFpYThLWkJsdkNoUXMxUkxPMmRxOG9SSEQxZXZ2aHRjTTdpUzJadnh4QdIBlAFBVV95cUxPdkxSSGhvcWpqc3JSTVVsdUJ1WUEyUTF4b3pBaGNoNTB6SmtQVHNDdW5laGl3RkZSR2sxd004MFpLcVFDSDFEaDVYOHdNNDZfQ2p2NlB5U1FIdFU2TFRac2hMczZZMldMeG5vUkVSWUJnSkpZS1RCZlJtZ3VmY3FjMUxhbG9LZEU0YmtYdXU1QS16VEhp?oc=5",
+          "sourcePriority": 3
+        },
+        {
+          "title": "Con la rampa promocional arrancará el Rally de San Patricio del Chañar - MejorInformado.com",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQNWlab19aX05paDlMMXlJcGVNM0hZei1Hb3BjcTdHSXptQ2dTUnM0cHJmdTJsNzdwRFVURU0yNUlCWUtpVGlMN1JHUENPd2dMZ1V6LU9jU3dyRHVEcWlXa0IwVmlBcmtVckFIWGZTTVRCY3Fjb21qOWRONEtZaEpLLWFRQ09nX3JvYWxSV1dPcExNLXRheEw0bm5VcHk4czZraXB1NFVJMNIBpwFBVV95cUxQNWlab19aX05paDlMMXlJcGVNM0hZei1Hb3BjcTdHSXptQ2dTUnM0cHJmdTJsNzdwRFVURU0yNUlCWUtpVGlMN1JHUENPd2dMZ1V6LU9jU3dyRHVEcWlXa0IwVmlBcmtVckFIWGZTTVRCY3Fjb21qOWRONEtZaEpLLWFRQ09nX3JvYWxSV1dPcExNLXRheEw0bm5VcHk4czZraXB1NFVJMA?oc=5",
+          "publishedAt": "2026-11-13T17:06:16+00:00",
+          "published": "2026-11-13T17:06:16+00:00",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxQNWlab19aX05paDlMMXlJcGVNM0hZei1Hb3BjcTdHSXptQ2dTUnM0cHJmdTJsNzdwRFVURU0yNUlCWUtpVGlMN1JHUENPd2dMZ1V6LU9jU3dyRHVEcWlXa0IwVmlBcmtVckFIWGZTTVRCY3Fjb21qOWRONEtZaEpLLWFRQ09nX3JvYWxSV1dPcExNLXRheEw0bm5VcHk4czZraXB1NFVJMNIBpwFBVV95cUxQNWlab19aX05paDlMMXlJcGVNM0hZei1Hb3BjcTdHSXptQ2dTUnM0cHJmdTJsNzdwRFVURU0yNUlCWUtpVGlMN1JHUENPd2dMZ1V6LU9jU3dyRHVEcWlXa0IwVmlBcmtVckFIWGZTTVRCY3Fjb21qOWRONEtZaEpLLWFRQ09nX3JvYWxSV1dPcExNLXRheEw0bm5VcHk4czZraXB1NFVJMA?oc=5\" target=\"_blank\">Con la rampa promocional arrancará el Rally de San Patricio del Chañar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MejorInformado.com</font>",
+          "source": "MejorInformado.com",
+          "sourceType": "BUSCADOR / RESPALDO",
+          "sourceUrl": "",
+          "collection": "BUSCADOR",
+          "query": "\"San Patricio del Chañar\"",
+          "relevance": 3,
+          "relevanceLabel": "DIRECTA",
+          "firstSeen": "2026-11-16T07:48:06.524480+00:00",
+          "isNew": true,
+          "titleKey": "rampa promocional arrancara rally mejorinformado com",
+          "evidenceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQNWlab19aX05paDlMMXlJcGVNM0hZei1Hb3BjcTdHSXptQ2dTUnM0cHJmdTJsNzdwRFVURU0yNUlCWUtpVGlMN1JHUENPd2dMZ1V6LU9jU3dyRHVEcWlXa0IwVmlBcmtVckFIWGZTTVRCY3Fjb21qOWRONEtZaEpLLWFRQ09nX3JvYWxSV1dPcExNLXRheEw0bm5VcHk4czZraXB1NFVJMNIBpwFBVV95cUxQNWlab19aX05paDlMMXlJcGVNM0hZei1Hb3BjcTdHSXptQ2dTUnM0cHJmdTJsNzdwRFVURU0yNUlCWUtpVGlMN1JHUENPd2dMZ1V6LU9jU3dyRHVEcWlXa0IwVmlBcmtVckFIWGZTTVRCY3Fjb21qOWRONEtZaEpLLWFRQ09nX3JvYWxSV1dPcExNLXRheEw0bm5VcHk4czZraXB1NFVJMA?oc=5",
+          "sourcePriority": 3
         }
       ],
-      "lifecycle": "SOSTENIDO",
-      "movementDelta": 31,
+      "lifecycle": "SIN NUEVA COBERTURA",
+      "movementDelta": 0,
       "previousCoverage": 1,
       "newSources": [
         "Vaca Muerta News"
       ],
-      "sourceDiversity": 2,
+      "sourceDiversity": 3,
       "memoryMatched": true,
       "isNew": false,
       "view": "INCIDENCIA",
@@ -3896,7 +3989,8 @@
             "evidence": "DIRECTA"
           }
         ]
-      }
+      },
+      "sourceContinuity": "fuente conocida sin respuesta; no se infiere desaparición"
     },
     {
       "eventId": "CHA-4b8240322bf2",
@@ -4011,9 +4105,9 @@
     {
       "eventId": "CHA-b0c86458f453",
       "title": "Educación ambiental en San Patricio del Chañar: Más de 350 estudiantes se unen por el futuro ecológico de Neuquén - Patagonia Ambiental",
-      "publishedAt": "2026-11-04T00:10:41+00:00",
+      "publishedAt": "2026-11-03T20:05:38+00:00",
       "firstSeen": "2026-11-09T09:30:09.078627+00:00",
-      "lastSeen": "2026-11-04T00:10:41+00:00",
+      "lastSeen": "2026-11-03T20:05:38+00:00",
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
@@ -4027,30 +4121,11 @@
         "el chañar"
       ],
       "sources": [
-        "Neuquén al instante",
-        "Patagonia Ambiental"
+        "Patagonia Ambiental",
+        "Neuquen Informa"
       ],
       "evidenceUrl": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQcUw3VWg3dGNwN211cHhUby1OQVlQdmtNakJ2NGp4WDRRVmo1NjBxZzBuSGFGYXRDTVNQQWNiY0Y2bmFkWm9NMDQwUWVjRDQzZjRhY05tMmMwTVhTMDFKNThEUmlzcGpkQnI3ZVBjamJyRnJwTFcxb3FxQ1UxdnpGN2h1cF9kQnFySlgzdzY4NDRnR24zRVY5WDFLTHRrc3ZJN1RLcVhyTEQ1UG11S053RGZHWW1GRlNUOGJRcEVQMklzN2JKUzNubjB5TFhMcHptb3VjcTJnclZyTW1yRE9Ia0Jjc1R0MXRscnVlZHRKQnR6cDFK?oc=5",
       "items": [
-        {
-          "title": "La educación ambiental reunió a 350 estudiantes en San Patricio del Chañar - Neuquén al instante",
-          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOMC14ZjBESGNEVkk3WERIUkZFVTU3VGt1X0pKOGVTXzE3SklrTnRfX05yTUlGakZtclZNdWpRWVl0NkRGNzdOV0EwRGFaeHEyYTdOeEFxa01UNGV6X2p5bE5NRlIzOF9zd0pLVFhXSy15ZVFFeFJJSUplQmNRdnJOUDQ5UTJPM3pOVk1Ja21aRE1zakZmdVJqdVJYeUd2SDcyMWNNZk5oX3hpWnlqRlZwQXhGVVVOWll1V1lpbTQ4SERJVUg1R0F0SUFBQW5NbkFSV3hkedIB2gFBVV95cUxNdGEzYUsxNDdvbXA3YjFEbU9ISElEMHhhanplUXlTN2tFUHM2Wl9Kb24wZms3Z2xxU21QbzlpVE9RSUtsQ2ZKeFctWlJRNW5tcTdndlR6b0g1eFZieU5kMElJaWdKSzA5WEdMQzJTaXVfcXZOcHNnc1RkbHNVa3pHX21YZGVLNHJjSGI1ZVhUNmFzd3dhYnBCWWtFOUFISTZKN2dPYmp1Ti1Ub1BhUm1qbVVuTUF5Qnl4ZXBZLU5oSnFXeGlIWFJ0aVl2N0VvZVh4cHJONDNLajRiUQ?oc=5",
-          "publishedAt": "2026-11-04T00:10:41+00:00",
-          "published": "2026-11-04T00:10:41+00:00",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMi1AFBVV95cUxOMC14ZjBESGNEVkk3WERIUkZFVTU3VGt1X0pKOGVTXzE3SklrTnRfX05yTUlGakZtclZNdWpRWVl0NkRGNzdOV0EwRGFaeHEyYTdOeEFxa01UNGV6X2p5bE5NRlIzOF9zd0pLVFhXSy15ZVFFeFJJSUplQmNRdnJOUDQ5UTJPM3pOVk1Ja21aRE1zakZmdVJqdVJYeUd2SDcyMWNNZk5oX3hpWnlqRlZwQXhGVVVOWll1V1lpbTQ4SERJVUg1R0F0SUFBQW5NbkFSV3hkedIB2gFBVV95cUxNdGEzYUsxNDdvbXA3YjFEbU9ISElEMHhhanplUXlTN2tFUHM2Wl9Kb24wZms3Z2xxU21QbzlpVE9RSUtsQ2ZKeFctWlJRNW5tcTdndlR6b0g1eFZieU5kMElJaWdKSzA5WEdMQzJTaXVfcXZOcHNnc1RkbHNVa3pHX21YZGVLNHJjSGI1ZVhUNmFzd3dhYnBCWWtFOUFISTZKN2dPYmp1Ti1Ub1BhUm1qbVVuTUF5Qnl4ZXBZLU5oSnFXeGlIWFJ0aVl2N0VvZVh4cHJONDNLajRiUQ?oc=5\" target=\"_blank\">La educación ambiental reunió a 350 estudiantes en San Patricio del Chañar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Neuquén al instante</font>",
-          "source": "Neuquén al instante",
-          "sourceType": "BUSCADOR / RESPALDO",
-          "sourceUrl": "",
-          "collection": "BUSCADOR",
-          "query": "\"San Patricio del Chañar\"",
-          "relevance": 3,
-          "relevanceLabel": "DIRECTA",
-          "firstSeen": "2026-11-09T09:30:09.078627+00:00",
-          "isNew": false,
-          "titleKey": "educacion ambiental reunio 350 estudiantes instante",
-          "evidenceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOMC14ZjBESGNEVkk3WERIUkZFVTU3VGt1X0pKOGVTXzE3SklrTnRfX05yTUlGakZtclZNdWpRWVl0NkRGNzdOV0EwRGFaeHEyYTdOeEFxa01UNGV6X2p5bE5NRlIzOF9zd0pLVFhXSy15ZVFFeFJJSUplQmNRdnJOUDQ5UTJPM3pOVk1Ja21aRE1zakZmdVJqdVJYeUd2SDcyMWNNZk5oX3hpWnlqRlZwQXhGVVVOWll1V1lpbTQ4SERJVUg1R0F0SUFBQW5NbkFSV3hkedIB2gFBVV95cUxNdGEzYUsxNDdvbXA3YjFEbU9ISElEMHhhanplUXlTN2tFUHM2Wl9Kb24wZms3Z2xxU21QbzlpVE9RSUtsQ2ZKeFctWlJRNW5tcTdndlR6b0g1eFZieU5kMElJaWdKSzA5WEdMQzJTaXVfcXZOcHNnc1RkbHNVa3pHX21YZGVLNHJjSGI1ZVhUNmFzd3dhYnBCWWtFOUFISTZKN2dPYmp1Ti1Ub1BhUm1qbVVuTUF5Qnl4ZXBZLU5oSnFXeGlIWFJ0aVl2N0VvZVh4cHJONDNLajRiUQ?oc=5",
-          "sourcePriority": 3
-        },
         {
           "title": "Educación ambiental en San Patricio del Chañar: Más de 350 estudiantes se unen por el futuro ecológico de Neuquén - Patagonia Ambiental",
           "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQcUw3VWg3dGNwN211cHhUby1OQVlQdmtNakJ2NGp4WDRRVmo1NjBxZzBuSGFGYXRDTVNQQWNiY0Y2bmFkWm9NMDQwUWVjRDQzZjRhY05tMmMwTVhTMDFKNThEUmlzcGpkQnI3ZVBjamJyRnJwTFcxb3FxQ1UxdnpGN2h1cF9kQnFySlgzdzY4NDRnR24zRVY5WDFLTHRrc3ZJN1RLcVhyTEQ1UG11S053RGZHWW1GRlNUOGJRcEVQMklzN2JKUzNubjB5TFhMcHptb3VjcTJnclZyTW1yRE9Ia0Jjc1R0MXRscnVlZHRKQnR6cDFK?oc=5",
@@ -4069,14 +4144,33 @@
           "titleKey": "educacion ambiental mas 350 estudiantes unen futuro ecologico patagonia ambiental",
           "evidenceUrl": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQcUw3VWg3dGNwN211cHhUby1OQVlQdmtNakJ2NGp4WDRRVmo1NjBxZzBuSGFGYXRDTVNQQWNiY0Y2bmFkWm9NMDQwUWVjRDQzZjRhY05tMmMwTVhTMDFKNThEUmlzcGpkQnI3ZVBjamJyRnJwTFcxb3FxQ1UxdnpGN2h1cF9kQnFySlgzdzY4NDRnR24zRVY5WDFLTHRrc3ZJN1RLcVhyTEQ1UG11S053RGZHWW1GRlNUOGJRcEVQMklzN2JKUzNubjB5TFhMcHptb3VjcTJnclZyTW1yRE9Ia0Jjc1R0MXRscnVlZHRKQnR6cDFK?oc=5",
           "sourcePriority": 3
+        },
+        {
+          "title": "La educación ambiental reunió a 350 estudiantes en San Patricio del Chañar - Neuquen Informa",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPQWZaQTl3aERRc0g2OW04T1d3dkFvbThwRnMzMUtscFpFRTEyRlBVbmVXcWhud3RrMnVNY3pkcnNlaEwzamF0ZVdqZTVodFlsdUdDVy14MHFWZGpQZWw5dlU5T3MtaGJablhjamtySjFnQ0lnWnFzQzhhT2lRUktrdm5HblhMN19kMThlbWVodzVia2lmQmhoS01MRHJLUU9zT0xkelRSTjUxRXRwa1pqc0FTaDMxa3FoaS1zSHVWU2w2ZEl2NFFCeFdVWXMyTWVD0gHWAUFVX3lxTE13TFNYRF9NQkdwRXhMdF9mRlEyYlVIRDdFeU1mMkZhVkxHQmlGNlEyRUltbmx2QWlRWlJFSFRvRHk3RTQ1QUQ3RFMwSnZjZGhnU0c1bmZ4Y3NyaVdBOXRmWEU4czRKcm9pN3NURUp5ekZzbkFVSEpYNHl3Y0VxZGhIdng0OU9GamYtNTdxNF9ncXFvLUNxTXJzNm9kbjZUa1d1SjAxQ19zZEZILWhjakxVVGlfVkI4QnNpRFRtNnY1SFA1RFVTQU1oZXZyNTdvdl90NHNRTHc?oc=5",
+          "publishedAt": "2026-11-03T08:00:00+00:00",
+          "published": "2026-11-03T08:00:00+00:00",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMi0AFBVV95cUxPQWZaQTl3aERRc0g2OW04T1d3dkFvbThwRnMzMUtscFpFRTEyRlBVbmVXcWhud3RrMnVNY3pkcnNlaEwzamF0ZVdqZTVodFlsdUdDVy14MHFWZGpQZWw5dlU5T3MtaGJablhjamtySjFnQ0lnWnFzQzhhT2lRUktrdm5HblhMN19kMThlbWVodzVia2lmQmhoS01MRHJLUU9zT0xkelRSTjUxRXRwa1pqc0FTaDMxa3FoaS1zSHVWU2w2ZEl2NFFCeFdVWXMyTWVD0gHWAUFVX3lxTE13TFNYRF9NQkdwRXhMdF9mRlEyYlVIRDdFeU1mMkZhVkxHQmlGNlEyRUltbmx2QWlRWlJFSFRvRHk3RTQ1QUQ3RFMwSnZjZGhnU0c1bmZ4Y3NyaVdBOXRmWEU4czRKcm9pN3NURUp5ekZzbkFVSEpYNHl3Y0VxZGhIdng0OU9GamYtNTdxNF9ncXFvLUNxTXJzNm9kbjZUa1d1SjAxQ19zZEZILWhjakxVVGlfVkI4QnNpRFRtNnY1SFA1RFVTQU1oZXZyNTdvdl90NHNRTHc?oc=5\" target=\"_blank\">La educación ambiental reunió a 350 estudiantes en San Patricio del Chañar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Neuquen Informa</font>",
+          "source": "Neuquen Informa",
+          "sourceType": "BUSCADOR / RESPALDO",
+          "sourceUrl": "",
+          "collection": "BUSCADOR",
+          "query": "\"San Patricio del Chañar\"",
+          "relevance": 3,
+          "relevanceLabel": "DIRECTA",
+          "firstSeen": "2026-11-16T07:48:06.524480+00:00",
+          "isNew": true,
+          "titleKey": "educacion ambiental reunio 350 estudiantes informa",
+          "evidenceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPQWZaQTl3aERRc0g2OW04T1d3dkFvbThwRnMzMUtscFpFRTEyRlBVbmVXcWhud3RrMnVNY3pkcnNlaEwzamF0ZVdqZTVodFlsdUdDVy14MHFWZGpQZWw5dlU5T3MtaGJablhjamtySjFnQ0lnWnFzQzhhT2lRUktrdm5HblhMN19kMThlbWVodzVia2lmQmhoS01MRHJLUU9zT0xkelRSTjUxRXRwa1pqc0FTaDMxa3FoaS1zSHVWU2w2ZEl2NFFCeFdVWXMyTWVD0gHWAUFVX3lxTE13TFNYRF9NQkdwRXhMdF9mRlEyYlVIRDdFeU1mMkZhVkxHQmlGNlEyRUltbmx2QWlRWlJFSFRvRHk3RTQ1QUQ3RFMwSnZjZGhnU0c1bmZ4Y3NyaVdBOXRmWEU4czRKcm9pN3NURUp5ekZzbkFVSEpYNHl3Y0VxZGhIdng0OU9GamYtNTdxNF9ncXFvLUNxTXJzNm9kbjZUa1d1SjAxQ19zZEZILWhjakxVVGlfVkI4QnNpRFRtNnY1SFA1RFVTQU1oZXZyNTdvdl90NHNRTHc?oc=5",
+          "sourcePriority": 3
         }
       ],
       "lifecycle": "ACTIVO",
       "movementDelta": 0,
       "previousCoverage": 0,
       "newSources": [
-        "Neuquén al instante",
-        "Patagonia Ambiental"
+        "Patagonia Ambiental",
+        "Neuquen Informa"
       ],
       "sourceDiversity": 2,
       "memoryMatched": false,
@@ -4119,7 +4213,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SERVICIOS",
-      "movement": 30,
+      "movement": 28,
       "coverage": 1,
       "sourceCount": 1,
       "directSourceCount": 0,
@@ -4153,10 +4247,8 @@
       ],
       "lifecycle": "EN DESCENSO",
       "movementDelta": -2,
-      "previousCoverage": 2,
-      "newSources": [
-        "Chañar Digital"
-      ],
+      "previousCoverage": 1,
+      "newSources": [],
       "sourceDiversity": 1,
       "memoryMatched": true,
       "isNew": false,
@@ -4206,7 +4298,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SERVICIOS",
-      "movement": 30,
+      "movement": 28,
       "coverage": 3,
       "sourceCount": 1,
       "directSourceCount": 0,
@@ -4587,23 +4679,23 @@
   ],
   "items": [
     {
-      "title": "Rally Neuquino: Villanueva dio cátedra y Llanos gritó tricampeón en El Chañar",
-      "url": "https://www.rionegro.com.ar/deportes/rally-neuquino-villanueva-dio-catedra-y-llanos-grito-tricampeon-en-el-chanar-4799665/",
+      "title": "Rally Neuquino: Villanueva dio cátedra y Llanos gritó tricampeón en El Chañar - Diario Río Negro",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPakFyeFFzUEpucFFlME9FM19Kc0xORXV4aGFkOHBBejlzOS1td3lTMHFiRVpneEJLeWFLQ1pZRDFLTkpQcXoxb2p0cFpSVnlqb1NIQTBHZms1ZHpvOXhQSWxtQm5wanZuMVRmdzJRVEE3eHdiVXp3Y0t0SjQxdU1yUkpRWEQxRHlReXptcFRqdVhnVDVSdjNRMzV6VXY5ZldZWDM1ZmN0UnhBbjh0el9fQThsTTN1ZzFDRS10VEJYMNIBxwFBVV95cUxNQ0t2eThUQkM1bThiMXEzaHBZZTdqQVdjaVlNOWQyTldGNjlXTWxFdVRZanB1WExWdFR5eTZHTE9reXF2bmVfa1VkZS1uc1FYWTR1dXoySnFCZUZNc2VuRHVycU5WbTdUOHZEdExIWkVCRkNJd3ZKcDlPMVlpSFRnS0JSZkVsNnNVR3B2dGxSNGhHcjVRMk5QbGc1cTZVOTc0aU9tYm42UUNXa2o5N3lrYjMtbmU2NVJIalZMb1RpYWl5UHNUVHlj?oc=5",
       "publishedAt": "2026-11-16T00:12:23+00:00",
       "published": "2026-11-16T00:12:23+00:00",
-      "description": "",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMivwFBVV95cUxPakFyeFFzUEpucFFlME9FM19Kc0xORXV4aGFkOHBBejlzOS1td3lTMHFiRVpneEJLeWFLQ1pZRDFLTkpQcXoxb2p0cFpSVnlqb1NIQTBHZms1ZHpvOXhQSWxtQm5wanZuMVRmdzJRVEE3eHdiVXp3Y0t0SjQxdU1yUkpRWEQxRHlReXptcFRqdVhnVDVSdjNRMzV6VXY5ZldZWDM1ZmN0UnhBbjh0el9fQThsTTN1ZzFDRS10VEJYMNIBxwFBVV95cUxNQ0t2eThUQkM1bThiMXEzaHBZZTdqQVdjaVlNOWQyTldGNjlXTWxFdVRZanB1WExWdFR5eTZHTE9reXF2bmVfa1VkZS1uc1FYWTR1dXoySnFCZUZNc2VuRHVycU5WbTdUOHZEdExIWkVCRkNJd3ZKcDlPMVlpSFRnS0JSZkVsNnNVR3B2dGxSNGhHcjVRMk5QbGc1cTZVOTc0aU9tYm42UUNXa2o5N3lrYjMtbmU2NVJIalZMb1RpYWl5UHNUVHlj?oc=5\" target=\"_blank\">Rally Neuquino: Villanueva dio cátedra y Llanos gritó tricampeón en El Chañar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Diario Río Negro</font>",
       "source": "Diario Río Negro",
-      "sourceType": "MEDIO REGIONAL",
-      "sourceUrl": "https://www.rionegro.com.ar/",
-      "collection": "DIRECTA",
-      "query": "https://www.rionegro.com.ar/feed/",
+      "sourceType": "BUSCADOR / RESPALDO",
+      "sourceUrl": "",
+      "collection": "BUSCADOR",
+      "query": "\"San Patricio del Chañar\"",
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
-      "firstSeen": "2026-11-16T00:54:16.997943+00:00",
+      "firstSeen": "2026-11-16T07:48:06.524480+00:00",
       "isNew": true,
-      "titleKey": "rally neuquino villanueva dio catedra llanos grito tricampeon",
-      "evidenceUrl": "https://www.rionegro.com.ar/deportes/rally-neuquino-villanueva-dio-catedra-y-llanos-grito-tricampeon-en-el-chanar-4799665/",
-      "sourcePriority": 2
+      "titleKey": "rally neuquino villanueva dio catedra llanos grito tricampeon diario rio negro",
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPakFyeFFzUEpucFFlME9FM19Kc0xORXV4aGFkOHBBejlzOS1td3lTMHFiRVpneEJLeWFLQ1pZRDFLTkpQcXoxb2p0cFpSVnlqb1NIQTBHZms1ZHpvOXhQSWxtQm5wanZuMVRmdzJRVEE3eHdiVXp3Y0t0SjQxdU1yUkpRWEQxRHlReXptcFRqdVhnVDVSdjNRMzV6VXY5ZldZWDM1ZmN0UnhBbjh0el9fQThsTTN1ZzFDRS10VEJYMNIBxwFBVV95cUxNQ0t2eThUQkM1bThiMXEzaHBZZTdqQVdjaVlNOWQyTldGNjlXTWxFdVRZanB1WExWdFR5eTZHTE9reXF2bmVfa1VkZS1uc1FYWTR1dXoySnFCZUZNc2VuRHVycU5WbTdUOHZEdExIWkVCRkNJd3ZKcDlPMVlpSFRnS0JSZkVsNnNVR3B2dGxSNGhHcjVRMk5QbGc1cTZVOTc0aU9tYm42UUNXa2o5N3lrYjMtbmU2NVJIalZMb1RpYWl5UHNUVHlj?oc=5",
+      "sourcePriority": 3
     },
     {
       "title": "Cuatro condenados por vender drogas en San Patricio del Chañar: uno recibió prisión efectiva - ANBariloche",
@@ -4619,7 +4711,7 @@
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "firstSeen": "2026-11-16T00:54:16.997943+00:00",
-      "isNew": true,
+      "isNew": false,
       "titleKey": "cuatro condenados vender drogas uno recibio prision efectiva anbariloche",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNdzAtNnBvcVVfendMd1p2YUlVdlJEcG1rMzN1RURXZU9MeTBvY1BXYXFLVXRfN1RtT0RTQy1xdk9YTEwwMzBnM3ZMb3RERDlPSGFnbzUwcktlZDJoV2dyUXMyV0xMUGp1SnVCSmJ2YmV1TVJ1eWgyZnNnYmRVWWRkREhhNmh6SVNqMmN2Q1kyMEJFVXBiOE0wam9UV19JOEo5RnJ2eTZRLWZKVHRWVVpfYmZNN014UlhleldMQjR2NWxZc1JqRThCeExQUU1PZG9ZMm5SV2RZLUxJbjVTZ2dqd2k2Nmg4bjha0gHoAUFVX3lxTE13MC02cG9xVV96d0x3WnZhSVV2UkRwbWszM3VFRFdlT0x5MG9jUFdhcUtVdF83VG1PRFNDLXF2T1hMTDAzMGczdkxvdEREOU9IYWdvNTByS2VkMmhXZ3JRczJXTExQanVKdUJKYnZiZXVNUnV5aDJmc2diZFVZZGRESGE2aHpJU2oyY3ZDWTIwQkVVcGI4TTBqb1RXX0k4SjlGcnZ5NlEtZkpUdFZVWl9iZk03TXhSWGV6V0xCNHY1bFlzUmpFOEJ4TFBRTU9kb1kyblJXZFktTEluNVNnZ2p3aTY2aDhuOFo?oc=5",
       "sourcePriority": 3
@@ -4733,7 +4825,7 @@
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "firstSeen": "2026-11-16T00:54:16.997943+00:00",
-      "isNew": true,
+      "isNew": false,
       "titleKey": "doce denuncias anonimas destaparon red venta drogas cuatro condenados flipr news",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPRFRkVXBjRkROblhOeVhnaFNuQnBCQ1ZVMVJPbV9Vd21ERXpsMGMtcUFGWEljQ1lqZHBQeHc2bnFKNm5zcmRJRUItM09lY2pTcFNfeHdjWEJkeENLZTI1dmd2VGptYlNEZTA1NHk1cTFPRmRla1BRZW9hNS0tNTRJQjNSZUxNSzE3c1k1dk5RejJXRDM4Qzh5VDh0c3YtWUlIWWt3MlhqRnNLZUlYd0l1eEtEcnlxNFg5eFZocFJTSUpaZGdLRnBmclNxZmhSVF9RbzV3?oc=5",
       "sourcePriority": 3
@@ -4834,6 +4926,25 @@
       "sourcePriority": 3
     },
     {
+      "title": "Con la rampa promocional arrancará el Rally de San Patricio del Chañar - MejorInformado.com",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQNWlab19aX05paDlMMXlJcGVNM0hZei1Hb3BjcTdHSXptQ2dTUnM0cHJmdTJsNzdwRFVURU0yNUlCWUtpVGlMN1JHUENPd2dMZ1V6LU9jU3dyRHVEcWlXa0IwVmlBcmtVckFIWGZTTVRCY3Fjb21qOWRONEtZaEpLLWFRQ09nX3JvYWxSV1dPcExNLXRheEw0bm5VcHk4czZraXB1NFVJMNIBpwFBVV95cUxQNWlab19aX05paDlMMXlJcGVNM0hZei1Hb3BjcTdHSXptQ2dTUnM0cHJmdTJsNzdwRFVURU0yNUlCWUtpVGlMN1JHUENPd2dMZ1V6LU9jU3dyRHVEcWlXa0IwVmlBcmtVckFIWGZTTVRCY3Fjb21qOWRONEtZaEpLLWFRQ09nX3JvYWxSV1dPcExNLXRheEw0bm5VcHk4czZraXB1NFVJMA?oc=5",
+      "publishedAt": "2026-11-13T17:06:16+00:00",
+      "published": "2026-11-13T17:06:16+00:00",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxQNWlab19aX05paDlMMXlJcGVNM0hZei1Hb3BjcTdHSXptQ2dTUnM0cHJmdTJsNzdwRFVURU0yNUlCWUtpVGlMN1JHUENPd2dMZ1V6LU9jU3dyRHVEcWlXa0IwVmlBcmtVckFIWGZTTVRCY3Fjb21qOWRONEtZaEpLLWFRQ09nX3JvYWxSV1dPcExNLXRheEw0bm5VcHk4czZraXB1NFVJMNIBpwFBVV95cUxQNWlab19aX05paDlMMXlJcGVNM0hZei1Hb3BjcTdHSXptQ2dTUnM0cHJmdTJsNzdwRFVURU0yNUlCWUtpVGlMN1JHUENPd2dMZ1V6LU9jU3dyRHVEcWlXa0IwVmlBcmtVckFIWGZTTVRCY3Fjb21qOWRONEtZaEpLLWFRQ09nX3JvYWxSV1dPcExNLXRheEw0bm5VcHk4czZraXB1NFVJMA?oc=5\" target=\"_blank\">Con la rampa promocional arrancará el Rally de San Patricio del Chañar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MejorInformado.com</font>",
+      "source": "MejorInformado.com",
+      "sourceType": "BUSCADOR / RESPALDO",
+      "sourceUrl": "",
+      "collection": "BUSCADOR",
+      "query": "\"San Patricio del Chañar\"",
+      "relevance": 3,
+      "relevanceLabel": "DIRECTA",
+      "firstSeen": "2026-11-16T07:48:06.524480+00:00",
+      "isNew": true,
+      "titleKey": "rampa promocional arrancara rally mejorinformado com",
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQNWlab19aX05paDlMMXlJcGVNM0hZei1Hb3BjcTdHSXptQ2dTUnM0cHJmdTJsNzdwRFVURU0yNUlCWUtpVGlMN1JHUENPd2dMZ1V6LU9jU3dyRHVEcWlXa0IwVmlBcmtVckFIWGZTTVRCY3Fjb21qOWRONEtZaEpLLWFRQ09nX3JvYWxSV1dPcExNLXRheEw0bm5VcHk4czZraXB1NFVJMNIBpwFBVV95cUxQNWlab19aX05paDlMMXlJcGVNM0hZei1Hb3BjcTdHSXptQ2dTUnM0cHJmdTJsNzdwRFVURU0yNUlCWUtpVGlMN1JHUENPd2dMZ1V6LU9jU3dyRHVEcWlXa0IwVmlBcmtVckFIWGZTTVRCY3Fjb21qOWRONEtZaEpLLWFRQ09nX3JvYWxSV1dPcExNLXRheEw0bm5VcHk4czZraXB1NFVJMA?oc=5",
+      "sourcePriority": 3
+    },
+    {
       "title": "San Patricio del Chañar ya tiene cuartel de bomberos: Phoenix aportó los fondos para terminar la obra - Shale24",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOalVsQzU0N09uMW90alBrYmhISlEzMFJSY0hpdjd2X0tMT2xENVZZNXBJVm85M2VmWm5EMjBFVG4wX2V0SFJQZ1ZhbUJqTHBybjZEdlRvY19ZcEtiV3FsWWI4T0psNFY1UlhFNlNTQ0ZoZS1JMjdlWi1DakR3TEJQbGxOdFNDRVNDcGIwZmVwY0ZuSUtfa1EtTUM4WHJPSjZiTVFwNTh2eU9TMEdIM0kteGtESHgwbEJpOTJr0gHAAUFVX3lxTE8wdkZoTjlpcWNZaXJqWkdHdEZveEczQkJjTUlKUHYzbGQ5TTRNN3lNVXY5Mm00X3RxRHN2d0t0a2tQSkd1OFByWjFVZThpblBSa3k5Z1puczl2Y2xpNzFEVkFCWnpJZWpJNDdNVXV4UTZYSGJqQ0FOdFh4aVM3TGVPdXhlVnVmZnR0TU9Hd0t4YjVGZk4teXJxeThFOG9SbVZEYThTM2N3VDJrV0w3ZDRyZFdUTUo3enlPbnVsVE1INA?oc=5",
       "publishedAt": "2026-11-13T15:54:00+00:00",
@@ -4892,10 +5003,10 @@
     },
     {
       "title": "San Patricio del Chañar: bomberos estrenan cuartel y autobomba - Diario Río Negro",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPNDBCWVFVWXgyS0hLYjVfMEFhdUszOXZHMXBzZkQ0b0c5MllSckJ0LTNrSVBvX1NrLVowbzJwUkxFZzU0SmpiZGU1d3Z1TV9MUVlSdTFwakVBaVhsZHkxMVNJUWF6c2ZXemZPMTFJZjAyV0FnY1l1U01HRUlLcDFicDVkSjZDMkx6ZnhxQ0g2TnZCZmh0Tm1FWktRS081Nkkwb2htMHdqNDJIRWhSeVpxT3k2a9IBswFBVV95cUxPNDBCWVFVWXgyS0hLYjVfMEFhdUszOXZHMXBzZkQ0b0c5MllSckJ0LTNrSVBvX1NrLVowbzJwUkxFZzU0SmpiZGU1d3Z1TV9MUVlSdTFwakVBaVhsZHkxMVNJUWF6c2ZXemZPMTFJZjAyV0FnY1l1U01HRUlLcDFicDVkSjZDMkx6ZnhxQ0g2TnZCZmh0Tm1FWktRS081Nkkwb2htMHdqNDJIRWhSeVpxT3k2aw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQZFVJbWpVMWtpSU83U21qOG52UndBeWVBRTZmeU00OENGLUVxX0JQWXhmc2FjcklWMHpUT3NMaDVhQWRQN1ltWl9iNHd4TmZtYjVGR3FwRDlkdHBQTVZjWTJ1d3k2NG1IaUtoZWxaTjEyM2xKWE90UWtZRVVFMzhhMng0aFVkcmpVUThPRFNhMFNxaTQxczhmNVJNUXFYa3ZIMUNicXVOcDVWUE3SAbMBQVVfeXFMTzQwQllRVVl4MktIS2I1XzBBYXVLMzl2RzFwc2ZENG9HOTJZUnJCdC0za0lQb19Tay1aMG8ycFJMRWc1NEpqYmRlNXd2dU1fTFFZUnUxcGpFQWlYbGR5MTFTSVFhenNmV3pmTzExSWYwMldBZ2NZdVNNR0VJS3AxYnA1ZEo2QzJMemZ4cUNINk52QmZodE5tRVpLUUtPNTZJMG9obTB3ajQySEVoUnlacU95Nms?oc=5",
       "publishedAt": "2026-11-12T19:30:06+00:00",
       "published": "2026-11-12T19:30:06+00:00",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxPNDBCWVFVWXgyS0hLYjVfMEFhdUszOXZHMXBzZkQ0b0c5MllSckJ0LTNrSVBvX1NrLVowbzJwUkxFZzU0SmpiZGU1d3Z1TV9MUVlSdTFwakVBaVhsZHkxMVNJUWF6c2ZXemZPMTFJZjAyV0FnY1l1U01HRUlLcDFicDVkSjZDMkx6ZnhxQ0g2TnZCZmh0Tm1FWktRS081Nkkwb2htMHdqNDJIRWhSeVpxT3k2a9IBswFBVV95cUxPNDBCWVFVWXgyS0hLYjVfMEFhdUszOXZHMXBzZkQ0b0c5MllSckJ0LTNrSVBvX1NrLVowbzJwUkxFZzU0SmpiZGU1d3Z1TV9MUVlSdTFwakVBaVhsZHkxMVNJUWF6c2ZXemZPMTFJZjAyV0FnY1l1U01HRUlLcDFicDVkSjZDMkx6ZnhxQ0g2TnZCZmh0Tm1FWktRS081Nkkwb2htMHdqNDJIRWhSeVpxT3k2aw?oc=5\" target=\"_blank\">San Patricio del Chañar: bomberos estrenan cuartel y autobomba</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Diario Río Negro</font>",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxQZFVJbWpVMWtpSU83U21qOG52UndBeWVBRTZmeU00OENGLUVxX0JQWXhmc2FjcklWMHpUT3NMaDVhQWRQN1ltWl9iNHd4TmZtYjVGR3FwRDlkdHBQTVZjWTJ1d3k2NG1IaUtoZWxaTjEyM2xKWE90UWtZRVVFMzhhMng0aFVkcmpVUThPRFNhMFNxaTQxczhmNVJNUXFYa3ZIMUNicXVOcDVWUE3SAbMBQVVfeXFMTzQwQllRVVl4MktIS2I1XzBBYXVLMzl2RzFwc2ZENG9HOTJZUnJCdC0za0lQb19Tay1aMG8ycFJMRWc1NEpqYmRlNXd2dU1fTFFZUnUxcGpFQWlYbGR5MTFTSVFhenNmV3pmTzExSWYwMldBZ2NZdVNNR0VJS3AxYnA1ZEo2QzJMemZ4cUNINk52QmZodE5tRVpLUUtPNTZJMG9obTB3ajQySEVoUnlacU95Nms?oc=5\" target=\"_blank\">San Patricio del Chañar: bomberos estrenan cuartel y autobomba</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Diario Río Negro</font>",
       "source": "Diario Río Negro",
       "sourceType": "BUSCADOR / RESPALDO",
       "sourceUrl": "",
@@ -4903,10 +5014,10 @@
       "query": "\"San Patricio del Chañar\"",
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
-      "firstSeen": "2026-11-13T00:02:10.545486+00:00",
-      "isNew": false,
+      "firstSeen": "2026-11-16T07:48:06.524480+00:00",
+      "isNew": true,
       "titleKey": "bomberos estrenan cuartel autobomba diario rio negro",
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPNDBCWVFVWXgyS0hLYjVfMEFhdUszOXZHMXBzZkQ0b0c5MllSckJ0LTNrSVBvX1NrLVowbzJwUkxFZzU0SmpiZGU1d3Z1TV9MUVlSdTFwakVBaVhsZHkxMVNJUWF6c2ZXemZPMTFJZjAyV0FnY1l1U01HRUlLcDFicDVkSjZDMkx6ZnhxQ0g2TnZCZmh0Tm1FWktRS081Nkkwb2htMHdqNDJIRWhSeVpxT3k2a9IBswFBVV95cUxPNDBCWVFVWXgyS0hLYjVfMEFhdUszOXZHMXBzZkQ0b0c5MllSckJ0LTNrSVBvX1NrLVowbzJwUkxFZzU0SmpiZGU1d3Z1TV9MUVlSdTFwakVBaVhsZHkxMVNJUWF6c2ZXemZPMTFJZjAyV0FnY1l1U01HRUlLcDFicDVkSjZDMkx6ZnhxQ0g2TnZCZmh0Tm1FWktRS081Nkkwb2htMHdqNDJIRWhSeVpxT3k2aw?oc=5",
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQZFVJbWpVMWtpSU83U21qOG52UndBeWVBRTZmeU00OENGLUVxX0JQWXhmc2FjcklWMHpUT3NMaDVhQWRQN1ltWl9iNHd4TmZtYjVGR3FwRDlkdHBQTVZjWTJ1d3k2NG1IaUtoZWxaTjEyM2xKWE90UWtZRVVFMzhhMng0aFVkcmpVUThPRFNhMFNxaTQxczhmNVJNUXFYa3ZIMUNicXVOcDVWUE3SAbMBQVVfeXFMTzQwQllRVVl4MktIS2I1XzBBYXVLMzl2RzFwc2ZENG9HOTJZUnJCdC0za0lQb19Tay1aMG8ycFJMRWc1NEpqYmRlNXd2dU1fTFFZUnUxcGpFQWlYbGR5MTFTSVFhenNmV3pmTzExSWYwMldBZ2NZdVNNR0VJS3AxYnA1ZEo2QzJMemZ4cUNINk52QmZodE5tRVpLUUtPNTZJMG9obTB3ajQySEVoUnlacU95Nms?oc=5",
       "sourcePriority": 3
     },
     {
@@ -5081,25 +5192,6 @@
       "sourcePriority": 3
     },
     {
-      "title": "La educación ambiental reunió a 350 estudiantes en San Patricio del Chañar - Neuquén al instante",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOMC14ZjBESGNEVkk3WERIUkZFVTU3VGt1X0pKOGVTXzE3SklrTnRfX05yTUlGakZtclZNdWpRWVl0NkRGNzdOV0EwRGFaeHEyYTdOeEFxa01UNGV6X2p5bE5NRlIzOF9zd0pLVFhXSy15ZVFFeFJJSUplQmNRdnJOUDQ5UTJPM3pOVk1Ja21aRE1zakZmdVJqdVJYeUd2SDcyMWNNZk5oX3hpWnlqRlZwQXhGVVVOWll1V1lpbTQ4SERJVUg1R0F0SUFBQW5NbkFSV3hkedIB2gFBVV95cUxNdGEzYUsxNDdvbXA3YjFEbU9ISElEMHhhanplUXlTN2tFUHM2Wl9Kb24wZms3Z2xxU21QbzlpVE9RSUtsQ2ZKeFctWlJRNW5tcTdndlR6b0g1eFZieU5kMElJaWdKSzA5WEdMQzJTaXVfcXZOcHNnc1RkbHNVa3pHX21YZGVLNHJjSGI1ZVhUNmFzd3dhYnBCWWtFOUFISTZKN2dPYmp1Ti1Ub1BhUm1qbVVuTUF5Qnl4ZXBZLU5oSnFXeGlIWFJ0aVl2N0VvZVh4cHJONDNLajRiUQ?oc=5",
-      "publishedAt": "2026-11-04T00:10:41+00:00",
-      "published": "2026-11-04T00:10:41+00:00",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMi1AFBVV95cUxOMC14ZjBESGNEVkk3WERIUkZFVTU3VGt1X0pKOGVTXzE3SklrTnRfX05yTUlGakZtclZNdWpRWVl0NkRGNzdOV0EwRGFaeHEyYTdOeEFxa01UNGV6X2p5bE5NRlIzOF9zd0pLVFhXSy15ZVFFeFJJSUplQmNRdnJOUDQ5UTJPM3pOVk1Ja21aRE1zakZmdVJqdVJYeUd2SDcyMWNNZk5oX3hpWnlqRlZwQXhGVVVOWll1V1lpbTQ4SERJVUg1R0F0SUFBQW5NbkFSV3hkedIB2gFBVV95cUxNdGEzYUsxNDdvbXA3YjFEbU9ISElEMHhhanplUXlTN2tFUHM2Wl9Kb24wZms3Z2xxU21QbzlpVE9RSUtsQ2ZKeFctWlJRNW5tcTdndlR6b0g1eFZieU5kMElJaWdKSzA5WEdMQzJTaXVfcXZOcHNnc1RkbHNVa3pHX21YZGVLNHJjSGI1ZVhUNmFzd3dhYnBCWWtFOUFISTZKN2dPYmp1Ti1Ub1BhUm1qbVVuTUF5Qnl4ZXBZLU5oSnFXeGlIWFJ0aVl2N0VvZVh4cHJONDNLajRiUQ?oc=5\" target=\"_blank\">La educación ambiental reunió a 350 estudiantes en San Patricio del Chañar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Neuquén al instante</font>",
-      "source": "Neuquén al instante",
-      "sourceType": "BUSCADOR / RESPALDO",
-      "sourceUrl": "",
-      "collection": "BUSCADOR",
-      "query": "\"San Patricio del Chañar\"",
-      "relevance": 3,
-      "relevanceLabel": "DIRECTA",
-      "firstSeen": "2026-11-09T09:30:09.078627+00:00",
-      "isNew": false,
-      "titleKey": "educacion ambiental reunio 350 estudiantes instante",
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOMC14ZjBESGNEVkk3WERIUkZFVTU3VGt1X0pKOGVTXzE3SklrTnRfX05yTUlGakZtclZNdWpRWVl0NkRGNzdOV0EwRGFaeHEyYTdOeEFxa01UNGV6X2p5bE5NRlIzOF9zd0pLVFhXSy15ZVFFeFJJSUplQmNRdnJOUDQ5UTJPM3pOVk1Ja21aRE1zakZmdVJqdVJYeUd2SDcyMWNNZk5oX3hpWnlqRlZwQXhGVVVOWll1V1lpbTQ4SERJVUg1R0F0SUFBQW5NbkFSV3hkedIB2gFBVV95cUxNdGEzYUsxNDdvbXA3YjFEbU9ISElEMHhhanplUXlTN2tFUHM2Wl9Kb24wZms3Z2xxU21QbzlpVE9RSUtsQ2ZKeFctWlJRNW5tcTdndlR6b0g1eFZieU5kMElJaWdKSzA5WEdMQzJTaXVfcXZOcHNnc1RkbHNVa3pHX21YZGVLNHJjSGI1ZVhUNmFzd3dhYnBCWWtFOUFISTZKN2dPYmp1Ti1Ub1BhUm1qbVVuTUF5Qnl4ZXBZLU5oSnFXeGlIWFJ0aVl2N0VvZVh4cHJONDNLajRiUQ?oc=5",
-      "sourcePriority": 3
-    },
-    {
       "title": "Educación ambiental en San Patricio del Chañar: Más de 350 estudiantes se unen por el futuro ecológico de Neuquén - Patagonia Ambiental",
       "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQcUw3VWg3dGNwN211cHhUby1OQVlQdmtNakJ2NGp4WDRRVmo1NjBxZzBuSGFGYXRDTVNQQWNiY0Y2bmFkWm9NMDQwUWVjRDQzZjRhY05tMmMwTVhTMDFKNThEUmlzcGpkQnI3ZVBjamJyRnJwTFcxb3FxQ1UxdnpGN2h1cF9kQnFySlgzdzY4NDRnR24zRVY5WDFLTHRrc3ZJN1RLcVhyTEQ1UG11S053RGZHWW1GRlNUOGJRcEVQMklzN2JKUzNubjB5TFhMcHptb3VjcTJnclZyTW1yRE9Ia0Jjc1R0MXRscnVlZHRKQnR6cDFK?oc=5",
       "publishedAt": "2026-11-03T20:05:38+00:00",
@@ -5117,11 +5209,30 @@
       "titleKey": "educacion ambiental mas 350 estudiantes unen futuro ecologico patagonia ambiental",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQcUw3VWg3dGNwN211cHhUby1OQVlQdmtNakJ2NGp4WDRRVmo1NjBxZzBuSGFGYXRDTVNQQWNiY0Y2bmFkWm9NMDQwUWVjRDQzZjRhY05tMmMwTVhTMDFKNThEUmlzcGpkQnI3ZVBjamJyRnJwTFcxb3FxQ1UxdnpGN2h1cF9kQnFySlgzdzY4NDRnR24zRVY5WDFLTHRrc3ZJN1RLcVhyTEQ1UG11S053RGZHWW1GRlNUOGJRcEVQMklzN2JKUzNubjB5TFhMcHptb3VjcTJnclZyTW1yRE9Ia0Jjc1R0MXRscnVlZHRKQnR6cDFK?oc=5",
       "sourcePriority": 3
+    },
+    {
+      "title": "La educación ambiental reunió a 350 estudiantes en San Patricio del Chañar - Neuquen Informa",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPQWZaQTl3aERRc0g2OW04T1d3dkFvbThwRnMzMUtscFpFRTEyRlBVbmVXcWhud3RrMnVNY3pkcnNlaEwzamF0ZVdqZTVodFlsdUdDVy14MHFWZGpQZWw5dlU5T3MtaGJablhjamtySjFnQ0lnWnFzQzhhT2lRUktrdm5HblhMN19kMThlbWVodzVia2lmQmhoS01MRHJLUU9zT0xkelRSTjUxRXRwa1pqc0FTaDMxa3FoaS1zSHVWU2w2ZEl2NFFCeFdVWXMyTWVD0gHWAUFVX3lxTE13TFNYRF9NQkdwRXhMdF9mRlEyYlVIRDdFeU1mMkZhVkxHQmlGNlEyRUltbmx2QWlRWlJFSFRvRHk3RTQ1QUQ3RFMwSnZjZGhnU0c1bmZ4Y3NyaVdBOXRmWEU4czRKcm9pN3NURUp5ekZzbkFVSEpYNHl3Y0VxZGhIdng0OU9GamYtNTdxNF9ncXFvLUNxTXJzNm9kbjZUa1d1SjAxQ19zZEZILWhjakxVVGlfVkI4QnNpRFRtNnY1SFA1RFVTQU1oZXZyNTdvdl90NHNRTHc?oc=5",
+      "publishedAt": "2026-11-03T08:00:00+00:00",
+      "published": "2026-11-03T08:00:00+00:00",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMi0AFBVV95cUxPQWZaQTl3aERRc0g2OW04T1d3dkFvbThwRnMzMUtscFpFRTEyRlBVbmVXcWhud3RrMnVNY3pkcnNlaEwzamF0ZVdqZTVodFlsdUdDVy14MHFWZGpQZWw5dlU5T3MtaGJablhjamtySjFnQ0lnWnFzQzhhT2lRUktrdm5HblhMN19kMThlbWVodzVia2lmQmhoS01MRHJLUU9zT0xkelRSTjUxRXRwa1pqc0FTaDMxa3FoaS1zSHVWU2w2ZEl2NFFCeFdVWXMyTWVD0gHWAUFVX3lxTE13TFNYRF9NQkdwRXhMdF9mRlEyYlVIRDdFeU1mMkZhVkxHQmlGNlEyRUltbmx2QWlRWlJFSFRvRHk3RTQ1QUQ3RFMwSnZjZGhnU0c1bmZ4Y3NyaVdBOXRmWEU4czRKcm9pN3NURUp5ekZzbkFVSEpYNHl3Y0VxZGhIdng0OU9GamYtNTdxNF9ncXFvLUNxTXJzNm9kbjZUa1d1SjAxQ19zZEZILWhjakxVVGlfVkI4QnNpRFRtNnY1SFA1RFVTQU1oZXZyNTdvdl90NHNRTHc?oc=5\" target=\"_blank\">La educación ambiental reunió a 350 estudiantes en San Patricio del Chañar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Neuquen Informa</font>",
+      "source": "Neuquen Informa",
+      "sourceType": "BUSCADOR / RESPALDO",
+      "sourceUrl": "",
+      "collection": "BUSCADOR",
+      "query": "\"San Patricio del Chañar\"",
+      "relevance": 3,
+      "relevanceLabel": "DIRECTA",
+      "firstSeen": "2026-11-16T07:48:06.524480+00:00",
+      "isNew": true,
+      "titleKey": "educacion ambiental reunio 350 estudiantes informa",
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPQWZaQTl3aERRc0g2OW04T1d3dkFvbThwRnMzMUtscFpFRTEyRlBVbmVXcWhud3RrMnVNY3pkcnNlaEwzamF0ZVdqZTVodFlsdUdDVy14MHFWZGpQZWw5dlU5T3MtaGJablhjamtySjFnQ0lnWnFzQzhhT2lRUktrdm5HblhMN19kMThlbWVodzVia2lmQmhoS01MRHJLUU9zT0xkelRSTjUxRXRwa1pqc0FTaDMxa3FoaS1zSHVWU2w2ZEl2NFFCeFdVWXMyTWVD0gHWAUFVX3lxTE13TFNYRF9NQkdwRXhMdF9mRlEyYlVIRDdFeU1mMkZhVkxHQmlGNlEyRUltbmx2QWlRWlJFSFRvRHk3RTQ1QUQ3RFMwSnZjZGhnU0c1bmZ4Y3NyaVdBOXRmWEU4czRKcm9pN3NURUp5ekZzbkFVSEpYNHl3Y0VxZGhIdng0OU9GamYtNTdxNF9ncXFvLUNxTXJzNm9kbjZUa1d1SjAxQ19zZEZILWhjakxVVGlfVkI4QnNpRFRtNnY1SFA1RFVTQU1oZXZyNTdvdl90NHNRTHc?oc=5",
+      "sourcePriority": 3
     }
   ],
   "territorialGraph": {
     "version": "2.0",
-    "generatedAt": "2026-11-16T00:54:31.308749+00:00",
+    "generatedAt": "2026-11-16T07:48:19.599193+00:00",
     "root": "spc",
     "rule": "evidence-first",
     "levels": [
@@ -5685,7 +5796,7 @@
       }
     ],
     "eventNodes": {
-      "CHA-d5b38a117a1f": [
+      "CHA-07615adc0efe": [
         "spc"
       ],
       "CHA-482c885515b8": [
@@ -5713,9 +5824,6 @@
         "spc",
         "loteo-social"
       ],
-      "CHA-07615adc0efe": [
-        "spc"
-      ],
       "CHA-8802dd694d3c": [
         "spc"
       ],
@@ -5738,7 +5846,7 @@
       "nodes": 46,
       "activeNodes": 5,
       "edges": 4,
-      "eventsLinked": 11,
+      "eventsLinked": 10,
       "eventsWithMicrozones": 0,
       "eventsWithBarrios": 0,
       "eventsWithSectors": 2,
@@ -5758,11 +5866,11 @@
   },
   "audit": {
     "version": "1.0",
-    "updatedAt": "2026-11-16T00:54:31.341632+00:00",
+    "updatedAt": "2026-11-16T07:48:19.633061+00:00",
     "rule": "fact != coverage; territory requires textual evidence",
     "facts": 12,
-    "coverage": 37,
-    "coveragePerFact": 3.08,
+    "coverage": 32,
+    "coveragePerFact": 2.67,
     "directAnchorFacts": 12,
     "directAnchorPct": 100.0,
     "territorySpecificFacts": 5,
