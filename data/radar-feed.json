@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T07:48:06.524480+00:00",
+  "updatedAt": "2026-11-16T18:13:28.055781+00:00",
   "window": "14 días",
   "purpose": "Detectar qué se está moviendo en San Patricio del Chañar y mostrar de dónde surge cada señal.",
   "architecture": "contrato universal de procedencia + fuentes profesionales + adaptadores específicos + validación semántica + temporalidad + evidencia editorial separada",
@@ -49,7 +49,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://chanardigital.com.ar/",
-      "lastFetch": "2026-11-16T07:47:47.384213+00:00",
+      "lastFetch": "2026-11-16T18:13:06.202788+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -65,7 +65,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.radiomia.com.ar/",
-      "lastFetch": "2026-11-16T07:47:48.321535+00:00",
+      "lastFetch": "2026-11-16T18:13:07.882474+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -80,11 +80,11 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://tuitvacamuerta.com/",
-      "lastFetch": "2026-11-16T07:47:50.072558+00:00",
+      "lastFetch": "2026-11-16T18:13:10.083943+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
-        "WEB:AttributeError"
+        "WEB:RemoteDisconnected"
       ],
       "directAvailability": "failed",
       "freshnessHours": null
@@ -95,7 +95,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.vacamuertanews.com/",
-      "lastFetch": "2026-11-16T07:47:50.562107+00:00",
+      "lastFetch": "2026-11-16T18:13:10.777099+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -111,7 +111,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.neuqueninforma.gob.ar/",
-      "lastFetch": "2026-11-16T07:47:51.940671+00:00",
+      "lastFetch": "2026-11-16T18:13:11.878056+00:00",
       "success": false,
       "attempted": 3,
       "failures": [
@@ -128,7 +128,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://sanpatricio.gob.ar/",
-      "lastFetch": "2026-11-16T07:47:52.979472+00:00",
+      "lastFetch": "2026-11-16T18:13:12.975296+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -143,7 +143,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://boletinoficial.neuquen.gov.ar/",
-      "lastFetch": "2026-11-16T07:47:53.754555+00:00",
+      "lastFetch": "2026-11-16T18:13:13.852501+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -158,7 +158,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.lmneuquen.com/",
-      "lastFetch": "2026-11-16T07:47:54.051711+00:00",
+      "lastFetch": "2026-11-16T18:13:13.945918+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -174,7 +174,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.rionegro.com.ar/",
-      "lastFetch": "2026-11-16T07:47:54.622845+00:00",
+      "lastFetch": "2026-11-16T18:13:17.302311+00:00",
       "success": true,
       "attempted": 2,
       "failures": [
@@ -189,7 +189,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.mejorinformado.com/",
-      "lastFetch": "2026-11-16T07:47:55.263610+00:00",
+      "lastFetch": "2026-11-16T18:13:18.126530+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -205,7 +205,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.diariamenteneuquen.com/",
-      "lastFetch": "2026-11-16T07:47:55.840073+00:00",
+      "lastFetch": "2026-11-16T18:13:19.024182+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -386,8 +386,8 @@
       "group": "LOCAL",
       "role": "medio local",
       "url": "https://chanardigital.com.ar/",
-      "signals": 8,
-      "directSignals": 8,
+      "signals": 7,
+      "directSignals": 7,
       "anchoredSignals": 0,
       "lastSeen": "2026-11-13T21:57:17+00:00",
       "status": "CON SEÑALES",
@@ -626,11 +626,11 @@
       "group": "REGIONAL",
       "role": "medio regional",
       "url": "https://www.mejorinformado.com/",
-      "signals": 0,
-      "directSignals": 0,
+      "signals": 2,
+      "directSignals": 2,
       "anchoredSignals": 0,
-      "lastSeen": null,
-      "status": "SIN SEÑALES EN VENTANA",
+      "lastSeen": "2026-11-15T17:58:55+00:00",
+      "status": "CON SEÑALES",
       "note": "ausencia de señales no equivale a ausencia del hecho"
     },
     {
@@ -638,10 +638,10 @@
       "group": "REGIONAL",
       "role": "medio energético/productivo",
       "url": "https://www.vacamuertanews.com/",
-      "signals": 1,
-      "directSignals": 1,
+      "signals": 2,
+      "directSignals": 2,
       "anchoredSignals": 0,
-      "lastSeen": "2026-11-13T20:19:49+00:00",
+      "lastSeen": "2026-11-16T10:20:46+00:00",
       "status": "CON SEÑALES",
       "note": "ausencia de señales no equivale a ausencia del hecho"
     },
@@ -709,13 +709,13 @@
   "languageAudit": [
     {
       "term": "el chañar",
-      "hits": 27,
-      "direct": 27
+      "hits": 30,
+      "direct": 30
     },
     {
       "term": "san patricio del chañar",
-      "hits": 24,
-      "direct": 24
+      "hits": 27,
+      "direct": 27
     },
     {
       "term": "ruta 7",
@@ -1008,8 +1008,8 @@
         "source": "Chañar Digital",
         "group": "LOCAL",
         "role": "medio local",
-        "accepted": 10,
-        "direct": 10,
+        "accepted": 8,
+        "direct": 8,
         "anchored": 0,
         "falsePositives": 0,
         "falsePositiveTypes": [],
@@ -1034,12 +1034,13 @@
         "source": "Cutral Co al Instante",
         "group": "OBSERVADA",
         "role": "fuente detectada fuera del catálogo",
-        "accepted": 1,
-        "direct": 1,
+        "accepted": 2,
+        "direct": 2,
         "anchored": 0,
         "falsePositives": 0,
         "falsePositiveTypes": [],
         "topics": [
+          "PRODUCCIÓN",
           "SEGURIDAD / EMERGENCIAS"
         ]
       },
@@ -1064,8 +1065,8 @@
         "falsePositives": 0,
         "falsePositiveTypes": [],
         "topics": [
-          "INSTITUCIONES",
-          "MOVILIDAD"
+          "MOVILIDAD",
+          "SERVICIOS"
         ]
       },
       {
@@ -1116,19 +1117,6 @@
         "topics": []
       },
       {
-        "source": "Flipr.news",
-        "group": "OBSERVADA",
-        "role": "fuente detectada fuera del catálogo",
-        "accepted": 1,
-        "direct": 1,
-        "anchored": 0,
-        "falsePositives": 0,
-        "falsePositiveTypes": [],
-        "topics": [
-          "SERVICIOS"
-        ]
-      },
-      {
         "source": "INTA",
         "group": "EXTERNA",
         "role": "producción, clima y territorio",
@@ -1167,12 +1155,14 @@
         "source": "Mejor Informado",
         "group": "REGIONAL",
         "role": "medio regional",
-        "accepted": 0,
-        "direct": 0,
+        "accepted": 2,
+        "direct": 2,
         "anchored": 0,
         "falsePositives": 0,
         "falsePositiveTypes": [],
-        "topics": []
+        "topics": [
+          "SERVICIOS"
+        ]
       },
       {
         "source": "MejorInformado.com",
@@ -1282,6 +1272,19 @@
         "falsePositives": 0,
         "falsePositiveTypes": [],
         "topics": []
+      },
+      {
+        "source": "NoticiasNQN",
+        "group": "OBSERVADA",
+        "role": "fuente detectada fuera del catálogo",
+        "accepted": 2,
+        "direct": 2,
+        "anchored": 0,
+        "falsePositives": 0,
+        "falsePositiveTypes": [],
+        "topics": [
+          "SERVICIOS"
+        ]
       },
       {
         "source": "Patagonia Ambiental",
@@ -1405,8 +1408,8 @@
         "source": "tuitvacamuerta.com",
         "group": "OBSERVADA",
         "role": "fuente detectada fuera del catálogo",
-        "accepted": 2,
-        "direct": 2,
+        "accepted": 1,
+        "direct": 1,
         "anchored": 0,
         "falsePositives": 0,
         "falsePositiveTypes": [],
@@ -1419,18 +1422,42 @@
       {
         "source": "Chañar Digital",
         "topic": "SERVICIOS",
-        "accepted": 8,
-        "direct": 8,
+        "accepted": 6,
+        "direct": 6,
         "anchored": 0,
         "falsePositives": 0,
         "territorialTerms": [
-          "san patricio del chañar",
           "el chañar",
+          "san patricio del chañar",
           "loteo social"
         ]
       },
       {
         "source": "Diario Río Negro",
+        "topic": "SERVICIOS",
+        "accepted": 2,
+        "direct": 2,
+        "anchored": 0,
+        "falsePositives": 0,
+        "territorialTerms": [
+          "san patricio del chañar",
+          "el chañar"
+        ]
+      },
+      {
+        "source": "Mejor Informado",
+        "topic": "SERVICIOS",
+        "accepted": 2,
+        "direct": 2,
+        "anchored": 0,
+        "falsePositives": 0,
+        "territorialTerms": [
+          "san patricio del chañar",
+          "el chañar"
+        ]
+      },
+      {
+        "source": "NoticiasNQN",
         "topic": "SERVICIOS",
         "accepted": 2,
         "direct": 2,
@@ -1451,19 +1478,6 @@
         "territorialTerms": [
           "san patricio del chañar",
           "el chañar"
-        ]
-      },
-      {
-        "source": "tuitvacamuerta.com",
-        "topic": "SERVICIOS",
-        "accepted": 2,
-        "direct": 2,
-        "anchored": 0,
-        "falsePositives": 0,
-        "territorialTerms": [
-          "san patricio del chañar",
-          "el chañar",
-          "parque industrial"
         ]
       },
       {
@@ -1504,6 +1518,18 @@
       },
       {
         "source": "Cutral Co al Instante",
+        "topic": "PRODUCCIÓN",
+        "accepted": 1,
+        "direct": 1,
+        "anchored": 0,
+        "falsePositives": 0,
+        "territorialTerms": [
+          "san patricio del chañar",
+          "el chañar"
+        ]
+      },
+      {
+        "source": "Cutral Co al Instante",
         "topic": "SEGURIDAD / EMERGENCIAS",
         "accepted": 1,
         "direct": 1,
@@ -1513,18 +1539,6 @@
           "san patricio del chañar",
           "el chañar",
           "bomberos voluntarios"
-        ]
-      },
-      {
-        "source": "Diario Neuquino",
-        "topic": "INSTITUCIONES",
-        "accepted": 1,
-        "direct": 1,
-        "anchored": 0,
-        "falsePositives": 0,
-        "territorialTerms": [
-          "san patricio del chañar",
-          "el chañar"
         ]
       },
       {
@@ -1541,6 +1555,18 @@
         ]
       },
       {
+        "source": "Diario Neuquino",
+        "topic": "SERVICIOS",
+        "accepted": 1,
+        "direct": 1,
+        "anchored": 0,
+        "falsePositives": 0,
+        "territorialTerms": [
+          "san patricio del chañar",
+          "el chañar"
+        ]
+      },
+      {
         "source": "Diario Río Negro",
         "topic": "SEGURIDAD / EMERGENCIAS",
         "accepted": 1,
@@ -1551,18 +1577,6 @@
           "san patricio del chañar",
           "el chañar",
           "bomberos voluntarios"
-        ]
-      },
-      {
-        "source": "Flipr.news",
-        "topic": "SERVICIOS",
-        "accepted": 1,
-        "direct": 1,
-        "anchored": 0,
-        "falsePositives": 0,
-        "territorialTerms": [
-          "san patricio del chañar",
-          "el chañar"
         ]
       },
       {
@@ -1599,8 +1613,8 @@
         "anchored": 0,
         "falsePositives": 0,
         "territorialTerms": [
-          "san patricio del chañar",
-          "el chañar"
+          "el chañar",
+          "san patricio del chañar"
         ]
       },
       {
@@ -1672,8 +1686,8 @@
         "anchored": 0,
         "falsePositives": 0,
         "territorialTerms": [
-          "san patricio del chañar",
-          "el chañar"
+          "el chañar",
+          "san patricio del chañar"
         ]
       },
       {
@@ -1688,13 +1702,24 @@
           "el chañar",
           "bomberos voluntarios"
         ]
+      },
+      {
+        "source": "tuitvacamuerta.com",
+        "topic": "SERVICIOS",
+        "accepted": 1,
+        "direct": 1,
+        "anchored": 0,
+        "falsePositives": 0,
+        "territorialTerms": [
+          "parque industrial"
+        ]
       }
     ],
     "languagePrecision": [
       {
         "term": "san patricio del chañar",
-        "acceptedHits": 27,
-        "directHits": 27,
+        "acceptedHits": 28,
+        "directHits": 28,
         "rejectedTitleHits": 0,
         "territorialStrength": "FUERTE"
       },
@@ -1707,8 +1732,8 @@
       },
       {
         "term": "el chañar",
-        "acceptedHits": 30,
-        "directHits": 30,
+        "acceptedHits": 31,
+        "directHits": 31,
         "rejectedTitleHits": 0,
         "territorialStrength": "FUERTE"
       },
@@ -2033,11 +2058,11 @@
     "interpretation": "auditoría sobre eventos aceptados; la próxima capa debe instrumentar rechazos antes del clustering"
   },
   "stats": {
-    "total": 29,
-    "direct": 29,
+    "total": 32,
+    "direct": 32,
     "regional": 0,
-    "new": 4,
-    "sources": 16,
+    "new": 6,
+    "sources": 17,
     "directSignals": 0,
     "localDirectSignals": 0,
     "radioDirectSignals": 0,
@@ -2047,11 +2072,11 @@
   "environment": {
     "weather": {
       "dataType": "forecast",
-      "forecastWindKmh": 24.0,
-      "forecastGustKmh": 24.0,
-      "forecastWindDirection": "NE",
-      "forecastTemperatureC": 26.0,
-      "retrievedAt": "2026-11-16T07:47:44.602661+00:00",
+      "forecastWindKmh": 41.0,
+      "forecastGustKmh": 51.0,
+      "forecastWindDirection": "O",
+      "forecastTemperatureC": 29.0,
+      "retrievedAt": "2026-11-16T18:13:03.759838+00:00",
       "source": "AIC",
       "sourceTier": "primary",
       "sourceUrl": "https://www.aic.gob.ar/sitio/home?a=1015&z=1967225803",
@@ -2060,7 +2085,7 @@
     "hydrology": {
       "site": "El Chañar",
       "flowType": "programmed_outflow",
-      "erogatedM3s": 320,
+      "erogatedM3s": 352,
       "programmedMaxM3s": [
         360,
         360,
@@ -2081,7 +2106,7 @@
       "currentProgrammedMinM3s": 340,
       "programDate": "2026-11-17",
       "tableDate": "2026-11-16",
-      "retrievedAt": "2026-11-16T07:47:44.602661+00:00",
+      "retrievedAt": "2026-11-16T18:13:03.759838+00:00",
       "source": "AIC",
       "sourceTier": "primary",
       "sourceUrl": "https://www.aic.gob.ar/sitio/caudales",
@@ -2101,17 +2126,17 @@
         "url": "https://www.aic.gob.ar/sitio/caudales"
       }
     ],
-    "updatedAt": "2026-11-16T07:47:44.602661+00:00"
+    "updatedAt": "2026-11-16T18:13:03.759838+00:00"
   },
   "operational": {
-    "updatedAt": "2026-11-16T07:47:44.602661+00:00",
+    "updatedAt": "2026-11-16T18:13:03.759838+00:00",
     "route7": {
       "source": "Dirección Provincial de Vialidad",
       "sourceTier": "primary",
       "sourceUrl": "https://www.dpvneuquen.gov.ar/",
       "semanticState": null,
       "publicationState": "source_reachable_no_current_machine_readable_state",
-      "retrievedAt": "2026-11-16T07:47:44.602661+00:00",
+      "retrievedAt": "2026-11-16T18:13:03.759838+00:00",
       "evidence": {
         "route7Mention": true,
         "route8Mention": false
@@ -2123,7 +2148,7 @@
       "sourceUrl": "https://www.dpvneuquen.gov.ar/",
       "semanticState": null,
       "publicationState": "source_reachable_no_current_machine_readable_state",
-      "retrievedAt": "2026-11-16T07:47:44.602661+00:00",
+      "retrievedAt": "2026-11-16T18:13:03.759838+00:00",
       "evidence": {
         "route7Mention": true,
         "route8Mention": false
@@ -2137,7 +2162,7 @@
       "eventType": null,
       "detail": null,
       "publicationState": "source_reachable_no_specific_local_notice",
-      "retrievedAt": "2026-11-16T07:47:44.602661+00:00"
+      "retrievedAt": "2026-11-16T18:13:03.759838+00:00"
     },
     "water": {
       "source": "EPAS",
@@ -2147,7 +2172,7 @@
       "eventType": null,
       "detail": null,
       "publicationState": "source_reachable_no_specific_local_notice",
-      "retrievedAt": "2026-11-16T07:47:44.602661+00:00"
+      "retrievedAt": "2026-11-16T18:13:03.759838+00:00"
     },
     "sources": [
       {
@@ -2559,7 +2584,7 @@
       "label": "Conversación general",
       "signal": 12,
       "status": "cobertura editorial",
-      "freshnessHours": 7.6,
+      "freshnessHours": 1.1,
       "mode": "evidencia editorial",
       "evidenceCount": 12,
       "sourceContract": {
@@ -2599,7 +2624,7 @@
       "label": "Corredor Ruta 7",
       "signal": 1,
       "status": "estado vial",
-      "freshnessHours": 186.9,
+      "freshnessHours": 197.3,
       "mode": "evidencia territorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -2639,7 +2664,7 @@
         "sourceUrl": "https://www.dpvneuquen.gov.ar/",
         "semanticState": null,
         "publicationState": "source_reachable_no_current_machine_readable_state",
-        "retrievedAt": "2026-11-16T07:47:44.602661+00:00",
+        "retrievedAt": "2026-11-16T18:13:03.759838+00:00",
         "evidence": {
           "route7Mention": true,
           "route8Mention": false
@@ -2691,7 +2716,7 @@
         "sourceUrl": "https://www.dpvneuquen.gov.ar/",
         "semanticState": null,
         "publicationState": "source_reachable_no_current_machine_readable_state",
-        "retrievedAt": "2026-11-16T07:47:44.602661+00:00",
+        "retrievedAt": "2026-11-16T18:13:03.759838+00:00",
         "evidence": {
           "route7Mention": true,
           "route8Mention": false
@@ -2701,7 +2726,7 @@
     {
       "id": "VIENTO",
       "label": "Condición de viento",
-      "signal": 24.0,
+      "signal": 41.0,
       "status": "pronóstico local",
       "freshnessHours": null,
       "mode": "DATO DIRECTO",
@@ -2791,7 +2816,7 @@
         "eventType": null,
         "detail": null,
         "publicationState": "source_reachable_no_specific_local_notice",
-        "retrievedAt": "2026-11-16T07:47:44.602661+00:00"
+        "retrievedAt": "2026-11-16T18:13:03.759838+00:00"
       }
     },
     {
@@ -2799,7 +2824,7 @@
       "label": "Agua / abastecimiento",
       "signal": 1,
       "status": "evento hídrico",
-      "freshnessHours": 20.6,
+      "freshnessHours": 7.9,
       "mode": "evidencia editorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -2841,17 +2866,17 @@
         "eventType": null,
         "detail": null,
         "publicationState": "source_reachable_no_specific_local_notice",
-        "retrievedAt": "2026-11-16T07:47:44.602661+00:00"
+        "retrievedAt": "2026-11-16T18:13:03.759838+00:00"
       }
     },
     {
       "id": "SERVICIOS",
       "label": "Servicios e infraestructura",
-      "signal": 2,
+      "signal": 1,
       "status": "evidencia de servicio",
-      "freshnessHours": 7.6,
+      "freshnessHours": 7.9,
       "mode": "evidencia editorial",
-      "evidenceCount": 2,
+      "evidenceCount": 1,
       "sourceContract": {
         "primary": "Municipalidad de San Patricio del Chañar",
         "secondary": "organismo provincial competente según servicio",
@@ -2967,11 +2992,11 @@
     {
       "id": "PRODUCCIÓN",
       "label": "Producción rural",
-      "signal": 0,
+      "signal": 1,
       "status": "evidencia productiva",
-      "freshnessHours": null,
+      "freshnessHours": 1.1,
       "mode": "evidencia editorial",
-      "evidenceCount": 0,
+      "evidenceCount": 1,
       "sourceContract": {
         "primary": "Ministerio de Producción e Industria del Neuquén",
         "secondary": "organismo provincial productivo competente",
@@ -3009,7 +3034,7 @@
       "label": "Seguridad / emergencias",
       "signal": 2,
       "status": "cobertura de emergencia",
-      "freshnessHours": 58.1,
+      "freshnessHours": 68.5,
       "mode": "evidencia editorial",
       "evidenceCount": 2,
       "sourceContract": {
@@ -3049,7 +3074,7 @@
       "label": "Territorio / microzonas",
       "signal": 2,
       "status": "hecho territorial",
-      "freshnessHours": 30.4,
+      "freshnessHours": 40.8,
       "mode": "evidencia territorial",
       "evidenceCount": 2,
       "sourceContract": {
@@ -3106,7 +3131,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://chanardigital.com.ar/",
-        "lastFetch": "2026-11-16T07:47:47.384213+00:00",
+        "lastFetch": "2026-11-16T18:13:06.202788+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3122,7 +3147,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.radiomia.com.ar/",
-        "lastFetch": "2026-11-16T07:47:48.321535+00:00",
+        "lastFetch": "2026-11-16T18:13:07.882474+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -3137,11 +3162,11 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://tuitvacamuerta.com/",
-        "lastFetch": "2026-11-16T07:47:50.072558+00:00",
+        "lastFetch": "2026-11-16T18:13:10.083943+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
-          "WEB:AttributeError"
+          "WEB:RemoteDisconnected"
         ],
         "directAvailability": "failed",
         "freshnessHours": null
@@ -3152,7 +3177,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.vacamuertanews.com/",
-        "lastFetch": "2026-11-16T07:47:50.562107+00:00",
+        "lastFetch": "2026-11-16T18:13:10.777099+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3168,7 +3193,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.neuqueninforma.gob.ar/",
-        "lastFetch": "2026-11-16T07:47:51.940671+00:00",
+        "lastFetch": "2026-11-16T18:13:11.878056+00:00",
         "success": false,
         "attempted": 3,
         "failures": [
@@ -3185,7 +3210,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://sanpatricio.gob.ar/",
-        "lastFetch": "2026-11-16T07:47:52.979472+00:00",
+        "lastFetch": "2026-11-16T18:13:12.975296+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -3200,7 +3225,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://boletinoficial.neuquen.gov.ar/",
-        "lastFetch": "2026-11-16T07:47:53.754555+00:00",
+        "lastFetch": "2026-11-16T18:13:13.852501+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -3215,7 +3240,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.lmneuquen.com/",
-        "lastFetch": "2026-11-16T07:47:54.051711+00:00",
+        "lastFetch": "2026-11-16T18:13:13.945918+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3231,7 +3256,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.rionegro.com.ar/",
-        "lastFetch": "2026-11-16T07:47:54.622845+00:00",
+        "lastFetch": "2026-11-16T18:13:17.302311+00:00",
         "success": true,
         "attempted": 2,
         "failures": [
@@ -3246,7 +3271,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.mejorinformado.com/",
-        "lastFetch": "2026-11-16T07:47:55.263610+00:00",
+        "lastFetch": "2026-11-16T18:13:18.126530+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3262,7 +3287,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.diariamenteneuquen.com/",
-        "lastFetch": "2026-11-16T07:47:55.840073+00:00",
+        "lastFetch": "2026-11-16T18:13:19.024182+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3280,16 +3305,16 @@
   },
   "events": [
     {
-      "eventId": "CHA-07615adc0efe",
-      "title": "Doce denuncias anónimas destaparon una red de venta de drogas: cuatro condenados en el Chañar - Flipr.news",
-      "publishedAt": "2026-11-16T00:12:23+00:00",
-      "firstSeen": "2026-11-13T21:52:20.362037+00:00",
-      "lastSeen": "2026-11-16T00:12:23+00:00",
+      "eventId": "CHA-8802dd694d3c",
+      "title": "Neuquén licita la red de cloacas para 347 lotes en San Patricio del Chañar: invertirán $1.200 millones - Mejor Informado",
+      "publishedAt": "2026-11-16T10:20:46+00:00",
+      "firstSeen": "2026-11-14T20:38:30.630721+00:00",
+      "lastSeen": "2026-11-16T10:20:46+00:00",
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SERVICIOS",
-      "movement": 92,
+      "movement": 98,
       "coverage": 8,
       "sourceCount": 7,
       "directSourceCount": 0,
@@ -3298,33 +3323,71 @@
         "el chañar"
       ],
       "sources": [
-        "tuitvacamuerta.com",
+        "Vaca Muerta News",
+        "Mejor Informado",
+        "Diario Neuquino",
         "Neuquen Informa",
-        "Flipr.news",
-        "Chañar Digital",
+        "NoticiasNQN",
         "Diario Río Negro",
-        "Patagonia Press",
         "ANBariloche"
       ],
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPRFRkVXBjRkROblhOeVhnaFNuQnBCQ1ZVMVJPbV9Vd21ERXpsMGMtcUFGWEljQ1lqZHBQeHc2bnFKNm5zcmRJRUItM09lY2pTcFNfeHdjWEJkeENLZTI1dmd2VGptYlNEZTA1NHk1cTFPRmRla1BRZW9hNS0tNTRJQjNSZUxNSzE3c1k1dk5RejJXRDM4Qzh5VDh0c3YtWUlIWWt3MlhqRnNLZUlYd0l1eEtEcnlxNFg5eFZocFJTSUpaZGdLRnBmclNxZmhSVF9RbzV3?oc=5",
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNQW1PLWo0MUt0N1Q4S0cwbjF3c1k3NWlUVGI5OGxEMUNXVEpzeU9UTElzSXFYN1g5VFNfYXdhNEpqelJrLVNFYTFwSktIclNUM3NKaG5KWlJCTU5GZUhrajV5a0FRd00zVXNTeG1NSmhrQVFGaVpSQldfajNaTi1FbTBweXBjTF92anUxSnBoVDUwRXB0YTlCQTJwUjV5VjlnbFhVU1prb252dlc3dVVmZkZuRGZ4bnljeUJRRWhiNmNhSEI1aTU5WURncFrSAcwBQVVfeXFMTUFtTy1qNDFLdDdUOEtHMG4xd3NZNzVpVFRiOThsRDFDV1RKc3lPVExJc0lxWDdYOVRTX2F3YTRKanpSay1TRWExcEpLSHJTVDNzSmhuSlpSQk1ORmVIa2o1eWtBUXdNM1VzU3htTUpoa0FRRmlaUkJXX2ozWk4tRW0wcHlwY0xfdmp1MUpwaFQ1MEVwdGE5QkEycFI1eVY5Z2xYVVNaa29udnZXN3VVZmZGbkRmeG55Y3lCUUVoYjZjYUhCNWk1OVlEZ3Ba?oc=5",
       "items": [
         {
-          "title": "SAN PATRICIO DEL CHAÑAR: licitarán la red de cloacas para 347 lotes. - tuitvacamuerta.com",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxORjc2RlBlM0xzenFHUTBRM1pZUlVuc0NKc19SbnRibjhQSFctRGoxMjdxMktCVzFCcjcwU2JuMFZqRnFsY3Y5RmxqWEtCdWdLQkpmRGE1RGhNWnJUdWQ2LWtjSk1DQ21HcHF4UmlqWlRkOFE1ZDRrSFVpdWVaS0VqWEZJZWVLSWlwSGxYTnpHVDZRaTA5WGszZmdn?oc=5",
-          "publishedAt": "2026-11-15T01:25:50+00:00",
-          "published": "2026-11-15T01:25:50+00:00",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxORjc2RlBlM0xzenFHUTBRM1pZUlVuc0NKc19SbnRibjhQSFctRGoxMjdxMktCVzFCcjcwU2JuMFZqRnFsY3Y5RmxqWEtCdWdLQkpmRGE1RGhNWnJUdWQ2LWtjSk1DQ21HcHF4UmlqWlRkOFE1ZDRrSFVpdWVaS0VqWEZJZWVLSWlwSGxYTnpHVDZRaTA5WGszZmdn?oc=5\" target=\"_blank\">SAN PATRICIO DEL CHAÑAR: licitarán la red de cloacas para 347 lotes.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">tuitvacamuerta.com</font>",
-          "source": "tuitvacamuerta.com",
+          "title": "Licitarán la red de cloacas para 347 lotes en San Patricio del Chañar - Vaca Muerta News",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPY0ttcXhwRmhUWTNiWWNCNGxGTEpDUnpxemxCY082dTJ5bHZmRUdoeFFaWmFKOTFaTFUwZ1NFWkNLWmRFeFhqU3Q2VVJOTjFXX3hoS1NzTmR2ekhNaHJoNjJ5TERKOHBuWEh3OU1lWnVEZDZqOTBpSzhrdGxDQTNpZlJjUFVkcTBDelp2YkRxR0c4WDJneUduemljbEFSeWdpaTU4NnJ5MHpsQlptM2hVMNIBpwFBVV95cUxPcUx1NlpsdFM4VTdiNXNlUEVPS3JBMDFrSFl0d0NjVjVTMWZXZ0RkSUlpREdOaHl0TzVUNHhSbnJDX3J1bVptNlZQVHVWdF9sZzBaZFMxQU4tOTA1T1JmZmVxSVVWTXhoOXlyRWdvTE5BT1BocUxWWVo3VGNIbV9kNXdqREJRS3VlVk9xbU1VWkdtNUd4RGM5VlhHZ2lLZVNJY1ZRWm9YWQ?oc=5",
+          "publishedAt": "2026-11-16T10:20:46+00:00",
+          "published": "2026-11-16T10:20:46+00:00",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxPY0ttcXhwRmhUWTNiWWNCNGxGTEpDUnpxemxCY082dTJ5bHZmRUdoeFFaWmFKOTFaTFUwZ1NFWkNLWmRFeFhqU3Q2VVJOTjFXX3hoS1NzTmR2ekhNaHJoNjJ5TERKOHBuWEh3OU1lWnVEZDZqOTBpSzhrdGxDQTNpZlJjUFVkcTBDelp2YkRxR0c4WDJneUduemljbEFSeWdpaTU4NnJ5MHpsQlptM2hVMNIBpwFBVV95cUxPcUx1NlpsdFM4VTdiNXNlUEVPS3JBMDFrSFl0d0NjVjVTMWZXZ0RkSUlpREdOaHl0TzVUNHhSbnJDX3J1bVptNlZQVHVWdF9sZzBaZFMxQU4tOTA1T1JmZmVxSVVWTXhoOXlyRWdvTE5BT1BocUxWWVo3VGNIbV9kNXdqREJRS3VlVk9xbU1VWkdtNUd4RGM5VlhHZ2lLZVNJY1ZRWm9YWQ?oc=5\" target=\"_blank\">Licitarán la red de cloacas para 347 lotes en San Patricio del Chañar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Vaca Muerta News</font>",
+          "source": "Vaca Muerta News",
           "sourceType": "BUSCADOR / RESPALDO",
           "sourceUrl": "",
           "collection": "BUSCADOR",
-          "query": "site:tuitvacamuerta.com \"San Patricio del Chañar\"",
+          "query": "\"San Patricio del Chañar\" \"Vaca Muerta\"",
           "relevance": 3,
           "relevanceLabel": "DIRECTA",
-          "firstSeen": "2026-11-15T07:42:29.242371+00:00",
+          "firstSeen": "2026-11-16T18:13:28.055781+00:00",
+          "isNew": true,
+          "titleKey": "licitaran red cloacas 347 lotes vaca muerta news",
+          "evidenceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPY0ttcXhwRmhUWTNiWWNCNGxGTEpDUnpxemxCY082dTJ5bHZmRUdoeFFaWmFKOTFaTFUwZ1NFWkNLWmRFeFhqU3Q2VVJOTjFXX3hoS1NzTmR2ekhNaHJoNjJ5TERKOHBuWEh3OU1lWnVEZDZqOTBpSzhrdGxDQTNpZlJjUFVkcTBDelp2YkRxR0c4WDJneUduemljbEFSeWdpaTU4NnJ5MHpsQlptM2hVMNIBpwFBVV95cUxPcUx1NlpsdFM4VTdiNXNlUEVPS3JBMDFrSFl0d0NjVjVTMWZXZ0RkSUlpREdOaHl0TzVUNHhSbnJDX3J1bVptNlZQVHVWdF9sZzBaZFMxQU4tOTA1T1JmZmVxSVVWTXhoOXlyRWdvTE5BT1BocUxWWVo3VGNIbV9kNXdqREJRS3VlVk9xbU1VWkdtNUd4RGM5VlhHZ2lLZVNJY1ZRWm9YWQ?oc=5",
+          "sourcePriority": 3
+        },
+        {
+          "title": "Neuquén licita la red de cloacas para 347 lotes en San Patricio del Chañar: invertirán $1.200 millones - Mejor Informado",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNQW1PLWo0MUt0N1Q4S0cwbjF3c1k3NWlUVGI5OGxEMUNXVEpzeU9UTElzSXFYN1g5VFNfYXdhNEpqelJrLVNFYTFwSktIclNUM3NKaG5KWlJCTU5GZUhrajV5a0FRd00zVXNTeG1NSmhrQVFGaVpSQldfajNaTi1FbTBweXBjTF92anUxSnBoVDUwRXB0YTlCQTJwUjV5VjlnbFhVU1prb252dlc3dVVmZkZuRGZ4bnljeUJRRWhiNmNhSEI1aTU5WURncFrSAcwBQVVfeXFMTUFtTy1qNDFLdDdUOEtHMG4xd3NZNzVpVFRiOThsRDFDV1RKc3lPVExJc0lxWDdYOVRTX2F3YTRKanpSay1TRWExcEpLSHJTVDNzSmhuSlpSQk1ORmVIa2o1eWtBUXdNM1VzU3htTUpoa0FRRmlaUkJXX2ozWk4tRW0wcHlwY0xfdmp1MUpwaFQ1MEVwdGE5QkEycFI1eVY5Z2xYVVNaa29udnZXN3VVZmZGbkRmeG55Y3lCUUVoYjZjYUhCNWk1OVlEZ3Ba?oc=5",
+          "publishedAt": "2026-11-15T17:58:55+00:00",
+          "published": "2026-11-15T17:58:55+00:00",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMizAFBVV95cUxNQW1PLWo0MUt0N1Q4S0cwbjF3c1k3NWlUVGI5OGxEMUNXVEpzeU9UTElzSXFYN1g5VFNfYXdhNEpqelJrLVNFYTFwSktIclNUM3NKaG5KWlJCTU5GZUhrajV5a0FRd00zVXNTeG1NSmhrQVFGaVpSQldfajNaTi1FbTBweXBjTF92anUxSnBoVDUwRXB0YTlCQTJwUjV5VjlnbFhVU1prb252dlc3dVVmZkZuRGZ4bnljeUJRRWhiNmNhSEI1aTU5WURncFrSAcwBQVVfeXFMTUFtTy1qNDFLdDdUOEtHMG4xd3NZNzVpVFRiOThsRDFDV1RKc3lPVExJc0lxWDdYOVRTX2F3YTRKanpSay1TRWExcEpLSHJTVDNzSmhuSlpSQk1ORmVIa2o1eWtBUXdNM1VzU3htTUpoa0FRRmlaUkJXX2ozWk4tRW0wcHlwY0xfdmp1MUpwaFQ1MEVwdGE5QkEycFI1eVY5Z2xYVVNaa29udnZXN3VVZmZGbkRmeG55Y3lCUUVoYjZjYUhCNWk1OVlEZ3Ba?oc=5\" target=\"_blank\">Neuquén licita la red de cloacas para 347 lotes en San Patricio del Chañar: invertirán $1.200 millones</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Mejor Informado</font>",
+          "source": "Mejor Informado",
+          "sourceType": "BUSCADOR / RESPALDO",
+          "sourceUrl": "",
+          "collection": "BUSCADOR",
+          "query": "site:mejorinformado.com \"San Patricio del Chañar\"",
+          "relevance": 3,
+          "relevanceLabel": "DIRECTA",
+          "firstSeen": "2026-11-16T18:13:28.055781+00:00",
+          "isNew": true,
+          "titleKey": "licita red cloacas 347 lotes invertiran 200 millones mejor informado",
+          "evidenceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNQW1PLWo0MUt0N1Q4S0cwbjF3c1k3NWlUVGI5OGxEMUNXVEpzeU9UTElzSXFYN1g5VFNfYXdhNEpqelJrLVNFYTFwSktIclNUM3NKaG5KWlJCTU5GZUhrajV5a0FRd00zVXNTeG1NSmhrQVFGaVpSQldfajNaTi1FbTBweXBjTF92anUxSnBoVDUwRXB0YTlCQTJwUjV5VjlnbFhVU1prb252dlc3dVVmZkZuRGZ4bnljeUJRRWhiNmNhSEI1aTU5WURncFrSAcwBQVVfeXFMTUFtTy1qNDFLdDdUOEtHMG4xd3NZNzVpVFRiOThsRDFDV1RKc3lPVExJc0lxWDdYOVRTX2F3YTRKanpSay1TRWExcEpLSHJTVDNzSmhuSlpSQk1ORmVIa2o1eWtBUXdNM1VzU3htTUpoa0FRRmlaUkJXX2ozWk4tRW0wcHlwY0xfdmp1MUpwaFQ1MEVwdGE5QkEycFI1eVY5Z2xYVVNaa29udnZXN3VVZmZGbkRmeG55Y3lCUUVoYjZjYUhCNWk1OVlEZ3Ba?oc=5",
+          "sourcePriority": 3
+        },
+        {
+          "title": "San Patricio del Chañar: licitan una obra de cloacas para 347 lotes por más de $1.216 millones - Diario Neuquino",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNVlNjamcxWlpoMExJOC1sM3czQjBzdzZkQ3daVWZaYlBCRWhpUnotdnBpUFloeVZidjVsNGJqNXRlZzdzSGlVd2pnSnA5LUtKUlBMREI1VmVDYlFPS2tiZm43QnVvOHBkYmZ3eEhyeHluVG5qQ2hTUTk0LUxuUGVTbDdmcFlpbjZOdmJJOF9hdG14VFJoM1V2QlZmTnIyb3laX0NJWEtNbnhtNDBKS3V3UF8tMms3dGpwb0hDRmItM0M?oc=5",
+          "publishedAt": "2026-11-15T11:13:20+00:00",
+          "published": "2026-11-15T11:13:20+00:00",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxNVlNjamcxWlpoMExJOC1sM3czQjBzdzZkQ3daVWZaYlBCRWhpUnotdnBpUFloeVZidjVsNGJqNXRlZzdzSGlVd2pnSnA5LUtKUlBMREI1VmVDYlFPS2tiZm43QnVvOHBkYmZ3eEhyeHluVG5qQ2hTUTk0LUxuUGVTbDdmcFlpbjZOdmJJOF9hdG14VFJoM1V2QlZmTnIyb3laX0NJWEtNbnhtNDBKS3V3UF8tMms3dGpwb0hDRmItM0M?oc=5\" target=\"_blank\">San Patricio del Chañar: licitan una obra de cloacas para 347 lotes por más de $1.216 millones</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Diario Neuquino</font>",
+          "source": "Diario Neuquino",
+          "sourceType": "BUSCADOR / RESPALDO",
+          "sourceUrl": "",
+          "collection": "BUSCADOR",
+          "query": "\"San Patricio del Chañar\"",
+          "relevance": 3,
+          "relevanceLabel": "DIRECTA",
+          "firstSeen": "2026-11-15T15:31:48.842015+00:00",
           "isNew": false,
-          "titleKey": "licitaran red cloacas 347 lotes tuitvacamuerta com",
-          "evidenceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxORjc2RlBlM0xzenFHUTBRM1pZUlVuc0NKc19SbnRibjhQSFctRGoxMjdxMktCVzFCcjcwU2JuMFZqRnFsY3Y5RmxqWEtCdWdLQkpmRGE1RGhNWnJUdWQ2LWtjSk1DQ21HcHF4UmlqWlRkOFE1ZDRrSFVpdWVaS0VqWEZJZWVLSWlwSGxYTnpHVDZRaTA5WGszZmdn?oc=5",
+          "titleKey": "licitan obra cloacas 347 lotes mas 216 millones diario neuquino",
+          "evidenceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNVlNjamcxWlpoMExJOC1sM3czQjBzdzZkQ3daVWZaYlBCRWhpUnotdnBpUFloeVZidjVsNGJqNXRlZzdzSGlVd2pnSnA5LUtKUlBMREI1VmVDYlFPS2tiZm43QnVvOHBkYmZ3eEhyeHluVG5qQ2hTUTk0LUxuUGVTbDdmcFlpbjZOdmJJOF9hdG14VFJoM1V2QlZmTnIyb3laX0NJWEtNbnhtNDBKS3V3UF8tMms3dGpwb0hDRmItM0M?oc=5",
           "sourcePriority": 3
         },
         {
@@ -3347,79 +3410,41 @@
           "sourcePriority": 3
         },
         {
-          "title": "Doce denuncias anónimas destaparon una red de venta de drogas: cuatro condenados en el Chañar - Flipr.news",
-          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPRFRkVXBjRkROblhOeVhnaFNuQnBCQ1ZVMVJPbV9Vd21ERXpsMGMtcUFGWEljQ1lqZHBQeHc2bnFKNm5zcmRJRUItM09lY2pTcFNfeHdjWEJkeENLZTI1dmd2VGptYlNEZTA1NHk1cTFPRmRla1BRZW9hNS0tNTRJQjNSZUxNSzE3c1k1dk5RejJXRDM4Qzh5VDh0c3YtWUlIWWt3MlhqRnNLZUlYd0l1eEtEcnlxNFg5eFZocFJTSUpaZGdLRnBmclNxZmhSVF9RbzV3?oc=5",
-          "publishedAt": "2026-11-13T21:51:45+00:00",
-          "published": "2026-11-13T21:51:45+00:00",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMi0wFBVV95cUxPRFRkVXBjRkROblhOeVhnaFNuQnBCQ1ZVMVJPbV9Vd21ERXpsMGMtcUFGWEljQ1lqZHBQeHc2bnFKNm5zcmRJRUItM09lY2pTcFNfeHdjWEJkeENLZTI1dmd2VGptYlNEZTA1NHk1cTFPRmRla1BRZW9hNS0tNTRJQjNSZUxNSzE3c1k1dk5RejJXRDM4Qzh5VDh0c3YtWUlIWWt3MlhqRnNLZUlYd0l1eEtEcnlxNFg5eFZocFJTSUpaZGdLRnBmclNxZmhSVF9RbzV3?oc=5\" target=\"_blank\">Doce denuncias anónimas destaparon una red de venta de drogas: cuatro condenados en el Chañar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Flipr.news</font>",
-          "source": "Flipr.news",
+          "title": "Doce denuncias anónimas destaparon una red de venta de drogas: cuatro condenados en el Chañar - Mejor Informado",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQN3ItNmRpWHNkaGxIbUVIWnJuOTlYOEp3dGQ2TnY5LWZ6LXhEOF8yOXEtMEpUUDd5NlRLSzh6Y0NsbE1OSmFnNVdRWjNiejZPYnpDTzI3UTFBaHN6QjJ6RXBfUDMtNFdmaHczWDJ1MXBqdEFQMHNPOVJjNHh4bjVSZjZySWdWeXdNem5VcGZIVHN3NjJfbEY2cHVoVi1ROFp2azJyMzJBUk5nQlJlVHF1cXNXaDlqangwOXhxenNuQXJsRWFtQ1FIddIByAFBVV95cUxQN3ItNmRpWHNkaGxIbUVIWnJuOTlYOEp3dGQ2TnY5LWZ6LXhEOF8yOXEtMEpUUDd5NlRLSzh6Y0NsbE1OSmFnNVdRWjNiejZPYnpDTzI3UTFBaHN6QjJ6RXBfUDMtNFdmaHczWDJ1MXBqdEFQMHNPOVJjNHh4bjVSZjZySWdWeXdNem5VcGZIVHN3NjJfbEY2cHVoVi1ROFp2azJyMzJBUk5nQlJlVHF1cXNXaDlqangwOXhxenNuQXJsRWFtQ1FIdQ?oc=5",
+          "publishedAt": "2026-11-13T19:19:16+00:00",
+          "published": "2026-11-13T19:19:16+00:00",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxQN3ItNmRpWHNkaGxIbUVIWnJuOTlYOEp3dGQ2TnY5LWZ6LXhEOF8yOXEtMEpUUDd5NlRLSzh6Y0NsbE1OSmFnNVdRWjNiejZPYnpDTzI3UTFBaHN6QjJ6RXBfUDMtNFdmaHczWDJ1MXBqdEFQMHNPOVJjNHh4bjVSZjZySWdWeXdNem5VcGZIVHN3NjJfbEY2cHVoVi1ROFp2azJyMzJBUk5nQlJlVHF1cXNXaDlqangwOXhxenNuQXJsRWFtQ1FIddIByAFBVV95cUxQN3ItNmRpWHNkaGxIbUVIWnJuOTlYOEp3dGQ2TnY5LWZ6LXhEOF8yOXEtMEpUUDd5NlRLSzh6Y0NsbE1OSmFnNVdRWjNiejZPYnpDTzI3UTFBaHN6QjJ6RXBfUDMtNFdmaHczWDJ1MXBqdEFQMHNPOVJjNHh4bjVSZjZySWdWeXdNem5VcGZIVHN3NjJfbEY2cHVoVi1ROFp2azJyMzJBUk5nQlJlVHF1cXNXaDlqangwOXhxenNuQXJsRWFtQ1FIdQ?oc=5\" target=\"_blank\">Doce denuncias anónimas destaparon una red de venta de drogas: cuatro condenados en el Chañar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Mejor Informado</font>",
+          "source": "Mejor Informado",
           "sourceType": "BUSCADOR / RESPALDO",
           "sourceUrl": "",
           "collection": "BUSCADOR",
-          "query": "\"San Patricio del Chañar\" Neuquén",
+          "query": "site:mejorinformado.com \"San Patricio del Chañar\"",
           "relevance": 3,
           "relevanceLabel": "DIRECTA",
-          "firstSeen": "2026-11-16T00:54:16.997943+00:00",
-          "isNew": false,
-          "titleKey": "doce denuncias anonimas destaparon red venta drogas cuatro condenados flipr news",
-          "evidenceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPRFRkVXBjRkROblhOeVhnaFNuQnBCQ1ZVMVJPbV9Vd21ERXpsMGMtcUFGWEljQ1lqZHBQeHc2bnFKNm5zcmRJRUItM09lY2pTcFNfeHdjWEJkeENLZTI1dmd2VGptYlNEZTA1NHk1cTFPRmRla1BRZW9hNS0tNTRJQjNSZUxNSzE3c1k1dk5RejJXRDM4Qzh5VDh0c3YtWUlIWWt3MlhqRnNLZUlYd0l1eEtEcnlxNFg5eFZocFJTSUpaZGdLRnBmclNxZmhSVF9RbzV3?oc=5",
+          "firstSeen": "2026-11-16T18:13:28.055781+00:00",
+          "isNew": true,
+          "titleKey": "doce denuncias anonimas destaparon red venta drogas cuatro condenados mejor informado",
+          "evidenceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQN3ItNmRpWHNkaGxIbUVIWnJuOTlYOEp3dGQ2TnY5LWZ6LXhEOF8yOXEtMEpUUDd5NlRLSzh6Y0NsbE1OSmFnNVdRWjNiejZPYnpDTzI3UTFBaHN6QjJ6RXBfUDMtNFdmaHczWDJ1MXBqdEFQMHNPOVJjNHh4bjVSZjZySWdWeXdNem5VcGZIVHN3NjJfbEY2cHVoVi1ROFp2azJyMzJBUk5nQlJlVHF1cXNXaDlqangwOXhxenNuQXJsRWFtQ1FIddIByAFBVV95cUxQN3ItNmRpWHNkaGxIbUVIWnJuOTlYOEp3dGQ2TnY5LWZ6LXhEOF8yOXEtMEpUUDd5NlRLSzh6Y0NsbE1OSmFnNVdRWjNiejZPYnpDTzI3UTFBaHN6QjJ6RXBfUDMtNFdmaHczWDJ1MXBqdEFQMHNPOVJjNHh4bjVSZjZySWdWeXdNem5VcGZIVHN3NjJfbEY2cHVoVi1ROFp2azJyMzJBUk5nQlJlVHF1cXNXaDlqangwOXhxenNuQXJsRWFtQ1FIdQ?oc=5",
           "sourcePriority": 3
         },
         {
-          "title": "Condenaron a cuatro hombres por vender drogas en San Patricio del Chañar - Chañar Digital",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQN3FEaDNOU1labjF1NjFFYUdmajY4S2FYSnFnT0FBeWRKU0pYYTJfaldkTVpVT1Q2dXBNNkxzLThZVDJpdzZtZTh3YzluSWZvMGp1S3o0S3VXaG5DeFE0T2t5eFRpYUhNSThGbl9pd0ZCTUVsSkN2WGsxdEdRODREZFB0NnkySDEyN0lJMWttZzhyV1RGTHRRSnpaSUpSelRCbk5xeElERnFZSG53NloyM2FsZi1sZjgyUWQ0eUJ3ZTFqYkxa?oc=5",
-          "publishedAt": "2026-11-13T18:49:17+00:00",
-          "published": "2026-11-13T18:49:17+00:00",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMixAFBVV95cUxQN3FEaDNOU1labjF1NjFFYUdmajY4S2FYSnFnT0FBeWRKU0pYYTJfaldkTVpVT1Q2dXBNNkxzLThZVDJpdzZtZTh3YzluSWZvMGp1S3o0S3VXaG5DeFE0T2t5eFRpYUhNSThGbl9pd0ZCTUVsSkN2WGsxdEdRODREZFB0NnkySDEyN0lJMWttZzhyV1RGTHRRSnpaSUpSelRCbk5xeElERnFZSG53NloyM2FsZi1sZjgyUWQ0eUJ3ZTFqYkxa?oc=5\" target=\"_blank\">Condenaron a cuatro hombres por vender drogas en San Patricio del Chañar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Chañar Digital</font>",
-          "source": "Chañar Digital",
+          "title": "Condenaron a cuatro hombres por vender drogas en San Patricio del Chañar - NoticiasNQN",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOV1N6Z2dsbUJLaFRVWDA0VGlfWVN5anplY3h3MnpObEdWUFM0YVlvYS1LeklISmo3ZHRIMjZ3U3p5bndhZTVveTFVR1k5YWJRcmpwLUZpTkJvUFlocnBRbTVRaEhxcDQzOC1xZmRYRDAtZUxMNDdKeXdmMlBOS3FSVDdWOWtVN1FGQVB3X0VjRkpsclNQbDkwdU1wYWhjOUhiTnJKd0RyQ0E5WE8yQnRkaERFdXZyRDM3dUZGMGlGM2dlY0N2dUdDbWJUZmprTEHSAc8BQVVfeXFMTldTemdnbG1CS2hUVVgwNFRpX1lTeWp6ZWN4dzJ6TmxHVlBTNGFZb2EtS3pJSEpqN2R0SDI2d1N6eW53YWU1b3kxVUdZOWFiUXJqcC1GaU5Cb1BZaHJwUW01UWhIcXA0MzgtcWZkWEQwLWVMTDQ3Snl3ZjJQTktxUlQ3VjlrVTdRRkFQd19FY0ZKbHJTUGw5MHVNcGFoYzlIYk5ySndEckNBOVhPMkJ0ZGhERXV2ckQzN3VGRjBpRjNnZWNDdnVHQ21iVGZqa0xB?oc=5",
+          "publishedAt": "2026-11-13T16:51:57+00:00",
+          "published": "2026-11-13T16:51:57+00:00",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMizwFBVV95cUxOV1N6Z2dsbUJLaFRVWDA0VGlfWVN5anplY3h3MnpObEdWUFM0YVlvYS1LeklISmo3ZHRIMjZ3U3p5bndhZTVveTFVR1k5YWJRcmpwLUZpTkJvUFlocnBRbTVRaEhxcDQzOC1xZmRYRDAtZUxMNDdKeXdmMlBOS3FSVDdWOWtVN1FGQVB3X0VjRkpsclNQbDkwdU1wYWhjOUhiTnJKd0RyQ0E5WE8yQnRkaERFdXZyRDM3dUZGMGlGM2dlY0N2dUdDbWJUZmprTEHSAc8BQVVfeXFMTldTemdnbG1CS2hUVVgwNFRpX1lTeWp6ZWN4dzJ6TmxHVlBTNGFZb2EtS3pJSEpqN2R0SDI2d1N6eW53YWU1b3kxVUdZOWFiUXJqcC1GaU5Cb1BZaHJwUW01UWhIcXA0MzgtcWZkWEQwLWVMTDQ3Snl3ZjJQTktxUlQ3VjlrVTdRRkFQd19FY0ZKbHJTUGw5MHVNcGFoYzlIYk5ySndEckNBOVhPMkJ0ZGhERXV2ckQzN3VGRjBpRjNnZWNDdnVHQ21iVGZqa0xB?oc=5\" target=\"_blank\">Condenaron a cuatro hombres por vender drogas en San Patricio del Chañar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NoticiasNQN</font>",
+          "source": "NoticiasNQN",
           "sourceType": "BUSCADOR / RESPALDO",
           "sourceUrl": "",
           "collection": "BUSCADOR",
-          "query": "site:chanardigital.com.ar \"San Patricio del Chañar\"",
+          "query": "\"San Patricio del Chañar\" \"Ruta 7\"",
           "relevance": 3,
           "relevanceLabel": "DIRECTA",
-          "firstSeen": "2026-11-13T21:52:20.362037+00:00",
-          "isNew": false,
-          "titleKey": "condenaron cuatro hombres vender drogas digital",
-          "evidenceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQN3FEaDNOU1labjF1NjFFYUdmajY4S2FYSnFnT0FBeWRKU0pYYTJfaldkTVpVT1Q2dXBNNkxzLThZVDJpdzZtZTh3YzluSWZvMGp1S3o0S3VXaG5DeFE0T2t5eFRpYUhNSThGbl9pd0ZCTUVsSkN2WGsxdEdRODREZFB0NnkySDEyN0lJMWttZzhyV1RGTHRRSnpaSUpSelRCbk5xeElERnFZSG53NloyM2FsZi1sZjgyUWQ0eUJ3ZTFqYkxa?oc=5",
-          "sourcePriority": 3
-        },
-        {
-          "title": "Cuatro condenados por narcomenudeo en El Chañar: uno irá a prisión efectiva y pagarán multas por más de $17 millones - Diario Río Negro",
-          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPUUI4LVNyY3BvYXI3SnZnSWpOR0ItcFhPMmU5ZWxVSmdMdlpVZ3pRZzJtZHJGR3IyVnRkanpZZFVySG44Vm1PWlB1Tm9meXZhREdpZUo3T1VKVDdXeVhNM0hwUmF5LXZjdWtjVGNpdW5zdUZzSkdVZkdpTEJaQmRHLV9HWVFVOXpKVWhLR1BUQUxXb3RDY0JlVEc3aHk1SnJ5WVRpaE1VVUtLNFV1V29FSmZiRlc2NlZneUx3TWdDMzFqQ1NMOHgyYVFIRzZDMG5lSi1KNlRocDAzclBzajE2b3R6a3FBaWdqcHRzdU9TTHpkUdIB-gFBVV95cUxQZENxWU9xSTRLNUd5UGQyQ09tRGpFTU1sMmxhR2RxajBiYWN5d1dNeGxqNzJyalphdkJkcWJEcDhEMTBRejJSS3lKVmh1UjRIb01mRVNsZ0Q2WWUxLUFFRFFUTTlqbHZoZFVUQnZHamtva3FEbVhGMy12dU5kZjNHUzJ4andMWW5MaUlGbzJrMEl3S3VQOFdzaXlrZkFNTTY4UHhTVF9KTUg5dnJRRDIwOVM0VnVsUnBWY0RsNzg2b1hqYXA4NnhPcFRtcVJoMlVsUGMySVNmS21wbGZGZkl3ekwzUDFVblVKNGc1cXpCRFNkcWZuMXMwOVl3?oc=5",
-          "publishedAt": "2026-11-13T17:53:53+00:00",
-          "published": "2026-11-13T17:53:53+00:00",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMi8gFBVV95cUxPUUI4LVNyY3BvYXI3SnZnSWpOR0ItcFhPMmU5ZWxVSmdMdlpVZ3pRZzJtZHJGR3IyVnRkanpZZFVySG44Vm1PWlB1Tm9meXZhREdpZUo3T1VKVDdXeVhNM0hwUmF5LXZjdWtjVGNpdW5zdUZzSkdVZkdpTEJaQmRHLV9HWVFVOXpKVWhLR1BUQUxXb3RDY0JlVEc3aHk1SnJ5WVRpaE1VVUtLNFV1V29FSmZiRlc2NlZneUx3TWdDMzFqQ1NMOHgyYVFIRzZDMG5lSi1KNlRocDAzclBzajE2b3R6a3FBaWdqcHRzdU9TTHpkUdIB-gFBVV95cUxQZENxWU9xSTRLNUd5UGQyQ09tRGpFTU1sMmxhR2RxajBiYWN5d1dNeGxqNzJyalphdkJkcWJEcDhEMTBRejJSS3lKVmh1UjRIb01mRVNsZ0Q2WWUxLUFFRFFUTTlqbHZoZFVUQnZHamtva3FEbVhGMy12dU5kZjNHUzJ4andMWW5MaUlGbzJrMEl3S3VQOFdzaXlrZkFNTTY4UHhTVF9KTUg5dnJRRDIwOVM0VnVsUnBWY0RsNzg2b1hqYXA4NnhPcFRtcVJoMlVsUGMySVNmS21wbGZGZkl3ekwzUDFVblVKNGc1cXpCRFNkcWZuMXMwOVl3?oc=5\" target=\"_blank\">Cuatro condenados por narcomenudeo en El Chañar: uno irá a prisión efectiva y pagarán multas por más de $17 millones</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Diario Río Negro</font>",
-          "source": "Diario Río Negro",
-          "sourceType": "BUSCADOR / RESPALDO",
-          "sourceUrl": "",
-          "collection": "BUSCADOR",
-          "query": "\"San Patricio del Chañar\"",
-          "relevance": 3,
-          "relevanceLabel": "DIRECTA",
-          "firstSeen": "2026-11-13T21:52:20.362037+00:00",
-          "isNew": false,
-          "titleKey": "cuatro condenados narcomenudeo uno ira prision efectiva pagaran multas mas millones diario rio negro",
-          "evidenceUrl": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPUUI4LVNyY3BvYXI3SnZnSWpOR0ItcFhPMmU5ZWxVSmdMdlpVZ3pRZzJtZHJGR3IyVnRkanpZZFVySG44Vm1PWlB1Tm9meXZhREdpZUo3T1VKVDdXeVhNM0hwUmF5LXZjdWtjVGNpdW5zdUZzSkdVZkdpTEJaQmRHLV9HWVFVOXpKVWhLR1BUQUxXb3RDY0JlVEc3aHk1SnJ5WVRpaE1VVUtLNFV1V29FSmZiRlc2NlZneUx3TWdDMzFqQ1NMOHgyYVFIRzZDMG5lSi1KNlRocDAzclBzajE2b3R6a3FBaWdqcHRzdU9TTHpkUdIB-gFBVV95cUxQZENxWU9xSTRLNUd5UGQyQ09tRGpFTU1sMmxhR2RxajBiYWN5d1dNeGxqNzJyalphdkJkcWJEcDhEMTBRejJSS3lKVmh1UjRIb01mRVNsZ0Q2WWUxLUFFRFFUTTlqbHZoZFVUQnZHamtva3FEbVhGMy12dU5kZjNHUzJ4andMWW5MaUlGbzJrMEl3S3VQOFdzaXlrZkFNTTY4UHhTVF9KTUg5dnJRRDIwOVM0VnVsUnBWY0RsNzg2b1hqYXA4NnhPcFRtcVJoMlVsUGMySVNmS21wbGZGZkl3ekwzUDFVblVKNGc1cXpCRFNkcWZuMXMwOVl3?oc=5",
-          "sourcePriority": 3
-        },
-        {
-          "title": "Condenaron a cuatro narcos de San Patricio del Chañar: uno quedó preso y deberán pagar $17 millones - Patagonia Press",
-          "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNYS1yM2ZvYng5eS0wakc3aDU3X3ZQMV9IdmR2OHVfdWRmLVppZU5JdmV5VzhkX0s1dWVxOFJLbno1S0xhenlMOW1NQUhXUHNCeklOel9Yb0NzaDlBYjZYMVcxNHllS1lrb1BTTzZDVHZiOXVrYjFvdzJhd0lDQmFxQWZNZVc1MUJURUhFdGFpSGt1dVpwbWMtM0tWb2daVDM5WDM3c3d4aE9WS0xVZG5SY0tjcDF2enRiS2xYZVZyNk5NUjdpMWVMdVE2bm9MYmFZNG42Vmh3R3hKMzBMYmhoRGZDZzdKNG1wRUdXSmVhSQ?oc=5",
-          "publishedAt": "2026-11-13T17:12:59+00:00",
-          "published": "2026-11-13T17:12:59+00:00",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMi7wFBVV95cUxNYS1yM2ZvYng5eS0wakc3aDU3X3ZQMV9IdmR2OHVfdWRmLVppZU5JdmV5VzhkX0s1dWVxOFJLbno1S0xhenlMOW1NQUhXUHNCeklOel9Yb0NzaDlBYjZYMVcxNHllS1lrb1BTTzZDVHZiOXVrYjFvdzJhd0lDQmFxQWZNZVc1MUJURUhFdGFpSGt1dVpwbWMtM0tWb2daVDM5WDM3c3d4aE9WS0xVZG5SY0tjcDF2enRiS2xYZVZyNk5NUjdpMWVMdVE2bm9MYmFZNG42Vmh3R3hKMzBMYmhoRGZDZzdKNG1wRUdXSmVhSQ?oc=5\" target=\"_blank\">Condenaron a cuatro narcos de San Patricio del Chañar: uno quedó preso y deberán pagar $17 millones</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Patagonia Press</font>",
-          "source": "Patagonia Press",
-          "sourceType": "BUSCADOR / RESPALDO",
-          "sourceUrl": "",
-          "collection": "BUSCADOR",
-          "query": "\"San Patricio del Chañar\"",
-          "relevance": 3,
-          "relevanceLabel": "DIRECTA",
-          "firstSeen": "2026-11-13T21:52:20.362037+00:00",
-          "isNew": false,
-          "titleKey": "condenaron cuatro narcos uno quedo preso deberan pagar millones patagonia press",
-          "evidenceUrl": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNYS1yM2ZvYng5eS0wakc3aDU3X3ZQMV9IdmR2OHVfdWRmLVppZU5JdmV5VzhkX0s1dWVxOFJLbno1S0xhenlMOW1NQUhXUHNCeklOel9Yb0NzaDlBYjZYMVcxNHllS1lrb1BTTzZDVHZiOXVrYjFvdzJhd0lDQmFxQWZNZVc1MUJURUhFdGFpSGt1dVpwbWMtM0tWb2daVDM5WDM3c3d4aE9WS0xVZG5SY0tjcDF2enRiS2xYZVZyNk5NUjdpMWVMdVE2bm9MYmFZNG42Vmh3R3hKMzBMYmhoRGZDZzdKNG1wRUdXSmVhSQ?oc=5",
+          "firstSeen": "2026-11-16T18:13:28.055781+00:00",
+          "isNew": true,
+          "titleKey": "condenaron cuatro hombres vender drogas noticiasnqn",
+          "evidenceUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOV1N6Z2dsbUJLaFRVWDA0VGlfWVN5anplY3h3MnpObEdWUFM0YVlvYS1LeklISmo3ZHRIMjZ3U3p5bndhZTVveTFVR1k5YWJRcmpwLUZpTkJvUFlocnBRbTVRaEhxcDQzOC1xZmRYRDAtZUxMNDdKeXdmMlBOS3FSVDdWOWtVN1FGQVB3X0VjRkpsclNQbDkwdU1wYWhjOUhiTnJKd0RyQ0E5WE8yQnRkaERFdXZyRDM3dUZGMGlGM2dlY0N2dUdDbWJUZmprTEHSAc8BQVVfeXFMTldTemdnbG1CS2hUVVgwNFRpX1lTeWp6ZWN4dzJ6TmxHVlBTNGFZb2EtS3pJSEpqN2R0SDI2d1N6eW53YWU1b3kxVUdZOWFiUXJqcC1GaU5Cb1BZaHJwUW01UWhIcXA0MzgtcWZkWEQwLWVMTDQ3Snl3ZjJQTktxUlQ3VjlrVTdRRkFQd19FY0ZKbHJTUGw5MHVNcGFoYzlIYk5ySndEckNBOVhPMkJ0ZGhERXV2ckQzN3VGRjBpRjNnZWNDdnVHQ21iVGZqa0xB?oc=5",
           "sourcePriority": 3
         },
         {
@@ -3436,7 +3461,7 @@
           "relevance": 3,
           "relevanceLabel": "DIRECTA",
           "firstSeen": "2026-11-16T07:48:06.524480+00:00",
-          "isNew": true,
+          "isNew": false,
           "titleKey": "rally neuquino villanueva dio catedra llanos grito tricampeon diario rio negro",
           "evidenceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPakFyeFFzUEpucFFlME9FM19Kc0xORXV4aGFkOHBBejlzOS1td3lTMHFiRVpneEJLeWFLQ1pZRDFLTkpQcXoxb2p0cFpSVnlqb1NIQTBHZms1ZHpvOXhQSWxtQm5wanZuMVRmdzJRVEE3eHdiVXp3Y0t0SjQxdU1yUkpRWEQxRHlReXptcFRqdVhnVDVSdjNRMzV6VXY5ZldZWDM1ZmN0UnhBbjh0el9fQThsTTN1ZzFDRS10VEJYMNIBxwFBVV95cUxNQ0t2eThUQkM1bThiMXEzaHBZZTdqQVdjaVlNOWQyTldGNjlXTWxFdVRZanB1WExWdFR5eTZHTE9reXF2bmVfa1VkZS1uc1FYWTR1dXoySnFCZUZNc2VuRHVycU5WbTdUOHZEdExIWkVCRkNJd3ZKcDlPMVlpSFRnS0JSZkVsNnNVR3B2dGxSNGhHcjVRMk5QbGc1cTZVOTc0aU9tYm42UUNXa2o5N3lrYjMtbmU2NVJIalZMb1RpYWl5UHNUVHlj?oc=5",
           "sourcePriority": 3
@@ -3462,14 +3487,15 @@
         }
       ],
       "lifecycle": "ACTIVO",
-      "movementDelta": 62,
-      "previousCoverage": 3,
+      "movementDelta": 82,
+      "previousCoverage": 2,
       "newSources": [
-        "tuitvacamuerta.com",
+        "Vaca Muerta News",
+        "Mejor Informado",
+        "Diario Neuquino",
         "Neuquen Informa",
-        "Flipr.news",
+        "NoticiasNQN",
         "Diario Río Negro",
-        "Patagonia Press",
         "ANBariloche"
       ],
       "sourceDiversity": 7,
@@ -3513,7 +3539,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SEGURIDAD / EMERGENCIAS",
-      "movement": 84,
+      "movement": 82,
       "coverage": 5,
       "sourceCount": 5,
       "directSourceCount": 0,
@@ -3621,7 +3647,7 @@
           "relevance": 3,
           "relevanceLabel": "DIRECTA",
           "firstSeen": "2026-11-16T07:48:06.524480+00:00",
-          "isNew": true,
+          "isNew": false,
           "titleKey": "bomberos estrenan cuartel autobomba diario rio negro",
           "evidenceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQZFVJbWpVMWtpSU83U21qOG52UndBeWVBRTZmeU00OENGLUVxX0JQWXhmc2FjcklWMHpUT3NMaDVhQWRQN1ltWl9iNHd4TmZtYjVGR3FwRDlkdHBQTVZjWTJ1d3k2NG1IaUtoZWxaTjEyM2xKWE90UWtZRVVFMzhhMng0aFVkcmpVUThPRFNhMFNxaTQxczhmNVJNUXFYa3ZIMUNicXVOcDVWUE3SAbMBQVVfeXFMTzQwQllRVVl4MktIS2I1XzBBYXVLMzl2RzFwc2ZENG9HOTJZUnJCdC0za0lQb19Tay1aMG8ycFJMRWc1NEpqYmRlNXd2dU1fTFFZUnUxcGpFQWlYbGR5MTFTSVFhenNmV3pmTzExSWYwMldBZ2NZdVNNR0VJS3AxYnA1ZEo2QzJMemZ4cUNINk52QmZodE5tRVpLUUtPNTZJMG9obTB3ajQySEVoUnlacU95Nms?oc=5",
           "sourcePriority": 3
@@ -3671,16 +3697,16 @@
       }
     },
     {
-      "eventId": "CHA-bee41affb1d5",
-      "title": "San Patricio del Chañar: licitan una obra de cloacas para 347 lotes por más de $1.216 millones - Diario Neuquino",
-      "publishedAt": "2026-11-15T11:13:20+00:00",
-      "firstSeen": "2026-11-15T15:31:48.842015+00:00",
-      "lastSeen": "2026-11-15T11:13:20+00:00",
+      "eventId": "CHA-cda83ea1a3cc",
+      "title": "Salazar ganó la general y Llanos se consagró tricampeón de la A6 en San Patricio del Chañar - Cutral Co al Instante",
+      "publishedAt": "2026-11-16T17:09:00+00:00",
+      "firstSeen": "2026-11-16T18:13:28.055781+00:00",
+      "lastSeen": "2026-11-16T17:09:00+00:00",
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
-      "topic": "INSTITUCIONES",
-      "movement": 55,
+      "topic": "PRODUCCIÓN",
+      "movement": 61,
       "coverage": 1,
       "sourceCount": 1,
       "directSourceCount": 0,
@@ -3689,34 +3715,36 @@
         "el chañar"
       ],
       "sources": [
-        "Diario Neuquino"
+        "Cutral Co al Instante"
       ],
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNVlNjamcxWlpoMExJOC1sM3czQjBzdzZkQ3daVWZaYlBCRWhpUnotdnBpUFloeVZidjVsNGJqNXRlZzdzSGlVd2pnSnA5LUtKUlBMREI1VmVDYlFPS2tiZm43QnVvOHBkYmZ3eEhyeHluVG5qQ2hTUTk0LUxuUGVTbDdmcFlpbjZOdmJJOF9hdG14VFJoM1V2QlZmTnIyb3laX0NJWEtNbnhtNDBKS3V3UF8tMms3dGpwb0hDRmItM0M?oc=5",
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNelBtV3ZmSVA2N2N6V2Z3VTBxRTduUU1zUEM4TFRUVXJXTk1JN2l4VzJYaGxzYnVxamhKajROYnRaVW8tU1YzYVBLT2VySE5uLTdZWWpVZnEwTTZWTm90Z1dlZG9jX3lYbUo2V3BlOGJpVVhvb2FhRm9KeTZ0Q3g5UVpMV3U5TmJQY2FwYUJIdVJ2bEQ5d01EVjdBRFhYYXFRWFFMMnMySmtObW83cVpPSzJaRTBfN3l4SklseU1rYlo5Y25TRTVqUjB6cWcxYm1yWUNCUw?oc=5",
       "items": [
         {
-          "title": "San Patricio del Chañar: licitan una obra de cloacas para 347 lotes por más de $1.216 millones - Diario Neuquino",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNVlNjamcxWlpoMExJOC1sM3czQjBzdzZkQ3daVWZaYlBCRWhpUnotdnBpUFloeVZidjVsNGJqNXRlZzdzSGlVd2pnSnA5LUtKUlBMREI1VmVDYlFPS2tiZm43QnVvOHBkYmZ3eEhyeHluVG5qQ2hTUTk0LUxuUGVTbDdmcFlpbjZOdmJJOF9hdG14VFJoM1V2QlZmTnIyb3laX0NJWEtNbnhtNDBKS3V3UF8tMms3dGpwb0hDRmItM0M?oc=5",
-          "publishedAt": "2026-11-15T11:13:20+00:00",
-          "published": "2026-11-15T11:13:20+00:00",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxNVlNjamcxWlpoMExJOC1sM3czQjBzdzZkQ3daVWZaYlBCRWhpUnotdnBpUFloeVZidjVsNGJqNXRlZzdzSGlVd2pnSnA5LUtKUlBMREI1VmVDYlFPS2tiZm43QnVvOHBkYmZ3eEhyeHluVG5qQ2hTUTk0LUxuUGVTbDdmcFlpbjZOdmJJOF9hdG14VFJoM1V2QlZmTnIyb3laX0NJWEtNbnhtNDBKS3V3UF8tMms3dGpwb0hDRmItM0M?oc=5\" target=\"_blank\">San Patricio del Chañar: licitan una obra de cloacas para 347 lotes por más de $1.216 millones</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Diario Neuquino</font>",
-          "source": "Diario Neuquino",
+          "title": "Salazar ganó la general y Llanos se consagró tricampeón de la A6 en San Patricio del Chañar - Cutral Co al Instante",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNelBtV3ZmSVA2N2N6V2Z3VTBxRTduUU1zUEM4TFRUVXJXTk1JN2l4VzJYaGxzYnVxamhKajROYnRaVW8tU1YzYVBLT2VySE5uLTdZWWpVZnEwTTZWTm90Z1dlZG9jX3lYbUo2V3BlOGJpVVhvb2FhRm9KeTZ0Q3g5UVpMV3U5TmJQY2FwYUJIdVJ2bEQ5d01EVjdBRFhYYXFRWFFMMnMySmtObW83cVpPSzJaRTBfN3l4SklseU1rYlo5Y25TRTVqUjB6cWcxYm1yWUNCUw?oc=5",
+          "publishedAt": "2026-11-16T17:09:00+00:00",
+          "published": "2026-11-16T17:09:00+00:00",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMi1AFBVV95cUxNelBtV3ZmSVA2N2N6V2Z3VTBxRTduUU1zUEM4TFRUVXJXTk1JN2l4VzJYaGxzYnVxamhKajROYnRaVW8tU1YzYVBLT2VySE5uLTdZWWpVZnEwTTZWTm90Z1dlZG9jX3lYbUo2V3BlOGJpVVhvb2FhRm9KeTZ0Q3g5UVpMV3U5TmJQY2FwYUJIdVJ2bEQ5d01EVjdBRFhYYXFRWFFMMnMySmtObW83cVpPSzJaRTBfN3l4SklseU1rYlo5Y25TRTVqUjB6cWcxYm1yWUNCUw?oc=5\" target=\"_blank\">Salazar ganó la general y Llanos se consagró tricampeón de la A6 en San Patricio del Chañar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Cutral Co al Instante</font>",
+          "source": "Cutral Co al Instante",
           "sourceType": "BUSCADOR / RESPALDO",
           "sourceUrl": "",
           "collection": "BUSCADOR",
           "query": "\"San Patricio del Chañar\"",
           "relevance": 3,
           "relevanceLabel": "DIRECTA",
-          "firstSeen": "2026-11-15T15:31:48.842015+00:00",
-          "isNew": false,
-          "titleKey": "licitan obra cloacas 347 lotes mas 216 millones diario neuquino",
-          "evidenceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNVlNjamcxWlpoMExJOC1sM3czQjBzdzZkQ3daVWZaYlBCRWhpUnotdnBpUFloeVZidjVsNGJqNXRlZzdzSGlVd2pnSnA5LUtKUlBMREI1VmVDYlFPS2tiZm43QnVvOHBkYmZ3eEhyeHluVG5qQ2hTUTk0LUxuUGVTbDdmcFlpbjZOdmJJOF9hdG14VFJoM1V2QlZmTnIyb3laX0NJWEtNbnhtNDBKS3V3UF8tMms3dGpwb0hDRmItM0M?oc=5",
+          "firstSeen": "2026-11-16T18:13:28.055781+00:00",
+          "isNew": true,
+          "titleKey": "salazar gano general llanos consagro tricampeon cutral instante",
+          "evidenceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNelBtV3ZmSVA2N2N6V2Z3VTBxRTduUU1zUEM4TFRUVXJXTk1JN2l4VzJYaGxzYnVxamhKajROYnRaVW8tU1YzYVBLT2VySE5uLTdZWWpVZnEwTTZWTm90Z1dlZG9jX3lYbUo2V3BlOGJpVVhvb2FhRm9KeTZ0Q3g5UVpMV3U5TmJQY2FwYUJIdVJ2bEQ5d01EVjdBRFhYYXFRWFFMMnMySmtObW83cVpPSzJaRTBfN3l4SklseU1rYlo5Y25TRTVqUjB6cWcxYm1yWUNCUw?oc=5",
           "sourcePriority": 3
         }
       ],
       "lifecycle": "EMERGENTE",
-      "movementDelta": -2,
-      "previousCoverage": 1,
-      "newSources": [],
+      "movementDelta": 14,
+      "previousCoverage": 5,
+      "newSources": [
+        "Cutral Co al Instante"
+      ],
       "sourceDiversity": 1,
       "memoryMatched": true,
       "isNew": false,
@@ -3749,151 +3777,68 @@
       }
     },
     {
-      "eventId": "CHA-9d97715d7c22",
-      "title": "El Parque Industrial se posiciona como motor logístico para abastecer la actividad de Vaca Muerta y potenciar a las empresas locales. – Tuit 90.5 -Vaca Muerta - tuitvacamuerta.com",
-      "publishedAt": "2026-11-15T01:25:50+00:00",
-      "firstSeen": "2026-11-15T07:42:29.242371+00:00",
-      "lastSeen": "2026-11-15T01:25:50+00:00",
-      "relevance": 3,
-      "relevanceLabel": "DIRECTA",
-      "incidenceLabel": "DIRECTA EN CHANAR",
-      "topic": "SERVICIOS",
-      "movement": 53,
-      "coverage": 1,
-      "sourceCount": 1,
-      "directSourceCount": 0,
-      "territorialAnchors": [
-        "parque industrial"
-      ],
-      "sources": [
-        "tuitvacamuerta.com"
-      ],
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNVElKSXNqRTk2a1M5WVNRdk1WLUpvUV8zV0V3ajZqTGJNNFJ5WEpMbGhnYUFrb1dNcGE1R2NiV1NnVklMbC1Eelo1UzF1SXh0bmpLYzlydHNPaV8wb2s1YzA2XzBqTFAteDRJWmJ4VnJWT2JRb0hKNFJfRnZldEJzLTZja1dJa0tJTlpwSzJwemMzQmI4V25tUERfd1ZVS3VhVFFVTk5MeDMxZlN5Wm1Ha3FNTkdmQTQ1S0VGZGVlYmIxTlVUdVhTc3ZueHVSV3dNYk91Z01CQ1liaU5VSjExdXpHamJuZTdjQnF4R3BBUDVBUQ?oc=5",
-      "items": [
-        {
-          "title": "El Parque Industrial se posiciona como motor logístico para abastecer la actividad de Vaca Muerta y potenciar a las empresas locales. – Tuit 90.5 -Vaca Muerta - tuitvacamuerta.com",
-          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNVElKSXNqRTk2a1M5WVNRdk1WLUpvUV8zV0V3ajZqTGJNNFJ5WEpMbGhnYUFrb1dNcGE1R2NiV1NnVklMbC1Eelo1UzF1SXh0bmpLYzlydHNPaV8wb2s1YzA2XzBqTFAteDRJWmJ4VnJWT2JRb0hKNFJfRnZldEJzLTZja1dJa0tJTlpwSzJwemMzQmI4V25tUERfd1ZVS3VhVFFVTk5MeDMxZlN5Wm1Ha3FNTkdmQTQ1S0VGZGVlYmIxTlVUdVhTc3ZueHVSV3dNYk91Z01CQ1liaU5VSjExdXpHamJuZTdjQnF4R3BBUDVBUQ?oc=5",
-          "publishedAt": "2026-11-15T01:25:50+00:00",
-          "published": "2026-11-15T01:25:50+00:00",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMi8gFBVV95cUxNVElKSXNqRTk2a1M5WVNRdk1WLUpvUV8zV0V3ajZqTGJNNFJ5WEpMbGhnYUFrb1dNcGE1R2NiV1NnVklMbC1Eelo1UzF1SXh0bmpLYzlydHNPaV8wb2s1YzA2XzBqTFAteDRJWmJ4VnJWT2JRb0hKNFJfRnZldEJzLTZja1dJa0tJTlpwSzJwemMzQmI4V25tUERfd1ZVS3VhVFFVTk5MeDMxZlN5Wm1Ha3FNTkdmQTQ1S0VGZGVlYmIxTlVUdVhTc3ZueHVSV3dNYk91Z01CQ1liaU5VSjExdXpHamJuZTdjQnF4R3BBUDVBUQ?oc=5\" target=\"_blank\">El Parque Industrial se posiciona como motor logístico para abastecer la actividad de Vaca Muerta y potenciar a las empresas locales. – Tuit 90.5 -Vaca Muerta</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">tuitvacamuerta.com</font>",
-          "source": "tuitvacamuerta.com",
-          "sourceType": "BUSCADOR / RESPALDO",
-          "sourceUrl": "",
-          "collection": "BUSCADOR",
-          "query": "site:tuitvacamuerta.com \"San Patricio del Chañar\"",
-          "relevance": 3,
-          "relevanceLabel": "DIRECTA",
-          "firstSeen": "2026-11-15T07:42:29.242371+00:00",
-          "isNew": false,
-          "titleKey": "parque industrial posiciona como motor logistico abastecer actividad vaca muerta potenciar empresas locales tuit vaca muerta tuitvacamuerta com",
-          "evidenceUrl": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNVElKSXNqRTk2a1M5WVNRdk1WLUpvUV8zV0V3ajZqTGJNNFJ5WEpMbGhnYUFrb1dNcGE1R2NiV1NnVklMbC1Eelo1UzF1SXh0bmpLYzlydHNPaV8wb2s1YzA2XzBqTFAteDRJWmJ4VnJWT2JRb0hKNFJfRnZldEJzLTZja1dJa0tJTlpwSzJwemMzQmI4V25tUERfd1ZVS3VhVFFVTk5MeDMxZlN5Wm1Ha3FNTkdmQTQ1S0VGZGVlYmIxTlVUdVhTc3ZueHVSV3dNYk91Z01CQ1liaU5VSjExdXpHamJuZTdjQnF4R3BBUDVBUQ?oc=5",
-          "sourcePriority": 3
-        }
-      ],
-      "lifecycle": "SOSTENIDO",
-      "movementDelta": -2,
-      "previousCoverage": 1,
-      "newSources": [],
-      "sourceDiversity": 1,
-      "memoryMatched": true,
-      "isNew": false,
-      "view": "INCIDENCIA",
-      "incidenceEligible": true,
-      "signalReason": "reservado a incidencia territorial",
-      "incidenceReason": "anclaje directo + tema operativo/local",
-      "territory": {
-        "version": "2.0",
-        "primary": "San Patricio del Chañar",
-        "nodes": [
-          "San Patricio del Chañar",
-          "Parque Industrial"
-        ],
-        "sectors": [
-          "Parque Industrial"
-        ],
-        "barrios": [],
-        "microzones": [],
-        "corridors": [],
-        "institutions": [],
-        "services": [],
-        "spaces": [],
-        "production": [],
-        "path": "San Patricio del Chañar → Parque Industrial",
-        "evidence": [
-          {
-            "node": "San Patricio del Chañar",
-            "level": "localidad",
-            "evidence": "DIRECTA"
-          },
-          {
-            "node": "Parque Industrial",
-            "level": "sector",
-            "evidence": "TEXTUAL"
-          }
-        ]
-      }
-    },
-    {
-      "eventId": "CHA-a4eacfbce29e",
-      "title": "Rally Neuquino en San Patricio del Chañar: Bruno Campos anticipó una fecha clave del campeonato - Chañar Digital",
+      "eventId": "CHA-9404640e2987",
+      "title": "Cuatro condenados por narcomenudeo en El Chañar: uno irá a prisión efectiva y pagarán multas por más de $17 millones - Diario Río Negro",
       "publishedAt": "2026-11-13T21:57:17+00:00",
-      "firstSeen": "2026-11-14T02:08:28.859890+00:00",
+      "firstSeen": "2026-11-13T21:52:20.362037+00:00",
       "lastSeen": "2026-11-13T21:57:17+00:00",
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SERVICIOS",
-      "movement": 47,
+      "movement": 57,
       "coverage": 5,
-      "sourceCount": 3,
+      "sourceCount": 5,
       "directSourceCount": 0,
       "territorialAnchors": [
-        "san patricio del chañar",
-        "el chañar"
+        "el chañar",
+        "san patricio del chañar"
       ],
       "sources": [
+        "Diario Río Negro",
+        "Patagonia Press",
         "Chañar Digital",
         "Vaca Muerta News",
         "MejorInformado.com"
       ],
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQVW50RVdpUTR2N3FVbDR1bHFLUFBsV2UwMHFJaDRBQ3dqMnQ1cDJTVWpMbFhPZ1k5YTh6czJSZjJaUE9GeEpjSGFoYXE0ZXJiTGdKVmpXakxRdU5rSVNwdkFJWDRlY2ZKVWVRZExJZE1ra3Zodl9jbGpiYW83THFtX20tQldzV2h0eWxjSzQ0UHFKNmF5ZEM3cmt6WjdUNm85WkN3dTNXcHFlc3gzRUFxZlI2M0dfM29YR1NQRmlwLUY5Z21wWml1Mnd6TEo4S0VrQzVTVkxiX3dkMXY5OWMxWUZR?oc=5",
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPUUI4LVNyY3BvYXI3SnZnSWpOR0ItcFhPMmU5ZWxVSmdMdlpVZ3pRZzJtZHJGR3IyVnRkanpZZFVySG44Vm1PWlB1Tm9meXZhREdpZUo3T1VKVDdXeVhNM0hwUmF5LXZjdWtjVGNpdW5zdUZzSkdVZkdpTEJaQmRHLV9HWVFVOXpKVWhLR1BUQUxXb3RDY0JlVEc3aHk1SnJ5WVRpaE1VVUtLNFV1V29FSmZiRlc2NlZneUx3TWdDMzFqQ1NMOHgyYVFIRzZDMG5lSi1KNlRocDAzclBzajE2b3R6a3FBaWdqcHRzdU9TTHpkUdIB-gFBVV95cUxQZENxWU9xSTRLNUd5UGQyQ09tRGpFTU1sMmxhR2RxajBiYWN5d1dNeGxqNzJyalphdkJkcWJEcDhEMTBRejJSS3lKVmh1UjRIb01mRVNsZ0Q2WWUxLUFFRFFUTTlqbHZoZFVUQnZHamtva3FEbVhGMy12dU5kZjNHUzJ4andMWW5MaUlGbzJrMEl3S3VQOFdzaXlrZkFNTTY4UHhTVF9KTUg5dnJRRDIwOVM0VnVsUnBWY0RsNzg2b1hqYXA4NnhPcFRtcVJoMlVsUGMySVNmS21wbGZGZkl3ekwzUDFVblVKNGc1cXpCRFNkcWZuMXMwOVl3?oc=5",
       "items": [
         {
-          "title": "Rally Neuquino en San Patricio del Chañar: Bruno Campos anticipó una fecha clave del campeonato - Chañar Digital",
-          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQVW50RVdpUTR2N3FVbDR1bHFLUFBsV2UwMHFJaDRBQ3dqMnQ1cDJTVWpMbFhPZ1k5YTh6czJSZjJaUE9GeEpjSGFoYXE0ZXJiTGdKVmpXakxRdU5rSVNwdkFJWDRlY2ZKVWVRZExJZE1ra3Zodl9jbGpiYW83THFtX20tQldzV2h0eWxjSzQ0UHFKNmF5ZEM3cmt6WjdUNm85WkN3dTNXcHFlc3gzRUFxZlI2M0dfM29YR1NQRmlwLUY5Z21wWml1Mnd6TEo4S0VrQzVTVkxiX3dkMXY5OWMxWUZR?oc=5",
-          "publishedAt": "2026-11-13T21:57:17+00:00",
-          "published": "2026-11-13T21:57:17+00:00",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMi4gFBVV95cUxQVW50RVdpUTR2N3FVbDR1bHFLUFBsV2UwMHFJaDRBQ3dqMnQ1cDJTVWpMbFhPZ1k5YTh6czJSZjJaUE9GeEpjSGFoYXE0ZXJiTGdKVmpXakxRdU5rSVNwdkFJWDRlY2ZKVWVRZExJZE1ra3Zodl9jbGpiYW83THFtX20tQldzV2h0eWxjSzQ0UHFKNmF5ZEM3cmt6WjdUNm85WkN3dTNXcHFlc3gzRUFxZlI2M0dfM29YR1NQRmlwLUY5Z21wWml1Mnd6TEo4S0VrQzVTVkxiX3dkMXY5OWMxWUZR?oc=5\" target=\"_blank\">Rally Neuquino en San Patricio del Chañar: Bruno Campos anticipó una fecha clave del campeonato</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Chañar Digital</font>",
-          "source": "Chañar Digital",
-          "sourceType": "BUSCADOR / RESPALDO",
-          "sourceUrl": "",
-          "collection": "BUSCADOR",
-          "query": "site:chanardigital.com.ar \"San Patricio del Chañar\"",
-          "relevance": 3,
-          "relevanceLabel": "DIRECTA",
-          "firstSeen": "2026-11-14T02:08:28.859890+00:00",
-          "isNew": false,
-          "titleKey": "rally neuquino bruno campos anticipo fecha clave campeonato digital",
-          "evidenceUrl": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQVW50RVdpUTR2N3FVbDR1bHFLUFBsV2UwMHFJaDRBQ3dqMnQ1cDJTVWpMbFhPZ1k5YTh6czJSZjJaUE9GeEpjSGFoYXE0ZXJiTGdKVmpXakxRdU5rSVNwdkFJWDRlY2ZKVWVRZExJZE1ra3Zodl9jbGpiYW83THFtX20tQldzV2h0eWxjSzQ0UHFKNmF5ZEM3cmt6WjdUNm85WkN3dTNXcHFlc3gzRUFxZlI2M0dfM29YR1NQRmlwLUY5Z21wWml1Mnd6TEo4S0VrQzVTVkxiX3dkMXY5OWMxWUZR?oc=5",
-          "sourcePriority": 3
-        },
-        {
-          "title": "San Patricio del Chañar crece al ritmo de Vaca Muerta - Vaca Muerta News",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQbGJsYVZWUW05OWRTWnBhQkV5R1dOX0NxSWY0Y0QwNmlHTG9GTFlXSDlOOFRuRkM3OThWTGljMlZrXzFqSmNBemVzSXllYkVBMUl5bDZHTk1UTWtUTWNoR3VQLVZHN0hHbWhDUDRNT3lmVUxSdjFpYThLWkJsdkNoUXMxUkxPMmRxOG9SSEQxZXZ2aHRjTTdpUzJadnh4QdIBlAFBVV95cUxPdkxSSGhvcWpqc3JSTVVsdUJ1WUEyUTF4b3pBaGNoNTB6SmtQVHNDdW5laGl3RkZSR2sxd004MFpLcVFDSDFEaDVYOHdNNDZfQ2p2NlB5U1FIdFU2TFRac2hMczZZMldMeG5vUkVSWUJnSkpZS1RCZlJtZ3VmY3FjMUxhbG9LZEU0YmtYdXU1QS16VEhp?oc=5",
-          "publishedAt": "2026-11-13T20:19:49+00:00",
-          "published": "2026-11-13T20:19:49+00:00",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxQbGJsYVZWUW05OWRTWnBhQkV5R1dOX0NxSWY0Y0QwNmlHTG9GTFlXSDlOOFRuRkM3OThWTGljMlZrXzFqSmNBemVzSXllYkVBMUl5bDZHTk1UTWtUTWNoR3VQLVZHN0hHbWhDUDRNT3lmVUxSdjFpYThLWkJsdkNoUXMxUkxPMmRxOG9SSEQxZXZ2aHRjTTdpUzJadnh4QdIBlAFBVV95cUxPdkxSSGhvcWpqc3JSTVVsdUJ1WUEyUTF4b3pBaGNoNTB6SmtQVHNDdW5laGl3RkZSR2sxd004MFpLcVFDSDFEaDVYOHdNNDZfQ2p2NlB5U1FIdFU2TFRac2hMczZZMldMeG5vUkVSWUJnSkpZS1RCZlJtZ3VmY3FjMUxhbG9LZEU0YmtYdXU1QS16VEhp?oc=5\" target=\"_blank\">San Patricio del Chañar crece al ritmo de Vaca Muerta</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Vaca Muerta News</font>",
-          "source": "Vaca Muerta News",
+          "title": "Cuatro condenados por narcomenudeo en El Chañar: uno irá a prisión efectiva y pagarán multas por más de $17 millones - Diario Río Negro",
+          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPUUI4LVNyY3BvYXI3SnZnSWpOR0ItcFhPMmU5ZWxVSmdMdlpVZ3pRZzJtZHJGR3IyVnRkanpZZFVySG44Vm1PWlB1Tm9meXZhREdpZUo3T1VKVDdXeVhNM0hwUmF5LXZjdWtjVGNpdW5zdUZzSkdVZkdpTEJaQmRHLV9HWVFVOXpKVWhLR1BUQUxXb3RDY0JlVEc3aHk1SnJ5WVRpaE1VVUtLNFV1V29FSmZiRlc2NlZneUx3TWdDMzFqQ1NMOHgyYVFIRzZDMG5lSi1KNlRocDAzclBzajE2b3R6a3FBaWdqcHRzdU9TTHpkUdIB-gFBVV95cUxQZENxWU9xSTRLNUd5UGQyQ09tRGpFTU1sMmxhR2RxajBiYWN5d1dNeGxqNzJyalphdkJkcWJEcDhEMTBRejJSS3lKVmh1UjRIb01mRVNsZ0Q2WWUxLUFFRFFUTTlqbHZoZFVUQnZHamtva3FEbVhGMy12dU5kZjNHUzJ4andMWW5MaUlGbzJrMEl3S3VQOFdzaXlrZkFNTTY4UHhTVF9KTUg5dnJRRDIwOVM0VnVsUnBWY0RsNzg2b1hqYXA4NnhPcFRtcVJoMlVsUGMySVNmS21wbGZGZkl3ekwzUDFVblVKNGc1cXpCRFNkcWZuMXMwOVl3?oc=5",
+          "publishedAt": "2026-11-13T17:53:53+00:00",
+          "published": "2026-11-13T17:53:53+00:00",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMi8gFBVV95cUxPUUI4LVNyY3BvYXI3SnZnSWpOR0ItcFhPMmU5ZWxVSmdMdlpVZ3pRZzJtZHJGR3IyVnRkanpZZFVySG44Vm1PWlB1Tm9meXZhREdpZUo3T1VKVDdXeVhNM0hwUmF5LXZjdWtjVGNpdW5zdUZzSkdVZkdpTEJaQmRHLV9HWVFVOXpKVWhLR1BUQUxXb3RDY0JlVEc3aHk1SnJ5WVRpaE1VVUtLNFV1V29FSmZiRlc2NlZneUx3TWdDMzFqQ1NMOHgyYVFIRzZDMG5lSi1KNlRocDAzclBzajE2b3R6a3FBaWdqcHRzdU9TTHpkUdIB-gFBVV95cUxQZENxWU9xSTRLNUd5UGQyQ09tRGpFTU1sMmxhR2RxajBiYWN5d1dNeGxqNzJyalphdkJkcWJEcDhEMTBRejJSS3lKVmh1UjRIb01mRVNsZ0Q2WWUxLUFFRFFUTTlqbHZoZFVUQnZHamtva3FEbVhGMy12dU5kZjNHUzJ4andMWW5MaUlGbzJrMEl3S3VQOFdzaXlrZkFNTTY4UHhTVF9KTUg5dnJRRDIwOVM0VnVsUnBWY0RsNzg2b1hqYXA4NnhPcFRtcVJoMlVsUGMySVNmS21wbGZGZkl3ekwzUDFVblVKNGc1cXpCRFNkcWZuMXMwOVl3?oc=5\" target=\"_blank\">Cuatro condenados por narcomenudeo en El Chañar: uno irá a prisión efectiva y pagarán multas por más de $17 millones</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Diario Río Negro</font>",
+          "source": "Diario Río Negro",
           "sourceType": "BUSCADOR / RESPALDO",
           "sourceUrl": "",
           "collection": "BUSCADOR",
           "query": "\"San Patricio del Chañar\"",
           "relevance": 3,
           "relevanceLabel": "DIRECTA",
-          "firstSeen": "2026-11-14T02:08:28.859890+00:00",
+          "firstSeen": "2026-11-13T21:52:20.362037+00:00",
           "isNew": false,
-          "titleKey": "crece ritmo vaca muerta vaca muerta news",
-          "evidenceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxQbGJsYVZWUW05OWRTWnBhQkV5R1dOX0NxSWY0Y0QwNmlHTG9GTFlXSDlOOFRuRkM3OThWTGljMlZrXzFqSmNBemVzSXllYkVBMUl5bDZHTk1UTWtUTWNoR3VQLVZHN0hHbWhDUDRNT3lmVUxSdjFpYThLWkJsdkNoUXMxUkxPMmRxOG9SSEQxZXZ2aHRjTTdpUzJadnh4QdIBlAFBVV95cUxPdkxSSGhvcWpqc3JSTVVsdUJ1WUEyUTF4b3pBaGNoNTB6SmtQVHNDdW5laGl3RkZSR2sxd004MFpLcVFDSDFEaDVYOHdNNDZfQ2p2NlB5U1FIdFU2TFRac2hMczZZMldMeG5vUkVSWUJnSkpZS1RCZlJtZ3VmY3FjMUxhbG9LZEU0YmtYdXU1QS16VEhp?oc=5",
+          "titleKey": "cuatro condenados narcomenudeo uno ira prision efectiva pagaran multas mas millones diario rio negro",
+          "evidenceUrl": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPUUI4LVNyY3BvYXI3SnZnSWpOR0ItcFhPMmU5ZWxVSmdMdlpVZ3pRZzJtZHJGR3IyVnRkanpZZFVySG44Vm1PWlB1Tm9meXZhREdpZUo3T1VKVDdXeVhNM0hwUmF5LXZjdWtjVGNpdW5zdUZzSkdVZkdpTEJaQmRHLV9HWVFVOXpKVWhLR1BUQUxXb3RDY0JlVEc3aHk1SnJ5WVRpaE1VVUtLNFV1V29FSmZiRlc2NlZneUx3TWdDMzFqQ1NMOHgyYVFIRzZDMG5lSi1KNlRocDAzclBzajE2b3R6a3FBaWdqcHRzdU9TTHpkUdIB-gFBVV95cUxQZENxWU9xSTRLNUd5UGQyQ09tRGpFTU1sMmxhR2RxajBiYWN5d1dNeGxqNzJyalphdkJkcWJEcDhEMTBRejJSS3lKVmh1UjRIb01mRVNsZ0Q2WWUxLUFFRFFUTTlqbHZoZFVUQnZHamtva3FEbVhGMy12dU5kZjNHUzJ4andMWW5MaUlGbzJrMEl3S3VQOFdzaXlrZkFNTTY4UHhTVF9KTUg5dnJRRDIwOVM0VnVsUnBWY0RsNzg2b1hqYXA4NnhPcFRtcVJoMlVsUGMySVNmS21wbGZGZkl3ekwzUDFVblVKNGc1cXpCRFNkcWZuMXMwOVl3?oc=5",
+          "sourcePriority": 3
+        },
+        {
+          "title": "Condenaron a cuatro narcos de San Patricio del Chañar: uno quedó preso y deberán pagar $17 millones - Patagonia Press",
+          "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNYS1yM2ZvYng5eS0wakc3aDU3X3ZQMV9IdmR2OHVfdWRmLVppZU5JdmV5VzhkX0s1dWVxOFJLbno1S0xhenlMOW1NQUhXUHNCeklOel9Yb0NzaDlBYjZYMVcxNHllS1lrb1BTTzZDVHZiOXVrYjFvdzJhd0lDQmFxQWZNZVc1MUJURUhFdGFpSGt1dVpwbWMtM0tWb2daVDM5WDM3c3d4aE9WS0xVZG5SY0tjcDF2enRiS2xYZVZyNk5NUjdpMWVMdVE2bm9MYmFZNG42Vmh3R3hKMzBMYmhoRGZDZzdKNG1wRUdXSmVhSQ?oc=5",
+          "publishedAt": "2026-11-13T17:12:59+00:00",
+          "published": "2026-11-13T17:12:59+00:00",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMi7wFBVV95cUxNYS1yM2ZvYng5eS0wakc3aDU3X3ZQMV9IdmR2OHVfdWRmLVppZU5JdmV5VzhkX0s1dWVxOFJLbno1S0xhenlMOW1NQUhXUHNCeklOel9Yb0NzaDlBYjZYMVcxNHllS1lrb1BTTzZDVHZiOXVrYjFvdzJhd0lDQmFxQWZNZVc1MUJURUhFdGFpSGt1dVpwbWMtM0tWb2daVDM5WDM3c3d4aE9WS0xVZG5SY0tjcDF2enRiS2xYZVZyNk5NUjdpMWVMdVE2bm9MYmFZNG42Vmh3R3hKMzBMYmhoRGZDZzdKNG1wRUdXSmVhSQ?oc=5\" target=\"_blank\">Condenaron a cuatro narcos de San Patricio del Chañar: uno quedó preso y deberán pagar $17 millones</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Patagonia Press</font>",
+          "source": "Patagonia Press",
+          "sourceType": "BUSCADOR / RESPALDO",
+          "sourceUrl": "",
+          "collection": "BUSCADOR",
+          "query": "\"San Patricio del Chañar\"",
+          "relevance": 3,
+          "relevanceLabel": "DIRECTA",
+          "firstSeen": "2026-11-13T21:52:20.362037+00:00",
+          "isNew": false,
+          "titleKey": "condenaron cuatro narcos uno quedo preso deberan pagar millones patagonia press",
+          "evidenceUrl": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNYS1yM2ZvYng5eS0wakc3aDU3X3ZQMV9IdmR2OHVfdWRmLVppZU5JdmV5VzhkX0s1dWVxOFJLbno1S0xhenlMOW1NQUhXUHNCeklOel9Yb0NzaDlBYjZYMVcxNHllS1lrb1BTTzZDVHZiOXVrYjFvdzJhd0lDQmFxQWZNZVc1MUJURUhFdGFpSGt1dVpwbWMtM0tWb2daVDM5WDM3c3d4aE9WS0xVZG5SY0tjcDF2enRiS2xYZVZyNk5NUjdpMWVMdVE2bm9MYmFZNG42Vmh3R3hKMzBMYmhoRGZDZzdKNG1wRUdXSmVhSQ?oc=5",
           "sourcePriority": 3
         },
         {
@@ -3948,19 +3893,21 @@
           "relevance": 3,
           "relevanceLabel": "DIRECTA",
           "firstSeen": "2026-11-16T07:48:06.524480+00:00",
-          "isNew": true,
+          "isNew": false,
           "titleKey": "rampa promocional arrancara rally mejorinformado com",
           "evidenceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQNWlab19aX05paDlMMXlJcGVNM0hZei1Hb3BjcTdHSXptQ2dTUnM0cHJmdTJsNzdwRFVURU0yNUlCWUtpVGlMN1JHUENPd2dMZ1V6LU9jU3dyRHVEcWlXa0IwVmlBcmtVckFIWGZTTVRCY3Fjb21qOWRONEtZaEpLLWFRQ09nX3JvYWxSV1dPcExNLXRheEw0bm5VcHk4czZraXB1NFVJMNIBpwFBVV95cUxQNWlab19aX05paDlMMXlJcGVNM0hZei1Hb3BjcTdHSXptQ2dTUnM0cHJmdTJsNzdwRFVURU0yNUlCWUtpVGlMN1JHUENPd2dMZ1V6LU9jU3dyRHVEcWlXa0IwVmlBcmtVckFIWGZTTVRCY3Fjb21qOWRONEtZaEpLLWFRQ09nX3JvYWxSV1dPcExNLXRheEw0bm5VcHk4czZraXB1NFVJMA?oc=5",
           "sourcePriority": 3
         }
       ],
-      "lifecycle": "SIN NUEVA COBERTURA",
-      "movementDelta": 0,
+      "lifecycle": "ACTIVO",
+      "movementDelta": 29,
       "previousCoverage": 1,
       "newSources": [
+        "Diario Río Negro",
+        "Patagonia Press",
         "Vaca Muerta News"
       ],
-      "sourceDiversity": 3,
+      "sourceDiversity": 5,
       "memoryMatched": true,
       "isNew": false,
       "view": "INCIDENCIA",
@@ -3989,8 +3936,92 @@
             "evidence": "DIRECTA"
           }
         ]
-      },
-      "sourceContinuity": "fuente conocida sin respuesta; no se infiere desaparición"
+      }
+    },
+    {
+      "eventId": "CHA-9d97715d7c22",
+      "title": "El Parque Industrial se posiciona como motor logístico para abastecer la actividad de Vaca Muerta y potenciar a las empresas locales. – Tuit 90.5 -Vaca Muerta - tuitvacamuerta.com",
+      "publishedAt": "2026-11-15T01:25:50+00:00",
+      "firstSeen": "2026-11-15T07:42:29.242371+00:00",
+      "lastSeen": "2026-11-15T01:25:50+00:00",
+      "relevance": 3,
+      "relevanceLabel": "DIRECTA",
+      "incidenceLabel": "DIRECTA EN CHANAR",
+      "topic": "SERVICIOS",
+      "movement": 50,
+      "coverage": 1,
+      "sourceCount": 1,
+      "directSourceCount": 0,
+      "territorialAnchors": [
+        "parque industrial"
+      ],
+      "sources": [
+        "tuitvacamuerta.com"
+      ],
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNVElKSXNqRTk2a1M5WVNRdk1WLUpvUV8zV0V3ajZqTGJNNFJ5WEpMbGhnYUFrb1dNcGE1R2NiV1NnVklMbC1Eelo1UzF1SXh0bmpLYzlydHNPaV8wb2s1YzA2XzBqTFAteDRJWmJ4VnJWT2JRb0hKNFJfRnZldEJzLTZja1dJa0tJTlpwSzJwemMzQmI4V25tUERfd1ZVS3VhVFFVTk5MeDMxZlN5Wm1Ha3FNTkdmQTQ1S0VGZGVlYmIxTlVUdVhTc3ZueHVSV3dNYk91Z01CQ1liaU5VSjExdXpHamJuZTdjQnF4R3BBUDVBUQ?oc=5",
+      "items": [
+        {
+          "title": "El Parque Industrial se posiciona como motor logístico para abastecer la actividad de Vaca Muerta y potenciar a las empresas locales. – Tuit 90.5 -Vaca Muerta - tuitvacamuerta.com",
+          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNVElKSXNqRTk2a1M5WVNRdk1WLUpvUV8zV0V3ajZqTGJNNFJ5WEpMbGhnYUFrb1dNcGE1R2NiV1NnVklMbC1Eelo1UzF1SXh0bmpLYzlydHNPaV8wb2s1YzA2XzBqTFAteDRJWmJ4VnJWT2JRb0hKNFJfRnZldEJzLTZja1dJa0tJTlpwSzJwemMzQmI4V25tUERfd1ZVS3VhVFFVTk5MeDMxZlN5Wm1Ha3FNTkdmQTQ1S0VGZGVlYmIxTlVUdVhTc3ZueHVSV3dNYk91Z01CQ1liaU5VSjExdXpHamJuZTdjQnF4R3BBUDVBUQ?oc=5",
+          "publishedAt": "2026-11-15T01:25:50+00:00",
+          "published": "2026-11-15T01:25:50+00:00",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMi8gFBVV95cUxNVElKSXNqRTk2a1M5WVNRdk1WLUpvUV8zV0V3ajZqTGJNNFJ5WEpMbGhnYUFrb1dNcGE1R2NiV1NnVklMbC1Eelo1UzF1SXh0bmpLYzlydHNPaV8wb2s1YzA2XzBqTFAteDRJWmJ4VnJWT2JRb0hKNFJfRnZldEJzLTZja1dJa0tJTlpwSzJwemMzQmI4V25tUERfd1ZVS3VhVFFVTk5MeDMxZlN5Wm1Ha3FNTkdmQTQ1S0VGZGVlYmIxTlVUdVhTc3ZueHVSV3dNYk91Z01CQ1liaU5VSjExdXpHamJuZTdjQnF4R3BBUDVBUQ?oc=5\" target=\"_blank\">El Parque Industrial se posiciona como motor logístico para abastecer la actividad de Vaca Muerta y potenciar a las empresas locales. – Tuit 90.5 -Vaca Muerta</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">tuitvacamuerta.com</font>",
+          "source": "tuitvacamuerta.com",
+          "sourceType": "BUSCADOR / RESPALDO",
+          "sourceUrl": "",
+          "collection": "BUSCADOR",
+          "query": "site:tuitvacamuerta.com \"San Patricio del Chañar\"",
+          "relevance": 3,
+          "relevanceLabel": "DIRECTA",
+          "firstSeen": "2026-11-15T07:42:29.242371+00:00",
+          "isNew": false,
+          "titleKey": "parque industrial posiciona como motor logistico abastecer actividad vaca muerta potenciar empresas locales tuit vaca muerta tuitvacamuerta com",
+          "evidenceUrl": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNVElKSXNqRTk2a1M5WVNRdk1WLUpvUV8zV0V3ajZqTGJNNFJ5WEpMbGhnYUFrb1dNcGE1R2NiV1NnVklMbC1Eelo1UzF1SXh0bmpLYzlydHNPaV8wb2s1YzA2XzBqTFAteDRJWmJ4VnJWT2JRb0hKNFJfRnZldEJzLTZja1dJa0tJTlpwSzJwemMzQmI4V25tUERfd1ZVS3VhVFFVTk5MeDMxZlN5Wm1Ha3FNTkdmQTQ1S0VGZGVlYmIxTlVUdVhTc3ZueHVSV3dNYk91Z01CQ1liaU5VSjExdXpHamJuZTdjQnF4R3BBUDVBUQ?oc=5",
+          "sourcePriority": 3
+        }
+      ],
+      "lifecycle": "SOSTENIDO",
+      "movementDelta": -3,
+      "previousCoverage": 1,
+      "newSources": [],
+      "sourceDiversity": 1,
+      "memoryMatched": true,
+      "isNew": false,
+      "view": "INCIDENCIA",
+      "incidenceEligible": true,
+      "signalReason": "reservado a incidencia territorial",
+      "incidenceReason": "anclaje directo + tema operativo/local",
+      "territory": {
+        "version": "2.0",
+        "primary": "San Patricio del Chañar",
+        "nodes": [
+          "San Patricio del Chañar",
+          "Parque Industrial"
+        ],
+        "sectors": [
+          "Parque Industrial"
+        ],
+        "barrios": [],
+        "microzones": [],
+        "corridors": [],
+        "institutions": [],
+        "services": [],
+        "spaces": [],
+        "production": [],
+        "path": "San Patricio del Chañar → Parque Industrial",
+        "evidence": [
+          {
+            "node": "San Patricio del Chañar",
+            "level": "localidad",
+            "evidence": "DIRECTA"
+          },
+          {
+            "node": "Parque Industrial",
+            "level": "sector",
+            "evidence": "TEXTUAL"
+          }
+        ]
+      }
     },
     {
       "eventId": "CHA-4b8240322bf2",
@@ -4159,7 +4190,7 @@
           "relevance": 3,
           "relevanceLabel": "DIRECTA",
           "firstSeen": "2026-11-16T07:48:06.524480+00:00",
-          "isNew": true,
+          "isNew": false,
           "titleKey": "educacion ambiental reunio 350 estudiantes informa",
           "evidenceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPQWZaQTl3aERRc0g2OW04T1d3dkFvbThwRnMzMUtscFpFRTEyRlBVbmVXcWhud3RrMnVNY3pkcnNlaEwzamF0ZVdqZTVodFlsdUdDVy14MHFWZGpQZWw5dlU5T3MtaGJablhjamtySjFnQ0lnWnFzQzhhT2lRUktrdm5HblhMN19kMThlbWVodzVia2lmQmhoS01MRHJLUU9zT0xkelRSTjUxRXRwa1pqc0FTaDMxa3FoaS1zSHVWU2w2ZEl2NFFCeFdVWXMyTWVD0gHWAUFVX3lxTE13TFNYRF9NQkdwRXhMdF9mRlEyYlVIRDdFeU1mMkZhVkxHQmlGNlEyRUltbmx2QWlRWlJFSFRvRHk3RTQ1QUQ3RFMwSnZjZGhnU0c1bmZ4Y3NyaVdBOXRmWEU4czRKcm9pN3NURUp5ekZzbkFVSEpYNHl3Y0VxZGhIdng0OU9GamYtNTdxNF9ncXFvLUNxTXJzNm9kbjZUa1d1SjAxQ19zZEZILWhjakxVVGlfVkI4QnNpRFRtNnY1SFA1RFVTQU1oZXZyNTdvdl90NHNRTHc?oc=5",
           "sourcePriority": 3
@@ -4204,91 +4235,6 @@
       }
     },
     {
-      "eventId": "CHA-6da81d99e91d",
-      "title": "Más de 100 familias de Campo Grande reclaman avances en el Loteo Social Burgos - Chañar Digital",
-      "publishedAt": "2026-11-11T06:01:49+00:00",
-      "firstSeen": "2026-11-11T14:00:15.972541+00:00",
-      "lastSeen": "2026-11-11T06:01:49+00:00",
-      "relevance": 3,
-      "relevanceLabel": "DIRECTA",
-      "incidenceLabel": "DIRECTA EN CHANAR",
-      "topic": "SERVICIOS",
-      "movement": 28,
-      "coverage": 1,
-      "sourceCount": 1,
-      "directSourceCount": 0,
-      "territorialAnchors": [
-        "loteo social"
-      ],
-      "sources": [
-        "Chañar Digital"
-      ],
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOcDdRTW1JZHRsSUh1Q1JhZkhkWnVsbkJjMVpJdmlXWTBKNDlSRUhNMUtsRjlfMzBpLURIX1Z4WTJ5SEpuNU9YX3hDcWgtOGdZMVRLMkd6YS1HaUl4aVFaVmF0d0dzdGZNREdkZkJTdEFhSmYxWjllUVdYdTh6TDdlWjFpVUoxWHU1bE4xaXRXUXo5SjVHSFNOUlBTSDg1UHhoSDduY2NldkJscXZMcEZTeVpLY2w0aUx2cG5UcklLWjQzT2NnUVBadEZFV2k?oc=5",
-      "items": [
-        {
-          "title": "Más de 100 familias de Campo Grande reclaman avances en el Loteo Social Burgos - Chañar Digital",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOcDdRTW1JZHRsSUh1Q1JhZkhkWnVsbkJjMVpJdmlXWTBKNDlSRUhNMUtsRjlfMzBpLURIX1Z4WTJ5SEpuNU9YX3hDcWgtOGdZMVRLMkd6YS1HaUl4aVFaVmF0d0dzdGZNREdkZkJTdEFhSmYxWjllUVdYdTh6TDdlWjFpVUoxWHU1bE4xaXRXUXo5SjVHSFNOUlBTSDg1UHhoSDduY2NldkJscXZMcEZTeVpLY2w0aUx2cG5UcklLWjQzT2NnUVBadEZFV2k?oc=5",
-          "publishedAt": "2026-11-11T06:01:49+00:00",
-          "published": "2026-11-11T06:01:49+00:00",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMizAFBVV95cUxOcDdRTW1JZHRsSUh1Q1JhZkhkWnVsbkJjMVpJdmlXWTBKNDlSRUhNMUtsRjlfMzBpLURIX1Z4WTJ5SEpuNU9YX3hDcWgtOGdZMVRLMkd6YS1HaUl4aVFaVmF0d0dzdGZNREdkZkJTdEFhSmYxWjllUVdYdTh6TDdlWjFpVUoxWHU1bE4xaXRXUXo5SjVHSFNOUlBTSDg1UHhoSDduY2NldkJscXZMcEZTeVpLY2w0aUx2cG5UcklLWjQzT2NnUVBadEZFV2k?oc=5\" target=\"_blank\">Más de 100 familias de Campo Grande reclaman avances en el Loteo Social Burgos</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Chañar Digital</font>",
-          "source": "Chañar Digital",
-          "sourceType": "BUSCADOR / RESPALDO",
-          "sourceUrl": "",
-          "collection": "BUSCADOR",
-          "query": "site:chanardigital.com.ar \"San Patricio del Chañar\"",
-          "relevance": 3,
-          "relevanceLabel": "DIRECTA",
-          "firstSeen": "2026-11-11T14:00:15.972541+00:00",
-          "isNew": false,
-          "titleKey": "mas 100 familias campo grande reclaman avances loteo social burgos digital",
-          "evidenceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOcDdRTW1JZHRsSUh1Q1JhZkhkWnVsbkJjMVpJdmlXWTBKNDlSRUhNMUtsRjlfMzBpLURIX1Z4WTJ5SEpuNU9YX3hDcWgtOGdZMVRLMkd6YS1HaUl4aVFaVmF0d0dzdGZNREdkZkJTdEFhSmYxWjllUVdYdTh6TDdlWjFpVUoxWHU1bE4xaXRXUXo5SjVHSFNOUlBTSDg1UHhoSDduY2NldkJscXZMcEZTeVpLY2w0aUx2cG5UcklLWjQzT2NnUVBadEZFV2k?oc=5",
-          "sourcePriority": 3
-        }
-      ],
-      "lifecycle": "EN DESCENSO",
-      "movementDelta": -2,
-      "previousCoverage": 1,
-      "newSources": [],
-      "sourceDiversity": 1,
-      "memoryMatched": true,
-      "isNew": false,
-      "view": "INCIDENCIA",
-      "incidenceEligible": true,
-      "signalReason": "reservado a incidencia territorial",
-      "incidenceReason": "anclaje directo + tema operativo/local",
-      "territory": {
-        "version": "2.0",
-        "primary": "San Patricio del Chañar",
-        "nodes": [
-          "San Patricio del Chañar",
-          "Loteo Social"
-        ],
-        "sectors": [
-          "Loteo Social"
-        ],
-        "barrios": [],
-        "microzones": [],
-        "corridors": [],
-        "institutions": [],
-        "services": [],
-        "spaces": [],
-        "production": [],
-        "path": "San Patricio del Chañar → Loteo Social",
-        "evidence": [
-          {
-            "node": "San Patricio del Chañar",
-            "level": "localidad",
-            "evidence": "DIRECTA"
-          },
-          {
-            "node": "Loteo Social",
-            "level": "sector",
-            "evidence": "TEXTUAL"
-          }
-        ]
-      }
-    },
-    {
       "eventId": "CHA-07615adc0efe",
       "title": "Una delegación de San Patricio del Chañar viajó a Luján para participar de la misa del papa León XIV - Chañar Digital",
       "publishedAt": "2026-11-10T14:01:17+00:00",
@@ -4298,16 +4244,17 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SERVICIOS",
-      "movement": 28,
-      "coverage": 3,
-      "sourceCount": 1,
+      "movement": 26,
+      "coverage": 4,
+      "sourceCount": 2,
       "directSourceCount": 0,
       "territorialAnchors": [
         "san patricio del chañar",
         "el chañar"
       ],
       "sources": [
-        "Chañar Digital"
+        "Chañar Digital",
+        "NoticiasNQN"
       ],
       "evidenceUrl": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOSjN0RGhmVlgzeWVPVGY4ZWthU3VybE81UXNGLVhvV0JoN1poNnZERjBLczBjRFJEM1R4UFpYM2hUdTI1UzZPdjVjdU51Sy1tT2hsNVctd2ZNUVpXamx1UnBXSm5wYVFFSFFqMXoxNUZCNDgtcDk3MTNUeEZ2dTExSlF1MjRGa3BLcmdhQUFvWEY2OU9ySXNkWGNUeE5rMWhNcE90eFFLSE5PT3hCVE1kejhKSFpMVjhDY3pHbkV4cUw3WEpkejNsOW5BQXdpaWZmZmVRWnYtYmVscUktWGdvSElmUzJ5ZnYwdUE?oc=5",
       "items": [
@@ -4367,15 +4314,35 @@
           "titleKey": "vecinos zona rural llevan tres dias sin agua reclaman respuestas digital",
           "evidenceUrl": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQT3JvbDdBSkZPMEhCSmloTEdiX2lNRURsbEx1Y1F4S1VsRkRaY0FkWU00ejJWSXYxNzdTcEd3ZG5CMXYxVGVoZUQ1YmNlTEJDUFBhVWFXRUM1a3lteDRodDV3bERkdTJOX25zX1VQN3dXckZDNDA2Sk9jNkJ5anMyTl9FRy1PSlNPVUlzdVlFeTd0Nk1YLU1uZi1GcUE0VW1NeU5Yck1UX1VmM3ZwVjIydzhpQTctU3h4cTczMlpSS0NTWlBHY04tcTlaa0lBbHlmeVJtRWdrMUlIOW5iSGd5WGFmc2s5Z19x?oc=5",
           "sourcePriority": 3
+        },
+        {
+          "title": "San Patricio del Chañar será sede de una nueva fecha del Rally Neuquino - NoticiasNQN",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNk9jdGxwSEQ4TmxiLURmcHlSemtkNnp5R3NySHV3MWpCNXVRS09nYnlidmFGRnp2VzkxRk5nTVJVWi14VWl0Q05LRURuM2JkMXE4WFRyaWNURnh4WTNqaEZKNFV3SmhVTFBwVW5neUplRnVKTTM0a0h5c3ZXWEJqRXFyOUVUTE5UeEJvcDJHeWVYeHI2dmF0T3pxSmdvR0NuaXZCZkV5NEFPRG9jVnhmQmVXNUJIT01TU3VLYzBnRndvRkRFbzlZdNIBzgFBVV95cUxQQU5oSnZGRHF2R1NZUUpzM2h3ZFRTcmlSZldzQi1Nc3d0N3pCcXFzMlU0YjQzZ1BCT2xLVjQ4TzN2ZkhpR1ZJcC1ieFZZNzAtQThGaFVJSlhaeWd3NE9GaFZoM2doSV85eW91S19KMG5vbGhNbVBOdURfYkJ5TjJYbUxseHhqV1ZTZXlQMjlfREkxOEJ0cDNQYnYwV2RkMGlsU3RIWEZkZjNhRDh5YWh1LWFzd0xqYzhuMHdvVGhGMEZRYU5mQmVOUzVHYmJnZw?oc=5",
+          "publishedAt": "2026-11-10T12:22:36+00:00",
+          "published": "2026-11-10T12:22:36+00:00",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNk9jdGxwSEQ4TmxiLURmcHlSemtkNnp5R3NySHV3MWpCNXVRS09nYnlidmFGRnp2VzkxRk5nTVJVWi14VWl0Q05LRURuM2JkMXE4WFRyaWNURnh4WTNqaEZKNFV3SmhVTFBwVW5neUplRnVKTTM0a0h5c3ZXWEJqRXFyOUVUTE5UeEJvcDJHeWVYeHI2dmF0T3pxSmdvR0NuaXZCZkV5NEFPRG9jVnhmQmVXNUJIT01TU3VLYzBnRndvRkRFbzlZdNIBzgFBVV95cUxQQU5oSnZGRHF2R1NZUUpzM2h3ZFRTcmlSZldzQi1Nc3d0N3pCcXFzMlU0YjQzZ1BCT2xLVjQ4TzN2ZkhpR1ZJcC1ieFZZNzAtQThGaFVJSlhaeWd3NE9GaFZoM2doSV85eW91S19KMG5vbGhNbVBOdURfYkJ5TjJYbUxseHhqV1ZTZXlQMjlfREkxOEJ0cDNQYnYwV2RkMGlsU3RIWEZkZjNhRDh5YWh1LWFzd0xqYzhuMHdvVGhGMEZRYU5mQmVOUzVHYmJnZw?oc=5\" target=\"_blank\">San Patricio del Chañar será sede de una nueva fecha del Rally Neuquino</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NoticiasNQN</font>",
+          "source": "NoticiasNQN",
+          "sourceType": "BUSCADOR / RESPALDO",
+          "sourceUrl": "",
+          "collection": "BUSCADOR",
+          "query": "\"San Patricio del Chañar\"",
+          "relevance": 3,
+          "relevanceLabel": "DIRECTA",
+          "firstSeen": "2026-11-16T18:13:28.055781+00:00",
+          "isNew": true,
+          "titleKey": "sera sede nueva fecha rally neuquino noticiasnqn",
+          "evidenceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNk9jdGxwSEQ4TmxiLURmcHlSemtkNnp5R3NySHV3MWpCNXVRS09nYnlidmFGRnp2VzkxRk5nTVJVWi14VWl0Q05LRURuM2JkMXE4WFRyaWNURnh4WTNqaEZKNFV3SmhVTFBwVW5neUplRnVKTTM0a0h5c3ZXWEJqRXFyOUVUTE5UeEJvcDJHeWVYeHI2dmF0T3pxSmdvR0NuaXZCZkV5NEFPRG9jVnhmQmVXNUJIT01TU3VLYzBnRndvRkRFbzlZdNIBzgFBVV95cUxQQU5oSnZGRHF2R1NZUUpzM2h3ZFRTcmlSZldzQi1Nc3d0N3pCcXFzMlU0YjQzZ1BCT2xLVjQ4TzN2ZkhpR1ZJcC1ieFZZNzAtQThGaFVJSlhaeWd3NE9GaFZoM2doSV85eW91S19KMG5vbGhNbVBOdURfYkJ5TjJYbUxseHhqV1ZTZXlQMjlfREkxOEJ0cDNQYnYwV2RkMGlsU3RIWEZkZjNhRDh5YWh1LWFzd0xqYzhuMHdvVGhGMEZRYU5mQmVOUzVHYmJnZw?oc=5",
+          "sourcePriority": 3
         }
       ],
       "lifecycle": "ACTIVO",
       "movementDelta": 0,
       "previousCoverage": 0,
       "newSources": [
-        "Chañar Digital"
+        "Chañar Digital",
+        "NoticiasNQN"
       ],
-      "sourceDiversity": 1,
+      "sourceDiversity": 2,
       "memoryMatched": false,
       "isNew": true,
       "view": "INCIDENCIA",
@@ -4402,6 +4369,93 @@
             "node": "San Patricio del Chañar",
             "level": "localidad",
             "evidence": "DIRECTA"
+          }
+        ]
+      }
+    },
+    {
+      "eventId": "CHA-6da81d99e91d",
+      "title": "Más de 100 familias de Campo Grande reclaman avances en el Loteo Social Burgos - Chañar Digital",
+      "publishedAt": "2026-11-11T06:01:49+00:00",
+      "firstSeen": "2026-11-11T14:00:15.972541+00:00",
+      "lastSeen": "2026-11-11T06:01:49+00:00",
+      "relevance": 3,
+      "relevanceLabel": "DIRECTA",
+      "incidenceLabel": "DIRECTA EN CHANAR",
+      "topic": "SERVICIOS",
+      "movement": 25,
+      "coverage": 1,
+      "sourceCount": 1,
+      "directSourceCount": 0,
+      "territorialAnchors": [
+        "loteo social"
+      ],
+      "sources": [
+        "Chañar Digital"
+      ],
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOcDdRTW1JZHRsSUh1Q1JhZkhkWnVsbkJjMVpJdmlXWTBKNDlSRUhNMUtsRjlfMzBpLURIX1Z4WTJ5SEpuNU9YX3hDcWgtOGdZMVRLMkd6YS1HaUl4aVFaVmF0d0dzdGZNREdkZkJTdEFhSmYxWjllUVdYdTh6TDdlWjFpVUoxWHU1bE4xaXRXUXo5SjVHSFNOUlBTSDg1UHhoSDduY2NldkJscXZMcEZTeVpLY2w0aUx2cG5UcklLWjQzT2NnUVBadEZFV2k?oc=5",
+      "items": [
+        {
+          "title": "Más de 100 familias de Campo Grande reclaman avances en el Loteo Social Burgos - Chañar Digital",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOcDdRTW1JZHRsSUh1Q1JhZkhkWnVsbkJjMVpJdmlXWTBKNDlSRUhNMUtsRjlfMzBpLURIX1Z4WTJ5SEpuNU9YX3hDcWgtOGdZMVRLMkd6YS1HaUl4aVFaVmF0d0dzdGZNREdkZkJTdEFhSmYxWjllUVdYdTh6TDdlWjFpVUoxWHU1bE4xaXRXUXo5SjVHSFNOUlBTSDg1UHhoSDduY2NldkJscXZMcEZTeVpLY2w0aUx2cG5UcklLWjQzT2NnUVBadEZFV2k?oc=5",
+          "publishedAt": "2026-11-11T06:01:49+00:00",
+          "published": "2026-11-11T06:01:49+00:00",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMizAFBVV95cUxOcDdRTW1JZHRsSUh1Q1JhZkhkWnVsbkJjMVpJdmlXWTBKNDlSRUhNMUtsRjlfMzBpLURIX1Z4WTJ5SEpuNU9YX3hDcWgtOGdZMVRLMkd6YS1HaUl4aVFaVmF0d0dzdGZNREdkZkJTdEFhSmYxWjllUVdYdTh6TDdlWjFpVUoxWHU1bE4xaXRXUXo5SjVHSFNOUlBTSDg1UHhoSDduY2NldkJscXZMcEZTeVpLY2w0aUx2cG5UcklLWjQzT2NnUVBadEZFV2k?oc=5\" target=\"_blank\">Más de 100 familias de Campo Grande reclaman avances en el Loteo Social Burgos</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Chañar Digital</font>",
+          "source": "Chañar Digital",
+          "sourceType": "BUSCADOR / RESPALDO",
+          "sourceUrl": "",
+          "collection": "BUSCADOR",
+          "query": "site:chanardigital.com.ar \"San Patricio del Chañar\"",
+          "relevance": 3,
+          "relevanceLabel": "DIRECTA",
+          "firstSeen": "2026-11-11T14:00:15.972541+00:00",
+          "isNew": false,
+          "titleKey": "mas 100 familias campo grande reclaman avances loteo social burgos digital",
+          "evidenceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOcDdRTW1JZHRsSUh1Q1JhZkhkWnVsbkJjMVpJdmlXWTBKNDlSRUhNMUtsRjlfMzBpLURIX1Z4WTJ5SEpuNU9YX3hDcWgtOGdZMVRLMkd6YS1HaUl4aVFaVmF0d0dzdGZNREdkZkJTdEFhSmYxWjllUVdYdTh6TDdlWjFpVUoxWHU1bE4xaXRXUXo5SjVHSFNOUlBTSDg1UHhoSDduY2NldkJscXZMcEZTeVpLY2w0aUx2cG5UcklLWjQzT2NnUVBadEZFV2k?oc=5",
+          "sourcePriority": 3
+        }
+      ],
+      "lifecycle": "ACTIVO",
+      "movementDelta": 0,
+      "previousCoverage": 0,
+      "newSources": [
+        "Chañar Digital"
+      ],
+      "sourceDiversity": 1,
+      "memoryMatched": false,
+      "isNew": true,
+      "view": "INCIDENCIA",
+      "incidenceEligible": true,
+      "signalReason": "reservado a incidencia territorial",
+      "incidenceReason": "anclaje directo + tema operativo/local",
+      "territory": {
+        "version": "2.0",
+        "primary": "San Patricio del Chañar",
+        "nodes": [
+          "San Patricio del Chañar",
+          "Loteo Social"
+        ],
+        "sectors": [
+          "Loteo Social"
+        ],
+        "barrios": [],
+        "microzones": [],
+        "corridors": [],
+        "institutions": [],
+        "services": [],
+        "spaces": [],
+        "production": [],
+        "path": "San Patricio del Chañar → Loteo Social",
+        "evidence": [
+          {
+            "node": "San Patricio del Chañar",
+            "level": "localidad",
+            "evidence": "DIRECTA"
+          },
+          {
+            "node": "Loteo Social",
+            "level": "sector",
+            "evidence": "TEXTUAL"
           }
         ]
       }
@@ -4679,6 +4733,44 @@
   ],
   "items": [
     {
+      "title": "Salazar ganó la general y Llanos se consagró tricampeón de la A6 en San Patricio del Chañar - Cutral Co al Instante",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNelBtV3ZmSVA2N2N6V2Z3VTBxRTduUU1zUEM4TFRUVXJXTk1JN2l4VzJYaGxzYnVxamhKajROYnRaVW8tU1YzYVBLT2VySE5uLTdZWWpVZnEwTTZWTm90Z1dlZG9jX3lYbUo2V3BlOGJpVVhvb2FhRm9KeTZ0Q3g5UVpMV3U5TmJQY2FwYUJIdVJ2bEQ5d01EVjdBRFhYYXFRWFFMMnMySmtObW83cVpPSzJaRTBfN3l4SklseU1rYlo5Y25TRTVqUjB6cWcxYm1yWUNCUw?oc=5",
+      "publishedAt": "2026-11-16T17:09:00+00:00",
+      "published": "2026-11-16T17:09:00+00:00",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMi1AFBVV95cUxNelBtV3ZmSVA2N2N6V2Z3VTBxRTduUU1zUEM4TFRUVXJXTk1JN2l4VzJYaGxzYnVxamhKajROYnRaVW8tU1YzYVBLT2VySE5uLTdZWWpVZnEwTTZWTm90Z1dlZG9jX3lYbUo2V3BlOGJpVVhvb2FhRm9KeTZ0Q3g5UVpMV3U5TmJQY2FwYUJIdVJ2bEQ5d01EVjdBRFhYYXFRWFFMMnMySmtObW83cVpPSzJaRTBfN3l4SklseU1rYlo5Y25TRTVqUjB6cWcxYm1yWUNCUw?oc=5\" target=\"_blank\">Salazar ganó la general y Llanos se consagró tricampeón de la A6 en San Patricio del Chañar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Cutral Co al Instante</font>",
+      "source": "Cutral Co al Instante",
+      "sourceType": "BUSCADOR / RESPALDO",
+      "sourceUrl": "",
+      "collection": "BUSCADOR",
+      "query": "\"San Patricio del Chañar\"",
+      "relevance": 3,
+      "relevanceLabel": "DIRECTA",
+      "firstSeen": "2026-11-16T18:13:28.055781+00:00",
+      "isNew": true,
+      "titleKey": "salazar gano general llanos consagro tricampeon cutral instante",
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNelBtV3ZmSVA2N2N6V2Z3VTBxRTduUU1zUEM4TFRUVXJXTk1JN2l4VzJYaGxzYnVxamhKajROYnRaVW8tU1YzYVBLT2VySE5uLTdZWWpVZnEwTTZWTm90Z1dlZG9jX3lYbUo2V3BlOGJpVVhvb2FhRm9KeTZ0Q3g5UVpMV3U5TmJQY2FwYUJIdVJ2bEQ5d01EVjdBRFhYYXFRWFFMMnMySmtObW83cVpPSzJaRTBfN3l4SklseU1rYlo5Y25TRTVqUjB6cWcxYm1yWUNCUw?oc=5",
+      "sourcePriority": 3
+    },
+    {
+      "title": "Licitarán la red de cloacas para 347 lotes en San Patricio del Chañar - Vaca Muerta News",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPY0ttcXhwRmhUWTNiWWNCNGxGTEpDUnpxemxCY082dTJ5bHZmRUdoeFFaWmFKOTFaTFUwZ1NFWkNLWmRFeFhqU3Q2VVJOTjFXX3hoS1NzTmR2ekhNaHJoNjJ5TERKOHBuWEh3OU1lWnVEZDZqOTBpSzhrdGxDQTNpZlJjUFVkcTBDelp2YkRxR0c4WDJneUduemljbEFSeWdpaTU4NnJ5MHpsQlptM2hVMNIBpwFBVV95cUxPcUx1NlpsdFM4VTdiNXNlUEVPS3JBMDFrSFl0d0NjVjVTMWZXZ0RkSUlpREdOaHl0TzVUNHhSbnJDX3J1bVptNlZQVHVWdF9sZzBaZFMxQU4tOTA1T1JmZmVxSVVWTXhoOXlyRWdvTE5BT1BocUxWWVo3VGNIbV9kNXdqREJRS3VlVk9xbU1VWkdtNUd4RGM5VlhHZ2lLZVNJY1ZRWm9YWQ?oc=5",
+      "publishedAt": "2026-11-16T10:20:46+00:00",
+      "published": "2026-11-16T10:20:46+00:00",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxPY0ttcXhwRmhUWTNiWWNCNGxGTEpDUnpxemxCY082dTJ5bHZmRUdoeFFaWmFKOTFaTFUwZ1NFWkNLWmRFeFhqU3Q2VVJOTjFXX3hoS1NzTmR2ekhNaHJoNjJ5TERKOHBuWEh3OU1lWnVEZDZqOTBpSzhrdGxDQTNpZlJjUFVkcTBDelp2YkRxR0c4WDJneUduemljbEFSeWdpaTU4NnJ5MHpsQlptM2hVMNIBpwFBVV95cUxPcUx1NlpsdFM4VTdiNXNlUEVPS3JBMDFrSFl0d0NjVjVTMWZXZ0RkSUlpREdOaHl0TzVUNHhSbnJDX3J1bVptNlZQVHVWdF9sZzBaZFMxQU4tOTA1T1JmZmVxSVVWTXhoOXlyRWdvTE5BT1BocUxWWVo3VGNIbV9kNXdqREJRS3VlVk9xbU1VWkdtNUd4RGM5VlhHZ2lLZVNJY1ZRWm9YWQ?oc=5\" target=\"_blank\">Licitarán la red de cloacas para 347 lotes en San Patricio del Chañar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Vaca Muerta News</font>",
+      "source": "Vaca Muerta News",
+      "sourceType": "BUSCADOR / RESPALDO",
+      "sourceUrl": "",
+      "collection": "BUSCADOR",
+      "query": "\"San Patricio del Chañar\" \"Vaca Muerta\"",
+      "relevance": 3,
+      "relevanceLabel": "DIRECTA",
+      "firstSeen": "2026-11-16T18:13:28.055781+00:00",
+      "isNew": true,
+      "titleKey": "licitaran red cloacas 347 lotes vaca muerta news",
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPY0ttcXhwRmhUWTNiWWNCNGxGTEpDUnpxemxCY082dTJ5bHZmRUdoeFFaWmFKOTFaTFUwZ1NFWkNLWmRFeFhqU3Q2VVJOTjFXX3hoS1NzTmR2ekhNaHJoNjJ5TERKOHBuWEh3OU1lWnVEZDZqOTBpSzhrdGxDQTNpZlJjUFVkcTBDelp2YkRxR0c4WDJneUduemljbEFSeWdpaTU4NnJ5MHpsQlptM2hVMNIBpwFBVV95cUxPcUx1NlpsdFM4VTdiNXNlUEVPS3JBMDFrSFl0d0NjVjVTMWZXZ0RkSUlpREdOaHl0TzVUNHhSbnJDX3J1bVptNlZQVHVWdF9sZzBaZFMxQU4tOTA1T1JmZmVxSVVWTXhoOXlyRWdvTE5BT1BocUxWWVo3VGNIbV9kNXdqREJRS3VlVk9xbU1VWkdtNUd4RGM5VlhHZ2lLZVNJY1ZRWm9YWQ?oc=5",
+      "sourcePriority": 3
+    },
+    {
       "title": "Rally Neuquino: Villanueva dio cátedra y Llanos gritó tricampeón en El Chañar - Diario Río Negro",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPakFyeFFzUEpucFFlME9FM19Kc0xORXV4aGFkOHBBejlzOS1td3lTMHFiRVpneEJLeWFLQ1pZRDFLTkpQcXoxb2p0cFpSVnlqb1NIQTBHZms1ZHpvOXhQSWxtQm5wanZuMVRmdzJRVEE3eHdiVXp3Y0t0SjQxdU1yUkpRWEQxRHlReXptcFRqdVhnVDVSdjNRMzV6VXY5ZldZWDM1ZmN0UnhBbjh0el9fQThsTTN1ZzFDRS10VEJYMNIBxwFBVV95cUxNQ0t2eThUQkM1bThiMXEzaHBZZTdqQVdjaVlNOWQyTldGNjlXTWxFdVRZanB1WExWdFR5eTZHTE9reXF2bmVfa1VkZS1uc1FYWTR1dXoySnFCZUZNc2VuRHVycU5WbTdUOHZEdExIWkVCRkNJd3ZKcDlPMVlpSFRnS0JSZkVsNnNVR3B2dGxSNGhHcjVRMk5QbGc1cTZVOTc0aU9tYm42UUNXa2o5N3lrYjMtbmU2NVJIalZMb1RpYWl5UHNUVHlj?oc=5",
       "publishedAt": "2026-11-16T00:12:23+00:00",
@@ -4692,7 +4784,7 @@
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "firstSeen": "2026-11-16T07:48:06.524480+00:00",
-      "isNew": true,
+      "isNew": false,
       "titleKey": "rally neuquino villanueva dio catedra llanos grito tricampeon diario rio negro",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPakFyeFFzUEpucFFlME9FM19Kc0xORXV4aGFkOHBBejlzOS1td3lTMHFiRVpneEJLeWFLQ1pZRDFLTkpQcXoxb2p0cFpSVnlqb1NIQTBHZms1ZHpvOXhQSWxtQm5wanZuMVRmdzJRVEE3eHdiVXp3Y0t0SjQxdU1yUkpRWEQxRHlReXptcFRqdVhnVDVSdjNRMzV6VXY5ZldZWDM1ZmN0UnhBbjh0el9fQThsTTN1ZzFDRS10VEJYMNIBxwFBVV95cUxNQ0t2eThUQkM1bThiMXEzaHBZZTdqQVdjaVlNOWQyTldGNjlXTWxFdVRZanB1WExWdFR5eTZHTE9reXF2bmVfa1VkZS1uc1FYWTR1dXoySnFCZUZNc2VuRHVycU5WbTdUOHZEdExIWkVCRkNJd3ZKcDlPMVlpSFRnS0JSZkVsNnNVR3B2dGxSNGhHcjVRMk5QbGc1cTZVOTc0aU9tYm42UUNXa2o5N3lrYjMtbmU2NVJIalZMb1RpYWl5UHNUVHlj?oc=5",
       "sourcePriority": 3
@@ -4714,6 +4806,25 @@
       "isNew": false,
       "titleKey": "cuatro condenados vender drogas uno recibio prision efectiva anbariloche",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNdzAtNnBvcVVfendMd1p2YUlVdlJEcG1rMzN1RURXZU9MeTBvY1BXYXFLVXRfN1RtT0RTQy1xdk9YTEwwMzBnM3ZMb3RERDlPSGFnbzUwcktlZDJoV2dyUXMyV0xMUGp1SnVCSmJ2YmV1TVJ1eWgyZnNnYmRVWWRkREhhNmh6SVNqMmN2Q1kyMEJFVXBiOE0wam9UV19JOEo5RnJ2eTZRLWZKVHRWVVpfYmZNN014UlhleldMQjR2NWxZc1JqRThCeExQUU1PZG9ZMm5SV2RZLUxJbjVTZ2dqd2k2Nmg4bjha0gHoAUFVX3lxTE13MC02cG9xVV96d0x3WnZhSVV2UkRwbWszM3VFRFdlT0x5MG9jUFdhcUtVdF83VG1PRFNDLXF2T1hMTDAzMGczdkxvdEREOU9IYWdvNTByS2VkMmhXZ3JRczJXTExQanVKdUJKYnZiZXVNUnV5aDJmc2diZFVZZGRESGE2aHpJU2oyY3ZDWTIwQkVVcGI4TTBqb1RXX0k4SjlGcnZ5NlEtZkpUdFZVWl9iZk03TXhSWGV6V0xCNHY1bFlzUmpFOEJ4TFBRTU9kb1kyblJXZFktTEluNVNnZ2p3aTY2aDhuOFo?oc=5",
+      "sourcePriority": 3
+    },
+    {
+      "title": "Neuquén licita la red de cloacas para 347 lotes en San Patricio del Chañar: invertirán $1.200 millones - Mejor Informado",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNQW1PLWo0MUt0N1Q4S0cwbjF3c1k3NWlUVGI5OGxEMUNXVEpzeU9UTElzSXFYN1g5VFNfYXdhNEpqelJrLVNFYTFwSktIclNUM3NKaG5KWlJCTU5GZUhrajV5a0FRd00zVXNTeG1NSmhrQVFGaVpSQldfajNaTi1FbTBweXBjTF92anUxSnBoVDUwRXB0YTlCQTJwUjV5VjlnbFhVU1prb252dlc3dVVmZkZuRGZ4bnljeUJRRWhiNmNhSEI1aTU5WURncFrSAcwBQVVfeXFMTUFtTy1qNDFLdDdUOEtHMG4xd3NZNzVpVFRiOThsRDFDV1RKc3lPVExJc0lxWDdYOVRTX2F3YTRKanpSay1TRWExcEpLSHJTVDNzSmhuSlpSQk1ORmVIa2o1eWtBUXdNM1VzU3htTUpoa0FRRmlaUkJXX2ozWk4tRW0wcHlwY0xfdmp1MUpwaFQ1MEVwdGE5QkEycFI1eVY5Z2xYVVNaa29udnZXN3VVZmZGbkRmeG55Y3lCUUVoYjZjYUhCNWk1OVlEZ3Ba?oc=5",
+      "publishedAt": "2026-11-15T17:58:55+00:00",
+      "published": "2026-11-15T17:58:55+00:00",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMizAFBVV95cUxNQW1PLWo0MUt0N1Q4S0cwbjF3c1k3NWlUVGI5OGxEMUNXVEpzeU9UTElzSXFYN1g5VFNfYXdhNEpqelJrLVNFYTFwSktIclNUM3NKaG5KWlJCTU5GZUhrajV5a0FRd00zVXNTeG1NSmhrQVFGaVpSQldfajNaTi1FbTBweXBjTF92anUxSnBoVDUwRXB0YTlCQTJwUjV5VjlnbFhVU1prb252dlc3dVVmZkZuRGZ4bnljeUJRRWhiNmNhSEI1aTU5WURncFrSAcwBQVVfeXFMTUFtTy1qNDFLdDdUOEtHMG4xd3NZNzVpVFRiOThsRDFDV1RKc3lPVExJc0lxWDdYOVRTX2F3YTRKanpSay1TRWExcEpLSHJTVDNzSmhuSlpSQk1ORmVIa2o1eWtBUXdNM1VzU3htTUpoa0FRRmlaUkJXX2ozWk4tRW0wcHlwY0xfdmp1MUpwaFQ1MEVwdGE5QkEycFI1eVY5Z2xYVVNaa29udnZXN3VVZmZGbkRmeG55Y3lCUUVoYjZjYUhCNWk1OVlEZ3Ba?oc=5\" target=\"_blank\">Neuquén licita la red de cloacas para 347 lotes en San Patricio del Chañar: invertirán $1.200 millones</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Mejor Informado</font>",
+      "source": "Mejor Informado",
+      "sourceType": "BUSCADOR / RESPALDO",
+      "sourceUrl": "",
+      "collection": "BUSCADOR",
+      "query": "site:mejorinformado.com \"San Patricio del Chañar\"",
+      "relevance": 3,
+      "relevanceLabel": "DIRECTA",
+      "firstSeen": "2026-11-16T18:13:28.055781+00:00",
+      "isNew": true,
+      "titleKey": "licita red cloacas 347 lotes invertiran 200 millones mejor informado",
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNQW1PLWo0MUt0N1Q4S0cwbjF3c1k3NWlUVGI5OGxEMUNXVEpzeU9UTElzSXFYN1g5VFNfYXdhNEpqelJrLVNFYTFwSktIclNUM3NKaG5KWlJCTU5GZUhrajV5a0FRd00zVXNTeG1NSmhrQVFGaVpSQldfajNaTi1FbTBweXBjTF92anUxSnBoVDUwRXB0YTlCQTJwUjV5VjlnbFhVU1prb252dlc3dVVmZkZuRGZ4bnljeUJRRWhiNmNhSEI1aTU5WURncFrSAcwBQVVfeXFMTUFtTy1qNDFLdDdUOEtHMG4xd3NZNzVpVFRiOThsRDFDV1RKc3lPVExJc0lxWDdYOVRTX2F3YTRKanpSay1TRWExcEpLSHJTVDNzSmhuSlpSQk1ORmVIa2o1eWtBUXdNM1VzU3htTUpoa0FRRmlaUkJXX2ozWk4tRW0wcHlwY0xfdmp1MUpwaFQ1MEVwdGE5QkEycFI1eVY5Z2xYVVNaa29udnZXN3VVZmZGbkRmeG55Y3lCUUVoYjZjYUhCNWk1OVlEZ3Ba?oc=5",
       "sourcePriority": 3
     },
     {
@@ -4755,25 +4866,6 @@
       "sourcePriority": 3
     },
     {
-      "title": "SAN PATRICIO DEL CHAÑAR: licitarán la red de cloacas para 347 lotes. - tuitvacamuerta.com",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxORjc2RlBlM0xzenFHUTBRM1pZUlVuc0NKc19SbnRibjhQSFctRGoxMjdxMktCVzFCcjcwU2JuMFZqRnFsY3Y5RmxqWEtCdWdLQkpmRGE1RGhNWnJUdWQ2LWtjSk1DQ21HcHF4UmlqWlRkOFE1ZDRrSFVpdWVaS0VqWEZJZWVLSWlwSGxYTnpHVDZRaTA5WGszZmdn?oc=5",
-      "publishedAt": "2026-11-15T01:25:50+00:00",
-      "published": "2026-11-15T01:25:50+00:00",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxORjc2RlBlM0xzenFHUTBRM1pZUlVuc0NKc19SbnRibjhQSFctRGoxMjdxMktCVzFCcjcwU2JuMFZqRnFsY3Y5RmxqWEtCdWdLQkpmRGE1RGhNWnJUdWQ2LWtjSk1DQ21HcHF4UmlqWlRkOFE1ZDRrSFVpdWVaS0VqWEZJZWVLSWlwSGxYTnpHVDZRaTA5WGszZmdn?oc=5\" target=\"_blank\">SAN PATRICIO DEL CHAÑAR: licitarán la red de cloacas para 347 lotes.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">tuitvacamuerta.com</font>",
-      "source": "tuitvacamuerta.com",
-      "sourceType": "BUSCADOR / RESPALDO",
-      "sourceUrl": "",
-      "collection": "BUSCADOR",
-      "query": "site:tuitvacamuerta.com \"San Patricio del Chañar\"",
-      "relevance": 3,
-      "relevanceLabel": "DIRECTA",
-      "firstSeen": "2026-11-15T07:42:29.242371+00:00",
-      "isNew": false,
-      "titleKey": "licitaran red cloacas 347 lotes tuitvacamuerta com",
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxORjc2RlBlM0xzenFHUTBRM1pZUlVuc0NKc19SbnRibjhQSFctRGoxMjdxMktCVzFCcjcwU2JuMFZqRnFsY3Y5RmxqWEtCdWdLQkpmRGE1RGhNWnJUdWQ2LWtjSk1DQ21HcHF4UmlqWlRkOFE1ZDRrSFVpdWVaS0VqWEZJZWVLSWlwSGxYTnpHVDZRaTA5WGszZmdn?oc=5",
-      "sourcePriority": 3
-    },
-    {
       "title": "Licitarán la red de cloacas para 347 lotes en San Patricio del Chañar - Neuquen Informa",
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPLWUycWR2RWtremFEcmVHVWk1VlJkWUkyQTZ4OTYyUC1hNlJCVkVxY1JHWEVWVVZWNEtZakdsU0dxTnhVLU43VzE5NWJncElvVmJuUUdpa2JlRHNqR0ZTVUlxcnhmdk1zNDlpMnc4eFdlLXYzTjRwMlltWU9rNERFNl9IZXY0UE91dW9uWThTNWp4REhZQkEtdWNnakI1UTI0bm80WVR2dE42LXBpN3F6WHNUZ1ZwQkFaaTFLdHQ5OWxCeEZZakFnWjZhdFpsQUXSAc8BQVVfeXFMTy1lMnFkdkVra3phRHJlR1VpNVZSZFlJMkE2eDk2MlAtYTZSQlZFcWNSR1hFVlVWVjRLWWpHbFNHcU54VS1ON1cxOTViZ3BJb1ZiblFHaWtiZURzakdGU1VJcXJ4ZnZNczQ5aTJ3OHhXZS12M040cDJZbVlPazRERTZfSGV2NFBPdXVvblk4UzVqeERIWUJBLXVjZ2pCNVEyNG5vNFlUdnRONi1waTdxelhzVGdWcEJBWmkxS3R0OTlsQnhGWWpBZ1o2YXRabEFF?oc=5",
       "publishedAt": "2026-11-14T19:21:48+00:00",
@@ -4809,25 +4901,6 @@
       "isNew": false,
       "titleKey": "rally neuquino bruno campos anticipo fecha clave campeonato digital",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQVW50RVdpUTR2N3FVbDR1bHFLUFBsV2UwMHFJaDRBQ3dqMnQ1cDJTVWpMbFhPZ1k5YTh6czJSZjJaUE9GeEpjSGFoYXE0ZXJiTGdKVmpXakxRdU5rSVNwdkFJWDRlY2ZKVWVRZExJZE1ra3Zodl9jbGpiYW83THFtX20tQldzV2h0eWxjSzQ0UHFKNmF5ZEM3cmt6WjdUNm85WkN3dTNXcHFlc3gzRUFxZlI2M0dfM29YR1NQRmlwLUY5Z21wWml1Mnd6TEo4S0VrQzVTVkxiX3dkMXY5OWMxWUZR?oc=5",
-      "sourcePriority": 3
-    },
-    {
-      "title": "Doce denuncias anónimas destaparon una red de venta de drogas: cuatro condenados en el Chañar - Flipr.news",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPRFRkVXBjRkROblhOeVhnaFNuQnBCQ1ZVMVJPbV9Vd21ERXpsMGMtcUFGWEljQ1lqZHBQeHc2bnFKNm5zcmRJRUItM09lY2pTcFNfeHdjWEJkeENLZTI1dmd2VGptYlNEZTA1NHk1cTFPRmRla1BRZW9hNS0tNTRJQjNSZUxNSzE3c1k1dk5RejJXRDM4Qzh5VDh0c3YtWUlIWWt3MlhqRnNLZUlYd0l1eEtEcnlxNFg5eFZocFJTSUpaZGdLRnBmclNxZmhSVF9RbzV3?oc=5",
-      "publishedAt": "2026-11-13T21:51:45+00:00",
-      "published": "2026-11-13T21:51:45+00:00",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMi0wFBVV95cUxPRFRkVXBjRkROblhOeVhnaFNuQnBCQ1ZVMVJPbV9Vd21ERXpsMGMtcUFGWEljQ1lqZHBQeHc2bnFKNm5zcmRJRUItM09lY2pTcFNfeHdjWEJkeENLZTI1dmd2VGptYlNEZTA1NHk1cTFPRmRla1BRZW9hNS0tNTRJQjNSZUxNSzE3c1k1dk5RejJXRDM4Qzh5VDh0c3YtWUlIWWt3MlhqRnNLZUlYd0l1eEtEcnlxNFg5eFZocFJTSUpaZGdLRnBmclNxZmhSVF9RbzV3?oc=5\" target=\"_blank\">Doce denuncias anónimas destaparon una red de venta de drogas: cuatro condenados en el Chañar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Flipr.news</font>",
-      "source": "Flipr.news",
-      "sourceType": "BUSCADOR / RESPALDO",
-      "sourceUrl": "",
-      "collection": "BUSCADOR",
-      "query": "\"San Patricio del Chañar\" Neuquén",
-      "relevance": 3,
-      "relevanceLabel": "DIRECTA",
-      "firstSeen": "2026-11-16T00:54:16.997943+00:00",
-      "isNew": false,
-      "titleKey": "doce denuncias anonimas destaparon red venta drogas cuatro condenados flipr news",
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPRFRkVXBjRkROblhOeVhnaFNuQnBCQ1ZVMVJPbV9Vd21ERXpsMGMtcUFGWEljQ1lqZHBQeHc2bnFKNm5zcmRJRUItM09lY2pTcFNfeHdjWEJkeENLZTI1dmd2VGptYlNEZTA1NHk1cTFPRmRla1BRZW9hNS0tNTRJQjNSZUxNSzE3c1k1dk5RejJXRDM4Qzh5VDh0c3YtWUlIWWt3MlhqRnNLZUlYd0l1eEtEcnlxNFg5eFZocFJTSUpaZGdLRnBmclNxZmhSVF9RbzV3?oc=5",
       "sourcePriority": 3
     },
     {
@@ -4869,22 +4942,22 @@
       "sourcePriority": 3
     },
     {
-      "title": "Condenaron a cuatro hombres por vender drogas en San Patricio del Chañar - Chañar Digital",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQN3FEaDNOU1labjF1NjFFYUdmajY4S2FYSnFnT0FBeWRKU0pYYTJfaldkTVpVT1Q2dXBNNkxzLThZVDJpdzZtZTh3YzluSWZvMGp1S3o0S3VXaG5DeFE0T2t5eFRpYUhNSThGbl9pd0ZCTUVsSkN2WGsxdEdRODREZFB0NnkySDEyN0lJMWttZzhyV1RGTHRRSnpaSUpSelRCbk5xeElERnFZSG53NloyM2FsZi1sZjgyUWQ0eUJ3ZTFqYkxa?oc=5",
-      "publishedAt": "2026-11-13T18:49:17+00:00",
-      "published": "2026-11-13T18:49:17+00:00",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMixAFBVV95cUxQN3FEaDNOU1labjF1NjFFYUdmajY4S2FYSnFnT0FBeWRKU0pYYTJfaldkTVpVT1Q2dXBNNkxzLThZVDJpdzZtZTh3YzluSWZvMGp1S3o0S3VXaG5DeFE0T2t5eFRpYUhNSThGbl9pd0ZCTUVsSkN2WGsxdEdRODREZFB0NnkySDEyN0lJMWttZzhyV1RGTHRRSnpaSUpSelRCbk5xeElERnFZSG53NloyM2FsZi1sZjgyUWQ0eUJ3ZTFqYkxa?oc=5\" target=\"_blank\">Condenaron a cuatro hombres por vender drogas en San Patricio del Chañar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Chañar Digital</font>",
-      "source": "Chañar Digital",
+      "title": "Doce denuncias anónimas destaparon una red de venta de drogas: cuatro condenados en el Chañar - Mejor Informado",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQN3ItNmRpWHNkaGxIbUVIWnJuOTlYOEp3dGQ2TnY5LWZ6LXhEOF8yOXEtMEpUUDd5NlRLSzh6Y0NsbE1OSmFnNVdRWjNiejZPYnpDTzI3UTFBaHN6QjJ6RXBfUDMtNFdmaHczWDJ1MXBqdEFQMHNPOVJjNHh4bjVSZjZySWdWeXdNem5VcGZIVHN3NjJfbEY2cHVoVi1ROFp2azJyMzJBUk5nQlJlVHF1cXNXaDlqangwOXhxenNuQXJsRWFtQ1FIddIByAFBVV95cUxQN3ItNmRpWHNkaGxIbUVIWnJuOTlYOEp3dGQ2TnY5LWZ6LXhEOF8yOXEtMEpUUDd5NlRLSzh6Y0NsbE1OSmFnNVdRWjNiejZPYnpDTzI3UTFBaHN6QjJ6RXBfUDMtNFdmaHczWDJ1MXBqdEFQMHNPOVJjNHh4bjVSZjZySWdWeXdNem5VcGZIVHN3NjJfbEY2cHVoVi1ROFp2azJyMzJBUk5nQlJlVHF1cXNXaDlqangwOXhxenNuQXJsRWFtQ1FIdQ?oc=5",
+      "publishedAt": "2026-11-13T19:19:16+00:00",
+      "published": "2026-11-13T19:19:16+00:00",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxQN3ItNmRpWHNkaGxIbUVIWnJuOTlYOEp3dGQ2TnY5LWZ6LXhEOF8yOXEtMEpUUDd5NlRLSzh6Y0NsbE1OSmFnNVdRWjNiejZPYnpDTzI3UTFBaHN6QjJ6RXBfUDMtNFdmaHczWDJ1MXBqdEFQMHNPOVJjNHh4bjVSZjZySWdWeXdNem5VcGZIVHN3NjJfbEY2cHVoVi1ROFp2azJyMzJBUk5nQlJlVHF1cXNXaDlqangwOXhxenNuQXJsRWFtQ1FIddIByAFBVV95cUxQN3ItNmRpWHNkaGxIbUVIWnJuOTlYOEp3dGQ2TnY5LWZ6LXhEOF8yOXEtMEpUUDd5NlRLSzh6Y0NsbE1OSmFnNVdRWjNiejZPYnpDTzI3UTFBaHN6QjJ6RXBfUDMtNFdmaHczWDJ1MXBqdEFQMHNPOVJjNHh4bjVSZjZySWdWeXdNem5VcGZIVHN3NjJfbEY2cHVoVi1ROFp2azJyMzJBUk5nQlJlVHF1cXNXaDlqangwOXhxenNuQXJsRWFtQ1FIdQ?oc=5\" target=\"_blank\">Doce denuncias anónimas destaparon una red de venta de drogas: cuatro condenados en el Chañar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Mejor Informado</font>",
+      "source": "Mejor Informado",
       "sourceType": "BUSCADOR / RESPALDO",
       "sourceUrl": "",
       "collection": "BUSCADOR",
-      "query": "site:chanardigital.com.ar \"San Patricio del Chañar\"",
+      "query": "site:mejorinformado.com \"San Patricio del Chañar\"",
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
-      "firstSeen": "2026-11-13T21:52:20.362037+00:00",
-      "isNew": false,
-      "titleKey": "condenaron cuatro hombres vender drogas digital",
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQN3FEaDNOU1labjF1NjFFYUdmajY4S2FYSnFnT0FBeWRKU0pYYTJfaldkTVpVT1Q2dXBNNkxzLThZVDJpdzZtZTh3YzluSWZvMGp1S3o0S3VXaG5DeFE0T2t5eFRpYUhNSThGbl9pd0ZCTUVsSkN2WGsxdEdRODREZFB0NnkySDEyN0lJMWttZzhyV1RGTHRRSnpaSUpSelRCbk5xeElERnFZSG53NloyM2FsZi1sZjgyUWQ0eUJ3ZTFqYkxa?oc=5",
+      "firstSeen": "2026-11-16T18:13:28.055781+00:00",
+      "isNew": true,
+      "titleKey": "doce denuncias anonimas destaparon red venta drogas cuatro condenados mejor informado",
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQN3ItNmRpWHNkaGxIbUVIWnJuOTlYOEp3dGQ2TnY5LWZ6LXhEOF8yOXEtMEpUUDd5NlRLSzh6Y0NsbE1OSmFnNVdRWjNiejZPYnpDTzI3UTFBaHN6QjJ6RXBfUDMtNFdmaHczWDJ1MXBqdEFQMHNPOVJjNHh4bjVSZjZySWdWeXdNem5VcGZIVHN3NjJfbEY2cHVoVi1ROFp2azJyMzJBUk5nQlJlVHF1cXNXaDlqangwOXhxenNuQXJsRWFtQ1FIddIByAFBVV95cUxQN3ItNmRpWHNkaGxIbUVIWnJuOTlYOEp3dGQ2TnY5LWZ6LXhEOF8yOXEtMEpUUDd5NlRLSzh6Y0NsbE1OSmFnNVdRWjNiejZPYnpDTzI3UTFBaHN6QjJ6RXBfUDMtNFdmaHczWDJ1MXBqdEFQMHNPOVJjNHh4bjVSZjZySWdWeXdNem5VcGZIVHN3NjJfbEY2cHVoVi1ROFp2azJyMzJBUk5nQlJlVHF1cXNXaDlqangwOXhxenNuQXJsRWFtQ1FIdQ?oc=5",
       "sourcePriority": 3
     },
     {
@@ -4939,9 +5012,28 @@
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "firstSeen": "2026-11-16T07:48:06.524480+00:00",
-      "isNew": true,
+      "isNew": false,
       "titleKey": "rampa promocional arrancara rally mejorinformado com",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQNWlab19aX05paDlMMXlJcGVNM0hZei1Hb3BjcTdHSXptQ2dTUnM0cHJmdTJsNzdwRFVURU0yNUlCWUtpVGlMN1JHUENPd2dMZ1V6LU9jU3dyRHVEcWlXa0IwVmlBcmtVckFIWGZTTVRCY3Fjb21qOWRONEtZaEpLLWFRQ09nX3JvYWxSV1dPcExNLXRheEw0bm5VcHk4czZraXB1NFVJMNIBpwFBVV95cUxQNWlab19aX05paDlMMXlJcGVNM0hZei1Hb3BjcTdHSXptQ2dTUnM0cHJmdTJsNzdwRFVURU0yNUlCWUtpVGlMN1JHUENPd2dMZ1V6LU9jU3dyRHVEcWlXa0IwVmlBcmtVckFIWGZTTVRCY3Fjb21qOWRONEtZaEpLLWFRQ09nX3JvYWxSV1dPcExNLXRheEw0bm5VcHk4czZraXB1NFVJMA?oc=5",
+      "sourcePriority": 3
+    },
+    {
+      "title": "Condenaron a cuatro hombres por vender drogas en San Patricio del Chañar - NoticiasNQN",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOV1N6Z2dsbUJLaFRVWDA0VGlfWVN5anplY3h3MnpObEdWUFM0YVlvYS1LeklISmo3ZHRIMjZ3U3p5bndhZTVveTFVR1k5YWJRcmpwLUZpTkJvUFlocnBRbTVRaEhxcDQzOC1xZmRYRDAtZUxMNDdKeXdmMlBOS3FSVDdWOWtVN1FGQVB3X0VjRkpsclNQbDkwdU1wYWhjOUhiTnJKd0RyQ0E5WE8yQnRkaERFdXZyRDM3dUZGMGlGM2dlY0N2dUdDbWJUZmprTEHSAc8BQVVfeXFMTldTemdnbG1CS2hUVVgwNFRpX1lTeWp6ZWN4dzJ6TmxHVlBTNGFZb2EtS3pJSEpqN2R0SDI2d1N6eW53YWU1b3kxVUdZOWFiUXJqcC1GaU5Cb1BZaHJwUW01UWhIcXA0MzgtcWZkWEQwLWVMTDQ3Snl3ZjJQTktxUlQ3VjlrVTdRRkFQd19FY0ZKbHJTUGw5MHVNcGFoYzlIYk5ySndEckNBOVhPMkJ0ZGhERXV2ckQzN3VGRjBpRjNnZWNDdnVHQ21iVGZqa0xB?oc=5",
+      "publishedAt": "2026-11-13T16:51:57+00:00",
+      "published": "2026-11-13T16:51:57+00:00",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMizwFBVV95cUxOV1N6Z2dsbUJLaFRVWDA0VGlfWVN5anplY3h3MnpObEdWUFM0YVlvYS1LeklISmo3ZHRIMjZ3U3p5bndhZTVveTFVR1k5YWJRcmpwLUZpTkJvUFlocnBRbTVRaEhxcDQzOC1xZmRYRDAtZUxMNDdKeXdmMlBOS3FSVDdWOWtVN1FGQVB3X0VjRkpsclNQbDkwdU1wYWhjOUhiTnJKd0RyQ0E5WE8yQnRkaERFdXZyRDM3dUZGMGlGM2dlY0N2dUdDbWJUZmprTEHSAc8BQVVfeXFMTldTemdnbG1CS2hUVVgwNFRpX1lTeWp6ZWN4dzJ6TmxHVlBTNGFZb2EtS3pJSEpqN2R0SDI2d1N6eW53YWU1b3kxVUdZOWFiUXJqcC1GaU5Cb1BZaHJwUW01UWhIcXA0MzgtcWZkWEQwLWVMTDQ3Snl3ZjJQTktxUlQ3VjlrVTdRRkFQd19FY0ZKbHJTUGw5MHVNcGFoYzlIYk5ySndEckNBOVhPMkJ0ZGhERXV2ckQzN3VGRjBpRjNnZWNDdnVHQ21iVGZqa0xB?oc=5\" target=\"_blank\">Condenaron a cuatro hombres por vender drogas en San Patricio del Chañar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NoticiasNQN</font>",
+      "source": "NoticiasNQN",
+      "sourceType": "BUSCADOR / RESPALDO",
+      "sourceUrl": "",
+      "collection": "BUSCADOR",
+      "query": "\"San Patricio del Chañar\" \"Ruta 7\"",
+      "relevance": 3,
+      "relevanceLabel": "DIRECTA",
+      "firstSeen": "2026-11-16T18:13:28.055781+00:00",
+      "isNew": true,
+      "titleKey": "condenaron cuatro hombres vender drogas noticiasnqn",
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOV1N6Z2dsbUJLaFRVWDA0VGlfWVN5anplY3h3MnpObEdWUFM0YVlvYS1LeklISmo3ZHRIMjZ3U3p5bndhZTVveTFVR1k5YWJRcmpwLUZpTkJvUFlocnBRbTVRaEhxcDQzOC1xZmRYRDAtZUxMNDdKeXdmMlBOS3FSVDdWOWtVN1FGQVB3X0VjRkpsclNQbDkwdU1wYWhjOUhiTnJKd0RyQ0E5WE8yQnRkaERFdXZyRDM3dUZGMGlGM2dlY0N2dUdDbWJUZmprTEHSAc8BQVVfeXFMTldTemdnbG1CS2hUVVgwNFRpX1lTeWp6ZWN4dzJ6TmxHVlBTNGFZb2EtS3pJSEpqN2R0SDI2d1N6eW53YWU1b3kxVUdZOWFiUXJqcC1GaU5Cb1BZaHJwUW01UWhIcXA0MzgtcWZkWEQwLWVMTDQ3Snl3ZjJQTktxUlQ3VjlrVTdRRkFQd19FY0ZKbHJTUGw5MHVNcGFoYzlIYk5ySndEckNBOVhPMkJ0ZGhERXV2ckQzN3VGRjBpRjNnZWNDdnVHQ21iVGZqa0xB?oc=5",
       "sourcePriority": 3
     },
     {
@@ -5015,7 +5107,7 @@
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "firstSeen": "2026-11-16T07:48:06.524480+00:00",
-      "isNew": true,
+      "isNew": false,
       "titleKey": "bomberos estrenan cuartel autobomba diario rio negro",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQZFVJbWpVMWtpSU83U21qOG52UndBeWVBRTZmeU00OENGLUVxX0JQWXhmc2FjcklWMHpUT3NMaDVhQWRQN1ltWl9iNHd4TmZtYjVGR3FwRDlkdHBQTVZjWTJ1d3k2NG1IaUtoZWxaTjEyM2xKWE90UWtZRVVFMzhhMng0aFVkcmpVUThPRFNhMFNxaTQxczhmNVJNUXFYa3ZIMUNicXVOcDVWUE3SAbMBQVVfeXFMTzQwQllRVVl4MktIS2I1XzBBYXVLMzl2RzFwc2ZENG9HOTJZUnJCdC0za0lQb19Tay1aMG8ycFJMRWc1NEpqYmRlNXd2dU1fTFFZUnUxcGpFQWlYbGR5MTFTSVFhenNmV3pmTzExSWYwMldBZ2NZdVNNR0VJS3AxYnA1ZEo2QzJMemZ4cUNINk52QmZodE5tRVpLUUtPNTZJMG9obTB3ajQySEVoUnlacU95Nms?oc=5",
       "sourcePriority": 3
@@ -5056,6 +5148,25 @@
       "isNew": false,
       "titleKey": "vecinos zona rural llevan tres dias sin agua reclaman respuestas digital",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQT3JvbDdBSkZPMEhCSmloTEdiX2lNRURsbEx1Y1F4S1VsRkRaY0FkWU00ejJWSXYxNzdTcEd3ZG5CMXYxVGVoZUQ1YmNlTEJDUFBhVWFXRUM1a3lteDRodDV3bERkdTJOX25zX1VQN3dXckZDNDA2Sk9jNkJ5anMyTl9FRy1PSlNPVUlzdVlFeTd0Nk1YLU1uZi1GcUE0VW1NeU5Yck1UX1VmM3ZwVjIydzhpQTctU3h4cTczMlpSS0NTWlBHY04tcTlaa0lBbHlmeVJtRWdrMUlIOW5iSGd5WGFmc2s5Z19x?oc=5",
+      "sourcePriority": 3
+    },
+    {
+      "title": "San Patricio del Chañar será sede de una nueva fecha del Rally Neuquino - NoticiasNQN",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNk9jdGxwSEQ4TmxiLURmcHlSemtkNnp5R3NySHV3MWpCNXVRS09nYnlidmFGRnp2VzkxRk5nTVJVWi14VWl0Q05LRURuM2JkMXE4WFRyaWNURnh4WTNqaEZKNFV3SmhVTFBwVW5neUplRnVKTTM0a0h5c3ZXWEJqRXFyOUVUTE5UeEJvcDJHeWVYeHI2dmF0T3pxSmdvR0NuaXZCZkV5NEFPRG9jVnhmQmVXNUJIT01TU3VLYzBnRndvRkRFbzlZdNIBzgFBVV95cUxQQU5oSnZGRHF2R1NZUUpzM2h3ZFRTcmlSZldzQi1Nc3d0N3pCcXFzMlU0YjQzZ1BCT2xLVjQ4TzN2ZkhpR1ZJcC1ieFZZNzAtQThGaFVJSlhaeWd3NE9GaFZoM2doSV85eW91S19KMG5vbGhNbVBOdURfYkJ5TjJYbUxseHhqV1ZTZXlQMjlfREkxOEJ0cDNQYnYwV2RkMGlsU3RIWEZkZjNhRDh5YWh1LWFzd0xqYzhuMHdvVGhGMEZRYU5mQmVOUzVHYmJnZw?oc=5",
+      "publishedAt": "2026-11-10T12:22:36+00:00",
+      "published": "2026-11-10T12:22:36+00:00",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNk9jdGxwSEQ4TmxiLURmcHlSemtkNnp5R3NySHV3MWpCNXVRS09nYnlidmFGRnp2VzkxRk5nTVJVWi14VWl0Q05LRURuM2JkMXE4WFRyaWNURnh4WTNqaEZKNFV3SmhVTFBwVW5neUplRnVKTTM0a0h5c3ZXWEJqRXFyOUVUTE5UeEJvcDJHeWVYeHI2dmF0T3pxSmdvR0NuaXZCZkV5NEFPRG9jVnhmQmVXNUJIT01TU3VLYzBnRndvRkRFbzlZdNIBzgFBVV95cUxQQU5oSnZGRHF2R1NZUUpzM2h3ZFRTcmlSZldzQi1Nc3d0N3pCcXFzMlU0YjQzZ1BCT2xLVjQ4TzN2ZkhpR1ZJcC1ieFZZNzAtQThGaFVJSlhaeWd3NE9GaFZoM2doSV85eW91S19KMG5vbGhNbVBOdURfYkJ5TjJYbUxseHhqV1ZTZXlQMjlfREkxOEJ0cDNQYnYwV2RkMGlsU3RIWEZkZjNhRDh5YWh1LWFzd0xqYzhuMHdvVGhGMEZRYU5mQmVOUzVHYmJnZw?oc=5\" target=\"_blank\">San Patricio del Chañar será sede de una nueva fecha del Rally Neuquino</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NoticiasNQN</font>",
+      "source": "NoticiasNQN",
+      "sourceType": "BUSCADOR / RESPALDO",
+      "sourceUrl": "",
+      "collection": "BUSCADOR",
+      "query": "\"San Patricio del Chañar\"",
+      "relevance": 3,
+      "relevanceLabel": "DIRECTA",
+      "firstSeen": "2026-11-16T18:13:28.055781+00:00",
+      "isNew": true,
+      "titleKey": "sera sede nueva fecha rally neuquino noticiasnqn",
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNk9jdGxwSEQ4TmxiLURmcHlSemtkNnp5R3NySHV3MWpCNXVRS09nYnlidmFGRnp2VzkxRk5nTVJVWi14VWl0Q05LRURuM2JkMXE4WFRyaWNURnh4WTNqaEZKNFV3SmhVTFBwVW5neUplRnVKTTM0a0h5c3ZXWEJqRXFyOUVUTE5UeEJvcDJHeWVYeHI2dmF0T3pxSmdvR0NuaXZCZkV5NEFPRG9jVnhmQmVXNUJIT01TU3VLYzBnRndvRkRFbzlZdNIBzgFBVV95cUxQQU5oSnZGRHF2R1NZUUpzM2h3ZFRTcmlSZldzQi1Nc3d0N3pCcXFzMlU0YjQzZ1BCT2xLVjQ4TzN2ZkhpR1ZJcC1ieFZZNzAtQThGaFVJSlhaeWd3NE9GaFZoM2doSV85eW91S19KMG5vbGhNbVBOdURfYkJ5TjJYbUxseHhqV1ZTZXlQMjlfREkxOEJ0cDNQYnYwV2RkMGlsU3RIWEZkZjNhRDh5YWh1LWFzd0xqYzhuMHdvVGhGMEZRYU5mQmVOUzVHYmJnZw?oc=5",
       "sourcePriority": 3
     },
     {
@@ -5224,7 +5335,7 @@
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "firstSeen": "2026-11-16T07:48:06.524480+00:00",
-      "isNew": true,
+      "isNew": false,
       "titleKey": "educacion ambiental reunio 350 estudiantes informa",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPQWZaQTl3aERRc0g2OW04T1d3dkFvbThwRnMzMUtscFpFRTEyRlBVbmVXcWhud3RrMnVNY3pkcnNlaEwzamF0ZVdqZTVodFlsdUdDVy14MHFWZGpQZWw5dlU5T3MtaGJablhjamtySjFnQ0lnWnFzQzhhT2lRUktrdm5HblhMN19kMThlbWVodzVia2lmQmhoS01MRHJLUU9zT0xkelRSTjUxRXRwa1pqc0FTaDMxa3FoaS1zSHVWU2w2ZEl2NFFCeFdVWXMyTWVD0gHWAUFVX3lxTE13TFNYRF9NQkdwRXhMdF9mRlEyYlVIRDdFeU1mMkZhVkxHQmlGNlEyRUltbmx2QWlRWlJFSFRvRHk3RTQ1QUQ3RFMwSnZjZGhnU0c1bmZ4Y3NyaVdBOXRmWEU4czRKcm9pN3NURUp5ekZzbkFVSEpYNHl3Y0VxZGhIdng0OU9GamYtNTdxNF9ncXFvLUNxTXJzNm9kbjZUa1d1SjAxQ19zZEZILWhjakxVVGlfVkI4QnNpRFRtNnY1SFA1RFVTQU1oZXZyNTdvdl90NHNRTHc?oc=5",
       "sourcePriority": 3
@@ -5232,7 +5343,7 @@
   ],
   "territorialGraph": {
     "version": "2.0",
-    "generatedAt": "2026-11-16T07:48:19.599193+00:00",
+    "generatedAt": "2026-11-16T18:13:41.473721+00:00",
     "root": "spc",
     "rule": "evidence-first",
     "levels": [
@@ -5796,22 +5907,22 @@
       }
     ],
     "eventNodes": {
-      "CHA-07615adc0efe": [
+      "CHA-8802dd694d3c": [
         "spc"
       ],
       "CHA-482c885515b8": [
         "spc",
         "bomberos"
       ],
-      "CHA-bee41affb1d5": [
+      "CHA-cda83ea1a3cc": [
+        "spc"
+      ],
+      "CHA-9404640e2987": [
         "spc"
       ],
       "CHA-9d97715d7c22": [
         "spc",
         "parque-industrial"
-      ],
-      "CHA-a4eacfbce29e": [
-        "spc"
       ],
       "CHA-4b8240322bf2": [
         "spc",
@@ -5820,12 +5931,12 @@
       "CHA-b0c86458f453": [
         "spc"
       ],
+      "CHA-07615adc0efe": [
+        "spc"
+      ],
       "CHA-6da81d99e91d": [
         "spc",
         "loteo-social"
-      ],
-      "CHA-8802dd694d3c": [
-        "spc"
       ],
       "CHA-8aa66f131026": [
         "spc"
@@ -5866,16 +5977,16 @@
   },
   "audit": {
     "version": "1.0",
-    "updatedAt": "2026-11-16T07:48:19.633061+00:00",
+    "updatedAt": "2026-11-16T18:13:41.510350+00:00",
     "rule": "fact != coverage; territory requires textual evidence",
     "facts": 12,
-    "coverage": 32,
-    "coveragePerFact": 2.67,
+    "coverage": 33,
+    "coveragePerFact": 2.75,
     "directAnchorFacts": 12,
     "directAnchorPct": 100.0,
     "territorySpecificFacts": 5,
     "territorySpecificPct": 41.7,
-    "averageSourcesPerFact": 2.25,
+    "averageSourcesPerFact": 2.5,
     "activeTerritorialNodes": 5,
     "failedSources": 10,
     "acceptedWithoutLocalEvidence": 0,
