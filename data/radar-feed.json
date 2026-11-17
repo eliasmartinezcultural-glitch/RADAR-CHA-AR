@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T01:59:32.904716+00:00",
+  "updatedAt": "2026-11-17T10:33:51.310876+00:00",
   "window": "14 días",
   "purpose": "Detectar qué se está moviendo en San Patricio del Chañar y mostrar de dónde surge cada señal.",
   "architecture": "contrato universal de procedencia + fuentes profesionales + adaptadores específicos + validación semántica + temporalidad + evidencia editorial separada",
@@ -49,7 +49,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://chanardigital.com.ar/",
-      "lastFetch": "2026-11-17T01:59:11.293806+00:00",
+      "lastFetch": "2026-11-17T10:33:32.766702+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -65,7 +65,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.radiomia.com.ar/",
-      "lastFetch": "2026-11-17T01:59:11.786660+00:00",
+      "lastFetch": "2026-11-17T10:33:33.031489+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -80,7 +80,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://tuitvacamuerta.com/",
-      "lastFetch": "2026-11-17T01:59:13.674246+00:00",
+      "lastFetch": "2026-11-17T10:33:34.655279+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -95,7 +95,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.vacamuertanews.com/",
-      "lastFetch": "2026-11-17T01:59:14.323528+00:00",
+      "lastFetch": "2026-11-17T10:33:34.997043+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -111,7 +111,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.neuqueninforma.gob.ar/",
-      "lastFetch": "2026-11-17T01:59:15.604558+00:00",
+      "lastFetch": "2026-11-17T10:33:35.804961+00:00",
       "success": false,
       "attempted": 3,
       "failures": [
@@ -128,7 +128,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://sanpatricio.gob.ar/",
-      "lastFetch": "2026-11-17T01:59:16.696306+00:00",
+      "lastFetch": "2026-11-17T10:33:36.681480+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -143,7 +143,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://boletinoficial.neuquen.gov.ar/",
-      "lastFetch": "2026-11-17T01:59:17.610286+00:00",
+      "lastFetch": "2026-11-17T10:33:37.605511+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -158,7 +158,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.lmneuquen.com/",
-      "lastFetch": "2026-11-17T01:59:17.721077+00:00",
+      "lastFetch": "2026-11-17T10:33:37.772711+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -174,7 +174,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.rionegro.com.ar/",
-      "lastFetch": "2026-11-17T01:59:20.140504+00:00",
+      "lastFetch": "2026-11-17T10:33:40.493617+00:00",
       "success": true,
       "attempted": 2,
       "failures": [
@@ -189,7 +189,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.mejorinformado.com/",
-      "lastFetch": "2026-11-17T01:59:20.780729+00:00",
+      "lastFetch": "2026-11-17T10:33:40.990144+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -205,7 +205,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.diariamenteneuquen.com/",
-      "lastFetch": "2026-11-17T01:59:23.245212+00:00",
+      "lastFetch": "2026-11-17T10:33:41.631548+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -709,13 +709,13 @@
   "languageAudit": [
     {
       "term": "el chañar",
-      "hits": 29,
-      "direct": 29
+      "hits": 28,
+      "direct": 28
     },
     {
       "term": "san patricio del chañar",
-      "hits": 26,
-      "direct": 26
+      "hits": 25,
+      "direct": 25
     },
     {
       "term": "ruta 7",
@@ -726,11 +726,6 @@
       "term": "bomberos voluntarios",
       "hits": 2,
       "direct": 2
-    },
-    {
-      "term": "parque industrial",
-      "hits": 1,
-      "direct": 1
     },
     {
       "term": "loteo social",
@@ -819,6 +814,11 @@
     },
     {
       "term": "picada 1",
+      "hits": 0,
+      "direct": 0
+    },
+    {
+      "term": "parque industrial",
       "hits": 0,
       "direct": 0
     },
@@ -1239,13 +1239,12 @@
         "source": "Neuquen Informa",
         "group": "OBSERVADA",
         "role": "fuente detectada fuera del catálogo",
-        "accepted": 2,
-        "direct": 2,
+        "accepted": 1,
+        "direct": 1,
         "anchored": 0,
         "falsePositives": 0,
         "falsePositiveTypes": [],
         "topics": [
-          "EDUCACIÓN",
           "SERVICIOS"
         ]
       },
@@ -1403,19 +1402,6 @@
         "falsePositives": 0,
         "falsePositiveTypes": [],
         "topics": []
-      },
-      {
-        "source": "tuitvacamuerta.com",
-        "group": "OBSERVADA",
-        "role": "fuente detectada fuera del catálogo",
-        "accepted": 1,
-        "direct": 1,
-        "anchored": 0,
-        "falsePositives": 0,
-        "falsePositiveTypes": [],
-        "topics": [
-          "SERVICIOS"
-        ]
       }
     ],
     "matrix": [
@@ -1620,18 +1606,6 @@
       },
       {
         "source": "Neuquen Informa",
-        "topic": "EDUCACIÓN",
-        "accepted": 1,
-        "direct": 1,
-        "anchored": 0,
-        "falsePositives": 0,
-        "territorialTerms": [
-          "san patricio del chañar",
-          "el chañar"
-        ]
-      },
-      {
-        "source": "Neuquen Informa",
         "topic": "SERVICIOS",
         "accepted": 1,
         "direct": 1,
@@ -1702,24 +1676,13 @@
           "el chañar",
           "bomberos voluntarios"
         ]
-      },
-      {
-        "source": "tuitvacamuerta.com",
-        "topic": "SERVICIOS",
-        "accepted": 1,
-        "direct": 1,
-        "anchored": 0,
-        "falsePositives": 0,
-        "territorialTerms": [
-          "parque industrial"
-        ]
       }
     ],
     "languagePrecision": [
       {
         "term": "san patricio del chañar",
-        "acceptedHits": 27,
-        "directHits": 27,
+        "acceptedHits": 26,
+        "directHits": 26,
         "rejectedTitleHits": 0,
         "territorialStrength": "FUERTE"
       },
@@ -1732,8 +1695,8 @@
       },
       {
         "term": "el chañar",
-        "acceptedHits": 30,
-        "directHits": 30,
+        "acceptedHits": 29,
+        "directHits": 29,
         "rejectedTitleHits": 0,
         "territorialStrength": "FUERTE"
       },
@@ -1823,8 +1786,8 @@
       },
       {
         "term": "parque industrial",
-        "acceptedHits": 1,
-        "directHits": 1,
+        "acceptedHits": 0,
+        "directHits": 0,
         "rejectedTitleHits": 0,
         "territorialStrength": "FUERTE"
       },
@@ -2058,11 +2021,11 @@
     "interpretation": "auditoría sobre eventos aceptados; la próxima capa debe instrumentar rechazos antes del clustering"
   },
   "stats": {
-    "total": 31,
-    "direct": 31,
+    "total": 29,
+    "direct": 29,
     "regional": 0,
     "new": 0,
-    "sources": 17,
+    "sources": 16,
     "directSignals": 0,
     "localDirectSignals": 0,
     "radioDirectSignals": 0,
@@ -2072,11 +2035,11 @@
   "environment": {
     "weather": {
       "dataType": "forecast",
-      "forecastWindKmh": 41.0,
-      "forecastGustKmh": 51.0,
-      "forecastWindDirection": "O",
-      "forecastTemperatureC": 29.0,
-      "retrievedAt": "2026-11-17T01:59:08.953105+00:00",
+      "forecastWindKmh": 32.0,
+      "forecastGustKmh": 38.0,
+      "forecastWindDirection": "SO",
+      "forecastTemperatureC": 26.0,
+      "retrievedAt": "2026-11-17T10:33:30.849346+00:00",
       "source": "AIC",
       "sourceTier": "primary",
       "sourceUrl": "https://www.aic.gob.ar/sitio/home?a=1015&z=1967225803",
@@ -2106,7 +2069,7 @@
       "currentProgrammedMinM3s": 340,
       "programDate": "2026-11-18",
       "tableDate": "2026-11-17",
-      "retrievedAt": "2026-11-17T01:59:08.953105+00:00",
+      "retrievedAt": "2026-11-17T10:33:30.849346+00:00",
       "source": "AIC",
       "sourceTier": "primary",
       "sourceUrl": "https://www.aic.gob.ar/sitio/caudales",
@@ -2126,17 +2089,17 @@
         "url": "https://www.aic.gob.ar/sitio/caudales"
       }
     ],
-    "updatedAt": "2026-11-17T01:59:08.953105+00:00"
+    "updatedAt": "2026-11-17T10:33:30.849346+00:00"
   },
   "operational": {
-    "updatedAt": "2026-11-17T01:59:08.953105+00:00",
+    "updatedAt": "2026-11-17T10:33:30.849346+00:00",
     "route7": {
       "source": "Dirección Provincial de Vialidad",
       "sourceTier": "primary",
       "sourceUrl": "https://www.dpvneuquen.gov.ar/",
       "semanticState": null,
       "publicationState": "source_reachable_no_current_machine_readable_state",
-      "retrievedAt": "2026-11-17T01:59:08.953105+00:00",
+      "retrievedAt": "2026-11-17T10:33:30.849346+00:00",
       "evidence": {
         "route7Mention": true,
         "route8Mention": false
@@ -2148,7 +2111,7 @@
       "sourceUrl": "https://www.dpvneuquen.gov.ar/",
       "semanticState": null,
       "publicationState": "source_reachable_no_current_machine_readable_state",
-      "retrievedAt": "2026-11-17T01:59:08.953105+00:00",
+      "retrievedAt": "2026-11-17T10:33:30.849346+00:00",
       "evidence": {
         "route7Mention": true,
         "route8Mention": false
@@ -2162,7 +2125,7 @@
       "eventType": null,
       "detail": null,
       "publicationState": "source_reachable_no_specific_local_notice",
-      "retrievedAt": "2026-11-17T01:59:08.953105+00:00"
+      "retrievedAt": "2026-11-17T10:33:30.849346+00:00"
     },
     "water": {
       "source": "EPAS",
@@ -2172,7 +2135,7 @@
       "eventType": null,
       "detail": null,
       "publicationState": "source_reachable_no_specific_local_notice",
-      "retrievedAt": "2026-11-17T01:59:08.953105+00:00"
+      "retrievedAt": "2026-11-17T10:33:30.849346+00:00"
     },
     "sources": [
       {
@@ -2582,11 +2545,11 @@
     {
       "id": "CONVERSACIÓN",
       "label": "Conversación general",
-      "signal": 12,
+      "signal": 11,
       "status": "cobertura editorial",
-      "freshnessHours": 8.8,
+      "freshnessHours": 17.4,
       "mode": "evidencia editorial",
-      "evidenceCount": 12,
+      "evidenceCount": 11,
       "sourceContract": {
         "primary": "medios locales identificables",
         "secondary": "fuentes institucionales competentes",
@@ -2624,7 +2587,7 @@
       "label": "Corredor Ruta 7",
       "signal": 1,
       "status": "estado vial",
-      "freshnessHours": 205.1,
+      "freshnessHours": 213.7,
       "mode": "evidencia territorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -2664,7 +2627,7 @@
         "sourceUrl": "https://www.dpvneuquen.gov.ar/",
         "semanticState": null,
         "publicationState": "source_reachable_no_current_machine_readable_state",
-        "retrievedAt": "2026-11-17T01:59:08.953105+00:00",
+        "retrievedAt": "2026-11-17T10:33:30.849346+00:00",
         "evidence": {
           "route7Mention": true,
           "route8Mention": false
@@ -2716,7 +2679,7 @@
         "sourceUrl": "https://www.dpvneuquen.gov.ar/",
         "semanticState": null,
         "publicationState": "source_reachable_no_current_machine_readable_state",
-        "retrievedAt": "2026-11-17T01:59:08.953105+00:00",
+        "retrievedAt": "2026-11-17T10:33:30.849346+00:00",
         "evidence": {
           "route7Mention": true,
           "route8Mention": false
@@ -2726,7 +2689,7 @@
     {
       "id": "VIENTO",
       "label": "Condición de viento",
-      "signal": 41.0,
+      "signal": 32.0,
       "status": "pronóstico local",
       "freshnessHours": null,
       "mode": "DATO DIRECTO",
@@ -2816,7 +2779,7 @@
         "eventType": null,
         "detail": null,
         "publicationState": "source_reachable_no_specific_local_notice",
-        "retrievedAt": "2026-11-17T01:59:08.953105+00:00"
+        "retrievedAt": "2026-11-17T10:33:30.849346+00:00"
       }
     },
     {
@@ -2824,7 +2787,7 @@
       "label": "Agua / abastecimiento",
       "signal": 1,
       "status": "evento hídrico",
-      "freshnessHours": 15.7,
+      "freshnessHours": 24.2,
       "mode": "evidencia editorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -2866,7 +2829,7 @@
         "eventType": null,
         "detail": null,
         "publicationState": "source_reachable_no_specific_local_notice",
-        "retrievedAt": "2026-11-17T01:59:08.953105+00:00"
+        "retrievedAt": "2026-11-17T10:33:30.849346+00:00"
       }
     },
     {
@@ -2874,7 +2837,7 @@
       "label": "Servicios e infraestructura",
       "signal": 1,
       "status": "evidencia de servicio",
-      "freshnessHours": 15.7,
+      "freshnessHours": 24.2,
       "mode": "evidencia editorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -2994,7 +2957,7 @@
       "label": "Producción rural",
       "signal": 1,
       "status": "evidencia productiva",
-      "freshnessHours": 8.8,
+      "freshnessHours": 17.4,
       "mode": "evidencia editorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -3034,7 +2997,7 @@
       "label": "Seguridad / emergencias",
       "signal": 2,
       "status": "cobertura de emergencia",
-      "freshnessHours": 76.3,
+      "freshnessHours": 84.8,
       "mode": "evidencia editorial",
       "evidenceCount": 2,
       "sourceContract": {
@@ -3072,11 +3035,11 @@
     {
       "id": "TERRITORIO",
       "label": "Territorio / microzonas",
-      "signal": 2,
+      "signal": 1,
       "status": "hecho territorial",
-      "freshnessHours": 48.6,
+      "freshnessHours": 148.5,
       "mode": "evidencia territorial",
-      "evidenceCount": 2,
+      "evidenceCount": 1,
       "sourceContract": {
         "primary": "Municipalidad de San Patricio del Chañar",
         "secondary": "organismo provincial competente según fenómeno",
@@ -3131,7 +3094,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://chanardigital.com.ar/",
-        "lastFetch": "2026-11-17T01:59:11.293806+00:00",
+        "lastFetch": "2026-11-17T10:33:32.766702+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3147,7 +3110,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.radiomia.com.ar/",
-        "lastFetch": "2026-11-17T01:59:11.786660+00:00",
+        "lastFetch": "2026-11-17T10:33:33.031489+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -3162,7 +3125,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://tuitvacamuerta.com/",
-        "lastFetch": "2026-11-17T01:59:13.674246+00:00",
+        "lastFetch": "2026-11-17T10:33:34.655279+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -3177,7 +3140,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.vacamuertanews.com/",
-        "lastFetch": "2026-11-17T01:59:14.323528+00:00",
+        "lastFetch": "2026-11-17T10:33:34.997043+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3193,7 +3156,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.neuqueninforma.gob.ar/",
-        "lastFetch": "2026-11-17T01:59:15.604558+00:00",
+        "lastFetch": "2026-11-17T10:33:35.804961+00:00",
         "success": false,
         "attempted": 3,
         "failures": [
@@ -3210,7 +3173,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://sanpatricio.gob.ar/",
-        "lastFetch": "2026-11-17T01:59:16.696306+00:00",
+        "lastFetch": "2026-11-17T10:33:36.681480+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -3225,7 +3188,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://boletinoficial.neuquen.gov.ar/",
-        "lastFetch": "2026-11-17T01:59:17.610286+00:00",
+        "lastFetch": "2026-11-17T10:33:37.605511+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -3240,7 +3203,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.lmneuquen.com/",
-        "lastFetch": "2026-11-17T01:59:17.721077+00:00",
+        "lastFetch": "2026-11-17T10:33:37.772711+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3256,7 +3219,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.rionegro.com.ar/",
-        "lastFetch": "2026-11-17T01:59:20.140504+00:00",
+        "lastFetch": "2026-11-17T10:33:40.493617+00:00",
         "success": true,
         "attempted": 2,
         "failures": [
@@ -3271,7 +3234,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.mejorinformado.com/",
-        "lastFetch": "2026-11-17T01:59:20.780729+00:00",
+        "lastFetch": "2026-11-17T10:33:40.990144+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3287,7 +3250,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.diariamenteneuquen.com/",
-        "lastFetch": "2026-11-17T01:59:23.245212+00:00",
+        "lastFetch": "2026-11-17T10:33:41.631548+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3314,7 +3277,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SERVICIOS",
-      "movement": 96,
+      "movement": 94,
       "coverage": 8,
       "sourceCount": 7,
       "directSourceCount": 0,
@@ -3362,7 +3325,7 @@
           "sourceType": "BUSCADOR / RESPALDO",
           "sourceUrl": "",
           "collection": "BUSCADOR",
-          "query": "site:mejorinformado.com \"San Patricio del Chañar\"",
+          "query": "\"San Patricio del Chañar\"",
           "relevance": 3,
           "relevanceLabel": "DIRECTA",
           "firstSeen": "2026-11-16T18:13:28.055781+00:00",
@@ -3533,7 +3496,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SEGURIDAD / EMERGENCIAS",
-      "movement": 80,
+      "movement": 77,
       "coverage": 5,
       "sourceCount": 5,
       "directSourceCount": 0,
@@ -3648,7 +3611,7 @@
         }
       ],
       "lifecycle": "ACTIVO",
-      "movementDelta": -2,
+      "movementDelta": -3,
       "previousCoverage": 5,
       "newSources": [],
       "sourceDiversity": 5,
@@ -3700,7 +3663,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "PRODUCCIÓN",
-      "movement": 58,
+      "movement": 56,
       "coverage": 1,
       "sourceCount": 1,
       "directSourceCount": 0,
@@ -3734,7 +3697,7 @@
         }
       ],
       "lifecycle": "EMERGENTE",
-      "movementDelta": -3,
+      "movementDelta": -2,
       "previousCoverage": 1,
       "newSources": [],
       "sourceDiversity": 1,
@@ -3778,7 +3741,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SERVICIOS",
-      "movement": 55,
+      "movement": 53,
       "coverage": 5,
       "sourceCount": 5,
       "directSourceCount": 0,
@@ -3891,9 +3854,9 @@
           "sourcePriority": 3
         }
       ],
-      "lifecycle": "ACTIVO",
-      "movementDelta": 30,
-      "previousCoverage": 1,
+      "lifecycle": "SOSTENIDO",
+      "movementDelta": 21,
+      "previousCoverage": 2,
       "newSources": [
         "Diario Río Negro",
         "Patagonia Press",
@@ -3926,91 +3889,6 @@
             "node": "San Patricio del Chañar",
             "level": "localidad",
             "evidence": "DIRECTA"
-          }
-        ]
-      }
-    },
-    {
-      "eventId": "CHA-9d97715d7c22",
-      "title": "El Parque Industrial se posiciona como motor logístico para abastecer la actividad de Vaca Muerta y potenciar a las empresas locales. – Tuit 90.5 -Vaca Muerta - tuitvacamuerta.com",
-      "publishedAt": "2026-11-15T01:25:50+00:00",
-      "firstSeen": "2026-11-15T07:42:29.242371+00:00",
-      "lastSeen": "2026-11-15T01:25:50+00:00",
-      "relevance": 3,
-      "relevanceLabel": "DIRECTA",
-      "incidenceLabel": "DIRECTA EN CHANAR",
-      "topic": "SERVICIOS",
-      "movement": 48,
-      "coverage": 1,
-      "sourceCount": 1,
-      "directSourceCount": 0,
-      "territorialAnchors": [
-        "parque industrial"
-      ],
-      "sources": [
-        "tuitvacamuerta.com"
-      ],
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNVElKSXNqRTk2a1M5WVNRdk1WLUpvUV8zV0V3ajZqTGJNNFJ5WEpMbGhnYUFrb1dNcGE1R2NiV1NnVklMbC1Eelo1UzF1SXh0bmpLYzlydHNPaV8wb2s1YzA2XzBqTFAteDRJWmJ4VnJWT2JRb0hKNFJfRnZldEJzLTZja1dJa0tJTlpwSzJwemMzQmI4V25tUERfd1ZVS3VhVFFVTk5MeDMxZlN5Wm1Ha3FNTkdmQTQ1S0VGZGVlYmIxTlVUdVhTc3ZueHVSV3dNYk91Z01CQ1liaU5VSjExdXpHamJuZTdjQnF4R3BBUDVBUQ?oc=5",
-      "items": [
-        {
-          "title": "El Parque Industrial se posiciona como motor logístico para abastecer la actividad de Vaca Muerta y potenciar a las empresas locales. – Tuit 90.5 -Vaca Muerta - tuitvacamuerta.com",
-          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNVElKSXNqRTk2a1M5WVNRdk1WLUpvUV8zV0V3ajZqTGJNNFJ5WEpMbGhnYUFrb1dNcGE1R2NiV1NnVklMbC1Eelo1UzF1SXh0bmpLYzlydHNPaV8wb2s1YzA2XzBqTFAteDRJWmJ4VnJWT2JRb0hKNFJfRnZldEJzLTZja1dJa0tJTlpwSzJwemMzQmI4V25tUERfd1ZVS3VhVFFVTk5MeDMxZlN5Wm1Ha3FNTkdmQTQ1S0VGZGVlYmIxTlVUdVhTc3ZueHVSV3dNYk91Z01CQ1liaU5VSjExdXpHamJuZTdjQnF4R3BBUDVBUQ?oc=5",
-          "publishedAt": "2026-11-15T01:25:50+00:00",
-          "published": "2026-11-15T01:25:50+00:00",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMi8gFBVV95cUxNVElKSXNqRTk2a1M5WVNRdk1WLUpvUV8zV0V3ajZqTGJNNFJ5WEpMbGhnYUFrb1dNcGE1R2NiV1NnVklMbC1Eelo1UzF1SXh0bmpLYzlydHNPaV8wb2s1YzA2XzBqTFAteDRJWmJ4VnJWT2JRb0hKNFJfRnZldEJzLTZja1dJa0tJTlpwSzJwemMzQmI4V25tUERfd1ZVS3VhVFFVTk5MeDMxZlN5Wm1Ha3FNTkdmQTQ1S0VGZGVlYmIxTlVUdVhTc3ZueHVSV3dNYk91Z01CQ1liaU5VSjExdXpHamJuZTdjQnF4R3BBUDVBUQ?oc=5\" target=\"_blank\">El Parque Industrial se posiciona como motor logístico para abastecer la actividad de Vaca Muerta y potenciar a las empresas locales. – Tuit 90.5 -Vaca Muerta</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">tuitvacamuerta.com</font>",
-          "source": "tuitvacamuerta.com",
-          "sourceType": "BUSCADOR / RESPALDO",
-          "sourceUrl": "",
-          "collection": "BUSCADOR",
-          "query": "site:tuitvacamuerta.com \"San Patricio del Chañar\"",
-          "relevance": 3,
-          "relevanceLabel": "DIRECTA",
-          "firstSeen": "2026-11-15T07:42:29.242371+00:00",
-          "isNew": false,
-          "titleKey": "parque industrial posiciona como motor logistico abastecer actividad vaca muerta potenciar empresas locales tuit vaca muerta tuitvacamuerta com",
-          "evidenceUrl": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNVElKSXNqRTk2a1M5WVNRdk1WLUpvUV8zV0V3ajZqTGJNNFJ5WEpMbGhnYUFrb1dNcGE1R2NiV1NnVklMbC1Eelo1UzF1SXh0bmpLYzlydHNPaV8wb2s1YzA2XzBqTFAteDRJWmJ4VnJWT2JRb0hKNFJfRnZldEJzLTZja1dJa0tJTlpwSzJwemMzQmI4V25tUERfd1ZVS3VhVFFVTk5MeDMxZlN5Wm1Ha3FNTkdmQTQ1S0VGZGVlYmIxTlVUdVhTc3ZueHVSV3dNYk91Z01CQ1liaU5VSjExdXpHamJuZTdjQnF4R3BBUDVBUQ?oc=5",
-          "sourcePriority": 3
-        }
-      ],
-      "lifecycle": "SOSTENIDO",
-      "movementDelta": -2,
-      "previousCoverage": 1,
-      "newSources": [],
-      "sourceDiversity": 1,
-      "memoryMatched": true,
-      "isNew": false,
-      "view": "INCIDENCIA",
-      "incidenceEligible": true,
-      "signalReason": "reservado a incidencia territorial",
-      "incidenceReason": "anclaje directo + tema operativo/local",
-      "territory": {
-        "version": "2.0",
-        "primary": "San Patricio del Chañar",
-        "nodes": [
-          "San Patricio del Chañar",
-          "Parque Industrial"
-        ],
-        "sectors": [
-          "Parque Industrial"
-        ],
-        "barrios": [],
-        "microzones": [],
-        "corridors": [],
-        "institutions": [],
-        "services": [],
-        "spaces": [],
-        "production": [],
-        "path": "San Patricio del Chañar → Parque Industrial",
-        "evidence": [
-          {
-            "node": "San Patricio del Chañar",
-            "level": "localidad",
-            "evidence": "DIRECTA"
-          },
-          {
-            "node": "Parque Industrial",
-            "level": "sector",
-            "evidence": "TEXTUAL"
           }
         ]
       }
@@ -4126,107 +4004,6 @@
       }
     },
     {
-      "eventId": "CHA-b0c86458f453",
-      "title": "Educación ambiental en San Patricio del Chañar: Más de 350 estudiantes se unen por el futuro ecológico de Neuquén - Patagonia Ambiental",
-      "publishedAt": "2026-11-03T20:05:38+00:00",
-      "firstSeen": "2026-11-09T09:30:09.078627+00:00",
-      "lastSeen": "2026-11-03T20:05:38+00:00",
-      "relevance": 3,
-      "relevanceLabel": "DIRECTA",
-      "incidenceLabel": "DIRECTA EN CHANAR",
-      "topic": "EDUCACIÓN",
-      "movement": 32,
-      "coverage": 2,
-      "sourceCount": 2,
-      "directSourceCount": 0,
-      "territorialAnchors": [
-        "san patricio del chañar",
-        "el chañar"
-      ],
-      "sources": [
-        "Patagonia Ambiental",
-        "Neuquen Informa"
-      ],
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQcUw3VWg3dGNwN211cHhUby1OQVlQdmtNakJ2NGp4WDRRVmo1NjBxZzBuSGFGYXRDTVNQQWNiY0Y2bmFkWm9NMDQwUWVjRDQzZjRhY05tMmMwTVhTMDFKNThEUmlzcGpkQnI3ZVBjamJyRnJwTFcxb3FxQ1UxdnpGN2h1cF9kQnFySlgzdzY4NDRnR24zRVY5WDFLTHRrc3ZJN1RLcVhyTEQ1UG11S053RGZHWW1GRlNUOGJRcEVQMklzN2JKUzNubjB5TFhMcHptb3VjcTJnclZyTW1yRE9Ia0Jjc1R0MXRscnVlZHRKQnR6cDFK?oc=5",
-      "items": [
-        {
-          "title": "Educación ambiental en San Patricio del Chañar: Más de 350 estudiantes se unen por el futuro ecológico de Neuquén - Patagonia Ambiental",
-          "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQcUw3VWg3dGNwN211cHhUby1OQVlQdmtNakJ2NGp4WDRRVmo1NjBxZzBuSGFGYXRDTVNQQWNiY0Y2bmFkWm9NMDQwUWVjRDQzZjRhY05tMmMwTVhTMDFKNThEUmlzcGpkQnI3ZVBjamJyRnJwTFcxb3FxQ1UxdnpGN2h1cF9kQnFySlgzdzY4NDRnR24zRVY5WDFLTHRrc3ZJN1RLcVhyTEQ1UG11S053RGZHWW1GRlNUOGJRcEVQMklzN2JKUzNubjB5TFhMcHptb3VjcTJnclZyTW1yRE9Ia0Jjc1R0MXRscnVlZHRKQnR6cDFK?oc=5",
-          "publishedAt": "2026-11-03T20:05:38+00:00",
-          "published": "2026-11-03T20:05:38+00:00",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMi9AFBVV95cUxQcUw3VWg3dGNwN211cHhUby1OQVlQdmtNakJ2NGp4WDRRVmo1NjBxZzBuSGFGYXRDTVNQQWNiY0Y2bmFkWm9NMDQwUWVjRDQzZjRhY05tMmMwTVhTMDFKNThEUmlzcGpkQnI3ZVBjamJyRnJwTFcxb3FxQ1UxdnpGN2h1cF9kQnFySlgzdzY4NDRnR24zRVY5WDFLTHRrc3ZJN1RLcVhyTEQ1UG11S053RGZHWW1GRlNUOGJRcEVQMklzN2JKUzNubjB5TFhMcHptb3VjcTJnclZyTW1yRE9Ia0Jjc1R0MXRscnVlZHRKQnR6cDFK?oc=5\" target=\"_blank\">Educación ambiental en San Patricio del Chañar: Más de 350 estudiantes se unen por el futuro ecológico de Neuquén</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Patagonia Ambiental</font>",
-          "source": "Patagonia Ambiental",
-          "sourceType": "BUSCADOR / RESPALDO",
-          "sourceUrl": "",
-          "collection": "BUSCADOR",
-          "query": "\"San Patricio del Chañar\"",
-          "relevance": 3,
-          "relevanceLabel": "DIRECTA",
-          "firstSeen": "2026-11-09T09:30:09.078627+00:00",
-          "isNew": false,
-          "titleKey": "educacion ambiental mas 350 estudiantes unen futuro ecologico patagonia ambiental",
-          "evidenceUrl": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQcUw3VWg3dGNwN211cHhUby1OQVlQdmtNakJ2NGp4WDRRVmo1NjBxZzBuSGFGYXRDTVNQQWNiY0Y2bmFkWm9NMDQwUWVjRDQzZjRhY05tMmMwTVhTMDFKNThEUmlzcGpkQnI3ZVBjamJyRnJwTFcxb3FxQ1UxdnpGN2h1cF9kQnFySlgzdzY4NDRnR24zRVY5WDFLTHRrc3ZJN1RLcVhyTEQ1UG11S053RGZHWW1GRlNUOGJRcEVQMklzN2JKUzNubjB5TFhMcHptb3VjcTJnclZyTW1yRE9Ia0Jjc1R0MXRscnVlZHRKQnR6cDFK?oc=5",
-          "sourcePriority": 3
-        },
-        {
-          "title": "La educación ambiental reunió a 350 estudiantes en San Patricio del Chañar - Neuquen Informa",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPQWZaQTl3aERRc0g2OW04T1d3dkFvbThwRnMzMUtscFpFRTEyRlBVbmVXcWhud3RrMnVNY3pkcnNlaEwzamF0ZVdqZTVodFlsdUdDVy14MHFWZGpQZWw5dlU5T3MtaGJablhjamtySjFnQ0lnWnFzQzhhT2lRUktrdm5HblhMN19kMThlbWVodzVia2lmQmhoS01MRHJLUU9zT0xkelRSTjUxRXRwa1pqc0FTaDMxa3FoaS1zSHVWU2w2ZEl2NFFCeFdVWXMyTWVD0gHWAUFVX3lxTE13TFNYRF9NQkdwRXhMdF9mRlEyYlVIRDdFeU1mMkZhVkxHQmlGNlEyRUltbmx2QWlRWlJFSFRvRHk3RTQ1QUQ3RFMwSnZjZGhnU0c1bmZ4Y3NyaVdBOXRmWEU4czRKcm9pN3NURUp5ekZzbkFVSEpYNHl3Y0VxZGhIdng0OU9GamYtNTdxNF9ncXFvLUNxTXJzNm9kbjZUa1d1SjAxQ19zZEZILWhjakxVVGlfVkI4QnNpRFRtNnY1SFA1RFVTQU1oZXZyNTdvdl90NHNRTHc?oc=5",
-          "publishedAt": "2026-11-03T08:00:00+00:00",
-          "published": "2026-11-03T08:00:00+00:00",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMi0AFBVV95cUxPQWZaQTl3aERRc0g2OW04T1d3dkFvbThwRnMzMUtscFpFRTEyRlBVbmVXcWhud3RrMnVNY3pkcnNlaEwzamF0ZVdqZTVodFlsdUdDVy14MHFWZGpQZWw5dlU5T3MtaGJablhjamtySjFnQ0lnWnFzQzhhT2lRUktrdm5HblhMN19kMThlbWVodzVia2lmQmhoS01MRHJLUU9zT0xkelRSTjUxRXRwa1pqc0FTaDMxa3FoaS1zSHVWU2w2ZEl2NFFCeFdVWXMyTWVD0gHWAUFVX3lxTE13TFNYRF9NQkdwRXhMdF9mRlEyYlVIRDdFeU1mMkZhVkxHQmlGNlEyRUltbmx2QWlRWlJFSFRvRHk3RTQ1QUQ3RFMwSnZjZGhnU0c1bmZ4Y3NyaVdBOXRmWEU4czRKcm9pN3NURUp5ekZzbkFVSEpYNHl3Y0VxZGhIdng0OU9GamYtNTdxNF9ncXFvLUNxTXJzNm9kbjZUa1d1SjAxQ19zZEZILWhjakxVVGlfVkI4QnNpRFRtNnY1SFA1RFVTQU1oZXZyNTdvdl90NHNRTHc?oc=5\" target=\"_blank\">La educación ambiental reunió a 350 estudiantes en San Patricio del Chañar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Neuquen Informa</font>",
-          "source": "Neuquen Informa",
-          "sourceType": "BUSCADOR / RESPALDO",
-          "sourceUrl": "",
-          "collection": "BUSCADOR",
-          "query": "\"San Patricio del Chañar\"",
-          "relevance": 3,
-          "relevanceLabel": "DIRECTA",
-          "firstSeen": "2026-11-16T07:48:06.524480+00:00",
-          "isNew": false,
-          "titleKey": "educacion ambiental reunio 350 estudiantes informa",
-          "evidenceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPQWZaQTl3aERRc0g2OW04T1d3dkFvbThwRnMzMUtscFpFRTEyRlBVbmVXcWhud3RrMnVNY3pkcnNlaEwzamF0ZVdqZTVodFlsdUdDVy14MHFWZGpQZWw5dlU5T3MtaGJablhjamtySjFnQ0lnWnFzQzhhT2lRUktrdm5HblhMN19kMThlbWVodzVia2lmQmhoS01MRHJLUU9zT0xkelRSTjUxRXRwa1pqc0FTaDMxa3FoaS1zSHVWU2w2ZEl2NFFCeFdVWXMyTWVD0gHWAUFVX3lxTE13TFNYRF9NQkdwRXhMdF9mRlEyYlVIRDdFeU1mMkZhVkxHQmlGNlEyRUltbmx2QWlRWlJFSFRvRHk3RTQ1QUQ3RFMwSnZjZGhnU0c1bmZ4Y3NyaVdBOXRmWEU4czRKcm9pN3NURUp5ekZzbkFVSEpYNHl3Y0VxZGhIdng0OU9GamYtNTdxNF9ncXFvLUNxTXJzNm9kbjZUa1d1SjAxQ19zZEZILWhjakxVVGlfVkI4QnNpRFRtNnY1SFA1RFVTQU1oZXZyNTdvdl90NHNRTHc?oc=5",
-          "sourcePriority": 3
-        }
-      ],
-      "lifecycle": "ACTIVO",
-      "movementDelta": 0,
-      "previousCoverage": 0,
-      "newSources": [
-        "Patagonia Ambiental",
-        "Neuquen Informa"
-      ],
-      "sourceDiversity": 2,
-      "memoryMatched": false,
-      "isNew": true,
-      "view": "INCIDENCIA",
-      "incidenceEligible": true,
-      "signalReason": "reservado a incidencia territorial",
-      "incidenceReason": "anclaje directo + tema operativo/local",
-      "territory": {
-        "version": "2.0",
-        "primary": "San Patricio del Chañar",
-        "nodes": [
-          "San Patricio del Chañar"
-        ],
-        "sectors": [],
-        "barrios": [],
-        "microzones": [],
-        "corridors": [],
-        "institutions": [],
-        "services": [],
-        "spaces": [],
-        "production": [],
-        "path": "San Patricio del Chañar",
-        "evidence": [
-          {
-            "node": "San Patricio del Chañar",
-            "level": "localidad",
-            "evidence": "DIRECTA"
-          }
-        ]
-      }
-    },
-    {
       "eventId": "CHA-07615adc0efe",
       "title": "Una delegación de San Patricio del Chañar viajó a Luján para participar de la misa del papa León XIV - Chañar Digital",
       "publishedAt": "2026-11-10T14:01:17+00:00",
@@ -4236,7 +4013,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SERVICIOS",
-      "movement": 24,
+      "movement": 23,
       "coverage": 3,
       "sourceCount": 1,
       "directSourceCount": 0,
@@ -4354,7 +4131,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SERVICIOS",
-      "movement": 23,
+      "movement": 21,
       "coverage": 1,
       "sourceCount": 1,
       "directSourceCount": 0,
@@ -4386,15 +4163,13 @@
           "sourcePriority": 3
         }
       ],
-      "lifecycle": "ACTIVO",
-      "movementDelta": 0,
-      "previousCoverage": 0,
-      "newSources": [
-        "Chañar Digital"
-      ],
+      "lifecycle": "EN DESCENSO",
+      "movementDelta": -2,
+      "previousCoverage": 1,
+      "newSources": [],
       "sourceDiversity": 1,
-      "memoryMatched": false,
-      "isNew": true,
+      "memoryMatched": true,
+      "isNew": false,
       "view": "INCIDENCIA",
       "incidenceEligible": true,
       "signalReason": "reservado a incidencia territorial",
@@ -4621,6 +4396,86 @@
       }
     },
     {
+      "eventId": "CHA-b0c86458f453",
+      "title": "Educación ambiental en San Patricio del Chañar: Más de 350 estudiantes se unen por el futuro ecológico de Neuquén - Patagonia Ambiental",
+      "publishedAt": "2026-11-03T20:05:38+00:00",
+      "firstSeen": "2026-11-09T09:30:09.078627+00:00",
+      "lastSeen": "2026-11-03T20:05:38+00:00",
+      "relevance": 3,
+      "relevanceLabel": "DIRECTA",
+      "incidenceLabel": "DIRECTA EN CHANAR",
+      "topic": "EDUCACIÓN",
+      "movement": 16,
+      "coverage": 1,
+      "sourceCount": 1,
+      "directSourceCount": 0,
+      "territorialAnchors": [
+        "san patricio del chañar",
+        "el chañar"
+      ],
+      "sources": [
+        "Patagonia Ambiental"
+      ],
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQcUw3VWg3dGNwN211cHhUby1OQVlQdmtNakJ2NGp4WDRRVmo1NjBxZzBuSGFGYXRDTVNQQWNiY0Y2bmFkWm9NMDQwUWVjRDQzZjRhY05tMmMwTVhTMDFKNThEUmlzcGpkQnI3ZVBjamJyRnJwTFcxb3FxQ1UxdnpGN2h1cF9kQnFySlgzdzY4NDRnR24zRVY5WDFLTHRrc3ZJN1RLcVhyTEQ1UG11S053RGZHWW1GRlNUOGJRcEVQMklzN2JKUzNubjB5TFhMcHptb3VjcTJnclZyTW1yRE9Ia0Jjc1R0MXRscnVlZHRKQnR6cDFK?oc=5",
+      "items": [
+        {
+          "title": "Educación ambiental en San Patricio del Chañar: Más de 350 estudiantes se unen por el futuro ecológico de Neuquén - Patagonia Ambiental",
+          "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQcUw3VWg3dGNwN211cHhUby1OQVlQdmtNakJ2NGp4WDRRVmo1NjBxZzBuSGFGYXRDTVNQQWNiY0Y2bmFkWm9NMDQwUWVjRDQzZjRhY05tMmMwTVhTMDFKNThEUmlzcGpkQnI3ZVBjamJyRnJwTFcxb3FxQ1UxdnpGN2h1cF9kQnFySlgzdzY4NDRnR24zRVY5WDFLTHRrc3ZJN1RLcVhyTEQ1UG11S053RGZHWW1GRlNUOGJRcEVQMklzN2JKUzNubjB5TFhMcHptb3VjcTJnclZyTW1yRE9Ia0Jjc1R0MXRscnVlZHRKQnR6cDFK?oc=5",
+          "publishedAt": "2026-11-03T20:05:38+00:00",
+          "published": "2026-11-03T20:05:38+00:00",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMi9AFBVV95cUxQcUw3VWg3dGNwN211cHhUby1OQVlQdmtNakJ2NGp4WDRRVmo1NjBxZzBuSGFGYXRDTVNQQWNiY0Y2bmFkWm9NMDQwUWVjRDQzZjRhY05tMmMwTVhTMDFKNThEUmlzcGpkQnI3ZVBjamJyRnJwTFcxb3FxQ1UxdnpGN2h1cF9kQnFySlgzdzY4NDRnR24zRVY5WDFLTHRrc3ZJN1RLcVhyTEQ1UG11S053RGZHWW1GRlNUOGJRcEVQMklzN2JKUzNubjB5TFhMcHptb3VjcTJnclZyTW1yRE9Ia0Jjc1R0MXRscnVlZHRKQnR6cDFK?oc=5\" target=\"_blank\">Educación ambiental en San Patricio del Chañar: Más de 350 estudiantes se unen por el futuro ecológico de Neuquén</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Patagonia Ambiental</font>",
+          "source": "Patagonia Ambiental",
+          "sourceType": "BUSCADOR / RESPALDO",
+          "sourceUrl": "",
+          "collection": "BUSCADOR",
+          "query": "\"San Patricio del Chañar\"",
+          "relevance": 3,
+          "relevanceLabel": "DIRECTA",
+          "firstSeen": "2026-11-09T09:30:09.078627+00:00",
+          "isNew": false,
+          "titleKey": "educacion ambiental mas 350 estudiantes unen futuro ecologico patagonia ambiental",
+          "evidenceUrl": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQcUw3VWg3dGNwN211cHhUby1OQVlQdmtNakJ2NGp4WDRRVmo1NjBxZzBuSGFGYXRDTVNQQWNiY0Y2bmFkWm9NMDQwUWVjRDQzZjRhY05tMmMwTVhTMDFKNThEUmlzcGpkQnI3ZVBjamJyRnJwTFcxb3FxQ1UxdnpGN2h1cF9kQnFySlgzdzY4NDRnR24zRVY5WDFLTHRrc3ZJN1RLcVhyTEQ1UG11S053RGZHWW1GRlNUOGJRcEVQMklzN2JKUzNubjB5TFhMcHptb3VjcTJnclZyTW1yRE9Ia0Jjc1R0MXRscnVlZHRKQnR6cDFK?oc=5",
+          "sourcePriority": 3
+        }
+      ],
+      "lifecycle": "ACTIVO",
+      "movementDelta": 0,
+      "previousCoverage": 0,
+      "newSources": [
+        "Patagonia Ambiental"
+      ],
+      "sourceDiversity": 1,
+      "memoryMatched": false,
+      "isNew": true,
+      "view": "INCIDENCIA",
+      "incidenceEligible": true,
+      "signalReason": "reservado a incidencia territorial",
+      "incidenceReason": "anclaje directo + tema operativo/local",
+      "territory": {
+        "version": "2.0",
+        "primary": "San Patricio del Chañar",
+        "nodes": [
+          "San Patricio del Chañar"
+        ],
+        "sectors": [],
+        "barrios": [],
+        "microzones": [],
+        "corridors": [],
+        "institutions": [],
+        "services": [],
+        "spaces": [],
+        "production": [],
+        "path": "San Patricio del Chañar",
+        "evidence": [
+          {
+            "node": "San Patricio del Chañar",
+            "level": "localidad",
+            "evidence": "DIRECTA"
+          }
+        ]
+      }
+    },
+    {
       "eventId": "CHA-8aa66f131026",
       "title": "La Liga Comunitaria de San Patricio del Chañar disputa la cuarta fecha - Chañar Digital",
       "publishedAt": "2026-10-15T07:00:00+00:00",
@@ -4789,7 +4644,7 @@
       "sourceType": "BUSCADOR / RESPALDO",
       "sourceUrl": "",
       "collection": "BUSCADOR",
-      "query": "site:mejorinformado.com \"San Patricio del Chañar\"",
+      "query": "\"San Patricio del Chañar\"",
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "firstSeen": "2026-11-16T18:13:28.055781+00:00",
@@ -4815,25 +4670,6 @@
       "isNew": false,
       "titleKey": "licitan obra cloacas 347 lotes mas 216 millones diario neuquino",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNVlNjamcxWlpoMExJOC1sM3czQjBzdzZkQ3daVWZaYlBCRWhpUnotdnBpUFloeVZidjVsNGJqNXRlZzdzSGlVd2pnSnA5LUtKUlBMREI1VmVDYlFPS2tiZm43QnVvOHBkYmZ3eEhyeHluVG5qQ2hTUTk0LUxuUGVTbDdmcFlpbjZOdmJJOF9hdG14VFJoM1V2QlZmTnIyb3laX0NJWEtNbnhtNDBKS3V3UF8tMms3dGpwb0hDRmItM0M?oc=5",
-      "sourcePriority": 3
-    },
-    {
-      "title": "El Parque Industrial se posiciona como motor logístico para abastecer la actividad de Vaca Muerta y potenciar a las empresas locales. – Tuit 90.5 -Vaca Muerta - tuitvacamuerta.com",
-      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNVElKSXNqRTk2a1M5WVNRdk1WLUpvUV8zV0V3ajZqTGJNNFJ5WEpMbGhnYUFrb1dNcGE1R2NiV1NnVklMbC1Eelo1UzF1SXh0bmpLYzlydHNPaV8wb2s1YzA2XzBqTFAteDRJWmJ4VnJWT2JRb0hKNFJfRnZldEJzLTZja1dJa0tJTlpwSzJwemMzQmI4V25tUERfd1ZVS3VhVFFVTk5MeDMxZlN5Wm1Ha3FNTkdmQTQ1S0VGZGVlYmIxTlVUdVhTc3ZueHVSV3dNYk91Z01CQ1liaU5VSjExdXpHamJuZTdjQnF4R3BBUDVBUQ?oc=5",
-      "publishedAt": "2026-11-15T01:25:50+00:00",
-      "published": "2026-11-15T01:25:50+00:00",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMi8gFBVV95cUxNVElKSXNqRTk2a1M5WVNRdk1WLUpvUV8zV0V3ajZqTGJNNFJ5WEpMbGhnYUFrb1dNcGE1R2NiV1NnVklMbC1Eelo1UzF1SXh0bmpLYzlydHNPaV8wb2s1YzA2XzBqTFAteDRJWmJ4VnJWT2JRb0hKNFJfRnZldEJzLTZja1dJa0tJTlpwSzJwemMzQmI4V25tUERfd1ZVS3VhVFFVTk5MeDMxZlN5Wm1Ha3FNTkdmQTQ1S0VGZGVlYmIxTlVUdVhTc3ZueHVSV3dNYk91Z01CQ1liaU5VSjExdXpHamJuZTdjQnF4R3BBUDVBUQ?oc=5\" target=\"_blank\">El Parque Industrial se posiciona como motor logístico para abastecer la actividad de Vaca Muerta y potenciar a las empresas locales. – Tuit 90.5 -Vaca Muerta</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">tuitvacamuerta.com</font>",
-      "source": "tuitvacamuerta.com",
-      "sourceType": "BUSCADOR / RESPALDO",
-      "sourceUrl": "",
-      "collection": "BUSCADOR",
-      "query": "site:tuitvacamuerta.com \"San Patricio del Chañar\"",
-      "relevance": 3,
-      "relevanceLabel": "DIRECTA",
-      "firstSeen": "2026-11-15T07:42:29.242371+00:00",
-      "isNew": false,
-      "titleKey": "parque industrial posiciona como motor logistico abastecer actividad vaca muerta potenciar empresas locales tuit vaca muerta tuitvacamuerta com",
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNVElKSXNqRTk2a1M5WVNRdk1WLUpvUV8zV0V3ajZqTGJNNFJ5WEpMbGhnYUFrb1dNcGE1R2NiV1NnVklMbC1Eelo1UzF1SXh0bmpLYzlydHNPaV8wb2s1YzA2XzBqTFAteDRJWmJ4VnJWT2JRb0hKNFJfRnZldEJzLTZja1dJa0tJTlpwSzJwemMzQmI4V25tUERfd1ZVS3VhVFFVTk5MeDMxZlN5Wm1Ha3FNTkdmQTQ1S0VGZGVlYmIxTlVUdVhTc3ZueHVSV3dNYk91Z01CQ1liaU5VSjExdXpHamJuZTdjQnF4R3BBUDVBUQ?oc=5",
       "sourcePriority": 3
     },
     {
@@ -5272,30 +5108,11 @@
       "titleKey": "educacion ambiental mas 350 estudiantes unen futuro ecologico patagonia ambiental",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQcUw3VWg3dGNwN211cHhUby1OQVlQdmtNakJ2NGp4WDRRVmo1NjBxZzBuSGFGYXRDTVNQQWNiY0Y2bmFkWm9NMDQwUWVjRDQzZjRhY05tMmMwTVhTMDFKNThEUmlzcGpkQnI3ZVBjamJyRnJwTFcxb3FxQ1UxdnpGN2h1cF9kQnFySlgzdzY4NDRnR24zRVY5WDFLTHRrc3ZJN1RLcVhyTEQ1UG11S053RGZHWW1GRlNUOGJRcEVQMklzN2JKUzNubjB5TFhMcHptb3VjcTJnclZyTW1yRE9Ia0Jjc1R0MXRscnVlZHRKQnR6cDFK?oc=5",
       "sourcePriority": 3
-    },
-    {
-      "title": "La educación ambiental reunió a 350 estudiantes en San Patricio del Chañar - Neuquen Informa",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPQWZaQTl3aERRc0g2OW04T1d3dkFvbThwRnMzMUtscFpFRTEyRlBVbmVXcWhud3RrMnVNY3pkcnNlaEwzamF0ZVdqZTVodFlsdUdDVy14MHFWZGpQZWw5dlU5T3MtaGJablhjamtySjFnQ0lnWnFzQzhhT2lRUktrdm5HblhMN19kMThlbWVodzVia2lmQmhoS01MRHJLUU9zT0xkelRSTjUxRXRwa1pqc0FTaDMxa3FoaS1zSHVWU2w2ZEl2NFFCeFdVWXMyTWVD0gHWAUFVX3lxTE13TFNYRF9NQkdwRXhMdF9mRlEyYlVIRDdFeU1mMkZhVkxHQmlGNlEyRUltbmx2QWlRWlJFSFRvRHk3RTQ1QUQ3RFMwSnZjZGhnU0c1bmZ4Y3NyaVdBOXRmWEU4czRKcm9pN3NURUp5ekZzbkFVSEpYNHl3Y0VxZGhIdng0OU9GamYtNTdxNF9ncXFvLUNxTXJzNm9kbjZUa1d1SjAxQ19zZEZILWhjakxVVGlfVkI4QnNpRFRtNnY1SFA1RFVTQU1oZXZyNTdvdl90NHNRTHc?oc=5",
-      "publishedAt": "2026-11-03T08:00:00+00:00",
-      "published": "2026-11-03T08:00:00+00:00",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMi0AFBVV95cUxPQWZaQTl3aERRc0g2OW04T1d3dkFvbThwRnMzMUtscFpFRTEyRlBVbmVXcWhud3RrMnVNY3pkcnNlaEwzamF0ZVdqZTVodFlsdUdDVy14MHFWZGpQZWw5dlU5T3MtaGJablhjamtySjFnQ0lnWnFzQzhhT2lRUktrdm5HblhMN19kMThlbWVodzVia2lmQmhoS01MRHJLUU9zT0xkelRSTjUxRXRwa1pqc0FTaDMxa3FoaS1zSHVWU2w2ZEl2NFFCeFdVWXMyTWVD0gHWAUFVX3lxTE13TFNYRF9NQkdwRXhMdF9mRlEyYlVIRDdFeU1mMkZhVkxHQmlGNlEyRUltbmx2QWlRWlJFSFRvRHk3RTQ1QUQ3RFMwSnZjZGhnU0c1bmZ4Y3NyaVdBOXRmWEU4czRKcm9pN3NURUp5ekZzbkFVSEpYNHl3Y0VxZGhIdng0OU9GamYtNTdxNF9ncXFvLUNxTXJzNm9kbjZUa1d1SjAxQ19zZEZILWhjakxVVGlfVkI4QnNpRFRtNnY1SFA1RFVTQU1oZXZyNTdvdl90NHNRTHc?oc=5\" target=\"_blank\">La educación ambiental reunió a 350 estudiantes en San Patricio del Chañar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Neuquen Informa</font>",
-      "source": "Neuquen Informa",
-      "sourceType": "BUSCADOR / RESPALDO",
-      "sourceUrl": "",
-      "collection": "BUSCADOR",
-      "query": "\"San Patricio del Chañar\"",
-      "relevance": 3,
-      "relevanceLabel": "DIRECTA",
-      "firstSeen": "2026-11-16T07:48:06.524480+00:00",
-      "isNew": false,
-      "titleKey": "educacion ambiental reunio 350 estudiantes informa",
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPQWZaQTl3aERRc0g2OW04T1d3dkFvbThwRnMzMUtscFpFRTEyRlBVbmVXcWhud3RrMnVNY3pkcnNlaEwzamF0ZVdqZTVodFlsdUdDVy14MHFWZGpQZWw5dlU5T3MtaGJablhjamtySjFnQ0lnWnFzQzhhT2lRUktrdm5HblhMN19kMThlbWVodzVia2lmQmhoS01MRHJLUU9zT0xkelRSTjUxRXRwa1pqc0FTaDMxa3FoaS1zSHVWU2w2ZEl2NFFCeFdVWXMyTWVD0gHWAUFVX3lxTE13TFNYRF9NQkdwRXhMdF9mRlEyYlVIRDdFeU1mMkZhVkxHQmlGNlEyRUltbmx2QWlRWlJFSFRvRHk3RTQ1QUQ3RFMwSnZjZGhnU0c1bmZ4Y3NyaVdBOXRmWEU4czRKcm9pN3NURUp5ekZzbkFVSEpYNHl3Y0VxZGhIdng0OU9GamYtNTdxNF9ncXFvLUNxTXJzNm9kbjZUa1d1SjAxQ19zZEZILWhjakxVVGlfVkI4QnNpRFRtNnY1SFA1RFVTQU1oZXZyNTdvdl90NHNRTHc?oc=5",
-      "sourcePriority": 3
     }
   ],
   "territorialGraph": {
     "version": "2.0",
-    "generatedAt": "2026-11-17T01:59:46.987991+00:00",
+    "generatedAt": "2026-11-17T10:34:03.080003+00:00",
     "root": "spc",
     "rule": "evidence-first",
     "levels": [
@@ -5322,7 +5139,7 @@
           "el chañar",
           "el chanar"
         ],
-        "eventCount": 12
+        "eventCount": 11
       },
       {
         "id": "rio-neuquen",
@@ -5531,7 +5348,7 @@
         "aliases": [
           "parque industrial"
         ],
-        "eventCount": 1
+        "eventCount": 0
       },
       {
         "id": "loteo-social",
@@ -5844,13 +5661,6 @@
         "evidence": "menciones de ambos nodos dentro del mismo hecho"
       },
       {
-        "from": "parque-industrial",
-        "to": "spc",
-        "relation": "COOCURRENCIA_TEXTUAL",
-        "eventCount": 1,
-        "evidence": "menciones de ambos nodos dentro del mismo hecho"
-      },
-      {
         "from": "ruta-7",
         "to": "spc",
         "relation": "COOCURRENCIA_TEXTUAL",
@@ -5872,16 +5682,9 @@
       "CHA-9404640e2987": [
         "spc"
       ],
-      "CHA-9d97715d7c22": [
-        "spc",
-        "parque-industrial"
-      ],
       "CHA-4b8240322bf2": [
         "spc",
         "ruta-7"
-      ],
-      "CHA-b0c86458f453": [
-        "spc"
       ],
       "CHA-07615adc0efe": [
         "spc"
@@ -5889,6 +5692,9 @@
       "CHA-6da81d99e91d": [
         "spc",
         "loteo-social"
+      ],
+      "CHA-b0c86458f453": [
+        "spc"
       ],
       "CHA-8aa66f131026": [
         "spc"
@@ -5907,18 +5713,18 @@
     },
     "stats": {
       "nodes": 46,
-      "activeNodes": 5,
-      "edges": 4,
-      "eventsLinked": 10,
+      "activeNodes": 4,
+      "edges": 3,
+      "eventsLinked": 9,
       "eventsWithMicrozones": 0,
       "eventsWithBarrios": 0,
-      "eventsWithSectors": 2,
+      "eventsWithSectors": 1,
       "levelActivity": {
         "localidad": 1,
         "microregion": 0,
         "corredor": 1,
         "microzona": 0,
-        "sector": 2,
+        "sector": 1,
         "barrio": 0,
         "institucion": 1,
         "servicio": 0,
@@ -5929,17 +5735,17 @@
   },
   "audit": {
     "version": "1.0",
-    "updatedAt": "2026-11-17T01:59:47.022822+00:00",
+    "updatedAt": "2026-11-17T10:34:03.124415+00:00",
     "rule": "fact != coverage; territory requires textual evidence",
-    "facts": 12,
-    "coverage": 32,
-    "coveragePerFact": 2.67,
-    "directAnchorFacts": 12,
+    "facts": 11,
+    "coverage": 30,
+    "coveragePerFact": 2.73,
+    "directAnchorFacts": 11,
     "directAnchorPct": 100.0,
-    "territorySpecificFacts": 5,
-    "territorySpecificPct": 41.7,
-    "averageSourcesPerFact": 2.42,
-    "activeTerritorialNodes": 5,
+    "territorySpecificFacts": 4,
+    "territorySpecificPct": 36.4,
+    "averageSourcesPerFact": 2.45,
+    "activeTerritorialNodes": 4,
     "failedSources": 10,
     "acceptedWithoutLocalEvidence": 0,
     "examplesAcceptedWithoutLocalEvidence": [],
