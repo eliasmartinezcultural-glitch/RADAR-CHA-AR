@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T18:13:28.055781+00:00",
+  "updatedAt": "2026-11-17T01:59:32.904716+00:00",
   "window": "14 días",
   "purpose": "Detectar qué se está moviendo en San Patricio del Chañar y mostrar de dónde surge cada señal.",
   "architecture": "contrato universal de procedencia + fuentes profesionales + adaptadores específicos + validación semántica + temporalidad + evidencia editorial separada",
@@ -49,7 +49,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://chanardigital.com.ar/",
-      "lastFetch": "2026-11-16T18:13:06.202788+00:00",
+      "lastFetch": "2026-11-17T01:59:11.293806+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -65,11 +65,11 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.radiomia.com.ar/",
-      "lastFetch": "2026-11-16T18:13:07.882474+00:00",
+      "lastFetch": "2026-11-17T01:59:11.786660+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
-        "WEB:AttributeError"
+        "WEB:HTTPError"
       ],
       "directAvailability": "failed",
       "freshnessHours": null
@@ -80,11 +80,11 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://tuitvacamuerta.com/",
-      "lastFetch": "2026-11-16T18:13:10.083943+00:00",
+      "lastFetch": "2026-11-17T01:59:13.674246+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
-        "WEB:RemoteDisconnected"
+        "WEB:AttributeError"
       ],
       "directAvailability": "failed",
       "freshnessHours": null
@@ -95,7 +95,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.vacamuertanews.com/",
-      "lastFetch": "2026-11-16T18:13:10.777099+00:00",
+      "lastFetch": "2026-11-17T01:59:14.323528+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -111,7 +111,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.neuqueninforma.gob.ar/",
-      "lastFetch": "2026-11-16T18:13:11.878056+00:00",
+      "lastFetch": "2026-11-17T01:59:15.604558+00:00",
       "success": false,
       "attempted": 3,
       "failures": [
@@ -128,7 +128,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://sanpatricio.gob.ar/",
-      "lastFetch": "2026-11-16T18:13:12.975296+00:00",
+      "lastFetch": "2026-11-17T01:59:16.696306+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -143,7 +143,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://boletinoficial.neuquen.gov.ar/",
-      "lastFetch": "2026-11-16T18:13:13.852501+00:00",
+      "lastFetch": "2026-11-17T01:59:17.610286+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -158,7 +158,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.lmneuquen.com/",
-      "lastFetch": "2026-11-16T18:13:13.945918+00:00",
+      "lastFetch": "2026-11-17T01:59:17.721077+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -174,7 +174,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.rionegro.com.ar/",
-      "lastFetch": "2026-11-16T18:13:17.302311+00:00",
+      "lastFetch": "2026-11-17T01:59:20.140504+00:00",
       "success": true,
       "attempted": 2,
       "failures": [
@@ -189,7 +189,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.mejorinformado.com/",
-      "lastFetch": "2026-11-16T18:13:18.126530+00:00",
+      "lastFetch": "2026-11-17T01:59:20.780729+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -205,7 +205,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.diariamenteneuquen.com/",
-      "lastFetch": "2026-11-16T18:13:19.024182+00:00",
+      "lastFetch": "2026-11-17T01:59:23.245212+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -709,13 +709,13 @@
   "languageAudit": [
     {
       "term": "el chañar",
-      "hits": 30,
-      "direct": 30
+      "hits": 29,
+      "direct": 29
     },
     {
       "term": "san patricio del chañar",
-      "hits": 27,
-      "direct": 27
+      "hits": 26,
+      "direct": 26
     },
     {
       "term": "ruta 7",
@@ -1277,8 +1277,8 @@
         "source": "NoticiasNQN",
         "group": "OBSERVADA",
         "role": "fuente detectada fuera del catálogo",
-        "accepted": 2,
-        "direct": 2,
+        "accepted": 1,
+        "direct": 1,
         "anchored": 0,
         "falsePositives": 0,
         "falsePositiveTypes": [],
@@ -1446,18 +1446,6 @@
       },
       {
         "source": "Mejor Informado",
-        "topic": "SERVICIOS",
-        "accepted": 2,
-        "direct": 2,
-        "anchored": 0,
-        "falsePositives": 0,
-        "territorialTerms": [
-          "san patricio del chañar",
-          "el chañar"
-        ]
-      },
-      {
-        "source": "NoticiasNQN",
         "topic": "SERVICIOS",
         "accepted": 2,
         "direct": 2,
@@ -1667,6 +1655,18 @@
         ]
       },
       {
+        "source": "NoticiasNQN",
+        "topic": "SERVICIOS",
+        "accepted": 1,
+        "direct": 1,
+        "anchored": 0,
+        "falsePositives": 0,
+        "territorialTerms": [
+          "san patricio del chañar",
+          "el chañar"
+        ]
+      },
+      {
         "source": "Patagonia Ambiental",
         "topic": "EDUCACIÓN",
         "accepted": 1,
@@ -1718,8 +1718,8 @@
     "languagePrecision": [
       {
         "term": "san patricio del chañar",
-        "acceptedHits": 28,
-        "directHits": 28,
+        "acceptedHits": 27,
+        "directHits": 27,
         "rejectedTitleHits": 0,
         "territorialStrength": "FUERTE"
       },
@@ -1732,8 +1732,8 @@
       },
       {
         "term": "el chañar",
-        "acceptedHits": 31,
-        "directHits": 31,
+        "acceptedHits": 30,
+        "directHits": 30,
         "rejectedTitleHits": 0,
         "territorialStrength": "FUERTE"
       },
@@ -2058,10 +2058,10 @@
     "interpretation": "auditoría sobre eventos aceptados; la próxima capa debe instrumentar rechazos antes del clustering"
   },
   "stats": {
-    "total": 32,
-    "direct": 32,
+    "total": 31,
+    "direct": 31,
     "regional": 0,
-    "new": 6,
+    "new": 0,
     "sources": 17,
     "directSignals": 0,
     "localDirectSignals": 0,
@@ -2076,7 +2076,7 @@
       "forecastGustKmh": 51.0,
       "forecastWindDirection": "O",
       "forecastTemperatureC": 29.0,
-      "retrievedAt": "2026-11-16T18:13:03.759838+00:00",
+      "retrievedAt": "2026-11-17T01:59:08.953105+00:00",
       "source": "AIC",
       "sourceTier": "primary",
       "sourceUrl": "https://www.aic.gob.ar/sitio/home?a=1015&z=1967225803",
@@ -2104,9 +2104,9 @@
       ],
       "currentProgrammedMaxM3s": 360,
       "currentProgrammedMinM3s": 340,
-      "programDate": "2026-11-17",
-      "tableDate": "2026-11-16",
-      "retrievedAt": "2026-11-16T18:13:03.759838+00:00",
+      "programDate": "2026-11-18",
+      "tableDate": "2026-11-17",
+      "retrievedAt": "2026-11-17T01:59:08.953105+00:00",
       "source": "AIC",
       "sourceTier": "primary",
       "sourceUrl": "https://www.aic.gob.ar/sitio/caudales",
@@ -2126,17 +2126,17 @@
         "url": "https://www.aic.gob.ar/sitio/caudales"
       }
     ],
-    "updatedAt": "2026-11-16T18:13:03.759838+00:00"
+    "updatedAt": "2026-11-17T01:59:08.953105+00:00"
   },
   "operational": {
-    "updatedAt": "2026-11-16T18:13:03.759838+00:00",
+    "updatedAt": "2026-11-17T01:59:08.953105+00:00",
     "route7": {
       "source": "Dirección Provincial de Vialidad",
       "sourceTier": "primary",
       "sourceUrl": "https://www.dpvneuquen.gov.ar/",
       "semanticState": null,
       "publicationState": "source_reachable_no_current_machine_readable_state",
-      "retrievedAt": "2026-11-16T18:13:03.759838+00:00",
+      "retrievedAt": "2026-11-17T01:59:08.953105+00:00",
       "evidence": {
         "route7Mention": true,
         "route8Mention": false
@@ -2148,7 +2148,7 @@
       "sourceUrl": "https://www.dpvneuquen.gov.ar/",
       "semanticState": null,
       "publicationState": "source_reachable_no_current_machine_readable_state",
-      "retrievedAt": "2026-11-16T18:13:03.759838+00:00",
+      "retrievedAt": "2026-11-17T01:59:08.953105+00:00",
       "evidence": {
         "route7Mention": true,
         "route8Mention": false
@@ -2162,7 +2162,7 @@
       "eventType": null,
       "detail": null,
       "publicationState": "source_reachable_no_specific_local_notice",
-      "retrievedAt": "2026-11-16T18:13:03.759838+00:00"
+      "retrievedAt": "2026-11-17T01:59:08.953105+00:00"
     },
     "water": {
       "source": "EPAS",
@@ -2172,7 +2172,7 @@
       "eventType": null,
       "detail": null,
       "publicationState": "source_reachable_no_specific_local_notice",
-      "retrievedAt": "2026-11-16T18:13:03.759838+00:00"
+      "retrievedAt": "2026-11-17T01:59:08.953105+00:00"
     },
     "sources": [
       {
@@ -2584,7 +2584,7 @@
       "label": "Conversación general",
       "signal": 12,
       "status": "cobertura editorial",
-      "freshnessHours": 1.1,
+      "freshnessHours": 8.8,
       "mode": "evidencia editorial",
       "evidenceCount": 12,
       "sourceContract": {
@@ -2624,7 +2624,7 @@
       "label": "Corredor Ruta 7",
       "signal": 1,
       "status": "estado vial",
-      "freshnessHours": 197.3,
+      "freshnessHours": 205.1,
       "mode": "evidencia territorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -2664,7 +2664,7 @@
         "sourceUrl": "https://www.dpvneuquen.gov.ar/",
         "semanticState": null,
         "publicationState": "source_reachable_no_current_machine_readable_state",
-        "retrievedAt": "2026-11-16T18:13:03.759838+00:00",
+        "retrievedAt": "2026-11-17T01:59:08.953105+00:00",
         "evidence": {
           "route7Mention": true,
           "route8Mention": false
@@ -2716,7 +2716,7 @@
         "sourceUrl": "https://www.dpvneuquen.gov.ar/",
         "semanticState": null,
         "publicationState": "source_reachable_no_current_machine_readable_state",
-        "retrievedAt": "2026-11-16T18:13:03.759838+00:00",
+        "retrievedAt": "2026-11-17T01:59:08.953105+00:00",
         "evidence": {
           "route7Mention": true,
           "route8Mention": false
@@ -2816,7 +2816,7 @@
         "eventType": null,
         "detail": null,
         "publicationState": "source_reachable_no_specific_local_notice",
-        "retrievedAt": "2026-11-16T18:13:03.759838+00:00"
+        "retrievedAt": "2026-11-17T01:59:08.953105+00:00"
       }
     },
     {
@@ -2824,7 +2824,7 @@
       "label": "Agua / abastecimiento",
       "signal": 1,
       "status": "evento hídrico",
-      "freshnessHours": 7.9,
+      "freshnessHours": 15.7,
       "mode": "evidencia editorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -2866,7 +2866,7 @@
         "eventType": null,
         "detail": null,
         "publicationState": "source_reachable_no_specific_local_notice",
-        "retrievedAt": "2026-11-16T18:13:03.759838+00:00"
+        "retrievedAt": "2026-11-17T01:59:08.953105+00:00"
       }
     },
     {
@@ -2874,7 +2874,7 @@
       "label": "Servicios e infraestructura",
       "signal": 1,
       "status": "evidencia de servicio",
-      "freshnessHours": 7.9,
+      "freshnessHours": 15.7,
       "mode": "evidencia editorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -2994,7 +2994,7 @@
       "label": "Producción rural",
       "signal": 1,
       "status": "evidencia productiva",
-      "freshnessHours": 1.1,
+      "freshnessHours": 8.8,
       "mode": "evidencia editorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -3034,7 +3034,7 @@
       "label": "Seguridad / emergencias",
       "signal": 2,
       "status": "cobertura de emergencia",
-      "freshnessHours": 68.5,
+      "freshnessHours": 76.3,
       "mode": "evidencia editorial",
       "evidenceCount": 2,
       "sourceContract": {
@@ -3074,7 +3074,7 @@
       "label": "Territorio / microzonas",
       "signal": 2,
       "status": "hecho territorial",
-      "freshnessHours": 40.8,
+      "freshnessHours": 48.6,
       "mode": "evidencia territorial",
       "evidenceCount": 2,
       "sourceContract": {
@@ -3131,7 +3131,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://chanardigital.com.ar/",
-        "lastFetch": "2026-11-16T18:13:06.202788+00:00",
+        "lastFetch": "2026-11-17T01:59:11.293806+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3147,11 +3147,11 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.radiomia.com.ar/",
-        "lastFetch": "2026-11-16T18:13:07.882474+00:00",
+        "lastFetch": "2026-11-17T01:59:11.786660+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
-          "WEB:AttributeError"
+          "WEB:HTTPError"
         ],
         "directAvailability": "failed",
         "freshnessHours": null
@@ -3162,11 +3162,11 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://tuitvacamuerta.com/",
-        "lastFetch": "2026-11-16T18:13:10.083943+00:00",
+        "lastFetch": "2026-11-17T01:59:13.674246+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
-          "WEB:RemoteDisconnected"
+          "WEB:AttributeError"
         ],
         "directAvailability": "failed",
         "freshnessHours": null
@@ -3177,7 +3177,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.vacamuertanews.com/",
-        "lastFetch": "2026-11-16T18:13:10.777099+00:00",
+        "lastFetch": "2026-11-17T01:59:14.323528+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3193,7 +3193,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.neuqueninforma.gob.ar/",
-        "lastFetch": "2026-11-16T18:13:11.878056+00:00",
+        "lastFetch": "2026-11-17T01:59:15.604558+00:00",
         "success": false,
         "attempted": 3,
         "failures": [
@@ -3210,7 +3210,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://sanpatricio.gob.ar/",
-        "lastFetch": "2026-11-16T18:13:12.975296+00:00",
+        "lastFetch": "2026-11-17T01:59:16.696306+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -3225,7 +3225,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://boletinoficial.neuquen.gov.ar/",
-        "lastFetch": "2026-11-16T18:13:13.852501+00:00",
+        "lastFetch": "2026-11-17T01:59:17.610286+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -3240,7 +3240,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.lmneuquen.com/",
-        "lastFetch": "2026-11-16T18:13:13.945918+00:00",
+        "lastFetch": "2026-11-17T01:59:17.721077+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3256,7 +3256,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.rionegro.com.ar/",
-        "lastFetch": "2026-11-16T18:13:17.302311+00:00",
+        "lastFetch": "2026-11-17T01:59:20.140504+00:00",
         "success": true,
         "attempted": 2,
         "failures": [
@@ -3271,7 +3271,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.mejorinformado.com/",
-        "lastFetch": "2026-11-16T18:13:18.126530+00:00",
+        "lastFetch": "2026-11-17T01:59:20.780729+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3287,7 +3287,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.diariamenteneuquen.com/",
-        "lastFetch": "2026-11-16T18:13:19.024182+00:00",
+        "lastFetch": "2026-11-17T01:59:23.245212+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3314,7 +3314,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SERVICIOS",
-      "movement": 98,
+      "movement": 96,
       "coverage": 8,
       "sourceCount": 7,
       "directSourceCount": 0,
@@ -3347,7 +3347,7 @@
           "relevance": 3,
           "relevanceLabel": "DIRECTA",
           "firstSeen": "2026-11-16T18:13:28.055781+00:00",
-          "isNew": true,
+          "isNew": false,
           "titleKey": "licitaran red cloacas 347 lotes vaca muerta news",
           "evidenceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPY0ttcXhwRmhUWTNiWWNCNGxGTEpDUnpxemxCY082dTJ5bHZmRUdoeFFaWmFKOTFaTFUwZ1NFWkNLWmRFeFhqU3Q2VVJOTjFXX3hoS1NzTmR2ekhNaHJoNjJ5TERKOHBuWEh3OU1lWnVEZDZqOTBpSzhrdGxDQTNpZlJjUFVkcTBDelp2YkRxR0c4WDJneUduemljbEFSeWdpaTU4NnJ5MHpsQlptM2hVMNIBpwFBVV95cUxPcUx1NlpsdFM4VTdiNXNlUEVPS3JBMDFrSFl0d0NjVjVTMWZXZ0RkSUlpREdOaHl0TzVUNHhSbnJDX3J1bVptNlZQVHVWdF9sZzBaZFMxQU4tOTA1T1JmZmVxSVVWTXhoOXlyRWdvTE5BT1BocUxWWVo3VGNIbV9kNXdqREJRS3VlVk9xbU1VWkdtNUd4RGM5VlhHZ2lLZVNJY1ZRWm9YWQ?oc=5",
           "sourcePriority": 3
@@ -3366,7 +3366,7 @@
           "relevance": 3,
           "relevanceLabel": "DIRECTA",
           "firstSeen": "2026-11-16T18:13:28.055781+00:00",
-          "isNew": true,
+          "isNew": false,
           "titleKey": "licita red cloacas 347 lotes invertiran 200 millones mejor informado",
           "evidenceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNQW1PLWo0MUt0N1Q4S0cwbjF3c1k3NWlUVGI5OGxEMUNXVEpzeU9UTElzSXFYN1g5VFNfYXdhNEpqelJrLVNFYTFwSktIclNUM3NKaG5KWlJCTU5GZUhrajV5a0FRd00zVXNTeG1NSmhrQVFGaVpSQldfajNaTi1FbTBweXBjTF92anUxSnBoVDUwRXB0YTlCQTJwUjV5VjlnbFhVU1prb252dlc3dVVmZkZuRGZ4bnljeUJRRWhiNmNhSEI1aTU5WURncFrSAcwBQVVfeXFMTUFtTy1qNDFLdDdUOEtHMG4xd3NZNzVpVFRiOThsRDFDV1RKc3lPVExJc0lxWDdYOVRTX2F3YTRKanpSay1TRWExcEpLSHJTVDNzSmhuSlpSQk1ORmVIa2o1eWtBUXdNM1VzU3htTUpoa0FRRmlaUkJXX2ozWk4tRW0wcHlwY0xfdmp1MUpwaFQ1MEVwdGE5QkEycFI1eVY5Z2xYVVNaa29udnZXN3VVZmZGbkRmeG55Y3lCUUVoYjZjYUhCNWk1OVlEZ3Ba?oc=5",
           "sourcePriority": 3
@@ -3423,7 +3423,7 @@
           "relevance": 3,
           "relevanceLabel": "DIRECTA",
           "firstSeen": "2026-11-16T18:13:28.055781+00:00",
-          "isNew": true,
+          "isNew": false,
           "titleKey": "doce denuncias anonimas destaparon red venta drogas cuatro condenados mejor informado",
           "evidenceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQN3ItNmRpWHNkaGxIbUVIWnJuOTlYOEp3dGQ2TnY5LWZ6LXhEOF8yOXEtMEpUUDd5NlRLSzh6Y0NsbE1OSmFnNVdRWjNiejZPYnpDTzI3UTFBaHN6QjJ6RXBfUDMtNFdmaHczWDJ1MXBqdEFQMHNPOVJjNHh4bjVSZjZySWdWeXdNem5VcGZIVHN3NjJfbEY2cHVoVi1ROFp2azJyMzJBUk5nQlJlVHF1cXNXaDlqangwOXhxenNuQXJsRWFtQ1FIddIByAFBVV95cUxQN3ItNmRpWHNkaGxIbUVIWnJuOTlYOEp3dGQ2TnY5LWZ6LXhEOF8yOXEtMEpUUDd5NlRLSzh6Y0NsbE1OSmFnNVdRWjNiejZPYnpDTzI3UTFBaHN6QjJ6RXBfUDMtNFdmaHczWDJ1MXBqdEFQMHNPOVJjNHh4bjVSZjZySWdWeXdNem5VcGZIVHN3NjJfbEY2cHVoVi1ROFp2azJyMzJBUk5nQlJlVHF1cXNXaDlqangwOXhxenNuQXJsRWFtQ1FIdQ?oc=5",
           "sourcePriority": 3
@@ -3442,7 +3442,7 @@
           "relevance": 3,
           "relevanceLabel": "DIRECTA",
           "firstSeen": "2026-11-16T18:13:28.055781+00:00",
-          "isNew": true,
+          "isNew": false,
           "titleKey": "condenaron cuatro hombres vender drogas noticiasnqn",
           "evidenceUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOV1N6Z2dsbUJLaFRVWDA0VGlfWVN5anplY3h3MnpObEdWUFM0YVlvYS1LeklISmo3ZHRIMjZ3U3p5bndhZTVveTFVR1k5YWJRcmpwLUZpTkJvUFlocnBRbTVRaEhxcDQzOC1xZmRYRDAtZUxMNDdKeXdmMlBOS3FSVDdWOWtVN1FGQVB3X0VjRkpsclNQbDkwdU1wYWhjOUhiTnJKd0RyQ0E5WE8yQnRkaERFdXZyRDM3dUZGMGlGM2dlY0N2dUdDbWJUZmprTEHSAc8BQVVfeXFMTldTemdnbG1CS2hUVVgwNFRpX1lTeWp6ZWN4dzJ6TmxHVlBTNGFZb2EtS3pJSEpqN2R0SDI2d1N6eW53YWU1b3kxVUdZOWFiUXJqcC1GaU5Cb1BZaHJwUW01UWhIcXA0MzgtcWZkWEQwLWVMTDQ3Snl3ZjJQTktxUlQ3VjlrVTdRRkFQd19FY0ZKbHJTUGw5MHVNcGFoYzlIYk5ySndEckNBOVhPMkJ0ZGhERXV2ckQzN3VGRjBpRjNnZWNDdnVHQ21iVGZqa0xB?oc=5",
           "sourcePriority": 3
@@ -3487,15 +3487,9 @@
         }
       ],
       "lifecycle": "ACTIVO",
-      "movementDelta": 82,
-      "previousCoverage": 2,
+      "movementDelta": -2,
+      "previousCoverage": 8,
       "newSources": [
-        "Vaca Muerta News",
-        "Mejor Informado",
-        "Diario Neuquino",
-        "Neuquen Informa",
-        "NoticiasNQN",
-        "Diario Río Negro",
         "ANBariloche"
       ],
       "sourceDiversity": 7,
@@ -3539,7 +3533,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SEGURIDAD / EMERGENCIAS",
-      "movement": 82,
+      "movement": 80,
       "coverage": 5,
       "sourceCount": 5,
       "directSourceCount": 0,
@@ -3706,7 +3700,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "PRODUCCIÓN",
-      "movement": 61,
+      "movement": 58,
       "coverage": 1,
       "sourceCount": 1,
       "directSourceCount": 0,
@@ -3733,18 +3727,16 @@
           "relevance": 3,
           "relevanceLabel": "DIRECTA",
           "firstSeen": "2026-11-16T18:13:28.055781+00:00",
-          "isNew": true,
+          "isNew": false,
           "titleKey": "salazar gano general llanos consagro tricampeon cutral instante",
           "evidenceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNelBtV3ZmSVA2N2N6V2Z3VTBxRTduUU1zUEM4TFRUVXJXTk1JN2l4VzJYaGxzYnVxamhKajROYnRaVW8tU1YzYVBLT2VySE5uLTdZWWpVZnEwTTZWTm90Z1dlZG9jX3lYbUo2V3BlOGJpVVhvb2FhRm9KeTZ0Q3g5UVpMV3U5TmJQY2FwYUJIdVJ2bEQ5d01EVjdBRFhYYXFRWFFMMnMySmtObW83cVpPSzJaRTBfN3l4SklseU1rYlo5Y25TRTVqUjB6cWcxYm1yWUNCUw?oc=5",
           "sourcePriority": 3
         }
       ],
       "lifecycle": "EMERGENTE",
-      "movementDelta": 14,
-      "previousCoverage": 5,
-      "newSources": [
-        "Cutral Co al Instante"
-      ],
+      "movementDelta": -3,
+      "previousCoverage": 1,
+      "newSources": [],
       "sourceDiversity": 1,
       "memoryMatched": true,
       "isNew": false,
@@ -3786,7 +3778,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SERVICIOS",
-      "movement": 57,
+      "movement": 55,
       "coverage": 5,
       "sourceCount": 5,
       "directSourceCount": 0,
@@ -3900,7 +3892,7 @@
         }
       ],
       "lifecycle": "ACTIVO",
-      "movementDelta": 29,
+      "movementDelta": 30,
       "previousCoverage": 1,
       "newSources": [
         "Diario Río Negro",
@@ -3948,7 +3940,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SERVICIOS",
-      "movement": 50,
+      "movement": 48,
       "coverage": 1,
       "sourceCount": 1,
       "directSourceCount": 0,
@@ -3981,7 +3973,7 @@
         }
       ],
       "lifecycle": "SOSTENIDO",
-      "movementDelta": -3,
+      "movementDelta": -2,
       "previousCoverage": 1,
       "newSources": [],
       "sourceDiversity": 1,
@@ -4244,17 +4236,16 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SERVICIOS",
-      "movement": 26,
-      "coverage": 4,
-      "sourceCount": 2,
+      "movement": 24,
+      "coverage": 3,
+      "sourceCount": 1,
       "directSourceCount": 0,
       "territorialAnchors": [
         "san patricio del chañar",
         "el chañar"
       ],
       "sources": [
-        "Chañar Digital",
-        "NoticiasNQN"
+        "Chañar Digital"
       ],
       "evidenceUrl": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOSjN0RGhmVlgzeWVPVGY4ZWthU3VybE81UXNGLVhvV0JoN1poNnZERjBLczBjRFJEM1R4UFpYM2hUdTI1UzZPdjVjdU51Sy1tT2hsNVctd2ZNUVpXamx1UnBXSm5wYVFFSFFqMXoxNUZCNDgtcDk3MTNUeEZ2dTExSlF1MjRGa3BLcmdhQUFvWEY2OU9ySXNkWGNUeE5rMWhNcE90eFFLSE5PT3hCVE1kejhKSFpMVjhDY3pHbkV4cUw3WEpkejNsOW5BQXdpaWZmZmVRWnYtYmVscUktWGdvSElmUzJ5ZnYwdUE?oc=5",
       "items": [
@@ -4314,35 +4305,15 @@
           "titleKey": "vecinos zona rural llevan tres dias sin agua reclaman respuestas digital",
           "evidenceUrl": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQT3JvbDdBSkZPMEhCSmloTEdiX2lNRURsbEx1Y1F4S1VsRkRaY0FkWU00ejJWSXYxNzdTcEd3ZG5CMXYxVGVoZUQ1YmNlTEJDUFBhVWFXRUM1a3lteDRodDV3bERkdTJOX25zX1VQN3dXckZDNDA2Sk9jNkJ5anMyTl9FRy1PSlNPVUlzdVlFeTd0Nk1YLU1uZi1GcUE0VW1NeU5Yck1UX1VmM3ZwVjIydzhpQTctU3h4cTczMlpSS0NTWlBHY04tcTlaa0lBbHlmeVJtRWdrMUlIOW5iSGd5WGFmc2s5Z19x?oc=5",
           "sourcePriority": 3
-        },
-        {
-          "title": "San Patricio del Chañar será sede de una nueva fecha del Rally Neuquino - NoticiasNQN",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNk9jdGxwSEQ4TmxiLURmcHlSemtkNnp5R3NySHV3MWpCNXVRS09nYnlidmFGRnp2VzkxRk5nTVJVWi14VWl0Q05LRURuM2JkMXE4WFRyaWNURnh4WTNqaEZKNFV3SmhVTFBwVW5neUplRnVKTTM0a0h5c3ZXWEJqRXFyOUVUTE5UeEJvcDJHeWVYeHI2dmF0T3pxSmdvR0NuaXZCZkV5NEFPRG9jVnhmQmVXNUJIT01TU3VLYzBnRndvRkRFbzlZdNIBzgFBVV95cUxQQU5oSnZGRHF2R1NZUUpzM2h3ZFRTcmlSZldzQi1Nc3d0N3pCcXFzMlU0YjQzZ1BCT2xLVjQ4TzN2ZkhpR1ZJcC1ieFZZNzAtQThGaFVJSlhaeWd3NE9GaFZoM2doSV85eW91S19KMG5vbGhNbVBOdURfYkJ5TjJYbUxseHhqV1ZTZXlQMjlfREkxOEJ0cDNQYnYwV2RkMGlsU3RIWEZkZjNhRDh5YWh1LWFzd0xqYzhuMHdvVGhGMEZRYU5mQmVOUzVHYmJnZw?oc=5",
-          "publishedAt": "2026-11-10T12:22:36+00:00",
-          "published": "2026-11-10T12:22:36+00:00",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNk9jdGxwSEQ4TmxiLURmcHlSemtkNnp5R3NySHV3MWpCNXVRS09nYnlidmFGRnp2VzkxRk5nTVJVWi14VWl0Q05LRURuM2JkMXE4WFRyaWNURnh4WTNqaEZKNFV3SmhVTFBwVW5neUplRnVKTTM0a0h5c3ZXWEJqRXFyOUVUTE5UeEJvcDJHeWVYeHI2dmF0T3pxSmdvR0NuaXZCZkV5NEFPRG9jVnhmQmVXNUJIT01TU3VLYzBnRndvRkRFbzlZdNIBzgFBVV95cUxQQU5oSnZGRHF2R1NZUUpzM2h3ZFRTcmlSZldzQi1Nc3d0N3pCcXFzMlU0YjQzZ1BCT2xLVjQ4TzN2ZkhpR1ZJcC1ieFZZNzAtQThGaFVJSlhaeWd3NE9GaFZoM2doSV85eW91S19KMG5vbGhNbVBOdURfYkJ5TjJYbUxseHhqV1ZTZXlQMjlfREkxOEJ0cDNQYnYwV2RkMGlsU3RIWEZkZjNhRDh5YWh1LWFzd0xqYzhuMHdvVGhGMEZRYU5mQmVOUzVHYmJnZw?oc=5\" target=\"_blank\">San Patricio del Chañar será sede de una nueva fecha del Rally Neuquino</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NoticiasNQN</font>",
-          "source": "NoticiasNQN",
-          "sourceType": "BUSCADOR / RESPALDO",
-          "sourceUrl": "",
-          "collection": "BUSCADOR",
-          "query": "\"San Patricio del Chañar\"",
-          "relevance": 3,
-          "relevanceLabel": "DIRECTA",
-          "firstSeen": "2026-11-16T18:13:28.055781+00:00",
-          "isNew": true,
-          "titleKey": "sera sede nueva fecha rally neuquino noticiasnqn",
-          "evidenceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNk9jdGxwSEQ4TmxiLURmcHlSemtkNnp5R3NySHV3MWpCNXVRS09nYnlidmFGRnp2VzkxRk5nTVJVWi14VWl0Q05LRURuM2JkMXE4WFRyaWNURnh4WTNqaEZKNFV3SmhVTFBwVW5neUplRnVKTTM0a0h5c3ZXWEJqRXFyOUVUTE5UeEJvcDJHeWVYeHI2dmF0T3pxSmdvR0NuaXZCZkV5NEFPRG9jVnhmQmVXNUJIT01TU3VLYzBnRndvRkRFbzlZdNIBzgFBVV95cUxQQU5oSnZGRHF2R1NZUUpzM2h3ZFRTcmlSZldzQi1Nc3d0N3pCcXFzMlU0YjQzZ1BCT2xLVjQ4TzN2ZkhpR1ZJcC1ieFZZNzAtQThGaFVJSlhaeWd3NE9GaFZoM2doSV85eW91S19KMG5vbGhNbVBOdURfYkJ5TjJYbUxseHhqV1ZTZXlQMjlfREkxOEJ0cDNQYnYwV2RkMGlsU3RIWEZkZjNhRDh5YWh1LWFzd0xqYzhuMHdvVGhGMEZRYU5mQmVOUzVHYmJnZw?oc=5",
-          "sourcePriority": 3
         }
       ],
       "lifecycle": "ACTIVO",
       "movementDelta": 0,
       "previousCoverage": 0,
       "newSources": [
-        "Chañar Digital",
-        "NoticiasNQN"
+        "Chañar Digital"
       ],
-      "sourceDiversity": 2,
+      "sourceDiversity": 1,
       "memoryMatched": false,
       "isNew": true,
       "view": "INCIDENCIA",
@@ -4383,7 +4354,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SERVICIOS",
-      "movement": 25,
+      "movement": 23,
       "coverage": 1,
       "sourceCount": 1,
       "directSourceCount": 0,
@@ -4513,7 +4484,7 @@
           "sourceType": "BUSCADOR / RESPALDO",
           "sourceUrl": "",
           "collection": "BUSCADOR",
-          "query": "\"San Patricio del Chañar\" Neuquén",
+          "query": "\"San Patricio del Chañar\"",
           "relevance": 3,
           "relevanceLabel": "DIRECTA",
           "firstSeen": "2026-11-09T09:30:09.078627+00:00",
@@ -4746,7 +4717,7 @@
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "firstSeen": "2026-11-16T18:13:28.055781+00:00",
-      "isNew": true,
+      "isNew": false,
       "titleKey": "salazar gano general llanos consagro tricampeon cutral instante",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNelBtV3ZmSVA2N2N6V2Z3VTBxRTduUU1zUEM4TFRUVXJXTk1JN2l4VzJYaGxzYnVxamhKajROYnRaVW8tU1YzYVBLT2VySE5uLTdZWWpVZnEwTTZWTm90Z1dlZG9jX3lYbUo2V3BlOGJpVVhvb2FhRm9KeTZ0Q3g5UVpMV3U5TmJQY2FwYUJIdVJ2bEQ5d01EVjdBRFhYYXFRWFFMMnMySmtObW83cVpPSzJaRTBfN3l4SklseU1rYlo5Y25TRTVqUjB6cWcxYm1yWUNCUw?oc=5",
       "sourcePriority": 3
@@ -4765,7 +4736,7 @@
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "firstSeen": "2026-11-16T18:13:28.055781+00:00",
-      "isNew": true,
+      "isNew": false,
       "titleKey": "licitaran red cloacas 347 lotes vaca muerta news",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPY0ttcXhwRmhUWTNiWWNCNGxGTEpDUnpxemxCY082dTJ5bHZmRUdoeFFaWmFKOTFaTFUwZ1NFWkNLWmRFeFhqU3Q2VVJOTjFXX3hoS1NzTmR2ekhNaHJoNjJ5TERKOHBuWEh3OU1lWnVEZDZqOTBpSzhrdGxDQTNpZlJjUFVkcTBDelp2YkRxR0c4WDJneUduemljbEFSeWdpaTU4NnJ5MHpsQlptM2hVMNIBpwFBVV95cUxPcUx1NlpsdFM4VTdiNXNlUEVPS3JBMDFrSFl0d0NjVjVTMWZXZ0RkSUlpREdOaHl0TzVUNHhSbnJDX3J1bVptNlZQVHVWdF9sZzBaZFMxQU4tOTA1T1JmZmVxSVVWTXhoOXlyRWdvTE5BT1BocUxWWVo3VGNIbV9kNXdqREJRS3VlVk9xbU1VWkdtNUd4RGM5VlhHZ2lLZVNJY1ZRWm9YWQ?oc=5",
       "sourcePriority": 3
@@ -4822,7 +4793,7 @@
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "firstSeen": "2026-11-16T18:13:28.055781+00:00",
-      "isNew": true,
+      "isNew": false,
       "titleKey": "licita red cloacas 347 lotes invertiran 200 millones mejor informado",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNQW1PLWo0MUt0N1Q4S0cwbjF3c1k3NWlUVGI5OGxEMUNXVEpzeU9UTElzSXFYN1g5VFNfYXdhNEpqelJrLVNFYTFwSktIclNUM3NKaG5KWlJCTU5GZUhrajV5a0FRd00zVXNTeG1NSmhrQVFGaVpSQldfajNaTi1FbTBweXBjTF92anUxSnBoVDUwRXB0YTlCQTJwUjV5VjlnbFhVU1prb252dlc3dVVmZkZuRGZ4bnljeUJRRWhiNmNhSEI1aTU5WURncFrSAcwBQVVfeXFMTUFtTy1qNDFLdDdUOEtHMG4xd3NZNzVpVFRiOThsRDFDV1RKc3lPVExJc0lxWDdYOVRTX2F3YTRKanpSay1TRWExcEpLSHJTVDNzSmhuSlpSQk1ORmVIa2o1eWtBUXdNM1VzU3htTUpoa0FRRmlaUkJXX2ozWk4tRW0wcHlwY0xfdmp1MUpwaFQ1MEVwdGE5QkEycFI1eVY5Z2xYVVNaa29udnZXN3VVZmZGbkRmeG55Y3lCUUVoYjZjYUhCNWk1OVlEZ3Ba?oc=5",
       "sourcePriority": 3
@@ -4955,7 +4926,7 @@
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "firstSeen": "2026-11-16T18:13:28.055781+00:00",
-      "isNew": true,
+      "isNew": false,
       "titleKey": "doce denuncias anonimas destaparon red venta drogas cuatro condenados mejor informado",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQN3ItNmRpWHNkaGxIbUVIWnJuOTlYOEp3dGQ2TnY5LWZ6LXhEOF8yOXEtMEpUUDd5NlRLSzh6Y0NsbE1OSmFnNVdRWjNiejZPYnpDTzI3UTFBaHN6QjJ6RXBfUDMtNFdmaHczWDJ1MXBqdEFQMHNPOVJjNHh4bjVSZjZySWdWeXdNem5VcGZIVHN3NjJfbEY2cHVoVi1ROFp2azJyMzJBUk5nQlJlVHF1cXNXaDlqangwOXhxenNuQXJsRWFtQ1FIddIByAFBVV95cUxQN3ItNmRpWHNkaGxIbUVIWnJuOTlYOEp3dGQ2TnY5LWZ6LXhEOF8yOXEtMEpUUDd5NlRLSzh6Y0NsbE1OSmFnNVdRWjNiejZPYnpDTzI3UTFBaHN6QjJ6RXBfUDMtNFdmaHczWDJ1MXBqdEFQMHNPOVJjNHh4bjVSZjZySWdWeXdNem5VcGZIVHN3NjJfbEY2cHVoVi1ROFp2azJyMzJBUk5nQlJlVHF1cXNXaDlqangwOXhxenNuQXJsRWFtQ1FIdQ?oc=5",
       "sourcePriority": 3
@@ -5031,7 +5002,7 @@
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "firstSeen": "2026-11-16T18:13:28.055781+00:00",
-      "isNew": true,
+      "isNew": false,
       "titleKey": "condenaron cuatro hombres vender drogas noticiasnqn",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOV1N6Z2dsbUJLaFRVWDA0VGlfWVN5anplY3h3MnpObEdWUFM0YVlvYS1LeklISmo3ZHRIMjZ3U3p5bndhZTVveTFVR1k5YWJRcmpwLUZpTkJvUFlocnBRbTVRaEhxcDQzOC1xZmRYRDAtZUxMNDdKeXdmMlBOS3FSVDdWOWtVN1FGQVB3X0VjRkpsclNQbDkwdU1wYWhjOUhiTnJKd0RyQ0E5WE8yQnRkaERFdXZyRDM3dUZGMGlGM2dlY0N2dUdDbWJUZmprTEHSAc8BQVVfeXFMTldTemdnbG1CS2hUVVgwNFRpX1lTeWp6ZWN4dzJ6TmxHVlBTNGFZb2EtS3pJSEpqN2R0SDI2d1N6eW53YWU1b3kxVUdZOWFiUXJqcC1GaU5Cb1BZaHJwUW01UWhIcXA0MzgtcWZkWEQwLWVMTDQ3Snl3ZjJQTktxUlQ3VjlrVTdRRkFQd19FY0ZKbHJTUGw5MHVNcGFoYzlIYk5ySndEckNBOVhPMkJ0ZGhERXV2ckQzN3VGRjBpRjNnZWNDdnVHQ21iVGZqa0xB?oc=5",
       "sourcePriority": 3
@@ -5151,25 +5122,6 @@
       "sourcePriority": 3
     },
     {
-      "title": "San Patricio del Chañar será sede de una nueva fecha del Rally Neuquino - NoticiasNQN",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNk9jdGxwSEQ4TmxiLURmcHlSemtkNnp5R3NySHV3MWpCNXVRS09nYnlidmFGRnp2VzkxRk5nTVJVWi14VWl0Q05LRURuM2JkMXE4WFRyaWNURnh4WTNqaEZKNFV3SmhVTFBwVW5neUplRnVKTTM0a0h5c3ZXWEJqRXFyOUVUTE5UeEJvcDJHeWVYeHI2dmF0T3pxSmdvR0NuaXZCZkV5NEFPRG9jVnhmQmVXNUJIT01TU3VLYzBnRndvRkRFbzlZdNIBzgFBVV95cUxQQU5oSnZGRHF2R1NZUUpzM2h3ZFRTcmlSZldzQi1Nc3d0N3pCcXFzMlU0YjQzZ1BCT2xLVjQ4TzN2ZkhpR1ZJcC1ieFZZNzAtQThGaFVJSlhaeWd3NE9GaFZoM2doSV85eW91S19KMG5vbGhNbVBOdURfYkJ5TjJYbUxseHhqV1ZTZXlQMjlfREkxOEJ0cDNQYnYwV2RkMGlsU3RIWEZkZjNhRDh5YWh1LWFzd0xqYzhuMHdvVGhGMEZRYU5mQmVOUzVHYmJnZw?oc=5",
-      "publishedAt": "2026-11-10T12:22:36+00:00",
-      "published": "2026-11-10T12:22:36+00:00",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNk9jdGxwSEQ4TmxiLURmcHlSemtkNnp5R3NySHV3MWpCNXVRS09nYnlidmFGRnp2VzkxRk5nTVJVWi14VWl0Q05LRURuM2JkMXE4WFRyaWNURnh4WTNqaEZKNFV3SmhVTFBwVW5neUplRnVKTTM0a0h5c3ZXWEJqRXFyOUVUTE5UeEJvcDJHeWVYeHI2dmF0T3pxSmdvR0NuaXZCZkV5NEFPRG9jVnhmQmVXNUJIT01TU3VLYzBnRndvRkRFbzlZdNIBzgFBVV95cUxQQU5oSnZGRHF2R1NZUUpzM2h3ZFRTcmlSZldzQi1Nc3d0N3pCcXFzMlU0YjQzZ1BCT2xLVjQ4TzN2ZkhpR1ZJcC1ieFZZNzAtQThGaFVJSlhaeWd3NE9GaFZoM2doSV85eW91S19KMG5vbGhNbVBOdURfYkJ5TjJYbUxseHhqV1ZTZXlQMjlfREkxOEJ0cDNQYnYwV2RkMGlsU3RIWEZkZjNhRDh5YWh1LWFzd0xqYzhuMHdvVGhGMEZRYU5mQmVOUzVHYmJnZw?oc=5\" target=\"_blank\">San Patricio del Chañar será sede de una nueva fecha del Rally Neuquino</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NoticiasNQN</font>",
-      "source": "NoticiasNQN",
-      "sourceType": "BUSCADOR / RESPALDO",
-      "sourceUrl": "",
-      "collection": "BUSCADOR",
-      "query": "\"San Patricio del Chañar\"",
-      "relevance": 3,
-      "relevanceLabel": "DIRECTA",
-      "firstSeen": "2026-11-16T18:13:28.055781+00:00",
-      "isNew": true,
-      "titleKey": "sera sede nueva fecha rally neuquino noticiasnqn",
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNk9jdGxwSEQ4TmxiLURmcHlSemtkNnp5R3NySHV3MWpCNXVRS09nYnlidmFGRnp2VzkxRk5nTVJVWi14VWl0Q05LRURuM2JkMXE4WFRyaWNURnh4WTNqaEZKNFV3SmhVTFBwVW5neUplRnVKTTM0a0h5c3ZXWEJqRXFyOUVUTE5UeEJvcDJHeWVYeHI2dmF0T3pxSmdvR0NuaXZCZkV5NEFPRG9jVnhmQmVXNUJIT01TU3VLYzBnRndvRkRFbzlZdNIBzgFBVV95cUxQQU5oSnZGRHF2R1NZUUpzM2h3ZFRTcmlSZldzQi1Nc3d0N3pCcXFzMlU0YjQzZ1BCT2xLVjQ4TzN2ZkhpR1ZJcC1ieFZZNzAtQThGaFVJSlhaeWd3NE9GaFZoM2doSV85eW91S19KMG5vbGhNbVBOdURfYkJ5TjJYbUxseHhqV1ZTZXlQMjlfREkxOEJ0cDNQYnYwV2RkMGlsU3RIWEZkZjNhRDh5YWh1LWFzd0xqYzhuMHdvVGhGMEZRYU5mQmVOUzVHYmJnZw?oc=5",
-      "sourcePriority": 3
-    },
-    {
       "title": "Tres jóvenes de San Patricio del Chañar clasificaron al Provincial de Ajedrez - Chañar Digital",
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOTGZuVUVtSUdUWmFmNW1UTzE4aTB2S01kNHRnZzh4Uy15WEp4a2ZiNGo2OHROU09KbWhDY2JaaXAxZ1ZWTUR6YktsUnVZcmpNbHdqRGVZc3hnRDh2TGxmVEozUkpad3VPTDJKREZvbnZGdEVFQ1ppN3poUks1Q2FhX2c0dURXX3Z0RUtVNHhsN09FYVJoNnd5MTBsYUFlZ3JmSXUxNFNPQ0JGSjhjZ24zMWs1WVVWcWhYT1pWZXFfUWI2UE1pWkZ0T2JLUQ?oc=5",
       "publishedAt": "2026-11-10T02:59:39+00:00",
@@ -5274,7 +5226,7 @@
       "sourceType": "BUSCADOR / RESPALDO",
       "sourceUrl": "",
       "collection": "BUSCADOR",
-      "query": "\"San Patricio del Chañar\" Neuquén",
+      "query": "\"San Patricio del Chañar\"",
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "firstSeen": "2026-11-09T09:30:09.078627+00:00",
@@ -5343,7 +5295,7 @@
   ],
   "territorialGraph": {
     "version": "2.0",
-    "generatedAt": "2026-11-16T18:13:41.473721+00:00",
+    "generatedAt": "2026-11-17T01:59:46.987991+00:00",
     "root": "spc",
     "rule": "evidence-first",
     "levels": [
@@ -5977,16 +5929,16 @@
   },
   "audit": {
     "version": "1.0",
-    "updatedAt": "2026-11-16T18:13:41.510350+00:00",
+    "updatedAt": "2026-11-17T01:59:47.022822+00:00",
     "rule": "fact != coverage; territory requires textual evidence",
     "facts": 12,
-    "coverage": 33,
-    "coveragePerFact": 2.75,
+    "coverage": 32,
+    "coveragePerFact": 2.67,
     "directAnchorFacts": 12,
     "directAnchorPct": 100.0,
     "territorySpecificFacts": 5,
     "territorySpecificPct": 41.7,
-    "averageSourcesPerFact": 2.5,
+    "averageSourcesPerFact": 2.42,
     "activeTerritorialNodes": 5,
     "failedSources": 10,
     "acceptedWithoutLocalEvidence": 0,
