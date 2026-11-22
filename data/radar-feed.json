@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21T21:00:28.184578+00:00",
+  "updatedAt": "2026-11-22T01:10:19.347429+00:00",
   "window": "14 días",
   "purpose": "Detectar qué se está moviendo en San Patricio del Chañar y mostrar de dónde surge cada señal.",
   "architecture": "contrato universal de procedencia + fuentes profesionales + adaptadores específicos + validación semántica + temporalidad + evidencia editorial separada",
@@ -49,7 +49,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://chanardigital.com.ar/",
-      "lastFetch": "2026-11-21T21:00:04.746909+00:00",
+      "lastFetch": "2026-11-22T01:09:55.368285+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -65,7 +65,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.radiomia.com.ar/",
-      "lastFetch": "2026-11-21T21:00:07.711296+00:00",
+      "lastFetch": "2026-11-22T01:09:56.563722+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -80,7 +80,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://tuitvacamuerta.com/",
-      "lastFetch": "2026-11-21T21:00:09.418270+00:00",
+      "lastFetch": "2026-11-22T01:10:00.870518+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -95,7 +95,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.vacamuertanews.com/",
-      "lastFetch": "2026-11-21T21:00:10.100829+00:00",
+      "lastFetch": "2026-11-22T01:10:01.171523+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -111,7 +111,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.neuqueninforma.gob.ar/",
-      "lastFetch": "2026-11-21T21:00:11.672402+00:00",
+      "lastFetch": "2026-11-22T01:10:02.083349+00:00",
       "success": false,
       "attempted": 3,
       "failures": [
@@ -128,7 +128,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://sanpatricio.gob.ar/",
-      "lastFetch": "2026-11-21T21:00:12.721522+00:00",
+      "lastFetch": "2026-11-22T01:10:05.253132+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -143,7 +143,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://boletinoficial.neuquen.gov.ar/",
-      "lastFetch": "2026-11-21T21:00:13.620226+00:00",
+      "lastFetch": "2026-11-22T01:10:06.180967+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -158,7 +158,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.lmneuquen.com/",
-      "lastFetch": "2026-11-21T21:00:13.834648+00:00",
+      "lastFetch": "2026-11-22T01:10:06.359742+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -174,7 +174,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.rionegro.com.ar/",
-      "lastFetch": "2026-11-21T21:00:16.041058+00:00",
+      "lastFetch": "2026-11-22T01:10:08.185202+00:00",
       "success": true,
       "attempted": 2,
       "failures": [
@@ -189,7 +189,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.mejorinformado.com/",
-      "lastFetch": "2026-11-21T21:00:16.695361+00:00",
+      "lastFetch": "2026-11-22T01:10:08.492858+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -205,7 +205,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.diariamenteneuquen.com/",
-      "lastFetch": "2026-11-21T21:00:17.384162+00:00",
+      "lastFetch": "2026-11-22T01:10:09.067958+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -626,8 +626,8 @@
       "group": "REGIONAL",
       "role": "medio regional",
       "url": "https://www.mejorinformado.com/",
-      "signals": 2,
-      "directSignals": 2,
+      "signals": 1,
+      "directSignals": 1,
       "anchoredSignals": 0,
       "lastSeen": "2026-11-15T17:58:55+00:00",
       "status": "CON SEÑALES",
@@ -1206,8 +1206,8 @@
         "source": "MejorInformado.com",
         "group": "OBSERVADA",
         "role": "fuente detectada fuera del catálogo",
-        "accepted": 4,
-        "direct": 4,
+        "accepted": 5,
+        "direct": 5,
         "anchored": 0,
         "falsePositives": 0,
         "falsePositiveTypes": [],
@@ -1302,8 +1302,8 @@
         "source": "NoticiasNQN",
         "group": "OBSERVADA",
         "role": "fuente detectada fuera del catálogo",
-        "accepted": 3,
-        "direct": 3,
+        "accepted": 4,
+        "direct": 4,
         "anchored": 0,
         "falsePositives": 0,
         "falsePositiveTypes": [],
@@ -1446,6 +1446,30 @@
         ]
       },
       {
+        "source": "MejorInformado.com",
+        "topic": "SERVICIOS",
+        "accepted": 3,
+        "direct": 3,
+        "anchored": 0,
+        "falsePositives": 0,
+        "territorialTerms": [
+          "el chañar",
+          "san patricio del chañar"
+        ]
+      },
+      {
+        "source": "NoticiasNQN",
+        "topic": "SERVICIOS",
+        "accepted": 3,
+        "direct": 3,
+        "anchored": 0,
+        "falsePositives": 0,
+        "territorialTerms": [
+          "san patricio del chañar",
+          "el chañar"
+        ]
+      },
+      {
         "source": "Diario Neuquino",
         "topic": "SERVICIOS",
         "accepted": 2,
@@ -1471,30 +1495,6 @@
       },
       {
         "source": "Mejor Informado",
-        "topic": "SERVICIOS",
-        "accepted": 2,
-        "direct": 2,
-        "anchored": 0,
-        "falsePositives": 0,
-        "territorialTerms": [
-          "san patricio del chañar",
-          "el chañar"
-        ]
-      },
-      {
-        "source": "MejorInformado.com",
-        "topic": "SERVICIOS",
-        "accepted": 2,
-        "direct": 2,
-        "anchored": 0,
-        "falsePositives": 0,
-        "territorialTerms": [
-          "el chañar",
-          "san patricio del chañar"
-        ]
-      },
-      {
-        "source": "NoticiasNQN",
         "topic": "SERVICIOS",
         "accepted": 2,
         "direct": 2,
@@ -1739,8 +1739,8 @@
     "languagePrecision": [
       {
         "term": "san patricio del chañar",
-        "acceptedHits": 28,
-        "directHits": 28,
+        "acceptedHits": 29,
+        "directHits": 29,
         "rejectedTitleHits": 0,
         "territorialStrength": "FUERTE"
       },
@@ -1753,8 +1753,8 @@
       },
       {
         "term": "el chañar",
-        "acceptedHits": 34,
-        "directHits": 34,
+        "acceptedHits": 36,
+        "directHits": 36,
         "rejectedTitleHits": 0,
         "territorialStrength": "FUERTE"
       },
@@ -2082,7 +2082,7 @@
     "total": 41,
     "direct": 41,
     "regional": 0,
-    "new": 1,
+    "new": 0,
     "sources": 18,
     "directSignals": 0,
     "localDirectSignals": 0,
@@ -2097,7 +2097,7 @@
       "forecastGustKmh": 45.0,
       "forecastWindDirection": "SO",
       "forecastTemperatureC": 25.0,
-      "retrievedAt": "2026-11-21T21:00:01.503001+00:00",
+      "retrievedAt": "2026-11-22T01:09:53.114391+00:00",
       "source": "AIC",
       "sourceTier": "primary",
       "sourceUrl": "https://www.aic.gob.ar/sitio/home?a=1015&z=1967225803",
@@ -2125,9 +2125,9 @@
       ],
       "currentProgrammedMaxM3s": 380,
       "currentProgrammedMinM3s": 360,
-      "programDate": "2026-11-22",
-      "tableDate": "2026-11-21",
-      "retrievedAt": "2026-11-21T21:00:01.503001+00:00",
+      "programDate": "2026-11-23",
+      "tableDate": "2026-11-22",
+      "retrievedAt": "2026-11-22T01:09:53.114391+00:00",
       "source": "AIC",
       "sourceTier": "primary",
       "sourceUrl": "https://www.aic.gob.ar/sitio/caudales",
@@ -2147,17 +2147,17 @@
         "url": "https://www.aic.gob.ar/sitio/caudales"
       }
     ],
-    "updatedAt": "2026-11-21T21:00:01.503001+00:00"
+    "updatedAt": "2026-11-22T01:09:53.114391+00:00"
   },
   "operational": {
-    "updatedAt": "2026-11-21T21:00:01.503001+00:00",
+    "updatedAt": "2026-11-22T01:09:53.114391+00:00",
     "route7": {
       "source": "Dirección Provincial de Vialidad",
       "sourceTier": "primary",
       "sourceUrl": "https://www.dpvneuquen.gov.ar/",
       "semanticState": null,
       "publicationState": "source_reachable_no_current_machine_readable_state",
-      "retrievedAt": "2026-11-21T21:00:01.503001+00:00",
+      "retrievedAt": "2026-11-22T01:09:53.114391+00:00",
       "evidence": {
         "route7Mention": true,
         "route8Mention": false
@@ -2169,7 +2169,7 @@
       "sourceUrl": "https://www.dpvneuquen.gov.ar/",
       "semanticState": null,
       "publicationState": "source_reachable_no_current_machine_readable_state",
-      "retrievedAt": "2026-11-21T21:00:01.503001+00:00",
+      "retrievedAt": "2026-11-22T01:09:53.114391+00:00",
       "evidence": {
         "route7Mention": true,
         "route8Mention": false
@@ -2183,7 +2183,7 @@
       "eventType": null,
       "detail": null,
       "publicationState": "source_reachable_no_specific_local_notice",
-      "retrievedAt": "2026-11-21T21:00:01.503001+00:00"
+      "retrievedAt": "2026-11-22T01:09:53.114391+00:00"
     },
     "water": {
       "source": "EPAS",
@@ -2193,7 +2193,7 @@
       "eventType": null,
       "detail": null,
       "publicationState": "source_reachable_no_specific_local_notice",
-      "retrievedAt": "2026-11-21T21:00:01.503001+00:00"
+      "retrievedAt": "2026-11-22T01:09:53.114391+00:00"
     },
     "sources": [
       {
@@ -2605,7 +2605,7 @@
       "label": "Conversación general",
       "signal": 12,
       "status": "cobertura editorial",
-      "freshnessHours": 1.5,
+      "freshnessHours": 5.7,
       "mode": "evidencia editorial",
       "evidenceCount": 12,
       "sourceContract": {
@@ -2645,7 +2645,7 @@
       "label": "Corredor Ruta 7",
       "signal": 1,
       "status": "estado vial",
-      "freshnessHours": 325.0,
+      "freshnessHours": 329.2,
       "mode": "evidencia territorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -2685,7 +2685,7 @@
         "sourceUrl": "https://www.dpvneuquen.gov.ar/",
         "semanticState": null,
         "publicationState": "source_reachable_no_current_machine_readable_state",
-        "retrievedAt": "2026-11-21T21:00:01.503001+00:00",
+        "retrievedAt": "2026-11-22T01:09:53.114391+00:00",
         "evidence": {
           "route7Mention": true,
           "route8Mention": false
@@ -2737,7 +2737,7 @@
         "sourceUrl": "https://www.dpvneuquen.gov.ar/",
         "semanticState": null,
         "publicationState": "source_reachable_no_current_machine_readable_state",
-        "retrievedAt": "2026-11-21T21:00:01.503001+00:00",
+        "retrievedAt": "2026-11-22T01:09:53.114391+00:00",
         "evidence": {
           "route7Mention": true,
           "route8Mention": false
@@ -2837,7 +2837,7 @@
         "eventType": null,
         "detail": null,
         "publicationState": "source_reachable_no_specific_local_notice",
-        "retrievedAt": "2026-11-21T21:00:01.503001+00:00"
+        "retrievedAt": "2026-11-22T01:09:53.114391+00:00"
       }
     },
     {
@@ -2845,7 +2845,7 @@
       "label": "Agua / abastecimiento",
       "signal": 1,
       "status": "evento hídrico",
-      "freshnessHours": 103.3,
+      "freshnessHours": 107.5,
       "mode": "evidencia editorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -2887,7 +2887,7 @@
         "eventType": null,
         "detail": null,
         "publicationState": "source_reachable_no_specific_local_notice",
-        "retrievedAt": "2026-11-21T21:00:01.503001+00:00"
+        "retrievedAt": "2026-11-22T01:09:53.114391+00:00"
       }
     },
     {
@@ -2895,7 +2895,7 @@
       "label": "Servicios e infraestructura",
       "signal": 1,
       "status": "evidencia de servicio",
-      "freshnessHours": 103.3,
+      "freshnessHours": 107.5,
       "mode": "evidencia editorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -2935,7 +2935,7 @@
       "label": "Salud",
       "signal": 1,
       "status": "evidencia sanitaria",
-      "freshnessHours": 22.9,
+      "freshnessHours": 27.0,
       "mode": "evidencia editorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -3015,7 +3015,7 @@
       "label": "Producción rural",
       "signal": 1,
       "status": "evidencia productiva",
-      "freshnessHours": 123.9,
+      "freshnessHours": 128.0,
       "mode": "evidencia editorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -3055,7 +3055,7 @@
       "label": "Seguridad / emergencias",
       "signal": 1,
       "status": "cobertura de emergencia",
-      "freshnessHours": 197.1,
+      "freshnessHours": 204.1,
       "mode": "evidencia editorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -3095,7 +3095,7 @@
       "label": "Territorio / microzonas",
       "signal": 1,
       "status": "hecho territorial",
-      "freshnessHours": 255.0,
+      "freshnessHours": 259.1,
       "mode": "evidencia territorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -3152,7 +3152,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://chanardigital.com.ar/",
-        "lastFetch": "2026-11-21T21:00:04.746909+00:00",
+        "lastFetch": "2026-11-22T01:09:55.368285+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3168,7 +3168,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.radiomia.com.ar/",
-        "lastFetch": "2026-11-21T21:00:07.711296+00:00",
+        "lastFetch": "2026-11-22T01:09:56.563722+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -3183,7 +3183,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://tuitvacamuerta.com/",
-        "lastFetch": "2026-11-21T21:00:09.418270+00:00",
+        "lastFetch": "2026-11-22T01:10:00.870518+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -3198,7 +3198,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.vacamuertanews.com/",
-        "lastFetch": "2026-11-21T21:00:10.100829+00:00",
+        "lastFetch": "2026-11-22T01:10:01.171523+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3214,7 +3214,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.neuqueninforma.gob.ar/",
-        "lastFetch": "2026-11-21T21:00:11.672402+00:00",
+        "lastFetch": "2026-11-22T01:10:02.083349+00:00",
         "success": false,
         "attempted": 3,
         "failures": [
@@ -3231,7 +3231,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://sanpatricio.gob.ar/",
-        "lastFetch": "2026-11-21T21:00:12.721522+00:00",
+        "lastFetch": "2026-11-22T01:10:05.253132+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -3246,7 +3246,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://boletinoficial.neuquen.gov.ar/",
-        "lastFetch": "2026-11-21T21:00:13.620226+00:00",
+        "lastFetch": "2026-11-22T01:10:06.180967+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -3261,7 +3261,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.lmneuquen.com/",
-        "lastFetch": "2026-11-21T21:00:13.834648+00:00",
+        "lastFetch": "2026-11-22T01:10:06.359742+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3277,7 +3277,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.rionegro.com.ar/",
-        "lastFetch": "2026-11-21T21:00:16.041058+00:00",
+        "lastFetch": "2026-11-22T01:10:08.185202+00:00",
         "success": true,
         "attempted": 2,
         "failures": [
@@ -3292,7 +3292,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.mejorinformado.com/",
-        "lastFetch": "2026-11-21T21:00:16.695361+00:00",
+        "lastFetch": "2026-11-22T01:10:08.492858+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3308,7 +3308,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.diariamenteneuquen.com/",
-        "lastFetch": "2026-11-21T21:00:17.384162+00:00",
+        "lastFetch": "2026-11-22T01:10:09.067958+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3335,7 +3335,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SERVICIOS",
-      "movement": 88,
+      "movement": 87,
       "coverage": 12,
       "sourceCount": 8,
       "directSourceCount": 0,
@@ -3510,7 +3510,7 @@
       ],
       "lifecycle": "ACTIVO",
       "movementDelta": -1,
-      "previousCoverage": 13,
+      "previousCoverage": 12,
       "newSources": [
         "Chañar Digital",
         "NoticiasNQN"
@@ -3557,7 +3557,7 @@
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SERVICIOS",
       "movement": 65,
-      "coverage": 10,
+      "coverage": 18,
       "sourceCount": 8,
       "directSourceCount": 0,
       "territorialAnchors": [
@@ -3729,15 +3729,16 @@
           "sourcePriority": 3
         }
       ],
-      "lifecycle": "ACTIVO",
-      "movementDelta": 33,
+      "lifecycle": "SIN NUEVA COBERTURA",
+      "movementDelta": 0,
       "previousCoverage": 2,
       "newSources": [
         "NQN3",
         "Vaca Muerta News",
         "Mejor Informado",
         "NoticiasNQN",
-        "Diario Río Negro"
+        "Diario Río Negro",
+        "Diario Neuquino"
       ],
       "sourceDiversity": 8,
       "memoryMatched": true,
@@ -3768,7 +3769,8 @@
             "evidence": "DIRECTA"
           }
         ]
-      }
+      },
+      "sourceContinuity": "fuente conocida sin respuesta; no se infiere desaparición"
     },
     {
       "eventId": "CHA-2a584b3bb2cb",
@@ -3780,7 +3782,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "DEPORTE",
-      "movement": 60,
+      "movement": 59,
       "coverage": 1,
       "sourceCount": 1,
       "directSourceCount": 0,
@@ -3806,15 +3808,15 @@
           "relevance": 3,
           "relevanceLabel": "DIRECTA",
           "firstSeen": "2026-11-21T21:00:28.184578+00:00",
-          "isNew": true,
+          "isNew": false,
           "titleKey": "copa deportivo rincon accedieron semifinales mejorinformado com",
           "evidenceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZmFQcGVIMlU3Y1liS3dIVmpIb1RUMjJVTk5reG1nTlhjbnVBWk1qQzN2S3c4TzFPNjI5Q1RzWFNNNXkwajFfUTRpYXVNeFJPMGtZY1ZSSGxTV0ExaTVEclI1b3FzWDF6dU9ZV3Vydjkwd2pVQTZmQ0J6Y1ZMeWh2NU15MmZaS0xOdjJPYVYweFMyVXA3TjRGX1Jiek9RNU1WRGF3V2dSa01ERU5iMmN6bk5ac2NjbEJ3a2o4Wm9sZU7SAcABQVVfeXFMTWZhUHBlSDJVN2NZYkt3SFZqSG9UVDIyVU5Oa3htZ05YY251QVpNakMzdkt3OE8xTzYyOUNUc1hTTTV5MGoxX1E0aWF1TXhSTzBrWWNWUkhsU1dBMWk1RHJSNW9xc1gxenVPWVd1cnY5MHdqVUE2ZkNCemNWTHlodjVNeTJmWktMTnYyT2FWMHhTMlVwN040Rl9SYnpPUTVNVkRhd1dnUmtNREVOYjJjem5OWnNjY2xCd2tqOFpvbGVO?oc=5",
           "sourcePriority": 3
         }
       ],
       "lifecycle": "EMERGENTE",
-      "movementDelta": 28,
-      "previousCoverage": 5,
+      "movementDelta": -1,
+      "previousCoverage": 1,
       "newSources": [],
       "sourceDiversity": 1,
       "memoryMatched": true,
@@ -3848,88 +3850,11 @@
       }
     },
     {
-      "eventId": "CHA-8cc5c45b6b98",
-      "title": "Añelo tendrá un nuevo Centro de Salud - Chañar Digital",
-      "publishedAt": "2026-11-20T22:08:57+00:00",
-      "firstSeen": "2026-11-20T23:55:44.503966+00:00",
-      "lastSeen": "2026-11-20T22:08:57+00:00",
-      "relevance": 3,
-      "relevanceLabel": "DIRECTA",
-      "incidenceLabel": "DIRECTA EN CHANAR",
-      "topic": "SALUD",
-      "movement": 55,
-      "coverage": 1,
-      "sourceCount": 1,
-      "directSourceCount": 0,
-      "territorialAnchors": [
-        "centro de salud"
-      ],
-      "sources": [
-        "Chañar Digital"
-      ],
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOOUdmTFJKaHlYUDhQOThhcDdzSlZJa2E4d240ZUhkUUVUempaZjQyWHAyR2NqMEUyTDk0cDczZFhtWHFmdzZzOEUwMWROZGlBaTQ1SWdLc1E4OU1sX1Zvd185c3VJYzRQcUJwSmJ0M25MUi1IYzBBZ240anlJNjcwcC1VTER5N0R1TzhlYWwxa1dwY211Mnc?oc=5",
-      "items": [
-        {
-          "title": "Añelo tendrá un nuevo Centro de Salud - Chañar Digital",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOOUdmTFJKaHlYUDhQOThhcDdzSlZJa2E4d240ZUhkUUVUempaZjQyWHAyR2NqMEUyTDk0cDczZFhtWHFmdzZzOEUwMWROZGlBaTQ1SWdLc1E4OU1sX1Zvd185c3VJYzRQcUJwSmJ0M25MUi1IYzBBZ240anlJNjcwcC1VTER5N0R1TzhlYWwxa1dwY211Mnc?oc=5",
-          "publishedAt": "2026-11-20T22:08:57+00:00",
-          "published": "2026-11-20T22:08:57+00:00",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxOOUdmTFJKaHlYUDhQOThhcDdzSlZJa2E4d240ZUhkUUVUempaZjQyWHAyR2NqMEUyTDk0cDczZFhtWHFmdzZzOEUwMWROZGlBaTQ1SWdLc1E4OU1sX1Zvd185c3VJYzRQcUJwSmJ0M25MUi1IYzBBZ240anlJNjcwcC1VTER5N0R1TzhlYWwxa1dwY211Mnc?oc=5\" target=\"_blank\">Añelo tendrá un nuevo Centro de Salud</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Chañar Digital</font>",
-          "source": "Chañar Digital",
-          "sourceType": "BUSCADOR / RESPALDO",
-          "sourceUrl": "",
-          "collection": "BUSCADOR",
-          "query": "site:chanardigital.com.ar \"San Patricio del Chañar\"",
-          "relevance": 3,
-          "relevanceLabel": "DIRECTA",
-          "firstSeen": "2026-11-20T23:55:44.503966+00:00",
-          "isNew": false,
-          "titleKey": "añelo tendra nuevo centro salud digital",
-          "evidenceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOOUdmTFJKaHlYUDhQOThhcDdzSlZJa2E4d240ZUhkUUVUempaZjQyWHAyR2NqMEUyTDk0cDczZFhtWHFmdzZzOEUwMWROZGlBaTQ1SWdLc1E4OU1sX1Zvd185c3VJYzRQcUJwSmJ0M25MUi1IYzBBZ240anlJNjcwcC1VTER5N0R1TzhlYWwxa1dwY211Mnc?oc=5",
-          "sourcePriority": 3
-        }
-      ],
-      "lifecycle": "EMERGENTE",
-      "movementDelta": -1,
-      "previousCoverage": 1,
-      "newSources": [],
-      "sourceDiversity": 1,
-      "memoryMatched": true,
-      "isNew": false,
-      "view": "INCIDENCIA",
-      "incidenceEligible": true,
-      "signalReason": "reservado a incidencia territorial",
-      "incidenceReason": "anclaje directo + tema operativo/local",
-      "territory": {
-        "version": "2.0",
-        "primary": "San Patricio del Chañar",
-        "nodes": [
-          "San Patricio del Chañar"
-        ],
-        "sectors": [],
-        "barrios": [],
-        "microzones": [],
-        "corridors": [],
-        "institutions": [],
-        "services": [],
-        "spaces": [],
-        "production": [],
-        "path": "San Patricio del Chañar",
-        "evidence": [
-          {
-            "node": "San Patricio del Chañar",
-            "level": "localidad",
-            "evidence": "DIRECTA"
-          }
-        ]
-      }
-    },
-    {
       "eventId": "CHA-cfafd4a1a0e5",
       "title": "Bomberos de San Patricio del Chañar estrenan su cuartel tras casi ocho años y suman una autobomba - Minuto Neuquén",
-      "publishedAt": "2026-11-13T15:54:00+00:00",
+      "publishedAt": "2026-11-13T13:03:56+00:00",
       "firstSeen": "2026-11-20T17:57:15.134031+00:00",
-      "lastSeen": "2026-11-13T15:54:00+00:00",
+      "lastSeen": "2026-11-13T13:03:56+00:00",
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
@@ -3944,32 +3869,13 @@
         "bomberos voluntarios"
       ],
       "sources": [
-        "Shale24",
         "Cutral Co al Instante",
+        "Shale24",
         "Minuto Neuquén",
         "Diario Río Negro"
       ],
       "evidenceUrl": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQRm5HSmliVVBEZTFaTzNoZnAxWlpnSnU4UG1yaEhWbWEzTHFIOThLRXRqNk1WWV9kV0czNTVvei1uZHpXcTE1SmgxdTZPR0s2d2Mtd0pZUTg2Z2ZKeWZHSG1NNXR5N1pqbm1hM09XMW0tM2ZXMWdQR1RMempDMVZjcWVJMG16WWkyeUkyY3pvTkVFcUJEbTFWSE1saWN5bHRVNWFDOG4ybjBJeGZRU0J1alZ0ZnN1b3MtZnRtUEJsVGFiak5TTVVJRUN5WjQ1M1k4TWxFRFMtUXh1U3BNWm5DNDZpbUdIWG9XVnFSWVMwWQ?oc=5",
       "items": [
-        {
-          "title": "San Patricio del Chañar ya tiene cuartel de bomberos: Phoenix aportó los fondos para terminar la obra - Shale24",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOalVsQzU0N09uMW90alBrYmhISlEzMFJSY0hpdjd2X0tMT2xENVZZNXBJVm85M2VmWm5EMjBFVG4wX2V0SFJQZ1ZhbUJqTHBybjZEdlRvY19ZcEtiV3FsWWI4T0psNFY1UlhFNlNTQ0ZoZS1JMjdlWi1DakR3TEJQbGxOdFNDRVNDcGIwZmVwY0ZuSUtfa1EtTUM4WHJPSjZiTVFwNTh2eU9TMEdIM0kteGtESHgwbEJpOTJr0gHAAUFVX3lxTE8wdkZoTjlpcWNZaXJqWkdHdEZveEczQkJjTUlKUHYzbGQ5TTRNN3lNVXY5Mm00X3RxRHN2d0t0a2tQSkd1OFByWjFVZThpblBSa3k5Z1puczl2Y2xpNzFEVkFCWnpJZWpJNDdNVXV4UTZYSGJqQ0FOdFh4aVM3TGVPdXhlVnVmZnR0TU9Hd0t4YjVGZk4teXJxeThFOG9SbVZEYThTM2N3VDJrV0w3ZDRyZFdUTUo3enlPbnVsVE1INA?oc=5",
-          "publishedAt": "2026-11-13T15:54:00+00:00",
-          "published": "2026-11-13T15:54:00+00:00",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMiuwFBVV95cUxOalVsQzU0N09uMW90alBrYmhISlEzMFJSY0hpdjd2X0tMT2xENVZZNXBJVm85M2VmWm5EMjBFVG4wX2V0SFJQZ1ZhbUJqTHBybjZEdlRvY19ZcEtiV3FsWWI4T0psNFY1UlhFNlNTQ0ZoZS1JMjdlWi1DakR3TEJQbGxOdFNDRVNDcGIwZmVwY0ZuSUtfa1EtTUM4WHJPSjZiTVFwNTh2eU9TMEdIM0kteGtESHgwbEJpOTJr0gHAAUFVX3lxTE8wdkZoTjlpcWNZaXJqWkdHdEZveEczQkJjTUlKUHYzbGQ5TTRNN3lNVXY5Mm00X3RxRHN2d0t0a2tQSkd1OFByWjFVZThpblBSa3k5Z1puczl2Y2xpNzFEVkFCWnpJZWpJNDdNVXV4UTZYSGJqQ0FOdFh4aVM3TGVPdXhlVnVmZnR0TU9Hd0t4YjVGZk4teXJxeThFOG9SbVZEYThTM2N3VDJrV0w3ZDRyZFdUTUo3enlPbnVsVE1INA?oc=5\" target=\"_blank\">San Patricio del Chañar ya tiene cuartel de bomberos: Phoenix aportó los fondos para terminar la obra</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Shale24</font>",
-          "source": "Shale24",
-          "sourceType": "BUSCADOR / RESPALDO",
-          "sourceUrl": "",
-          "collection": "BUSCADOR",
-          "query": "\"San Patricio del Chañar\"",
-          "relevance": 3,
-          "relevanceLabel": "DIRECTA",
-          "firstSeen": "2026-11-20T17:57:15.134031+00:00",
-          "isNew": false,
-          "titleKey": "tiene cuartel bomberos phoenix aporto fondos terminar obra shale24",
-          "evidenceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOalVsQzU0N09uMW90alBrYmhISlEzMFJSY0hpdjd2X0tMT2xENVZZNXBJVm85M2VmWm5EMjBFVG4wX2V0SFJQZ1ZhbUJqTHBybjZEdlRvY19ZcEtiV3FsWWI4T0psNFY1UlhFNlNTQ0ZoZS1JMjdlWi1DakR3TEJQbGxOdFNDRVNDcGIwZmVwY0ZuSUtfa1EtTUM4WHJPSjZiTVFwNTh2eU9TMEdIM0kteGtESHgwbEJpOTJr0gHAAUFVX3lxTE8wdkZoTjlpcWNZaXJqWkdHdEZveEczQkJjTUlKUHYzbGQ5TTRNN3lNVXY5Mm00X3RxRHN2d0t0a2tQSkd1OFByWjFVZThpblBSa3k5Z1puczl2Y2xpNzFEVkFCWnpJZWpJNDdNVXV4UTZYSGJqQ0FOdFh4aVM3TGVPdXhlVnVmZnR0TU9Hd0t4YjVGZk4teXJxeThFOG9SbVZEYThTM2N3VDJrV0w3ZDRyZFdUTUo3enlPbnVsVE1INA?oc=5",
-          "sourcePriority": 3
-        },
         {
           "title": "San Patricio del Chañar inauguró el nuevo cuartel de Bomberos Voluntarios - Cutral Co al Instante",
           "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOa3dySFM2T2JSTkxyYko1SVBYV0h3TVJxSnNDdnFLQ1p2bEdsakVpcndkRVFvdm9NTVdOTkVUYTVUTGdRLUltWC1lZnVjYV9iX2h3ODZ2QWFSMnI0TEpJeUVXSjUzM3VMQlBkVmVlNEJLZDNWcUFvTFN2cWpsTG5URjVDNWdmdEx3Z3FRVGlEMWF3TkV2WG4wNmpvelUwZ2RqdkdCWjUwMFN3bF9sWXFuVWdwSUszTDlDRjJ0SA?oc=5",
@@ -3987,6 +3893,25 @@
           "isNew": false,
           "titleKey": "inauguro nuevo cuartel bomberos voluntarios cutral instante",
           "evidenceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOa3dySFM2T2JSTkxyYko1SVBYV0h3TVJxSnNDdnFLQ1p2bEdsakVpcndkRVFvdm9NTVdOTkVUYTVUTGdRLUltWC1lZnVjYV9iX2h3ODZ2QWFSMnI0TEpJeUVXSjUzM3VMQlBkVmVlNEJLZDNWcUFvTFN2cWpsTG5URjVDNWdmdEx3Z3FRVGlEMWF3TkV2WG4wNmpvelUwZ2RqdkdCWjUwMFN3bF9sWXFuVWdwSUszTDlDRjJ0SA?oc=5",
+          "sourcePriority": 3
+        },
+        {
+          "title": "San Patricio del Chañar ya tiene cuartel de bomberos: Phoenix aportó los fondos para terminar la obra - Shale24",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOalVsQzU0N09uMW90alBrYmhISlEzMFJSY0hpdjd2X0tMT2xENVZZNXBJVm85M2VmWm5EMjBFVG4wX2V0SFJQZ1ZhbUJqTHBybjZEdlRvY19ZcEtiV3FsWWI4T0psNFY1UlhFNlNTQ0ZoZS1JMjdlWi1DakR3TEJQbGxOdFNDRVNDcGIwZmVwY0ZuSUtfa1EtTUM4WHJPSjZiTVFwNTh2eU9TMEdIM0kteGtESHgwbEJpOTJr0gHAAUFVX3lxTE8wdkZoTjlpcWNZaXJqWkdHdEZveEczQkJjTUlKUHYzbGQ5TTRNN3lNVXY5Mm00X3RxRHN2d0t0a2tQSkd1OFByWjFVZThpblBSa3k5Z1puczl2Y2xpNzFEVkFCWnpJZWpJNDdNVXV4UTZYSGJqQ0FOdFh4aVM3TGVPdXhlVnVmZnR0TU9Hd0t4YjVGZk4teXJxeThFOG9SbVZEYThTM2N3VDJrV0w3ZDRyZFdUTUo3enlPbnVsVE1INA?oc=5",
+          "publishedAt": "2026-11-13T08:00:00+00:00",
+          "published": "2026-11-13T08:00:00+00:00",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMiuwFBVV95cUxOalVsQzU0N09uMW90alBrYmhISlEzMFJSY0hpdjd2X0tMT2xENVZZNXBJVm85M2VmWm5EMjBFVG4wX2V0SFJQZ1ZhbUJqTHBybjZEdlRvY19ZcEtiV3FsWWI4T0psNFY1UlhFNlNTQ0ZoZS1JMjdlWi1DakR3TEJQbGxOdFNDRVNDcGIwZmVwY0ZuSUtfa1EtTUM4WHJPSjZiTVFwNTh2eU9TMEdIM0kteGtESHgwbEJpOTJr0gHAAUFVX3lxTE8wdkZoTjlpcWNZaXJqWkdHdEZveEczQkJjTUlKUHYzbGQ5TTRNN3lNVXY5Mm00X3RxRHN2d0t0a2tQSkd1OFByWjFVZThpblBSa3k5Z1puczl2Y2xpNzFEVkFCWnpJZWpJNDdNVXV4UTZYSGJqQ0FOdFh4aVM3TGVPdXhlVnVmZnR0TU9Hd0t4YjVGZk4teXJxeThFOG9SbVZEYThTM2N3VDJrV0w3ZDRyZFdUTUo3enlPbnVsVE1INA?oc=5\" target=\"_blank\">San Patricio del Chañar ya tiene cuartel de bomberos: Phoenix aportó los fondos para terminar la obra</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Shale24</font>",
+          "source": "Shale24",
+          "sourceType": "BUSCADOR / RESPALDO",
+          "sourceUrl": "",
+          "collection": "BUSCADOR",
+          "query": "\"San Patricio del Chañar\"",
+          "relevance": 3,
+          "relevanceLabel": "DIRECTA",
+          "firstSeen": "2026-11-20T17:57:15.134031+00:00",
+          "isNew": false,
+          "titleKey": "tiene cuartel bomberos phoenix aporto fondos terminar obra shale24",
+          "evidenceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOalVsQzU0N09uMW90alBrYmhISlEzMFJSY0hpdjd2X0tMT2xENVZZNXBJVm85M2VmWm5EMjBFVG4wX2V0SFJQZ1ZhbUJqTHBybjZEdlRvY19ZcEtiV3FsWWI4T0psNFY1UlhFNlNTQ0ZoZS1JMjdlWi1DakR3TEJQbGxOdFNDRVNDcGIwZmVwY0ZuSUtfa1EtTUM4WHJPSjZiTVFwNTh2eU9TMEdIM0kteGtESHgwbEJpOTJr0gHAAUFVX3lxTE8wdkZoTjlpcWNZaXJqWkdHdEZveEczQkJjTUlKUHYzbGQ5TTRNN3lNVXY5Mm00X3RxRHN2d0t0a2tQSkd1OFByWjFVZThpblBSa3k5Z1puczl2Y2xpNzFEVkFCWnpJZWpJNDdNVXV4UTZYSGJqQ0FOdFh4aVM3TGVPdXhlVnVmZnR0TU9Hd0t4YjVGZk4teXJxeThFOG9SbVZEYThTM2N3VDJrV0w3ZDRyZFdUTUo3enlPbnVsVE1INA?oc=5",
           "sourcePriority": 3
         },
         {
@@ -4032,8 +3957,8 @@
       "movementDelta": 0,
       "previousCoverage": 0,
       "newSources": [
-        "Shale24",
         "Cutral Co al Instante",
+        "Shale24",
         "Minuto Neuquén",
         "Diario Río Negro"
       ],
@@ -4077,6 +4002,83 @@
       }
     },
     {
+      "eventId": "CHA-8cc5c45b6b98",
+      "title": "Añelo tendrá un nuevo Centro de Salud - Chañar Digital",
+      "publishedAt": "2026-11-20T22:08:57+00:00",
+      "firstSeen": "2026-11-20T23:55:44.503966+00:00",
+      "lastSeen": "2026-11-20T22:08:57+00:00",
+      "relevance": 3,
+      "relevanceLabel": "DIRECTA",
+      "incidenceLabel": "DIRECTA EN CHANAR",
+      "topic": "SALUD",
+      "movement": 54,
+      "coverage": 1,
+      "sourceCount": 1,
+      "directSourceCount": 0,
+      "territorialAnchors": [
+        "centro de salud"
+      ],
+      "sources": [
+        "Chañar Digital"
+      ],
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOOUdmTFJKaHlYUDhQOThhcDdzSlZJa2E4d240ZUhkUUVUempaZjQyWHAyR2NqMEUyTDk0cDczZFhtWHFmdzZzOEUwMWROZGlBaTQ1SWdLc1E4OU1sX1Zvd185c3VJYzRQcUJwSmJ0M25MUi1IYzBBZ240anlJNjcwcC1VTER5N0R1TzhlYWwxa1dwY211Mnc?oc=5",
+      "items": [
+        {
+          "title": "Añelo tendrá un nuevo Centro de Salud - Chañar Digital",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOOUdmTFJKaHlYUDhQOThhcDdzSlZJa2E4d240ZUhkUUVUempaZjQyWHAyR2NqMEUyTDk0cDczZFhtWHFmdzZzOEUwMWROZGlBaTQ1SWdLc1E4OU1sX1Zvd185c3VJYzRQcUJwSmJ0M25MUi1IYzBBZ240anlJNjcwcC1VTER5N0R1TzhlYWwxa1dwY211Mnc?oc=5",
+          "publishedAt": "2026-11-20T22:08:57+00:00",
+          "published": "2026-11-20T22:08:57+00:00",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxOOUdmTFJKaHlYUDhQOThhcDdzSlZJa2E4d240ZUhkUUVUempaZjQyWHAyR2NqMEUyTDk0cDczZFhtWHFmdzZzOEUwMWROZGlBaTQ1SWdLc1E4OU1sX1Zvd185c3VJYzRQcUJwSmJ0M25MUi1IYzBBZ240anlJNjcwcC1VTER5N0R1TzhlYWwxa1dwY211Mnc?oc=5\" target=\"_blank\">Añelo tendrá un nuevo Centro de Salud</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Chañar Digital</font>",
+          "source": "Chañar Digital",
+          "sourceType": "BUSCADOR / RESPALDO",
+          "sourceUrl": "",
+          "collection": "BUSCADOR",
+          "query": "site:chanardigital.com.ar \"San Patricio del Chañar\"",
+          "relevance": 3,
+          "relevanceLabel": "DIRECTA",
+          "firstSeen": "2026-11-20T23:55:44.503966+00:00",
+          "isNew": false,
+          "titleKey": "añelo tendra nuevo centro salud digital",
+          "evidenceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOOUdmTFJKaHlYUDhQOThhcDdzSlZJa2E4d240ZUhkUUVUempaZjQyWHAyR2NqMEUyTDk0cDczZFhtWHFmdzZzOEUwMWROZGlBaTQ1SWdLc1E4OU1sX1Zvd185c3VJYzRQcUJwSmJ0M25MUi1IYzBBZ240anlJNjcwcC1VTER5N0R1TzhlYWwxa1dwY211Mnc?oc=5",
+          "sourcePriority": 3
+        }
+      ],
+      "lifecycle": "SOSTENIDO",
+      "movementDelta": -1,
+      "previousCoverage": 1,
+      "newSources": [],
+      "sourceDiversity": 1,
+      "memoryMatched": true,
+      "isNew": false,
+      "view": "INCIDENCIA",
+      "incidenceEligible": true,
+      "signalReason": "reservado a incidencia territorial",
+      "incidenceReason": "anclaje directo + tema operativo/local",
+      "territory": {
+        "version": "2.0",
+        "primary": "San Patricio del Chañar",
+        "nodes": [
+          "San Patricio del Chañar"
+        ],
+        "sectors": [],
+        "barrios": [],
+        "microzones": [],
+        "corridors": [],
+        "institutions": [],
+        "services": [],
+        "spaces": [],
+        "production": [],
+        "path": "San Patricio del Chañar",
+        "evidence": [
+          {
+            "node": "San Patricio del Chañar",
+            "level": "localidad",
+            "evidence": "DIRECTA"
+          }
+        ]
+      }
+    },
+    {
       "eventId": "CHA-04467c42cfdf",
       "title": "Silvana Cerda busca convertirse en la primera mujer en conducir la Municipalidad de El Chañar - NoticiasNQN",
       "publishedAt": "2026-11-17T23:56:04+00:00",
@@ -4086,7 +4088,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "INSTITUCIONES",
-      "movement": 36,
+      "movement": 35,
       "coverage": 1,
       "sourceCount": 1,
       "directSourceCount": 0,
@@ -4164,8 +4166,8 @@
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SERVICIOS",
       "movement": 32,
-      "coverage": 4,
-      "sourceCount": 4,
+      "coverage": 6,
+      "sourceCount": 5,
       "directSourceCount": 0,
       "territorialAnchors": [
         "el chañar",
@@ -4174,6 +4176,7 @@
       "sources": [
         "Diario Río Negro",
         "Patagonia Press",
+        "NoticiasNQN",
         "MejorInformado.com",
         "Vaca Muerta News"
       ],
@@ -4218,6 +4221,44 @@
           "sourcePriority": 3
         },
         {
+          "title": "Condenaron a cuatro hombres por vender drogas en San Patricio del Chañar - NoticiasNQN",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOT21xQmxheUl6d3hQdEZDZGFGNlV2Rmk4cU1JVDk4N2t3Yy03c3QzZ3N2R2JhNkJubXpSUE1McUtPWjdleHhVUEZybjlWYXRjQVJuNGx3QUQtSGR1XzRKaWRjRTJfN2JQYVFWc1VqT3ppakJYTWtLaEtTcVIzSlJQM1BrbEJ3YXNRUjFrdmdURDZMZERSR3U3NVpQRDVxSzdTVFlFTUJIblJUVFA1N1hHdE5VZDdHSTBVMXQ4R1NKbWF0QlU1VnZHS2VB0gHPAUFVX3lxTE5XU3pnZ2xtQktoVFVYMDRUaV9ZU3lqemVjeHcyek5sR1ZQUzRhWW9hLUt6SUhKajdkdEgyNndTenlud2FlNW95MVVHWTlhYlFyanAtRmlOQm9QWWhycFFtNVFoSHFwNDM4LXFmZFhEMC1lTEw0N0p5d2YyUE5LcVJUN1Y5a1U3UUZBUHdfRWNGSmxyU1BsOTB1TXBhaGM5SGJOckp3RHJDQTlYTzJCdGRoREV1dnJEMzd1RkYwaUYzZ2VjQ3Z1R0NtYlRmamtMQQ?oc=5",
+          "publishedAt": "2026-11-13T16:51:09+00:00",
+          "published": "2026-11-13T16:51:09+00:00",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMiygFBVV95cUxOT21xQmxheUl6d3hQdEZDZGFGNlV2Rmk4cU1JVDk4N2t3Yy03c3QzZ3N2R2JhNkJubXpSUE1McUtPWjdleHhVUEZybjlWYXRjQVJuNGx3QUQtSGR1XzRKaWRjRTJfN2JQYVFWc1VqT3ppakJYTWtLaEtTcVIzSlJQM1BrbEJ3YXNRUjFrdmdURDZMZERSR3U3NVpQRDVxSzdTVFlFTUJIblJUVFA1N1hHdE5VZDdHSTBVMXQ4R1NKbWF0QlU1VnZHS2VB0gHPAUFVX3lxTE5XU3pnZ2xtQktoVFVYMDRUaV9ZU3lqemVjeHcyek5sR1ZQUzRhWW9hLUt6SUhKajdkdEgyNndTenlud2FlNW95MVVHWTlhYlFyanAtRmlOQm9QWWhycFFtNVFoSHFwNDM4LXFmZFhEMC1lTEw0N0p5d2YyUE5LcVJUN1Y5a1U3UUZBUHdfRWNGSmxyU1BsOTB1TXBhaGM5SGJOckp3RHJDQTlYTzJCdGRoREV1dnJEMzd1RkYwaUYzZ2VjQ3Z1R0NtYlRmamtMQQ?oc=5\" target=\"_blank\">Condenaron a cuatro hombres por vender drogas en San Patricio del Chañar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NoticiasNQN</font>",
+          "source": "NoticiasNQN",
+          "sourceType": "BUSCADOR / RESPALDO",
+          "sourceUrl": "",
+          "collection": "BUSCADOR",
+          "query": "\"San Patricio del Chañar\"",
+          "relevance": 3,
+          "relevanceLabel": "DIRECTA",
+          "firstSeen": "2026-11-20T17:57:15.134031+00:00",
+          "isNew": false,
+          "titleKey": "condenaron cuatro hombres vender drogas noticiasnqn",
+          "evidenceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOT21xQmxheUl6d3hQdEZDZGFGNlV2Rmk4cU1JVDk4N2t3Yy03c3QzZ3N2R2JhNkJubXpSUE1McUtPWjdleHhVUEZybjlWYXRjQVJuNGx3QUQtSGR1XzRKaWRjRTJfN2JQYVFWc1VqT3ppakJYTWtLaEtTcVIzSlJQM1BrbEJ3YXNRUjFrdmdURDZMZERSR3U3NVpQRDVxSzdTVFlFTUJIblJUVFA1N1hHdE5VZDdHSTBVMXQ4R1NKbWF0QlU1VnZHS2VB0gHPAUFVX3lxTE5XU3pnZ2xtQktoVFVYMDRUaV9ZU3lqemVjeHcyek5sR1ZQUzRhWW9hLUt6SUhKajdkdEgyNndTenlud2FlNW95MVVHWTlhYlFyanAtRmlOQm9QWWhycFFtNVFoSHFwNDM4LXFmZFhEMC1lTEw0N0p5d2YyUE5LcVJUN1Y5a1U3UUZBUHdfRWNGSmxyU1BsOTB1TXBhaGM5SGJOckp3RHJDQTlYTzJCdGRoREV1dnJEMzd1RkYwaUYzZ2VjQ3Z1R0NtYlRmamtMQQ?oc=5",
+          "sourcePriority": 3
+        },
+        {
+          "title": "Doce denuncias anónimas destaparon una red de venta de drogas: cuatro condenados en el Chañar - MejorInformado.com",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQN3ItNmRpWHNkaGxIbUVIWnJuOTlYOEp3dGQ2TnY5LWZ6LXhEOF8yOXEtMEpUUDd5NlRLSzh6Y0NsbE1OSmFnNVdRWjNiejZPYnpDTzI3UTFBaHN6QjJ6RXBfUDMtNFdmaHczWDJ1MXBqdEFQMHNPOVJjNHh4bjVSZjZySWdWeXdNem5VcGZIVHN3NjJfbEY2cHVoVi1ROFp2azJyMzJBUk5nQlJlVHF1cXNXaDlqangwOXhxenNuQXJsRWFtQ1FIddIByAFBVV95cUxQN3ItNmRpWHNkaGxIbUVIWnJuOTlYOEp3dGQ2TnY5LWZ6LXhEOF8yOXEtMEpUUDd5NlRLSzh6Y0NsbE1OSmFnNVdRWjNiejZPYnpDTzI3UTFBaHN6QjJ6RXBfUDMtNFdmaHczWDJ1MXBqdEFQMHNPOVJjNHh4bjVSZjZySWdWeXdNem5VcGZIVHN3NjJfbEY2cHVoVi1ROFp2azJyMzJBUk5nQlJlVHF1cXNXaDlqangwOXhxenNuQXJsRWFtQ1FIdQ?oc=5",
+          "publishedAt": "2026-11-13T08:00:00+00:00",
+          "published": "2026-11-13T08:00:00+00:00",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxQN3ItNmRpWHNkaGxIbUVIWnJuOTlYOEp3dGQ2TnY5LWZ6LXhEOF8yOXEtMEpUUDd5NlRLSzh6Y0NsbE1OSmFnNVdRWjNiejZPYnpDTzI3UTFBaHN6QjJ6RXBfUDMtNFdmaHczWDJ1MXBqdEFQMHNPOVJjNHh4bjVSZjZySWdWeXdNem5VcGZIVHN3NjJfbEY2cHVoVi1ROFp2azJyMzJBUk5nQlJlVHF1cXNXaDlqangwOXhxenNuQXJsRWFtQ1FIddIByAFBVV95cUxQN3ItNmRpWHNkaGxIbUVIWnJuOTlYOEp3dGQ2TnY5LWZ6LXhEOF8yOXEtMEpUUDd5NlRLSzh6Y0NsbE1OSmFnNVdRWjNiejZPYnpDTzI3UTFBaHN6QjJ6RXBfUDMtNFdmaHczWDJ1MXBqdEFQMHNPOVJjNHh4bjVSZjZySWdWeXdNem5VcGZIVHN3NjJfbEY2cHVoVi1ROFp2azJyMzJBUk5nQlJlVHF1cXNXaDlqangwOXhxenNuQXJsRWFtQ1FIdQ?oc=5\" target=\"_blank\">Doce denuncias anónimas destaparon una red de venta de drogas: cuatro condenados en el Chañar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MejorInformado.com</font>",
+          "source": "MejorInformado.com",
+          "sourceType": "BUSCADOR / RESPALDO",
+          "sourceUrl": "",
+          "collection": "BUSCADOR",
+          "query": "site:mejorinformado.com \"San Patricio del Chañar\"",
+          "relevance": 3,
+          "relevanceLabel": "DIRECTA",
+          "firstSeen": "2026-11-20T17:57:15.134031+00:00",
+          "isNew": false,
+          "titleKey": "doce denuncias anonimas destaparon red venta drogas cuatro condenados mejorinformado com",
+          "evidenceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQN3ItNmRpWHNkaGxIbUVIWnJuOTlYOEp3dGQ2TnY5LWZ6LXhEOF8yOXEtMEpUUDd5NlRLSzh6Y0NsbE1OSmFnNVdRWjNiejZPYnpDTzI3UTFBaHN6QjJ6RXBfUDMtNFdmaHczWDJ1MXBqdEFQMHNPOVJjNHh4bjVSZjZySWdWeXdNem5VcGZIVHN3NjJfbEY2cHVoVi1ROFp2azJyMzJBUk5nQlJlVHF1cXNXaDlqangwOXhxenNuQXJsRWFtQ1FIddIByAFBVV95cUxQN3ItNmRpWHNkaGxIbUVIWnJuOTlYOEp3dGQ2TnY5LWZ6LXhEOF8yOXEtMEpUUDd5NlRLSzh6Y0NsbE1OSmFnNVdRWjNiejZPYnpDTzI3UTFBaHN6QjJ6RXBfUDMtNFdmaHczWDJ1MXBqdEFQMHNPOVJjNHh4bjVSZjZySWdWeXdNem5VcGZIVHN3NjJfbEY2cHVoVi1ROFp2azJyMzJBUk5nQlJlVHF1cXNXaDlqangwOXhxenNuQXJsRWFtQ1FIdQ?oc=5",
+          "sourcePriority": 3
+        },
+        {
           "title": "Con la rampa promocional arrancará el Rally de San Patricio del Chañar - MejorInformado.com",
           "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQNWlab19aX05paDlMMXlJcGVNM0hZei1Hb3BjcTdHSXptQ2dTUnM0cHJmdTJsNzdwRFVURU0yNUlCWUtpVGlMN1JHUENPd2dMZ1V6LU9jU3dyRHVEcWlXa0IwVmlBcmtVckFIWGZTTVRCY3Fjb21qOWRONEtZaEpLLWFRQ09nX3JvYWxSV1dPcExNLXRheEw0bm5VcHk4czZraXB1NFVJMNIBpwFBVV95cUxQNWlab19aX05paDlMMXlJcGVNM0hZei1Hb3BjcTdHSXptQ2dTUnM0cHJmdTJsNzdwRFVURU0yNUlCWUtpVGlMN1JHUENPd2dMZ1V6LU9jU3dyRHVEcWlXa0IwVmlBcmtVckFIWGZTTVRCY3Fjb21qOWRONEtZaEpLLWFRQ09nX3JvYWxSV1dPcExNLXRheEw0bm5VcHk4czZraXB1NFVJMA?oc=5",
           "publishedAt": "2026-11-15T08:00:00+00:00",
@@ -4257,17 +4298,18 @@
         }
       ],
       "lifecycle": "ACTIVO",
-      "movementDelta": 0,
-      "previousCoverage": 0,
+      "movementDelta": 16,
+      "previousCoverage": 1,
       "newSources": [
         "Diario Río Negro",
         "Patagonia Press",
+        "NoticiasNQN",
         "MejorInformado.com",
         "Vaca Muerta News"
       ],
-      "sourceDiversity": 4,
-      "memoryMatched": false,
-      "isNew": true,
+      "sourceDiversity": 5,
+      "memoryMatched": true,
+      "isNew": false,
       "view": "INCIDENCIA",
       "incidenceEligible": true,
       "signalReason": "reservado a incidencia territorial",
@@ -4466,7 +4508,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "PRODUCCIÓN",
-      "movement": 28,
+      "movement": 27,
       "coverage": 1,
       "sourceCount": 1,
       "directSourceCount": 0,
@@ -4807,7 +4849,7 @@
       "relevance": 3,
       "relevanceLabel": "DIRECTA",
       "firstSeen": "2026-11-21T21:00:28.184578+00:00",
-      "isNew": true,
+      "isNew": false,
       "titleKey": "copa deportivo rincon accedieron semifinales mejorinformado com",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZmFQcGVIMlU3Y1liS3dIVmpIb1RUMjJVTk5reG1nTlhjbnVBWk1qQzN2S3c4TzFPNjI5Q1RzWFNNNXkwajFfUTRpYXVNeFJPMGtZY1ZSSGxTV0ExaTVEclI1b3FzWDF6dU9ZV3Vydjkwd2pVQTZmQ0J6Y1ZMeWh2NU15MmZaS0xOdjJPYVYweFMyVXA3TjRGX1Jiek9RNU1WRGF3V2dSa01ERU5iMmN6bk5ac2NjbEJ3a2o4Wm9sZU7SAcABQVVfeXFMTWZhUHBlSDJVN2NZYkt3SFZqSG9UVDIyVU5Oa3htZ05YY251QVpNakMzdkt3OE8xTzYyOUNUc1hTTTV5MGoxX1E0aWF1TXhSTzBrWWNWUkhsU1dBMWk1RHJSNW9xc1gxenVPWVd1cnY5MHdqVUE2ZkNCemNWTHlodjVNeTJmWktMTnYyT2FWMHhTMlVwN040Rl9SYnpPUTVNVkRhd1dnUmtNREVOYjJjem5OWnNjY2xCd2tqOFpvbGVO?oc=5",
       "sourcePriority": 3
@@ -5288,25 +5330,6 @@
       "sourcePriority": 3
     },
     {
-      "title": "Doce denuncias anónimas destaparon una red de venta de drogas: cuatro condenados en el Chañar - Mejor Informado",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQN3ItNmRpWHNkaGxIbUVIWnJuOTlYOEp3dGQ2TnY5LWZ6LXhEOF8yOXEtMEpUUDd5NlRLSzh6Y0NsbE1OSmFnNVdRWjNiejZPYnpDTzI3UTFBaHN6QjJ6RXBfUDMtNFdmaHczWDJ1MXBqdEFQMHNPOVJjNHh4bjVSZjZySWdWeXdNem5VcGZIVHN3NjJfbEY2cHVoVi1ROFp2azJyMzJBUk5nQlJlVHF1cXNXaDlqangwOXhxenNuQXJsRWFtQ1FIddIByAFBVV95cUxQN3ItNmRpWHNkaGxIbUVIWnJuOTlYOEp3dGQ2TnY5LWZ6LXhEOF8yOXEtMEpUUDd5NlRLSzh6Y0NsbE1OSmFnNVdRWjNiejZPYnpDTzI3UTFBaHN6QjJ6RXBfUDMtNFdmaHczWDJ1MXBqdEFQMHNPOVJjNHh4bjVSZjZySWdWeXdNem5VcGZIVHN3NjJfbEY2cHVoVi1ROFp2azJyMzJBUk5nQlJlVHF1cXNXaDlqangwOXhxenNuQXJsRWFtQ1FIdQ?oc=5",
-      "publishedAt": "2026-11-13T19:19:16+00:00",
-      "published": "2026-11-13T19:19:16+00:00",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxQN3ItNmRpWHNkaGxIbUVIWnJuOTlYOEp3dGQ2TnY5LWZ6LXhEOF8yOXEtMEpUUDd5NlRLSzh6Y0NsbE1OSmFnNVdRWjNiejZPYnpDTzI3UTFBaHN6QjJ6RXBfUDMtNFdmaHczWDJ1MXBqdEFQMHNPOVJjNHh4bjVSZjZySWdWeXdNem5VcGZIVHN3NjJfbEY2cHVoVi1ROFp2azJyMzJBUk5nQlJlVHF1cXNXaDlqangwOXhxenNuQXJsRWFtQ1FIddIByAFBVV95cUxQN3ItNmRpWHNkaGxIbUVIWnJuOTlYOEp3dGQ2TnY5LWZ6LXhEOF8yOXEtMEpUUDd5NlRLSzh6Y0NsbE1OSmFnNVdRWjNiejZPYnpDTzI3UTFBaHN6QjJ6RXBfUDMtNFdmaHczWDJ1MXBqdEFQMHNPOVJjNHh4bjVSZjZySWdWeXdNem5VcGZIVHN3NjJfbEY2cHVoVi1ROFp2azJyMzJBUk5nQlJlVHF1cXNXaDlqangwOXhxenNuQXJsRWFtQ1FIdQ?oc=5\" target=\"_blank\">Doce denuncias anónimas destaparon una red de venta de drogas: cuatro condenados en el Chañar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Mejor Informado</font>",
-      "source": "Mejor Informado",
-      "sourceType": "BUSCADOR / RESPALDO",
-      "sourceUrl": "",
-      "collection": "BUSCADOR",
-      "query": "\"San Patricio del Chañar\" salud hospital",
-      "relevance": 3,
-      "relevanceLabel": "DIRECTA",
-      "firstSeen": "2026-11-20T17:57:15.134031+00:00",
-      "isNew": false,
-      "titleKey": "doce denuncias anonimas destaparon red venta drogas cuatro condenados mejor informado",
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQN3ItNmRpWHNkaGxIbUVIWnJuOTlYOEp3dGQ2TnY5LWZ6LXhEOF8yOXEtMEpUUDd5NlRLSzh6Y0NsbE1OSmFnNVdRWjNiejZPYnpDTzI3UTFBaHN6QjJ6RXBfUDMtNFdmaHczWDJ1MXBqdEFQMHNPOVJjNHh4bjVSZjZySWdWeXdNem5VcGZIVHN3NjJfbEY2cHVoVi1ROFp2azJyMzJBUk5nQlJlVHF1cXNXaDlqangwOXhxenNuQXJsRWFtQ1FIddIByAFBVV95cUxQN3ItNmRpWHNkaGxIbUVIWnJuOTlYOEp3dGQ2TnY5LWZ6LXhEOF8yOXEtMEpUUDd5NlRLSzh6Y0NsbE1OSmFnNVdRWjNiejZPYnpDTzI3UTFBaHN6QjJ6RXBfUDMtNFdmaHczWDJ1MXBqdEFQMHNPOVJjNHh4bjVSZjZySWdWeXdNem5VcGZIVHN3NjJfbEY2cHVoVi1ROFp2azJyMzJBUk5nQlJlVHF1cXNXaDlqangwOXhxenNuQXJsRWFtQ1FIdQ?oc=5",
-      "sourcePriority": 3
-    },
-    {
       "title": "Cuatro condenados por narcomenudeo en El Chañar: uno irá a prisión efectiva y pagarán multas por más de $17 millones - Diario Río Negro",
       "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPUUI4LVNyY3BvYXI3SnZnSWpOR0ItcFhPMmU5ZWxVSmdMdlpVZ3pRZzJtZHJGR3IyVnRkanpZZFVySG44Vm1PWlB1Tm9meXZhREdpZUo3T1VKVDdXeVhNM0hwUmF5LXZjdWtjVGNpdW5zdUZzSkdVZkdpTEJaQmRHLV9HWVFVOXpKVWhLR1BUQUxXb3RDY0JlVEc3aHk1SnJ5WVRpaE1VVUtLNFV1V29FSmZiRlc2NlZneUx3TWdDMzFqQ1NMOHgyYVFIRzZDMG5lSi1KNlRocDAzclBzajE2b3R6a3FBaWdqcHRzdU9TTHpkUdIB-gFBVV95cUxQZENxWU9xSTRLNUd5UGQyQ09tRGpFTU1sMmxhR2RxajBiYWN5d1dNeGxqNzJyalphdkJkcWJEcDhEMTBRejJSS3lKVmh1UjRIb01mRVNsZ0Q2WWUxLUFFRFFUTTlqbHZoZFVUQnZHamtva3FEbVhGMy12dU5kZjNHUzJ4andMWW5MaUlGbzJrMEl3S3VQOFdzaXlrZkFNTTY4UHhTVF9KTUg5dnJRRDIwOVM0VnVsUnBWY0RsNzg2b1hqYXA4NnhPcFRtcVJoMlVsUGMySVNmS21wbGZGZkl3ekwzUDFVblVKNGc1cXpCRFNkcWZuMXMwOVl3?oc=5",
       "publishedAt": "2026-11-13T17:53:53+00:00",
@@ -5364,25 +5387,6 @@
       "sourcePriority": 3
     },
     {
-      "title": "San Patricio del Chañar ya tiene cuartel de bomberos: Phoenix aportó los fondos para terminar la obra - Shale24",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOalVsQzU0N09uMW90alBrYmhISlEzMFJSY0hpdjd2X0tMT2xENVZZNXBJVm85M2VmWm5EMjBFVG4wX2V0SFJQZ1ZhbUJqTHBybjZEdlRvY19ZcEtiV3FsWWI4T0psNFY1UlhFNlNTQ0ZoZS1JMjdlWi1DakR3TEJQbGxOdFNDRVNDcGIwZmVwY0ZuSUtfa1EtTUM4WHJPSjZiTVFwNTh2eU9TMEdIM0kteGtESHgwbEJpOTJr0gHAAUFVX3lxTE8wdkZoTjlpcWNZaXJqWkdHdEZveEczQkJjTUlKUHYzbGQ5TTRNN3lNVXY5Mm00X3RxRHN2d0t0a2tQSkd1OFByWjFVZThpblBSa3k5Z1puczl2Y2xpNzFEVkFCWnpJZWpJNDdNVXV4UTZYSGJqQ0FOdFh4aVM3TGVPdXhlVnVmZnR0TU9Hd0t4YjVGZk4teXJxeThFOG9SbVZEYThTM2N3VDJrV0w3ZDRyZFdUTUo3enlPbnVsVE1INA?oc=5",
-      "publishedAt": "2026-11-13T15:54:00+00:00",
-      "published": "2026-11-13T15:54:00+00:00",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMiuwFBVV95cUxOalVsQzU0N09uMW90alBrYmhISlEzMFJSY0hpdjd2X0tMT2xENVZZNXBJVm85M2VmWm5EMjBFVG4wX2V0SFJQZ1ZhbUJqTHBybjZEdlRvY19ZcEtiV3FsWWI4T0psNFY1UlhFNlNTQ0ZoZS1JMjdlWi1DakR3TEJQbGxOdFNDRVNDcGIwZmVwY0ZuSUtfa1EtTUM4WHJPSjZiTVFwNTh2eU9TMEdIM0kteGtESHgwbEJpOTJr0gHAAUFVX3lxTE8wdkZoTjlpcWNZaXJqWkdHdEZveEczQkJjTUlKUHYzbGQ5TTRNN3lNVXY5Mm00X3RxRHN2d0t0a2tQSkd1OFByWjFVZThpblBSa3k5Z1puczl2Y2xpNzFEVkFCWnpJZWpJNDdNVXV4UTZYSGJqQ0FOdFh4aVM3TGVPdXhlVnVmZnR0TU9Hd0t4YjVGZk4teXJxeThFOG9SbVZEYThTM2N3VDJrV0w3ZDRyZFdUTUo3enlPbnVsVE1INA?oc=5\" target=\"_blank\">San Patricio del Chañar ya tiene cuartel de bomberos: Phoenix aportó los fondos para terminar la obra</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Shale24</font>",
-      "source": "Shale24",
-      "sourceType": "BUSCADOR / RESPALDO",
-      "sourceUrl": "",
-      "collection": "BUSCADOR",
-      "query": "\"San Patricio del Chañar\"",
-      "relevance": 3,
-      "relevanceLabel": "DIRECTA",
-      "firstSeen": "2026-11-20T17:57:15.134031+00:00",
-      "isNew": false,
-      "titleKey": "tiene cuartel bomberos phoenix aporto fondos terminar obra shale24",
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOalVsQzU0N09uMW90alBrYmhISlEzMFJSY0hpdjd2X0tMT2xENVZZNXBJVm85M2VmWm5EMjBFVG4wX2V0SFJQZ1ZhbUJqTHBybjZEdlRvY19ZcEtiV3FsWWI4T0psNFY1UlhFNlNTQ0ZoZS1JMjdlWi1DakR3TEJQbGxOdFNDRVNDcGIwZmVwY0ZuSUtfa1EtTUM4WHJPSjZiTVFwNTh2eU9TMEdIM0kteGtESHgwbEJpOTJr0gHAAUFVX3lxTE8wdkZoTjlpcWNZaXJqWkdHdEZveEczQkJjTUlKUHYzbGQ5TTRNN3lNVXY5Mm00X3RxRHN2d0t0a2tQSkd1OFByWjFVZThpblBSa3k5Z1puczl2Y2xpNzFEVkFCWnpJZWpJNDdNVXV4UTZYSGJqQ0FOdFh4aVM3TGVPdXhlVnVmZnR0TU9Hd0t4YjVGZk4teXJxeThFOG9SbVZEYThTM2N3VDJrV0w3ZDRyZFdUTUo3enlPbnVsVE1INA?oc=5",
-      "sourcePriority": 3
-    },
-    {
       "title": "San Patricio del Chañar inauguró el nuevo cuartel de Bomberos Voluntarios - Cutral Co al Instante",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOa3dySFM2T2JSTkxyYko1SVBYV0h3TVJxSnNDdnFLQ1p2bEdsakVpcndkRVFvdm9NTVdOTkVUYTVUTGdRLUltWC1lZnVjYV9iX2h3ODZ2QWFSMnI0TEpJeUVXSjUzM3VMQlBkVmVlNEJLZDNWcUFvTFN2cWpsTG5URjVDNWdmdEx3Z3FRVGlEMWF3TkV2WG4wNmpvelUwZ2RqdkdCWjUwMFN3bF9sWXFuVWdwSUszTDlDRjJ0SA?oc=5",
       "publishedAt": "2026-11-13T13:03:56+00:00",
@@ -5399,6 +5403,44 @@
       "isNew": false,
       "titleKey": "inauguro nuevo cuartel bomberos voluntarios cutral instante",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOa3dySFM2T2JSTkxyYko1SVBYV0h3TVJxSnNDdnFLQ1p2bEdsakVpcndkRVFvdm9NTVdOTkVUYTVUTGdRLUltWC1lZnVjYV9iX2h3ODZ2QWFSMnI0TEpJeUVXSjUzM3VMQlBkVmVlNEJLZDNWcUFvTFN2cWpsTG5URjVDNWdmdEx3Z3FRVGlEMWF3TkV2WG4wNmpvelUwZ2RqdkdCWjUwMFN3bF9sWXFuVWdwSUszTDlDRjJ0SA?oc=5",
+      "sourcePriority": 3
+    },
+    {
+      "title": "San Patricio del Chañar ya tiene cuartel de bomberos: Phoenix aportó los fondos para terminar la obra - Shale24",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOalVsQzU0N09uMW90alBrYmhISlEzMFJSY0hpdjd2X0tMT2xENVZZNXBJVm85M2VmWm5EMjBFVG4wX2V0SFJQZ1ZhbUJqTHBybjZEdlRvY19ZcEtiV3FsWWI4T0psNFY1UlhFNlNTQ0ZoZS1JMjdlWi1DakR3TEJQbGxOdFNDRVNDcGIwZmVwY0ZuSUtfa1EtTUM4WHJPSjZiTVFwNTh2eU9TMEdIM0kteGtESHgwbEJpOTJr0gHAAUFVX3lxTE8wdkZoTjlpcWNZaXJqWkdHdEZveEczQkJjTUlKUHYzbGQ5TTRNN3lNVXY5Mm00X3RxRHN2d0t0a2tQSkd1OFByWjFVZThpblBSa3k5Z1puczl2Y2xpNzFEVkFCWnpJZWpJNDdNVXV4UTZYSGJqQ0FOdFh4aVM3TGVPdXhlVnVmZnR0TU9Hd0t4YjVGZk4teXJxeThFOG9SbVZEYThTM2N3VDJrV0w3ZDRyZFdUTUo3enlPbnVsVE1INA?oc=5",
+      "publishedAt": "2026-11-13T08:00:00+00:00",
+      "published": "2026-11-13T08:00:00+00:00",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMiuwFBVV95cUxOalVsQzU0N09uMW90alBrYmhISlEzMFJSY0hpdjd2X0tMT2xENVZZNXBJVm85M2VmWm5EMjBFVG4wX2V0SFJQZ1ZhbUJqTHBybjZEdlRvY19ZcEtiV3FsWWI4T0psNFY1UlhFNlNTQ0ZoZS1JMjdlWi1DakR3TEJQbGxOdFNDRVNDcGIwZmVwY0ZuSUtfa1EtTUM4WHJPSjZiTVFwNTh2eU9TMEdIM0kteGtESHgwbEJpOTJr0gHAAUFVX3lxTE8wdkZoTjlpcWNZaXJqWkdHdEZveEczQkJjTUlKUHYzbGQ5TTRNN3lNVXY5Mm00X3RxRHN2d0t0a2tQSkd1OFByWjFVZThpblBSa3k5Z1puczl2Y2xpNzFEVkFCWnpJZWpJNDdNVXV4UTZYSGJqQ0FOdFh4aVM3TGVPdXhlVnVmZnR0TU9Hd0t4YjVGZk4teXJxeThFOG9SbVZEYThTM2N3VDJrV0w3ZDRyZFdUTUo3enlPbnVsVE1INA?oc=5\" target=\"_blank\">San Patricio del Chañar ya tiene cuartel de bomberos: Phoenix aportó los fondos para terminar la obra</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Shale24</font>",
+      "source": "Shale24",
+      "sourceType": "BUSCADOR / RESPALDO",
+      "sourceUrl": "",
+      "collection": "BUSCADOR",
+      "query": "\"San Patricio del Chañar\"",
+      "relevance": 3,
+      "relevanceLabel": "DIRECTA",
+      "firstSeen": "2026-11-20T17:57:15.134031+00:00",
+      "isNew": false,
+      "titleKey": "tiene cuartel bomberos phoenix aporto fondos terminar obra shale24",
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOalVsQzU0N09uMW90alBrYmhISlEzMFJSY0hpdjd2X0tMT2xENVZZNXBJVm85M2VmWm5EMjBFVG4wX2V0SFJQZ1ZhbUJqTHBybjZEdlRvY19ZcEtiV3FsWWI4T0psNFY1UlhFNlNTQ0ZoZS1JMjdlWi1DakR3TEJQbGxOdFNDRVNDcGIwZmVwY0ZuSUtfa1EtTUM4WHJPSjZiTVFwNTh2eU9TMEdIM0kteGtESHgwbEJpOTJr0gHAAUFVX3lxTE8wdkZoTjlpcWNZaXJqWkdHdEZveEczQkJjTUlKUHYzbGQ5TTRNN3lNVXY5Mm00X3RxRHN2d0t0a2tQSkd1OFByWjFVZThpblBSa3k5Z1puczl2Y2xpNzFEVkFCWnpJZWpJNDdNVXV4UTZYSGJqQ0FOdFh4aVM3TGVPdXhlVnVmZnR0TU9Hd0t4YjVGZk4teXJxeThFOG9SbVZEYThTM2N3VDJrV0w3ZDRyZFdUTUo3enlPbnVsVE1INA?oc=5",
+      "sourcePriority": 3
+    },
+    {
+      "title": "Doce denuncias anónimas destaparon una red de venta de drogas: cuatro condenados en el Chañar - MejorInformado.com",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQN3ItNmRpWHNkaGxIbUVIWnJuOTlYOEp3dGQ2TnY5LWZ6LXhEOF8yOXEtMEpUUDd5NlRLSzh6Y0NsbE1OSmFnNVdRWjNiejZPYnpDTzI3UTFBaHN6QjJ6RXBfUDMtNFdmaHczWDJ1MXBqdEFQMHNPOVJjNHh4bjVSZjZySWdWeXdNem5VcGZIVHN3NjJfbEY2cHVoVi1ROFp2azJyMzJBUk5nQlJlVHF1cXNXaDlqangwOXhxenNuQXJsRWFtQ1FIddIByAFBVV95cUxQN3ItNmRpWHNkaGxIbUVIWnJuOTlYOEp3dGQ2TnY5LWZ6LXhEOF8yOXEtMEpUUDd5NlRLSzh6Y0NsbE1OSmFnNVdRWjNiejZPYnpDTzI3UTFBaHN6QjJ6RXBfUDMtNFdmaHczWDJ1MXBqdEFQMHNPOVJjNHh4bjVSZjZySWdWeXdNem5VcGZIVHN3NjJfbEY2cHVoVi1ROFp2azJyMzJBUk5nQlJlVHF1cXNXaDlqangwOXhxenNuQXJsRWFtQ1FIdQ?oc=5",
+      "publishedAt": "2026-11-13T08:00:00+00:00",
+      "published": "2026-11-13T08:00:00+00:00",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxQN3ItNmRpWHNkaGxIbUVIWnJuOTlYOEp3dGQ2TnY5LWZ6LXhEOF8yOXEtMEpUUDd5NlRLSzh6Y0NsbE1OSmFnNVdRWjNiejZPYnpDTzI3UTFBaHN6QjJ6RXBfUDMtNFdmaHczWDJ1MXBqdEFQMHNPOVJjNHh4bjVSZjZySWdWeXdNem5VcGZIVHN3NjJfbEY2cHVoVi1ROFp2azJyMzJBUk5nQlJlVHF1cXNXaDlqangwOXhxenNuQXJsRWFtQ1FIddIByAFBVV95cUxQN3ItNmRpWHNkaGxIbUVIWnJuOTlYOEp3dGQ2TnY5LWZ6LXhEOF8yOXEtMEpUUDd5NlRLSzh6Y0NsbE1OSmFnNVdRWjNiejZPYnpDTzI3UTFBaHN6QjJ6RXBfUDMtNFdmaHczWDJ1MXBqdEFQMHNPOVJjNHh4bjVSZjZySWdWeXdNem5VcGZIVHN3NjJfbEY2cHVoVi1ROFp2azJyMzJBUk5nQlJlVHF1cXNXaDlqangwOXhxenNuQXJsRWFtQ1FIdQ?oc=5\" target=\"_blank\">Doce denuncias anónimas destaparon una red de venta de drogas: cuatro condenados en el Chañar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MejorInformado.com</font>",
+      "source": "MejorInformado.com",
+      "sourceType": "BUSCADOR / RESPALDO",
+      "sourceUrl": "",
+      "collection": "BUSCADOR",
+      "query": "site:mejorinformado.com \"San Patricio del Chañar\"",
+      "relevance": 3,
+      "relevanceLabel": "DIRECTA",
+      "firstSeen": "2026-11-20T17:57:15.134031+00:00",
+      "isNew": false,
+      "titleKey": "doce denuncias anonimas destaparon red venta drogas cuatro condenados mejorinformado com",
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQN3ItNmRpWHNkaGxIbUVIWnJuOTlYOEp3dGQ2TnY5LWZ6LXhEOF8yOXEtMEpUUDd5NlRLSzh6Y0NsbE1OSmFnNVdRWjNiejZPYnpDTzI3UTFBaHN6QjJ6RXBfUDMtNFdmaHczWDJ1MXBqdEFQMHNPOVJjNHh4bjVSZjZySWdWeXdNem5VcGZIVHN3NjJfbEY2cHVoVi1ROFp2azJyMzJBUk5nQlJlVHF1cXNXaDlqangwOXhxenNuQXJsRWFtQ1FIddIByAFBVV95cUxQN3ItNmRpWHNkaGxIbUVIWnJuOTlYOEp3dGQ2TnY5LWZ6LXhEOF8yOXEtMEpUUDd5NlRLSzh6Y0NsbE1OSmFnNVdRWjNiejZPYnpDTzI3UTFBaHN6QjJ6RXBfUDMtNFdmaHczWDJ1MXBqdEFQMHNPOVJjNHh4bjVSZjZySWdWeXdNem5VcGZIVHN3NjJfbEY2cHVoVi1ROFp2azJyMzJBUk5nQlJlVHF1cXNXaDlqangwOXhxenNuQXJsRWFtQ1FIdQ?oc=5",
       "sourcePriority": 3
     },
     {
@@ -5575,7 +5617,7 @@
   ],
   "territorialGraph": {
     "version": "2.0",
-    "generatedAt": "2026-11-21T21:00:39.241974+00:00",
+    "generatedAt": "2026-11-22T01:10:32.938732+00:00",
     "root": "spc",
     "rule": "evidence-first",
     "levels": [
@@ -6141,12 +6183,12 @@
       "CHA-2a584b3bb2cb": [
         "spc"
       ],
-      "CHA-8cc5c45b6b98": [
-        "spc"
-      ],
       "CHA-cfafd4a1a0e5": [
         "spc",
         "bomberos"
+      ],
+      "CHA-8cc5c45b6b98": [
+        "spc"
       ],
       "CHA-04467c42cfdf": [
         "spc"
@@ -6207,16 +6249,16 @@
   },
   "audit": {
     "version": "1.0",
-    "updatedAt": "2026-11-21T21:00:39.281300+00:00",
+    "updatedAt": "2026-11-22T01:10:32.991624+00:00",
     "rule": "fact != coverage; territory requires textual evidence",
     "facts": 12,
-    "coverage": 42,
-    "coveragePerFact": 3.5,
+    "coverage": 52,
+    "coveragePerFact": 4.33,
     "directAnchorFacts": 12,
     "directAnchorPct": 100.0,
     "territorySpecificFacts": 3,
     "territorySpecificPct": 25.0,
-    "averageSourcesPerFact": 2.83,
+    "averageSourcesPerFact": 2.92,
     "activeTerritorialNodes": 4,
     "failedSources": 10,
     "acceptedWithoutLocalEvidence": 1,
