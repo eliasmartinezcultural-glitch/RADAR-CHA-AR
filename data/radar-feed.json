@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T16:59:49.018713+00:00",
+  "updatedAt": "2026-11-22T22:25:00.983797+00:00",
   "window": "14 días",
   "purpose": "Detectar qué se está moviendo en San Patricio del Chañar y mostrar de dónde surge cada señal.",
   "architecture": "contrato universal de procedencia + fuentes profesionales + adaptadores específicos + validación semántica + temporalidad + evidencia editorial separada",
@@ -49,7 +49,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://chanardigital.com.ar/",
-      "lastFetch": "2026-11-22T16:59:32.037328+00:00",
+      "lastFetch": "2026-11-22T22:24:39.276574+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -65,7 +65,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.radiomia.com.ar/",
-      "lastFetch": "2026-11-22T16:59:33.131854+00:00",
+      "lastFetch": "2026-11-22T22:24:40.478555+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -80,7 +80,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://tuitvacamuerta.com/",
-      "lastFetch": "2026-11-22T16:59:34.478219+00:00",
+      "lastFetch": "2026-11-22T22:24:42.400616+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -95,7 +95,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.vacamuertanews.com/",
-      "lastFetch": "2026-11-22T16:59:34.778046+00:00",
+      "lastFetch": "2026-11-22T22:24:43.208765+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -111,7 +111,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.neuqueninforma.gob.ar/",
-      "lastFetch": "2026-11-22T16:59:35.496309+00:00",
+      "lastFetch": "2026-11-22T22:24:44.822663+00:00",
       "success": false,
       "attempted": 3,
       "failures": [
@@ -128,7 +128,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://sanpatricio.gob.ar/",
-      "lastFetch": "2026-11-22T16:59:36.408745+00:00",
+      "lastFetch": "2026-11-22T22:24:45.870098+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -143,7 +143,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://boletinoficial.neuquen.gov.ar/",
-      "lastFetch": "2026-11-22T16:59:37.342500+00:00",
+      "lastFetch": "2026-11-22T22:24:46.686862+00:00",
       "success": false,
       "attempted": 1,
       "failures": [
@@ -158,7 +158,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.lmneuquen.com/",
-      "lastFetch": "2026-11-22T16:59:37.489429+00:00",
+      "lastFetch": "2026-11-22T22:24:46.899950+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -174,7 +174,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.rionegro.com.ar/",
-      "lastFetch": "2026-11-22T16:59:38.650653+00:00",
+      "lastFetch": "2026-11-22T22:24:49.188911+00:00",
       "success": true,
       "attempted": 2,
       "failures": [
@@ -189,7 +189,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.mejorinformado.com/",
-      "lastFetch": "2026-11-22T16:59:38.911479+00:00",
+      "lastFetch": "2026-11-22T22:24:49.853006+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -205,7 +205,7 @@
       "mode": "SIN RESPUESTA",
       "signals": 0,
       "url": "https://www.diariamenteneuquen.com/",
-      "lastFetch": "2026-11-22T16:59:39.486911+00:00",
+      "lastFetch": "2026-11-22T22:24:51.025189+00:00",
       "success": false,
       "attempted": 2,
       "failures": [
@@ -626,11 +626,11 @@
       "group": "REGIONAL",
       "role": "medio regional",
       "url": "https://www.mejorinformado.com/",
-      "signals": 1,
-      "directSignals": 1,
+      "signals": 0,
+      "directSignals": 0,
       "anchoredSignals": 0,
-      "lastSeen": "2026-11-15T17:58:55+00:00",
-      "status": "CON SEÑALES",
+      "lastSeen": null,
+      "status": "SIN SEÑALES EN VENTANA",
       "note": "ausencia de señales no equivale a ausencia del hecho"
     },
     {
@@ -709,13 +709,13 @@
   "languageAudit": [
     {
       "term": "el chañar",
-      "hits": 39,
-      "direct": 39
+      "hits": 38,
+      "direct": 38
     },
     {
       "term": "san patricio del chañar",
-      "hits": 30,
-      "direct": 30
+      "hits": 29,
+      "direct": 29
     },
     {
       "term": "loteo social",
@@ -2090,11 +2090,11 @@
     "interpretation": "auditoría sobre eventos aceptados; la próxima capa debe instrumentar rechazos antes del clustering"
   },
   "stats": {
-    "total": 41,
-    "direct": 41,
+    "total": 40,
+    "direct": 40,
     "regional": 0,
-    "new": 2,
-    "sources": 19,
+    "new": 1,
+    "sources": 17,
     "directSignals": 0,
     "localDirectSignals": 0,
     "radioDirectSignals": 0,
@@ -2108,7 +2108,7 @@
       "forecastGustKmh": 48.0,
       "forecastWindDirection": "SO",
       "forecastTemperatureC": 26.0,
-      "retrievedAt": "2026-11-22T16:59:29.451058+00:00",
+      "retrievedAt": "2026-11-22T22:24:36.993829+00:00",
       "source": "AIC",
       "sourceTier": "primary",
       "sourceUrl": "https://www.aic.gob.ar/sitio/home?a=1015&z=1967225803",
@@ -2138,7 +2138,7 @@
       "currentProgrammedMinM3s": 340,
       "programDate": "2026-11-23",
       "tableDate": "2026-11-22",
-      "retrievedAt": "2026-11-22T16:59:29.451058+00:00",
+      "retrievedAt": "2026-11-22T22:24:36.993829+00:00",
       "source": "AIC",
       "sourceTier": "primary",
       "sourceUrl": "https://www.aic.gob.ar/sitio/caudales",
@@ -2158,17 +2158,17 @@
         "url": "https://www.aic.gob.ar/sitio/caudales"
       }
     ],
-    "updatedAt": "2026-11-22T16:59:29.451058+00:00"
+    "updatedAt": "2026-11-22T22:24:36.993829+00:00"
   },
   "operational": {
-    "updatedAt": "2026-11-22T16:59:29.451058+00:00",
+    "updatedAt": "2026-11-22T22:24:36.993829+00:00",
     "route7": {
       "source": "Dirección Provincial de Vialidad",
       "sourceTier": "primary",
       "sourceUrl": "https://www.dpvneuquen.gov.ar/",
       "semanticState": null,
       "publicationState": "source_reachable_no_current_machine_readable_state",
-      "retrievedAt": "2026-11-22T16:59:29.451058+00:00",
+      "retrievedAt": "2026-11-22T22:24:36.993829+00:00",
       "evidence": {
         "route7Mention": true,
         "route8Mention": false
@@ -2180,7 +2180,7 @@
       "sourceUrl": "https://www.dpvneuquen.gov.ar/",
       "semanticState": null,
       "publicationState": "source_reachable_no_current_machine_readable_state",
-      "retrievedAt": "2026-11-22T16:59:29.451058+00:00",
+      "retrievedAt": "2026-11-22T22:24:36.993829+00:00",
       "evidence": {
         "route7Mention": true,
         "route8Mention": false
@@ -2194,7 +2194,7 @@
       "eventType": null,
       "detail": null,
       "publicationState": "source_reachable_no_specific_local_notice",
-      "retrievedAt": "2026-11-22T16:59:29.451058+00:00"
+      "retrievedAt": "2026-11-22T22:24:36.993829+00:00"
     },
     "water": {
       "source": "EPAS",
@@ -2204,7 +2204,7 @@
       "eventType": null,
       "detail": null,
       "publicationState": "source_reachable_no_specific_local_notice",
-      "retrievedAt": "2026-11-22T16:59:29.451058+00:00"
+      "retrievedAt": "2026-11-22T22:24:36.993829+00:00"
     },
     "sources": [
       {
@@ -2616,7 +2616,7 @@
       "label": "Conversación general",
       "signal": 11,
       "status": "cobertura editorial",
-      "freshnessHours": 21.5,
+      "freshnessHours": 27.0,
       "mode": "evidencia editorial",
       "evidenceCount": 11,
       "sourceContract": {
@@ -2696,7 +2696,7 @@
         "sourceUrl": "https://www.dpvneuquen.gov.ar/",
         "semanticState": null,
         "publicationState": "source_reachable_no_current_machine_readable_state",
-        "retrievedAt": "2026-11-22T16:59:29.451058+00:00",
+        "retrievedAt": "2026-11-22T22:24:36.993829+00:00",
         "evidence": {
           "route7Mention": true,
           "route8Mention": false
@@ -2748,7 +2748,7 @@
         "sourceUrl": "https://www.dpvneuquen.gov.ar/",
         "semanticState": null,
         "publicationState": "source_reachable_no_current_machine_readable_state",
-        "retrievedAt": "2026-11-22T16:59:29.451058+00:00",
+        "retrievedAt": "2026-11-22T22:24:36.993829+00:00",
         "evidence": {
           "route7Mention": true,
           "route8Mention": false
@@ -2848,7 +2848,7 @@
         "eventType": null,
         "detail": null,
         "publicationState": "source_reachable_no_specific_local_notice",
-        "retrievedAt": "2026-11-22T16:59:29.451058+00:00"
+        "retrievedAt": "2026-11-22T22:24:36.993829+00:00"
       }
     },
     {
@@ -2856,7 +2856,7 @@
       "label": "Agua / abastecimiento",
       "signal": 1,
       "status": "evento hídrico",
-      "freshnessHours": 123.3,
+      "freshnessHours": 128.8,
       "mode": "evidencia editorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -2898,7 +2898,7 @@
         "eventType": null,
         "detail": null,
         "publicationState": "source_reachable_no_specific_local_notice",
-        "retrievedAt": "2026-11-22T16:59:29.451058+00:00"
+        "retrievedAt": "2026-11-22T22:24:36.993829+00:00"
       }
     },
     {
@@ -2906,7 +2906,7 @@
       "label": "Servicios e infraestructura",
       "signal": 1,
       "status": "evidencia de servicio",
-      "freshnessHours": 123.3,
+      "freshnessHours": 128.8,
       "mode": "evidencia editorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -2946,7 +2946,7 @@
       "label": "Salud",
       "signal": 1,
       "status": "evidencia sanitaria",
-      "freshnessHours": 42.9,
+      "freshnessHours": 48.3,
       "mode": "evidencia editorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -3026,7 +3026,7 @@
       "label": "Producción rural",
       "signal": 1,
       "status": "evidencia productiva",
-      "freshnessHours": 143.8,
+      "freshnessHours": 149.3,
       "mode": "evidencia editorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -3066,7 +3066,7 @@
       "label": "Seguridad / emergencias",
       "signal": 1,
       "status": "cobertura de emergencia",
-      "freshnessHours": 219.9,
+      "freshnessHours": 225.4,
       "mode": "evidencia editorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -3106,7 +3106,7 @@
       "label": "Territorio / microzonas",
       "signal": 1,
       "status": "hecho territorial",
-      "freshnessHours": 275.0,
+      "freshnessHours": 280.4,
       "mode": "evidencia territorial",
       "evidenceCount": 1,
       "sourceContract": {
@@ -3163,7 +3163,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://chanardigital.com.ar/",
-        "lastFetch": "2026-11-22T16:59:32.037328+00:00",
+        "lastFetch": "2026-11-22T22:24:39.276574+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3179,7 +3179,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.radiomia.com.ar/",
-        "lastFetch": "2026-11-22T16:59:33.131854+00:00",
+        "lastFetch": "2026-11-22T22:24:40.478555+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -3194,7 +3194,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://tuitvacamuerta.com/",
-        "lastFetch": "2026-11-22T16:59:34.478219+00:00",
+        "lastFetch": "2026-11-22T22:24:42.400616+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -3209,7 +3209,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.vacamuertanews.com/",
-        "lastFetch": "2026-11-22T16:59:34.778046+00:00",
+        "lastFetch": "2026-11-22T22:24:43.208765+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3225,7 +3225,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.neuqueninforma.gob.ar/",
-        "lastFetch": "2026-11-22T16:59:35.496309+00:00",
+        "lastFetch": "2026-11-22T22:24:44.822663+00:00",
         "success": false,
         "attempted": 3,
         "failures": [
@@ -3242,7 +3242,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://sanpatricio.gob.ar/",
-        "lastFetch": "2026-11-22T16:59:36.408745+00:00",
+        "lastFetch": "2026-11-22T22:24:45.870098+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -3257,7 +3257,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://boletinoficial.neuquen.gov.ar/",
-        "lastFetch": "2026-11-22T16:59:37.342500+00:00",
+        "lastFetch": "2026-11-22T22:24:46.686862+00:00",
         "success": false,
         "attempted": 1,
         "failures": [
@@ -3272,7 +3272,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.lmneuquen.com/",
-        "lastFetch": "2026-11-22T16:59:37.489429+00:00",
+        "lastFetch": "2026-11-22T22:24:46.899950+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3288,7 +3288,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.rionegro.com.ar/",
-        "lastFetch": "2026-11-22T16:59:38.650653+00:00",
+        "lastFetch": "2026-11-22T22:24:49.188911+00:00",
         "success": true,
         "attempted": 2,
         "failures": [
@@ -3303,7 +3303,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.mejorinformado.com/",
-        "lastFetch": "2026-11-22T16:59:38.911479+00:00",
+        "lastFetch": "2026-11-22T22:24:49.853006+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3319,7 +3319,7 @@
         "mode": "SIN RESPUESTA",
         "signals": 0,
         "url": "https://www.diariamenteneuquen.com/",
-        "lastFetch": "2026-11-22T16:59:39.486911+00:00",
+        "lastFetch": "2026-11-22T22:24:51.025189+00:00",
         "success": false,
         "attempted": 2,
         "failures": [
@@ -3346,7 +3346,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SERVICIOS",
-      "movement": 82,
+      "movement": 81,
       "coverage": 12,
       "sourceCount": 8,
       "directSourceCount": 0,
@@ -3520,11 +3520,10 @@
         }
       ],
       "lifecycle": "ACTIVO",
-      "movementDelta": -3,
+      "movementDelta": -1,
       "previousCoverage": 12,
       "newSources": [
-        "Minuto Neuquén",
-        "Lmneuquen.com"
+        "Chañar Digital"
       ],
       "sourceDiversity": 8,
       "memoryMatched": true,
@@ -3568,7 +3567,7 @@
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SERVICIOS",
       "movement": 60,
-      "coverage": 9,
+      "coverage": 17,
       "sourceCount": 8,
       "directSourceCount": 0,
       "territorialAnchors": [
@@ -3740,13 +3739,16 @@
           "sourcePriority": 3
         }
       ],
-      "lifecycle": "SOSTENIDO",
-      "movementDelta": -5,
+      "lifecycle": "SIN NUEVA COBERTURA",
+      "movementDelta": 0,
       "previousCoverage": 28,
       "newSources": [
         "Oficina Virtual ADUS / IPVU",
         "ANBariloche",
-        "Diario Río Negro"
+        "Diario Río Negro",
+        "NQN3",
+        "Vaca Muerta News",
+        "Diario Neuquino"
       ],
       "sourceDiversity": 8,
       "memoryMatched": true,
@@ -3777,84 +3779,8 @@
             "evidence": "DIRECTA"
           }
         ]
-      }
-    },
-    {
-      "eventId": "CHA-2a584b3bb2cb",
-      "title": "Copa Neuquén: Deportivo Rincón y San Patricio de El Chañar accedieron a semifinales - MejorInformado.com",
-      "publishedAt": "2026-11-21T19:27:41+00:00",
-      "firstSeen": "2026-11-21T21:00:28.184578+00:00",
-      "lastSeen": "2026-11-21T19:27:41+00:00",
-      "relevance": 3,
-      "relevanceLabel": "DIRECTA",
-      "incidenceLabel": "DIRECTA EN CHANAR",
-      "topic": "DEPORTE",
-      "movement": 55,
-      "coverage": 1,
-      "sourceCount": 1,
-      "directSourceCount": 0,
-      "territorialAnchors": [
-        "el chañar"
-      ],
-      "sources": [
-        "MejorInformado.com"
-      ],
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZmFQcGVIMlU3Y1liS3dIVmpIb1RUMjJVTk5reG1nTlhjbnVBWk1qQzN2S3c4TzFPNjI5Q1RzWFNNNXkwajFfUTRpYXVNeFJPMGtZY1ZSSGxTV0ExaTVEclI1b3FzWDF6dU9ZV3Vydjkwd2pVQTZmQ0J6Y1ZMeWh2NU15MmZaS0xOdjJPYVYweFMyVXA3TjRGX1Jiek9RNU1WRGF3V2dSa01ERU5iMmN6bk5ac2NjbEJ3a2o4Wm9sZU7SAcABQVVfeXFMTWZhUHBlSDJVN2NZYkt3SFZqSG9UVDIyVU5Oa3htZ05YY251QVpNakMzdkt3OE8xTzYyOUNUc1hTTTV5MGoxX1E0aWF1TXhSTzBrWWNWUkhsU1dBMWk1RHJSNW9xc1gxenVPWVd1cnY5MHdqVUE2ZkNCemNWTHlodjVNeTJmWktMTnYyT2FWMHhTMlVwN040Rl9SYnpPUTVNVkRhd1dnUmtNREVOYjJjem5OWnNjY2xCd2tqOFpvbGVO?oc=5",
-      "items": [
-        {
-          "title": "Copa Neuquén: Deportivo Rincón y San Patricio de El Chañar accedieron a semifinales - MejorInformado.com",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZmFQcGVIMlU3Y1liS3dIVmpIb1RUMjJVTk5reG1nTlhjbnVBWk1qQzN2S3c4TzFPNjI5Q1RzWFNNNXkwajFfUTRpYXVNeFJPMGtZY1ZSSGxTV0ExaTVEclI1b3FzWDF6dU9ZV3Vydjkwd2pVQTZmQ0J6Y1ZMeWh2NU15MmZaS0xOdjJPYVYweFMyVXA3TjRGX1Jiek9RNU1WRGF3V2dSa01ERU5iMmN6bk5ac2NjbEJ3a2o4Wm9sZU7SAcABQVVfeXFMTWZhUHBlSDJVN2NZYkt3SFZqSG9UVDIyVU5Oa3htZ05YY251QVpNakMzdkt3OE8xTzYyOUNUc1hTTTV5MGoxX1E0aWF1TXhSTzBrWWNWUkhsU1dBMWk1RHJSNW9xc1gxenVPWVd1cnY5MHdqVUE2ZkNCemNWTHlodjVNeTJmWktMTnYyT2FWMHhTMlVwN040Rl9SYnpPUTVNVkRhd1dnUmtNREVOYjJjem5OWnNjY2xCd2tqOFpvbGVO?oc=5",
-          "publishedAt": "2026-11-21T19:27:41+00:00",
-          "published": "2026-11-21T19:27:41+00:00",
-          "description": "<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZmFQcGVIMlU3Y1liS3dIVmpIb1RUMjJVTk5reG1nTlhjbnVBWk1qQzN2S3c4TzFPNjI5Q1RzWFNNNXkwajFfUTRpYXVNeFJPMGtZY1ZSSGxTV0ExaTVEclI1b3FzWDF6dU9ZV3Vydjkwd2pVQTZmQ0J6Y1ZMeWh2NU15MmZaS0xOdjJPYVYweFMyVXA3TjRGX1Jiek9RNU1WRGF3V2dSa01ERU5iMmN6bk5ac2NjbEJ3a2o4Wm9sZU7SAcABQVVfeXFMTWZhUHBlSDJVN2NZYkt3SFZqSG9UVDIyVU5Oa3htZ05YY251QVpNakMzdkt3OE8xTzYyOUNUc1hTTTV5MGoxX1E0aWF1TXhSTzBrWWNWUkhsU1dBMWk1RHJSNW9xc1gxenVPWVd1cnY5MHdqVUE2ZkNCemNWTHlodjVNeTJmWktMTnYyT2FWMHhTMlVwN040Rl9SYnpPUTVNVkRhd1dnUmtNREVOYjJjem5OWnNjY2xCd2tqOFpvbGVO?oc=5\" target=\"_blank\">Copa Neuquén: Deportivo Rincón y San Patricio de El Chañar accedieron a semifinales</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MejorInformado.com</font>",
-          "source": "MejorInformado.com",
-          "sourceType": "BUSCADOR / RESPALDO",
-          "sourceUrl": "",
-          "collection": "BUSCADOR",
-          "query": "\"San Patricio del Chañar\"",
-          "relevance": 3,
-          "relevanceLabel": "DIRECTA",
-          "firstSeen": "2026-11-21T21:00:28.184578+00:00",
-          "isNew": false,
-          "titleKey": "copa deportivo rincon accedieron semifinales mejorinformado com",
-          "evidenceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZmFQcGVIMlU3Y1liS3dIVmpIb1RUMjJVTk5reG1nTlhjbnVBWk1qQzN2S3c4TzFPNjI5Q1RzWFNNNXkwajFfUTRpYXVNeFJPMGtZY1ZSSGxTV0ExaTVEclI1b3FzWDF6dU9ZV3Vydjkwd2pVQTZmQ0J6Y1ZMeWh2NU15MmZaS0xOdjJPYVYweFMyVXA3TjRGX1Jiek9RNU1WRGF3V2dSa01ERU5iMmN6bk5ac2NjbEJ3a2o4Wm9sZU7SAcABQVVfeXFMTWZhUHBlSDJVN2NZYkt3SFZqSG9UVDIyVU5Oa3htZ05YY251QVpNakMzdkt3OE8xTzYyOUNUc1hTTTV5MGoxX1E0aWF1TXhSTzBrWWNWUkhsU1dBMWk1RHJSNW9xc1gxenVPWVd1cnY5MHdqVUE2ZkNCemNWTHlodjVNeTJmWktMTnYyT2FWMHhTMlVwN040Rl9SYnpPUTVNVkRhd1dnUmtNREVOYjJjem5OWnNjY2xCd2tqOFpvbGVO?oc=5",
-          "sourcePriority": 3
-        }
-      ],
-      "lifecycle": "EMERGENTE",
-      "movementDelta": -2,
-      "previousCoverage": 1,
-      "newSources": [],
-      "sourceDiversity": 1,
-      "memoryMatched": true,
-      "isNew": false,
-      "view": "SEÑAL",
-      "incidenceEligible": false,
-      "signalReason": "movimiento informativo / cobertura / diversidad de fuentes",
-      "incidenceReason": null,
-      "territory": {
-        "version": "2.0",
-        "primary": "San Patricio del Chañar",
-        "nodes": [
-          "San Patricio del Chañar"
-        ],
-        "sectors": [],
-        "barrios": [],
-        "microzones": [],
-        "corridors": [],
-        "institutions": [],
-        "services": [],
-        "spaces": [],
-        "production": [],
-        "path": "San Patricio del Chañar",
-        "evidence": [
-          {
-            "node": "San Patricio del Chañar",
-            "level": "localidad",
-            "evidence": "DIRECTA"
-          }
-        ]
-      }
+      },
+      "sourceContinuity": "fuente conocida sin respuesta; no se infiere desaparición"
     },
     {
       "eventId": "CHA-cfafd4a1a0e5",
@@ -4009,6 +3935,83 @@
       }
     },
     {
+      "eventId": "CHA-2a584b3bb2cb",
+      "title": "Copa Neuquén: Deportivo Rincón y San Patricio de El Chañar accedieron a semifinales - MejorInformado.com",
+      "publishedAt": "2026-11-21T19:27:41+00:00",
+      "firstSeen": "2026-11-21T21:00:28.184578+00:00",
+      "lastSeen": "2026-11-21T19:27:41+00:00",
+      "relevance": 3,
+      "relevanceLabel": "DIRECTA",
+      "incidenceLabel": "DIRECTA EN CHANAR",
+      "topic": "DEPORTE",
+      "movement": 54,
+      "coverage": 1,
+      "sourceCount": 1,
+      "directSourceCount": 0,
+      "territorialAnchors": [
+        "el chañar"
+      ],
+      "sources": [
+        "MejorInformado.com"
+      ],
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZmFQcGVIMlU3Y1liS3dIVmpIb1RUMjJVTk5reG1nTlhjbnVBWk1qQzN2S3c4TzFPNjI5Q1RzWFNNNXkwajFfUTRpYXVNeFJPMGtZY1ZSSGxTV0ExaTVEclI1b3FzWDF6dU9ZV3Vydjkwd2pVQTZmQ0J6Y1ZMeWh2NU15MmZaS0xOdjJPYVYweFMyVXA3TjRGX1Jiek9RNU1WRGF3V2dSa01ERU5iMmN6bk5ac2NjbEJ3a2o4Wm9sZU7SAcABQVVfeXFMTWZhUHBlSDJVN2NZYkt3SFZqSG9UVDIyVU5Oa3htZ05YY251QVpNakMzdkt3OE8xTzYyOUNUc1hTTTV5MGoxX1E0aWF1TXhSTzBrWWNWUkhsU1dBMWk1RHJSNW9xc1gxenVPWVd1cnY5MHdqVUE2ZkNCemNWTHlodjVNeTJmWktMTnYyT2FWMHhTMlVwN040Rl9SYnpPUTVNVkRhd1dnUmtNREVOYjJjem5OWnNjY2xCd2tqOFpvbGVO?oc=5",
+      "items": [
+        {
+          "title": "Copa Neuquén: Deportivo Rincón y San Patricio de El Chañar accedieron a semifinales - MejorInformado.com",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZmFQcGVIMlU3Y1liS3dIVmpIb1RUMjJVTk5reG1nTlhjbnVBWk1qQzN2S3c4TzFPNjI5Q1RzWFNNNXkwajFfUTRpYXVNeFJPMGtZY1ZSSGxTV0ExaTVEclI1b3FzWDF6dU9ZV3Vydjkwd2pVQTZmQ0J6Y1ZMeWh2NU15MmZaS0xOdjJPYVYweFMyVXA3TjRGX1Jiek9RNU1WRGF3V2dSa01ERU5iMmN6bk5ac2NjbEJ3a2o4Wm9sZU7SAcABQVVfeXFMTWZhUHBlSDJVN2NZYkt3SFZqSG9UVDIyVU5Oa3htZ05YY251QVpNakMzdkt3OE8xTzYyOUNUc1hTTTV5MGoxX1E0aWF1TXhSTzBrWWNWUkhsU1dBMWk1RHJSNW9xc1gxenVPWVd1cnY5MHdqVUE2ZkNCemNWTHlodjVNeTJmWktMTnYyT2FWMHhTMlVwN040Rl9SYnpPUTVNVkRhd1dnUmtNREVOYjJjem5OWnNjY2xCd2tqOFpvbGVO?oc=5",
+          "publishedAt": "2026-11-21T19:27:41+00:00",
+          "published": "2026-11-21T19:27:41+00:00",
+          "description": "<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZmFQcGVIMlU3Y1liS3dIVmpIb1RUMjJVTk5reG1nTlhjbnVBWk1qQzN2S3c4TzFPNjI5Q1RzWFNNNXkwajFfUTRpYXVNeFJPMGtZY1ZSSGxTV0ExaTVEclI1b3FzWDF6dU9ZV3Vydjkwd2pVQTZmQ0J6Y1ZMeWh2NU15MmZaS0xOdjJPYVYweFMyVXA3TjRGX1Jiek9RNU1WRGF3V2dSa01ERU5iMmN6bk5ac2NjbEJ3a2o4Wm9sZU7SAcABQVVfeXFMTWZhUHBlSDJVN2NZYkt3SFZqSG9UVDIyVU5Oa3htZ05YY251QVpNakMzdkt3OE8xTzYyOUNUc1hTTTV5MGoxX1E0aWF1TXhSTzBrWWNWUkhsU1dBMWk1RHJSNW9xc1gxenVPWVd1cnY5MHdqVUE2ZkNCemNWTHlodjVNeTJmWktMTnYyT2FWMHhTMlVwN040Rl9SYnpPUTVNVkRhd1dnUmtNREVOYjJjem5OWnNjY2xCd2tqOFpvbGVO?oc=5\" target=\"_blank\">Copa Neuquén: Deportivo Rincón y San Patricio de El Chañar accedieron a semifinales</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MejorInformado.com</font>",
+          "source": "MejorInformado.com",
+          "sourceType": "BUSCADOR / RESPALDO",
+          "sourceUrl": "",
+          "collection": "BUSCADOR",
+          "query": "\"San Patricio del Chañar\"",
+          "relevance": 3,
+          "relevanceLabel": "DIRECTA",
+          "firstSeen": "2026-11-21T21:00:28.184578+00:00",
+          "isNew": false,
+          "titleKey": "copa deportivo rincon accedieron semifinales mejorinformado com",
+          "evidenceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZmFQcGVIMlU3Y1liS3dIVmpIb1RUMjJVTk5reG1nTlhjbnVBWk1qQzN2S3c4TzFPNjI5Q1RzWFNNNXkwajFfUTRpYXVNeFJPMGtZY1ZSSGxTV0ExaTVEclI1b3FzWDF6dU9ZV3Vydjkwd2pVQTZmQ0J6Y1ZMeWh2NU15MmZaS0xOdjJPYVYweFMyVXA3TjRGX1Jiek9RNU1WRGF3V2dSa01ERU5iMmN6bk5ac2NjbEJ3a2o4Wm9sZU7SAcABQVVfeXFMTWZhUHBlSDJVN2NZYkt3SFZqSG9UVDIyVU5Oa3htZ05YY251QVpNakMzdkt3OE8xTzYyOUNUc1hTTTV5MGoxX1E0aWF1TXhSTzBrWWNWUkhsU1dBMWk1RHJSNW9xc1gxenVPWVd1cnY5MHdqVUE2ZkNCemNWTHlodjVNeTJmWktMTnYyT2FWMHhTMlVwN040Rl9SYnpPUTVNVkRhd1dnUmtNREVOYjJjem5OWnNjY2xCd2tqOFpvbGVO?oc=5",
+          "sourcePriority": 3
+        }
+      ],
+      "lifecycle": "SOSTENIDO",
+      "movementDelta": -1,
+      "previousCoverage": 1,
+      "newSources": [],
+      "sourceDiversity": 1,
+      "memoryMatched": true,
+      "isNew": false,
+      "view": "SEÑAL",
+      "incidenceEligible": false,
+      "signalReason": "movimiento informativo / cobertura / diversidad de fuentes",
+      "incidenceReason": null,
+      "territory": {
+        "version": "2.0",
+        "primary": "San Patricio del Chañar",
+        "nodes": [
+          "San Patricio del Chañar"
+        ],
+        "sectors": [],
+        "barrios": [],
+        "microzones": [],
+        "corridors": [],
+        "institutions": [],
+        "services": [],
+        "spaces": [],
+        "production": [],
+        "path": "San Patricio del Chañar",
+        "evidence": [
+          {
+            "node": "San Patricio del Chañar",
+            "level": "localidad",
+            "evidence": "DIRECTA"
+          }
+        ]
+      }
+    },
+    {
       "eventId": "CHA-8cc5c45b6b98",
       "title": "Añelo tendrá un nuevo Centro de Salud - Chañar Digital",
       "publishedAt": "2026-11-20T22:08:57+00:00",
@@ -4018,7 +4021,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "SALUD",
-      "movement": 49,
+      "movement": 48,
       "coverage": 1,
       "sourceCount": 1,
       "directSourceCount": 0,
@@ -4051,7 +4054,7 @@
         }
       ],
       "lifecycle": "SOSTENIDO",
-      "movementDelta": -3,
+      "movementDelta": -1,
       "previousCoverage": 1,
       "newSources": [],
       "sourceDiversity": 1,
@@ -4438,7 +4441,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "INSTITUCIONES",
-      "movement": 31,
+      "movement": 29,
       "coverage": 1,
       "sourceCount": 1,
       "directSourceCount": 0,
@@ -4515,7 +4518,7 @@
       "relevanceLabel": "DIRECTA",
       "incidenceLabel": "DIRECTA EN CHANAR",
       "topic": "PRODUCCIÓN",
-      "movement": 22,
+      "movement": 21,
       "coverage": 1,
       "sourceCount": 1,
       "directSourceCount": 0,
@@ -4549,7 +4552,7 @@
         }
       ],
       "lifecycle": "RECIENTE",
-      "movementDelta": -3,
+      "movementDelta": -1,
       "previousCoverage": 1,
       "newSources": [],
       "sourceDiversity": 1,
@@ -5001,25 +5004,6 @@
       "sourcePriority": 3
     },
     {
-      "title": "Ramón Soto confirmó su candidatura a intendente de El Chañar por Primero Neuquén - Minuto Neuquén",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxObjBEb2ZJcS1YbTVIWkFxVFdQa05HcXVlS1JwWWNoTU1JRjB0WjJSeEF6UTRlblBleENxOGtkYmJPZW9aNzF6alhGcXF0MXhVUGFUM0EwUU9aT091Q2pZYXRDRkRSdmhvU1RuWHRxWG05Q240QlBtSEhPc2lnZVRGXzhOYjlldVBidjc2WFNhR0xsd3lYNVZXcVFGYkc3aEw3OE05N1ZVeEtWN0tNRHZzTk9xc2g3VWRXLWpGemRnSktTNjkwX0Jhcllqdzc4WFBfeG1wZkRhZEo?oc=5",
-      "publishedAt": "2026-11-17T15:27:53+00:00",
-      "published": "2026-11-17T15:27:53+00:00",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMi2AFBVV95cUxObjBEb2ZJcS1YbTVIWkFxVFdQa05HcXVlS1JwWWNoTU1JRjB0WjJSeEF6UTRlblBleENxOGtkYmJPZW9aNzF6alhGcXF0MXhVUGFUM0EwUU9aT091Q2pZYXRDRkRSdmhvU1RuWHRxWG05Q240QlBtSEhPc2lnZVRGXzhOYjlldVBidjc2WFNhR0xsd3lYNVZXcVFGYkc3aEw3OE05N1ZVeEtWN0tNRHZzTk9xc2g3VWRXLWpGemRnSktTNjkwX0Jhcllqdzc4WFBfeG1wZkRhZEo?oc=5\" target=\"_blank\">Ramón Soto confirmó su candidatura a intendente de El Chañar por Primero Neuquén</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Minuto Neuquén</font>",
-      "source": "Minuto Neuquén",
-      "sourceType": "BUSCADOR / RESPALDO",
-      "sourceUrl": "",
-      "collection": "BUSCADOR",
-      "query": "\"San Patricio del Chañar\" \"Ruta 7\"",
-      "relevance": 3,
-      "relevanceLabel": "DIRECTA",
-      "firstSeen": "2026-11-22T16:59:49.018713+00:00",
-      "isNew": true,
-      "titleKey": "ramon soto confirmo candidatura intendente primero minuto",
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxObjBEb2ZJcS1YbTVIWkFxVFdQa05HcXVlS1JwWWNoTU1JRjB0WjJSeEF6UTRlblBleENxOGtkYmJPZW9aNzF6alhGcXF0MXhVUGFUM0EwUU9aT091Q2pZYXRDRkRSdmhvU1RuWHRxWG05Q240QlBtSEhPc2lnZVRGXzhOYjlldVBidjc2WFNhR0xsd3lYNVZXcVFGYkc3aEw3OE05N1ZVeEtWN0tNRHZzTk9xc2g3VWRXLWpGemRnSktTNjkwX0Jhcllqdzc4WFBfeG1wZkRhZEo?oc=5",
-      "sourcePriority": 3
-    },
-    {
       "title": "Elecciones 2027: Ramón Soto va por la intendencia de El Chañar, alineado con el plan de Gaido y Figueroa - Lmneuquen.com",
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPSmd1QWh0TU5oRnNuNF9qLTB4dkdGTDNUa2hfeWc5RnREZmxCSXo0UGhXaFZQdDhEOU5EZ1pWZXhfZm1UNmV2d0kwTk0xTVVZd3NIc0lfUGd4TUZNSWNZWERpVXZrRWdqUGdaeTVwTTloMXBmYldhWjBrbFhZN09NUUktMEo3cmszdzQ4c3lSUXBrcExGU2NSZVE2eGtsR0VOcTZuYUJuZ3dDcl9oaWIySVpRVnQtbFVUaExxQjhaSGFwUkptUTd4MVNId9IB0AFBVV95cUxOM1BvenpwSWhOaGZoU0tvRGpHakFuNW5OdHVjVlNtZnlyOHBHVmROS1FSaUxTLUNueDUzd01OZGl6cjQ3Z0dpY3MzUWVjeW5OTkNodkhqUWdnMDQ3Q2YtTFZkVlEwRGpNRDUtdFVCTjNneDh0S3AtYUprZWJhQTh0ZnlIZVVfRFVlRUoyQlgtU3V3MVZyQU03QTVsNzFpbmhaWERLZWYzQi11a1ludlk1OG5VMjNqS1B6UHhDYlRxRE14Smx2VUVuX3J5bnlubnY0?oc=5",
       "publishedAt": "2026-11-17T15:10:00+00:00",
@@ -5036,6 +5020,25 @@
       "isNew": false,
       "titleKey": "elecciones 2027 ramon soto intendencia alineado plan gaido figueroa lmneuquen com",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPSmd1QWh0TU5oRnNuNF9qLTB4dkdGTDNUa2hfeWc5RnREZmxCSXo0UGhXaFZQdDhEOU5EZ1pWZXhfZm1UNmV2d0kwTk0xTVVZd3NIc0lfUGd4TUZNSWNZWERpVXZrRWdqUGdaeTVwTTloMXBmYldhWjBrbFhZN09NUUktMEo3cmszdzQ4c3lSUXBrcExGU2NSZVE2eGtsR0VOcTZuYUJuZ3dDcl9oaWIySVpRVnQtbFVUaExxQjhaSGFwUkptUTd4MVNId9IB0AFBVV95cUxOM1BvenpwSWhOaGZoU0tvRGpHakFuNW5OdHVjVlNtZnlyOHBHVmROS1FSaUxTLUNueDUzd01OZGl6cjQ3Z0dpY3MzUWVjeW5OTkNodkhqUWdnMDQ3Q2YtTFZkVlEwRGpNRDUtdFVCTjNneDh0S3AtYUprZWJhQTh0ZnlIZVVfRFVlRUoyQlgtU3V3MVZyQU03QTVsNzFpbmhaWERLZWYzQi11a1ludlk1OG5VMjNqS1B6UHhDYlRxRE14Smx2VUVuX3J5bnlubnY0?oc=5",
+      "sourcePriority": 3
+    },
+    {
+      "title": "Ramón Soto confirmó su candidatura a intendente de El Chañar por Primero Neuquén - NoticiasNQN",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQeVkwTzdJM0J6em13cml0UGd1OC1fbzZ1TWlyTjFnUV9MTU44a00zdTB2YVFtQWhHaFB4VDZNYzBiM0ljT0dyYk94SjJEdzJEeWM4Rmw4NVVodktUVW5zWjRzSnVubkx1QXpGenNSZ2FvTzNYTHRGMlNZSTRCd1dsM2I4ZUlSUVBRdVVzcnNPTFJld0lTT3djcmtER0dlTTlMQ0dBdGdSVUluSW1EeXZhUExFNm1zZWFQeldENnNDN2NaZ2FWTVlSNGF4c1VuTURyd0hWONIB2gFBVV95cUxPWGNBSUJnWDhjc2JpbXpkMkdXZnlpVTVSWWdqWVZmbU9mSGFoeDY0R25rU0JDOW11dU1Ecks1NTliVDRzX1BnaFlnUmZYUU5fNk9lLV92TU9LQXZZak9UMy1TU3dYQXpFNGsxY3pTX1BxcFJQdFF2N3V5TF9OVEdTT05BOU1OX1daWm9ORXlxaW5GTnY4YURFUHdLdzVPZl9GaHZhSXRZZ0NQZG5kckFTcU5KeVl5WWhRUTVES2dXby1HMXNGU21OMDFvNVhlaWZsVFJOU0JLODVsZw?oc=5",
+      "publishedAt": "2026-11-17T14:19:57+00:00",
+      "published": "2026-11-17T14:19:57+00:00",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMi1AFBVV95cUxQeVkwTzdJM0J6em13cml0UGd1OC1fbzZ1TWlyTjFnUV9MTU44a00zdTB2YVFtQWhHaFB4VDZNYzBiM0ljT0dyYk94SjJEdzJEeWM4Rmw4NVVodktUVW5zWjRzSnVubkx1QXpGenNSZ2FvTzNYTHRGMlNZSTRCd1dsM2I4ZUlSUVBRdVVzcnNPTFJld0lTT3djcmtER0dlTTlMQ0dBdGdSVUluSW1EeXZhUExFNm1zZWFQeldENnNDN2NaZ2FWTVlSNGF4c1VuTURyd0hWONIB2gFBVV95cUxPWGNBSUJnWDhjc2JpbXpkMkdXZnlpVTVSWWdqWVZmbU9mSGFoeDY0R25rU0JDOW11dU1Ecks1NTliVDRzX1BnaFlnUmZYUU5fNk9lLV92TU9LQXZZak9UMy1TU3dYQXpFNGsxY3pTX1BxcFJQdFF2N3V5TF9OVEdTT05BOU1OX1daWm9ORXlxaW5GTnY4YURFUHdLdzVPZl9GaHZhSXRZZ0NQZG5kckFTcU5KeVl5WWhRUTVES2dXby1HMXNGU21OMDFvNVhlaWZsVFJOU0JLODVsZw?oc=5\" target=\"_blank\">Ramón Soto confirmó su candidatura a intendente de El Chañar por Primero Neuquén</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NoticiasNQN</font>",
+      "source": "NoticiasNQN",
+      "sourceType": "BUSCADOR / RESPALDO",
+      "sourceUrl": "",
+      "collection": "BUSCADOR",
+      "query": "\"San Patricio del Chañar\"",
+      "relevance": 3,
+      "relevanceLabel": "DIRECTA",
+      "firstSeen": "2026-11-22T22:25:00.983797+00:00",
+      "isNew": true,
+      "titleKey": "ramon soto confirmo candidatura intendente primero noticiasnqn",
+      "evidenceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQeVkwTzdJM0J6em13cml0UGd1OC1fbzZ1TWlyTjFnUV9MTU44a00zdTB2YVFtQWhHaFB4VDZNYzBiM0ljT0dyYk94SjJEdzJEeWM4Rmw4NVVodktUVW5zWjRzSnVubkx1QXpGenNSZ2FvTzNYTHRGMlNZSTRCd1dsM2I4ZUlSUVBRdVVzcnNPTFJld0lTT3djcmtER0dlTTlMQ0dBdGdSVUluSW1EeXZhUExFNm1zZWFQeldENnNDN2NaZ2FWTVlSNGF4c1VuTURyd0hWONIB2gFBVV95cUxPWGNBSUJnWDhjc2JpbXpkMkdXZnlpVTVSWWdqWVZmbU9mSGFoeDY0R25rU0JDOW11dU1Ecks1NTliVDRzX1BnaFlnUmZYUU5fNk9lLV92TU9LQXZZak9UMy1TU3dYQXpFNGsxY3pTX1BxcFJQdFF2N3V5TF9OVEdTT05BOU1OX1daWm9ORXlxaW5GTnY4YURFUHdLdzVPZl9GaHZhSXRZZ0NQZG5kckFTcU5KeVl5WWhRUTVES2dXby1HMXNGU21OMDFvNVhlaWZsVFJOU0JLODVsZw?oc=5",
       "sourcePriority": 3
     },
     {
@@ -5134,25 +5137,6 @@
       "sourcePriority": 3
     },
     {
-      "title": "LICITACION PUBLICA Nº11/26 - \"RED DE CLOACAS PARA 347 LOTES EN SAN PATRICIO DEL CHAÑAR\" - Oficina Virtual ADUS / IPVU",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1wSVo0YXNfbjV1UFdRVzZDdjh4Vkl4WEhpUUx6Q3BYMURLQlNvVm9xUWhaWW03dDBweDRLV1gtSDJ3TnF1U1Rpd0pDRW8tZWozTi1CWDNsaUd0R0V2MExWOTNQX3NDWlpseFVaLVAyWHY?oc=5",
-      "publishedAt": "2026-11-15T21:30:29+00:00",
-      "published": "2026-11-15T21:30:29+00:00",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTE1wSVo0YXNfbjV1UFdRVzZDdjh4Vkl4WEhpUUx6Q3BYMURLQlNvVm9xUWhaWW03dDBweDRLV1gtSDJ3TnF1U1Rpd0pDRW8tZWozTi1CWDNsaUd0R0V2MExWOTNQX3NDWlpseFVaLVAyWHY?oc=5\" target=\"_blank\">LICITACION PUBLICA Nº11/26 - \"RED DE CLOACAS PARA 347 LOTES EN SAN PATRICIO DEL CHAÑAR\"</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Oficina Virtual ADUS / IPVU</font>",
-      "source": "Oficina Virtual ADUS / IPVU",
-      "sourceType": "BUSCADOR / RESPALDO",
-      "sourceUrl": "",
-      "collection": "BUSCADOR",
-      "query": "\"San Patricio del Chañar\" Neuquén",
-      "relevance": 3,
-      "relevanceLabel": "DIRECTA",
-      "firstSeen": "2026-11-22T16:59:49.018713+00:00",
-      "isNew": true,
-      "titleKey": "licitacion publica red cloacas 347 lotes oficina virtual adus ipvu",
-      "evidenceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1wSVo0YXNfbjV1UFdRVzZDdjh4Vkl4WEhpUUx6Q3BYMURLQlNvVm9xUWhaWW03dDBweDRLV1gtSDJ3TnF1U1Rpd0pDRW8tZWozTi1CWDNsaUd0R0V2MExWOTNQX3NDWlpseFVaLVAyWHY?oc=5",
-      "sourcePriority": 3
-    },
-    {
       "title": "Cuatro condenados por vender drogas en San Patricio del Chañar: uno recibió prisión efectiva - ANBariloche",
       "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPV2RWa1RPYmkzTHZqQjFzTlRVRjREeWNKSTBwRy1WNFN5R1dmZnJTT292a0dvMkd3TDFpdUU0RWtXbWpzYUZPYXFwR0xjc1N5M0JvdkNwbG5tcTRwMzFpbzJiTFZ0SkZ5ZFZQcUgyUUFVTWlBNl9majkxeU1RRFlWRkhRN0hRdF81S0F4d1R0azI3VTRScnZ3cG11MVNQV0dUY1hySk5SM2xYNWFLTXlyMjc2aHFidDk3S25SM1R2eERSSDV5MWQzWFM1VHV5MlJBM2UybkIwSGFLM1h5QjFLTGFQRdIB6AFBVV95cUxNdzAtNnBvcVVfendMd1p2YUlVdlJEcG1rMzN1RURXZU9MeTBvY1BXYXFLVXRfN1RtT0RTQy1xdk9YTEwwMzBnM3ZMb3RERDlPSGFnbzUwcktlZDJoV2dyUXMyV0xMUGp1SnVCSmJ2YmV1TVJ1eWgyZnNnYmRVWWRkREhhNmh6SVNqMmN2Q1kyMEJFVXBiOE0wam9UV19JOEo5RnJ2eTZRLWZKVHRWVVpfYmZNN014UlhleldMQjR2NWxZc1JqRThCeExQUU1PZG9ZMm5SV2RZLUxJbjVTZ2dqd2k2Nmg4bjha?oc=5",
       "publishedAt": "2026-11-15T20:00:47+00:00",
@@ -5172,12 +5156,12 @@
       "sourcePriority": 3
     },
     {
-      "title": "Neuquén licita la red de cloacas para 347 lotes en San Patricio del Chañar: invertirán $1.200 millones - Mejor Informado",
+      "title": "Neuquén licita la red de cloacas para 347 lotes en San Patricio del Chañar: invertirán $1.200 millones - MejorInformado.com",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNQW1PLWo0MUt0N1Q4S0cwbjF3c1k3NWlUVGI5OGxEMUNXVEpzeU9UTElzSXFYN1g5VFNfYXdhNEpqelJrLVNFYTFwSktIclNUM3NKaG5KWlJCTU5GZUhrajV5a0FRd00zVXNTeG1NSmhrQVFGaVpSQldfajNaTi1FbTBweXBjTF92anUxSnBoVDUwRXB0YTlCQTJwUjV5VjlnbFhVU1prb252dlc3dVVmZkZuRGZ4bnljeUJRRWhiNmNhSEI1aTU5WURncFrSAcwBQVVfeXFMTUFtTy1qNDFLdDdUOEtHMG4xd3NZNzVpVFRiOThsRDFDV1RKc3lPVExJc0lxWDdYOVRTX2F3YTRKanpSay1TRWExcEpLSHJTVDNzSmhuSlpSQk1ORmVIa2o1eWtBUXdNM1VzU3htTUpoa0FRRmlaUkJXX2ozWk4tRW0wcHlwY0xfdmp1MUpwaFQ1MEVwdGE5QkEycFI1eVY5Z2xYVVNaa29udnZXN3VVZmZGbkRmeG55Y3lCUUVoYjZjYUhCNWk1OVlEZ3Ba?oc=5",
       "publishedAt": "2026-11-15T17:58:55+00:00",
       "published": "2026-11-15T17:58:55+00:00",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMizAFBVV95cUxNQW1PLWo0MUt0N1Q4S0cwbjF3c1k3NWlUVGI5OGxEMUNXVEpzeU9UTElzSXFYN1g5VFNfYXdhNEpqelJrLVNFYTFwSktIclNUM3NKaG5KWlJCTU5GZUhrajV5a0FRd00zVXNTeG1NSmhrQVFGaVpSQldfajNaTi1FbTBweXBjTF92anUxSnBoVDUwRXB0YTlCQTJwUjV5VjlnbFhVU1prb252dlc3dVVmZkZuRGZ4bnljeUJRRWhiNmNhSEI1aTU5WURncFrSAcwBQVVfeXFMTUFtTy1qNDFLdDdUOEtHMG4xd3NZNzVpVFRiOThsRDFDV1RKc3lPVExJc0lxWDdYOVRTX2F3YTRKanpSay1TRWExcEpLSHJTVDNzSmhuSlpSQk1ORmVIa2o1eWtBUXdNM1VzU3htTUpoa0FRRmlaUkJXX2ozWk4tRW0wcHlwY0xfdmp1MUpwaFQ1MEVwdGE5QkEycFI1eVY5Z2xYVVNaa29udnZXN3VVZmZGbkRmeG55Y3lCUUVoYjZjYUhCNWk1OVlEZ3Ba?oc=5\" target=\"_blank\">Neuquén licita la red de cloacas para 347 lotes en San Patricio del Chañar: invertirán $1.200 millones</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Mejor Informado</font>",
-      "source": "Mejor Informado",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMizAFBVV95cUxNQW1PLWo0MUt0N1Q4S0cwbjF3c1k3NWlUVGI5OGxEMUNXVEpzeU9UTElzSXFYN1g5VFNfYXdhNEpqelJrLVNFYTFwSktIclNUM3NKaG5KWlJCTU5GZUhrajV5a0FRd00zVXNTeG1NSmhrQVFGaVpSQldfajNaTi1FbTBweXBjTF92anUxSnBoVDUwRXB0YTlCQTJwUjV5VjlnbFhVU1prb252dlc3dVVmZkZuRGZ4bnljeUJRRWhiNmNhSEI1aTU5WURncFrSAcwBQVVfeXFMTUFtTy1qNDFLdDdUOEtHMG4xd3NZNzVpVFRiOThsRDFDV1RKc3lPVExJc0lxWDdYOVRTX2F3YTRKanpSay1TRWExcEpLSHJTVDNzSmhuSlpSQk1ORmVIa2o1eWtBUXdNM1VzU3htTUpoa0FRRmlaUkJXX2ozWk4tRW0wcHlwY0xfdmp1MUpwaFQ1MEVwdGE5QkEycFI1eVY5Z2xYVVNaa29udnZXN3VVZmZGbkRmeG55Y3lCUUVoYjZjYUhCNWk1OVlEZ3Ba?oc=5\" target=\"_blank\">Neuquén licita la red de cloacas para 347 lotes en San Patricio del Chañar: invertirán $1.200 millones</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MejorInformado.com</font>",
+      "source": "MejorInformado.com",
       "sourceType": "BUSCADOR / RESPALDO",
       "sourceUrl": "",
       "collection": "BUSCADOR",
@@ -5186,7 +5170,7 @@
       "relevanceLabel": "DIRECTA",
       "firstSeen": "2026-11-20T17:57:15.134031+00:00",
       "isNew": false,
-      "titleKey": "licita red cloacas 347 lotes invertiran 200 millones mejor informado",
+      "titleKey": "licita red cloacas 347 lotes invertiran 200 millones mejorinformado com",
       "evidenceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNQW1PLWo0MUt0N1Q4S0cwbjF3c1k3NWlUVGI5OGxEMUNXVEpzeU9UTElzSXFYN1g5VFNfYXdhNEpqelJrLVNFYTFwSktIclNUM3NKaG5KWlJCTU5GZUhrajV5a0FRd00zVXNTeG1NSmhrQVFGaVpSQldfajNaTi1FbTBweXBjTF92anUxSnBoVDUwRXB0YTlCQTJwUjV5VjlnbFhVU1prb252dlc3dVVmZkZuRGZ4bnljeUJRRWhiNmNhSEI1aTU5WURncFrSAcwBQVVfeXFMTUFtTy1qNDFLdDdUOEtHMG4xd3NZNzVpVFRiOThsRDFDV1RKc3lPVExJc0lxWDdYOVRTX2F3YTRKanpSay1TRWExcEpLSHJTVDNzSmhuSlpSQk1ORmVIa2o1eWtBUXdNM1VzU3htTUpoa0FRRmlaUkJXX2ozWk4tRW0wcHlwY0xfdmp1MUpwaFQ1MEVwdGE5QkEycFI1eVY5Z2xYVVNaa29udnZXN3VVZmZGbkRmeG55Y3lCUUVoYjZjYUhCNWk1OVlEZ3Ba?oc=5",
       "sourcePriority": 3
     },
@@ -5535,7 +5519,7 @@
   ],
   "territorialGraph": {
     "version": "2.0",
-    "generatedAt": "2026-11-22T17:00:00.064942+00:00",
+    "generatedAt": "2026-11-22T22:25:14.137031+00:00",
     "root": "spc",
     "rule": "evidence-first",
     "levels": [
@@ -6091,12 +6075,12 @@
       "CHA-b89d4f1980e6": [
         "spc"
       ],
-      "CHA-2a584b3bb2cb": [
-        "spc"
-      ],
       "CHA-cfafd4a1a0e5": [
         "spc",
         "bomberos"
+      ],
+      "CHA-2a584b3bb2cb": [
+        "spc"
       ],
       "CHA-8cc5c45b6b98": [
         "spc"
@@ -6156,11 +6140,11 @@
   },
   "audit": {
     "version": "1.0",
-    "updatedAt": "2026-11-22T17:00:00.112595+00:00",
+    "updatedAt": "2026-11-22T22:25:14.173452+00:00",
     "rule": "fact != coverage; territory requires textual evidence",
     "facts": 11,
-    "coverage": 42,
-    "coveragePerFact": 3.82,
+    "coverage": 50,
+    "coveragePerFact": 4.55,
     "directAnchorFacts": 11,
     "directAnchorPct": 100.0,
     "territorySpecificFacts": 2,
